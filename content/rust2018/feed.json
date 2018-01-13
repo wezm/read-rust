@@ -1,0 +1,25 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "#Rust2018",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/rust2018/feed.json",
+  "description": "Posts from the Rust 2018 initiative.",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "d10a5406-6fd6-4190-a556-524c3ab47508",
+      "title": "",
+      "content_text": "TODO",
+      "url": "http://aturon.github.io/blog/2018/01/09/rust-2018/"
+    },
+    {
+      "id": "97361737-f912-4dcb-a5c6-1d24581cb1da",
+      "title": "#rust2018 - cross compiling? • r/rust",
+      "content_text": "I don’t have a blog or anything, I just wanted to mention an aspect of rust that could use some love this year - cross compiling. Right now...",
+      "url": "https://www.reddit.com/r/rust/comments/7phh1l/rust2018_cross_compiling/?utm_source=ifttt"
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 title: Rust 2018
 layout: default.liquid
-permalink: /rust2018
 ---
 
 On Jan 3 2018 the Rust blog put out a [call for community blog
@@ -33,20 +32,23 @@ new posts, no matter where they are published.
 
 ### How do I submit a new post?
 
-Posts published to Twitter under the [#Rust2018] hash tag should be
-added automatically. Posts to [/r/rust][rust-reddit] should also get added.
-If a post is missing [create an issue in GitHub][add-post].
+Adding new posts is a manual process. I generally update the feeds once or
+twice a day. If the post is tweeted with the [#Rust2018] hash tag it will be
+picked automatically when I update the feed. If the post is submitted
+[/r/rust][rust-reddit] I should also notice it and include it.
 
-### What do I do with these feeds?
+For all other posts [create an issue in GitHub][add-post].
 
-You subscribe to them in a feed reader. Some options are shown below.
-Personally I use and recommend [Feedbin] + [Reeder]:
+### How do I subscribe?
 
-* [Feedbin] (Web, Thirdparty clients)
-* [Feedly](https://feedly.com/) (Web, Thirdparty clients)
+You subscribe to one of the feeds in a feed reader. Some options are shown
+below. Personally I use and recommend [Feedbin] + [Reeder]:
+
+* [Feedbin] (Web, Third party clients)
+* [Feedly](https://feedly.com/) (Web, Third party clients)
 * [Reeder] (iOS & macOS)
 * [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
-* [selfoss](https://selfoss.aditu.de/) (self-hosted)
+* [selfoss](https://selfoss.aditu.de/) (Self-hosted)
 * [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
 * [NewsBlur](https://www.newsblur.com/) (Web, iOS, Android)
 

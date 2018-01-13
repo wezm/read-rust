@@ -4,5 +4,9 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
-reqwest = "*"
-opengraph = "*"
+reqwest = "0.8.2"
+opengraph = "0.1.5"
+uuid = { version = "0.5.1", features = ['v4', 'serde'] }
+serde = "1.0.27"
+serde_json = "1.0.9"
+serde_derive = "1.0.27"
