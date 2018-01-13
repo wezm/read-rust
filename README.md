@@ -17,11 +17,14 @@ the site can be built with `cobalt build`.
 
 ### Tools
 
-The tools are written in Rust, so `cargo build --release` will build them.
-The tools themselves are:
+The tools are mostly written in Rust, so `cargo build --release` will build
+them. The tools themselves are:
 
-* `add-url` add a new entry to `feed.json`
-* `generate-rss` geneates `feed.rss` from `feed.json`
+* `add-url` add a new entry to `feed.json`.
+* `generate-rss` generates `feed.rss` from `feed.json`.
+* `twitter-rust2018` fetches #Rust2018 tweets using [twurl] and [jq]. `twurl`
+  is a Ruby tool and can be installed by running `bundle install` in the project
+  directory.
 
 ## The Feeds
 
@@ -34,4 +37,5 @@ make manual edits to `feed.rss`.
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 [Cobalt]: http://cobalt-org.github.io/
 [install-cobalt]: http://cobalt-org.github.io/docs/install.html
-
+[twurl]: https://github.com/twitter/twurl
+[jq]: https://stedolan.github.io/jq/

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# TODO: Use a file in the repo to track the last tweet id seen
+ANNOUNCEMENT_TWEET_ID="948598515856486407"
+
+LINKS=$(twurl "/1.1/search/tweets.json?q=%23Rust2018&result_type=recent&since_id=${ANNOUNCEMENT_TWEET_ID}&count=100" | jq '.statuses[].entities.urls[].expanded_url' sort -u)
+
+
