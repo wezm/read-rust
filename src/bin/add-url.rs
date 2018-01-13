@@ -1,98 +1,17 @@
 extern crate reqwest;
 extern crate opengraph;
+extern crate read_rust;
 extern crate uuid;
-#[macro_use]
-extern crate serde_derive;
 
-extern crate serde;
-extern crate serde_json;
-
-use std::io::{self, Read, Write};
 use std::path::Path;
-use std::fs::File;
 
 use reqwest::{RedirectPolicy, Url, StatusCode};
 use reqwest::header::Location;
 
+use read_rust::feed::{Feed, Item};
+use read_rust::error::Error;
+
 use uuid::Uuid;
-
-/*
-{
-    "version": "https://jsonfeed.org/version/1",
-    "title": "#Rust2018",
-    "home_page_url": "https://example.org/",
-    "feed_url": "https://example.org/rust2018.json",
-    "items": [
-        {
-            "id": "2",
-            "content_text": "This is a second item.",
-            "url": "https://example.org/second-item"
-        },
-        {
-            "id": "1",
-            "content_html": "<p>Hello, world!</p>",
-            "url": "https://example.org/initial-post"
-        }
-    ]
-}
-*/
-
-#[derive(Serialize, Deserialize)]
-struct Author {
-    name: String,
-    url: String,
-}
-
-#[derive(Serialize, Deserialize)]
-struct Item {
-    id: Uuid,
-    title: String,
-    content_text: String,
-    url: String,
-    // date_published: Date (Example: 2010-02-07T14:04:00-05:00.)
-    // author: Author,
-}
-
-#[derive(Serialize, Deserialize)]
-struct Feed  {
-    version: String,
-    title: String,
-    home_page_url: String,
-    feed_url: String,
-    description: String,
-    author: Author,
-    items: Vec<Item>,
-}
-
-#[derive(Debug)]
-enum Error {
-    Reqwest(reqwest::Error),
-    Url(reqwest::UrlError),
-    HtmlParseError,
-    JsonParseError(serde_json::Error),
-    Io(io::Error),
-}
-
-impl Feed {
-    fn add_item(&mut self, item: Item) {
-        self.items.insert(0, item);
-    }
-
-    fn load(path: &Path) -> Result<Feed, Error> {
-        let mut buffer = String::new();
-        let mut feed_file = File::open(path).map_err(|err| Error::Io(err))?;
-        feed_file.read_to_string(&mut buffer).map_err(|err| Error::Io(err))?;
-
-        serde_json::from_str(&buffer).map_err(|err| Error::JsonParseError(err))
-    }
-
-    fn save(&self, path: &Path) -> Result<(), Error> {
-        let serialized = serde_json::to_string_pretty(self).unwrap();
-
-        let mut feed_file = File::create(path).map_err(|err| Error::Io(err))?;
-        feed_file.write_all(serialized.as_bytes()).map_err(|err| Error::Io(err))
-    }
-}
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
