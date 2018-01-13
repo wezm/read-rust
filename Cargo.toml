@@ -4,9 +4,11 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
-reqwest = "0.8.2"
+kuchiki = "0.6.0"
 opengraph = "0.1.5"
-uuid = { version = "0.5.1", features = ['v4', 'serde'] }
+reqwest = "0.8.2"
+rss = "1.2.1"
 serde = "1.0.27"
-serde_json = "1.0.9"
 serde_derive = "1.0.27"
+serde_json = "1.0.9"
+uuid = { version = "0.5.1", features = ['v4', 'serde'] }

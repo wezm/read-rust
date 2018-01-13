@@ -1,5 +1,6 @@
 extern crate reqwest;
 use serde_json;
+extern crate rss;
 
 use std::io;
 
@@ -9,6 +10,8 @@ pub enum Error {
     Url(reqwest::UrlError),
     HtmlParseError,
     JsonParseError(serde_json::Error),
+    StringError(String),
+    RssError(rss::Error),
     Io(io::Error),
 }
 
