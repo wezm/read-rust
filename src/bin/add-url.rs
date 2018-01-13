@@ -75,7 +75,7 @@ enum Error {
 
 impl Feed {
     fn add_item(&mut self, item: Item) {
-        self.items.push(item);
+        self.items.insert(0, item);
     }
 
     fn load(path: &Path) -> Result<Feed, Error> {

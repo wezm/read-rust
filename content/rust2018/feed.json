@@ -20,6 +20,12 @@
       "title": "#rust2018 - cross compiling? • r/rust",
       "content_text": "I don’t have a blog or anything, I just wanted to mention an aspect of rust that could use some love this year - cross compiling. Right now...",
       "url": "https://www.reddit.com/r/rust/comments/7phh1l/rust2018_cross_compiling/?utm_source=ifttt"
+    },
+    {
+      "id": "9bd69e19-8890-49e4-a247-89ce6b3598c0",
+      "title": "",
+      "content_text": "TODO",
+      "url": "https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html"
     }
   ]
 }
