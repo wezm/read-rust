@@ -1,0 +1,10 @@
+#!/bin/sh
+
+FEED=content/rust2018/feed.json
+
+echo "Checking for duplicate URLs:"
+jq '.items[].url' < "$FEED" | sort | uniq -d
+
+echo
+echo "Checking for placeholders:"
+rg 'FIXME|null' "$FEED"
