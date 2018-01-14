@@ -10,6 +10,226 @@
   },
   "items": [
     {
+      "id": "2a2b7699-5a1a-4379-8a33-3faf4badd512",
+      "title": "yakshav.es",
+      "content_text": "This is my reply to Rusts call for community blog posts.\n\nI’m known for being quite happy with Rust as is. Indeed, my first post on focusing on stable Rust was more than 2 years ago ;).\n\nAlso, note that I’ve been interested (and practically involved) in the growing and adoption of programming languages since around 2004, which was when I started doing users support for Ruby in Germany.",
+      "url": "http://yakshav.es/rust-2018/",
+      "date_published": "2018-01-12T11:33:54+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://yakshav.es/"
+      }
+    },
+    {
+      "id": "59a502dd-84c7-4ad1-9a78-7d042495a25b",
+      "title": "Rust - My wish list for 2018  · Murali's Blog ",
+      "content_text": "I am excited about Rust after spending a little time with it last year. Here are my thoughts on how it can improve in 2018.",
+      "url": "http://www.mmrath.com/post/rust-my-wish-list-for-2018/",
+      "date_published": "2018-01-06T00:00:00+00:00",
+      "author": {
+        "name": "Murali Mohan Rath",
+        "url": "http://www.mmrath.com/"
+      }
+    },
+    {
+      "id": "79f7ee1c-a798-4241-bc2a-902f8a16c548",
+      "title": "Rust 2018 - machine learning perspective • r/rust",
+      "content_text": "Since we have this January blogging stream, I would like to talk about using Rust for machine learning. First, I would like to point out, that I...",
+      "url": "https://www.reddit.com/r/rust/comments/7p6rpw/rust_2018_machine_learning_perspective/",
+      "date_published": "2018-01-09T12:26:35+00:00",
+      "author": {
+        "name": "osamc",
+        "url": "https://www.reddit.com/user/osamc"
+      }
+    },
+    {
+      "id": "072421d7-7def-43b7-b3f8-441d735cba8c",
+      "title": "Happy New Year 2018",
+      "content_text": "Private web page of Jan Douglas Bert Walter",
+      "url": "https://www.janwalter.org/jekyll/review/2017/2018/01/01/happy-new-year-2018.html",
+      "date_published": "2018-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Jan Walter",
+        "url": "https://www.janwalter.org/"
+      }
+    },
+    {
+      "id": "92c745cd-26fa-41e0-8b1b-a9827873af6e",
+      "title": "Rust 2018",
+      "content_text": "There’s a call for the community to write what they’d like to see in Rust in the following year. So, here it goes. And yes, this is a bit personal, what I would like to see in Rust ‒ I fully respect that others have different needs and that not my every wish need to be granted, because someone else will have a better idea for sure.",
+      "url": "https://vorner.github.io/rust-2018.html",
+      "date_published": "2018-01-08T21:40:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      }
+    },
+    {
+      "id": "afadc638-f50b-42a3-a058-a475109ce9a7",
+      "title": "Rust 2018: maybe don’t be too stable",
+      "content_text": "I initially did not want to write a post with what I want and foresee for Rust in 2018, because I’m already very happy with it! I have spent more than 4 years tinkering with the language, exp…",
+      "url": "https://unhandledexpression.com/2018/01/10/rust-2018-maybe-dont-be-too-stable/",
+      "date_published": "2018-01-10T18:25:14+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      }
+    },
+    {
+      "id": "4a40cb13-61ed-461e-9117-57e3a530ab61",
+      "title": "Snips big wish for #Rust2018: libraries or portability, pick two",
+      "content_text": "Snips engineering team works on shipping vocal assistants to mobile platforms (iOS and android) and a growing diversity of single board…",
+      "url": "https://medium.com/snips-ai/snips-big-wish-for-rust2018-libraries-or-portability-pick-two-814d104586d9",
+      "date_published": "2018-01-09T17:38:31.679+00:00",
+      "author": {
+        "name": "Mathieu Poumeyrol",
+        "url": "https://medium.com/@mathieu.poumeyrol"
+      }
+    },
+    {
+      "id": "9bd09566-0ba0-47a2-9400-a01a0e218e51",
+      "title": "Rust incremental-difficulty tutorial series – Theodore Keloglou – Medium",
+      "content_text": "A response to Rust’s Call for Community Blogposts #Rust2018",
+      "url": "https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7",
+      "date_published": "2018-01-03T23:16:35.588+00:00",
+      "author": {
+        "name": "Theodore Keloglou",
+        "url": "https://medium.com/@sirodoht"
+      }
+    },
+    {
+      "id": "6aea5335-d3b5-4c36-be35-8461d9206149",
+      "title": "Rust and crate of wishes for 2018 – Nabeel Ali Memon – Medium",
+      "content_text": "I appreciate the great community effort being fostered by Mozilla’s Rust team and the cool Rust community outside that have been helpful in…",
+      "url": "https://medium.com/@nimtiazm/rust-and-crate-of-wishes-for-2018-1258f6977d42",
+      "date_published": "2018-01-13T09:14:15.330+00:00",
+      "author": {
+        "name": "Nabeel Ali Memon",
+        "url": "https://medium.com/@nimtiazm"
+      }
+    },
+    {
+      "id": "28b10d91-030e-4828-b02e-4d173b8cfab9",
+      "title": "Rust in 2018 – Black Djikstra – Medium",
+      "content_text": "As a beginner in rust, it has been the gateway to so many interesting concepts.",
+      "url": "https://medium.com/@blackdjikstra/rust-in-2018-d6c0be87cba8",
+      "date_published": "2018-01-12T23:05:58.997+00:00",
+      "author": {
+        "name": "Black Djikstra",
+        "url": "https://medium.com/@blackdjikstra"
+      }
+    },
+    {
+      "id": "914dd414-184a-4d72-adfe-cea12e7a9fe4",
+      "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
+      "content_text": "In the spirit of the current Rust blog post extravaganza, here are my 2¢ on the most important work to make Rust win big",
+      "url": "https://llogiq.github.io/2018/01/09/rust.html",
+      "date_published": "2018-01-09T00:00:00+00:00",
+      "author": {
+        "name": "llogiq",
+        "url": "https://llogiq.github.io/"
+      }
+    },
+    {
+      "id": "0304d95e-71f7-47c8-b415-5d6d2ffb5e85",
+      "title": "Looking in on Rust in 2018",
+      "content_text": "With the call for #Rust2018 blog posts on how this year’s roadmap should look, I figured I’d chime in with a few items. Now, I’m not using Rust in any shape or form in my day-to-day life (though I’d like to!), but I follow along with the community because so many exciting things happen, and I find Rust itself to be a breath of fresh air. In other words, my view is shaped mostly by my role as observer (rather than active participant), and the primary need I want to address is to make it easier to convince coworkers and higher-ups to give Rust a shot.",
+      "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
+      "date_published": "2018-01-07T00:00:00+00:00",
+      "author": {
+        "name": "Kasper Andersen",
+        "url": "https://kasma1990.gitlab.io/"
+      }
+    },
+    {
+      "id": "2c726694-f327-4568-88e5-3b5957cf2cd4",
+      "title": "The balance between cost, useability and soundness in C bindings, and Rust-SDL2's release",
+      "content_text": "Writing C-bindings in Rust is very easy to pick up (at least when you already got the hang of Rust), but unfortunately terribly hard to master: unsafety is a...",
+      "url": "https://cobrand.github.io/rust/sdl2/2017/05/07/the-balance-between-soundness-cost-useability.html",
+      "date_published": "2017-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Cobrand",
+        "url": "https://cobrand.github.io/"
+      }
+    },
+    {
+      "id": "f281d4cb-864b-4afa-98be-67a773a5bbf5",
+      "title": "My desired features for a Rust debugger",
+      "content_text": "Backward stepping Most debuggers provide the following commands: Step into the next function (reaching its beginning-point) Hop over the next function call Jump to the end of the current function R…",
+      "url": "https://carlomilanesi.wordpress.com/2018/01/04/my-desired-features-for-a-rust-debugger/",
+      "date_published": "2018-01-04T02:36:54+00:00",
+      "author": {
+        "name": "Carlo Milanesi",
+        "url": "https://carlomilanesi.wordpress.com/"
+      }
+    },
+    {
+      "id": "547cd24b-800d-406a-8608-62197c4a23f2",
+      "title": "Rust in 2018: feature polish and notes on abstraction",
+      "content_text": "Despite the overwhelming success of the impl period, many of the features tackled are massive undertakings which could not possibly have been polished in suc...",
+      "url": "https://byte.observer/posts/2018/01/12/rust-2018",
+      "date_published": "2018-01-12T04:11:49+00:00",
+      "author": {
+        "name": "Noah Weninger",
+        "url": "https://byte.observer/"
+      }
+    },
+    {
+      "id": "92a3a3bb-1858-49c7-9a91-7750060fdedf",
+      "title": "2017 in Rust",
+      "content_text": "Inspired by the Call for Community Blogposts I want to summarize my experiences and thoughts on Rust in 2017 and what I am excited about for 2018.\nReflecting 2017 2017 was an amazing year for Rust. We got 8 releases of rust itself! We got basic procedural macros allowing custom derive (also known as “macros 1.1”) in the first release last year (1.15.0). This made serde 1.0 possible, if I’m not mistaken?",
+      "url": "https://beyermatthias.de/blog/2018/01/05/2017-in-rust/",
+      "date_published": "2018-01-05T19:00:00+00:00",
+      "author": {
+        "name": "Matthias Beyer",
+        "url": "https://beyermatthias.de/"
+      }
+    },
+    {
+      "id": "fa1c0f13-5a61-40d8-8ac5-0c702578abd8",
+      "title": "What I’d Like To See In Rust",
+      "content_text": "blog post on thoughts for rust 2018",
+      "url": "https://austinstig.github.io/rs2018/post",
+      "date_published": "2018-01-04T15:59:54+00:00",
+      "author": {
+        "name": "austinstig",
+        "url": "https://github.com/austinstig"
+      }
+    },
+    {
+      "id": "75ae624e-fe9b-4705-9bc2-99066deeb214",
+      "title": "Rusting as a student - ",
+      "content_text": "",
+      "url": "http://samuelresendez.me/scribbles/sophomore_rust.html",
+      "date_published": "2018-01-13T04:04:26+00:00",
+      "author": {
+        "name": "samuelresendez",
+        "url": "http://samuelresendez.me/scribbles/"
+      }
+    },
+    {
+      "id": "e769013d-619e-4180-8ca7-3960e1440ea1",
+      "title": "",
+      "content_text": "Rust is already a fast language, but there are still many opportunities to make it the fast language. While many people will rightfully focus on usability, tooling, and community goals for 2018, I will focus on some exciting changes which will make Rust the star of HPC.",
+      "url": "https://adamniederer.com/blog/rust-2018.html",
+      "date_published": "2018-01-12T07:07:37+00:00",
+      "author": {
+        "name": "Adam Niederer",
+        "url": "https://adamniederer.com/blog/blog.html"
+      }
+    },
+    {
+      "id": "cb089afe-f076-4527-bb9a-342be41414e1",
+      "title": "Rust in 2018: it's way easier to use! - Julia Evans",
+      "content_text": "Rust in 2018: it's way easier to use!",
+      "url": "https://jvns.ca/blog/2018/01/13/rust-in-2018--way-easier-to-use/",
+      "date_published": "2018-01-14T06:05:00+00:00",
+      "author": {
+        "name": "Julia Evans",
+        "url": "https://jvns.ca/"
+      }
+    },
+    {
       "id": "8a17aa75-d002-4e09-bfdf-d5d38241950c",
       "title": "rust2018.md",
       "content_text": "First a few words about me. I was and still am a student, and most of my coding is for learning and because it is fun. Also, coding is a great excuse for procrastinating something more important :). Having contributed to open source codebases has helped me determine that I want to do this in a day job once I'm done with my studies.",
@@ -263,17 +483,6 @@
       }
     },
     {
-      "id": "dca52ab9-afd8-42fa-b485-b42e3d82cafd",
-      "title": "Snips big wish for #Rust2018: libraries or portability, pick two",
-      "content_text": "Snips engineering team works on shipping vocal assistants to mobile platforms (iOS and android) and a growing diversity of single board…",
-      "url": "https://medium.com/snips-ai/snips-big-wish-for-rust2018-libraries-or-portability-pick-two-814d104586d9",
-      "date_published": "2018-01-09T17:38:31.679+00:00",
-      "author": {
-        "name": "Mathieu Poumeyrol",
-        "url": "https://medium.com/@mathieu.poumeyrol"
-      }
-    },
-    {
       "id": "fa46df66-4a9e-4500-8d64-270c723b1071",
       "title": "#Rust2018",
       "content_text": "As part of #Rust2018, I thought I would try to writeup my own (current) perspective. I’ll try to keep things brief. First and foremost, I think that this yea...",
@@ -332,7 +541,7 @@
       "id": "87167446-604f-4bda-b1b1-2f13ea712655",
       "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
       "content_text": "A blog about programming and stuff. I'm in love with Rust, so most of my programming related posts are about that language.\n",
-      "url": "http://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
+      "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
       "date_published": "2018-01-07T00:00:00+00:00",
       "author": {
         "name": "Lukas Kalbertodt",

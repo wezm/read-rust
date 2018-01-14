@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+FEED=content/rust2018/feed.json
+LIST=$1
+
+if [ -z "$LIST" ]; then
+  echo "Usage: compare list-of-links.json"
+  exit 1
+fi
+
+comm -13 <(jq '.items[].url' "$FEED" | sort) <(jq '.[]' "$LIST" | sort -u)
