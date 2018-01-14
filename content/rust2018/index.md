@@ -7,9 +7,16 @@ posts][call-for-posts] that reflected on 2017 and proposed goals and
 directions for Rust in 2018. Responses have flooded in across Twitter, Reddit,
 and elsewhere.
 
-Here you will find feeds that you can subscribe to in order to keep up with
-new posts, no matter where they are published.
+Here you will find the current list of posts and feeds that you can subscribe
+to in order to keep up with new posts, no matter where they are published.
 
+<nav>
+  * [Subscribe](#subscribe)
+  * [The Posts](#posts)
+  * [FAQ](#faq)
+</nav>
+
+<a name="subscribe"></a>
 ## Subscribe
 
 <div class="subscribe">
@@ -28,6 +35,16 @@ new posts, no matter where they are published.
   </div>
 </div>
 
+<a name="posts"></a>
+## Posts
+
+<ul>
+{% for post in site.data.rust.posts.items %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+{% endfor %}
+</ul>
+
+<a name="faq"></a>
 ## FAQ
 
 ### How do I submit a new post?
