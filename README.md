@@ -28,7 +28,7 @@ them. The tools themselves are:
 
 ## The Feeds
 
-Two feeds are published: `feed.json` and `feed.rss`. `feed.json` is a [JSON
+Two feeds are published: [feed.json] and [feed.rss]. `feed.json` is a [JSON
 Feed] and is the canonical feed. `feed.rss` is derived from `feed.json`. Don't
 make manual edits to `feed.rss`.
 
@@ -39,3 +39,6 @@ make manual edits to `feed.rss`.
 [install-cobalt]: http://cobalt-org.github.io/docs/install.html
 [twurl]: https://github.com/twitter/twurl
 [jq]: https://stedolan.github.io/jq/
+[feed.json]: http://readrust.net/rust2018/feed.json
+[feed.rss]: http://readrust.net/rust2018/feed.rss
+[JSON Feed]: https://jsonfeed.org/
