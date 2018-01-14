@@ -2,8 +2,8 @@ title: Rust 2018
 layout: default.liquid
 ---
 
-On Jan 3 2018 the Rust blog put out a [call for community blog
-posts][call-for-posts] in January that reflected on 2017 and proposed goals and
+On 3 Jan 2018 the Rust blog put out a [call for community blog
+posts][call-for-posts] that reflected on 2017 and proposed goals and
 directions for Rust in 2018. Responses have flooded in across Twitter, Reddit,
 and elsewhere.
 
@@ -16,14 +16,14 @@ new posts, no matter where they are published.
   <div class="feedicon">
     <a href="/rust2018/feed.json">
       <img src="/images/jsonfeed.png" />
-      JSON Feed
+      #Rust2018 JSON Feed
     </a>
   </div>
 
   <div class="feedicon">
     <a href="/rust2018/feed.rss">
       <img src="/images/feed-icon.svg" />
-      RSS Feed
+      #Rust2018 RSS Feed
     </a>
   </div>
 </div>
@@ -34,15 +34,15 @@ new posts, no matter where they are published.
 
 Adding new posts is a manual process. I generally update the feeds once or
 twice a day. If the post is tweeted with the [#Rust2018] hash tag it will be
-picked automatically when I update the feed. If the post is submitted
-[/r/rust][rust-reddit] I should also notice it and include it.
+picked up automatically when I update the feed. If the post is submitted to
+[/r/rust][rust-reddit] on Reddit I should also notice it and include it.
 
-For all other posts [create an issue in GitHub][add-post].
+For all other posts [create an issue on GitHub][add-post].
 
 ### How do I subscribe?
 
-You subscribe to one of the feeds in a feed reader. Some options are shown
-below. Personally I use and recommend [Feedbin] + [Reeder]:
+Subscribe to one of the feeds in a feed reader. Some options are shown
+below. I&nbsp;use and recommend [Feedbin] + [Reeder]:
 
 * [Feedbin] (Web, Third party clients)
 * [Feedly](https://feedly.com/) (Web, Third party clients)
@@ -50,13 +50,13 @@ below. Personally I use and recommend [Feedbin] + [Reeder]:
 * [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
 * [selfoss](https://selfoss.aditu.de/) (Self-hosted)
 * [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
-* [NewsBlur](https://www.newsblur.com/) (Web, iOS, Android)
+* [NewsBlur](https://www.newsblur.com/) (Web, iOS & Android)
 
 ### What is JSON Feed?
 
 A format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and
 <a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in JSON. For more
-details visit the [JSON Feed website][json-feed-website].
+details visit the [JSON&nbsp;Feed website][json-feed-website].
 
 [Feedbin]: https://feedbin.com/
 [Reeder]: http://reederapp.com/
