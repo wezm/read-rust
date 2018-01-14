@@ -52,9 +52,16 @@ below. Personally I use and recommend [Feedbin] + [Reeder]:
 * [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
 * [NewsBlur](https://www.newsblur.com/) (Web, iOS, Android)
 
+### What is JSON Feed?
+
+A format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and
+<a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in JSON. For more
+details visit the [JSON Feed website][json-feed-website].
+
 [Feedbin]: https://feedbin.com/
 [Reeder]: http://reederapp.com/
 [add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
 [#Rust2018]: https://twitter.com/search?f=tweets&vertical=default&q=%23Rust2018
 [call-for-posts]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 [rust-reddit]: https://www.reddit.com/r/rust/
+[json-feed-website]: https://jsonfeed.org/
