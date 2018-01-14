@@ -8,3 +8,7 @@ jq '.items[].url' < "$FEED" | sort | uniq -d
 echo
 echo "Checking for placeholders:"
 rg 'FIXME|null' "$FEED"
+
+echo
+echo "Checking for empty strings:"
+rg '"\s*"' "$FEED"

@@ -199,7 +199,7 @@
     {
       "id": "75ae624e-fe9b-4705-9bc2-99066deeb214",
       "title": "Rusting as a student - ",
-      "content_text": "",
+      "content_text": "At the request of the Rust team, the community was tasked with writing blog posts talking about the future and history of rust as it would pertain to improving the language in 2018. I thought I'd take the opportunity to finally begin writing, since it seems like blogging is all the rage nowadays.",
       "url": "http://samuelresendez.me/scribbles/sophomore_rust.html",
       "date_published": "2018-01-13T04:04:26+00:00",
       "author": {
@@ -209,7 +209,7 @@
     },
     {
       "id": "e769013d-619e-4180-8ca7-3960e1440ea1",
-      "title": "",
+      "title": "Fast Rust in 2018",
       "content_text": "Rust is already a fast language, but there are still many opportunities to make it the fast language. While many people will rightfully focus on usability, tooling, and community goals for 2018, I will focus on some exciting changes which will make Rust the star of HPC.",
       "url": "https://adamniederer.com/blog/rust-2018.html",
       "date_published": "2018-01-12T07:07:37+00:00",
