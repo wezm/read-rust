@@ -116,13 +116,12 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
     let description = match ogobj.description {
         Some(desc) => desc,
         None => {
-            let meta_desc = doc.select_first("meta[name='description']")
-                .map_err(|_err| Error::StringError("Document has no description".to_owned()))?;
-
-            let attrs = meta_desc.attributes.borrow();
-            attrs.get("content")
-                .ok_or_else(|| Error::StringError("meta description has no content attribute".to_owned()))?
-                .to_owned()
+            doc.select_first("meta[name='description']").ok()
+            .and_then(|link| {
+                let attrs = link.attributes.borrow();
+                attrs.get("content").map(|content| content.to_owned())
+            })
+            .unwrap_or_else(|| "FIXME".to_owned())
         },
     };
 
@@ -155,8 +154,6 @@ fn run() -> Result<(), Error> {
         };
 
         feed.add_item(item);
-
-        // Extract author as well?
     }
 
     feed.save(&feed_path)
