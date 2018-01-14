@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
+chrono = { version = "0.4.0", features = ['serde'] }
 kuchiki = "0.6.0"
 opengraph = "0.1.5"
 reqwest = "0.8.2"

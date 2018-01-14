@@ -3,17 +3,19 @@ extern crate opengraph;
 extern crate read_rust;
 extern crate uuid;
 extern crate kuchiki;
+extern crate chrono;
 
 use std::path::Path;
 
 use reqwest::{RedirectPolicy, Url, StatusCode};
 use reqwest::header::Location;
 
-use read_rust::feed::{Feed, Item};
+use read_rust::feed::{Feed, Item, Author};
 use read_rust::error::Error;
 
 use uuid::Uuid;
 use kuchiki::traits::TendrilSink;
+use chrono::{DateTime, FixedOffset};
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -44,6 +46,58 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
 struct PostInfo {
     title: String,
     description: String,
+    author: Author,
+    published_at: Option<DateTime<FixedOffset>>,
+}
+
+fn extract_author(doc: &kuchiki::NodeRef) -> Author {
+    // Author from meta tag and link
+    let author_url = doc.select_first("link[rel='author']").ok()
+        .and_then(|link| {
+            let attrs = link.attributes.borrow();
+            attrs.get("href").map(|href| href.to_owned())
+        });
+
+    let author_name = doc.select_first("meta[name='author']").ok()
+        .and_then(|link| {
+            let attrs = link.attributes.borrow();
+            attrs.get("content").map(|content| content.to_owned())
+        })
+        .or_else(|| {
+            doc.select_first("meta[property='author']").ok()
+            .and_then(|link| {
+                let attrs = link.attributes.borrow();
+                attrs.get("content").map(|content| content.to_owned())
+            })
+        })
+        .or_else(|| {
+            doc.select_first("meta[property='article:author']").ok()
+            .and_then(|link| {
+                let attrs = link.attributes.borrow();
+                attrs.get("content").map(|content| content.to_owned())
+            })
+        });
+
+    Author {
+        name: author_name.unwrap_or_else(|| "FIXME".to_owned()),
+        url: author_url.unwrap_or_else(|| "FIXME".to_owned()),
+    }
+}
+
+fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffset>> {
+    doc.select_first("meta[property='article:published_time']").ok()
+        .and_then(|link| {
+            let attrs = link.attributes.borrow();
+            attrs.get("content").map(|content| content.to_owned())
+        })
+        .or_else(|| {
+            doc.select_first("article time").ok()
+            .and_then(|time| {
+                let attrs = time.attributes.borrow();
+                attrs.get("datetime").map(|content| content.to_owned())
+            })
+        })
+        .and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
 }
 
 fn post_info(html: &str) -> Result<PostInfo, Error> {
@@ -72,7 +126,10 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
         },
     };
 
-    Ok(PostInfo { title, description })
+    let author = extract_author(&doc);
+    let published_at = extract_publication_date(&doc);
+
+    Ok(PostInfo { title, description, author, published_at })
 }
 
 fn run() -> Result<(), Error> {
@@ -93,8 +150,8 @@ fn run() -> Result<(), Error> {
             title: post_info.title,
             url: canonical_url.to_string(),
             content_text: post_info.description,
-            // date_published: Date (Example: 2010-02-07T14:04:00-05:00.)
-            // author: Author,
+            date_published: post_info.published_at,
+            author: post_info.author,
         };
 
         feed.add_item(item);

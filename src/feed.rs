@@ -1,11 +1,13 @@
 extern crate reqwest;
+extern crate chrono;
 
-use std::io::{self, Read, Write};
+use std::io::{Read, Write};
 use std::path::Path;
 use std::fs::File;
 
 use uuid::Uuid;
 use serde_json;
+use self::chrono::{DateTime, FixedOffset};
 
 use error::Error;
 
@@ -21,8 +23,8 @@ pub struct Item {
     pub title: String,
     pub content_text: String,
     pub url: String,
-    // date_published: Date (Example: 2010-02-07T14:04:00-05:00.)
-    // author: Author,
+    pub date_published: Option<DateTime<FixedOffset>>, // (Example: 2010-02-07T14:04:00-05:00.)
+    pub author: Author,
 }
 
 #[derive(Serialize, Deserialize)]

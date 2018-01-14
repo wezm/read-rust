@@ -20,11 +20,18 @@ fn run(json_feed_path: &Path, rss_feed_path: &Path) -> Result<(), Error> {
             .build()
             .expect("error building Guid");
 
+        let dc_extension = rss::extension::dublincore::DublinCoreExtensionBuilder::default()
+            .creators(vec![item.author.name.clone()])
+            .build()
+            .expect("error building DublinCoreExtension");
+
         ItemBuilder::default()
             .guid(Some(guid))
             .title(item.title.clone())
             .link(item.url.clone())
             .description(item.content_text.clone())
+            .pub_date(item.date_published.map(|date| date.to_rfc2822()))
+            .dublin_core_ext(dc_extension)
             .build()
             .expect("error building Item")
     }).collect();
