@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "8a17aa75-d002-4e09-bfdf-d5d38241950c",
+      "title": "rust2018.md",
+      "content_text": "First a few words about me. I was and still am a student, and most of my coding is for learning and because it is fun. Also, coding is a great excuse for procrastinating something more important :). Having contributed to open source codebases has helped me determine that I want to do this in a day job once I'm done with my studies.",
+      "url": "https://gist.github.com/est31/c063704716b6880fd74ce2ba11b11298",
+      "date_published": "2018-01-08T02:42:14+00:00",
+      "author": {
+        "name": "est31",
+        "url": "https://github.com/est31"
+      }
+    },
+    {
       "id": "1cc61fb9-22bb-476d-b133-c1c38d2e9f64",
       "title": "Goals and Directions for Rust in 2018 - WezM.net by Wesley Moore",
       "content_text": "Reflecting on Rust in 2017 and what might be worth focussing on in 2018.",
