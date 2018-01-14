@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "1cc61fb9-22bb-476d-b133-c1c38d2e9f64",
+      "title": "Goals and Directions for Rust in 2018 - WezM.net by Wesley Moore",
+      "content_text": "Reflecting on Rust in 2017 and what might be worth focussing on in 2018.",
+      "url": "http://www.wezm.net/technical/2018/01/goals-directions-rust-2018/",
+      "date_published": "2018-01-07T13:07:00+11:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      }
+    },
+    {
       "id": "438424a8-c55f-49c7-9860-683e805bc36e",
       "title": "#Rust2018 goals for 2018 • r/rust",
       "content_text": "My 2 cents: Totally agree with people who say we need an \"impl year\", but also I would love to see wasm become a first class platform. I think...",
