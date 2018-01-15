@@ -14,6 +14,7 @@ to in order to keep up with new posts, no matter where they are published.
   * [Subscribe](#subscribe)
   * [The Posts](#posts)
   * [FAQ](#faq)
+  * [Credits](#credits)
 </nav>
 
 <a name="subscribe"></a>
@@ -75,6 +76,13 @@ A format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and
 <a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in JSON. For more
 details visit the [JSON&nbsp;Feed website][json-feed-website].
 
+<a name="credits"></a>
+## Credits
+
+* JSON Feed Icon: <https://jsonfeed.org/version/1>
+* RSS Icon: <http://www.feedicons.com/>
+* favicon: “[Book][favicon]” by Mike Rowe, from [the Noun Project]
+
 [Feedbin]: https://feedbin.com/
 [Reeder]: http://reederapp.com/
 [add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
@@ -82,3 +90,5 @@ details visit the [JSON&nbsp;Feed website][json-feed-website].
 [call-for-posts]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 [rust-reddit]: https://www.reddit.com/r/rust/
 [json-feed-website]: https://jsonfeed.org/
+[favicon]: https://thenounproject.com/term/book/17900
+[the Noun Project]: http://thenounproject.com/
