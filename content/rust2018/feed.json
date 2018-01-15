@@ -99,7 +99,7 @@
     },
     {
       "id": "2a2b7699-5a1a-4379-8a33-3faf4badd512",
-      "title": "yakshav.es",
+      "title": "2018: The year we learn Rust 1.0",
       "content_text": "This is my reply to Rusts call for community blog posts.\n\nI’m known for being quite happy with Rust as is. Indeed, my first post on focusing on stable Rust was more than 2 years ago ;).\n\nAlso, note that I’ve been interested (and practically involved) in the growing and adoption of programming languages since around 2004, which was when I started doing users support for Ruby in Germany.",
       "url": "http://yakshav.es/rust-2018/",
       "date_published": "2018-01-12T11:33:54+00:00",
