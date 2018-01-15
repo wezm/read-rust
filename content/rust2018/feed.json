@@ -10,6 +10,61 @@
   },
   "items": [
     {
+      "id": "3936cf7f-ef74-4203-9302-bcce349e9ca5",
+      "title": "A Year with Rust Game Dev",
+      "content_text": "Never Slow Down.",
+      "url": "http://druerridge.com/?p=536",
+      "date_published": "2018-01-14T00:00:00+00:00",
+      "author": {
+        "name": "Dru Erridge",
+        "url": "http://druerridge.com/"
+      }
+    },
+    {
+      "id": "c7becfa2-4e61-490a-838c-7b207956e21f",
+      "title": "Rust MMXVIII, but, like, from a casual perspective – Yoshua Wuyts – Medium",
+      "content_text": "*ring ring*",
+      "url": "https://medium.com/@yoshuawuyts/rust-mmxviii-but-like-from-my-perspective-6363f485ab2b",
+      "date_published": "2018-01-14T14:46:43.092+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://medium.com/@yoshuawuyts"
+      }
+    },
+    {
+      "id": "e7a79828-6bc7-4b09-ac5a-4be76f4a18d4",
+      "title": "My Rust hopes for 2018 • r/rust",
+      "content_text": "There are plenty of exciting language features which should land in 2018, I'd love to see further reductions in compile times, and there are a lot...",
+      "url": "https://www.reddit.com/r/rust/comments/7qd725/my_rust_hopes_for_2018/",
+      "date_published": "2018-01-14T17:32:16+00:00",
+      "author": {
+        "name": "theotherphil",
+        "url": "https://www.reddit.com/user/theotherphil"
+      }
+    },
+    {
+      "id": "87cb487b-6922-4675-b3d9-9a6767bb5a1c",
+      "title": "Rust in 2018 – Dirkjan Ochtman",
+      "content_text": "In a call for blog posts, the Rust community team asked community members to write up their vision for what the Rust community should focus on this year. I've wanted to contribute my thoughts and have been thinking about what to write ever since. I've been able to benefit from the many people who already posted their thoughts to sharpen my own thinking. I came up with 5 categories:",
+      "url": "https://dirkjan.ochtman.nl/writing/2018/01/14/rust-in-2018.html",
+      "date_published": "2018-01-14T00:00:00+01:00",
+      "author": {
+        "name": "Dirkjan Ochtman",
+        "url": "https://dirkjan.ochtman.nl/writing"
+      }
+    },
+    {
+      "id": "4bf00d31-d65c-43fc-b95a-5caa3df0ac4b",
+      "title": "Rust2018 – Doug Tangren – Medium",
+      "content_text": "Rust, in no small way, has captured quite a bit of my imagination in the last 4 and a half years. The language and community has a lot of…",
+      "url": "https://medium.com/@softprops/rust2018-75393b4a086f",
+      "date_published": "2018-01-14T22:07:16.240+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      }
+    },
+    {
       "id": "f3f500d5-d108-4f83-808e-e15ad520cce7",
       "title": "Embedded Rust in 2018",
       "content_text": "I recently picked up an embedded project that I hadn't touched for a few months, so I could add some new features. I was disappointed to not...",
