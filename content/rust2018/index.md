@@ -40,8 +40,8 @@ to in order to keep up with new posts, no matter where they are published.
 ## Posts
 
 <ul>
-{% for post in site.data.rust.posts.items %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+{% for post in site.data.rust.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author_name }}</li>
 {% endfor %}
 </ul>
 

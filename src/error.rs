@@ -9,7 +9,7 @@ pub enum Error {
     Reqwest(reqwest::Error),
     Url(reqwest::UrlError),
     HtmlParseError,
-    JsonParseError(serde_json::Error),
+    JsonError(serde_json::Error),
     StringError(String),
     RssError(rss::Error),
     Io(io::Error),

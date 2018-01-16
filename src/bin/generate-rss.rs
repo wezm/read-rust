@@ -1,5 +1,8 @@
 extern crate read_rust;
 extern crate rss;
+#[macro_use]
+extern crate serde_derive;
+extern crate serde_json;
 
 use std::env;
 use std::fs::File;
@@ -10,9 +13,16 @@ use rss::{ChannelBuilder, ItemBuilder, GuidBuilder};
 use read_rust::feed::{Feed};
 use read_rust::error::Error;
 
-fn run(json_feed_path: &Path, rss_feed_path: &Path) -> Result<(), Error> {
-    let feed = Feed::load(json_feed_path)?;
+const ARG_COUNT: usize = 3;
 
+#[derive(Serialize)]
+struct Post<'a> {
+    title: &'a str,
+    url: &'a str,
+    author_name: &'a str,
+}
+
+fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
     let items: Vec<_> = feed.items.iter().map(|item| {
         let guid = GuidBuilder::default()
             .value(item.id.to_string())
@@ -30,16 +40,16 @@ fn run(json_feed_path: &Path, rss_feed_path: &Path) -> Result<(), Error> {
             .title(item.title.clone())
             .link(item.url.clone())
             .description(item.content_text.clone())
-            .pub_date(item.date_published.map(|date| date.to_rfc2822()))
+            .pub_date(item.date_published.to_rfc2822())
             .dublin_core_ext(dc_extension)
             .build()
             .expect("error building Item")
     }).collect();
 
     let channel = ChannelBuilder::default()
-        .title(feed.title)
-        .link(feed.home_page_url)
-        .description(feed.description)
+        .title(feed.title.clone())
+        .link(feed.home_page_url.clone())
+        .description(feed.description.clone())
         .items(items)
         .build()
         .map_err(|err| Error::StringError(err))?;
@@ -51,13 +61,35 @@ fn run(json_feed_path: &Path, rss_feed_path: &Path) -> Result<(), Error> {
     }
 }
 
-fn main() {
-    let args = env::args().skip(1).take(2).collect::<Vec<_>>();
+fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
+    let mut sorted_items = feed.items.clone();
+    sorted_items.sort_unstable_by(|a, b| b.date_published.cmp(&a.date_published));
 
-    if args.len() != 2 {
-        println!("Usage: generate-rss feed.json feed.rss");
+    let posts: Vec<Post> = sorted_items.iter().map(|item| Post {
+        title: &item.title,
+        url: &item.url,
+        author_name: &item.author.name,
+    }).collect();
+
+    let file = File::create(site_data_path).map_err(|err| Error::Io(err))?;
+    serde_json::to_writer_pretty(file, &posts).map_err(|err| Error::JsonError(err))
+}
+
+fn run(json_feed_path: &str, rss_feed_path: &str, site_data_path: &str) -> Result<(), Error> {
+    let feed = Feed::load(&Path::new(json_feed_path))?;
+
+    generate_rss(&feed, rss_feed_path)
+        .and_then(|()| generate_site_data(&feed, site_data_path))
+
+}
+
+fn main() {
+    let args = env::args().skip(1).take(ARG_COUNT).collect::<Vec<_>>();
+
+    if args.len() != ARG_COUNT {
+        println!("Usage: generate-rss feed.json feed.rss site-data/feeds.json");
         std::process::exit(1);
     }
 
-    run(&Path::new(&args[0]), &Path::new(&args[1])).expect("error!");
+    run(&args[0], &args[1], &args[2]).expect("error!");
 }

@@ -11,19 +11,19 @@ use self::chrono::{DateTime, FixedOffset};
 
 use error::Error;
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct Author {
     pub name: String,
     pub url: String,
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct Item {
     pub id: Uuid,
     pub title: String,
     pub content_text: String,
     pub url: String,
-    pub date_published: Option<DateTime<FixedOffset>>, // (Example: 2010-02-07T14:04:00-05:00.)
+    pub date_published: DateTime<FixedOffset>, // (Example: 2010-02-07T14:04:00-05:00.)
     pub author: Author,
 }
 
@@ -48,7 +48,7 @@ impl Feed {
         let mut feed_file = File::open(path).map_err(|err| Error::Io(err))?;
         feed_file.read_to_string(&mut buffer).map_err(|err| Error::Io(err))?;
 
-        serde_json::from_str(&buffer).map_err(|err| Error::JsonParseError(err))
+        serde_json::from_str(&buffer).map_err(|err| Error::JsonError(err))
     }
 
     pub fn save(&self, path: &Path) -> Result<(), Error> {

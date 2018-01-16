@@ -1,6 +1,5 @@
 build:
-	cargo run --bin generate-rss content/rust2018/feed.json content/rust2018/feed.rss
-	cp content/rust2018/feed.json content/_data/rust/posts.json
+	cargo run --bin generate-rss content/rust2018/feed.json content/rust2018/feed.rss content/_data/rust/posts.json
 	cobalt build
 
 deploy: build

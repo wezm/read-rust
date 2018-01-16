@@ -15,7 +15,7 @@ use read_rust::error::Error;
 
 use uuid::Uuid;
 use kuchiki::traits::TendrilSink;
-use chrono::{DateTime, FixedOffset};
+use chrono::{DateTime, FixedOffset, TimeZone};
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -149,7 +149,7 @@ fn run() -> Result<(), Error> {
             title: post_info.title,
             url: canonical_url.to_string(),
             content_text: post_info.description,
-            date_published: post_info.published_at,
+            date_published: post_info.published_at.unwrap_or_else(|| FixedOffset::east(0).ymd(1970, 1, 1).and_hms(0, 0, 0)),
             author: post_info.author,
         };
 

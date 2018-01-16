@@ -1,0 +1,367 @@
+[
+  {
+    "title": "Rust in 2018: Let’s fix where the bullet holes aren’t",
+    "url": "https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53",
+    "author_name": "Chris Evans"
+  },
+  {
+    "title": "Rust 2018 - Sergey Potapov",
+    "url": "http://greyblake.com/blog/2018/01/16/rust-2018/",
+    "author_name": "Sergey Potapov"
+  },
+  {
+    "title": "#Rust2018 - Exploring New Contribution and Feedback Models",
+    "url": "http://yehudakatz.com/2018/01/15/rust-2018/",
+    "author_name": "Yehuda Katz"
+  },
+  {
+    "title": "Rust2018 – Doug Tangren – Medium",
+    "url": "https://medium.com/@softprops/rust2018-75393b4a086f",
+    "author_name": "Doug Tangren"
+  },
+  {
+    "title": "My Rust hopes for 2018 • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7qd725/my_rust_hopes_for_2018/",
+    "author_name": "theotherphil"
+  },
+  {
+    "title": "Rust MMXVIII, but, like, from a casual perspective – Yoshua Wuyts – Medium",
+    "url": "https://medium.com/@yoshuawuyts/rust-mmxviii-but-like-from-my-perspective-6363f485ab2b",
+    "author_name": "Yoshua Wuyts"
+  },
+  {
+    "title": "Most desired from Rust in 2018",
+    "url": "https://blog.mist.global/articles/Most_desired_from_Rust_in_2018.html",
+    "author_name": "Mihails Strasuns"
+  },
+  {
+    "title": "Rust in 2018: it's way easier to use! - Julia Evans",
+    "url": "https://jvns.ca/blog/2018/01/13/rust-in-2018--way-easier-to-use/",
+    "author_name": "Julia Evans"
+  },
+  {
+    "title": "#Rust2018: A Neon Wish List",
+    "url": "http://calculist.org/blog/2018/01/13/rust-2018-a-neon-wish-list/",
+    "author_name": "David Herman"
+  },
+  {
+    "title": "Embedded Rust in 2018",
+    "url": "http://railwayelectronics.blogspot.com.au/2018/01/i-recently-picked-up-embedded-project.html",
+    "author_name": "theJPster"
+  },
+  {
+    "title": "A Year with Rust Game Dev",
+    "url": "http://druerridge.com/?p=536",
+    "author_name": "Dru Erridge"
+  },
+  {
+    "title": "A libz blitz retrospective",
+    "url": "https://gist.github.com/KodrAus/953e8182e81d8d9147cd32822748665f#a-libz-blitz-retrospective",
+    "author_name": "Ashley Mannix"
+  },
+  {
+    "title": "Rust in 2018 – Dirkjan Ochtman",
+    "url": "https://dirkjan.ochtman.nl/writing/2018/01/14/rust-in-2018.html",
+    "author_name": "Dirkjan Ochtman"
+  },
+  {
+    "title": "#Rust2018 FtW (For the Web) • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7q53d6/rust2018_ftw_for_the_web/",
+    "author_name": "tuxmanexe"
+  },
+  {
+    "title": "Rust and crate of wishes for 2018 – Nabeel Ali Memon – Medium",
+    "url": "https://medium.com/@nimtiazm/rust-and-crate-of-wishes-for-2018-1258f6977d42",
+    "author_name": "Nabeel Ali Memon"
+  },
+  {
+    "title": "Rusting as a student - ",
+    "url": "http://samuelresendez.me/scribbles/sophomore_rust.html",
+    "author_name": "samuelresendez"
+  },
+  {
+    "title": "Rust in 2018 – Black Djikstra – Medium",
+    "url": "https://medium.com/@blackdjikstra/rust-in-2018-d6c0be87cba8",
+    "author_name": "Black Djikstra"
+  },
+  {
+    "title": "Pollen Robotics call for #Rust2018: toward stability on embedded systems",
+    "url": "https://medium.com/pollenrobotics/rust-for-robotics-and-embedded-systems-in-2018-96e9be8464",
+    "author_name": "Pierre Rouanet"
+  },
+  {
+    "title": "2018: The year we learn Rust 1.0",
+    "url": "http://yakshav.es/rust-2018/",
+    "author_name": "Florian Gilcher"
+  },
+  {
+    "title": "Fast Rust in 2018",
+    "url": "https://adamniederer.com/blog/rust-2018.html",
+    "author_name": "Adam Niederer"
+  },
+  {
+    "title": "Rust in 2018: feature polish and notes on abstraction",
+    "url": "https://byte.observer/posts/2018/01/12/rust-2018",
+    "author_name": "Noah Weninger"
+  },
+  {
+    "title": "Next for Rust",
+    "url": "http://gilescope.ninja/rust/2018/01/11/Next-for_Rust.html",
+    "author_name": "gilescope"
+  },
+  {
+    "title": "Rust In 2018",
+    "url": "https://gsquire.github.io/static/post/rust-in-2018/",
+    "author_name": "Garrett Squire"
+  },
+  {
+    "title": "#Rust2018",
+    "url": "https://hsivonen.fi/rust2018/",
+    "author_name": "Henri Sivonen"
+  },
+  {
+    "title": "Refutable Let and Rust in 2018",
+    "url": "https://dev.to/cad97/refutable-let-and-rust-in-2018-4l3k",
+    "author_name": "Christopher Durham"
+  },
+  {
+    "title": "Rust 2018: maybe don’t be too stable",
+    "url": "https://unhandledexpression.com/2018/01/10/rust-2018-maybe-dont-be-too-stable/",
+    "author_name": "Geoffroy Couprie"
+  },
+  {
+    "title": "#rust2018 - cross compiling? • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7phh1l/rust2018_cross_compiling/",
+    "author_name": "lurebat"
+  },
+  {
+    "title": "Branchless #Rust2018",
+    "url": "https://bluejekyll.github.io/blog/rust/2018/01/10/branchless-rust.html",
+    "author_name": "Benjamin Fry"
+  },
+  {
+    "title": "Talking about how we talk about Rust in 2018",
+    "url": "http://www.jonathanturner.org/2018/01/how-we-talk-about-rust-in-2018.html",
+    "author_name": "Jonathan Turner"
+  },
+  {
+    "title": "#Rust2018 — Aimlessly Going Forward",
+    "url": "https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/",
+    "author_name": "Tomas Sedovic"
+  },
+  {
+    "title": "Rust in 2018 - In Pursuit of Laziness",
+    "url": "https://manishearth.github.io/blog/2018/01/10/rust-in-2018/",
+    "author_name": "Manish Goregaokar"
+  },
+  {
+    "title": "Rust 2018",
+    "url": "https://deterministic.space/rust-2018.html",
+    "author_name": "Pascal Hertleif"
+  },
+  {
+    "title": "Snips big wish for #Rust2018: libraries or portability, pick two",
+    "url": "https://medium.com/snips-ai/snips-big-wish-for-rust2018-libraries-or-portability-pick-two-814d104586d9",
+    "author_name": "Mathieu Poumeyrol"
+  },
+  {
+    "title": "Rust 2018 - machine learning perspective • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7p6rpw/rust_2018_machine_learning_perspective/",
+    "author_name": "osamc"
+  },
+  {
+    "title": "Rust2018: back to the roots • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7p6n90/rust2018_back_to_the_roots/",
+    "author_name": "0b_0101_001_1010"
+  },
+  {
+    "title": "Rust in 2018: a people perspective · Aaron Turon",
+    "url": "http://aturon.github.io/blog/2018/01/09/rust-2018/",
+    "author_name": "Aaron Turon"
+  },
+  {
+    "title": "Rust2018 Wishpost: Better Debug derive • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7p4imw/rust2018_wishpost_better_debug_derive/",
+    "author_name": "Lokathor"
+  },
+  {
+    "title": "#Rust2018 : Don’t be the new Haskell – Hacker Noon",
+    "url": "https://hackernoon.com/rust-2018-dont-be-the-new-haskell-a383dbd74481",
+    "author_name": "Tibo Delor"
+  },
+  {
+    "title": "My Goals for Rust in 2018",
+    "url": "https://boats.gitlab.io/blog/post/2018-01-08-goals-for-rust/",
+    "author_name": "withoutboats"
+  },
+  {
+    "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
+    "url": "https://matthias-endler.de/2018/rust-2018/",
+    "author_name": "Matthias Endler"
+  },
+  {
+    "title": "Why Rust? A Two Year Retrospective",
+    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
+    "author_name": "Preston Carpenter"
+  },
+  {
+    "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
+    "url": "https://llogiq.github.io/2018/01/09/rust.html",
+    "author_name": "llogiq"
+  },
+  {
+    "title": "Looking back at Rust in 2018 • Steve Klabnik",
+    "url": "http://words.steveklabnik.com/looking-back-at-rust-in-2018",
+    "author_name": "Steve Klabnik"
+  },
+  {
+    "title": "#Rust2018",
+    "url": "http://smallcultfollowing.com/babysteps/blog/2018/01/09/rust2018/",
+    "author_name": "Niko Matsakis"
+  },
+  {
+    "title": "Rust 2018",
+    "url": "https://vorner.github.io/rust-2018.html",
+    "author_name": "Michal 'vorner' Vaner"
+  },
+  {
+    "title": "Adding Superheroes to the Rust Brazilian Community – Mozilla Brasil",
+    "url": "https://mozillabr.org/2018/01/adding-superheroes-to-the-rust-brazilian-community/",
+    "author_name": "Geraldo Barros"
+  },
+  {
+    "title": "#Rust2018 goals for 2018 • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7oyj9j/rust2018_goals_for_2018/",
+    "author_name": "richhyd"
+  },
+  {
+    "title": "Rust 2018: Use Relentless Positivity",
+    "url": "http://always-learning.timmcnamara.co.nz/2018/01/08/rust-2018/",
+    "author_name": "Tim McNamara"
+  },
+  {
+    "title": "rust2018.md",
+    "url": "https://gist.github.com/est31/c063704716b6880fd74ce2ba11b11298",
+    "author_name": "est31"
+  },
+  {
+    "title": "A traveller's journey into Rust 2017, 2018",
+    "url": "https://blog.x5ff.xyz/blog/a-journey-into-rust-2018/",
+    "author_name": "Claus"
+  },
+  {
+    "title": "Rust and the web in 2018 – Rasmus.krats.se",
+    "url": "https://rasmus.krats.se/2018/rustweb.en",
+    "author_name": "Rasmus Kaj"
+  },
+  {
+    "title": "Rust 2018",
+    "url": "https://www.ncameron.org/blog/rust-2018/",
+    "author_name": "Nick Cameron"
+  },
+  {
+    "title": "Rust 2018 - Suspect Semantics",
+    "url": "http://www.suspectsemantics.com/blog/2018/01/07/rust-2018/",
+    "author_name": "Andrew Brinker"
+  },
+  {
+    "title": "#Rust2018 blog post",
+    "url": "https://gist.github.com/cessen/394829673855e56157f63b4447f91e67",
+    "author_name": "Nathan Vegdahl"
+  },
+  {
+    "title": "Goals and Directions for Rust in 2018 - WezM.net by Wesley Moore",
+    "url": "http://www.wezm.net/technical/2018/01/goals-directions-rust-2018/",
+    "author_name": "Wesley Moore"
+  },
+  {
+    "title": "Looking in on Rust in 2018",
+    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
+    "author_name": "Kasper Andersen"
+  },
+  {
+    "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
+    "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
+    "author_name": "Lukas Kalbertodt"
+  },
+  {
+    "title": "Rust in 2018",
+    "url": "http://blog.kylehuey.com/post/169445545152/rust-in-2018",
+    "author_name": "Kyle Huey"
+  },
+  {
+    "title": "the new wave of rust | quiet misdreavus miniblog",
+    "url": "https://quietmisdreavus.net/code/2018/01/07/the-new-wave-of-rust/",
+    "author_name": "QuietMisdreavus"
+  },
+  {
+    "title": "Rust 2018 · Matthew Mayer's tech blog",
+    "url": "https://matthewkmayer.github.io/blag/public/post/rust-2018/",
+    "author_name": "Matthew Mayer"
+  },
+  {
+    "title": "Improving how we improve Rust in 2018",
+    "url": "http://www.jonathanturner.org/2018/01/rust2018-and-data.html",
+    "author_name": "Jonathan Turner"
+  },
+  {
+    "title": "Rust, Looking Forward in 2018",
+    "url": "http://blog.troutwine.us/2018/01/06/rust-looking-forward-in-2018/",
+    "author_name": "Brian L. Troutwine"
+  },
+  {
+    "title": "Rust - My wish list for 2018  · Murali's Blog ",
+    "url": "http://www.mmrath.com/post/rust-my-wish-list-for-2018/",
+    "author_name": "Murali Mohan Rath"
+  },
+  {
+    "title": "2017 in Rust",
+    "url": "https://beyermatthias.de/blog/2018/01/05/2017-in-rust/",
+    "author_name": "Matthias Beyer"
+  },
+  {
+    "title": "More Rust in 2018",
+    "url": "http://integer32.com/2018/01/05/more-rust-in-2018.html",
+    "author_name": "Carol Nichols"
+  },
+  {
+    "title": "Rustに何が欲しいだろう | κeenのHappy Hacκing Blog",
+    "url": "https://keens.github.io/blog/2018/01/05/rustninanigahoshiidarou/",
+    "author_name": "κeen"
+  },
+  {
+    "title": "What I’d Like To See In Rust",
+    "url": "https://austinstig.github.io/rs2018/post",
+    "author_name": "austinstig"
+  },
+  {
+    "title": "My desired features for a Rust debugger",
+    "url": "https://carlomilanesi.wordpress.com/2018/01/04/my-desired-features-for-a-rust-debugger/",
+    "author_name": "Carlo Milanesi"
+  },
+  {
+    "title": "My journey with Rust in 2017 — The good, the bad, the weird",
+    "url": "https://codeburst.io/my-journey-with-rust-in-2017-the-good-the-bad-the-weird-f07aa918f4f8",
+    "author_name": "Felix Schütt"
+  },
+  {
+    "title": "Rust incremental-difficulty tutorial series – Theodore Keloglou – Medium",
+    "url": "https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7",
+    "author_name": "Theodore Keloglou"
+  },
+  {
+    "title": "New Year's Rust: A Call for Community Blogposts - The Rust Programming Language Blog",
+    "url": "https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html",
+    "author_name": "Rust Blog"
+  },
+  {
+    "title": "Happy New Year 2018",
+    "url": "https://www.janwalter.org/jekyll/review/2017/2018/01/01/happy-new-year-2018.html",
+    "author_name": "Jan Walter"
+  },
+  {
+    "title": "The balance between cost, useability and soundness in C bindings, and Rust-SDL2's release",
+    "url": "https://cobrand.github.io/rust/sdl2/2017/05/07/the-balance-between-soundness-cost-useability.html",
+    "author_name": "Cobrand"
+  }
+]
