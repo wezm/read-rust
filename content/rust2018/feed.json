@@ -10,6 +10,39 @@
   },
   "items": [
     {
+      "id": "11b9b0c3-6cde-450a-91b8-41e4bfc0a514",
+      "title": "Rust 2018 - Sergey Potapov",
+      "content_text": "With this post, I would like to give my feedback to the rust community in the\nscope of A Call for Community Blogposts. This article is structured in …",
+      "url": "http://greyblake.com/blog/2018/01/16/rust-2018/",
+      "date_published": "2018-01-16T00:08:00+01:00",
+      "author": {
+        "name": "Sergey Potapov",
+        "url": "http://greyblake.com/"
+      }
+    },
+    {
+      "id": "5fdd7918-2122-4ff3-875c-0facf2bcd1f1",
+      "title": "#Rust2018 - Exploring New Contribution and Feedback Models",
+      "content_text": "Since I'm coming pretty late to the #Rust2018 party, most of the things I wanted to say have already been said! Ashley's kick-off post was kind of a meta-#Rust2018 for me, calling for us to experiment with new ways to get community feedback in Rust. I personally really enjoyed",
+      "url": "http://yehudakatz.com/2018/01/15/rust-2018/",
+      "date_published": "2018-01-15T20:40:51+00:00",
+      "author": {
+        "name": "Yehuda Katz",
+        "url": "http://www.yehudakatz.com/"
+      }
+    },
+    {
+      "id": "40d80139-ee61-4eb1-9a66-eb3fba32430f",
+      "title": "Rust in 2018: Let’s fix where the bullet holes aren’t",
+      "content_text": "Although I’m a rust beginner, I’ve thoroughly enjoyed reading all the Rust 2018 blogposts lately. And as a systems engineer who leans…",
+      "url": "https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53",
+      "date_published": "2018-01-16T05:49:36.867+00:00",
+      "author": {
+        "name": "Chris Evans",
+        "url": "https://medium.com/@cevans3326"
+      }
+    },
+    {
       "id": "3936cf7f-ef74-4203-9302-bcce349e9ca5",
       "title": "A Year with Rust Game Dev",
       "content_text": "Never Slow Down.",
