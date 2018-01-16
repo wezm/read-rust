@@ -10,6 +10,28 @@
   },
   "items": [
     {
+      "id": "9b240369-ee8e-4d0d-8914-92bbb0145411",
+      "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
+      "content_text": "At Fortanix, we are big proponents of deterministic security.  Designing in security from the get-go by using secure programming principles is a big part of that.",
+      "url": "https://www.fortanix.com/blog/2018/01/secure-by-design-rust-and-runtime-encryption/",
+      "date_published": "2018-01-17T02:10:00+00:00",
+      "author": {
+        "name": "Jethro Beekman",
+        "url": "https://www.fortanix.com/blog/"
+      }
+    },
+    {
+      "id": "35c2903a-687a-448d-b594-c46ee423989d",
+      "title": "Using static typing to protect against code injection attacks",
+      "content_text": "Code injection attack is a method of taking advantage of a flaw where an application can be tricked to relay malicious code from a system…",
+      "url": "https://medium.com/sensorfu/using-static-typing-to-protect-against-code-injection-attacks-353002ca6f2b",
+      "date_published": "2018-01-16T12:33:25.545+00:00",
+      "author": {
+        "name": "Ossi Herrala",
+        "url": "https://medium.com/@oherrala"
+      }
+    },
+    {
       "id": "11b9b0c3-6cde-450a-91b8-41e4bfc0a514",
       "title": "Rust 2018 - Sergey Potapov",
       "content_text": "With this post, I would like to give my feedback to the rust community in the\nscope of A Call for Community Blogposts. This article is structured in …",

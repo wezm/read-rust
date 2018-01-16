@@ -39,6 +39,9 @@ to in order to keep up with new posts, no matter where they are published.
 <a name="posts"></a>
 ## Posts
 
+{{ site.data.rust.posts | size }} posts have been made by the Rust community
+so far:
+
 <ul>
 {% for post in site.data.rust.posts %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author_name }}</li>

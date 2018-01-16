@@ -1,5 +1,15 @@
 [
   {
+    "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
+    "url": "https://www.fortanix.com/blog/2018/01/secure-by-design-rust-and-runtime-encryption/",
+    "author_name": "Jethro Beekman"
+  },
+  {
+    "title": "Using static typing to protect against code injection attacks",
+    "url": "https://medium.com/sensorfu/using-static-typing-to-protect-against-code-injection-attacks-353002ca6f2b",
+    "author_name": "Ossi Herrala"
+  },
+  {
     "title": "Rust in 2018: Let’s fix where the bullet holes aren’t",
     "url": "https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53",
     "author_name": "Chris Evans"
@@ -45,14 +55,14 @@
     "author_name": "David Herman"
   },
   {
-    "title": "Embedded Rust in 2018",
-    "url": "http://railwayelectronics.blogspot.com.au/2018/01/i-recently-picked-up-embedded-project.html",
-    "author_name": "theJPster"
-  },
-  {
     "title": "A Year with Rust Game Dev",
     "url": "http://druerridge.com/?p=536",
     "author_name": "Dru Erridge"
+  },
+  {
+    "title": "Embedded Rust in 2018",
+    "url": "http://railwayelectronics.blogspot.com.au/2018/01/i-recently-picked-up-embedded-project.html",
+    "author_name": "theJPster"
   },
   {
     "title": "A libz blitz retrospective",
@@ -195,14 +205,14 @@
     "author_name": "withoutboats"
   },
   {
-    "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
-    "url": "https://matthias-endler.de/2018/rust-2018/",
-    "author_name": "Matthias Endler"
-  },
-  {
     "title": "Why Rust? A Two Year Retrospective",
     "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
     "author_name": "Preston Carpenter"
+  },
+  {
+    "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
+    "url": "https://matthias-endler.de/2018/rust-2018/",
+    "author_name": "Matthias Endler"
   },
   {
     "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
@@ -275,9 +285,9 @@
     "author_name": "Wesley Moore"
   },
   {
-    "title": "Looking in on Rust in 2018",
-    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
-    "author_name": "Kasper Andersen"
+    "title": "Rust in 2018",
+    "url": "http://blog.kylehuey.com/post/169445545152/rust-in-2018",
+    "author_name": "Kyle Huey"
   },
   {
     "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
@@ -285,9 +295,9 @@
     "author_name": "Lukas Kalbertodt"
   },
   {
-    "title": "Rust in 2018",
-    "url": "http://blog.kylehuey.com/post/169445545152/rust-in-2018",
-    "author_name": "Kyle Huey"
+    "title": "Improving how we improve Rust in 2018",
+    "url": "http://www.jonathanturner.org/2018/01/rust2018-and-data.html",
+    "author_name": "Jonathan Turner"
   },
   {
     "title": "the new wave of rust | quiet misdreavus miniblog",
@@ -295,14 +305,14 @@
     "author_name": "QuietMisdreavus"
   },
   {
+    "title": "Looking in on Rust in 2018",
+    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
+    "author_name": "Kasper Andersen"
+  },
+  {
     "title": "Rust 2018 · Matthew Mayer's tech blog",
     "url": "https://matthewkmayer.github.io/blag/public/post/rust-2018/",
     "author_name": "Matthew Mayer"
-  },
-  {
-    "title": "Improving how we improve Rust in 2018",
-    "url": "http://www.jonathanturner.org/2018/01/rust2018-and-data.html",
-    "author_name": "Jonathan Turner"
   },
   {
     "title": "Rust, Looking Forward in 2018",
