@@ -5,6 +5,7 @@
          url('/fonts/nunitosans-bold-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -13,6 +14,7 @@
          url('/fonts/nunitosans-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
+    font-display: fallback;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
          url('/fonts/nunitosans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -29,4 +32,5 @@
          url('/fonts/nunitosans-semibold-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
+    font-display: fallback;
 }
