@@ -15,6 +15,11 @@
     "author_name": "Ossi Herrala"
   },
   {
+    "title": "Retooling the Rust Libs Team team for 2018 · Aaron Turon",
+    "url": "http://aturon.github.io/blog/2018/01/16/libs-mission/",
+    "author_name": "Aaron Turon"
+  },
+  {
     "title": "Rust in 2018: Let’s fix where the bullet holes aren’t",
     "url": "https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53",
     "author_name": "Chris Evans"
@@ -155,6 +160,11 @@
     "author_name": "Benjamin Fry"
   },
   {
+    "title": "Rust in 2018 - In Pursuit of Laziness",
+    "url": "https://manishearth.github.io/blog/2018/01/10/rust-in-2018/",
+    "author_name": "Manish Goregaokar"
+  },
+  {
     "title": "Talking about how we talk about Rust in 2018",
     "url": "http://www.jonathanturner.org/2018/01/how-we-talk-about-rust-in-2018.html",
     "author_name": "Jonathan Turner"
@@ -163,11 +173,6 @@
     "title": "#Rust2018 — Aimlessly Going Forward",
     "url": "https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/",
     "author_name": "Tomas Sedovic"
-  },
-  {
-    "title": "Rust in 2018 - In Pursuit of Laziness",
-    "url": "https://manishearth.github.io/blog/2018/01/10/rust-in-2018/",
-    "author_name": "Manish Goregaokar"
   },
   {
     "title": "Rust 2018",
@@ -205,9 +210,9 @@
     "author_name": "Tibo Delor"
   },
   {
-    "title": "My Goals for Rust in 2018",
-    "url": "https://boats.gitlab.io/blog/post/2018-01-08-goals-for-rust/",
-    "author_name": "withoutboats"
+    "title": "Why Rust? A Two Year Retrospective",
+    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
+    "author_name": "Preston Carpenter"
   },
   {
     "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
@@ -215,19 +220,19 @@
     "author_name": "Matthias Endler"
   },
   {
-    "title": "Why Rust? A Two Year Retrospective",
-    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
-    "author_name": "Preston Carpenter"
-  },
-  {
-    "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
-    "url": "https://llogiq.github.io/2018/01/09/rust.html",
-    "author_name": "llogiq"
+    "title": "My Goals for Rust in 2018",
+    "url": "https://boats.gitlab.io/blog/post/2018-01-08-goals-for-rust/",
+    "author_name": "withoutboats"
   },
   {
     "title": "Looking back at Rust in 2018 • Steve Klabnik",
     "url": "http://words.steveklabnik.com/looking-back-at-rust-in-2018",
     "author_name": "Steve Klabnik"
+  },
+  {
+    "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
+    "url": "https://llogiq.github.io/2018/01/09/rust.html",
+    "author_name": "llogiq"
   },
   {
     "title": "#Rust2018",
@@ -290,14 +295,14 @@
     "author_name": "Wesley Moore"
   },
   {
-    "title": "Looking in on Rust in 2018",
-    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
-    "author_name": "Kasper Andersen"
-  },
-  {
     "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
     "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
     "author_name": "Lukas Kalbertodt"
+  },
+  {
+    "title": "Looking in on Rust in 2018",
+    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
+    "author_name": "Kasper Andersen"
   },
   {
     "title": "Rust in 2018",

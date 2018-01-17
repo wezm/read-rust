@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "db216954-cdc9-4253-a155-6e9c7a25cd39",
+      "title": "Retooling the Rust Libs Team team for 2018 · Aaron Turon",
+      "content_text": "The Libs Team met today to discuss a weighty topic: what is its mission as a team, and are we set up to achieve it?\n\nAs team lead, I took the liberty of proposing a mission statement:\n\nTo improve the quality of the crate ecosystem, as a product.",
+      "url": "http://aturon.github.io/blog/2018/01/16/libs-mission/",
+      "date_published": "2018-01-16T00:00:00-08:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/blog/"
+      }
+    },
+    {
       "id": "b82f509d-28c8-4859-afe4-a9d4e47538d0",
       "title": "Rust 2018 - Just 2 \"little things\" • r/rust",
       "content_text": "Well. Just two \"minor\" points: 1. Game Development Libraries 2. Rust idomatic GUI Frameworks",
