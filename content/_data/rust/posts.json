@@ -5,6 +5,11 @@
     "author_name": "Jethro Beekman"
   },
   {
+    "title": "Rust 2018 - Just 2 \"little things\" • r/rust",
+    "url": "https://www.reddit.com/r/rust/comments/7qv1gu/rust_2018_just_2_little_things/",
+    "author_name": "CodingChris"
+  },
+  {
     "title": "Using static typing to protect against code injection attacks",
     "url": "https://medium.com/sensorfu/using-static-typing-to-protect-against-code-injection-attacks-353002ca6f2b",
     "author_name": "Ossi Herrala"
@@ -205,14 +210,14 @@
     "author_name": "withoutboats"
   },
   {
-    "title": "Why Rust? A Two Year Retrospective",
-    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
-    "author_name": "Preston Carpenter"
-  },
-  {
     "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
     "url": "https://matthias-endler.de/2018/rust-2018/",
     "author_name": "Matthias Endler"
+  },
+  {
+    "title": "Why Rust? A Two Year Retrospective",
+    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
+    "author_name": "Preston Carpenter"
   },
   {
     "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
@@ -285,9 +290,9 @@
     "author_name": "Wesley Moore"
   },
   {
-    "title": "Rust in 2018",
-    "url": "http://blog.kylehuey.com/post/169445545152/rust-in-2018",
-    "author_name": "Kyle Huey"
+    "title": "Looking in on Rust in 2018",
+    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
+    "author_name": "Kasper Andersen"
   },
   {
     "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
@@ -295,9 +300,9 @@
     "author_name": "Lukas Kalbertodt"
   },
   {
-    "title": "Improving how we improve Rust in 2018",
-    "url": "http://www.jonathanturner.org/2018/01/rust2018-and-data.html",
-    "author_name": "Jonathan Turner"
+    "title": "Rust in 2018",
+    "url": "http://blog.kylehuey.com/post/169445545152/rust-in-2018",
+    "author_name": "Kyle Huey"
   },
   {
     "title": "the new wave of rust | quiet misdreavus miniblog",
@@ -305,14 +310,14 @@
     "author_name": "QuietMisdreavus"
   },
   {
-    "title": "Looking in on Rust in 2018",
-    "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
-    "author_name": "Kasper Andersen"
-  },
-  {
     "title": "Rust 2018 · Matthew Mayer's tech blog",
     "url": "https://matthewkmayer.github.io/blag/public/post/rust-2018/",
     "author_name": "Matthew Mayer"
+  },
+  {
+    "title": "Improving how we improve Rust in 2018",
+    "url": "http://www.jonathanturner.org/2018/01/rust2018-and-data.html",
+    "author_name": "Jonathan Turner"
   },
   {
     "title": "Rust, Looking Forward in 2018",

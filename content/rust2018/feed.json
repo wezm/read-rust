@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "b82f509d-28c8-4859-afe4-a9d4e47538d0",
+      "title": "Rust 2018 - Just 2 \"little things\" • r/rust",
+      "content_text": "Well. Just two \"minor\" points: 1. Game Development Libraries 2. Rust idomatic GUI Frameworks",
+      "url": "https://www.reddit.com/r/rust/comments/7qv1gu/rust_2018_just_2_little_things/",
+      "date_published": "2018-01-16T19:58:55+00:00",
+      "author": {
+        "name": "CodingChris",
+        "url": "https://www.reddit.com/user/CodingChris"
+      }
+    },
+    {
       "id": "9b240369-ee8e-4d0d-8914-92bbb0145411",
       "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
       "content_text": "At Fortanix, we are big proponents of deterministic security.  Designing in security from the get-go by using secure programming principles is a big part of that.",
