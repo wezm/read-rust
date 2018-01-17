@@ -1,8 +1,8 @@
 [
   {
-    "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
-    "url": "https://www.fortanix.com/blog/2018/01/secure-by-design-rust-and-runtime-encryption/",
-    "author_name": "Jethro Beekman"
+    "title": "matraszek.net - Rust 2018",
+    "url": "http://matraszek.net/posts/rust-2018.html",
+    "author_name": "Jakub Matraszek"
   },
   {
     "title": "Rust 2018 - Just 2 \"little things\" • r/rust",
@@ -23,6 +23,11 @@
     "title": "Rust in 2018: Let’s fix where the bullet holes aren’t",
     "url": "https://medium.com/@cevans3326/rust-in-2018-lets-fix-where-the-bullet-holes-aren-t-7e94cea0bd53",
     "author_name": "Chris Evans"
+  },
+  {
+    "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
+    "url": "https://www.fortanix.com/blog/2018/01/secure-by-design-rust-and-runtime-encryption/",
+    "author_name": "Jethro Beekman"
   },
   {
     "title": "Rust 2018 - Sergey Potapov",
@@ -165,14 +170,14 @@
     "author_name": "Manish Goregaokar"
   },
   {
-    "title": "Talking about how we talk about Rust in 2018",
-    "url": "http://www.jonathanturner.org/2018/01/how-we-talk-about-rust-in-2018.html",
-    "author_name": "Jonathan Turner"
-  },
-  {
     "title": "#Rust2018 — Aimlessly Going Forward",
     "url": "https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/",
     "author_name": "Tomas Sedovic"
+  },
+  {
+    "title": "Talking about how we talk about Rust in 2018",
+    "url": "http://www.jonathanturner.org/2018/01/how-we-talk-about-rust-in-2018.html",
+    "author_name": "Jonathan Turner"
   },
   {
     "title": "Rust 2018",

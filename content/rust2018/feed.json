@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "56bc0e93-0a95-40ce-b60e-7f50c6e41560",
+      "title": "matraszek.net - Rust 2018",
+      "content_text": "I am pretty amazed that the Rust team always tries to get information about Rust usage from its users. Having a great vision is important, but it may not be enough to succeed. It is crucial to convince people to use Rust, and to know how to do that, we must take the perspective of the people who DO NOT use Rust.",
+      "url": "http://matraszek.net/posts/rust-2018.html",
+      "date_published": "2018-01-16T23:31:00+01:00",
+      "author": {
+        "name": "Jakub Matraszek",
+        "url": "http://matraszek.net/posts/"
+      }
+    },
+    {
       "id": "db216954-cdc9-4253-a155-6e9c7a25cd39",
       "title": "Retooling the Rust Libs Team team for 2018 · Aaron Turon",
       "content_text": "The Libs Team met today to discuss a weighty topic: what is its mission as a team, and are we set up to achieve it?\n\nAs team lead, I took the liberty of proposing a mission statement:\n\nTo improve the quality of the crate ecosystem, as a product.",
@@ -36,7 +47,7 @@
       "title": "Fortanix Blog | Secure by design:  Rust and Runtime Encryption",
       "content_text": "At Fortanix, we are big proponents of deterministic security.  Designing in security from the get-go by using secure programming principles is a big part of that.",
       "url": "https://www.fortanix.com/blog/2018/01/secure-by-design-rust-and-runtime-encryption/",
-      "date_published": "2018-01-17T02:10:00+00:00",
+      "date_published": "2018-01-16T00:00:00+00:00",
       "author": {
         "name": "Jethro Beekman",
         "url": "https://www.fortanix.com/blog/"
