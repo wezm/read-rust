@@ -63,7 +63,7 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
 
 fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
     let mut sorted_items = feed.items.clone();
-    sorted_items.sort_unstable_by(|a, b| b.date_published.cmp(&a.date_published));
+    sorted_items.sort_by(|a, b| b.date_published.cmp(&a.date_published));
 
     let posts: Vec<Post> = sorted_items.iter().map(|item| Post {
         title: &item.title,
