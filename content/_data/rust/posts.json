@@ -1,5 +1,10 @@
 [
   {
+    "title": "Technical Debt",
+    "url": "https://gist.github.com/mark-i-m/5bccf4dd7d97751eba542fea84b41a9d",
+    "author_name": "mark-i-m"
+  },
+  {
     "title": "matraszek.net - Rust 2018",
     "url": "http://matraszek.net/posts/rust-2018.html",
     "author_name": "Jakub Matraszek"
@@ -215,9 +220,9 @@
     "author_name": "Tibo Delor"
   },
   {
-    "title": "Why Rust? A Two Year Retrospective",
-    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
-    "author_name": "Preston Carpenter"
+    "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
+    "url": "https://llogiq.github.io/2018/01/09/rust.html",
+    "author_name": "llogiq"
   },
   {
     "title": "Rust in 2018: Streamline Collaboration and Empower Intermediate Users",
@@ -235,9 +240,9 @@
     "author_name": "Steve Klabnik"
   },
   {
-    "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
-    "url": "https://llogiq.github.io/2018/01/09/rust.html",
-    "author_name": "llogiq"
+    "title": "Why Rust? A Two Year Retrospective",
+    "url": "http://way-cooler.org/blog/2018/01/09/way-cooler-turns-two.html",
+    "author_name": "Preston Carpenter"
   },
   {
     "title": "#Rust2018",
@@ -300,14 +305,14 @@
     "author_name": "Wesley Moore"
   },
   {
-    "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
-    "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
-    "author_name": "Lukas Kalbertodt"
-  },
-  {
     "title": "Looking in on Rust in 2018",
     "url": "https://kasma1990.gitlab.io/2018/01/07/looking-in-on-rust-in-2018/",
     "author_name": "Kasper Andersen"
+  },
+  {
+    "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
+    "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
+    "author_name": "Lukas Kalbertodt"
   },
   {
     "title": "Rust in 2018",

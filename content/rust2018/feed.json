@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "41624f5a-61da-4a5b-a347-5918dccfe3a9",
+      "title": "Technical Debt",
+      "content_text": "I have to 100% agree with @nrc's post. I feel like Rust has a lot of great things in the pipeline, but it worries me that there are so many open tracking issues and open issues in general (over 3100 at time of writing).\n\nA lot has been written already about this, so instead I will focus on a few areas of technical debt that I see as particularly high-impact.",
+      "url": "https://gist.github.com/mark-i-m/5bccf4dd7d97751eba542fea84b41a9d",
+      "date_published": "2018-01-18T00:58:22+00:00",
+      "author": {
+        "name": "mark-i-m",
+        "url": "https://github.com/mark-i-m"
+      }
+    },
+    {
       "id": "56bc0e93-0a95-40ce-b60e-7f50c6e41560",
       "title": "matraszek.net - Rust 2018",
       "content_text": "I am pretty amazed that the Rust team always tries to get information about Rust usage from its users. Having a great vision is important, but it may not be enough to succeed. It is crucial to convince people to use Rust, and to know how to do that, we must take the perspective of the people who DO NOT use Rust.",
