@@ -1,6 +1,6 @@
 # Read Rust
 
-Source code to [readrust.net][self]. A new aggregator for following [#Rust2018].
+Source code to [readrust.net][self]. A news aggregator for following [#Rust2018].
 This repo contains the source to the website and tools for updating the feeds.
 
 ## Contributing
