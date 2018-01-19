@@ -66,12 +66,13 @@ Subscribe to one of the feeds in a feed reader. Some options are shown
 below. I&nbsp;use and recommend [Feedbin] + [Reeder]:
 
 * [Feedbin] (Web, Third party clients)
-* [Feedly](https://feedly.com/) (Web, Third party clients)
-* [Reeder] (iOS & macOS)
-* [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
-* [selfoss](https://selfoss.aditu.de/) (Self-hosted)
 * [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
+* [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
+* [Feedly](https://feedly.com/) (Web, Third party clients)
 * [NewsBlur](https://www.newsblur.com/) (Web, iOS & Android)
+* [Reeder] (iOS & macOS)
+* [selfoss](https://selfoss.aditu.de/) (Self-hosted)
+* [Thunderbird](https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs) (BSD, Linux, Mac, Windows, etc.)
 
 ### What is JSON Feed?
 
