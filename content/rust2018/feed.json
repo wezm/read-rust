@@ -10,6 +10,28 @@
   },
   "items": [
     {
+      "id": "329c3ef3-1602-477e-9a38-e5becaf2aab1",
+      "title": "Rust2018 And The Great Cli Awakening",
+      "content_text": "This is a response to the #Rust2018 call for blog posts with a little bit of my experience and how I see the 2018 year mo...",
+      "url": "http://vitiral.github.io/2018/01/17/rust2018-and-the-great-cli-awakening.html",
+      "date_published": "2018-01-17T00:00:00+00:00",
+      "author": {
+        "name": "Garrett Berg",
+        "url": "http://vitiral.github.io/"
+      }
+    },
+    {
+      "id": "a1e767fe-7557-4092-8f54-2071617c89b3",
+      "title": "How can I help Stabilize Things?",
+      "content_text": "A friend and I are working on adding Rust support to Metaparticle. We did a simple search for “decorators in Rust” and found this repo, which seemed promising. My friend added it, but s…",
+      "url": "https://willmurphyscode.net/2018/01/18/how-can-i-help-stabilize-things/",
+      "date_published": "2018-01-18T12:23:55+00:00",
+      "author": {
+        "name": "willmurphyscode",
+        "url": "https://willmurphyscode.net/"
+      }
+    },
+    {
       "id": "41624f5a-61da-4a5b-a347-5918dccfe3a9",
       "title": "Technical Debt",
       "content_text": "I have to 100% agree with @nrc's post. I feel like Rust has a lot of great things in the pipeline, but it worries me that there are so many open tracking issues and open issues in general (over 3100 at time of writing).\n\nA lot has been written already about this, so instead I will focus on a few areas of technical debt that I see as particularly high-impact.",

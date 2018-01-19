@@ -1,8 +1,18 @@
 [
   {
+    "title": "How can I help Stabilize Things?",
+    "url": "https://willmurphyscode.net/2018/01/18/how-can-i-help-stabilize-things/",
+    "author_name": "willmurphyscode"
+  },
+  {
     "title": "Technical Debt",
     "url": "https://gist.github.com/mark-i-m/5bccf4dd7d97751eba542fea84b41a9d",
     "author_name": "mark-i-m"
+  },
+  {
+    "title": "Rust2018 And The Great Cli Awakening",
+    "url": "http://vitiral.github.io/2018/01/17/rust2018-and-the-great-cli-awakening.html",
+    "author_name": "Garrett Berg"
   },
   {
     "title": "matraszek.net - Rust 2018",
