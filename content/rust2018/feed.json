@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "ce30f9ab-eef4-47c0-84e9-ffb704317314",
+      "title": "Rust 2018 - Growing in elegance and responsibility",
+      "content_text": "First; I have the utmost respect for the fact that I'm mostly sitting here wishing, while other people do the actual work. But since you asked...",
+      "url": "https://gist.github.com/diwic/6aa9da5d088c09e2fc93858928878b48",
+      "date_published": "2018-01-11T07:41:14+00:00",
+      "author": {
+        "name": "Diwic",
+        "url": "https://github.com/diwic"
+      }
+    },
+    {
       "id": "3f3b1ba5-ee90-4ece-b303-2c083010602e",
       "title": "Rust in 2018, another point of view",
       "content_text": "I wanted to write a post laying down my thoughts about Rust for a long time, and it seems like the perfect time to do so. Most of the things I've said have been touched upon recently, and probably more aptly, but here it is nonetheless!",
