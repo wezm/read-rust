@@ -11,8 +11,13 @@
     <meta name="description" content="Read Rust provides feeds that you can subscribe to in order to keep up with #Rust2018 no matter where articles are published.">
   </head>
   <body>
+    <header>
+      <a href="/">Read</a>
+      <a href="/"><img src="/images/logo.svg" class="logo" /></a>
+      <a href="/">Rust</a>
+    </header>
     <div class="main">
-      <h1>{{ page.title }}</h1>
+      <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
       {{ page.content }}
     </div>
     <footer>

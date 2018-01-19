@@ -14,6 +14,7 @@ h1,h2,h3 {
   line-height: 1.2;
   clear: both;
   font-weight: 500;
+  color: #333;
 }
 footer {
   text-align: center;
@@ -22,11 +23,34 @@ footer {
   background-color: #fff9f2;
   padding: 0.25em 0;
 }
-
+header {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  padding: 1em 1em 2em;
+  text-align: center;
+}
+header a {
+  color: currentColor;
+  text-decoration: none;
+}
+h1 a {
+  color: currentColor;
+  text-decoration: none;
+  border-bottom: 3px solid currentColor;
+}
+h1 a:hover {
+}
+.logo {
+  vertical-align: top;
+  width: 50px;
+  height: 40px;
+  margin: 0 0.5em;
+}
 .main {
-  margin:40px auto;
-  max-width:650px;
-  padding:0 10px;
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 0 10px;
 }
 .subscribe {
   text-align: center;
@@ -49,6 +73,9 @@ footer {
 }
 
 @media (max-width: 349px) {
+  header {
+    padding-bottom: 1em;
+  }
   .feedicon {
     margin-top: 1em;
   }
