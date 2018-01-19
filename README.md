@@ -1,8 +1,7 @@
 # Read Rust
 
-Source code to [readrust.net][self]. Currently just a couple of feeds for
-following [#Rust2018]. This repo contains the source to the website and tools
-for updating the feeds.
+Source code to [readrust.net][self]. A new aggregator for following [#Rust2018].
+This repo contains the source to the website and tools for updating the feeds.
 
 ## Contributing
 
@@ -13,7 +12,7 @@ See the [contributing guidelines][contributing].
 ### Website
 
 The website is built with [Cobalt]. After [installing Cobalt][install-cobalt]
-the site can be built with `cobalt build`.
+the site can be built by running `make`.
 
 ### Tools
 
@@ -21,10 +20,7 @@ The tools are mostly written in Rust, so `cargo build --release` will build
 them. The tools themselves are:
 
 * `add-url` add a new entry to `feed.json`.
-* `generate-rss` generates `feed.rss` from `feed.json`.
-* `twitter-rust2018` fetches #Rust2018 tweets using [twurl] and [jq]. `twurl`
-  is a Ruby tool and can be installed by running `bundle install` in the project
-  directory.
+* `generate-rss` generates `feed.rss`, and the cobalt data from `feed.json`.
 
 ## The Feeds
 
