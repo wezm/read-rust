@@ -1,5 +1,10 @@
 [
   {
+    "title": "Rust in 2018, another point of view",
+    "url": "https://kelseasy.github.io/001-Rust2018.html",
+    "author_name": "Kelsey Zapata"
+  },
+  {
     "title": "How can I help Stabilize Things?",
     "url": "https://willmurphyscode.net/2018/01/18/how-can-i-help-stabilize-things/",
     "author_name": "willmurphyscode"

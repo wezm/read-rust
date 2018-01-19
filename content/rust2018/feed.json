@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "3f3b1ba5-ee90-4ece-b303-2c083010602e",
+      "title": "Rust in 2018, another point of view",
+      "content_text": "I wanted to write a post laying down my thoughts about Rust for a long time, and it seems like the perfect time to do so. Most of the things I've said have been touched upon recently, and probably more aptly, but here it is nonetheless!",
+      "url": "https://kelseasy.github.io/001-Rust2018.html",
+      "date_published": "2018-01-19T22:57:00+00:00",
+      "author": {
+        "name": "Kelsey Zapata",
+        "url": "https://kelseasy.github.io/"
+      }
+    },
+    {
       "id": "329c3ef3-1602-477e-9a38-e5becaf2aab1",
       "title": "Rust2018 And The Great Cli Awakening",
       "content_text": "This is a response to the #Rust2018 call for blog posts with a little bit of my experience and how I see the 2018 year mo...",
