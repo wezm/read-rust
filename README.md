@@ -3,6 +3,8 @@
 Source code to [readrust.net][self]. A news aggregator for following [#Rust2018].
 This repo contains the source to the website and tools for updating the feeds.
 
+![Travis CI Status](https://travis-ci.org/wezm/read-rust.svg?branch=master)
+
 ## Contributing
 
 See the [contributing guidelines][contributing].
