@@ -406,17 +406,6 @@
       }
     },
     {
-      "id": "2c726694-f327-4568-88e5-3b5957cf2cd4",
-      "title": "The balance between cost, useability and soundness in C bindings, and Rust-SDL2's release",
-      "content_text": "Writing C-bindings in Rust is very easy to pick up (at least when you already got the hang of Rust), but unfortunately terribly hard to master: unsafety is a...",
-      "url": "https://cobrand.github.io/rust/sdl2/2017/05/07/the-balance-between-soundness-cost-useability.html",
-      "date_published": "2017-05-07T00:00:00+00:00",
-      "author": {
-        "name": "Cobrand",
-        "url": "https://cobrand.github.io/"
-      }
-    },
-    {
       "id": "f281d4cb-864b-4afa-98be-67a773a5bbf5",
       "title": "My desired features for a Rust debugger",
       "content_text": "Backward stepping Most debuggers provide the following commands: Step into the next function (reaching its beginning-point) Hop over the next function call Jump to the end of the current function R…",

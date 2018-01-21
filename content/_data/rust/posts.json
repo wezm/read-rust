@@ -423,10 +423,5 @@
     "title": "Happy New Year 2018",
     "url": "https://www.janwalter.org/jekyll/review/2017/2018/01/01/happy-new-year-2018.html",
     "author_name": "Jan Walter"
-  },
-  {
-    "title": "The balance between cost, useability and soundness in C bindings, and Rust-SDL2's release",
-    "url": "https://cobrand.github.io/rust/sdl2/2017/05/07/the-balance-between-soundness-cost-useability.html",
-    "author_name": "Cobrand"
   }
 ]
