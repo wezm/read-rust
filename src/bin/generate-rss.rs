@@ -30,12 +30,12 @@ fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
             .value(item.id.to_string())
             .permalink(false)
             .build()
-            .expect("error building Guid");
+            .map_err(|err| Error::StringError(err))?;
 
         let dc_extension = rss::extension::dublincore::DublinCoreExtensionBuilder::default()
             .creators(vec![item.author.name.clone()])
             .build()
-            .expect("error building DublinCoreExtension");
+            .map_err(|err| Error::StringError(err))?;
 
         let item = ItemBuilder::default()
             .guid(Some(guid))
@@ -45,7 +45,7 @@ fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
             .pub_date(item.date_published.to_rfc2822())
             .dublin_core_ext(dc_extension)
             .build()
-            .expect("error building Item");
+            .map_err(|err| Error::StringError(err))?;
         items.push(item);
     }
 
