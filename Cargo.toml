@@ -5,11 +5,11 @@ authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
 chrono = { version = "0.4.0", features = ['serde'] }
-kuchiki = "0.6.0"
-opengraph = "0.1.5"
-reqwest = "0.8.2"
-rss = "1.2.1"
-serde = "1.0.27"
-serde_derive = "1.0.27"
-serde_json = "1.0.9"
-uuid = { version = "0.5.1", features = ['v4', 'serde'] }
+kuchiki = "0.6"
+opengraph = "0.1"
+reqwest = "0.8"
+rss = "1.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+uuid = { version = "0.5", features = ['v4', 'serde'] }
