@@ -10,6 +10,39 @@
   },
   "items": [
     {
+      "id": "e2276407-cab7-48f6-8a4e-b981fbed0417",
+      "title": "Rust and its stance in data science – Eduardo Pinho – Medium",
+      "content_text": "This isn’t something that I would do very often, but a call was made, and I would like to take that chance to fill in some ideas with…",
+      "url": "https://medium.com/@e_net4/rust-and-its-stance-in-data-science-76d2c5ad2363",
+      "date_published": "2018-01-20T16:55:44.934+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://medium.com/@e_net4"
+      }
+    },
+    {
+      "id": "268f9a5c-3a44-4ca8-b500-68fd045a2d47",
+      "title": "Making Rust more awesome in 2018 - My wishlist· creativcoder's blog",
+      "content_text": "Rustaceans may already be familiar with Read Rust 2018. Its really awesome to see all blog posts by other people. I’m yet to finish reading all of them :P\nAdding to the chain of wishlist and suggestions for Rust’s roadmap for 2018, here’s my Wishlist:",
+      "url": "https://creativcoder.github.io/post/rust-2018/",
+      "date_published": "2018-01-20T18:22:00+00:00",
+      "author": {
+        "name": "Rahul Sharma",
+        "url": "https://creativcoder.github.io/"
+      }
+    },
+    {
+      "id": "0c26d758-55c5-4591-9c4f-5f0d2a6cc347",
+      "title": "Rust 2018",
+      "content_text": "What has gotten really, really good in rust-land as I remember this year:",
+      "url": "http://techne.btbytes.com/2018/01/20/rust2018.html",
+      "date_published": "2018-01-20T19:57:35-05:00",
+      "author": {
+        "name": "Pradeep Gowda",
+        "url": "http://techne.btbytes.com/"
+      }
+    },
+    {
       "id": "ce30f9ab-eef4-47c0-84e9-ffb704317314",
       "title": "Rust 2018 - Growing in elegance and responsibility",
       "content_text": "First; I have the utmost respect for the fact that I'm mostly sitting here wishing, while other people do the actual work. But since you asked...",

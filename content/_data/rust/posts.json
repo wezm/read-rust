@@ -1,5 +1,20 @@
 [
   {
+    "title": "Rust 2018",
+    "url": "http://techne.btbytes.com/2018/01/20/rust2018.html",
+    "author_name": "Pradeep Gowda"
+  },
+  {
+    "title": "Making Rust more awesome in 2018 - My wishlist· creativcoder's blog",
+    "url": "https://creativcoder.github.io/post/rust-2018/",
+    "author_name": "Rahul Sharma"
+  },
+  {
+    "title": "Rust and its stance in data science – Eduardo Pinho – Medium",
+    "url": "https://medium.com/@e_net4/rust-and-its-stance-in-data-science-76d2c5ad2363",
+    "author_name": "Eduardo Pinho"
+  },
+  {
     "title": "Rust in 2018, another point of view",
     "url": "https://kelseasy.github.io/001-Rust2018.html",
     "author_name": "Kelsey Zapata"
