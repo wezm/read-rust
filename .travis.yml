@@ -1,5 +1,6 @@
 language: rust
 cache: cargo
+install: cargo install cobalt-bin
 script:
   - cargo test --verbose
   - make
