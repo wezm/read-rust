@@ -22,8 +22,10 @@ struct Post<'a> {
     author_name: &'a str,
 }
 
-fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
-    let items: Vec<_> = feed.items.iter().map(|item| {
+fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
+    let mut items = Vec::with_capacity(feed.items.len());
+
+    for item in feed.items.iter() {
         let guid = GuidBuilder::default()
             .value(item.id.to_string())
             .permalink(false)
@@ -35,7 +37,7 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
             .build()
             .expect("error building DublinCoreExtension");
 
-        ItemBuilder::default()
+        let item = ItemBuilder::default()
             .guid(Some(guid))
             .title(item.title.clone())
             .link(item.url.clone())
@@ -43,8 +45,15 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
             .pub_date(item.date_published.to_rfc2822())
             .dublin_core_ext(dc_extension)
             .build()
-            .expect("error building Item")
-    }).collect();
+            .expect("error building Item");
+        items.push(item);
+    }
+
+    Ok(items)
+}
+
+fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
+    let items = generate_rss_items(feed)?;
 
     let channel = ChannelBuilder::default()
         .title(feed.title.clone())
