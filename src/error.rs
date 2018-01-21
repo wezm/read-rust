@@ -14,4 +14,3 @@ pub enum Error {
     RssError(rss::Error),
     Io(io::Error),
 }
-

@@ -7,4 +7,3 @@ extern crate uuid;
 
 pub mod error;
 pub mod feed;
-

@@ -1,16 +1,16 @@
-extern crate reqwest;
+extern crate chrono;
+extern crate kuchiki;
 extern crate opengraph;
 extern crate read_rust;
+extern crate reqwest;
 extern crate uuid;
-extern crate kuchiki;
-extern crate chrono;
 
 use std::path::Path;
 
-use reqwest::{RedirectPolicy, Url, StatusCode};
+use reqwest::{RedirectPolicy, StatusCode, Url};
 use reqwest::header::Location;
 
-use read_rust::feed::{Feed, Item, Author};
+use read_rust::feed::{Author, Feed, Item};
 use read_rust::error::Error;
 
 use uuid::Uuid;
@@ -28,7 +28,10 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     let mut request_count = 0;
     let mut url = url;
     while request_count < 10 {
-        let response = client.head(url.clone()).send().map_err(|err| Error::Reqwest(err))?;
+        let response = client
+            .head(url.clone())
+            .send()
+            .map_err(|err| Error::Reqwest(err))?;
         if response.status() == StatusCode::MovedPermanently {
             if let Some(next_url) = response.headers().get::<Location>() {
                 let next_url = next_url.to_string();
@@ -52,30 +55,34 @@ struct PostInfo {
 
 fn extract_author(doc: &kuchiki::NodeRef) -> Author {
     // Author from meta tag and link
-    let author_url = doc.select_first("link[rel='author']").ok()
+    let author_url = doc.select_first("link[rel='author']")
+        .ok()
         .and_then(|link| {
             let attrs = link.attributes.borrow();
             attrs.get("href").map(|href| href.to_owned())
         });
 
-    let author_name = doc.select_first("meta[name='author']").ok()
+    let author_name = doc.select_first("meta[name='author']")
+        .ok()
         .and_then(|link| {
             let attrs = link.attributes.borrow();
             attrs.get("content").map(|content| content.to_owned())
         })
         .or_else(|| {
-            doc.select_first("meta[property='author']").ok()
-            .and_then(|link| {
-                let attrs = link.attributes.borrow();
-                attrs.get("content").map(|content| content.to_owned())
-            })
+            doc.select_first("meta[property='author']")
+                .ok()
+                .and_then(|link| {
+                    let attrs = link.attributes.borrow();
+                    attrs.get("content").map(|content| content.to_owned())
+                })
         })
         .or_else(|| {
-            doc.select_first("meta[property='article:author']").ok()
-            .and_then(|link| {
-                let attrs = link.attributes.borrow();
-                attrs.get("content").map(|content| content.to_owned())
-            })
+            doc.select_first("meta[property='article:author']")
+                .ok()
+                .and_then(|link| {
+                    let attrs = link.attributes.borrow();
+                    attrs.get("content").map(|content| content.to_owned())
+                })
         });
 
     Author {
@@ -85,14 +92,14 @@ fn extract_author(doc: &kuchiki::NodeRef) -> Author {
 }
 
 fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffset>> {
-    doc.select_first("meta[property='article:published_time']").ok()
+    doc.select_first("meta[property='article:published_time']")
+        .ok()
         .and_then(|link| {
             let attrs = link.attributes.borrow();
             attrs.get("content").map(|content| content.to_owned())
         })
         .or_else(|| {
-            doc.select_first("article time").ok()
-            .and_then(|time| {
+            doc.select_first("article time").ok().and_then(|time| {
                 let attrs = time.attributes.borrow();
                 attrs.get("datetime").map(|content| content.to_owned())
             })
@@ -106,8 +113,7 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
 
     let title = if ogobj.title != "" {
         ogobj.title
-    }
-    else {
+    } else {
         doc.select_first("title")
             .map_err(|_err| Error::StringError("Document has not title".to_owned()))?
             .text_contents()
@@ -115,20 +121,24 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
 
     let description = match ogobj.description {
         Some(desc) => desc,
-        None => {
-            doc.select_first("meta[name='description']").ok()
+        None => doc.select_first("meta[name='description']")
+            .ok()
             .and_then(|link| {
                 let attrs = link.attributes.borrow();
                 attrs.get("content").map(|content| content.to_owned())
             })
-            .unwrap_or_else(|| "FIXME".to_owned())
-        },
+            .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
     let author = extract_author(&doc);
     let published_at = extract_publication_date(&doc);
 
-    Ok(PostInfo { title, description, author, published_at })
+    Ok(PostInfo {
+        title,
+        description,
+        author,
+        published_at,
+    })
 }
 
 fn run() -> Result<(), Error> {
@@ -149,7 +159,9 @@ fn run() -> Result<(), Error> {
             title: post_info.title,
             url: canonical_url.to_string(),
             content_text: post_info.description,
-            date_published: post_info.published_at.unwrap_or_else(|| FixedOffset::east(0).ymd(1970, 1, 1).and_hms(0, 0, 0)),
+            date_published: post_info
+                .published_at
+                .unwrap_or_else(|| FixedOffset::east(0).ymd(1970, 1, 1).and_hms(0, 0, 0)),
             author: post_info.author,
         };
 
@@ -160,6 +172,5 @@ fn run() -> Result<(), Error> {
 }
 
 fn main() {
-
     run().expect("error");
 }

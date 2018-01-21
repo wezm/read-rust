@@ -1,17 +1,17 @@
+extern crate chrono;
 extern crate read_rust;
 extern crate rss;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde_json;
-extern crate chrono;
 
 use std::env;
 use std::fs::File;
 use std::path::Path;
 
-use rss::{ChannelBuilder, ItemBuilder, GuidBuilder};
+use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 
-use chrono::{DateTime, FixedOffset, Datelike};
+use chrono::{DateTime, Datelike, FixedOffset};
 
 use read_rust::feed::{Feed, Item};
 use read_rust::error::Error;
@@ -38,7 +38,10 @@ pub trait TryInto<T>: Sized {
     fn try_into(self) -> Result<T, Self::Err>;
 }
 
-impl<T, U> TryInto<U> for T where U: TryFrom<T> {
+impl<T, U> TryInto<U> for T
+where
+    U: TryFrom<T>,
+{
     type Err = U::Err;
 
     fn try_into(self) -> Result<U, Self::Err> {
@@ -49,11 +52,9 @@ impl<T, U> TryInto<U> for T where U: TryFrom<T> {
 fn unwrap_placeholder(text: &str) -> Result<String, Error> {
     if text.chars().all(char::is_whitespace) {
         Err(Error::StringError("value is empty string".to_owned()))
-    }
-    else if text == "FIXME" {
+    } else if text == "FIXME" {
         Err(Error::StringError("value is FIXME".to_owned()))
-    }
-    else {
+    } else {
         Ok(text.to_owned())
     }
 }
@@ -61,8 +62,7 @@ fn unwrap_placeholder(text: &str) -> Result<String, Error> {
 fn unwrap_date(date: &DateTime<FixedOffset>) -> Result<&DateTime<FixedOffset>, Error> {
     if date.year() < 2018 {
         Err(Error::StringError("date is before 2018".to_owned()))
-    }
-    else {
+    } else {
         Ok(date)
     }
 }
@@ -121,7 +121,7 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
     let rss_file = File::create(rss_feed_path).map_err(|err| Error::Io(err))?;
     match channel.write_to(rss_file) {
         Ok(_) => Ok(()),
-        Err(err) => Err(Error::RssError(err))
+        Err(err) => Err(Error::RssError(err)),
     }
 }
 
@@ -129,11 +129,14 @@ fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
     let mut sorted_items = feed.items.clone();
     sorted_items.sort_by(|a, b| b.date_published.cmp(&a.date_published));
 
-    let posts: Vec<Post> = sorted_items.iter().map(|item| Post {
-        title: &item.title,
-        url: &item.url,
-        author_name: &item.author.name,
-    }).collect();
+    let posts: Vec<Post> = sorted_items
+        .iter()
+        .map(|item| Post {
+            title: &item.title,
+            url: &item.url,
+            author_name: &item.author.name,
+        })
+        .collect();
 
     let file = File::create(site_data_path).map_err(|err| Error::Io(err))?;
     serde_json::to_writer_pretty(file, &posts).map_err(|err| Error::JsonError(err))
@@ -142,9 +145,7 @@ fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
 fn run(json_feed_path: &str, rss_feed_path: &str, site_data_path: &str) -> Result<(), Error> {
     let feed = Feed::load(&Path::new(json_feed_path))?;
 
-    generate_rss(&feed, rss_feed_path)
-        .and_then(|()| generate_site_data(&feed, site_data_path))
-
+    generate_rss(&feed, rss_feed_path).and_then(|()| generate_site_data(&feed, site_data_path))
 }
 
 fn main() {

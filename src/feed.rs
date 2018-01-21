@@ -1,5 +1,5 @@
-extern crate reqwest;
 extern crate chrono;
+extern crate reqwest;
 
 use std::io::{Read, Write};
 use std::path::Path;
@@ -28,7 +28,7 @@ pub struct Item {
 }
 
 #[derive(Serialize, Deserialize)]
-pub struct Feed  {
+pub struct Feed {
     pub version: String,
     pub title: String,
     pub home_page_url: String,
@@ -46,7 +46,9 @@ impl Feed {
     pub fn load(path: &Path) -> Result<Feed, Error> {
         let mut buffer = String::new();
         let mut feed_file = File::open(path).map_err(|err| Error::Io(err))?;
-        feed_file.read_to_string(&mut buffer).map_err(|err| Error::Io(err))?;
+        feed_file
+            .read_to_string(&mut buffer)
+            .map_err(|err| Error::Io(err))?;
 
         serde_json::from_str(&buffer).map_err(|err| Error::JsonError(err))
     }
@@ -55,7 +57,8 @@ impl Feed {
         let serialized = serde_json::to_string_pretty(self).unwrap();
 
         let mut feed_file = File::create(path).map_err(|err| Error::Io(err))?;
-        feed_file.write_all(serialized.as_bytes()).map_err(|err| Error::Io(err))
+        feed_file
+            .write_all(serialized.as_bytes())
+            .map_err(|err| Error::Io(err))
     }
 }
-
