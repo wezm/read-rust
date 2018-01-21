@@ -21,7 +21,7 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
         .redirect(RedirectPolicy::none())
         .build()
-        .map_err(|err| Error::Reqwest(err))?;
+        .map_err(Error::Reqwest)?;
 
     // HEAD url, if permanent redirect then follow
     // Else return URL
@@ -31,11 +31,11 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
         let response = client
             .head(url.clone())
             .send()
-            .map_err(|err| Error::Reqwest(err))?;
+            .map_err(Error::Reqwest)?;
         if response.status() == StatusCode::MovedPermanently {
             if let Some(next_url) = response.headers().get::<Location>() {
                 let next_url = next_url.to_string();
-                url = Url::parse(&next_url).map_err(|err| Error::Url(err))?;
+                url = Url::parse(&next_url).map_err(Error::Url)?;
             }
         }
 
@@ -108,7 +108,7 @@ fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffs
 }
 
 fn post_info(html: &str) -> Result<PostInfo, Error> {
-    let ogobj = opengraph::extract(&mut html.clone().as_bytes()).ok_or(Error::HtmlParseError)?;
+    let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
 
     let title = if ogobj.title != "" {
@@ -143,15 +143,15 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
 
 fn run() -> Result<(), Error> {
     let feed_path = Path::new("content/rust2018/feed.json");
-    let mut feed = Feed::load(&feed_path)?;
+    let mut feed = Feed::load(feed_path)?;
 
     for url_str in std::env::args().skip(1) {
-        let url = Url::parse(&url_str).map_err(|err| Error::Url(err))?;
+        let url = Url::parse(&url_str).map_err(Error::Url)?;
         let canonical_url = resolve_url(url)?;
 
         // Fetch page
-        let mut response = reqwest::get(canonical_url.clone()).map_err(|err| Error::Reqwest(err))?;
-        let body = response.text().map_err(|err| Error::Reqwest(err))?;
+        let mut response = reqwest::get(canonical_url.clone()).map_err(Error::Reqwest)?;
+        let body = response.text().map_err(Error::Reqwest)?;
         let post_info = post_info(&body)?;
 
         let item = Item {
@@ -168,7 +168,7 @@ fn run() -> Result<(), Error> {
         feed.add_item(item);
     }
 
-    feed.save(&feed_path)
+    feed.save(feed_path)
 }
 
 fn main() {

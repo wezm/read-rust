@@ -45,20 +45,20 @@ impl Feed {
 
     pub fn load(path: &Path) -> Result<Feed, Error> {
         let mut buffer = String::new();
-        let mut feed_file = File::open(path).map_err(|err| Error::Io(err))?;
+        let mut feed_file = File::open(path).map_err(Error::Io)?;
         feed_file
             .read_to_string(&mut buffer)
-            .map_err(|err| Error::Io(err))?;
+            .map_err(Error::Io)?;
 
-        serde_json::from_str(&buffer).map_err(|err| Error::JsonError(err))
+        serde_json::from_str(&buffer).map_err(Error::JsonError)
     }
 
     pub fn save(&self, path: &Path) -> Result<(), Error> {
         let serialized = serde_json::to_string_pretty(self).unwrap();
 
-        let mut feed_file = File::create(path).map_err(|err| Error::Io(err))?;
+        let mut feed_file = File::create(path).map_err(Error::Io)?;
         feed_file
             .write_all(serialized.as_bytes())
-            .map_err(|err| Error::Io(err))
+            .map_err(Error::Io)
     }
 }

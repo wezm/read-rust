@@ -75,12 +75,12 @@ impl TryFrom<Item> for rss::Item {
             .value(item.id.to_string())
             .permalink(false)
             .build()
-            .map_err(|err| Error::StringError(err))?;
+            .map_err(Error::StringError)?;
 
         let dc_extension = rss::extension::dublincore::DublinCoreExtensionBuilder::default()
             .creators(vec![unwrap_placeholder(&item.author.name)?])
             .build()
-            .map_err(|err| Error::StringError(err))?;
+            .map_err(Error::StringError)?;
 
         // The author URL isn't used but verify that it's not a placeholder anyway
         let _ = unwrap_placeholder(&item.author.url)?;
@@ -93,14 +93,14 @@ impl TryFrom<Item> for rss::Item {
             .pub_date(unwrap_date(&item.date_published)?.to_rfc2822())
             .dublin_core_ext(dc_extension)
             .build()
-            .map_err(|err| Error::StringError(err))
+            .map_err(Error::StringError)
     }
 }
 
 fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
     let mut items = Vec::with_capacity(feed.items.len());
 
-    for item in feed.items.iter() {
+    for item in &feed.items {
         items.push(item.clone().try_into()?);
     }
 
@@ -116,9 +116,9 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
         .description(feed.description.clone())
         .items(items)
         .build()
-        .map_err(|err| Error::StringError(err))?;
+        .map_err(Error::StringError)?;
 
-    let rss_file = File::create(rss_feed_path).map_err(|err| Error::Io(err))?;
+    let rss_file = File::create(rss_feed_path).map_err(Error::Io)?;
     match channel.write_to(rss_file) {
         Ok(_) => Ok(()),
         Err(err) => Err(Error::RssError(err)),
@@ -138,12 +138,12 @@ fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
         })
         .collect();
 
-    let file = File::create(site_data_path).map_err(|err| Error::Io(err))?;
-    serde_json::to_writer_pretty(file, &posts).map_err(|err| Error::JsonError(err))
+    let file = File::create(site_data_path).map_err(Error::Io)?;
+    serde_json::to_writer_pretty(file, &posts).map_err(Error::JsonError)
 }
 
 fn run(json_feed_path: &str, rss_feed_path: &str, site_data_path: &str) -> Result<(), Error> {
-    let feed = Feed::load(&Path::new(json_feed_path))?;
+    let feed = Feed::load(Path::new(json_feed_path))?;
 
     generate_rss(&feed, rss_feed_path).and_then(|()| generate_site_data(&feed, site_data_path))
 }
