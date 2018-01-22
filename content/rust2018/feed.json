@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "1151cad4-ce36-4944-96d3-e6062f1daf97",
+      "title": "The Job Advertising Story of Rust – Vignesh Sankaran – Medium",
+      "content_text": "Note: This is the first blog post that I’ve ever written. Feedback is much appreciated :).",
+      "url": "https://medium.com/@vign_esh/the-job-advertising-story-of-rust-5c6394e8ecab",
+      "date_published": "2018-01-22T10:44:36.238+00:00",
+      "author": {
+        "name": "Vignesh Sankaran",
+        "url": "https://medium.com/@vign_esh"
+      }
+    },
+    {
       "id": "a59a299c-28d1-4c41-9563-47faea69a0b7",
       "title": "Embedded Rust in 2018 - Embedded in Rust",
       "content_text": "A blog about Rust and embedded stuff",
