@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "a59a299c-28d1-4c41-9563-47faea69a0b7",
+      "title": "Embedded Rust in 2018 - Embedded in Rust",
+      "content_text": "A blog about Rust and embedded stuff",
+      "url": "http://blog.japaric.io/embedded-rust-in-2018/",
+      "date_published": "2018-01-21T22:10:38+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      }
+    },
+    {
       "id": "e2276407-cab7-48f6-8a4e-b981fbed0417",
       "title": "Rust and its stance in data science – Eduardo Pinho – Medium",
       "content_text": "This isn’t something that I would do very often, but a call was made, and I would like to take that chance to fill in some ideas with…",

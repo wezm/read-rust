@@ -1,5 +1,10 @@
 [
   {
+    "title": "Embedded Rust in 2018 - Embedded in Rust",
+    "url": "http://blog.japaric.io/embedded-rust-in-2018/",
+    "author_name": "Jorge Aparicio"
+  },
+  {
     "title": "Rust 2018",
     "url": "http://techne.btbytes.com/2018/01/20/rust2018.html",
     "author_name": "Pradeep Gowda"
