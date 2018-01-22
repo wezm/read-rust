@@ -1,8 +1,8 @@
 language: rust
 cache: cargo
-install: cargo install cobalt-bin
+install: '[ "`cobalt --version`" == "Cobalt 0.11.1" ] || cargo install --force cobalt-bin'
 script:
-  - cargo test --verbose
+  - which cobalt || cargo test --verbose
   - make
 rust:
   - stable
