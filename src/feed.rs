@@ -46,9 +46,7 @@ impl Feed {
     pub fn load(path: &Path) -> Result<Feed, Error> {
         let mut buffer = String::new();
         let mut feed_file = File::open(path).map_err(Error::Io)?;
-        feed_file
-            .read_to_string(&mut buffer)
-            .map_err(Error::Io)?;
+        feed_file.read_to_string(&mut buffer).map_err(Error::Io)?;
 
         serde_json::from_str(&buffer).map_err(Error::JsonError)
     }

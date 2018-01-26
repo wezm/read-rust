@@ -98,13 +98,10 @@ impl TryFrom<Item> for rss::Item {
 }
 
 fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
-    let mut items = Vec::with_capacity(feed.items.len());
-
-    for item in &feed.items {
-        items.push(item.clone().try_into()?);
-    }
-
-    Ok(items)
+    feed.items
+        .iter()
+        .map(|item| item.clone().try_into())
+        .collect()
 }
 
 fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {

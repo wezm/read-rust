@@ -28,10 +28,7 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     let mut request_count = 0;
     let mut url = url;
     while request_count < 10 {
-        let response = client
-            .head(url.clone())
-            .send()
-            .map_err(Error::Reqwest)?;
+        let response = client.head(url.clone()).send().map_err(Error::Reqwest)?;
         if response.status() == StatusCode::MovedPermanently {
             if let Some(next_url) = response.headers().get::<Location>() {
                 let next_url = next_url.to_string();
