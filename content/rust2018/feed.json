@@ -10,6 +10,28 @@
   },
   "items": [
     {
+      "id": "ae85973e-7540-4027-b53a-ee41a249d124",
+      "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async • r/rust",
+      "content_text": "Hi there! I'm Nico, and I've been lurking around these parts for about a year now. I thought I'd give my 2 cents on Rust's 2018 plans. Note: this...",
+      "url": "https://www.reddit.com/r/rust/comments/7syxw4/rust_2018_core_embeddedsimd_intermesiate/",
+      "date_published": "2018-01-25T20:12:01+00:00",
+      "author": {
+        "name": "Nico",
+        "url": "https://www.reddit.com/user/nicoburns"
+      }
+    },
+    {
+      "id": "35094e1a-b385-47a6-a93f-67f8842992d6",
+      "title": "My #Rust2018 wishlist • r/rust",
+      "content_text": "This addition to std could significantly change how people use rust. \"Secretly\" it requires some advanced features though. impl<T, const C:...",
+      "url": "https://www.reddit.com/r/rust/comments/7sx6s9/my_rust2018_wishlist/",
+      "date_published": "2018-01-25T16:22:17+00:00",
+      "author": {
+        "name": "Epicat Supercell",
+        "url": "https://www.reddit.com/user/EpicatSupercell"
+      }
+    },
+    {
       "id": "1151cad4-ce36-4944-96d3-e6062f1daf97",
       "title": "The Job Advertising Story of Rust – Vignesh Sankaran – Medium",
       "content_text": "Note: This is the first blog post that I’ve ever written. Feedback is much appreciated :).",
