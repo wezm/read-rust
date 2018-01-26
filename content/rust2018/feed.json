@@ -10,6 +10,28 @@
   },
   "items": [
     {
+      "id": "d2189bca-0b13-451d-b70c-70ec43f7a207",
+      "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
+      "content_text": "There’s been a lot written about what can be done to make Rust’s tooling, libraries and infrastructure better for embedded programming, but I’d like to cover a slightly different topic: what can be done to make Rust the language itself safer and easier to use for low-level programming?",
+      "url": "http://www.bobbin.io/blog/post/rust_2018_low_level/",
+      "date_published": "2018-01-26T14:00:00-04:00",
+      "author": {
+        "name": "Jonathan Soo",
+        "url": "http://www.bobbin.io/blog/"
+      }
+    },
+    {
+      "id": "a9de17fb-57cf-442a-988c-8ab1ec79b3db",
+      "title": "Crate Management for #rust2018",
+      "content_text": "When I started with Rust, I was planning on blogging about my experience. As I learned though, I found most of the documentation I needed was in blog posts that, though helpful, would give different suggestions without a hint as to why they solved the problems differently. This is frustrating for someone new because you just want to get your task done and not have to first research a whole other area. I realized that the more valuable route for me would be in improving documentation and tooling to serve as living documentation.",
+      "url": "https://epage.github.io/blog/2018/01/crate-management/",
+      "date_published": "2018-01-26T04:20:00+00:00",
+      "author": {
+        "name": "Ed Page",
+        "url": "https://epage.github.io/"
+      }
+    },
+    {
       "id": "ae85973e-7540-4027-b53a-ee41a249d124",
       "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async • r/rust",
       "content_text": "Hi there! I'm Nico, and I've been lurking around these parts for about a year now. I thought I'd give my 2 cents on Rust's 2018 plans. Note: this...",

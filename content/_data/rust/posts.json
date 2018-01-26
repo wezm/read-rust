@@ -1,5 +1,15 @@
 [
   {
+    "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
+    "url": "http://www.bobbin.io/blog/post/rust_2018_low_level/",
+    "author_name": "Jonathan Soo"
+  },
+  {
+    "title": "Crate Management for #rust2018",
+    "url": "https://epage.github.io/blog/2018/01/crate-management/",
+    "author_name": "Ed Page"
+  },
+  {
     "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async • r/rust",
     "url": "https://www.reddit.com/r/rust/comments/7syxw4/rust_2018_core_embeddedsimd_intermesiate/",
     "author_name": "Nico"
