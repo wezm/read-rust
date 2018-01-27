@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "9a9ed680-6525-4c70-ae8a-c4c8f6941cf1",
+      "title": "Thoughts about #Rust2018",
+      "content_text": "I like the concepts behind rust. I haven't had as much chance to use it as I'd like - it isn't one of the approved languages at work, and ...",
+      "url": "https://lliwynd.blogspot.com.au/2018/01/thoughts-about-rust2018.html",
+      "date_published": "2018-01-27T14:35:00+11:00",
+      "author": {
+        "name": "William Uther",
+        "url": "https://lliwynd.blogspot.com.au/"
+      }
+    },
+    {
       "id": "d2189bca-0b13-451d-b70c-70ec43f7a207",
       "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
       "content_text": "There’s been a lot written about what can be done to make Rust’s tooling, libraries and infrastructure better for embedded programming, but I’d like to cover a slightly different topic: what can be done to make Rust the language itself safer and easier to use for low-level programming?",

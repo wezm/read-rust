@@ -1,5 +1,10 @@
 [
   {
+    "title": "Thoughts about #Rust2018",
+    "url": "https://lliwynd.blogspot.com.au/2018/01/thoughts-about-rust2018.html",
+    "author_name": "William Uther"
+  },
+  {
     "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
     "url": "http://www.bobbin.io/blog/post/rust_2018_low_level/",
     "author_name": "Jonathan Soo"
