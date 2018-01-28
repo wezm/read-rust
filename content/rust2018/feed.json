@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "9de23e26-5e53-4569-afb2-0576494c75f5",
+      "title": "#Rust2018: no need to panic. • r/rust",
+      "content_text": "Since you asked for blog posts, and I already read many of them that didn't share my concerns, here is my take. # What I did in 2017 (and also a...",
+      "url": "https://www.reddit.com/r/rust/comments/7tcyh1/rust2018_no_need_to_panic/",
+      "date_published": "2018-01-27T14:24:20+00:00",
+      "author": {
+        "name": "SelfDistinction",
+        "url": "https://www.reddit.com/user/SelfDistinction"
+      }
+    },
+    {
       "id": "9a9ed680-6525-4c70-ae8a-c4c8f6941cf1",
       "title": "Thoughts about #Rust2018",
       "content_text": "I like the concepts behind rust. I haven't had as much chance to use it as I'd like - it isn't one of the approved languages at work, and ...",
