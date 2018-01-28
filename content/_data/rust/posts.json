@@ -1,5 +1,10 @@
 [
   {
+    "title": "On Safety, and How Rust Can Help",
+    "url": "https://myrrlyn.net/blog/misc/rust-2018",
+    "author_name": "Alexander Payne"
+  },
+  {
     "title": "#Rust2018: no need to panic. • r/rust",
     "url": "https://www.reddit.com/r/rust/comments/7tcyh1/rust2018_no_need_to_panic/",
     "author_name": "SelfDistinction"

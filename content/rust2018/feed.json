@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "e200a902-0b10-41fa-99ce-241d38311eea",
+      "title": "On Safety, and How Rust Can Help",
+      "content_text": "I’ll first talk about my opinions about safety as an abstract concept and my experiences with practicing safety in various environments; I’ll then talk about my experiences programming at work in C and Ruby; then I’ll draw upon these to talk about what Rust can currently offer my work and what I believe it still needs in order for it to strengthen its utility and efficacy in our contexts.",
+      "url": "https://myrrlyn.net/blog/misc/rust-2018",
+      "date_published": "2018-01-28T07:25:16+00:00",
+      "author": {
+        "name": "Alexander Payne",
+        "url": "https://myrrlyn.net/blog"
+      }
+    },
+    {
       "id": "9de23e26-5e53-4569-afb2-0576494c75f5",
       "title": "#Rust2018: no need to panic. • r/rust",
       "content_text": "Since you asked for blog posts, and I already read many of them that didn't share my concerns, here is my take. # What I did in 2017 (and also a...",
