@@ -1,5 +1,15 @@
 [
   {
+    "title": "Rust2018 - A year of talks",
+    "url": "https://booyaa.wtf/2018/rust2018-a-year-of-talks/",
+    "author_name": "@booyaa"
+  },
+  {
+    "title": "Rust is for Big Data (#rust2018)",
+    "url": "https://andygrove.io/rust-is-for-big-data/",
+    "author_name": "Andy Grove"
+  },
+  {
     "title": "On Safety, and How Rust Can Help",
     "url": "https://myrrlyn.net/blog/misc/rust-2018",
     "author_name": "Alexander Payne"

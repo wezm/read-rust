@@ -10,6 +10,28 @@
   },
   "items": [
     {
+      "id": "c752755c-985e-44d4-a15f-1dac8fffa86c",
+      "title": "Rust is for Big Data (#rust2018)",
+      "content_text": "This blog post isn’t so much about what I want from the Rust language in 2018, but more about where I see an opportunity for Rust to gain more widespread use in 2018.",
+      "url": "https://andygrove.io/rust-is-for-big-data/",
+      "date_published": "2018-01-29T06:07:21+11:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      }
+    },
+    {
+      "id": "b02d9dda-9c01-481b-8111-0241bf8e99d4",
+      "title": "Rust2018 - A year of talks",
+      "content_text": "Before I address my hopes for Rust in 2018, I thought I'd look back at a year of meet ups that we've organised for London's Rust user group.",
+      "url": "https://booyaa.wtf/2018/rust2018-a-year-of-talks/",
+      "date_published": "2018-01-28T19:49:54+00:00",
+      "author": {
+        "name": "@booyaa",
+        "url": "https://github.com/booyaa"
+      }
+    },
+    {
       "id": "e200a902-0b10-41fa-99ce-241d38311eea",
       "title": "On Safety, and How Rust Can Help",
       "content_text": "I’ll first talk about my opinions about safety as an abstract concept and my experiences with practicing safety in various environments; I’ll then talk about my experiences programming at work in C and Ruby; then I’ll draw upon these to talk about what Rust can currently offer my work and what I believe it still needs in order for it to strengthen its utility and efficacy in our contexts.",
