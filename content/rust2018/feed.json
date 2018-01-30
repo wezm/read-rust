@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "cdf001ee-aea6-47e3-be58-527a3b7fdc08",
+      "title": "Rust 2018: Libraries in the 2018 Epoch",
+      "content_text": "The call for community blog posts has inspired lots of great responses. Most of the things that I feel are important have already been said. This post is a collection of thoughts on what I feel is important for Rust to flourish in the future. It is perhaps a bit late in the process, but it may add some new perspectives.",
+      "url": "https://blog.zayenz.se/post/rust-2018/",
+      "date_published": "2018-01-23T00:00:00+00:00",
+      "author": {
+        "name": "Zayenz",
+        "url": "https://blog.zayenz.se/"
+      }
+    },
+    {
       "id": "c752755c-985e-44d4-a15f-1dac8fffa86c",
       "title": "Rust is for Big Data (#rust2018)",
       "content_text": "This blog post isn’t so much about what I want from the Rust language in 2018, but more about where I see an opportunity for Rust to gain more widespread use in 2018.",
