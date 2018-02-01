@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "99cd44d4-1722-4d1e-a002-693fac055af1",
+      "title": "Rust should be an excellent open source citizen #rust2018",
+      "content_text": "Here’s my late #rust2018 post. I contribute code to a lot of projects in a lot of different languages. I think it’s really important not to think about Rust in isolation, but in the context of the greater open source world. Here area few specific ways I think about this:",
+      "url": "http://kamalmarhubi.com/blog/2018/01/31/rust2018/",
+      "date_published": "2018-01-31T00:00:00-05:00",
+      "author": {
+        "name": "Kamal Marhubi",
+        "url": "http://kamalmarhubi.com/"
+      }
+    },
+    {
       "id": "cdf001ee-aea6-47e3-be58-527a3b7fdc08",
       "title": "Rust 2018: Libraries in the 2018 Epoch",
       "content_text": "The call for community blog posts has inspired lots of great responses. Most of the things that I feel are important have already been said. This post is a collection of thoughts on what I feel is important for Rust to flourish in the future. It is perhaps a bit late in the process, but it may add some new perspectives.",
