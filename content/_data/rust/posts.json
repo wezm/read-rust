@@ -1,5 +1,10 @@
 [
   {
+    "title": "Thoughts on Rust",
+    "url": "https://barel.la/blog/2018/01/thoughts-on-rust/",
+    "author_name": "Dan Barella"
+  },
+  {
     "title": "Rust should be an excellent open source citizen #rust2018",
     "url": "http://kamalmarhubi.com/blog/2018/01/31/rust2018/",
     "author_name": "Kamal Marhubi"

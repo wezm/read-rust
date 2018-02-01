@@ -10,6 +10,17 @@
   },
   "items": [
     {
+      "id": "fb492342-c776-4f9a-8792-d82efebf109f",
+      "title": "Thoughts on Rust",
+      "content_text": "I’ve been working on some rust projects recently and I really really love this language. I’d love it if one day I could get paid just to write rust! Until then, I’ll make do with …",
+      "url": "https://barel.la/blog/2018/01/thoughts-on-rust/",
+      "date_published": "2018-02-01T04:39:06+00:00",
+      "author": {
+        "name": "Dan Barella",
+        "url": "https://barel.la/blog/"
+      }
+    },
+    {
       "id": "99cd44d4-1722-4d1e-a002-693fac055af1",
       "title": "Rust should be an excellent open source citizen #rust2018",
       "content_text": "Here’s my late #rust2018 post. I contribute code to a lot of projects in a lot of different languages. I think it’s really important not to think about Rust in isolation, but in the context of the greater open source world. Here area few specific ways I think about this:",
