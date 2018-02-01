@@ -39,7 +39,21 @@ h1 a {
   text-decoration: none;
   border-bottom: 3px solid currentColor;
 }
+nav a {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+nav a:hover {
+  border-bottom: 1px solid orange;
+}
 h1 a:hover {
+}
+.list-inline {
+  padding: 0;
+}
+.list-inline li {
+  display: inline;
+  margin: 0 1em;
 }
 .logo {
   vertical-align: top;
