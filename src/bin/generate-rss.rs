@@ -198,7 +198,7 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], &matches.free[0], &matches.opt_str("t")).expect("error");
+    run(&matches.free[0], &matches.free[1], &matches.opt_str("t")).expect("error");
 }
 
 #[test]
