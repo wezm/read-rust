@@ -14,10 +14,10 @@ As well as non-web network services.
 
 <h2>
   Posts
-  <a class="feedicon" href="/rust2018/feed.rss" title="Web and Network Services RSS Feed">
+  <a class="feedicon" href="/web-and-network-services/feed.rss" title="Web and Network Services RSS Feed">
     <img src="/images/feed-icon.svg" />
   </a>
-  <a class="feedicon" href="/rust2018/feed.json" title="Web and Network Services JSON Feed">
+  <a class="feedicon" href="/web-and-network-services/feed.json" title="Web and Network Services JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>

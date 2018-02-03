@@ -7,10 +7,10 @@ IoT, and devices.
 
 <h2>
   Posts
-  <a class="feedicon" href="/rust2018/feed.rss" title="Embedded RSS Feed">
+  <a class="feedicon" href="/embedded/feed.rss" title="Embedded RSS Feed">
     <img src="/images/feed-icon.svg" />
   </a>
-  <a class="feedicon" href="/rust2018/feed.json" title="Embedded JSON Feed">
+  <a class="feedicon" href="/embedded/feed.json" title="Embedded JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>

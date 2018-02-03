@@ -9,10 +9,10 @@ and elsewhere.
 
 <h2>
   Posts
-  <a class="feedicon" href="/rust2018/feed.rss" title="Rust 2018 RSS Feed">
+  <a class="feedicon" href="/rust-2018/feed.rss" title="Rust 2018 RSS Feed">
     <img src="/images/feed-icon.svg" />
   </a>
-  <a class="feedicon" href="/rust2018/feed.json" title="Rust 2018 JSON Feed">
+  <a class="feedicon" href="/rust-2018/feed.json" title="Rust 2018 JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>
