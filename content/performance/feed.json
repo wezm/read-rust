@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1ccb8993-1118-4eb4-a1fb-0c6146948662",
+      "title": "Benchmark of different Async approaches in Rust",
+      "content_text": "The story about Rust’s async is still a bit in flux. There’s a bunch of libraries with their pros and cons and different approaches. Even I’m a bit to blame for that, as I’m writing one of my own, called Corona.",
+      "url": "https://vorner.github.io/async-bench.html",
+      "date_published": "2018-02-03T11:16:55+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "e1a29851-ab4c-4739-a41f-56e9c783f5e4",
       "title": "Faster Progress Report 2",
       "content_text": "faster began as a yak shave, created to aid base💯 in its quest to become the fastest meme on Github. Writing an explicit AVX2-accelerated version of base💯's encoder and decoder, then realizing I'd have to do the same thing again to see the speedups on my Ivy Bridge desktop, pushed me to make this library. Months later, it has blossomed into its own project, and has eclipsed base💯 in both popularity and promise.",

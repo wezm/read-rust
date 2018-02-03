@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "444386e2-51fc-488e-ac19-0aa71a4d89a3",
+      "title": "PoC: compiling to eBPF from Rust",
+      "content_text": "I have been playing with eBPF (extended Berkeley Packet Filters), a neat feature present in recent Linux versions (it evolved from the much older BPF filters). It is a virtual machine running in th…",
+      "url": "https://unhandledexpression.com/2018/02/02/poc-compiling-to-ebpf-from-rust/",
+      "date_published": "2018-02-02T20:33:08+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "93d7f09d-e1eb-4d6a-a792-5765326730be",
+      "title": "Make your own make",
+      "content_text": "An obvious idea is to use Rust for task automation. Originally, I have proposed creating a special Cargo subcommand to execute build tasks, implemented as Rust programs, in this thread. However, since then I realized that there are built-in tools in Cargo which allow one to get a pretty ergonomic solution. Namely, the combination of workspaces, aliases and ability to define binaries seems to do the trick.",
+      "url": "https://matklad.github.io//2018/01/03/make-your-own-make.html",
+      "date_published": "2018-01-03T10:52:50+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d2fc34d4-c1ec-4c3d-8e39-b420b8f20fe8",
+      "title": "Memory Safety in Rust: A Case Study with C",
+      "content_text": "To demonstrate the value of Rust's memory safety rules, I contrast the implementation of a simple vector library in C and Rust, highlighting where and how Rust's static analysis can prevent tricky memory errors.",
+      "url": "http://willcrichton.net/notes/rust-memory-safety/",
+      "date_published": "2018-02-02T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "1ccb8993-1118-4eb4-a1fb-0c6146948662",
+      "title": "Benchmark of different Async approaches in Rust",
+      "content_text": "The story about Rust’s async is still a bit in flux. There’s a bunch of libraries with their pros and cons and different approaches. Even I’m a bit to blame for that, as I’m writing one of my own, called Corona.",
+      "url": "https://vorner.github.io/async-bench.html",
+      "date_published": "2018-02-03T11:16:55+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "0cced83f-3736-4917-87a0-408fb4d9f6bb",
       "title": "Introduction to lyon: 2D vector graphics rendering on the GPU in Rust",
       "content_text": "Lyon is a side-project that I have been working on for quite a while. The goal is to play with rendering 2D vector graphics on the GPU, and it's been a lot of fun so far. I haven't talked a lot about it online (except for a couple of reddit threads a year or two ago) so I figured it would be a good topic to get this blog started.",

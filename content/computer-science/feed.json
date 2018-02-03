@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Computer Science",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/computer-science/feed.json",
+  "description": "Computer Science posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "d2fc34d4-c1ec-4c3d-8e39-b420b8f20fe8",
+      "title": "Memory Safety in Rust: A Case Study with C",
+      "content_text": "To demonstrate the value of Rust's memory safety rules, I contrast the implementation of a simple vector library in C and Rust, highlighting where and how Rust's static analysis can prevent tricky memory errors.",
+      "url": "http://willcrichton.net/notes/rust-memory-safety/",
+      "date_published": "2018-02-02T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    }
+  ]
+}

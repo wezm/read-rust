@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "93d7f09d-e1eb-4d6a-a792-5765326730be",
+      "title": "Make your own make",
+      "content_text": "An obvious idea is to use Rust for task automation. Originally, I have proposed creating a special Cargo subcommand to execute build tasks, implemented as Rust programs, in this thread. However, since then I realized that there are built-in tools in Cargo which allow one to get a pretty ergonomic solution. Namely, the combination of workspaces, aliases and ability to define binaries seems to do the trick.",
+      "url": "https://matklad.github.io//2018/01/03/make-your-own-make.html",
+      "date_published": "2018-01-03T10:52:50+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2168f429-844d-4629-97da-c149e9026cfd",
       "title": "mdcat - Cat for markdown: Show markdown documents in TTYs",
       "content_text": "Cat for markdown: Show markdown documents in TTYs",
