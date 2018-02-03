@@ -1,0 +1,16 @@
+title: Rust Blogs
+permalink: /rust-blogs.opml
+format: Raw
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+  {% for blog in site.data.rust.blogs.feeds %}
+    <outline text="{{ blog.title | replace: '"', "&quot;" }}" title="{{ blog.title | replace: '"', "&quot;" }}" type="rss" htmlUrl="{{ blog.home_page_url }}" xmlUrl="{{ blog.feed_url }}" />
+  {% endfor %}
+  </body>
+</opml>
