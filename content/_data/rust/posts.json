@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5c8f0581-5b1d-485b-852c-83c0deef73d5",
+      "title": "Rust and WebAssembly with Turtle - /var/blog",
+      "content_text": "In this post, I'll walk through a few of the highlights of getting Turtle, a Rust library for creating animated drawings, to run in the browser with WebAssembly.",
+      "url": "https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/",
+      "date_published": "2018-01-08T09:54:00-06:00",
+      "author": {
+        "name": "Marshall Pierce",
+        "url": "https://varblog.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2168f429-844d-4629-97da-c149e9026cfd",
       "title": "mdcat - Cat for markdown: Show markdown documents in TTYs",
       "content_text": "Cat for markdown: Show markdown documents in TTYs",

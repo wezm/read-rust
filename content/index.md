@@ -9,7 +9,7 @@ For updates [subscribe to a feed][feeds], or follow [@read_rust] on Twitter.
 
 ## Sections
 
-New posts are added to one or more sections.
+New posts are added to one or more sections of the following sections:
 
 * [All Posts](/all/)
 * [Crates](/crates/) — notable new crates or updates.

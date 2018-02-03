@@ -2,7 +2,7 @@ title: About
 layout: default.liquid
 ---
 
-Read Rust collects interesting posts about or related to the [Rust programming
+Read Rust collects interesting posts related to the [Rust programming
 language][rust-lang]. It is run by [Wesley Moore][wezm] with contributions
 from the Rust community. You can [follow me on Twitter][@wezm] or [Mastodon].
 
@@ -15,18 +15,24 @@ I am a proponent of the open web and as a result the content of Read Rust is
 available in a number of machine readable formats. There are feeds available
 for the whole site, as well as each of the categories:
 
-* Main feed: [RSS](/feed.rss) [JSON](feed.json)
-* Rust 2018: [RSS](/rust2018/feed.rss) [JSON](/rust2018/feed.json)
+* Main feed (all posts): [RSS](/all/feed.rss) or [JSON](/all/feed.json)
+* Crates: [RSS](/crates/feed.rss) or [JSON](/crates/feed.json)
+* Embedded: [RSS](/embedded/feed.rss) or [JSON](/embedded/feed.json)
+* Performance: [RSS](/performance/feed.rss) or [JSON](/performance/feed.json)
+* Rust 2018: [RSS](/rust-2018/feed.rss) or [JSON](/rust-2018/feed.json)
+* Tools and Applications: [RSS](/tools-and-applications/feed.rss) or [JSON](/tools-and-applications/feed.json)
+* Web and Network Services: [RSS](/web-and-network-services/feed.rss) or [JSON](/web-and-network-services/feed.json)
 
 I order to discover new posts I subscribe to a lot of Rust related RSS feeds.
-The list is available in [OPML] (readily importable into [feed readers](/faq.html#subscribe)) and JSON:
+The list is available in [OPML] (readily importable into [feed
+readers](/faq.html#subscribe)) and JSON:
 
-* Blog list: [OPML](/rust-blogs.opml) [JSON]()
+* Blog list: [OPML](/rust-blogs.opml) or [JSON]()
 
 ## Social Media
 
 Read Rust also has an account on Twitter: [@read_rust], which tweets
-each newly added post. Incidentally it's driven by the RSS feed.
+each newly added post.
 
 ## Credits
 
