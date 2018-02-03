@@ -18,6 +18,7 @@ for the whole site, as well as each of the categories:
 * Main feed (all posts): [RSS](/all/feed.rss) or [JSON](/all/feed.json)
 * Crates: [RSS](/crates/feed.rss) or [JSON](/crates/feed.json)
 * Embedded: [RSS](/embedded/feed.rss) or [JSON](/embedded/feed.json)
+* Games and Graphics: [RSS](/games-and-graphics/feed.rss) or [JSON](/games-and-graphics/feed.json)
 * Performance: [RSS](/performance/feed.rss) or [JSON](/performance/feed.json)
 * Rust 2018: [RSS](/rust-2018/feed.rss) or [JSON](/rust-2018/feed.json)
 * Tools and Applications: [RSS](/tools-and-applications/feed.rss) or [JSON](/tools-and-applications/feed.json)

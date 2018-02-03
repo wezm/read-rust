@@ -14,9 +14,10 @@ New posts are added to one or more sections of the following sections:
 * [All Posts](/all/)
 * [Crates](/crates/) — notable new crates or updates.
 * [Embedded](/embedded/) — Rust on microcontrollers, IoT, devices.
+* [Games and Graphics](/games-and-graphics/) — games built with Rust and other graphics related work.
 * [Performance](/performance/) — optimisation, benchmarks, etc.
-* [Rust 2018](/rust-2018/) — hopes and dreams for Rust in 2018
-* [Tools and Applications](/tools-and-applications/) — command line tools and GUI applications
+* [Rust 2018](/rust-2018/) — hopes and dreams for Rust in 2018.
+* [Tools and Applications](/tools-and-applications/) — command line tools and GUI applications.
 * [Web and Network Services](/web-and-network-services/) — web applications, web assembly, network daemons, etc.
 <!-- * [Community](/community/) — regarding the Rust community. -->
 <!-- * [Computer Science](/cs/) — covering data structures, algorithms, etc. -->
