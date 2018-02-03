@@ -183,8 +183,8 @@ fn main() {
     opts.optmulti("t", "tag", "tag this post with the supplied tag", "TAG");
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
-        Ok(m) => { m }
-        Err(f) => { panic!(f.to_string()) }
+        Ok(m) => m,
+        Err(f) => panic!(f.to_string()),
     };
     if matches.opt_present("h") || matches.free.is_empty() {
         print_usage(&program, opts);

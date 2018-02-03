@@ -13,7 +13,7 @@ use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
 
-use read_rust::feed::{Feed, Item, Author};
+use read_rust::feed::{Author, Feed, Item};
 use read_rust::error::Error;
 
 // Need TryFrom/Into https://github.com/sfackler/rfcs/blob/try-from/text/0000-try-from.md
@@ -92,16 +92,13 @@ fn generate_rss_items(feed: &Feed, tag: &Option<String>) -> Result<Vec<rss::Item
     feed.items
         .clone()
         .into_iter()
-        .filter_map(|item| {
-            match *tag {
-                Some(ref tag) => if item.tags.contains(tag) {
-                    Some(item.try_into())
-                }
-                else {
-                    None
-                },
-                None => Some(item.try_into())
-            }
+        .filter_map(|item| match *tag {
+            Some(ref tag) => if item.tags.contains(tag) {
+                Some(item.try_into())
+            } else {
+                None
+            },
+            None => Some(item.try_into()),
         })
         .collect()
 }
@@ -124,9 +121,14 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str, tag: &Option<String>) -> Resul
     }
 }
 
-fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) -> Result<Feed, Error> {
+fn generate_json_feed(
+    feed: &Feed,
+    json_feed_path: &Path,
+    tag: &Option<String>,
+) -> Result<Feed, Error> {
     let filtered_items = match *tag {
-        Some(ref tag) => feed.items.clone()
+        Some(ref tag) => feed.items
+            .clone()
             .into_iter()
             .filter(|item| item.tags.contains(tag))
             .collect(),
@@ -134,7 +136,10 @@ fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) 
     };
 
     let tag_name = tag.clone().unwrap_or("All Posts".to_owned());
-    let slug = tag.clone().unwrap_or("all".to_owned()).to_lowercase().replace(" ", "-");
+    let slug = tag.clone()
+        .unwrap_or("all".to_owned())
+        .to_lowercase()
+        .replace(" ", "-");
     let home_page_url = "http://readrust.net/";
 
     let filtered_feed = Feed {
@@ -157,7 +162,10 @@ fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) 
 }
 
 fn print_usage(program: &str, opts: Options) {
-    let brief = format!("Usage: {} [options] input-feed.json output-feed.rss", program);
+    let brief = format!(
+        "Usage: {} [options] input-feed.json output-feed.rss",
+        program
+    );
     print!("{}", opts.usage(&brief));
 }
 
@@ -174,11 +182,16 @@ fn main() {
     let program = args[0].clone();
 
     let mut opts = Options::new();
-    opts.optopt("t", "tag", "generate RSS feed from posts with this tag", "TAG");
+    opts.optopt(
+        "t",
+        "tag",
+        "generate RSS feed from posts with this tag",
+        "TAG",
+    );
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
-        Ok(m) => { m }
-        Err(f) => { panic!(f.to_string()) }
+        Ok(m) => m,
+        Err(f) => panic!(f.to_string()),
     };
     if matches.opt_present("h") || matches.free.is_empty() {
         print_usage(&program, opts);
