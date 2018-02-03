@@ -6,10 +6,10 @@ Building games with Rust and other graphics related work.
 
 <h2>
   Posts
-  <a class="feedicon" href="/tools-and-applications/feed.rss" title="Games and Graphics RSS Feed">
+  <a class="feedicon" href="/games-and-graphics/feed.rss" title="Games and Graphics RSS Feed">
     <img src="/images/feed-icon.svg" />
   </a>
-  <a class="feedicon" href="/tools-and-applications/feed.json" title="Games and Graphics JSON Feed">
+  <a class="feedicon" href="/games-and-graphics/feed.json" title="Games and Graphics JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>
