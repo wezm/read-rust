@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "#Rust2018",
+  "title": "Read Rust - Rust 2018",
   "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/rust2018/feed.json",
-  "description": "Posts from the Rust 2018 initiative.",
+  "feed_url": "http://readrust.net/rust-2018/feed.json",
+  "description": "Rust 2018 posts on Read Rust",
   "author": {
     "name": "Wesley Moore",
     "url": "http://www.wezm.net/"
@@ -18,7 +18,10 @@
       "author": {
         "name": "Dan Barella",
         "url": "https://barel.la/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "99cd44d4-1722-4d1e-a002-693fac055af1",
@@ -29,7 +32,10 @@
       "author": {
         "name": "Kamal Marhubi",
         "url": "http://kamalmarhubi.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "cdf001ee-aea6-47e3-be58-527a3b7fdc08",
@@ -40,7 +46,10 @@
       "author": {
         "name": "Zayenz",
         "url": "https://blog.zayenz.se/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "c752755c-985e-44d4-a15f-1dac8fffa86c",
@@ -51,7 +60,10 @@
       "author": {
         "name": "Andy Grove",
         "url": "https://andygrove.io/blog"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "b02d9dda-9c01-481b-8111-0241bf8e99d4",
@@ -62,7 +74,10 @@
       "author": {
         "name": "@booyaa",
         "url": "https://github.com/booyaa"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "e200a902-0b10-41fa-99ce-241d38311eea",
@@ -73,7 +88,10 @@
       "author": {
         "name": "Alexander Payne",
         "url": "https://myrrlyn.net/blog"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9de23e26-5e53-4569-afb2-0576494c75f5",
@@ -84,7 +102,10 @@
       "author": {
         "name": "SelfDistinction",
         "url": "https://www.reddit.com/user/SelfDistinction"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9a9ed680-6525-4c70-ae8a-c4c8f6941cf1",
@@ -95,7 +116,10 @@
       "author": {
         "name": "William Uther",
         "url": "https://lliwynd.blogspot.com.au/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "d2189bca-0b13-451d-b70c-70ec43f7a207",
@@ -106,7 +130,11 @@
       "author": {
         "name": "Jonathan Soo",
         "url": "http://www.bobbin.io/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018",
+        "Embedded"
+      ]
     },
     {
       "id": "a9de17fb-57cf-442a-988c-8ab1ec79b3db",
@@ -117,7 +145,10 @@
       "author": {
         "name": "Ed Page",
         "url": "https://epage.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "ae85973e-7540-4027-b53a-ee41a249d124",
@@ -128,7 +159,11 @@
       "author": {
         "name": "Nico",
         "url": "https://www.reddit.com/user/nicoburns"
-      }
+      },
+      "tags": [
+        "Rust 2018",
+        "Embedded"
+      ]
     },
     {
       "id": "35094e1a-b385-47a6-a93f-67f8842992d6",
@@ -139,7 +174,10 @@
       "author": {
         "name": "Epicat Supercell",
         "url": "https://www.reddit.com/user/EpicatSupercell"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "1151cad4-ce36-4944-96d3-e6062f1daf97",
@@ -150,7 +188,10 @@
       "author": {
         "name": "Vignesh Sankaran",
         "url": "https://medium.com/@vign_esh"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "a59a299c-28d1-4c41-9563-47faea69a0b7",
@@ -161,7 +202,11 @@
       "author": {
         "name": "Jorge Aparicio",
         "url": "http://blog.japaric.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018",
+        "Embedded"
+      ]
     },
     {
       "id": "e2276407-cab7-48f6-8a4e-b981fbed0417",
@@ -172,7 +217,10 @@
       "author": {
         "name": "Eduardo Pinho",
         "url": "https://medium.com/@e_net4"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "268f9a5c-3a44-4ca8-b500-68fd045a2d47",
@@ -183,7 +231,10 @@
       "author": {
         "name": "Rahul Sharma",
         "url": "https://creativcoder.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "0c26d758-55c5-4591-9c4f-5f0d2a6cc347",
@@ -194,7 +245,10 @@
       "author": {
         "name": "Pradeep Gowda",
         "url": "http://techne.btbytes.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "ce30f9ab-eef4-47c0-84e9-ffb704317314",
@@ -205,7 +259,10 @@
       "author": {
         "name": "Diwic",
         "url": "https://github.com/diwic"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "3f3b1ba5-ee90-4ece-b303-2c083010602e",
@@ -216,7 +273,10 @@
       "author": {
         "name": "Kelsey Zapata",
         "url": "https://kelseasy.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "329c3ef3-1602-477e-9a38-e5becaf2aab1",
@@ -227,7 +287,10 @@
       "author": {
         "name": "Garrett Berg",
         "url": "http://vitiral.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "a1e767fe-7557-4092-8f54-2071617c89b3",
@@ -238,7 +301,10 @@
       "author": {
         "name": "willmurphyscode",
         "url": "https://willmurphyscode.net/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "41624f5a-61da-4a5b-a347-5918dccfe3a9",
@@ -249,7 +315,10 @@
       "author": {
         "name": "mark-i-m",
         "url": "https://github.com/mark-i-m"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "56bc0e93-0a95-40ce-b60e-7f50c6e41560",
@@ -260,7 +329,10 @@
       "author": {
         "name": "Jakub Matraszek",
         "url": "http://matraszek.net/posts/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "db216954-cdc9-4253-a155-6e9c7a25cd39",
@@ -271,7 +343,10 @@
       "author": {
         "name": "Aaron Turon",
         "url": "http://aturon.github.io/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "b82f509d-28c8-4859-afe4-a9d4e47538d0",
@@ -282,7 +357,10 @@
       "author": {
         "name": "CodingChris",
         "url": "https://www.reddit.com/user/CodingChris"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9b240369-ee8e-4d0d-8914-92bbb0145411",
@@ -293,7 +371,10 @@
       "author": {
         "name": "Jethro Beekman",
         "url": "https://www.fortanix.com/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "35c2903a-687a-448d-b594-c46ee423989d",
@@ -304,7 +385,10 @@
       "author": {
         "name": "Ossi Herrala",
         "url": "https://medium.com/@oherrala"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "11b9b0c3-6cde-450a-91b8-41e4bfc0a514",
@@ -315,7 +399,10 @@
       "author": {
         "name": "Sergey Potapov",
         "url": "http://greyblake.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "5fdd7918-2122-4ff3-875c-0facf2bcd1f1",
@@ -326,7 +413,10 @@
       "author": {
         "name": "Yehuda Katz",
         "url": "http://www.yehudakatz.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "40d80139-ee61-4eb1-9a66-eb3fba32430f",
@@ -337,7 +427,10 @@
       "author": {
         "name": "Chris Evans",
         "url": "https://medium.com/@cevans3326"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "3936cf7f-ef74-4203-9302-bcce349e9ca5",
@@ -348,7 +441,10 @@
       "author": {
         "name": "Dru Erridge",
         "url": "http://druerridge.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "c7becfa2-4e61-490a-838c-7b207956e21f",
@@ -359,7 +455,10 @@
       "author": {
         "name": "Yoshua Wuyts",
         "url": "https://medium.com/@yoshuawuyts"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "e7a79828-6bc7-4b09-ac5a-4be76f4a18d4",
@@ -370,7 +469,10 @@
       "author": {
         "name": "theotherphil",
         "url": "https://www.reddit.com/user/theotherphil"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "87cb487b-6922-4675-b3d9-9a6767bb5a1c",
@@ -381,7 +483,10 @@
       "author": {
         "name": "Dirkjan Ochtman",
         "url": "https://dirkjan.ochtman.nl/writing"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "4bf00d31-d65c-43fc-b95a-5caa3df0ac4b",
@@ -392,7 +497,10 @@
       "author": {
         "name": "Doug Tangren",
         "url": "https://medium.com/@softprops"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "f3f500d5-d108-4f83-808e-e15ad520cce7",
@@ -403,7 +511,11 @@
       "author": {
         "name": "theJPster",
         "url": "http://railwayelectronics.blogspot.com.au/"
-      }
+      },
+      "tags": [
+        "Rust 2018",
+        "Embedded"
+      ]
     },
     {
       "id": "4d4b233f-fba3-4e3e-9e80-fe79603a38b0",
@@ -414,7 +526,10 @@
       "author": {
         "name": "David Herman",
         "url": "http://calculist.org/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "6b8e7f04-ece2-4dd1-9256-4ce6881d3c11",
@@ -425,7 +540,10 @@
       "author": {
         "name": "Mihails Strasuns",
         "url": "https://blog.mist.global/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "2a2b7699-5a1a-4379-8a33-3faf4badd512",
@@ -436,7 +554,10 @@
       "author": {
         "name": "Florian Gilcher",
         "url": "http://yakshav.es/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "59a502dd-84c7-4ad1-9a78-7d042495a25b",
@@ -447,7 +568,10 @@
       "author": {
         "name": "Murali Mohan Rath",
         "url": "http://www.mmrath.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "79f7ee1c-a798-4241-bc2a-902f8a16c548",
@@ -458,7 +582,10 @@
       "author": {
         "name": "osamc",
         "url": "https://www.reddit.com/user/osamc"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "072421d7-7def-43b7-b3f8-441d735cba8c",
@@ -469,7 +596,10 @@
       "author": {
         "name": "Jan Walter",
         "url": "https://www.janwalter.org/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "92c745cd-26fa-41e0-8b1b-a9827873af6e",
@@ -480,7 +610,10 @@
       "author": {
         "name": "Michal 'vorner' Vaner",
         "url": "https://vorner.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "afadc638-f50b-42a3-a058-a475109ce9a7",
@@ -491,7 +624,10 @@
       "author": {
         "name": "Geoffroy Couprie",
         "url": "https://unhandledexpression.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "4a40cb13-61ed-461e-9117-57e3a530ab61",
@@ -502,7 +638,10 @@
       "author": {
         "name": "Mathieu Poumeyrol",
         "url": "https://medium.com/@mathieu.poumeyrol"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9bd09566-0ba0-47a2-9400-a01a0e218e51",
@@ -513,7 +652,10 @@
       "author": {
         "name": "Theodore Keloglou",
         "url": "https://medium.com/@sirodoht"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "6aea5335-d3b5-4c36-be35-8461d9206149",
@@ -524,7 +666,10 @@
       "author": {
         "name": "Nabeel Ali Memon",
         "url": "https://medium.com/@nimtiazm"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "28b10d91-030e-4828-b02e-4d173b8cfab9",
@@ -535,7 +680,10 @@
       "author": {
         "name": "Black Djikstra",
         "url": "https://medium.com/@blackdjikstra"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "914dd414-184a-4d72-adfe-cea12e7a9fe4",
@@ -546,7 +694,10 @@
       "author": {
         "name": "llogiq",
         "url": "https://llogiq.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "0304d95e-71f7-47c8-b415-5d6d2ffb5e85",
@@ -557,7 +708,10 @@
       "author": {
         "name": "Kasper Andersen",
         "url": "https://kasma1990.gitlab.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "f281d4cb-864b-4afa-98be-67a773a5bbf5",
@@ -568,7 +722,10 @@
       "author": {
         "name": "Carlo Milanesi",
         "url": "https://carlomilanesi.wordpress.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "547cd24b-800d-406a-8608-62197c4a23f2",
@@ -579,7 +736,10 @@
       "author": {
         "name": "Noah Weninger",
         "url": "https://byte.observer/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "92a3a3bb-1858-49c7-9a91-7750060fdedf",
@@ -590,7 +750,10 @@
       "author": {
         "name": "Matthias Beyer",
         "url": "https://beyermatthias.de/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "fa1c0f13-5a61-40d8-8ac5-0c702578abd8",
@@ -601,7 +764,10 @@
       "author": {
         "name": "austinstig",
         "url": "https://github.com/austinstig"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "75ae624e-fe9b-4705-9bc2-99066deeb214",
@@ -612,7 +778,10 @@
       "author": {
         "name": "samuelresendez",
         "url": "http://samuelresendez.me/scribbles/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "e769013d-619e-4180-8ca7-3960e1440ea1",
@@ -623,7 +792,10 @@
       "author": {
         "name": "Adam Niederer",
         "url": "https://adamniederer.com/blog/blog.html"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "cb089afe-f076-4527-bb9a-342be41414e1",
@@ -634,7 +806,10 @@
       "author": {
         "name": "Julia Evans",
         "url": "https://jvns.ca/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "8a17aa75-d002-4e09-bfdf-d5d38241950c",
@@ -645,7 +820,10 @@
       "author": {
         "name": "est31",
         "url": "https://github.com/est31"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "1cc61fb9-22bb-476d-b133-c1c38d2e9f64",
@@ -656,7 +834,10 @@
       "author": {
         "name": "Wesley Moore",
         "url": "http://www.wezm.net/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "438424a8-c55f-49c7-9860-683e805bc36e",
@@ -667,7 +848,10 @@
       "author": {
         "name": "richhyd",
         "url": "https://www.reddit.com/user/richhyd"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "91e2a724-3253-43ec-8b62-bd6285d7895c",
@@ -678,7 +862,10 @@
       "author": {
         "name": "0b_0101_001_1010",
         "url": "https://www.reddit.com/user/0b_0101_001_1010"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9415f407-45c8-430e-b4e2-a6947848acaf",
@@ -689,7 +876,10 @@
       "author": {
         "name": "Claus",
         "url": "https://blog.x5ff.xyz/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "c6752215-9ccb-4c67-b512-bd2cfdcaae86",
@@ -700,7 +890,10 @@
       "author": {
         "name": "Lokathor",
         "url": "https://www.reddit.com/user/Lokathor"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "f114d011-5554-4169-8cca-d01512308bab",
@@ -711,7 +904,10 @@
       "author": {
         "name": "Manish Goregaokar",
         "url": "https://manishearth.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9f51e626-4330-4ddd-984a-34e3b582b171",
@@ -722,7 +918,10 @@
       "author": {
         "name": "tuxmanexe",
         "url": "https://www.reddit.com/user/tuxmanexe"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "ae0144fa-a8c5-416f-8c2c-02ae2ad11c79",
@@ -733,7 +932,10 @@
       "author": {
         "name": "Ashley Mannix",
         "url": "https://github.com/KodrAus"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "b1a7569d-c5e6-41d9-99ea-18c4b7e9105e",
@@ -744,7 +946,10 @@
       "author": {
         "name": "Matthias Endler",
         "url": "https://matthias-endler.de/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "c506e8b8-69f1-4f39-803a-6e3a34c06145",
@@ -755,7 +960,11 @@
       "author": {
         "name": "Pierre Rouanet",
         "url": "https://medium.com/@pierre.rouanet"
-      }
+      },
+      "tags": [
+        "Rust 2018",
+        "Embedded"
+      ]
     },
     {
       "id": "067c467f-3922-40d0-a0e6-f35eafeaffc7",
@@ -766,7 +975,10 @@
       "author": {
         "name": "gilescope",
         "url": "http://gilescope.ninja/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "681f1733-be53-4798-9198-6a1562783fd5",
@@ -777,7 +989,10 @@
       "author": {
         "name": "Benjamin Fry",
         "url": "https://bluejekyll.github.io/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "bea672e3-d5bb-4008-9439-76fe914f46a7",
@@ -788,7 +1003,10 @@
       "author": {
         "name": "Henri Sivonen",
         "url": "https://hsivonen.fi/author/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "80e6cc62-73cd-4b55-bcbf-5770348ed843",
@@ -799,7 +1017,10 @@
       "author": {
         "name": "lurebat",
         "url": "https://www.reddit.com/user/lurebat"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "df1ee60b-5fb1-49a4-a0e8-1f05961ed250",
@@ -810,7 +1031,10 @@
       "author": {
         "name": "Garrett Squire",
         "url": "https://gsquire.github.io/static/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "8104012c-3de8-4824-b11f-9bbaafff2408",
@@ -821,7 +1045,10 @@
       "author": {
         "name": "Christopher Durham",
         "url": "https://dev.to/cad97"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "19c0f10d-e9a9-4f53-9f6f-08a106809a30",
@@ -832,7 +1059,10 @@
       "author": {
         "name": "Pascal Hertleif",
         "url": "https://deterministic.space/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "818cfee5-06f3-4d25-b4b9-cafb65a57697",
@@ -843,7 +1073,10 @@
       "author": {
         "name": "Tomas Sedovic",
         "url": "https://aimlesslygoingforward.com/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "60351f3f-c088-42df-819e-a3ad0c44772a",
@@ -854,7 +1087,10 @@
       "author": {
         "name": "Aaron Turon",
         "url": "http://aturon.github.io/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "b17769a4-33cf-476a-ab72-88760bf8e8ec",
@@ -865,7 +1101,10 @@
       "author": {
         "name": "Jonathan Turner",
         "url": "http://www.jonathanturner.org/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "bd4a7ce1-c702-4965-b9c4-01e0ffca352b",
@@ -876,7 +1115,10 @@
       "author": {
         "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "8595c82d-ae75-4e7c-8e19-e7458849d61b",
@@ -887,7 +1129,10 @@
       "author": {
         "name": "Steve Klabnik",
         "url": "http://words.steveklabnik.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "fa46df66-4a9e-4500-8d64-270c723b1071",
@@ -898,7 +1143,10 @@
       "author": {
         "name": "Niko Matsakis",
         "url": "http://smallcultfollowing.com/babysteps/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "8c52a558-78c4-4c5a-b06b-7d254af78db3",
@@ -909,7 +1157,10 @@
       "author": {
         "name": "Tibo Delor",
         "url": "https://hackernoon.com/@tibotz"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "de1fbb2e-47e5-4477-8b2c-533a82b479aa",
@@ -920,7 +1171,10 @@
       "author": {
         "name": "Preston Carpenter",
         "url": "https://timidger.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "342a3884-6f24-4d2e-8a60-11d9ec06f5ee",
@@ -931,7 +1185,10 @@
       "author": {
         "name": "Geraldo Barros",
         "url": "https://mozillabr.org/author/geraldobarros/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "36658802-1c32-4af9-b41f-f2ce2adca813",
@@ -942,7 +1199,10 @@
       "author": {
         "name": "Tim McNamara",
         "url": "http://always-learning.timmcnamara.co.nz/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "87167446-604f-4bda-b1b1-2f13ea712655",
@@ -953,7 +1213,10 @@
       "author": {
         "name": "Lukas Kalbertodt",
         "url": "http://lukaskalbertodt.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "6b64ad00-dbd7-4974-8e82-503c2faa9798",
@@ -964,7 +1227,10 @@
       "author": {
         "name": "Kyle Huey",
         "url": "http://blog.kylehuey.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "3b88c9f8-870f-4b97-a9e3-34cf5fc5f118",
@@ -975,7 +1241,10 @@
       "author": {
         "name": "QuietMisdreavus",
         "url": "https://quietmisdreavus.net/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "52d67205-01cc-4100-aee3-646795db6b95",
@@ -986,7 +1255,10 @@
       "author": {
         "name": "Rasmus Kaj",
         "url": "https://rasmus.krats.se/en"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "9d6a825b-75f7-4e63-8ada-4fa21202f843",
@@ -997,7 +1269,10 @@
       "author": {
         "name": "Nick Cameron",
         "url": "http://www.ncameron.org/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "80b271ae-2668-4577-9512-f7562e651253",
@@ -1008,7 +1283,10 @@
       "author": {
         "name": "Andrew Brinker",
         "url": "http://www.suspectsemantics.com/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "6e9f2101-5cff-4356-95ea-43146f207fc5",
@@ -1019,7 +1297,10 @@
       "author": {
         "name": "Matthew Mayer",
         "url": "https://matthewkmayer.github.io/blag/public"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "dbe7f7e3-229a-4d77-8d9f-7d857c051b54",
@@ -1030,7 +1311,10 @@
       "author": {
         "name": "Nathan Vegdahl",
         "url": "https://github.com/cessen"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "4880546f-66a5-461b-a3b0-c0e31379b23d",
@@ -1041,7 +1325,10 @@
       "author": {
         "name": "Jonathan Turner",
         "url": "http://www.jonathanturner.org/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "2fae2fb9-686e-4b6e-a4e9-7cc28275bf44",
@@ -1052,7 +1339,10 @@
       "author": {
         "name": "Brian L. Troutwine",
         "url": "http://blog.troutwine.us/author/blt/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "88162fa2-6b84-4c3e-82e8-9e4443cb11c0",
@@ -1063,7 +1353,10 @@
       "author": {
         "name": "Carol Nichols",
         "url": "http://integer32.com/blog/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "3f34d83f-f520-4bfa-a6a8-f08e3a0bea9d",
@@ -1074,7 +1367,10 @@
       "author": {
         "name": "κeen",
         "url": "https://keens.github.io/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "56870365-7dc4-4449-9f18-19caa0414b6b",
@@ -1085,7 +1381,10 @@
       "author": {
         "name": "Felix Schütt",
         "url": "https://codeburst.io/@fschutt"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     },
     {
       "id": "6d59f1d8-c073-47db-b3f5-0001878fd372",
@@ -1096,7 +1395,10 @@
       "author": {
         "name": "Rust Blog",
         "url": "https://blog.rust-lang.org/"
-      }
+      },
+      "tags": [
+        "Rust 2018"
+      ]
     }
   ]
 }
