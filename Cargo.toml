@@ -5,6 +5,7 @@ authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
 chrono = { version = "0.4.0", features = ['serde'] }
+getopts = "0.2"
 kuchiki = "0.6"
 opengraph = "0.1"
 reqwest = "0.8"

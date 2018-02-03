@@ -25,6 +25,7 @@ pub struct Item {
     pub url: String,
     pub date_published: DateTime<FixedOffset>, // (Example: 2010-02-07T14:04:00-05:00.)
     pub author: Author,
+    pub tags: Vec<String>,
 }
 
 #[derive(Serialize, Deserialize)]

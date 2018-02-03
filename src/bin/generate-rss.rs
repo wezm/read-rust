@@ -1,8 +1,7 @@
 extern crate chrono;
+extern crate getopts;
 extern crate read_rust;
 extern crate rss;
-#[macro_use]
-extern crate serde_derive;
 extern crate serde_json;
 
 use std::env;
@@ -12,18 +11,10 @@ use std::path::Path;
 use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 
 use chrono::{DateTime, Datelike, FixedOffset};
+use getopts::Options;
 
-use read_rust::feed::{Feed, Item};
+use read_rust::feed::{Feed, Item, Author};
 use read_rust::error::Error;
-
-const ARG_COUNT: usize = 3;
-
-#[derive(Serialize)]
-struct Post<'a> {
-    title: &'a str,
-    url: &'a str,
-    author_name: &'a str,
-}
 
 // Need TryFrom/Into https://github.com/sfackler/rfcs/blob/try-from/text/0000-try-from.md
 pub trait TryFrom<T>: Sized {
@@ -97,15 +88,26 @@ impl TryFrom<Item> for rss::Item {
     }
 }
 
-fn generate_rss_items(feed: &Feed) -> Result<Vec<rss::Item>, Error> {
+fn generate_rss_items(feed: &Feed, tag: &Option<String>) -> Result<Vec<rss::Item>, Error> {
     feed.items
-        .iter()
-        .map(|item| item.clone().try_into())
+        .clone()
+        .into_iter()
+        .filter_map(|item| {
+            match *tag {
+                Some(ref tag) => if item.tags.contains(tag) {
+                    Some(item.try_into())
+                }
+                else {
+                    None
+                },
+                None => Some(item.try_into())
+            }
+        })
         .collect()
 }
 
-fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
-    let items = generate_rss_items(feed)?;
+fn generate_rss(feed: &Feed, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
+    let items = generate_rss_items(feed, tag)?;
 
     let channel = ChannelBuilder::default()
         .title(feed.title.clone())
@@ -122,38 +124,67 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str) -> Result<(), Error> {
     }
 }
 
-fn generate_site_data(feed: &Feed, site_data_path: &str) -> Result<(), Error> {
-    let mut sorted_items = feed.items.clone();
-    sorted_items.sort_by(|a, b| b.date_published.cmp(&a.date_published));
+fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) -> Result<(), Error> {
+    let filtered_items = match *tag {
+        Some(ref tag) => feed.items.clone()
+            .into_iter()
+            .filter(|item| item.tags.contains(tag))
+            .collect(),
+        None => feed.items.clone(),
+    };
 
-    let posts: Vec<Post> = sorted_items
-        .iter()
-        .map(|item| Post {
-            title: &item.title,
-            url: &item.url,
-            author_name: &item.author.name,
-        })
-        .collect();
+    let tag_name = tag.clone().unwrap_or("All Posts".to_owned());
+    let slug = tag.clone().unwrap_or("all".to_owned()).to_lowercase().replace(" ", "-");
+    let home_page_url = "http://readrust.net/";
 
-    let file = File::create(site_data_path).map_err(Error::Io)?;
-    serde_json::to_writer_pretty(file, &posts).map_err(Error::JsonError)
+    let filtered_feed = Feed {
+        version: "https://jsonfeed.org/version/1".to_owned(),
+        title: format!("Read Rust - {}", tag_name),
+        home_page_url: home_page_url.to_owned(),
+        feed_url: format!("{}{}/feed.json", home_page_url, slug),
+        description: format!("{} posts on Read Rust", tag_name),
+        author: Author {
+            name: "Wesley Moore".to_owned(),
+            url: "http://www.wezm.net/".to_owned(),
+        },
+        items: filtered_items,
+    };
+
+    let file = File::create(json_feed_path).map_err(Error::Io)?;
+    serde_json::to_writer_pretty(file, &filtered_feed).map_err(Error::JsonError)
 }
 
-fn run(json_feed_path: &str, rss_feed_path: &str, site_data_path: &str) -> Result<(), Error> {
-    let feed = Feed::load(Path::new(json_feed_path))?;
+fn print_usage(program: &str, opts: Options) {
+    let brief = format!("Usage: {} [options] input-feed.json output-feed.rss", program);
+    print!("{}", opts.usage(&brief));
+}
 
-    generate_rss(&feed, rss_feed_path).and_then(|()| generate_site_data(&feed, site_data_path))
+fn run(input_feed_path: &str, rss_feed_path: &str, tag: Option<String>) -> Result<(), Error> {
+    let feed = Feed::load(Path::new(input_feed_path))?;
+
+    let json_feed_path = Path::new(rss_feed_path).with_extension("json");
+    generate_rss(&feed, rss_feed_path, &tag)
+        .and_then(|()| generate_json_feed(&feed, &json_feed_path, &tag))
+
 }
 
 fn main() {
-    let args = env::args().skip(1).take(ARG_COUNT).collect::<Vec<_>>();
+    let args: Vec<String> = env::args().collect();
+    let program = args[0].clone();
 
-    if args.len() != ARG_COUNT {
-        println!("Usage: generate-rss feed.json feed.rss site-data/feeds.json");
-        std::process::exit(1);
+    let mut opts = Options::new();
+    opts.optopt("t", "tag", "generate RSS feed from posts with this tag", "TAG");
+    opts.optflag("h", "help", "print this help menu");
+    let matches = match opts.parse(&args[1..]) {
+        Ok(m) => { m }
+        Err(f) => { panic!(f.to_string()) }
+    };
+    if matches.opt_present("h") || matches.free.is_empty() {
+        print_usage(&program, opts);
+        return;
     }
 
-    run(&args[0], &args[1], &args[2]).expect("error!");
+    run(&matches.free[0], &matches.free[1], matches.opt_str("t")).expect("error");
 }
 
 #[test]
