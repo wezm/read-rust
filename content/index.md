@@ -29,10 +29,10 @@ New posts are added to one or more sections of the following sections:
 
 <h2>
   Recent Posts
-  <a class="feedicon" href="/rust2018/feed.rss" title="Read Rust RSS Feed">
+  <a class="feedicon" href="/all/feed.rss" title="Read Rust RSS Feed">
     <img src="/images/feed-icon.svg" />
   </a>
-  <a class="feedicon" href="/rust2018/feed.json" title="Read Rust JSON Feed">
+  <a class="feedicon" href="/all/feed.json" title="Read Rust JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>
