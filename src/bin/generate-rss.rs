@@ -135,9 +135,9 @@ fn generate_json_feed(
         None => feed.items.clone(),
     };
 
-    let tag_name = tag.clone().unwrap_or("All Posts".to_owned());
+    let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
     let slug = tag.clone()
-        .unwrap_or("all".to_owned())
+        .unwrap_or_else(|| "all".to_owned())
         .to_lowercase()
         .replace(" ", "-");
     let home_page_url = "http://readrust.net/";
@@ -161,7 +161,7 @@ fn generate_json_feed(
     Ok(filtered_feed)
 }
 
-fn print_usage(program: &str, opts: Options) {
+fn print_usage(program: &str, opts: &Options) {
     let brief = format!(
         "Usage: {} [options] input-feed.json output-feed.rss",
         program
@@ -169,12 +169,12 @@ fn print_usage(program: &str, opts: Options) {
     print!("{}", opts.usage(&brief));
 }
 
-fn run(input_feed_path: &str, rss_feed_path: &str, tag: Option<String>) -> Result<(), Error> {
+fn run(input_feed_path: &str, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
     let feed = Feed::load(Path::new(input_feed_path))?;
 
     let json_feed_path = Path::new(rss_feed_path).with_extension("json");
-    let filtered_feed = generate_json_feed(&feed, &json_feed_path, &tag)?;
-    generate_rss(&filtered_feed, rss_feed_path, &tag)
+    let filtered_feed = generate_json_feed(&feed, &json_feed_path, tag)?;
+    generate_rss(&filtered_feed, rss_feed_path, tag)
 }
 
 fn main() {
@@ -194,11 +194,11 @@ fn main() {
         Err(f) => panic!(f.to_string()),
     };
     if matches.opt_present("h") || matches.free.is_empty() {
-        print_usage(&program, opts);
+        print_usage(&program, &opts);
         return;
     }
 
-    run(&matches.free[0], &matches.free[1], matches.opt_str("t")).expect("error");
+    run(&matches.free[0], &matches.free[0], &matches.opt_str("t")).expect("error");
 }
 
 #[test]
