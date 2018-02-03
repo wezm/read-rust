@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Web and Network Services",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/web-and-network-services/feed.json",
+  "description": "Web and Network Services posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "5c8f0581-5b1d-485b-852c-83c0deef73d5",
+      "title": "Rust and WebAssembly with Turtle - /var/blog",
+      "content_text": "In this post, I'll walk through a few of the highlights of getting Turtle, a Rust library for creating animated drawings, to run in the browser with WebAssembly.",
+      "url": "https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/",
+      "date_published": "2018-01-08T09:54:00-06:00",
+      "author": {
+        "name": "Marshall Pierce",
+        "url": "https://varblog.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    }
+  ]
+}

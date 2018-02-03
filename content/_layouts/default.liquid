@@ -6,25 +6,46 @@
     <title>{{ page.title }} – Read Rust</title>
     <link rel="stylesheet" type="text/css" href="/fonts.css">
     <link rel="stylesheet" type="text/css" href="/index.css">
-    <link rel="alternate" title="#Rust2018 JSON Feed" type="application/json" href="http://readrust.net/rust2018/feed.json" />
-    <link rel="alternate" title="#Rust2018 RSS Feed" type="application/rss+xml" href="http://readrust.net/rust2018/feed.rss">
-    <meta name="description" content="Read Rust provides feeds that you can subscribe to in order to keep up with #Rust2018 no matter where articles are published.">
+
+    <link rel="alternate" title="Read Rust - All Posts" type="application/rss+xml" href="/all/feed.rss">
+    <link rel="alternate" title="Read Rust - Crates" type="application/rss+xml" href="/crates/feed.rss">
+    <link rel="alternate" title="Read Rust - Embedded" type="application/rss+xml" href="/embedded/feed.rss">
+    <link rel="alternate" title="Read Rust - Games and Graphics" type="application/rss+xml" href="/games-and-graphics/feed.rss">
+    <link rel="alternate" title="Read Rust - Performance" type="application/rss+xml" href="/performance/feed.rss">
+    <link rel="alternate" title="Read Rust - Rust 2018" type="application/rss+xml" href="/rust-2018/feed.rss">
+    <link rel="alternate" title="Read Rust - Tools and Applications" type="application/rss+xml" href="/tools-and-applications/feed.rss">
+    <link rel="alternate" title="Read Rust - Web and Network Services" type="application/rss+xml" href="/web-and-network-services/feed.rss">
+
+    <meta name="description" content="Read Rust collects interesting posts related to the Rust programming language.">
   </head>
   <body>
     <header>
-      <a href="/">Read</a>
-      <a href="/"><img src="/images/logo.svg" class="logo" /></a>
-      <a href="/">Rust</a>
+      <a href="/">Read <img src="/images/logo.svg" class="logo" /> Rust</a>
+
+      <nav>
+        <div class="list-inline">
+          <div><a href="/">Home</a></div>
+          <div><a href="/about.html">About</a></div>
+          <div><a href="/faq.html">FAQ</a></div>
+          <div><a href="/submit.html">Submit</a></div>
+        </div>
+      </nav>
     </header>
     <div class="main">
-      <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+      <h1>{{ page.title }}</h1>
       {{ page.content }}
     </div>
     <footer>
-      Copyright © 2018 <a href="http://www.wezm.net/about/">Wesley Moore</a>.
-      <a href="https://github.com/wezm/read-rust">Source code on GitHub</a>.
-      <br>
-      Website built with <a href="http://cobalt-org.github.io/">Cobalt</a>.
+      <form method="get" id="search" class="right" action="https://duckduckgo.com/">
+        <input name="sites" value="readrust.net" type="hidden">
+        <input name="kz" value="-1" type="hidden">
+        <input name="kaf" value="1" type="hidden">
+        <input name="q" id="q" maxlength="255" placeholder="Search" autocapitalize="off" autocomplete="off" title="Search Read Rust" type="text">
+        <input value="Search" type="submit">
+      </form>
+
+      Copyright © 2018 <a href="http://www.wezm.net/about/">Wesley Moore</a>.<br>
+      Powered by <a href="https://www.freebsd.org/">FreeBSD</a>. Built with <a href="http://cobalt-org.github.io/">Cobalt</a>.
     </footer>
   </body>
 </html>

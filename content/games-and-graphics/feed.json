@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Games and Graphics",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/games-and-graphics/feed.json",
+  "description": "Games and Graphics posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "0cced83f-3736-4917-87a0-408fb4d9f6bb",
+      "title": "Introduction to lyon: 2D vector graphics rendering on the GPU in Rust",
+      "content_text": "Lyon is a side-project that I have been working on for quite a while. The goal is to play with rendering 2D vector graphics on the GPU, and it's been a lot of fun so far. I haven't talked a lot about it online (except for a couple of reddit threads a year or two ago) so I figured it would be a good topic to get this blog started.",
+      "url": "https://nical.github.io/posts/lyon-intro.html",
+      "date_published": "2018-01-22T00:00:00+01:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    }
+  ]
+}

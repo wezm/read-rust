@@ -1,0 +1,28 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Performance",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/performance/feed.json",
+  "description": "Performance posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "e1a29851-ab4c-4739-a41f-56e9c783f5e4",
+      "title": "Faster Progress Report 2",
+      "content_text": "faster began as a yak shave, created to aid base💯 in its quest to become the fastest meme on Github. Writing an explicit AVX2-accelerated version of base💯's encoder and decoder, then realizing I'd have to do the same thing again to see the speedups on my Ivy Bridge desktop, pushed me to make this library. Months later, it has blossomed into its own project, and has eclipsed base💯 in both popularity and promise.",
+      "url": "https://adamniederer.com/blog/faster-pr-2.html",
+      "date_published": "2018-01-28T22:14:41+00:00",
+      "author": {
+        "name": "Adam Niederer",
+        "url": "https://adamniederer.com/blog/blog.html"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    }
+  ]
+}

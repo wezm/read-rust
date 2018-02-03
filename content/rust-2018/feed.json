@@ -1,85 +1,14 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "Read Rust",
+  "title": "Read Rust - Rust 2018",
   "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/all/feed.json",
-  "description": "Rust related posts from around the internet.",
+  "feed_url": "http://readrust.net/rust-2018/feed.json",
+  "description": "Rust 2018 posts on Read Rust",
   "author": {
     "name": "Wesley Moore",
     "url": "http://www.wezm.net/"
   },
   "items": [
-    {
-      "id": "0cced83f-3736-4917-87a0-408fb4d9f6bb",
-      "title": "Introduction to lyon: 2D vector graphics rendering on the GPU in Rust",
-      "content_text": "Lyon is a side-project that I have been working on for quite a while. The goal is to play with rendering 2D vector graphics on the GPU, and it's been a lot of fun so far. I haven't talked a lot about it online (except for a couple of reddit threads a year or two ago) so I figured it would be a good topic to get this blog started.",
-      "url": "https://nical.github.io/posts/lyon-intro.html",
-      "date_published": "2018-01-22T00:00:00+01:00",
-      "author": {
-        "name": "Nical",
-        "url": "https://nical.github.io/index.html"
-      },
-      "tags": [
-        "Games and Graphics"
-      ]
-    },
-    {
-      "id": "5c8f0581-5b1d-485b-852c-83c0deef73d5",
-      "title": "Rust and WebAssembly with Turtle - /var/blog",
-      "content_text": "In this post, I'll walk through a few of the highlights of getting Turtle, a Rust library for creating animated drawings, to run in the browser with WebAssembly.",
-      "url": "https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/",
-      "date_published": "2018-01-08T09:54:00-06:00",
-      "author": {
-        "name": "Marshall Pierce",
-        "url": "https://varblog.org/"
-      },
-      "tags": [
-        "Web and Network Services"
-      ]
-    },
-    {
-      "id": "2168f429-844d-4629-97da-c149e9026cfd",
-      "title": "mdcat - Cat for markdown: Show markdown documents in TTYs",
-      "content_text": "Cat for markdown: Show markdown documents in TTYs",
-      "url": "https://github.com/lunaryorn/mdcat",
-      "date_published": "2018-02-03T18:23:00+11:00",
-      "author": {
-        "name": "Sebastian Wiesner",
-        "url": "https://swsnr.de/"
-      },
-      "tags": [
-        "Tools and Applications"
-      ]
-    },
-    {
-      "id": "e1a29851-ab4c-4739-a41f-56e9c783f5e4",
-      "title": "Faster Progress Report 2",
-      "content_text": "faster began as a yak shave, created to aid base💯 in its quest to become the fastest meme on Github. Writing an explicit AVX2-accelerated version of base💯's encoder and decoder, then realizing I'd have to do the same thing again to see the speedups on my Ivy Bridge desktop, pushed me to make this library. Months later, it has blossomed into its own project, and has eclipsed base💯 in both popularity and promise.",
-      "url": "https://adamniederer.com/blog/faster-pr-2.html",
-      "date_published": "2018-01-28T22:14:41+00:00",
-      "author": {
-        "name": "Adam Niederer",
-        "url": "https://adamniederer.com/blog/blog.html"
-      },
-      "tags": [
-        "Performance",
-        "Crates"
-      ]
-    },
-    {
-      "id": "d4191312-2442-4eb8-b313-67ba224829b6",
-      "title": "Experimenting with the New I/O Framework (in Rust) for embedded systems",
-      "content_text": "Notes on Code, by Pramode C.E",
-      "url": "http://pramode.in/2018/01/31/ti-launchpad-with-rust-new-io/",
-      "date_published": "2018-01-31T00:00:00-05:00",
-      "author": {
-        "name": "Pramode C.E",
-        "url": "http://pramode.in/"
-      },
-      "tags": [
-        "Embedded"
-      ]
-    },
     {
       "id": "fb492342-c776-4f9a-8792-d82efebf109f",
       "title": "Thoughts on Rust",

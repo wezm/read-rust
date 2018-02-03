@@ -254,6 +254,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "getopts"
+version = "0.2.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "html5ever"
 version = "0.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -728,6 +733,7 @@ name = "read-rust"
 version = "0.1.0"
 dependencies = [
  "chrono 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "getopts 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)",
  "kuchiki 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "opengraph 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "reqwest 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1237,6 +1243,7 @@ dependencies = [
 "checksum futf 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = "51f93f3de6ba1794dcd5810b3546d004600a59a98266487c8407bc4b24e398f3"
 "checksum futures 0.1.17 (registry+https://github.com/rust-lang/crates.io-index)" = "118b49cac82e04121117cbd3121ede3147e885627d82c4546b87c702debb90c1"
 "checksum futures-cpupool 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)" = "ab90cde24b3319636588d0c35fe03b1333857621051837ed769faefb4c2162e4"
+"checksum getopts 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)" = "b900c08c1939860ce8b54dc6a89e26e00c04c380fd0e09796799bd7f12861e05"
 "checksum html5ever 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a49d5001dd1bddf042ea41ed4e0a671d50b1bf187e66b349d7ec613bdce4ad90"
 "checksum html5ever 0.20.0 (registry+https://github.com/rust-lang/crates.io-index)" = "5bfb46978eb757a603b7dfe2dafb1c62cb4dee3428d8ac1de734d83d6b022d06"
 "checksum httparse 1.2.4 (registry+https://github.com/rust-lang/crates.io-index)" = "c2f407128745b78abc95c0ffbe4e5d37427fdc0d45470710cfef8c44522a2e37"
