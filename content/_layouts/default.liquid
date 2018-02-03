@@ -12,18 +12,15 @@
   </head>
   <body>
     <header>
-      <a href="/">Read</a>
-      <a href="/"><img src="/images/logo.svg" class="logo" /></a>
-      <a href="/">Rust</a>
+      <a href="/">Read <img src="/images/logo.svg" class="logo" /> Rust</a>
 
       <nav>
-        <ul class="list-inline">
-          <li><a href="/">Home</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="/credits.html">Credits</a></li>
-          <li><a href="/submit.html">Submit</a></li>
-        </ul>
+        <div class="list-inline">
+          <div><a href="/">Home</a></div>
+          <div><a href="/about.html">About</a></div>
+          <div><a href="/faq.html">FAQ</a></div>
+          <div><a href="/submit.html">Submit</a></div>
+        </div>
       </nav>
     </header>
     <div class="main">
@@ -31,10 +28,16 @@
       {{ page.content }}
     </div>
     <footer>
-      Copyright © 2018 <a href="http://www.wezm.net/about/">Wesley Moore</a>.
-      <a href="https://github.com/wezm/read-rust">Source code on GitHub</a>.
-      <br>
-      Website built with <a href="http://cobalt-org.github.io/">Cobalt</a>.
+      <form method="get" id="search" class="right" action="https://duckduckgo.com/">
+        <input name="sites" value="readrust.net" type="hidden">
+        <input name="kz" value="-1" type="hidden">
+        <input name="kaf" value="1" type="hidden">
+        <input name="q" id="q" maxlength="255" placeholder="Search" autocapitalize="off" autocomplete="off" title="Search Read Rust" type="text">
+        <input value="Search" type="submit">
+      </form>
+
+      Copyright © 2018 <a href="http://www.wezm.net/about/">Wesley Moore</a>.<br>
+      Powered by <a href="https://www.freebsd.org/">FreeBSD</a>. Built with <a href="http://cobalt-org.github.io/">Cobalt</a>.
     </footer>
   </body>
 </html>

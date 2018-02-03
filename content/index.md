@@ -1,33 +1,55 @@
-title: Welcome
+title: Home
 layout: default.liquid
 ---
 
-Read Rust collects interesting posts about or related to the [Rust programming
-language][rust-lang].
+Read Rust collects interesting posts related to the [Rust
+programming&nbsp;language][rust-lang].
+
+For updates [subscribe to a feed][feeds], or follow [@read_rust] on Twitter.
 
 ## Sections
 
-* [Community](/community/)
-* [Computer Science](/cs/) — covering data structures, algorithms, etc.
-* [Crates and Libraries](/crates/)
-* [Crypto](/crypto/) ?
-* [DevOps](/devops/)
-* [Embedded](/embedded/)
-* [Games](/games/)
-* [Operating Systems](/os/)
-* [Performance](/performance/)
-* [Rust 2018](/rust2018/)
-* [Talks and Presentations](/talks/)
-* [Tools and Applications](/tools/) — Command line tools and applications
-* [Web and Network Services](/net/)
+New posts are added to one or more sections.
 
-## Latest Blog Post
+* [All Posts](/all/)
+* [Crates](/crates/) — notable new crates or updates.
+* [Embedded](/embedded/) — Rust on microcontrollers, IoT, devices.
+* [Performance](/performance/) — optimisation, benchmarks, etc.
+* [Rust 2018](/rust-2018/) — hopes and dreams for Rust in 2018
+* [Tools and Applications](/tools-and-applications/) — command line tools and GUI applications
+* [Web and Network Services](/web-and-network-services/) — web applications, web assembly, network daemons, etc.
+<!-- * [Community](/community/) — regarding the Rust community. -->
+<!-- * [Computer Science](/cs/) — covering data structures, algorithms, etc. -->
+<!-- * [Crypto](/crypto/) ? -->
+<!-- * [DevOps](/devops/) -->
+<!-- * [Games](/games/) -->
+<!-- * [Talks and Presentations](/talks/) -->
+<!-- * [Operating Systems](/operating-systems/) — Using Rust to build all or part of an operating system. -->
 
-{% assign latest_post = collections.posts.pages | first %}
-[{{ latest_post.title }}]({{ latest_post.permalink }})
+<h2>
+  Recent Posts
+  <a class="feedicon" href="/rust2018/feed.rss" title="Read Rust RSS Feed">
+    <img src="/images/feed-icon.svg" />
+  </a>
+  <a class="feedicon" href="/rust2018/feed.json" title="Read Rust JSON Feed">
+    <img src="/images/jsonfeed.png" />
+  </a>
+</h2>
 
-{{ latest_post.excerpt }}
+<ul>
+{% assign count = 0 %}
+{% for post in site.data.rust.posts.items %}
+  {% assign count = count | plus: 1 %}
+<li>
+  <a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}
+  in {% for tag in post.tags %}<a href="/{{ tag | downcase | replace: " ", "-" }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+</li>
+  {% if count >= 10 %}{% break %}{% endif %}
+{% endfor %}
+</ul>
 
-[Continue reading]({{ latest_post.permalink }})
+[View all posts](/all/)
 
+[feeds]: /about.html#feeds
 [rust-lang]: https://www.rust-lang.org/
+[@read_rust]: https://twitter.com/read_rust
