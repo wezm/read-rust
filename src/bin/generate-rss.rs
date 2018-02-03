@@ -124,7 +124,7 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str, tag: &Option<String>) -> Resul
     }
 }
 
-fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) -> Result<(), Error> {
+fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) -> Result<Feed, Error> {
     let filtered_items = match *tag {
         Some(ref tag) => feed.items.clone()
             .into_iter()
@@ -151,7 +151,9 @@ fn generate_json_feed(feed: &Feed, json_feed_path: &Path, tag: &Option<String>) 
     };
 
     let file = File::create(json_feed_path).map_err(Error::Io)?;
-    serde_json::to_writer_pretty(file, &filtered_feed).map_err(Error::JsonError)
+    serde_json::to_writer_pretty(file, &filtered_feed).map_err(Error::JsonError)?;
+
+    Ok(filtered_feed)
 }
 
 fn print_usage(program: &str, opts: Options) {
@@ -163,9 +165,8 @@ fn run(input_feed_path: &str, rss_feed_path: &str, tag: Option<String>) -> Resul
     let feed = Feed::load(Path::new(input_feed_path))?;
 
     let json_feed_path = Path::new(rss_feed_path).with_extension("json");
-    generate_rss(&feed, rss_feed_path, &tag)
-        .and_then(|()| generate_json_feed(&feed, &json_feed_path, &tag))
-
+    let filtered_feed = generate_json_feed(&feed, &json_feed_path, &tag)?;
+    generate_rss(&filtered_feed, rss_feed_path, &tag)
 }
 
 fn main() {
