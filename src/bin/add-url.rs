@@ -115,9 +115,9 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
         ogobj.title
     } else {
         doc.select_first("title")
-            .map_err(|_err| Error::StringError("Document has not title".to_owned()))?
+            .map_err(|_err| Error::StringError("Document has no title".to_owned()))?
             .text_contents()
-    };
+    }.trim().to_owned();
 
     let description = match ogobj.description {
         Some(desc) => desc,
