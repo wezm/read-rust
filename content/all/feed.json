@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "#Rust2018",
+  "title": "Read Rust - All Posts",
   "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/rust2018/feed.json",
-  "description": "Posts from the Rust 2018 initiative.",
+  "feed_url": "http://readrust.net/all/feed.json",
+  "description": "All Posts posts on Read Rust",
   "author": {
     "name": "Wesley Moore",
     "url": "http://www.wezm.net/"

@@ -1,0 +1,12 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Web and Network Services",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/web-and-network-services/feed.json",
+  "description": "Web and Network Services posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": []
+}
