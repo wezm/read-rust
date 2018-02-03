@@ -4,7 +4,7 @@ layout: default.liquid
 
 <h2 id="subscribe">How do I subscribe?</h2>
 
-Subscribe to one of the feeds in a feed reader. There are feeds for all news
+Subscribe to [one of the feeds][feeds] in a feed reader. There are feeds for all news
 posts as well as for individual categories. Some feed readers are shown below.
 I&nbsp;use and recommend [Feedbin] + [Reeder]:
 
@@ -25,12 +25,13 @@ A format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and
 <a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in JSON. For more
 details visit the [JSON&nbsp;Feed website][json-feed-website].
 
-[Feedbin]: https://feedbin.com/
-[Reeder]: http://reederapp.com/
-[add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
 [#Rust2018]: https://twitter.com/search?f=tweets&vertical=default&q=%23Rust2018
+[add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
 [call-for-posts]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
-[rust-reddit]: https://www.reddit.com/r/rust/
-[json-feed-website]: https://jsonfeed.org/
 [favicon]: https://thenounproject.com/term/book/17900
+[Feedbin]: https://feedbin.com/
+[feeds]: /about.html#feeds
+[json-feed-website]: https://jsonfeed.org/
+[Reeder]: http://reederapp.com/
+[rust-reddit]: https://www.reddit.com/r/rust/
 [the Noun Project]: http://thenounproject.com/
