@@ -2,7 +2,7 @@ title: Language
 layout: default.liquid
 ---
 
-Generate posts about the Rust programming language.
+General posts about the Rust programming language.
 
 <h2>
   Posts
