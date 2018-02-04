@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c73d7d0b-4f7a-4448-acee-d98dbb499461",
+      "title": "Adventures in Rust: A Basic 2D Game",
+      "content_text": "In an effort to do more fun side projects, I’ve been learning Rust, a wonderful systems programming language developed by the Mozilla Foundation. It’s been a while since I’ve touched a compiled language as my day-to-day often deals with Python and Javascript variants. I was inspired after seeing a lot of interesting articles about Rust usage and decided to dive into learning Rust by creating a very basic 2D game, inspired by the classic Defender arcade game.",
+      "url": "https://a5huynh.github.io/2018/02/02/adventures-in-rust.html",
+      "date_published": "2018-02-02T00:00:00+00:00",
+      "author": {
+        "name": "Andrew Huynh",
+        "url": "https://a5huynh.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "b8c9dfda-526c-453c-a93b-5c96a207643e",
       "title": "Hairy Stuff",
       "content_text": "Last month I was working on a lot of new test scenes for my Rust implementation of the PBRT renderer. But a big chunk of my time went into implementing the curve shape needed for the geometry of hair, and a material, which implements a hair scattering model.",

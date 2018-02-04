@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "434c400b-b4ac-49c9-87fa-db2a8b5f1ba7",
+      "title": "DataFusion: Big Data Platform for Rust",
+      "content_text": "DataFusion is an open-source Big Data platform implemented in the Rust programming language with a similar programming style to Apache Spark.",
+      "url": "https://www.datafusion.rs/",
+      "date_published": "2018-02-04T16:51:47+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://www.datafusion.rs/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "303b0429-9b0c-46f8-a555-fbab8c2bdf90",
+      "title": "retrobasic - A BASIC interpreter written in Rust",
+      "content_text": "retrobasic is a BASIC interpreter written in Rust. It is based on the original BASIC '64 implementation, and modified as needed to make it more compatible with some of the classic BASIC games.",
+      "url": "https://github.com/seasalim/retrobasic",
+      "date_published": "2018-02-04T17:21:55+00:00",
+      "author": {
+        "name": "seasalim",
+        "url": "https://github.com/seasalim"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b4def99b-cdec-46c6-9816-a6c85c999ae9",
+      "title": "Beginner Bites: A taste of Rust, a safe, concurrent and practical language!",
+      "content_text": "Experience a sampler of Rust. You’ll get set up, then solve the first Project Euler problem in Rust. This is a language you can’t miss.",
+      "url": "https://hackernoon.com/a-taste-of-rust-6d8fc60e050",
+      "date_published": "2018-02-04T11:01:00.900+00:00",
+      "author": {
+        "name": "Andrew Jakubowicz",
+        "url": "https://hackernoon.com/@spyr1014"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "c73d7d0b-4f7a-4448-acee-d98dbb499461",
+      "title": "Adventures in Rust: A Basic 2D Game",
+      "content_text": "In an effort to do more fun side projects, I’ve been learning Rust, a wonderful systems programming language developed by the Mozilla Foundation. It’s been a while since I’ve touched a compiled language as my day-to-day often deals with Python and Javascript variants. I was inspired after seeing a lot of interesting articles about Rust usage and decided to dive into learning Rust by creating a very basic 2D game, inspired by the classic Defender arcade game.",
+      "url": "https://a5huynh.github.io/2018/02/02/adventures-in-rust.html",
+      "date_published": "2018-02-02T00:00:00+00:00",
+      "author": {
+        "name": "Andrew Huynh",
+        "url": "https://a5huynh.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
       "title": "Writing a command-line program in Rust - Federico's Blog",
       "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",

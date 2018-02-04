@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "434c400b-b4ac-49c9-87fa-db2a8b5f1ba7",
+      "title": "DataFusion: Big Data Platform for Rust",
+      "content_text": "DataFusion is an open-source Big Data platform implemented in the Rust programming language with a similar programming style to Apache Spark.",
+      "url": "https://www.datafusion.rs/",
+      "date_published": "2018-02-04T16:51:47+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://www.datafusion.rs/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "303b0429-9b0c-46f8-a555-fbab8c2bdf90",
+      "title": "retrobasic - A BASIC interpreter written in Rust",
+      "content_text": "retrobasic is a BASIC interpreter written in Rust. It is based on the original BASIC '64 implementation, and modified as needed to make it more compatible with some of the classic BASIC games.",
+      "url": "https://github.com/seasalim/retrobasic",
+      "date_published": "2018-02-04T17:21:55+00:00",
+      "author": {
+        "name": "seasalim",
+        "url": "https://github.com/seasalim"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
       "title": "Writing a command-line program in Rust - Federico's Blog",
       "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",

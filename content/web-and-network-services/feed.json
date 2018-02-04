@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "434c400b-b4ac-49c9-87fa-db2a8b5f1ba7",
+      "title": "DataFusion: Big Data Platform for Rust",
+      "content_text": "DataFusion is an open-source Big Data platform implemented in the Rust programming language with a similar programming style to Apache Spark.",
+      "url": "https://www.datafusion.rs/",
+      "date_published": "2018-02-04T16:51:47+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://www.datafusion.rs/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "5c8f0581-5b1d-485b-852c-83c0deef73d5",
       "title": "Rust and WebAssembly with Turtle - /var/blog",
       "content_text": "In this post, I'll walk through a few of the highlights of getting Turtle, a Rust library for creating animated drawings, to run in the browser with WebAssembly.",
