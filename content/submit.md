@@ -6,7 +6,7 @@ Adding new posts to Read Rust is currently a manual process. I read Twitter and
 [Reddit][rust-reddit] as well as subscribe to a lot of RSS feeds to discover
 new posts. Please only submit posts written in, or after 2018.
 
-If your post is missing [create an issue on GitHub][add-post].
+If your post is missing [please submit it][add-post].
 
 ## Providing an RSS feed
 
