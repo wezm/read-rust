@@ -16,6 +16,8 @@ New posts are added to one or more sections of the following sections:
 * [Crates](/crates/) — notable new crates or updates.
 * [Embedded](/embedded/) — Rust on microcontrollers, IoT, devices.
 * [Games and Graphics](/games-and-graphics/) — games built with Rust and other graphics related work.
+* [Getting Started](/getting-started/) — introductory posts, guides and tutorials for getting started with Rust.
+* [Language](/language/) — general posts about the Rust language.
 * [Operating Systems](/operating-systems/) — using Rust to build all or part of an operating system.
 * [Performance](/performance/) — optimisation, benchmarks, etc.
 * [Rust 2018](/rust-2018/) — hopes and dreams for Rust in 2018.

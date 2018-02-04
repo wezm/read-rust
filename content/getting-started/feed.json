@@ -1,0 +1,12 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Getting Started",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/getting-started/feed.json",
+  "description": "Getting Started posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": []
+}

@@ -8,6 +8,8 @@ feeds:
 	./target/release/generate-rss -t 'Computer Science' content/_data/rust/posts.json content/computer-science/feed.rss
 	./target/release/generate-rss -t 'Embedded' content/_data/rust/posts.json content/embedded/feed.rss
 	./target/release/generate-rss -t 'Games and Graphics' content/_data/rust/posts.json content/games-and-graphics/feed.rss
+	./target/release/generate-rss -t 'Getting Started' content/_data/rust/posts.json content/getting-started/feed.rss
+	./target/release/generate-rss -t 'Language' content/_data/rust/posts.json content/language/feed.rss
 	./target/release/generate-rss -t 'Operating Systems' content/_data/rust/posts.json content/operating-systems/feed.rss
 	./target/release/generate-rss -t 'Performance' content/_data/rust/posts.json content/performance/feed.rss
 	./target/release/generate-rss -t 'Rust 2018' content/_data/rust/posts.json content/rust-2018/feed.rss

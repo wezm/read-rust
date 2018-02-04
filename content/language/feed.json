@@ -1,0 +1,12 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Language",
+  "home_page_url": "http://readrust.net/",
+  "feed_url": "http://readrust.net/language/feed.json",
+  "description": "Language posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": []
+}

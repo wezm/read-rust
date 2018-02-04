@@ -20,6 +20,8 @@ for the whole site, as well as each of the categories:
 * Computer Science: [RSS](/computer-science/feed.rss) or [JSON](/computer-science/feed.json)
 * Embedded: [RSS](/embedded/feed.rss) or [JSON](/embedded/feed.json)
 * Games and Graphics: [RSS](/games-and-graphics/feed.rss) or [JSON](/games-and-graphics/feed.json)
+* Getting Started: [RSS](/getting-started/feed.rss) or [JSON](/getting-started/feed.json)
+* Language: [RSS](/language/feed.rss) or [JSON](/language/feed.json)
 * Operating Systems: [RSS](/operating-systems/feed.rss) or [JSON](/operating-systems/feed.json)
 * Performance: [RSS](/performance/feed.rss) or [JSON](/performance/feed.json)
 * Rust 2018: [RSS](/rust-2018/feed.rss) or [JSON](/rust-2018/feed.json)
