@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
+      "title": "Writing a command-line program in Rust - Federico's Blog",
+      "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",
+      "url": "https://people.gnome.org/~federico/blog/writing-a-command-line-program-in-rust.html",
+      "date_published": "2018-02-03T11:41:20-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "93d7f09d-e1eb-4d6a-a792-5765326730be",
       "title": "Make your own make",
       "content_text": "An obvious idea is to use Rust for task automation. Originally, I have proposed creating a special Cargo subcommand to execute build tasks, implemented as Rust programs, in this thread. However, since then I realized that there are built-in tools in Cargo which allow one to get a pretty ergonomic solution. Namely, the combination of workspaces, aliases and ability to define binaries seems to do the trick.",

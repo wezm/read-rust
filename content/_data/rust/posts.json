@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
+      "title": "Writing a command-line program in Rust - Federico's Blog",
+      "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",
+      "url": "https://people.gnome.org/~federico/blog/writing-a-command-line-program-in-rust.html",
+      "date_published": "2018-02-03T11:41:20-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "b8c9dfda-526c-453c-a93b-5c96a207643e",
       "title": "Hairy Stuff",
       "content_text": "Last month I was working on a lot of new test scenes for my Rust implementation of the PBRT renderer. But a big chunk of my time went into implementing the curve shape needed for the geometry of hair, and a material, which implements a hair scattering model.",
