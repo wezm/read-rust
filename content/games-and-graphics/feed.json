@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b8c9dfda-526c-453c-a93b-5c96a207643e",
+      "title": "Hairy Stuff",
+      "content_text": "Last month I was working on a lot of new test scenes for my Rust implementation of the PBRT renderer. But a big chunk of my time went into implementing the curve shape needed for the geometry of hair, and a material, which implements a hair scattering model.",
+      "url": "https://www.janwalter.org/jekyll/rendering/pbrt/2018/02/01/hairy-stuff.html",
+      "date_published": "2018-02-01T13:30:00+01:00",
+      "author": {
+        "name": "Jan Walter",
+        "url": "https://www.janwalter.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0cced83f-3736-4917-87a0-408fb4d9f6bb",
       "title": "Introduction to lyon: 2D vector graphics rendering on the GPU in Rust",
       "content_text": "Lyon is a side-project that I have been working on for quite a while. The goal is to play with rendering 2D vector graphics on the GPU, and it's been a lot of fun so far. I haven't talked a lot about it online (except for a couple of reddit threads a year or two ago) so I figured it would be a good topic to get this blog started.",
