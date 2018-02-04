@@ -717,7 +717,7 @@
     {
       "id": "072421d7-7def-43b7-b3f8-441d735cba8c",
       "title": "Happy New Year 2018",
-      "content_text": "Private web page of Jan Douglas Bert Walter",
+      "content_text": "For me it's also a chance to do a review of the year 2017. Most of it I spend on a Rust implementation of PBRT (beside working for The Mill and making sure we can deliver our moving images, rendered most of the time with Arnold).",
       "url": "https://www.janwalter.org/jekyll/review/2017/2018/01/01/happy-new-year-2018.html",
       "date_published": "2018-01-01T00:00:00+00:00",
       "author": {
