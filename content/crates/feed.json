@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Read Rust - Crates",
-  "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/crates/feed.json",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/crates/feed.json",
   "description": "Crates posts on Read Rust",
   "author": {
     "name": "Wesley Moore",

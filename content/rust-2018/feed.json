@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Read Rust - Rust 2018",
-  "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/rust-2018/feed.json",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/rust-2018/feed.json",
   "description": "Rust 2018 posts on Read Rust",
   "author": {
     "name": "Wesley Moore",
