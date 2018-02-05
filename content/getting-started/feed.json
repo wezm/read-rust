@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "c0b3d7ad-673f-4eb9-aa54-45447d1eafb0",
+      "title": "Rust Lifetimes for the Uninitialised",
+      "content_text": "Lifetimes are a interesting subject: a lot of people seem to gain a day-to-day familiarity with them, without fully understanding what they are. Maybe, they are truly Rust's Monads. Let's talk about what they are, where you encounter them and then how to get competent with them.",
+      "url": "http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/",
+      "date_published": "2018-01-29T15:30:00+01:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://asquera.de/blog"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "b4def99b-cdec-46c6-9816-a6c85c999ae9",
       "title": "Beginner Bites: A taste of Rust, a safe, concurrent and practical language!",
       "content_text": "Experience a sampler of Rust. You’ll get set up, then solve the first Project Euler problem in Rust. This is a language you can’t miss.",

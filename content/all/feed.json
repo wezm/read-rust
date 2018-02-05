@@ -10,6 +10,50 @@
   },
   "items": [
     {
+      "id": "5e5df82f-aba3-4832-bbe6-e995b2e544ef",
+      "title": "Criterion.rs v0.2 - a statistics-driven benchmarking library for Rust",
+      "content_text": "Criterion.rs is a statistics-driven benchmarking library for Rust. It provides precise measurements of changes in the performance of benchmarked code, and gives strong statistical confidence that apparent performance changes are real and not simply noise. Clear output, a simple API and reasonable defaults make it easy to use even for developers without a background in statistics. Unlike the benchmarking harness provided by Rust, Criterion.rs can be used with stable versions of the compiler.",
+      "url": "https://bheisler.github.io/post/criterion-rs-0-2/",
+      "date_published": "2018-02-05T07:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
+      "id": "c0b3d7ad-673f-4eb9-aa54-45447d1eafb0",
+      "title": "Rust Lifetimes for the Uninitialised",
+      "content_text": "Lifetimes are a interesting subject: a lot of people seem to gain a day-to-day familiarity with them, without fully understanding what they are. Maybe, they are truly Rust's Monads. Let's talk about what they are, where you encounter them and then how to get competent with them.",
+      "url": "http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/",
+      "date_published": "2018-01-29T15:30:00+01:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://asquera.de/blog"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "92664a59-08e0-4185-aab2-cd0a29f303f8",
+      "title": "Writing eBPF tracing tools in Rust",
+      "content_text": "Writing eBPF tracing tools in Rust",
+      "url": "https://jvns.ca/blog/2018/02/05/rust-bcc/",
+      "date_published": "2018-02-05T10:23:44+00:00",
+      "author": {
+        "name": "Julia Evans",
+        "url": "https://jvns.ca/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "f4e99fe5-2dab-418d-9256-813a75036164",
       "title": "Introduction to Procedural Macros",
       "content_text": "As a newcomer to Rust, I heard the phrase “procedural macro” thrown around a lot without really understanding what it meant. I figured that I would learn about them if I ever needed them. Well, I’m working on the guts of relm, and a large chunk of it is procedural macros. I’ve learned enough about procedural macros to be dangerous, so I thought I would pass on some knowledge.",

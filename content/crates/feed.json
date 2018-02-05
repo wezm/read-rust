@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "5e5df82f-aba3-4832-bbe6-e995b2e544ef",
+      "title": "Criterion.rs v0.2 - a statistics-driven benchmarking library for Rust",
+      "content_text": "Criterion.rs is a statistics-driven benchmarking library for Rust. It provides precise measurements of changes in the performance of benchmarked code, and gives strong statistical confidence that apparent performance changes are real and not simply noise. Clear output, a simple API and reasonable defaults make it easy to use even for developers without a background in statistics. Unlike the benchmarking harness provided by Rust, Criterion.rs can be used with stable versions of the compiler.",
+      "url": "https://bheisler.github.io/post/criterion-rs-0-2/",
+      "date_published": "2018-02-05T07:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "e1a29851-ab4c-4739-a41f-56e9c783f5e4",
       "title": "Faster Progress Report 2",
       "content_text": "faster began as a yak shave, created to aid base💯 in its quest to become the fastest meme on Github. Writing an explicit AVX2-accelerated version of base💯's encoder and decoder, then realizing I'd have to do the same thing again to see the speedups on my Ivy Bridge desktop, pushed me to make this library. Months later, it has blossomed into its own project, and has eclipsed base💯 in both popularity and promise.",
