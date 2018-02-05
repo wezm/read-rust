@@ -17,4 +17,4 @@ feeds:
 	./target/release/generate-rss -t 'Web and Network Services' content/_data/rust/posts.json content/web-and-network-services/feed.rss
 
 deploy: all
-	rsync -avz --delete public/ eforce.binarytrance.com:/usr/local/www/readrust.net/
+	aws s3 sync --delete --cache-control 'public max-age=60' public s3://readrust.net
