@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "92664a59-08e0-4185-aab2-cd0a29f303f8",
+      "title": "Writing eBPF tracing tools in Rust",
+      "content_text": "Writing eBPF tracing tools in Rust",
+      "url": "https://jvns.ca/blog/2018/02/05/rust-bcc/",
+      "date_published": "2018-02-05T10:23:44+00:00",
+      "author": {
+        "name": "Julia Evans",
+        "url": "https://jvns.ca/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "444386e2-51fc-488e-ac19-0aa71a4d89a3",
       "title": "PoC: compiling to eBPF from Rust",
       "content_text": "I have been playing with eBPF (extended Berkeley Packet Filters), a neat feature present in recent Linux versions (it evolved from the much older BPF filters). It is a virtual machine running in th…",

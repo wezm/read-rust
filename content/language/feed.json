@@ -8,5 +8,49 @@
     "name": "Wesley Moore",
     "url": "http://www.wezm.net/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "c0b3d7ad-673f-4eb9-aa54-45447d1eafb0",
+      "title": "Rust Lifetimes for the Uninitialised",
+      "content_text": "Lifetimes are a interesting subject: a lot of people seem to gain a day-to-day familiarity with them, without fully understanding what they are. Maybe, they are truly Rust's Monads. Let's talk about what they are, where you encounter them and then how to get competent with them.",
+      "url": "http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/",
+      "date_published": "2018-01-29T15:30:00+01:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://asquera.de/blog"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "f4e99fe5-2dab-418d-9256-813a75036164",
+      "title": "Introduction to Procedural Macros",
+      "content_text": "As a newcomer to Rust, I heard the phrase “procedural macro” thrown around a lot without really understanding what it meant. I figured that I would learn about them if I ever needed them. Well, I’m working on the guts of relm, and a large chunk of it is procedural macros. I’ve learned enough about procedural macros to be dangerous, so I thought I would pass on some knowledge.",
+      "url": "https://tinkering.xyz/posts/introduction-to-proc-macros/",
+      "date_published": "2018-02-03T19:36:37-05:00",
+      "author": {
+        "name": "Zach Mitchell",
+        "url": "https://tinkering.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "25060712-7d38-4492-991d-a52a9111891c",
+      "title": "Async/Await III: Moving Forward with Something Shippable",
+      "content_text": "In the first post, we looked at the relationship between generators and a more general notion of self-references. In the second post, we narrowed down exactly what problem we need to solve to make generators work, and talked about some solutions that we’ve considered but don’t feel like we could ship in the near future.\nIn the original post, I promised that I would have a near term solution by the end of this series.",
+      "url": "https://boats.gitlab.io/blog/post/2018-01-30-async-iii-moving-forward/",
+      "date_published": "2018-02-04T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    }
+  ]
 }
