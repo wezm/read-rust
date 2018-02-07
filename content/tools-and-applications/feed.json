@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Read Rust - Tools and Applications",
-  "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/tools-and-applications/feed.json",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/tools-and-applications/feed.json",
   "description": "Tools and Applications posts on Read Rust",
   "author": {
     "name": "Wesley Moore",

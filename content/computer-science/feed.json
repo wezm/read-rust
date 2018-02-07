@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Read Rust - Computer Science",
-  "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/computer-science/feed.json",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/computer-science/feed.json",
   "description": "Computer Science posts on Read Rust",
   "author": {
     "name": "Wesley Moore",

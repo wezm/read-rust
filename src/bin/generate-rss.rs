@@ -140,7 +140,7 @@ fn generate_json_feed(
         .unwrap_or_else(|| "all".to_owned())
         .to_lowercase()
         .replace(" ", "-");
-    let home_page_url = "http://readrust.net/";
+    let home_page_url = "https://readrust.net/";
 
     let filtered_feed = Feed {
         version: "https://jsonfeed.org/version/1".to_owned(),

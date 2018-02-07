@@ -1,14 +1,28 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Read Rust - Language",
-  "home_page_url": "http://readrust.net/",
-  "feed_url": "http://readrust.net/language/feed.json",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/language/feed.json",
   "description": "Language posts on Read Rust",
   "author": {
     "name": "Wesley Moore",
     "url": "http://www.wezm.net/"
   },
   "items": [
+    {
+      "id": "6e3c698d-7f42-43d4-9c08-2ee084945e5c",
+      "title": "A vision for portability in Rust",
+      "content_text": "TL;DR: This post proposes to deprecate the std facade, instead having a unified std that uses target- and capability-based cfgs to control API availability. Leave comments on internals!",
+      "url": "http://aturon.github.io/2018/02/06/portability-vision/",
+      "date_published": "2018-02-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
     {
       "id": "c0b3d7ad-673f-4eb9-aa54-45447d1eafb0",
       "title": "Rust Lifetimes for the Uninitialised",

@@ -26,7 +26,7 @@ them. The tools themselves are:
 
 Running `make` will build the tools and gererate the site content.
 
-[self]: http://readrust.net/
+[self]: https://readrust.net/
 [contributing]: https://github.com/wezm/read-rust/blob/master/.github/contributing.md
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 [Cobalt]: http://cobalt-org.github.io/
