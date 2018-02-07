@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "60238a1c-95ee-46d8-bf5c-e70fed87a103",
+      "title": "Guitar Effects in Rust",
+      "content_text": "In an effort to experiment with dsp, I wrote a guitar/bass effects processor this past weekend. The end result works very well (to my pleasant surprise). It doesn’t have 90% of the functionalities of any of rakarrack, guitar rig, garage band but overall it was a fun weekend hack.",
+      "url": "http://rickyhan.com/jekyll/update/2018/02/06/rust-guitar-pedal-effects-dsp.html",
+      "date_published": "2018-02-06T04:00:00+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "434c400b-b4ac-49c9-87fa-db2a8b5f1ba7",
       "title": "DataFusion: Big Data Platform for Rust",
       "content_text": "DataFusion is an open-source Big Data platform implemented in the Rust programming language with a similar programming style to Apache Spark.",

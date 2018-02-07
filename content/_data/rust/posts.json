@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "60238a1c-95ee-46d8-bf5c-e70fed87a103",
+      "title": "Guitar Effects in Rust",
+      "content_text": "In an effort to experiment with dsp, I wrote a guitar/bass effects processor this past weekend. The end result works very well (to my pleasant surprise). It doesn’t have 90% of the functionalities of any of rakarrack, guitar rig, garage band but overall it was a fun weekend hack.",
+      "url": "http://rickyhan.com/jekyll/update/2018/02/06/rust-guitar-pedal-effects-dsp.html",
+      "date_published": "2018-02-06T04:00:00+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "6e3c698d-7f42-43d4-9c08-2ee084945e5c",
       "title": "A vision for portability in Rust",
       "content_text": "TL;DR: This post proposes to deprecate the std facade, instead having a unified std that uses target- and capability-based cfgs to control API availability. Leave comments on internals!",
