@@ -15,20 +15,14 @@ I am a proponent of the open web and as a result the content of Read Rust is
 available in a number of machine readable formats. There are feeds available
 for the whole site, as well as each of the categories:
 
-* Main feed (all posts): [RSS](/all/feed.rss) or [JSON](/all/feed.json)
-* Crates: [RSS](/crates/feed.rss) or [JSON](/crates/feed.json)
-* Computer Science: [RSS](/computer-science/feed.rss) or [JSON](/computer-science/feed.json)
-* Embedded: [RSS](/embedded/feed.rss) or [JSON](/embedded/feed.json)
-* Games and Graphics: [RSS](/games-and-graphics/feed.rss) or [JSON](/games-and-graphics/feed.json)
-* Getting Started: [RSS](/getting-started/feed.rss) or [JSON](/getting-started/feed.json)
-* Language: [RSS](/language/feed.rss) or [JSON](/language/feed.json)
-* Operating Systems: [RSS](/operating-systems/feed.rss) or [JSON](/operating-systems/feed.json)
-* Performance: [RSS](/performance/feed.rss) or [JSON](/performance/feed.json)
-* Rust 2018: [RSS](/rust-2018/feed.rss) or [JSON](/rust-2018/feed.json)
-* Tools and Applications: [RSS](/tools-and-applications/feed.rss) or [JSON](/tools-and-applications/feed.json)
-* Web and Network Services: [RSS](/web-and-network-services/feed.rss) or [JSON](/web-and-network-services/feed.json)
+<ul>
+<li>Main feed (all posts): <a href="/all/feed.rss">RSS</a> or <a href="/all/feed.json">JSON</a></li>
+{% for category in site.data.categories %}
+<li>{{ category.name }}: <a href="{{ category.path }}feed.rss">RSS</a> or <a href="{{ category.path }}feed.json">JSON</a></li>
+{% endfor %}
+</ul>
 
-I order to discover new posts I subscribe to a lot of Rust related RSS feeds.
+In order to discover new posts I subscribe to a lot of Rust related RSS feeds.
 The list is available in [OPML] (readily importable into [feed
 readers](/faq.html#subscribe)) and JSON:
 
