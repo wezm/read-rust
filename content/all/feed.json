@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "29eb1ede-d551-4b8d-aeec-c673aafb7e8f",
+      "title": "Combine 3 - Partial parsing in Rust",
+      "content_text": "Combine is a parser combinator library for the Rust programming language. I first announced version 3 of Combine back in August and back then I definitely expected to have a stable version by now. However other projects (cough gluon cough) got in the way and Combine fell to the wayside. It didn’t help that I didn’t have a killer feature for 3.0 either, user-defined error types make it possible to define parsers usable in #[no_std] crates which is great when you need it but it is still a fairly niche use-case.",
+      "url": "https://marwes.github.io/2018/02/08/combine-3.html",
+      "date_published": "2018-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Markus Westerlind",
+        "url": "https://marwes.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "e6347974-c84a-438a-924a-52ef37f6c99a",
+      "title": "I rewrote a Nintendo emulator with Rust / WebAssembly (Japanese)",
+      "content_text": "概要 以前、JSで書いた(ファミコンのエミュレータを書いた - undefined)ファミコンのエミュレータをRustで書き直してみた。 また、技術的な内容はQiitaの方にも書いているので興味のある方は参照してみてください。(まだ Hello, World!までしか書けてませんが。) qiita.com もともとファミコンのエミュレータって新しい言語を習得するのにちょうどいい題材だったりするのでは、って話しからスタートしてて、よくわからないのでJSで書いてみて、ようやくRustで一通りは実装できた感じ。まだバグや未実装（音声周りやマッパー）も多いんですが、ひとまずはお腹いっぱいな感じ。 成果…",
+      "url": "http://blog.bokuweb.me/entry/2018/02/08/101522",
+      "date_published": "2018-02-08T10:15:22+09:00",
+      "author": {
+        "name": "bokuweb",
+        "url": "http://blog.bokuweb.me/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "94324d77-490d-4897-bfd7-5a5b7c4c0cfb",
       "title": "6 months into Rust: what was good in 2017 and what will be better in 2018?",
       "content_text": "Last summer, I finally decided to start learning Rust. I published my first blog post about Rust in September, I then attended my first Rust conference to learn more about the language, and started three Rust projects on GitHub. I now have more experience about the Rust ecosystem, and I want to share some feedback. The call for community blog posts by the Rust team comes right in time!",

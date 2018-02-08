@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e6347974-c84a-438a-924a-52ef37f6c99a",
+      "title": "I rewrote a Nintendo emulator with Rust / WebAssembly (Japanese)",
+      "content_text": "概要 以前、JSで書いた(ファミコンのエミュレータを書いた - undefined)ファミコンのエミュレータをRustで書き直してみた。 また、技術的な内容はQiitaの方にも書いているので興味のある方は参照してみてください。(まだ Hello, World!までしか書けてませんが。) qiita.com もともとファミコンのエミュレータって新しい言語を習得するのにちょうどいい題材だったりするのでは、って話しからスタートしてて、よくわからないのでJSで書いてみて、ようやくRustで一通りは実装できた感じ。まだバグや未実装（音声周りやマッパー）も多いんですが、ひとまずはお腹いっぱいな感じ。 成果…",
+      "url": "http://blog.bokuweb.me/entry/2018/02/08/101522",
+      "date_published": "2018-02-08T10:15:22+09:00",
+      "author": {
+        "name": "bokuweb",
+        "url": "http://blog.bokuweb.me/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "434c400b-b4ac-49c9-87fa-db2a8b5f1ba7",
       "title": "DataFusion: Big Data Platform for Rust",
       "content_text": "DataFusion is an open-source Big Data platform implemented in the Rust programming language with a similar programming style to Apache Spark.",
