@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "94324d77-490d-4897-bfd7-5a5b7c4c0cfb",
+      "title": "6 months into Rust: what was good in 2017 and what will be better in 2018?",
+      "content_text": "Last summer, I finally decided to start learning Rust. I published my first blog post about Rust in September, I then attended my first Rust conference to learn more about the language, and started three Rust projects on GitHub. I now have more experience about the Rust ecosystem, and I want to share some feedback. The call for community blog posts by the Rust team comes right in time!",
+      "url": "https://gendignoux.com/blog/2018/02/05/rust-best-features-of-2017-and-beyond.html",
+      "date_published": "2018-02-05T22:24:30+01:00",
+      "author": {
+        "name": "Guillaume Endignoux",
+        "url": "https://gendignoux.com/blog/"
+      },
+      "tags": [
+        "Rust 2018"
+      ]
+    },
+    {
       "id": "fb492342-c776-4f9a-8792-d82efebf109f",
       "title": "Thoughts on Rust",
       "content_text": "I’ve been working on some rust projects recently and I really really love this language. I’d love it if one day I could get paid just to write rust! Until then, I’ll make do with …",
