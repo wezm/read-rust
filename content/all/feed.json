@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b0a2bc9c-effa-4859-b804-cbe839060855",
+      "title": "Tokio Reform is Shipped and the Road to 0.2",
+      "content_text": "I'm happy to announce that today, the changes proposed in the reform RFC have been released to crates.io as tokio 0.1. The primary changes are: Add a default global event loop, eliminating the need for setting up and managing your own event loop in the vast majority of cases, and decouple all task execution functionality from Tokio.",
+      "url": "https://tokio.rs/blog/2018-02-tokio-reform-shipped/",
+      "date_published": "2018-02-07T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ac0c5546-f21b-4b47-b4a4-950464472aad",
       "title": "Async/Await IV: An Even Better Proposal",
       "content_text": "I did not plan to write this blog post. I thought that the fourth post in my series would explain how we could go from the generator API in my previous post to a futures API in which you don’t have to heap allocate every async call. But eddyb surprised me, and now I have to revisit the API in the previous post, because we can implement everything we need from immovability with a safe interface afterall.",
