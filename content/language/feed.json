@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ac0c5546-f21b-4b47-b4a4-950464472aad",
+      "title": "Async/Await IV: An Even Better Proposal",
+      "content_text": "I did not plan to write this blog post. I thought that the fourth post in my series would explain how we could go from the generator API in my previous post to a futures API in which you don’t have to heap allocate every async call. But eddyb surprised me, and now I have to revisit the API in the previous post, because we can implement everything we need from immovability with a safe interface afterall.",
+      "url": "https://boats.gitlab.io/blog/post/2018-02-07-async-iv-an-even-better-proposal/",
+      "date_published": "2018-02-07T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6e3c698d-7f42-43d4-9c08-2ee084945e5c",
       "title": "A vision for portability in Rust",
       "content_text": "TL;DR: This post proposes to deprecate the std facade, instead having a unified std that uses target- and capability-based cfgs to control API availability. Leave comments on internals!",
