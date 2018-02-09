@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4924a3b4-b71f-4a15-ae2d-0a77bcb30e98",
+      "title": "Async/Await V: Getting back to the futures",
+      "content_text": "Two posts ago I proposed a particular interface for shipping self-referential generators this year. Immediately after that, eddyb showed me a better interface, which I described in the next post. Now, to tie everything together, its time to talk about how we can integrate this into the futures ecosystem. Starting point: this Generator API To begin, I want to document the generator API I’ll be using in this post, which is roughly what followed from my previous post:",
+      "url": "https://boats.gitlab.io/blog/post/2018-02-08-async-v-getting-back-to-the-futures/",
+      "date_published": "2018-02-08T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ac0c5546-f21b-4b47-b4a4-950464472aad",
       "title": "Async/Await IV: An Even Better Proposal",
       "content_text": "I did not plan to write this blog post. I thought that the fourth post in my series would explain how we could go from the generator API in my previous post to a futures API in which you don’t have to heap allocate every async call. But eddyb surprised me, and now I have to revisit the API in the previous post, because we can implement everything we need from immovability with a safe interface afterall.",

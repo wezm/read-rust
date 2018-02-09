@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4924a3b4-b71f-4a15-ae2d-0a77bcb30e98",
+      "title": "Async/Await V: Getting back to the futures",
+      "content_text": "Two posts ago I proposed a particular interface for shipping self-referential generators this year. Immediately after that, eddyb showed me a better interface, which I described in the next post. Now, to tie everything together, its time to talk about how we can integrate this into the futures ecosystem. Starting point: this Generator API To begin, I want to document the generator API I’ll be using in this post, which is roughly what followed from my previous post:",
+      "url": "https://boats.gitlab.io/blog/post/2018-02-08-async-v-getting-back-to-the-futures/",
+      "date_published": "2018-02-08T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "29eb1ede-d551-4b8d-aeec-c673aafb7e8f",
       "title": "Combine 3 - Partial parsing in Rust",
       "content_text": "Combine is a parser combinator library for the Rust programming language. I first announced version 3 of Combine back in August and back then I definitely expected to have a stable version by now. However other projects (cough gluon cough) got in the way and Combine fell to the wayside. It didn’t help that I didn’t have a killer feature for 3.0 either, user-defined error types make it possible to define parsers usable in #[no_std] crates which is great when you need it but it is still a fairly niche use-case.",
