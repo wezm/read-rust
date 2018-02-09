@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6b542e90-1f02-4368-90e4-a1931ccf1935",
+      "title": "A Wee Allocator for WebAssembly",
+      "content_text": "Introducing wee_alloc. wee_alloc is a work-in-progress memory allocator designed for WebAssembly. It has a tiny code size footprint, compiling down to only a kilobyte of .wasm code.",
+      "url": "http://fitzgeraldnick.com/2018/02/09/wee-alloc.html",
+      "date_published": "2018-02-09T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e6347974-c84a-438a-924a-52ef37f6c99a",
       "title": "I rewrote a Nintendo emulator with Rust / WebAssembly (Japanese)",
       "content_text": "概要 以前、JSで書いた(ファミコンのエミュレータを書いた - undefined)ファミコンのエミュレータをRustで書き直してみた。 また、技術的な内容はQiitaの方にも書いているので興味のある方は参照してみてください。(まだ Hello, World!までしか書けてませんが。) qiita.com もともとファミコンのエミュレータって新しい言語を習得するのにちょうどいい題材だったりするのでは、って話しからスタートしてて、よくわからないのでJSで書いてみて、ようやくRustで一通りは実装できた感じ。まだバグや未実装（音声周りやマッパー）も多いんですが、ひとまずはお腹いっぱいな感じ。 成果…",

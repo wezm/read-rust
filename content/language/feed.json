@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "325af8a8-af88-4a07-9c8f-16d2865f01f3",
+      "title": "Closing out an incredible week in Rust",
+      "content_text": "This week has been so amazing that I just had to write about it. Here’s a quick list of some of what went down in one week:",
+      "url": "http://aturon.github.io/2018/02/09/amazing-week/",
+      "date_published": "2018-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4924a3b4-b71f-4a15-ae2d-0a77bcb30e98",
       "title": "Async/Await V: Getting back to the futures",
       "content_text": "Two posts ago I proposed a particular interface for shipping self-referential generators this year. Immediately after that, eddyb showed me a better interface, which I described in the next post. Now, to tie everything together, its time to talk about how we can integrate this into the futures ecosystem. Starting point: this Generator API To begin, I want to document the generator API I’ll be using in this post, which is roughly what followed from my previous post:",

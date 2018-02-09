@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b7290658-fff8-4ee5-b8e5-eceefdc6beb6",
+      "title": "Memory safe DMA transfers - Embedded in Rust",
+      "content_text": "A blog about Rust and embedded stuff",
+      "url": "http://blog.japaric.io/safe-dma/",
+      "date_published": "2018-02-09T11:47:30+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "d4191312-2442-4eb8-b313-67ba224829b6",
       "title": "Experimenting with the New I/O Framework (in Rust) for embedded systems",
       "content_text": "Notes on Code, by Pramode C.E",

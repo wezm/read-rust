@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "325af8a8-af88-4a07-9c8f-16d2865f01f3",
+      "title": "Closing out an incredible week in Rust",
+      "content_text": "This week has been so amazing that I just had to write about it. Here’s a quick list of some of what went down in one week:",
+      "url": "http://aturon.github.io/2018/02/09/amazing-week/",
+      "date_published": "2018-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6b542e90-1f02-4368-90e4-a1931ccf1935",
+      "title": "A Wee Allocator for WebAssembly",
+      "content_text": "Introducing wee_alloc. wee_alloc is a work-in-progress memory allocator designed for WebAssembly. It has a tiny code size footprint, compiling down to only a kilobyte of .wasm code.",
+      "url": "http://fitzgeraldnick.com/2018/02/09/wee-alloc.html",
+      "date_published": "2018-02-09T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b7290658-fff8-4ee5-b8e5-eceefdc6beb6",
+      "title": "Memory safe DMA transfers - Embedded in Rust",
+      "content_text": "A blog about Rust and embedded stuff",
+      "url": "http://blog.japaric.io/safe-dma/",
+      "date_published": "2018-02-09T11:47:30+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "4924a3b4-b71f-4a15-ae2d-0a77bcb30e98",
       "title": "Async/Await V: Getting back to the futures",
       "content_text": "Two posts ago I proposed a particular interface for shipping self-referential generators this year. Immediately after that, eddyb showed me a better interface, which I described in the next post. Now, to tie everything together, its time to talk about how we can integrate this into the futures ecosystem. Starting point: this Generator API To begin, I want to document the generator API I’ll be using in this post, which is roughly what followed from my previous post:",
