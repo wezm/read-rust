@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "28ce1b60-8837-4443-87fb-669bf176db9b",
+      "title": "Reflecting on ppbert",
+      "content_text": "I had an itch: I was pretty-printing the BERT-encoded terms that we use in a production system at work and it was very slow. The Erlang shell took more than two minutes to dump the largest file. (It took about 0.1 second to read and parse the file; the rest was spent in io:format.) I decided to scratch that itch: I wrote ppbert, a command-line utility that reads BERT-encoded values and pretty-prints them. I’ve worked sporadically on ppbert for almost a year now, I use it daily at work, I’m happy with it, and I want to write about some of the things I learned during that journey.",
+      "url": "https://vfoley.xyz/ppbert/",
+      "date_published": "2018-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Language"
+      ]
+    },
+    {
       "id": "60238a1c-95ee-46d8-bf5c-e70fed87a103",
       "title": "Guitar Effects in Rust",
       "content_text": "In an effort to experiment with dsp, I wrote a guitar/bass effects processor this past weekend. The end result works very well (to my pleasant surprise). It doesn’t have 90% of the functionalities of any of rakarrack, guitar rig, garage band but overall it was a fun weekend hack.",

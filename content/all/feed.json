@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "b8e85b25-1d33-4b69-a3ba-b2cbac2bf62e",
+      "title": "RLSL (Rust -> SPIR-V compiler) Progress report",
+      "content_text": "This is a follow up post. RLSL is a Rust to SPIR-V compiler. SPIR-V is the shading language for Vulkan, similar to other shading languages like GLSL, HLSL but more low level. OpenGL, DX9/11/12, Vulkan, Metal are all graphic APIs that are able to use the GPU to draw pixels on the screen. Those APIs have certain stages that can be controlled by the developer by using the correct shading language.",
+      "url": "https://maikklein.github.io/rlsl-progress-report/",
+      "date_published": "2018-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Maik Klein",
+        "url": "https://maikklein.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "28ce1b60-8837-4443-87fb-669bf176db9b",
+      "title": "Reflecting on ppbert",
+      "content_text": "I had an itch: I was pretty-printing the BERT-encoded terms that we use in a production system at work and it was very slow. The Erlang shell took more than two minutes to dump the largest file. (It took about 0.1 second to read and parse the file; the rest was spent in io:format.) I decided to scratch that itch: I wrote ppbert, a command-line utility that reads BERT-encoded values and pretty-prints them. I’ve worked sporadically on ppbert for almost a year now, I use it daily at work, I’m happy with it, and I want to write about some of the things I learned during that journey.",
+      "url": "https://vfoley.xyz/ppbert/",
+      "date_published": "2018-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Language"
+      ]
+    },
+    {
       "id": "c7a9c9d2-8858-4f47-afa3-19ec1f2f6b86",
       "title": "Maximally minimal specialization: always applicable impls",
       "content_text": "So aturon wrote this beautiful post about what a good week it has been. In there, they wrote: \"Breakthrough #2: @nikomatsakis had a eureka moment and figured out a path to make specialization sound, while still supporting its most important use cases (blog post forthcoming!). Again, this suddenly puts specialization on the map for Rust Epoch 2018\". Sheesh I wish they hadn’t written that! Now the pressure is on. Well, here goes nothing =).",
