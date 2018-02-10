@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c7a9c9d2-8858-4f47-afa3-19ec1f2f6b86",
+      "title": "Maximally minimal specialization: always applicable impls",
+      "content_text": "So aturon wrote this beautiful post about what a good week it has been. In there, they wrote: \"Breakthrough #2: @nikomatsakis had a eureka moment and figured out a path to make specialization sound, while still supporting its most important use cases (blog post forthcoming!). Again, this suddenly puts specialization on the map for Rust Epoch 2018\". Sheesh I wish they hadn’t written that! Now the pressure is on. Well, here goes nothing =).",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/02/09/maximally-minimal-specialization-always-applicable-impls/",
+      "date_published": "2018-02-09T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "325af8a8-af88-4a07-9c8f-16d2865f01f3",
       "title": "Closing out an incredible week in Rust",
       "content_text": "This week has been so amazing that I just had to write about it. Here’s a quick list of some of what went down in one week:",
