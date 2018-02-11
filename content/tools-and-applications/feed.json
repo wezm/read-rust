@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "751253b7-494d-4930-9586-40c18cab9280",
+      "title": "tealdeer - A very fast implementation of tldr in Rust.",
+      "content_text": "A fast command line client for tldr: A collection of simplified and community-driven man pages.",
+      "url": "https://github.com/dbrgn/tealdeer",
+      "date_published": "2018-02-12T07:46:00+11:00",
+      "author": {
+        "name": "Danilo Bargen",
+        "url": "https://github.com/dbrgn"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "28ce1b60-8837-4443-87fb-669bf176db9b",
       "title": "Reflecting on ppbert",
       "content_text": "I had an itch: I was pretty-printing the BERT-encoded terms that we use in a production system at work and it was very slow. The Erlang shell took more than two minutes to dump the largest file. (It took about 0.1 second to read and parse the file; the rest was spent in io:format.) I decided to scratch that itch: I wrote ppbert, a command-line utility that reads BERT-encoded values and pretty-prints them. I’ve worked sporadically on ppbert for almost a year now, I use it daily at work, I’m happy with it, and I want to write about some of the things I learned during that journey.",
