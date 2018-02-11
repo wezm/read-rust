@@ -29,7 +29,7 @@ pub struct Item {
 }
 
 #[derive(Serialize, Deserialize)]
-pub struct Feed {
+pub struct JsonFeed {
     pub version: String,
     pub title: String,
     pub home_page_url: String,
@@ -39,12 +39,12 @@ pub struct Feed {
     pub items: Vec<Item>,
 }
 
-impl Feed {
+impl JsonFeed {
     pub fn add_item(&mut self, item: Item) {
         self.items.insert(0, item);
     }
 
-    pub fn load(path: &Path) -> Result<Feed, Error> {
+    pub fn load(path: &Path) -> Result<Self, Error> {
         let mut buffer = String::new();
         let mut feed_file = File::open(path).map_err(Error::Io)?;
         feed_file.read_to_string(&mut buffer).map_err(Error::Io)?;

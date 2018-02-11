@@ -5,20 +5,27 @@ extern crate opengraph;
 extern crate read_rust;
 extern crate reqwest;
 extern crate uuid;
+extern crate feedfinder;
+extern crate rss;
+extern crate atom_syndication;
+extern crate serde_json;
 
+use std::io::BufReader;
 use std::path::Path;
 use std::env;
 
 use reqwest::{RedirectPolicy, StatusCode, Url};
-use reqwest::header::Location;
+use reqwest::header::{Location, ContentType};
 
-use read_rust::feed::{Author, Feed, Item};
+use read_rust::feed::{Author, JsonFeed, Item};
 use read_rust::error::Error;
 
 use uuid::Uuid;
 use kuchiki::traits::TendrilSink;
 use chrono::{DateTime, FixedOffset, TimeZone};
 use getopts::Options;
+use feedfinder::FeedType;
+use atom_syndication as atom;
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -107,9 +114,96 @@ fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffs
         .and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
 }
 
-fn post_info(html: &str) -> Result<PostInfo, Error> {
+fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &FeedType) -> bool {
+    if !response.status().is_success() {
+        return false;
+    }
+
+    if !response.headers().has::<ContentType>() {
+        return false;
+    }
+
+    let content_type = response.headers()
+        .get::<ContentType>()
+        .map(|ct| ct.to_string().to_lowercase())
+        .unwrap(); // Safe due to has check above
+
+    // This doesn't handle a JSON feed discovered through links in the page... for now that's ok
+    if *feed_type == FeedType::Json && content_type.contains("json") {
+        true
+    }
+    else if content_type.contains("xml") {
+        true
+    }
+    else {
+        false
+    }
+}
+
+fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
+    let feeds = feedfinder::detect_feeds(url, html).ok().unwrap_or_else(|| vec![]);
+    let client = reqwest::Client::new();
+    for feed in feeds {
+        if let Ok(response) = client.head(feed.url().clone()).send() {
+            if response_is_ok_and_matches_type(&response, feed.feed_type()) {
+                return Ok(Some(feed));
+            }
+        }
+    }
+
+    Ok(None)
+}
+
+enum Feed {
+    Json(JsonFeed),
+    Rss(rss::Channel),
+    Atom(atom::Feed),
+}
+
+fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
+    let mut response = reqwest::get(url.clone()).map_err(Error::Reqwest).expect("http error");
+
+    if !response.status().is_success() {
+        return None;
+    }
+
+    let content_type = response.headers()
+        .get::<ContentType>()
+        .map(|ct| ct.to_string().to_lowercase());
+
+    if content_type.is_none() {
+        return None;
+    }
+
+    let content_type = content_type.unwrap();
+
+    let feed = if content_type.contains("json") || *type_hint == FeedType::Json {
+        // TODO: Add a BufReader interface to JsonFeed
+        let body = response.text().map_err(Error::Reqwest).expect("read error");
+        Feed::Json(serde_json::from_str(&body).map_err(Error::JsonError).expect("json error"))
+    }
+    else if content_type.contains("atom") || *type_hint == FeedType::Atom {
+        Feed::Atom(atom::Feed::read_from(BufReader::new(response)).expect("atom parsing error"))
+    }
+    else {
+        // Try RSS
+        Feed::Rss(rss::Channel::read_from(BufReader::new(response)).expect("rss parsing error"))
+    };
+
+    Some(feed)
+}
+
+fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
+    // TODO: Defer this until needed
+    if let Some(feed) = find_feed(html, url)? {
+        let parsed_feed = fetch_and_parse_feed(feed.url(), feed.feed_type());
+
+        if parsed_feed.is_some() {
+            println!("Got parsed feed from {:?}", feed);
+        }
+    }
 
     let title = if ogobj.title != "" {
         ogobj.title
@@ -143,7 +237,7 @@ fn post_info(html: &str) -> Result<PostInfo, Error> {
 
 fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
     let feed_path = Path::new("content/_data/rust/posts.json");
-    let mut feed = Feed::load(feed_path)?;
+    let mut feed = JsonFeed::load(feed_path)?;
 
     let url = Url::parse(url_to_add).map_err(Error::Url)?;
     let canonical_url = resolve_url(url)?;
@@ -151,7 +245,7 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
     // Fetch page
     let mut response = reqwest::get(canonical_url.clone()).map_err(Error::Reqwest)?;
     let body = response.text().map_err(Error::Reqwest)?;
-    let post_info = post_info(&body)?;
+    let post_info = post_info(&body, &canonical_url)?;
 
     let item = Item {
         id: Uuid::new_v4(),
