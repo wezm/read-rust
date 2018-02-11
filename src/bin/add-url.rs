@@ -27,6 +27,31 @@ use getopts::Options;
 use feedfinder::FeedType;
 use atom_syndication as atom;
 
+#[derive(Default, Debug)]
+struct PostInfo {
+    title: Option<String>,
+    description: Option<String>,
+    author: Option<Author>,
+    published_at: Option<DateTime<FixedOffset>>,
+}
+
+impl<'a> From<&'a atom::Entry> for PostInfo {
+    fn from(entry: &atom::Entry) -> Self {
+        PostInfo {
+            title: Some(entry.title().to_owned()),
+            description: entry.summary().map(|desc| desc.to_owned()),
+            author: None, // TODO: From
+            published_at: entry.published().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
+        }
+    }
+}
+
+enum Feed {
+    Json(JsonFeed),
+    Rss(rss::Channel),
+    Atom(atom::Feed),
+}
+
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
         .redirect(RedirectPolicy::none())
@@ -51,13 +76,6 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     }
 
     Ok(url)
-}
-
-struct PostInfo {
-    title: String,
-    description: String,
-    author: Author,
-    published_at: Option<DateTime<FixedOffset>>,
 }
 
 fn extract_author(doc: &kuchiki::NodeRef) -> Author {
@@ -154,12 +172,6 @@ fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
     Ok(None)
 }
 
-enum Feed {
-    Json(JsonFeed),
-    Rss(rss::Channel),
-    Atom(atom::Feed),
-}
-
 fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
     let mut response = reqwest::get(url.clone()).map_err(Error::Reqwest).expect("http error");
 
@@ -193,12 +205,13 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
     Some(feed)
 }
 
-fn post_info_from_feed(post_url: &Url, feed: &Feed) {
+fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
     match *feed {
         Feed::Atom(ref feed) => {
-            if let Some(item) = feed.entries().iter()
-                .find(|&item| item.links().iter().any(|link| link.href() == post_url.as_str())) {
-                println!("{:#?}", item);
+            if let Some(entry) = feed.entries().iter()
+                .find(|&entry| entry.links().iter().any(|link| link.href() == post_url.as_str())) {
+                let entry_info = PostInfo::from(entry);
+                println!("{:#?}", entry_info);
             }
         },
         Feed::Json(ref feed) => {
@@ -213,6 +226,8 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) {
         },
 
     }
+
+    PostInfo::default()
 }
 
 fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
@@ -251,9 +266,9 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let published_at = extract_publication_date(&doc);
 
     Ok(PostInfo {
-        title,
-        description,
-        author,
+        title: Some(title),
+        description: Some(description),
+        author: Some(author),
         published_at,
     })
 }
@@ -272,13 +287,13 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
 
     let item = Item {
         id: Uuid::new_v4(),
-        title: post_info.title,
+        title: post_info.title.expect("post is missing title"),
         url: canonical_url.to_string(),
-        content_text: post_info.description,
+        content_text: post_info.description.expect("post is missing description"),
         date_published: post_info
             .published_at
             .unwrap_or_else(|| FixedOffset::east(0).ymd(1970, 1, 1).and_hms(0, 0, 0)),
-        author: post_info.author,
+        author: post_info.author.expect("post is missing author"),
         tags: tags,
     };
 
