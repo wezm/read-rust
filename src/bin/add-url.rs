@@ -193,6 +193,28 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
     Some(feed)
 }
 
+fn post_info_from_feed(post_url: &Url, feed: &Feed) {
+    match *feed {
+        Feed::Atom(ref feed) => {
+            if let Some(item) = feed.entries().iter()
+                .find(|&item| item.links().iter().any(|link| link.href() == post_url.as_str())) {
+                println!("{:#?}", item);
+            }
+        },
+        Feed::Json(ref feed) => {
+            if let Some(item) = feed.items.iter().find(|item| item.url == post_url.as_str()) {
+                println!("{:#?}", item);
+            }
+        },
+        Feed::Rss(ref feed) => {
+            if let Some(item) = feed.items().iter().find(|&item| item.link() == Some(post_url.as_str())) {
+                println!("{:#?}", item);
+            }
+        },
+
+    }
+}
+
 fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
@@ -200,8 +222,9 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     if let Some(feed) = find_feed(html, url)? {
         let parsed_feed = fetch_and_parse_feed(feed.url(), feed.feed_type());
 
-        if parsed_feed.is_some() {
+        if let Some(parsed_feed) = parsed_feed {
             println!("Got parsed feed from {:?}", feed);
+            post_info_from_feed(url, &parsed_feed);
         }
     }
 

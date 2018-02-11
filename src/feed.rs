@@ -11,13 +11,13 @@ use self::chrono::{DateTime, FixedOffset};
 
 use error::Error;
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Author {
     pub name: String,
     pub url: String,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Item {
     pub id: Uuid,
     pub title: String,
@@ -28,7 +28,7 @@ pub struct Item {
     pub tags: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct JsonFeed {
     pub version: String,
     pub title: String,
