@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "019b1da3-b979-478b-89ed-7824c75df122",
+      "title": "Corona: If you want to get async out out of your way",
+      "content_text": "For some time now I develop a Rust library for asynchronous programming with coroutines, called Corona (note there’s a version 0.4.0-pre.1, but Crates prefer the „stable“ 0.3.1). I believe it is starting to be useful, so I wrote this description to show what it is good for and how it fits into the big picture of Rust. There’ll be some more changes, though, at least because Tokio just released a new version (and Futures plan to do so soon), so Corona will have to adapt.",
+      "url": "https://vorner.github.io/corona-04.html",
+      "date_published": "2018-02-11T19:51:00+11:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "29eb1ede-d551-4b8d-aeec-c673aafb7e8f",
       "title": "Combine 3 - Partial parsing in Rust",
       "content_text": "Combine is a parser combinator library for the Rust programming language. I first announced version 3 of Combine back in August and back then I definitely expected to have a stable version by now. However other projects (cough gluon cough) got in the way and Combine fell to the wayside. It didn’t help that I didn’t have a killer feature for 3.0 either, user-defined error types make it possible to define parsers usable in #[no_std] crates which is great when you need it but it is still a fairly niche use-case.",
