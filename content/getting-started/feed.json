@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "49ad5651-12e0-4374-9586-d9a86291c165",
+      "title": "Practical Rust: Installation & Hello World",
+      "content_text": "Recently, a new language called Rust has come into the spotlight, aiming to be a ‘blazingly fast’ language meant for systems programming…",
+      "url": "https://medium.com/@gallantmrgn/practical-rust-installation-hello-world-d1e52aac1f9",
+      "date_published": "2018-02-02T18:08:04.292+00:00",
+      "author": {
+        "name": "Morgan A. Gallant",
+        "url": "https://medium.com/@gallantmrgn"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "c0b3d7ad-673f-4eb9-aa54-45447d1eafb0",
       "title": "Rust Lifetimes for the Uninitialised",
       "content_text": "Lifetimes are a interesting subject: a lot of people seem to gain a day-to-day familiarity with them, without fully understanding what they are. Maybe, they are truly Rust's Monads. Let's talk about what they are, where you encounter them and then how to get competent with them.",
