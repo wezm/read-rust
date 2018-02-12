@@ -109,7 +109,7 @@ impl<'a> From<&'a Item> for PostInfo {
             title: Some(item.title.clone()),
             description: Some(item.content_text.clone()),
             author: None, // TODO: From
-            published_at: Some(item.date_published.clone()),
+            published_at: Some(item.date_published),
         }
     }
 }

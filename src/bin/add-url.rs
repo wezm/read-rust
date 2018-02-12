@@ -223,9 +223,15 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let title = if ogobj.title != "" {
         ogobj.title
     } else {
-        doc.select_first("title")
-            .map_err(|_err| Error::StringError("Document has no title".to_owned()))?
-            .text_contents()
+        feed_info
+            .title
+            .clone()
+            .or_else(|| {
+                doc.select_first("title")
+                    .ok()
+                    .map(|title| title.text_contents())
+            })
+            .ok_or_else(|| Error::StringError("Document has no title".to_owned()))?
     }.trim()
         .to_owned();
 
