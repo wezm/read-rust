@@ -84,7 +84,9 @@ impl<'a> From<&'a atom::Entry> for PostInfo {
             title: Some(entry.title().to_owned()),
             description: entry.summary().map(|desc| desc.to_owned()),
             author: None, // TODO: From
-            published_at: entry.published().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
+            published_at: entry
+                .published()
+                .and_then(|date| DateTime::parse_from_rfc3339(date).ok()),
         }
     }
 }
@@ -95,7 +97,8 @@ impl<'a> From<&'a rss::Item> for PostInfo {
             title: item.title().map(|title| title.to_owned()),
             description: item.description().map(|desc| desc.to_owned()),
             author: None, // TODO: From
-            published_at: item.pub_date().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
+            published_at: item.pub_date()
+                .and_then(|date| DateTime::parse_from_rfc3339(date).ok()),
         }
     }
 }

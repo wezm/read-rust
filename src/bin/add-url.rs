@@ -1,21 +1,21 @@
+extern crate atom_syndication;
 extern crate chrono;
+extern crate feedfinder;
 extern crate getopts;
 extern crate kuchiki;
 extern crate opengraph;
 extern crate read_rust;
 extern crate reqwest;
-extern crate uuid;
-extern crate feedfinder;
 extern crate rss;
-extern crate atom_syndication;
 extern crate serde_json;
+extern crate uuid;
 
 use std::io::BufReader;
 use std::path::Path;
 use std::env;
 
 use reqwest::{RedirectPolicy, StatusCode, Url};
-use reqwest::header::{Location, ContentType};
+use reqwest::header::{ContentType, Location};
 
 use read_rust::feed::*;
 use read_rust::error::Error;
@@ -116,7 +116,8 @@ fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &Fee
         return false;
     }
 
-    let content_type = response.headers()
+    let content_type = response
+        .headers()
         .get::<ContentType>()
         .map(|ct| ct.to_string().to_lowercase())
         .unwrap(); // Safe due to has check above
@@ -124,17 +125,17 @@ fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &Fee
     // This doesn't handle a JSON feed discovered through links in the page... for now that's ok
     if *feed_type == FeedType::Json && content_type.contains("json") {
         true
-    }
-    else if content_type.contains("xml") {
+    } else if content_type.contains("xml") {
         true
-    }
-    else {
+    } else {
         false
     }
 }
 
 fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
-    let feeds = feedfinder::detect_feeds(url, html).ok().unwrap_or_else(|| vec![]);
+    let feeds = feedfinder::detect_feeds(url, html)
+        .ok()
+        .unwrap_or_else(|| vec![]);
     let client = reqwest::Client::new();
     for feed in feeds {
         if let Ok(response) = client.head(feed.url().clone()).send() {
@@ -148,13 +149,16 @@ fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
 }
 
 fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
-    let mut response = reqwest::get(url.clone()).map_err(Error::Reqwest).expect("http error");
+    let mut response = reqwest::get(url.clone())
+        .map_err(Error::Reqwest)
+        .expect("http error");
 
     if !response.status().is_success() {
         return None;
     }
 
-    let content_type = response.headers()
+    let content_type = response
+        .headers()
         .get::<ContentType>()
         .map(|ct| ct.to_string().to_lowercase());
 
@@ -167,12 +171,14 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
     let feed = if content_type.contains("json") || *type_hint == FeedType::Json {
         // TODO: Add a BufReader interface to JsonFeed
         let body = response.text().map_err(Error::Reqwest).expect("read error");
-        Feed::Json(serde_json::from_str(&body).map_err(Error::JsonError).expect("json error"))
-    }
-    else if content_type.contains("atom") || *type_hint == FeedType::Atom {
+        Feed::Json(
+            serde_json::from_str(&body)
+                .map_err(Error::JsonError)
+                .expect("json error"),
+        )
+    } else if content_type.contains("atom") || *type_hint == FeedType::Atom {
         Feed::Atom(atom::Feed::read_from(BufReader::new(response)).expect("atom parsing error"))
-    }
-    else {
+    } else {
         // Try RSS
         Feed::Rss(rss::Channel::read_from(BufReader::new(response)).expect("rss parsing error"))
     };
@@ -181,30 +187,27 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
 }
 
 fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
-    match *feed {
-        Feed::Atom(ref feed) => {
-            if let Some(entry) = feed.entries().iter()
-                .find(|&entry| entry.links().iter().any(|link| link.href() == post_url.as_str())) {
-                let entry_info = PostInfo::from(entry);
-                println!("{:#?}", entry_info);
-            }
-        },
-        Feed::Json(ref feed) => {
-            if let Some(item) = feed.items.iter().find(|item| item.url == post_url.as_str()) {
-                let item_info = PostInfo::from(item);
-                println!("{:#?}", item_info);
-            }
-        },
-        Feed::Rss(ref feed) => {
-            if let Some(item) = feed.items().iter().find(|&item| item.link() == Some(post_url.as_str())) {
-                let item_info = PostInfo::from(item);
-                println!("{:#?}", item_info);
-            }
-        },
+    let post_info = match *feed {
+        Feed::Atom(ref feed) => feed.entries()
+            .iter()
+            .find(|&entry| {
+                entry
+                    .links()
+                    .iter()
+                    .any(|link| link.href() == post_url.as_str())
+            })
+            .map(PostInfo::from),
+        Feed::Json(ref feed) => feed.items
+            .iter()
+            .find(|item| item.url == post_url.as_str())
+            .map(PostInfo::from),
+        Feed::Rss(ref feed) => feed.items()
+            .iter()
+            .find(|&item| item.link() == Some(post_url.as_str()))
+            .map(PostInfo::from),
+    };
 
-    }
-
-    PostInfo::default()
+    post_info.unwrap_or_default()
 }
 
 fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
@@ -226,7 +229,8 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
         doc.select_first("title")
             .map_err(|_err| Error::StringError("Document has no title".to_owned()))?
             .text_contents()
-    }.trim().to_owned();
+    }.trim()
+        .to_owned();
 
     let description = match ogobj.description {
         Some(desc) => desc,

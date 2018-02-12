@@ -13,7 +13,7 @@ use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
 
-use read_rust::feed::{Author, JsonFeed, Item};
+use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
 
 // Need TryFrom/Into https://github.com/sfackler/rfcs/blob/try-from/text/0000-try-from.md
