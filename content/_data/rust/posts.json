@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bbc46982-1321-4e4e-8d9f-344963341c21",
+      "title": "Event Sourcing with Aggregates in Rust",
+      "content_text": "Everyone loves event sourcing, right up until the moment they have to implement it. At that moment all the wonderful whiteboard drawings…",
+      "url": "https://medium.com/@KevinHoffman/event-sourcing-with-aggregates-in-rust-4022af41cf67",
+      "date_published": "2018-02-12T15:11:08.708+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "35c70f95-6097-47df-a470-bb92e99b27e5",
       "title": "First release of TQL: the easy-to-use ORM for Rust",
       "content_text": "After a couple of weeks of work, I'm now happy to release the first version of tql, the easy-to-use ORM for Rust. While the focus was to make tql work on the stable version of the compiler, I also added some new features. The most notable new feature is the support for SQLite: now tql supports SQLite as well as PostgreSQL. The support for SQLite is almost as complete as the one for PostgreSQL: the only missing function is not implemented because the backend (SQLite) does not support it.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bbc46982-1321-4e4e-8d9f-344963341c21",
+      "title": "Event Sourcing with Aggregates in Rust",
+      "content_text": "Everyone loves event sourcing, right up until the moment they have to implement it. At that moment all the wonderful whiteboard drawings…",
+      "url": "https://medium.com/@KevinHoffman/event-sourcing-with-aggregates-in-rust-4022af41cf67",
+      "date_published": "2018-02-12T15:11:08.708+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2b698c99-99e0-4fad-8716-b58dbd9c255c",
       "title": "Deploying A Rust Server to Google App Engine with Travis CI & Docker",
       "content_text": "I woke up this morning with one goal: to convert my website (morgangallant.com) into a Rust web server. I have been a long time fan of…",
