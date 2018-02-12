@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
+      "title": "Gameland intro, reimplemented in Rust for WebAssembly",
+      "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",
+      "url": "http://perlun.eu.org/en/programming/gameland/",
+      "date_published": "2018-02-13T07:44:00+11:00",
+      "author": {
+        "name": "Per Lundberg",
+        "url": "http://perlun.eu.org/en/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "bbc46982-1321-4e4e-8d9f-344963341c21",
       "title": "Event Sourcing with Aggregates in Rust",
       "content_text": "Everyone loves event sourcing, right up until the moment they have to implement it. At that moment all the wonderful whiteboard drawings…",
