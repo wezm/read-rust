@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "35c70f95-6097-47df-a470-bb92e99b27e5",
+      "title": "First release of TQL: the easy-to-use ORM for Rust",
+      "content_text": "After a couple of weeks of work, I'm now happy to release the first version of tql, the easy-to-use ORM for Rust. While the focus was to make tql work on the stable version of the compiler, I also added some new features. The most notable new feature is the support for SQLite: now tql supports SQLite as well as PostgreSQL. The support for SQLite is almost as complete as the one for PostgreSQL: the only missing function is not implemented because the backend (SQLite) does not support it.",
+      "url": "http://tql-rs.ml/first-release/",
+      "date_published": "2018-02-10T00:00:00+00:00",
+      "author": {
+        "name": "Antoni",
+        "url": "http://tql-rs.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2b698c99-99e0-4fad-8716-b58dbd9c255c",
       "title": "Deploying A Rust Server to Google App Engine with Travis CI & Docker",
       "content_text": "I woke up this morning with one goal: to convert my website (morgangallant.com) into a Rust web server. I have been a long time fan of…",
