@@ -213,15 +213,12 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
 fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
-    // TODO: Defer this until needed
-    if let Some(feed) = find_feed(html, url)? {
-        let parsed_feed = fetch_and_parse_feed(feed.url(), feed.feed_type());
 
-        if let Some(parsed_feed) = parsed_feed {
-            println!("Got parsed feed from {:?}", feed);
-            post_info_from_feed(url, &parsed_feed);
-        }
-    }
+    // TODO: Defer this until needed
+    let feed_info = find_feed(html, url)?
+        .and_then(|feed| fetch_and_parse_feed(feed.url(), feed.feed_type()))
+        .map(|feed| post_info_from_feed(url, &feed))
+        .unwrap_or_default();
 
     let title = if ogobj.title != "" {
         ogobj.title
@@ -240,6 +237,7 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
                 let attrs = link.attributes.borrow();
                 attrs.get("content").map(|content| content.to_owned())
             })
+            .or_else(|| feed_info.description)
             .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
