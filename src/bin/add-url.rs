@@ -17,7 +17,7 @@ use std::env;
 use reqwest::{RedirectPolicy, StatusCode, Url};
 use reqwest::header::{Location, ContentType};
 
-use read_rust::feed::{Author, JsonFeed, Item};
+use read_rust::feed::*;
 use read_rust::error::Error;
 
 use uuid::Uuid;
@@ -26,31 +26,6 @@ use chrono::{DateTime, FixedOffset, TimeZone};
 use getopts::Options;
 use feedfinder::FeedType;
 use atom_syndication as atom;
-
-#[derive(Default, Debug)]
-struct PostInfo {
-    title: Option<String>,
-    description: Option<String>,
-    author: Option<Author>,
-    published_at: Option<DateTime<FixedOffset>>,
-}
-
-impl<'a> From<&'a atom::Entry> for PostInfo {
-    fn from(entry: &atom::Entry) -> Self {
-        PostInfo {
-            title: Some(entry.title().to_owned()),
-            description: entry.summary().map(|desc| desc.to_owned()),
-            author: None, // TODO: From
-            published_at: entry.published().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
-        }
-    }
-}
-
-enum Feed {
-    Json(JsonFeed),
-    Rss(rss::Channel),
-    Atom(atom::Feed),
-}
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -216,12 +191,14 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
         },
         Feed::Json(ref feed) => {
             if let Some(item) = feed.items.iter().find(|item| item.url == post_url.as_str()) {
-                println!("{:#?}", item);
+                let item_info = PostInfo::from(item);
+                println!("{:#?}", item_info);
             }
         },
         Feed::Rss(ref feed) => {
             if let Some(item) = feed.items().iter().find(|&item| item.link() == Some(post_url.as_str())) {
-                println!("{:#?}", item);
+                let item_info = PostInfo::from(item);
+                println!("{:#?}", item_info);
             }
         },
 

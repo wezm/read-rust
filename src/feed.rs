@@ -5,11 +5,21 @@ use std::io::{Read, Write};
 use std::path::Path;
 use std::fs::File;
 
-use uuid::Uuid;
-use serde_json;
+use atom_syndication as atom;
+use rss;
 use self::chrono::{DateTime, FixedOffset};
+use serde_json;
+use uuid::Uuid;
 
 use error::Error;
+
+#[derive(Default, Debug)]
+pub struct PostInfo {
+    pub title: Option<String>,
+    pub description: Option<String>,
+    pub author: Option<Author>,
+    pub published_at: Option<DateTime<FixedOffset>>,
+}
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Author {
@@ -39,6 +49,12 @@ pub struct JsonFeed {
     pub items: Vec<Item>,
 }
 
+pub enum Feed {
+    Json(JsonFeed),
+    Rss(rss::Channel),
+    Atom(atom::Feed),
+}
+
 impl JsonFeed {
     pub fn add_item(&mut self, item: Item) {
         self.items.insert(0, item);
@@ -59,5 +75,38 @@ impl JsonFeed {
         feed_file
             .write_all(serialized.as_bytes())
             .map_err(Error::Io)
+    }
+}
+
+impl<'a> From<&'a atom::Entry> for PostInfo {
+    fn from(entry: &atom::Entry) -> Self {
+        PostInfo {
+            title: Some(entry.title().to_owned()),
+            description: entry.summary().map(|desc| desc.to_owned()),
+            author: None, // TODO: From
+            published_at: entry.published().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
+        }
+    }
+}
+
+impl<'a> From<&'a rss::Item> for PostInfo {
+    fn from(item: &rss::Item) -> Self {
+        PostInfo {
+            title: item.title().map(|title| title.to_owned()),
+            description: item.description().map(|desc| desc.to_owned()),
+            author: None, // TODO: From
+            published_at: item.pub_date().and_then(|date| DateTime::parse_from_rfc3339(date).ok())
+        }
+    }
+}
+
+impl<'a> From<&'a Item> for PostInfo {
+    fn from(item: &Item) -> Self {
+        PostInfo {
+            title: Some(item.title.clone()),
+            description: Some(item.content_text.clone()),
+            author: None, // TODO: From
+            published_at: Some(item.date_published.clone()),
+        }
     }
 }
