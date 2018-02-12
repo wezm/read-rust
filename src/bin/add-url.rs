@@ -123,13 +123,7 @@ fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &Fee
         .unwrap(); // Safe due to has check above
 
     // This doesn't handle a JSON feed discovered through links in the page... for now that's ok
-    if *feed_type == FeedType::Json && content_type.contains("json") {
-        true
-    } else if content_type.contains("xml") {
-        true
-    } else {
-        false
-    }
+    (*feed_type == FeedType::Json && content_type.contains("json")) || content_type.contains("xml")
 }
 
 fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
@@ -243,12 +237,12 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
                 let attrs = link.attributes.borrow();
                 attrs.get("content").map(|content| content.to_owned())
             })
-            .or_else(|| feed_info.description)
+            .or_else(|| feed_info.description.clone())
             .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
     let author = extract_author(&doc);
-    let published_at = extract_publication_date(&doc);
+    let published_at = feed_info.published_at.or_else(|| extract_publication_date(&doc));
 
     Ok(PostInfo {
         title: Some(title),
@@ -287,7 +281,7 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
     feed.save(feed_path)
 }
 
-fn print_usage(program: &str, opts: Options) {
+fn print_usage(program: &str, opts: &Options) {
     let brief = format!("Usage: {} [options] URL", program);
     print!("{}", opts.usage(&brief));
 }
@@ -304,7 +298,7 @@ fn main() {
         Err(f) => panic!(f.to_string()),
     };
     if matches.opt_present("h") || matches.free.is_empty() {
-        print_usage(&program, opts);
+        print_usage(&program, &opts);
         return;
     }
 
