@@ -7,7 +7,7 @@ All {{ site.data.rust.posts.items | size }} posts.
 <h2>
   Posts
   <a class="feedicon" href="/all/feed.rss" title="All Posts RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/all/feed.json" title="All Posts JSON Feed">
     <img src="/images/jsonfeed.png" />

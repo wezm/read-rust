@@ -7,7 +7,7 @@ Community
 <h2>
   Posts
   <a class="feedicon" href="/community/feed.rss" title="Community RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/community/feed.json" title="Community JSON Feed">
     <img src="/images/jsonfeed.png" />

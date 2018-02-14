@@ -7,7 +7,7 @@ Interesting new or updated crates.
 <h2>
   Posts
   <a class="feedicon" href="/crates/feed.rss" title="Crates RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/crates/feed.json" title="Crates JSON Feed">
     <img src="/images/jsonfeed.png" />

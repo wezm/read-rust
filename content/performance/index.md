@@ -7,7 +7,7 @@ All things high performance Rust.
 <h2>
   Posts
   <a class="feedicon" href="/performance/feed.rss" title="Performance RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/performance/feed.json" title="Performance JSON Feed">
     <img src="/images/jsonfeed.png" />

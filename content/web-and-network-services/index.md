@@ -15,7 +15,7 @@ As well as non-web network services.
 <h2>
   Posts
   <a class="feedicon" href="/web-and-network-services/feed.rss" title="Web and Network Services RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/web-and-network-services/feed.json" title="Web and Network Services JSON Feed">
     <img src="/images/jsonfeed.png" />

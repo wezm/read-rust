@@ -8,7 +8,7 @@ IoT, and devices.
 <h2>
   Posts
   <a class="feedicon" href="/embedded/feed.rss" title="Embedded RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/embedded/feed.json" title="Embedded JSON Feed">
     <img src="/images/jsonfeed.png" />

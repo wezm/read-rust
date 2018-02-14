@@ -97,6 +97,14 @@ nav a:hover {
 #search input[type="text"] {
   width: 20em;
 }
+.socials {
+  margin-top: 1em;
+}
+.socials img {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.25em;
+}
 
 @media (max-width: 768px) {
   header {

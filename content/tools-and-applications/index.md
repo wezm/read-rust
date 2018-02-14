@@ -7,7 +7,7 @@ Command line tools and GUI applications built with Rust.
 <h2>
   Posts
   <a class="feedicon" href="/tools-and-applications/feed.rss" title="Tools and Applications RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/tools-and-applications/feed.json" title="Tools and Applications JSON Feed">
     <img src="/images/jsonfeed.png" />
