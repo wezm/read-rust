@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
+      "title": "Fanta: An opinionated framework for web development in rust",
+      "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",
+      "url": "https://github.com/trezm/Fanta",
+      "date_published": "2018-02-14T18:44:00+11:00",
+      "author": {
+        "name": "Peter Mertz",
+        "url": "https://github.com/trezm"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "1694fd36-21ca-4e3f-8654-9291c3ba4de7",
       "title": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship",
       "content_text": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship. comm-gtk is a GUI client built on the comm library. To try it out, start the app. In the configuration window, enter a secret phrase, a bootstrap node (IP:port pair), and a local port to listen on (e.g. 6669). For a bootstrap node, try 165.227.114.200:6667 (or any other node's IP address if you know one). Click connect to join the network.",

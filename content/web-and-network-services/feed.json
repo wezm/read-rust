@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
+      "title": "Fanta: An opinionated framework for web development in rust",
+      "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",
+      "url": "https://github.com/trezm/Fanta",
+      "date_published": "2018-02-14T18:44:00+11:00",
+      "author": {
+        "name": "Peter Mertz",
+        "url": "https://github.com/trezm"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
       "title": "Gameland intro, reimplemented in Rust for WebAssembly",
       "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",
