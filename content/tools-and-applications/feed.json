@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1694fd36-21ca-4e3f-8654-9291c3ba4de7",
+      "title": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship",
+      "content_text": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship. comm-gtk is a GUI client built on the comm library. To try it out, start the app. In the configuration window, enter a secret phrase, a bootstrap node (IP:port pair), and a local port to listen on (e.g. 6669). For a bootstrap node, try 165.227.114.200:6667 (or any other node's IP address if you know one). Click connect to join the network.",
+      "url": "https://github.com/zacstewart/comm-gtk",
+      "date_published": "2018-02-13T23:02:31-06:00",
+      "author": {
+        "name": "Zac Stewart",
+        "url": "https://github.com/zacstewart"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "751253b7-494d-4930-9586-40c18cab9280",
       "title": "tealdeer - A very fast implementation of tldr in Rust.",
       "content_text": "A fast command line client for tldr: A collection of simplified and community-driven man pages.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1694fd36-21ca-4e3f-8654-9291c3ba4de7",
+      "title": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship",
+      "content_text": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship. comm-gtk is a GUI client built on the comm library. To try it out, start the app. In the configuration window, enter a secret phrase, a bootstrap node (IP:port pair), and a local port to listen on (e.g. 6669). For a bootstrap node, try 165.227.114.200:6667 (or any other node's IP address if you know one). Click connect to join the network.",
+      "url": "https://github.com/zacstewart/comm-gtk",
+      "date_published": "2018-02-13T23:02:31-06:00",
+      "author": {
+        "name": "Zac Stewart",
+        "url": "https://github.com/zacstewart"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
       "title": "Gameland intro, reimplemented in Rust for WebAssembly",
       "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",
