@@ -179,20 +179,16 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
     let feed = if content_type.contains("json") || *type_hint == FeedType::Json {
         // TODO: Add a BufReader interface to JsonFeed
         let body = response.text().map_err(Error::Reqwest).expect("read error");
-        Feed::Json(
-            serde_json::from_str(&body)
-                .map_err(Error::JsonError)
-                .expect("json error"),
-        )
+        serde_json::from_str(&body).ok().map(Feed::Json)
     } else if content_type.contains("atom") || *type_hint == FeedType::Atom {
-        Feed::Atom(atom::Feed::read_from(BufReader::new(response)).expect("atom parsing error"))
+        atom::Feed::read_from(BufReader::new(response)).ok().map(Feed::Atom)
     } else {
         // Try RSS
-        Feed::Rss(rss::Channel::read_from(BufReader::new(response)).expect("rss parsing error"))
+        rss::Channel::read_from(BufReader::new(response)).ok().map(Feed::Rss)
     };
 
-    println!("Using: {}", url);
-    Some(feed)
+    // println!("Using: {}", url);
+    feed
 }
 
 fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {

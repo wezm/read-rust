@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "938457b4-8905-4954-9007-88c80a2c24d6",
+      "title": "\"The Expressive C++17 Coding Challenge (in Rust)\" Revisited",
+      "content_text": "In October of last year, I wrote a post, “The Expressive C++17 Coding Challenge (in Rust)”. For various reasons, it got brought up again in the D world, and seb has written a new post. It’s good, you should check it out! However, it links to my gist, not my blog post. As I said back then: I held myself to the same constraints as the original contest; no external packages is a bit painful in Rust, but it’s not too bad. Mostly it would let me eliminate boilerplate while also improving correctness, and making the code a bit shorter. So, that got me thinking: What would this look like if I could use external packages? I took about an hour, and knocked it out. I have two versions to show you today, one where I pay no attention to allocations, and one where it’s zero-allocation.",
+      "url": "http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust-revisited",
+      "date_published": "2018-02-14T10:12:15-08:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "http://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
       "title": "Fanta: An opinionated framework for web development in rust",
       "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",

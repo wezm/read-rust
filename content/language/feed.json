@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "938457b4-8905-4954-9007-88c80a2c24d6",
+      "title": "\"The Expressive C++17 Coding Challenge (in Rust)\" Revisited",
+      "content_text": "In October of last year, I wrote a post, “The Expressive C++17 Coding Challenge (in Rust)”. For various reasons, it got brought up again in the D world, and seb has written a new post. It’s good, you should check it out! However, it links to my gist, not my blog post. As I said back then: I held myself to the same constraints as the original contest; no external packages is a bit painful in Rust, but it’s not too bad. Mostly it would let me eliminate boilerplate while also improving correctness, and making the code a bit shorter. So, that got me thinking: What would this look like if I could use external packages? I took about an hour, and knocked it out. I have two versions to show you today, one where I pay no attention to allocations, and one where it’s zero-allocation.",
+      "url": "http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust-revisited",
+      "date_published": "2018-02-14T10:12:15-08:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "http://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "28ce1b60-8837-4443-87fb-669bf176db9b",
       "title": "Reflecting on ppbert",
       "content_text": "I had an itch: I was pretty-printing the BERT-encoded terms that we use in a production system at work and it was very slow. The Erlang shell took more than two minutes to dump the largest file. (It took about 0.1 second to read and parse the file; the rest was spent in io:format.) I decided to scratch that itch: I wrote ppbert, a command-line utility that reads BERT-encoded values and pretty-prints them. I’ve worked sporadically on ppbert for almost a year now, I use it daily at work, I’m happy with it, and I want to write about some of the things I learned during that journey.",
