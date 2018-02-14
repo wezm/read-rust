@@ -53,41 +53,51 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     Ok(url)
 }
 
-fn extract_author(doc: &kuchiki::NodeRef) -> Author {
-    // Author from meta tag and link
-    let author_url = doc.select_first("link[rel='author']")
-        .ok()
-        .and_then(|link| {
-            let attrs = link.attributes.borrow();
-            attrs.get("href").map(|href| href.to_owned())
+fn extract_author(doc: &kuchiki::NodeRef, feed_author: Option<&Author>) -> Author {
+    // Author from feed or meta tag and link
+    let author_url = feed_author
+        .clone()
+        .and_then(|author| author.url.clone())
+        .or_else(|| {
+            doc.select_first("link[rel='author']")
+                .ok()
+                .and_then(|link| {
+                    let attrs = link.attributes.borrow();
+                    attrs.get("href").map(|href| href.to_owned())
+                })
         });
 
-    let author_name = doc.select_first("meta[name='author']")
-        .ok()
-        .and_then(|link| {
-            let attrs = link.attributes.borrow();
-            attrs.get("content").map(|content| content.to_owned())
-        })
+    let author_name = feed_author
+        .clone()
+        .map(|author| author.name.clone())
         .or_else(|| {
-            doc.select_first("meta[property='author']")
+            doc.select_first("meta[name='author']")
                 .ok()
                 .and_then(|link| {
                     let attrs = link.attributes.borrow();
                     attrs.get("content").map(|content| content.to_owned())
                 })
-        })
-        .or_else(|| {
-            doc.select_first("meta[property='article:author']")
-                .ok()
-                .and_then(|link| {
-                    let attrs = link.attributes.borrow();
-                    attrs.get("content").map(|content| content.to_owned())
+                .or_else(|| {
+                    doc.select_first("meta[property='author']")
+                        .ok()
+                        .and_then(|link| {
+                            let attrs = link.attributes.borrow();
+                            attrs.get("content").map(|content| content.to_owned())
+                        })
+                })
+                .or_else(|| {
+                    doc.select_first("meta[property='article:author']")
+                        .ok()
+                        .and_then(|link| {
+                            let attrs = link.attributes.borrow();
+                            attrs.get("content").map(|content| content.to_owned())
+                        })
                 })
         });
 
     Author {
         name: author_name.unwrap_or_else(|| "FIXME".to_owned()),
-        url: author_url.unwrap_or_else(|| "FIXME".to_owned()),
+        url: author_url,
     }
 }
 
@@ -131,7 +141,11 @@ fn find_feed(html: &str, url: &Url) -> Result<Option<feedfinder::Feed>, Error> {
         .ok()
         .unwrap_or_else(|| vec![]);
     let client = reqwest::Client::new();
+
+    println!("Looking for feeds:");
     for feed in feeds {
+        println!("- Trying {}", feed.url().as_str());
+
         if let Ok(response) = client.head(feed.url().clone()).send() {
             if response_is_ok_and_matches_type(&response, feed.feed_type()) {
                 return Ok(Some(feed));
@@ -177,6 +191,7 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
         Feed::Rss(rss::Channel::read_from(BufReader::new(response)).expect("rss parsing error"))
     };
 
+    println!("Using: {}", url);
     Some(feed)
 }
 
@@ -208,7 +223,6 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
 
-    // TODO: Defer this until needed
     let feed_info = find_feed(html, url)?
         .and_then(|feed| fetch_and_parse_feed(feed.url(), feed.feed_type()))
         .map(|feed| post_info_from_feed(url, &feed))
@@ -241,8 +255,11 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
             .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
-    let author = extract_author(&doc);
-    let published_at = feed_info.published_at.or_else(|| extract_publication_date(&doc));
+    println!("{:?}", feed_info);
+    let author = extract_author(&doc, feed_info.author.as_ref());
+    let published_at = feed_info
+        .published_at
+        .or_else(|| extract_publication_date(&doc));
 
     Ok(PostInfo {
         title: Some(title),

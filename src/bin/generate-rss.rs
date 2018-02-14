@@ -74,7 +74,9 @@ impl TryFrom<Item> for rss::Item {
             .map_err(Error::StringError)?;
 
         // The author URL isn't used but verify that it's not a placeholder anyway
-        let _ = unwrap_placeholder(&item.author.url)?;
+        if let Some(url) = item.author.url {
+            let _ = unwrap_placeholder(&url)?;
+        }
 
         ItemBuilder::default()
             .guid(Some(guid))
@@ -150,7 +152,7 @@ fn generate_json_feed(
         description: format!("{} posts on Read Rust", tag_name),
         author: Author {
             name: "Wesley Moore".to_owned(),
-            url: "http://www.wezm.net/".to_owned(),
+            url: Some("http://www.wezm.net/".to_owned()),
         },
         items: filtered_items,
     };

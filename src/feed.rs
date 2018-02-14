@@ -24,7 +24,7 @@ pub struct PostInfo {
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Author {
     pub name: String,
-    pub url: String,
+    pub url: Option<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -49,6 +49,7 @@ pub struct JsonFeed {
     pub items: Vec<Item>,
 }
 
+#[derive(Debug)]
 pub enum Feed {
     Json(JsonFeed),
     Rss(rss::Channel),
@@ -80,10 +81,13 @@ impl JsonFeed {
 
 impl<'a> From<&'a atom::Entry> for PostInfo {
     fn from(entry: &atom::Entry) -> Self {
+        // TODO: Get author from feed
+        let author = entry.authors().first().map(Author::from);
+
         PostInfo {
             title: Some(entry.title().to_owned()),
             description: entry.summary().map(|desc| desc.to_owned()),
-            author: None, // TODO: From
+            author: author,
             published_at: entry
                 .published()
                 .and_then(|date| DateTime::parse_from_rfc3339(date).ok()),
@@ -110,6 +114,15 @@ impl<'a> From<&'a Item> for PostInfo {
             description: Some(item.content_text.clone()),
             author: None, // TODO: From
             published_at: Some(item.date_published),
+        }
+    }
+}
+
+impl<'a> From<&'a atom::Person> for Author {
+    fn from(person: &atom::Person) -> Self {
+        Author {
+            name: person.name().to_owned(),
+            url: person.uri().map(|uri| uri.to_owned()),
         }
     }
 }
