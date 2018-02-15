@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c780f270-e190-4987-aff1-ff20ebe108bf",
+      "title": "Improved User Interface 0.2.0 Released!",
+      "content_text": "iui, the Improved User Interface crate, has just gotten its 0.2 release. Improved User Interface is a set of safe, idiomatic Rust bindings to platform native GUI libraries (Win32API, Cocoa, and GTK+) via libui and ui-sys. Highlights of this release include: Correct, semantic use of mutability, GTK+ theme application per window, and menu bars and file open/create modal support.",
+      "url": "https://www.patreon.com/posts/17016887",
+      "date_published": "2018-02-16T04:16:00+00:00",
+      "author": {
+        "name": "Leo Tindall",
+        "url": "https://www.patreon.com/leotindall"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6a1644f0-2b9e-4c82-9ccd-ef69815f560f",
+      "title": "Bincode 1.0.0, fast binary serialization with Serde",
+      "content_text": "Bincode is a serializer implementation for Serde. If you stick a #[derive(Deserialize, Serialize)] on your struct, Bincode can efficiently serialize and deserialize those structs to and from bytes. Bincode is unique in that it’s a format that was built specifically for the Rust serialization ecosystem. Tight coupling with Serde allows Bincode to be very fast and serialize to very small payloads.",
+      "url": "http://tyoverby.com/posts/bincode_release.html",
+      "date_published": "2018-02-15T18:49:27+00:00",
+      "author": {
+        "name": "Ty Overby",
+        "url": "http://tyoverby.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "35c70f95-6097-47df-a470-bb92e99b27e5",
       "title": "First release of TQL: the easy-to-use ORM for Rust",
       "content_text": "After a couple of weeks of work, I'm now happy to release the first version of tql, the easy-to-use ORM for Rust. While the focus was to make tql work on the stable version of the compiler, I also added some new features. The most notable new feature is the support for SQLite: now tql supports SQLite as well as PostgreSQL. The support for SQLite is almost as complete as the one for PostgreSQL: the only missing function is not implemented because the backend (SQLite) does not support it.",

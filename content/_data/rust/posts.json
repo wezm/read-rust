@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c780f270-e190-4987-aff1-ff20ebe108bf",
+      "title": "Improved User Interface 0.2.0 Released!",
+      "content_text": "iui, the Improved User Interface crate, has just gotten its 0.2 release. Improved User Interface is a set of safe, idiomatic Rust bindings to platform native GUI libraries (Win32API, Cocoa, and GTK+) via libui and ui-sys. Highlights of this release include: Correct, semantic use of mutability, GTK+ theme application per window, and menu bars and file open/create modal support.",
+      "url": "https://www.patreon.com/posts/17016887",
+      "date_published": "2018-02-16T04:16:00+00:00",
+      "author": {
+        "name": "Leo Tindall",
+        "url": "https://www.patreon.com/leotindall"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6a1644f0-2b9e-4c82-9ccd-ef69815f560f",
+      "title": "Bincode 1.0.0, fast binary serialization with Serde",
+      "content_text": "Bincode is a serializer implementation for Serde. If you stick a #[derive(Deserialize, Serialize)] on your struct, Bincode can efficiently serialize and deserialize those structs to and from bytes. Bincode is unique in that it’s a format that was built specifically for the Rust serialization ecosystem. Tight coupling with Serde allows Bincode to be very fast and serialize to very small payloads.",
+      "url": "http://tyoverby.com/posts/bincode_release.html",
+      "date_published": "2018-02-15T18:49:27+00:00",
+      "author": {
+        "name": "Ty Overby",
+        "url": "http://tyoverby.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "938457b4-8905-4954-9007-88c80a2c24d6",
       "title": "\"The Expressive C++17 Coding Challenge (in Rust)\" Revisited",
       "content_text": "In October of last year, I wrote a post, “The Expressive C++17 Coding Challenge (in Rust)”. For various reasons, it got brought up again in the D world, and seb has written a new post. It’s good, you should check it out! However, it links to my gist, not my blog post. As I said back then: I held myself to the same constraints as the original contest; no external packages is a bit painful in Rust, but it’s not too bad. Mostly it would let me eliminate boilerplate while also improving correctness, and making the code a bit shorter. So, that got me thinking: What would this look like if I could use external packages? I took about an hour, and knocked it out. I have two versions to show you today, one where I pay no attention to allocations, and one where it’s zero-allocation.",
