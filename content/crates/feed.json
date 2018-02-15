@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a2946d73-a2c7-4d2a-899c-080258552b07",
+      "title": "Mutation Testing Rust in Earnest",
+      "content_text": "It’s been a while since I last suggested Mutation Testing in Rust, almost two years ago. Since then I got sidetracked a lot, and later lost interest. Just one more cool project I couldn’t afford to take on. But as things go, my interest in mutation testing was rekindled, and I decided to give it a shot and do more than blogging about it.",
+      "url": "http://llogiq.github.io/2018/02/14/mutagen.html",
+      "date_published": "2018-02-14T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c780f270-e190-4987-aff1-ff20ebe108bf",
       "title": "Improved User Interface 0.2.0 Released!",
       "content_text": "iui, the Improved User Interface crate, has just gotten its 0.2 release. Improved User Interface is a set of safe, idiomatic Rust bindings to platform native GUI libraries (Win32API, Cocoa, and GTK+) via libui and ui-sys. Highlights of this release include: Correct, semantic use of mutability, GTK+ theme application per window, and menu bars and file open/create modal support.",
