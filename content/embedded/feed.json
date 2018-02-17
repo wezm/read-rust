@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "45c32609-24ef-4288-b361-57ca8b5a34cd",
+      "title": "Zero cost stack overflow protection for ARM Cortex-M devices",
+      "content_text": "One of the core features of Rust is memory safety. Whenever possible the compiler enforces memory safety at compile. One example of this is the borrow checker which prevents data races, iterator invalidation, pointer invalidation and other issues at compile time. Other memory problems like buffer overflows can’t be prevented at compile time. In those cases the compiler inserts runtime checks, bounds checks in this case, to enforce memory safety at runtime. What about stack overflows? For quite a long time Rust didn’t have stack overflow checking but that wasn’t much of a problem on tier 1 platforms since these platforms have an OS and a MMU (Memory Management Unit) that prevents stack overflows from wreaking havoc.",
+      "url": "http://blog.japaric.io/stack-overflow-protection/",
+      "date_published": "2018-02-17T18:16:39+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "b7290658-fff8-4ee5-b8e5-eceefdc6beb6",
       "title": "Memory safe DMA transfers - Embedded in Rust",
       "content_text": "A blog about Rust and embedded stuff",
