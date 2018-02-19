@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "44ef6094-b3df-4a2c-9cd9-429feecff6bc",
+      "title": "Spectra gets Rust scripting!",
+      "content_text": "spectra is a crate I’ve been maintaining for a few months / years now. It’s a crate that I mainly use for demoscene productions (I released two with it, Céleri Rémoulade and Outline Invitation) but I also use it to play around and experiment new rendering, animation and video game techniques.",
+      "url": "http://phaazon.net/blog/spectra_plugins",
+      "date_published": "2018-02-19T02:57:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
       "title": "Fanta: An opinionated framework for web development in rust",
       "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",

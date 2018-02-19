@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "44ef6094-b3df-4a2c-9cd9-429feecff6bc",
+      "title": "Spectra gets Rust scripting!",
+      "content_text": "spectra is a crate I’ve been maintaining for a few months / years now. It’s a crate that I mainly use for demoscene productions (I released two with it, Céleri Rémoulade and Outline Invitation) but I also use it to play around and experiment new rendering, animation and video game techniques.",
+      "url": "http://phaazon.net/blog/spectra_plugins",
+      "date_published": "2018-02-19T02:57:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f77cc701-eca9-4b85-a450-dd10c1766966",
+      "title": "Sorting in Rust: Selection, Insertion, and Counting Sort",
+      "content_text": "Sorting is an invaluable skill and often covered early in a computer science curriculum. Have you ever tried to look up a friends phone number in an unsorted list!? You’d have to look at every single entry. Sorting creates all sorts of ways to access data quicker.",
+      "url": "https://medium.com/@spyr1014/sorting-in-rust-selection-insertion-and-counting-sort-2c4d3575e364",
+      "date_published": "2018-02-18T23:57:10.254+00:00",
+      "author": {
+        "name": "Andrew Jakubowicz",
+        "url": "https://medium.com/@spyr1014"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ff94e8a6-c203-4cbe-af46-8f99e2896dd8",
+      "title": "Borrow cycles in Rust: arenas v.s. drop-checking",
+      "content_text": "Ownership and borrowing are the fundamentals of data structures in Rust. However, both taking owneship of a value (moving it) or taking a reference to it can only happen after the value was created. This ordering seems to prevent having any cycle in a data structure, even though that’s sometimes useful or necessary. For example in a web page’s content tree, from any DOM node, one can easily access (if any) its first and last child, previous and next sibling, (so children of a node form a doubly-linked list) and parent. Some other applications might need to manipulate arbitrary graphs in their full generality.",
+      "url": "https://exyr.org/2018/rust-arenas-vs-dropck/",
+      "date_published": "2018-02-17T00:00:00+00:00",
+      "author": {
+        "name": "Simon Sapin",
+        "url": "https://exyr.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4abf1536-2c82-411a-be74-e85d2155af5a",
+      "title": "Setting up Windows 10 for programming (in Rust)",
+      "content_text": "Lately I’ve been working with Windows-specific APIs, so I needed to get a Windows dev environment. I’ve mostly used Linux for many years now, so for me programming on Windows feels very foreign. Getting to a point where I started being productive took a number of steps, so here they are, if only for me to find them next time.",
+      "url": "https://exyr.org/2018/windows/",
+      "date_published": "2018-01-31T00:00:00+00:00",
+      "author": {
+        "name": "Simon Sapin",
+        "url": "https://exyr.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "45c32609-24ef-4288-b361-57ca8b5a34cd",
       "title": "Zero cost stack overflow protection for ARM Cortex-M devices",
       "content_text": "One of the core features of Rust is memory safety. Whenever possible the compiler enforces memory safety at compile. One example of this is the borrow checker which prevents data races, iterator invalidation, pointer invalidation and other issues at compile time. Other memory problems like buffer overflows can’t be prevented at compile time. In those cases the compiler inserts runtime checks, bounds checks in this case, to enforce memory safety at runtime. What about stack overflows? For quite a long time Rust didn’t have stack overflow checking but that wasn’t much of a problem on tier 1 platforms since these platforms have an OS and a MMU (Memory Management Unit) that prevents stack overflows from wreaking havoc.",
