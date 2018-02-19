@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5ecd2c77-20dd-4fd5-84a7-6c8e2364ebde",
+      "title": "Ferrous Oxide For Jaguars And Incremented Crocodiles",
+      "content_text": "Caveat lector: the primary purpose of the article is to introduce a reader proficient in one of the popular object-oriented languages how not to program in Rust. While each feature of the language will be briefly introduced where it is used, no great efforts will be made to explain the feature in detail. Links to the Rust book should provide that.",
+      "url": "https://eno.space/blog/2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles",
+      "date_published": "2018-02-15T00:00:00+01:00",
+      "author": {
+        "name": "@u0060",
+        "url": "https://eno.space/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e5f704af-b1ed-4757-b96d-80402ba3e601",
       "title": "Rust for Java Devs – Creating functions",
       "content_text": "In this post of Rust for Java Devs we will look at creating functions in Rust. Functions in Rust do not differ that much from Java methods but there are a few little differences. There is also the topic of Rust’s lifetimes compared to Java’s garbage collection that one could argue separates the two from each other a bit more, but for this post I will focus on the structure of writing a function in Rust. Due to the similarities between the two, I believe most Java developers will have no problem in figuring out what arguments a Rust function takes, what it outputs and where the output is returned from.",
