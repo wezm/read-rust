@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e5f704af-b1ed-4757-b96d-80402ba3e601",
+      "title": "Rust for Java Devs – Creating functions",
+      "content_text": "In this post of Rust for Java Devs we will look at creating functions in Rust. Functions in Rust do not differ that much from Java methods but there are a few little differences. There is also the topic of Rust’s lifetimes compared to Java’s garbage collection that one could argue separates the two from each other a bit more, but for this post I will focus on the structure of writing a function in Rust. Due to the similarities between the two, I believe most Java developers will have no problem in figuring out what arguments a Rust function takes, what it outputs and where the output is returned from.",
+      "url": "https://lankydanblog.com/2018/02/18/rust-for-java-devs-creating-functions/",
+      "date_published": "2018-02-18T18:28:19+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "4abf1536-2c82-411a-be74-e85d2155af5a",
       "title": "Setting up Windows 10 for programming (in Rust)",
       "content_text": "Lately I’ve been working with Windows-specific APIs, so I needed to get a Windows dev environment. I’ve mostly used Linux for many years now, so for me programming on Windows feels very foreign. Getting to a point where I started being productive took a number of steps, so here they are, if only for me to find them next time.",

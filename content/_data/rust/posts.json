@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e5f704af-b1ed-4757-b96d-80402ba3e601",
+      "title": "Rust for Java Devs – Creating functions",
+      "content_text": "In this post of Rust for Java Devs we will look at creating functions in Rust. Functions in Rust do not differ that much from Java methods but there are a few little differences. There is also the topic of Rust’s lifetimes compared to Java’s garbage collection that one could argue separates the two from each other a bit more, but for this post I will focus on the structure of writing a function in Rust. Due to the similarities between the two, I believe most Java developers will have no problem in figuring out what arguments a Rust function takes, what it outputs and where the output is returned from.",
+      "url": "https://lankydanblog.com/2018/02/18/rust-for-java-devs-creating-functions/",
+      "date_published": "2018-02-18T18:28:19+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "6d0e61c5-087e-48dc-abd8-ded4f3e43a8a",
+      "title": "Rust things I miss in C",
+      "content_text": "Librsvg feels like it is reaching a tipping point, where suddenly it seems like it would be easier to just port some major parts from C to Rust than to just add accessors for them. Also, more and more of the meat of the library is in Rust now. I'm switching back and forth a lot between C and Rust these days, and C feels very, very primitive these days.",
+      "url": "https://people.gnome.org/~federico/blog/rust-things-i-miss-in-c.html",
+      "date_published": "2018-02-18T21:26:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "44ef6094-b3df-4a2c-9cd9-429feecff6bc",
       "title": "Spectra gets Rust scripting!",
       "content_text": "spectra is a crate I’ve been maintaining for a few months / years now. It’s a crate that I mainly use for demoscene productions (I released two with it, Céleri Rémoulade and Outline Invitation) but I also use it to play around and experiment new rendering, animation and video game techniques.",

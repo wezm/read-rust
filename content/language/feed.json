@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6d0e61c5-087e-48dc-abd8-ded4f3e43a8a",
+      "title": "Rust things I miss in C",
+      "content_text": "Librsvg feels like it is reaching a tipping point, where suddenly it seems like it would be easier to just port some major parts from C to Rust than to just add accessors for them. Also, more and more of the meat of the library is in Rust now. I'm switching back and forth a lot between C and Rust these days, and C feels very, very primitive these days.",
+      "url": "https://people.gnome.org/~federico/blog/rust-things-i-miss-in-c.html",
+      "date_published": "2018-02-18T21:26:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f77cc701-eca9-4b85-a450-dd10c1766966",
       "title": "Sorting in Rust: Selection, Insertion, and Counting Sort",
       "content_text": "Sorting is an invaluable skill and often covered early in a computer science curriculum. Have you ever tried to look up a friends phone number in an unsorted list!? You’d have to look at every single entry. Sorting creates all sorts of ways to access data quicker.",
