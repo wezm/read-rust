@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9b97498f-3ffb-4c89-8973-c2beb5e0140e",
+      "title": "Porting Rust to WebAssembly",
+      "content_text": "I recently spent some effort trying to make reproto run in a browser. Here I want to outline the problems I encountered and how I worked around them. I will also provide a number of suggestions for how things might be improved for future porters.",
+      "url": "https://udoprog.github.io/rust/2018-02-19/porting-rust-to-wasm.html",
+      "date_published": "2018-02-19T00:00:00+00:00",
+      "author": {
+        "name": "John-John Tedro",
+        "url": "https://udoprog.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
       "title": "Fanta: An opinionated framework for web development in rust",
       "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",

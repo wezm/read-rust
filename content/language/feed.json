@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c078b1d0-a902-42c5-84d0-5d262146e64c",
+      "title": "Using macro to generate generic docs?",
+      "content_text": "We were recently able to finally make the docs for integer primitive types much more accurate (thanks to @antoyo!). Now, the code examples match the type for which they're written. No more i32 examples for i128 (I think you got the idea at this point)! Now, I think a few people might be interested by the method we used to achieve such a result so let's talk about it.",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-02-19+Using+macro+to+generate+generic+docs%3F",
+      "date_published": "2018-02-19T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5ecd2c77-20dd-4fd5-84a7-6c8e2364ebde",
       "title": "Ferrous Oxide For Jaguars And Incremented Crocodiles",
       "content_text": "Caveat lector: the primary purpose of the article is to introduce a reader proficient in one of the popular object-oriented languages how not to program in Rust. While each feature of the language will be briefly introduced where it is used, no great efforts will be made to explain the feature in detail. Links to the Rust book should provide that.",
