@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b2eb24c3-d7ee-438c-b041-0446dd551abe",
+      "title": "I decided to make an 1980's Home Computer in Rust - Part 1",
+      "content_text": "My first attempt at Rust programming was the stellaris-launchpad crate. This has a few demos that either blink the LED or roll it through an RGB rainbow using the PWM timers. Recently I've started a new version of the lm4f120 crate called tm4c123x-hal. The name change reflects TI's new name for basically the exact same part, while the -hal indicates that it's based upon the output of svd2rust and @japaric's new Embedded Hal crate. At the same time, I was watching videos on Youtube about a new wave of 1980's style 'retro' computing boards - text output, BASIC interpreter, etc. An idea started to form that I could put all three of these things together.",
+      "url": "http://railwayelectronics.blogspot.com.au/2018/02/i-decided-to-make-1980s-home-computer.html?m=1",
+      "date_published": "2018-02-20T22:16:00+00:00",
+      "author": {
+        "name": "theJPster",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "f2bf66c3-52bf-4a3c-b508-96bbd3385e8d",
       "title": "Programming an ARM microcontroller in Rust at four different levels of abstraction",
       "content_text": "Covering: Why Rust on Microcontrollers, Level 1: Direct register access in an unsafe block, Level 2: No unsafe blocks, use the API provided by svd2rust, A problem, Level 3: The embedded HAL to the rescue, Level 4: Use a board support crate.",
