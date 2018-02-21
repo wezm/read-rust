@@ -229,7 +229,7 @@ dependencies = [
 [[package]]
 name = "feedfinder"
 version = "0.1.0"
-source = "git+https://github.com/wezm/feedfinder.git#3d134776ea3196bfa38322980a12efab2f26d87f"
+source = "git+https://github.com/wezm/feedfinder.git#a48d4f841e12bdf95c928d24250fea14e6abc8c4"
 dependencies = [
  "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "kuchiki 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
