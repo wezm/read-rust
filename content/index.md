@@ -21,8 +21,8 @@ New posts are added to one or more of the following sections:
 <!-- * [Community](/community/) — regarding the Rust community. -->
 <!-- * [Crypto](/crypto/) ? -->
 <!-- * [DevOps](/devops/) -->
-<!-- * [Games](/games/) -->
 <!-- * [Talks and Presentations](/talks/) -->
+<!-- * [Audio and Music](/audio-and-music/) -->
 
 <h2>
   Recent Posts

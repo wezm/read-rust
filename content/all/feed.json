@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "c5a101b5-e749-4e99-9e08-54de2cf0a2c1",
+      "title": "Oxidizing Fedora: Try Rust and its applications today",
+      "content_text": "In recent years, it has become increasingly important to develop software that minimizes security vulnerabilities. Memory management bugs are a common cause of these vulnerabilities. To that end, the Mozilla community has spent the last several years building the Rust language and ecosystem which focuses primarily on eliminating those bugs. And Rust is available in Fedora today, along with a few applications in Fedora 27 and higher, as seen below.",
+      "url": "https://fedoramagazine.org/oxidizing-fedora-try-rust-applications-today/",
+      "date_published": "2018-02-21T08:00:23+00:00",
+      "author": {
+        "name": "Igor Gnatenko and Neal Gompa",
+        "url": "https://fedoramagazine.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0d46d60e-49c7-44ce-8f0c-48b94501b1ca",
+      "title": "How to write GStreamer Elements in Rust Part 2: A raw audio sine wave source",
+      "content_text": "A bit later than anticipated, this is now part two of the blog post series about writing GStreamer elements in Rust. Part one can be found here, and I’ll assume that everything written there is known already. In this part, a raw audio sine wave source element is going to be written. It will be similar to the one Mathieu was writing in his blog post about writing such a GStreamer element in Python. Various details will be different though, but more about that later.",
+      "url": "https://coaxion.net/blog/2018/02/how-to-write-gstreamer-elements-in-rust-part-2-a-raw-audio-sine-wave-source/",
+      "date_published": "2018-02-21T15:05:22+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "45772a5b-1f22-4db9-9eee-f888c0c82660",
+      "title": "Why Writing a Linked List in Rust is Basically Impossible [in safe Rust]",
+      "content_text": "Before I start this post, let me preface it by saying that I’m not an experienced Rustacean by any means. Errata and corrections are appreciated. This post is aimed at helping other fledgling rust-learners avoid my mistake. First, by helping Rust learners pick good introductory projects that will fit naturally in idiomatic rust. Second, by helping Rust learners start building Rust-friendly design intuition. I’d heard about Rust and it’s inscrutable borrow checker for years, but after reading a few blog posts about compiler error improvements, I figured it might be user-friendly enough to give it a try.",
+      "url": "https://rcoh.me/posts/rust-linked-list-basically-impossible/",
+      "date_published": "2018-02-20T08:55:56-08:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://rcoh.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3dc17991-d359-4205-917a-80b37a564b37",
+      "title": "Rust for Cross-Language System Libraries",
+      "content_text": "We have been building libpasta as a simple, usable solution to password hashing and migration. The goal for libpasta is to be a cross-platform, cross-language system library. libpasta is written in Rust, exports a C-style API, and builds to a static/shared library. Most languages support calling external libraries through foreign function interfaces (FFIs), and the end result can be seen in the documentation where each language has access to the libpasta functionality.",
+      "url": "https://libpasta.github.io/blog/bindings/",
+      "date_published": "2018-02-21T00:00:00+00:00",
+      "author": {
+        "name": "libpasta",
+        "url": "https://libpasta.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8e33c7c4-2788-418b-8e47-ca8990ae0d38",
+      "title": "Snips Uses Rust to Build an Embedded Voice Assistant",
+      "content_text": "The team at Paris-based Snips has created a voice assistant that can be embedded in a single device or used in a home network to control lights, thermostat, music, and more. You can build a home hub on a Raspberry Pi and ask it for a weather report, to play your favorite song, or to brew up a double espresso. Manufacturers like Keecker are adding Snips’ technology to products like multimedia home robots. And Snips works closely with leaders across the value chain, like NVIDIA, EBV, and Analog Devices, in order to voice-enable an increasingly wider range of device types, from speakers to home automation systems to cars.",
+      "url": "https://blog.mozilla.org/blog/2018/02/21/snips-uses-rust-build-embedded-voice-assistant/",
+      "date_published": "2018-02-21T12:34:56-08:00",
+      "author": {
+        "name": "Judy DeMocker",
+        "url": "https://blog.mozilla.org/blog/author/jdemockermozilla-com/"
+      },
+      "tags": [
+        "Language",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "b2eb24c3-d7ee-438c-b041-0446dd551abe",
       "title": "I decided to make an 1980's Home Computer in Rust - Part 1",
       "content_text": "My first attempt at Rust programming was the stellaris-launchpad crate. This has a few demos that either blink the LED or roll it through an RGB rainbow using the PWM timers. Recently I've started a new version of the lm4f120 crate called tm4c123x-hal. The name change reflects TI's new name for basically the exact same part, while the -hal indicates that it's based upon the output of svd2rust and @japaric's new Embedded Hal crate. At the same time, I was watching videos on Youtube about a new wave of 1980's style 'retro' computing boards - text output, BASIC interpreter, etc. An idea started to form that I could put all three of these things together.",
