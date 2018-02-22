@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "22d134e6-ddc6-4571-965c-4b6e72a544eb",
+      "title": "Recently, for a Rusty Web",
+      "content_text": "It’s been a few months since I shifted my focus full time to Rust, and in that time, we’ve gotten a lot of work done! I wanted to update you here what all that is, since it’s spread around on multiple repositories.",
+      "url": "http://seanmonstar.com/post/171170905822/recently-for-a-rusty-web",
+      "date_published": "2018-02-22T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "450ba7fc-c3ea-4af5-bda4-06842f062de8",
+      "title": "Rust Typestates",
+      "content_text": "A long time ago, the Rust language was a language with typestate. Officially, typestates were dropped long before Rust 1.0. In this entry, I’ll get you in on the worst kept secret of the Rust community: Rust still has typestates.",
+      "url": "https://yoric.github.io/post/rust-typestate/",
+      "date_published": "2018-02-22T15:15:55+01:00",
+      "author": {
+        "name": "David Teller",
+        "url": "https://yoric.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c5a101b5-e749-4e99-9e08-54de2cf0a2c1",
       "title": "Oxidizing Fedora: Try Rust and its applications today",
       "content_text": "In recent years, it has become increasingly important to develop software that minimizes security vulnerabilities. Memory management bugs are a common cause of these vulnerabilities. To that end, the Mozilla community has spent the last several years building the Rust language and ecosystem which focuses primarily on eliminating those bugs. And Rust is available in Fedora today, along with a few applications in Fedora 27 and higher, as seen below.",

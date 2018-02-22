@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "450ba7fc-c3ea-4af5-bda4-06842f062de8",
+      "title": "Rust Typestates",
+      "content_text": "A long time ago, the Rust language was a language with typestate. Officially, typestates were dropped long before Rust 1.0. In this entry, I’ll get you in on the worst kept secret of the Rust community: Rust still has typestates.",
+      "url": "https://yoric.github.io/post/rust-typestate/",
+      "date_published": "2018-02-22T15:15:55+01:00",
+      "author": {
+        "name": "David Teller",
+        "url": "https://yoric.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "45772a5b-1f22-4db9-9eee-f888c0c82660",
       "title": "Why Writing a Linked List in Rust is Basically Impossible [in safe Rust]",
       "content_text": "Before I start this post, let me preface it by saying that I’m not an experienced Rustacean by any means. Errata and corrections are appreciated. This post is aimed at helping other fledgling rust-learners avoid my mistake. First, by helping Rust learners pick good introductory projects that will fit naturally in idiomatic rust. Second, by helping Rust learners start building Rust-friendly design intuition. I’d heard about Rust and it’s inscrutable borrow checker for years, but after reading a few blog posts about compiler error improvements, I figured it might be user-friendly enough to give it a try.",
