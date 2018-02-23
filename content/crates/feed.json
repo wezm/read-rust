@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b079d66f-d08e-4593-80cc-e0060133d12e",
+      "title": "Failure 1.0.0 on March 15",
+      "content_text": "I’m planning to release a 1.0.0 version of failure on March 15. Once this happens, I don’t plan to release any further breaking changes to the failure crate (though maybe someday in the distant future).\nBreaking changes in 1.0 failure is in a somewhat unique position as being a significant part of the public API of other libraries that depend on it. Whether they use the Error struct or derive Fail for a custom error type, this becomes a part of the API they expose to other users.",
+      "url": "https://boats.gitlab.io/blog/post/2018-02-22-failure-1.0/",
+      "date_published": "2018-02-22T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "a2946d73-a2c7-4d2a-899c-080258552b07",
       "title": "Mutation Testing Rust in Earnest",
       "content_text": "It’s been a while since I last suggested Mutation Testing in Rust, almost two years ago. Since then I got sidetracked a lot, and later lost interest. Just one more cool project I couldn’t afford to take on. But as things go, my interest in mutation testing was rekindled, and I decided to give it a shot and do more than blogging about it.",
