@@ -192,6 +192,15 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
 }
 
 fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
+    // Sometimes the URLs in the feed are http with the post URL is https (and vice-versa)
+    // So the alternate URL is generated so that can be tried too.
+    let mut alternate_url = post_url.clone();
+    match post_url.scheme() {
+        "http" => alternate_url.set_scheme("https"),
+        "https" => alternate_url.set_scheme("http"),
+        _ => panic!("post_url is not http or https"),
+    }.expect("unable to set scheme of alternate URL");
+
     let post_info = match *feed {
         Feed::Atom(ref feed) => feed.entries()
             .iter()
@@ -199,19 +208,22 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
                 entry
                     .links()
                     .iter()
-                    .any(|link| link.href() == post_url.as_str())
+                    .any(|link| link.href() == post_url.as_str() || link.href() == alternate_url.as_str())
             })
             .map(PostInfo::from),
         Feed::Json(ref feed) => feed.items
             .iter()
-            .find(|item| item.url == post_url.as_str())
+            .find(|item| item.url == post_url.as_str() || item.url == alternate_url.as_str())
             .map(PostInfo::from),
         Feed::Rss(ref feed) => feed.items()
             .iter()
-            .find(|&item| item.link() == Some(post_url.as_str()))
+            .find(|&item| item.link() == Some(post_url.as_str()) || item.link() == Some(alternate_url.as_str()))
             .map(PostInfo::from),
     };
 
+    if post_info.is_none() {
+        println!("did not find post in feed");
+    }
     post_info.unwrap_or_default()
 }
 
