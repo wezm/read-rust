@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0493daa3-4abb-46eb-82de-e75daea4bbac",
+      "title": "Pushing Rust To 2019",
+      "content_text": "Some of these suggestions are not entirely new and have been added as posts/ comments on /r/rust, Github threads. But I believe better listing down all in a one place, because now we are in the correct time even I am bit late.",
+      "url": "https://medium.com/@dumindu/pushing-rust-to-2019-9616d82172d3",
+      "date_published": "2018-02-23T15:44:16.399+00:00",
+      "author": {
+        "name": "Dumindu Madunuwan",
+        "url": "https://medium.com/@dumindu"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "516e4eaf-1ce1-49be-a457-a471e9f97329",
+      "title": "How doctests get made",
+      "content_text": "One of rustdoc’s greatest features is the ability to take code samples within your documentation and run them like tests. This ensures that all your samples stay up to date with your library’s API changes. However, there are some steps that need to happen to massage these “doctests” into something that can be compiled and run like a regular program.",
+      "url": "https://quietmisdreavus.net/code/2018/02/23/how-the-doctests-get-made/",
+      "date_published": "2018-02-23T16:00:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b079d66f-d08e-4593-80cc-e0060133d12e",
       "title": "Failure 1.0.0 on March 15",
       "content_text": "I’m planning to release a 1.0.0 version of failure on March 15. Once this happens, I don’t plan to release any further breaking changes to the failure crate (though maybe someday in the distant future).\nBreaking changes in 1.0 failure is in a somewhat unique position as being a significant part of the public API of other libraries that depend on it. Whether they use the Error struct or derive Fail for a custom error type, this becomes a part of the API they expose to other users.",
