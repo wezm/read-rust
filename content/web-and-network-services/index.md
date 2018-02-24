@@ -22,10 +22,8 @@ As well as non-web network services.
   </a>
 </h2>
 
-<ul>
 {% for post in site.data.rust.posts.items %}
   {% if post.tags contains "Web and Network Services" %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+  {% include "post_excerpt.liquid" %}
   {% endif %}
 {% endfor %}
-</ul>

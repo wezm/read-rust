@@ -14,10 +14,8 @@ Building games with Rust and other graphics related work.
   </a>
 </h2>
 
-<ul>
 {% for post in site.data.rust.posts.items %}
   {% if post.tags contains "Games and Graphics" %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+  {% include "post_excerpt.liquid" %}
   {% endif %}
 {% endfor %}
-</ul>
