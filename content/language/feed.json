@@ -10,6 +10,175 @@
   },
   "items": [
     {
+      "id": "0493daa3-4abb-46eb-82de-e75daea4bbac",
+      "title": "Pushing Rust To 2019",
+      "content_text": "Some of these suggestions are not entirely new and have been added as posts/ comments on /r/rust, Github threads. But I believe better listing down all in a one place, because now we are in the correct time even I am bit late.",
+      "url": "https://medium.com/@dumindu/pushing-rust-to-2019-9616d82172d3",
+      "date_published": "2018-02-23T15:44:16.399+00:00",
+      "author": {
+        "name": "Dumindu Madunuwan",
+        "url": "https://medium.com/@dumindu"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "516e4eaf-1ce1-49be-a457-a471e9f97329",
+      "title": "How doctests get made",
+      "content_text": "One of rustdoc’s greatest features is the ability to take code samples within your documentation and run them like tests. This ensures that all your samples stay up to date with your library’s API changes. However, there are some steps that need to happen to massage these “doctests” into something that can be compiled and run like a regular program.",
+      "url": "https://quietmisdreavus.net/code/2018/02/23/how-the-doctests-get-made/",
+      "date_published": "2018-02-23T16:00:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "450ba7fc-c3ea-4af5-bda4-06842f062de8",
+      "title": "Rust Typestates",
+      "content_text": "A long time ago, the Rust language was a language with typestate. Officially, typestates were dropped long before Rust 1.0. In this entry, I’ll get you in on the worst kept secret of the Rust community: Rust still has typestates.",
+      "url": "https://yoric.github.io/post/rust-typestate/",
+      "date_published": "2018-02-22T15:15:55+01:00",
+      "author": {
+        "name": "David Teller",
+        "url": "https://yoric.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "45772a5b-1f22-4db9-9eee-f888c0c82660",
+      "title": "Why Writing a Linked List in Rust is Basically Impossible [in safe Rust]",
+      "content_text": "Before I start this post, let me preface it by saying that I’m not an experienced Rustacean by any means. Errata and corrections are appreciated. This post is aimed at helping other fledgling rust-learners avoid my mistake. First, by helping Rust learners pick good introductory projects that will fit naturally in idiomatic rust. Second, by helping Rust learners start building Rust-friendly design intuition. I’d heard about Rust and it’s inscrutable borrow checker for years, but after reading a few blog posts about compiler error improvements, I figured it might be user-friendly enough to give it a try.",
+      "url": "https://rcoh.me/posts/rust-linked-list-basically-impossible/",
+      "date_published": "2018-02-20T08:55:56-08:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://rcoh.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3dc17991-d359-4205-917a-80b37a564b37",
+      "title": "Rust for Cross-Language System Libraries",
+      "content_text": "We have been building libpasta as a simple, usable solution to password hashing and migration. The goal for libpasta is to be a cross-platform, cross-language system library. libpasta is written in Rust, exports a C-style API, and builds to a static/shared library. Most languages support calling external libraries through foreign function interfaces (FFIs), and the end result can be seen in the documentation where each language has access to the libpasta functionality.",
+      "url": "https://libpasta.github.io/blog/bindings/",
+      "date_published": "2018-02-21T00:00:00+00:00",
+      "author": {
+        "name": "libpasta",
+        "url": "https://libpasta.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8e33c7c4-2788-418b-8e47-ca8990ae0d38",
+      "title": "Snips Uses Rust to Build an Embedded Voice Assistant",
+      "content_text": "The team at Paris-based Snips has created a voice assistant that can be embedded in a single device or used in a home network to control lights, thermostat, music, and more. You can build a home hub on a Raspberry Pi and ask it for a weather report, to play your favorite song, or to brew up a double espresso. Manufacturers like Keecker are adding Snips’ technology to products like multimedia home robots. And Snips works closely with leaders across the value chain, like NVIDIA, EBV, and Analog Devices, in order to voice-enable an increasingly wider range of device types, from speakers to home automation systems to cars.",
+      "url": "https://blog.mozilla.org/blog/2018/02/21/snips-uses-rust-build-embedded-voice-assistant/",
+      "date_published": "2018-02-21T12:34:56-08:00",
+      "author": {
+        "name": "Judy DeMocker",
+        "url": "https://blog.mozilla.org/blog/author/jdemockermozilla-com/"
+      },
+      "tags": [
+        "Language",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c078b1d0-a902-42c5-84d0-5d262146e64c",
+      "title": "Using macro to generate generic docs?",
+      "content_text": "We were recently able to finally make the docs for integer primitive types much more accurate (thanks to @antoyo!). Now, the code examples match the type for which they're written. No more i32 examples for i128 (I think you got the idea at this point)! Now, I think a few people might be interested by the method we used to achieve such a result so let's talk about it.",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-02-19+Using+macro+to+generate+generic+docs%3F",
+      "date_published": "2018-02-19T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5ecd2c77-20dd-4fd5-84a7-6c8e2364ebde",
+      "title": "Ferrous Oxide For Jaguars And Incremented Crocodiles",
+      "content_text": "Caveat lector: the primary purpose of the article is to introduce a reader proficient in one of the popular object-oriented languages how not to program in Rust. While each feature of the language will be briefly introduced where it is used, no great efforts will be made to explain the feature in detail. Links to the Rust book should provide that.",
+      "url": "https://eno.space/blog/2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles",
+      "date_published": "2018-02-15T00:00:00+01:00",
+      "author": {
+        "name": "@u0060",
+        "url": "https://eno.space/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6d0e61c5-087e-48dc-abd8-ded4f3e43a8a",
+      "title": "Rust things I miss in C",
+      "content_text": "Librsvg feels like it is reaching a tipping point, where suddenly it seems like it would be easier to just port some major parts from C to Rust than to just add accessors for them. Also, more and more of the meat of the library is in Rust now. I'm switching back and forth a lot between C and Rust these days, and C feels very, very primitive these days.",
+      "url": "https://people.gnome.org/~federico/blog/rust-things-i-miss-in-c.html",
+      "date_published": "2018-02-18T21:26:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f77cc701-eca9-4b85-a450-dd10c1766966",
+      "title": "Sorting in Rust: Selection, Insertion, and Counting Sort",
+      "content_text": "Sorting is an invaluable skill and often covered early in a computer science curriculum. Have you ever tried to look up a friends phone number in an unsorted list!? You’d have to look at every single entry. Sorting creates all sorts of ways to access data quicker.",
+      "url": "https://medium.com/@spyr1014/sorting-in-rust-selection-insertion-and-counting-sort-2c4d3575e364",
+      "date_published": "2018-02-18T23:57:10.254+00:00",
+      "author": {
+        "name": "Andrew Jakubowicz",
+        "url": "https://medium.com/@spyr1014"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ff94e8a6-c203-4cbe-af46-8f99e2896dd8",
+      "title": "Borrow cycles in Rust: arenas v.s. drop-checking",
+      "content_text": "Ownership and borrowing are the fundamentals of data structures in Rust. However, both taking owneship of a value (moving it) or taking a reference to it can only happen after the value was created. This ordering seems to prevent having any cycle in a data structure, even though that’s sometimes useful or necessary. For example in a web page’s content tree, from any DOM node, one can easily access (if any) its first and last child, previous and next sibling, (so children of a node form a doubly-linked list) and parent. Some other applications might need to manipulate arbitrary graphs in their full generality.",
+      "url": "https://exyr.org/2018/rust-arenas-vs-dropck/",
+      "date_published": "2018-02-17T00:00:00+00:00",
+      "author": {
+        "name": "Simon Sapin",
+        "url": "https://exyr.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "938457b4-8905-4954-9007-88c80a2c24d6",
+      "title": "\"The Expressive C++17 Coding Challenge (in Rust)\" Revisited",
+      "content_text": "In October of last year, I wrote a post, “The Expressive C++17 Coding Challenge (in Rust)”. For various reasons, it got brought up again in the D world, and seb has written a new post. It’s good, you should check it out! However, it links to my gist, not my blog post. As I said back then: I held myself to the same constraints as the original contest; no external packages is a bit painful in Rust, but it’s not too bad. Mostly it would let me eliminate boilerplate while also improving correctness, and making the code a bit shorter. So, that got me thinking: What would this look like if I could use external packages? I took about an hour, and knocked it out. I have two versions to show you today, one where I pay no attention to allocations, and one where it’s zero-allocation.",
+      "url": "http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust-revisited",
+      "date_published": "2018-02-14T10:12:15-08:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "http://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "28ce1b60-8837-4443-87fb-669bf176db9b",
       "title": "Reflecting on ppbert",
       "content_text": "I had an itch: I was pretty-printing the BERT-encoded terms that we use in a production system at work and it was very slow. The Erlang shell took more than two minutes to dump the largest file. (It took about 0.1 second to read and parse the file; the rest was spent in io:format.) I decided to scratch that itch: I wrote ppbert, a command-line utility that reads BERT-encoded values and pretty-prints them. I’ve worked sporadically on ppbert for almost a year now, I use it daily at work, I’m happy with it, and I want to write about some of the things I learned during that journey.",

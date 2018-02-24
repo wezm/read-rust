@@ -17,7 +17,7 @@ I&nbsp;use and recommend [Feedbin] + [Reeder]:
 * [selfoss](https://selfoss.aditu.de/) (Self-hosted)
 * [Thunderbird](https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs) (BSD, Linux, Mac, Windows, etc.)
 
-Alternatively you may [follow Read Rust on Twitter](https://twitter.com/read_rust).
+Alternatively you may follow Read Rust on [Twitter][@read_rust] or [Facebook].
 
 ## What is JSON Feed?
 
@@ -34,4 +34,5 @@ details visit the [JSON&nbsp;Feed website][json-feed-website].
 [json-feed-website]: https://jsonfeed.org/
 [Reeder]: http://reederapp.com/
 [rust-reddit]: https://www.reddit.com/r/rust/
-[the Noun Project]: http://thenounproject.com/
+[@read_rust]: https://twitter.com/read_rust
+[Facebook]: https://www.facebook.com/readrust/

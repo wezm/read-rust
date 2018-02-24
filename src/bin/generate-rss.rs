@@ -13,7 +13,7 @@ use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
 
-use read_rust::feed::{Author, Feed, Item};
+use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
 
 // Need TryFrom/Into https://github.com/sfackler/rfcs/blob/try-from/text/0000-try-from.md
@@ -74,7 +74,9 @@ impl TryFrom<Item> for rss::Item {
             .map_err(Error::StringError)?;
 
         // The author URL isn't used but verify that it's not a placeholder anyway
-        let _ = unwrap_placeholder(&item.author.url)?;
+        if let Some(url) = item.author.url {
+            let _ = unwrap_placeholder(&url)?;
+        }
 
         ItemBuilder::default()
             .guid(Some(guid))
@@ -88,7 +90,7 @@ impl TryFrom<Item> for rss::Item {
     }
 }
 
-fn generate_rss_items(feed: &Feed, tag: &Option<String>) -> Result<Vec<rss::Item>, Error> {
+fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::Item>, Error> {
     feed.items
         .clone()
         .into_iter()
@@ -103,7 +105,7 @@ fn generate_rss_items(feed: &Feed, tag: &Option<String>) -> Result<Vec<rss::Item
         .collect()
 }
 
-fn generate_rss(feed: &Feed, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
+fn generate_rss(feed: &JsonFeed, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
     let items = generate_rss_items(feed, tag)?;
 
     let channel = ChannelBuilder::default()
@@ -122,10 +124,10 @@ fn generate_rss(feed: &Feed, rss_feed_path: &str, tag: &Option<String>) -> Resul
 }
 
 fn generate_json_feed(
-    feed: &Feed,
+    feed: &JsonFeed,
     json_feed_path: &Path,
     tag: &Option<String>,
-) -> Result<Feed, Error> {
+) -> Result<JsonFeed, Error> {
     let filtered_items = match *tag {
         Some(ref tag) => feed.items
             .clone()
@@ -142,7 +144,7 @@ fn generate_json_feed(
         .replace(" ", "-");
     let home_page_url = "https://readrust.net/";
 
-    let filtered_feed = Feed {
+    let filtered_feed = JsonFeed {
         version: "https://jsonfeed.org/version/1".to_owned(),
         title: format!("Read Rust - {}", tag_name),
         home_page_url: home_page_url.to_owned(),
@@ -150,7 +152,7 @@ fn generate_json_feed(
         description: format!("{} posts on Read Rust", tag_name),
         author: Author {
             name: "Wesley Moore".to_owned(),
-            url: "http://www.wezm.net/".to_owned(),
+            url: Some("http://www.wezm.net/".to_owned()),
         },
         items: filtered_items,
     };
@@ -170,7 +172,7 @@ fn print_usage(program: &str, opts: &Options) {
 }
 
 fn run(input_feed_path: &str, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
-    let feed = Feed::load(Path::new(input_feed_path))?;
+    let feed = JsonFeed::load(Path::new(input_feed_path))?;
 
     let json_feed_path = Path::new(rss_feed_path).with_extension("json");
     let filtered_feed = generate_json_feed(&feed, &json_feed_path, tag)?;

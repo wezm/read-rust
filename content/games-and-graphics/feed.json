@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
+      "title": "Gameland intro, reimplemented in Rust for WebAssembly",
+      "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",
+      "url": "http://perlun.eu.org/en/programming/gameland/",
+      "date_published": "2018-02-13T07:44:00+11:00",
+      "author": {
+        "name": "Per Lundberg",
+        "url": "http://perlun.eu.org/en/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "b8e85b25-1d33-4b69-a3ba-b2cbac2bf62e",
       "title": "RLSL (Rust -> SPIR-V compiler) Progress report",
       "content_text": "This is a follow up post. RLSL is a Rust to SPIR-V compiler. SPIR-V is the shading language for Vulkan, similar to other shading languages like GLSL, HLSL but more low level. OpenGL, DX9/11/12, Vulkan, Metal are all graphic APIs that are able to use the GPU to draw pixels on the screen. Those APIs have certain stages that can be controlled by the developer by using the correct shading language.",

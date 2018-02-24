@@ -3,6 +3,8 @@ extern crate serde;
 extern crate serde_derive;
 extern crate serde_json;
 
+extern crate atom_syndication;
+extern crate rss;
 extern crate uuid;
 
 pub mod error;

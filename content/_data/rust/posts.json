@@ -10,6 +10,457 @@
   },
   "items": [
     {
+      "id": "0493daa3-4abb-46eb-82de-e75daea4bbac",
+      "title": "Pushing Rust To 2019",
+      "content_text": "Some of these suggestions are not entirely new and have been added as posts/ comments on /r/rust, Github threads. But I believe better listing down all in a one place, because now we are in the correct time even I am bit late.",
+      "url": "https://medium.com/@dumindu/pushing-rust-to-2019-9616d82172d3",
+      "date_published": "2018-02-23T15:44:16.399+00:00",
+      "author": {
+        "name": "Dumindu Madunuwan",
+        "url": "https://medium.com/@dumindu"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "516e4eaf-1ce1-49be-a457-a471e9f97329",
+      "title": "How doctests get made",
+      "content_text": "One of rustdoc’s greatest features is the ability to take code samples within your documentation and run them like tests. This ensures that all your samples stay up to date with your library’s API changes. However, there are some steps that need to happen to massage these “doctests” into something that can be compiled and run like a regular program.",
+      "url": "https://quietmisdreavus.net/code/2018/02/23/how-the-doctests-get-made/",
+      "date_published": "2018-02-23T16:00:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b079d66f-d08e-4593-80cc-e0060133d12e",
+      "title": "Failure 1.0.0 on March 15",
+      "content_text": "I’m planning to release a 1.0.0 version of failure on March 15. Once this happens, I don’t plan to release any further breaking changes to the failure crate (though maybe someday in the distant future).\nBreaking changes in 1.0 failure is in a somewhat unique position as being a significant part of the public API of other libraries that depend on it. Whether they use the Error struct or derive Fail for a custom error type, this becomes a part of the API they expose to other users.",
+      "url": "https://boats.gitlab.io/blog/post/2018-02-22-failure-1.0/",
+      "date_published": "2018-02-22T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "22d134e6-ddc6-4571-965c-4b6e72a544eb",
+      "title": "Recently, for a Rusty Web",
+      "content_text": "It’s been a few months since I shifted my focus full time to Rust, and in that time, we’ve gotten a lot of work done! I wanted to update you here what all that is, since it’s spread around on multiple repositories.",
+      "url": "http://seanmonstar.com/post/171170905822/recently-for-a-rusty-web",
+      "date_published": "2018-02-22T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "450ba7fc-c3ea-4af5-bda4-06842f062de8",
+      "title": "Rust Typestates",
+      "content_text": "A long time ago, the Rust language was a language with typestate. Officially, typestates were dropped long before Rust 1.0. In this entry, I’ll get you in on the worst kept secret of the Rust community: Rust still has typestates.",
+      "url": "https://yoric.github.io/post/rust-typestate/",
+      "date_published": "2018-02-22T15:15:55+01:00",
+      "author": {
+        "name": "David Teller",
+        "url": "https://yoric.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c5a101b5-e749-4e99-9e08-54de2cf0a2c1",
+      "title": "Oxidizing Fedora: Try Rust and its applications today",
+      "content_text": "In recent years, it has become increasingly important to develop software that minimizes security vulnerabilities. Memory management bugs are a common cause of these vulnerabilities. To that end, the Mozilla community has spent the last several years building the Rust language and ecosystem which focuses primarily on eliminating those bugs. And Rust is available in Fedora today, along with a few applications in Fedora 27 and higher, as seen below.",
+      "url": "https://fedoramagazine.org/oxidizing-fedora-try-rust-applications-today/",
+      "date_published": "2018-02-21T08:00:23+00:00",
+      "author": {
+        "name": "Igor Gnatenko and Neal Gompa",
+        "url": "https://fedoramagazine.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0d46d60e-49c7-44ce-8f0c-48b94501b1ca",
+      "title": "How to write GStreamer Elements in Rust Part 2: A raw audio sine wave source",
+      "content_text": "A bit later than anticipated, this is now part two of the blog post series about writing GStreamer elements in Rust. Part one can be found here, and I’ll assume that everything written there is known already. In this part, a raw audio sine wave source element is going to be written. It will be similar to the one Mathieu was writing in his blog post about writing such a GStreamer element in Python. Various details will be different though, but more about that later.",
+      "url": "https://coaxion.net/blog/2018/02/how-to-write-gstreamer-elements-in-rust-part-2-a-raw-audio-sine-wave-source/",
+      "date_published": "2018-02-21T15:05:22+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "45772a5b-1f22-4db9-9eee-f888c0c82660",
+      "title": "Why Writing a Linked List in Rust is Basically Impossible [in safe Rust]",
+      "content_text": "Before I start this post, let me preface it by saying that I’m not an experienced Rustacean by any means. Errata and corrections are appreciated. This post is aimed at helping other fledgling rust-learners avoid my mistake. First, by helping Rust learners pick good introductory projects that will fit naturally in idiomatic rust. Second, by helping Rust learners start building Rust-friendly design intuition. I’d heard about Rust and it’s inscrutable borrow checker for years, but after reading a few blog posts about compiler error improvements, I figured it might be user-friendly enough to give it a try.",
+      "url": "https://rcoh.me/posts/rust-linked-list-basically-impossible/",
+      "date_published": "2018-02-20T08:55:56-08:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://rcoh.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3dc17991-d359-4205-917a-80b37a564b37",
+      "title": "Rust for Cross-Language System Libraries",
+      "content_text": "We have been building libpasta as a simple, usable solution to password hashing and migration. The goal for libpasta is to be a cross-platform, cross-language system library. libpasta is written in Rust, exports a C-style API, and builds to a static/shared library. Most languages support calling external libraries through foreign function interfaces (FFIs), and the end result can be seen in the documentation where each language has access to the libpasta functionality.",
+      "url": "https://libpasta.github.io/blog/bindings/",
+      "date_published": "2018-02-21T00:00:00+00:00",
+      "author": {
+        "name": "libpasta",
+        "url": "https://libpasta.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8e33c7c4-2788-418b-8e47-ca8990ae0d38",
+      "title": "Snips Uses Rust to Build an Embedded Voice Assistant",
+      "content_text": "The team at Paris-based Snips has created a voice assistant that can be embedded in a single device or used in a home network to control lights, thermostat, music, and more. You can build a home hub on a Raspberry Pi and ask it for a weather report, to play your favorite song, or to brew up a double espresso. Manufacturers like Keecker are adding Snips’ technology to products like multimedia home robots. And Snips works closely with leaders across the value chain, like NVIDIA, EBV, and Analog Devices, in order to voice-enable an increasingly wider range of device types, from speakers to home automation systems to cars.",
+      "url": "https://blog.mozilla.org/blog/2018/02/21/snips-uses-rust-build-embedded-voice-assistant/",
+      "date_published": "2018-02-21T12:34:56-08:00",
+      "author": {
+        "name": "Judy DeMocker",
+        "url": "https://blog.mozilla.org/blog/author/jdemockermozilla-com/"
+      },
+      "tags": [
+        "Language",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b2eb24c3-d7ee-438c-b041-0446dd551abe",
+      "title": "I decided to make an 1980's Home Computer in Rust - Part 1",
+      "content_text": "My first attempt at Rust programming was the stellaris-launchpad crate. This has a few demos that either blink the LED or roll it through an RGB rainbow using the PWM timers. Recently I've started a new version of the lm4f120 crate called tm4c123x-hal. The name change reflects TI's new name for basically the exact same part, while the -hal indicates that it's based upon the output of svd2rust and @japaric's new Embedded Hal crate. At the same time, I was watching videos on Youtube about a new wave of 1980's style 'retro' computing boards - text output, BASIC interpreter, etc. An idea started to form that I could put all three of these things together.",
+      "url": "http://railwayelectronics.blogspot.com.au/2018/02/i-decided-to-make-1980s-home-computer.html?m=1",
+      "date_published": "2018-02-20T22:16:00+00:00",
+      "author": {
+        "name": "theJPster",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "f2bf66c3-52bf-4a3c-b508-96bbd3385e8d",
+      "title": "Programming an ARM microcontroller in Rust at four different levels of abstraction",
+      "content_text": "Covering: Why Rust on Microcontrollers, Level 1: Direct register access in an unsafe block, Level 2: No unsafe blocks, use the API provided by svd2rust, A problem, Level 3: The embedded HAL to the rescue, Level 4: Use a board support crate.",
+      "url": "http://pramode.in/2018/02/20/programming-a-microcontroller-in-rust-at-four-levels-of-abstraction/",
+      "date_published": "2018-02-20T00:00:00-05:00",
+      "author": {
+        "name": "Pramode C.E",
+        "url": "http://pramode.in/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "c078b1d0-a902-42c5-84d0-5d262146e64c",
+      "title": "Using macro to generate generic docs?",
+      "content_text": "We were recently able to finally make the docs for integer primitive types much more accurate (thanks to @antoyo!). Now, the code examples match the type for which they're written. No more i32 examples for i128 (I think you got the idea at this point)! Now, I think a few people might be interested by the method we used to achieve such a result so let's talk about it.",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-02-19+Using+macro+to+generate+generic+docs%3F",
+      "date_published": "2018-02-19T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9b97498f-3ffb-4c89-8973-c2beb5e0140e",
+      "title": "Porting Rust to WebAssembly",
+      "content_text": "I recently spent some effort trying to make reproto run in a browser. Here I want to outline the problems I encountered and how I worked around them. I will also provide a number of suggestions for how things might be improved for future porters.",
+      "url": "https://udoprog.github.io/rust/2018-02-19/porting-rust-to-wasm.html",
+      "date_published": "2018-02-19T00:00:00+00:00",
+      "author": {
+        "name": "John-John Tedro",
+        "url": "https://udoprog.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "25d98aac-94a1-4cda-bbdb-7b22b76ed032",
+      "title": "Weekly driver 1 & 2: L3GD20, LSM303DLHC and Madgwick - Embedded in Rust",
+      "content_text": "Oh, time flies. It’s already week 8 and we have zero weekly driver posts out there – don’t worry though because there’s plenty of drivers and embedded-hal implementations in the works. To play catch up in this post I’ll cover two embedded-hal drivers: the l3gd20 and the lsm303dlhc. The L3GD20 is an IC that contains a gyroscope and exposes I2C and SPI interfaces; the LSM303DLHC is an IC that contains an accelerometer and a magnetometer, and exposes an I2C interface. You can find these two ICs on the STM32F3DISCOVERY board.",
+      "url": "http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/",
+      "date_published": "2018-02-19T15:57:59+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "5ecd2c77-20dd-4fd5-84a7-6c8e2364ebde",
+      "title": "Ferrous Oxide For Jaguars And Incremented Crocodiles",
+      "content_text": "Caveat lector: the primary purpose of the article is to introduce a reader proficient in one of the popular object-oriented languages how not to program in Rust. While each feature of the language will be briefly introduced where it is used, no great efforts will be made to explain the feature in detail. Links to the Rust book should provide that.",
+      "url": "https://eno.space/blog/2018/02/Ferrous-oxide-for-jaguars-and-incremented-crocodiles",
+      "date_published": "2018-02-15T00:00:00+01:00",
+      "author": {
+        "name": "@u0060",
+        "url": "https://eno.space/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e5f704af-b1ed-4757-b96d-80402ba3e601",
+      "title": "Rust for Java Devs – Creating functions",
+      "content_text": "In this post of Rust for Java Devs we will look at creating functions in Rust. Functions in Rust do not differ that much from Java methods but there are a few little differences. There is also the topic of Rust’s lifetimes compared to Java’s garbage collection that one could argue separates the two from each other a bit more, but for this post I will focus on the structure of writing a function in Rust. Due to the similarities between the two, I believe most Java developers will have no problem in figuring out what arguments a Rust function takes, what it outputs and where the output is returned from.",
+      "url": "https://lankydanblog.com/2018/02/18/rust-for-java-devs-creating-functions/",
+      "date_published": "2018-02-18T18:28:19+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "6d0e61c5-087e-48dc-abd8-ded4f3e43a8a",
+      "title": "Rust things I miss in C",
+      "content_text": "Librsvg feels like it is reaching a tipping point, where suddenly it seems like it would be easier to just port some major parts from C to Rust than to just add accessors for them. Also, more and more of the meat of the library is in Rust now. I'm switching back and forth a lot between C and Rust these days, and C feels very, very primitive these days.",
+      "url": "https://people.gnome.org/~federico/blog/rust-things-i-miss-in-c.html",
+      "date_published": "2018-02-18T21:26:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "44ef6094-b3df-4a2c-9cd9-429feecff6bc",
+      "title": "Spectra gets Rust scripting!",
+      "content_text": "spectra is a crate I’ve been maintaining for a few months / years now. It’s a crate that I mainly use for demoscene productions (I released two with it, Céleri Rémoulade and Outline Invitation) but I also use it to play around and experiment new rendering, animation and video game techniques.",
+      "url": "http://phaazon.net/blog/spectra_plugins",
+      "date_published": "2018-02-19T02:57:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f77cc701-eca9-4b85-a450-dd10c1766966",
+      "title": "Sorting in Rust: Selection, Insertion, and Counting Sort",
+      "content_text": "Sorting is an invaluable skill and often covered early in a computer science curriculum. Have you ever tried to look up a friends phone number in an unsorted list!? You’d have to look at every single entry. Sorting creates all sorts of ways to access data quicker.",
+      "url": "https://medium.com/@spyr1014/sorting-in-rust-selection-insertion-and-counting-sort-2c4d3575e364",
+      "date_published": "2018-02-18T23:57:10.254+00:00",
+      "author": {
+        "name": "Andrew Jakubowicz",
+        "url": "https://medium.com/@spyr1014"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ff94e8a6-c203-4cbe-af46-8f99e2896dd8",
+      "title": "Borrow cycles in Rust: arenas v.s. drop-checking",
+      "content_text": "Ownership and borrowing are the fundamentals of data structures in Rust. However, both taking owneship of a value (moving it) or taking a reference to it can only happen after the value was created. This ordering seems to prevent having any cycle in a data structure, even though that’s sometimes useful or necessary. For example in a web page’s content tree, from any DOM node, one can easily access (if any) its first and last child, previous and next sibling, (so children of a node form a doubly-linked list) and parent. Some other applications might need to manipulate arbitrary graphs in their full generality.",
+      "url": "https://exyr.org/2018/rust-arenas-vs-dropck/",
+      "date_published": "2018-02-17T00:00:00+00:00",
+      "author": {
+        "name": "Simon Sapin",
+        "url": "https://exyr.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4abf1536-2c82-411a-be74-e85d2155af5a",
+      "title": "Setting up Windows 10 for programming (in Rust)",
+      "content_text": "Lately I’ve been working with Windows-specific APIs, so I needed to get a Windows dev environment. I’ve mostly used Linux for many years now, so for me programming on Windows feels very foreign. Getting to a point where I started being productive took a number of steps, so here they are, if only for me to find them next time.",
+      "url": "https://exyr.org/2018/windows/",
+      "date_published": "2018-01-31T00:00:00+00:00",
+      "author": {
+        "name": "Simon Sapin",
+        "url": "https://exyr.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "45c32609-24ef-4288-b361-57ca8b5a34cd",
+      "title": "Zero cost stack overflow protection for ARM Cortex-M devices",
+      "content_text": "One of the core features of Rust is memory safety. Whenever possible the compiler enforces memory safety at compile. One example of this is the borrow checker which prevents data races, iterator invalidation, pointer invalidation and other issues at compile time. Other memory problems like buffer overflows can’t be prevented at compile time. In those cases the compiler inserts runtime checks, bounds checks in this case, to enforce memory safety at runtime. What about stack overflows? For quite a long time Rust didn’t have stack overflow checking but that wasn’t much of a problem on tier 1 platforms since these platforms have an OS and a MMU (Memory Management Unit) that prevents stack overflows from wreaking havoc.",
+      "url": "http://blog.japaric.io/stack-overflow-protection/",
+      "date_published": "2018-02-17T18:16:39+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "a2946d73-a2c7-4d2a-899c-080258552b07",
+      "title": "Mutation Testing Rust in Earnest",
+      "content_text": "It’s been a while since I last suggested Mutation Testing in Rust, almost two years ago. Since then I got sidetracked a lot, and later lost interest. Just one more cool project I couldn’t afford to take on. But as things go, my interest in mutation testing was rekindled, and I decided to give it a shot and do more than blogging about it.",
+      "url": "http://llogiq.github.io/2018/02/14/mutagen.html",
+      "date_published": "2018-02-14T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "c780f270-e190-4987-aff1-ff20ebe108bf",
+      "title": "Improved User Interface 0.2.0 Released!",
+      "content_text": "iui, the Improved User Interface crate, has just gotten its 0.2 release. Improved User Interface is a set of safe, idiomatic Rust bindings to platform native GUI libraries (Win32API, Cocoa, and GTK+) via libui and ui-sys. Highlights of this release include: Correct, semantic use of mutability, GTK+ theme application per window, and menu bars and file open/create modal support.",
+      "url": "https://www.patreon.com/posts/17016887",
+      "date_published": "2018-02-16T04:16:00+00:00",
+      "author": {
+        "name": "Leo Tindall",
+        "url": "https://www.patreon.com/leotindall"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6a1644f0-2b9e-4c82-9ccd-ef69815f560f",
+      "title": "Bincode 1.0.0, fast binary serialization with Serde",
+      "content_text": "Bincode is a serializer implementation for Serde. If you stick a #[derive(Deserialize, Serialize)] on your struct, Bincode can efficiently serialize and deserialize those structs to and from bytes. Bincode is unique in that it’s a format that was built specifically for the Rust serialization ecosystem. Tight coupling with Serde allows Bincode to be very fast and serialize to very small payloads.",
+      "url": "http://tyoverby.com/posts/bincode_release.html",
+      "date_published": "2018-02-15T18:49:27+00:00",
+      "author": {
+        "name": "Ty Overby",
+        "url": "http://tyoverby.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "938457b4-8905-4954-9007-88c80a2c24d6",
+      "title": "\"The Expressive C++17 Coding Challenge (in Rust)\" Revisited",
+      "content_text": "In October of last year, I wrote a post, “The Expressive C++17 Coding Challenge (in Rust)”. For various reasons, it got brought up again in the D world, and seb has written a new post. It’s good, you should check it out! However, it links to my gist, not my blog post. As I said back then: I held myself to the same constraints as the original contest; no external packages is a bit painful in Rust, but it’s not too bad. Mostly it would let me eliminate boilerplate while also improving correctness, and making the code a bit shorter. So, that got me thinking: What would this look like if I could use external packages? I took about an hour, and knocked it out. I have two versions to show you today, one where I pay no attention to allocations, and one where it’s zero-allocation.",
+      "url": "http://words.steveklabnik.com/the-expressive-c-17-coding-challenge-in-rust-revisited",
+      "date_published": "2018-02-14T10:12:15-08:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "http://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0af4c90e-74b2-438d-aaed-798c9f6e900a",
+      "title": "Fanta: An opinionated framework for web development in rust",
+      "content_text": "Fanta is a web framework that aims for developers to be productive and consistent across projects and teams. Its goals are to be: Opinionated, Fast, and Intuitive. Based heavily off of the work here: https://github.com/tokio-rs/tokio-minihttp",
+      "url": "https://github.com/trezm/Fanta",
+      "date_published": "2018-02-14T18:44:00+11:00",
+      "author": {
+        "name": "Peter Mertz",
+        "url": "https://github.com/trezm"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "1694fd36-21ca-4e3f-8654-9291c3ba4de7",
+      "title": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship",
+      "content_text": "comm is a peer-to-peer instant messaging protocol designed to be resilient to censorship. comm-gtk is a GUI client built on the comm library. To try it out, start the app. In the configuration window, enter a secret phrase, a bootstrap node (IP:port pair), and a local port to listen on (e.g. 6669). For a bootstrap node, try 165.227.114.200:6667 (or any other node's IP address if you know one). Click connect to join the network.",
+      "url": "https://github.com/zacstewart/comm-gtk",
+      "date_published": "2018-02-13T23:02:31-06:00",
+      "author": {
+        "name": "Zac Stewart",
+        "url": "https://github.com/zacstewart"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
+      "title": "Gameland intro, reimplemented in Rust for WebAssembly",
+      "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",
+      "url": "http://perlun.eu.org/en/programming/gameland/",
+      "date_published": "2018-02-13T07:44:00+11:00",
+      "author": {
+        "name": "Per Lundberg",
+        "url": "http://perlun.eu.org/en/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "bbc46982-1321-4e4e-8d9f-344963341c21",
+      "title": "Event Sourcing with Aggregates in Rust",
+      "content_text": "Everyone loves event sourcing, right up until the moment they have to implement it. At that moment all the wonderful whiteboard drawings…",
+      "url": "https://medium.com/@KevinHoffman/event-sourcing-with-aggregates-in-rust-4022af41cf67",
+      "date_published": "2018-02-12T15:11:08.708+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "35c70f95-6097-47df-a470-bb92e99b27e5",
+      "title": "First release of TQL: the easy-to-use ORM for Rust",
+      "content_text": "After a couple of weeks of work, I'm now happy to release the first version of tql, the easy-to-use ORM for Rust. While the focus was to make tql work on the stable version of the compiler, I also added some new features. The most notable new feature is the support for SQLite: now tql supports SQLite as well as PostgreSQL. The support for SQLite is almost as complete as the one for PostgreSQL: the only missing function is not implemented because the backend (SQLite) does not support it.",
+      "url": "http://tql-rs.ml/first-release/",
+      "date_published": "2018-02-10T00:00:00+00:00",
+      "author": {
+        "name": "Antoni",
+        "url": "http://tql-rs.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2b698c99-99e0-4fad-8716-b58dbd9c255c",
       "title": "Deploying A Rust Server to Google App Engine with Travis CI & Docker",
       "content_text": "I woke up this morning with one goal: to convert my website (morgangallant.com) into a Rust web server. I have been a long time fan of…",

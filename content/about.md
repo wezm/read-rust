@@ -30,13 +30,16 @@ readers](/faq.html#subscribe)) and JSON:
 
 ## Social Media
 
-Read Rust also has an account on Twitter: [@read_rust], which tweets
-each newly added post.
+Read Rust also has social media accounts, which automatically post each newly
+added post:
+
+* [Twitter]
+* [Facebook]
 
 ## Credits
 
-* JSON Feed Icon: <https://jsonfeed.org/version/1>
-* RSS Icon: <http://www.feedicons.com/>
+* JSON Feed icon: <https://jsonfeed.org/version/1>
+* Facebook, RSS, Twitter icons: [Super Tiny Icons]
 * favicon: “[Book][favicon]” by Mike Rowe, from [the Noun Project]
 
 [favicon]: https://thenounproject.com/term/book/17900
@@ -45,6 +48,9 @@ each newly added post.
 [source]: https://github.com/wezm/read-rust
 [issues]: https://github.com/wezm/read-rust/issues
 [@wezm]: https://twitter.com/wezm
-[@read_rust]: https://twitter.com/read_rust
+[Twitter]: https://twitter.com/read_rust
 [OPML]: https://en.wikipedia.org/wiki/OPML
 [Mastodon]: https://mastodon.social/@wezm
+[the Noun Project]: http://thenounproject.com/
+[Facebook]: https://www.facebook.com/readrust/
+[Super Tiny Icons]: https://github.com/edent/SuperTinyIcons

@@ -49,6 +49,14 @@ nav a {
 nav a:hover {
   border-bottom-color: rgba(255, 165, 0, 1);
 }
+article {
+  margin-top: 2em;
+}
+blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 3px solid #fde8c4;
+}
 :target {
   background-color: #fff9f2;
   padding: 0.25em 0.5em;
@@ -96,6 +104,14 @@ nav a:hover {
 }
 #search input[type="text"] {
   width: 20em;
+}
+.socials {
+  margin-top: 1em;
+}
+.socials img {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.25em;
 }
 
 @media (max-width: 768px) {

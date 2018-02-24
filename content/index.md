@@ -5,7 +5,8 @@ layout: default.liquid
 Read Rust collects interesting posts related to the [Rust
 programming&nbsp;language][rust-lang].
 
-For updates [subscribe to a feed][feeds], or follow [@read_rust] on Twitter.
+[Subscribe to a feed][feeds], or follow Read Rust on [Twitter] or [Facebook]
+to receive new posts as they're added.
 
 ## Sections
 
@@ -20,13 +21,13 @@ New posts are added to one or more of the following sections:
 <!-- * [Community](/community/) — regarding the Rust community. -->
 <!-- * [Crypto](/crypto/) ? -->
 <!-- * [DevOps](/devops/) -->
-<!-- * [Games](/games/) -->
 <!-- * [Talks and Presentations](/talks/) -->
+<!-- * [Audio and Music](/audio-and-music/) -->
 
 <h2>
   Recent Posts
   <a class="feedicon" href="/all/feed.rss" title="Read Rust RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/all/feed.json" title="Read Rust JSON Feed">
     <img src="/images/jsonfeed.png" />
@@ -49,4 +50,6 @@ New posts are added to one or more of the following sections:
 
 [feeds]: /about.html#feeds
 [rust-lang]: https://www.rust-lang.org/
-[@read_rust]: https://twitter.com/read_rust
+[RSS]: http://localhost:3000/all/feed.rss
+[Twitter]: https://twitter.com/read_rust
+[Facebook]: https://www.facebook.com/readrust/

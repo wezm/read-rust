@@ -15,17 +15,15 @@ As well as non-web network services.
 <h2>
   Posts
   <a class="feedicon" href="/web-and-network-services/feed.rss" title="Web and Network Services RSS Feed">
-    <img src="/images/feed-icon.svg" />
+    <img src="/images/rss.svg" />
   </a>
   <a class="feedicon" href="/web-and-network-services/feed.json" title="Web and Network Services JSON Feed">
     <img src="/images/jsonfeed.png" />
   </a>
 </h2>
 
-<ul>
 {% for post in site.data.rust.posts.items %}
   {% if post.tags contains "Web and Network Services" %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+  {% include "post_excerpt.liquid" %}
   {% endif %}
 {% endfor %}
-</ul>
