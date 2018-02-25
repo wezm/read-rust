@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "34ee0b77-cabd-47a8-bb6c-00e8a34046c7",
+      "title": "An introduction to writing platform agnostic drivers in Rust using the MCP3008",
+      "content_text": "Here is how a device like an accelerometer works: you send the device commands over a serial interface (SPI, I2C), say something like: “get me the X-axis reading”; the device responds by sending back some data.\n\nThe way the SPI/I2C/GPIO (and other) interfaces are programmed is very much dependent on the specific microcontroller family. But the actions you need to perform to interface with a device like a temperature sensor / accelerometer etc depend only on the device and are independent of the controller being used. What if you can write a generic accelerometer driver and use it on any microcontroller platform - right from low-end ARM Cortex-M, AVR, MSP430 etc to complex Embedded Linux platforms like the Raspberry Pi? What if you can distribute these drivers on crates.io so that you only have to include one line in your Cargo.toml to use it in your code?",
+      "url": "http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/",
+      "date_published": "2018-02-24T00:00:00-05:00",
+      "author": {
+        "name": "Pramode C.E",
+        "url": "http://pramode.in/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "b2eb24c3-d7ee-438c-b041-0446dd551abe",
       "title": "I decided to make an 1980's Home Computer in Rust - Part 1",
       "content_text": "My first attempt at Rust programming was the stellaris-launchpad crate. This has a few demos that either blink the LED or roll it through an RGB rainbow using the PWM timers. Recently I've started a new version of the lm4f120 crate called tm4c123x-hal. The name change reflects TI's new name for basically the exact same part, while the -hal indicates that it's based upon the output of svd2rust and @japaric's new Embedded Hal crate. At the same time, I was watching videos on Youtube about a new wave of 1980's style 'retro' computing boards - text output, BASIC interpreter, etc. An idea started to form that I could put all three of these things together.",

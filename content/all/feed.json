@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "34ee0b77-cabd-47a8-bb6c-00e8a34046c7",
+      "title": "An introduction to writing platform agnostic drivers in Rust using the MCP3008",
+      "content_text": "Here is how a device like an accelerometer works: you send the device commands over a serial interface (SPI, I2C), say something like: “get me the X-axis reading”; the device responds by sending back some data.\n\nThe way the SPI/I2C/GPIO (and other) interfaces are programmed is very much dependent on the specific microcontroller family. But the actions you need to perform to interface with a device like a temperature sensor / accelerometer etc depend only on the device and are independent of the controller being used. What if you can write a generic accelerometer driver and use it on any microcontroller platform - right from low-end ARM Cortex-M, AVR, MSP430 etc to complex Embedded Linux platforms like the Raspberry Pi? What if you can distribute these drivers on crates.io so that you only have to include one line in your Cargo.toml to use it in your code?",
+      "url": "http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/",
+      "date_published": "2018-02-24T00:00:00-05:00",
+      "author": {
+        "name": "Pramode C.E",
+        "url": "http://pramode.in/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "0493daa3-4abb-46eb-82de-e75daea4bbac",
       "title": "Pushing Rust To 2019",
       "content_text": "Some of these suggestions are not entirely new and have been added as posts/ comments on /r/rust, Github threads. But I believe better listing down all in a one place, because now we are in the correct time even I am bit late.",
