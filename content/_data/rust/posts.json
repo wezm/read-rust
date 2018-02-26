@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "504ed65c-1efe-4cbd-b655-b17e89110936",
+      "title": "Transcript: Should you Rust in embedded yet?",
+      "content_text": "This is a transcript of a talk I gave at the Vilnius Rust meetup.\n\nIt would not be an exaggeration to say that embedded is omnipresent. You can find embedded firmware everywhere from fridges, microwaves and personal computers to safety-critical applications in automotive, medical fields, etc.\n\nMost of this software is still written in C or C++, and neither of these, given their non-ideal track record in relation to security critical software, are the most confidence inspiring choice for safety-critical systems.\n\nIn my experience, bugs occurring in embedded firmware tend to be fairly similar to those commonly found in the user-space software.",
+      "url": "https://kazlauskas.me/entries/rust-embedded-ready.html",
+      "date_published": "2018-02-24T20:09:27+00:00",
+      "author": {
+        "name": "Simonas Kazlauskas",
+        "url": "https://kazlauskas.me/index.html"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "34ee0b77-cabd-47a8-bb6c-00e8a34046c7",
       "title": "An introduction to writing platform agnostic drivers in Rust using the MCP3008",
       "content_text": "Here is how a device like an accelerometer works: you send the device commands over a serial interface (SPI, I2C), say something like: “get me the X-axis reading”; the device responds by sending back some data.\n\nThe way the SPI/I2C/GPIO (and other) interfaces are programmed is very much dependent on the specific microcontroller family. But the actions you need to perform to interface with a device like a temperature sensor / accelerometer etc depend only on the device and are independent of the controller being used. What if you can write a generic accelerometer driver and use it on any microcontroller platform - right from low-end ARM Cortex-M, AVR, MSP430 etc to complex Embedded Linux platforms like the Raspberry Pi? What if you can distribute these drivers on crates.io so that you only have to include one line in your Cargo.toml to use it in your code?",
