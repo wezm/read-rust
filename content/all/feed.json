@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "75898724-f900-46ae-877b-36d87b440ac1",
+      "title": "Let's write an embedded-hal-driver",
+      "content_text": "Mid January japaric started \"The weekly driver initiative\" with the goal to kick-start releases of platform agnostic embedded-hal based driver crates. In this post we'll build an embedded-hal-driver for the AT24C32-EEPROM chip.",
+      "url": "http://zuendmasse.de/blog/2018/02/23/lets-write-an-embedded-hal-driver/",
+      "date_published": "2018-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Sebastian Wötzel",
+        "url": "http://zuendmasse.de/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "cec6c9fd-a92b-4f5a-8d9b-9b84c263c48f",
       "title": "Writing a doubly linked list in Rust is easy",
       "content_text": "This is a response to the recently submitted blog post titled Why Writing a Linked List in (safe) Rust is So Damned Hard. The post on Reddit was even more dramatic: Why Writing a Linked List in Rust is Basically Impossible.\n\nI see exaggarated claims like these very often - and strongly disagree. Writing a doubly linked list in Rust is not hard - in fact, it's fairly easy! The best strategy, in my opinion, is creating a vector for allocating nodes and using indices instead of pointers. This strategy is often overlooked, getting a 'honorauble mention' at best.",
