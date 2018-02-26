@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0cb6b35f-0d4f-4e71-bcae-66d4cd115d41",
+      "title": "Discovery: Discover the world of microcontrollers through Rust! - 2018 edition",
+      "content_text": "This is an mdbook I wrote more than a year ago for a workshop and it's an introductory course to embedded systems that uses Rust as the teaching language. I just updated the starter code to use the latest versions of everything so it's now easier to jump from the book to use the latest developments in the Cortex-M ecosystem; there's no new content, though -- the exercises remain unchanged in terms of goals; just the code has changed.",
+      "url": "https://www.reddit.com/r/rust/comments/80doqg/discovery_discover_the_world_of_microcontrollers/",
+      "date_published": "2018-02-26T15:12:44+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "504ed65c-1efe-4cbd-b655-b17e89110936",
       "title": "Transcript: Should you Rust in embedded yet?",
       "content_text": "This is a transcript of a talk I gave at the Vilnius Rust meetup.\n\nIt would not be an exaggeration to say that embedded is omnipresent. You can find embedded firmware everywhere from fridges, microwaves and personal computers to safety-critical applications in automotive, medical fields, etc.\n\nMost of this software is still written in C or C++, and neither of these, given their non-ideal track record in relation to security critical software, are the most confidence inspiring choice for safety-critical systems.\n\nIn my experience, bugs occurring in embedded firmware tend to be fairly similar to those commonly found in the user-space software.",

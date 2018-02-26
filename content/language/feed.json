@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cec6c9fd-a92b-4f5a-8d9b-9b84c263c48f",
+      "title": "Writing a doubly linked list in Rust is easy",
+      "content_text": "This is a response to the recently submitted blog post titled Why Writing a Linked List in (safe) Rust is So Damned Hard. The post on Reddit was even more dramatic: Why Writing a Linked List in Rust is Basically Impossible.\n\nI see exaggarated claims like these very often - and strongly disagree. Writing a doubly linked list in Rust is not hard - in fact, it's fairly easy! The best strategy, in my opinion, is creating a vector for allocating nodes and using indices instead of pointers. This strategy is often overlooked, getting a 'honorauble mention' at best.",
+      "url": "https://www.reddit.com/r/rust/comments/7zsy72/writing_a_doubly_linked_list_in_rust_is_easy/",
+      "date_published": "2018-02-24T00:35:43+00:00",
+      "author": {
+        "name": "/u/stjepang",
+        "url": "https://www.reddit.com/user/stjepang"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5e572868-98d0-4944-b897-14cca13a39a4",
       "title": "Reasoning with Types in Rust",
       "content_text": "Rust is a modern programming language which is marketed primarily on the basis of its very nice type system, and I’d like to tell you about how you can use this type system to reason about your programs in interesting ways. Most of the time when its type system is discussed, the focus is on its guarantee of data race freedom and ability to enable so-called fearless concurrency (and rightfully so—this is a place where Rust truly shines!). Today, I have a different focus in mind, characterized perhaps most succinctly as follows:",
