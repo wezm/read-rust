@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "5e572868-98d0-4944-b897-14cca13a39a4",
+      "title": "Reasoning with Types in Rust",
+      "content_text": "Rust is a modern programming language which is marketed primarily on the basis of its very nice type system, and I’d like to tell you about how you can use this type system to reason about your programs in interesting ways. Most of the time when its type system is discussed, the focus is on its guarantee of data race freedom and ability to enable so-called fearless concurrency (and rightfully so—this is a place where Rust truly shines!). Today, I have a different focus in mind, characterized perhaps most succinctly as follows:",
+      "url": "https://aaronweiss.us/posts/2018-02-26-reasoning-with-types-in-rust.html",
+      "date_published": "2018-02-26T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Weiss",
+        "url": "https://aaronweiss.us/archive.html"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "0493daa3-4abb-46eb-82de-e75daea4bbac",
       "title": "Pushing Rust To 2019",
       "content_text": "Some of these suggestions are not entirely new and have been added as posts/ comments on /r/rust, Github threads. But I believe better listing down all in a one place, because now we are in the correct time even I am bit late.",

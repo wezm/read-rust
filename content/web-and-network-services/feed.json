@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "26bc7432-d561-4e1f-8cf2-2c30b8ac63ab",
+      "title": "Speed Without Wizardry",
+      "content_text": "Vyacheslav Egorov, who goes by mraleph on the Web, wrote a response to my article “Oxidizing Source Maps with Rust and WebAssembly” titled “Maybe you don’t need Rust and WASM to speed up your JS”.\n\nThe “Oxidizing” article recounts my experience integrating Rust (compiled to WebAssembly) into the source-map JavaScript library. Although the JavaScript implementation was originally authored in idiomatic JavaScript style, as we profiled and implemented speed improvements, the code became hard to read and maintain. With Rust and its zero-cost abstractions, we found that there was no trade-off between performance and clean code.",
+      "url": "http://fitzgeraldnick.com/2018/02/26/speed-without-wizardry.html",
+      "date_published": "2018-02-26T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "22d134e6-ddc6-4571-965c-4b6e72a544eb",
       "title": "Recently, for a Rusty Web",
       "content_text": "It’s been a few months since I shifted my focus full time to Rust, and in that time, we’ve gotten a lot of work done! I wanted to update you here what all that is, since it’s spread around on multiple repositories.",
