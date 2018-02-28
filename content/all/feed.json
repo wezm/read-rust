@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "067e3ce9-6e69-499c-93f8-a9c4e0f99ce9",
+      "title": "Futures 0.2 is nearing release",
+      "content_text": "On behalf of the futures-rs team, I’m very happy to announce that the master branch is now at 0.2: we have a release candidate! Barring any surprises, we expect to publish to crates.io in the next week or two.\n\nYou can peruse the 0.2 API via the hosted crate docs, or dive right in to the master branch. Note that Tokio is not currently compatible with Futures 0.2; see below for more detail.",
+      "url": "http://aturon.github.io/2018/02/27/futures-0-2-RC/",
+      "date_published": "2018-02-27T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "75898724-f900-46ae-877b-36d87b440ac1",
       "title": "Let's write an embedded-hal-driver",
       "content_text": "Mid January japaric started \"The weekly driver initiative\" with the goal to kick-start releases of platform agnostic embedded-hal based driver crates. In this post we'll build an embedded-hal-driver for the AT24C32-EEPROM chip.",

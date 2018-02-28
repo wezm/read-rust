@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "067e3ce9-6e69-499c-93f8-a9c4e0f99ce9",
+      "title": "Futures 0.2 is nearing release",
+      "content_text": "On behalf of the futures-rs team, I’m very happy to announce that the master branch is now at 0.2: we have a release candidate! Barring any surprises, we expect to publish to crates.io in the next week or two.\n\nYou can peruse the 0.2 API via the hosted crate docs, or dive right in to the master branch. Note that Tokio is not currently compatible with Futures 0.2; see below for more detail.",
+      "url": "http://aturon.github.io/2018/02/27/futures-0-2-RC/",
+      "date_published": "2018-02-27T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "b079d66f-d08e-4593-80cc-e0060133d12e",
       "title": "Failure 1.0.0 on March 15",
       "content_text": "I’m planning to release a 1.0.0 version of failure on March 15. Once this happens, I don’t plan to release any further breaking changes to the failure crate (though maybe someday in the distant future).\nBreaking changes in 1.0 failure is in a somewhat unique position as being a significant part of the public API of other libraries that depend on it. Whether they use the Error struct or derive Fail for a custom error type, this becomes a part of the API they expose to other users.",
