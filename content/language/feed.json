@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "ab076ead-649f-47ff-8fa2-a7c243ba3dca",
+      "title": "Docker Multi-Stage Build",
+      "content_text": "On June 13, 2017 took place the Paris Container Day. They unveiled a new docker feature: multi-stage build. That's the subject of this article.",
+      "url": "https://blog.jawg.io/docker-multi-stage-build/",
+      "date_published": "2018-03-01T14:00:00+00:00",
+      "author": {
+        "name": "Jones Magloire",
+        "url": "http://blog.jawg.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "257617e2-c1fe-44c7-9cb9-7c07495b96ec",
+      "title": "Object Shadowing for Serialization of Complex Types",
+      "content_text": "Presently, I’m busy writing a capture the flag (CTF) scoreboard, it requires rather complex structures and relationships with other internal objects. Being a security event, I’d also like to maintain explicit control of user data. While serialization in Rust has come a significant way, leveraging auto-generation presents some issues.",
+      "url": "https://commiebstrd.github.io/rustlang/serde/json/2018/03/01/object-shadowing.html",
+      "date_published": "2018-03-01T05:00:00+00:00",
+      "author": {
+        "name": "Spenser Reinhardt",
+        "url": "https://commiebstrd.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ca98f7f9-8927-48e9-8028-15e81f20f8a6",
+      "title": "Add examples to your Rust libraries",
+      "content_text": "When you’re writing a library for other programs to depend on, it is paramount to think how the developers are going to use it in their code.\n\nThe best way to ensure they have a pleasant experience is to put yourself in their shoes. Forget the internal details of your package, and consider only its outward interface. Then, come up with a realistic use case and just implement it.\n\nIn other words, you should create complete, end-to-end, and (somewhat) usable example applications.",
+      "url": "http://xion.io/post/code/rust-examples.html",
+      "date_published": "2018-02-28T08:37:00+01:00",
+      "author": {
+        "name": "Karol Kuczmarski",
+        "url": "http://xion.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d001ce02-fbfb-4a08-8389-0f713b09bf72",
       "title": "My Rust Dockerfile",
       "content_text": "Lets deploy small docker images for Rust",

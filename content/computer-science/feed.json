@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d377bc0d-a127-456d-81fa-926fe634de0f",
+      "title": "It All Looks the Same to Me",
+      "content_text": "In the previous post, pHash helped us to summarize our photo album. Now it’s time to employ BK-trees and efficiently search through the metric space of perceptual hashes. Let’s roll up the sleeves; more Rust awaits!",
+      "url": "https://www.innoq.com/en/blog/looks-the-same-to-me/",
+      "date_published": "2018-03-01T00:00:00+01:00",
+      "author": {
+        "name": "Jan Stępień",
+        "url": "https://www.innoq.com/en/staff/jans/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "5e572868-98d0-4944-b897-14cca13a39a4",
       "title": "Reasoning with Types in Rust",
       "content_text": "Rust is a modern programming language which is marketed primarily on the basis of its very nice type system, and I’d like to tell you about how you can use this type system to reason about your programs in interesting ways. Most of the time when its type system is discussed, the focus is on its guarantee of data race freedom and ability to enable so-called fearless concurrency (and rightfully so—this is a place where Rust truly shines!). Today, I have a different focus in mind, characterized perhaps most succinctly as follows:",

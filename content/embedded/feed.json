@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3907940b-eb06-4f2a-a3ff-6df4ae5ac9ca",
+      "title": "Rust on the STMicro Nucleo",
+      "content_text": "For the embedded portion of my project, I had two decisions to make: which processors and chips to use, and which language to write the firmware in. Since this personal project is about learning new skills, I decided to use Rust instead of C. I opted to use STMicro’s Nucleo boards, since their ecosystem has shields that do all of the things I would like (WiFi, BLE, and environmental sensing), and there was also a great Rust tutorial for a similar board. However, since I’ve never really done any embedded development, I decided to start with the old standby: copying code off the internet!",
+      "url": "https://medium.com/@pdanielgallagher/rust-on-the-stmicro-nucleo-7a66b97be549",
+      "date_published": "2018-03-01T05:50:42.487+00:00",
+      "author": {
+        "name": "Daniel Gallagher",
+        "url": "https://medium.com/@pdanielgallagher"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "75898724-f900-46ae-877b-36d87b440ac1",
       "title": "Let's write an embedded-hal-driver",
       "content_text": "Mid January japaric started \"The weekly driver initiative\" with the goal to kick-start releases of platform agnostic embedded-hal based driver crates. In this post we'll build an embedded-hal-driver for the AT24C32-EEPROM chip.",
