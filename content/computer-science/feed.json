@@ -11,7 +11,7 @@
   "items": [
     {
       "id": "d377bc0d-a127-456d-81fa-926fe634de0f",
-      "title": "It All Looks the Same to Me",
+      "title": "Fast Search Through Metric Spaces with Rust and BK Trees",
       "content_text": "In the previous post, pHash helped us to summarize our photo album. Now it’s time to employ BK-trees and efficiently search through the metric space of perceptual hashes. Let’s roll up the sleeves; more Rust awaits!",
       "url": "https://www.innoq.com/en/blog/looks-the-same-to-me/",
       "date_published": "2018-03-01T00:00:00+01:00",
