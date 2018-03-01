@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0ebef41d-c7b1-424a-a120-ebf1098bbe38",
+      "title": "Three Algorithm Optimizations Outside [Place], [Other place]",
+      "content_text": "Recently, I came across an ad for a job that had a precondition for application: it required you to first solve a ✨programming challenge✨:",
+      "url": "https://medium.com/@urschrei/three-algorithm-optimizations-outside-place-other-place-294de5a68f27",
+      "date_published": "2018-02-28T17:12:42.361+00:00",
+      "author": {
+        "name": "Steph",
+        "url": "https://medium.com/@urschrei"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "d001ce02-fbfb-4a08-8389-0f713b09bf72",
+      "title": "My Rust Dockerfile",
+      "content_text": "Lets deploy small docker images for Rust",
+      "url": "https://blog.sedrik.se/posts/my-docker-setup-for-rust/",
+      "date_published": "2018-02-26T00:00:00+00:00",
+      "author": {
+        "name": "Fredrik Park",
+        "url": "https://blog.sedrik.se/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "067e3ce9-6e69-499c-93f8-a9c4e0f99ce9",
       "title": "Futures 0.2 is nearing release",
       "content_text": "On behalf of the futures-rs team, I’m very happy to announce that the master branch is now at 0.2: we have a release candidate! Barring any surprises, we expect to publish to crates.io in the next week or two.\n\nYou can peruse the 0.2 API via the hosted crate docs, or dive right in to the master branch. Note that Tokio is not currently compatible with Futures 0.2; see below for more detail.",

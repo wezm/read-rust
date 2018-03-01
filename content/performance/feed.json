@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0ebef41d-c7b1-424a-a120-ebf1098bbe38",
+      "title": "Three Algorithm Optimizations Outside [Place], [Other place]",
+      "content_text": "Recently, I came across an ad for a job that had a precondition for application: it required you to first solve a ✨programming challenge✨:",
+      "url": "https://medium.com/@urschrei/three-algorithm-optimizations-outside-place-other-place-294de5a68f27",
+      "date_published": "2018-02-28T17:12:42.361+00:00",
+      "author": {
+        "name": "Steph",
+        "url": "https://medium.com/@urschrei"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "5e5df82f-aba3-4832-bbe6-e995b2e544ef",
       "title": "Criterion.rs v0.2 - a statistics-driven benchmarking library for Rust",
       "content_text": "Criterion.rs is a statistics-driven benchmarking library for Rust. It provides precise measurements of changes in the performance of benchmarked code, and gives strong statistical confidence that apparent performance changes are real and not simply noise. Clear output, a simple API and reasonable defaults make it easy to use even for developers without a background in statistics. Unlike the benchmarking harness provided by Rust, Criterion.rs can be used with stable versions of the compiler.",

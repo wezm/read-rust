@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d001ce02-fbfb-4a08-8389-0f713b09bf72",
+      "title": "My Rust Dockerfile",
+      "content_text": "Lets deploy small docker images for Rust",
+      "url": "https://blog.sedrik.se/posts/my-docker-setup-for-rust/",
+      "date_published": "2018-02-26T00:00:00+00:00",
+      "author": {
+        "name": "Fredrik Park",
+        "url": "https://blog.sedrik.se/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "cec6c9fd-a92b-4f5a-8d9b-9b84c263c48f",
       "title": "Writing a doubly linked list in Rust is easy",
       "content_text": "This is a response to the recently submitted blog post titled Why Writing a Linked List in (safe) Rust is So Damned Hard. The post on Reddit was even more dramatic: Why Writing a Linked List in Rust is Basically Impossible.\n\nI see exaggarated claims like these very often - and strongly disagree. Writing a doubly linked list in Rust is not hard - in fact, it's fairly easy! The best strategy, in my opinion, is creating a vector for allocating nodes and using indices instead of pointers. This strategy is often overlooked, getting a 'honorauble mention' at best.",
