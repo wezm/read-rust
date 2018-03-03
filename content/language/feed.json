@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "407d3ba2-d0af-4121-b13a-468b1f0f66cd",
+      "title": "Stopping a Rust worker",
+      "content_text": "This is a small post about a specific pattern for cancellation in the Rust programming language. The pattern is simple and elegant, but it’s rather difficult to come up with it by yourself.",
+      "url": "https://matklad.github.io/2018/03/02/stopping-a-rust-worker.html",
+      "date_published": "2018-03-02T20:11:50+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ab076ead-649f-47ff-8fa2-a7c243ba3dca",
       "title": "Docker Multi-Stage Build",
       "content_text": "On June 13, 2017 took place the Paris Container Day. They unveiled a new docker feature: multi-stage build. That's the subject of this article.",

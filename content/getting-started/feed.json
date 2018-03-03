@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4c17c0f4-8148-4408-a54f-733e20c89189",
+      "title": "Rust for Java Devs – Structs",
+      "content_text": "Next up in Rust for Java Devs we have structs. They are used to hold data within a logical unit that can be passed to other functions or execute their own methods on the values that they store. Now this sounds very familiar… Java objects do the same thing. For example if you took a POJO (Plain Old Java Object) you also pass it to other methods or execute the object’s own methods. In this nature they are alike, but they do have their differences. In this post we will look into creating structs, retrieving their values, defining their own methods and how to execute them.",
+      "url": "https://lankydanblog.com/2018/03/01/rust-for-java-devs-structs/",
+      "date_published": "2018-03-01T20:03:54+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e5f704af-b1ed-4757-b96d-80402ba3e601",
       "title": "Rust for Java Devs – Creating functions",
       "content_text": "In this post of Rust for Java Devs we will look at creating functions in Rust. Functions in Rust do not differ that much from Java methods but there are a few little differences. There is also the topic of Rust’s lifetimes compared to Java’s garbage collection that one could argue separates the two from each other a bit more, but for this post I will focus on the structure of writing a function in Rust. Due to the similarities between the two, I believe most Java developers will have no problem in figuring out what arguments a Rust function takes, what it outputs and where the output is returned from.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "407d3ba2-d0af-4121-b13a-468b1f0f66cd",
+      "title": "Stopping a Rust worker",
+      "content_text": "This is a small post about a specific pattern for cancellation in the Rust programming language. The pattern is simple and elegant, but it’s rather difficult to come up with it by yourself.",
+      "url": "https://matklad.github.io/2018/03/02/stopping-a-rust-worker.html",
+      "date_published": "2018-03-02T20:11:50+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4c17c0f4-8148-4408-a54f-733e20c89189",
+      "title": "Rust for Java Devs – Structs",
+      "content_text": "Next up in Rust for Java Devs we have structs. They are used to hold data within a logical unit that can be passed to other functions or execute their own methods on the values that they store. Now this sounds very familiar… Java objects do the same thing. For example if you took a POJO (Plain Old Java Object) you also pass it to other methods or execute the object’s own methods. In this nature they are alike, but they do have their differences. In this post we will look into creating structs, retrieving their values, defining their own methods and how to execute them.",
+      "url": "https://lankydanblog.com/2018/03/01/rust-for-java-devs-structs/",
+      "date_published": "2018-03-01T20:03:54+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3907940b-eb06-4f2a-a3ff-6df4ae5ac9ca",
       "title": "Rust on the STMicro Nucleo",
       "content_text": "For the embedded portion of my project, I had two decisions to make: which processors and chips to use, and which language to write the firmware in. Since this personal project is about learning new skills, I decided to use Rust instead of C. I opted to use STMicro’s Nucleo boards, since their ecosystem has shields that do all of the things I would like (WiFi, BLE, and environmental sensing), and there was also a great Rust tutorial for a similar board. However, since I’ve never really done any embedded development, I decided to start with the old standby: copying code off the internet!",
