@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ae89c8c8-fd8f-4432-9b21-1a2651142869",
+      "title": "UniverCity - February Change log",
+      "content_text": "UniverCity is a university management game being programmed in the Rust programming language. This month was spent mostly on the business side of things, including going through the steam partner process.",
+      "url": "https://thinkof.name/2018/02/28/february-change-log.html",
+      "date_published": "2018-02-28T00:00:00+00:00",
+      "author": {
+        "name": "Matthew Collins",
+        "url": "https://thinkof.name/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "86b2dfcd-a01d-47e1-acb8-2ddbca20db62",
       "title": "Gameland intro, reimplemented in Rust for WebAssembly",
       "content_text": "My nice brother Johannes Ridderstedt sent me some old files a few weeks ago (in late 2017), stuff that he had preserved from an age-old computer of ours. One of these was the file named gameland.zip (not published yet, but I might put it up here some day.) I managed to get this running, and liked what I saw (you'll find the YouTube link to it further down on this page.) Around this time I was reading a bit about WebAssembly which I think will redefine and help reshape the web as we see it today. I was also looking at the Hello, Rust web page, and the \"FizzleFade effect using a Feistel network\" page in particular.",

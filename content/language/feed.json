@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "39d1ac9b-501b-46c3-b2e6-68f2d4aabe1d",
+      "title": "Making a Brainf*ck to C Compiler in Rust",
+      "content_text": "Let’s make a tokenizer and code generator to understand the basics behind tiny compilers.",
+      "url": "https://medium.com/@CanHasCommunism/making-a-brainf-ck-to-c-compiler-in-rust-10f0c01a282d",
+      "date_published": "2018-03-03T18:13:20.377+00:00",
+      "author": {
+        "name": "Aesl",
+        "url": "https://medium.com/@CanHasCommunism"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2f386775-d0a5-474b-a9de-c14af7453c40",
+      "title": "Opportunistic Mutations",
+      "content_text": "As you may know, my current mutagen project deals with mutation testing in Rust. However, as I remarked, Rust’s famed flexibility leaves us little room to do mutations while keeping the type checker happy. For example, other mutation testing frameworks can mutate x + y to x - y.\n\nThis is an interesting mutation, because it’s so easy to do in languages like Java, which have full type information available at the bytecode level and so hard to do in Rust, because the std::ops traits make everything so hecking flexible.",
+      "url": "https://llogiq.github.io/2018/03/03/opportune.html",
+      "date_published": "2018-03-03T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "407d3ba2-d0af-4121-b13a-468b1f0f66cd",
       "title": "Stopping a Rust worker",
       "content_text": "This is a small post about a specific pattern for cancellation in the Rust programming language. The pattern is simple and elegant, but it’s rather difficult to come up with it by yourself.",
