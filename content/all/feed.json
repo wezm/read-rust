@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "95bd2ff7-1a99-4092-931a-b17d782282d3",
+      "title": "Serializing awkward data with serde",
+      "content_text": "Recently I’ve been writing Rust code to work with a third-party data source in TOML format. In other languages I’d just load the data with some standard TOML library and have my program rummage through it, but I’ve been hearing lovely things about the Rust serialization library serde, so I figured I’d try it out.",
+      "url": "http://zork.net/~st/jottings/Serializing_awkward_data_with_serde.html",
+      "date_published": "2018-03-04T07:43:09+00:00",
+      "author": {
+        "name": "Screwtape",
+        "url": "http://zork.net/~st/jottings/all_pages.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "39d1ac9b-501b-46c3-b2e6-68f2d4aabe1d",
       "title": "Making a Brainf*ck to C Compiler in Rust",
       "content_text": "Let’s make a tokenizer and code generator to understand the basics behind tiny compilers.",
