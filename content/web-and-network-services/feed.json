@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "776dd5f1-c6d0-48da-8e0a-6fcae00fb923",
+      "title": "Writing a Microservice in Rust",
+      "content_text": "Let me begin this article on Writing a Microservice in Rust by talking about C++. I’ve been a reasonably active member of the C++ community for quite a while now, attending and contributing talks to conferences, following the development and evangelism of the language’s more modern features and of course writing lots of it. C++ is a language that gives its users very fine-grained control over all aspects of the program they are writing, at the cost of a steep learning curve and a large body of knowledge required to write effective C++. However, C++ is also a very old language, conceived by Bjarne Stroustrup in 1985, and thus caries a lot of technical debt even into modern standards.",
+      "url": "http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/",
+      "date_published": "2018-01-20T00:00:00+00:00",
+      "author": {
+        "name": "Peter Goldsborough",
+        "url": "http://www.goldsborough.me/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "26bc7432-d561-4e1f-8cf2-2c30b8ac63ab",
       "title": "Speed Without Wizardry",
       "content_text": "Vyacheslav Egorov, who goes by mraleph on the Web, wrote a response to my article “Oxidizing Source Maps with Rust and WebAssembly” titled “Maybe you don’t need Rust and WASM to speed up your JS”.\n\nThe “Oxidizing” article recounts my experience integrating Rust (compiled to WebAssembly) into the source-map JavaScript library. Although the JavaScript implementation was originally authored in idiomatic JavaScript style, as we profiled and implemented speed improvements, the code became hard to read and maintain. With Rust and its zero-cost abstractions, we found that there was no trade-off between performance and clean code.",

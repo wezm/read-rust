@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "0c9a85c5-9017-4922-b07a-050f36b8db84",
+      "title": "Compiling Cargo crates natively with Meson",
+      "content_text": "Recently we have been having discussions about how Rust and Meson should work together, especially for mixed language projects. One thing which multiple people have told me (over a time span of several years, actually) is that Rust is Special in that everyone uses crates for everything. Thus there is no point in having any sort of Rust support, the only true way is to blindly call Cargo and have it do everything exactly the way it wants to.\n\nThis seems like a reasonable recommendation so I did what every reasonable person would do and accepted this as is.\n\nBut then curiosity takes hold of you and you start to wonder. Is that really the case?",
+      "url": "https://nibblestew.blogspot.com.au/2018/03/compiling-cargo-crates-natively-with.html",
+      "date_published": "2018-03-04T05:35:00-08:00",
+      "author": {
+        "name": "Jussi",
+        "url": "https://nibblestew.blogspot.com.au/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85925a6b-30c1-4c0f-8caf-b6ccd9e3e19c",
+      "title": "Encheapening Cernan Internal Metrics",
+      "content_text": "In the new 0.7.x series of cernan we stumbled on a neat, cheap approach for making internal metrics available inside a rust codebase, an approach that has legs in other projects, I'd say. This is going to be a quick note describing what cernan is, what we were doing before and how our current approach works.",
+      "url": "http://blog.troutwine.us/2017/08/31/encheapening-cernan-internal-metrics/",
+      "date_published": "2018-03-04T00:00:00+00:00",
+      "author": {
+        "name": "Brian L. Troutwine",
+        "url": "http://blog.troutwine.us/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c59a9688-62e5-4919-8687-e5ff82c3c5a3",
+      "title": "Why Rust Has Macros",
+      "content_text": "When I recently told a coworker that Rust has macros, his first reaction was that this was bad. Previously I would have had the same reaction, but a part of what learning Rust has taught me is that macros don’t need to be bad. This post exists to help explain why that is, by diving into what problems macros solve, with a brief look at their downsides as well. In other words, this post is not a technical deep dive on how macros work, but focuses on the use cases for macros, and doesn’t require much knowledge about Rust to follow.",
+      "url": "https://kasma1990.gitlab.io/2018/03/04/why-rust-has-macros/",
+      "date_published": "2018-03-04T00:00:00+00:00",
+      "author": {
+        "name": "Kasper Andersen",
+        "url": "https://kasma1990.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "95bd2ff7-1a99-4092-931a-b17d782282d3",
       "title": "Serializing awkward data with serde",
       "content_text": "Recently I’ve been writing Rust code to work with a third-party data source in TOML format. In other languages I’d just load the data with some standard TOML library and have my program rummage through it, but I’ve been hearing lovely things about the Rust serialization library serde, so I figured I’d try it out.",
