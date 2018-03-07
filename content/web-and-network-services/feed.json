@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dd5790e1-ff4e-4f61-9a8b-05ea774a2e89",
+      "title": "Writing servers with Tokio",
+      "content_text": "I’ve been writing a small toy project with Tokio in my spare time’s spare time. I’ll write more about it at a later date. What I’ve found writing it, though, is that there is a specific pattern to writing servers, both UDP and TCP (and presumably others) in Tokio, and it’s not super obvious at first glance. So here it is.",
+      "url": "https://blog.passcod.name/2018/mar/07/writing-servers-with-tokio",
+      "date_published": "2018-03-07T09:35:30+00:00",
+      "author": {
+        "name": "Félix Saparelli",
+        "url": "https://blog.passcod.name/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "776dd5f1-c6d0-48da-8e0a-6fcae00fb923",
       "title": "Writing a Microservice in Rust",
       "content_text": "Let me begin this article on Writing a Microservice in Rust by talking about C++. I’ve been a reasonably active member of the C++ community for quite a while now, attending and contributing talks to conferences, following the development and evangelism of the language’s more modern features and of course writing lots of it. C++ is a language that gives its users very fine-grained control over all aspects of the program they are writing, at the cost of a steep learning curve and a large body of knowledge required to write effective C++. However, C++ is also a very old language, conceived by Bjarne Stroustrup in 1985, and thus caries a lot of technical debt even into modern standards.",
@@ -120,7 +134,8 @@
         "url": "https://medium.com/@gallantmrgn"
       },
       "tags": [
-        "Web and Network Services"
+        "Web and Network Services",
+        "DevOps and Deployment"
       ]
     },
     {

@@ -1,6 +1,7 @@
 [
   { "name": "Computer Science", "path": "/computer-science/", "description": "Covering data structures, algorithms, memory safety, etc." },
   { "name": "Crates", "path": "/crates/", "description": "Notable new or updated crates." },
+  { "name": "DevOps and Deployment", "path": "/devops-and-deployment/", "description": "Building and deploying Rust, containerisation, continuous integration, etc." },
   { "name": "Embedded", "path": "/embedded/", "description": "Rust on microcontrollers, IoT, devices." },
   { "name": "Games and Graphics", "path": "/games-and-graphics/", "description": "Games built with Rust and other graphics related work." },
   { "name": "Getting Started", "path": "/getting-started/", "description": "Introductory posts, guides and tutorials for getting started with Rust." },

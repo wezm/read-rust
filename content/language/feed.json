@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "8da41ef1-4c51-4269-bec3-fc377a0f387f",
+      "title": "Coping with Mutable State in Multiple Threads with Rust",
+      "content_text": "One of the value propositions most frequently lauded by Rust developers is its freedom from data races. The compiler will literally not allow you to build code that could ever produce a situation where two threads can mutate the same data.",
+      "url": "https://medium.com/@KevinHoffman/coping-with-mutable-state-in-multiple-threads-with-rust-9059c83b6c01",
+      "date_published": "2018-03-05T17:42:58.844+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "79704e4b-5e9f-4366-84a8-53d5a3431e2f",
+      "title": "Getting A Handle On Things",
+      "content_text": "Today we will take a very simple intrusive linked list written in Rust and make it safe. Kind of, anyway.\n\nBefore we start making something safe we need an unsafe thing to make safe. Let’s not pretend that what we are doing here is the least bit useful, let us instead do it just for the fun of it. (What we are doing actually is useful, the explanation of which this margin is too narrow to contain.)",
+      "url": "https://eno.space/blog/2018/03/Getting-a-handle-on-things",
+      "date_published": "2018-03-03T00:00:00+01:00",
+      "author": {
+        "name": "@u0060",
+        "url": "https://eno.space/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0c9a85c5-9017-4922-b07a-050f36b8db84",
       "title": "Compiling Cargo crates natively with Meson",
       "content_text": "Recently we have been having discussions about how Rust and Meson should work together, especially for mixed language projects. One thing which multiple people have told me (over a time span of several years, actually) is that Rust is Special in that everyone uses crates for everything. Thus there is no point in having any sort of Rust support, the only true way is to blindly call Cargo and have it do everything exactly the way it wants to.\n\nThis seems like a reasonable recommendation so I did what every reasonable person would do and accepted this as is.\n\nBut then curiosity takes hold of you and you start to wonder. Is that really the case?",
@@ -118,7 +146,8 @@
         "url": "http://blog.jawg.io/"
       },
       "tags": [
-        "Language"
+        "Language",
+        "DevOps and Deployment"
       ]
     },
     {
@@ -160,7 +189,8 @@
         "url": "https://blog.sedrik.se/"
       },
       "tags": [
-        "Language"
+        "Language",
+        "DevOps and Deployment"
       ]
     },
     {
