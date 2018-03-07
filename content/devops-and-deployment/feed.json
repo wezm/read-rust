@@ -1,0 +1,72 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - DevOps and Deployment",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/devops-and-deployment/feed.json",
+  "description": "DevOps and Deployment posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "c35de4ff-df45-4774-998f-f56ddb57b5d2",
+      "title": "Building and Deploying Rust with VSTS",
+      "content_text": "Since I started at Microsoft about 6 months ago, I had to catch up on their (our) tech: Azure, .NET, Visual Studio. Yet as an avid GitHub user I overlooked one thing completely: Visual Studio Team Services! Turns out it’s quite the hidden gem and after a colleague showed me some of its power, I had to look into it more deeply. Turns out it’s an easy and free resource for any project. Can it help your project? Yes! How? Find out below 😊",
+      "url": "https://blog.x5ff.xyz/blog/rust-ci-cd-vsts/",
+      "date_published": "2018-03-02T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "ab076ead-649f-47ff-8fa2-a7c243ba3dca",
+      "title": "Docker Multi-Stage Build",
+      "content_text": "On June 13, 2017 took place the Paris Container Day. They unveiled a new docker feature: multi-stage build. That's the subject of this article.",
+      "url": "https://blog.jawg.io/docker-multi-stage-build/",
+      "date_published": "2018-03-01T14:00:00+00:00",
+      "author": {
+        "name": "Jones Magloire",
+        "url": "http://blog.jawg.io/"
+      },
+      "tags": [
+        "Language",
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "d001ce02-fbfb-4a08-8389-0f713b09bf72",
+      "title": "My Rust Dockerfile",
+      "content_text": "Lets deploy small docker images for Rust",
+      "url": "https://blog.sedrik.se/posts/my-docker-setup-for-rust/",
+      "date_published": "2018-02-26T00:00:00+00:00",
+      "author": {
+        "name": "Fredrik Park",
+        "url": "https://blog.sedrik.se/"
+      },
+      "tags": [
+        "Language",
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "2b698c99-99e0-4fad-8716-b58dbd9c255c",
+      "title": "Deploying A Rust Server to Google App Engine with Travis CI & Docker",
+      "content_text": "I woke up this morning with one goal: to convert my website (morgangallant.com) into a Rust web server. I have been a long time fan of…",
+      "url": "https://medium.com/@gallantmrgn/deploying-rust-server-to-google-app-engine-with-travis-ci-docker-b80acfce2ce5",
+      "date_published": "2018-02-11T00:07:43.579+00:00",
+      "author": {
+        "name": "Morgan A. Gallant",
+        "url": "https://medium.com/@gallantmrgn"
+      },
+      "tags": [
+        "Web and Network Services",
+        "DevOps and Deployment"
+      ]
+    }
+  ]
+}
