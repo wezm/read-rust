@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "64fe2d3c-c0cb-41a2-8faf-08d19e59c439",
+      "title": "Get started with the Rust programming language",
+      "content_text": "A recent Stack Overflow survey found that almost 80% of respondents loved using or wanted to develop with the Rust language. That's an incredible number! So, what's so good about Rust? This article explores the high points of this C-like language and illustrates why it should be next on your list of languages to learn.",
+      "url": "https://www.ibm.com/developerworks/opensource/library/os-developers-know-rust/index.html?ca=drs",
+      "date_published": "2018-03-08T00:00:00+00:00",
+      "author": {
+        "name": "M. Tim Jones",
+        "url": "https://www.ibm.com/developerworks/opensource/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "c35de4ff-df45-4774-998f-f56ddb57b5d2",
       "title": "Building and Deploying Rust with VSTS",
       "content_text": "Since I started at Microsoft about 6 months ago, I had to catch up on their (our) tech: Azure, .NET, Visual Studio. Yet as an avid GitHub user I overlooked one thing completely: Visual Studio Team Services! Turns out it’s quite the hidden gem and after a colleague showed me some of its power, I had to look into it more deeply. Turns out it’s an easy and free resource for any project. Can it help your project? Yes! How? Find out below 😊",

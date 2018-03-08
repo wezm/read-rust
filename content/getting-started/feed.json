@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "64fe2d3c-c0cb-41a2-8faf-08d19e59c439",
+      "title": "Get started with the Rust programming language",
+      "content_text": "A recent Stack Overflow survey found that almost 80% of respondents loved using or wanted to develop with the Rust language. That's an incredible number! So, what's so good about Rust? This article explores the high points of this C-like language and illustrates why it should be next on your list of languages to learn.",
+      "url": "https://www.ibm.com/developerworks/opensource/library/os-developers-know-rust/index.html?ca=drs",
+      "date_published": "2018-03-08T00:00:00+00:00",
+      "author": {
+        "name": "M. Tim Jones",
+        "url": "https://www.ibm.com/developerworks/opensource/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "bd7d2caa-818d-4950-9eca-72588b038bed",
       "title": "Getting started with Rust: Reference and Lifetime",
       "content_text": "Hello everyone! You were waiting for it, and now you are going to get it! Ladies and gentlemen, today we are going to talk about reference and lifetime!",
