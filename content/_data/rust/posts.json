@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fd8646cf-2689-4bd8-b065-4708388250d2",
+      "title": "Announcing the Tokio runtime",
+      "content_text": "I’m happy to announce a new release of Tokio. This release includes the first iteration of the Tokio Runtime.",
+      "url": "https://tokio.rs/blog/2018-03-tokio-runtime/",
+      "date_published": "2018-03-08T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "64fe2d3c-c0cb-41a2-8faf-08d19e59c439",
       "title": "Get started with the Rust programming language",
       "content_text": "A recent Stack Overflow survey found that almost 80% of respondents loved using or wanted to develop with the Rust language. That's an incredible number! So, what's so good about Rust? This article explores the high points of this C-like language and illustrates why it should be next on your list of languages to learn.",

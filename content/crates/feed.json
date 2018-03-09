@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fd8646cf-2689-4bd8-b065-4708388250d2",
+      "title": "Announcing the Tokio runtime",
+      "content_text": "I’m happy to announce a new release of Tokio. This release includes the first iteration of the Tokio Runtime.",
+      "url": "https://tokio.rs/blog/2018-03-tokio-runtime/",
+      "date_published": "2018-03-08T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "067e3ce9-6e69-499c-93f8-a9c4e0f99ce9",
       "title": "Futures 0.2 is nearing release",
       "content_text": "On behalf of the futures-rs team, I’m very happy to announce that the master branch is now at 0.2: we have a release candidate! Barring any surprises, we expect to publish to crates.io in the next week or two.\n\nYou can peruse the 0.2 API via the hosted crate docs, or dive right in to the master branch. Note that Tokio is not currently compatible with Futures 0.2; see below for more detail.",
