@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "44f7fa8d-b23d-47e7-b3dd-f227e8317d49",
+      "title": "A Tiny `ls` Clone Written in Rust",
+      "content_text": "In my series of useless Unix tools rewritten in Rust, today I'm going to be covering one of my all-time favorites: ls.",
+      "url": "https://matthias-endler.de/2018/ls/",
+      "date_published": "2018-03-01T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://matthias-endler.de/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "c5a101b5-e749-4e99-9e08-54de2cf0a2c1",
       "title": "Oxidizing Fedora: Try Rust and its applications today",
       "content_text": "In recent years, it has become increasingly important to develop software that minimizes security vulnerabilities. Memory management bugs are a common cause of these vulnerabilities. To that end, the Mozilla community has spent the last several years building the Rust language and ecosystem which focuses primarily on eliminating those bugs. And Rust is available in Fedora today, along with a few applications in Fedora 27 and higher, as seen below.",

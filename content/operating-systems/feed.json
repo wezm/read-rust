@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f6bf64c8-3a31-4614-ba91-f5c16a0986b5",
+      "title": "Writing an OS in pure Rust",
+      "content_text": "Over the past six months we've been working on a second edition of this blog. Our goals for this new version are numerous and we are still not done yet, but today we reached a major milestone: It is now possible to build the OS natively on Windows, macOS, and Linux without any non-Rust dependendencies.",
+      "url": "https://os.phil-opp.com/news/2018-03-09-pure-rust/",
+      "date_published": "2018-03-09T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "92664a59-08e0-4185-aab2-cd0a29f303f8",
       "title": "Writing eBPF tracing tools in Rust",
       "content_text": "Writing eBPF tracing tools in Rust",
