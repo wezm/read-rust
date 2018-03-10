@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bd4b8e12-dd4d-4bf8-b553-f5f912ec4e87",
+      "title": "The Union of Parallel Universes",
+      "content_text": "Rustdoc has a pretty powerful feature that feels pretty unknown. It doesn’t help that it’s currently restricted by a nightly feature gate, but it’s still cool enough that I want to talk about it.",
+      "url": "https://quietmisdreavus.net/code/2018/03/09/the-union-of-parallel-universes/",
+      "date_published": "2018-03-09T14:30:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "db7ea4c5-14ae-4a9d-9bf4-a314c20225f7",
       "title": "Exploring Function Overloading",
       "content_text": "Overloading is the ability to create multiple functions of the same name with different implementations.\n\nRust has no traditional overloading, you cannot define two methods with the same name. The compiler will complain that you have a duplicate definition regardless of the different argument types.",
@@ -25,7 +39,7 @@
     },
     {
       "id": "f6bf64c8-3a31-4614-ba91-f5c16a0986b5",
-      "title": "Writing an OS in pure Rust",
+      "title": "Writing an OS in Pure Rust",
       "content_text": "Over the past six months we've been working on a second edition of this blog. Our goals for this new version are numerous and we are still not done yet, but today we reached a major milestone: It is now possible to build the OS natively on Windows, macOS, and Linux without any non-Rust dependendencies.",
       "url": "https://os.phil-opp.com/news/2018-03-09-pure-rust/",
       "date_published": "2018-03-09T00:00:00+00:00",
