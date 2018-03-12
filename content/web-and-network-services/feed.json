@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "4d94c5ba-199d-44c2-9148-7a6bbff699d0",
+      "title": "Crashing a Rust Hyper server with a Denial of Service attack",
+      "content_text": "I’m writing a reverse proxy in Rust using Hyper and I want to measure performance a bit to know if I’m doing something terribly wrong. By doing that I discovered a Denial of Service vulnerability in Hyper when IO errors are not properly handled. Note that a workaround has been released in the meantime in Hyper 0.11.20, more background info can be found in this Hyper issue.",
+      "url": "https://klausi.github.io/rustnish/2018/03/11/crashing-a-rust-hyper-server-with-a-denial-of-service-attack.html",
+      "date_published": "2018-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Klaus Purer",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e03aa0e5-bb05-48f0-a4a4-0796d14d1115",
+      "title": "Writing a Simple IPFS Crawler",
+      "content_text": "IPFS is a peer-to-peer protocol that allows you to access and publish content in a decentralized fashion. It uses hashes to refer to files. Short of someone posting hashes on a website, discoverability of content is pretty low. In this article, we&rsquo;re going to write a very simple crawler for IPFS.\nIt&rsquo;s challenging to have a traditional search engine in IPFS because content rarely links to each other. But there is another way than just blindly following links like a traditional crawler.",
+      "url": "https://gkbrk.com/2018/03/writing-a-simple-ipfs-crawler/",
+      "date_published": "2018-03-12T00:00:00+00:00",
+      "author": {
+        "name": "Gökberk Yaltıraklı",
+        "url": "https://gkbrk.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "dd5790e1-ff4e-4f61-9a8b-05ea774a2e89",
       "title": "Writing servers with Tokio",
       "content_text": "I’ve been writing a small toy project with Tokio in my spare time’s spare time. I’ll write more about it at a later date. What I’ve found writing it, though, is that there is a specific pattern to writing servers, both UDP and TCP (and presumably others) in Tokio, and it’s not super obvious at first glance. So here it is.",

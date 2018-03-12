@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "90d39fbf-c75d-4943-9069-4b65d11b1be9",
+      "title": "Should You Learn Rust?",
+      "content_text": "Oftentimes, I see a variant of this question posted or asked somewhere. In general, most of the times I think the answer is „Yes“, but maybe for reasons other than you’d think at first.",
+      "url": "https://vorner.github.io/2018/03/11/Should-you-learn-rust.html",
+      "date_published": "2018-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "bd4b8e12-dd4d-4bf8-b553-f5f912ec4e87",
       "title": "The Union of Parallel Universes",
       "content_text": "Rustdoc has a pretty powerful feature that feels pretty unknown. It doesn’t help that it’s currently restricted by a nightly feature gate, but it’s still cool enough that I want to talk about it.",
