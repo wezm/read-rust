@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a48d8156-7f0f-4731-a17b-e36678b86f5f",
+      "title": "Weekly driver 4: ENC28J60, Ethernet for your microcontroller",
+      "content_text": "This week I’m releasing a driver for the ENC28J60, an Ethernet controller with SPI interface. This IC lets you connect your microcontroller, if it has a SPI interface, to a Local Area Network or, with more work, to the internet. Apart from the IC you need a RJ45 connector and a few other components so I’m using this module which has the ENC28J60 and all the required components on a single board.",
+      "url": "http://blog.japaric.io/wd-4-enc28j60/",
+      "date_published": "2018-03-13T04:32:18+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "3907940b-eb06-4f2a-a3ff-6df4ae5ac9ca",
       "title": "Rust on the STMicro Nucleo",
       "content_text": "For the embedded portion of my project, I had two decisions to make: which processors and chips to use, and which language to write the firmware in. Since this personal project is about learning new skills, I decided to use Rust instead of C. I opted to use STMicro’s Nucleo boards, since their ecosystem has shields that do all of the things I would like (WiFi, BLE, and environmental sensing), and there was also a great Rust tutorial for a similar board. However, since I’ve never really done any embedded development, I decided to start with the old standby: copying code off the internet!",

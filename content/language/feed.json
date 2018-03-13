@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "962abf61-6061-4e8d-90b1-1d3ba90d5e1d",
+      "title": "mutagen: Pattern Boldness",
+      "content_text": "At the moment, mutagen only considers top-level idents in function arguments (e.g.foo(x: X, y: Y)), but function arguments are actually patterns, so we could have foo((x, y): (X, Y)) or bar(Bar { bla, bazz } : Bar). For now, this means we have no type information for either of those examples.",
+      "url": "http://llogiq.github.io/2018/03/13/patterns.html",
+      "date_published": "2018-03-13T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4ed8ee1b-6f71-4ac5-b7e5-142509562231",
+      "title": "Rust's 2018 Roadmap",
+      "content_text": "Each year the Rust community comes together to set out a roadmap. This year, in addition to the survey, we put out a call for blog posts in December, which resulted in 100 blog posts written over the span of a few weeks. The end result is the recently-merged 2018 roadmap RFC.",
+      "url": "https://blog.rust-lang.org/2018/03/12/roadmap.html",
+      "date_published": "2018-03-12T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "90d39fbf-c75d-4943-9069-4b65d11b1be9",
       "title": "Should You Learn Rust?",
       "content_text": "Oftentimes, I see a variant of this question posted or asked somewhere. In general, most of the times I think the answer is „Yes“, but maybe for reasons other than you’d think at first.",

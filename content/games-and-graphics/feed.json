@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "85524257-1035-4e25-b20b-57737d314b55",
+      "title": "Roguelike Tutorial in Rust + tcod",
+      "content_text": "Hello! This tutorial will show you how to write a roguelike in the Rust programming language and the libtcod library.",
+      "url": "https://tomassedovic.github.io/roguelike-tutorial/",
+      "date_published": "2018-03-13T18:54:54+02:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://tomassedovic.github.io/roguelike-tutorial/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "ae89c8c8-fd8f-4432-9b21-1a2651142869",
       "title": "UniverCity - February Change log",
       "content_text": "UniverCity is a university management game being programmed in the Rust programming language. This month was spent mostly on the business side of things, including going through the steam partner process.",

@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "962abf61-6061-4e8d-90b1-1d3ba90d5e1d",
+      "title": "mutagen: Pattern Boldness",
+      "content_text": "At the moment, mutagen only considers top-level idents in function arguments (e.g.foo(x: X, y: Y)), but function arguments are actually patterns, so we could have foo((x, y): (X, Y)) or bar(Bar { bla, bazz } : Bar). For now, this means we have no type information for either of those examples.",
+      "url": "http://llogiq.github.io/2018/03/13/patterns.html",
+      "date_published": "2018-03-13T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a48d8156-7f0f-4731-a17b-e36678b86f5f",
+      "title": "Weekly driver 4: ENC28J60, Ethernet for your microcontroller",
+      "content_text": "This week I’m releasing a driver for the ENC28J60, an Ethernet controller with SPI interface. This IC lets you connect your microcontroller, if it has a SPI interface, to a Local Area Network or, with more work, to the internet. Apart from the IC you need a RJ45 connector and a few other components so I’m using this module which has the ENC28J60 and all the required components on a single board.",
+      "url": "http://blog.japaric.io/wd-4-enc28j60/",
+      "date_published": "2018-03-13T04:32:18+01:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "85524257-1035-4e25-b20b-57737d314b55",
+      "title": "Roguelike Tutorial in Rust + tcod",
+      "content_text": "Hello! This tutorial will show you how to write a roguelike in the Rust programming language and the libtcod library.",
+      "url": "https://tomassedovic.github.io/roguelike-tutorial/",
+      "date_published": "2018-03-13T18:54:54+02:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://tomassedovic.github.io/roguelike-tutorial/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "4ed8ee1b-6f71-4ac5-b7e5-142509562231",
+      "title": "Rust's 2018 Roadmap",
+      "content_text": "Each year the Rust community comes together to set out a roadmap. This year, in addition to the survey, we put out a call for blog posts in December, which resulted in 100 blog posts written over the span of a few weeks. The end result is the recently-merged 2018 roadmap RFC.",
+      "url": "https://blog.rust-lang.org/2018/03/12/roadmap.html",
+      "date_published": "2018-03-12T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4d94c5ba-199d-44c2-9148-7a6bbff699d0",
       "title": "Crashing a Rust Hyper server with a Denial of Service attack",
       "content_text": "I’m writing a reverse proxy in Rust using Hyper and I want to measure performance a bit to know if I’m doing something terribly wrong. By doing that I discovered a Denial of Service vulnerability in Hyper when IO errors are not properly handled. Note that a workaround has been released in the meantime in Hyper 0.11.20, more background info can be found in this Hyper issue.",
