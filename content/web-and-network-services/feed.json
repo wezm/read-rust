@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "39f186f6-b177-43e6-9b4c-7ffe689926e7",
+      "title": "Parc3l: Combining Three.js, Rust, and WebAssembly!",
+      "content_text": "WebAssembly has been interesting me lately, specifically the prospect of doing arithmetically-intensive operations with it, not unlike the fantastic physics engine Emscripten port Ammo.js. Compiling something like that is out of the scope of this little post (but should be getting easier!), and I’ve left some links at the bottom so you can clear more about WebAssembly if you’re interested.",
+      "url": "https://medium.com/@cwervo/parc3l-combining-three-js-rust-and-webassembly-c1e643ef7681",
+      "date_published": "2018-03-12T14:34:23.064+00:00",
+      "author": {
+        "name": "Andres Cuervo",
+        "url": "https://medium.com/@cwervo"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "bf12d6fd-0aea-4d74-b3a7-02a538d210d3",
+      "title": "Making WebAssembly better for Rust & for all languages",
+      "content_text": "To be a useful as a web language, Rust needs to work well with the JavaScript ecosystem. We have some work to do to get there, and fortunately that work ...",
+      "url": "https://hacks.mozilla.org/2018/03/making-webassembly-better-for-rust-for-all-languages/",
+      "date_published": "2018-03-14T15:02:52+00:00",
+      "author": {
+        "name": "Lin Clark",
+        "url": "http://code-cartoons.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4d94c5ba-199d-44c2-9148-7a6bbff699d0",
       "title": "Crashing a Rust Hyper server with a Denial of Service attack",
       "content_text": "I’m writing a reverse proxy in Rust using Hyper and I want to measure performance a bit to know if I’m doing something terribly wrong. By doing that I discovered a Denial of Service vulnerability in Hyper when IO errors are not properly handled. Note that a workaround has been released in the meantime in Hyper 0.11.20, more background info can be found in this Hyper issue.",

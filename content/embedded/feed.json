@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "249e8bc3-a836-4b71-89b6-8d7c4d1b0977",
+      "title": "Weekly Driver: Using the MCP3425 ADC from Rust",
+      "content_text": "Announing the MCP3425 Rust driver.",
+      "url": "https://blog.dbrgn.ch/2018/3/13/rust-mcp3425-driver/",
+      "date_published": "2018-03-13T00:00:00+01:00",
+      "author": {
+        "name": "Danilo Bargen",
+        "url": "https://blog.dbrgn.ch/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "a48d8156-7f0f-4731-a17b-e36678b86f5f",
       "title": "Weekly driver 4: ENC28J60, Ethernet for your microcontroller",
       "content_text": "This week I’m releasing a driver for the ENC28J60, an Ethernet controller with SPI interface. This IC lets you connect your microcontroller, if it has a SPI interface, to a Local Area Network or, with more work, to the internet. Apart from the IC you need a RJ45 connector and a few other components so I’m using this module which has the ENC28J60 and all the required components on a single board.",

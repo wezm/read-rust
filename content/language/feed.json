@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "eabc9692-30cf-4511-89f4-9068b46aadd8",
+      "title": "A Comparison Between Rust and Erlang",
+      "content_text": "This article will focus on a comparison between Erlang and Rust, detailing their similarities and differences. It may be interesting to both Erlang developers looking into Rust and Rust developers looking into Erlang. A final section will detail more about each of the language capabilities and shortcomings and argue for the possibility of leveraging both languages' strengths in the same project.",
+      "url": "https://www.infoq.com/articles/rust-erlang-comparison",
+      "date_published": "2018-03-13T00:00:00+00:00",
+      "author": {
+        "name": " Krishna Kumar Thokala",
+        "url": "https://www.infoq.com/profile/Krishna-Kumar-Thokala"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "24afdde0-ef13-4e26-b39e-b2f9d52ab901",
+      "title": "How to use external crates with macros in Rust",
+      "content_text": "A simple approach to use external crates with our macros in Rust.",
+      "url": "https://medium.com/@kimond/how-to-use-external-crates-with-our-macros-in-rust-6dfe025351e0",
+      "date_published": "2018-03-14T12:45:30.700+00:00",
+      "author": {
+        "name": "Kim Desrosiers",
+        "url": "https://medium.com/@kimond"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "962abf61-6061-4e8d-90b1-1d3ba90d5e1d",
       "title": "mutagen: Pattern Boldness",
       "content_text": "At the moment, mutagen only considers top-level idents in function arguments (e.g.foo(x: X, y: Y)), but function arguments are actually patterns, so we could have foo((x, y): (X, Y)) or bar(Bar { bla, bazz } : Bar). For now, this means we have no type information for either of those examples.",
