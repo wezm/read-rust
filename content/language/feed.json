@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f5ba053a-1bbb-465d-a430-55bd0a1d357a",
+      "title": "How Rust Implements Tagged Unions",
+      "content_text": "The Rust compiler implements tagged unions, which prevent you from crashing your program by initializing a union with one variant and accessing it with another. Rust uses enum to improve on both C enums and C unions at the same time.",
+      "url": "http://patshaughnessy.net/2018/3/15/how-rust-implements-tagged-unions",
+      "date_published": "2018-03-15T03:00:00+00:00",
+      "author": {
+        "name": "Pat Shaughnessy",
+        "url": "http://patshaughnessy.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "81e14040-a499-4802-9d1b-c58deeb2be79",
+      "title": "Deciding if two types are equal",
+      "content_text": "mutagen until recently suffered a bug that rendered both the return input and the interchange arguments mutation inapplicable.\n\nTo explain, the former mutation compares each input type with the return type and allows code to return inputs of the same type, if any, while the latter compares input arguments’ types and exchanges two equally-typed inputs.",
+      "url": "https://llogiq.github.io/2018/03/15/types.html",
+      "date_published": "2018-03-15T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "eabc9692-30cf-4511-89f4-9068b46aadd8",
       "title": "A Comparison Between Rust and Erlang",
       "content_text": "This article will focus on a comparison between Erlang and Rust, detailing their similarities and differences. It may be interesting to both Erlang developers looking into Rust and Rust developers looking into Erlang. A final section will detail more about each of the language capabilities and shortcomings and argue for the possibility of leveraging both languages' strengths in the same project.",

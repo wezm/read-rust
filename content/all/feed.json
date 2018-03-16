@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "f1b7c59f-fff8-4000-ac97-2be742b86760",
+      "title": "Achieving memory safety without compromise",
+      "content_text": "A new generation of safe programming languages is leaving garbage collectors and runtimes behind, delivering memory safety and control.",
+      "url": "https://www.embedded.com/electronics-blogs/say-what-/4460422/Achieving-memory-safety-without-compromise",
+      "date_published": "2018-03-13T16:32:00+00:00",
+      "author": {
+        "name": "Adam Foltzer",
+        "url": "https://www.embedded.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "44e96573-f8b3-4577-8a76-1cbc8a65ec8b",
+      "title": "Building a DNS server in Rust",
+      "content_text": "With the combined goal of gaining a deep understanding of DNS, of doing something interesting with Rust, and of scratching some of my own itches, I originally set out to implement my own DNS server. This document is not a truthful chronicle of that journey, but rather an idealized version of it, without all the detours I ended up taking. We'll gradually implement a full DNS server, starting from first principles.",
+      "url": "https://github.com/EmilHernvall/dnsguide",
+      "date_published": "2018-03-16T00:00:00+00:00",
+      "author": {
+        "name": "Emil Hernvall",
+        "url": "https://github.com/EmilHernvall"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f5ba053a-1bbb-465d-a430-55bd0a1d357a",
+      "title": "How Rust Implements Tagged Unions",
+      "content_text": "The Rust compiler implements tagged unions, which prevent you from crashing your program by initializing a union with one variant and accessing it with another. Rust uses enum to improve on both C enums and C unions at the same time.",
+      "url": "http://patshaughnessy.net/2018/3/15/how-rust-implements-tagged-unions",
+      "date_published": "2018-03-15T03:00:00+00:00",
+      "author": {
+        "name": "Pat Shaughnessy",
+        "url": "http://patshaughnessy.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "81e14040-a499-4802-9d1b-c58deeb2be79",
+      "title": "Deciding if two types are equal",
+      "content_text": "mutagen until recently suffered a bug that rendered both the return input and the interchange arguments mutation inapplicable.\n\nTo explain, the former mutation compares each input type with the return type and allows code to return inputs of the same type, if any, while the latter compares input arguments’ types and exchanges two equally-typed inputs.",
+      "url": "https://llogiq.github.io/2018/03/15/types.html",
+      "date_published": "2018-03-15T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a4faa45e-f24e-4ce9-822c-5c4623919e17",
+      "title": "Tock 1.0 Kernel Released",
+      "content_text": "We silently tag our first rolling release of the Tock kernel in February. If you’re building applications with Tock or porting to a new board, and want to be immune from updating your code everyday, you can work from that tag. We’ll also upload binary kernel images for the supported board sometime soon.",
+      "url": "https://www.tockos.org/blog/2018/talking-tock-35/",
+      "date_published": "2018-03-06T00:00:00+00:00",
+      "author": {
+        "name": "Amit Levy",
+        "url": "https://www.tockos.org/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "eabc9692-30cf-4511-89f4-9068b46aadd8",
       "title": "A Comparison Between Rust and Erlang",
       "content_text": "This article will focus on a comparison between Erlang and Rust, detailing their similarities and differences. It may be interesting to both Erlang developers looking into Rust and Rust developers looking into Erlang. A final section will detail more about each of the language capabilities and shortcomings and argue for the possibility of leveraging both languages' strengths in the same project.",
