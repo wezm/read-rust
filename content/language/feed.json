@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1fe95cfd-488a-41a5-adca-a44d8f79c679",
+      "title": "What's a where clause?",
+      "content_text": "I've been trying to get a hang of some of the more advanced, and weird, concepts of Rust. With any new language it's a little difficult to know where to begin. How do you throw yourself into the deep-end of something without knowing where the deep-end is?",
+      "url": "http://mttyng.com/whats-a-where-clause/",
+      "date_published": "2018-02-20T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f5ba053a-1bbb-465d-a430-55bd0a1d357a",
       "title": "How Rust Implements Tagged Unions",
       "content_text": "The Rust compiler implements tagged unions, which prevent you from crashing your program by initializing a union with one variant and accessing it with another. Rust uses enum to improve on both C enums and C unions at the same time.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "465a729e-a243-4cd7-bee8-e0c7d5d09fbd",
+      "title": "Number Theory using Rust's type system",
+      "content_text": "Rust does not have dependent types, or GADTs like Haskell, but with a few tricks, we can use Rust's type system to emulate an Idris-like number system.",
+      "url": "https://shingtaklam1324.github.io/number-theory-rust/",
+      "date_published": "2018-03-18T00:00:00+11:00",
+      "author": {
+        "name": "shingtaklam1324",
+        "url": "https://shingtaklam1324.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "17b6e878-388f-40c5-93a0-cf3da64a1078",
+      "title": "stencil; abstract stencil calculation",
+      "content_text": "I am developing a library for stencil calculation in Rust.",
+      "url": "https://dev.to/termoshtt/stencil-abstract-stencil-calculation-i2m",
+      "date_published": "2018-03-17T00:00:00+00:00",
+      "author": {
+        "name": "termoshtt",
+        "url": "https://dev.to/termoshtt"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "d377bc0d-a127-456d-81fa-926fe634de0f",
       "title": "Fast Search Through Metric Spaces with Rust and BK Trees",
       "content_text": "In the previous post, pHash helped us to summarize our photo album. Now it’s time to employ BK-trees and efficiently search through the metric space of perceptual hashes. Let’s roll up the sleeves; more Rust awaits!",

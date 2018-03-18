@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "1fe95cfd-488a-41a5-adca-a44d8f79c679",
+      "title": "What's a where clause?",
+      "content_text": "I've been trying to get a hang of some of the more advanced, and weird, concepts of Rust. With any new language it's a little difficult to know where to begin. How do you throw yourself into the deep-end of something without knowing where the deep-end is?",
+      "url": "http://mttyng.com/whats-a-where-clause/",
+      "date_published": "2018-02-20T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "465a729e-a243-4cd7-bee8-e0c7d5d09fbd",
+      "title": "Number Theory using Rust's type system",
+      "content_text": "Rust does not have dependent types, or GADTs like Haskell, but with a few tricks, we can use Rust's type system to emulate an Idris-like number system.",
+      "url": "https://shingtaklam1324.github.io/number-theory-rust/",
+      "date_published": "2018-03-18T00:00:00+11:00",
+      "author": {
+        "name": "shingtaklam1324",
+        "url": "https://shingtaklam1324.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "17b6e878-388f-40c5-93a0-cf3da64a1078",
+      "title": "stencil; abstract stencil calculation",
+      "content_text": "I am developing a library for stencil calculation in Rust.",
+      "url": "https://dev.to/termoshtt/stencil-abstract-stencil-calculation-i2m",
+      "date_published": "2018-03-17T00:00:00+00:00",
+      "author": {
+        "name": "termoshtt",
+        "url": "https://dev.to/termoshtt"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "f1b7c59f-fff8-4000-ac97-2be742b86760",
       "title": "Achieving memory safety without compromise",
       "content_text": "A new generation of safe programming languages is leaving garbage collectors and runtimes behind, delivering memory safety and control.",
