@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "655ac748-e1e9-4fa4-b12a-2dc7c2e88fa7",
+      "title": "Building a fast Electron app with Rust",
+      "content_text": "When I built Finda, I wanted it to be fast — specifically, to respond to all user input within 16 milliseconds.\n\nGiven this goal, you might be surprised to learn that Finda is built with Electron, a framework that’s often decried for being the opposite of fast.",
+      "url": "https://keminglabs.com/blog/building-a-fast-electron-app-with-rust/",
+      "date_published": "2018-03-18T00:00:00+11:00",
+      "author": {
+        "name": "Kevin J. Lynagh",
+        "url": "https://keminglabs.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "0ebef41d-c7b1-424a-a120-ebf1098bbe38",
       "title": "Three Algorithm Optimizations Outside [Place], [Other place]",
       "content_text": "Recently, I came across an ad for a job that had a precondition for application: it required you to first solve a ✨programming challenge✨:",

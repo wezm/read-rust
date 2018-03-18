@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "655ac748-e1e9-4fa4-b12a-2dc7c2e88fa7",
+      "title": "Building a fast Electron app with Rust",
+      "content_text": "When I built Finda, I wanted it to be fast — specifically, to respond to all user input within 16 milliseconds.\n\nGiven this goal, you might be surprised to learn that Finda is built with Electron, a framework that’s often decried for being the opposite of fast.",
+      "url": "https://keminglabs.com/blog/building-a-fast-electron-app-with-rust/",
+      "date_published": "2018-03-18T00:00:00+11:00",
+      "author": {
+        "name": "Kevin J. Lynagh",
+        "url": "https://keminglabs.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "1fe95cfd-488a-41a5-adca-a44d8f79c679",
       "title": "What's a where clause?",
       "content_text": "I've been trying to get a hang of some of the more advanced, and weird, concepts of Rust. With any new language it's a little difficult to know where to begin. How do you throw yourself into the deep-end of something without knowing where the deep-end is?",
