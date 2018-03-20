@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c5aa834d-c9d6-4e24-8abf-a9db4cb5cf29",
+      "title": "Rust — Intro and Installation in Ubuntu",
+      "content_text": "Rust is a new age programming language that tries to fight our bad practices in coding. It is a Systems Programming Language, which runs…",
+      "url": "https://medium.com/aackam/rust-intro-and-installation-in-ubuntu-bd4720a64f31",
+      "date_published": "2018-03-19T22:36:52.175+00:00",
+      "author": {
+        "name": "VIJAYAN N",
+        "url": "https://medium.com/@vjn"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "9ecf3a00-a806-4914-a3e2-fd360f7199ed",
       "title": "Rust Tutorial",
       "content_text": "The aim of this tutorial is to take you to a place where you can read and write enough Rust to fully appreciate the excellent learning resources available online, in particular The Book. It’s an opportunity to try before you buy, and get enough feeling for the power of the language to want to go deeper.",

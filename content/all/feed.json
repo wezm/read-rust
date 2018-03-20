@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "8bd1d21c-79d1-4470-9d49-907c26ab0057",
+      "title": "Type-directed metaprogramming in Rust",
+      "content_text": "I explore how to use Rust compiler internals to metaprogram Rust using information from the typechecker, e.g. to automatically insert garbage-collection into Rust code, and discuss the benefits and drawbacks of this approach.",
+      "url": "http://willcrichton.net/notes/type-directed-metaprogramming-in-rust/",
+      "date_published": "2018-03-18T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03cf26ef-4e0f-4124-91ec-064467299583",
+      "title": "Putting bors on a PIP",
+      "content_text": "We have a problem: the average queue of ready-to-test PRs to the main Rust repo has been steadily growing for a year. And at the same time, the likelihood of merge conflicts is also growing, as we include more submodules and Cargo dependencies that require updates to Cargo.lock.",
+      "url": "http://aturon.github.io/2018/03/19/bors/",
+      "date_published": "2018-03-19T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c5aa834d-c9d6-4e24-8abf-a9db4cb5cf29",
+      "title": "Rust — Intro and Installation in Ubuntu",
+      "content_text": "Rust is a new age programming language that tries to fight our bad practices in coding. It is a Systems Programming Language, which runs…",
+      "url": "https://medium.com/aackam/rust-intro-and-installation-in-ubuntu-bd4720a64f31",
+      "date_published": "2018-03-19T22:36:52.175+00:00",
+      "author": {
+        "name": "VIJAYAN N",
+        "url": "https://medium.com/@vjn"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "dae19f32-236c-4329-b26d-e6c47b2631d3",
+      "title": "Multicasting in Rust",
+      "content_text": "A brief post to help others multicast in Rust",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/03/18/multicasting-in-rust.html",
+      "date_published": "2018-03-18T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "908c4bee-bf00-4e80-8136-9282eb8de6f6",
+      "title": "Rust Lifetimes or: How I Learned to Stop Free-ing and Love the Borrow",
+      "content_text": "To me one of the initial shocks of learning Rust was figuring out lifetimes. As a frontend-by-day developer I don't come face-to-face with the 'Double free' and 'Use after free' problems all that often. Actually, it could be easily argued that my backend-brethren don't really either or, for that matter, anyone who's typically dealing with a garbage collected language. I'm looking over at you JS, Java, and Ruby devs. I'd bet most neckbea.. *cough, excuse me, C developers are comfortable with these issues but alas, I am not. As such, lifetimes were kinda difficult to wrap my head around but I think I get them a little better now so let me try to explain.",
+      "url": "http://mttyng.com/rust-lifetimes-or-how-i-learned-to-stop-free-ing-and-love-the-borrow/",
+      "date_published": "2018-03-09T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "655ac748-e1e9-4fa4-b12a-2dc7c2e88fa7",
       "title": "Building a fast Electron app with Rust",
       "content_text": "When I built Finda, I wanted it to be fast — specifically, to respond to all user input within 16 milliseconds.\n\nGiven this goal, you might be surprised to learn that Finda is built with Electron, a framework that’s often decried for being the opposite of fast.",

@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "8bd1d21c-79d1-4470-9d49-907c26ab0057",
+      "title": "Type-directed metaprogramming in Rust",
+      "content_text": "I explore how to use Rust compiler internals to metaprogram Rust using information from the typechecker, e.g. to automatically insert garbage-collection into Rust code, and discuss the benefits and drawbacks of this approach.",
+      "url": "http://willcrichton.net/notes/type-directed-metaprogramming-in-rust/",
+      "date_published": "2018-03-18T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03cf26ef-4e0f-4124-91ec-064467299583",
+      "title": "Putting bors on a PIP",
+      "content_text": "We have a problem: the average queue of ready-to-test PRs to the main Rust repo has been steadily growing for a year. And at the same time, the likelihood of merge conflicts is also growing, as we include more submodules and Cargo dependencies that require updates to Cargo.lock.",
+      "url": "http://aturon.github.io/2018/03/19/bors/",
+      "date_published": "2018-03-19T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "908c4bee-bf00-4e80-8136-9282eb8de6f6",
+      "title": "Rust Lifetimes or: How I Learned to Stop Free-ing and Love the Borrow",
+      "content_text": "To me one of the initial shocks of learning Rust was figuring out lifetimes. As a frontend-by-day developer I don't come face-to-face with the 'Double free' and 'Use after free' problems all that often. Actually, it could be easily argued that my backend-brethren don't really either or, for that matter, anyone who's typically dealing with a garbage collected language. I'm looking over at you JS, Java, and Ruby devs. I'd bet most neckbea.. *cough, excuse me, C developers are comfortable with these issues but alas, I am not. As such, lifetimes were kinda difficult to wrap my head around but I think I get them a little better now so let me try to explain.",
+      "url": "http://mttyng.com/rust-lifetimes-or-how-i-learned-to-stop-free-ing-and-love-the-borrow/",
+      "date_published": "2018-03-09T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1fe95cfd-488a-41a5-adca-a44d8f79c679",
       "title": "What's a where clause?",
       "content_text": "I've been trying to get a hang of some of the more advanced, and weird, concepts of Rust. With any new language it's a little difficult to know where to begin. How do you throw yourself into the deep-end of something without knowing where the deep-end is?",

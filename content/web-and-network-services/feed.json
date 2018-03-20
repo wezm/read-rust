@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dae19f32-236c-4329-b26d-e6c47b2631d3",
+      "title": "Multicasting in Rust",
+      "content_text": "A brief post to help others multicast in Rust",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/03/18/multicasting-in-rust.html",
+      "date_published": "2018-03-18T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "44e96573-f8b3-4577-8a76-1cbc8a65ec8b",
       "title": "Building a DNS server in Rust",
       "content_text": "With the combined goal of gaining a deep understanding of DNS, of doing something interesting with Rust, and of scratching some of my own itches, I originally set out to implement my own DNS server. This document is not a truthful chronicle of that journey, but rather an idealized version of it, without all the detours I ended up taking. We'll gradually implement a full DNS server, starting from first principles.",
