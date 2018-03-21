@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f860801f-7b99-4fe3-88cc-a6c00ca7d97a",
+      "title": "HTS221 Humidity and Temperature Sensor",
+      "content_text": "ST Micro’s HTS221 is a “capacitive digital sensor for relative humidity and temperature” that can be used over either I²C or SPI. It is factory-calibrated, so there is no end-user calibration to incorporate into your application. The driver provides a simple, high-level API to configure the chip once on startup, then read the temperature and humidity.",
+      "url": "https://medium.com/@pdanielgallagher/hts221-humidity-and-temperature-sensor-88056ea9e5fa",
+      "date_published": "2018-03-20T04:16:48.453+00:00",
+      "author": {
+        "name": "Daniel Gallagher",
+        "url": "https://medium.com/@pdanielgallagher"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "f1b7c59f-fff8-4000-ac97-2be742b86760",
       "title": "Achieving memory safety without compromise",
       "content_text": "A new generation of safe programming languages is leaving garbage collectors and runtimes behind, delivering memory safety and control.",

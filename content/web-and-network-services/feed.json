@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e32bb679-4afa-48d9-ab51-d589a590348e",
+      "title": "Building a Restful CRUD API with Rust",
+      "content_text": "Since my initial Node/Rust REST comparison, I’ve wanted to follow up with a comprehensive guide for getting simple CRUD operations up and running in Rust.",
+      "url": "https://medium.com/sean3z/building-a-restful-crud-api-with-rust-1867308352d8",
+      "date_published": "2018-03-19T04:29:33.114+00:00",
+      "author": {
+        "name": "Sean Wragg",
+        "url": "https://medium.com/@sean3z"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "dae19f32-236c-4329-b26d-e6c47b2631d3",
       "title": "Multicasting in Rust",
       "content_text": "A brief post to help others multicast in Rust",

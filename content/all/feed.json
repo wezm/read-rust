@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "afdcd322-eab4-4363-be76-cecaa050e867",
+      "title": "Async/Await VI: 6 weeks of great progress",
+      "content_text": "It’s hard to believe its been almost 6 weeks since the last post I made about async/await in Rust. So much has happened that these last several weeks have flown by. We’ve made exceptionally good progress on solving the problem laid out in the first post of this series, and I want to document it all for everyone.\nFuture and the pinning API Last month I wrote an RFC called “Standard library API for immovable types”.",
+      "url": "https://boats.gitlab.io/blog/post/2018-03-20-async-vi/",
+      "date_published": "2018-03-20T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "73cbd270-d16d-4aec-b38d-9503961891bd",
+      "title": "Presentation Manager written in Rust",
+      "content_text": "A tool for serving and managing presentation slides.",
+      "url": "https://medium.com/@mattdark/presentation-manager-written-in-rustlang-f36b73bb8dd2",
+      "date_published": "2018-03-19T23:28:45.107+00:00",
+      "author": {
+        "name": "Mario García",
+        "url": "https://medium.com/@mattdark"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f860801f-7b99-4fe3-88cc-a6c00ca7d97a",
+      "title": "HTS221 Humidity and Temperature Sensor",
+      "content_text": "ST Micro’s HTS221 is a “capacitive digital sensor for relative humidity and temperature” that can be used over either I²C or SPI. It is factory-calibrated, so there is no end-user calibration to incorporate into your application. The driver provides a simple, high-level API to configure the chip once on startup, then read the temperature and humidity.",
+      "url": "https://medium.com/@pdanielgallagher/hts221-humidity-and-temperature-sensor-88056ea9e5fa",
+      "date_published": "2018-03-20T04:16:48.453+00:00",
+      "author": {
+        "name": "Daniel Gallagher",
+        "url": "https://medium.com/@pdanielgallagher"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e32bb679-4afa-48d9-ab51-d589a590348e",
+      "title": "Building a Restful CRUD API with Rust",
+      "content_text": "Since my initial Node/Rust REST comparison, I’ve wanted to follow up with a comprehensive guide for getting simple CRUD operations up and running in Rust.",
+      "url": "https://medium.com/sean3z/building-a-restful-crud-api-with-rust-1867308352d8",
+      "date_published": "2018-03-19T04:29:33.114+00:00",
+      "author": {
+        "name": "Sean Wragg",
+        "url": "https://medium.com/@sean3z"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "8bd1d21c-79d1-4470-9d49-907c26ab0057",
       "title": "Type-directed metaprogramming in Rust",
       "content_text": "I explore how to use Rust compiler internals to metaprogram Rust using information from the typechecker, e.g. to automatically insert garbage-collection into Rust code, and discuss the benefits and drawbacks of this approach.",

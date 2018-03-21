@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "afdcd322-eab4-4363-be76-cecaa050e867",
+      "title": "Async/Await VI: 6 weeks of great progress",
+      "content_text": "It’s hard to believe its been almost 6 weeks since the last post I made about async/await in Rust. So much has happened that these last several weeks have flown by. We’ve made exceptionally good progress on solving the problem laid out in the first post of this series, and I want to document it all for everyone.\nFuture and the pinning API Last month I wrote an RFC called “Standard library API for immovable types”.",
+      "url": "https://boats.gitlab.io/blog/post/2018-03-20-async-vi/",
+      "date_published": "2018-03-20T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8bd1d21c-79d1-4470-9d49-907c26ab0057",
       "title": "Type-directed metaprogramming in Rust",
       "content_text": "I explore how to use Rust compiler internals to metaprogram Rust using information from the typechecker, e.g. to automatically insert garbage-collection into Rust code, and discuss the benefits and drawbacks of this approach.",

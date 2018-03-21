@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "73cbd270-d16d-4aec-b38d-9503961891bd",
+      "title": "Presentation Manager written in Rust",
+      "content_text": "A tool for serving and managing presentation slides.",
+      "url": "https://medium.com/@mattdark/presentation-manager-written-in-rustlang-f36b73bb8dd2",
+      "date_published": "2018-03-19T23:28:45.107+00:00",
+      "author": {
+        "name": "Mario García",
+        "url": "https://medium.com/@mattdark"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "655ac748-e1e9-4fa4-b12a-2dc7c2e88fa7",
       "title": "Building a fast Electron app with Rust",
       "content_text": "When I built Finda, I wanted it to be fast — specifically, to respond to all user input within 16 milliseconds.\n\nGiven this goal, you might be surprised to learn that Finda is built with Electron, a framework that’s often decried for being the opposite of fast.",
