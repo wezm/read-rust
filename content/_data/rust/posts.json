@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "93eaac73-c49e-4d21-8d11-f9ca7e40721c",
+      "title": "From python to Go to Rust: an opinionated journey",
+      "content_text": "When looking for a new backend language, I naturally went from Python to the new cool kid: Go. But after only one week of Go, I realised that Go was only half of a progress. Better suited to my needs than Python, but too far away from the developer experience I was enjoying when doing Elm in the frontend. So I gave Rust a try.",
+      "url": "http://tech.allo-media.net/point/of/view/2018/03/22/from-python-to-go-to-rust.html",
+      "date_published": "2018-03-22T09:00:00+01:00",
+      "author": {
+        "name": "Allo-Media",
+        "url": "http://tech.allo-media.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c57dc18b-48b9-453e-b44a-46da4dce6d8e",
+      "title": "Safe Peripheral Management",
+      "content_text": "This post describes the recently merged PeripheralManager, which helps software ensure it always accesses hardware correctly, and cleans up after it’s done.",
+      "url": "https://www.tockos.org/blog/2018/peripheral-management/",
+      "date_published": "2018-03-21T00:00:00+00:00",
+      "author": {
+        "name": "Pat Pannuto",
+        "url": "https://www.tockos.org/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "afdcd322-eab4-4363-be76-cecaa050e867",
       "title": "Async/Await VI: 6 weeks of great progress",
       "content_text": "It’s hard to believe its been almost 6 weeks since the last post I made about async/await in Rust. So much has happened that these last several weeks have flown by. We’ve made exceptionally good progress on solving the problem laid out in the first post of this series, and I want to document it all for everyone.\nFuture and the pinning API Last month I wrote an RFC called “Standard library API for immovable types”.",
