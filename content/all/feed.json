@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9e02b413-b1dd-42a3-a970-2d7b89354c0c",
+      "title": "A look at Tokio: how this asynchronous event handler works (Russian)",
+      "content_text": "И для чего он используется в фреймворке для приватных блокчейнов Exonum Tokio — это фреймворк для разработки сетевых масштабируемых приложений на Rust,...",
+      "url": "https://habrahabr.ru/company/bitfury/blog/351824/",
+      "date_published": "2018-03-22T16:46:00+00:00",
+      "author": {
+        "name": "Алина Тестова",
+        "url": "https://habrahabr.ru/company/bitfury/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6cf2d39d-3ea9-4af4-b9c7-a368be610189",
+      "title": "Python Idioms in Rust",
+      "content_text": "I’ve been going through a period of programming language wanderlust over the past couple months. Recently, I’ve been quite interested in Rust. Coming from Python, I’ve found a lot of Rust’s language features to be quite powerful.",
+      "url": "http://benjamincongdon.me/blog/2018/03/23/Python-Idioms-in-Rust/",
+      "date_published": "2018-03-23T12:23:22+00:00",
+      "author": {
+        "name": "Benjamin Congdon",
+        "url": "http://benjamincongdon.me/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "93eaac73-c49e-4d21-8d11-f9ca7e40721c",
       "title": "From python to Go to Rust: an opinionated journey",
       "content_text": "When looking for a new backend language, I naturally went from Python to the new cool kid: Go. But after only one week of Go, I realised that Go was only half of a progress. Better suited to my needs than Python, but too far away from the developer experience I was enjoying when doing Elm in the frontend. So I gave Rust a try.",
