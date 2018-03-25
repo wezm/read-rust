@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a15836bc-6eaf-46c9-8fe8-70bd2fada61e",
+      "title": "The tower of hanoi in Rust",
+      "content_text": "The tower of hanoi algorithm is practice for recursive function.",
+      "url": "https://masahiko-ofgp-notebook.blogspot.com.au/2018/03/the-tower-of-hanoi-by-rust-lang.html?m=1",
+      "date_published": "2018-03-25T13:23:00+11:00",
+      "author": {
+        "name": "masahiko",
+        "url": "https://masahiko-ofgp-notebook.blogspot.com.au/?m=1"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "c5aa834d-c9d6-4e24-8abf-a9db4cb5cf29",
       "title": "Rust — Intro and Installation in Ubuntu",
       "content_text": "Rust is a new age programming language that tries to fight our bad practices in coding. It is a Systems Programming Language, which runs…",

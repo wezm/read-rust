@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e0dec9da-faee-4dcd-bfd2-8e14dda4f3f6",
+      "title": "Compiling Rust + Windows + GTK step-by-step",
+      "content_text": "In case you have tried to make a rust program with GUI that would work both on Linux and Windows, you probably may have faced some issues in some point (especially if you are a newcomer). Compiling in Linux is quite easy, but in Windows life gets a bit tricky.\n\nI've pulled together some info from here and there so that no-one else had to fight their way through fire and flames.",
+      "url": "https://www.reddit.com/r/rust/comments/86kmhu/compiling_rust_windows_gtk_stepbystep/",
+      "date_published": "2018-03-23T13:29:57+00:00",
+      "author": {
+        "name": "light3rn",
+        "url": "https://www.reddit.com/user/light3rn"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "73cbd270-d16d-4aec-b38d-9503961891bd",
       "title": "Presentation Manager written in Rust",
       "content_text": "A tool for serving and managing presentation slides.",

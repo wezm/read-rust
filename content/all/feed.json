@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "bf2c60f0-b2be-44c4-ba38-dce0f5b2e041",
+      "title": "Mutating Rust: Under Cover",
+      "content_text": "Any mutation testing tool worth its salt uses coverage to restrict the number of tests to run. mutagen is no exception, of course, so once we had a test runner, we wanted to extend it with coverage-based testing.",
+      "url": "https://llogiq.github.io/2018/03/25/cover.html",
+      "date_published": "2018-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a15836bc-6eaf-46c9-8fe8-70bd2fada61e",
+      "title": "The tower of hanoi in Rust",
+      "content_text": "The tower of hanoi algorithm is practice for recursive function.",
+      "url": "https://masahiko-ofgp-notebook.blogspot.com.au/2018/03/the-tower-of-hanoi-by-rust-lang.html?m=1",
+      "date_published": "2018-03-25T13:23:00+11:00",
+      "author": {
+        "name": "masahiko",
+        "url": "https://masahiko-ofgp-notebook.blogspot.com.au/?m=1"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e0dec9da-faee-4dcd-bfd2-8e14dda4f3f6",
+      "title": "Compiling Rust + Windows + GTK step-by-step",
+      "content_text": "In case you have tried to make a rust program with GUI that would work both on Linux and Windows, you probably may have faced some issues in some point (especially if you are a newcomer). Compiling in Linux is quite easy, but in Windows life gets a bit tricky.\n\nI've pulled together some info from here and there so that no-one else had to fight their way through fire and flames.",
+      "url": "https://www.reddit.com/r/rust/comments/86kmhu/compiling_rust_windows_gtk_stepbystep/",
+      "date_published": "2018-03-23T13:29:57+00:00",
+      "author": {
+        "name": "light3rn",
+        "url": "https://www.reddit.com/user/light3rn"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "9e02b413-b1dd-42a3-a970-2d7b89354c0c",
       "title": "A look at Tokio: how this asynchronous event handler works (Russian)",
       "content_text": "И для чего он используется в фреймворке для приватных блокчейнов Exonum Tokio — это фреймворк для разработки сетевых масштабируемых приложений на Rust,...",

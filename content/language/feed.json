@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bf2c60f0-b2be-44c4-ba38-dce0f5b2e041",
+      "title": "Mutating Rust: Under Cover",
+      "content_text": "Any mutation testing tool worth its salt uses coverage to restrict the number of tests to run. mutagen is no exception, of course, so once we had a test runner, we wanted to extend it with coverage-based testing.",
+      "url": "https://llogiq.github.io/2018/03/25/cover.html",
+      "date_published": "2018-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9e02b413-b1dd-42a3-a970-2d7b89354c0c",
       "title": "A look at Tokio: how this asynchronous event handler works (Russian)",
       "content_text": "И для чего он используется в фреймворке для приватных блокчейнов Exonum Tokio — это фреймворк для разработки сетевых масштабируемых приложений на Rust,...",
