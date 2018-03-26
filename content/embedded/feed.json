@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "348de5bf-0fa7-48d1-b112-20cd13cfd3f3",
+      "title": "Writing A Driver in Rust Using Embedded-Hal Traits for the RN4870 BLE Module",
+      "content_text": "This post will document my process and thoughts on writing a driver for a bluetooth module using Rust and the embedded-hal crate. The specific bluetooth device I will be using is the RN4870 BLE castellated module. It features a simple UART interface and handles most of the complexities of BLE itself, making it very easy to get a simple BLE connection up and running.",
+      "url": "http://byronwasti.com/post/writing_a_ble_driver_in_rust/",
+      "date_published": "2018-03-25T20:15:57+00:00",
+      "author": {
+        "name": "Byron Wasti",
+        "url": "http://byronwasti.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "c57dc18b-48b9-453e-b44a-46da4dce6d8e",
       "title": "Safe Peripheral Management",
       "content_text": "This post describes the recently merged PeripheralManager, which helps software ensure it always accesses hardware correctly, and cleans up after it’s done.",

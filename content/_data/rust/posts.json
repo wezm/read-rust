@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "eef1f270-fb75-475a-b10c-8e3813990362",
+      "title": "Atomics ☢ and memory ordering",
+      "content_text": "Taming multiple threads is a mess. Not only many things can happen all at once, but what you wrote in the code isn’t exactly what happens in the CPU. To gain some more performance, the compiler cheats if it thinks nobody is watching. It can reorder instructions or throw some of them out if they look useless. The same happens in the hardware. Furthermore, there isn’t just one RAM, but each memory location can live in different caches at each time and some of them are private to each CPU. It would not make do to publish all the local changes to one’s cache right away.",
+      "url": "https://vorner.github.io/2018/03/25/Atomics.html",
+      "date_published": "2018-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ad4ba620-3dae-4618-abc7-e245c97369d3",
+      "title": "Refactoring some repetitive code to a Rust macro",
+      "content_text": "I have started porting the code in librsvg that parses SVG's CSS properties from C to Rust. Many properties have symbolic values. StrokeLinejoin is the first property that I ported. First I had to write a little bunch of machinery to allow CSS properties to be kept in Rust-space instead of the main C structure that holds them (upcoming blog post about that). But for now, I just want to show how this boiled down to a macro after refactoring.",
+      "url": "https://people.gnome.org/~federico/blog/refactoring-some-repetitive-code-to-a-macro.html",
+      "date_published": "2018-03-23T11:01:30-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "348de5bf-0fa7-48d1-b112-20cd13cfd3f3",
+      "title": "Writing A Driver in Rust Using Embedded-Hal Traits for the RN4870 BLE Module",
+      "content_text": "This post will document my process and thoughts on writing a driver for a bluetooth module using Rust and the embedded-hal crate. The specific bluetooth device I will be using is the RN4870 BLE castellated module. It features a simple UART interface and handles most of the complexities of BLE itself, making it very easy to get a simple BLE connection up and running.",
+      "url": "http://byronwasti.com/post/writing_a_ble_driver_in_rust/",
+      "date_published": "2018-03-25T20:15:57+00:00",
+      "author": {
+        "name": "Byron Wasti",
+        "url": "http://byronwasti.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "bf2c60f0-b2be-44c4-ba38-dce0f5b2e041",
       "title": "Mutating Rust: Under Cover",
       "content_text": "Any mutation testing tool worth its salt uses coverage to restrict the number of tests to run. mutagen is no exception, of course, so once we had a test runner, we wanted to extend it with coverage-based testing.",
