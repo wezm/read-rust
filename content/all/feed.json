@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "9f012379-d71a-4c45-b9db-12c4871070e7",
+      "title": "Touring a Fast, Safe, and Complete(ish) Web Service in Rust",
+      "content_text": "For years now, I’ve been having a crisis of faith in interpreted languages. They’re fast and fun to work in at small scale, but when you have a project that gets big, their attractive veneer quickly washes away. A big Ruby or JavaScript (just to name a few) program in production is a never ending game of whack-a-mock – you fix one problem only to find a new one somewhere else. No matter how many tests you write, or how well-disciplined your team, any new development is sure to introduce a stream of bugs that will need to be shored up over the course of months or years.\n\nCentral to the problem are the edges. People will reliably do a good job of building and testing the happy paths, but as humans we’re terrible at considering the edge conditions, and it’s those edges and corners that cause trouble over the years that a program is in service.",
+      "url": "https://brandur.org/rust-web",
+      "date_published": "2018-03-27T14:45:57+00:00",
+      "author": {
+        "name": "Brandur Leach",
+        "url": "https://brandur.org"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "cfc59513-ea0b-4d61-ac46-d7ea2e5bba8b",
+      "title": "Designing a fast CLI join tool with rust",
+      "content_text": "(or how rust helped me to match the speed of GNU join written by Mike Haertel)",
+      "url": "https://milancio42.github.io/blog/2018-03-22-rjoin/",
+      "date_published": "2018-03-22T09:27:20+01:00",
+      "author": {
+        "name": "Milan Opath",
+        "url": "https://milancio42.github.io/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b33165a2-c60c-4431-872d-4528770e42c1",
+      "title": "xray Update for March 26, 2018",
+      "content_text": "Xray - An experimental next-generation Electron-based text editor. This update covers a revised roadmap, fast file finding, and thoughts on key bindings.",
+      "url": "https://github.com/atom/xray/blob/master/docs/updates/2018_03_26.md",
+      "date_published": "2018-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Xray Team",
+        "url": "https://github.com/atom/xray"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "eef1f270-fb75-475a-b10c-8e3813990362",
       "title": "Atomics ☢ and memory ordering",
       "content_text": "Taming multiple threads is a mess. Not only many things can happen all at once, but what you wrote in the code isn’t exactly what happens in the CPU. To gain some more performance, the compiler cheats if it thinks nobody is watching. It can reorder instructions or throw some of them out if they look useless. The same happens in the hardware. Furthermore, there isn’t just one RAM, but each memory location can live in different caches at each time and some of them are private to each CPU. It would not make do to publish all the local changes to one’s cache right away.",

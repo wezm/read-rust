@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "cfc59513-ea0b-4d61-ac46-d7ea2e5bba8b",
+      "title": "Designing a fast CLI join tool with rust",
+      "content_text": "(or how rust helped me to match the speed of GNU join written by Mike Haertel)",
+      "url": "https://milancio42.github.io/blog/2018-03-22-rjoin/",
+      "date_published": "2018-03-22T09:27:20+01:00",
+      "author": {
+        "name": "Milan Opath",
+        "url": "https://milancio42.github.io/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b33165a2-c60c-4431-872d-4528770e42c1",
+      "title": "xray Update for March 26, 2018",
+      "content_text": "Xray - An experimental next-generation Electron-based text editor. This update covers a revised roadmap, fast file finding, and thoughts on key bindings.",
+      "url": "https://github.com/atom/xray/blob/master/docs/updates/2018_03_26.md",
+      "date_published": "2018-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Xray Team",
+        "url": "https://github.com/atom/xray"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e0dec9da-faee-4dcd-bfd2-8e14dda4f3f6",
       "title": "Compiling Rust + Windows + GTK step-by-step",
       "content_text": "In case you have tried to make a rust program with GUI that would work both on Linux and Windows, you probably may have faced some issues in some point (especially if you are a newcomer). Compiling in Linux is quite easy, but in Windows life gets a bit tricky.\n\nI've pulled together some info from here and there so that no-one else had to fight their way through fire and flames.",
