@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "07825eb3-aaab-46c5-b7e4-680857d73750",
+      "title": "Rust + Node.js are awesome!",
+      "content_text": "Blazing fast, low requirements, computationally intensive operations on Node.js using Rust",
+      "url": "https://itnext.io/rust-node-js-are-awesome-a50d63411773",
+      "date_published": "2018-03-27T21:50:20.148+00:00",
+      "author": {
+        "name": "Benjamín Calderón",
+        "url": "https://itnext.io/@benjcal"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "655ac748-e1e9-4fa4-b12a-2dc7c2e88fa7",
       "title": "Building a fast Electron app with Rust",
       "content_text": "When I built Finda, I wanted it to be fast — specifically, to respond to all user input within 16 milliseconds.\n\nGiven this goal, you might be surprised to learn that Finda is built with Electron, a framework that’s often decried for being the opposite of fast.",

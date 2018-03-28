@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "1054cc8a-cbdd-4073-b7f9-2801aaad6fd6",
+      "title": "Introducing Click: The Command Line Interactive Controller for Kubernetes",
+      "content_text": "Click is an open-source tool that lets you quickly and easily run commands against Kubernetes resources, without copy/pasting all the time, and that easily integrates into your existing command line workflows. This blog introduces its its usage and merits.",
+      "url": "https://databricks.com/blog/2018/03/27/introducing-click-the-command-line-interactive-controller-for-kubernetes.html",
+      "date_published": "2018-03-27T16:07:56+00:00",
+      "author": {
+        "name": "Nick Lanham",
+        "url": "https://databricks.com/blog/category/engineering"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "fe44a6a6-04fd-42f7-a0ee-c816282bac5e",
+      "title": "From cobalt.rs to gutenberg",
+      "content_text": "I wish I could have the features of both tools, but for now I will use gutenberg over cobalt. A tiny migration and feature comparison story.",
+      "url": "https://markentier.tech/posts/2018/03/from-cobalt-to-gutenberg/",
+      "date_published": "2018-03-28T00:00:00+00:00",
+      "author": {
+        "name": "Christoph Grabo (@asaaki)",
+        "url": "https://markentier.tech/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "cfc59513-ea0b-4d61-ac46-d7ea2e5bba8b",
       "title": "Designing a fast CLI join tool with rust",
       "content_text": "(or how rust helped me to match the speed of GNU join written by Mike Haertel)",

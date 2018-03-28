@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "07825eb3-aaab-46c5-b7e4-680857d73750",
+      "title": "Rust + Node.js are awesome!",
+      "content_text": "Blazing fast, low requirements, computationally intensive operations on Node.js using Rust",
+      "url": "https://itnext.io/rust-node-js-are-awesome-a50d63411773",
+      "date_published": "2018-03-27T21:50:20.148+00:00",
+      "author": {
+        "name": "Benjamín Calderón",
+        "url": "https://itnext.io/@benjcal"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "9f012379-d71a-4c45-b9db-12c4871070e7",
       "title": "Touring a Fast, Safe, and Complete(ish) Web Service in Rust",
       "content_text": "For years now, I’ve been having a crisis of faith in interpreted languages. They’re fast and fun to work in at small scale, but when you have a project that gets big, their attractive veneer quickly washes away. A big Ruby or JavaScript (just to name a few) program in production is a never ending game of whack-a-mock – you fix one problem only to find a new one somewhere else. No matter how many tests you write, or how well-disciplined your team, any new development is sure to introduce a stream of bugs that will need to be shored up over the course of months or years.\n\nCentral to the problem are the edges. People will reliably do a good job of building and testing the happy paths, but as humans we’re terrible at considering the edge conditions, and it’s those edges and corners that cause trouble over the years that a program is in service.",

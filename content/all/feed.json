@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "04fdf0c8-05ab-46f3-b72d-c7e88eb6dc9b",
+      "title": "Cargo got some new tricks, but is it still correct!?",
+      "content_text": "I have been working with @alexcrichton to improve the resolver in Cargo.",
+      "url": "https://www.reddit.com/r/rust/comments/87ss76/cargo_got_some_new_tricks_but_is_it_still_correct/",
+      "date_published": "2018-03-28T15:25:46+00:00",
+      "author": {
+        "name": "Eh2406",
+        "url": "https://www.reddit.com/user/Eh2406"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1054cc8a-cbdd-4073-b7f9-2801aaad6fd6",
+      "title": "Introducing Click: The Command Line Interactive Controller for Kubernetes",
+      "content_text": "Click is an open-source tool that lets you quickly and easily run commands against Kubernetes resources, without copy/pasting all the time, and that easily integrates into your existing command line workflows. This blog introduces its its usage and merits.",
+      "url": "https://databricks.com/blog/2018/03/27/introducing-click-the-command-line-interactive-controller-for-kubernetes.html",
+      "date_published": "2018-03-27T16:07:56+00:00",
+      "author": {
+        "name": "Nick Lanham",
+        "url": "https://databricks.com/blog/category/engineering"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "07825eb3-aaab-46c5-b7e4-680857d73750",
+      "title": "Rust + Node.js are awesome!",
+      "content_text": "Blazing fast, low requirements, computationally intensive operations on Node.js using Rust",
+      "url": "https://itnext.io/rust-node-js-are-awesome-a50d63411773",
+      "date_published": "2018-03-27T21:50:20.148+00:00",
+      "author": {
+        "name": "Benjamín Calderón",
+        "url": "https://itnext.io/@benjcal"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
+      "id": "fe44a6a6-04fd-42f7-a0ee-c816282bac5e",
+      "title": "From cobalt.rs to gutenberg",
+      "content_text": "I wish I could have the features of both tools, but for now I will use gutenberg over cobalt. A tiny migration and feature comparison story.",
+      "url": "https://markentier.tech/posts/2018/03/from-cobalt-to-gutenberg/",
+      "date_published": "2018-03-28T00:00:00+00:00",
+      "author": {
+        "name": "Christoph Grabo (@asaaki)",
+        "url": "https://markentier.tech/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d4574214-e1ca-4fe8-858b-b5c9c64046ab",
+      "title": "Closures 101",
+      "content_text": "Closures are an interesting CS concept and one that will frequently come up in interviews. I know I've been asked, and have asked, questions about closures for frontend (Javascript) positions numerous times. And in all honesty they're a difficult concept to define, especially when you're under the scrutiny of an interviewer. In this post I'd like to show how Rust leverages the concept of closures and why they might be used. But first, we need to discuss the concept of scope because it is so important for the full understanding of closures.",
+      "url": "http://mttyng.com/closures-101/",
+      "date_published": "2018-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9f012379-d71a-4c45-b9db-12c4871070e7",
       "title": "Touring a Fast, Safe, and Complete(ish) Web Service in Rust",
       "content_text": "For years now, I’ve been having a crisis of faith in interpreted languages. They’re fast and fun to work in at small scale, but when you have a project that gets big, their attractive veneer quickly washes away. A big Ruby or JavaScript (just to name a few) program in production is a never ending game of whack-a-mock – you fix one problem only to find a new one somewhere else. No matter how many tests you write, or how well-disciplined your team, any new development is sure to introduce a stream of bugs that will need to be shored up over the course of months or years.\n\nCentral to the problem are the edges. People will reliably do a good job of building and testing the happy paths, but as humans we’re terrible at considering the edge conditions, and it’s those edges and corners that cause trouble over the years that a program is in service.",

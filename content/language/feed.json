@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "04fdf0c8-05ab-46f3-b72d-c7e88eb6dc9b",
+      "title": "Cargo got some new tricks, but is it still correct!?",
+      "content_text": "I have been working with @alexcrichton to improve the resolver in Cargo.",
+      "url": "https://www.reddit.com/r/rust/comments/87ss76/cargo_got_some_new_tricks_but_is_it_still_correct/",
+      "date_published": "2018-03-28T15:25:46+00:00",
+      "author": {
+        "name": "Eh2406",
+        "url": "https://www.reddit.com/user/Eh2406"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d4574214-e1ca-4fe8-858b-b5c9c64046ab",
+      "title": "Closures 101",
+      "content_text": "Closures are an interesting CS concept and one that will frequently come up in interviews. I know I've been asked, and have asked, questions about closures for frontend (Javascript) positions numerous times. And in all honesty they're a difficult concept to define, especially when you're under the scrutiny of an interviewer. In this post I'd like to show how Rust leverages the concept of closures and why they might be used. But first, we need to discuss the concept of scope because it is so important for the full understanding of closures.",
+      "url": "http://mttyng.com/closures-101/",
+      "date_published": "2018-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Matt",
+        "url": "http://mttyng.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "eef1f270-fb75-475a-b10c-8e3813990362",
       "title": "Atomics ☢ and memory ordering",
       "content_text": "Taming multiple threads is a mess. Not only many things can happen all at once, but what you wrote in the code isn’t exactly what happens in the CPU. To gain some more performance, the compiler cheats if it thinks nobody is watching. It can reorder instructions or throw some of them out if they look useless. The same happens in the hardware. Furthermore, there isn’t just one RAM, but each memory location can live in different caches at each time and some of them are private to each CPU. It would not make do to publish all the local changes to one’s cache right away.",
