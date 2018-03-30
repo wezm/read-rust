@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3052579c-dccc-46b8-8d93-bbecfa493992",
+      "title": "Speeding Up 'dwarfdump' With Rust",
+      "content_text": "Writing a debugger for C++ on Linux, you spend a lot of time examining pretty-printed DWARF debug information using tools like readelf, objdump or dwarfdump. Unfortunately this can be quite slow.\n\nI decided to try to speed dwarfdump up. TL;DR: I reduced the dump time from 506s to 26s by fixing some simple issues and taking advantage of Rust \"fearless parallelism\". I think there are interesting opportunities for speeding up many kinds of command-line tools using Rust and parallelism.",
+      "url": "https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html",
+      "date_published": "2018-03-29T14:44:00+13:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "07825eb3-aaab-46c5-b7e4-680857d73750",
       "title": "Rust + Node.js are awesome!",
       "content_text": "Blazing fast, low requirements, computationally intensive operations on Node.js using Rust",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "88175c1a-8150-45f5-a1d8-d390457b9fe2",
+      "title": "Announcing personal finance tool 'pfr'",
+      "content_text": "pfr is a command-line tool for helping me to manage my personal finances. At the end of each month, I like to sit down and “allocate” funds to cover my expenses for the following month. However, not all of my expenses occur monthly. For example, things like rent are paid weekly, and I think of money spent on food in terms of weeks, so I have to multiply those expenses by 4 (ish). I also have to figure out how much money to put in each account, e.g on my EFTPOS (direct-debit) card or for automatic payments. It’s not hard, but then again, that’s why we write programs.",
+      "url": "https://kyusscaesar.wordpress.com/2018/03/29/announcing-pfr/",
+      "date_published": "2018-03-29T10:10:34+00:00",
+      "author": {
+        "name": "Antony Southworth",
+        "url": "https://kyusscaesar.wordpress.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "1054cc8a-cbdd-4073-b7f9-2801aaad6fd6",
       "title": "Introducing Click: The Command Line Interactive Controller for Kubernetes",
       "content_text": "Click is an open-source tool that lets you quickly and easily run commands against Kubernetes resources, without copy/pasting all the time, and that easily integrates into your existing command line workflows. This blog introduces its its usage and merits.",

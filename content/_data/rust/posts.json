@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "88175c1a-8150-45f5-a1d8-d390457b9fe2",
+      "title": "Announcing personal finance tool 'pfr'",
+      "content_text": "pfr is a command-line tool for helping me to manage my personal finances. At the end of each month, I like to sit down and “allocate” funds to cover my expenses for the following month. However, not all of my expenses occur monthly. For example, things like rent are paid weekly, and I think of money spent on food in terms of weeks, so I have to multiply those expenses by 4 (ish). I also have to figure out how much money to put in each account, e.g on my EFTPOS (direct-debit) card or for automatic payments. It’s not hard, but then again, that’s why we write programs.",
+      "url": "https://kyusscaesar.wordpress.com/2018/03/29/announcing-pfr/",
+      "date_published": "2018-03-29T10:10:34+00:00",
+      "author": {
+        "name": "Antony Southworth",
+        "url": "https://kyusscaesar.wordpress.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "dc304d16-2ec3-45b1-833b-a9536c1a7d95",
+      "title": "Memory Safety and Lifetimes in Rust",
+      "content_text": "A program is memory-safe if in any possible execution of the program , all expressions e in the program that refer to an object of type T resolve to an object of type T that has been initialized and not yet deallocated.\n\nThere are different ways to guarantee memory safety for all programs. One is to restrict the programming language and disallow pointers. But, this forces most programs to make unnecessary copies of data. Another strategy, called garbage collection, embeds a garbage collector with every program. The garbage collector periodically looks for objects in memory that cannot be accessed from the program and reclaims this memory. The drawbacks of this are the overhead of garbage collection and that deallocation of memory is no longer under the control of the programmer.",
+      "url": "https://balu.github.io/lifetimes.html",
+      "date_published": "2018-02-26T18:52:22+00:00",
+      "author": {
+        "name": "Balagopal Komarath",
+        "url": "https://balu.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3052579c-dccc-46b8-8d93-bbecfa493992",
+      "title": "Speeding Up 'dwarfdump' With Rust",
+      "content_text": "Writing a debugger for C++ on Linux, you spend a lot of time examining pretty-printed DWARF debug information using tools like readelf, objdump or dwarfdump. Unfortunately this can be quite slow.\n\nI decided to try to speed dwarfdump up. TL;DR: I reduced the dump time from 506s to 26s by fixing some simple issues and taking advantage of Rust \"fearless parallelism\". I think there are interesting opportunities for speeding up many kinds of command-line tools using Rust and parallelism.",
+      "url": "https://robert.ocallahan.org/2018/03/speeding-up-dwarfdump-with-rust.html",
+      "date_published": "2018-03-29T14:44:00+13:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "2cadbd86-48ec-4fab-95bb-5959818d5747",
+      "title": "Announcing Rust 1.25",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.25.0. The last few releases have been relatively minor, but Rust 1.25 contains a bunch of stuff!",
+      "url": "https://blog.rust-lang.org/2018/03/29/Rust-1.25.html",
+      "date_published": "2018-03-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "04fdf0c8-05ab-46f3-b72d-c7e88eb6dc9b",
       "title": "Cargo got some new tricks, but is it still correct!?",
       "content_text": "I have been working with @alexcrichton to improve the resolver in Cargo.",
