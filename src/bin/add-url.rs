@@ -181,10 +181,14 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
         let body = response.text().map_err(Error::Reqwest).expect("read error");
         serde_json::from_str(&body).ok().map(Feed::Json)
     } else if content_type.contains("atom") || *type_hint == FeedType::Atom {
-        atom::Feed::read_from(BufReader::new(response)).ok().map(Feed::Atom)
+        atom::Feed::read_from(BufReader::new(response))
+            .ok()
+            .map(Feed::Atom)
     } else {
         // Try RSS
-        rss::Channel::read_from(BufReader::new(response)).ok().map(Feed::Rss)
+        rss::Channel::read_from(BufReader::new(response))
+            .ok()
+            .map(Feed::Rss)
     };
 
     // println!("Using: {}", url);
@@ -205,10 +209,9 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
         Feed::Atom(ref feed) => feed.entries()
             .iter()
             .find(|&entry| {
-                entry
-                    .links()
-                    .iter()
-                    .any(|link| link.href() == post_url.as_str() || link.href() == alternate_url.as_str())
+                entry.links().iter().any(|link| {
+                    link.href() == post_url.as_str() || link.href() == alternate_url.as_str()
+                })
             })
             .map(PostInfo::from),
         Feed::Json(ref feed) => feed.items
@@ -217,7 +220,10 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
             .map(PostInfo::from),
         Feed::Rss(ref feed) => feed.items()
             .iter()
-            .find(|&item| item.link() == Some(post_url.as_str()) || item.link() == Some(alternate_url.as_str()))
+            .find(|&item| {
+                item.link() == Some(post_url.as_str())
+                    || item.link() == Some(alternate_url.as_str())
+            })
             .map(PostInfo::from),
     };
 

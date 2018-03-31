@@ -1,7 +1,7 @@
 extern crate reqwest;
 use serde_json;
-extern crate rss;
 extern crate mammut;
+extern crate rss;
 
 use std::io;
 

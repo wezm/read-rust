@@ -1,6 +1,6 @@
 extern crate getopts;
-extern crate read_rust;
 extern crate mammut;
+extern crate read_rust;
 extern crate serde;
 #[macro_use]
 extern crate serde_derive;
@@ -64,7 +64,7 @@ fn connect_to_mastodon() -> Result<Mastodon, Error> {
         Ok(file) => {
             let data: Data = serde_json::from_reader(file).map_err(Error::JsonError)?;
             Ok(Mastodon::from_data(data))
-        },
+        }
         Err(_) => register(),
     }
 }
@@ -88,7 +88,9 @@ fn register() -> Result<Mastodon, Error> {
     let _ = io::stdin().read_line(&mut input).map_err(Error::Io)?;
 
     let code = input.trim();
-    let mastodon = registration.create_access_token(code.to_string()).map_err(Error::Mastodon)?;
+    let mastodon = registration
+        .create_access_token(code.to_string())
+        .map_err(Error::Mastodon)?;
 
     // Save app data for using on the next run.
     let file = File::create(MASTODON_DATA_FILE).expect("Unable to create mastodon data file");
@@ -105,7 +107,12 @@ fn toot_text_from_item(item: &Item) -> String {
     //     .collect::<Vec<String>>()
     //     .join(" ");
 
-    format!("{title} by {author}: {url} #Rust", title = item.title, author = item.author.name, url = item.url)
+    format!(
+        "{title} by {author}: {url} #Rust",
+        title = item.title,
+        author = item.author.name,
+        url = item.url
+    )
 }
 
 fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), Error> {
@@ -113,7 +120,10 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
     let mut tootlist = TootList::load(&tootlist_path)?;
     let feed = JsonFeed::load(Path::new(json_feed_path))?;
 
-    let to_toot: Vec<Item> = feed.items.into_iter().filter(|item| !tootlist.contains(&item.id)).collect();
+    let to_toot: Vec<Item> = feed.items
+        .into_iter()
+        .filter(|item| !tootlist.contains(&item.id))
+        .collect();
 
     if to_toot.is_empty() {
         println!("Nothing to toot!");
@@ -125,15 +135,16 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
         let status_text = toot_text_from_item(&item);
         println!("• {}", status_text);
         if !dry_run {
-            let _toot = mastodon.new_status(StatusBuilder::new(status_text)).map_err(Error::Mastodon)?;
+            let _toot = mastodon
+                .new_status(StatusBuilder::new(status_text))
+                .map_err(Error::Mastodon)?;
         }
         tootlist.add_item(Toot { item_id: item.id });
     }
 
     if dry_run {
         Ok(())
-    }
-    else {
+    } else {
         tootlist.save(&tootlist_path)
     }
 }
