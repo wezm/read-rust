@@ -1,5 +1,6 @@
 all: feeds
 	cobalt build
+	cargo run --release --bin toot -- -n content/_data/tooted.json content/_data/rust/posts.json
 
 feeds:
 	cargo build --release --bin generate-rss
@@ -19,3 +20,5 @@ feeds:
 
 deploy: all
 	aws s3 sync --delete --cache-control 'max-age=120, public' public s3://readrust.net
+	cargo run --release --bin toot -- content/_data/tooted.json content/_data/rust/posts.json
+
