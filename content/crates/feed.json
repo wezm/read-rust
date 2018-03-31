@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "effc3ea9-0e61-4b47-ad1b-20782addb1bd",
+      "title": "Analysing crates.io data",
+      "content_text": "I am learning Clojure for the past one year and I thought making open source contributions is a great way to interact with the community. I made a post previously on using Clojars metadata to analyse JDK 9 and Clojure 1.9 issues that helped me file issues to ensure compatibility. I used the same method here to find the modules that were broken on a nightly version of a rustc due to a recent stabilisation.",
+      "url": "https://tirkarthi.github.io/rust/2018/03/30/analyzing-crates-data.html",
+      "date_published": "2018-03-30T18:30:29+00:00",
+      "author": {
+        "name": "Karthikeyan",
+        "url": "https://tirkarthi.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "cca40bed-4eaf-46c6-ae72-1e49ed3ef2ad",
+      "title": "New Timer implementation in Tokio",
+      "content_text": "To close out a great week, there is a new release of Tokio. This release includes a brand new timer implementation.",
+      "url": "https://tokio.rs/blog/2018-03-timers/",
+      "date_published": "2018-03-30T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "fd8646cf-2689-4bd8-b065-4708388250d2",
       "title": "Announcing the Tokio runtime",
       "content_text": "I’m happy to announce a new release of Tokio. This release includes the first iteration of the Tokio Runtime.",

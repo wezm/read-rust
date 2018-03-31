@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "5941ab41-5269-4401-9978-f6f389922443",
+      "title": "Rust: First impressions from a C++ developer",
+      "content_text": "I started learning Rust 2 weeks back (yay!!) whenever I got free time. And all the time that I spent  learning it has been worthwhile. This is not going to be a deep technical post, but just my impressions about Rust from where I come from (C++).",
+      "url": "http://templated-thoughts.blogspot.com.au/2018/03/rust-first-impressions-from-c-developer.html",
+      "date_published": "2018-03-31T00:43:00-07:00",
+      "author": {
+        "name": "Arun Muralidharan",
+        "url": "http://templated-thoughts.blogspot.com.au/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "effc3ea9-0e61-4b47-ad1b-20782addb1bd",
+      "title": "Analysing crates.io data",
+      "content_text": "I am learning Clojure for the past one year and I thought making open source contributions is a great way to interact with the community. I made a post previously on using Clojars metadata to analyse JDK 9 and Clojure 1.9 issues that helped me file issues to ensure compatibility. I used the same method here to find the modules that were broken on a nightly version of a rustc due to a recent stabilisation.",
+      "url": "https://tirkarthi.github.io/rust/2018/03/30/analyzing-crates-data.html",
+      "date_published": "2018-03-30T18:30:29+00:00",
+      "author": {
+        "name": "Karthikeyan",
+        "url": "https://tirkarthi.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "980f0166-c073-42bc-a1df-7dab36421e10",
+      "title": "You can't Rust that",
+      "content_text": "The last year has been fun because I could build a lot for really nice stuff for Sentry in Rust and for the first time the development experience was without bigger roadblocks. While we have been using Rust before it now feels different because the ecosystem is so much more stable and we ran less against language or tooling issues.\n\nHowever talking to people new to Rust (and even brainstorming APIs with coworkers) it's hard to get rid of the feeling that Rust can be a mind bending adventure and that the best way to have a stress free experience is knowing upfront what you cannot (or should not attempt to) do. Knowing that certain things just cannot be done helps putting your mind back back on the right track.\n\nSo here are things not to do in Rust and what to do instead which I think should be better known.",
+      "url": "http://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/",
+      "date_published": "2018-03-31T00:00:00+00:00",
+      "author": {
+        "name": "Armin Ronacher",
+        "url": "http://lucumr.pocoo.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e5d47646-8715-43d3-a39b-23115255a1fe",
+      "title": "Taking the long road (Part 1): bindings for a vector similarity search library",
+      "content_text": "Perhaps you have once wondered how search engines such as Google and TinEye enable their users to search for images which are similar to one that you provide, or how they can identify a building from nothing but a picture. Content-based image retrieval (CBIR) is the backbone concept, and provides exciting new ways to search for useful information. While the concept is no longer novel, the requirements imposed on systems for CBIR are ever increasing due to the increasingly larger amounts of data and demand for higher quality of retrieval.",
+      "url": "https://medium.com/@e_net4/taking-the-long-road-part-1-97e6e41f6b05",
+      "date_published": "2018-03-31T15:45:00.113+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://medium.com/@e_net4"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "79ebe691-fe8b-46ea-806c-996919b730ca",
+      "title": "I've just learned Rust and I think I'm in love",
+      "content_text": "I’ve decided to learn some Rust recently while working on the Stanford’s experimental course on operating systems. Here’s a list of things that I think are great about it.",
+      "url": "https://rskupnik.github.io/I-learned-rust-and-I-think-Im-in-love",
+      "date_published": "2018-03-30T00:00:00+00:00",
+      "author": {
+        "name": "Radosław Skupnik",
+        "url": "https://rskupnik.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a0c4c01-2597-4688-ac99-2726bb1a3505",
+      "title": "Thoughts on Rust, a few thousand lines in",
+      "content_text": "To say my first foray into Rust was a frustrating struggle would be an understatement. I picked a terrible first project that left me neck deep in Rust’s trickiest areas right off the bat. I was excited to try again. A few years ago I wrote Sumoshell, a CLI App for log analysis. I’d wanted to improve it for a while, so porting it to Rust seemed like a nice way to kill two birds with one stone.",
+      "url": "https://rcoh.me/posts/things-learned-first-thousand-lines-of-rust/",
+      "date_published": "2018-03-24T12:56:00-07:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://rcoh.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fe337d8c-3b02-4742-bfd0-59ac89d4234f",
+      "title": "A geometric Rust adventure",
+      "content_text": "The short version is: I have some shapes. I want to find their intersection.\n\nReally, I want more than that: I want to drop them all on a canvas, intersect everything with everything, and pluck out all the resulting polygons. The input is a set of cookie cutters, and I want to press them all down on the same sheet of dough and figure out what all the resulting contiguous pieces are. And I want to know which cookie cutter(s) each piece came from.\n\nBut intersection is a good start.",
+      "url": "https://eev.ee/blog/2018/03/30/a-geometric-rust-adventure/",
+      "date_published": "2018-03-30T17:17:00-07:00",
+      "author": {
+        "name": "Eevee",
+        "url": "https://eev.ee/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "cca40bed-4eaf-46c6-ae72-1e49ed3ef2ad",
+      "title": "New Timer implementation in Tokio",
+      "content_text": "To close out a great week, there is a new release of Tokio. This release includes a brand new timer implementation.",
+      "url": "https://tokio.rs/blog/2018-03-timers/",
+      "date_published": "2018-03-30T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "88175c1a-8150-45f5-a1d8-d390457b9fe2",
       "title": "Announcing personal finance tool 'pfr'",
       "content_text": "pfr is a command-line tool for helping me to manage my personal finances. At the end of each month, I like to sit down and “allocate” funds to cover my expenses for the following month. However, not all of my expenses occur monthly. For example, things like rent are paid weekly, and I think of money spent on food in terms of weeks, so I have to multiply those expenses by 4 (ish). I also have to figure out how much money to put in each account, e.g on my EFTPOS (direct-debit) card or for automatic payments. It’s not hard, but then again, that’s why we write programs.",

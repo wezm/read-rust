@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "5941ab41-5269-4401-9978-f6f389922443",
+      "title": "Rust: First impressions from a C++ developer",
+      "content_text": "I started learning Rust 2 weeks back (yay!!) whenever I got free time. And all the time that I spent  learning it has been worthwhile. This is not going to be a deep technical post, but just my impressions about Rust from where I come from (C++).",
+      "url": "http://templated-thoughts.blogspot.com.au/2018/03/rust-first-impressions-from-c-developer.html",
+      "date_published": "2018-03-31T00:43:00-07:00",
+      "author": {
+        "name": "Arun Muralidharan",
+        "url": "http://templated-thoughts.blogspot.com.au/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "980f0166-c073-42bc-a1df-7dab36421e10",
+      "title": "You can't Rust that",
+      "content_text": "The last year has been fun because I could build a lot for really nice stuff for Sentry in Rust and for the first time the development experience was without bigger roadblocks. While we have been using Rust before it now feels different because the ecosystem is so much more stable and we ran less against language or tooling issues.\n\nHowever talking to people new to Rust (and even brainstorming APIs with coworkers) it's hard to get rid of the feeling that Rust can be a mind bending adventure and that the best way to have a stress free experience is knowing upfront what you cannot (or should not attempt to) do. Knowing that certain things just cannot be done helps putting your mind back back on the right track.\n\nSo here are things not to do in Rust and what to do instead which I think should be better known.",
+      "url": "http://lucumr.pocoo.org/2018/3/31/you-cant-rust-that/",
+      "date_published": "2018-03-31T00:00:00+00:00",
+      "author": {
+        "name": "Armin Ronacher",
+        "url": "http://lucumr.pocoo.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "79ebe691-fe8b-46ea-806c-996919b730ca",
+      "title": "I've just learned Rust and I think I'm in love",
+      "content_text": "I’ve decided to learn some Rust recently while working on the Stanford’s experimental course on operating systems. Here’s a list of things that I think are great about it.",
+      "url": "https://rskupnik.github.io/I-learned-rust-and-I-think-Im-in-love",
+      "date_published": "2018-03-30T00:00:00+00:00",
+      "author": {
+        "name": "Radosław Skupnik",
+        "url": "https://rskupnik.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a0c4c01-2597-4688-ac99-2726bb1a3505",
+      "title": "Thoughts on Rust, a few thousand lines in",
+      "content_text": "To say my first foray into Rust was a frustrating struggle would be an understatement. I picked a terrible first project that left me neck deep in Rust’s trickiest areas right off the bat. I was excited to try again. A few years ago I wrote Sumoshell, a CLI App for log analysis. I’d wanted to improve it for a while, so porting it to Rust seemed like a nice way to kill two birds with one stone.",
+      "url": "https://rcoh.me/posts/things-learned-first-thousand-lines-of-rust/",
+      "date_published": "2018-03-24T12:56:00-07:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://rcoh.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "dc304d16-2ec3-45b1-833b-a9536c1a7d95",
       "title": "Memory Safety and Lifetimes in Rust",
       "content_text": "A program is memory-safe if in any possible execution of the program , all expressions e in the program that refer to an object of type T resolve to an object of type T that has been initialized and not yet deallocated.\n\nThere are different ways to guarantee memory safety for all programs. One is to restrict the programming language and disallow pointers. But, this forces most programs to make unnecessary copies of data. Another strategy, called garbage collection, embeds a garbage collector with every program. The garbage collector periodically looks for objects in memory that cannot be accessed from the program and reclaims this memory. The drawbacks of this are the overhead of garbage collection and that deallocation of memory is no longer under the control of the programmer.",
