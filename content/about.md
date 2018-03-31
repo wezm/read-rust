@@ -4,7 +4,8 @@ layout: default.liquid
 
 Read Rust collects interesting posts related to the [Rust programming
 language][rust-lang]. It is run by [Wesley Moore][wezm] with contributions
-from the Rust community. You can [follow me on Twitter][@wezm] or [Mastodon].
+from the Rust community. You can [follow me on Twitter][@wezm] or
+[Mastodon][@wezm@mastodon].
 
 Read Rust is an open source project. The [source code][source] and [issue
 tracker][issues] are hosted on GitHub.
@@ -33,13 +34,14 @@ readers](/faq.html#subscribe)) and JSON:
 Read Rust also has social media accounts, which automatically post each newly
 added post:
 
+* [Mastodon]
 * [Twitter]
 * [Facebook]
 
 ## Credits
 
 * JSON Feed icon: <https://jsonfeed.org/version/1>
-* Facebook, RSS, Twitter icons: [Super Tiny Icons]
+* Facebook, Mastodon, RSS, Twitter icons: [Super Tiny Icons]
 * favicon: “[Book][favicon]” by Mike Rowe, from [the Noun Project]
 
 [favicon]: https://thenounproject.com/term/book/17900
@@ -50,7 +52,8 @@ added post:
 [@wezm]: https://twitter.com/wezm
 [Twitter]: https://twitter.com/read_rust
 [OPML]: https://en.wikipedia.org/wiki/OPML
-[Mastodon]: https://mastodon.social/@wezm
+[@wezm@mastodon]: https://mastodon.social/@wezm
+[Mastodon]: https://botsin.space/@readrust
 [the Noun Project]: http://thenounproject.com/
 [Facebook]: https://www.facebook.com/readrust/
 [Super Tiny Icons]: https://github.com/edent/SuperTinyIcons

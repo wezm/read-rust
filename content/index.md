@@ -5,8 +5,8 @@ layout: default.liquid
 Read Rust collects interesting posts related to the [Rust
 programming&nbsp;language][rust-lang].
 
-[Subscribe to a feed][feeds], or follow Read Rust on [Twitter] or [Facebook]
-to receive new posts as they're added.
+[Subscribe to a feed][feeds], or follow Read Rust on [Twitter], [Mastodon] or
+[Facebook] to receive new posts as they're added.
 
 ## Sections
 
@@ -53,3 +53,4 @@ New posts are added to one or more of the following sections:
 [RSS]: http://localhost:3000/all/feed.rss
 [Twitter]: https://twitter.com/read_rust
 [Facebook]: https://www.facebook.com/readrust/
+[Mastodon]: https://botsin.space/@readrust
