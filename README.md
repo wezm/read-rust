@@ -24,7 +24,7 @@ them. The tools themselves are:
 * `add-url` add a new entry to `feed.json`.
 * `generate-rss` generates `feed.rss`, and the cobalt data from `feed.json`.
 
-Running `make` will build the tools and gererate the site content.
+Running `make` will build the tools and generate the site content.
 
 [self]: https://readrust.net/
 [contributing]: https://github.com/wezm/read-rust/blob/master/.github/contributing.md

@@ -1,4 +1,4 @@
 /public
-
+.mastodon-data.json
 /target/
 **/*.rs.bk

@@ -9,6 +9,7 @@ chrono = { version = "0.4.0", features = ['serde'] }
 feedfinder = { git = "https://github.com/wezm/feedfinder.git" }
 getopts = "0.2"
 kuchiki = "0.6"
+mammut = "0.10"
 opengraph = "0.1"
 reqwest = "0.8"
 rss = "1.2"
