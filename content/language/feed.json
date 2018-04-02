@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "680e9488-98e3-4a44-b462-761cf817ca10",
+      "title": "Why We're Betting on Rust",
+      "content_text": "Considering how the state of our art is ever changing, I re-evaluate which tools belong in my box of gizmos each year as well. In the past, I’ve employed nginx as a high-performance cache and proxy, but it has been largely edged out by Envoy, which touts a hybrid non-blocking event model and has become wildly successful after being released in 2016. That very same principle, event-driven I/O, is the same reason I chose Node.js for most of the APIs I’ve developed since 2011. Even if practices change, we retain successful engineering models.\n\nBeginning late last year, as I sketched our founding mission and initial product offerings, I also decided to select a new primary language that could handle most of our primary development tasks. After writing mostly JavaScript and compile-to-JS languages for half a decade, I longed for something more.",
+      "url": "https://www.uptime.ventures/blog/2018/04/why-were-betting-on-rust/",
+      "date_published": "2018-04-02T00:00:00+00:00",
+      "author": {
+        "name": "Nicholas Young",
+        "url": "https://www.uptime.ventures/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d14f3e75-4047-441e-a67b-fc0de042845a",
+      "title": "Removing Connection State In mob",
+      "content_text": "I started writing mob, an multi-echo server using mio, in 2015. I coded mob into a mostly working state and then left it mostly alone, only updating it to work with the latest stable mio. Recently, I started looking at the code again and had the urge to improve it. In a previous post, I talked about managing the state of connections in mob. In this post, I will walk through what I did to remove the need to track connection state. I wanted to remove the state because the implementation required an O(n) operation every tick of the mio event loop. It also added a fair amount of complexity to the code.",
+      "url": "http://hermanradtke.com/2018/03/29/removing-connection-state-from-mob.html",
+      "date_published": "2018-03-29T00:00:00+00:00",
+      "author": {
+        "name": "Herman J. Radtke III",
+        "url": "http://hermanradtke.com/"
+      },
+      "tags": [
+        "Language",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "dac3ce68-bfe5-4774-8b89-fb4351d53445",
+      "title": "Reliable Systems Series: Model-Based Testing",
+      "content_text": "This is the first article in a series on techniques I’ve found useful for making my projects more reliable. These techniques are used in the distributed systems, database, automotive, embedded, and aerospace fields, but if you build services, user interfaces, or generally anything stateful, I think you will find something useful along the way.",
+      "url": "https://medium.com/@tylerneely/reliable-systems-series-model-based-property-testing-e89a433b360",
+      "date_published": "2018-03-28T12:52:27.284+00:00",
+      "author": {
+        "name": "Tyler Neely",
+        "url": "https://medium.com/@tylerneely"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5941ab41-5269-4401-9978-f6f389922443",
       "title": "Rust: First impressions from a C++ developer",
       "content_text": "I started learning Rust 2 weeks back (yay!!) whenever I got free time. And all the time that I spent  learning it has been worthwhile. This is not going to be a deep technical post, but just my impressions about Rust from where I come from (C++).",

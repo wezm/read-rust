@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5e66cfa3-c153-40ab-8cad-cb8aaf01d178",
+      "title": "Getting started with Rust: Enum on steroids!",
+      "content_text": "Hello everyone! Today subject was hard to decide on. But as the previous one was pretty tedious, I decided to go a subject more easy to speak of. So, today we are going to talk about enum in Rust!",
+      "url": "https://www.mathieu-nivoliez.com/posts/2018-04-01-getting-started-with-rust-enum-on-steroids.html",
+      "date_published": "2018-04-01T00:00:00+00:00",
+      "author": {
+        "name": "Mathieu Nivoliez",
+        "url": "https://www.mathieu-nivoliez.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "a15836bc-6eaf-46c9-8fe8-70bd2fada61e",
       "title": "The tower of hanoi in Rust",
       "content_text": "The tower of hanoi algorithm is practice for recursive function.",

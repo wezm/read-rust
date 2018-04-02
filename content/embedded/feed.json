@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6419c6a3-a47d-4ce5-93ef-11f17be5eecd",
+      "title": "Building Tiny Rust Binaries for Embedded Linux",
+      "content_text": "At the recent 2018 Rust All Hands, I met up with Katharina @spacekookie, who works on an open source project that creates software for Embedded Linux Devices. She had talked with the other engineers on the project about including some Rust components, however with their limited flash storage space (8MB for the whole firmware, including operating system and all other software), she was worried that the Rust binaries wouldn’t fit. The current webserver component for their project was measured in the 100’s of KB, while the Rust binary she produced was already multiple MBs, even with a --release build!",
+      "url": "https://jamesmunns.com/update/2018/04/01/tinyrocket.html",
+      "date_published": "2018-04-01T09:30:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://jamesmunns.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "2f7b942d-1a59-40bc-bc92-a1e2e85803ee",
+      "title": "Weekly Driver: Using the SGP30 Gas Sensor from Rust",
+      "content_text": "After the MCP3425 ADC driver I published last month as part of the the weekly driver initiative, I wrote a second Rust embedded-hal driver, this time for the SGP30. The Sensirion SGP30 is a tiny low-power gas sensor (produced in Switzerland) for indoor air quality applications with good long-term stability. It has an I²C interface with TVOC (Total Volatile Organic Compounds) and CO₂ equivalent signals.",
+      "url": "https://blog.dbrgn.ch/2018/4/1/rust-sgp30-driver/",
+      "date_published": "2018-04-01T00:00:00+02:00",
+      "author": {
+        "name": "Danilo Bargen",
+        "url": "https://blog.dbrgn.ch/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "348de5bf-0fa7-48d1-b112-20cd13cfd3f3",
       "title": "Writing A Driver in Rust Using Embedded-Hal Traits for the RN4870 BLE Module",
       "content_text": "This post will document my process and thoughts on writing a driver for a bluetooth module using Rust and the embedded-hal crate. The specific bluetooth device I will be using is the RN4870 BLE castellated module. It features a simple UART interface and handles most of the complexities of BLE itself, making it very easy to get a simple BLE connection up and running.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "d14f3e75-4047-441e-a67b-fc0de042845a",
+      "title": "Removing Connection State In mob",
+      "content_text": "I started writing mob, an multi-echo server using mio, in 2015. I coded mob into a mostly working state and then left it mostly alone, only updating it to work with the latest stable mio. Recently, I started looking at the code again and had the urge to improve it. In a previous post, I talked about managing the state of connections in mob. In this post, I will walk through what I did to remove the need to track connection state. I wanted to remove the state because the implementation required an O(n) operation every tick of the mio event loop. It also added a fair amount of complexity to the code.",
+      "url": "http://hermanradtke.com/2018/03/29/removing-connection-state-from-mob.html",
+      "date_published": "2018-03-29T00:00:00+00:00",
+      "author": {
+        "name": "Herman J. Radtke III",
+        "url": "http://hermanradtke.com/"
+      },
+      "tags": [
+        "Language",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "07825eb3-aaab-46c5-b7e4-680857d73750",
       "title": "Rust + Node.js are awesome!",
       "content_text": "Blazing fast, low requirements, computationally intensive operations on Node.js using Rust",
