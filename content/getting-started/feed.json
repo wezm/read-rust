@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cf92e0a9-88ac-4fa8-9ecd-d61078868f26",
+      "title": "A Gentle Introduction to Rust (book)",
+      "content_text": "Introduction to the Rust language, standard library and ecosystem",
+      "url": "http://stevedonovan.github.io/rust-gentle-intro/",
+      "date_published": "2018-04-05T07:00:00+10:00",
+      "author": {
+        "name": "Steve J Donovan",
+        "url": "https://github.com/stevedonovan"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5e66cfa3-c153-40ab-8cad-cb8aaf01d178",
       "title": "Getting started with Rust: Enum on steroids!",
       "content_text": "Hello everyone! Today subject was hard to decide on. But as the previous one was pretty tedious, I decided to go a subject more easy to speak of. So, today we are going to talk about enum in Rust!",

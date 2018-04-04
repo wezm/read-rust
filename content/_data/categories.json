@@ -1,4 +1,5 @@
 [
+  { "name": "Community", "path": "/community/", "description": "Initiatives in the Rust community." },
   { "name": "Computer Science", "path": "/computer-science/", "description": "Covering data structures, algorithms, memory safety, etc." },
   { "name": "Crates", "path": "/crates/", "description": "Notable new or updated crates." },
   { "name": "DevOps and Deployment", "path": "/devops-and-deployment/", "description": "Building and deploying Rust, containerisation, continuous integration, etc." },

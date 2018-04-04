@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0dd3a72c-b43f-449a-92f3-fd25f164d224",
+      "title": "Corner Cutting vs. Productivity",
+      "content_text": "I recently got into a discussion with another very knowledgeable Rustacean, who (I paraphrase) claimed that Rust is about adding just enough roadblocks to keep you from cutting corners. This is a nice metaphor because it explains a lot: Rust may feel more cumbersome, because it won’t let you cut corners. On the other hand, once it compiles, many classes of errors will already have been taken care of, so your code will usually work as expected (or if you’re new to Rust, unexpectedly well).",
+      "url": "https://llogiq.github.io/2018/04/03/corners.html",
+      "date_published": "2018-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "680e9488-98e3-4a44-b462-761cf817ca10",
       "title": "Why We're Betting on Rust",
       "content_text": "Considering how the state of our art is ever changing, I re-evaluate which tools belong in my box of gizmos each year as well. In the past, I’ve employed nginx as a high-performance cache and proxy, but it has been largely edged out by Envoy, which touts a hybrid non-blocking event model and has become wildly successful after being released in 2016. That very same principle, event-driven I/O, is the same reason I chose Node.js for most of the APIs I’ve developed since 2011. Even if practices change, we retain successful engineering models.\n\nBeginning late last year, as I sketched our founding mission and initial product offerings, I also decided to select a new primary language that could handle most of our primary development tasks. After writing mostly JavaScript and compile-to-JS languages for half a decade, I longed for something more.",

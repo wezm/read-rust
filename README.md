@@ -26,6 +26,14 @@ them. The tools themselves are:
 
 Running `make` will build the tools and generate the site content.
 
+## Notes
+
+### Adding a New Category
+
+1. Add an entry to `content/_data/categories.json`
+2. Add a new content directory and index file for the category. E.g. `content/category/index.md`.
+3. Add the new category to the `Makefile`
+
 [self]: https://readrust.net/
 [contributing]: https://github.com/wezm/read-rust/blob/master/.github/contributing.md
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html

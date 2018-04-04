@@ -2,7 +2,7 @@ title: Community
 layout: default.liquid
 ---
 
-Community
+Initiatives in the Rust community.
 
 <h2>
   Posts

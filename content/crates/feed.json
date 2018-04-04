@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "0cb16bc7-daff-4747-81e5-d4455d33fc43",
+      "title": "HTTP upgrades with hyper",
+      "content_text": "The newest release of hyper includes some lower-level connection APIs for both the server and client. Notably, this allows using hyper send and receive HTTP upgrade requests. The most popular of these is Websockets.",
+      "url": "http://seanmonstar.com/post/172531530657/http-upgrades-with-hyper",
+      "date_published": "2018-04-02T14:34:53-07:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "effc3ea9-0e61-4b47-ad1b-20782addb1bd",
       "title": "Analysing crates.io data",
       "content_text": "I am learning Clojure for the past one year and I thought making open source contributions is a great way to interact with the community. I made a post previously on using Clojars metadata to analyse JDK 9 and Clojure 1.9 issues that helped me file issues to ensure compatibility. I used the same method here to find the modules that were broken on a nightly version of a rustc due to a recent stabilisation.",

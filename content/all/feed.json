@@ -10,6 +10,91 @@
   },
   "items": [
     {
+      "id": "0cb16bc7-daff-4747-81e5-d4455d33fc43",
+      "title": "HTTP upgrades with hyper",
+      "content_text": "The newest release of hyper includes some lower-level connection APIs for both the server and client. Notably, this allows using hyper send and receive HTTP upgrade requests. The most popular of these is Websockets.",
+      "url": "http://seanmonstar.com/post/172531530657/http-upgrades-with-hyper",
+      "date_published": "2018-04-02T14:34:53-07:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
+      "id": "0dd3a72c-b43f-449a-92f3-fd25f164d224",
+      "title": "Corner Cutting vs. Productivity",
+      "content_text": "I recently got into a discussion with another very knowledgeable Rustacean, who (I paraphrase) claimed that Rust is about adding just enough roadblocks to keep you from cutting corners. This is a nice metaphor because it explains a lot: Rust may feel more cumbersome, because it won’t let you cut corners. On the other hand, once it compiles, many classes of errors will already have been taken care of, so your code will usually work as expected (or if you’re new to Rust, unexpectedly well).",
+      "url": "https://llogiq.github.io/2018/04/03/corners.html",
+      "date_published": "2018-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "229aab36-08f5-4288-a9df-c804ad6c2b56",
+      "title": "Using Rust Modules in JavaScript/Web Development (Part 1 / 3) [Plain JS]",
+      "content_text": "One of the promising reasons I started learning rust is that it can be used to build modules for web using web-assembly. This blog post will cover how you can build a rust module and use it as regular package in the JavaScript environment. Remember rust is not meant to replace JS. I see it as complementary add-on to the places where JS is comparatively slower (heavy computations).",
+      "url": "https://medium.com/@atulanand94/using-rust-modules-for-javascript-web-development-part-i-e6dec27df7b2",
+      "date_published": "2018-04-03T06:22:23.753+00:00",
+      "author": {
+        "name": "Atul",
+        "url": "https://medium.com/@atulanand94"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b525113d-ce0a-4c11-b4d1-553eb3fef88d",
+      "title": "Increasing Rust’s Reach 2018",
+      "content_text": "The Rust team is happy to announce that we’re running our Increasing Rust’s Reach program again this year. Increasing Rust’s Reach is one of several programs run by the project to grow Rust’s community of project collaborators and leaders.",
+      "url": "https://blog.rust-lang.org/2018/04/02/Increasing-Rusts-Reach-2018.html",
+      "date_published": "2018-04-02T00:00:00+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "cf92e0a9-88ac-4fa8-9ecd-d61078868f26",
+      "title": "A Gentle Introduction to Rust (book)",
+      "content_text": "Introduction to the Rust language, standard library and ecosystem",
+      "url": "http://stevedonovan.github.io/rust-gentle-intro/",
+      "date_published": "2018-04-05T07:00:00+10:00",
+      "author": {
+        "name": "Steve J Donovan",
+        "url": "https://github.com/stevedonovan"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "d110dc0e-7a78-42c3-8326-5b5ec58f8875",
+      "title": "JavaScript to Rust and Back Again: A wasm-bindgen Tale",
+      "content_text": "Recently we’ve seen how WebAssembly is incredibly fast to compile, speeding up JS libraries, and generating even smaller binaries. We’ve even got a high-level plan for better interoperability between the Rust and JavaScript communities, as well as other web programming languages. As alluded to in that previous post, I’d like to dive into more detail about a specific component, wasm-bindgen.",
+      "url": "https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/",
+      "date_published": "2018-04-04T14:58:40+00:00",
+      "author": {
+        "name": " Alex Crichton",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "6419c6a3-a47d-4ce5-93ef-11f17be5eecd",
       "title": "Building Tiny Rust Binaries for Embedded Linux",
       "content_text": "At the recent 2018 Rust All Hands, I met up with Katharina @spacekookie, who works on an open source project that creates software for Embedded Linux Devices. She had talked with the other engineers on the project about including some Rust components, however with their limited flash storage space (8MB for the whole firmware, including operating system and all other software), she was worried that the Rust binaries wouldn’t fit. The current webserver component for their project was measured in the 100’s of KB, while the Rust binary she produced was already multiple MBs, even with a --release build!",

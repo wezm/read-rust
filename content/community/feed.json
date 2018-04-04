@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Community",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/community/feed.json",
+  "description": "Community posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "b525113d-ce0a-4c11-b4d1-553eb3fef88d",
+      "title": "Increasing Rust’s Reach 2018",
+      "content_text": "The Rust team is happy to announce that we’re running our Increasing Rust’s Reach program again this year. Increasing Rust’s Reach is one of several programs run by the project to grow Rust’s community of project collaborators and leaders.",
+      "url": "https://blog.rust-lang.org/2018/04/02/Increasing-Rusts-Reach-2018.html",
+      "date_published": "2018-04-02T00:00:00+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    }
+  ]
+}

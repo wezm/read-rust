@@ -5,8 +5,9 @@ all: feeds
 feeds:
 	cargo build --release --bin generate-rss
 	./target/release/generate-rss content/_data/rust/posts.json content/all/feed.rss
-	./target/release/generate-rss -t 'Crates' content/_data/rust/posts.json content/crates/feed.rss
+	./target/release/generate-rss -t 'Community' content/_data/rust/posts.json content/community/feed.rss
 	./target/release/generate-rss -t 'Computer Science' content/_data/rust/posts.json content/computer-science/feed.rss
+	./target/release/generate-rss -t 'Crates' content/_data/rust/posts.json content/crates/feed.rss
 	./target/release/generate-rss -t 'DevOps and Deployment' content/_data/rust/posts.json content/devops-and-deployment/feed.rss
 	./target/release/generate-rss -t 'Embedded' content/_data/rust/posts.json content/embedded/feed.rss
 	./target/release/generate-rss -t 'Games and Graphics' content/_data/rust/posts.json content/games-and-graphics/feed.rss
