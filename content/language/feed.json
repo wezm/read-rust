@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8379ada9-43de-4764-88b1-aa3d24b114fd",
+      "title": "A Formal Look at Pinning",
+      "content_text": "Recently, a new API for “pinned references” has landed as a new unstable feature in the standard library. The purpose of these references is to express that the data at the memory it points to will not, ever, be moved elsewhere. Others have written about why this is important in the context of async IO. The purpose of this post is to take a closer, more formal look at that API: We are going to take a stab at extending the RustBelt model of types with support for pinning.",
+      "url": "https://www.ralfj.de/blog/2018/04/05/a-formal-look-at-pinning.html",
+      "date_published": "2018-04-05T00:00:00+02:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0dd3a72c-b43f-449a-92f3-fd25f164d224",
       "title": "Corner Cutting vs. Productivity",
       "content_text": "I recently got into a discussion with another very knowledgeable Rustacean, who (I paraphrase) claimed that Rust is about adding just enough roadblocks to keep you from cutting corners. This is a nice metaphor because it explains a lot: Rust may feel more cumbersome, because it won’t let you cut corners. On the other hand, once it compiles, many classes of errors will already have been taken care of, so your code will usually work as expected (or if you’re new to Rust, unexpectedly well).",

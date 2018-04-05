@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "14922be0-52bc-4711-9fc1-aeec98e39c1d",
+      "title": "Making a 100% Statically-Linked, Single-File Web App with React and Rust",
+      "content_text": "This tutorial will cover the basics of creating a minimal React app which can be deployed as a statically-linked Rust binary. What this accomplishes is having all of your code, including HTML, JavaScript, CSS, and Rust, packaged into a single file that will run on pretty much any 64-bit Linux system, regardless of the kernel version or installed libraries.",
+      "url": "https://anderspitman.net/2018/04/04/static-react-rust-webapp/",
+      "date_published": "2018-04-04T21:21:00+00:00",
+      "author": {
+        "name": "Anders Pitman",
+        "url": "https://anderspitman.net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "37aa0f60-d86c-446d-848c-52b45777ae2c",
+      "title": "Using Rust Modules in JavaScript/Web Development (Part 2 / 3) [Webpack]",
+      "content_text": "Part 1 of the post was primarily concerned with integrating rust modules with JavaScript with the help of wasm. But that involved a lot of manual procedures. Another more streamlined way is using webpack.",
+      "url": "https://medium.com/@atulanand94/using-rust-modules-for-javascript-web-development-part-2-7a86eaec5ee9",
+      "date_published": "2018-04-03T10:15:39.331+00:00",
+      "author": {
+        "name": "Atul",
+        "url": "https://medium.com/@atulanand94"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "8379ada9-43de-4764-88b1-aa3d24b114fd",
+      "title": "A Formal Look at Pinning",
+      "content_text": "Recently, a new API for “pinned references” has landed as a new unstable feature in the standard library. The purpose of these references is to express that the data at the memory it points to will not, ever, be moved elsewhere. Others have written about why this is important in the context of async IO. The purpose of this post is to take a closer, more formal look at that API: We are going to take a stab at extending the RustBelt model of types with support for pinning.",
+      "url": "https://www.ralfj.de/blog/2018/04/05/a-formal-look-at-pinning.html",
+      "date_published": "2018-04-05T00:00:00+02:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "afc97289-36f8-4acb-ab80-28e7770ea126",
+      "title": "MesaLink memory-safe and OpenSSL-compatible TLS library",
+      "content_text": "MesaLink is a memory-safe and OpenSSL-compatible TLS library. Since 2014, the industry has seen a huge loss due to memory vulnerabilities in TLS stacks, such as the infamous \"Heartbleed\" bug. MesaLink is created with the goal of eliminating memory vulnerabilities in TLS stacks. MesaLink is written in Rust, a programming language that guarantees memory safety. This significantly reduces the attack surfaces, which facilitates auditing and restricting the remaining attack surfaces. MesaLink is cross-platform and provides OpenSSL-compatible APIs. It works seamlessly in desktop, mobile, and IoT devices. With the growth of the ecosystem, MesaLink would also be adopted in the server environment in the future.",
+      "url": "https://github.com/mesalock-linux/mesalink",
+      "date_published": "2018-04-06T07:00:00+10:00",
+      "author": {
+        "name": "MesaLock Linux",
+        "url": "https://github.com/mesalock-linux"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "98f65a4a-8501-45e4-bda8-48d5d01306ba",
+      "title": "Improving GStreamer performance with tokio",
+      "content_text": "For one of our customers at Centricular we were working on a quite interesting project. Their use-case was basically to receive an as-high-as-possible number of audio RTP streams over UDP, transcode them, and then send them out via UDP again. Due to how GStreamer usually works, they were running into some performance issues.\n\nThis blog post will describe the first set of improvements that were implemented for this use-case, together with a minimal benchmark and the results. My colleague Mathieu will follow up with one or two other blog posts with the other improvements and a more full-featured benchmark.\n\nThe short version is that CPU usage decreased by about 65-75%, i.e. allowing 3-4x more streams with the same CPU usage. Also parallelization works better and usage of different CPU cores is more controllable, allowing for better scalability. And a fixed, but configurable number of threads is used, which is independent of the number of streams.",
+      "url": "https://coaxion.net/blog/2018/04/improving-gstreamer-performance-on-a-high-number-of-network-streams-by-sharing-threads-between-elements-with-rusts-tokio-crate/",
+      "date_published": "2018-04-05T15:21:06+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "0cb16bc7-daff-4747-81e5-d4455d33fc43",
       "title": "HTTP upgrades with hyper",
       "content_text": "The newest release of hyper includes some lower-level connection APIs for both the server and client. Notably, this allows using hyper send and receive HTTP upgrade requests. The most popular of these is Websockets.",

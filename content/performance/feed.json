@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "98f65a4a-8501-45e4-bda8-48d5d01306ba",
+      "title": "Improving GStreamer performance with tokio",
+      "content_text": "For one of our customers at Centricular we were working on a quite interesting project. Their use-case was basically to receive an as-high-as-possible number of audio RTP streams over UDP, transcode them, and then send them out via UDP again. Due to how GStreamer usually works, they were running into some performance issues.\n\nThis blog post will describe the first set of improvements that were implemented for this use-case, together with a minimal benchmark and the results. My colleague Mathieu will follow up with one or two other blog posts with the other improvements and a more full-featured benchmark.\n\nThe short version is that CPU usage decreased by about 65-75%, i.e. allowing 3-4x more streams with the same CPU usage. Also parallelization works better and usage of different CPU cores is more controllable, allowing for better scalability. And a fixed, but configurable number of threads is used, which is independent of the number of streams.",
+      "url": "https://coaxion.net/blog/2018/04/improving-gstreamer-performance-on-a-high-number-of-network-streams-by-sharing-threads-between-elements-with-rusts-tokio-crate/",
+      "date_published": "2018-04-05T15:21:06+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "3052579c-dccc-46b8-8d93-bbecfa493992",
       "title": "Speeding Up 'dwarfdump' With Rust",
       "content_text": "Writing a debugger for C++ on Linux, you spend a lot of time examining pretty-printed DWARF debug information using tools like readelf, objdump or dwarfdump. Unfortunately this can be quite slow.\n\nI decided to try to speed dwarfdump up. TL;DR: I reduced the dump time from 506s to 26s by fixing some simple issues and taking advantage of Rust \"fearless parallelism\". I think there are interesting opportunities for speeding up many kinds of command-line tools using Rust and parallelism.",

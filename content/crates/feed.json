@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "afc97289-36f8-4acb-ab80-28e7770ea126",
+      "title": "MesaLink memory-safe and OpenSSL-compatible TLS library",
+      "content_text": "MesaLink is a memory-safe and OpenSSL-compatible TLS library. Since 2014, the industry has seen a huge loss due to memory vulnerabilities in TLS stacks, such as the infamous \"Heartbleed\" bug. MesaLink is created with the goal of eliminating memory vulnerabilities in TLS stacks. MesaLink is written in Rust, a programming language that guarantees memory safety. This significantly reduces the attack surfaces, which facilitates auditing and restricting the remaining attack surfaces. MesaLink is cross-platform and provides OpenSSL-compatible APIs. It works seamlessly in desktop, mobile, and IoT devices. With the growth of the ecosystem, MesaLink would also be adopted in the server environment in the future.",
+      "url": "https://github.com/mesalock-linux/mesalink",
+      "date_published": "2018-04-06T07:00:00+10:00",
+      "author": {
+        "name": "MesaLock Linux",
+        "url": "https://github.com/mesalock-linux"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "0cb16bc7-daff-4747-81e5-d4455d33fc43",
       "title": "HTTP upgrades with hyper",
       "content_text": "The newest release of hyper includes some lower-level connection APIs for both the server and client. Notably, this allows using hyper send and receive HTTP upgrade requests. The most popular of these is Websockets.",
