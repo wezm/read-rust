@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "8c1bc2c9-1eeb-4a19-ac6b-d11e2a7c6f63",
+      "title": "Welcome to this week in Rust and WebAssembly!",
+      "content_text": "Hello and welcome to the first issue of This Week in Rust and WebAssembly! Rust is a systems language pursuing the trifecta: safety, concurrency, and speed. WebAssembly is designed as a portable target for compilation of high-level languages like C, C++, and Rust, enabling deployment on the web for client and server applications. This is a weekly summary of its progress and community.",
+      "url": "https://rustwasm.github.io/2018/04/05/welcome-to-this-week-in-rust.html",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Sendil Kumar N",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "0ea6b48d-d3a3-4969-a053-37d6e697de85",
+      "title": "Announcing Tower — A library for writing robust network services with Rust",
+      "content_text": "Tower is a library for writing robust network services with Rust. It is being built in service of the Conduit proxy, which is using the Tokio ecosystem to build the world’s smallest, fastest, most secure network proxy. Tower will also provide a batteries included experience for implementing HTTP and gRPC services.",
+      "url": "https://medium.com/@carllerche/announcing-tower-a-library-for-writing-robust-network-services-with-rust-67273f052c40",
+      "date_published": "2018-04-06T19:40:38.816+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fc550900-512d-4f82-b40a-25a8ef86d513",
+      "title": "Using Rust Modules in JavaScript/Web Development (Part 3/ 3) [NodeJS]",
+      "content_text": "Please read the Part 1 of the series here :",
+      "url": "https://medium.com/@atulanand94/using-rust-modules-for-javascript-web-development-part-3-3-nodejs-7c71e4ae23fe",
+      "date_published": "2018-04-03T14:29:28.389+00:00",
+      "author": {
+        "name": "Atul",
+        "url": "https://medium.com/@atulanand94"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "14922be0-52bc-4711-9fc1-aeec98e39c1d",
       "title": "Making a 100% Statically-Linked, Single-File Web App with React and Rust",
       "content_text": "This tutorial will cover the basics of creating a minimal React app which can be deployed as a statically-linked Rust binary. What this accomplishes is having all of your code, including HTML, JavaScript, CSS, and Rust, packaged into a single file that will run on pretty much any 64-bit Linux system, regardless of the kernel version or installed libraries.",

@@ -10,6 +10,79 @@
   },
   "items": [
     {
+      "id": "e01d9c09-e66d-4fea-94e3-95db24137dd6",
+      "title": "Sound and ergonomic specialization for Rust",
+      "content_text": "Specialization holds the dubious honor of being among the oldest post-1.0 features remaining in unstable limbo. That’s for good reason, though: until recently, we did not know how to make it sound.",
+      "url": "http://aturon.github.io/2018/04/05/sound-specialization/",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4812042b-1d2a-4171-9a77-d2f0a0c44b91",
+      "title": "Writing the Perfect 'Collect' Trait",
+      "content_text": "I’ve been spending some time thinking about garbage collection in rust. I know, shame on me, it’s a systems language, we hate garbage collection, but… even in a systems programming language, garbage collection is still pretty damn useful.",
+      "url": "https://mtak-blog.github.io/the_perfect_collect_trait",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "mtak-blog",
+        "url": "https://mtak-blog.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "cb113ba3-eaa8-40e1-8ff8-a8b710bf89db",
+      "title": "Custom tasks in Cargo",
+      "content_text": "One of the big requests from the Domain Working Groups for Rust 2018 is a richer feature set for framework- or domain-specific workflows in Cargo. At the simplest level, that might look like project templates – the ability to direct cargo new to start with a custom template defined in crates.io. That’s already enough to get you cooking with frameworks like QuiCLI, which today involve a fixed set of initial scaffolding that you can fill in.",
+      "url": "http://aturon.github.io/2018/04/05/workflows/",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5eca0d0a-81f6-4804-869f-32ed307adb9f",
+      "title": "The Rust Team All Hands in Berlin: a Recap",
+      "content_text": "Last week we held an “All Hands” event in Berlin, which drew more than 50 people involved in 15 different Rust Teams or Working Groups, with a majority being volunteer contributors. This was the first such event, and its location reflects the current concentration of team members in Europe. The week was a smashing success which we plan to repeat on at least an annual basis.",
+      "url": "https://blog.rust-lang.org/2018/04/06/all-hands.html",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "277652ec-bbeb-454c-85da-766438600d47",
+      "title": "Cargo, Xargo, and Rustup",
+      "content_text": "Another topic of discussion at the Berlin Rust All Hands was the long-term story around Cargo, Xargo, and Rustup. The latter two tools are both involved in managing your Rust toolchain, with Xargo allowing you to build custom stds and Rustup managing pre-built artifacts for mainstream targets. Xargo is most commonly used for cross-compiling to less common platforms, but can also be used to customize the standard library on mainstream platforms.",
+      "url": "http://aturon.github.io/2018/04/06/rustup-xargo/",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Language"
+      ]
+    },
+    {
       "id": "8379ada9-43de-4764-88b1-aa3d24b114fd",
       "title": "A Formal Look at Pinning",
       "content_text": "Recently, a new API for “pinned references” has landed as a new unstable feature in the standard library. The purpose of these references is to express that the data at the memory it points to will not, ever, be moved elsewhere. Others have written about why this is important in the context of async IO. The purpose of this post is to take a closer, more formal look at that API: We are going to take a stab at extending the RustBelt model of types with support for pinning.",

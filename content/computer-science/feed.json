@@ -10,6 +10,51 @@
   },
   "items": [
     {
+      "id": "e01d9c09-e66d-4fea-94e3-95db24137dd6",
+      "title": "Sound and ergonomic specialization for Rust",
+      "content_text": "Specialization holds the dubious honor of being among the oldest post-1.0 features remaining in unstable limbo. That’s for good reason, though: until recently, we did not know how to make it sound.",
+      "url": "http://aturon.github.io/2018/04/05/sound-specialization/",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4812042b-1d2a-4171-9a77-d2f0a0c44b91",
+      "title": "Writing the Perfect 'Collect' Trait",
+      "content_text": "I’ve been spending some time thinking about garbage collection in rust. I know, shame on me, it’s a systems language, we hate garbage collection, but… even in a systems programming language, garbage collection is still pretty damn useful.",
+      "url": "https://mtak-blog.github.io/the_perfect_collect_trait",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "mtak-blog",
+        "url": "https://mtak-blog.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "318f9d08-d86a-4799-ac08-75014d089475",
+      "title": "im - Immutable Data Structures for Rust",
+      "content_text": "This library implements several of the more commonly useful immutable data structures for Rust. They rely on structural sharing to keep most operations fast without needing to mutate the underlying data store, leading to more predictable code without necessarily sacrificing performance.",
+      "url": "https://docs.rs/im/10.0.0/im/",
+      "date_published": "2018-04-06T21:06:00+00:00",
+      "author": {
+        "name": "Bodil Stokke",
+        "url": "http://immutable.rs/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
       "id": "465a729e-a243-4cd7-bee8-e0c7d5d09fbd",
       "title": "Number Theory using Rust's type system",
       "content_text": "Rust does not have dependent types, or GADTs like Haskell, but with a few tricks, we can use Rust's type system to emulate an Idris-like number system.",

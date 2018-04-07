@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "318f9d08-d86a-4799-ac08-75014d089475",
+      "title": "im - Immutable Data Structures for Rust",
+      "content_text": "This library implements several of the more commonly useful immutable data structures for Rust. They rely on structural sharing to keep most operations fast without needing to mutate the underlying data store, leading to more predictable code without necessarily sacrificing performance.",
+      "url": "https://docs.rs/im/10.0.0/im/",
+      "date_published": "2018-04-06T21:06:00+00:00",
+      "author": {
+        "name": "Bodil Stokke",
+        "url": "http://immutable.rs/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
       "id": "afc97289-36f8-4acb-ab80-28e7770ea126",
       "title": "MesaLink memory-safe and OpenSSL-compatible TLS library",
       "content_text": "MesaLink is a memory-safe and OpenSSL-compatible TLS library. Since 2014, the industry has seen a huge loss due to memory vulnerabilities in TLS stacks, such as the infamous \"Heartbleed\" bug. MesaLink is created with the goal of eliminating memory vulnerabilities in TLS stacks. MesaLink is written in Rust, a programming language that guarantees memory safety. This significantly reduces the attack surfaces, which facilitates auditing and restricting the remaining attack surfaces. MesaLink is cross-platform and provides OpenSSL-compatible APIs. It works seamlessly in desktop, mobile, and IoT devices. With the growth of the ecosystem, MesaLink would also be adopted in the server environment in the future.",

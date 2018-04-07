@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "277652ec-bbeb-454c-85da-766438600d47",
+      "title": "Cargo, Xargo, and Rustup",
+      "content_text": "Another topic of discussion at the Berlin Rust All Hands was the long-term story around Cargo, Xargo, and Rustup. The latter two tools are both involved in managing your Rust toolchain, with Xargo allowing you to build custom stds and Rustup managing pre-built artifacts for mainstream targets. Xargo is most commonly used for cross-compiling to less common platforms, but can also be used to customize the standard library on mainstream platforms.",
+      "url": "http://aturon.github.io/2018/04/06/rustup-xargo/",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Language"
+      ]
+    },
+    {
       "id": "6419c6a3-a47d-4ce5-93ef-11f17be5eecd",
       "title": "Building Tiny Rust Binaries for Embedded Linux",
       "content_text": "At the recent 2018 Rust All Hands, I met up with Katharina @spacekookie, who works on an open source project that creates software for Embedded Linux Devices. She had talked with the other engineers on the project about including some Rust components, however with their limited flash storage space (8MB for the whole firmware, including operating system and all other software), she was worried that the Rust binaries wouldn’t fit. The current webserver component for their project was measured in the 100’s of KB, while the Rust binary she produced was already multiple MBs, even with a --release build!",

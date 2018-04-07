@@ -10,6 +10,136 @@
   },
   "items": [
     {
+      "id": "e01d9c09-e66d-4fea-94e3-95db24137dd6",
+      "title": "Sound and ergonomic specialization for Rust",
+      "content_text": "Specialization holds the dubious honor of being among the oldest post-1.0 features remaining in unstable limbo. That’s for good reason, though: until recently, we did not know how to make it sound.",
+      "url": "http://aturon.github.io/2018/04/05/sound-specialization/",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4812042b-1d2a-4171-9a77-d2f0a0c44b91",
+      "title": "Writing the Perfect 'Collect' Trait",
+      "content_text": "I’ve been spending some time thinking about garbage collection in rust. I know, shame on me, it’s a systems language, we hate garbage collection, but… even in a systems programming language, garbage collection is still pretty damn useful.",
+      "url": "https://mtak-blog.github.io/the_perfect_collect_trait",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "mtak-blog",
+        "url": "https://mtak-blog.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "cb113ba3-eaa8-40e1-8ff8-a8b710bf89db",
+      "title": "Custom tasks in Cargo",
+      "content_text": "One of the big requests from the Domain Working Groups for Rust 2018 is a richer feature set for framework- or domain-specific workflows in Cargo. At the simplest level, that might look like project templates – the ability to direct cargo new to start with a custom template defined in crates.io. That’s already enough to get you cooking with frameworks like QuiCLI, which today involve a fixed set of initial scaffolding that you can fill in.",
+      "url": "http://aturon.github.io/2018/04/05/workflows/",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5eca0d0a-81f6-4804-869f-32ed307adb9f",
+      "title": "The Rust Team All Hands in Berlin: a Recap",
+      "content_text": "Last week we held an “All Hands” event in Berlin, which drew more than 50 people involved in 15 different Rust Teams or Working Groups, with a majority being volunteer contributors. This was the first such event, and its location reflects the current concentration of team members in Europe. The week was a smashing success which we plan to repeat on at least an annual basis.",
+      "url": "https://blog.rust-lang.org/2018/04/06/all-hands.html",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8c1bc2c9-1eeb-4a19-ac6b-d11e2a7c6f63",
+      "title": "Welcome to this week in Rust and WebAssembly!",
+      "content_text": "Hello and welcome to the first issue of This Week in Rust and WebAssembly! Rust is a systems language pursuing the trifecta: safety, concurrency, and speed. WebAssembly is designed as a portable target for compilation of high-level languages like C, C++, and Rust, enabling deployment on the web for client and server applications. This is a weekly summary of its progress and community.",
+      "url": "https://rustwasm.github.io/2018/04/05/welcome-to-this-week-in-rust.html",
+      "date_published": "2018-04-05T00:00:00+00:00",
+      "author": {
+        "name": "Sendil Kumar N",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "277652ec-bbeb-454c-85da-766438600d47",
+      "title": "Cargo, Xargo, and Rustup",
+      "content_text": "Another topic of discussion at the Berlin Rust All Hands was the long-term story around Cargo, Xargo, and Rustup. The latter two tools are both involved in managing your Rust toolchain, with Xargo allowing you to build custom stds and Rustup managing pre-built artifacts for mainstream targets. Xargo is most commonly used for cross-compiling to less common platforms, but can also be used to customize the standard library on mainstream platforms.",
+      "url": "http://aturon.github.io/2018/04/06/rustup-xargo/",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Language"
+      ]
+    },
+    {
+      "id": "318f9d08-d86a-4799-ac08-75014d089475",
+      "title": "im - Immutable Data Structures for Rust",
+      "content_text": "This library implements several of the more commonly useful immutable data structures for Rust. They rely on structural sharing to keep most operations fast without needing to mutate the underlying data store, leading to more predictable code without necessarily sacrificing performance.",
+      "url": "https://docs.rs/im/10.0.0/im/",
+      "date_published": "2018-04-06T21:06:00+00:00",
+      "author": {
+        "name": "Bodil Stokke",
+        "url": "http://immutable.rs/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
+      "id": "0ea6b48d-d3a3-4969-a053-37d6e697de85",
+      "title": "Announcing Tower — A library for writing robust network services with Rust",
+      "content_text": "Tower is a library for writing robust network services with Rust. It is being built in service of the Conduit proxy, which is using the Tokio ecosystem to build the world’s smallest, fastest, most secure network proxy. Tower will also provide a batteries included experience for implementing HTTP and gRPC services.",
+      "url": "https://medium.com/@carllerche/announcing-tower-a-library-for-writing-robust-network-services-with-rust-67273f052c40",
+      "date_published": "2018-04-06T19:40:38.816+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fc550900-512d-4f82-b40a-25a8ef86d513",
+      "title": "Using Rust Modules in JavaScript/Web Development (Part 3/ 3) [NodeJS]",
+      "content_text": "Please read the Part 1 of the series here :",
+      "url": "https://medium.com/@atulanand94/using-rust-modules-for-javascript-web-development-part-3-3-nodejs-7c71e4ae23fe",
+      "date_published": "2018-04-03T14:29:28.389+00:00",
+      "author": {
+        "name": "Atul",
+        "url": "https://medium.com/@atulanand94"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "14922be0-52bc-4711-9fc1-aeec98e39c1d",
       "title": "Making a 100% Statically-Linked, Single-File Web App with React and Rust",
       "content_text": "This tutorial will cover the basics of creating a minimal React app which can be deployed as a statically-linked Rust binary. What this accomplishes is having all of your code, including HTML, JavaScript, CSS, and Rust, packaged into a single file that will run on pretty much any 64-bit Linux system, regardless of the kernel version or installed libraries.",
