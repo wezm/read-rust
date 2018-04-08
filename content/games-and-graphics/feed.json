@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7b281b2d-246c-4fec-bdf5-6eb92fbb8a34",
+      "title": "The State of Game Development in Rust",
+      "content_text": "Game Development is one of the fields in which Rust can gain a lot of traction. Let’s look at the current ecosystem and let’s see what the community has to offer.",
+      "url": "http://www.davideaversa.it/2018/02/state-game-development-rust/",
+      "date_published": "2018-02-26T17:37:27+00:00",
+      "author": {
+        "name": "Davide Aversa",
+        "url": "http://www.davideaversa.it/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e5d47646-8715-43d3-a39b-23115255a1fe",
       "title": "Taking the long road (Part 1): bindings for a vector similarity search library",
       "content_text": "Perhaps you have once wondered how search engines such as Google and TinEye enable their users to search for images which are similar to one that you provide, or how they can identify a building from nothing but a picture. Content-based image retrieval (CBIR) is the backbone concept, and provides exciting new ways to search for useful information. While the concept is no longer novel, the requirements imposed on systems for CBIR are ever increasing due to the increasingly larger amounts of data and demand for higher quality of retrieval.",

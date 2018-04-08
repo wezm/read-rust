@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "d1d6e382-3b80-431e-ba08-5cbe1ccebce2",
+      "title": "Dark Side Of Ergonomics",
+      "content_text": "Despite having an experience with wide range of computer languages, including C++ and Haskell (both strong influences to Rusts design), I found Rust hard to learn. Sometimes I grind my teeth about something the compiler doesn’t let me do. Despite that, I didn’t put ergonomics as a wish in any poll. In fact, if I was to take a poll right now, I’d probably be against further ergonomics initiatives.",
+      "url": "https://vorner.github.io/2018/04/08/Dark-side-of-ergonomics.html",
+      "date_published": "2018-04-08T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7b281b2d-246c-4fec-bdf5-6eb92fbb8a34",
+      "title": "The State of Game Development in Rust",
+      "content_text": "Game Development is one of the fields in which Rust can gain a lot of traction. Let’s look at the current ecosystem and let’s see what the community has to offer.",
+      "url": "http://www.davideaversa.it/2018/02/state-game-development-rust/",
+      "date_published": "2018-02-26T17:37:27+00:00",
+      "author": {
+        "name": "Davide Aversa",
+        "url": "http://www.davideaversa.it/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5230134e-6bfc-4a88-9cee-7bec1f15e099",
+      "title": "Embedded Rust: Why?",
+      "content_text": "I will try to publish here a series of articles about my approach to embedded development and how I plan to achieve that in Rust.",
+      "url": "http://ithinuel.me/embedded-rust-why/",
+      "date_published": "2018-03-30T08:26:00+00:00",
+      "author": {
+        "name": "Wilfried Chauveau",
+        "url": "http://ithinuel.me/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "7fbe9c06-2e4a-4da4-aea0-45b4828f6687",
+      "title": "Async & Await in Rust: a full proposal",
+      "content_text": "I’m really excited to announce the culmination of much of our work over the last four months: a pair of RFCs for supporting async & await notation in Rust. This will be very impactful for Rust in the network services space. The change is proposed as two RFCs:\n RFC #2394: which adds async & await notation to the language. RFC #2395: which moves a part of the futures library into std to support that syntax.",
+      "url": "https://boats.gitlab.io/blog/post/2018-04-06-async-await-final/",
+      "date_published": "2018-04-06T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9c6d2c06-5031-414d-b743-850c4ddebdc3",
+      "title": "Cloudflare Argo Tunnel with Rust+Raspberry Pi",
+      "content_text": "Serving content from a Rust web server running on a Raspberry Pi from your home to the world, with a Cloudflare Argo Tunnels.",
+      "url": "https://blog.cloudflare.com/cloudflare-argo-tunnel-with-rust-and-raspberry-pi/",
+      "date_published": "2018-04-06T14:00:00+00:00",
+      "author": {
+        "name": "Steven Pack",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e01d9c09-e66d-4fea-94e3-95db24137dd6",
       "title": "Sound and ergonomic specialization for Rust",
       "content_text": "Specialization holds the dubious honor of being among the oldest post-1.0 features remaining in unstable limbo. That’s for good reason, though: until recently, we did not know how to make it sound.",

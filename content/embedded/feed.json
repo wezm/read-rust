@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5230134e-6bfc-4a88-9cee-7bec1f15e099",
+      "title": "Embedded Rust: Why?",
+      "content_text": "I will try to publish here a series of articles about my approach to embedded development and how I plan to achieve that in Rust.",
+      "url": "http://ithinuel.me/embedded-rust-why/",
+      "date_published": "2018-03-30T08:26:00+00:00",
+      "author": {
+        "name": "Wilfried Chauveau",
+        "url": "http://ithinuel.me/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "277652ec-bbeb-454c-85da-766438600d47",
       "title": "Cargo, Xargo, and Rustup",
       "content_text": "Another topic of discussion at the Berlin Rust All Hands was the long-term story around Cargo, Xargo, and Rustup. The latter two tools are both involved in managing your Rust toolchain, with Xargo allowing you to build custom stds and Rustup managing pre-built artifacts for mainstream targets. Xargo is most commonly used for cross-compiling to less common platforms, but can also be used to customize the standard library on mainstream platforms.",
