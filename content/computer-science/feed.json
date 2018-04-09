@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "66851aee-1bf3-4b18-b1aa-50f79ce773f4",
+      "title": "Writing a recursive ascent parser by hand",
+      "content_text": "I’ve been exploring various ways to write parsers. For a long time, I’ve used hand-written recursive descent for its straightforwardness, flexibility, and performance. There is another way—parser generators like Menhir, LALRPOP, or the venerable Bison use the bottom-up LR algorithm. I decided I would try an experiment: write an LR parser by hand, and see how readable I could make it.",
+      "url": "https://www.abubalay.com/blog/2018/04/08/recursive-ascent",
+      "date_published": "2018-04-08T00:00:00+00:00",
+      "author": {
+        "name": "Russell Johnston",
+        "url": "https://www.abubalay.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "e01d9c09-e66d-4fea-94e3-95db24137dd6",
       "title": "Sound and ergonomic specialization for Rust",
       "content_text": "Specialization holds the dubious honor of being among the oldest post-1.0 features remaining in unstable limbo. That’s for good reason, though: until recently, we did not know how to make it sound.",

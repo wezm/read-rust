@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d4c2f839-050c-4134-868d-eab325676917",
+      "title": "An interactive guide to learning Rust!",
+      "content_text": "Fix a series to broken Rust programs to gain a deeper understanding of Rust.",
+      "url": "https://github.com/toidiu/learn-rust",
+      "date_published": "2018-04-10T06:47:00+10:00",
+      "author": {
+        "name": "toidiu",
+        "url": "https://github.com/toidiu"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "cf92e0a9-88ac-4fa8-9ecd-d61078868f26",
       "title": "A Gentle Introduction to Rust (book)",
       "content_text": "Introduction to the Rust language, standard library and ecosystem",

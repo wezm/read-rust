@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "61846190-2e41-4590-95c0-172d767aacc1",
+      "title": "Getting Yew to work with Rust on ‘Bash on Ubuntu on Windows’",
+      "content_text": "Yew is a new web framework written in Rust that takes concepts from React JS and Elm. It takes the two web libraries I love and combines them with the new language I love — Rust. I wrote this article because I haven’t found a lot of documentation online on how to get the Yew examples running, and I’m sure there will be people that will run into the same problems I did. I wrote this in hopes that it helps someone out there.",
+      "url": "https://medium.com/@raymondsiu/getting-yew-to-work-with-rust-on-bash-on-ubuntu-on-windows-in-windows-10-790a006e6805",
+      "date_published": "2018-04-08T23:14:01.202+00:00",
+      "author": {
+        "name": "Raymond Siu",
+        "url": "https://medium.com/@raymondsiu"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "66851aee-1bf3-4b18-b1aa-50f79ce773f4",
+      "title": "Writing a recursive ascent parser by hand",
+      "content_text": "I’ve been exploring various ways to write parsers. For a long time, I’ve used hand-written recursive descent for its straightforwardness, flexibility, and performance. There is another way—parser generators like Menhir, LALRPOP, or the venerable Bison use the bottom-up LR algorithm. I decided I would try an experiment: write an LR parser by hand, and see how readable I could make it.",
+      "url": "https://www.abubalay.com/blog/2018/04/08/recursive-ascent",
+      "date_published": "2018-04-08T00:00:00+00:00",
+      "author": {
+        "name": "Russell Johnston",
+        "url": "https://www.abubalay.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "d4c2f839-050c-4134-868d-eab325676917",
+      "title": "An interactive guide to learning Rust!",
+      "content_text": "Fix a series to broken Rust programs to gain a deeper understanding of Rust.",
+      "url": "https://github.com/toidiu/learn-rust",
+      "date_published": "2018-04-10T06:47:00+10:00",
+      "author": {
+        "name": "toidiu",
+        "url": "https://github.com/toidiu"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "d1d6e382-3b80-431e-ba08-5cbe1ccebce2",
       "title": "Dark Side Of Ergonomics",
       "content_text": "Despite having an experience with wide range of computer languages, including C++ and Haskell (both strong influences to Rusts design), I found Rust hard to learn. Sometimes I grind my teeth about something the compiler doesn’t let me do. Despite that, I didn’t put ergonomics as a wish in any poll. In fact, if I was to take a poll right now, I’d probably be against further ergonomics initiatives.",
