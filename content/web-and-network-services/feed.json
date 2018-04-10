@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a89cb196-c162-4c49-b1d5-642547265f39",
+      "title": "The case for deadlines",
+      "content_text": "Rust aims to be the foundation of fast and robust software. A thorn in that side is the choice of timeout-centric APIs for I/O and multithreading. I posit this was a bad choice and it needs to be remedied as soon as possible before more APIs proliferate this (possibly accidental) design decision.",
+      "url": "https://gist.github.com/alkis/9510a840f1965185ab0a02cb59761dd8",
+      "date_published": "2018-04-10T06:28:29+00:00",
+      "author": {
+        "name": "Alkis Evlogimenos",
+        "url": "https://gist.github.com/alkis"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "61846190-2e41-4590-95c0-172d767aacc1",
       "title": "Getting Yew to work with Rust on ‘Bash on Ubuntu on Windows’",
       "content_text": "Yew is a new web framework written in Rust that takes concepts from React JS and Elm. It takes the two web libraries I love and combines them with the new language I love — Rust. I wrote this article because I haven’t found a lot of documentation online on how to get the Yew examples running, and I’m sure there will be people that will run into the same problems I did. I wrote this in hopes that it helps someone out there.",

@@ -10,6 +10,50 @@
   },
   "items": [
     {
+      "id": "ed19c2a7-fe9d-465b-b41a-71480e6b978a",
+      "title": "QCGPU - Hardware Accelerated Quantum Computer Simulation",
+      "content_text": "A software library for high performance and hardware accelerated simulation of Quantum Computers and Algorithms. Written with Rust and OpenCL.",
+      "url": "https://qcgpu.github.io/",
+      "date_published": "2018-04-11T06:47:00+10:00",
+      "author": {
+        "name": "QCGPU",
+        "url": "https://qcgpu.github.io/"
+      },
+      "tags": [
+        "Computer Science",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b93c9682-4e53-4a7f-a39b-79d57b2b4737",
+      "title": "New sysinfo version (huge performance improvements!)",
+      "content_text": "This new version comes with great performance improvements. We're talking about 3x faster on macos, 2x faster on linux and 3x faster on windows (the benchmarks are at the end of the post).",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-04-09+New+sysinfo+version+%28huge+performance+improvements%21%29",
+      "date_published": "2018-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Performance",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1282d538-71c9-4379-a330-820eccf83d22",
+      "title": "Sequoia-PGP - a modular OpenPGP implementation",
+      "content_text": "Sequoia is a modular OpenPGP implementation in Rust.",
+      "url": "https://sequoia-pgp.org/",
+      "date_published": "2018-04-11T06:52:00+10:00",
+      "author": {
+        "name": "p≡p foundation",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "88175c1a-8150-45f5-a1d8-d390457b9fe2",
       "title": "Announcing personal finance tool 'pfr'",
       "content_text": "pfr is a command-line tool for helping me to manage my personal finances. At the end of each month, I like to sit down and “allocate” funds to cover my expenses for the following month. However, not all of my expenses occur monthly. For example, things like rent are paid weekly, and I think of money spent on food in terms of weeks, so I have to multiply those expenses by 4 (ish). I also have to figure out how much money to put in each account, e.g on my EFTPOS (direct-debit) card or for automatic payments. It’s not hard, but then again, that’s why we write programs.",

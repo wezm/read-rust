@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "ed19c2a7-fe9d-465b-b41a-71480e6b978a",
+      "title": "QCGPU - Hardware Accelerated Quantum Computer Simulation",
+      "content_text": "A software library for high performance and hardware accelerated simulation of Quantum Computers and Algorithms. Written with Rust and OpenCL.",
+      "url": "https://qcgpu.github.io/",
+      "date_published": "2018-04-11T06:47:00+10:00",
+      "author": {
+        "name": "QCGPU",
+        "url": "https://qcgpu.github.io/"
+      },
+      "tags": [
+        "Computer Science",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "68ff8b22-500f-4674-b9f0-b70414db12d8",
+      "title": "Safe Intrusive Collections with Pinning",
+      "content_text": "In my last post, I talked about the new “pinned references” which guarantee that the data at the memory it points to will not, ever, be moved elsewhere. I explained how they enable giving a safe API to code that could previously only be exposed with unsafe, and how one could go about proving such a thing. This post is about another application of pinned references—another API whose safety relies on the pinning guarantees: Intrusive collections. It turns out that pinned references can almost be used for this, but not quite. However, this can be fixed by extending the guarantees provided by pinned references, as suggested by @cramertj.",
+      "url": "https://www.ralfj.de/blog/2018/04/10/safe-intrusive-collections-with-pinning.html",
+      "date_published": "2018-04-10T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "66851aee-1bf3-4b18-b1aa-50f79ce773f4",
       "title": "Writing a recursive ascent parser by hand",
       "content_text": "I’ve been exploring various ways to write parsers. For a long time, I’ve used hand-written recursive descent for its straightforwardness, flexibility, and performance. There is another way—parser generators like Menhir, LALRPOP, or the venerable Bison use the bottom-up LR algorithm. I decided I would try an experiment: write an LR parser by hand, and see how readable I could make it.",

@@ -10,6 +10,78 @@
   },
   "items": [
     {
+      "id": "a89cb196-c162-4c49-b1d5-642547265f39",
+      "title": "The case for deadlines",
+      "content_text": "Rust aims to be the foundation of fast and robust software. A thorn in that side is the choice of timeout-centric APIs for I/O and multithreading. I posit this was a bad choice and it needs to be remedied as soon as possible before more APIs proliferate this (possibly accidental) design decision.",
+      "url": "https://gist.github.com/alkis/9510a840f1965185ab0a02cb59761dd8",
+      "date_published": "2018-04-10T06:28:29+00:00",
+      "author": {
+        "name": "Alkis Evlogimenos",
+        "url": "https://gist.github.com/alkis"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ed19c2a7-fe9d-465b-b41a-71480e6b978a",
+      "title": "QCGPU - Hardware Accelerated Quantum Computer Simulation",
+      "content_text": "A software library for high performance and hardware accelerated simulation of Quantum Computers and Algorithms. Written with Rust and OpenCL.",
+      "url": "https://qcgpu.github.io/",
+      "date_published": "2018-04-11T06:47:00+10:00",
+      "author": {
+        "name": "QCGPU",
+        "url": "https://qcgpu.github.io/"
+      },
+      "tags": [
+        "Computer Science",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b93c9682-4e53-4a7f-a39b-79d57b2b4737",
+      "title": "New sysinfo version (huge performance improvements!)",
+      "content_text": "This new version comes with great performance improvements. We're talking about 3x faster on macos, 2x faster on linux and 3x faster on windows (the benchmarks are at the end of the post).",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-04-09+New+sysinfo+version+%28huge+performance+improvements%21%29",
+      "date_published": "2018-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Performance",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "68ff8b22-500f-4674-b9f0-b70414db12d8",
+      "title": "Safe Intrusive Collections with Pinning",
+      "content_text": "In my last post, I talked about the new “pinned references” which guarantee that the data at the memory it points to will not, ever, be moved elsewhere. I explained how they enable giving a safe API to code that could previously only be exposed with unsafe, and how one could go about proving such a thing. This post is about another application of pinned references—another API whose safety relies on the pinning guarantees: Intrusive collections. It turns out that pinned references can almost be used for this, but not quite. However, this can be fixed by extending the guarantees provided by pinned references, as suggested by @cramertj.",
+      "url": "https://www.ralfj.de/blog/2018/04/10/safe-intrusive-collections-with-pinning.html",
+      "date_published": "2018-04-10T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "1282d538-71c9-4379-a330-820eccf83d22",
+      "title": "Sequoia-PGP - a modular OpenPGP implementation",
+      "content_text": "Sequoia is a modular OpenPGP implementation in Rust.",
+      "url": "https://sequoia-pgp.org/",
+      "date_published": "2018-04-11T06:52:00+10:00",
+      "author": {
+        "name": "p≡p foundation",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "61846190-2e41-4590-95c0-172d767aacc1",
       "title": "Getting Yew to work with Rust on ‘Bash on Ubuntu on Windows’",
       "content_text": "Yew is a new web framework written in Rust that takes concepts from React JS and Elm. It takes the two web libraries I love and combines them with the new language I love — Rust. I wrote this article because I haven’t found a lot of documentation online on how to get the Yew examples running, and I’m sure there will be people that will run into the same problems I did. I wrote this in hopes that it helps someone out there.",

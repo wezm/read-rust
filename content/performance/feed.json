@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "b93c9682-4e53-4a7f-a39b-79d57b2b4737",
+      "title": "New sysinfo version (huge performance improvements!)",
+      "content_text": "This new version comes with great performance improvements. We're talking about 3x faster on macos, 2x faster on linux and 3x faster on windows (the benchmarks are at the end of the post).",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-04-09+New+sysinfo+version+%28huge+performance+improvements%21%29",
+      "date_published": "2018-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Performance",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "98f65a4a-8501-45e4-bda8-48d5d01306ba",
       "title": "Improving GStreamer performance with tokio",
       "content_text": "For one of our customers at Centricular we were working on a quite interesting project. Their use-case was basically to receive an as-high-as-possible number of audio RTP streams over UDP, transcode them, and then send them out via UDP again. Due to how GStreamer usually works, they were running into some performance issues.\n\nThis blog post will describe the first set of improvements that were implemented for this use-case, together with a minimal benchmark and the results. My colleague Mathieu will follow up with one or two other blog posts with the other improvements and a more full-featured benchmark.\n\nThe short version is that CPU usage decreased by about 65-75%, i.e. allowing 3-4x more streams with the same CPU usage. Also parallelization works better and usage of different CPU cores is more controllable, allowing for better scalability. And a fixed, but configurable number of threads is used, which is independent of the number of streams.",
