@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "d65aaebc-e17b-421b-86e8-1cc9c63a0408",
+      "title": "Writing An NES Emulator with Rust and WebAssembly",
+      "content_text": "I wrote the NES emulator with Rust and WebAssembly to learn Rust. It’s not perfect and have some audio bugs, but it’s good enough to play Super Mario bros.",
+      "url": "https://medium.com/@bokuweb17/writing-an-nes-emulator-with-rust-and-webassembly-d64de101c49d",
+      "date_published": "2018-04-11T14:30:56.719+00:00",
+      "author": {
+        "name": "bokuweb",
+        "url": "https://medium.com/@bokuweb17"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "cacf27d3-9206-414d-b28f-8745eec00a4a",
+      "title": "Taking the long road (Part 2): Rust bindings for a vector similarity search library",
+      "content_text": "This is part 2 of a story on taking the long road towards Rust bindings to Faiss. You may wish to read part 1 first for a motivation section and a deeper understanding of how I built a plain C API on top of the C++ library.",
+      "url": "https://medium.com/@e_net4/taking-the-load-road-part-2-rust-bindings-for-a-vector-similarity-search-library-914fbc1ec5ed",
+      "date_published": "2018-04-12T20:11:12.081+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://medium.com/@e_net4"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "7b281b2d-246c-4fec-bdf5-6eb92fbb8a34",
       "title": "The State of Game Development in Rust",
       "content_text": "Game Development is one of the fields in which Rust can gain a lot of traction. Let’s look at the current ecosystem and let’s see what the community has to offer.",

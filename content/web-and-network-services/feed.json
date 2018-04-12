@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "d65aaebc-e17b-421b-86e8-1cc9c63a0408",
+      "title": "Writing An NES Emulator with Rust and WebAssembly",
+      "content_text": "I wrote the NES emulator with Rust and WebAssembly to learn Rust. It’s not perfect and have some audio bugs, but it’s good enough to play Super Mario bros.",
+      "url": "https://medium.com/@bokuweb17/writing-an-nes-emulator-with-rust-and-webassembly-d64de101c49d",
+      "date_published": "2018-04-11T14:30:56.719+00:00",
+      "author": {
+        "name": "bokuweb",
+        "url": "https://medium.com/@bokuweb17"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fc25e5f3-66d9-429d-8ca8-c1882a5083d6",
+      "title": "JavaScript Interop with WebAssembly",
+      "content_text": "In my last post I provided an introduction to WebAssembly — what is it, why do we care, and what does it look like? In this post, I’d like to explore a little bit of the inner workings of how we can communicate between Rust (wasm) and JavaScript. As I mentioned in the last post, WebAssembly is neither JavaScript nor some strongly-typed dialect. It is a standalone, compiled, portable binary. How you send data into and get data out of that binary involves some subtle nuances about how WebAssembly works.",
+      "url": "https://medium.com/@KevinHoffman/javascript-interop-with-webassembly-2c69a3db19e9",
+      "date_published": "2018-04-12T14:14:05.684+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a89cb196-c162-4c49-b1d5-642547265f39",
       "title": "The case for deadlines",
       "content_text": "Rust aims to be the foundation of fast and robust software. A thorn in that side is the choice of timeout-centric APIs for I/O and multithreading. I posit this was a bad choice and it needs to be remedied as soon as possible before more APIs proliferate this (possibly accidental) design decision.",

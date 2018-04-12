@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "30fe522c-e827-436a-bd52-40314d80e95b",
+      "title": "The Challenge of Using C in Safety-Critical Applications [pdf]",
+      "content_text": "Software errors in safety-critical systems can have severe consequences: property-loss, environmental devastation, injury, or death. Despite the severity of these risks, software continues to be written for safety-critical applications in languages that permit common classes of failures, such as undefined behavior, state corruption, and unexpected termination. One such language is C. Language standards that define allowable subsets (e.g. MISRA) and static analysis tools are often used in an attempt to ameliorate these failures by detecting them in the program code before they result in a critical issue at runtime. These traditional methods are ultimately insufficient when it comes to providing ahead-of-time assurances about safe runtime behavior for safety-critical applications. Alternative approaches must be considered.",
+      "url": "https://polysync.io/s/The-Challenge-of-Using-C-in-Safety-Critical-Applications.pdf",
+      "date_published": "2018-04-11T08:54:41.128+00:00",
+      "author": {
+        "name": "Shea Newton, Nathan Aschbache",
+        "url": "https://polysync.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2238849b-fcc8-4bd4-9828-66637c22f9af",
+      "title": "Why would I use divergent functions?",
+      "content_text": "Rust has some special syntax for ‘diverging functions’, which are functions that do not return.",
+      "url": "https://medium.com/@yangnana11/rust-why-would-i-use-divergent-functions-d9dec59071bc",
+      "date_published": "2018-04-11T08:54:41.128+00:00",
+      "author": {
+        "name": "Yang Nana",
+        "url": "https://medium.com/@yangnana11"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d506eda8-cab3-4046-b0b7-3c16fd1bc53d",
+      "title": "Rust all-hands (dev-tools stuff)",
+      "content_text": "Last week (sigh, the week before last now) we held an 'all-hands' event in Berlin. It was a great event - fantastic to meet so many Rust people in real life and really energising to see how much is being planned and implemented. In this post I want to summarise some of the important dev-tools stuff that happened. Our planning and notes from some meetings is in the dev-tools team repo.",
+      "url": "https://www.ncameron.org/blog/rust-all-hands-dev-tools-stuff/",
+      "date_published": "2018-04-11T02:18:18+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "68f328f0-50d5-4152-aa9a-f5ab3c69f397",
+      "title": "A Shifty Riddle",
+      "content_text": "When I finally implemented opportunistic mutations in mutagen, everything seemed fine until my co-maintainer gnieto found a problem. Code failed to compile with the mutagen plugin, something that should never happen as long as the code in question compiles without the plugin. We not only broke the code – we broke the build.",
+      "url": "http://llogiq.github.io/2018/04/11/shift.html",
+      "date_published": "2018-04-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e497ecb9-788c-476e-bb28-c1746fbff940",
+      "title": "Writing My Final Year Project in Rust",
+      "content_text": "As part of my final year in university I have had to undertake a project and then write a twenty page paper on it. I ended up being assigned one on a type of machine learning algorithm called boosting. This wasn't my first choice unfortunately, so I decided I'd try to make it interesting for myself by implementing it in Rust. Rust was, and still is, quite immature when it comes to machine learning - as Are We Learning Yet? confirms. I thought it would be an interesting challenge to write some machine learning algorithms in a language that has yet to be used too much for this field.",
+      "url": "http://mattyhall.github.io/posts/writing-my-final-year-project-in-rust.html",
+      "date_published": "2018-03-30T23:00:00+00:00",
+      "author": {
+        "name": "Matthew Hall",
+        "url": "http://mattyhall.github.io/blog.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d1d6e382-3b80-431e-ba08-5cbe1ccebce2",
       "title": "Dark Side Of Ergonomics",
       "content_text": "Despite having an experience with wide range of computer languages, including C++ and Haskell (both strong influences to Rusts design), I found Rust hard to learn. Sometimes I grind my teeth about something the compiler doesn’t let me do. Despite that, I didn’t put ergonomics as a wish in any poll. In fact, if I was to take a poll right now, I’d probably be against further ergonomics initiatives.",

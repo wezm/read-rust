@@ -10,6 +10,119 @@
   },
   "items": [
     {
+      "id": "30fe522c-e827-436a-bd52-40314d80e95b",
+      "title": "The Challenge of Using C in Safety-Critical Applications [pdf]",
+      "content_text": "Software errors in safety-critical systems can have severe consequences: property-loss, environmental devastation, injury, or death. Despite the severity of these risks, software continues to be written for safety-critical applications in languages that permit common classes of failures, such as undefined behavior, state corruption, and unexpected termination. One such language is C. Language standards that define allowable subsets (e.g. MISRA) and static analysis tools are often used in an attempt to ameliorate these failures by detecting them in the program code before they result in a critical issue at runtime. These traditional methods are ultimately insufficient when it comes to providing ahead-of-time assurances about safe runtime behavior for safety-critical applications. Alternative approaches must be considered.",
+      "url": "https://polysync.io/s/The-Challenge-of-Using-C-in-Safety-Critical-Applications.pdf",
+      "date_published": "2018-04-11T08:54:41.128+00:00",
+      "author": {
+        "name": "Shea Newton, Nathan Aschbache",
+        "url": "https://polysync.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2238849b-fcc8-4bd4-9828-66637c22f9af",
+      "title": "Why would I use divergent functions?",
+      "content_text": "Rust has some special syntax for ‘diverging functions’, which are functions that do not return.",
+      "url": "https://medium.com/@yangnana11/rust-why-would-i-use-divergent-functions-d9dec59071bc",
+      "date_published": "2018-04-11T08:54:41.128+00:00",
+      "author": {
+        "name": "Yang Nana",
+        "url": "https://medium.com/@yangnana11"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d65aaebc-e17b-421b-86e8-1cc9c63a0408",
+      "title": "Writing An NES Emulator with Rust and WebAssembly",
+      "content_text": "I wrote the NES emulator with Rust and WebAssembly to learn Rust. It’s not perfect and have some audio bugs, but it’s good enough to play Super Mario bros.",
+      "url": "https://medium.com/@bokuweb17/writing-an-nes-emulator-with-rust-and-webassembly-d64de101c49d",
+      "date_published": "2018-04-11T14:30:56.719+00:00",
+      "author": {
+        "name": "bokuweb",
+        "url": "https://medium.com/@bokuweb17"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "cacf27d3-9206-414d-b28f-8745eec00a4a",
+      "title": "Taking the long road (Part 2): Rust bindings for a vector similarity search library",
+      "content_text": "This is part 2 of a story on taking the long road towards Rust bindings to Faiss. You may wish to read part 1 first for a motivation section and a deeper understanding of how I built a plain C API on top of the C++ library.",
+      "url": "https://medium.com/@e_net4/taking-the-load-road-part-2-rust-bindings-for-a-vector-similarity-search-library-914fbc1ec5ed",
+      "date_published": "2018-04-12T20:11:12.081+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://medium.com/@e_net4"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "fc25e5f3-66d9-429d-8ca8-c1882a5083d6",
+      "title": "JavaScript Interop with WebAssembly",
+      "content_text": "In my last post I provided an introduction to WebAssembly — what is it, why do we care, and what does it look like? In this post, I’d like to explore a little bit of the inner workings of how we can communicate between Rust (wasm) and JavaScript. As I mentioned in the last post, WebAssembly is neither JavaScript nor some strongly-typed dialect. It is a standalone, compiled, portable binary. How you send data into and get data out of that binary involves some subtle nuances about how WebAssembly works.",
+      "url": "https://medium.com/@KevinHoffman/javascript-interop-with-webassembly-2c69a3db19e9",
+      "date_published": "2018-04-12T14:14:05.684+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d506eda8-cab3-4046-b0b7-3c16fd1bc53d",
+      "title": "Rust all-hands (dev-tools stuff)",
+      "content_text": "Last week (sigh, the week before last now) we held an 'all-hands' event in Berlin. It was a great event - fantastic to meet so many Rust people in real life and really energising to see how much is being planned and implemented. In this post I want to summarise some of the important dev-tools stuff that happened. Our planning and notes from some meetings is in the dev-tools team repo.",
+      "url": "https://www.ncameron.org/blog/rust-all-hands-dev-tools-stuff/",
+      "date_published": "2018-04-11T02:18:18+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "68f328f0-50d5-4152-aa9a-f5ab3c69f397",
+      "title": "A Shifty Riddle",
+      "content_text": "When I finally implemented opportunistic mutations in mutagen, everything seemed fine until my co-maintainer gnieto found a problem. Code failed to compile with the mutagen plugin, something that should never happen as long as the code in question compiles without the plugin. We not only broke the code – we broke the build.",
+      "url": "http://llogiq.github.io/2018/04/11/shift.html",
+      "date_published": "2018-04-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e497ecb9-788c-476e-bb28-c1746fbff940",
+      "title": "Writing My Final Year Project in Rust",
+      "content_text": "As part of my final year in university I have had to undertake a project and then write a twenty page paper on it. I ended up being assigned one on a type of machine learning algorithm called boosting. This wasn't my first choice unfortunately, so I decided I'd try to make it interesting for myself by implementing it in Rust. Rust was, and still is, quite immature when it comes to machine learning - as Are We Learning Yet? confirms. I thought it would be an interesting challenge to write some machine learning algorithms in a language that has yet to be used too much for this field.",
+      "url": "http://mattyhall.github.io/posts/writing-my-final-year-project-in-rust.html",
+      "date_published": "2018-03-30T23:00:00+00:00",
+      "author": {
+        "name": "Matthew Hall",
+        "url": "http://mattyhall.github.io/blog.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a89cb196-c162-4c49-b1d5-642547265f39",
       "title": "The case for deadlines",
       "content_text": "Rust aims to be the foundation of fast and robust software. A thorn in that side is the choice of timeout-centric APIs for I/O and multithreading. I posit this was a bad choice and it needs to be remedied as soon as possible before more APIs proliferate this (possibly accidental) design decision.",
