@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ba7af9ee-e916-4d65-b7b2-c6afa2477ade",
+      "title": "Down a Rusty Rabbit Hole",
+      "content_text": "Last week I fell down a rather interesting rabbit hole in Rust, which was basically me discovering a series of quirks of the Rust compiler/language, each one leading to the next when I asked “why?”",
+      "url": "https://manishearth.github.io/blog/2018/04/12/down-a-rusty-rabbit-hole/",
+      "date_published": "2018-04-12T00:00:00+00:00",
+      "author": {
+        "name": "Manish Goregaokar",
+        "url": "https://manishearth.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "30fe522c-e827-436a-bd52-40314d80e95b",
       "title": "The Challenge of Using C in Safety-Critical Applications [pdf]",
       "content_text": "Software errors in safety-critical systems can have severe consequences: property-loss, environmental devastation, injury, or death. Despite the severity of these risks, software continues to be written for safety-critical applications in languages that permit common classes of failures, such as undefined behavior, state corruption, and unexpected termination. One such language is C. Language standards that define allowable subsets (e.g. MISRA) and static analysis tools are often used in an attempt to ameliorate these failures by detecting them in the program code before they result in a critical issue at runtime. These traditional methods are ultimately insufficient when it comes to providing ahead-of-time assurances about safe runtime behavior for safety-critical applications. Alternative approaches must be considered.",

@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "ba7af9ee-e916-4d65-b7b2-c6afa2477ade",
+      "title": "Down a Rusty Rabbit Hole",
+      "content_text": "Last week I fell down a rather interesting rabbit hole in Rust, which was basically me discovering a series of quirks of the Rust compiler/language, each one leading to the next when I asked “why?”",
+      "url": "https://manishearth.github.io/blog/2018/04/12/down-a-rusty-rabbit-hole/",
+      "date_published": "2018-04-12T00:00:00+00:00",
+      "author": {
+        "name": "Manish Goregaokar",
+        "url": "https://manishearth.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7f54a4c5-d312-4b64-9d90-4945dd6d1b72",
+      "title": "Writing CloudABI applications in Rust",
+      "content_text": "Installing a toolchain for Rust is very easy, as support for CloudABI has been upstreamed into the Rust codebase. Automated builds are performed by the Rust developers. As there hasn’t been a stable release of Rust to include CloudABI support yet, you must for now make use of Rust’s nightly track.",
+      "url": "https://cloudabi.org/write/rust/",
+      "date_published": "2018-04-13T05:18:57+00:00",
+      "author": {
+        "name": "CloudABI",
+        "url": "https://cloudabi.org/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "63444a58-4cbd-4441-b5c3-5f216560e276",
+      "title": "New Pop!_OS Testing Release with Rust based Linux installer \"distinst\"",
+      "content_text": "Our second iteration of the 18.04 ISO is ready for testing. Testing the new installer and Optimus switching is our priority for this test release. Please test installing on a variety of hardware and provide feedback on any issues you encounter. If you run into any bugs, you can file them at https://github.com/pop-os/pop/issues.",
+      "url": "https://system76.com/pop/testing",
+      "date_published": "2018-04-13T21:05:51+00:00",
+      "author": {
+        "name": "System76",
+        "url": "https://system76.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "d412d980-cc59-4a0b-ab9e-19100f3b8927",
+      "title": "Faster Bulletproofs with Ristretto & AVX2",
+      "content_text": "A few months ago, Bünz, Bootle, Boneh, Poelstra, Wuille, and Maxwell published Bulletproofs, which dramatically improves proof performance both in terms of proof size and verification time. In addition, it allows proving a much wider class of statements than just range proofs.\n\nAt Chain, we (Henry de Valence, Cathie Yun and Oleg Andreev) have been working on a pure-Rust Bulletproofs implementation, whose initial version we are publishing today, together with a set of notes.",
+      "url": "https://blog.chain.com/faster-bulletproofs-with-ristretto-avx2-29450b4490cd",
+      "date_published": "2018-04-13T19:21:27.639+00:00",
+      "author": {
+        "name": "Chain",
+        "url": "https://blog.chain.com/@chaininc"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "30fe522c-e827-436a-bd52-40314d80e95b",
       "title": "The Challenge of Using C in Safety-Critical Applications [pdf]",
       "content_text": "Software errors in safety-critical systems can have severe consequences: property-loss, environmental devastation, injury, or death. Despite the severity of these risks, software continues to be written for safety-critical applications in languages that permit common classes of failures, such as undefined behavior, state corruption, and unexpected termination. One such language is C. Language standards that define allowable subsets (e.g. MISRA) and static analysis tools are often used in an attempt to ameliorate these failures by detecting them in the program code before they result in a critical issue at runtime. These traditional methods are ultimately insufficient when it comes to providing ahead-of-time assurances about safe runtime behavior for safety-critical applications. Alternative approaches must be considered.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "d412d980-cc59-4a0b-ab9e-19100f3b8927",
+      "title": "Faster Bulletproofs with Ristretto & AVX2",
+      "content_text": "A few months ago, Bünz, Bootle, Boneh, Poelstra, Wuille, and Maxwell published Bulletproofs, which dramatically improves proof performance both in terms of proof size and verification time. In addition, it allows proving a much wider class of statements than just range proofs.\n\nAt Chain, we (Henry de Valence, Cathie Yun and Oleg Andreev) have been working on a pure-Rust Bulletproofs implementation, whose initial version we are publishing today, together with a set of notes.",
+      "url": "https://blog.chain.com/faster-bulletproofs-with-ristretto-avx2-29450b4490cd",
+      "date_published": "2018-04-13T19:21:27.639+00:00",
+      "author": {
+        "name": "Chain",
+        "url": "https://blog.chain.com/@chaininc"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "b93c9682-4e53-4a7f-a39b-79d57b2b4737",
       "title": "New sysinfo version (huge performance improvements!)",
       "content_text": "This new version comes with great performance improvements. We're talking about 3x faster on macos, 2x faster on linux and 3x faster on windows (the benchmarks are at the end of the post).",

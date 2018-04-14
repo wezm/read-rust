@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7f54a4c5-d312-4b64-9d90-4945dd6d1b72",
+      "title": "Writing CloudABI applications in Rust",
+      "content_text": "Installing a toolchain for Rust is very easy, as support for CloudABI has been upstreamed into the Rust codebase. Automated builds are performed by the Rust developers. As there hasn’t been a stable release of Rust to include CloudABI support yet, you must for now make use of Rust’s nightly track.",
+      "url": "https://cloudabi.org/write/rust/",
+      "date_published": "2018-04-13T05:18:57+00:00",
+      "author": {
+        "name": "CloudABI",
+        "url": "https://cloudabi.org/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "63444a58-4cbd-4441-b5c3-5f216560e276",
+      "title": "New Pop!_OS Testing Release with Rust based Linux installer \"distinst\"",
+      "content_text": "Our second iteration of the 18.04 ISO is ready for testing. Testing the new installer and Optimus switching is our priority for this test release. Please test installing on a variety of hardware and provide feedback on any issues you encounter. If you run into any bugs, you can file them at https://github.com/pop-os/pop/issues.",
+      "url": "https://system76.com/pop/testing",
+      "date_published": "2018-04-13T21:05:51+00:00",
+      "author": {
+        "name": "System76",
+        "url": "https://system76.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "f6bf64c8-3a31-4614-ba91-f5c16a0986b5",
       "title": "Writing an OS in Pure Rust",
       "content_text": "Over the past six months we've been working on a second edition of this blog. Our goals for this new version are numerous and we are still not done yet, but today we reached a major milestone: It is now possible to build the OS natively on Windows, macOS, and Linux without any non-Rust dependendencies.",
