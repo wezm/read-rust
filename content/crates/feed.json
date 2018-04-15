@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ef7fa499-a585-491d-9700-38962a125092",
+      "title": "dalek cryptography",
+      "content_text": "A suite of cryptographic libraries and protocol implementations, written in the systems programming language Rust, for creating blazingly-fast, production-quality cryptographic applications.",
+      "url": "https://dalek.rs/",
+      "date_published": "2018-01-24T00:07:02+00:00",
+      "author": {
+        "name": "isis agora lovecruft",
+        "url": "https://dalek.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "318f9d08-d86a-4799-ac08-75014d089475",
       "title": "im - Immutable Data Structures for Rust",
       "content_text": "This library implements several of the more commonly useful immutable data structures for Rust. They rely on structural sharing to keep most operations fast without needing to mutate the underlying data store, leading to more predictable code without necessarily sacrificing performance.",

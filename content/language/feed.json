@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "f4d6ff64-87eb-466f-94a6-fbbaa28fab7d",
+      "title": "From Chaos to Order -- Tools and Techniques for Testing TiDB, A Distributed NewSQL Database",
+      "content_text": "As an open source distributed NewSQL Hybrid Transactional/Analytical Processing (HTAP) database, TiDB contains the most important asset of our customers--their data. One of the fundamental and foremost requirements of our system is to be fault-tolerant. But how do you ensure fault tolerance in a distributed database? This article covers the top fault injection tools and techniques in Chaos Engineering, as well as how to execute Chaos practices in TiDB.",
+      "url": "https://pingcap.com/blog/chaos-practice-in-tidb/",
+      "date_published": "2018-04-14T00:00:00+00:00",
+      "author": {
+        "name": "Siddon Tang",
+        "url": "https://pingcap.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a38c18ee-88ab-46dd-994c-2c4e4d288d4c",
+      "title": "Instance Identity in C++ and Rust",
+      "content_text": "A document describing how (in my opinion) C++’s and Rust’s definitions of object instance differ.",
+      "url": "https://jrvanwhy.github.io/instance-identity/",
+      "date_published": "2018-04-10T21:04:09+00:00",
+      "author": {
+        "name": "Johnathan Van Why",
+        "url": "https://jrvanwhy.github.io/instance-identity/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b92200f5-9ac0-4104-9b0d-f444c55aceb8",
+      "title": "Rust CLI Survey Results",
+      "content_text": "Over the month of March 2018, we've been accepting responses to the Rust CLI Survey. This survey was designed to give us some areas of focus, according to the community, for the CLI Working Group (CLI-WG).\n\nOne of the goals of Rust 2018 is to make writing command line applications in Rust as frictionless (and fun!) as possible. And we are super excited to say: we've received 1,045 responses! The results, while varied, paint a pretty clear picture for tangible goals.",
+      "url": "https://github.com/rust-lang-nursery/cli-wg/blob/master/survey-results/Readme.md",
+      "date_published": "2018-04-12T22:26:15+00:00",
+      "author": {
+        "name": "Rust CLI Working Group",
+        "url": "https://github.com/rust-lang-nursery/cli-wg"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ba7af9ee-e916-4d65-b7b2-c6afa2477ade",
       "title": "Down a Rusty Rabbit Hole",
       "content_text": "Last week I fell down a rather interesting rabbit hole in Rust, which was basically me discovering a series of quirks of the Rust compiler/language, each one leading to the next when I asked “why?”",

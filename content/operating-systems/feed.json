@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a4be83a4-b126-479a-bfca-81e7d612d2b3",
+      "title": "Redox Summer of Code",
+      "content_text": "Redox OS is running its own Summer of Code this year, after the Microkernel devroom did not get accepted into GSoC 2018. We are looking for both Students and Sponsors who want to help Redox OS grow. At the moment, Redox OS has $10,800 in donations from various platforms to use to fund students. This will give us three students working for three months, if each student requests $1200 per month on average as described in Payment.\n\nIn order to fund more students, we are looking for sponsors who are willing to fund RSoC. Donations can be made on the Donate page. All donations will be used to fund Redox OS activities, with about 90% of those over the past year currently allocated to RSoC.",
+      "url": "https://www.redox-os.org/rsoc/",
+      "date_published": "2018-04-14T21:10:05+00:00",
+      "author": {
+        "name": "Jeremy Soller",
+        "url": "https://www.redox-os.org/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "7f54a4c5-d312-4b64-9d90-4945dd6d1b72",
       "title": "Writing CloudABI applications in Rust",
       "content_text": "Installing a toolchain for Rust is very easy, as support for CloudABI has been upstreamed into the Rust codebase. Automated builds are performed by the Rust developers. As there hasn’t been a stable release of Rust to include CloudABI support yet, you must for now make use of Rust’s nightly track.",
