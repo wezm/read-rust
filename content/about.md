@@ -3,9 +3,9 @@ layout: default.liquid
 ---
 
 Read Rust collects interesting posts related to the [Rust programming
-language][rust-lang]. It is run by [Wesley Moore][wezm] with contributions
-from the Rust community. You can [follow me on Twitter][@wezm] or
-[Mastodon][@wezm@mastodon].
+language][rust-lang]. It is run by [Wesley Moore][wezm] with contributions from
+the Rust community. Find me on [Twitter][@wezm] or [Mastodon][@wezm@mastodon].
+You can [support my work on Patreon][Patreon].
 
 Read Rust is an open source project. The [source code][source] and [issue
 tracker][issues] are hosted on GitHub.
@@ -57,3 +57,4 @@ added post:
 [the Noun Project]: http://thenounproject.com/
 [Facebook]: https://www.facebook.com/readrust/
 [Super Tiny Icons]: https://github.com/edent/SuperTinyIcons
+[Patreon]: https://patreon.com/wezm

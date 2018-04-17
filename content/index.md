@@ -8,6 +8,9 @@ programming&nbsp;language][rust-lang].
 [Subscribe to a feed][feeds], or follow Read Rust on [Twitter], [Mastodon] or
 [Facebook] to receive new posts as they're added.
 
+Read Rust is run by [Wesley Moore]. If you enjoy it, consider [supporting
+me][Patreon] or any of the wonderful people building and writing in Rust.
+
 ## Sections
 
 New posts are added to one or more of the following sections:
@@ -54,3 +57,5 @@ New posts are added to one or more of the following sections:
 [Twitter]: https://twitter.com/read_rust
 [Facebook]: https://www.facebook.com/readrust/
 [Mastodon]: https://botsin.space/@readrust
+[Patreon]: https://patreon.com/wezm
+[Wesley Moore]: http://www.wezm.net/about/
