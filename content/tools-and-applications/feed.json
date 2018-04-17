@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f6e1bdda-278a-4077-8d2f-49417303637f",
+      "title": "dust - A more intuitive version of du in Rust",
+      "content_text": "Dust is meant to give you an instant overview of which directories are using disk space without requiring sort or head. Dust will print a maximum of 1 'Did not have permissions message'. Dust will list the 15 biggest sub directories or files and will smartly recurse down the tree to find the larger ones. There is no need for a '-d' flag or a '-h' flag. The largest sub directory will have its size shown in red",
+      "url": "https://github.com/bootandy/dust",
+      "date_published": "2018-04-18T07:26:00+10:00",
+      "author": {
+        "name": "andy boot",
+        "url": "https://github.com/bootandy"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ef8bca4e-5627-4bde-a21f-9dae321ac7c0",
+      "title": "angle-grinder - Slice and dice log files on the command line",
+      "content_text": "Angle-grinder allows you to parse, aggregate, sum, average, percentile, and sort your data. You can see it, live-updating, in your terminal. Angle grinder is designed for when, for whatever reason, you don't have your data in graphite/honeycomb/kibana/sumologic/splunk/etc. but still want to be able to do sophisticated analytics.\n\nAngle grinder can process about a million rows per second, so it's usable for fairly meaty aggregation. The results will live update in your terminal as data is processed. Angle grinder is a bare bones functional programming language coupled with a pretty terminal UI.",
+      "url": "https://github.com/rcoh/angle-grinder",
+      "date_published": "2018-04-18T07:26:00+10:00",
+      "author": {
+        "name": "Russell Cohen",
+        "url": "https://github.com/rcoh"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "d412d980-cc59-4a0b-ab9e-19100f3b8927",
       "title": "Faster Bulletproofs with Ristretto & AVX2",
       "content_text": "A few months ago, Bünz, Bootle, Boneh, Poelstra, Wuille, and Maxwell published Bulletproofs, which dramatically improves proof performance both in terms of proof size and verification time. In addition, it allows proving a much wider class of statements than just range proofs.\n\nAt Chain, we (Henry de Valence, Cathie Yun and Oleg Andreev) have been working on a pure-Rust Bulletproofs implementation, whose initial version we are publishing today, together with a set of notes.",

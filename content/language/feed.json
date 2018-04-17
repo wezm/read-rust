@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "89612f07-abeb-400f-8bf1-0826601e17d1",
+      "title": "Rust pattern: Rooting an Rc handle",
+      "content_text": "I’ve decided to do a little series of posts about Rust compiler errors. Each one will talk about a particular error that I got recently and try to explain (a) why I am getting it and (b) how I fixed it. The purpose of this series of posts is partly to explain Rust, but partly just to gain data for myself. I may also write posts about errors I’m not getting – basically places where I anticipated an error, and used a pattern to avoid it. I hope that after writing enough of these posts, I or others will be able to synthesize some of these facts to make intermediate Rust material, or perhaps to improve the language itself.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/04/16/rust-pattern-rooting-an-rc-handle/",
+      "date_published": "2018-04-16T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "447b930e-7350-4ef3-80d4-2ec23a4c5708",
+      "title": "Implementing multiprocessing.pool.ThreadPool from Python in Rust",
+      "content_text": "In this post, we will implement multiprocessing.pool.ThreadPool from Python in Rust. It represents a thread-oriented version of multiprocessing.Pool, which offers a convenient means of parallelizing the execution of a function across multiple input values by distributing the input data across processes. We will use an existing thread-pool implementation and focus on adjusting its interface to match that of multiprocessing.pool.ThreadPool.",
+      "url": "https://blog.petrzemek.net/2018/04/16/implementing-multiprocessing-pool-threadpool-from-python-in-rust/",
+      "date_published": "2018-04-16T15:14:15+00:00",
+      "author": {
+        "name": "Petr Zemek",
+        "url": "https://blog.petrzemek.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c3057e94-6b2a-4f19-b109-d6f7b17aefbe",
+      "title": "A Useful Feature Few Rust Programmers Know About",
+      "content_text": "Surprisingly few know about the built-in pretty-printer. In the book, there is only a short passage that mentions {:#?} in passing. It aligns structs and enums based on nested positions and is automatically derived with Debug.",
+      "url": "http://rickyhan.com/jekyll/update/2018/04/16/the-best-kept-secret-rust-feature.html",
+      "date_published": "2018-04-16T04:00:00+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f4d6ff64-87eb-466f-94a6-fbbaa28fab7d",
       "title": "From Chaos to Order -- Tools and Techniques for Testing TiDB, A Distributed NewSQL Database",
       "content_text": "As an open source distributed NewSQL Hybrid Transactional/Analytical Processing (HTAP) database, TiDB contains the most important asset of our customers--their data. One of the fundamental and foremost requirements of our system is to be fault-tolerant. But how do you ensure fault tolerance in a distributed database? This article covers the top fault injection tools and techniques in Chaos Engineering, as well as how to execute Chaos practices in TiDB.",
