@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "18ca5e39-fd8f-4739-95ef-9daaef6d525d",
+      "title": "Announcing cargo src (beta)",
+      "content_text": "cargo src is a new tool for exploring your Rust code. It is a cargo plugin which runs locally and lets you navigate your project in a web browser. It has syntax highlighting, jump to definition, type on hover, semantic search, find uses, find impls, and more.",
+      "url": "https://ncameron.org/blog/announcing-cargo-src-beta/",
+      "date_published": "2018-04-18T20:52:39+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f6e1bdda-278a-4077-8d2f-49417303637f",
       "title": "dust - A more intuitive version of du in Rust",
       "content_text": "Dust is meant to give you an instant overview of which directories are using disk space without requiring sort or head. Dust will print a maximum of 1 'Did not have permissions message'. Dust will list the 15 biggest sub directories or files and will smartly recurse down the tree to find the larger ones. There is no need for a '-d' flag or a '-h' flag. The largest sub directory will have its size shown in red",

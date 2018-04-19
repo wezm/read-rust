@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "53831192-f7e2-4841-898f-f39f1cd9f1ff",
+      "title": "Madrid GNOME+Rust Hackfest, part 1",
+      "content_text": "I'm in Madrid since Monday, at the third GNOME+Rust hackfest! The OpenShine folks are kindly letting us use their offices, on the seventh floor of a building by the Cuatro Caminos roundabout.\n\nI am very, very thankful that this time everyone seems to be working on developing gnome-class. It's a difficult project for me, and more brainpower is definitely welcome — all the indirection, type conversion, GObject obscurity, and procedural macro shenanigans definitely take a toll on oneself.",
+      "url": "https://people.gnome.org/~federico/blog/index.html",
+      "date_published": "2018-04-18T02:55:12-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "43c290f5-4178-431d-9874-5e24cde01299",
+      "title": "Hello wasm-pack!",
+      "content_text": "wasm-pack is a tool for assembling and packaging Rust crates that target WebAssembly. These packages can be published to the npm Registry and used alongside other packages. This means you can use them side-by-side with JS and other packages, and in many kind of applications, be it a Node.js server side app, a client-side application bundled by Webpack, or any other sort of application that uses npm dependencies. You can find wasm-pack on crates.io and GitHub.",
+      "url": "https://hacks.mozilla.org/2018/04/hello-wasm-pack/",
+      "date_published": "2018-04-18T14:54:13+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "18ca5e39-fd8f-4739-95ef-9daaef6d525d",
+      "title": "Announcing cargo src (beta)",
+      "content_text": "cargo src is a new tool for exploring your Rust code. It is a cargo plugin which runs locally and lets you navigate your project in a web browser. It has syntax highlighting, jump to definition, type on hover, semantic search, find uses, find impls, and more.",
+      "url": "https://ncameron.org/blog/announcing-cargo-src-beta/",
+      "date_published": "2018-04-18T20:52:39+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "89612f07-abeb-400f-8bf1-0826601e17d1",
       "title": "Rust pattern: Rooting an Rc handle",
       "content_text": "I’ve decided to do a little series of posts about Rust compiler errors. Each one will talk about a particular error that I got recently and try to explain (a) why I am getting it and (b) how I fixed it. The purpose of this series of posts is partly to explain Rust, but partly just to gain data for myself. I may also write posts about errors I’m not getting – basically places where I anticipated an error, and used a pattern to avoid it. I hope that after writing enough of these posts, I or others will be able to synthesize some of these facts to make intermediate Rust material, or perhaps to improve the language itself.",

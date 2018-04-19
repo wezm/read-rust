@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "53831192-f7e2-4841-898f-f39f1cd9f1ff",
+      "title": "Madrid GNOME+Rust Hackfest, part 1",
+      "content_text": "I'm in Madrid since Monday, at the third GNOME+Rust hackfest! The OpenShine folks are kindly letting us use their offices, on the seventh floor of a building by the Cuatro Caminos roundabout.\n\nI am very, very thankful that this time everyone seems to be working on developing gnome-class. It's a difficult project for me, and more brainpower is definitely welcome — all the indirection, type conversion, GObject obscurity, and procedural macro shenanigans definitely take a toll on oneself.",
+      "url": "https://people.gnome.org/~federico/blog/index.html",
+      "date_published": "2018-04-18T02:55:12-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "b525113d-ce0a-4c11-b4d1-553eb3fef88d",
       "title": "Increasing Rust’s Reach 2018",
       "content_text": "The Rust team is happy to announce that we’re running our Increasing Rust’s Reach program again this year. Increasing Rust’s Reach is one of several programs run by the project to grow Rust’s community of project collaborators and leaders.",

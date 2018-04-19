@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "43c290f5-4178-431d-9874-5e24cde01299",
+      "title": "Hello wasm-pack!",
+      "content_text": "wasm-pack is a tool for assembling and packaging Rust crates that target WebAssembly. These packages can be published to the npm Registry and used alongside other packages. This means you can use them side-by-side with JS and other packages, and in many kind of applications, be it a Node.js server side app, a client-side application bundled by Webpack, or any other sort of application that uses npm dependencies. You can find wasm-pack on crates.io and GitHub.",
+      "url": "https://hacks.mozilla.org/2018/04/hello-wasm-pack/",
+      "date_published": "2018-04-18T14:54:13+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "69dd67c0-ef9b-4a6c-9a60-2de96c36113a",
       "title": "How To Optimize JavaScript Code with Rust Part 1",
       "content_text": "In the first part of this Rust series, we’re going to walk through setting up Rust, writing Rust code, exporting the code, and using the code in our Node environment. By the end of this article, you’ll see how painless marrying Rust with JavaScript is.",
