@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9cb9976f-4023-496c-9bdf-b5eff31fe5bb",
+      "title": "Flipper - A new embedded development paradigm",
+      "content_text": "Flipper is a new kind of development board that redefines the embedded software development cycle by offloading development/debugging into higher level languages + tools. One of the languages that we're putting the most focus into adding support for is Rust. We would love to see more embedded done with Rust and Flipper provides a great springboard for existing Rust developers to familiarize themselves with embedded hardware using the tools they already know how to use.",
+      "url": "https://www.reddit.com/r/rust/comments/8d8vqn/flipper_a_new_embedded_development_paradigm/",
+      "date_published": "2018-04-18T20:28:34+00:00",
+      "author": {
+        "name": "George Morgan",
+        "url": "https://www.reddit.com/user/george-morgan"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "5230134e-6bfc-4a88-9cee-7bec1f15e099",
       "title": "Embedded Rust: Why?",
       "content_text": "I will try to publish here a series of articles about my approach to embedded development and how I plan to achieve that in Rust.",

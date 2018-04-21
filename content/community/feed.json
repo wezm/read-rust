@@ -10,10 +10,38 @@
   },
   "items": [
     {
+      "id": "3a1ac912-0af7-47cb-b540-1cb3efc46956",
+      "title": "Madrid GNOME+Rust Hackfest, part 2",
+      "content_text": "Hacking on gnome-class continues apace! Philippe updated our dependencies. Alberto made the syntax for per-instance private structsmore ergonomic, and then made that code nice and compact. Martin improved our conversion from CamelCase to snake_case for code generation. Daniel added initial support for GObject properties. This is not finished...; ",
+      "url": "https://people.gnome.org/~federico/blog/madrid-gnome-rust-2.html",
+      "date_published": "2018-04-20T08:59:23+02:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "86f4fa21-5194-4439-a131-85c3a587a1fd",
+      "title": "Rust+GNOME Hackfest in Madrid",
+      "content_text": "Last week was the third edition of the Rust+GNOME hackfest. What about talking a bit about what we achieved? The goals of this edition were: Improve gnome-class, improve gtk-rs continuous integration process, improve gtk-rs crates bindings. I'm happy to say that we were able to achieve all of these goals!",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-04-21+Rust%2BGNOME+Hackfest+in+Madrid",
+      "date_published": "2018-04-21T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "53831192-f7e2-4841-898f-f39f1cd9f1ff",
       "title": "Madrid GNOME+Rust Hackfest, part 1",
       "content_text": "I'm in Madrid since Monday, at the third GNOME+Rust hackfest! The OpenShine folks are kindly letting us use their offices, on the seventh floor of a building by the Cuatro Caminos roundabout.\n\nI am very, very thankful that this time everyone seems to be working on developing gnome-class. It's a difficult project for me, and more brainpower is definitely welcome — all the indirection, type conversion, GObject obscurity, and procedural macro shenanigans definitely take a toll on oneself.",
-      "url": "https://people.gnome.org/~federico/blog/index.html",
+      "url": "https://people.gnome.org/~federico/blog/madrid-gnome-rust-1.html",
       "date_published": "2018-04-18T02:55:12-05:00",
       "author": {
         "name": "Federico Mena Quintero",

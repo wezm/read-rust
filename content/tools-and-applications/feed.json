@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "36e40f73-b836-49cd-a558-d93a238c7386",
+      "title": "fastmod - A fast partial replacement for the codemod tool",
+      "content_text": "fastmod is a fast partial replacement for codemod. Like codemod, it is a tool to assist you with large-scale codebase refactors, and it supports most of codemod's options. fastmod's major philosophical difference from codemod is that it is focused on improving the use case \"I want to use interactive mode to make sure my regex is correct, and then I want to apply the regex everywhere\". For this use case, it offers much better performance than codemod",
+      "url": "https://github.com/facebookincubator/fastmod",
+      "date_published": "2018-04-19T20:30:07+00:00",
+      "author": {
+        "name": "Facebook Incubator",
+        "url": "https://github.com/facebookincubator"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d0b170a0-b0c5-4d33-b3f2-e0e0dcac1872",
+      "title": "Pijul 0.10",
+      "content_text": "I’m pleased to announce the new release of Pijul, version 0.10. Pijul is an easy to use, distributed and fast version control system. This release has been a long time coming, but brings in an important number of new features and stability enhancements.",
+      "url": "https://pijul.org/posts/2018-04-21-pijul-0.10/",
+      "date_published": "2018-04-21T15:13:57+02:00",
+      "author": {
+        "name": "Pijul",
+        "url": "https://pijul.org/posts"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "18ca5e39-fd8f-4739-95ef-9daaef6d525d",
       "title": "Announcing cargo src (beta)",
       "content_text": "cargo src is a new tool for exploring your Rust code. It is a cargo plugin which runs locally and lets you navigate your project in a web browser. It has syntax highlighting, jump to definition, type on hover, semantic search, find uses, find impls, and more.",

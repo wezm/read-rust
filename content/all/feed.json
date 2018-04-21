@@ -10,10 +10,150 @@
   },
   "items": [
     {
+      "id": "4eb3e72f-dec7-445e-9cbe-5464f3df1ceb",
+      "title": "Rust memory safety revolution",
+      "content_text": "This introduction is written for people, who are programmers, but don’t know Rust or are at the very beginning of learning it. It’s easier to understand for readers who know C, C++ or other language with manually managed memory as well as some with garbage collector. It’s a high-level introduction intended to present core Rust concepts and encourage further learning. It’s not a tutorial, there is no Hello Rust in the end.",
+      "url": "https://anixe.pl/content/news/rust_memory_safety_revolution",
+      "date_published": "2018-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Igor Żuk",
+        "url": "https://anixe.pl/news"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9cb9976f-4023-496c-9bdf-b5eff31fe5bb",
+      "title": "Flipper - A new embedded development paradigm",
+      "content_text": "Flipper is a new kind of development board that redefines the embedded software development cycle by offloading development/debugging into higher level languages + tools. One of the languages that we're putting the most focus into adding support for is Rust. We would love to see more embedded done with Rust and Flipper provides a great springboard for existing Rust developers to familiarize themselves with embedded hardware using the tools they already know how to use.",
+      "url": "https://www.reddit.com/r/rust/comments/8d8vqn/flipper_a_new_embedded_development_paradigm/",
+      "date_published": "2018-04-18T20:28:34+00:00",
+      "author": {
+        "name": "George Morgan",
+        "url": "https://www.reddit.com/user/george-morgan"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "017d9ce1-f259-4d95-bffc-b3d44dfc8cde",
+      "title": "Dev-tools in 2018",
+      "content_text": "This is a bit late (how is it the middle of April already?!), but the dev-tools team has lots of exciting plans for 2018 and I want to talk about them! Our goals for 2018 Here's a summary of our goals for the year. Ship it! We want to ship",
+      "url": "https://www.ncameron.org/blog/dev-tools-in-2018/",
+      "date_published": "2018-04-19T19:31:53+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "36e40f73-b836-49cd-a558-d93a238c7386",
+      "title": "fastmod - A fast partial replacement for the codemod tool",
+      "content_text": "fastmod is a fast partial replacement for codemod. Like codemod, it is a tool to assist you with large-scale codebase refactors, and it supports most of codemod's options. fastmod's major philosophical difference from codemod is that it is focused on improving the use case \"I want to use interactive mode to make sure my regex is correct, and then I want to apply the regex everywhere\". For this use case, it offers much better performance than codemod",
+      "url": "https://github.com/facebookincubator/fastmod",
+      "date_published": "2018-04-19T20:30:07+00:00",
+      "author": {
+        "name": "Facebook Incubator",
+        "url": "https://github.com/facebookincubator"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "3a1ac912-0af7-47cb-b540-1cb3efc46956",
+      "title": "Madrid GNOME+Rust Hackfest, part 2",
+      "content_text": "Hacking on gnome-class continues apace! Philippe updated our dependencies. Alberto made the syntax for per-instance private structsmore ergonomic, and then made that code nice and compact. Martin improved our conversion from CamelCase to snake_case for code generation. Daniel added initial support for GObject properties. This is not finished...; ",
+      "url": "https://people.gnome.org/~federico/blog/madrid-gnome-rust-2.html",
+      "date_published": "2018-04-20T08:59:23+02:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "6e75a3dc-d157-4f13-878c-5111cd6b03a2",
+      "title": "Small WebAssembly Binaries with Rust + Emscripten",
+      "content_text": "The Rust language is one of the earliest adopters of WebAssembly, and it has more than one way to compile to it:",
+      "url": "https://kripken.github.io/blog/binaryen/2018/04/18/rust-emscripten.html",
+      "date_published": "2018-04-18T17:52:56+00:00",
+      "author": {
+        "name": "Alon Zakai",
+        "url": "https://kripken.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services "
+      ]
+    },
+    {
+      "id": "4096f192-ba2d-4a25-b1be-f3e4b0b40b51",
+      "title": "BYO Standard: An Explorer's Guide to Complier Plugins",
+      "content_text": "The Rust programming language provides powerful guarantees around memory and thread safety. It also exposes all the knobs required for implementing custom rules, enabling a project to make additional guarantees and enforce opinions on best practice. Embedded standards are very opinionated about software practices—like using floating point values as loop counters or the number of possible exit points of a function—and Rust’s defaults don’t prevent every runtime panic (for example, recursion that goes too deep and overflows the stack).\n\nFor PolySync, a runtime panic means the potential for an unsafe situation on the road, and with that in mind, we’ve explored ways to restrict that potential. Of course, we aren’t the only ones thinking about ways to improve the quality of code at compile time by enforcing the right rules for the job. Active projects like rust-clippy are working to do that too by providing lints to supplement the rustc defaults.\n\nIn this post we’ll explore how to enforce a rule by prohibiting a practice we’ve formed an opinion about, the indexing of a vector or an array.",
+      "url": "https://polysync.io/explorers-guide-to-compiler-plugins",
+      "date_published": "2018-04-21T00:00:00+00:00",
+      "author": {
+        "name": "Shea Newton",
+        "url": "https://polysync.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ba2b10d2-16a7-4036-8e8f-1fe0d113b0ac",
+      "title": "Why Rust's error handling is awesome",
+      "content_text": "This post is about the process of transforming something you would write as a one-off script in Python (or any other scripting language) into a library including error handling.",
+      "url": "http://rantsideasstuff.com/posts/2018/04/20-rust-error-handling-awesome/",
+      "date_published": "2018-04-20T10:00:00+02:00",
+      "author": {
+        "name": "Zoran Zaric",
+        "url": "http://rantsideasstuff.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d0b170a0-b0c5-4d33-b3f2-e0e0dcac1872",
+      "title": "Pijul 0.10",
+      "content_text": "I’m pleased to announce the new release of Pijul, version 0.10. Pijul is an easy to use, distributed and fast version control system. This release has been a long time coming, but brings in an important number of new features and stability enhancements.",
+      "url": "https://pijul.org/posts/2018-04-21-pijul-0.10/",
+      "date_published": "2018-04-21T15:13:57+02:00",
+      "author": {
+        "name": "Pijul",
+        "url": "https://pijul.org/posts"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "86f4fa21-5194-4439-a131-85c3a587a1fd",
+      "title": "Rust+GNOME Hackfest in Madrid",
+      "content_text": "Last week was the third edition of the Rust+GNOME hackfest. What about talking a bit about what we achieved? The goals of this edition were: Improve gnome-class, improve gtk-rs continuous integration process, improve gtk-rs crates bindings. I'm happy to say that we were able to achieve all of these goals!",
+      "url": "https://blog.guillaume-gomez.fr/articles/2018-04-21+Rust%2BGNOME+Hackfest+in+Madrid",
+      "date_published": "2018-04-21T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "53831192-f7e2-4841-898f-f39f1cd9f1ff",
       "title": "Madrid GNOME+Rust Hackfest, part 1",
       "content_text": "I'm in Madrid since Monday, at the third GNOME+Rust hackfest! The OpenShine folks are kindly letting us use their offices, on the seventh floor of a building by the Cuatro Caminos roundabout.\n\nI am very, very thankful that this time everyone seems to be working on developing gnome-class. It's a difficult project for me, and more brainpower is definitely welcome — all the indirection, type conversion, GObject obscurity, and procedural macro shenanigans definitely take a toll on oneself.",
-      "url": "https://people.gnome.org/~federico/blog/index.html",
+      "url": "https://people.gnome.org/~federico/blog/madrid-gnome-rust-1.html",
       "date_published": "2018-04-18T02:55:12-05:00",
       "author": {
         "name": "Federico Mena Quintero",
