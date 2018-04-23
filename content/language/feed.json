@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "096f02f7-0ce4-41ef-8896-f8209ca126f5",
+      "title": "GLib/GIO async operations and Rust futures + async/await",
+      "content_text": "Unfortunately I was not able to attend the Rust+GNOME hackfest in Madrid last week, but I could at least spend some of my work time at Centricular on implementing one of the things I wanted to work on during the hackfest. The other one, more closely related to the gnome-class work, will be the topic &#8230; <a href=\"https://coaxion.net/blog/2018/04/glib-gio-async-operations-and-rust-futures-async-await/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">GLib/GIO async operations and Rust futures + async/await</span></a>",
+      "url": "https://coaxion.net/blog/2018/04/glib-gio-async-operations-and-rust-futures-async-await/",
+      "date_published": "2018-04-23T08:46:32+00:00",
+      "author": {
+        "name": "With the latest GIT version of the Rust bindings for GLib, GTK, etc it is now possible to make use of the Rust futures infrastructure for GIO async operations and various other functions. This should make writing of GNOME, and in general GLib-using, applications in Rust quite a bit more convenient.",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4eb3e72f-dec7-445e-9cbe-5464f3df1ceb",
       "title": "Rust memory safety revolution",
       "content_text": "This introduction is written for people, who are programmers, but don’t know Rust or are at the very beginning of learning it. It’s easier to understand for readers who know C, C++ or other language with manually managed memory as well as some with garbage collector. It’s a high-level introduction intended to present core Rust concepts and encourage further learning. It’s not a tutorial, there is no Hello Rust in the end.",
