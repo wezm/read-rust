@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "caa2a44c-fd86-4221-92ba-226a3834e0a4",
+      "title": "JARVIS - Notes on Rust Crates From Writing an RSS Reader",
+      "content_text": "Way back in the dim mists of history (back in university) I wrote myself a custom RSS reader in Java and called it JARVIS1. You see, I read a lot of webcomics. Like, a lot. Some webcomics provide RSS feeds, but some don’t, and as my collection grew it started to become a hassle to use Firefox’s live bookmarks to manage it all. Ultimately, I wrote up a quick Swing GUI to use as a single interface for keeping up with blogs and tracking which comics had published updates since the last time I’d checked2.",
+      "url": "https://bheisler.github.io/post/jarvis-impressions-of-rust-libraries/",
+      "date_published": "2018-04-22T16:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "5e0ef28e-278a-48f1-92d1-256a37f76e47",
+      "title": "Borrowing in async code",
+      "content_text": "The networking working group is pushing hard on async/await notation for Rust, and @withoutboats in particular wrote a fantastic blog series working through the design space. I wanted to talk a little bit about some of the implications of async/await, which may not have been entirely clear. In particular, async/await is not just about avoiding combinators; it completely changes the game for borrowing.",
+      "url": "http://aturon.github.io/2018/04/24/async-borrowing/",
+      "date_published": "2018-04-24T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "282a816f-1c0b-4efc-9939-0674020ee1ef",
+      "title": "An alias-based formulation of the borrow checker",
+      "content_text": "Ever since the Rust All Hands, I’ve been experimenting with an alternative formulation of the Rust borrow checker. The goal is to find a formulation that overcomes some shortcomings of the current proposal while hopefully also being faster to compute. I have implemented a prototype for this analysis. It passes the full NLL test suite and also handles a few cases – such as #47680 – that the current NLL analysis cannot handle. However, the performance has a long way to go (it is currently slower than existing analysis). That said, I haven’t even begun to optimize yet, and I know I am doing some naive and inefficient things that can definitely be done better; so I am still optimistic we’ll be able to make big strides there.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/",
+      "date_published": "2018-04-27T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "67b88f7c-7b39-43ad-863a-0d03dd180faf",
+      "title": "Reflections on Rust, and the Sand Castle Metaphor",
+      "content_text": "A month ago, I wrote about how I was frustrated with my progress in Rust. These days, I’m still no expert, but I’ve made progress.",
+      "url": "https://brandur.org/fragments/rust-reflections",
+      "date_published": "2018-04-27T00:00:00+00:00",
+      "author": {
+        "name": "Brandur Leach",
+        "url": "https://brandur.org"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "49014ace-e742-49f8-887a-8fa7d1b627cc",
       "title": "Rust Case Study: Chucklefish Taps Rust to Bring Safe Concurrency to Video Games [pdf]",
       "content_text": "Chucklefish, an independent game studio based in London, publishes hit video games like Stardew Valley and Starbound. Now, the company is developing its next game, code-named Witchbrook, using the Rust programming language instead of C++. Why the switch? Two main reasons: to get better performance on multiprocessor hardware and to have fewer crashes during game play.",
