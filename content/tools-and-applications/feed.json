@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "79a75489-f371-461e-8943-273f7b60e620",
+      "title": "Hammond: A Podcast Client for the GNOME Desktop",
+      "content_text": "Hammond has been in development since Sep 2017. It makes use of the Rust bindings to GNOME libraries as well as diesel, serde, reqwest, and a number other crates to build a beautiful, native application that feels right at home on the GNOME desktop.",
+      "url": "https://gitlab.gnome.org/World/hammond",
+      "date_published": "2018-04-27T21:12:00+10:00",
+      "author": {
+        "name": "Jordan Petridis",
+        "url": "https://gitlab.gnome.org/alatiera"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "36e40f73-b836-49cd-a558-d93a238c7386",
       "title": "fastmod - A fast partial replacement for the codemod tool",
       "content_text": "fastmod is a fast partial replacement for codemod. Like codemod, it is a tool to assist you with large-scale codebase refactors, and it supports most of codemod's options. fastmod's major philosophical difference from codemod is that it is focused on improving the use case \"I want to use interactive mode to make sure my regex is correct, and then I want to apply the regex everywhere\". For this use case, it offers much better performance than codemod",

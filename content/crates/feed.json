@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8576f0a6-2866-4ac7-af07-dffd8e4ea019",
+      "title": "Rust+GNOME Hackfest #3",
+      "content_text": "Last week, I was working on improving the integration of Rust with GNOME libraries at the third Hackfest, which happened this time in Madrid.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-madrid",
+      "date_published": "2018-04-24T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ef7fa499-a585-491d-9700-38962a125092",
       "title": "dalek cryptography",
       "content_text": "A suite of cryptographic libraries and protocol implementations, written in the systems programming language Rust, for creating blazingly-fast, production-quality cryptographic applications.",

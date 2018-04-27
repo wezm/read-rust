@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "49014ace-e742-49f8-887a-8fa7d1b627cc",
+      "title": "Rust Case Study: Chucklefish Taps Rust to Bring Safe Concurrency to Video Games [pdf]",
+      "content_text": "Chucklefish, an independent game studio based in London, publishes hit video games like Stardew Valley and Starbound. Now, the company is developing its next game, code-named Witchbrook, using the Rust programming language instead of C++. Why the switch? Two main reasons: to get better performance on multiprocessor hardware and to have fewer crashes during game play.",
+      "url": "https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf",
+      "date_published": "2018-04-23T17:38:56+00:00",
+      "author": {
+        "name": "The Rust Project Developers",
+        "url": "https://www.rust-lang.org/en-US/whitepapers.html"
+      },
+      "tags": [
+        "Language",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "76fb9740-07d0-45c8-a6b3-17534f293c54",
+      "title": "Ask an expert: How do you maintain Rust?",
+      "content_text": "From team structure and annual surveys to RFCs and the release process, a staff research engineer on Mozilla’s Rust team shares what it takes.",
+      "url": "https://increment.com/programming-languages/maintaining-rust/",
+      "date_published": "2018-04-26T19:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "https://increment.com/programming-languages/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "096f02f7-0ce4-41ef-8896-f8209ca126f5",
       "title": "GLib/GIO async operations and Rust futures + async/await",
       "content_text": "Unfortunately I was not able to attend the Rust+GNOME hackfest in Madrid last week, but I could at least spend some of my work time at Centricular on implementing one of the things I wanted to work on during the hackfest. The other one, more closely related to the gnome-class work, will be the topic &#8230; <a href=\"https://coaxion.net/blog/2018/04/glib-gio-async-operations-and-rust-futures-async-await/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">GLib/GIO async operations and Rust futures + async/await</span></a>",

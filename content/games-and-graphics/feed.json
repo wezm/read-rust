@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "49014ace-e742-49f8-887a-8fa7d1b627cc",
+      "title": "Rust Case Study: Chucklefish Taps Rust to Bring Safe Concurrency to Video Games [pdf]",
+      "content_text": "Chucklefish, an independent game studio based in London, publishes hit video games like Stardew Valley and Starbound. Now, the company is developing its next game, code-named Witchbrook, using the Rust programming language instead of C++. Why the switch? Two main reasons: to get better performance on multiprocessor hardware and to have fewer crashes during game play.",
+      "url": "https://www.rust-lang.org/pdfs/Rust-Chucklefish-Whitepaper.pdf",
+      "date_published": "2018-04-23T17:38:56+00:00",
+      "author": {
+        "name": "The Rust Project Developers",
+        "url": "https://www.rust-lang.org/en-US/whitepapers.html"
+      },
+      "tags": [
+        "Language",
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "d65aaebc-e17b-421b-86e8-1cc9c63a0408",
       "title": "Writing An NES Emulator with Rust and WebAssembly",
       "content_text": "I wrote the NES emulator with Rust and WebAssembly to learn Rust. It’s not perfect and have some audio bugs, but it’s good enough to play Super Mario bros.",

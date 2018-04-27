@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2925c583-7c70-400d-8f50-f8c06b3dc0fb",
+      "title": "How does dynamic dispatch work in WebAssembly?",
+      "content_text": "C, C++, and Rust all have some capability for dynamic dispatch: function pointers, virtual methods, and trait objects. On native targets like x86, all these forms compile down into a jump to a dynamic address. What do these forms compile down into when targeting WebAssembly?",
+      "url": "http://fitzgeraldnick.com/2018/04/26/how-does-dynamic-dispatch-work-in-wasm.html",
+      "date_published": "2018-04-26T00:00:00-07:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "43c290f5-4178-431d-9874-5e24cde01299",
       "title": "Hello wasm-pack!",
       "content_text": "wasm-pack is a tool for assembling and packaging Rust crates that target WebAssembly. These packages can be published to the npm Registry and used alongside other packages. This means you can use them side-by-side with JS and other packages, and in many kind of applications, be it a Node.js server side app, a client-side application bundled by Webpack, or any other sort of application that uses npm dependencies. You can find wasm-pack on crates.io and GitHub.",
