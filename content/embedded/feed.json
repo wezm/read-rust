@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "73443ff7-2113-490d-9249-430c95c1534a",
+      "title": "Flipping some bits high on STM32VLDISCOVERY board",
+      "content_text": "Here I will document the steps to get started with STM32VLDISCOVERY board. We will take my favourite “from scratch” approach. That way, we build the final thing step by step while building our understanding of how it all fits together.",
+      "url": "http://nercury.github.io/rust/embedded/experiments/2018/04/29/rust-embedded-01-discovery-vl-flipping-bits.html",
+      "date_published": "2018-04-29T00:00:00+00:00",
+      "author": {
+        "name": "Nerijus Arlauskas",
+        "url": "http://nercury.github.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "b4ecd378-f152-4049-b281-8b519cdb870d",
+      "title": "c3r3s - Serial 64-bit bootloader for the Raspberry Pi 3",
+      "content_text": "c3r3s is a tiny (1KB binary) serial bootloader for loading \"bare metal\" 64-bit kernels on the Raspberry Pi 3. You can iterate on your own kernel code without constantly moving the SD card back and forth.",
+      "url": "https://github.com/robey/c3r3s",
+      "date_published": "2018-05-01T07:22:00+10:00",
+      "author": {
+        "name": "Robey Pointer",
+        "url": "https://github.com/robey"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "9cb9976f-4023-496c-9bdf-b5eff31fe5bb",
       "title": "Flipper - A new embedded development paradigm",
       "content_text": "Flipper is a new kind of development board that redefines the embedded software development cycle by offloading development/debugging into higher level languages + tools. One of the languages that we're putting the most focus into adding support for is Rust. We would love to see more embedded done with Rust and Flipper provides a great springboard for existing Rust developers to familiarize themselves with embedded hardware using the tools they already know how to use.",

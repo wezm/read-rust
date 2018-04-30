@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "64356c91-6a6c-40d2-acd9-cbde11eaace4",
+      "title": "Using LLVM from Rust, to generate WebAssembly",
+      "content_text": "Hopefully this post helps jumpstart those who want to use LLVM from Rust. I also include how one could use this to generate WebAssembly, but the first part of this post is target platform agnostic.",
+      "url": "https://medium.com/@jayphelps/using-llvm-from-rust-to-generate-webassembly-93e8c193fdb4",
+      "date_published": "2018-04-29T00:49:36.802+00:00",
+      "author": {
+        "name": "Jay Phelps",
+        "url": "https://medium.com/@jayphelps"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2925c583-7c70-400d-8f50-f8c06b3dc0fb",
       "title": "How does dynamic dispatch work in WebAssembly?",
       "content_text": "C, C++, and Rust all have some capability for dynamic dispatch: function pointers, virtual methods, and trait objects. On native targets like x86, all these forms compile down into a jump to a dynamic address. What do these forms compile down into when targeting WebAssembly?",

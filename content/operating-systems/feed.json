@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "18f0f723-af8c-4415-9ea4-6578a641729a",
+      "title": "Writing an OS in Rust: Unit Testing",
+      "content_text": "This post explores unit testing in no_std executables using Rust's built-in test framework. We will adjust our code so that cargo test works and add some basic unit tests to our VGA buffer module.",
+      "url": "https://os.phil-opp.com/unit-testing/",
+      "date_published": "2018-04-29T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "a4be83a4-b126-479a-bfca-81e7d612d2b3",
       "title": "Redox Summer of Code",
       "content_text": "Redox OS is running its own Summer of Code this year, after the Microkernel devroom did not get accepted into GSoC 2018. We are looking for both Students and Sponsors who want to help Redox OS grow. At the moment, Redox OS has $10,800 in donations from various platforms to use to fund students. This will give us three students working for three months, if each student requests $1200 per month on average as described in Payment.\n\nIn order to fund more students, we are looking for sponsors who are willing to fund RSoC. Donations can be made on the Donate page. All donations will be used to fund Redox OS activities, with about 90% of those over the past year currently allocated to RSoC.",
