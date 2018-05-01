@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "fce158e9-2134-4c57-bbc8-67483dc0b0d8",
+      "title": "rustref - memorable Rust reference links",
+      "content_text": "This contains shorthand URLs for navigating to Rust documentation.",
+      "url": "https://rustref.com/",
+      "date_published": "2018-04-27T20:12:36+00:00",
+      "author": {
+        "name": "Mackenzie Hauck",
+        "url": "https://github.com/nocduro"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4539d16d-f909-4fff-9eda-dc6763fa7a3b",
+      "title": "Mutagen – More opportunities",
+      "content_text": "Recently I gave a talk at our Rust Meetup about mutagen, and I also showed how our opportunistic mutations work (I however left out that gnarly thing about shifts, but in my defense I was short on time). That got me thinking whether we always do the right thing elsewhere.",
+      "url": "https://llogiq.github.io/2018/05/01/moreop.html",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b7e3c6ef-7be3-4f63-b8ad-04affb29716c",
+      "title": "Ray Tracing in a Weekend in Rust",
+      "content_text": "I was inspired to work through Peter Shirley’s Ray Tracing in a Weekend mini book (for brevity RTIAW) but I wanted to write it in Rust instead of the C++ that’s used in the book. I found out about the book via @aras_p’s blog series about a toy path tracer he’s been building.",
+      "url": "https://bitshifter.github.io/blog/2018/04/29/rust-ray-tracer-in-one-weekend/",
+      "date_published": "2018-04-29T00:00:00+00:00",
+      "author": {
+        "name": "bitshifter",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0c0d7114-9e80-4e4f-868d-51de6778bed1",
+      "title": "KRust: A Formal Executable Semantics of Rust",
+      "content_text": "Rust is a new and promising high-level system programming language. It provides both memory safety and thread safety through its novel mechanisms such as ownership, moves and borrows. Ownership system ensures that at any point there is only one owner of any given resource. The ownership of a resource can be moved or borrowed according to the lifetimes. The ownership system establishes a clear lifetime for each value and hence does not necessarily need garbage collection. These novel features bring Rust high performance, fine low-level control of C and C++, and unnecessity in garbage collection, which differ Rust from other existing prevalent languages. For formal analysis of Rust programs and helping programmers learn its new mechanisms and features, a formal semantics of Rust is desired and useful as a fundament for developing related tools. In this paper, we present a formal executable operational semantics of a realistic subset of Rust, called KRust. The semantics is defined in K, a rewriting-based executable semantic framework for programming languages. The executable semantics yields automatically a formal interpreter and verification tools for Rust programs. KRust has been thoroughly validated by testing with hundreds of tests, including the official Rust test suite.",
+      "url": "https://arxiv.org/abs/1804.10806",
+      "date_published": "2018-04-28T00:00:00+00:00",
+      "author": {
+        "name": "Feng Wang, Fu Song, Min Zhang, Xiaoran Zhu, Jun Zhang",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "7812ff10-6f3d-4990-8832-9b5eb63780d8",
+      "title": "Servo engines written in Rust deliver memory safety and multithreading",
+      "content_text": "In 2012, Mozilla started the Servo project, a community effort to create new open source browser components that can take advantage of multicore hardware to improve speed, stability and responsiveness. Servo is comparable to WebKit, an open source browser engine that is the foundation of Apple’s Safari browser. (Other browser engines include Blink, EdgeHTML, and Gecko.) The difference is that Servo is written in the Rust programming language, bringing lightning-fast performance and memory safety to browser internals. Rust code can drastically cut down the number of critical bugs that affect browser engines. Servo uses a modular architecture and currently runs on Linux, macOS, Windows, and Android operating systems.",
+      "url": "https://research.mozilla.org/servo-engines/",
+      "date_published": "2018-05-01T16:04:53+00:00",
+      "author": {
+        "name": "Mozilla Research",
+        "url": "https://research.mozilla.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c38eff1e-2560-4373-a3d6-9e3ea04853ad",
+      "title": "bat - print code to the terminal with syntax highlighting and git integration",
+      "content_text": "bat supports syntax highlighting for a large number of programming and markup languages. bat also communicates with git to show modifications with respect to the index (see left side bar).",
+      "url": "https://github.com/sharkdp/bat",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://github.com/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "e5b4d06d-c604-42fa-9329-e4bec9f44cfd",
+      "title": "Dataframes: Traits, Enums, Generics, and Dynamic Typing",
+      "content_text": "I’m attempting to build a dataframe in Rust. I implemented a pattern using traits, generics, and enums in conjunction to deal with columns of different datatypes while allowing runtime reflection for accessing the data stored in a column.",
+      "url": "https://blog.hwc.io/posts/dataframe1/",
+      "date_published": "2018-03-28T09:57:53-04:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "803b6bf7-0cde-4a49-9e63-a117e95de2c0",
       "title": "Adventures in Rust",
       "content_text": "A tale of my time in Rust-land",

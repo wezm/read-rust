@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7812ff10-6f3d-4990-8832-9b5eb63780d8",
+      "title": "Servo engines written in Rust deliver memory safety and multithreading",
+      "content_text": "In 2012, Mozilla started the Servo project, a community effort to create new open source browser components that can take advantage of multicore hardware to improve speed, stability and responsiveness. Servo is comparable to WebKit, an open source browser engine that is the foundation of Apple’s Safari browser. (Other browser engines include Blink, EdgeHTML, and Gecko.) The difference is that Servo is written in the Rust programming language, bringing lightning-fast performance and memory safety to browser internals. Rust code can drastically cut down the number of critical bugs that affect browser engines. Servo uses a modular architecture and currently runs on Linux, macOS, Windows, and Android operating systems.",
+      "url": "https://research.mozilla.org/servo-engines/",
+      "date_published": "2018-05-01T16:04:53+00:00",
+      "author": {
+        "name": "Mozilla Research",
+        "url": "https://research.mozilla.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c38eff1e-2560-4373-a3d6-9e3ea04853ad",
+      "title": "bat - print code to the terminal with syntax highlighting and git integration",
+      "content_text": "bat supports syntax highlighting for a large number of programming and markup languages. bat also communicates with git to show modifications with respect to the index (see left side bar).",
+      "url": "https://github.com/sharkdp/bat",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://github.com/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "caa2a44c-fd86-4221-92ba-226a3834e0a4",
       "title": "JARVIS - Notes on Rust Crates From Writing an RSS Reader",
       "content_text": "Way back in the dim mists of history (back in university) I wrote myself a custom RSS reader in Java and called it JARVIS1. You see, I read a lot of webcomics. Like, a lot. Some webcomics provide RSS feeds, but some don’t, and as my collection grew it started to become a hassle to use Firefox’s live bookmarks to manage it all. Ultimately, I wrote up a quick Swing GUI to use as a single interface for keeping up with blogs and tracking which comics had published updates since the last time I’d checked2.",

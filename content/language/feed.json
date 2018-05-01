@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "fce158e9-2134-4c57-bbc8-67483dc0b0d8",
+      "title": "rustref - memorable Rust reference links",
+      "content_text": "This contains shorthand URLs for navigating to Rust documentation.",
+      "url": "https://rustref.com/",
+      "date_published": "2018-04-27T20:12:36+00:00",
+      "author": {
+        "name": "Mackenzie Hauck",
+        "url": "https://github.com/nocduro"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4539d16d-f909-4fff-9eda-dc6763fa7a3b",
+      "title": "Mutagen – More opportunities",
+      "content_text": "Recently I gave a talk at our Rust Meetup about mutagen, and I also showed how our opportunistic mutations work (I however left out that gnarly thing about shifts, but in my defense I was short on time). That got me thinking whether we always do the right thing elsewhere.",
+      "url": "https://llogiq.github.io/2018/05/01/moreop.html",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e5b4d06d-c604-42fa-9329-e4bec9f44cfd",
+      "title": "Dataframes: Traits, Enums, Generics, and Dynamic Typing",
+      "content_text": "I’m attempting to build a dataframe in Rust. I implemented a pattern using traits, generics, and enums in conjunction to deal with columns of different datatypes while allowing runtime reflection for accessing the data stored in a column.",
+      "url": "https://blog.hwc.io/posts/dataframe1/",
+      "date_published": "2018-03-28T09:57:53-04:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "803b6bf7-0cde-4a49-9e63-a117e95de2c0",
       "title": "Adventures in Rust",
       "content_text": "A tale of my time in Rust-land",

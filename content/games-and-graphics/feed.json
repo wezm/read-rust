@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b7e3c6ef-7be3-4f63-b8ad-04affb29716c",
+      "title": "Ray Tracing in a Weekend in Rust",
+      "content_text": "I was inspired to work through Peter Shirley’s Ray Tracing in a Weekend mini book (for brevity RTIAW) but I wanted to write it in Rust instead of the C++ that’s used in the book. I found out about the book via @aras_p’s blog series about a toy path tracer he’s been building.",
+      "url": "https://bitshifter.github.io/blog/2018/04/29/rust-ray-tracer-in-one-weekend/",
+      "date_published": "2018-04-29T00:00:00+00:00",
+      "author": {
+        "name": "bitshifter",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "49014ace-e742-49f8-887a-8fa7d1b627cc",
       "title": "Rust Case Study: Chucklefish Taps Rust to Bring Safe Concurrency to Video Games [pdf]",
       "content_text": "Chucklefish, an independent game studio based in London, publishes hit video games like Stardew Valley and Starbound. Now, the company is developing its next game, code-named Witchbrook, using the Rust programming language instead of C++. Why the switch? Two main reasons: to get better performance on multiprocessor hardware and to have fewer crashes during game play.",

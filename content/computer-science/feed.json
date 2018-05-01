@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0c0d7114-9e80-4e4f-868d-51de6778bed1",
+      "title": "KRust: A Formal Executable Semantics of Rust",
+      "content_text": "Rust is a new and promising high-level system programming language. It provides both memory safety and thread safety through its novel mechanisms such as ownership, moves and borrows. Ownership system ensures that at any point there is only one owner of any given resource. The ownership of a resource can be moved or borrowed according to the lifetimes. The ownership system establishes a clear lifetime for each value and hence does not necessarily need garbage collection. These novel features bring Rust high performance, fine low-level control of C and C++, and unnecessity in garbage collection, which differ Rust from other existing prevalent languages. For formal analysis of Rust programs and helping programmers learn its new mechanisms and features, a formal semantics of Rust is desired and useful as a fundament for developing related tools. In this paper, we present a formal executable operational semantics of a realistic subset of Rust, called KRust. The semantics is defined in K, a rewriting-based executable semantic framework for programming languages. The executable semantics yields automatically a formal interpreter and verification tools for Rust programs. KRust has been thoroughly validated by testing with hundreds of tests, including the official Rust test suite.",
+      "url": "https://arxiv.org/abs/1804.10806",
+      "date_published": "2018-04-28T00:00:00+00:00",
+      "author": {
+        "name": "Feng Wang, Fu Song, Min Zhang, Xiaoran Zhu, Jun Zhang",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "ed19c2a7-fe9d-465b-b41a-71480e6b978a",
       "title": "QCGPU - Hardware Accelerated Quantum Computer Simulation",
       "content_text": "A software library for high performance and hardware accelerated simulation of Quantum Computers and Algorithms. Written with Rust and OpenCL.",
