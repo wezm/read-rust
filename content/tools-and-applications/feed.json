@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "103f9c4f-f4f9-4e15-98b2-0d2b1db6b792",
+      "title": "kanban-app - Kanban board built with Rust and Elm without Electron",
+      "content_text": "This is a web-based Kanban board application, built with Elm and Rust. The only different from this application and hundred thousands of web-based application out there is: We don't need Electron!. Instead, it use native WebView (WebKit for Linux/macOS, and MSHTML on Windows),",
+      "url": "https://github.com/huytd/kanban-app",
+      "date_published": "2018-05-03T07:30:00+10:00",
+      "author": {
+        "name": "Huy Tr.",
+        "url": "https://github.com/huytd"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "7812ff10-6f3d-4990-8832-9b5eb63780d8",
       "title": "Servo engines written in Rust deliver memory safety and multithreading",
       "content_text": "In 2012, Mozilla started the Servo project, a community effort to create new open source browser components that can take advantage of multicore hardware to improve speed, stability and responsiveness. Servo is comparable to WebKit, an open source browser engine that is the foundation of Apple’s Safari browser. (Other browser engines include Blink, EdgeHTML, and Gecko.) The difference is that Servo is written in the Rust programming language, bringing lightning-fast performance and memory safety to browser internals. Rust code can drastically cut down the number of critical bugs that affect browser engines. Servo uses a modular architecture and currently runs on Linux, macOS, Windows, and Android operating systems.",

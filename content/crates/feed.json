@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "df6d6cbf-58fc-49e6-a582-446c255a3d39",
+      "title": "gtk-test - A crate for testing GTK UIs",
+      "content_text": "Currently, testing UIs is difficult, but with gtk-test you can test basically everything UI-related way more simply.",
+      "url": "http://gtk-rs.org/blog/2018/05/02/who-talked-about-testing.html",
+      "date_published": "2018-05-02T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs",
+        "url": "http://gtk-rs.org/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "83c972be-a658-4858-9277-474eebee81a1",
+      "title": "Introducing Sentry for Rust",
+      "content_text": "As happy Rust users ourselves, it makes us even happier to be able to say that we now have a Sentry Rust SDK. This means you and your Fungiculture can now report panics, failures, and other types of incidents to Sentry.\n\nNot only is the SDK new and fancy, it is also one of the first ones that follows our new API guidelines for Sentry SDKs, which makes it even newer and fancier than you might normally expect.",
+      "url": "https://blog.sentry.io/2018/05/01/sentry-for-rust",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "Armin Ronacher",
+        "url": "https://blog.sentry.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "bcdee764-328b-440f-b1de-d4f4d4c14604",
+      "title": "New Tokio release, now with filesystem support",
+      "content_text": "It took a bit longer than I had initially hoped (as it always does), but a new Tokio version has been released. This release includes, among other features, a new set of APIs that allow performing filesystem operations from an asynchronous context.",
+      "url": "https://tokio.rs/blog/2018-05-tokio-fs/",
+      "date_published": "2018-05-02T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "8576f0a6-2866-4ac7-af07-dffd8e4ea019",
       "title": "Rust+GNOME Hackfest #3",
       "content_text": "Last week, I was working on improving the integration of Rust with GNOME libraries at the third Hackfest, which happened this time in Madrid.",

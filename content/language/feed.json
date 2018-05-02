@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d9100be3-bb0c-4ea5-9aff-3fa3b7946b12",
+      "title": "Rust in production at Figma",
+      "content_text": "How Mozilla’s new language dramatically improved our server-side performance.",
+      "url": "https://blog.figma.com/rust-in-production-at-figma-e10a0ec31929",
+      "date_published": "2018-05-02T15:14:00.276+00:00",
+      "author": {
+        "name": "Evan Wallace",
+        "url": "https://blog.figma.com/@evanwallace"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "fce158e9-2134-4c57-bbc8-67483dc0b0d8",
       "title": "rustref - memorable Rust reference links",
       "content_text": "This contains shorthand URLs for navigating to Rust documentation.",

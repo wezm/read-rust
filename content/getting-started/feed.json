@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "91fb984c-4084-4b2c-84e5-ebda94169657",
+      "title": "WASM+Rust Tutorial",
+      "content_text": "A project used for a meetup talk about getting started with rust & wasm",
+      "url": "https://freemasen.github.io/wasm_tutorial/",
+      "date_published": "2018-05-03T07:30:00+10:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://github.com/FreeMasen"
+      },
+      "tags": [
+        "Getting Started",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "d4c2f839-050c-4134-868d-eab325676917",
       "title": "An interactive guide to learning Rust!",
       "content_text": "Fix a series to broken Rust programs to gain a deeper understanding of Rust.",

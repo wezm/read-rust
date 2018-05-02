@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "2cf6bb87-842b-4d53-906d-6036d7e3eaf5",
+      "title": "Can Rust speed up your Azure Functions?",
+      "content_text": "Using Rust on Microsoft Azure Functions with web assembly",
+      "url": "https://blog.x5ff.xyz/blog/azure-functions-wasm-rust/",
+      "date_published": "2018-04-30T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "91fb984c-4084-4b2c-84e5-ebda94169657",
+      "title": "WASM+Rust Tutorial",
+      "content_text": "A project used for a meetup talk about getting started with rust & wasm",
+      "url": "https://freemasen.github.io/wasm_tutorial/",
+      "date_published": "2018-05-03T07:30:00+10:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://github.com/FreeMasen"
+      },
+      "tags": [
+        "Getting Started",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "64356c91-6a6c-40d2-acd9-cbde11eaace4",
       "title": "Using LLVM from Rust, to generate WebAssembly",
       "content_text": "Hopefully this post helps jumpstart those who want to use LLVM from Rust. I also include how one could use this to generate WebAssembly, but the first part of this post is target platform agnostic.",
