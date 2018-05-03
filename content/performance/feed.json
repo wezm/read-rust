@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0a6c62ed-f16b-4b57-8ff1-3984e08f204e",
+      "title": "How fast can we compile Rust hello world?",
+      "content_text": "Seeing Nick Nethercote’s blog post about speeding up the compiler, I started wondering just how fast could a Rust compiler be? How fast could we compile a simple example? How fast can we compile a Rust hello world?",
+      "url": "http://www.jonathanturner.org/2018/05/how-fast-can-we-compile-rust-hello-world.html",
+      "date_published": "2018-05-03T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "1c59d8b2-c755-4f10-859e-4847be81bc4c",
       "title": "How to speed up the Rust compiler in 2018",
       "content_text": "18 months ago I wrote about some work I did to speed up the Rust compiler (rustc). I’ve recently taken this work up again. Also, in the meantime rustc’s build system has been replaced and its benchmark suite has been overhauled. So it’s a good time for an update.",

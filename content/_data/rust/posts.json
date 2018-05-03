@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "97c03488-1331-4858-baf0-26e1d0fca6f0",
+      "title": "Embedded Rust: Peripherals (and low-level stuffs) - take 1",
+      "content_text": "First of all, low level stuffs such as peripheral drivers should be hidden from the application developer. They should not be able to access directly the registers and mess with the peripheral states/control. The wrong flag in the wrong register can lead to dramatic failures and even damages to the products.",
+      "url": "https://ithinuel.me/embedded-rust-peripherals-take-1/",
+      "date_published": "2018-04-28T00:00:00+00:00",
+      "author": {
+        "name": "Wilfried Chauveau",
+        "url": "https://ithinuel.me/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "47521515-a430-41a1-bcdc-bb68b3f9d646",
+      "title": "Cross compiling rust with docker",
+      "content_text": "I am giving embedded systems another go with a side project of mine. The device has a single purpose. It captures network packets, and forwards them to a server. It is easily achieved with LIBpcap, but the device makes it interesting.\n\nThe GL-AR150 sells as a mini smart router. The limited storage makes it hard to install language interpreters, or virtual machines. This pushed me to look into standalone executables, and how to compile them for other devices.",
+      "url": "https://medium.com/@pvinchon/cross-compiling-rust-with-docker-17d846adae4d",
+      "date_published": "2018-04-30T23:01:01.249+00:00",
+      "author": {
+        "name": "Philippe",
+        "url": "https://medium.com/@pvinchon"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0a6c62ed-f16b-4b57-8ff1-3984e08f204e",
+      "title": "How fast can we compile Rust hello world?",
+      "content_text": "Seeing Nick Nethercote’s blog post about speeding up the compiler, I started wondering just how fast could a Rust compiler be? How fast could we compile a simple example? How fast can we compile a Rust hello world?",
+      "url": "http://www.jonathanturner.org/2018/05/how-fast-can-we-compile-rust-hello-world.html",
+      "date_published": "2018-05-03T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "2cf6bb87-842b-4d53-906d-6036d7e3eaf5",
       "title": "Can Rust speed up your Azure Functions?",
       "content_text": "Using Rust on Microsoft Azure Functions with web assembly",
