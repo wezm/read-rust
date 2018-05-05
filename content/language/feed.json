@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "7fe0f8aa-fbe1-4fef-bba3-e64b98b00bc2",
+      "title": "Procedural Macros in Rust",
+      "content_text": "Procedural macros are a really powerful language feature in Rust and something I haven’t seen in many other languages.\n\nThere are a heap of tutorials out there for procedural macros, including in The Rust Reference, and the first edition of the Rust Book. One of the more entertaining (and useful) posts is by Zach Mitchell where you get to “learn Rust procedural macros with Nic Cage”.\n\nI won’t go into depth about what procedural macros are and why they&rsquo;re so powerful.",
+      "url": "https://joshleeb.com/posts/rust-procedural-macros/",
+      "date_published": "2018-05-04T00:00:00+00:00",
+      "author": {
+        "name": "Josh Leeb-du Toit",
+        "url": "https://joshleeb.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cb34566e-4c96-4191-9179-eca6bc9ac07f",
+      "title": "Embedding Rustup into Cargo and the Wrapper",
+      "content_text": "One of my issue when building a project from scratch is the amount of manual steps required to be able to run a simple project. This is not so much a concern when you are a single developer but the larger the team, the most obvious it becomes.",
+      "url": "https://medium.com/@tibotz/embedding-rustup-into-cargo-and-the-wrapper-d5b447f381fc",
+      "date_published": "2018-05-04T05:53:28.079+00:00",
+      "author": {
+        "name": "Tibo Delor",
+        "url": "https://medium.com/@tibotz"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "266098f6-079e-42d6-8d15-3a7867687f49",
+      "title": "Refactoring Apache Arrow to use traits and generics",
+      "content_text": "I am currently working on a refactor of the Rust implementation of Apache Arrow to change the way that arrays are represented. This is a relatively large change even though this is a tiny codebase so far and I thought it would be good to write up this blog post to explain why I think this is needed. I think this information will also be interesting for any Rust developer who is struggling with making the right choice between (or using the right combination of) enums, structs, generics and traits. I was inspired to write this up after reading this blog post that was posted to Reddit just a few days ago.",
+      "url": "https://andygrove.io/2018/05/apache-arrow-traits-generics/",
+      "date_published": "2018-05-04T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ca367462-e3ba-4b03-9b46-05b7850bdcba",
+      "title": "Encapsulating Lifetime of the Field",
+      "content_text": "This is a post about an annoying Rust pattern and an annoyingworkaround, without a good solution :)",
+      "url": "https://matklad.github.io/2018/05/04/encapsulating-lifetime-of-the-field.html",
+      "date_published": "2018-05-04T17:47:23+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d9100be3-bb0c-4ea5-9aff-3fa3b7946b12",
       "title": "Rust in production at Figma",
       "content_text": "How Mozilla’s new language dramatically improved our server-side performance.",
