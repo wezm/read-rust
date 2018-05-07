@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ef638662-6cfb-4335-9e01-baa7af9a5d95",
+      "title": "Filtering Duplicate Log Entries via Rust and Runiq",
+      "content_text": "Whilst sort -u is super easy to use, the requirement of sorting your data cannot be overlooked as it means your entire file needs to be buffered into memory at once. This is not always possible, or even if possible it's not always desired. On the other hand uniq is great, but in order to sort your data in advance you still have the same issue. It was due to this that I wrote runiq, which is essentially an optimized and more flexible implementation of both of the aforemention tools for the purposes of duplicate filtering. It performs much faster, with much less memory, and does not require sorted input (although it can optimize this case).",
+      "url": "https://whitfin.io/filtering-unique-logs-using-rust/",
+      "date_published": "2018-05-07T03:17:28+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "a7a257bb-3da8-42f1-b341-dad7221b9ab3",
+      "title": "Rust: Enterprise Services Need Not Suck",
+      "content_text": "I practice Barbarian Leadership. Standing on the back lines with hand in pocket giving orders is missing the fun. More importantly, knowledge is created on the cutting edge of action. People you work with know this. They value modern, non-hierarchical organizations where a leader dives into the fray, sword in hand, and gets to know intimately the problems and tools for solving them. So I dove into the fight despite knowing that it is “hard language”.",
+      "url": "https://medium.com/@paulhoughton/rust-enterprise-services-need-not-suck-679b79edcab5",
+      "date_published": "2018-05-07T12:59:10.610+00:00",
+      "author": {
+        "name": "Paul Houghton",
+        "url": "https://medium.com/@paulhoughton"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "7f406b9a-226a-4498-b708-59b14401a9af",
       "title": "Making microservices in Rust",
       "content_text": "This is a small idea that I have been wanting to put together for quite some time now and finally have managed to get the time and most importantly experience in Rust to finally try something a little more than just small projects. One area that I think Rust is really making a decent headway in in the web domain, which I am assuming is likely due to its origin from Firefox. So I wanted to see if I could put together a really basic CRUD micro-service doing the ever so original TODO functionality.",

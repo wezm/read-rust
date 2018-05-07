@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a7a257bb-3da8-42f1-b341-dad7221b9ab3",
+      "title": "Rust: Enterprise Services Need Not Suck",
+      "content_text": "I practice Barbarian Leadership. Standing on the back lines with hand in pocket giving orders is missing the fun. More importantly, knowledge is created on the cutting edge of action. People you work with know this. They value modern, non-hierarchical organizations where a leader dives into the fray, sword in hand, and gets to know intimately the problems and tools for solving them. So I dove into the fight despite knowing that it is “hard language”.",
+      "url": "https://medium.com/@paulhoughton/rust-enterprise-services-need-not-suck-679b79edcab5",
+      "date_published": "2018-05-07T12:59:10.610+00:00",
+      "author": {
+        "name": "Paul Houghton",
+        "url": "https://medium.com/@paulhoughton"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "7fe0f8aa-fbe1-4fef-bba3-e64b98b00bc2",
       "title": "Procedural Macros in Rust",
       "content_text": "Procedural macros are a really powerful language feature in Rust and something I haven’t seen in many other languages.\n\nThere are a heap of tutorials out there for procedural macros, including in The Rust Reference, and the first edition of the Rust Book. One of the more entertaining (and useful) posts is by Zach Mitchell where you get to “learn Rust procedural macros with Nic Cage”.\n\nI won’t go into depth about what procedural macros are and why they&rsquo;re so powerful.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ef638662-6cfb-4335-9e01-baa7af9a5d95",
+      "title": "Filtering Duplicate Log Entries via Rust and Runiq",
+      "content_text": "Whilst sort -u is super easy to use, the requirement of sorting your data cannot be overlooked as it means your entire file needs to be buffered into memory at once. This is not always possible, or even if possible it's not always desired. On the other hand uniq is great, but in order to sort your data in advance you still have the same issue. It was due to this that I wrote runiq, which is essentially an optimized and more flexible implementation of both of the aforemention tools for the purposes of duplicate filtering. It performs much faster, with much less memory, and does not require sorted input (although it can optimize this case).",
+      "url": "https://whitfin.io/filtering-unique-logs-using-rust/",
+      "date_published": "2018-05-07T03:17:28+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "cf489f8e-70b9-4669-8424-03e79fab2ad8",
       "title": "Introducing seiri — a music 🎶 manager for lots of music",
       "content_text": "TL;DR seiri is a lightweight music manager written (mostly) in Rust that helps keep huge music libraries organized. Try it today at chyyran.moe/seiri.",
