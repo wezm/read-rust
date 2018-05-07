@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7f406b9a-226a-4498-b708-59b14401a9af",
+      "title": "Making microservices in Rust",
+      "content_text": "This is a small idea that I have been wanting to put together for quite some time now and finally have managed to get the time and most importantly experience in Rust to finally try something a little more than just small projects. One area that I think Rust is really making a decent headway in in the web domain, which I am assuming is likely due to its origin from Firefox. So I wanted to see if I could put together a really basic CRUD micro-service doing the ever so original TODO functionality.",
+      "url": "https://maccoda.github.io/rust-web-frameworks/",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "Dylan Maccora",
+        "url": "https://maccoda.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "7fe0f8aa-fbe1-4fef-bba3-e64b98b00bc2",
       "title": "Procedural Macros in Rust",
       "content_text": "Procedural macros are a really powerful language feature in Rust and something I haven’t seen in many other languages.\n\nThere are a heap of tutorials out there for procedural macros, including in The Rust Reference, and the first edition of the Rust Book. One of the more entertaining (and useful) posts is by Zach Mitchell where you get to “learn Rust procedural macros with Nic Cage”.\n\nI won’t go into depth about what procedural macros are and why they&rsquo;re so powerful.",

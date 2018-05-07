@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7f406b9a-226a-4498-b708-59b14401a9af",
+      "title": "Making microservices in Rust",
+      "content_text": "This is a small idea that I have been wanting to put together for quite some time now and finally have managed to get the time and most importantly experience in Rust to finally try something a little more than just small projects. One area that I think Rust is really making a decent headway in in the web domain, which I am assuming is likely due to its origin from Firefox. So I wanted to see if I could put together a really basic CRUD micro-service doing the ever so original TODO functionality.",
+      "url": "https://maccoda.github.io/rust-web-frameworks/",
+      "date_published": "2018-05-01T00:00:00+00:00",
+      "author": {
+        "name": "Dylan Maccora",
+        "url": "https://maccoda.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2cf6bb87-842b-4d53-906d-6036d7e3eaf5",
       "title": "Can Rust speed up your Azure Functions?",
       "content_text": "Using Rust on Microsoft Azure Functions with web assembly",
