@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "cfa15026-8758-4249-b23c-fa41e23161c4",
+      "title": "Entity-Component-System architecture for UI in Rust",
+      "content_text": "For a fun project, I’ve been tinkering with xi-win, an experimental Windows front-end for xi-editor, written in Rust. I’m basically optimizing for performance, so making a number of somewhat unusual decisions. Among other things, I’m writing the UI myself, rather than using an existing toolkit or framework.",
+      "url": "https://raphlinus.github.io/personal/2018/05/08/ecs-ui.html",
+      "date_published": "2018-05-08T18:29:03+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "66f3233f-afdd-49af-9cf4-cb71bcd56b33",
+      "title": "sudo_pair - Plugin for sudo that requires another human to approve and monitor privileged sudo sessions",
+      "content_text": "sudo is used by engineers daily to run commands as privileged users. But on some sensitive systems, you really want to ensure that no individual can act entirely autonomously. At Square, this includes applications that manage our internal access-control systems, store accounting ledgers, or even move around real money. This plugin allows us to ensure that no user can act entirely on their own authority within these systems.",
+      "url": "https://github.com/square/sudo_pair",
+      "date_published": "2018-05-07T18:24:54+00:00",
+      "author": {
+        "name": "Square",
+        "url": "https://github.com/square"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "3e8fce57-40d7-4eec-9425-a2b32ef5895d",
+      "title": "My Compound Passphrase List Safety Checker",
+      "content_text": "I’ve been thinking about information theory, entropy, and passphrases for a couple of months now. I’ve been particularly interested in using random passphrases as passwords. An example of one of these passphrases would be “stamina turret backlands ruby”. The words have to be as purely random as possible – using your four dogs’ names is not nearly as strong as a password, as an attacker would likely guess that relatively early.",
+      "url": "https://sts10.github.io/2018/05/05/compound-passphrase-list-safety-checker.html",
+      "date_published": "2018-05-05T02:13:50+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ef638662-6cfb-4335-9e01-baa7af9a5d95",
       "title": "Filtering Duplicate Log Entries via Rust and Runiq",
       "content_text": "Whilst sort -u is super easy to use, the requirement of sorting your data cannot be overlooked as it means your entire file needs to be buffered into memory at once. This is not always possible, or even if possible it's not always desired. On the other hand uniq is great, but in order to sort your data in advance you still have the same issue. It was due to this that I wrote runiq, which is essentially an optimized and more flexible implementation of both of the aforemention tools for the purposes of duplicate filtering. It performs much faster, with much less memory, and does not require sorted input (although it can optimize this case).",
