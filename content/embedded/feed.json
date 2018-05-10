@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3d49dcaa-90bd-4749-82a8-83a272d0864b",
+      "title": "Memory-Mapped Registers in Tock",
+      "content_text": "Microcontrollers typically use memory-mapped I/O interfaces to control hardware peripherals. Driver code uses these memory-mapped registers and fields to interact with the peripheral while providing a higher-level interface to the rest of the system. This post describes how Tock deals with register memory maps and a new tool that can automatically generate memory maps for many ARM microcontrollers.",
+      "url": "https://www.tockos.org/blog/2018/mmio-registers/",
+      "date_published": "2018-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Branden Ghena",
+        "url": "https://www.tockos.org/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "97c03488-1331-4858-baf0-26e1d0fca6f0",
       "title": "Embedded Rust: Peripherals (and low-level stuffs) - take 1",
       "content_text": "First of all, low level stuffs such as peripheral drivers should be hidden from the application developer. They should not be able to access directly the registers and mess with the peripheral states/control. The wrong flag in the wrong register can lead to dramatic failures and even damages to the products.",

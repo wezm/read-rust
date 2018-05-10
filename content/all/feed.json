@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3d49dcaa-90bd-4749-82a8-83a272d0864b",
+      "title": "Memory-Mapped Registers in Tock",
+      "content_text": "Microcontrollers typically use memory-mapped I/O interfaces to control hardware peripherals. Driver code uses these memory-mapped registers and fields to interact with the peripheral while providing a higher-level interface to the rest of the system. This post describes how Tock deals with register memory maps and a new tool that can automatically generate memory maps for many ARM microcontrollers.",
+      "url": "https://www.tockos.org/blog/2018/mmio-registers/",
+      "date_published": "2018-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Branden Ghena",
+        "url": "https://www.tockos.org/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "3f740b1f-622f-4a43-a46c-6a0a13818292",
+      "title": "An Open Source SDK and Serde Magic: My First Two Months as a Member of the Rust Community",
+      "content_text": "So why Rust? After all, using languages like Ruby, Go, or JavaScript, I could have written numerous full stack applications at this point. Why worry about types and ownership and all that nonsense?\n\nWell in Rust, there are certain safety guarantees… yes, you know, the typical spiel. That may have been enough to interest me in rust, but it was not the reason I decided to stick with it — ultimately what drew me in was the community.",
+      "url": "https://hackernoon.com/an-open-source-sdk-and-serde-magic-my-first-two-months-as-a-member-of-the-rust-community-333444af761e",
+      "date_published": "2018-05-09T14:28:15.455+00:00",
+      "author": {
+        "name": "Robert Durst",
+        "url": "https://hackernoon.com/@robdurst"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "cfa15026-8758-4249-b23c-fa41e23161c4",
       "title": "Entity-Component-System architecture for UI in Rust",
       "content_text": "For a fun project, I’ve been tinkering with xi-win, an experimental Windows front-end for xi-editor, written in Rust. I’m basically optimizing for performance, so making a number of somewhat unusual decisions. Among other things, I’m writing the UI myself, rather than using an existing toolkit or framework.",

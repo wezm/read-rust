@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3f740b1f-622f-4a43-a46c-6a0a13818292",
+      "title": "An Open Source SDK and Serde Magic: My First Two Months as a Member of the Rust Community",
+      "content_text": "So why Rust? After all, using languages like Ruby, Go, or JavaScript, I could have written numerous full stack applications at this point. Why worry about types and ownership and all that nonsense?\n\nWell in Rust, there are certain safety guarantees… yes, you know, the typical spiel. That may have been enough to interest me in rust, but it was not the reason I decided to stick with it — ultimately what drew me in was the community.",
+      "url": "https://hackernoon.com/an-open-source-sdk-and-serde-magic-my-first-two-months-as-a-member-of-the-rust-community-333444af761e",
+      "date_published": "2018-05-09T14:28:15.455+00:00",
+      "author": {
+        "name": "Robert Durst",
+        "url": "https://hackernoon.com/@robdurst"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "3a1ac912-0af7-47cb-b540-1cb3efc46956",
       "title": "Madrid GNOME+Rust Hackfest, part 2",
       "content_text": "Hacking on gnome-class continues apace! Philippe updated our dependencies. Alberto made the syntax for per-instance private structsmore ergonomic, and then made that code nice and compact. Martin improved our conversion from CamelCase to snake_case for code generation. Daniel added initial support for GObject properties. This is not finished...; ",
