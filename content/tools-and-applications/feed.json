@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4b63b225-3c2a-4e13-9cf5-a3ff4af811d0",
+      "title": "Analyze disk usage with dutree",
+      "content_text": "dutree is a command line tool to analyze disk usage. Features coloured output, according to the LS_COLORS environment variable, display the file system tree, ability to aggregate small files, ability to exclude files or directories, ability to compare different directories fast, and written in Rust. This tool is a mix between tree and durep.",
+      "url": "https://ownyourbits.com/2018/03/25/analize-disk-usage-with-dutree/",
+      "date_published": "2018-03-25T16:10:54+00:00",
+      "author": {
+        "name": "nachoparker",
+        "url": "https://ownyourbits.com/author/cisquero_admin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "cfa15026-8758-4249-b23c-fa41e23161c4",
       "title": "Entity-Component-System architecture for UI in Rust",
       "content_text": "For a fun project, I’ve been tinkering with xi-win, an experimental Windows front-end for xi-editor, written in Rust. I’m basically optimizing for performance, so making a number of somewhat unusual decisions. Among other things, I’m writing the UI myself, rather than using an existing toolkit or framework.",

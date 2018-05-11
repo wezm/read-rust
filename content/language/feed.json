@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c65ddae5-51e1-4eb4-96ab-365e0d819d0f",
+      "title": "Announcing Rust 1.26",
+      "content_text": "The past few releases have had a steady stream of relatively minor additions. We’ve been working on a lot of stuff, however, and it’s all starting to land in stable. 1.26 is possibly the most feature-packed release since Rust 1.0.",
+      "url": "https://blog.rust-lang.org/2018/05/10/Rust-1.26.html",
+      "date_published": "2018-05-10T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a7a257bb-3da8-42f1-b341-dad7221b9ab3",
       "title": "Rust: Enterprise Services Need Not Suck",
       "content_text": "I practice Barbarian Leadership. Standing on the back lines with hand in pocket giving orders is missing the fun. More importantly, knowledge is created on the cutting edge of action. People you work with know this. They value modern, non-hierarchical organizations where a leader dives into the fray, sword in hand, and gets to know intimately the problems and tools for solving them. So I dove into the fight despite knowing that it is “hard language”.",

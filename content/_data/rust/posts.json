@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c65ddae5-51e1-4eb4-96ab-365e0d819d0f",
+      "title": "Announcing Rust 1.26",
+      "content_text": "The past few releases have had a steady stream of relatively minor additions. We’ve been working on a lot of stuff, however, and it’s all starting to land in stable. 1.26 is possibly the most feature-packed release since Rust 1.0.",
+      "url": "https://blog.rust-lang.org/2018/05/10/Rust-1.26.html",
+      "date_published": "2018-05-10T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4b63b225-3c2a-4e13-9cf5-a3ff4af811d0",
+      "title": "Analyze disk usage with dutree",
+      "content_text": "dutree is a command line tool to analyze disk usage. Features coloured output, according to the LS_COLORS environment variable, display the file system tree, ability to aggregate small files, ability to exclude files or directories, ability to compare different directories fast, and written in Rust. This tool is a mix between tree and durep.",
+      "url": "https://ownyourbits.com/2018/03/25/analize-disk-usage-with-dutree/",
+      "date_published": "2018-03-25T16:10:54+00:00",
+      "author": {
+        "name": "nachoparker",
+        "url": "https://ownyourbits.com/author/cisquero_admin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "3d49dcaa-90bd-4749-82a8-83a272d0864b",
       "title": "Memory-Mapped Registers in Tock",
       "content_text": "Microcontrollers typically use memory-mapped I/O interfaces to control hardware peripherals. Driver code uses these memory-mapped registers and fields to interact with the peripheral while providing a higher-level interface to the rest of the system. This post describes how Tock deals with register memory maps and a new tool that can automatically generate memory maps for many ARM microcontrollers.",
