@@ -1,32 +1,62 @@
 extern crate egg_mode;
+extern crate failure;
 extern crate getopts;
 extern crate read_rust;
+extern crate serde;
+#[macro_use]
+extern crate serde_derive;
+extern crate serde_json;
 extern crate tokio_core;
 extern crate uuid;
 
 use getopts::Options;
+use egg_mode::{Token, KeyPair};
 use egg_mode::tweet::DraftTweet;
 use tokio_core::reactor::Core;
+use failure::Error;
 
-use read_rust::error::Error;
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
 
-use std::io::{Read, Write};
+use std::borrow::Cow;
 use std::env;
+use std::fs::File;
 use std::path::Path;
 
-const TWITTER_DATA_FILE: &str = ".twitter-data.txt";
+const TWITTER_DATA_FILE: &str = ".twitter-data.json";
 
-// From: https://github.com/QuietMisdreavus/twitter-rs/blob/master/examples/common/mod.rs
+// Serde calls this the definition of the remote type. It is just a copy of the
+// remote type. The `remote` attribute gives the path to the actual type.
+#[derive(Serialize, Deserialize, Clone)]
+#[serde(remote = "KeyPair")]
+struct KeyPairDef {
+    pub key: Cow<'static, str>,
+    pub secret: Cow<'static, str>,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
+#[serde(remote = "Token")]
+pub enum TokenDef {
+    Access {
+        #[serde(with = "KeyPairDef")]
+        consumer: egg_mode::KeyPair,
+        #[serde(with = "KeyPairDef")]
+        access: egg_mode::KeyPair,
+    },
+    Bearer(String),
+}
+
+// Derived from: https://github.com/QuietMisdreavus/twitter-rs/blob/master/examples/common/mod.rs
+#[derive(Deserialize, Serialize)]
 pub struct Config {
-    pub token: egg_mode::Token,
+    #[serde(with = "TokenDef")]
+    pub token: Token,
     pub user_id: u64,
     pub screen_name: String,
 }
 
 impl Config {
-    pub fn load(core: &mut Core) -> Self {
+    pub fn load(core: &mut Core) -> Result<Self, Error> {
         // Make an app for yourself at apps.twitter.com and get your
         // key/secret into these files
         let consumer_key = include_str!(".consumer_key").trim();
@@ -35,86 +65,43 @@ impl Config {
 
         let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
 
-        let mut config = String::new();
-        let user_id: u64;
-        let username: String;
-        let token: egg_mode::Token;
+        let config = if let Ok(mut file) = File::open(TWITTER_DATA_FILE) {
+            let config: Self = serde_json::from_reader(file)?;
 
-        //look at all this unwrapping! who told you it was my birthday?
-        if let Ok(mut f) = std::fs::File::open(TWITTER_DATA_FILE) {
-            f.read_to_string(&mut config).unwrap();
-
-            let mut iter = config.split('\n');
-
-            username = iter.next().unwrap().to_string();
-            user_id = u64::from_str_radix(&iter.next().unwrap(), 10).unwrap();
-            let access_token = egg_mode::KeyPair::new(
-                iter.next().unwrap().to_string(),
-                iter.next().unwrap().to_string(),
-            );
-            token = egg_mode::Token::Access {
-                consumer: con_token,
-                access: access_token,
-            };
-
-            if let Err(err) = core.run(egg_mode::verify_tokens(&token, &handle)) {
+            if let Err(err) = core.run(egg_mode::verify_tokens(&config.token, &handle)) {
                 println!("Unable to verify old tokens: {:?}", err);
                 println!("Reauthenticating...");
-                std::fs::remove_file(TWITTER_DATA_FILE).unwrap();
+                std::fs::remove_file(TWITTER_DATA_FILE)?;
             } else {
-                println!("Token for {} verified.", username);
+                println!("Token for {} verified.", config.screen_name);
             }
+
+            config
         } else {
-            let request_token = core.run(egg_mode::request_token(&con_token, "oob", &handle))
-                .unwrap();
+            let request_token = core.run(egg_mode::request_token(&con_token, "oob", &handle))?;
 
             println!("Go to the following URL, sign in, and enter the PIN:");
             println!("{}", egg_mode::authorize_url(&request_token));
 
             let mut pin = String::new();
-            std::io::stdin().read_line(&mut pin).unwrap();
+            std::io::stdin().read_line(&mut pin)?;
             println!("");
 
-            let tok_result = core.run(egg_mode::access_token(
-                con_token,
-                &request_token,
-                pin,
-                &handle,
-            )).unwrap();
+            let (token, user_id, screen_name) = core.run(egg_mode::access_token( con_token, &request_token, pin, &handle,))?;
+            let config = Config { token, user_id, screen_name };
 
-            token = tok_result.0;
-            user_id = tok_result.1;
-            username = tok_result.2;
+            // Save app data for using on the next run.
+            let file = File::create(TWITTER_DATA_FILE)?;
+            let _ = serde_json::to_writer_pretty(file, &config)?;
 
-            match token {
-                egg_mode::Token::Access {
-                    access: ref access_token,
-                    ..
-                } => {
-                    config.push_str(&username);
-                    config.push('\n');
-                    config.push_str(&format!("{}", user_id));
-                    config.push('\n');
-                    config.push_str(&access_token.key);
-                    config.push('\n');
-                    config.push_str(&access_token.secret);
-                }
-                _ => unreachable!(),
-            }
+            println!("Successfully authenticated as {}", config.screen_name);
 
-            let mut f = std::fs::File::create(TWITTER_DATA_FILE).unwrap();
-            f.write_all(config.as_bytes()).unwrap();
-
-            println!("Successfully authenticated as {}", username);
-        }
+            config
+        };
 
         // TODO: Is there a better way to query whether a file exists?
         if std::fs::metadata(TWITTER_DATA_FILE).is_ok() {
-            Config {
-                token: token,
-                user_id: user_id,
-                screen_name: username,
-            }
+            Ok(config)
         } else {
             Self::load(core)
         }
@@ -138,8 +125,8 @@ fn toot_text_from_item(item: &Item) -> String {
 }
 
 fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), Error> {
-    let mut core = Core::new().expect("unable to create core");
-    let config = Config::load(&mut core);
+    let mut core = Core::new()?;
+    let config = Config::load(&mut core)?;
 
     let handle = core.handle();
 
@@ -164,16 +151,16 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
             let tweet = DraftTweet::new(status_text);
 
             let work = tweet.send(&config.token, &handle);
-            core.run(work).expect("error in core.run");
+            core.run(work)?;
         }
         tootlist.add_item(Toot { item_id: item.id });
     }
 
-    if dry_run {
-        Ok(())
-    } else {
-        tootlist.save(&tootlist_path)
+    if !dry_run {
+        let _ = tootlist.save(&tootlist_path)?;
     }
+
+    Ok(())
 }
 
 fn print_usage(program: &str, opts: &Options) {

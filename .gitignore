@@ -1,6 +1,6 @@
 /public
 .mastodon-data.json
-.twitter-data.txt
+.twitter-data.json
 src/bin/.consumer*
 /target/
 **/*.rs.bk

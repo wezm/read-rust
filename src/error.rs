@@ -21,6 +21,4 @@ pub enum Error {
     RssError(#[cause] rss::Error),
     #[fail(display = "IO error: {}", _0)]
     Io(#[cause] io::Error),
-    #[fail(display = "Mastodon error: {}", _0)]
-    Mastodon(#[cause] mammut::Error),
 }
