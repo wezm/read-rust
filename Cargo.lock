@@ -968,6 +968,8 @@ dependencies = [
  "atom_syndication 0.5.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "chrono 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "egg-mode 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "failure_derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "feedfinder 0.1.0 (git+https://github.com/wezm/feedfinder.git)",
  "getopts 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)",
  "kuchiki 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",

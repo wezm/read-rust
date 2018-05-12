@@ -1,18 +1,26 @@
-extern crate reqwest;
-use serde_json;
 extern crate mammut;
+extern crate reqwest;
 extern crate rss;
 
 use std::io;
+use serde_json;
 
-#[derive(Debug)]
+#[derive(Debug, Fail)]
 pub enum Error {
-    Reqwest(reqwest::Error),
-    Url(reqwest::UrlError),
+    #[fail(display = "HTTP error: {}", _0)]
+    Reqwest(#[cause] reqwest::Error),
+    #[fail(display = "URL error: {}", _0)]
+    Url(#[cause] reqwest::UrlError),
+    #[fail(display = "HTML parsing error")]
     HtmlParseError,
-    JsonError(serde_json::Error),
+    #[fail(display = "JSON parsing error: {}", _0)]
+    JsonError(#[cause] serde_json::Error),
+    #[fail(display = "{}", _0)]
     StringError(String),
-    RssError(rss::Error),
-    Io(io::Error),
-    Mastodon(mammut::Error),
+    #[fail(display = "RSS error: {}", _0)]
+    RssError(#[cause] rss::Error),
+    #[fail(display = "IO error: {}", _0)]
+    Io(#[cause] io::Error),
+    #[fail(display = "Mastodon error: {}", _0)]
+    Mastodon(#[cause] mammut::Error),
 }

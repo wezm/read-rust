@@ -7,6 +7,8 @@ authors = ["Wesley Moore <wes@wezm.net>"]
 atom_syndication = "0.5"
 chrono = { version = "0.4.0", features = ['serde'] }
 egg-mode = "0.12"
+failure = "0.1"
+failure_derive = "0.1"
 feedfinder = { git = "https://github.com/wezm/feedfinder.git" }
 getopts = "0.2"
 kuchiki = "0.6"
