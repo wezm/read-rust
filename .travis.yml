@@ -2,6 +2,7 @@ language: rust
 cache: cargo
 install: '[ "`cobalt --version`" == "Cobalt 0.11.1" ] || cargo install --force cobalt-bin'
 script:
+  - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
   - cargo test
   - make
 rust:
