@@ -1,6 +1,7 @@
 all: feeds
 	cobalt build
 	cargo run --release --bin toot -- -n content/_data/tooted.json content/_data/rust/posts.json
+	cargo run --release --bin tweet -- -n content/_data/tweeted.json content/_data/rust/posts.json
 
 feeds:
 	cargo build --release --bin generate-rss

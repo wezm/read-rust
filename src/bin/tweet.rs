@@ -117,7 +117,7 @@ fn toot_text_from_item(item: &Item) -> String {
     //     .join(" ");
 
     format!(
-        "{title} by {author}: {url} #Rust",
+        "{title} by {author}: {url}",
         title = item.title,
         author = item.author.name,
         url = item.url
