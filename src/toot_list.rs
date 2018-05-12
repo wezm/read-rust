@@ -42,4 +42,3 @@ impl TootList {
         self.uuids.contains(uuid)
     }
 }
-

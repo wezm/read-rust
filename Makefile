@@ -22,4 +22,4 @@ feeds:
 deploy: all
 	aws s3 sync --delete --cache-control 'max-age=120, public' public s3://readrust.net
 	cargo run --release --bin toot -- content/_data/tooted.json content/_data/rust/posts.json
-
+	cargo run --release --bin tweet -- content/_data/tweeted content/_data/rust/posts.json
