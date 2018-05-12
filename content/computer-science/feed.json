@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0308ada3-604c-4240-8e94-2f9d23bc2934",
+      "title": "Bulletproof Multi-Party Computation in Rust with Session Types",
+      "content_text": "In Rust, objects are either owned or borrowed. While there can be multiple borrows of the same object, each object has a unique owner. When objects are passed by value, ownership is transferred to the new scope, and the old scope can no longer access it. This makes it possible to implement “consuming” methods which take self by value, and therefore can only be called once. In the party and dealer types, such methods consume the previous state and return the next state in the protocol.",
+      "url": "https://blog.chain.com/bulletproof-multi-party-computation-in-rust-with-session-types-b3da6e928d5d",
+      "date_published": "2018-05-11T22:25:19.221+00:00",
+      "author": {
+        "name": "Cathie Yun",
+        "url": "https://blog.chain.com/@cathieyun"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "0c0d7114-9e80-4e4f-868d-51de6778bed1",
       "title": "KRust: A Formal Executable Semantics of Rust",
       "content_text": "Rust is a new and promising high-level system programming language. It provides both memory safety and thread safety through its novel mechanisms such as ownership, moves and borrows. Ownership system ensures that at any point there is only one owner of any given resource. The ownership of a resource can be moved or borrowed according to the lifetimes. The ownership system establishes a clear lifetime for each value and hence does not necessarily need garbage collection. These novel features bring Rust high performance, fine low-level control of C and C++, and unnecessity in garbage collection, which differ Rust from other existing prevalent languages. For formal analysis of Rust programs and helping programmers learn its new mechanisms and features, a formal semantics of Rust is desired and useful as a fundament for developing related tools. In this paper, we present a formal executable operational semantics of a realistic subset of Rust, called KRust. The semantics is defined in K, a rewriting-based executable semantic framework for programming languages. The executable semantics yields automatically a formal interpreter and verification tools for Rust programs. KRust has been thoroughly validated by testing with hundreds of tests, including the official Rust test suite.",

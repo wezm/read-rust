@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d18e865c-71c2-4c7e-85ff-7d84e1999055",
+      "title": "Performance experiments with matrix multiplication",
+      "content_text": "One of Rust’s design goals is to be fast. That actually needs two distinct things from the language. First, is it shouldn’t introduce too much (preferably zero) overhead for its abstractions and be fast out of the box. Many people coming from the high level languages (python, javascript, …) find this to be the case ‒ just type the program, compile it (with --release) and it’s reasonable fast. The other, no less important, is allowing the programmer to tweak some knobs when trying to squeeze a bit more speed out of the program.\n\nI’ve decided to test the second a bit and see how far I could go. I’ve chosen matrix multiplication as a case study, for several reasons. I’ve played with it before (in my master’s thesis), it’s relatively simple and the effects of optimizing it can be great. For simplicity, I’ve decided to multiply only square matrices with power-of-two sizes, but these restrictions can be lifted in a real implementation without significantly loosing performance ‒ only the code gets somewhat more complex and hairy.",
+      "url": "https://vorner.github.io/2018/05/12/Mat-perf.html",
+      "date_published": "2018-05-12T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "0a6c62ed-f16b-4b57-8ff1-3984e08f204e",
       "title": "How fast can we compile Rust hello world?",
       "content_text": "Seeing Nick Nethercote’s blog post about speeding up the compiler, I started wondering just how fast could a Rust compiler be? How fast could we compile a simple example? How fast can we compile a Rust hello world?",

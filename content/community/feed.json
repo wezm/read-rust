@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "61b70d34-71d7-4258-b8f2-f3c2cadce508",
+      "title": "On the origin of rustaceans",
+      "content_text": "The “Increasing Rust’s Reach” projects are kicking off! With it, the Community Team is asking for people to describe how they contribute to Rust, to demonstrate the breadth of talent and perspective in the community. So here’s my personal Rust story!",
+      "url": "https://quietmisdreavus.net/code/2018/05/11/on-the-origin-of-rustaceans/",
+      "date_published": "2018-05-11T13:30:00-05:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "842d15e6-6102-45a0-905c-6a25995f8dc9",
+      "title": "Increasing Rust's Reach Kickoff",
+      "content_text": "I have the great pleasure and privilege this year to be one of the mentors for Increasing Rust's Reach. I'll be working with Sarah and nano on WebAssembly and I'm really excited to see what we accomplish over the next few months. Even after our first meeting I just know they're gonna do some great things. Over the coming months I'll be documenting their progress, but to kick things off the Rust Community team is asking people to describe their story and how they contribute to Rust, to show off the variety and breadth of our experiences and talent in a wide variety of areas. This is my story.",
+      "url": "https://mgattozzi.com/rust-reach-kickoff",
+      "date_published": "2018-05-11T00:00:00+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "3f740b1f-622f-4a43-a46c-6a0a13818292",
       "title": "An Open Source SDK and Serde Magic: My First Two Months as a Member of the Rust Community",
       "content_text": "So why Rust? After all, using languages like Ruby, Go, or JavaScript, I could have written numerous full stack applications at this point. Why worry about types and ownership and all that nonsense?\n\nWell in Rust, there are certain safety guarantees… yes, you know, the typical spiel. That may have been enough to interest me in rust, but it was not the reason I decided to stick with it — ultimately what drew me in was the community.",
