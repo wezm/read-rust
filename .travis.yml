@@ -4,7 +4,7 @@ install: '[ "`cobalt --version`" == "Cobalt 0.11.1" ] || cargo install --force c
 script:
   - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
   - cargo test
-  - make
+  - make feeds
 rust:
   - stable
   - beta
