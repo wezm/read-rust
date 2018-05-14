@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d2cf9531-53d8-45dd-a9e4-0feaa3699466",
+      "title": "An image viewer using Smithay's Client Toolkit",
+      "content_text": "Small tutorial of using Smithay's Client Toolkit by example, building a small image viewer as a Wayland client.",
+      "url": "https://smithay.github.io/sctk-image-viewer.html",
+      "date_published": "2018-05-10T14:00:00+02:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4b63b225-3c2a-4e13-9cf5-a3ff4af811d0",
       "title": "Analyze disk usage with dutree",
       "content_text": "dutree is a command line tool to analyze disk usage. Features coloured output, according to the LS_COLORS environment variable, display the file system tree, ability to aggregate small files, ability to exclude files or directories, ability to compare different directories fast, and written in Rust. This tool is a mix between tree and durep.",

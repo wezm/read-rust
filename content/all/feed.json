@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "7ff4bfa8-5426-47a6-9761-3f9c4f090a61",
+      "title": "My Pathway to Outreachy with Mozilla",
+      "content_text": "I first heard about Outreachy from my coach last year when I was applying for Rails Girls Summer of Code (RGSoC). Although we didn’t make through RGSoC at that time, I learned a lot about how Open Source works; whether it was about learning intricacies of Git, building patience to figure out a bug among thousands of lines of code, or becoming a programmer with better problem-solving and communication skills.",
+      "url": "https://medium.com/women-who-code-delhi/my-pathway-to-outreachy-with-mozilla-ede312b08efd",
+      "date_published": "2018-05-14T05:54:12.289+00:00",
+      "author": {
+        "name": "Kanika Saini",
+        "url": "https://medium.com/@WWCode_Delhi"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "d2cf9531-53d8-45dd-a9e4-0feaa3699466",
+      "title": "An image viewer using Smithay's Client Toolkit",
+      "content_text": "Small tutorial of using Smithay's Client Toolkit by example, building a small image viewer as a Wayland client.",
+      "url": "https://smithay.github.io/sctk-image-viewer.html",
+      "date_published": "2018-05-10T14:00:00+02:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "97a47f42-b32a-45df-8473-892b94367048",
+      "title": "How a Rust upgrade more than tripled the speed of my code",
+      "content_text": "I’d like to share a quick story about the sheer power of LLVM and the benefits of using higher-level languages over assembly.",
+      "url": "http://troubles.md/posts/the-power-of-compilers/",
+      "date_published": "2018-05-11T16:07:31+02:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "d18e865c-71c2-4c7e-85ff-7d84e1999055",
       "title": "Performance experiments with matrix multiplication",
       "content_text": "One of Rust’s design goals is to be fast. That actually needs two distinct things from the language. First, is it shouldn’t introduce too much (preferably zero) overhead for its abstractions and be fast out of the box. Many people coming from the high level languages (python, javascript, …) find this to be the case ‒ just type the program, compile it (with --release) and it’s reasonable fast. The other, no less important, is allowing the programmer to tweak some knobs when trying to squeeze a bit more speed out of the program.\n\nI’ve decided to test the second a bit and see how far I could go. I’ve chosen matrix multiplication as a case study, for several reasons. I’ve played with it before (in my master’s thesis), it’s relatively simple and the effects of optimizing it can be great. For simplicity, I’ve decided to multiply only square matrices with power-of-two sizes, but these restrictions can be lifted in a real implementation without significantly loosing performance ‒ only the code gets somewhat more complex and hairy.",

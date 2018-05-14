@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7ff4bfa8-5426-47a6-9761-3f9c4f090a61",
+      "title": "My Pathway to Outreachy with Mozilla",
+      "content_text": "I first heard about Outreachy from my coach last year when I was applying for Rails Girls Summer of Code (RGSoC). Although we didn’t make through RGSoC at that time, I learned a lot about how Open Source works; whether it was about learning intricacies of Git, building patience to figure out a bug among thousands of lines of code, or becoming a programmer with better problem-solving and communication skills.",
+      "url": "https://medium.com/women-who-code-delhi/my-pathway-to-outreachy-with-mozilla-ede312b08efd",
+      "date_published": "2018-05-14T05:54:12.289+00:00",
+      "author": {
+        "name": "Kanika Saini",
+        "url": "https://medium.com/@WWCode_Delhi"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "61b70d34-71d7-4258-b8f2-f3c2cadce508",
       "title": "On the origin of rustaceans",
       "content_text": "The “Increasing Rust’s Reach” projects are kicking off! With it, the Community Team is asking for people to describe how they contribute to Rust, to demonstrate the breadth of talent and perspective in the community. So here’s my personal Rust story!",
