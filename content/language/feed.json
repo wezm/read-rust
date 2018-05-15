@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "50ca4f3e-2051-4779-adf4-a12615b72d99",
+      "title": "Rust turns three",
+      "content_text": "Three years ago today, the Rust community released Rust 1.0 to the world, with our initial vision of fearless systems programming. As per tradition, we’ll celebrate Rust’s birthday by taking stock of the people and the product, and especially of what’s happened in the last year.",
+      "url": "https://blog.rust-lang.org/2018/05/15/Rust-turns-three.html",
+      "date_published": "2018-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c65ddae5-51e1-4eb4-96ab-365e0d819d0f",
       "title": "Announcing Rust 1.26",
       "content_text": "The past few releases have had a steady stream of relatively minor additions. We’ve been working on a lot of stuff, however, and it’s all starting to land in stable. 1.26 is possibly the most feature-packed release since Rust 1.0.",

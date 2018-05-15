@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "50ca4f3e-2051-4779-adf4-a12615b72d99",
+      "title": "Rust turns three",
+      "content_text": "Three years ago today, the Rust community released Rust 1.0 to the world, with our initial vision of fearless systems programming. As per tradition, we’ll celebrate Rust’s birthday by taking stock of the people and the product, and especially of what’s happened in the last year.",
+      "url": "https://blog.rust-lang.org/2018/05/15/Rust-turns-three.html",
+      "date_published": "2018-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5b534e6e-4e12-4860-95d6-1317b8903d4e",
+      "title": "Setting up gitlab-ci for Rust",
+      "content_text": "We're going to create a multi-stage pipeline based on the one I'm using at work, featuring: a build image, linting, test & release builds, and docker containers",
+      "url": "https://not.plhk.ru/gitlab-ci-rust/",
+      "date_published": "2018-05-14T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Polakov",
+        "url": "https://not.plhk.ru/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "600945e6-9cca-43fc-abe3-8b39f5eb1766",
+      "title": "nom 4.0: faster, safer, simpler parsers",
+      "content_text": "It took nearly 6 months of development and the library went through nearly 5 entire rewrites. Compare that to previous major releases, which took a month at most to do. But it was worth it! This new release cleans up a lot of old bugs and unintuitive behaviours, simplifies some common patterns, is faster, uses less memory, gives better errors, but the way parsers are written stay the same. It’s like an entirely new engine under the same body work!",
+      "url": "http://unhandledexpression.com/general/2018/05/14/nom-4-0-faster-safer-simpler-parsers.html",
+      "date_published": "2018-05-14T13:00:00+02:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "58fff202-4974-4db4-93ef-ad074e609a70",
+      "title": "A Small Rust API with Actix",
+      "content_text": "I had the need for a very small API for this website. So small, in fact, that only one endpoint was required. I've been doing a lot of development in Rust lately, so naturally Rust seemed like a good candidate to build this API in. I also wanted to try out a newer Rust web framework called Actix web. It claims to be a \"small, pragmatic, and extremely fast rust web framework\", which sounded perfect for what I needed.",
+      "url": "https://stevezeidner.com/blog/rust-actix-api/",
+      "date_published": "2018-05-10T00:00:00+00:00",
+      "author": {
+        "name": "Steve Zeidner",
+        "url": "https://stevezeidner.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "7ff4bfa8-5426-47a6-9761-3f9c4f090a61",
       "title": "My Pathway to Outreachy with Mozilla",
       "content_text": "I first heard about Outreachy from my coach last year when I was applying for Rails Girls Summer of Code (RGSoC). Although we didn’t make through RGSoC at that time, I learned a lot about how Open Source works; whether it was about learning intricacies of Git, building patience to figure out a bug among thousands of lines of code, or becoming a programmer with better problem-solving and communication skills.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "600945e6-9cca-43fc-abe3-8b39f5eb1766",
+      "title": "nom 4.0: faster, safer, simpler parsers",
+      "content_text": "It took nearly 6 months of development and the library went through nearly 5 entire rewrites. Compare that to previous major releases, which took a month at most to do. But it was worth it! This new release cleans up a lot of old bugs and unintuitive behaviours, simplifies some common patterns, is faster, uses less memory, gives better errors, but the way parsers are written stay the same. It’s like an entirely new engine under the same body work!",
+      "url": "http://unhandledexpression.com/general/2018/05/14/nom-4-0-faster-safer-simpler-parsers.html",
+      "date_published": "2018-05-14T13:00:00+02:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "df6d6cbf-58fc-49e6-a582-446c255a3d39",
       "title": "gtk-test - A crate for testing GTK UIs",
       "content_text": "Currently, testing UIs is difficult, but with gtk-test you can test basically everything UI-related way more simply.",
