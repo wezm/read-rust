@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d517cda7-1102-49bb-ab34-d14f5f0d09c0",
+      "title": "Learn Rust by project",
+      "content_text": "More than a year ago a friend of mine wanted to learn a bit more about Rust by trying out a project. He had a nice project in mind which suits Rust quite well I think. For fun I joined his effort and created an implementation at the same time as he did, discussing and comparing along the way. In this post I’ll tell you about the project specifics, but the point of the post is more an encouragement. If you’ve read about Rust before but haven’t tried it yet, find a small project like the one below, and learn Rust in a fun and hands-on way yourself. It’s a great programming language, I highly recommend it.",
+      "url": "http://blog.jeffsmits.net/compsci/2018/04/30/learn-rust-by-project/",
+      "date_published": "2018-04-30T00:00:00+00:00",
+      "author": {
+        "name": "Jeff Smits",
+        "url": "http://blog.jeffsmits.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "600945e6-9cca-43fc-abe3-8b39f5eb1766",
       "title": "nom 4.0: faster, safer, simpler parsers",
       "content_text": "It took nearly 6 months of development and the library went through nearly 5 entire rewrites. Compare that to previous major releases, which took a month at most to do. But it was worth it! This new release cleans up a lot of old bugs and unintuitive behaviours, simplifies some common patterns, is faster, uses less memory, gives better errors, but the way parsers are written stay the same. It’s like an entirely new engine under the same body work!",

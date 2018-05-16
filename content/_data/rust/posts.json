@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "9626a0ad-d7d5-4b09-b642-a273b535504f",
+      "title": "How I got into rust",
+      "content_text": "There’s currently a campaign around the #RustReach program where it’s people post their, uh, Rust “origin stories”, so to say. Mine is not nearly as long as some other peoples’, but I thought I’d try my hand at this regardless.",
+      "url": "https://liv.cat/how-i-got-into-rust",
+      "date_published": "2018-05-16T00:00:00+00:00",
+      "author": {
+        "name": "liv hugger",
+        "url": "https://liv.cat/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "d517cda7-1102-49bb-ab34-d14f5f0d09c0",
+      "title": "Learn Rust by project",
+      "content_text": "More than a year ago a friend of mine wanted to learn a bit more about Rust by trying out a project. He had a nice project in mind which suits Rust quite well I think. For fun I joined his effort and created an implementation at the same time as he did, discussing and comparing along the way. In this post I’ll tell you about the project specifics, but the point of the post is more an encouragement. If you’ve read about Rust before but haven’t tried it yet, find a small project like the one below, and learn Rust in a fun and hands-on way yourself. It’s a great programming language, I highly recommend it.",
+      "url": "http://blog.jeffsmits.net/compsci/2018/04/30/learn-rust-by-project/",
+      "date_published": "2018-04-30T00:00:00+00:00",
+      "author": {
+        "name": "Jeff Smits",
+        "url": "http://blog.jeffsmits.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "197e6f6d-ecff-4682-8a91-fff94f38fc7a",
+      "title": "My Rust Story",
+      "content_text": "The #rustreach project is apparently asking people how they got into Rust, and though I wasn’t asked in person, I thought it may be useful to write down my personal Rust story. Here goes nothing.",
+      "url": "https://llogiq.github.io/2018/05/15/story.html",
+      "date_published": "2018-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "4ae850d3-305a-4fb4-826d-853972364683",
+      "title": "On learning Rust",
+      "content_text": "But recently I decided to give Rust a go. And I must admit that I’m extremely surprised. Rust, like OCaml is a pretty low level language (it is a system programming language). After six years without seeing any pointers, I can’t say that I was happy. But the Rust compiler, by being extremely safe actually makes that easy.",
+      "url": "https://medium.com/@AugustinLF/on-learning-rust-69ba956a63e3",
+      "date_published": "2018-05-16T14:01:05.344+00:00",
+      "author": {
+        "name": "Augustin Le Fèvre",
+        "url": "https://medium.com/@AugustinLF"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "50ca4f3e-2051-4779-adf4-a12615b72d99",
       "title": "Rust turns three",
       "content_text": "Three years ago today, the Rust community released Rust 1.0 to the world, with our initial vision of fearless systems programming. As per tradition, we’ll celebrate Rust’s birthday by taking stock of the people and the product, and especially of what’s happened in the last year.",

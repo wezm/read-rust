@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4ae850d3-305a-4fb4-826d-853972364683",
+      "title": "On learning Rust",
+      "content_text": "But recently I decided to give Rust a go. And I must admit that I’m extremely surprised. Rust, like OCaml is a pretty low level language (it is a system programming language). After six years without seeing any pointers, I can’t say that I was happy. But the Rust compiler, by being extremely safe actually makes that easy.",
+      "url": "https://medium.com/@AugustinLF/on-learning-rust-69ba956a63e3",
+      "date_published": "2018-05-16T14:01:05.344+00:00",
+      "author": {
+        "name": "Augustin Le Fèvre",
+        "url": "https://medium.com/@AugustinLF"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5b534e6e-4e12-4860-95d6-1317b8903d4e",
       "title": "Setting up gitlab-ci for Rust",
       "content_text": "We're going to create a multi-stage pipeline based on the one I'm using at work, featuring: a build image, linting, test & release builds, and docker containers",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9626a0ad-d7d5-4b09-b642-a273b535504f",
+      "title": "How I got into rust",
+      "content_text": "There’s currently a campaign around the #RustReach program where it’s people post their, uh, Rust “origin stories”, so to say. Mine is not nearly as long as some other peoples’, but I thought I’d try my hand at this regardless.",
+      "url": "https://liv.cat/how-i-got-into-rust",
+      "date_published": "2018-05-16T00:00:00+00:00",
+      "author": {
+        "name": "liv hugger",
+        "url": "https://liv.cat/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "197e6f6d-ecff-4682-8a91-fff94f38fc7a",
+      "title": "My Rust Story",
+      "content_text": "The #rustreach project is apparently asking people how they got into Rust, and though I wasn’t asked in person, I thought it may be useful to write down my personal Rust story. Here goes nothing.",
+      "url": "https://llogiq.github.io/2018/05/15/story.html",
+      "date_published": "2018-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "7ff4bfa8-5426-47a6-9761-3f9c4f090a61",
       "title": "My Pathway to Outreachy with Mozilla",
       "content_text": "I first heard about Outreachy from my coach last year when I was applying for Rails Girls Summer of Code (RGSoC). Although we didn’t make through RGSoC at that time, I learned a lot about how Open Source works; whether it was about learning intricacies of Git, building patience to figure out a bug among thousands of lines of code, or becoming a programmer with better problem-solving and communication skills.",
