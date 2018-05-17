@@ -10,13 +10,14 @@ extern crate tokio_core;
 extern crate uuid;
 
 use getopts::Options;
-use egg_mode::{Token, KeyPair};
+use egg_mode::{KeyPair, Token};
 use egg_mode::tweet::DraftTweet;
 use tokio_core::reactor::Core;
 use failure::Error;
 
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
+use read_rust::categories::Categories;
 
 use std::borrow::Cow;
 use std::env;
@@ -87,8 +88,17 @@ impl Config {
             std::io::stdin().read_line(&mut pin)?;
             println!("");
 
-            let (token, user_id, screen_name) = core.run(egg_mode::access_token( con_token, &request_token, pin, &handle,))?;
-            let config = Config { token, user_id, screen_name };
+            let (token, user_id, screen_name) = core.run(egg_mode::access_token(
+                con_token,
+                &request_token,
+                pin,
+                &handle,
+            ))?;
+            let config = Config {
+                token,
+                user_id,
+                screen_name,
+            };
 
             // Save app data for using on the next run.
             let file = File::create(TWITTER_DATA_FILE)?;
@@ -108,23 +118,32 @@ impl Config {
     }
 }
 
-fn toot_text_from_item(item: &Item) -> String {
-    // Mastodon doesn't allow dashes in tags, which makes some of the longer tags a bit awkward. So
-    // leaving off for now.
-    // let tags = item.tags.iter()
-    //     .map(|tag| format!("#{}", tag.to_lowercase().replace(" ", "-")))
-    //     .collect::<Vec<String>>()
-    //     .join(" ");
+fn tweet_text_from_item(item: &Item, categories: &Categories) -> String {
+    let tags = item.tags
+        .iter()
+        .filter_map(|tag| {
+            categories
+                .hashtag_for_category(tag)
+                .map(|hashtag| format!("#{}", hashtag))
+        })
+        .collect::<Vec<String>>()
+        .join(" ");
 
     format!(
-        "{title} by {author}: {url}",
+        "{title} by {author}: {url} {tags}",
         title = item.title,
         author = item.author.name,
-        url = item.url
+        url = item.url,
+        tags = tags
     )
 }
 
-fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), Error> {
+fn run(
+    tootlist_path: &str,
+    json_feed_path: &str,
+    categories_path: &str,
+    dry_run: bool,
+) -> Result<(), Error> {
     let mut core = Core::new()?;
     let config = Config::load(&mut core)?;
 
@@ -133,6 +152,8 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
     let tootlist_path = Path::new(tootlist_path);
     let mut tootlist = TootList::load(&tootlist_path)?;
     let feed = JsonFeed::load(Path::new(json_feed_path))?;
+    let categories_path = Path::new(categories_path);
+    let categories = Categories::load(&categories_path)?;
 
     let to_tweet: Vec<Item> = feed.items
         .into_iter()
@@ -145,7 +166,7 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
     }
 
     for item in to_tweet {
-        let status_text = toot_text_from_item(&item);
+        let status_text = tweet_text_from_item(&item, &categories);
         println!("• {}", status_text);
         if !dry_run {
             let tweet = DraftTweet::new(status_text);
@@ -164,7 +185,10 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
 }
 
 fn print_usage(program: &str, opts: &Options) {
-    let usage = format!("Usage: {} [options] tweetlist.json jsonfeed.json", program);
+    let usage = format!(
+        "Usage: {} [options] tweetlist.json jsonfeed.json categories.json",
+        program
+    );
     print!("{}", opts.usage(&usage));
 }
 
@@ -188,5 +212,10 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], &matches.free[1], matches.opt_present("n")).expect("error");
+    run(
+        &matches.free[0],
+        &matches.free[1],
+        &matches.free[2],
+        matches.opt_present("n"),
+    ).expect("error");
 }

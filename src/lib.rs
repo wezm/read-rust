@@ -13,3 +13,4 @@ extern crate uuid;
 pub mod error;
 pub mod feed;
 pub mod toot_list;
+pub mod categories;
