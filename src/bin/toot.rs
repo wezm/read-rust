@@ -13,6 +13,7 @@ use failure::Error;
 
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
+use read_rust::categories::Categories;
 
 use std::io;
 use std::env;
@@ -50,9 +51,7 @@ fn register() -> Result<Mastodon, Error> {
     let _ = io::stdin().read_line(&mut input)?;
 
     let code = input.trim();
-    let mastodon = registration
-        .create_access_token(code.to_string())
-        ?;
+    let mastodon = registration.create_access_token(code.to_string())?;
 
     // Save app data for using on the next run.
     let file = File::create(MASTODON_DATA_FILE)?;
@@ -61,26 +60,37 @@ fn register() -> Result<Mastodon, Error> {
     Ok(mastodon)
 }
 
-fn toot_text_from_item(item: &Item) -> String {
-    // Mastodon doesn't allow dashes in tags, which makes some of the longer tags a bit awkward. So
-    // leaving off for now.
-    // let tags = item.tags.iter()
-    //     .map(|tag| format!("#{}", tag.to_lowercase().replace(" ", "-")))
-    //     .collect::<Vec<String>>()
-    //     .join(" ");
+fn toot_text_from_item(item: &Item, categories: &Categories) -> String {
+    let tags = item.tags
+        .iter()
+        .filter_map(|tag| {
+            categories
+                .hashtag_for_category(tag)
+                .map(|hashtag| format!("#{}", hashtag))
+        })
+        .collect::<Vec<String>>()
+        .join(" ");
 
     format!(
-        "{title} by {author}: {url} #Rust",
+        "{title} by {author}: {url} #Rust {tags}",
         title = item.title,
         author = item.author.name,
-        url = item.url
+        url = item.url,
+        tags = tags
     )
 }
 
-fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), Error> {
+fn run(
+    tootlist_path: &str,
+    json_feed_path: &str,
+    categories_path: &str,
+    dry_run: bool,
+) -> Result<(), Error> {
     let tootlist_path = Path::new(tootlist_path);
     let mut tootlist = TootList::load(&tootlist_path)?;
     let feed = JsonFeed::load(Path::new(json_feed_path))?;
+    let categories_path = Path::new(categories_path);
+    let categories = Categories::load(&categories_path)?;
 
     let to_toot: Vec<Item> = feed.items
         .into_iter()
@@ -94,12 +104,10 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
 
     let mastodon = connect_to_mastodon()?;
     for item in to_toot {
-        let status_text = toot_text_from_item(&item);
+        let status_text = toot_text_from_item(&item, &categories);
         println!("• {}", status_text);
         if !dry_run {
-            let _toot = mastodon
-                .new_status(StatusBuilder::new(status_text))
-                ?;
+            let _toot = mastodon.new_status(StatusBuilder::new(status_text))?;
         }
         tootlist.add_item(Toot { item_id: item.id });
     }
@@ -112,7 +120,10 @@ fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), E
 }
 
 fn print_usage(program: &str, opts: &Options) {
-    let usage = format!("Usage: {} [options] tootlist.json jsonfeed.json", program);
+    let usage = format!(
+        "Usage: {} [options] tootlist.json jsonfeed.json categories.json",
+        program
+    );
     print!("{}", opts.usage(&usage));
 }
 
@@ -132,5 +143,10 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], &matches.free[1], matches.opt_present("n")).expect("error");
+    run(
+        &matches.free[0],
+        &matches.free[1],
+        &matches.free[2],
+        matches.opt_present("n"),
+    ).expect("error");
 }
