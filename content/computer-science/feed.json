@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c7a4923a-2a12-4f88-82fc-4b99b94080e9",
+      "title": "Cannoli: A Python Compiler Written in Rust [pdf]",
+      "content_text": "I just finished my Master's Thesis and part of it was writing a Python compiler in Rust. The goal of the thesis was to evaluate language features of Python that were hypothesized to cause performance issues. Quantifying the cost of these features could be valuable to language designers moving forward. Some interesting results were observed when implementing compiler optimizations for Python. An average speedup of 51% was achieved across a number of benchmarks.",
+      "url": "https://github.com/joncatanio/cannoli/raw/master/resources/papers/cannoli-thesis-paper.pdf",
+      "date_published": "2018-05-17T16:00:59+00:00",
+      "author": {
+        "name": "Jonathan Catanio",
+        "url": "https://github.com/joncatanio"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "0308ada3-604c-4240-8e94-2f9d23bc2934",
       "title": "Bulletproof Multi-Party Computation in Rust with Session Types",
       "content_text": "In Rust, objects are either owned or borrowed. While there can be multiple borrows of the same object, each object has a unique owner. When objects are passed by value, ownership is transferred to the new scope, and the old scope can no longer access it. This makes it possible to implement “consuming” methods which take self by value, and therefore can only be called once. In the party and dealer types, such methods consume the previous state and return the next state in the protocol.",

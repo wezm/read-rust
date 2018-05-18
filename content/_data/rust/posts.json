@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "3f1b68cd-7c14-415e-bbe9-45db4342a95e",
+      "title": "Get to know Rust",
+      "content_text": "If you have ever written software, you have undoubtedly asked yourself, \"What language should I write this in?\" It's a valid question. Does your code need to be as fast as possible? Will it be running on the Web? Will the code be on the back end or the front? All languages have their niches, and Rust is no different.\n\nRust is a statically typed compiled language that fills the roles that most users use C or C++ for. Unlike C or C++, though, Rust also encroaches on territory that C# and the Java™ language have dominated for much of this century: Rust is a language that is memory safe and operating system agnostic, meaning that it can run on any computer. Essentially, you get all the speed and low-level benefits of a systems language without the pesky garbage collection of those latter languages I mentioned. Excited? Yeah, me, too. Welcome to Rust! ",
+      "url": "https://www.ibm.com/developerworks/opensource/library/os-know-rust/index.html",
+      "date_published": "2018-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Dylan Hicks",
+        "url": "https://www.linkedin.com/in/dylan-hicks-b4265396/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "c7a4923a-2a12-4f88-82fc-4b99b94080e9",
+      "title": "Cannoli: A Python Compiler Written in Rust [pdf]",
+      "content_text": "I just finished my Master's Thesis and part of it was writing a Python compiler in Rust. The goal of the thesis was to evaluate language features of Python that were hypothesized to cause performance issues. Quantifying the cost of these features could be valuable to language designers moving forward. Some interesting results were observed when implementing compiler optimizations for Python. An average speedup of 51% was achieved across a number of benchmarks.",
+      "url": "https://github.com/joncatanio/cannoli/raw/master/resources/papers/cannoli-thesis-paper.pdf",
+      "date_published": "2018-05-17T16:00:59+00:00",
+      "author": {
+        "name": "Jonathan Catanio",
+        "url": "https://github.com/joncatanio"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "2bdd1638-e211-477d-8bb8-3ae0de703661",
+      "title": "FizzBuzz Can Finally Be Implemented in Stable Rust",
+      "content_text": "I have been editing my FizzBuzz repository since 2014. After four years, I was finally able to switch from nightly to stable due to the 1.26 release. Let’s back up a little bit and appreciate the changes since the first revision.",
+      "url": "https://medium.com/@iopguy/fizzbuzz-can-finally-be-implemented-in-stable-rust-87649a882f2d",
+      "date_published": "2018-05-17T17:23:27.319+00:00",
+      "author": {
+        "name": "Igor Polyakov",
+        "url": "https://medium.com/@iopguy"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f676f9eb-ea74-4dc5-a393-1f23a7886678",
+      "title": "Dropping drops",
+      "content_text": "Recently, a benchmark made it to the top of /r/programming, featuring Rust among other languages, and I was a bit surprised to see that the idiomatic Rust program was not competitive with the best-tuned C++ solution. The benchmark implements a binary tree, and the C++ solution leverages raw pointers while Rust would use an Option<Box<Node>> to represent its tree. Since Option knows that Box is non-nullable, it should compile down to a raw pointer. Quickly inspecting the Rust and C++ versions would not let me find where the performance difference came from.",
+      "url": "https://barrielle.cedeela.fr/research_page/dropping-drops.html",
+      "date_published": "2018-05-17T00:00:00+02:00",
+      "author": {
+        "name": "Vincent Barrielle",
+        "url": "https://barrielle.cedeela.fr/research_page/category/blog.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "51352c9c-dac9-4e94-a90f-5e953057a01a",
+      "title": "Porting Rust Benchmarks To Criterion",
+      "content_text": "A few weeks ago, I set out to convert bytecount’s benchmarks to criterion, a statistics-driven benchmarking framework started by Jorge Aparicio and maintained by Brook Heisler.\n\nBefore, bytecount used bencher for its benchmarks, which is a straight port of the unstable, nightly-only std::test benchmark framework, extended to work with stable Rust. This was a great benefit compared to std::test, because now we could benchmark on all Rust versions (stable, beta, nightly, some specific version) without needing to fear regressions.",
+      "url": "https://llogiq.github.io/2018/05/18/criterion.html",
+      "date_published": "2018-05-18T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "a9218983-121e-4d4f-a02f-fd30cb6cf9b2",
+      "title": "The Rust compiler is getting faster",
+      "content_text": "TL;DR: The Rust compiler has gotten 1.06x–4x faster over the past month.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/05/17/the-rust-compiler-is-getting-faster/",
+      "date_published": "2018-05-17T04:08:48+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "2027caf9-9c4c-4e62-b4f3-2c43ff70590b",
+      "title": "Optimising CTree and strs",
+      "content_text": "Once upon a time, I wrote an interpreter for Stratego Core in Rust, which I named strs. Stratego Core is the core language that Stratego is compiled to before the compiler goes further (to Java, or previously to C). A core language is an intermediate representation that is a subset of the surface language.\n\nWhile I optimised that interpreter quite a bit, I noticed that the CTree (Stratego Core Abstract Syntax Tree) that the compiler spit out for me to interpret was very unoptimised. Therefore one the plans I described at the end of the blog post was a little tool for Copy Propagation on CTree files. This post is about that tool, and the optimisations in the interpreter that made it obsolete again.",
+      "url": "http://blog.jeffsmits.net/compsci/2018/05/08/optimising-stratego-core/",
+      "date_published": "2018-05-08T00:00:00+00:00",
+      "author": {
+        "name": "Jeff Smits",
+        "url": "http://blog.jeffsmits.net/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "c1e5c8e3-46e1-412d-98fe-6735ad9e4f19",
+      "title": "Compile Time Prevention of SQL-Injections in Rust",
+      "content_text": "SQL injection vulnerabilities have been a plague ever since such databases have been combined with user facing applications. Such vulnerabilities arise when a SQL query string is naively combined with data that is controlled by an attacker.\n\nTo mitigate, people should make use of placeholders and prepared statements provided by SQL client libraries. This separates the variable data from the actual query, ensuring that these two never mix. Pretty much all modern SQL client libraries offer this functionality, but of course, it’s still possible to mix variable data and SQL by means of string concatenation.",
+      "url": "https://polyfloyd.net/post/compile-time-prevention-of-sql-injections/",
+      "date_published": "2018-05-18T00:00:00+00:00",
+      "author": {
+        "name": "polyfloyd",
+        "url": "https://polyfloyd.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9626a0ad-d7d5-4b09-b642-a273b535504f",
       "title": "How I got into rust",
       "content_text": "There’s currently a campaign around the #RustReach program where it’s people post their, uh, Rust “origin stories”, so to say. Mine is not nearly as long as some other peoples’, but I thought I’d try my hand at this regardless.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2bdd1638-e211-477d-8bb8-3ae0de703661",
+      "title": "FizzBuzz Can Finally Be Implemented in Stable Rust",
+      "content_text": "I have been editing my FizzBuzz repository since 2014. After four years, I was finally able to switch from nightly to stable due to the 1.26 release. Let’s back up a little bit and appreciate the changes since the first revision.",
+      "url": "https://medium.com/@iopguy/fizzbuzz-can-finally-be-implemented-in-stable-rust-87649a882f2d",
+      "date_published": "2018-05-17T17:23:27.319+00:00",
+      "author": {
+        "name": "Igor Polyakov",
+        "url": "https://medium.com/@iopguy"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c1e5c8e3-46e1-412d-98fe-6735ad9e4f19",
+      "title": "Compile Time Prevention of SQL-Injections in Rust",
+      "content_text": "SQL injection vulnerabilities have been a plague ever since such databases have been combined with user facing applications. Such vulnerabilities arise when a SQL query string is naively combined with data that is controlled by an attacker.\n\nTo mitigate, people should make use of placeholders and prepared statements provided by SQL client libraries. This separates the variable data from the actual query, ensuring that these two never mix. Pretty much all modern SQL client libraries offer this functionality, but of course, it’s still possible to mix variable data and SQL by means of string concatenation.",
+      "url": "https://polyfloyd.net/post/compile-time-prevention-of-sql-injections/",
+      "date_published": "2018-05-18T00:00:00+00:00",
+      "author": {
+        "name": "polyfloyd",
+        "url": "https://polyfloyd.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "50ca4f3e-2051-4779-adf4-a12615b72d99",
       "title": "Rust turns three",
       "content_text": "Three years ago today, the Rust community released Rust 1.0 to the world, with our initial vision of fearless systems programming. As per tradition, we’ll celebrate Rust’s birthday by taking stock of the people and the product, and especially of what’s happened in the last year.",

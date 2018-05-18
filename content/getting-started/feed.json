@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3f1b68cd-7c14-415e-bbe9-45db4342a95e",
+      "title": "Get to know Rust",
+      "content_text": "If you have ever written software, you have undoubtedly asked yourself, \"What language should I write this in?\" It's a valid question. Does your code need to be as fast as possible? Will it be running on the Web? Will the code be on the back end or the front? All languages have their niches, and Rust is no different.\n\nRust is a statically typed compiled language that fills the roles that most users use C or C++ for. Unlike C or C++, though, Rust also encroaches on territory that C# and the Java™ language have dominated for much of this century: Rust is a language that is memory safe and operating system agnostic, meaning that it can run on any computer. Essentially, you get all the speed and low-level benefits of a systems language without the pesky garbage collection of those latter languages I mentioned. Excited? Yeah, me, too. Welcome to Rust! ",
+      "url": "https://www.ibm.com/developerworks/opensource/library/os-know-rust/index.html",
+      "date_published": "2018-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Dylan Hicks",
+        "url": "https://www.linkedin.com/in/dylan-hicks-b4265396/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "4ae850d3-305a-4fb4-826d-853972364683",
       "title": "On learning Rust",
       "content_text": "But recently I decided to give Rust a go. And I must admit that I’m extremely surprised. Rust, like OCaml is a pretty low level language (it is a system programming language). After six years without seeing any pointers, I can’t say that I was happy. But the Rust compiler, by being extremely safe actually makes that easy.",
