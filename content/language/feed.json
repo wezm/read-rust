@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6e5c626c-f240-41fa-9520-a3d5586523b3",
+      "title": "Rust for Android games using SDL2",
+      "content_text": "I've been wanting to write a simple Android game for my daughter, and decided to use it as an excuse to learn Rust.  Thus began an odyssey.\n\nI'll ignore the game itself in this post in favour of describing how to get a simple Rust on Android game environment.  For my game I didn't want anything fancy - I wanted to load some jpg files and blit rectangles from those textures to the screen.  But I don't know OpenGL, and I don't really feel the need to learn for this project - if I hit the need to use a shader, then I backtracked and tried another approach.  The plan was to get a simple, high-level graphics API for Rust running on Android.",
+      "url": "https://lliwynd.blogspot.com.au/2018/05/rust-for-android-games-using-sdl2.html",
+      "date_published": "2018-05-19T16:15:00+10:00",
+      "author": {
+        "name": "William Uther",
+        "url": "https://lliwynd.blogspot.com.au/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2bdd1638-e211-477d-8bb8-3ae0de703661",
       "title": "FizzBuzz Can Finally Be Implemented in Stable Rust",
       "content_text": "I have been editing my FizzBuzz repository since 2014. After four years, I was finally able to switch from nightly to stable due to the 1.26 release. Let’s back up a little bit and appreciate the changes since the first revision.",

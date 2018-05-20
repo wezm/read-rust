@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6e5c626c-f240-41fa-9520-a3d5586523b3",
+      "title": "Rust for Android games using SDL2",
+      "content_text": "I've been wanting to write a simple Android game for my daughter, and decided to use it as an excuse to learn Rust.  Thus began an odyssey.\n\nI'll ignore the game itself in this post in favour of describing how to get a simple Rust on Android game environment.  For my game I didn't want anything fancy - I wanted to load some jpg files and blit rectangles from those textures to the screen.  But I don't know OpenGL, and I don't really feel the need to learn for this project - if I hit the need to use a shader, then I backtracked and tried another approach.  The plan was to get a simple, high-level graphics API for Rust running on Android.",
+      "url": "https://lliwynd.blogspot.com.au/2018/05/rust-for-android-games-using-sdl2.html",
+      "date_published": "2018-05-19T16:15:00+10:00",
+      "author": {
+        "name": "William Uther",
+        "url": "https://lliwynd.blogspot.com.au/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3f1b68cd-7c14-415e-bbe9-45db4342a95e",
       "title": "Get to know Rust",
       "content_text": "If you have ever written software, you have undoubtedly asked yourself, \"What language should I write this in?\" It's a valid question. Does your code need to be as fast as possible? Will it be running on the Web? Will the code be on the back end or the front? All languages have their niches, and Rust is no different.\n\nRust is a statically typed compiled language that fills the roles that most users use C or C++ for. Unlike C or C++, though, Rust also encroaches on territory that C# and the Java™ language have dominated for much of this century: Rust is a language that is memory safe and operating system agnostic, meaning that it can run on any computer. Essentially, you get all the speed and low-level benefits of a systems language without the pesky garbage collection of those latter languages I mentioned. Excited? Yeah, me, too. Welcome to Rust! ",
