@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "da6bf82a-304e-42bd-9209-fbb8ee975fcd",
+      "title": "Improving SmallVec's speed by 60% and why that shouldn't matter to you",
+      "content_text": "smallvec is a library by the Servo team for reducing the number of allocations for dynamic arrays in the case that most of those arrays are below a certain size. Because malloc is fast, for many cases it’s actually slower to use SmallVec than just using Vec because the one-time cost of the initial allocation is dwarfed by the lifetime cost of SmallVec’s increased complexity. You can see that switching to Vec actually improves speed on many of SmallVec’s own benchmarks.",
+      "url": "http://troubles.md/posts/improving-smallvec/",
+      "date_published": "2018-05-17T14:44:51+02:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "f676f9eb-ea74-4dc5-a393-1f23a7886678",
       "title": "Dropping drops",
       "content_text": "Recently, a benchmark made it to the top of /r/programming, featuring Rust among other languages, and I was a bit surprised to see that the idiomatic Rust program was not competitive with the best-tuned C++ solution. The benchmark implements a binary tree, and the C++ solution leverages raw pointers while Rust would use an Option<Box<Node>> to represent its tree. Since Option knows that Box is non-nullable, it should compile down to a raw pointer. Quickly inspecting the Rust and C++ versions would not let me find where the performance difference came from.",

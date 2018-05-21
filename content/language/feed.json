@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "999b0809-c97d-42c2-b102-d8d2567e8979",
+      "title": "A boolean's story",
+      "content_text": "Earlier this month I told you about my pet project in Rust.\n\nAs a reminder, it’s a tool named rusync which contains some of the functionality offered by the rsync command-line tool.\n\nToday I’d like to talk about a feature I’ve added recently, and take this opportunity to show you a few principles of good design along the way.",
+      "url": "https://dmerej.info/blog/post/a-booleans-story/",
+      "date_published": "2018-05-18T13:50:38+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/humans.txt"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6e5c626c-f240-41fa-9520-a3d5586523b3",
       "title": "Rust for Android games using SDL2",
       "content_text": "I've been wanting to write a simple Android game for my daughter, and decided to use it as an excuse to learn Rust.  Thus began an odyssey.\n\nI'll ignore the game itself in this post in favour of describing how to get a simple Rust on Android game environment.  For my game I didn't want anything fancy - I wanted to load some jpg files and blit rectangles from those textures to the screen.  But I don't know OpenGL, and I don't really feel the need to learn for this project - if I hit the need to use a shader, then I backtracked and tried another approach.  The plan was to get a simple, high-level graphics API for Rust running on Android.",

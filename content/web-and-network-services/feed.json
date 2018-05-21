@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f993c9a2-3b8e-455b-ad6e-354051f38863",
+      "title": "Creating a Rusty Rocket fuelled with Diesel",
+      "content_text": "Here I go with my first post that fully focuses on Rust. After spending a few months doing a bit here and there I decided to just dive right in as I was going through the Rust book at too slow a pace to keep myself interested. So, in this post I decided to write about setting up a simple REST API which is something that I have done in Java plenty of times but with Rust it is a different story.",
+      "url": "https://lankydanblog.com/2018/05/20/creating-a-rusty-rocket-fuelled-with-diesel/",
+      "date_published": "2018-05-20T17:53:11+00:00",
+      "author": {
+        "name": "Dan Newton",
+        "url": "https://lankydanblog.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "58fff202-4974-4db4-93ef-ad074e609a70",
       "title": "A Small Rust API with Actix",
       "content_text": "I had the need for a very small API for this website. So small, in fact, that only one endpoint was required. I've been doing a lot of development in Rust lately, so naturally Rust seemed like a good candidate to build this API in. I also wanted to try out a newer Rust web framework called Actix web. It claims to be a \"small, pragmatic, and extremely fast rust web framework\", which sounded perfect for what I needed.",
