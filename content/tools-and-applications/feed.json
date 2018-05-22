@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e81240c1-c783-4113-9df8-27755677e929",
+      "title": "madparts-rs 1.0 release",
+      "content_text": "Back in Februari 2013 then coworker Romain S. showed me the new trend of programming editors that do continuous compilation while you type, showing you immediate feedback on your code. In parallel I also worked on 3D modeling for my 3D printer using the OpenSCAD program. OpenSCAD works by writing code in its custom language and then have it rendered. I had this idea of combining these two approaches to make an electronics footprint generator. And so the development of the original madparts program started. In August 2016 I had been playing with the then pretty new rust programming language and decided a rewrite in it and simplifying the program even further would be fun to do.",
+      "url": "https://damad.be/joost/blog/madparts-rs-1-0-release.html",
+      "date_published": "2018-05-20T00:00:00+00:00",
+      "author": {
+        "name": "Joost Yervante Damad",
+        "url": "https://damad.be/joost/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "d2cf9531-53d8-45dd-a9e4-0feaa3699466",
       "title": "An image viewer using Smithay's Client Toolkit",
       "content_text": "Small tutorial of using Smithay's Client Toolkit by example, building a small image viewer as a Wayland client.",

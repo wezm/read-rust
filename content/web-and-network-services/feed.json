@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "502f20f5-50e1-4741-a852-2c65ef867bba",
+      "title": "Writing a Web API Client in Rust (Part 2)",
+      "content_text": "The 2nd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",
+      "url": "https://theomn.com/rust-web-api-client-part-02/",
+      "date_published": "2018-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Owen Nelson",
+        "url": "https://theomn.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "35d0dec8-e4fb-4be0-b87c-ed5dd39056b8",
+      "title": "Migrating to Actix Web from Rocket for Stability",
+      "content_text": "I previously wrote an article back in November 2017: Replacing Elasticsearch with Rust and SQLite. In it, I needed to create a few HTTP endpoints that ingested JSON, perform a database lookup, and return JSON. Very simple. No query / path parameters, authentication, authorization, H2, or TLS. I didn’t understand how stability was such an important feature. I was familiar with needing new versions of the nightly compiler to stay current with clippy and rustfmt, but it was a blindspot when it came to dependencies.<Paste>",
+      "url": "https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability",
+      "date_published": "2018-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "f993c9a2-3b8e-455b-ad6e-354051f38863",
       "title": "Creating a Rusty Rocket fuelled with Diesel",
       "content_text": "Here I go with my first post that fully focuses on Rust. After spending a few months doing a bit here and there I decided to just dive right in as I was going through the Rust book at too slow a pace to keep myself interested. So, in this post I decided to write about setting up a simple REST API which is something that I have done in Java plenty of times but with Rust it is a different story.",

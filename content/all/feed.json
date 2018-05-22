@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "91a4f766-391d-43fc-a2ce-66354ac78bd4",
+      "title": "Implement Raft in Rust",
+      "content_text": "Consensus is one of the most important challenges in designing and building distributed systems–how to make sure multiple nodes (or agents, processes, threads, tasks, participants, etc.) in a group agree on a specific value proposed by at least one of the nodes. As an open-source distributed scalable HTAP database, TiDB uses the Raft Consensus Algorithm in its distributed transactional key-value storage engine, TiKV, to ensure data consistency, auto-failover, and fault tolerance.",
+      "url": "https://pingcap.com/blog/implement-raft-in-rust/",
+      "date_published": "2018-05-22T00:00:00+00:00",
+      "author": {
+        "name": "Siddon Tang",
+        "url": "https://pingcap.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "502f20f5-50e1-4741-a852-2c65ef867bba",
+      "title": "Writing a Web API Client in Rust (Part 2)",
+      "content_text": "The 2nd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",
+      "url": "https://theomn.com/rust-web-api-client-part-02/",
+      "date_published": "2018-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Owen Nelson",
+        "url": "https://theomn.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e81240c1-c783-4113-9df8-27755677e929",
+      "title": "madparts-rs 1.0 release",
+      "content_text": "Back in Februari 2013 then coworker Romain S. showed me the new trend of programming editors that do continuous compilation while you type, showing you immediate feedback on your code. In parallel I also worked on 3D modeling for my 3D printer using the OpenSCAD program. OpenSCAD works by writing code in its custom language and then have it rendered. I had this idea of combining these two approaches to make an electronics footprint generator. And so the development of the original madparts program started. In August 2016 I had been playing with the then pretty new rust programming language and decided a rewrite in it and simplifying the program even further would be fun to do.",
+      "url": "https://damad.be/joost/blog/madparts-rs-1-0-release.html",
+      "date_published": "2018-05-20T00:00:00+00:00",
+      "author": {
+        "name": "Joost Yervante Damad",
+        "url": "https://damad.be/joost/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "35d0dec8-e4fb-4be0-b87c-ed5dd39056b8",
+      "title": "Migrating to Actix Web from Rocket for Stability",
+      "content_text": "I previously wrote an article back in November 2017: Replacing Elasticsearch with Rust and SQLite. In it, I needed to create a few HTTP endpoints that ingested JSON, perform a database lookup, and return JSON. Very simple. No query / path parameters, authentication, authorization, H2, or TLS. I didn’t understand how stability was such an important feature. I was familiar with needing new versions of the nightly compiler to stay current with clippy and rustfmt, but it was a blindspot when it came to dependencies.<Paste>",
+      "url": "https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability",
+      "date_published": "2018-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d2971f3f-a40d-45c9-a544-ed94f3b962f6",
+      "title": "Rust is Incredibly Productive for CLIs",
+      "content_text": "I built a little tool in Rust to convert an Evernote export file to Markdown. It was impressively easy.",
+      "url": "https://www.chriskrycho.com/2018/rust-is-incredibly-productive-for-clis.html",
+      "date_published": "2018-05-20T08:35:00-04:00",
+      "author": {
+        "name": "Chris Krycho",
+        "url": "https://www.chriskrycho.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "940f0d10-67ee-49d4-a243-d4310077a962",
+      "title": "Asynchronous warmy: a prequel",
+      "content_text": "Last weeks were interesting for warmy, a crate I’ve been writing for several weeks / months now that enables you to hot load and reload scarce resources – e.g. textures, meshes, configuration, JSON parameters, dependency nodes, whatever. warmy received several interesting features.",
+      "url": "http://phaazon.net/blog/asynchronous_warmy_prequel",
+      "date_published": "2018-05-08T19:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f993c9a2-3b8e-455b-ad6e-354051f38863",
       "title": "Creating a Rusty Rocket fuelled with Diesel",
       "content_text": "Here I go with my first post that fully focuses on Rust. After spending a few months doing a bit here and there I decided to just dive right in as I was going through the Rust book at too slow a pace to keep myself interested. So, in this post I decided to write about setting up a simple REST API which is something that I have done in Java plenty of times but with Rust it is a different story.",

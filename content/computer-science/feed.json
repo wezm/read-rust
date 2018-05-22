@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "91a4f766-391d-43fc-a2ce-66354ac78bd4",
+      "title": "Implement Raft in Rust",
+      "content_text": "Consensus is one of the most important challenges in designing and building distributed systems–how to make sure multiple nodes (or agents, processes, threads, tasks, participants, etc.) in a group agree on a specific value proposed by at least one of the nodes. As an open-source distributed scalable HTAP database, TiDB uses the Raft Consensus Algorithm in its distributed transactional key-value storage engine, TiKV, to ensure data consistency, auto-failover, and fault tolerance.",
+      "url": "https://pingcap.com/blog/implement-raft-in-rust/",
+      "date_published": "2018-05-22T00:00:00+00:00",
+      "author": {
+        "name": "Siddon Tang",
+        "url": "https://pingcap.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "c7a4923a-2a12-4f88-82fc-4b99b94080e9",
       "title": "Cannoli: A Python Compiler Written in Rust [pdf]",
       "content_text": "I just finished my Master's Thesis and part of it was writing a Python compiler in Rust. The goal of the thesis was to evaluate language features of Python that were hypothesized to cause performance issues. Quantifying the cost of these features could be valuable to language designers moving forward. Some interesting results were observed when implementing compiler optimizations for Python. An average speedup of 51% was achieved across a number of benchmarks.",
