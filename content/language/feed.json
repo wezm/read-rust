@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7518f181-39ba-4c9c-a76d-1a07b697d264",
+      "title": "Moving out of a Drop struct in Rust?",
+      "content_text": "Rust doesn’t allow you to move out of a value which type implements Drop, and this is quite logical. When Foo::take returns, because of self going out of scope, it must call its Drop::drop implementation. If you have moved out of it – both a: A and b: B fields, the Drop::drop implementation is now a complete UB. So Rust is right here and doesn’t allow you to do this.\n\nBut imagine that we have to do this. For insance, we need to hand over both the scarce resources a and b to another struct (in our case, a (A, B), but you could easily imagine a better type for this).\n\nThere’s a way to, still, implement Foo::take with Foo implementing Drop. Here’s how:",
+      "url": "http://phaazon.netkblog/rust-no-drop",
+      "date_published": "2018-05-22T22:22:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "80818d94-c29b-47b1-8307-f5c9e1d03808",
+      "title": "impl Trait in Rust explanation",
+      "content_text": "In Rust 1.26 a new feature called impl Trait was stabilized. How does it work? Instead of specifying an exact type, you can say that your function either returns or takes something that implements a trait.",
+      "url": "https://medium.com/@iopguy/impl-trait-in-rust-explanation-efde0d94946a",
+      "date_published": "2018-05-23T04:37:08.411+00:00",
+      "author": {
+        "name": "Igor Polyakov",
+        "url": "https://medium.com/@iopguy"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d2971f3f-a40d-45c9-a544-ed94f3b962f6",
       "title": "Rust is Incredibly Productive for CLIs",
       "content_text": "I built a little tool in Rust to convert an Evernote export file to Markdown. It was impressively easy.",

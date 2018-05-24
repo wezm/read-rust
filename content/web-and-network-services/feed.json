@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e67229c7-9d09-49e8-9558-ca8e89a53d4f",
+      "title": "Snowhash in Rust with WASM",
+      "content_text": "A little while ago I came across this Snowflake generator. It’s a project by Raph Levein that takes a hash string and uses it to procedurally generate a unique snowflake. He explains that the original motivation was as a cryptographically secure visual hash, so that people would reliably be able to tell by visual inspection whether two hashes were identical. I thought that was a pretty cool idea.",
+      "url": "https://joshleeb.com/posts/rust-wasm-snowhash/",
+      "date_published": "2018-05-22T00:00:00+00:00",
+      "author": {
+        "name": "Josh Leeb-du Toit",
+        "url": "https://joshleeb.com/posts"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4b44fb81-4b16-4681-a09a-a93cb82ccbc0",
+      "title": "Wicked Fast Web Servers in Rust",
+      "content_text": "I write code for the web every day, and as such, I naturally wanted to find a web server that I could write some beautiful code in Rust with. There are a few options out there, Actix, Rocket, but none of them are quite as simple and succinct as KoaJS for node. As such, I wanted to write something as simple as Koa and as performant as a Rust framework, and I did. With that, I give you Thruster, an elegant, performant, web server written in Rust.",
+      "url": "https://medium.com/@MertzAlertz/wicked-fast-web-servers-in-rust-4947688426bc",
+      "date_published": "2018-05-22T23:26:19.855+00:00",
+      "author": {
+        "name": "Pete Mertz",
+        "url": "https://medium.com/@MertzAlertz"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "502f20f5-50e1-4741-a852-2c65ef867bba",
       "title": "Writing a Web API Client in Rust (Part 2)",
       "content_text": "The 2nd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",
