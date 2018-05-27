@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "df7df3a9-1519-4453-963e-fb69d766798d",
+      "title": "Bobbin SDK: Richer Hardware Abstractions for Embedded Systems Programming",
+      "content_text": "Bobbin SDK is a suite of tools and code that has been used in embedded development projects running on a variety of ARM Cortex-M MCUs over the last year and a half. It exists to bridge the gap between the existing Rust ecosystem centered around svd2rust and rich but proprietary vendor SDKs.",
+      "url": "http://www.bobbin.io/blog/post/bobbin_sdk_richer_hardware/",
+      "date_published": "2018-05-25T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Soo",
+        "url": "http://www.bobbin.io/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "4c0ea01d-c011-49aa-b6a6-10178e03c627",
+      "title": "Neural networks on a micro controller - Preparation and math",
+      "content_text": "I've been playing around with the idea of running a neural network on a micro controller. This project is not designed to be the most efficient neural network, but rather one that runs on a micro controller with very limited resources.",
+      "url": "http://trangar.blogspot.com.au/2018/05/neural-networks-on-micro-controller.html?m=1",
+      "date_published": "2018-05-23T10:04:00-07:00",
+      "author": {
+        "name": "Trangar",
+        "url": "http://trangar.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "3d49dcaa-90bd-4749-82a8-83a272d0864b",
       "title": "Memory-Mapped Registers in Tock",
       "content_text": "Microcontrollers typically use memory-mapped I/O interfaces to control hardware peripherals. Driver code uses these memory-mapped registers and fields to interact with the peripheral while providing a higher-level interface to the rest of the system. This post describes how Tock deals with register memory maps and a new tool that can automatically generate memory maps for many ARM microcontrollers.",

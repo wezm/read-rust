@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "e0370259-0204-491d-9bd1-3769a682f6e1",
+      "title": "Fuzz testing in Rust with Cargo-fuzz",
+      "content_text": "In this post, I go through how I added the first automated fuzz test for my hobby project Hat — a snapshotting backup system written in Rust. I’ll briefly go through what a fuzz test is and how it works. In a follow-up post, I will share how I made the test more effective by running it through Seasoned Software.",
+      "url": "https://medium.com/@seasoned_sw/fuzz-testing-in-rust-with-cargo-fuzz-13b89feecc30",
+      "date_published": "2018-05-25T10:08:45.112+00:00",
+      "author": {
+        "name": "Seasoned Software",
+        "url": "https://medium.com/@seasoned_sw"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "df7df3a9-1519-4453-963e-fb69d766798d",
+      "title": "Bobbin SDK: Richer Hardware Abstractions for Embedded Systems Programming",
+      "content_text": "Bobbin SDK is a suite of tools and code that has been used in embedded development projects running on a variety of ARM Cortex-M MCUs over the last year and a half. It exists to bridge the gap between the existing Rust ecosystem centered around svd2rust and rich but proprietary vendor SDKs.",
+      "url": "http://www.bobbin.io/blog/post/bobbin_sdk_richer_hardware/",
+      "date_published": "2018-05-25T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Soo",
+        "url": "http://www.bobbin.io/blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e2724828-a6e9-4383-9614-bea31e743784",
+      "title": "Oblix: An Efficient Oblivious Search Index [pdf]",
+      "content_text": "Abstract—Search indices are fundamental building blocks of many systems, and there is great interest in running them on encrypted data. Unfortunately, many known schemes that enable search queries on encrypted data achieve efficiency at the expense of security, as they reveal access patterns to the encrypted data.  In this paper we present Oblix, a search index for encrypted data that is oblivious (provably hides access patterns), is dynamic (supports inserts and deletes), and has good efficiency.  Oblix relies on a combination of novel oblivious-access tech- niques and recent hardware enclave platforms (e.g., Intel SGX).  In particular, a key technical contribution is the design and implementation of doubly-oblivious data structures, in which the client’s accesses to its internal memory are oblivious, in addition to accesses to its external memory at the server. These algorithms are motivated by hardware enclaves like SGX, which leak access patterns to both internal and external memory.  We demonstrate the usefulness of Oblix in several applications: private contact discovery for Signal, private retrieval of public keys for Key Transparency, and searchable encryption that hides access patterns and result sizes.",
+      "url": "https://people.eecs.berkeley.edu/~raluca/oblix.pdf",
+      "date_published": "2018-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Pratyush Mishra, Rishabh Poddar, Jerry Chen, Alessandro Chiesa, Raluca Ada Popa",
+        "url": "https://rise.cs.berkeley.edu/blog/publication/oblix-an-efficient-oblivious-search-index/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "d25787d1-089e-4455-ac6a-1183548d48cd",
+      "title": "Rust review: Introduction",
+      "content_text": "I had been meaning to learn Rust since I first toyed with Go a couple of years ago. During this period, I’ve written a non-trivial amount of Go code both inside and outside Google, but never found the chance to sit back and learn Rust.\n\nThis changed a month ago during my yearly family trip to Korea. This time around, I decided upfront that I would not work on any personal or work projects for the 2-week long vacation. Instead, I would focus all spare time in reading. And I would read “The Rust Programming Language”, second edition. The plan worked: getting through the book took the two weeks and I barely wrote any code.",
+      "url": "http://julio.meroh.net/2018/05/rust-review-introduction.html",
+      "date_published": "2018-05-25T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8e49045f-dc48-4471-bc83-353183d6c4f8",
+      "title": "aturon.log: listening and trust, part 1",
+      "content_text": "For me, most weeks working on Rust are fun — exhilarating, even. But, just like with anything else, some weeks are hard.\n\nAs this week draws to a close, I feel troubled. On the one hand, things are looking strong for the 2018 Edition (which I want to write more about soon). But on the other hand, this week I locked two RFC threads, flagged a bunch of comments for moderation, and generally absorbed a lot of emotion from a lot of different quarters of the community. There’s a sense of simmering distrust.",
+      "url": "http://aturon.github.io/2018/05/25/listening-part-1/",
+      "date_published": "2018-05-25T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "e1fd2a84-e451-4299-9327-eb39f3a1ca8f",
+      "title": "A shared, mutable ecosystem",
+      "content_text": "Ownership is a fundamental piece of Rust’s story. It amounts to a tight set of rules about who owns a value in a program, how that value can be aliased and mutated, and when that value is dropped. It prevents shared mutable state, which is the root cause of major bugs in software written without the same guarantees.\n\nIn this post I’d like to talk about a different kind ownership in though. I’d like to talk about ownership of libraries in the Rust ecosystem and the problem of sustainable maintainership.",
+      "url": "https://kodraus.github.io/rust/2018/05/23/a-shared-mutable-ecosystem.html",
+      "date_published": "2018-05-23T21:49:12+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://kodraus.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "5b8ae1bc-5625-4115-ab3a-3f399e157314",
+      "title": "Typed Key Pattern",
+      "content_text": "In this post, I’ll talk about a pattern for extracting values from a weakly typed map. This pattern applies to all statically typed languages, and even to dynamically typed ones, but the post is rather Rust-specific.",
+      "url": "https://matklad.github.io/2018/05/24/typed-key-pattern.html",
+      "date_published": "2018-05-24T10:18:13+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4c0ea01d-c011-49aa-b6a6-10178e03c627",
+      "title": "Neural networks on a micro controller - Preparation and math",
+      "content_text": "I've been playing around with the idea of running a neural network on a micro controller. This project is not designed to be the most efficient neural network, but rather one that runs on a micro controller with very limited resources.",
+      "url": "http://trangar.blogspot.com.au/2018/05/neural-networks-on-micro-controller.html?m=1",
+      "date_published": "2018-05-23T10:04:00-07:00",
+      "author": {
+        "name": "Trangar",
+        "url": "http://trangar.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "4c951443-54b3-4187-8791-b27502ff193b",
       "title": "RSoC: Porting tokio to Redox",
       "content_text": "This is the weekly summary for my Redox Summer of Code project: Porting tokio to redox. Most of the time was spent on one bug, and after that one was figured out and fixed it ended up being relatively easy! As of now, 11⁄13 tokio examples seem to work on redox. The remaining examples are UDP and seem to fail because of something either with the rust standard library or my setup.",
