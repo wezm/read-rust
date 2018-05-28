@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cb90dbcf-0621-4e96-83ca-62deac7e8a3d",
+      "title": "RustFest Paris Workshop: Fastware",
+      "content_text": "It’s often said1 that the slowest code is that which has been optimised without benchmarks. You wouldn’t expect your code to work if you never ran it, so why should you expect it to be fast if you never benchmarked it? Writing good benchmarks is a bit of an art, because it’s really easy to accidentally write benchmarks that make your code seem fast, when really the compiler is applying some optimisations that work in the side-effect-free world of the benchmark but can no longer get applied when you put it out into the wild.",
+      "url": "http://troubles.md/posts/rustfest-2018-workshop/",
+      "date_published": "2018-05-22T11:22:48+02:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "da6bf82a-304e-42bd-9209-fbb8ee975fcd",
       "title": "Improving SmallVec's speed by 60% and why that shouldn't matter to you",
       "content_text": "smallvec is a library by the Servo team for reducing the number of allocations for dynamic arrays in the case that most of those arrays are below a certain size. Because malloc is fast, for many cases it’s actually slower to use SmallVec than just using Vec because the one-time cost of the initial allocation is dwarfed by the lifetime cost of SmallVec’s increased complexity. You can see that switching to Vec actually improves speed on many of SmallVec’s own benchmarks.",

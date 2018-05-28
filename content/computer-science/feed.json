@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bfb80762-37e6-4337-83c9-52f371839e60",
+      "title": "TensorScript Type Inference: Hindley-Milner in Rust",
+      "content_text": "Type-inferred gradually typed languages are a joy to use: easy to write, analyze, and refactor. In this blog post, I will showcase to the other dozen of programmers who are interested in the obscure art of programming language type inference.",
+      "url": "http://rickyhan.com/jekyll/update/2018/05/26/hindley-milner-tutorial-rust.html",
+      "date_published": "2018-05-26T04:00:00+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "e2724828-a6e9-4383-9614-bea31e743784",
       "title": "Oblix: An Efficient Oblivious Search Index [pdf]",
       "content_text": "Abstract—Search indices are fundamental building blocks of many systems, and there is great interest in running them on encrypted data. Unfortunately, many known schemes that enable search queries on encrypted data achieve efficiency at the expense of security, as they reveal access patterns to the encrypted data.  In this paper we present Oblix, a search index for encrypted data that is oblivious (provably hides access patterns), is dynamic (supports inserts and deletes), and has good efficiency.  Oblix relies on a combination of novel oblivious-access tech- niques and recent hardware enclave platforms (e.g., Intel SGX).  In particular, a key technical contribution is the design and implementation of doubly-oblivious data structures, in which the client’s accesses to its internal memory are oblivious, in addition to accesses to its external memory at the server. These algorithms are motivated by hardware enclaves like SGX, which leak access patterns to both internal and external memory.  We demonstrate the usefulness of Oblix in several applications: private contact discovery for Signal, private retrieval of public keys for Key Transparency, and searchable encryption that hides access patterns and result sizes.",

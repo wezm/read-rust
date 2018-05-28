@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "bfb80762-37e6-4337-83c9-52f371839e60",
+      "title": "TensorScript Type Inference: Hindley-Milner in Rust",
+      "content_text": "Type-inferred gradually typed languages are a joy to use: easy to write, analyze, and refactor. In this blog post, I will showcase to the other dozen of programmers who are interested in the obscure art of programming language type inference.",
+      "url": "http://rickyhan.com/jekyll/update/2018/05/26/hindley-milner-tutorial-rust.html",
+      "date_published": "2018-05-26T04:00:00+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "cb90dbcf-0621-4e96-83ca-62deac7e8a3d",
+      "title": "RustFest Paris Workshop: Fastware",
+      "content_text": "It’s often said1 that the slowest code is that which has been optimised without benchmarks. You wouldn’t expect your code to work if you never ran it, so why should you expect it to be fast if you never benchmarked it? Writing good benchmarks is a bit of an art, because it’s really easy to accidentally write benchmarks that make your code seem fast, when really the compiler is applying some optimisations that work in the side-effect-free world of the benchmark but can no longer get applied when you put it out into the wild.",
+      "url": "http://troubles.md/posts/rustfest-2018-workshop/",
+      "date_published": "2018-05-22T11:22:48+02:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "9f6686d4-a03b-4420-82b0-e2c66b8b5e11",
+      "title": "Gfx, windows, and resizing",
+      "content_text": "These early posts will mostly be me trying to work out how to use gfx-rs. I was previously using glium which is fantastic, but is sadly no longer being developed. So my choices are: Learn Vulkan, Use raw OpenGL bindings, Use gfx.\n\nI opted to use the current released version (v0.17.1) but it’s currently undergoing a significant rearchitecture so I may move to that whenever it releases.",
+      "url": "https://falseidolfactory.com/2018/05/28/gfx-windows-and-resizing.html",
+      "date_published": "2018-05-28T00:00:00+01:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e0370259-0204-491d-9bd1-3769a682f6e1",
       "title": "Fuzz testing in Rust with Cargo-fuzz",
       "content_text": "In this post, I go through how I added the first automated fuzz test for my hobby project Hat — a snapshotting backup system written in Rust. I’ll briefly go through what a fuzz test is and how it works. In a follow-up post, I will share how I made the test more effective by running it through Seasoned Software.",
