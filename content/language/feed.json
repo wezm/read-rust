@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "95a6f9d4-dcfa-4b20-8ee7-f240cde435b1",
+      "title": "Exploring Rust fat pointers",
+      "content_text": "Beware that at any point the code here may stop compiling, segfault, and otherwise behave in weird ways, some of which involve Velociraptors.\n\nNow that that’s out of the way, what is a fat pointer anyway? All pointers are the same right? Just a number indicating an address in memory. Well, yes and no.",
+      "url": "https://iandouglasscott.com/2018/05/28/exploring-rust-fat-pointers/",
+      "date_published": "2018-05-28T02:46:00-07:00",
+      "author": {
+        "name": "Ian Douglas Scott",
+        "url": "https://iandouglasscott.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e0370259-0204-491d-9bd1-3769a682f6e1",
       "title": "Fuzz testing in Rust with Cargo-fuzz",
       "content_text": "In this post, I go through how I added the first automated fuzz test for my hobby project Hat — a snapshotting backup system written in Rust. I’ll briefly go through what a fuzz test is and how it works. In a follow-up post, I will share how I made the test more effective by running it through Seasoned Software.",

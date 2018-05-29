@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "95a6f9d4-dcfa-4b20-8ee7-f240cde435b1",
+      "title": "Exploring Rust fat pointers",
+      "content_text": "Beware that at any point the code here may stop compiling, segfault, and otherwise behave in weird ways, some of which involve Velociraptors.\n\nNow that that’s out of the way, what is a fat pointer anyway? All pointers are the same right? Just a number indicating an address in memory. Well, yes and no.",
+      "url": "https://iandouglasscott.com/2018/05/28/exploring-rust-fat-pointers/",
+      "date_published": "2018-05-28T02:46:00-07:00",
+      "author": {
+        "name": "Ian Douglas Scott",
+        "url": "https://iandouglasscott.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "bfb80762-37e6-4337-83c9-52f371839e60",
       "title": "TensorScript Type Inference: Hindley-Milner in Rust",
       "content_text": "Type-inferred gradually typed languages are a joy to use: easy to write, analyze, and refactor. In this blog post, I will showcase to the other dozen of programmers who are interested in the obscure art of programming language type inference.",
