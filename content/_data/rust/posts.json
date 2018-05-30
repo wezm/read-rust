@@ -110,7 +110,7 @@
     {
       "id": "ae63f930-3568-433f-b8e6-35feb516b4c2",
       "title": "Announcing Rust 1.26.1",
-      "content_text": "A couple of issues were found in 1.26.0 which were deemed sufficient for a patch release.\n\nA quick summary of the changes:\n\nRLS no longer interferes with command line builds\n\nRustfmt stopped badly formatting text in some cases\n\nReturning from main via impl Trait where the Trait is not Termination is no longer permitted\n\n::<> (turbofish) no longer works for method arguments whose type is impl Trait\n\nNaN > NaN no longer returns true in const contexts\n\nrustup should no longer fail due to missing documentation on some platforms",
+      "content_text": "A couple of issues were found in 1.26.0 which were deemed sufficient for a patch release.\n\nA quick summary of the changes:\n\nRLS no longer interferes with command line builds\nRustfmt stopped badly formatting text in some cases\nReturning from main via impl Trait where the Trait is not Termination is no longer permitted\n::<> (turbofish) no longer works for method arguments whose type is impl Trait\n\nNaN > NaN no longer returns true in const contexts\nrustup should no longer fail due to missing documentation on some platforms",
       "url": "https://blog.rust-lang.org/2018/05/29/Rust-1.26.1.html",
       "date_published": "2018-05-29T00:00:00+00:00",
       "author": {

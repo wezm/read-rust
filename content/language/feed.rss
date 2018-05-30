@@ -8,15 +8,11 @@ To understand why this is important, let&rsquo;s cover some context first. One o
 A quick summary of the changes:
 
 RLS no longer interferes with command line builds
-
 Rustfmt stopped badly formatting text in some cases
-
 Returning from main via impl Trait where the Trait is not Termination is no longer permitted
-
 ::<> (turbofish) no longer works for method arguments whose type is impl Trait
 
 NaN > NaN no longer returns true in const contexts
-
 rustup should no longer fail due to missing documentation on some platforms]]></description><guid isPermaLink="false">ae63f930-3568-433f-b8e6-35feb516b4c2</guid><pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate><dc:creator>The Rust Core Team</dc:creator></item><item><title>Exploring Rust fat pointers</title><link>https://iandouglasscott.com/2018/05/28/exploring-rust-fat-pointers/</link><description><![CDATA[Beware that at any point the code here may stop compiling, segfault, and otherwise behave in weird ways, some of which involve Velociraptors.
 
 Now that that’s out of the way, what is a fat pointer anyway? All pointers are the same right? Just a number indicating an address in memory. Well, yes and no.]]></description><guid isPermaLink="false">95a6f9d4-dcfa-4b20-8ee7-f240cde435b1</guid><pubDate>Mon, 28 May 2018 02:46:00 -0700</pubDate><dc:creator>Ian Douglas Scott</dc:creator></item><item><title>Fuzz testing in Rust with Cargo-fuzz</title><link>https://medium.com/@seasoned_sw/fuzz-testing-in-rust-with-cargo-fuzz-13b89feecc30</link><description><![CDATA[In this post, I go through how I added the first automated fuzz test for my hobby project Hat — a snapshotting backup system written in Rust. I’ll briefly go through what a fuzz test is and how it works. In a follow-up post, I will share how I made the test more effective by running it through Seasoned Software.]]></description><guid isPermaLink="false">e0370259-0204-491d-9bd1-3769a682f6e1</guid><pubDate>Fri, 25 May 2018 10:08:45 +0000</pubDate><dc:creator>Seasoned Software</dc:creator></item><item><title>Rust review: Introduction</title><link>http://julio.meroh.net/2018/05/rust-review-introduction.html</link><description><![CDATA[I had been meaning to learn Rust since I first toyed with Go a couple of years ago. During this period, I’ve written a non-trivial amount of Go code both inside and outside Google, but never found the chance to sit back and learn Rust.
