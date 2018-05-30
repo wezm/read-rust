@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "342c3a2c-88a7-4e26-a6ea-97c3257daf2d",
+      "title": "Mix Rust Code (WebAssembly) with Vue Component",
+      "content_text": "In this tutorials, we will try mixing Rust code with Javascript by compiling Rust code as .wasm then use it in Vue Component.",
+      "url": "https://busy.org/@drsensor/mix-rust-code-webassembly-with-vue-component-basic",
+      "date_published": "2018-05-24T19:01:00+00:00",
+      "author": {
+        "name": "drsensor",
+        "url": "https://busy.org/@drsensor"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e67229c7-9d09-49e8-9558-ca8e89a53d4f",
       "title": "Snowhash in Rust with WASM",
       "content_text": "A little while ago I came across this Snowflake generator. It’s a project by Raph Levein that takes a hash string and uses it to procedurally generate a unique snowflake. He explains that the original motivation was as a cryptographically secure visual hash, so that people would reliably be able to tell by visual inspection whether two hashes were identical. I thought that was a pretty cool idea.",

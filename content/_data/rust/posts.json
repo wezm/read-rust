@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "aea72b83-8f56-4c8d-a9d7-c88fded0cfc7",
+      "title": "Mutagen - An Inopportune Consumption",
+      "content_text": "I just failed to implement what looked to be a relatively simple opportunistic replacement so that the compiler would accept the mutated code. But I’m getting ahead of myself.",
+      "url": "https://llogiq.github.io/2018/05/30/inop.html",
+      "date_published": "2018-05-30T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b9a686f1-3136-4307-a6ac-0f596babc6b5",
+      "title": "RSoC: Implementing a FAT32 Filesystem in Redox",
+      "content_text": "This is a blog post about the work which I have done so far in implementing a FAT32 filesystem in Redox. Currently the Redox bootloader as well as the userspace filesystem daemon supports only RedoxFS.",
+      "url": "https://www.redox-os.org/news/rsoc-fat32-1/",
+      "date_published": "2018-05-29T00:00:00+00:00",
+      "author": {
+        "name": "Deepak Sirone",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "12f71ab8-809a-45a6-8e95-fd98a92e7f60",
+      "title": "Why put Rust in our Python Monitoring agent?",
+      "content_text": "Prior to adding Python performance monitoring, we'd written monitoring agents for Ruby and Elixir. Our Ruby and Elixir agents had duplicated much of their code between them, and we didn't want to add a third copy of the agent-plumbing code. The overlapping code included things like JSON payload format, SQL statement parsing, temporary data storage and compaction, and a number of internal business logic components.\n\nThis plumbing code is about 80% of the agent code! Only 20% is the actual instrumentation of application code.\n\nSo, starting with Python, our goal became \"how do we prevent more duplication\". In order to do that, we decided to split the agent into two components. A language agent and a core agent. The language agent is the Python component, and the core agent is a standalone executable that contains most of the shared logic.",
+      "url": "http://blog.scoutapp.com/articles/2018/04/10/why-put-rust-in-our-python-monitoring-agent",
+      "date_published": "2018-04-05T07:46:00-04:00",
+      "author": {
+        "name": "Chris",
+        "url": "http://blog.scoutapp.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "342c3a2c-88a7-4e26-a6ea-97c3257daf2d",
+      "title": "Mix Rust Code (WebAssembly) with Vue Component",
+      "content_text": "In this tutorials, we will try mixing Rust code with Javascript by compiling Rust code as .wasm then use it in Vue Component.",
+      "url": "https://busy.org/@drsensor/mix-rust-code-webassembly-with-vue-component-basic",
+      "date_published": "2018-05-24T19:01:00+00:00",
+      "author": {
+        "name": "drsensor",
+        "url": "https://busy.org/@drsensor"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "325fc83d-bba5-48c8-8443-fdd5dd21f8ed",
+      "title": "Learning Rust — Conspiracies, Databases, and Diesel.rs",
+      "content_text": "This post is the second in a series of posts where I share my experience learning Rust. I’m building out a conspiracy theories API to help me get more familiar with Rust and to have a little fun. Since I am new to Rust, I welcome any and all feedback, especially from developers who have been using Rust for quite some time, leave a comment below or contact me on Twitter. With that out of the way, it is time to put your foil lined hat on and start storing the conspiracies in a database.",
+      "url": "https://medium.com/@rippinrobr_66849/2-conspiracies-databases-and-diesel-rs-ac1d8d3499b3",
+      "date_published": "2018-05-30T21:04:06.895+00:00",
+      "author": {
+        "name": "Rob Rowe",
+        "url": "https://medium.com/@rippinrobr_66849"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "d9877c7d-7175-490d-89a8-46fad05d9903",
+      "title": "Rust review: Immutable by default",
+      "content_text": "Let&rsquo;s start the deep dive by looking into a powerful feature of Rust: all variables and references are immutable by default unless qualified with mut.\nTo understand why this is important, let&rsquo;s cover some context first. One of my pet peeves when reviewing C++ code is to ask authors to sprinkle the const qualifier everywhere: if something ain&rsquo;t mutated, say so explicitly. This includes marking local variables, function arguments, function return values, class attributes, etc.",
+      "url": "http://julio.meroh.net/2018/05/rust-review-immutable-by-default.html",
+      "date_published": "2018-05-29T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da46cfde-97b2-4e16-9e08-4308a34d6826",
+      "title": "Evolving Rust",
+      "content_text": "When you're just building some very basic tool programs, I'd probably not even think about threading in C, but here it is so easy that I've been quick to drop a (for example, typically) 30ms loop down to 3.5ms. One of the things I've been somewhat missing is easy access to SIMD intrinsics, but this brings me to something else I've been enjoying this year: Rust is evolving.",
+      "url": "https://blog.shivoa.net/2018/05/evolving-rust.html",
+      "date_published": "2018-05-29T12:11:00+01:00",
+      "author": {
+        "name": "Shivoa Birch",
+        "url": "https://plus.google.com/104688779548004579468"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ae63f930-3568-433f-b8e6-35feb516b4c2",
+      "title": "Announcing Rust 1.26.1",
+      "content_text": "A couple of issues were found in 1.26.0 which were deemed sufficient for a patch release.\n\nA quick summary of the changes:\n\nRLS no longer interferes with command line builds\n\nRustfmt stopped badly formatting text in some cases\n\nReturning from main via impl Trait where the Trait is not Termination is no longer permitted\n\n::<> (turbofish) no longer works for method arguments whose type is impl Trait\n\nNaN > NaN no longer returns true in const contexts\n\nrustup should no longer fail due to missing documentation on some platforms",
+      "url": "https://blog.rust-lang.org/2018/05/29/Rust-1.26.1.html",
+      "date_published": "2018-05-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "95a6f9d4-dcfa-4b20-8ee7-f240cde435b1",
       "title": "Exploring Rust fat pointers",
       "content_text": "Beware that at any point the code here may stop compiling, segfault, and otherwise behave in weird ways, some of which involve Velociraptors.\n\nNow that that’s out of the way, what is a fat pointer anyway? All pointers are the same right? Just a number indicating an address in memory. Well, yes and no.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "325fc83d-bba5-48c8-8443-fdd5dd21f8ed",
+      "title": "Learning Rust — Conspiracies, Databases, and Diesel.rs",
+      "content_text": "This post is the second in a series of posts where I share my experience learning Rust. I’m building out a conspiracy theories API to help me get more familiar with Rust and to have a little fun. Since I am new to Rust, I welcome any and all feedback, especially from developers who have been using Rust for quite some time, leave a comment below or contact me on Twitter. With that out of the way, it is time to put your foil lined hat on and start storing the conspiracies in a database.",
+      "url": "https://medium.com/@rippinrobr_66849/2-conspiracies-databases-and-diesel-rs-ac1d8d3499b3",
+      "date_published": "2018-05-30T21:04:06.895+00:00",
+      "author": {
+        "name": "Rob Rowe",
+        "url": "https://medium.com/@rippinrobr_66849"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3f1b68cd-7c14-415e-bbe9-45db4342a95e",
       "title": "Get to know Rust",
       "content_text": "If you have ever written software, you have undoubtedly asked yourself, \"What language should I write this in?\" It's a valid question. Does your code need to be as fast as possible? Will it be running on the Web? Will the code be on the back end or the front? All languages have their niches, and Rust is no different.\n\nRust is a statically typed compiled language that fills the roles that most users use C or C++ for. Unlike C or C++, though, Rust also encroaches on territory that C# and the Java™ language have dominated for much of this century: Rust is a language that is memory safe and operating system agnostic, meaning that it can run on any computer. Essentially, you get all the speed and low-level benefits of a systems language without the pesky garbage collection of those latter languages I mentioned. Excited? Yeah, me, too. Welcome to Rust! ",

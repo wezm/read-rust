@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "aea72b83-8f56-4c8d-a9d7-c88fded0cfc7",
+      "title": "Mutagen - An Inopportune Consumption",
+      "content_text": "I just failed to implement what looked to be a relatively simple opportunistic replacement so that the compiler would accept the mutated code. But I’m getting ahead of myself.",
+      "url": "https://llogiq.github.io/2018/05/30/inop.html",
+      "date_published": "2018-05-30T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "12f71ab8-809a-45a6-8e95-fd98a92e7f60",
+      "title": "Why put Rust in our Python Monitoring agent?",
+      "content_text": "Prior to adding Python performance monitoring, we'd written monitoring agents for Ruby and Elixir. Our Ruby and Elixir agents had duplicated much of their code between them, and we didn't want to add a third copy of the agent-plumbing code. The overlapping code included things like JSON payload format, SQL statement parsing, temporary data storage and compaction, and a number of internal business logic components.\n\nThis plumbing code is about 80% of the agent code! Only 20% is the actual instrumentation of application code.\n\nSo, starting with Python, our goal became \"how do we prevent more duplication\". In order to do that, we decided to split the agent into two components. A language agent and a core agent. The language agent is the Python component, and the core agent is a standalone executable that contains most of the shared logic.",
+      "url": "http://blog.scoutapp.com/articles/2018/04/10/why-put-rust-in-our-python-monitoring-agent",
+      "date_published": "2018-04-05T07:46:00-04:00",
+      "author": {
+        "name": "Chris",
+        "url": "http://blog.scoutapp.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d9877c7d-7175-490d-89a8-46fad05d9903",
+      "title": "Rust review: Immutable by default",
+      "content_text": "Let&rsquo;s start the deep dive by looking into a powerful feature of Rust: all variables and references are immutable by default unless qualified with mut.\nTo understand why this is important, let&rsquo;s cover some context first. One of my pet peeves when reviewing C++ code is to ask authors to sprinkle the const qualifier everywhere: if something ain&rsquo;t mutated, say so explicitly. This includes marking local variables, function arguments, function return values, class attributes, etc.",
+      "url": "http://julio.meroh.net/2018/05/rust-review-immutable-by-default.html",
+      "date_published": "2018-05-29T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da46cfde-97b2-4e16-9e08-4308a34d6826",
+      "title": "Evolving Rust",
+      "content_text": "When you're just building some very basic tool programs, I'd probably not even think about threading in C, but here it is so easy that I've been quick to drop a (for example, typically) 30ms loop down to 3.5ms. One of the things I've been somewhat missing is easy access to SIMD intrinsics, but this brings me to something else I've been enjoying this year: Rust is evolving.",
+      "url": "https://blog.shivoa.net/2018/05/evolving-rust.html",
+      "date_published": "2018-05-29T12:11:00+01:00",
+      "author": {
+        "name": "Shivoa Birch",
+        "url": "https://plus.google.com/104688779548004579468"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ae63f930-3568-433f-b8e6-35feb516b4c2",
+      "title": "Announcing Rust 1.26.1",
+      "content_text": "A couple of issues were found in 1.26.0 which were deemed sufficient for a patch release.\n\nA quick summary of the changes:\n\nRLS no longer interferes with command line builds\n\nRustfmt stopped badly formatting text in some cases\n\nReturning from main via impl Trait where the Trait is not Termination is no longer permitted\n\n::<> (turbofish) no longer works for method arguments whose type is impl Trait\n\nNaN > NaN no longer returns true in const contexts\n\nrustup should no longer fail due to missing documentation on some platforms",
+      "url": "https://blog.rust-lang.org/2018/05/29/Rust-1.26.1.html",
+      "date_published": "2018-05-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "95a6f9d4-dcfa-4b20-8ee7-f240cde435b1",
       "title": "Exploring Rust fat pointers",
       "content_text": "Beware that at any point the code here may stop compiling, segfault, and otherwise behave in weird ways, some of which involve Velociraptors.\n\nNow that that’s out of the way, what is a fat pointer anyway? All pointers are the same right? Just a number indicating an address in memory. Well, yes and no.",
