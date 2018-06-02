@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "9bf3f488-ace2-43b6-9f6b-3071241f7ed2",
+      "title": "hyper v0.12",
+      "content_text": "Today sees the release of hyper v0.12.0, a fast and correct HTTP library for the Rust language.\n\nThis release adds support for several new features, while taking the opportunity to fix some annoyances, and improve the extreme speeds!",
+      "url": "http://seanmonstar.com/post/174480374517/hyper-v012",
+      "date_published": "2018-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
+      "id": "d7340b81-5e94-4123-b830-c5cbbfa154d2",
+      "title": "HTTP Crate with URL Support & a Simple HTTP Client",
+      "content_text": "While the http crate generally has a great API I have been unsatisfied how it handles URLs. To create a HTTP request a full URL is needed with a scheme (http/https), authority (example.org) and a path (/search?q=rust) but http does enforce this and allows you to only state the path. This means both clients and servers are either unable to determine protocol and and authority information or have to do this manually.",
+      "url": "https://pyfisch.org/blog/http-with-url/",
+      "date_published": "2018-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Pyfisch",
+        "url": "https://pyfisch.org/blog/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "d517cda7-1102-49bb-ab34-d14f5f0d09c0",
       "title": "Learn Rust by project",
       "content_text": "More than a year ago a friend of mine wanted to learn a bit more about Rust by trying out a project. He had a nice project in mind which suits Rust quite well I think. For fun I joined his effort and created an implementation at the same time as he did, discussing and comparing along the way. In this post I’ll tell you about the project specifics, but the point of the post is more an encouragement. If you’ve read about Rust before but haven’t tried it yet, find a small project like the one below, and learn Rust in a fun and hands-on way yourself. It’s a great programming language, I highly recommend it.",

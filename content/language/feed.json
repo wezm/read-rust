@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "09d6be59-4bee-49e0-aa34-d43622422cb8",
+      "title": "Rust review: The borrow checker",
+      "content_text": "Aaaah, the borrow checker: the dreaded enemy lurking within the Rust compiler, ready to make its move to bring pain to your life by preventing your code from compiling. Or that&rsquo;s what everyone seems to say, which is one of the reasons I put off learning Rust for so long. In reality&hellip; the borrow checker is a blessing, but it is true that getting past its gates is difficult at first.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-borrow-checker.html",
+      "date_published": "2018-06-01T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ab635755-efd4-432a-8407-7b1c94649f8f",
+      "title": "Tricking the HashMap",
+      "content_text": "Is it possible to find something in a hashmap if the key you are looking for is not exactly the same as the one you put into that hashmap? At first glance, this might not make any sense at all. The whole purpose of a hashmap is to store something under some key and then look it up using the same key. Right?",
+      "url": "https://idubrov.github.io/rust/2018/06/01/tricking-the-hashmap.html",
+      "date_published": "2018-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Ivan Dubrov",
+        "url": "https://idubrov.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "80930880-f4a9-4485-b372-648928490dca",
+      "title": "Assignment Semantics in Python, JavaScript, Java, C++, and Rust",
+      "content_text": "What happens when a data collection is copied and then the new copy is changed? Does the original remain the same, or does it change too?\n\nIf you think of copying as creating a completely new object, of course you expect that any change to the new copy does not affect the original object. But if you think of copying as creating a new name for the same, single object, then you expect that any change to the object through the new name appears also when you access the same object through the old name.\n\nLet's see how is the behavior of Python, Javascript, Java, C++, and Rust regarding the assignment operator (\"=\") between collection variables.",
+      "url": "https://www.apress.com/us/blog/all-blog-posts/assignment-semantics/15805464",
+      "date_published": "2018-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Carlo Milanesi",
+        "url": "https://www.apress.com/us/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1f808812-4e70-4dcb-90a0-c45964863cd5",
+      "title": "Fear not the Rust Borrow Checker",
+      "content_text": "I spent pretty much the whole day banging my head against the wall trying to figure out how ownership and borrowing work in Rust, and finally have a grasp on what’s going on.\n\nIn this post I’m going to demonstrate how these concepts work through some examples of code that break Rust’s rules, and explain why they’re problematic. I assume very little knowledge of the Rust programming language. I’ve also added comments to all of the code blocks that indicate whether the code is valid Rust or not.",
+      "url": "http://www.squidarth.com/rc/rust/2018/05/31/rust-borrowing-and-ownership.html",
+      "date_published": "2018-05-31T12:00:38-04:00",
+      "author": {
+        "name": "Sid Shanker",
+        "url": "http://www.squidarth.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "aea72b83-8f56-4c8d-a9d7-c88fded0cfc7",
       "title": "Mutagen - An Inopportune Consumption",
       "content_text": "I just failed to implement what looked to be a relatively simple opportunistic replacement so that the compiler would accept the mutated code. But I’m getting ahead of myself.",
