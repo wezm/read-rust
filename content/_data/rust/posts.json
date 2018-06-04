@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "e0e1ff6c-452a-442e-a3d5-93203569fa58",
+      "title": "Fishing in an Abyss: Building a Password Cracker in Rust",
+      "content_text": "Ahead of this year’s World Password Day, 1Password – maker of password management software – announced a password cracking challenge. The company ostensibly wanted to find out how hard it would be to crack a three-word passphrase master password on one of their vaults, assuming that the attacker had the derived hash of the passphrase.",
+      "url": "https://sts10.github.io//2018/05/31/1password-cracking-challenge.html",
+      "date_published": "2018-05-31T23:28:50+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d8c6d9c0-38eb-4656-a28e-0125ca9e5cd1",
+      "title": "The Secret Life of Cows",
+      "content_text": "A lot of people at RustFest Paris mentioned Cows – which may be surprising if you’ve never seen std::borrow::Cow!\n\nCow in this context stands for “Clone on Write” and is a type that allows you to reuse data if it is not modified. Somehow, these bovine super powers of Rust’s standard library appear to be a well-kept secret even though they are not new. This post will dig into this very useful pointer type by explaining why in systems programming languages you need such fine control, explain Cows in detail, and compare them to other ways of organizing your data.",
+      "url": "https://deterministic.space/secret-life-of-cows.html",
+      "date_published": "2018-06-02T00:00:00+02:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e672721a-5577-4897-b440-619731384ac1",
+      "title": "Newtype Index Pattern",
+      "content_text": "Similarly to the previous post, we will once again add types to the Rust code which works perfectly fine without them. This time, we’ll try to improve the pervasive pattern of using indexes to manage cyclic data structures.",
+      "url": "https://matklad.github.io//2018/06/03/newtype-index-pattern.html",
+      "date_published": "2018-06-03T21:21:45+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d5a4da56-2e7e-4f30-bd1a-d0211958a00a",
+      "title": "Async Methods I: generic associated types",
+      "content_text": "Async/await continues to move along swimmingly. We’ve accepted an RFC describing how the async/await syntax will work in Rust, and work is underway on implementing support for it in the compiler. We’re hopeful that users will be able to start experimenting with the syntax on nightly by early July.\n\nThe RFC for async/await didn’t address one important thing: async methods. It is very important for people defining libraries to be able to define traits that contain async functions, like this:",
+      "url": "https://boats.gitlab.io/blog/post/async-methods-i/",
+      "date_published": "2018-05-31T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "19239f2e-41c0-44cb-8b3d-02199eaa57b1",
+      "title": "Infinite Negative Utility: The Rust Language and Special Cases",
+      "content_text": "I first came across Rust back in 2010 or 2011, and it was a very different language than the one it is today, both syntactically and semantically. I remember at the time that newcomers would often complain loudly about the terse keywords—like the fact that the return keyword had been shortened to ret—and the omnipresent tildes scattered throughout the language like fallen leaves in autumn. My programming background was in functional languages—specifically in Scheme and Haskell—and I found this language fascinating, sitting in an interesting and unexplored place in the spectrum of programming languages and bringing something genuinely new to the table.",
+      "url": "https://blog.infinitenegativeutility.com/2018/6/the-rust-language-and-special-cases",
+      "date_published": "2018-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Getty Ritter",
+        "url": "https://blog.infinitenegativeutility.com/archive"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c8e154fc-96f0-4c63-99fb-ba62c7cc689f",
+      "title": "aturon.log: listening and trust, part 2",
+      "content_text": "In the previous post in this series, I recounted an early lesson for the Rust Core Team about working in the open. In this post, I want to talk about the delicate interplay between listening and trust when doing design in the open.",
+      "url": "http://aturon.github.io/2018/06/02/listening-part-2/",
+      "date_published": "2018-06-02T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "1572c586-709c-44a9-9232-ae4d3b9466ec",
+      "title": "The Go Developer's Quickstart Guide to Rust",
+      "content_text": "As the co-author of Go in Practice, I have felt a certain obligation to Go. But I'm ready for a change. Rust topped the satisfaction survey in Stack Overflow's survey of languages (screenshot above). I've decided to give it a try. While Go and Rust are often compared, they are remarkably different languages.\n\nComing from a Go background, there are things about Rust that feel very natural, and things (like memory management) that feel utterly foreign. And so as I learn Rust, I am cataloging how it feels for a Go programmer. And rather than leading others to \"dive in at the deep end\" as I did (when I tried to write a full web service), I decided to approach Rust by starting with similarities and working toward differences.",
+      "url": "http://technosophos.com/2018/05/27/the-go-developers-quickstart-guide-to-rust.html",
+      "date_published": "2018-05-27T00:00:00+00:00",
+      "author": {
+        "name": "Matt Butcher",
+        "url": "http://technosophos.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "469533e2-7193-41b3-a754-adb5281e276f",
       "title": "My Rust Story",
       "content_text": "With #RustReach starting soon I have ran into a few \"My Rust Story\" posts. My path to Rust certainly is not typical (I studied HR Management in undergrad…).\n\nThe journey really started for me back in middle/high school as I was very interested in video games, computers, and how things worked. So with a few friends started a computer repair \"business\" that serviced the local (Western Pennsylvania) area. By the time my sophomore year of highschool rolled around we had lined up a few of the parents who owned local businesses/churches and were doing some pretty serious consulting/maintenance for our ages (also installing Halo and Half-life 2: Deathmatch on the school's servers...).",
