@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "019cfc86-4560-40cc-8619-30d04e30699b",
+      "title": "Optimising path tracing with SIMD",
+      "content_text": "Following on from path tracing in parallel with Rayon I had a lot of other optimisations I wanted to try. In particular I want to see if I could match the CPU performance of @aras_p’s C++ path tracer in Rust. He’d done a fair amount of optimising so it seemed like a good target to aim for. To get a better comparison I copied his scene and also added his light sampling approach which he talks about here. I also implemented a live render loop mimicking his.",
+      "url": "https://bitshifter.github.io/blog/2018/06/04/simd-path-tracing/",
+      "date_published": "2018-06-04T00:00:00+00:00",
+      "author": {
+        "name": "bitshifter",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "d4896054-d302-4629-8679-7456e1a741ef",
+      "title": "Async Methods II: object safety",
+      "content_text": "Last time, we introduced the idea of async methods, and talked about how they would be implemented: as a kind of anonymous associated type on the trait that declares the method, which corresponds to a different, anonymous future type for each implementation of that method. Starting this week we’re going to look at some of the implications of that. The first one we’re going to look at is object safety.",
+      "url": "https://boats.gitlab.io/blog/post/async-methods-ii/",
+      "date_published": "2018-06-04T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9a7909ce-8831-4f06-b32e-55a4a3df9116",
+      "title": "How to speed up the Rust compiler some more in 2018",
+      "content_text": "Since my last post, rustc-perf — the benchmark suite, harness and visualizer — has seen some improvements. First, some new benchmarks were added: cargo, ripgrep, sentry-cli, and webrender. Also, the parser benchmark has been removed because it was a toy program and thus not a good benchmark.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/06/05/how-to-speed-up-the-rust-compiler-some-more-in-2018/",
+      "date_published": "2018-06-05T00:05:01+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "e0e1ff6c-452a-442e-a3d5-93203569fa58",
       "title": "Fishing in an Abyss: Building a Password Cracker in Rust",
       "content_text": "Ahead of this year’s World Password Day, 1Password – maker of password management software – announced a password cracking challenge. The company ostensibly wanted to find out how hard it would be to crack a three-word passphrase master password on one of their vaults, assuming that the attacker had the derived hash of the passphrase.",

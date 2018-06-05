@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "019cfc86-4560-40cc-8619-30d04e30699b",
+      "title": "Optimising path tracing with SIMD",
+      "content_text": "Following on from path tracing in parallel with Rayon I had a lot of other optimisations I wanted to try. In particular I want to see if I could match the CPU performance of @aras_p’s C++ path tracer in Rust. He’d done a fair amount of optimising so it seemed like a good target to aim for. To get a better comparison I copied his scene and also added his light sampling approach which he talks about here. I also implemented a live render loop mimicking his.",
+      "url": "https://bitshifter.github.io/blog/2018/06/04/simd-path-tracing/",
+      "date_published": "2018-06-04T00:00:00+00:00",
+      "author": {
+        "name": "bitshifter",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "9a7909ce-8831-4f06-b32e-55a4a3df9116",
+      "title": "How to speed up the Rust compiler some more in 2018",
+      "content_text": "Since my last post, rustc-perf — the benchmark suite, harness and visualizer — has seen some improvements. First, some new benchmarks were added: cargo, ripgrep, sentry-cli, and webrender. Also, the parser benchmark has been removed because it was a toy program and thus not a good benchmark.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/06/05/how-to-speed-up-the-rust-compiler-some-more-in-2018/",
+      "date_published": "2018-06-05T00:05:01+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "cb90dbcf-0621-4e96-83ca-62deac7e8a3d",
       "title": "RustFest Paris Workshop: Fastware",
       "content_text": "It’s often said1 that the slowest code is that which has been optimised without benchmarks. You wouldn’t expect your code to work if you never ran it, so why should you expect it to be fast if you never benchmarked it? Writing good benchmarks is a bit of an art, because it’s really easy to accidentally write benchmarks that make your code seem fast, when really the compiler is applying some optimisations that work in the side-effect-free world of the benchmark but can no longer get applied when you put it out into the wild.",
