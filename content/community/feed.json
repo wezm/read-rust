@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "16518cb2-ca9f-4b67-b4d3-bc9042a23ea2",
+      "title": "Sponsor work on Rust!",
+      "content_text": "This page is a first attempt at facilitating sponsorship. This is not an officially endorsed list, but it is a list of Rustaceans that I have personally vetted and sponsored, and encourage you to support. Each of them has a long, public history of impactful work in the community.",
+      "url": "http://aturon.github.io/sponsor/",
+      "date_published": "2018-06-06T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "c8e154fc-96f0-4c63-99fb-ba62c7cc689f",
       "title": "aturon.log: listening and trust, part 2",
       "content_text": "In the previous post in this series, I recounted an early lesson for the Rust Core Team about working in the open. In this post, I want to talk about the delicate interplay between listening and trust when doing design in the open.",

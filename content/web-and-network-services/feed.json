@@ -580,7 +580,7 @@
     {
       "id": "e03aa0e5-bb05-48f0-a4a4-0796d14d1115",
       "title": "Writing a Simple IPFS Crawler",
-      "content_text": "IPFS is a peer-to-peer protocol that allows you to access and publish content in a decentralized fashion. It uses hashes to refer to files. Short of someone posting hashes on a website, discoverability of content is pretty low. In this article, we&rsquo;re going to write a very simple crawler for IPFS.\nIt&rsquo;s challenging to have a traditional search engine in IPFS because content rarely links to each other. But there is another way than just blindly following links like a traditional crawler.",
+      "content_text": "IPFS is a peer-to-peer protocol that allows you to access and publish content in a decentralized fashion. It uses hashes to refer to files. Short of someone posting hashes on a website, discoverability of content is pretty low. In this article, we’re going to write a very simple crawler for IPFS.\nIt’s challenging to have a traditional search engine in IPFS because content rarely links to each other. But there is another way than just blindly following links like a traditional crawler.",
       "url": "https://gkbrk.com/2018/03/writing-a-simple-ipfs-crawler/",
       "date_published": "2018-03-12T00:00:00+00:00",
       "author": {

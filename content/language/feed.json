@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "314ba2b8-5ace-4348-b96a-b704c628e2b3",
+      "title": "Safe Concurrency with Rust",
+      "content_text": "Last week, I started learning Rust, and published a post about the “ownership” system. One of the places where Rust’s ownership system really shines is in threading and concurrency. Kevin and I decided to dig into this more on Friday, and did some work on the dining philosophers problem.\n\nIn this post I’ll be covering what we learned, and how the Rust compiler saves you from some scary concurrency issues.",
+      "url": "http://www.squidarth.com/rc/rust/2018/06/04/rust-concurrency.html",
+      "date_published": "2018-06-04T09:00:38-04:00",
+      "author": {
+        "name": "Sid Shanker",
+        "url": "http://www.squidarth.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cebd59fa-c884-49cd-9de7-4da401e26642",
+      "title": "Why PhantomData",
+      "content_text": "We’re not allowed to have a type parameter that goes unused. If we want to have a type that looks like the one above we have to add a marker to it like so: struct Tagged<T>(usize, PhantomData<T>);",
+      "url": "http://troubles.md/posts/why-phantomdata/",
+      "date_published": "2018-06-05T13:41:30+02:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "901dde63-68f7-45d0-b161-cf585e47d266",
+      "title": "Announcing Rust 1.26.2",
+      "content_text": "This patch release fixes a bug in the borrow checker verification of match expressions. This bug was introduced in 1.26.0 with the stabilization of match ergonomics. Specifically, it permitted code which took two mutable borrows of the bar path at the same time.",
+      "url": "https://blog.rust-lang.org/2018/06/05/Rust-1.26.2.html",
+      "date_published": "2018-06-05T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2b743aaf-6ae4-4bda-8de9-6bef817e9a4d",
+      "title": "The Future of Clippy (the Rust Linter)",
+      "content_text": "We’ve recently been making lots of progress on future plans for clippy and I thought I’d post an update.",
+      "url": "https://manishearth.github.io/blog/2018/06/05/the-future-of-clippy-the-rust-linter/",
+      "date_published": "2018-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Manish Goregaokar",
+        "url": "https://manishearth.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "046762b0-c3da-4f38-8d4a-7bb515f73d4b",
+      "title": "Rust review: Protect the data",
+      "content_text": "The one thing that blew my mind about Rust is its approach to data sharing in concurrent situations.\n\nI had always thought of mutexes as something that is easy to get wrong and was convinced that the use of a RAII pattern to prevent lock leaks never happen (like with Abseil’s MutexLock) was the panacea. (I’m a fan of RAII in C++ by the way, in case you haven’t noticed.)",
+      "url": "http://julio.meroh.net/2018/06/rust-review-protect-the-data.html",
+      "date_published": "2018-06-05T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d4896054-d302-4629-8679-7456e1a741ef",
       "title": "Async Methods II: object safety",
       "content_text": "Last time, we introduced the idea of async methods, and talked about how they would be implemented: as a kind of anonymous associated type on the trait that declares the method, which corresponds to a different, anonymous future type for each implementation of that method. Starting this week we’re going to look at some of the implications of that. The first one we’re going to look at is object safety.",
@@ -96,7 +166,7 @@
     {
       "id": "09d6be59-4bee-49e0-aa34-d43622422cb8",
       "title": "Rust review: The borrow checker",
-      "content_text": "Aaaah, the borrow checker: the dreaded enemy lurking within the Rust compiler, ready to make its move to bring pain to your life by preventing your code from compiling. Or that&rsquo;s what everyone seems to say, which is one of the reasons I put off learning Rust for so long. In reality&hellip; the borrow checker is a blessing, but it is true that getting past its gates is difficult at first.",
+      "content_text": "Aaaah, the borrow checker: the dreaded enemy lurking within the Rust compiler, ready to make its move to bring pain to your life by preventing your code from compiling. Or that’s what everyone seems to say, which is one of the reasons I put off learning Rust for so long. In reality… the borrow checker is a blessing, but it is true that getting past its gates is difficult at first.",
       "url": "http://julio.meroh.net/2018/06/rust-review-borrow-checker.html",
       "date_published": "2018-06-01T09:00:00-04:00",
       "author": {
@@ -180,7 +250,7 @@
     {
       "id": "d9877c7d-7175-490d-89a8-46fad05d9903",
       "title": "Rust review: Immutable by default",
-      "content_text": "Let&rsquo;s start the deep dive by looking into a powerful feature of Rust: all variables and references are immutable by default unless qualified with mut.\nTo understand why this is important, let&rsquo;s cover some context first. One of my pet peeves when reviewing C++ code is to ask authors to sprinkle the const qualifier everywhere: if something ain&rsquo;t mutated, say so explicitly. This includes marking local variables, function arguments, function return values, class attributes, etc.",
+      "content_text": "Let’s start the deep dive by looking into a powerful feature of Rust: all variables and references are immutable by default unless qualified with mut.\nTo understand why this is important, let’s cover some context first. One of my pet peeves when reviewing C++ code is to ask authors to sprinkle the const qualifier everywhere: if something ain’t mutated, say so explicitly. This includes marking local variables, function arguments, function return values, class attributes, etc.",
       "url": "http://julio.meroh.net/2018/05/rust-review-immutable-by-default.html",
       "date_published": "2018-05-29T09:00:00-04:00",
       "author": {
@@ -432,7 +502,7 @@
     {
       "id": "7fe0f8aa-fbe1-4fef-bba3-e64b98b00bc2",
       "title": "Procedural Macros in Rust",
-      "content_text": "Procedural macros are a really powerful language feature in Rust and something I haven’t seen in many other languages.\n\nThere are a heap of tutorials out there for procedural macros, including in The Rust Reference, and the first edition of the Rust Book. One of the more entertaining (and useful) posts is by Zach Mitchell where you get to “learn Rust procedural macros with Nic Cage”.\n\nI won’t go into depth about what procedural macros are and why they&rsquo;re so powerful.",
+      "content_text": "Procedural macros are a really powerful language feature in Rust and something I haven’t seen in many other languages.\n\nThere are a heap of tutorials out there for procedural macros, including in The Rust Reference, and the first edition of the Rust Book. One of the more entertaining (and useful) posts is by Zach Mitchell where you get to “learn Rust procedural macros with Nic Cage”.\n\nI won’t go into depth about what procedural macros are and why they’re so powerful.",
       "url": "https://joshleeb.com/posts/rust-procedural-macros/",
       "date_published": "2018-05-04T00:00:00+00:00",
       "author": {
