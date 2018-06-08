@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f98c539d-bf5c-4329-a4b2-bba3c4816350",
+      "title": "Integrating QML and Rust: Creating a QMetaObject at Compile Time",
+      "content_text": "In this blog post, I would like to present a research project I have been working on: Trying to use QML from Rust, and in general, using a C++ library from Rust. The project is a Rust crate which allows to create QMetaObject at compile time from pure Rust code. It is available here: https://github.com/woboq/qmetaobject-rs",
+      "url": "https://woboq.com/blog/qmetaobject-from-rust.html",
+      "date_published": "2018-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Olivier Goffart",
+        "url": "https://woboq.com/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "01dd6aee-aa4b-46b9-a4dc-5d2550a96356",
+      "title": "Crates.rs — a new, faster crate index website",
+      "content_text": "Crates.rs, an alternative opinionated front-end to crates.io:\n\nIt’s fast.\n\nAll readmes are displayed whenever possible, and if there’s no or poor readme, doc comments are shown too.\n\nIt combines information from multiple sources, e.g. byline is a compact amalgamation of Cargo.toml, crates.io, and GitHub contributors, so you get an idea who wrote the code even if authors forgot to keep Cargo.toml up to date.\n\nCrate popularity is displayed as top-N position in its most relevant category, e.g. “#5 in Cryptography”, which is more meaningful than absolute download numbers.\n\nOptional dependencies display which feature or platform they’re for.\n\nVersion history is summarized to help see at a glance whether a crate gets regular updates and how often it has breaking changes.\n\nRecognizes sys crates even if they’re not called -sys and shows when build.rs is used.\n\nCategory pages fit more crates on screen despite looking less cluttered and having easier to read descriptions.\n\nAll categories and their representative crates are right there on the homepage.\n\nSyntax highlighting everywhere, including code blocks.\n\nEverything works without JS and gets indexed by search engines, so I’m hoping the site will help find crates.",
+      "url": "https://crates.rs/index",
+      "date_published": "2018-06-04T23:27:00+00:00",
+      "author": {
+        "name": "Kornel",
+        "url": "https://kornel.ski/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "9bf3f488-ace2-43b6-9f6b-3071241f7ed2",
       "title": "hyper v0.12",
       "content_text": "Today sees the release of hyper v0.12.0, a fast and correct HTTP library for the Rust language.\n\nThis release adds support for several new features, while taking the opportunity to fix some annoyances, and improve the extreme speeds!",

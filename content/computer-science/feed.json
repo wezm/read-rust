@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6f104d56-9b00-4748-a04f-0c77ec89a1d2",
+      "title": "Modern Parser Generator",
+      "content_text": "During the last couple of years, I’ve spent a lot of time writing parsers and parser generators, and I want to write down my thoughts about this topic. Specifically, I want to describe some properties of a parser generator that I would enjoy using. Note that this is not an “introduction to parsing” blog post, some prior knowledge is assumed.",
+      "url": "https://matklad.github.io/2018/06/06/modern-parser-generator.html",
+      "date_published": "2018-06-06T16:03:25+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "bfb80762-37e6-4337-83c9-52f371839e60",
       "title": "TensorScript Type Inference: Hindley-Milner in Rust",
       "content_text": "Type-inferred gradually typed languages are a joy to use: easy to write, analyze, and refactor. In this blog post, I will showcase to the other dozen of programmers who are interested in the obscure art of programming language type inference.",

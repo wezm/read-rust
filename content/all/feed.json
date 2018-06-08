@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "f98c539d-bf5c-4329-a4b2-bba3c4816350",
+      "title": "Integrating QML and Rust: Creating a QMetaObject at Compile Time",
+      "content_text": "In this blog post, I would like to present a research project I have been working on: Trying to use QML from Rust, and in general, using a C++ library from Rust. The project is a Rust crate which allows to create QMetaObject at compile time from pure Rust code. It is available here: https://github.com/woboq/qmetaobject-rs",
+      "url": "https://woboq.com/blog/qmetaobject-from-rust.html",
+      "date_published": "2018-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Olivier Goffart",
+        "url": "https://woboq.com/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "01dd6aee-aa4b-46b9-a4dc-5d2550a96356",
+      "title": "Crates.rs — a new, faster crate index website",
+      "content_text": "Crates.rs, an alternative opinionated front-end to crates.io:\n\nIt’s fast.\n\nAll readmes are displayed whenever possible, and if there’s no or poor readme, doc comments are shown too.\n\nIt combines information from multiple sources, e.g. byline is a compact amalgamation of Cargo.toml, crates.io, and GitHub contributors, so you get an idea who wrote the code even if authors forgot to keep Cargo.toml up to date.\n\nCrate popularity is displayed as top-N position in its most relevant category, e.g. “#5 in Cryptography”, which is more meaningful than absolute download numbers.\n\nOptional dependencies display which feature or platform they’re for.\n\nVersion history is summarized to help see at a glance whether a crate gets regular updates and how often it has breaking changes.\n\nRecognizes sys crates even if they’re not called -sys and shows when build.rs is used.\n\nCategory pages fit more crates on screen despite looking less cluttered and having easier to read descriptions.\n\nAll categories and their representative crates are right there on the homepage.\n\nSyntax highlighting everywhere, including code blocks.\n\nEverything works without JS and gets indexed by search engines, so I’m hoping the site will help find crates.",
+      "url": "https://crates.rs/index",
+      "date_published": "2018-06-04T23:27:00+00:00",
+      "author": {
+        "name": "Kornel",
+        "url": "https://kornel.ski/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6f104d56-9b00-4748-a04f-0c77ec89a1d2",
+      "title": "Modern Parser Generator",
+      "content_text": "During the last couple of years, I’ve spent a lot of time writing parsers and parser generators, and I want to write down my thoughts about this topic. Specifically, I want to describe some properties of a parser generator that I would enjoy using. Note that this is not an “introduction to parsing” blog post, some prior knowledge is assumed.",
+      "url": "https://matklad.github.io/2018/06/06/modern-parser-generator.html",
+      "date_published": "2018-06-06T16:03:25+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "49d19c19-5c1c-4a2e-9b5f-fa17c81e2ed3",
+      "title": "RSoC: Porting Redox to AArch64 - 0x01",
+      "content_text": "A first calendar entry to describe my attempt on ARM64 support in Redox OS. Specifically, looking into the Raspberry Pi2/3(B)/3+ (all of them having a Cortex-A53 ARMv8 64-bit microprocessor, although for all my experiments I am going to use the Raspberry Pi 3(B)).",
+      "url": "https://www.redox-os.org/news/rsoc-arm64-0x01/",
+      "date_published": "2018-05-30T00:00:00+00:00",
+      "author": {
+        "name": "wizofe",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "54270fa0-69d3-4ec1-8aca-c77191e164e5",
+      "title": "RSoC: Porting tokio to redox - week 3",
+      "content_text": "Last week I ended off stating that the redox netstack might soon switch to an edge-triggered model. Well, I ended up feeling bad about the idea of letting others do my work and decided to stop being lazy and just do it myself.",
+      "url": "https://www.redox-os.org/news/rsoc-porting-tokio-3/",
+      "date_published": "2018-06-06T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "d70a58d9-d528-41e3-a91c-605c58465d45",
+      "title": "A Rust-based Unikernel",
+      "content_text": "Rust is an extremely interesting language for the development of system software. This was the motivation to evaluate Rust for HermitCore and to develop an experimental version of our libOS in Rust. Components like the IP stack and uhyve (our unikernel hypervisor) are still written in C. In addition, the user applications are still compiled by our cross-compiler, which is based on gcc and supports C, C++, Fortran, and Go. The core of the kernel, however, is now written in Rust and published at GitHub. Our experiences so far are really good and we are looking into possibly new Rust activities, e.g., the support for Rust’s userland.",
+      "url": "https://hermitcore.org/2018/06/06/A-Rust-based-Unikernel/",
+      "date_published": "2018-06-06T00:00:00+00:00",
+      "author": {
+        "name": "Stefan Lankes",
+        "url": "https://hermitcore.org/blog/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "314ba2b8-5ace-4348-b96a-b704c628e2b3",
       "title": "Safe Concurrency with Rust",
       "content_text": "Last week, I started learning Rust, and published a post about the “ownership” system. One of the places where Rust’s ownership system really shines is in threading and concurrency. Kevin and I decided to dig into this more on Friday, and did some work on the dining philosophers problem.\n\nIn this post I’ll be covering what we learned, and how the Rust compiler saves you from some scary concurrency issues.",
