@@ -91,8 +91,10 @@ impl TryFrom<Item> for rss::Item {
 }
 
 fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::Item>, Error> {
-    feed.items
-        .clone()
+    let mut sorted_items = feed.items.clone();
+    sorted_items.sort_by_key(|item| item.date_published);
+
+    sorted_items
         .into_iter()
         .filter_map(|item| match *tag {
             Some(ref tag) => if item.tags.contains(tag) {
