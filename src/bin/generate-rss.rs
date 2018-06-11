@@ -92,7 +92,7 @@ impl TryFrom<Item> for rss::Item {
 
 fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::Item>, Error> {
     let mut sorted_items = feed.items.clone();
-    sorted_items.sort_by_key(|item| item.date_published);
+    sorted_items.sort_by(|a, b| b.date_published.cmp(&a.date_published));
 
     sorted_items
         .into_iter()
