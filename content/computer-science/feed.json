@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a07d66f5-dfd3-41d4-b2d8-16bf1b0f4886",
+      "title": "Rust Distilled: An Expressive Tower of Languages",
+      "content_text": "Rust represents a major advancement in production programming languages because of its success in bridging the gap between high-level application programming and low-level systems programming. At the heart of its design lies a novel approach to ownership that remains highly programmable.\n\nIn this talk, we will describe our ongoing work on designing a formal semantics for Rust that captures how programmers can understand ownership and borrowing without trying to grasp the details of lifetime analysis.",
+      "url": "https://arxiv.org/abs/1806.02693",
+      "date_published": "2018-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Weiss, Daniel Patterson, Amal Ahmed",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "6f104d56-9b00-4748-a04f-0c77ec89a1d2",
       "title": "Modern Parser Generator",
       "content_text": "During the last couple of years, I’ve spent a lot of time writing parsers and parser generators, and I want to write down my thoughts about this topic. Specifically, I want to describe some properties of a parser generator that I would enjoy using. Note that this is not an “introduction to parsing” blog post, some prior knowledge is assumed.",

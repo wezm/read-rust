@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "34b26ba8-daa3-431f-ba53-9c0d9d873459",
+      "title": "Where do Rust threads come from?",
+      "content_text": "Last week, I wrote a post in which I discussed some of the things that I learned about Rust concurrency. One of the things that I pointed out was that when you spawn a thread within another thread, they both have the main process as their parent.",
+      "url": "http://squidarth.com/rc/rust/concurrency/2018/06/09/rust-threads-detach.html",
+      "date_published": "2018-06-09T09:00:38-04:00",
+      "author": {
+        "name": "Sid Shanker",
+        "url": "http://www.squidarth.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4ab9c39f-72ed-4b84-a5e7-abe4c594c019",
+      "title": "First Impressions of the Rust Programming Language",
+      "content_text": "C is almost 50 years old, and C++ is almost 40 years old. While age is usually indicative of mature implementations with decades of optimization under their belts, it also means that the language's feature set is mostly devoid of modern advancements in programming language design. For that reason, you see a great deal of encouragement nowadays to move to newer languages - they're designed with contemporary platforms in mind, rather than working within the limitations of platforms like the PDP-11. Among said \"new languages\" are Zig, Myrddin, Go, Nim, D, Rust.. even languages like Java and Elixir that run on a virtual machine are occasionally suggested as alternatives to the AOT-compiled C and C++.\n\nI have plans to look into the characteristics that distinguish each and every one of these new programming languages, learning them and documenting my first impressions in the form of blog posts. This post is the beginning of that adventure: my first impressions of Rust.",
+      "url": "http://jakob.space/blog/post/First+Impressions+of+the+Rust+Programming+Language",
+      "date_published": "2018-06-08T13:02:33-05:00",
+      "author": {
+        "name": "Jakob",
+        "url": "http://jakob.space/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "644f8b30-47a3-4da8-b4e9-1b72755d69b0",
+      "title": "Rust review: Learning curve",
+      "content_text": "Writing Rust code is not restricted to programming gurus—but there is no denying that the learning curve is steeper than that of other languages. Or is it? In this post, I'll try to convince you that the curve does feel steep, but it isn't when taken into perspective.\nLet's first start by stating that learning a language is not the same as learning its syntax. Learning a language involves learning the syntax, of course, but it also involves familiarizing oneself with its common idioms and grabbing a good sense of what the standard libraries provide.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-learning-curve.html",
+      "date_published": "2018-06-08T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "314ba2b8-5ace-4348-b96a-b704c628e2b3",
       "title": "Safe Concurrency with Rust",
       "content_text": "Last week, I started learning Rust, and published a post about the “ownership” system. One of the places where Rust’s ownership system really shines is in threading and concurrency. Kevin and I decided to dig into this more on Friday, and did some work on the dining philosophers problem.\n\nIn this post I’ll be covering what we learned, and how the Rust compiler saves you from some scary concurrency issues.",

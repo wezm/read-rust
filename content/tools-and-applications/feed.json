@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9448ee63-32da-42f1-bd2e-1ef737d9b971",
+      "title": "To do a Rust GUI",
+      "content_text": "Rust Qt Binding Generator lets you combine Rust code with a Qt1 graphical application. A previous blog shows how to make a simple clock. It’s a good idea to read that post before reading this more advanced post, because in this post we are getting serious.\n\nThis blog post shows how to write a to-do application. The data model is a list of to-do items. The source code for this example is available in the folder examples/todos in the Rust Qt Binding Generator repository.",
+      "url": "https://www.vandenoever.info/blog/2018/06/09/to-do-a-rust-gui.html",
+      "date_published": "2018-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Jos van den Oever",
+        "url": "https://www.vandenoever.info/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e0e1ff6c-452a-442e-a3d5-93203569fa58",
       "title": "Fishing in an Abyss: Building a Password Cracker in Rust",
       "content_text": "Ahead of this year’s World Password Day, 1Password – maker of password management software – announced a password cracking challenge. The company ostensibly wanted to find out how hard it would be to crack a three-word passphrase master password on one of their vaults, assuming that the attacker had the derived hash of the passphrase.",

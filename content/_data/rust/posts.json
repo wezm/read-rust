@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "34b26ba8-daa3-431f-ba53-9c0d9d873459",
+      "title": "Where do Rust threads come from?",
+      "content_text": "Last week, I wrote a post in which I discussed some of the things that I learned about Rust concurrency. One of the things that I pointed out was that when you spawn a thread within another thread, they both have the main process as their parent.",
+      "url": "http://squidarth.com/rc/rust/concurrency/2018/06/09/rust-threads-detach.html",
+      "date_published": "2018-06-09T09:00:38-04:00",
+      "author": {
+        "name": "Sid Shanker",
+        "url": "http://www.squidarth.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a07d66f5-dfd3-41d4-b2d8-16bf1b0f4886",
+      "title": "Rust Distilled: An Expressive Tower of Languages",
+      "content_text": "Rust represents a major advancement in production programming languages because of its success in bridging the gap between high-level application programming and low-level systems programming. At the heart of its design lies a novel approach to ownership that remains highly programmable.\n\nIn this talk, we will describe our ongoing work on designing a formal semantics for Rust that captures how programmers can understand ownership and borrowing without trying to grasp the details of lifetime analysis.",
+      "url": "https://arxiv.org/abs/1806.02693",
+      "date_published": "2018-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Weiss, Daniel Patterson, Amal Ahmed",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "9448ee63-32da-42f1-bd2e-1ef737d9b971",
+      "title": "To do a Rust GUI",
+      "content_text": "Rust Qt Binding Generator lets you combine Rust code with a Qt1 graphical application. A previous blog shows how to make a simple clock. It’s a good idea to read that post before reading this more advanced post, because in this post we are getting serious.\n\nThis blog post shows how to write a to-do application. The data model is a list of to-do items. The source code for this example is available in the folder examples/todos in the Rust Qt Binding Generator repository.",
+      "url": "https://www.vandenoever.info/blog/2018/06/09/to-do-a-rust-gui.html",
+      "date_published": "2018-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Jos van den Oever",
+        "url": "https://www.vandenoever.info/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4ab9c39f-72ed-4b84-a5e7-abe4c594c019",
+      "title": "First Impressions of the Rust Programming Language",
+      "content_text": "C is almost 50 years old, and C++ is almost 40 years old. While age is usually indicative of mature implementations with decades of optimization under their belts, it also means that the language's feature set is mostly devoid of modern advancements in programming language design. For that reason, you see a great deal of encouragement nowadays to move to newer languages - they're designed with contemporary platforms in mind, rather than working within the limitations of platforms like the PDP-11. Among said \"new languages\" are Zig, Myrddin, Go, Nim, D, Rust.. even languages like Java and Elixir that run on a virtual machine are occasionally suggested as alternatives to the AOT-compiled C and C++.\n\nI have plans to look into the characteristics that distinguish each and every one of these new programming languages, learning them and documenting my first impressions in the form of blog posts. This post is the beginning of that adventure: my first impressions of Rust.",
+      "url": "http://jakob.space/blog/post/First+Impressions+of+the+Rust+Programming+Language",
+      "date_published": "2018-06-08T13:02:33-05:00",
+      "author": {
+        "name": "Jakob",
+        "url": "http://jakob.space/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "644f8b30-47a3-4da8-b4e9-1b72755d69b0",
+      "title": "Rust review: Learning curve",
+      "content_text": "Writing Rust code is not restricted to programming gurus—but there is no denying that the learning curve is steeper than that of other languages. Or is it? In this post, I'll try to convince you that the curve does feel steep, but it isn't when taken into perspective.\nLet's first start by stating that learning a language is not the same as learning its syntax. Learning a language involves learning the syntax, of course, but it also involves familiarizing oneself with its common idioms and grabbing a good sense of what the standard libraries provide.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-learning-curve.html",
+      "date_published": "2018-06-08T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f98c539d-bf5c-4329-a4b2-bba3c4816350",
       "title": "Integrating QML and Rust: Creating a QMetaObject at Compile Time",
       "content_text": "In this blog post, I would like to present a research project I have been working on: Trying to use QML from Rust, and in general, using a C++ library from Rust. The project is a Rust crate which allows to create QMetaObject at compile time from pure Rust code. It is available here: https://github.com/woboq/qmetaobject-rs",
@@ -28,7 +98,7 @@
       "title": "Crates.rs — a new, faster crate index website",
       "content_text": "Crates.rs, an alternative opinionated front-end to crates.io:\n\nIt’s fast.\n\nAll readmes are displayed whenever possible, and if there’s no or poor readme, doc comments are shown too.\n\nIt combines information from multiple sources, e.g. byline is a compact amalgamation of Cargo.toml, crates.io, and GitHub contributors, so you get an idea who wrote the code even if authors forgot to keep Cargo.toml up to date.\n\nCrate popularity is displayed as top-N position in its most relevant category, e.g. “#5 in Cryptography”, which is more meaningful than absolute download numbers.\n\nOptional dependencies display which feature or platform they’re for.\n\nVersion history is summarized to help see at a glance whether a crate gets regular updates and how often it has breaking changes.\n\nRecognizes sys crates even if they’re not called -sys and shows when build.rs is used.\n\nCategory pages fit more crates on screen despite looking less cluttered and having easier to read descriptions.\n\nAll categories and their representative crates are right there on the homepage.\n\nSyntax highlighting everywhere, including code blocks.\n\nEverything works without JS and gets indexed by search engines, so I’m hoping the site will help find crates.",
       "url": "https://crates.rs/index",
-      "date_published": "2018-06-04T23:27:00+00:00" ,
+      "date_published": "2018-06-04T23:27:00+00:00",
       "author": {
         "name": "Kornel",
         "url": "https://kornel.ski/"
