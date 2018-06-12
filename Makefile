@@ -1,26 +1,32 @@
+ALL_POSTS=content/_data/rust/posts.json
+GENERATE_RSS=target/release/generate-rss
+CATEGORIES=content/_data/categories.json
+TWEETED=content/_data/tweeted.json
+TOOTED=content/_data/tooted.json
+
 all: feeds
 	cobalt build
-	cargo run --release --bin toot -- -n content/_data/tooted.json content/_data/rust/posts.json content/_data/categories.json
-	cargo run --release --bin tweet -- -n content/_data/tweeted.json content/_data/rust/posts.json content/_data/categories.json
+	cargo run --release --bin toot -- -n ${TOOTED} ${ALL_POSTS} ${CATEGORIES}
+	cargo run --release --bin tweet -- -n ${TWEETED} ${ALL_POSTS} ${CATEGORIES}
 
 feeds:
 	cargo build --release --bin generate-rss
-	./target/release/generate-rss content/_data/rust/posts.json content/all/feed.rss
-	./target/release/generate-rss -t 'Community' content/_data/rust/posts.json content/community/feed.rss
-	./target/release/generate-rss -t 'Computer Science' content/_data/rust/posts.json content/computer-science/feed.rss
-	./target/release/generate-rss -t 'Crates' content/_data/rust/posts.json content/crates/feed.rss
-	./target/release/generate-rss -t 'DevOps and Deployment' content/_data/rust/posts.json content/devops-and-deployment/feed.rss
-	./target/release/generate-rss -t 'Embedded' content/_data/rust/posts.json content/embedded/feed.rss
-	./target/release/generate-rss -t 'Games and Graphics' content/_data/rust/posts.json content/games-and-graphics/feed.rss
-	./target/release/generate-rss -t 'Getting Started' content/_data/rust/posts.json content/getting-started/feed.rss
-	./target/release/generate-rss -t 'Language' content/_data/rust/posts.json content/language/feed.rss
-	./target/release/generate-rss -t 'Operating Systems' content/_data/rust/posts.json content/operating-systems/feed.rss
-	./target/release/generate-rss -t 'Performance' content/_data/rust/posts.json content/performance/feed.rss
-	./target/release/generate-rss -t 'Rust 2018' content/_data/rust/posts.json content/rust-2018/feed.rss
-	./target/release/generate-rss -t 'Tools and Applications' content/_data/rust/posts.json content/tools-and-applications/feed.rss
-	./target/release/generate-rss -t 'Web and Network Services' content/_data/rust/posts.json content/web-and-network-services/feed.rss
+	${GENERATE_RSS} ${ALL_POSTS} content/all/feed.rss
+	${GENERATE_RSS} -t 'Community' ${ALL_POSTS} content/community/feed.rss
+	${GENERATE_RSS} -t 'Computer Science' ${ALL_POSTS} content/computer-science/feed.rss
+	${GENERATE_RSS} -t 'Crates' ${ALL_POSTS} content/crates/feed.rss
+	${GENERATE_RSS} -t 'DevOps and Deployment' ${ALL_POSTS} content/devops-and-deployment/feed.rss
+	${GENERATE_RSS} -t 'Embedded' ${ALL_POSTS} content/embedded/feed.rss
+	${GENERATE_RSS} -t 'Games and Graphics' ${ALL_POSTS} content/games-and-graphics/feed.rss
+	${GENERATE_RSS} -t 'Getting Started' ${ALL_POSTS} content/getting-started/feed.rss
+	${GENERATE_RSS} -t 'Language' ${ALL_POSTS} content/language/feed.rss
+	${GENERATE_RSS} -t 'Operating Systems' ${ALL_POSTS} content/operating-systems/feed.rss
+	${GENERATE_RSS} -t 'Performance' ${ALL_POSTS} content/performance/feed.rss
+	${GENERATE_RSS} -t 'Rust 2018' ${ALL_POSTS} content/rust-2018/feed.rss
+	${GENERATE_RSS} -t 'Tools and Applications' ${ALL_POSTS} content/tools-and-applications/feed.rss
+	${GENERATE_RSS} -t 'Web and Network Services' ${ALL_POSTS} content/web-and-network-services/feed.rss
 
 deploy: all
 	aws s3 sync --delete --cache-control 'max-age=120, public' public s3://readrust.net
-	cargo run --release --bin toot -- content/_data/tooted.json content/_data/rust/posts.json content/_data/categories.json
-	cargo run --release --bin tweet -- content/_data/tweeted.json content/_data/rust/posts.json content/_data/categories.json
+	cargo run --release --bin toot -- ${TOOTED} ${ALL_POSTS} content/_data/categories.json
+	cargo run --release --bin tweet -- ${TWEETED} ${ALL_POSTS} content/_data/categories.json
