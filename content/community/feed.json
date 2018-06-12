@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "afe4d926-caf9-4709-95f0-3bf0249b60e2",
+      "title": "Design Guideline Problem Statement",
+      "content_text": "There were some heated discussions in Rust community as of late. During that discussions, I argued that some best practices for RFC authors would improve both on the results as well as the discussions and I promised to give it a try.",
+      "url": "https://vorner.github.io/2018/06/10/design-guideline-problem-statement.html",
+      "date_published": "2018-06-10T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "16518cb2-ca9f-4b67-b4d3-bc9042a23ea2",
       "title": "Sponsor work on Rust!",
       "content_text": "This page is a first attempt at facilitating sponsorship. This is not an officially endorsed list, but it is a list of Rustaceans that I have personally vetted and sponsored, and encourage you to support. Each of them has a long, public history of impactful work in the community.",

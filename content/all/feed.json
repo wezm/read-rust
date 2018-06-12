@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "a9263a5d-5853-4f5b-8556-28d18dda0f7d",
+      "title": "actix – an actor framework for the Rust programming language",
+      "content_text": "The “actor model” is the main primitive that powers the Erlang programming language and its descendant, Elixir. It describes a programming model that simplifies the development of concurrent and multi-threaded applications or even applications that run distributed on multiple machines.\n\nThe complexity of actors is relatively low, and that is because the complexity is usually hidden in the actor frameworks that are used to run these types of primitives in the end. One example of such an actor framework is actix, which we will have a closer look at now.",
+      "url": "https://simplabs.com/blog/2018/06/11/actix.html",
+      "date_published": "2018-06-11T00:00:00+00:00",
+      "author": {
+        "name": "Tobias Bieniek",
+        "url": "https://simplabs.com/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "afe4d926-caf9-4709-95f0-3bf0249b60e2",
+      "title": "Design Guideline Problem Statement",
+      "content_text": "There were some heated discussions in Rust community as of late. During that discussions, I argued that some best practices for RFC authors would improve both on the results as well as the discussions and I promised to give it a try.",
+      "url": "https://vorner.github.io/2018/06/10/design-guideline-problem-statement.html",
+      "date_published": "2018-06-10T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "27c8b7ed-32ab-4390-8be8-58678541dfb8",
+      "title": "Tarpaulin Past Present Future",
+      "content_text": "Tarpaulin (or cargo-tarpaulin) is a code coverage tool for Rust. Last year was pretty busy with the launch of the project and the rush of issues as people started to use it so this is just a chance to look at what’s new with version 0.6.0 and what’s planned for the rest of this year.",
+      "url": "https://xd009642.github.io/2018/06/11/Tarpaulin-past-present-future.html",
+      "date_published": "2018-06-11T00:00:00+00:00",
+      "author": {
+        "name": "xd009642",
+        "url": "https://xd009642.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "70c7595e-f384-40d3-a8c9-9f00466fe5d5",
+      "title": "Actix::From(Rocket)",
+      "content_text": "I was inspired by Nick’s post to migrate my code from Rocket to Actix. I have also been nagged by recent struggles with the nightly compiler and its compatibility with all the other crates that I use and other the platforms that I use; my code runs on 32⁄64 bit arm and 32⁄64 bit x86. When I started using Rocket around a year ago, the nightly compiler was just as stable as the stable compiler, but things have changed as rust is a growing eco system.\n\nFor me, once the differences below were addressed, porting the code was relatively straightforward. The vast majority of my code remained the same.",
+      "url": "https://noyez.gitlab.io/post/2018-06-11-rocket-to-actix/",
+      "date_published": "2018-06-11T00:00:00+00:00",
+      "author": {
+        "name": "noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "34b26ba8-daa3-431f-ba53-9c0d9d873459",
       "title": "Where do Rust threads come from?",
       "content_text": "Last week, I wrote a post in which I discussed some of the things that I learned about Rust concurrency. One of the things that I pointed out was that when you spawn a thread within another thread, they both have the main process as their parent.",
