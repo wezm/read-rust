@@ -19,10 +19,12 @@ FEEDS=\
 	content/tools-and-applications/feed.rss \
 	content/web-and-network-services/feed.rss
 
-all: ${FEEDS}
+all: feeds
 	cobalt build
 	cargo run --release --bin toot -- -n ${TOOTED} ${POSTS} ${CATEGORIES}
 	cargo run --release --bin tweet -- -n ${TWEETED} ${POSTS} ${CATEGORIES}
+
+feeds: ${FEEDS}
 
 ${GENERATE_RSS}: src/bin/generate-rss.rs
 	cargo build --release --bin generate-rss
