@@ -16,6 +16,8 @@ use getopts::Options;
 use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
 
+const MAX_ITEMS: usize = 100;
+
 // Need TryFrom/Into https://github.com/sfackler/rfcs/blob/try-from/text/0000-try-from.md
 pub trait TryFrom<T>: Sized {
     type Err;
@@ -96,6 +98,7 @@ fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::
 
     sorted_items
         .into_iter()
+        .take(MAX_ITEMS)
         .filter_map(|item| match *tag {
             Some(ref tag) => if item.tags.contains(tag) {
                 Some(item.try_into())
