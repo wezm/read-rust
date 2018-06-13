@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2b4b4efe-3a50-4ceb-ac4c-267b708c2ce8",
+      "title": "Traits and Trait Objects in Rust",
+      "content_text": "I’ve been really confused lately about Rust’s trait objects. Specifically when it comes to questions about the difference between &Trait, Box<Trait>, impl Trait, and dyn Trait.",
+      "url": "https://joshleeb.com/posts/rust-traits-and-trait-objects/",
+      "date_published": "2018-06-12T00:00:00+00:00",
+      "author": {
+        "name": "Josh Leeb-du Toit",
+        "url": "https://joshleeb.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8e5085a4-0057-4ed8-81dc-93242e35b6e9",
+      "title": "Rust review: Expressions, expressions, expressions",
+      "content_text": "Rust resembles a functional language in many ways although it does not claim to be one. In fact, I have been thinking of Rust as a “pragmatic Haskell” or as a “well-balanced mixture between C++ and Haskell”.\n\nOne of the ways the functional aspects show up is via expressions and how pretty much any construct in Rust can be treated as an expression. But before we begin, a little warning: the examples below are, by no means, idiomatic Rust—I just hope they are simple enough to illustrate what I want to show.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-expressions.html",
+      "date_published": "2018-06-12T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a9263a5d-5853-4f5b-8556-28d18dda0f7d",
       "title": "actix – an actor framework for the Rust programming language",
       "content_text": "The “actor model” is the main primitive that powers the Erlang programming language and its descendant, Elixir. It describes a programming model that simplifies the development of concurrent and multi-threaded applications or even applications that run distributed on multiple machines.\n\nThe complexity of actors is relatively low, and that is because the complexity is usually hidden in the actor frameworks that are used to run these types of primitives in the end. One example of such an actor framework is actix, which we will have a closer look at now.",
