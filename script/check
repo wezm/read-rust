@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FEED=content/rust2018/feed.json
+FEED=content/_data/rust/posts.json
 
 echo "Checking for duplicate URLs:"
 jq '.items[].url' < "$FEED" | sort | uniq -d
