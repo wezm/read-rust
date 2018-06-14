@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "f6f3b55c-c39c-4366-9de1-ebf3b230ee6c",
+      "title": "What do you think are the most interesting/exciting projects using Rust?",
+      "content_text": "Last week I tweeted \"What do you think are the most interesting/exciting projects using Rust? (No self-promotion :-) )\". The response was awesome! Jonathan Turner suggested I write up the responses as a blog post, and here we are.",
+      "url": "https://www.ncameron.org/blog/interesting_projects/",
+      "date_published": "2018-06-13T16:26:29+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "9448ee63-32da-42f1-bd2e-1ef737d9b971",
       "title": "To do a Rust GUI",
       "content_text": "Rust Qt Binding Generator lets you combine Rust code with a Qt1 graphical application. A previous blog shows how to make a simple clock. It’s a good idea to read that post before reading this more advanced post, because in this post we are getting serious.\n\nThis blog post shows how to write a to-do application. The data model is a list of to-do items. The source code for this example is available in the folder examples/todos in the Rust Qt Binding Generator repository.",

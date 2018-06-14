@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "4749d178-b87d-4946-b8e2-0a6d17d7495e",
+      "title": "Automatic Type Coercions with Procedural Macros in Rust",
+      "content_text": "I briefly demonstrate how to use procedural macros to automatically perform type coercion in Rust, mimicking the behavior of dynamic languages.",
+      "url": "http://willcrichton.net/notes/automatic-type-coercions-macros-rust/",
+      "date_published": "2018-06-12T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f6f3b55c-c39c-4366-9de1-ebf3b230ee6c",
+      "title": "What do you think are the most interesting/exciting projects using Rust?",
+      "content_text": "Last week I tweeted \"What do you think are the most interesting/exciting projects using Rust? (No self-promotion :-) )\". The response was awesome! Jonathan Turner suggested I write up the responses as a blog post, and here we are.",
+      "url": "https://www.ncameron.org/blog/interesting_projects/",
+      "date_published": "2018-06-13T16:26:29+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2b4b4efe-3a50-4ceb-ac4c-267b708c2ce8",
       "title": "Traits and Trait Objects in Rust",
       "content_text": "I’ve been really confused lately about Rust’s trait objects. Specifically when it comes to questions about the difference between &Trait, Box<Trait>, impl Trait, and dyn Trait.",
