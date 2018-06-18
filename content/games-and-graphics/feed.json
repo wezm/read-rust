@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e62fbda5-e357-4870-a483-9dcf833b31ad",
+      "title": "Running Rust on the GPU with Accel",
+      "content_text": "For the past month or so, I’ve been working on a follow-up to my series on Writing a Raytracer in Rust. This time around, I’ll be talking about writing a GPU-accelerated Path Tracer. As always, I’m writing it in Rust - including the GPU kernel code. Compiling Rust for GPUs at this point is difficult and error-prone, so I thought it would be good to start with some documentation on that aspect of the problem before diving into path tracing.",
+      "url": "https://bheisler.github.io/post/rust-on-the-gpu-with-accel/",
+      "date_published": "2018-06-14T19:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "9f6686d4-a03b-4420-82b0-e2c66b8b5e11",
       "title": "Gfx, windows, and resizing",
       "content_text": "These early posts will mostly be me trying to work out how to use gfx-rs. I was previously using glium which is fantastic, but is sadly no longer being developed. So my choices are: Learn Vulkan, Use raw OpenGL bindings, Use gfx.\n\nI opted to use the current released version (v0.17.1) but it’s currently undergoing a significant rearchitecture so I may move to that whenever it releases.",

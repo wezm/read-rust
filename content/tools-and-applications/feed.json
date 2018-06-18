@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "48c70c0e-5ce7-415b-8264-6e7a6dd02a8f",
+      "title": "My Emacs Rust IDE",
+      "content_text": "In this post, I will walk you through configuring an EMACS Rust IDE to get syntax highlighting and code completion for the Rust programming language.",
+      "url": "http://www.admintome.com/blog/my-emacs-rust-ide/",
+      "date_published": "2018-06-16T01:26:03+00:00",
+      "author": {
+        "name": "Bill Ward",
+        "url": "http://www.admintome.com/blog/author/stackadmin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f6f3b55c-c39c-4366-9de1-ebf3b230ee6c",
       "title": "What do you think are the most interesting/exciting projects using Rust?",
       "content_text": "Last week I tweeted \"What do you think are the most interesting/exciting projects using Rust? (No self-promotion :-) )\". The response was awesome! Jonathan Turner suggested I write up the responses as a blog post, and here we are.",

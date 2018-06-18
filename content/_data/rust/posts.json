@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "48c70c0e-5ce7-415b-8264-6e7a6dd02a8f",
+      "title": "My Emacs Rust IDE",
+      "content_text": "In this post, I will walk you through configuring an EMACS Rust IDE to get syntax highlighting and code completion for the Rust programming language.",
+      "url": "http://www.admintome.com/blog/my-emacs-rust-ide/",
+      "date_published": "2018-06-16T01:26:03+00:00",
+      "author": {
+        "name": "Bill Ward",
+        "url": "http://www.admintome.com/blog/author/stackadmin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "41722089-9cfe-413c-aa51-02c244fb4d67",
+      "title": "Rust Is Not So Hairy",
+      "content_text": "TL;DR I decided to learn Rust on my nth attempt. Writing small programs helped me get stuff done. I converted a Java gRPC service into Rust for comparison I'm super-impressed with Rust's low CPU and memory footprint.",
+      "url": "https://nevi.me/rust-is-not-so-hairy/",
+      "date_published": "2018-06-16T14:05:48+00:00",
+      "author": {
+        "name": "Neville",
+        "url": "https://nevi.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d8b1216b-bc74-43c1-9ce3-958e0e2b4154",
+      "title": "Writing an OS in Rust: Integration Tests",
+      "content_text": "In this post we complete the testing picture by implementing a basic integration test framework, which allows us to run tests on the target system. The idea is to run tests inside QEMU and report the results back to the host through the serial port.",
+      "url": "https://os.phil-opp.com/integration-tests/",
+      "date_published": "2018-06-15T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "977aa3cd-7136-4d69-84ac-0c15c6396ae4",
+      "title": "Dynamic Casting for Traits",
+      "content_text": "In Rust, traits are a powerful tool to use polymorphism, both static and dynamic. I’m going to skip the basics about the traits and just link to another blog post with a good explanation about static and dynamic dispatch in Rust: Traits and Trait Objects in Rust.\n\nInstead, I would like to do an experiment of making dynamic dispatch even more dynamic! Like in Java1.",
+      "url": "http://idubrov.name/rust/2018/06/16/dynamic-casting-traits.html",
+      "date_published": "2018-06-16T00:00:00+00:00",
+      "author": {
+        "name": "Ivan Dubrov",
+        "url": "http://idubrov.name/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c55b518c-125b-4fb9-82c5-08c3367bb6c6",
+      "title": "MIR-based borrow check (NLL) status update",
+      "content_text": "I’ve been getting a lot of questions about the status of “Non-lexical lifetimes” (NLL) – or, as I prefer to call it these days, the MIR-based borrow checker – so I wanted to post a status update.\n\nThe single most important fact is that the MIR-based borrow check is feature complete and available on nightly. What this means is that the behavior of #![feature(nll)] is roughly what we intend to ship for “version 1”, except that (a) the performance needs work and (b) we are still improving the diagnostics.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/06/15/mir-based-borrow-check-nll-status-update/",
+      "date_published": "2018-06-15T00:00:00-07:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "79d23f1b-0e7b-4d75-a061-9e5b9930424b",
+      "title": "From Go to Rust - JSON and YAML",
+      "content_text": "One of Go's big selling points for me was its novel approach to JSON encoding. Learning about Rust's encoding has made me even more excited. In this post, we'll start with Go's JSON encoder, and then see how Rust does encoding. And we'll even through in some YAML!",
+      "url": "http://technosophos.com/2018/06/12/from-go-to-rust-json-and-yaml.html",
+      "date_published": "2018-06-12T00:00:00+00:00",
+      "author": {
+        "name": "Matt Butcher",
+        "url": "http://technosophos.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e62fbda5-e357-4870-a483-9dcf833b31ad",
+      "title": "Running Rust on the GPU with Accel",
+      "content_text": "For the past month or so, I’ve been working on a follow-up to my series on Writing a Raytracer in Rust. This time around, I’ll be talking about writing a GPU-accelerated Path Tracer. As always, I’m writing it in Rust - including the GPU kernel code. Compiling Rust for GPUs at this point is difficult and error-prone, so I thought it would be good to start with some documentation on that aspect of the problem before diving into path tracing.",
+      "url": "https://bheisler.github.io/post/rust-on-the-gpu-with-accel/",
+      "date_published": "2018-06-14T19:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "4749d178-b87d-4946-b8e2-0a6d17d7495e",
       "title": "Automatic Type Coercions with Procedural Macros in Rust",
       "content_text": "I briefly demonstrate how to use procedural macros to automatically perform type coercion in Rust, mimicking the behavior of dynamic languages.",

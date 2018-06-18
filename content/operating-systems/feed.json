@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d8b1216b-bc74-43c1-9ce3-958e0e2b4154",
+      "title": "Writing an OS in Rust: Integration Tests",
+      "content_text": "In this post we complete the testing picture by implementing a basic integration test framework, which allows us to run tests on the target system. The idea is to run tests inside QEMU and report the results back to the host through the serial port.",
+      "url": "https://os.phil-opp.com/integration-tests/",
+      "date_published": "2018-06-15T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "49d19c19-5c1c-4a2e-9b5f-fa17c81e2ed3",
       "title": "RSoC: Porting Redox to AArch64 - 0x01",
       "content_text": "A first calendar entry to describe my attempt on ARM64 support in Redox OS. Specifically, looking into the Raspberry Pi2/3(B)/3+ (all of them having a Cortex-A53 ARMv8 64-bit microprocessor, although for all my experiments I am going to use the Raspberry Pi 3(B)).",
