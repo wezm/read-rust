@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "4ebce195-067c-45fa-be45-7c589426953b",
+      "title": "Writing a Web API Client in Rust (Part 3)",
+      "content_text": "The 3rd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",
+      "url": "https://theomn.com/rust-web-api-client-part-03/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Owen Nelson",
+        "url": "https://theomn.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "36eccf86-2b85-4ffc-b7e7-7af422cb10ac",
+      "title": "Conspiracies, Dissemination, and REST APIs",
+      "content_text": "Welcome to the third post in a series where I share my experience learning Rust. I’m building out a conspiracy theories API to help me get more familiar with Rust and have a little fun. Since I am new to Rust, I welcome all feedback, especially from developers who have been using Rust for quite some time. Leave a comment below or send your feedback via Twitter. Now it’s time to draw the blackout curtains, put on your foil-lined hat on and start serving up conspiracies from a REST API.",
+      "url": "https://medium.com/@rippinrobr_66849/3-conspiracies-dissemination-and-rest-apis-41858f8d9850",
+      "date_published": "2018-06-14T12:28:03.863+00:00",
+      "author": {
+        "name": "Rob Rowe",
+        "url": "https://medium.com/@rippinrobr_66849"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a9263a5d-5853-4f5b-8556-28d18dda0f7d",
       "title": "actix – an actor framework for the Rust programming language",
       "content_text": "The “actor model” is the main primitive that powers the Erlang programming language and its descendant, Elixir. It describes a programming model that simplifies the development of concurrent and multi-threaded applications or even applications that run distributed on multiple machines.\n\nThe complexity of actors is relatively low, and that is because the complexity is usually hidden in the actor frameworks that are used to run these types of primitives in the end. One example of such an actor framework is actix, which we will have a closer look at now.",

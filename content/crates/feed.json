@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4548e0ef-697b-414c-8bf5-9a63a707bafb",
+      "title": "A Trick For Test Maintenance",
+      "content_text": "This is a post about an interesting testing technique which feels like it should be well known. However, I haven’t seen it mentioned anywhere. I don’t even have a good name for it, I’ve semi-discovered it in the wild. If you know how this thing is called, please leave a comment!",
+      "url": "https://matklad.github.io/2018/06/18/a-trick-for-test-maintenance.html",
+      "date_published": "2018-06-18T15:00:16+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "27c8b7ed-32ab-4390-8be8-58678541dfb8",
       "title": "Tarpaulin Past Present Future",
       "content_text": "Tarpaulin (or cargo-tarpaulin) is a code coverage tool for Rust. Last year was pretty busy with the launch of the project and the rush of issues as people started to use it so this is just a chance to look at what’s new with version 0.6.0 and what’s planned for the rest of this year.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b5fe7539-f996-4c57-9fc1-5fa06b6a68b2",
+      "title": "Rust review: The match keyword",
+      "content_text": "A commonly-acclaimed feature of Rust is its match keyword: a “conditional on steroids”. match lets you take the value of an expression and compare it against a bunch of values—or, more generally, patterns.\n\nAs you write and read Rust, you will notice that this keyword is used everywhere because it’s the way to access certain types, like Option values or error codes.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-match-keyword.html",
+      "date_published": "2018-06-15T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "67f2f6f8-75f9-458c-969f-4bcbe9c0223f",
+      "title": "Rust + Diesel + GitLab + CI",
+      "content_text": "It is very straightforward to get Rust projects to build within a CI environment. This post is going to take that build process one small step further, we’re going to build a Rust project that uses the Diesel ORM. This adds a step of complexity since to compile a Diesel project you need to have a postgresql database accessible if you’re using the infer_schema!() macro.",
+      "url": "https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/",
+      "date_published": "2018-06-18T00:00:00+00:00",
+      "author": {
+        "name": "noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "41722089-9cfe-413c-aa51-02c244fb4d67",
       "title": "Rust Is Not So Hairy",
       "content_text": "TL;DR I decided to learn Rust on my nth attempt. Writing small programs helped me get stuff done. I converted a Java gRPC service into Rust for comparison I'm super-impressed with Rust's low CPU and memory footprint.",

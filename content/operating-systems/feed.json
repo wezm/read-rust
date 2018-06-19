@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e75667af-3d07-40cb-a610-4c7a6786064b",
+      "title": "Writing an OS in Rust: CPU Exceptions",
+      "content_text": "In this post, we start exploring CPU exceptions. Exceptions occur in various erroneous situations, for example when accessing an invalid memory address or when dividing by zero. To catch them, we have to set up an interrupt descriptor table that provides handler functions. At the end of this post, our kernel will be able to catch breakpoint exceptions and to resume normal execution afterwards.",
+      "url": "https://os.phil-opp.com/cpu-exceptions/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "d8b1216b-bc74-43c1-9ce3-958e0e2b4154",
       "title": "Writing an OS in Rust: Integration Tests",
       "content_text": "In this post we complete the testing picture by implementing a basic integration test framework, which allows us to run tests on the target system. The idea is to run tests inside QEMU and report the results back to the host through the serial port.",

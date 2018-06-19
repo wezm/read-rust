@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fb7909fb-5c7d-4360-a9fe-4620e04262d8",
+      "title": "Running Rust and FreeRTOS on the PADI IoT Stamp",
+      "content_text": "In this article we’ll explore a better way to build and test programs for microcontroller platforms. Specifically we’ll look at Rust, FreeRTOS and Visual Studio Code. And how I made them run on the PADI IoT Stamp.",
+      "url": "https://medium.com/@ly.lee/running-rust-and-freertos-on-the-padi-iot-stamp-fb36c5ef4844",
+      "date_published": "2018-06-18T05:45:28.579+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "df7df3a9-1519-4453-963e-fb69d766798d",
       "title": "Bobbin SDK: Richer Hardware Abstractions for Embedded Systems Programming",
       "content_text": "Bobbin SDK is a suite of tools and code that has been used in embedded development projects running on a variety of ARM Cortex-M MCUs over the last year and a half. It exists to bridge the gap between the existing Rust ecosystem centered around svd2rust and rich but proprietary vendor SDKs.",

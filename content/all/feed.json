@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "fb7909fb-5c7d-4360-a9fe-4620e04262d8",
+      "title": "Running Rust and FreeRTOS on the PADI IoT Stamp",
+      "content_text": "In this article we’ll explore a better way to build and test programs for microcontroller platforms. Specifically we’ll look at Rust, FreeRTOS and Visual Studio Code. And how I made them run on the PADI IoT Stamp.",
+      "url": "https://medium.com/@ly.lee/running-rust-and-freertos-on-the-padi-iot-stamp-fb36c5ef4844",
+      "date_published": "2018-06-18T05:45:28.579+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e75667af-3d07-40cb-a610-4c7a6786064b",
+      "title": "Writing an OS in Rust: CPU Exceptions",
+      "content_text": "In this post, we start exploring CPU exceptions. Exceptions occur in various erroneous situations, for example when accessing an invalid memory address or when dividing by zero. To catch them, we have to set up an interrupt descriptor table that provides handler functions. At the end of this post, our kernel will be able to catch breakpoint exceptions and to resume normal execution afterwards.",
+      "url": "https://os.phil-opp.com/cpu-exceptions/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "b5fe7539-f996-4c57-9fc1-5fa06b6a68b2",
+      "title": "Rust review: The match keyword",
+      "content_text": "A commonly-acclaimed feature of Rust is its match keyword: a “conditional on steroids”. match lets you take the value of an expression and compare it against a bunch of values—or, more generally, patterns.\n\nAs you write and read Rust, you will notice that this keyword is used everywhere because it’s the way to access certain types, like Option values or error codes.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-match-keyword.html",
+      "date_published": "2018-06-15T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "67f2f6f8-75f9-458c-969f-4bcbe9c0223f",
+      "title": "Rust + Diesel + GitLab + CI",
+      "content_text": "It is very straightforward to get Rust projects to build within a CI environment. This post is going to take that build process one small step further, we’re going to build a Rust project that uses the Diesel ORM. This adds a step of complexity since to compile a Diesel project you need to have a postgresql database accessible if you’re using the infer_schema!() macro.",
+      "url": "https://noyez.gitlab.io/post/2018-06-15-rust-plus-diesel-plus-gitlab/",
+      "date_published": "2018-06-18T00:00:00+00:00",
+      "author": {
+        "name": "noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4548e0ef-697b-414c-8bf5-9a63a707bafb",
+      "title": "A Trick For Test Maintenance",
+      "content_text": "This is a post about an interesting testing technique which feels like it should be well known. However, I haven’t seen it mentioned anywhere. I don’t even have a good name for it, I’ve semi-discovered it in the wild. If you know how this thing is called, please leave a comment!",
+      "url": "https://matklad.github.io/2018/06/18/a-trick-for-test-maintenance.html",
+      "date_published": "2018-06-18T15:00:16+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "c81413e6-7dc3-4a06-95dc-846a2cfa268a",
+      "title": "Listening and trust, part 3",
+      "content_text": "In this this post in the listening and trust series, I’m going to talk through one of the most intense discussions the Rust community has had: the module system changes that were part of last year’s ergonomics initiative.",
+      "url": "http://aturon.github.io/2018/06/18/listening-part-3/",
+      "date_published": "2018-06-18T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "4ebce195-067c-45fa-be45-7c589426953b",
+      "title": "Writing a Web API Client in Rust (Part 3)",
+      "content_text": "The 3rd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",
+      "url": "https://theomn.com/rust-web-api-client-part-03/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Owen Nelson",
+        "url": "https://theomn.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f12b593d-9a94-4571-8fe8-08ef5059d68f",
+      "title": "C2Rust Demonstration",
+      "content_text": "The C2Rust project is being developed by Galois and Immunant. This tool is able to translate most C modules into semantically equivalent Rust code. These modules are intended to be compiled in isolation in order to produce compatible object files. We are developing several tools that help transform the initial Rust sources into idiomatic Rust. ",
+      "url": "https://c2rust.com/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Galois and Immunant",
+        "url": "https://c2rust.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "36eccf86-2b85-4ffc-b7e7-7af422cb10ac",
+      "title": "Conspiracies, Dissemination, and REST APIs",
+      "content_text": "Welcome to the third post in a series where I share my experience learning Rust. I’m building out a conspiracy theories API to help me get more familiar with Rust and have a little fun. Since I am new to Rust, I welcome all feedback, especially from developers who have been using Rust for quite some time. Leave a comment below or send your feedback via Twitter. Now it’s time to draw the blackout curtains, put on your foil-lined hat on and start serving up conspiracies from a REST API.",
+      "url": "https://medium.com/@rippinrobr_66849/3-conspiracies-dissemination-and-rest-apis-41858f8d9850",
+      "date_published": "2018-06-14T12:28:03.863+00:00",
+      "author": {
+        "name": "Rob Rowe",
+        "url": "https://medium.com/@rippinrobr_66849"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "48c70c0e-5ce7-415b-8264-6e7a6dd02a8f",
       "title": "My Emacs Rust IDE",
       "content_text": "In this post, I will walk you through configuring an EMACS Rust IDE to get syntax highlighting and code completion for the Rust programming language.",
@@ -572,7 +698,7 @@
     },
     {
       "id": "c8e154fc-96f0-4c63-99fb-ba62c7cc689f",
-      "title": "aturon.log: listening and trust, part 2",
+      "title": "Listening and trust, part 2",
       "content_text": "In the previous post in this series, I recounted an early lesson for the Rust Core Team about working in the open. In this post, I want to talk about the delicate interplay between listening and trust when doing design in the open.",
       "url": "http://aturon.github.io/2018/06/02/listening-part-2/",
       "date_published": "2018-06-02T00:00:00+00:00",
@@ -938,7 +1064,7 @@
     },
     {
       "id": "8e49045f-dc48-4471-bc83-353183d6c4f8",
-      "title": "aturon.log: listening and trust, part 1",
+      "title": "Listening and trust, part 1",
       "content_text": "For me, most weeks working on Rust are fun — exhilarating, even. But, just like with anything else, some weeks are hard.\n\nAs this week draws to a close, I feel troubled. On the one hand, things are looking strong for the 2018 Edition (which I want to write more about soon). But on the other hand, this week I locked two RFC threads, flagged a bunch of comments for moderation, and generally absorbed a lot of emotion from a lot of different quarters of the community. There’s a sense of simmering distrust.",
       "url": "http://aturon.github.io/2018/05/25/listening-part-1/",
       "date_published": "2018-05-25T00:00:00+00:00",

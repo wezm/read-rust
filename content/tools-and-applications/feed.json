@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f12b593d-9a94-4571-8fe8-08ef5059d68f",
+      "title": "C2Rust Demonstration",
+      "content_text": "The C2Rust project is being developed by Galois and Immunant. This tool is able to translate most C modules into semantically equivalent Rust code. These modules are intended to be compiled in isolation in order to produce compatible object files. We are developing several tools that help transform the initial Rust sources into idiomatic Rust. ",
+      "url": "https://c2rust.com/",
+      "date_published": "2018-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Galois and Immunant",
+        "url": "https://c2rust.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "48c70c0e-5ce7-415b-8264-6e7a6dd02a8f",
       "title": "My Emacs Rust IDE",
       "content_text": "In this post, I will walk you through configuring an EMACS Rust IDE to get syntax highlighting and code completion for the Rust programming language.",
