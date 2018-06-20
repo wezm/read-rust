@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "31acdf03-3f59-4102-81ba-edafd6f2cfad",
+      "title": "Fast and Simple Rendering in Rust using Proc Macros",
+      "content_text": "I’ve been working on a project called Thruster recently, and needed a way that a developer could reasonably use templates. Thruster is a middleware based web server written in Rust (get it, th-rust-er? I’m working on my tight 5 for amateur night at The Apollo,) and as such, I needed a way to load HTML templates and insert variables into them in a performant way. Rather than poking around the numerous existing libraries and choosing one made by someone I don’t know — stranger danger! — I decided to make it myself. This article is about that journey, the unbelievably thrilling adventures of writing my first proc_macro_derive in Rust.",
+      "url": "https://medium.com/@MertzAlertz/fast-and-simple-rendering-in-rust-using-proc-macros-f0d919eb6475",
+      "date_published": "2018-06-19T13:22:54.045+00:00",
+      "author": {
+        "name": "Pete Mertz",
+        "url": "https://medium.com/@MertzAlertz"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "edd88db5-3f05-4171-9159-de17a3a4db8a",
+      "title": "Let's Talk Anout Vector Graphics (In Rust)",
+      "content_text": "I gave a talk about lyon at RustFest Paris. This post is the introduction of the talk, wherein I introduce vector graphics and try to get the audience somewhat excited about it. Things will get technical in the follow-up posts.",
+      "url": "https://nical.github.io/posts/rustfest-paris-01.html",
+      "date_published": "2018-06-18T00:00:00+02:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Crates",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ff081914-cb16-4004-bc20-53e494477b8c",
+      "title": "Building better compression together with DivANS",
+      "content_text": "Compressing your files is a good way to save space on your hard drive. At Dropbox’s scale, it’s not just a good idea; it is essential. Even a 1% improvement in compression efficiency can make a huge difference. That’s why we conduct research into lossless compression algorithms that are highly tuned for certain classes of files and storage, like Lepton for jpeg images, and Pied-Piper-esque lossless video encoding. For other file types, Dropbox currently uses the zlib compression format, which saves almost 8% of disk storage.\n\nWe introduce DivANS, our latest open-source contribution to compression, in this blog post.",
+      "url": "https://blogs.dropbox.com/tech/2018/06/building-better-compression-together-with-divans/",
+      "date_published": "2018-06-19T16:00:24+00:00",
+      "author": {
+        "name": "Daniel Reiter Horn and Jongmin Baek",
+        "url": "https://blogs.dropbox.com/tech/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "4548e0ef-697b-414c-8bf5-9a63a707bafb",
       "title": "A Trick For Test Maintenance",
       "content_text": "This is a post about an interesting testing technique which feels like it should be well known. However, I haven’t seen it mentioned anywhere. I don’t even have a good name for it, I’ve semi-discovered it in the wild. If you know how this thing is called, please leave a comment!",

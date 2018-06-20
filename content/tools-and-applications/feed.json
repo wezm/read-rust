@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c1d20548-b510-4452-9d30-8088b65f626a",
+      "title": "Extreme benchmark feedback using Gitlab CI",
+      "content_text": "I am quite notorious for exploiting Gitlab’s CI. Ever since I started playing with it at the start of 2016, I tended to make things worse.",
+      "url": "https://www.rubdos.be/linux/gitlab/automation/benchmarks/rust/2018/06/19/extreme-benchmark-feedback.html",
+      "date_published": "2018-06-19T13:18:00+00:00",
+      "author": {
+        "name": "Ruben De Smet",
+        "url": "https://www.rubdos.be/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f12b593d-9a94-4571-8fe8-08ef5059d68f",
       "title": "C2Rust Demonstration",
       "content_text": "The C2Rust project is being developed by Galois and Immunant. This tool is able to translate most C modules into semantically equivalent Rust code. These modules are intended to be compiled in isolation in order to produce compatible object files. We are developing several tools that help transform the initial Rust sources into idiomatic Rust. ",

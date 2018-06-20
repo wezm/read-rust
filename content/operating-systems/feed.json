@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e11a6e53-3315-44c0-a23f-7f0217019c55",
+      "title": "Writing an OS in Rust: Double Faults",
+      "content_text": "In this post we explore double faults in detail. We also set up an Interrupt Stack Table to catch double faults on a separate kernel stack. This way, we can completely prevent triple faults, even on kernel stack overflow.",
+      "url": "https://os.phil-opp.com/double-fault-exceptions/",
+      "date_published": "2018-06-18T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "e75667af-3d07-40cb-a610-4c7a6786064b",
       "title": "Writing an OS in Rust: CPU Exceptions",
       "content_text": "In this post, we start exploring CPU exceptions. Exceptions occur in various erroneous situations, for example when accessing an invalid memory address or when dividing by zero. To catch them, we have to set up an interrupt descriptor table that provides handler functions. At the end of this post, our kernel will be able to catch breakpoint exceptions and to resume normal execution afterwards.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0122445e-8a19-4a52-bcd6-4ee7e55feb7c",
+      "title": "Rust review: The book",
+      "content_text": "“The Rust Programming Language” is one of the free books that the community has put together to teach the language. The book does a good job in general, but there are some things that could be better. Let’s cover these, but first, some background.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-book.html",
+      "date_published": "2018-06-19T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b5fe7539-f996-4c57-9fc1-5fa06b6a68b2",
       "title": "Rust review: The match keyword",
       "content_text": "A commonly-acclaimed feature of Rust is its match keyword: a “conditional on steroids”. match lets you take the value of an expression and compare it against a bunch of values—or, more generally, patterns.\n\nAs you write and read Rust, you will notice that this keyword is used everywhere because it’s the way to access certain types, like Option values or error codes.",

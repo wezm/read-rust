@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5d48fc36-98e0-46ee-8c2d-d2d586770ab9",
+      "title": "Increasing Rust's Reach 2018 Prticipants",
+      "content_text": "This year's class of Increasing Rust's Reach participants span 9 timezones and 11 countries. 64% are non-native English speakers, and the group, as a whole, represents fluency in 14+ languages. We're super excited to welcome them to the Rust community!",
+      "url": "http://reach.rust-lang.org/2018/participants",
+      "date_published": "2018-06-19T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Community Team",
+        "url": "http://reach.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "c81413e6-7dc3-4a06-95dc-846a2cfa268a",
       "title": "Listening and trust, part 3",
       "content_text": "In this this post in the listening and trust series, I’m going to talk through one of the most intense discussions the Rust community has had: the module system changes that were part of last year’s ergonomics initiative.",
