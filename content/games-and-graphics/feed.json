@@ -26,7 +26,7 @@
     },
     {
       "id": "edd88db5-3f05-4171-9159-de17a3a4db8a",
-      "title": "Let's Talk Anout Vector Graphics (In Rust)",
+      "title": "Let's Talk About Vector Graphics (In Rust)",
       "content_text": "I gave a talk about lyon at RustFest Paris. This post is the introduction of the talk, wherein I introduce vector graphics and try to get the audience somewhat excited about it. Things will get technical in the follow-up posts.",
       "url": "https://nical.github.io/posts/rustfest-paris-01.html",
       "date_published": "2018-06-18T00:00:00+02:00",
