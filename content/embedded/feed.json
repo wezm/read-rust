@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d93b968d-f8fb-4ba9-b7eb-1879ec63807d",
+      "title": "Rust Thermometer – Part 1",
+      "content_text": "I’ve decided to build a thermometer from scratch. I know, I can buy it, but it’s not fun. I found it as a perfect occasion to please my wife (she wants it) and to try new things. What new things? Mainly resin.io and resinOS.",
+      "url": "https://www.robertvojta.com/rust-thermometer-part-1/",
+      "date_published": "2018-06-20T09:23:29+00:00",
+      "author": {
+        "name": "Robert Vojta",
+        "url": "https://www.robertvojta.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "fb7909fb-5c7d-4360-a9fe-4620e04262d8",
       "title": "Running Rust and FreeRTOS on the PADI IoT Stamp",
       "content_text": "In this article we’ll explore a better way to build and test programs for microcontroller platforms. Specifically we’ll look at Rust, FreeRTOS and Visual Studio Code. And how I made them run on the PADI IoT Stamp.",

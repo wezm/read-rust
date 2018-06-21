@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "87c1e68b-e1e6-44d5-be4b-212eb2bdc88f",
+      "title": "Streaming gRPC with Rust",
+      "content_text": "Lately I’ve been working on a side project that involves aggregating the indexes of media libraries and allowing one library to “lend” a file to another. For example, I might use this system if I want my home tower to “lend” a file to my laptop before I get on a plane. I’ll be committing my work-in-progress on this project to github shortly (just want to get an MVP working first and do some refactoring), but I thought I would take a step back for a moment and share my thoughts on one aspect of this project: gRPC. In particular: gRPC streaming.",
+      "url": "https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6",
+      "date_published": "2018-06-20T17:43:39.699+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4ebce195-067c-45fa-be45-7c589426953b",
       "title": "Writing a Web API Client in Rust (Part 3)",
       "content_text": "The 3rd of a multi-part series where we build a small REST client for the Marvel Comics Web API using Rust. This time we focus on how to use the hyper and futures crates to make HTTP requests to a Web API, then use serde to parse JSON data from the response.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fbc12ece-4e2b-4ee2-b3fb-e55fb54b508e",
+      "title": "Using Rust Code in a C/C++ Project with CMake",
+      "content_text": "I am currently working on Wayk Now written in C for the most part. We recently started writing new code for it in Rust which I’m super excited about.\n\n As we needed a way to integrate this code in our CMake build1, we wrote a set of modules for CMake ",
+      "url": "https://blog.devolutions.net/2018/06/insider-series-using-rust-code-in-a-cc-project-with-cmake",
+      "date_published": "2018-06-19T12:23:36+00:00",
+      "author": {
+        "name": "Sebastien Duquette",
+        "url": "https://blog.devolutions.net/author/sebastien-duquette"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "c1d20548-b510-4452-9d30-8088b65f626a",
       "title": "Extreme benchmark feedback using Gitlab CI",
       "content_text": "I am quite notorious for exploiting Gitlab’s CI. Ever since I started playing with it at the start of 2016, I tended to make things worse.",
