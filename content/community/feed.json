@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "85a6b729-6bb3-4dc0-9a15-80ba9ff44f68",
+      "title": "Musing About Communities Size And Activity",
+      "content_text": "I wanted to take a very quick peak at Rust. It's very different from our previous cases, no application or frameworks in the traditional sense but a language. It seems very popular toward developers using it, I'm personally interested in it hence why it is in that post.",
+      "url": "https://ervin.ipsquad.net/2018/06/22/musing-about-communities-size-and-activity/",
+      "date_published": "2018-06-22T19:36:00+02:00",
+      "author": {
+        "name": "Kevin Ottens",
+        "url": "https://ervin.ipsquad.net/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "5d48fc36-98e0-46ee-8c2d-d2d586770ab9",
       "title": "Increasing Rust's Reach 2018 Prticipants",
       "content_text": "This year's class of Increasing Rust's Reach participants span 9 timezones and 11 countries. 64% are non-native English speakers, and the group, as a whole, represents fluency in 14+ languages. We're super excited to welcome them to the Rust community!",

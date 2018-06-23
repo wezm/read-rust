@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b93a3070-a495-46de-a9e1-a1c650cafec3",
+      "title": "Finda Websocket Architecture",
+      "content_text": "Finda lets you search and instantly switch between tabs in browsers like Firefox and Chrome and editors like Sublime Text and Visual Studio Code. It does this by communicating with these programs over local websocket connections. This article describes the design tradeoffs of this system, focusing on Rust implementation details that may be helpful to others building similar systems.",
+      "url": "https://keminglabs.com/blog/finda-websocket-architecture/",
+      "date_published": "2018-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Kevin J. Lynagh",
+        "url": "https://keminglabs.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "fbc12ece-4e2b-4ee2-b3fb-e55fb54b508e",
       "title": "Using Rust Code in a C/C++ Project with CMake",
       "content_text": "I am currently working on Wayk Now written in C for the most part. We recently started writing new code for it in Rust which I’m super excited about.\n\n As we needed a way to integrate this code in our CMake build1, we wrote a set of modules for CMake ",

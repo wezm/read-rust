@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "afc3d2f1-e848-4c25-af60-89cf7209b3ba",
+      "title": "Writing Python Extensions In Rust Using PyO3",
+      "content_text": "I've been writing some code in Rust recently, and I thought it would be cool if I could take some of this Rust code and provide it as a native extension that I can call from Python. It turns out there are some amazing tools like PyO3 that make it easy to write fully featured Python extensions in Rust, with considerably less effort than writing a CPython extension manually.\n\nTo test out PyO3 I wrote a small Python extension in Rust, and I thought I would share some of the tips and tricks I encountered in getting this going. This post aims to serve as a quick tutorial showing how to write extensions in Rust, talking about why you might want to use something more powerful than just exposing a C library called using CFFI, and how PyO3 lets you write Python aware extensions in Rust. ",
+      "url": "https://www.benfrederickson.com/writing-python-extensions-in-rust-using-pyo3/",
+      "date_published": "2018-06-21T00:00:00-07:00",
+      "author": {
+        "name": "Ben Frederickson",
+        "url": "https://www.benfrederickson.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "698090f0-fa77-43b5-aaed-dcd2b71d3c39",
+      "title": "Rust 2018: an early preview",
+      "content_text": "The Rust teams having been working hard to implement features of the 2018 edition. Today we have reached an important milestone: we are announcing that we have an alpha-quality preview of the 2018 edition ready for testing and feedback.\n\nThe preview presents a great opportunity for those of you using the stable channel to switch to nightly and try out how it feels to code in the new edition, both to help us fix bugs and to provide feedback – positive and negative – on features. Unfortunately, today’s nightly doesn’t work due to infrastructure issues, so you’ll need to run rustup install nightly-2018-06-20 in order to get a nightly that’ll work. If you’re already on the nightly channel, it’s likely that there’s no need to update the compiler.",
+      "url": "https://internals.rust-lang.org/t/rust-2018-an-early-preview/7776",
+      "date_published": "2018-06-23T08:19:19+10:00",
+      "author": {
+        "name": "Rust Team Members",
+        "url": "https://internals.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85a6b729-6bb3-4dc0-9a15-80ba9ff44f68",
+      "title": "Musing About Communities Size And Activity",
+      "content_text": "I wanted to take a very quick peak at Rust. It's very different from our previous cases, no application or frameworks in the traditional sense but a language. It seems very popular toward developers using it, I'm personally interested in it hence why it is in that post.",
+      "url": "https://ervin.ipsquad.net/2018/06/22/musing-about-communities-size-and-activity/",
+      "date_published": "2018-06-22T19:36:00+02:00",
+      "author": {
+        "name": "Kevin Ottens",
+        "url": "https://ervin.ipsquad.net/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "295dac4f-f095-4d04-b6ee-a6a2870cc7fb",
+      "title": "Rust review: The ecosystem",
+      "content_text": "In this part of the review, I would like to focus on Rust’s ecosystem: in other words, how Rust plays with other parts of a functioning system and how Rust’s standard library vs. external libraries interact with each other. There are a lot of pieces to cover in these areas and they have left me with mixed feelings. Let’s look at some.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-ecosystem.html",
+      "date_published": "2018-06-22T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b93a3070-a495-46de-a9e1-a1c650cafec3",
+      "title": "Finda Websocket Architecture",
+      "content_text": "Finda lets you search and instantly switch between tabs in browsers like Firefox and Chrome and editors like Sublime Text and Visual Studio Code. It does this by communicating with these programs over local websocket connections. This article describes the design tradeoffs of this system, focusing on Rust implementation details that may be helpful to others building similar systems.",
+      "url": "https://keminglabs.com/blog/finda-websocket-architecture/",
+      "date_published": "2018-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Kevin J. Lynagh",
+        "url": "https://keminglabs.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "6c71975e-3550-410a-99e7-2ee9635fb0e6",
+      "title": "Generic associated types in iterators",
+      "content_text": "In this article, I want to explain the term Generic Associated Types through a concrete example. I noticed that people (especially in video games development) need some tools to iterate in various manners mutably, efficiently and safely. I tried to write some convenient iterators over vectors and slices that solve those problems, but finally, I understood that some tools cannot be written with std::iter::Iterator. Doing so led me to the comprehension of generic associated types that I will abbreviate as GATs in this article. I will explain here what GATs are and why they are needed.",
+      "url": "https://boiethios.gitlab.io/blog/2018-06-21_GATs_iterators.html",
+      "date_published": "2018-06-21T00:00:00+00:00",
+      "author": {
+        "name": "Boiethios",
+        "url": "https://boiethios.gitlab.io/blog/index.html"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "41f94ae9-ac3a-42fe-bc78-fbc6dab42d85",
+      "title": "Announcing Rust 1.27",
+      "content_text": "This release has two big language features that people have been waiting for: SIMD, and dyn Trait. Additionally there is support for searching the Rust books, and a new book about rustc.",
+      "url": "https://blog.rust-lang.org/2018/06/21/Rust-1.27.html",
+      "date_published": "2018-06-21T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d93b968d-f8fb-4ba9-b7eb-1879ec63807d",
       "title": "Rust Thermometer – Part 1",
       "content_text": "I’ve decided to build a thermometer from scratch. I know, I can buy it, but it’s not fun. I found it as a perfect occasion to please my wife (she wants it) and to try new things. What new things? Mainly resin.io and resinOS.",

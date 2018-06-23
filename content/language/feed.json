@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "698090f0-fa77-43b5-aaed-dcd2b71d3c39",
+      "title": "Rust 2018: an early preview",
+      "content_text": "The Rust teams having been working hard to implement features of the 2018 edition. Today we have reached an important milestone: we are announcing that we have an alpha-quality preview of the 2018 edition ready for testing and feedback.\n\nThe preview presents a great opportunity for those of you using the stable channel to switch to nightly and try out how it feels to code in the new edition, both to help us fix bugs and to provide feedback – positive and negative – on features. Unfortunately, today’s nightly doesn’t work due to infrastructure issues, so you’ll need to run rustup install nightly-2018-06-20 in order to get a nightly that’ll work. If you’re already on the nightly channel, it’s likely that there’s no need to update the compiler.",
+      "url": "https://internals.rust-lang.org/t/rust-2018-an-early-preview/7776",
+      "date_published": "2018-06-23T08:19:19+10:00",
+      "author": {
+        "name": "Rust Team Members",
+        "url": "https://internals.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "295dac4f-f095-4d04-b6ee-a6a2870cc7fb",
+      "title": "Rust review: The ecosystem",
+      "content_text": "In this part of the review, I would like to focus on Rust’s ecosystem: in other words, how Rust plays with other parts of a functioning system and how Rust’s standard library vs. external libraries interact with each other. There are a lot of pieces to cover in these areas and they have left me with mixed feelings. Let’s look at some.",
+      "url": "http://julio.meroh.net/2018/06/rust-review-ecosystem.html",
+      "date_published": "2018-06-22T09:00:00-04:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "41f94ae9-ac3a-42fe-bc78-fbc6dab42d85",
+      "title": "Announcing Rust 1.27",
+      "content_text": "This release has two big language features that people have been waiting for: SIMD, and dyn Trait. Additionally there is support for searching the Rust books, and a new book about rustc.",
+      "url": "https://blog.rust-lang.org/2018/06/21/Rust-1.27.html",
+      "date_published": "2018-06-21T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c883f036-9e31-44b2-995a-24b575c524b8",
       "title": "From ActiveRecord to Diesel",
       "content_text": "Recently I needed to run a simple SQL query on a Postgres database and produce a one-off report. I could have done this in 5 minutes using Ruby and ActiveRecord. Instead, I decided to use Rust and Diesel – a language and a tool I hadn’t used before. Instead of 5 minutes it took several hours, but I learned something new. I’ve written up the steps I took here today. Get your mind’s exercise for today and read on to learn how to execute a SQL statement using Rust.",
