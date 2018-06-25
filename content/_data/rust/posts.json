@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "34e39003-edb1-4232-ad2a-aae9d4868d81",
+      "title": "Compiler fuzzing, part 1",
+      "content_text": "Much has been written about fuzzing compilers already, but there is not a lot that I could find about fuzzing compilers using more modern fuzzing techniques where coverage information is fed back into the fuzzer to find more bugs.\n\nIf you know me at all, you know I'll throw anything I can get my hands on at AFL. So I tried gcc. (And clang, and rustc -- but more about Rust in a later post.)",
+      "url": "http://www.vegardno.net/2018/06/compiler-fuzzing.html",
+      "date_published": "2018-06-24T15:02:00+02:00",
+      "author": {
+        "name": "Vegard",
+        "url": "http://www.blogger.com/profile/04821963505711884515"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03d374fc-9500-42d8-8515-7f98447fd62a",
+      "title": "Making Arc more atomic",
+      "content_text": "This is a story of a tiny feature I was missing in Rust… so I created it (partly because I like the feature, because it felt wrong for Rust not to have it, but mostly for the practice and fun of beating a hard and interesting problem). You can read the story if you are interested about the behind the scenes, about the feature itself, how to use it or just for fun ☺.",
+      "url": "https://vorner.github.io/2018/06/24/arc-more-atomic.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "81e1a990-ce97-4ab6-a943-720330b5db6e",
+      "title": "Oxy - A Security Focused Remote Access Tool",
+      "content_text": "It's like SSH, but more secure, and with cool modern features. It is not an implementation of SSH, it is a new, modern protocol.",
+      "url": "https://oxy-secure.app/",
+      "date_published": "2018-06-24T23:58:43+10:00",
+      "author": {
+        "name": "Jenna Magius",
+        "url": "https://oxy-secure.app/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "afc3d2f1-e848-4c25-af60-89cf7209b3ba",
       "title": "Writing Python Extensions In Rust Using PyO3",
       "content_text": "I've been writing some code in Rust recently, and I thought it would be cool if I could take some of this Rust code and provide it as a native extension that I can call from Python. It turns out there are some amazing tools like PyO3 that make it easy to write fully featured Python extensions in Rust, with considerably less effort than writing a CPython extension manually.\n\nTo test out PyO3 I wrote a small Python extension in Rust, and I thought I would share some of the tips and tricks I encountered in getting this going. This post aims to serve as a quick tutorial showing how to write extensions in Rust, talking about why you might want to use something more powerful than just exposing a C library called using CFFI, and how PyO3 lets you write Python aware extensions in Rust. ",

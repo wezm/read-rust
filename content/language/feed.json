@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "34e39003-edb1-4232-ad2a-aae9d4868d81",
+      "title": "Compiler fuzzing, part 1",
+      "content_text": "Much has been written about fuzzing compilers already, but there is not a lot that I could find about fuzzing compilers using more modern fuzzing techniques where coverage information is fed back into the fuzzer to find more bugs.\n\nIf you know me at all, you know I'll throw anything I can get my hands on at AFL. So I tried gcc. (And clang, and rustc -- but more about Rust in a later post.)",
+      "url": "http://www.vegardno.net/2018/06/compiler-fuzzing.html",
+      "date_published": "2018-06-24T15:02:00+02:00",
+      "author": {
+        "name": "Vegard",
+        "url": "http://www.blogger.com/profile/04821963505711884515"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03d374fc-9500-42d8-8515-7f98447fd62a",
+      "title": "Making Arc more atomic",
+      "content_text": "This is a story of a tiny feature I was missing in Rust… so I created it (partly because I like the feature, because it felt wrong for Rust not to have it, but mostly for the practice and fun of beating a hard and interesting problem). You can read the story if you are interested about the behind the scenes, about the feature itself, how to use it or just for fun ☺.",
+      "url": "https://vorner.github.io/2018/06/24/arc-more-atomic.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "698090f0-fa77-43b5-aaed-dcd2b71d3c39",
       "title": "Rust 2018: an early preview",
       "content_text": "The Rust teams having been working hard to implement features of the 2018 edition. Today we have reached an important milestone: we are announcing that we have an alpha-quality preview of the 2018 edition ready for testing and feedback.\n\nThe preview presents a great opportunity for those of you using the stable channel to switch to nightly and try out how it feels to code in the new edition, both to help us fix bugs and to provide feedback – positive and negative – on features. Unfortunately, today’s nightly doesn’t work due to infrastructure issues, so you’ll need to run rustup install nightly-2018-06-20 in order to get a nightly that’ll work. If you’re already on the nightly channel, it’s likely that there’s no need to update the compiler.",

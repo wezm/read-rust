@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "81e1a990-ce97-4ab6-a943-720330b5db6e",
+      "title": "Oxy - A Security Focused Remote Access Tool",
+      "content_text": "It's like SSH, but more secure, and with cool modern features. It is not an implementation of SSH, it is a new, modern protocol.",
+      "url": "https://oxy-secure.app/",
+      "date_published": "2018-06-24T23:58:43+10:00",
+      "author": {
+        "name": "Jenna Magius",
+        "url": "https://oxy-secure.app/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "b93a3070-a495-46de-a9e1-a1c650cafec3",
       "title": "Finda Websocket Architecture",
       "content_text": "Finda lets you search and instantly switch between tabs in browsers like Firefox and Chrome and editors like Sublime Text and Visual Studio Code. It does this by communicating with these programs over local websocket connections. This article describes the design tradeoffs of this system, focusing on Rust implementation details that may be helpful to others building similar systems.",
