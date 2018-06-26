@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "09393d03-bb17-4f1e-8d5a-5dc8338ff513",
+      "title": "Nannou open source creative coding framework",
+      "content_text": "Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.",
+      "url": "http://nannou.cc/news/hello-nannou/",
+      "date_published": "2018-06-14T07:24:05+00:00",
+      "author": {
+        "name": "Mitch, Josh, Keenan & Tom",
+        "url": "http://nannou.cc/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f6f626f4-47ff-427c-8d44-b63c457bed46",
+      "title": "devtop: Command line parser",
+      "content_text": "As operator I found that existing tooling fails with large number of unusual devices. If you have server with >100 virtual machines, and each virtual machines have one or more additional disk and a few network interfaces, it’s hard to find which VM cause stress on the server. Normal atop simply couldn’t cope with hundreds of tap/tun interfaces, multitude of block devices, etc. When I found that I have no proper tooling (as an operator) I wrote a shabby tools to do my job: they are calling blktop and ifstop. Both were written dirty and fast, and they does not follow the usual Python conventions (but they work as standalone binaries). They do their job, and normally I would say that’s enough. But those utilities are simple and have no big complications under the hood, so they are perfect candidates for rewriting in Rust for the sake of writing in Rust (I’m learning it!). I decide to combine them into a single utility: devtop, which I want to develop properly, according to Rust conventions, and through all aspects of packaging.",
+      "url": "https://medium.com/journey-to-rust/devtop-command-line-parser-f08b72b02bea",
+      "date_published": "2018-06-24T14:21:28.810+00:00",
+      "author": {
+        "name": "George Shuklin",
+        "url": "https://medium.com/@george.shuklin"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "81e1a990-ce97-4ab6-a943-720330b5db6e",
       "title": "Oxy - A Security Focused Remote Access Tool",
       "content_text": "It's like SSH, but more secure, and with cool modern features. It is not an implementation of SSH, it is a new, modern protocol.",

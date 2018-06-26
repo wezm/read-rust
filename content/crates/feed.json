@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ced93c25-32fb-4e74-a5e4-5fb7cd60e8ee",
+      "title": "Building an Event Sourcing Crate for Rust",
+      "content_text": "In one of my recent blog posts, I talked about Event Sourcing with Aggregates in Rust. In that post, I was just beginning to explore how the Rust language and its strongly typed native data structures would allow me to express event sourcing concepts and primitives. I have now created an initial version of an Event Sourcing crate that you can explore on crates.io",
+      "url": "https://medium.com/@KevinHoffman/building-an-event-sourcing-crate-for-rust-2c4294eea165",
+      "date_published": "2018-06-25T13:30:42.993+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "afc3d2f1-e848-4c25-af60-89cf7209b3ba",
       "title": "Writing Python Extensions In Rust Using PyO3",
       "content_text": "I've been writing some code in Rust recently, and I thought it would be cool if I could take some of this Rust code and provide it as a native extension that I can call from Python. It turns out there are some amazing tools like PyO3 that make it easy to write fully featured Python extensions in Rust, with considerably less effort than writing a CPython extension manually.\n\nTo test out PyO3 I wrote a small Python extension in Rust, and I thought I would share some of the tips and tricks I encountered in getting this going. This post aims to serve as a quick tutorial showing how to write extensions in Rust, talking about why you might want to use something more powerful than just exposing a C library called using CFFI, and how PyO3 lets you write Python aware extensions in Rust. ",

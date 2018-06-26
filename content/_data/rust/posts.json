@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "09393d03-bb17-4f1e-8d5a-5dc8338ff513",
+      "title": "Nannou open source creative coding framework",
+      "content_text": "Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.",
+      "url": "http://nannou.cc/news/hello-nannou/",
+      "date_published": "2018-06-14T07:24:05+00:00",
+      "author": {
+        "name": "Mitch, Josh, Keenan & Tom",
+        "url": "http://nannou.cc/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f6f626f4-47ff-427c-8d44-b63c457bed46",
+      "title": "devtop: Command line parser",
+      "content_text": "As operator I found that existing tooling fails with large number of unusual devices. If you have server with >100 virtual machines, and each virtual machines have one or more additional disk and a few network interfaces, it’s hard to find which VM cause stress on the server. Normal atop simply couldn’t cope with hundreds of tap/tun interfaces, multitude of block devices, etc. When I found that I have no proper tooling (as an operator) I wrote a shabby tools to do my job: they are calling blktop and ifstop. Both were written dirty and fast, and they does not follow the usual Python conventions (but they work as standalone binaries). They do their job, and normally I would say that’s enough. But those utilities are simple and have no big complications under the hood, so they are perfect candidates for rewriting in Rust for the sake of writing in Rust (I’m learning it!). I decide to combine them into a single utility: devtop, which I want to develop properly, according to Rust conventions, and through all aspects of packaging.",
+      "url": "https://medium.com/journey-to-rust/devtop-command-line-parser-f08b72b02bea",
+      "date_published": "2018-06-24T14:21:28.810+00:00",
+      "author": {
+        "name": "George Shuklin",
+        "url": "https://medium.com/@george.shuklin"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0e7e0d63-d08d-4b38-812b-d67b5b7f9d43",
+      "title": "Sustainability",
+      "content_text": "I’m at a fork again: my FOSS project responsibilities have grown so much that they encroach on other parts of my life. This includes time I should spend with company, clients and personal live. It leaves me with two options: shed many of my projects (as mxsash does) or find ways of making this more sustainable. Retreating would also mean that on the surviving projects, others would have to cover the resulting gap, often with less skills or experience.",
+      "url": "https://yakshav.es/sustainability/",
+      "date_published": "2018-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://yakshav.es/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "ced93c25-32fb-4e74-a5e4-5fb7cd60e8ee",
+      "title": "Building an Event Sourcing Crate for Rust",
+      "content_text": "In one of my recent blog posts, I talked about Event Sourcing with Aggregates in Rust. In that post, I was just beginning to explore how the Rust language and its strongly typed native data structures would allow me to express event sourcing concepts and primitives. I have now created an initial version of an Event Sourcing crate that you can explore on crates.io",
+      "url": "https://medium.com/@KevinHoffman/building-an-event-sourcing-crate-for-rust-2c4294eea165",
+      "date_published": "2018-06-25T13:30:42.993+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e063329a-32df-4f01-92b0-38d5999f9a6e",
+      "title": "Rust Thermometer – Part 2",
+      "content_text": "Thermometer adventure continuous with some progress over the last weekend. Little bit of refactoring, rewiring, X.org, matchbox, Piston, ... and some ugly (but working!) UI :)",
+      "url": "https://www.robertvojta.com/rust-thermometer-part-2/",
+      "date_published": "2018-06-25T13:51:53+00:00",
+      "author": {
+        "name": "Robert Vojta",
+        "url": "https://www.robertvojta.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "645c96b0-5f66-4c4d-a8ee-d145298bc63d",
+      "title": "Project Ice Puzzle",
+      "content_text": "This game was coded in Rust and is playable in web browsers by means of WebAssembly, WebGL and Howler.js. The software I developed is partly open source in the form of Gate, which is the Rust library that powers this game and can power other similar games. Special thanks to the tools I used to create assets: Gimp, FL Studio and BFXR.",
+      "url": "http://www.matthewmichelotti.com/games/project_ice_puzzle/",
+      "date_published": "2018-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Matthew Michelotti",
+        "url": "http://www.matthewmichelotti.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "33738eab-7a95-4e28-b819-f22f8362100e",
+      "title": "Our Vision for Rust and WebAssembly",
+      "content_text": "Rust and WebAssembly can combine in many delightful ways. To consolidate our efforts and have the largest, most-positive impact we can, the Rust and WebAssembly domain working group is focusing on one vision:\n\nSurgically inserting Rust compiled to WebAssembly should be the best choice for speeding up the most performance-sensitive JavaScript code paths. Do not throw away your existing code base, because Rust plays well with others. Regardless of whether you are a Rust or Web developer, your natural workflow shouldn’t change because Rust compiled to wasm integrates seamlessly into your preferred tools.\n\nThis blog post will expand on these aspirations and describe where we stand in relation to them right now. In a series of follow up posts, we will talk about the next steps for each major component of the Rust and WebAssembly ecosystem.",
+      "url": "https://rustwasm.github.io/2018/06/25/vision-for-rust-and-wasm.html",
+      "date_published": "2018-06-25T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "34e39003-edb1-4232-ad2a-aae9d4868d81",
       "title": "Compiler fuzzing, part 1",
       "content_text": "Much has been written about fuzzing compilers already, but there is not a lot that I could find about fuzzing compilers using more modern fuzzing techniques where coverage information is fed back into the fuzzer to find more bugs.\n\nIf you know me at all, you know I'll throw anything I can get my hands on at AFL. So I tried gcc. (And clang, and rustc -- but more about Rust in a later post.)",
@@ -1557,7 +1656,7 @@
     {
       "id": "35d0dec8-e4fb-4be0-b87c-ed5dd39056b8",
       "title": "Migrating to Actix Web from Rocket for Stability",
-      "content_text": "I previously wrote an article back in November 2017: Replacing Elasticsearch with Rust and SQLite. In it, I needed to create a few HTTP endpoints that ingested JSON, perform a database lookup, and return JSON. Very simple. No query / path parameters, authentication, authorization, H2, or TLS. I didn’t understand how stability was such an important feature. I was familiar with needing new versions of the nightly compiler to stay current with clippy and rustfmt, but it was a blindspot when it came to dependencies.<Paste>",
+      "content_text": "I previously wrote an article back in November 2017: Replacing Elasticsearch with Rust and SQLite. In it, I needed to create a few HTTP endpoints that ingested JSON, perform a database lookup, and return JSON. Very simple. No query / path parameters, authentication, authorization, H2, or TLS. I didn’t understand how stability was such an important feature. I was familiar with needing new versions of the nightly compiler to stay current with clippy and rustfmt, but it was a blindspot when it came to dependencies.",
       "url": "https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability",
       "date_published": "2018-05-21T00:00:00+00:00",
       "author": {

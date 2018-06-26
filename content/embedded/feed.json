@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e063329a-32df-4f01-92b0-38d5999f9a6e",
+      "title": "Rust Thermometer – Part 2",
+      "content_text": "Thermometer adventure continuous with some progress over the last weekend. Little bit of refactoring, rewiring, X.org, matchbox, Piston, ... and some ugly (but working!) UI :)",
+      "url": "https://www.robertvojta.com/rust-thermometer-part-2/",
+      "date_published": "2018-06-25T13:51:53+00:00",
+      "author": {
+        "name": "Robert Vojta",
+        "url": "https://www.robertvojta.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "d93b968d-f8fb-4ba9-b7eb-1879ec63807d",
       "title": "Rust Thermometer – Part 1",
       "content_text": "I’ve decided to build a thermometer from scratch. I know, I can buy it, but it’s not fun. I found it as a perfect occasion to please my wife (she wants it) and to try new things. What new things? Mainly resin.io and resinOS.",

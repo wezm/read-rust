@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0e7e0d63-d08d-4b38-812b-d67b5b7f9d43",
+      "title": "Sustainability",
+      "content_text": "I’m at a fork again: my FOSS project responsibilities have grown so much that they encroach on other parts of my life. This includes time I should spend with company, clients and personal live. It leaves me with two options: shed many of my projects (as mxsash does) or find ways of making this more sustainable. Retreating would also mean that on the surviving projects, others would have to cover the resulting gap, often with less skills or experience.",
+      "url": "https://yakshav.es/sustainability/",
+      "date_published": "2018-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://yakshav.es/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "85a6b729-6bb3-4dc0-9a15-80ba9ff44f68",
       "title": "Musing About Communities Size And Activity",
       "content_text": "I wanted to take a very quick peak at Rust. It's very different from our previous cases, no application or frameworks in the traditional sense but a language. It seems very popular toward developers using it, I'm personally interested in it hence why it is in that post.",
