@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "f8a137b7-ce7d-4553-bcec-6170350dc1f2",
+      "title": "Rust with Rocket + Elm running on Heroku",
+      "content_text": "I had this goal of making a web app that was very fast, stable and easy to deploy. This is what I was hoping to accomplish: strongly typed server-side and client-side languages (Rust & Elm respectively), push-button deployments to the cloud with free hosting initially, and sub-second response times for API calls and page loads. With this setup, I think I'm well on my way to accomplishing each of these.",
+      "url": "http://ethanfrei.com/posts/rust-with-rocket-elm-running-on-heroku.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Ethan Frei",
+        "url": "http://ethanfrei.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "451beac2-903e-4bff-ada5-dc478a19e2c1",
+      "title": "Even faster rust builds in Gitlab CI",
+      "content_text": "tl;dr - I applied a few patterns I’ve used on other projects to a Gitlab CI-powered rust project to achieve <2min builds. Basically just caching at different layers – caching via the docker image builder pattern at the docker level, aggressive caching with Gitlab CI at the CI runner level, also one more step of combining some build steps (probably unnecessarily).",
+      "url": "https://vadosware.io/post/even-faster-rust-builds-in-gitlab-ci/",
+      "date_published": "2018-05-30T17:09:59+09:00",
+      "author": {
+        "name": "Vados",
+        "url": "https://vadosware.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "5b534e6e-4e12-4860-95d6-1317b8903d4e",
+      "title": "Setting up gitlab-ci for Rust",
+      "content_text": "We're going to create a multi-stage pipeline based on the one I'm using at work, featuring: a build image, linting, test & release builds, and docker containers",
+      "url": "https://not.plhk.ru/gitlab-ci-rust/",
+      "date_published": "2018-05-14T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Polakov",
+        "url": "https://not.plhk.ru/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "c35de4ff-df45-4774-998f-f56ddb57b5d2",
       "title": "Building and Deploying Rust with VSTS",
       "content_text": "Since I started at Microsoft about 6 months ago, I had to catch up on their (our) tech: Azure, .NET, Visual Studio. Yet as an avid GitHub user I overlooked one thing completely: Visual Studio Team Services! Turns out it’s quite the hidden gem and after a colleague showed me some of its power, I had to look into it more deeply. Turns out it’s an easy and free resource for any project. Can it help your project? Yes! How? Find out below 😊",

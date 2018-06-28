@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "44759beb-04e0-4524-898b-5ba007a80e10",
+      "title": "RSoC: Porting Redox to AArch64–0x01",
+      "content_text": "All excited. A first calendar entry to describe my attempt on arm64 support in Redox OS. Specifically, looking into the Raspberry Pi2/3b/3+(all of them having a Cortex-A53 ARMv8 64-bit microprocessor, although for all my experiments I am going to use the Raspberry Pi 3b.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-aarch64-0x01-3dee87644c97",
+      "date_published": "2018-06-26T17:26:31.958+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
       "id": "e063329a-32df-4f01-92b0-38d5999f9a6e",
       "title": "Rust Thermometer – Part 2",
       "content_text": "Thermometer adventure continuous with some progress over the last weekend. Little bit of refactoring, rewiring, X.org, matchbox, Piston, ... and some ugly (but working!) UI :)",

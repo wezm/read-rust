@@ -52,20 +52,6 @@
       ]
     },
     {
-      "id": "5b534e6e-4e12-4860-95d6-1317b8903d4e",
-      "title": "Setting up gitlab-ci for Rust",
-      "content_text": "We're going to create a multi-stage pipeline based on the one I'm using at work, featuring: a build image, linting, test & release builds, and docker containers",
-      "url": "https://not.plhk.ru/gitlab-ci-rust/",
-      "date_published": "2018-05-14T00:00:00+00:00",
-      "author": {
-        "name": "Alexander Polakov",
-        "url": "https://not.plhk.ru/"
-      },
-      "tags": [
-        "Getting Started"
-      ]
-    },
-    {
       "id": "91fb984c-4084-4b2c-84e5-ebda94169657",
       "title": "WASM+Rust Tutorial",
       "content_text": "A project used for a meetup talk about getting started with rust & wasm",

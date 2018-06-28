@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "44759beb-04e0-4524-898b-5ba007a80e10",
+      "title": "RSoC: Porting Redox to AArch64–0x01",
+      "content_text": "All excited. A first calendar entry to describe my attempt on arm64 support in Redox OS. Specifically, looking into the Raspberry Pi2/3b/3+(all of them having a Cortex-A53 ARMv8 64-bit microprocessor, although for all my experiments I am going to use the Raspberry Pi 3b.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-aarch64-0x01-3dee87644c97",
+      "date_published": "2018-06-26T17:26:31.958+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
       "id": "e11a6e53-3315-44c0-a23f-7f0217019c55",
       "title": "Writing an OS in Rust: Double Faults",
       "content_text": "In this post we explore double faults in detail. We also set up an Interrupt Stack Table to catch double faults on a separate kernel stack. This way, we can completely prevent triple faults, even on kernel stack overflow.",

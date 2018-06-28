@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "0a781f91-aca4-47ac-81d4-f9f606f33d0f",
+      "title": "A Rusty Go at Channels",
+      "content_text": "Channels Channels are a useful concurrency primitive that enable separate processes to safely communicate without the need for explicit synchronization. The term processes is used here to loosely describe independent threads of execution within a program. This can be an OS level thread or a runtime level thread. Channels can be seen as a pipe to connect these processes and allow them to share memory with one another. For example a program could spawn any number of processes along with a channel to transmit results that it gathers.",
+      "url": "https://gsquire.github.io/static/post/a-rusty-go-at-channels/",
+      "date_published": "2018-06-24T10:44:31-07:00",
+      "author": {
+        "name": "Garrett Squire",
+        "url": "https://gsquire.github.io/static/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fa4c6fb5-3c9e-4831-86b1-3585c08398de",
+      "title": "Programming Servo: The script event-loop",
+      "content_text": "One thing I have come to appreciate over time in the design of Servo, is the concurrency story. Basically, it’s pretty much all done using channels(and their multi-process counterpart).\n\nWhat is so great about channels vs shared mutable state? One thing is, it makes it easier to reason about how various threads will synchronize their behavior as they go on about their business.\n\nThe way it’s done in Servo is by combining event-loops with multi-threading/processing. What does that mean?",
+      "url": "https://medium.com/@polyglot_factotum/programming-servo-the-script-event-loop-be687b985b3e",
+      "date_published": "2018-06-28T05:17:48.726+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "638f5073-3504-43de-af0b-dbce4b5ae6c6",
+      "title": "Failure. Or: why Rust is probably the best programming language ever created",
+      "content_text": "This post is two stories. One is about accepting and recognising personal failure, reflecting and growing from it; the other is about an incredibly and seemingly endlessly powerful programming language, called Rust.",
+      "url": "https://spacekookie.de/blog/failure-or-why-rust-is-probably-the-best-programming-language-ever-created/",
+      "date_published": "2018-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Katharina Fey",
+        "url": "https://spacekookie.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e9ac81fa-8018-4bb1-91a2-cfd0b705f780",
+      "title": "Why choose Rust?",
+      "content_text": "Many of the candidates we interview for a position at PassFort are intrigued by the fact that we use Rust, a language which is only three years old (since its 1.0 release).\n\nDespite its relatively young age, Rust has been voted the “most loved” language in the StackOverflow developer survey every one of those three years - an impressive feat!\n\nHowever, it’s not enough for a language to be well liked: the programming ecosystem changes rapidly, and many of these developers are rightly afraid to jump blindly onto the latest bandwagon. We chose Rust not because it is popular, but because we believe it is the best tool for the job we have to do, and I hope to explain that reasoning now.",
+      "url": "https://blog.passfort.com/why-choose-rust/",
+      "date_published": "2018-06-26T16:00:00+00:00",
+      "author": {
+        "name": "PassFort",
+        "url": "https://blog.passfort.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "34e39003-edb1-4232-ad2a-aae9d4868d81",
       "title": "Compiler fuzzing, part 1",
       "content_text": "Much has been written about fuzzing compilers already, but there is not a lot that I could find about fuzzing compilers using more modern fuzzing techniques where coverage information is fed back into the fuzzer to find more bugs.\n\nIf you know me at all, you know I'll throw anything I can get my hands on at AFL. So I tried gcc. (And clang, and rustc -- but more about Rust in a later post.)",

@@ -10,6 +10,149 @@
   },
   "items": [
     {
+      "id": "f8a137b7-ce7d-4553-bcec-6170350dc1f2",
+      "title": "Rust with Rocket + Elm running on Heroku",
+      "content_text": "I had this goal of making a web app that was very fast, stable and easy to deploy. This is what I was hoping to accomplish: strongly typed server-side and client-side languages (Rust & Elm respectively), push-button deployments to the cloud with free hosting initially, and sub-second response times for API calls and page loads. With this setup, I think I'm well on my way to accomplishing each of these.",
+      "url": "http://ethanfrei.com/posts/rust-with-rocket-elm-running-on-heroku.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Ethan Frei",
+        "url": "http://ethanfrei.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "9c9c6dda-6538-4088-8123-e1ad213082e5",
+      "title": "What I Learned: Porting Dateutil Parser to Rust",
+      "content_text": "Hi. I’m Bradlee. I’ve mostly been a lurker in Rust for a while, making a couple small contributions here and there. So launching dtparse feels like nice step towards becoming a functioning member of society. But not too much, because then you know people start asking you to pay bills, and ain’t nobody got time for that.\n\nBut I built dtparse, and you can read about my thoughts on the process. Or don’t. I won’t tell you what to do with your life (but you should totally keep reading).",
+      "url": "https://speice.io/2018/06/dateutil-parser-to-rust.html",
+      "date_published": "2018-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "451beac2-903e-4bff-ada5-dc478a19e2c1",
+      "title": "Even faster rust builds in Gitlab CI",
+      "content_text": "tl;dr - I applied a few patterns I’ve used on other projects to a Gitlab CI-powered rust project to achieve <2min builds. Basically just caching at different layers – caching via the docker image builder pattern at the docker level, aggressive caching with Gitlab CI at the CI runner level, also one more step of combining some build steps (probably unnecessarily).",
+      "url": "https://vadosware.io/post/even-faster-rust-builds-in-gitlab-ci/",
+      "date_published": "2018-05-30T17:09:59+09:00",
+      "author": {
+        "name": "Vados",
+        "url": "https://vadosware.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "44759beb-04e0-4524-898b-5ba007a80e10",
+      "title": "RSoC: Porting Redox to AArch64–0x01",
+      "content_text": "All excited. A first calendar entry to describe my attempt on arm64 support in Redox OS. Specifically, looking into the Raspberry Pi2/3b/3+(all of them having a Cortex-A53 ARMv8 64-bit microprocessor, although for all my experiments I am going to use the Raspberry Pi 3b.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-aarch64-0x01-3dee87644c97",
+      "date_published": "2018-06-26T17:26:31.958+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "989d2bb2-c78b-4844-92ab-45509164c182",
+      "title": "Zapper: A Very Fast Templating Engine",
+      "content_text": "Thirty times faster than Handlebars, half the features! I am introducing a new templating engine for Rust that is designed to be robust and very fast! Why Zapper? Runtime templating is amazing, since you can reload templates on the fly or even allow users to provide their own templates, yet runtime templating engines are rarely fast. Templates that are statically compiled into your application can be super fast, but are completely inflexible. Recompiling and restarting your application just to change a template is especially boring. Zapper combines the flexibility of runtime templating with great performance!",
+      "url": "https://ceres1.space/posts/zapper/",
+      "date_published": "2018-06-25T19:28:22-07:00",
+      "author": {
+        "name": "Josh Leverette",
+        "url": "https://ceres1.space/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0a781f91-aca4-47ac-81d4-f9f606f33d0f",
+      "title": "A Rusty Go at Channels",
+      "content_text": "Channels Channels are a useful concurrency primitive that enable separate processes to safely communicate without the need for explicit synchronization. The term processes is used here to loosely describe independent threads of execution within a program. This can be an OS level thread or a runtime level thread. Channels can be seen as a pipe to connect these processes and allow them to share memory with one another. For example a program could spawn any number of processes along with a channel to transmit results that it gathers.",
+      "url": "https://gsquire.github.io/static/post/a-rusty-go-at-channels/",
+      "date_published": "2018-06-24T10:44:31-07:00",
+      "author": {
+        "name": "Garrett Squire",
+        "url": "https://gsquire.github.io/static/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fa4c6fb5-3c9e-4831-86b1-3585c08398de",
+      "title": "Programming Servo: The script event-loop",
+      "content_text": "One thing I have come to appreciate over time in the design of Servo, is the concurrency story. Basically, it’s pretty much all done using channels(and their multi-process counterpart).\n\nWhat is so great about channels vs shared mutable state? One thing is, it makes it easier to reason about how various threads will synchronize their behavior as they go on about their business.\n\nThe way it’s done in Servo is by combining event-loops with multi-threading/processing. What does that mean?",
+      "url": "https://medium.com/@polyglot_factotum/programming-servo-the-script-event-loop-be687b985b3e",
+      "date_published": "2018-06-28T05:17:48.726+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "638f5073-3504-43de-af0b-dbce4b5ae6c6",
+      "title": "Failure. Or: why Rust is probably the best programming language ever created",
+      "content_text": "This post is two stories. One is about accepting and recognising personal failure, reflecting and growing from it; the other is about an incredibly and seemingly endlessly powerful programming language, called Rust.",
+      "url": "https://spacekookie.de/blog/failure-or-why-rust-is-probably-the-best-programming-language-ever-created/",
+      "date_published": "2018-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Katharina Fey",
+        "url": "https://spacekookie.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e9ac81fa-8018-4bb1-91a2-cfd0b705f780",
+      "title": "Why choose Rust?",
+      "content_text": "Many of the candidates we interview for a position at PassFort are intrigued by the fact that we use Rust, a language which is only three years old (since its 1.0 release).\n\nDespite its relatively young age, Rust has been voted the “most loved” language in the StackOverflow developer survey every one of those three years - an impressive feat!\n\nHowever, it’s not enough for a language to be well liked: the programming ecosystem changes rapidly, and many of these developers are rightly afraid to jump blindly onto the latest bandwagon. We chose Rust not because it is popular, but because we believe it is the best tool for the job we have to do, and I hope to explain that reasoning now.",
+      "url": "https://blog.passfort.com/why-choose-rust/",
+      "date_published": "2018-06-26T16:00:00+00:00",
+      "author": {
+        "name": "PassFort",
+        "url": "https://blog.passfort.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "faf1a345-9eaf-4d00-a7f7-9fa3afaa51ac",
+      "title": "Better HTTP Upgrades with hyper",
+      "content_text": "Better HTTP Upgrades with hyper It’s been possible to handle HTTP Upgrades (like Websockets) in hyper if you made use of the low-level APIs in the server and client, but it wasn’t especially nice to...",
+      "url": "http://seanmonstar.com/post/175280388657/better-http-upgrades-with-hyper",
+      "date_published": "2018-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "09393d03-bb17-4f1e-8d5a-5dc8338ff513",
       "title": "Nannou open source creative coding framework",
       "content_text": "Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.",
@@ -1944,7 +2087,7 @@
         "url": "https://not.plhk.ru/"
       },
       "tags": [
-        "Getting Started"
+        "DevOps and Deployment"
       ]
     },
     {
