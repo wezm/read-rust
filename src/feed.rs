@@ -35,7 +35,8 @@ pub struct Item {
     pub id: Uuid,
     pub title: String,
     pub content_text: String,
-    pub url: String,
+    #[serde(with = "url_serde")]
+    pub url: Url,
     pub date_published: DateTime<FixedOffset>, // (Example: 2010-02-07T14:04:00-05:00.)
     pub author: Author,
     pub tags: Vec<String>,

@@ -85,7 +85,7 @@ impl TryFrom<Item> for rss::Item {
         ItemBuilder::default()
             .guid(Some(guid))
             .title(unwrap_placeholder(&item.title)?)
-            .link(item.url.clone())
+            .link(item.url.to_string())
             .description(unwrap_placeholder(&item.content_text)?)
             .pub_date(unwrap_date(&item.date_published)?.to_rfc2822())
             .dublin_core_ext(dc_extension)

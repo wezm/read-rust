@@ -218,7 +218,7 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
             .map(PostInfo::from),
         Feed::Json(ref feed) => feed.items
             .iter()
-            .find(|item| item.url == post_url.as_str() || item.url == alternate_url.as_str())
+            .find(|item| &item.url == post_url || item.url == alternate_url)
             .map(PostInfo::from),
         Feed::Rss(ref feed) => feed.items()
             .iter()
@@ -300,7 +300,7 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
     let item = Item {
         id: Uuid::new_v4(),
         title: post_info.title.expect("post is missing title"),
-        url: canonical_url.to_string(),
+        url: canonical_url,
         content_text: post_info.description.expect("post is missing description"),
         date_published: post_info
             .published_at
