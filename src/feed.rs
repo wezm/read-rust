@@ -3,15 +3,15 @@ extern crate reqwest;
 extern crate url;
 extern crate url_serde;
 
+use std::fs::File;
 use std::io::{Read, Write};
 use std::path::Path;
-use std::fs::File;
 
+use self::chrono::{DateTime, FixedOffset};
+use self::url::Url;
 use atom_syndication as atom;
 use rss;
-use self::chrono::{DateTime, FixedOffset};
 use serde_json;
-use self::url::Url;
 use uuid::Uuid;
 
 use error::Error;

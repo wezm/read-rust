@@ -15,8 +15,8 @@ use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
 use url::Url;
 
-use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
+use read_rust::feed::{Author, Item, JsonFeed};
 
 const MAX_ITEMS: usize = 100;
 
@@ -145,7 +145,9 @@ fn generate_json_feed(
     };
 
     // tweet_url isn't part of the JSON feed spec, so set it to None
-    filtered_items.iter_mut().for_each(|item| item.tweet_url = None);
+    filtered_items
+        .iter_mut()
+        .for_each(|item| item.tweet_url = None);
 
     let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
     let mut slug = tag.clone()
@@ -159,7 +161,9 @@ fn generate_json_feed(
         version: "https://jsonfeed.org/version/1".to_owned(),
         title: format!("Read Rust - {}", tag_name),
         home_page_url: home_page_url.clone(),
-        feed_url: home_page_url.join(&slug).and_then(|url| url.join("feed.json"))?,
+        feed_url: home_page_url
+            .join(&slug)
+            .and_then(|url| url.join("feed.json"))?,
         description: format!("{} posts on Read Rust", tag_name),
         author: Author {
             name: "Wesley Moore".to_owned(),

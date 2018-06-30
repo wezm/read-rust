@@ -11,23 +11,23 @@ extern crate serde_json;
 extern crate url;
 extern crate uuid;
 
+use std::env;
 use std::io::BufReader;
 use std::path::Path;
-use std::env;
 
-use reqwest::{RedirectPolicy, StatusCode};
 use reqwest::header::{ContentType, Location};
+use reqwest::{RedirectPolicy, StatusCode};
 
-use read_rust::feed::*;
 use read_rust::error::Error;
+use read_rust::feed::*;
 
+use atom_syndication as atom;
+use chrono::{DateTime, FixedOffset, TimeZone};
+use feedfinder::FeedType;
+use getopts::Options;
+use kuchiki::traits::TendrilSink;
 use url::Url;
 use uuid::Uuid;
-use kuchiki::traits::TendrilSink;
-use chrono::{DateTime, FixedOffset, TimeZone};
-use getopts::Options;
-use feedfinder::FeedType;
-use atom_syndication as atom;
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -289,7 +289,7 @@ fn run(url_to_add: &str, tags: Vec<String>, tweet_url: Option<String>) -> Result
     let tweet_url = match tweet_url.map(|ref url| Url::parse(url)) {
         Some(Ok(url)) => Some(url),
         Some(Err(err)) => return Err(err.into()),
-        None => None
+        None => None,
     };
     let feed_path = Path::new("content/_data/rust/posts.json");
     let mut feed = JsonFeed::load(feed_path)?;
@@ -342,5 +342,9 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], matches.opt_strs("t"), matches.opt_str("w")).expect("error");
+    run(
+        &matches.free[0],
+        matches.opt_strs("t"),
+        matches.opt_str("w"),
+    ).expect("error");
 }

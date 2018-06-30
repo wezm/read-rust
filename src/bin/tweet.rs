@@ -11,16 +11,16 @@ extern crate tokio_core;
 extern crate url;
 extern crate uuid;
 
-use getopts::Options;
+use egg_mode::tweet::DraftTweet;
 use egg_mode::{KeyPair, Token};
-use egg_mode::tweet::{DraftTweet};
-use tokio_core::reactor::{Core};
 use failure::Error;
+use getopts::Options;
+use tokio_core::reactor::Core;
 use url::Url;
 
+use read_rust::categories::Categories;
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
-use read_rust::categories::Categories;
 
 use std::borrow::Cow;
 use std::env;
@@ -179,14 +179,14 @@ fn run(
 
     for item in to_tweet {
         if let Some(tweet_url) = item.tweet_url {
-            let tweet_id = tweet_id_from_url(&tweet_url).ok_or_else(|| format_err!("{} is not a valid tweet URL", tweet_url))?;
+            let tweet_id = tweet_id_from_url(&tweet_url)
+                .ok_or_else(|| format_err!("{} is not a valid tweet URL", tweet_url))?;
             println!("🔁 {}", tweet_url);
             if !dry_run {
                 let work = egg_mode::tweet::retweet(tweet_id, &config.token, &handle);
                 core.run(work)?;
             }
-        }
-        else {
+        } else {
             let status_text = tweet_text_from_item(&item, &categories);
             println!("• {}", status_text);
             if !dry_run {
