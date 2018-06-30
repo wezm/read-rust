@@ -285,7 +285,12 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     })
 }
 
-fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
+fn run(url_to_add: &str, tags: Vec<String>, tweet_url: Option<String>) -> Result<(), Error> {
+    let tweet_url = match tweet_url.map(|ref url| Url::parse(url)) {
+        Some(Ok(url)) => Some(url),
+        Some(Err(err)) => return Err(err.into()),
+        None => None
+    };
     let feed_path = Path::new("content/_data/rust/posts.json");
     let mut feed = JsonFeed::load(feed_path)?;
 
@@ -301,6 +306,7 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
         id: Uuid::new_v4(),
         title: post_info.title.expect("post is missing title"),
         url: canonical_url,
+        tweet_url: tweet_url,
         content_text: post_info.description.expect("post is missing description"),
         date_published: post_info
             .published_at
@@ -325,6 +331,7 @@ fn main() {
 
     let mut opts = Options::new();
     opts.optmulti("t", "tag", "tag this post with the supplied tag", "TAG");
+    opts.optopt("w", "tweet", "tweet associated with this post", "TWEET_URL");
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
@@ -335,5 +342,5 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], matches.opt_strs("t")).expect("error");
+    run(&matches.free[0], matches.opt_strs("t"), matches.opt_str("w")).expect("error");
 }

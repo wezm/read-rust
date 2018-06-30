@@ -37,6 +37,8 @@ pub struct Item {
     pub content_text: String,
     #[serde(with = "url_serde")]
     pub url: Url,
+    #[serde(with = "url_serde", default, skip_serializing_if = "Option::is_none")]
+    pub tweet_url: Option<Url>,
     pub date_published: DateTime<FixedOffset>, // (Example: 2010-02-07T14:04:00-05:00.)
     pub author: Author,
     pub tags: Vec<String>,

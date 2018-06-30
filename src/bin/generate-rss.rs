@@ -135,7 +135,7 @@ fn generate_json_feed(
     json_feed_path: &Path,
     tag: &Option<String>,
 ) -> Result<JsonFeed, Error> {
-    let filtered_items = match *tag {
+    let mut filtered_items = match *tag {
         Some(ref tag) => feed.items
             .clone()
             .into_iter()
@@ -143,6 +143,9 @@ fn generate_json_feed(
             .collect(),
         None => feed.items.clone(),
     };
+
+    // tweet_url isn't part of the JSON feed spec, so set it to None
+    filtered_items.iter_mut().for_each(|item| item.tweet_url = None);
 
     let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
     let mut slug = tag.clone()
