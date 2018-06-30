@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9497ed78-6b59-4dd0-b1f8-725ca3c628d2",
+      "title": "Programming Servo: an HTTP cache",
+      "content_text": "In our previous post, we saw how combining channels with an event-loop could be a useful technique to ‘drive’ the concurrent logic of your system, and it was hinted at that shared mutable state might be more complicated. A good example of such ‘shared mutable state’ in Servo is the HTTP cache.",
+      "url": "https://medium.com/programming-servo/programming-servo-an-http-cache-edb52a7f267f",
+      "date_published": "2018-06-29T04:33:13.453+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "f8a137b7-ce7d-4553-bcec-6170350dc1f2",
       "title": "Rust with Rocket + Elm running on Heroku",
       "content_text": "I had this goal of making a web app that was very fast, stable and easy to deploy. This is what I was hoping to accomplish: strongly typed server-side and client-side languages (Rust & Elm respectively), push-button deployments to the cloud with free hosting initially, and sub-second response times for API calls and page loads. With this setup, I think I'm well on my way to accomplishing each of these.",

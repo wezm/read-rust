@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "13dc5703-c3a5-4c10-b3a5-aa53c382c940",
+      "title": "NES Emulator, Part 2: I sort of know what I’m doing",
+      "content_text": "In my first post about my journey to the center of the NES, I was at the point where I was still working on the CPU; implementing new addressing modes and instructions as I made my way through the nestest ROM. Well, I finally finished the CPU, including a handful of the illegal opcodes. The last of the illegal opcodes just need some placeholders, because, as I understand it, very few games use them.",
+      "url": "https://medium.com/@ltriant/nes-emulator-part-2-i-sort-of-know-what-im-doing-f64d5e61caed",
+      "date_published": "2018-06-29T02:24:51.394+00:00",
+      "author": {
+        "name": "Luke Triantafyllidis",
+        "url": "https://medium.com/@ltriant"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "645c96b0-5f66-4c4d-a8ee-d145298bc63d",
       "title": "Project Ice Puzzle",
       "content_text": "This game was coded in Rust and is playable in web browsers by means of WebAssembly, WebGL and Howler.js. The software I developed is partly open source in the form of Gate, which is the Rust library that powers this game and can power other similar games. Special thanks to the tools I used to create assets: Gimp, FL Studio and BFXR.",

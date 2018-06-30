@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "3b9229a6-90a7-48f7-983f-c2eb1117115e",
+      "title": "Nebulet: More answers",
+      "content_text": "Over the last couple of weeks, Nebulet has progressed signifigantly. Because of that, I think it’s time to talk about why I made certain decisions when designing and writing Nebulet.",
+      "url": "https://lsneff.me/more-answers.html",
+      "date_published": "2018-06-28T00:00:00+00:00",
+      "author": {
+        "name": "Lachlan Sneff",
+        "url": "https://twitter.com/lachlansneff"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "3b171674-7223-48e4-95da-5f268ec6fa1f",
+      "title": "llvm-tools: a new rustup component for binary inspection and profiling",
+      "content_text": "Recent nightly releases provide an opt-in llvm-tools rustup component which you can install using the command: rustup component add llvm-tools. This component contains the following LLVM tools: llvm-nm, llvm-objcopy, llvm-objdump, llvm-profdata, and llvm-size. Most of these tools are LLVM alternatives to GNU binutils. The main advantage of these LLVM tools is that they support all the architectures that the Rust compiler supports.",
+      "url": "https://internals.rust-lang.org/t/llvm-tools-a-new-rustup-component-for-binary-inspection-objdump-nm-size-and-profiling-profdata/7830",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9497ed78-6b59-4dd0-b1f8-725ca3c628d2",
+      "title": "Programming Servo: an HTTP cache",
+      "content_text": "In our previous post, we saw how combining channels with an event-loop could be a useful technique to ‘drive’ the concurrent logic of your system, and it was hinted at that shared mutable state might be more complicated. A good example of such ‘shared mutable state’ in Servo is the HTTP cache.",
+      "url": "https://medium.com/programming-servo/programming-servo-an-http-cache-edb52a7f267f",
+      "date_published": "2018-06-29T04:33:13.453+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "13dc5703-c3a5-4c10-b3a5-aa53c382c940",
+      "title": "NES Emulator, Part 2: I sort of know what I’m doing",
+      "content_text": "In my first post about my journey to the center of the NES, I was at the point where I was still working on the CPU; implementing new addressing modes and instructions as I made my way through the nestest ROM. Well, I finally finished the CPU, including a handful of the illegal opcodes. The last of the illegal opcodes just need some placeholders, because, as I understand it, very few games use them.",
+      "url": "https://medium.com/@ltriant/nes-emulator-part-2-i-sort-of-know-what-im-doing-f64d5e61caed",
+      "date_published": "2018-06-29T02:24:51.394+00:00",
+      "author": {
+        "name": "Luke Triantafyllidis",
+        "url": "https://medium.com/@ltriant"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "19aba600-95ff-4ba2-920f-0db67b3755e4",
+      "title": "New Photon Release of Eclipse IDE Ships With Full Rust Support | ",
+      "content_text": "The release delivers native Eclipse IDE experiences for Rust and C# through Language Server based plugins. The Language Server Protocol (LSP) ecosystem delivers editing support for popular and emerging programming languages. Combined with the move to a quarterly rolling release cadence, the LSP focus demonstrates a commitment to keeping pace with evolving developer and commercial needs.",
+      "url": "https://www.eclipse.org/org/press-release/20180627_new-photon-release-of-eclipse-ide-ships-with-full-rust-support.php",
+      "date_published": "2018-06-27T00:00:00+00:00",
+      "author": {
+        "name": "The Eclipse Foundation",
+        "url": "https://www.eclipse.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "696ba27d-cdab-400f-9e86-a138422c2154",
+      "title": "A Self-ish Bug",
+      "content_text": "I recently found a bug in mutagen: The “exchange arguments” mutation was actually ineffective. I was in the process of refactoring the code to pull coverage reporting into the mutagen calls (to reduce the amount of code generated), so the report_coverage call was to go away anyway. Except this bug masked another, more insiduous one: When I refactored, I found that one of the test would no longer compile methods with self arguments, running into Error E0424 (self keyword used in static method). Consider me confused.",
+      "url": "https://llogiq.github.io/2018/06/28/self-bug.html",
+      "date_published": "2018-06-28T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f8a137b7-ce7d-4553-bcec-6170350dc1f2",
       "title": "Rust with Rocket + Elm running on Heroku",
       "content_text": "I had this goal of making a web app that was very fast, stable and easy to deploy. This is what I was hoping to accomplish: strongly typed server-side and client-side languages (Rust & Elm respectively), push-button deployments to the cloud with free hosting initially, and sub-second response times for API calls and page loads. With this setup, I think I'm well on my way to accomplishing each of these.",
