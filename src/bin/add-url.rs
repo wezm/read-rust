@@ -8,18 +8,20 @@ extern crate read_rust;
 extern crate reqwest;
 extern crate rss;
 extern crate serde_json;
+extern crate url;
 extern crate uuid;
 
 use std::io::BufReader;
 use std::path::Path;
 use std::env;
 
-use reqwest::{RedirectPolicy, StatusCode, Url};
+use reqwest::{RedirectPolicy, StatusCode};
 use reqwest::header::{ContentType, Location};
 
 use read_rust::feed::*;
 use read_rust::error::Error;
 
+use url::Url;
 use uuid::Uuid;
 use kuchiki::traits::TendrilSink;
 use chrono::{DateTime, FixedOffset, TimeZone};

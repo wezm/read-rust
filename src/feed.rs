@@ -1,5 +1,7 @@
 extern crate chrono;
 extern crate reqwest;
+extern crate url;
+extern crate url_serde;
 
 use std::io::{Read, Write};
 use std::path::Path;
@@ -9,6 +11,7 @@ use atom_syndication as atom;
 use rss;
 use self::chrono::{DateTime, FixedOffset};
 use serde_json;
+use self::url::Url;
 use uuid::Uuid;
 
 use error::Error;
@@ -43,7 +46,8 @@ pub struct JsonFeed {
     pub version: String,
     pub title: String,
     pub home_page_url: String,
-    pub feed_url: String,
+    #[serde(with = "url_serde")]
+    pub feed_url: Url,
     pub description: String,
     pub author: Author,
     pub items: Vec<Item>,

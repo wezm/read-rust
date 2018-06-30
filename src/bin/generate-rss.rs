@@ -3,6 +3,7 @@ extern crate getopts;
 extern crate read_rust;
 extern crate rss;
 extern crate serde_json;
+extern crate url;
 
 use std::env;
 use std::fs::File;
@@ -12,6 +13,7 @@ use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 
 use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
+use url::Url;
 
 use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
@@ -143,17 +145,18 @@ fn generate_json_feed(
     };
 
     let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
-    let slug = tag.clone()
+    let mut slug = tag.clone()
         .unwrap_or_else(|| "all".to_owned())
         .to_lowercase()
         .replace(" ", "-");
-    let home_page_url = "https://readrust.net/";
+    slug.push_str("/");
+    let home_page_url: Url = "https://readrust.net/".parse()?;
 
     let filtered_feed = JsonFeed {
         version: "https://jsonfeed.org/version/1".to_owned(),
         title: format!("Read Rust - {}", tag_name),
-        home_page_url: home_page_url.to_owned(),
-        feed_url: format!("{}{}/feed.json", home_page_url, slug),
+        home_page_url: home_page_url.clone(),
+        feed_url: home_page_url.join(&slug).and_then(|url| url.join("feed.json"))?,
         description: format!("{} posts on Read Rust", tag_name),
         author: Author {
             name: "Wesley Moore".to_owned(),
