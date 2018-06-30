@@ -117,7 +117,7 @@ fn generate_rss(feed: &JsonFeed, rss_feed_path: &str, tag: &Option<String>) -> R
 
     let channel = ChannelBuilder::default()
         .title(feed.title.clone())
-        .link(feed.home_page_url.clone())
+        .link(feed.home_page_url.to_string())
         .description(feed.description.clone())
         .items(items)
         .build()

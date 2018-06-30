@@ -45,7 +45,8 @@ pub struct Item {
 pub struct JsonFeed {
     pub version: String,
     pub title: String,
-    pub home_page_url: String,
+    #[serde(with = "url_serde")]
+    pub home_page_url: Url,
     #[serde(with = "url_serde")]
     pub feed_url: Url,
     pub description: String,
