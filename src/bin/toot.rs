@@ -6,18 +6,18 @@ extern crate serde;
 extern crate serde_json;
 extern crate uuid;
 
-use getopts::Options;
-use mammut::{Data, Mastodon, Registration, StatusBuilder};
-use mammut::apps::{AppBuilder, Scopes};
 use failure::Error;
+use getopts::Options;
+use mammut::apps::{AppBuilder, Scopes};
+use mammut::{Data, Mastodon, Registration, StatusBuilder};
 
+use read_rust::categories::Categories;
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
-use read_rust::categories::Categories;
 
-use std::io;
 use std::env;
 use std::fs::File;
+use std::io;
 use std::path::Path;
 
 const MASTODON_DATA_FILE: &str = ".mastodon-data.json";

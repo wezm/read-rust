@@ -1,4 +1,5 @@
 extern crate egg_mode;
+#[macro_use]
 extern crate failure;
 extern crate getopts;
 extern crate read_rust;
@@ -7,17 +8,19 @@ extern crate serde;
 extern crate serde_derive;
 extern crate serde_json;
 extern crate tokio_core;
+extern crate url;
 extern crate uuid;
 
-use getopts::Options;
-use egg_mode::{KeyPair, Token};
 use egg_mode::tweet::DraftTweet;
-use tokio_core::reactor::Core;
+use egg_mode::{KeyPair, Token};
 use failure::Error;
+use getopts::Options;
+use tokio_core::reactor::Core;
+use url::Url;
 
+use read_rust::categories::Categories;
 use read_rust::feed::{Item, JsonFeed};
 use read_rust::toot_list::{Toot, TootList};
-use read_rust::categories::Categories;
 
 use std::borrow::Cow;
 use std::env;
@@ -138,6 +141,19 @@ fn tweet_text_from_item(item: &Item, categories: &Categories) -> String {
     )
 }
 
+fn tweet_id_from_url(url: &Url) -> Option<u64> {
+    // https://twitter.com/llogiq/status/1012438300781576192
+    if url.domain() != Some("twitter.com") {
+        return None;
+    }
+
+    let segments = url.path_segments().map(|iter| iter.collect::<Vec<_>>())?;
+    match segments.as_slice() {
+        [_, "status", id] => id.parse().ok(),
+        _ => None,
+    }
+}
+
 fn run(
     tootlist_path: &str,
     json_feed_path: &str,
@@ -166,14 +182,25 @@ fn run(
     }
 
     for item in to_tweet {
-        let status_text = tweet_text_from_item(&item, &categories);
-        println!("• {}", status_text);
-        if !dry_run {
-            let tweet = DraftTweet::new(status_text);
+        if let Some(tweet_url) = item.tweet_url {
+            let tweet_id = tweet_id_from_url(&tweet_url)
+                .ok_or_else(|| format_err!("{} is not a valid tweet URL", tweet_url))?;
+            println!("🔁 {}", tweet_url);
+            if !dry_run {
+                let work = egg_mode::tweet::retweet(tweet_id, &config.token, &handle);
+                core.run(work)?;
+            }
+        } else {
+            let status_text = tweet_text_from_item(&item, &categories);
+            println!("• {}", status_text);
+            if !dry_run {
+                let tweet = DraftTweet::new(status_text);
 
-            let work = tweet.send(&config.token, &handle);
-            core.run(work)?;
-        }
+                let work = tweet.send(&config.token, &handle);
+                core.run(work)?;
+            }
+        };
+
         tootlist.add_item(Toot { item_id: item.id });
     }
 
@@ -219,3 +246,24 @@ fn main() {
         matches.opt_present("n"),
     ).expect("error");
 }
+
+#[test]
+fn test_tweet_id_from_valid_url() {
+    assert_eq!(tweet_id_from_url(&"https://twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), Some(1012438300781576192));
+}
+
+#[test]
+fn test_tweet_id_from_invalid_url() {
+    assert_eq!(tweet_id_from_url(&"https://not_twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), None);
+}
+
+#[test]
+fn test_tweet_id_from_non_status_url() {
+    assert_eq!(tweet_id_from_url(&"https://twitter.com/rustlang/".parse().unwrap()), None);
+}
+
+#[test]
+fn test_tweet_id_from_almost_valid_url() {
+    assert_eq!(tweet_id_from_url(&"https://mobile.twitter.com/shaneOsbourne/status/1012451814338424832/photo/2".parse().unwrap()), None);
+}
+

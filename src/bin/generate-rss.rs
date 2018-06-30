@@ -3,6 +3,7 @@ extern crate getopts;
 extern crate read_rust;
 extern crate rss;
 extern crate serde_json;
+extern crate url;
 
 use std::env;
 use std::fs::File;
@@ -12,9 +13,10 @@ use rss::{ChannelBuilder, GuidBuilder, ItemBuilder};
 
 use chrono::{DateTime, Datelike, FixedOffset};
 use getopts::Options;
+use url::Url;
 
-use read_rust::feed::{Author, Item, JsonFeed};
 use read_rust::error::Error;
+use read_rust::feed::{Author, Item, JsonFeed};
 
 const MAX_ITEMS: usize = 100;
 
@@ -83,7 +85,7 @@ impl TryFrom<Item> for rss::Item {
         ItemBuilder::default()
             .guid(Some(guid))
             .title(unwrap_placeholder(&item.title)?)
-            .link(item.url.clone())
+            .link(item.url.to_string())
             .description(unwrap_placeholder(&item.content_text)?)
             .pub_date(unwrap_date(&item.date_published)?.to_rfc2822())
             .dublin_core_ext(dc_extension)
@@ -115,7 +117,7 @@ fn generate_rss(feed: &JsonFeed, rss_feed_path: &str, tag: &Option<String>) -> R
 
     let channel = ChannelBuilder::default()
         .title(feed.title.clone())
-        .link(feed.home_page_url.clone())
+        .link(feed.home_page_url.to_string())
         .description(feed.description.clone())
         .items(items)
         .build()
@@ -133,7 +135,7 @@ fn generate_json_feed(
     json_feed_path: &Path,
     tag: &Option<String>,
 ) -> Result<JsonFeed, Error> {
-    let filtered_items = match *tag {
+    let mut filtered_items = match *tag {
         Some(ref tag) => feed.items
             .clone()
             .into_iter()
@@ -142,18 +144,26 @@ fn generate_json_feed(
         None => feed.items.clone(),
     };
 
+    // tweet_url isn't part of the JSON feed spec, so set it to None
+    filtered_items
+        .iter_mut()
+        .for_each(|item| item.tweet_url = None);
+
     let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
-    let slug = tag.clone()
+    let mut slug = tag.clone()
         .unwrap_or_else(|| "all".to_owned())
         .to_lowercase()
         .replace(" ", "-");
-    let home_page_url = "https://readrust.net/";
+    slug.push_str("/");
+    let home_page_url: Url = "https://readrust.net/".parse()?;
 
     let filtered_feed = JsonFeed {
         version: "https://jsonfeed.org/version/1".to_owned(),
         title: format!("Read Rust - {}", tag_name),
-        home_page_url: home_page_url.to_owned(),
-        feed_url: format!("{}{}/feed.json", home_page_url, slug),
+        home_page_url: home_page_url.clone(),
+        feed_url: home_page_url
+            .join(&slug)
+            .and_then(|url| url.join("feed.json"))?,
         description: format!("{} posts on Read Rust", tag_name),
         author: Author {
             name: "Wesley Moore".to_owned(),

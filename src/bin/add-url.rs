@@ -8,24 +8,26 @@ extern crate read_rust;
 extern crate reqwest;
 extern crate rss;
 extern crate serde_json;
+extern crate url;
 extern crate uuid;
 
+use std::env;
 use std::io::BufReader;
 use std::path::Path;
-use std::env;
 
-use reqwest::{RedirectPolicy, StatusCode, Url};
 use reqwest::header::{ContentType, Location};
+use reqwest::{RedirectPolicy, StatusCode};
 
-use read_rust::feed::*;
 use read_rust::error::Error;
+use read_rust::feed::*;
 
-use uuid::Uuid;
-use kuchiki::traits::TendrilSink;
-use chrono::{DateTime, FixedOffset, TimeZone};
-use getopts::Options;
-use feedfinder::FeedType;
 use atom_syndication as atom;
+use chrono::{DateTime, FixedOffset, TimeZone};
+use feedfinder::FeedType;
+use getopts::Options;
+use kuchiki::traits::TendrilSink;
+use url::Url;
+use uuid::Uuid;
 
 fn resolve_url(url: Url) -> Result<Url, Error> {
     let client = reqwest::Client::builder()
@@ -216,7 +218,7 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
             .map(PostInfo::from),
         Feed::Json(ref feed) => feed.items
             .iter()
-            .find(|item| item.url == post_url.as_str() || item.url == alternate_url.as_str())
+            .find(|item| &item.url == post_url || item.url == alternate_url)
             .map(PostInfo::from),
         Feed::Rss(ref feed) => feed.items()
             .iter()
@@ -283,7 +285,12 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
     })
 }
 
-fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
+fn run(url_to_add: &str, tags: Vec<String>, tweet_url: Option<String>) -> Result<(), Error> {
+    let tweet_url = match tweet_url.map(|ref url| Url::parse(url)) {
+        Some(Ok(url)) => Some(url),
+        Some(Err(err)) => return Err(err.into()),
+        None => None,
+    };
     let feed_path = Path::new("content/_data/rust/posts.json");
     let mut feed = JsonFeed::load(feed_path)?;
 
@@ -298,7 +305,8 @@ fn run(url_to_add: &str, tags: Vec<String>) -> Result<(), Error> {
     let item = Item {
         id: Uuid::new_v4(),
         title: post_info.title.expect("post is missing title"),
-        url: canonical_url.to_string(),
+        url: canonical_url,
+        tweet_url: tweet_url,
         content_text: post_info.description.expect("post is missing description"),
         date_published: post_info
             .published_at
@@ -323,6 +331,7 @@ fn main() {
 
     let mut opts = Options::new();
     opts.optmulti("t", "tag", "tag this post with the supplied tag", "TAG");
+    opts.optopt("w", "tweet", "tweet associated with this post", "TWEET_URL");
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
@@ -333,5 +342,9 @@ fn main() {
         return;
     }
 
-    run(&matches.free[0], matches.opt_strs("t")).expect("error");
+    run(
+        &matches.free[0],
+        matches.opt_strs("t"),
+        matches.opt_str("w"),
+    ).expect("error");
 }

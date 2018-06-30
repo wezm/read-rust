@@ -1,6 +1,6 @@
+use std::collections::HashSet;
 use std::fs::File;
 use std::path::Path;
-use std::collections::HashSet;
 
 use serde_json;
 use uuid::Uuid;
