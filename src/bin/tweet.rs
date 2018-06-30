@@ -143,6 +143,10 @@ fn tweet_text_from_item(item: &Item, categories: &Categories) -> String {
 
 fn tweet_id_from_url(url: &Url) -> Option<u64> {
     // https://twitter.com/llogiq/status/1012438300781576192
+    if url.domain() != Some("twitter.com") {
+        return None;
+    }
+
     let segments = url.path_segments().map(|iter| iter.collect::<Vec<_>>())?;
     match segments.as_slice() {
         [_, "status", id] => id.parse().ok(),
@@ -242,3 +246,24 @@ fn main() {
         matches.opt_present("n"),
     ).expect("error");
 }
+
+#[test]
+fn test_tweet_id_from_valid_url() {
+    assert_eq!(tweet_id_from_url(&"https://twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), Some(1012438300781576192));
+}
+
+#[test]
+fn test_tweet_id_from_invalid_url() {
+    assert_eq!(tweet_id_from_url(&"https://not_twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), None);
+}
+
+#[test]
+fn test_tweet_id_from_non_status_url() {
+    assert_eq!(tweet_id_from_url(&"https://twitter.com/rustlang/".parse().unwrap()), None);
+}
+
+#[test]
+fn test_tweet_id_from_almost_valid_url() {
+    assert_eq!(tweet_id_from_url(&"https://mobile.twitter.com/shaneOsbourne/status/1012451814338424832/photo/2".parse().unwrap()), None);
+}
+
