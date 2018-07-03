@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "7d6ed3b9-1295-4331-879f-514cbff7e5ba",
+      "title": "Our Vision for wasm-bindgen",
+      "content_text": "The last blog post laid out the Rust and WebAssembly domain working group’s overall vision for Rust and WebAssembly. In this blog post, we will dive into the details of wasm-bindgen, the future we envision for it, and how you can help us build that future.",
+      "url": "https://rustwasm.github.io/2018/07/02/vision-for-wasm-bindgen.html",
+      "date_published": "2018-07-02T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c700cc05-51d7-4599-b545-37f4db96f347",
+      "title": "Fullstack React: Rust, React and WebAssembly",
+      "content_text": "A tutorial on how to compile Rust to WebAssembly and integrate it into a React application",
+      "url": "https://www.fullstackreact.com/articles/rust-react-and-web-assembly/",
+      "date_published": "2018-07-03T00:00:00+00:00",
+      "author": {
+        "name": "Anders Pitman",
+        "url": "http://anderspitman.net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fc0e0a2b-6cec-420d-803c-2ac8770fc9e8",
+      "title": "Introducing PrrrStack",
+      "content_text": "This is the first part in a two-part introductory series to PRRR Stack (Postgres, Rust, Rocket, React) application.",
+      "url": "https://medium.com/@ccrsh/introducing-prrrstack-d617ff518ba6",
+      "date_published": "2018-07-02T13:09:58.154+00:00",
+      "author": {
+        "name": "Crash Springfield",
+        "url": "https://medium.com/@ccrsh"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "9497ed78-6b59-4dd0-b1f8-725ca3c628d2",
       "title": "Programming Servo: an HTTP cache",
       "content_text": "In our previous post, we saw how combining channels with an event-loop could be a useful technique to ‘drive’ the concurrent logic of your system, and it was hinted at that shared mutable state might be more complicated. A good example of such ‘shared mutable state’ in Servo is the HTTP cache.",

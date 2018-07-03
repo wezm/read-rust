@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f12f8561-c983-40b4-a7b4-9da8b350b33d",
+      "title": "Idioms of Dynamic Languages",
+      "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",
+      "url": "http://willcrichton.net/notes/idioms-of-dynamic-languages/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3b171674-7223-48e4-95da-5f268ec6fa1f",
       "title": "llvm-tools: a new rustup component for binary inspection and profiling",
       "content_text": "Recent nightly releases provide an opt-in llvm-tools rustup component which you can install using the command: rustup component add llvm-tools. This component contains the following LLVM tools: llvm-nm, llvm-objcopy, llvm-objdump, llvm-profdata, and llvm-size. Most of these tools are LLVM alternatives to GNU binutils. The main advantage of these LLVM tools is that they support all the architectures that the Rust compiler supports.",

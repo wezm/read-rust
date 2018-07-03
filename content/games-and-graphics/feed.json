@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3b8f7264-75f2-4483-bb45-16770a899291",
+      "title": "Scripting Language Cleanup",
+      "content_text": "When we built the original Monsters and Sprites demo, we only had 9 days to get it working before the Playcrafting expo we had signed up for, so we had to cut a lot of corners. Since then I’ve been doing bug fixes and working on a lot of miscellaneous engine/language features that I either couldn’t get done in time for the demo, or didn’t realize were important until I started building it. We’ve made a few game updates since then (we now have sound!), but this post is specifically going to explore some language updates I’ve made.",
+      "url": "https://www.anthropicstudios.com/2018/06/30/language-cleanup/",
+      "date_published": "2018-06-30T00:00:00+00:00",
+      "author": {
+        "name": "Mason Remaley",
+        "url": "https://www.anthropicstudios.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "13dc5703-c3a5-4c10-b3a5-aa53c382c940",
       "title": "NES Emulator, Part 2: I sort of know what I’m doing",
       "content_text": "In my first post about my journey to the center of the NES, I was at the point where I was still working on the CPU; implementing new addressing modes and instructions as I made my way through the nestest ROM. Well, I finally finished the CPU, including a handful of the illegal opcodes. The last of the illegal opcodes just need some placeholders, because, as I understand it, very few games use them.",

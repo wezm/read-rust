@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "504568b7-fb85-4ed5-b94d-1c96333d2c64",
+      "title": "Moving from the shell to Rust with commandspec",
+      "content_text": "Almost every project I’ve worked on has grown a shell script named “build.sh”, and not much later a “test.sh” and “run.sh”. At this point, you have to make a decision as a developer whether your goal is to accidentally reinvent make or if your codebase’s needs are better met by an executable to manage your workflow.",
+      "url": "http://timryan.org/2018/07/02/moving-from-the-shell-to-rust-with-commandspec.html",
+      "date_published": "2018-07-02T15:50:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "09393d03-bb17-4f1e-8d5a-5dc8338ff513",
       "title": "Nannou open source creative coding framework",
       "content_text": "Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.",

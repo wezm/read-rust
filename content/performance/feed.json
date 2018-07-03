@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "98469a08-b569-403f-a3ed-6049ff91c0b1",
+      "title": "Learning SIMD with Rust by finding planets",
+      "content_text": "Rust 1.27.0 has brought SIMD (Single Instruction Multiple Data), also known as vectorization, to stable Rust. If you read the announcement, you will see that SIMD should bring performance enhancements to our applications if we learn how to use it properly. But, for that let's first dive into how SIMD works.",
+      "url": "https://medium.com/@Razican/learning-simd-with-rust-by-finding-planets-b85ccfb724c3",
+      "date_published": "2018-07-02T20:47:57.225+00:00",
+      "author": {
+        "name": "Iban Eguia",
+        "url": "https://medium.com/@Razican"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "495d9d83-2572-43cb-8f9d-c5c404ab83fe",
       "title": "Optimising path tracing: the last 10%",
       "content_text": "In my last post on optimising my Rust path tracer with SIMD I had got withing 10% of my performance target, that is Aras’s C++ SSE4.1 path tracer. From profiling I had determined that the main differences were MSVC using SSE versions of sinf and cosf and differences between Rayon and enkiTS thread pools. The first thing I tried was implement an SSE2 version of sin_cos based off of Julien Pommier’s code that I found via a bit of googling. This was enough to get my SSE4.1 implementation to match the performance of Aras’s SSE4.1 code. I had a slight advantage in that I just call sin_cos as a single function versus separate sin and cos functions, but meh, I’m calling my performance target reached.\n\nThe other part of this post is about Rust’s runtime and compile time CPU feature detection and some wrong turns I took along the way.",

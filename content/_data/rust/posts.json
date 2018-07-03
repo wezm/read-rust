@@ -10,6 +10,138 @@
   },
   "items": [
     {
+      "id": "f12f8561-c983-40b4-a7b4-9da8b350b33d",
+      "title": "Idioms of Dynamic Languages",
+      "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",
+      "url": "http://willcrichton.net/notes/idioms-of-dynamic-languages/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Will Crichton",
+        "url": "http://willcrichton.net/notes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3b8f7264-75f2-4483-bb45-16770a899291",
+      "title": "Scripting Language Cleanup",
+      "content_text": "When we built the original Monsters and Sprites demo, we only had 9 days to get it working before the Playcrafting expo we had signed up for, so we had to cut a lot of corners. Since then I’ve been doing bug fixes and working on a lot of miscellaneous engine/language features that I either couldn’t get done in time for the demo, or didn’t realize were important until I started building it. We’ve made a few game updates since then (we now have sound!), but this post is specifically going to explore some language updates I’ve made.",
+      "url": "https://www.anthropicstudios.com/2018/06/30/language-cleanup/",
+      "tweet_url": "https://twitter.com/AnthropicSt/status/1013202971998539776",
+      "date_published": "2018-06-30T00:00:00+00:00",
+      "author": {
+        "name": "Mason Remaley",
+        "url": "https://www.anthropicstudios.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "04445b84-5c91-467e-840c-45df1765c4e6",
+      "title": "[1807.00067] Josephine: Using JavaScript to safely manage the lifetimes of Rust data",
+      "content_text": "This paper is about the interface between languages which use a garbage collector and those which use fancy types for safe manual memory management. Garbage collection is the traditional memory management scheme for functional languages, whereas type systems are now used for memory safety in imperative languages. We use existing techniques for linear capabilities to provide safe access to copyable references, but the application to languages with a tracing garbage collector, and to data with explicit lifetimes is new. This work is related to mixed linear/non-linear programming, but the languages being mixed are Rust and JavaScript.",
+      "url": "https://arxiv.org/abs/1807.00067",
+      "tweet_url": "https://twitter.com/asajeffrey/status/1013986739126521857",
+      "date_published": "2018-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Alan Jeffrey",
+        "url": "http://asaj.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "98469a08-b569-403f-a3ed-6049ff91c0b1",
+      "title": "Learning SIMD with Rust by finding planets",
+      "content_text": "Rust 1.27.0 has brought SIMD (Single Instruction Multiple Data), also known as vectorization, to stable Rust. If you read the announcement, you will see that SIMD should bring performance enhancements to our applications if we learn how to use it properly. But, for that let's first dive into how SIMD works.",
+      "url": "https://medium.com/@Razican/learning-simd-with-rust-by-finding-planets-b85ccfb724c3",
+      "tweet_url": "https://twitter.com/Razican/status/1013887291574669317",
+      "date_published": "2018-07-02T20:47:57.225+00:00",
+      "author": {
+        "name": "Iban Eguia",
+        "url": "https://medium.com/@Razican"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "7d6ed3b9-1295-4331-879f-514cbff7e5ba",
+      "title": "Our Vision for wasm-bindgen",
+      "content_text": "The last blog post laid out the Rust and WebAssembly domain working group’s overall vision for Rust and WebAssembly. In this blog post, we will dive into the details of wasm-bindgen, the future we envision for it, and how you can help us build that future.",
+      "url": "https://rustwasm.github.io/2018/07/02/vision-for-wasm-bindgen.html",
+      "tweet_url": "https://twitter.com/rustwasm/status/1013832647104069633",
+      "date_published": "2018-07-02T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "504568b7-fb85-4ed5-b94d-1c96333d2c64",
+      "title": "Moving from the shell to Rust with commandspec",
+      "content_text": "Almost every project I’ve worked on has grown a shell script named “build.sh”, and not much later a “test.sh” and “run.sh”. At this point, you have to make a decision as a developer whether your goal is to accidentally reinvent make or if your codebase’s needs are better met by an executable to manage your workflow.",
+      "url": "http://timryan.org/2018/07/02/moving-from-the-shell-to-rust-with-commandspec.html",
+      "tweet_url": "https://twitter.com/trimryan/status/1013856769792270336",
+      "date_published": "2018-07-02T15:50:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c700cc05-51d7-4599-b545-37f4db96f347",
+      "title": "Fullstack React: Rust, React and WebAssembly",
+      "content_text": "A tutorial on how to compile Rust to WebAssembly and integrate it into a React application",
+      "url": "https://www.fullstackreact.com/articles/rust-react-and-web-assembly/",
+      "date_published": "2018-07-03T00:00:00+00:00",
+      "author": {
+        "name": "Anders Pitman",
+        "url": "http://anderspitman.net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fc0e0a2b-6cec-420d-803c-2ac8770fc9e8",
+      "title": "Introducing PrrrStack",
+      "content_text": "This is the first part in a two-part introductory series to PRRR Stack (Postgres, Rust, Rocket, React) application.",
+      "url": "https://medium.com/@ccrsh/introducing-prrrstack-d617ff518ba6",
+      "date_published": "2018-07-02T13:09:58.154+00:00",
+      "author": {
+        "name": "Crash Springfield",
+        "url": "https://medium.com/@ccrsh"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b63f8372-7dbc-4bf5-9ab3-e13a95a011be",
+      "title": "Logistic Regression in Rust",
+      "content_text": "This weekend, I implemented logistic regression in Rust. For me, the most interesting parts were learning how to implement a stopping condition and how to automatically set a step size.",
+      "url": "http://paulkernfeld.com/2018/07/01/logistic-regression-in-rust.html",
+      "tweet_url": "https://twitter.com/occupy_paul_st/status/1013848861813694465",
+      "date_published": "2018-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "http://paulkernfeld.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "3b9229a6-90a7-48f7-983f-c2eb1117115e",
       "title": "Nebulet: More answers",
       "content_text": "Over the last couple of weeks, Nebulet has progressed signifigantly. Because of that, I think it’s time to talk about why I made certain decisions when designing and writing Nebulet.",

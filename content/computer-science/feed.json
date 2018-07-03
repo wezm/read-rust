@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "04445b84-5c91-467e-840c-45df1765c4e6",
+      "title": "[1807.00067] Josephine: Using JavaScript to safely manage the lifetimes of Rust data",
+      "content_text": "This paper is about the interface between languages which use a garbage collector and those which use fancy types for safe manual memory management. Garbage collection is the traditional memory management scheme for functional languages, whereas type systems are now used for memory safety in imperative languages. We use existing techniques for linear capabilities to provide safe access to copyable references, but the application to languages with a tracing garbage collector, and to data with explicit lifetimes is new. This work is related to mixed linear/non-linear programming, but the languages being mixed are Rust and JavaScript.",
+      "url": "https://arxiv.org/abs/1807.00067",
+      "date_published": "2018-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Alan Jeffrey",
+        "url": "http://asaj.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "b63f8372-7dbc-4bf5-9ab3-e13a95a011be",
+      "title": "Logistic Regression in Rust",
+      "content_text": "This weekend, I implemented logistic regression in Rust. For me, the most interesting parts were learning how to implement a stopping condition and how to automatically set a step size.",
+      "url": "http://paulkernfeld.com/2018/07/01/logistic-regression-in-rust.html",
+      "date_published": "2018-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "http://paulkernfeld.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "6c71975e-3550-410a-99e7-2ee9635fb0e6",
       "title": "Generic associated types in iterators",
       "content_text": "In this article, I want to explain the term Generic Associated Types through a concrete example. I noticed that people (especially in video games development) need some tools to iterate in various manners mutably, efficiently and safely. I tried to write some convenient iterators over vectors and slices that solve those problems, but finally, I understood that some tools cannot be written with std::iter::Iterator. Doing so led me to the comprehension of generic associated types that I will abbreviate as GATs in this article. I will explain here what GATs are and why they are needed.",
