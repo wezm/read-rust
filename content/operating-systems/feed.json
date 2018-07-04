@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "87ea8aa4-a134-4f8a-8ff2-fc33f4832020",
+      "title": "RSoC: FAT32 Filesystem in Redox - 2",
+      "content_text": "This is the second blog post about implementing a FAT32 filesystem in Redox.",
+      "url": "https://www.redox-os.org/news/rsoc-fat32-2/",
+      "date_published": "2018-07-03T00:00:00+00:00",
+      "author": {
+        "name": "Deepak Sirone",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "3b9229a6-90a7-48f7-983f-c2eb1117115e",
       "title": "Nebulet: More answers",
       "content_text": "Over the last couple of weeks, Nebulet has progressed signifigantly. Because of that, I think it’s time to talk about why I made certain decisions when designing and writing Nebulet.",

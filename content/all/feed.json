@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "87ea8aa4-a134-4f8a-8ff2-fc33f4832020",
+      "title": "RSoC: FAT32 Filesystem in Redox - 2",
+      "content_text": "This is the second blog post about implementing a FAT32 filesystem in Redox.",
+      "url": "https://www.redox-os.org/news/rsoc-fat32-2/",
+      "date_published": "2018-07-03T00:00:00+00:00",
+      "author": {
+        "name": "Deepak Sirone",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "bef012dd-518b-4a24-9acd-d0d68b3bead3",
+      "title": "Embedded development with Yocto and Rust",
+      "content_text": "Customized Linux distribution and a safe systems programming language sounds like a very interesting combination for embedded development. That is what makes Yocto and Rust such a good match. So, I wanted to see how Rust projects could be cross-compiled with Yocto-generated toolchain and root filesystem. The steps are described in this post.",
+      "url": "https://pagefault.blog/2018/07/04/embedded-development-with-yocto-and-rust/",
+      "date_published": "2018-07-04T17:06:32+00:00",
+      "author": {
+        "name": "Sami Pietikäinen",
+        "url": "https://pagefault.blog/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "1b9d4f29-d237-4f3d-bc55-23b9ab2c5d77",
+      "title": "Why Rust?",
+      "content_text": "Programming is hard. Not because our hardware is complex, but simply because we’re all humans. Our attention span is limited, our memory is volatile — in other words, we tend to make mistakes.",
+      "url": "https://medium.com/paritytech/why-rust-846fd3320d3f",
+      "date_published": "2018-07-04T07:43:11.858+00:00",
+      "author": {
+        "name": "Dmitriy Kashitsyn",
+        "url": "https://medium.com/@0x7cfe"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5489d43b-5cbb-4f2b-964e-1aacba277cd6",
+      "title": "Let's code with the Roguelike tutorial - Part 2 - Entities and the map",
+      "content_text": "As I mentioned in the last post, until I got a better handle on the off screen console code, I temporarily made all the Rust bindings call out to the default root console. Now that there's a bit of discussion on how the off screen consoles work, it's time to refactor the code to enable their use. ",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part2-entities-map.html",
+      "date_published": "2018-07-04T07:53:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "f12f8561-c983-40b4-a7b4-9da8b350b33d",
       "title": "Idioms of Dynamic Languages",
       "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",

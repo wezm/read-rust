@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5489d43b-5cbb-4f2b-964e-1aacba277cd6",
+      "title": "Let's code with the Roguelike tutorial - Part 2 - Entities and the map",
+      "content_text": "As I mentioned in the last post, until I got a better handle on the off screen console code, I temporarily made all the Rust bindings call out to the default root console. Now that there's a bit of discussion on how the off screen consoles work, it's time to refactor the code to enable their use. ",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part2-entities-map.html",
+      "date_published": "2018-07-04T07:53:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3b8f7264-75f2-4483-bb45-16770a899291",
       "title": "Scripting Language Cleanup",
       "content_text": "When we built the original Monsters and Sprites demo, we only had 9 days to get it working before the Playcrafting expo we had signed up for, so we had to cut a lot of corners. Since then I’ve been doing bug fixes and working on a lot of miscellaneous engine/language features that I either couldn’t get done in time for the demo, or didn’t realize were important until I started building it. We’ve made a few game updates since then (we now have sound!), but this post is specifically going to explore some language updates I’ve made.",

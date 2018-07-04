@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1b9d4f29-d237-4f3d-bc55-23b9ab2c5d77",
+      "title": "Why Rust?",
+      "content_text": "Programming is hard. Not because our hardware is complex, but simply because we’re all humans. Our attention span is limited, our memory is volatile — in other words, we tend to make mistakes.",
+      "url": "https://medium.com/paritytech/why-rust-846fd3320d3f",
+      "date_published": "2018-07-04T07:43:11.858+00:00",
+      "author": {
+        "name": "Dmitriy Kashitsyn",
+        "url": "https://medium.com/@0x7cfe"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f12f8561-c983-40b4-a7b4-9da8b350b33d",
       "title": "Idioms of Dynamic Languages",
       "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",
