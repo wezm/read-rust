@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "306a1044-e3e5-4a20-b4df-6577fa6eadf5",
+      "title": "Tiny Planets",
+      "content_text": "In the past few years, I've heard a lot about Rust. As someone that hacks on computer graphics and low-level infrastructure libraries, it seems relevant to my interests. I decided to make a small demo – of a procedural planet generator – and see how it went.",
+      "url": "http://www.mattkeeter.com/projects/planets/",
+      "date_published": "2018-07-05T02:45:00+00:00",
+      "author": {
+        "name": "Matt Keeter",
+        "url": "http://www.mattkeeter.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5489d43b-5cbb-4f2b-964e-1aacba277cd6",
       "title": "Let's code with the Roguelike tutorial - Part 2 - Entities and the map",
       "content_text": "As I mentioned in the last post, until I got a better handle on the off screen console code, I temporarily made all the Rust bindings call out to the default root console. Now that there's a bit of discussion on how the off screen consoles work, it's time to refactor the code to enable their use. ",

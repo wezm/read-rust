@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "d52613f9-60c7-4448-89ed-72cd3da79346",
+      "title": "Why I love Rust",
+      "content_text": "I spent much of my free time over the past year learning Rust, and while it’s been a difficult language to fully grasp (it’s still a work in progress), I find it incredibly rewarding to write in. I also have had many conversations with people who don’t know much about Rust and are curious about the problems it solves.\n\nThis is my take on why Rust is important, and why I have fallen in love with the language.",
+      "url": "https://alexkitchens.net/2018/07/06/why-i-love-rust.html",
+      "date_published": "2018-07-06T08:46:39+00:00",
+      "author": {
+        "name": "Alex Kitchens",
+        "url": "https://alexkitchens.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ca7cc808-b6f7-4650-a219-b2c92be95460",
+      "title": "Rust: Raw string literals",
+      "content_text": "While working with Rust, you will often come across r#\"something like this\"#, especially when working with JSON and TOML files. It defines a raw string literal. When would you use a raw string literal and what makes a valid raw string literal?",
+      "url": "https://medium.com/@rahulthakoor/rust-raw-string-literals-9579c4feb231",
+      "date_published": "2018-07-05T13:26:49.039+00:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://medium.com/@rahulthakoor"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "54242603-6ea7-4c99-8826-bbda3f8f63db",
+      "title": "Surface Rust: The Missing IDE",
+      "content_text": "This week I decided to do a little hacking on Rust. I thought I’d write down my first impressions of the language.",
+      "url": "https://medium.com/@wolfshirts/surface-rust-6470d0075721",
+      "date_published": "2018-07-04T21:45:48.367+00:00",
+      "author": {
+        "name": "@wolfshirts",
+        "url": "https://medium.com/@wolfshirts"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b2fbac94-27b1-4c37-8c21-ead67edecf43",
+      "title": "The Tale of a Bug in Arc: Synchronization and Data Races",
+      "content_text": "While I was busy doing Rust-unrelated research, RustBelt continues to move and recently found another bug (after a missing impl !Sync that we found previously): It turns out that Arc::get_mut did not perform sufficient synchronization, leading to a data race.",
+      "url": "https://www.ralfj.de/blog/2018/07/13/arc-synchronization.html",
+      "date_published": "2018-07-13T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1b9d4f29-d237-4f3d-bc55-23b9ab2c5d77",
       "title": "Why Rust?",
       "content_text": "Programming is hard. Not because our hardware is complex, but simply because we’re all humans. Our attention span is limited, our memory is volatile — in other words, we tend to make mistakes.",
@@ -28,7 +84,7 @@
       "title": "Idioms of Dynamic Languages",
       "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",
       "url": "http://willcrichton.net/notes/idioms-of-dynamic-languages/",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-07-01T00:00:00+00:00",
       "author": {
         "name": "Will Crichton",
         "url": "http://willcrichton.net/notes/"
@@ -42,7 +98,7 @@
       "title": "llvm-tools: a new rustup component for binary inspection and profiling",
       "content_text": "Recent nightly releases provide an opt-in llvm-tools rustup component which you can install using the command: rustup component add llvm-tools. This component contains the following LLVM tools: llvm-nm, llvm-objcopy, llvm-objdump, llvm-profdata, and llvm-size. Most of these tools are LLVM alternatives to GNU binutils. The main advantage of these LLVM tools is that they support all the architectures that the Rust compiler supports.",
       "url": "https://internals.rust-lang.org/t/llvm-tools-a-new-rustup-component-for-binary-inspection-objdump-nm-size-and-profiling-profdata/7830",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-06-29T11:22:00+00:00",
       "author": {
         "name": "Jorge Aparicio",
         "url": "http://blog.japaric.io/"

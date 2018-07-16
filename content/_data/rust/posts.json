@@ -10,6 +10,108 @@
   },
   "items": [
     {
+      "id": "a16772c9-e5d4-4e73-8bec-934d8ae183c5",
+      "title": "A web application completely in Rust",
+      "content_text": "My latest software architectural experiment is to write a complete real-world web application in Rust with as less as boilerplate as possible. Within this post I want to share my findings with you to answer the question on how much web Rust actually is.",
+      "url": "https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471",
+      "tweet_url": "https://twitter.com/saschagrunert/status/1015687904981667840",
+      "date_published": "2018-07-07T19:58:43.445+00:00",
+      "author": {
+        "name": "Sascha Grunert",
+        "url": "https://medium.com/@saschagrunert"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d52613f9-60c7-4448-89ed-72cd3da79346",
+      "title": "Why I love Rust",
+      "content_text": "I spent much of my free time over the past year learning Rust, and while it’s been a difficult language to fully grasp (it’s still a work in progress), I find it incredibly rewarding to write in. I also have had many conversations with people who don’t know much about Rust and are curious about the problems it solves.\n\nThis is my take on why Rust is important, and why I have fallen in love with the language.",
+      "url": "https://alexkitchens.net/2018/07/06/why-i-love-rust.html",
+      "tweet_url": "https://twitter.com/alexcameron89/status/1015323435822731265",
+      "date_published": "2018-07-06T08:46:39+00:00",
+      "author": {
+        "name": "Alex Kitchens",
+        "url": "https://alexkitchens.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "306a1044-e3e5-4a20-b4df-6577fa6eadf5",
+      "title": "Tiny Planets",
+      "content_text": "In the past few years, I've heard a lot about Rust. As someone that hacks on computer graphics and low-level infrastructure libraries, it seems relevant to my interests. I decided to make a small demo – of a procedural planet generator – and see how it went.",
+      "url": "http://www.mattkeeter.com/projects/planets/",
+      "tweet_url": "https://twitter.com/impraxical/status/1014550780379062277",
+      "date_published": "2018-07-05T02:45:00+00:00",
+      "author": {
+        "name": "Matt Keeter",
+        "url": "http://www.mattkeeter.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ca7cc808-b6f7-4650-a219-b2c92be95460",
+      "title": "Rust: Raw string literals",
+      "content_text": "While working with Rust, you will often come across r#\"something like this\"#, especially when working with JSON and TOML files. It defines a raw string literal. When would you use a raw string literal and what makes a valid raw string literal?",
+      "url": "https://medium.com/@rahulthakoor/rust-raw-string-literals-9579c4feb231",
+      "tweet_url": "https://twitter.com/rahulthakoor/status/1014865759846191104",
+      "date_published": "2018-07-05T13:26:49.039+00:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://medium.com/@rahulthakoor"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "54242603-6ea7-4c99-8826-bbda3f8f63db",
+      "title": "Surface Rust: The Missing IDE",
+      "content_text": "This week I decided to do a little hacking on Rust. I thought I’d write down my first impressions of the language.",
+      "url": "https://medium.com/@wolfshirts/surface-rust-6470d0075721",
+      "date_published": "2018-07-04T21:45:48.367+00:00",
+      "author": {
+        "name": "@wolfshirts",
+        "url": "https://medium.com/@wolfshirts"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "133f5906-759e-4a83-b188-fc18eda31cc0",
+      "title": "BetaFPV F3 Drone Flight Controller - Hello Rust",
+      "content_text": "One of the most exciting areas of hobbyist embedded programming, in my opinion, is flight controllers for remote controlled aircraft. In the particular case of a multi-rotor drone, the flight controller is responsible for converting the UP command from the transmitter into specific outputs for each of the motors. Maintaining the stability of a drone involves carefully adjusting the output of each motor thousands of times per second based on feedback from on-board sensors.\n\nThere are several great C-based open source drone flight controller firmware projects, but as far as I can see there are none written in Rust. The good news is that most drone flight controllers are based on STM32 MCUs, which Rust has strong support for. Robust flight controller firmware is quite complex, and there are a number of challenges to be solved before even getting the rotors spinning. The first of those challenges is building a Rust project for a particular flight controller board, and flashing the board with the compiled code. A single blinking LED is our goal for today.",
+      "url": "https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/",
+      "date_published": "2018-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "b2fbac94-27b1-4c37-8c21-ead67edecf43",
+      "title": "The Tale of a Bug in Arc: Synchronization and Data Races",
+      "content_text": "While I was busy doing Rust-unrelated research, RustBelt continues to move and recently found another bug (after a missing impl !Sync that we found previously): It turns out that Arc::get_mut did not perform sufficient synchronization, leading to a data race.",
+      "url": "https://www.ralfj.de/blog/2018/07/13/arc-synchronization.html",
+      "date_published": "2018-07-13T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "87ea8aa4-a134-4f8a-8ff2-fc33f4832020",
       "title": "RSoC: FAT32 Filesystem in Redox - 2",
       "content_text": "This is the second blog post about implementing a FAT32 filesystem in Redox.",
@@ -58,8 +160,7 @@
       "content_text": "As I mentioned in the last post, until I got a better handle on the off screen console code, I temporarily made all the Rust bindings call out to the default root console. Now that there's a bit of discussion on how the off screen consoles work, it's time to refactor the code to enable their use. ",
       "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part2-entities-map.html",
       "tweet_url": "https://twitter.com/yosenspace/status/1014265807600168960",
-      "date_published": "2018-07-04T07:53:00+00:00"
-      ,
+      "date_published": "2018-07-04T07:53:00+00:00",
       "author": {
         "name": "Yosen",
         "url": "https://www.yosenspace.com/index.html"
@@ -73,7 +174,7 @@
       "title": "Idioms of Dynamic Languages",
       "content_text": "Programmers think dynamic languages like Python are easier to use than static ones, but why? I look at uniquely dynamic programming idioms and their static alternatives, identifying a few broad trends that impact language usability.",
       "url": "http://willcrichton.net/notes/idioms-of-dynamic-languages/",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-07-01T00:00:00+00:00",
       "author": {
         "name": "Will Crichton",
         "url": "http://willcrichton.net/notes/"
@@ -220,7 +321,7 @@
       "content_text": "Recent nightly releases provide an opt-in llvm-tools rustup component which you can install using the command: rustup component add llvm-tools. This component contains the following LLVM tools: llvm-nm, llvm-objcopy, llvm-objdump, llvm-profdata, and llvm-size. Most of these tools are LLVM alternatives to GNU binutils. The main advantage of these LLVM tools is that they support all the architectures that the Rust compiler supports.",
       "url": "https://internals.rust-lang.org/t/llvm-tools-a-new-rustup-component-for-binary-inspection-objdump-nm-size-and-profiling-profdata/7830",
       "tweet_url": "https://twitter.com/japaricious/status/1012507579401072640",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-06-29T11:22:00+00:00",
       "author": {
         "name": "Jorge Aparicio",
         "url": "http://blog.japaric.io/"

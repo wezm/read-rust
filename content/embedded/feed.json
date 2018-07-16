@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "133f5906-759e-4a83-b188-fc18eda31cc0",
+      "title": "BetaFPV F3 Drone Flight Controller - Hello Rust",
+      "content_text": "One of the most exciting areas of hobbyist embedded programming, in my opinion, is flight controllers for remote controlled aircraft. In the particular case of a multi-rotor drone, the flight controller is responsible for converting the UP command from the transmitter into specific outputs for each of the motors. Maintaining the stability of a drone involves carefully adjusting the output of each motor thousands of times per second based on feedback from on-board sensors.\n\nThere are several great C-based open source drone flight controller firmware projects, but as far as I can see there are none written in Rust. The good news is that most drone flight controllers are based on STM32 MCUs, which Rust has strong support for. Robust flight controller firmware is quite complex, and there are a number of challenges to be solved before even getting the rotors spinning. The first of those challenges is building a Rust project for a particular flight controller board, and flashing the board with the compiled code. A single blinking LED is our goal for today.",
+      "url": "https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-hello-rust/",
+      "date_published": "2018-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "bef012dd-518b-4a24-9acd-d0d68b3bead3",
       "title": "Embedded development with Yocto and Rust",
       "content_text": "Customized Linux distribution and a safe systems programming language sounds like a very interesting combination for embedded development. That is what makes Yocto and Rust such a good match. So, I wanted to see how Rust projects could be cross-compiled with Yocto-generated toolchain and root filesystem. The steps are described in this post.",

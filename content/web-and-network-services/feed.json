@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a16772c9-e5d4-4e73-8bec-934d8ae183c5",
+      "title": "A web application completely in Rust",
+      "content_text": "My latest software architectural experiment is to write a complete real-world web application in Rust with as less as boilerplate as possible. Within this post I want to share my findings with you to answer the question on how much web Rust actually is.",
+      "url": "https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471",
+      "date_published": "2018-07-07T19:58:43.445+00:00",
+      "author": {
+        "name": "Sascha Grunert",
+        "url": "https://medium.com/@saschagrunert"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "7d6ed3b9-1295-4331-879f-514cbff7e5ba",
       "title": "Our Vision for wasm-bindgen",
       "content_text": "The last blog post laid out the Rust and WebAssembly domain working group’s overall vision for Rust and WebAssembly. In this blog post, we will dive into the details of wasm-bindgen, the future we envision for it, and how you can help us build that future.",
