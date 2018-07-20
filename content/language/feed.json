@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "80a9211d-dd65-4da8-b8d6-5d4223ee278d",
+      "title": "Auditing popular Rust crates: how a one-line unsafe has nearly ruined everything",
+      "content_text": "Following the actix-web incident (which is fixed now, at least mostly) I decided to poke other popular Rust libraries and see what comes of it.\n\nThe good news is I’ve poked at 6 popular crates now, and I’ve got not a single actually exploitable vulnerability. I am impressed. When I poked popular C libraries a few years ago it quickly ended in tears. The bad news is I’ve found one instance that was not a security vulnerability by sheer luck, plus a whole slew of denial-of-service bugs. And I can’t fix all of them by myself. Read on to find out how I did it, and how you can help!",
+      "url": "https://medium.com/@shnatsel/auditing-popular-rust-crates-how-a-one-line-unsafe-has-nearly-ruined-everything-fab2d837ebb1",
+      "date_published": "2018-07-19T01:38:11.806+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a81b111b-b3d6-4515-81bc-00d00bf62fb9",
+      "title": "How to help test the 2018 edition",
+      "content_text": "An edition brings together the features that have landed into a clear package, with fully updated documentation and tooling. By the end of the year we are planning to release the 2018 edition, our first since the Rust 1.0 release. You can currently opt-in to a preview of the 2018 edition to try it out and help test it.\n\nIn fact, we really need help testing it out! Once you’ve turned it on and seen its wonderful new features, what then? Here we’ve got some specific things we’d like you to test.",
+      "url": "https://www.ncameron.org/blog/how-to-help-test-the-2018-edition/",
+      "date_published": "2018-07-18T03:08:04+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fbdc0364-12e8-49f4-914f-b3c4f17d43f0",
+      "title": "Hello Content-o-Tron",
+      "content_text": "Content-o-Tron is a project to help amplify the lesser heard voices in the Rust community.\n\nWe are able to do this by providing editorial assistance and technical reviews of draft blog posts.\n\nOnce your blog post is ready to publish, we will ensure it is disseminated through various channels such as Read Rust, MozHacks, social networks and of course the Rust Community’s own blog on community.rs.",
+      "url": "http://blog.community.rs/content-team/2018/07/16/hello-content-o-tron.html",
+      "date_published": "2018-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Mark Sta Ana",
+        "url": "http://blog.community.rs/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d52613f9-60c7-4448-89ed-72cd3da79346",
       "title": "Why I love Rust",
       "content_text": "I spent much of my free time over the past year learning Rust, and while it’s been a difficult language to fully grasp (it’s still a work in progress), I find it incredibly rewarding to write in. I also have had many conversations with people who don’t know much about Rust and are curious about the problems it solves.\n\nThis is my take on why Rust is important, and why I have fallen in love with the language.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "34fa3257-4ea8-4ade-8cad-353aa02239d3",
+      "title": "Physical Computing With Rust On Raspberry Pi",
+      "content_text": "A couple of months ago I released the rust_gpiozero¹ crate. It is a port of the GPIO Zero² library by the Raspberry Pi Foundation. The library provides a simple interface to control GPIO devices with a Raspberry Pi. Following this, recently ported the Raspberry Pi Foundation’s Physical Computing with Python³ guide for Rust.",
+      "url": "https://medium.com/@rahulthakoor/physical-computing-with-rust-on-raspberry-pi-a7b6f34261a6",
+      "date_published": "2018-07-12T14:52:13.936+00:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://medium.com/@rahulthakoor"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "133f5906-759e-4a83-b188-fc18eda31cc0",
       "title": "BetaFPV F3 Drone Flight Controller - Hello Rust",
       "content_text": "One of the most exciting areas of hobbyist embedded programming, in my opinion, is flight controllers for remote controlled aircraft. In the particular case of a multi-rotor drone, the flight controller is responsible for converting the UP command from the transmitter into specific outputs for each of the motors. Maintaining the stability of a drone involves carefully adjusting the output of each motor thousands of times per second based on feedback from on-board sensors.\n\nThere are several great C-based open source drone flight controller firmware projects, but as far as I can see there are none written in Rust. The good news is that most drone flight controllers are based on STM32 MCUs, which Rust has strong support for. Robust flight controller firmware is quite complex, and there are a number of challenges to be solved before even getting the rotors spinning. The first of those challenges is building a Rust project for a particular flight controller board, and flashing the board with the compiled code. A single blinking LED is our goal for today.",

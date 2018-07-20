@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "289bc607-7039-4931-838e-0451ee67e488",
+      "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 2",
+      "content_text": "Hello, and welcome to part two of my series on writing a GPU-accelerated path tracer in Rust. I’d meant to have this post up sooner, but nothing ruins my productivity quite like Games Done Quick. I’m back now, though, so it’s time to turn the GPU ray-tracer from the last post into a real path tracer.\n\nTracing Paths As mentioned last time, Path Tracing is an extension to Ray Tracing which attempts to simulate global illumination.",
+      "url": "https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-2/",
+      "date_published": "2018-07-12T19:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "34fa3257-4ea8-4ade-8cad-353aa02239d3",
+      "title": "Physical Computing With Rust On Raspberry Pi",
+      "content_text": "A couple of months ago I released the rust_gpiozero¹ crate. It is a port of the GPIO Zero² library by the Raspberry Pi Foundation. The library provides a simple interface to control GPIO devices with a Raspberry Pi. Following this, recently ported the Raspberry Pi Foundation’s Physical Computing with Python³ guide for Rust.",
+      "url": "https://medium.com/@rahulthakoor/physical-computing-with-rust-on-raspberry-pi-a7b6f34261a6",
+      "date_published": "2018-07-12T14:52:13.936+00:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://medium.com/@rahulthakoor"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "80a9211d-dd65-4da8-b8d6-5d4223ee278d",
+      "title": "Auditing popular Rust crates: how a one-line unsafe has nearly ruined everything",
+      "content_text": "Following the actix-web incident (which is fixed now, at least mostly) I decided to poke other popular Rust libraries and see what comes of it.\n\nThe good news is I’ve poked at 6 popular crates now, and I’ve got not a single actually exploitable vulnerability. I am impressed. When I poked popular C libraries a few years ago it quickly ended in tears. The bad news is I’ve found one instance that was not a security vulnerability by sheer luck, plus a whole slew of denial-of-service bugs. And I can’t fix all of them by myself. Read on to find out how I did it, and how you can help!",
+      "url": "https://medium.com/@shnatsel/auditing-popular-rust-crates-how-a-one-line-unsafe-has-nearly-ruined-everything-fab2d837ebb1",
+      "date_published": "2018-07-19T01:38:11.806+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a81b111b-b3d6-4515-81bc-00d00bf62fb9",
+      "title": "How to help test the 2018 edition",
+      "content_text": "An edition brings together the features that have landed into a clear package, with fully updated documentation and tooling. By the end of the year we are planning to release the 2018 edition, our first since the Rust 1.0 release. You can currently opt-in to a preview of the 2018 edition to try it out and help test it.\n\nIn fact, we really need help testing it out! Once you’ve turned it on and seen its wonderful new features, what then? Here we’ve got some specific things we’d like you to test.",
+      "url": "https://www.ncameron.org/blog/how-to-help-test-the-2018-edition/",
+      "date_published": "2018-07-18T03:08:04+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fbdc0364-12e8-49f4-914f-b3c4f17d43f0",
+      "title": "Hello Content-o-Tron",
+      "content_text": "Content-o-Tron is a project to help amplify the lesser heard voices in the Rust community.\n\nWe are able to do this by providing editorial assistance and technical reviews of draft blog posts.\n\nOnce your blog post is ready to publish, we will ensure it is disseminated through various channels such as Read Rust, MozHacks, social networks and of course the Rust Community’s own blog on community.rs.",
+      "url": "http://blog.community.rs/content-team/2018/07/16/hello-content-o-tron.html",
+      "date_published": "2018-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Mark Sta Ana",
+        "url": "http://blog.community.rs/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a16772c9-e5d4-4e73-8bec-934d8ae183c5",
       "title": "A web application completely in Rust",
       "content_text": "My latest software architectural experiment is to write a complete real-world web application in Rust with as less as boilerplate as possible. Within this post I want to share my findings with you to answer the question on how much web Rust actually is.",
