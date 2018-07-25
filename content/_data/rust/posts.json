@@ -10,6 +10,95 @@
   },
   "items": [
     {
+      "id": "40055859-95cc-47a0-89e3-fd3c8a000fba",
+      "title": "Rust vs. Go",
+      "content_text": "Welcome to the Rust Review’s bonus post, which I had promised from the very beginning. I’m here to cover the big elephant in the room: Rust vs. Go. Which one is better?\n\nThere is no good answer to this question because this comparison is unfounded. I think people tend to bundle the two languages together because they were released at about the same time and the release of Rust felt like a response to the release of Go. Moreover, both languages are supposed to focus on systems software. But they are vastly different, and even as they both target systems software, they target different kinds of such software.",
+      "url": "http://julio.meroh.net/2018/07/rust-vs-go.html",
+      "tweet_url": "https://twitter.com/jmmv/status/1017786170376359936",
+      "date_published": "2018-07-13T10:45:00+02:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0b53c7ea-570b-4595-b8eb-2f62d8e9cb96",
+      "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 3",
+      "content_text": "Hello! Welcome to my third and final post on my GPU-accelerated Path Tracer in Rust. In the last post, we implemented all of the logic necessary to build a true path tracer. Problem is, even on the GPU it’s terrifically slow. This post is (mostly) about fixing that.\n\nBut first, we need to fix a bug or two, because I goofed. *sad trombone*\n\nStep -1: Fixing Bugs /u/anderslanglands on Reddit pointed out that, since I’m using Cosine-weighted Importance Sampling, I need to do some extra math to avoid biasing the results.",
+      "url": "https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-3/",
+      "date_published": "2018-07-19T18:30:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "f4903839-c307-4209-b760-15176676663f",
+      "title": "#[test] in 2018",
+      "content_text": "Lately, I’ve been working implementing the Custom Test Frameworks eRFC for Rust. While exploring the compiler codebase, I’ve learned about the internals of testing in Rust and figured it would be interesting to share.",
+      "url": "https://blog.jrenner.net/rust/testing/2018/07/19/test-in-2018.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "John Renner",
+        "url": "https://blog.jrenner.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2d302e67-f458-4d07-b1f4-78cb9ed02914",
+      "title": "Announcing Rust 1.27.2",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.27.2.",
+      "url": "https://blog.rust-lang.org/2018/07/20/Rust-1.27.2.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1020617073783918593",
+      "date_published": "2018-07-20T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "db3cdc15-004b-4a41-9649-6ade4a8407eb",
+      "title": "RustSec Advisory Database",
+      "content_text": "Security advisory database for Rust crates published through https://crates.io.",
+      "url": "https://rustsec.org/",
+      "tweet_url": "https://twitter.com/RustSec/status/1020717022819233792",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Rust Project Developers",
+        "url": "https://rustsec.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "2a8864ba-0872-45d2-89f4-87e9f368374b",
+      "title": "Futures 0.3.0-alpha.1",
+      "content_text": "Welcome to the inaugural post of the new futures-rs blog!\n\nAfter several months of work, we’re happy to announce an alpha release of the new edition of future-rs, version 0.3. The immediate goal of this work is to support async/await notation (with borrowing) in Rust itself, which has entailed significant changes to the futures crate.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/07/19/futures-0.3.0-alpha.1.html",
+      "tweet_url": "https://twitter.com/aaron_turon/status/1020160894829977600",
+      "date_published": "2018-07-19T17:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Language",
+        "Crates"
+      ]
+    },
+    {
       "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
       "title": "Signal Hook: Unix signal hanadling in Rust",
       "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",

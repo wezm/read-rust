@@ -11,5 +11,6 @@
   { "name": "Performance", "hashtag": "performance", "path": "/performance/", "description": "Optimisation, benchmarks, etc." },
   { "name": "Rust 2018", "hashtag": "Rust2018", "path": "/rust-2018/", "description": "Hopes and dreams for Rust in 2018." },
   { "name": "Tools and Applications", "hashtag": "tools", "path": "/tools-and-applications/", "description": "Command line tools and GUI applications." },
+  { "name": "Security", "hashtag": "security", "path": "/security/", "description": "Security, cryptography, etc." },
   { "name": "Web and Network Services", "hashtag": "web", "path": "/web-and-network-services/", "description": "Web applications, web assembly, network daemons, etc." }
 ]

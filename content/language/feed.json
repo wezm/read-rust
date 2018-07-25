@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "40055859-95cc-47a0-89e3-fd3c8a000fba",
+      "title": "Rust vs. Go",
+      "content_text": "Welcome to the Rust Review’s bonus post, which I had promised from the very beginning. I’m here to cover the big elephant in the room: Rust vs. Go. Which one is better?\n\nThere is no good answer to this question because this comparison is unfounded. I think people tend to bundle the two languages together because they were released at about the same time and the release of Rust felt like a response to the release of Go. Moreover, both languages are supposed to focus on systems software. But they are vastly different, and even as they both target systems software, they target different kinds of such software.",
+      "url": "http://julio.meroh.net/2018/07/rust-vs-go.html",
+      "date_published": "2018-07-13T10:45:00+02:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/series.html#Rust%20review"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f4903839-c307-4209-b760-15176676663f",
+      "title": "#[test] in 2018",
+      "content_text": "Lately, I’ve been working implementing the Custom Test Frameworks eRFC for Rust. While exploring the compiler codebase, I’ve learned about the internals of testing in Rust and figured it would be interesting to share.",
+      "url": "https://blog.jrenner.net/rust/testing/2018/07/19/test-in-2018.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "John Renner",
+        "url": "https://blog.jrenner.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2d302e67-f458-4d07-b1f4-78cb9ed02914",
+      "title": "Announcing Rust 1.27.2",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.27.2.",
+      "url": "https://blog.rust-lang.org/2018/07/20/Rust-1.27.2.html",
+      "date_published": "2018-07-20T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2a8864ba-0872-45d2-89f4-87e9f368374b",
+      "title": "Futures 0.3.0-alpha.1",
+      "content_text": "Welcome to the inaugural post of the new futures-rs blog!\n\nAfter several months of work, we’re happy to announce an alpha release of the new edition of future-rs, version 0.3. The immediate goal of this work is to support async/await notation (with borrowing) in Rust itself, which has entailed significant changes to the futures crate.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/07/19/futures-0.3.0-alpha.1.html",
+      "date_published": "2018-07-19T17:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Language",
+        "Crates"
+      ]
+    },
+    {
       "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
       "title": "Signal Hook: Unix signal hanadling in Rust",
       "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",

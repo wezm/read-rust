@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "2a8864ba-0872-45d2-89f4-87e9f368374b",
+      "title": "Futures 0.3.0-alpha.1",
+      "content_text": "Welcome to the inaugural post of the new futures-rs blog!\n\nAfter several months of work, we’re happy to announce an alpha release of the new edition of future-rs, version 0.3. The immediate goal of this work is to support async/await notation (with borrowing) in Rust itself, which has entailed significant changes to the futures crate.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/07/19/futures-0.3.0-alpha.1.html",
+      "date_published": "2018-07-19T17:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Language",
+        "Crates"
+      ]
+    },
+    {
       "id": "9c9c6dda-6538-4088-8123-e1ad213082e5",
       "title": "What I Learned: Porting Dateutil Parser to Rust",
       "content_text": "Hi. I’m Bradlee. I’ve mostly been a lurker in Rust for a while, making a couple small contributions here and there. So launching dtparse feels like nice step towards becoming a functioning member of society. But not too much, because then you know people start asking you to pay bills, and ain’t nobody got time for that.\n\nBut I built dtparse, and you can read about my thoughts on the process. Or don’t. I won’t tell you what to do with your life (but you should totally keep reading).",

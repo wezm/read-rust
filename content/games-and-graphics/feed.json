@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0b53c7ea-570b-4595-b8eb-2f62d8e9cb96",
+      "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 3",
+      "content_text": "Hello! Welcome to my third and final post on my GPU-accelerated Path Tracer in Rust. In the last post, we implemented all of the logic necessary to build a true path tracer. Problem is, even on the GPU it’s terrifically slow. This post is (mostly) about fixing that.\n\nBut first, we need to fix a bug or two, because I goofed. *sad trombone*\n\nStep -1: Fixing Bugs /u/anderslanglands on Reddit pointed out that, since I’m using Cosine-weighted Importance Sampling, I need to do some extra math to avoid biasing the results.",
+      "url": "https://bheisler.github.io/post/writing-gpu-accelerated-path-tracer-part-3/",
+      "date_published": "2018-07-19T18:30:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "289bc607-7039-4931-838e-0451ee67e488",
       "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 2",
       "content_text": "Hello, and welcome to part two of my series on writing a GPU-accelerated path tracer in Rust. I’d meant to have this post up sooner, but nothing ruins my productivity quite like Games Done Quick. I’m back now, though, so it’s time to turn the GPU ray-tracer from the last post into a real path tracer.\n\nTracing Paths As mentioned last time, Path Tracing is an extension to Ray Tracing which attempts to simulate global illumination.",

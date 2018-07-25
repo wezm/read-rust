@@ -1,0 +1,27 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Security",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/security/feed.json",
+  "description": "Security posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "db3cdc15-004b-4a41-9649-6ade4a8407eb",
+      "title": "RustSec Advisory Database",
+      "content_text": "Security advisory database for Rust crates published through https://crates.io.",
+      "url": "https://rustsec.org/",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Rust Project Developers",
+        "url": "https://rustsec.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    }
+  ]
+}
