@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
+      "title": "Signal Hook: Unix signal hanadling in Rust",
+      "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",
+      "url": "https://vorner.github.io/2018/06/28/signal-hook.html",
+      "date_published": "2018-06-28T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "87ea8aa4-a134-4f8a-8ff2-fc33f4832020",
       "title": "RSoC: FAT32 Filesystem in Redox - 2",
       "content_text": "This is the second blog post about implementing a FAT32 filesystem in Redox.",

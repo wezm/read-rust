@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ab3d6484-4107-4555-a9b0-0f1aa6ae9a18",
+      "title": "How Usable are Rust Cryptography APIs?",
+      "content_text": "Poor usability of cryptographic APIs is a severe source of vulnerabilities. Aim: We wanted to find out what kind of cryptographic libraries are present in Rust and how usable they are. Method: We explored Rust's cryptographic libraries through a systematic search, conducted an exploratory study on the major libraries and a controlled experiment on two of these libraries with 28 student participants. Results: Only half of the major libraries explicitly focus on usability and misuse resistance, which is reflected in their current APIs. We found that participants were more successful using rust-crypto which we considered less usable than ring before the experiment. Conclusion: We discuss API design insights and make recommendations for the design of crypto libraries in Rust regarding the detail and structure of the documentation, higher-level APIs as wrappers for the existing low-level libraries, and selected, good-quality example code to improve the emerging cryptographic libraries of Rust.",
+      "url": "https://arxiv.org/abs/1806.04929",
+      "date_published": "2018-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Kai Mindermann, Philipp Keck, Stefan Wagner",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "16b43079-6e0d-4c7e-9ea3-00cf0405bf49",
+      "title": "Genetic Algorithms in Rust for Autonomous Agents: An Introduction",
+      "content_text": "This article discusses a possible genetic algorithm implementation in Rust applied to the travelling salesman problem.",
+      "url": "https://medium.com/coinmonks/genetic-algorithms-in-rust-for-autonomous-agents-an-introduction-ac182de32aee",
+      "date_published": "2018-06-30T14:09:48.725+00:00",
+      "author": {
+        "name": "Mithi",
+        "url": "https://medium.com/@mithi"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "04445b84-5c91-467e-840c-45df1765c4e6",
       "title": "[1807.00067] Josephine: Using JavaScript to safely manage the lifetimes of Rust data",
       "content_text": "This paper is about the interface between languages which use a garbage collector and those which use fancy types for safe manual memory management. Garbage collection is the traditional memory management scheme for functional languages, whereas type systems are now used for memory safety in imperative languages. We use existing techniques for linear capabilities to provide safe access to copyable references, but the application to languages with a tracing garbage collector, and to data with explicit lifetimes is new. This work is related to mixed linear/non-linear programming, but the languages being mixed are Rust and JavaScript.",

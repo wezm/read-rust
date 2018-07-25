@@ -10,6 +10,91 @@
   },
   "items": [
     {
+      "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
+      "title": "Signal Hook: Unix signal hanadling in Rust",
+      "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",
+      "url": "https://vorner.github.io/2018/06/28/signal-hook.html",
+      "date_published": "2018-06-28T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "861a1228-9bbd-4d34-b08d-40b191f19abd",
+      "title": "The Return of: Can Rust speed up your Azure Functions?",
+      "content_text": "A couple of weeks back I started using WASM on Azure’s FaaS (serverless/Functions as a Services) and unexpectedly the Rust version of my simple Monte Carlo estimation was considerably slower than its JavaScript counterpart. Clearly this needs more exploring! This time around the challenges will be harder and more practical. Let’s see how WASM and JavaScript perform.",
+      "url": "https://blog.x5ff.xyz/blog/azure-functions-wasm-rust-2/",
+      "date_published": "2018-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "863992ef-fc2b-4235-a8bd-206d55fd416f",
+      "title": "actix – a basic TCP client",
+      "content_text": "In our last post about actix we introduced you to the Rust programming language and the actix actor framework. This week we will build a basic TCP client with actix.",
+      "url": "https://simplabs.com/blog/2018/06/27/actix-tcp-client.html",
+      "date_published": "2018-06-27T00:00:00+00:00",
+      "author": {
+        "name": "Tobias Bieniek",
+        "url": "https://simplabs.com/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ab3d6484-4107-4555-a9b0-0f1aa6ae9a18",
+      "title": "How Usable are Rust Cryptography APIs?",
+      "content_text": "Poor usability of cryptographic APIs is a severe source of vulnerabilities. Aim: We wanted to find out what kind of cryptographic libraries are present in Rust and how usable they are. Method: We explored Rust's cryptographic libraries through a systematic search, conducted an exploratory study on the major libraries and a controlled experiment on two of these libraries with 28 student participants. Results: Only half of the major libraries explicitly focus on usability and misuse resistance, which is reflected in their current APIs. We found that participants were more successful using rust-crypto which we considered less usable than ring before the experiment. Conclusion: We discuss API design insights and make recommendations for the design of crypto libraries in Rust regarding the detail and structure of the documentation, higher-level APIs as wrappers for the existing low-level libraries, and selected, good-quality example code to improve the emerging cryptographic libraries of Rust.",
+      "url": "https://arxiv.org/abs/1806.04929",
+      "date_published": "2018-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Kai Mindermann, Philipp Keck, Stefan Wagner",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "75ff979d-19df-4238-9064-d02708b64a00",
+      "title": "Rust Pointers for C Programmers",
+      "content_text": "I knew that there are a lot of different “pointers” but I found all the descriptions of them lacking or confusing. Specifically, Rust calls itself a systems programming language, yet I found no clear description of how the different pointers map to C—the systems programming language. Eventually, I stumbled across The Periodic Table of Rust Types, which made things a bit clearer, but I still didn’t feel like I truly understood.\n\nDuring my weekend expedition to Rust land, I think I’ve grokked things enough to write this explanation of how Rust does things. As always, feedback is welcomed.",
+      "url": "http://blahg.josefsipek.net/?p=580",
+      "date_published": "2018-01-28T15:47:00+00:00",
+      "author": {
+        "name": "Josef “Jeff” Sipek",
+        "url": "http://blahg.josefsipek.net"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "16b43079-6e0d-4c7e-9ea3-00cf0405bf49",
+      "title": "Genetic Algorithms in Rust for Autonomous Agents: An Introduction",
+      "content_text": "This article discusses a possible genetic algorithm implementation in Rust applied to the travelling salesman problem.",
+      "url": "https://medium.com/coinmonks/genetic-algorithms-in-rust-for-autonomous-agents-an-introduction-ac182de32aee",
+      "date_published": "2018-06-30T14:09:48.725+00:00",
+      "author": {
+        "name": "Mithi",
+        "url": "https://medium.com/@mithi"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "289bc607-7039-4931-838e-0451ee67e488",
       "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 2",
       "content_text": "Hello, and welcome to part two of my series on writing a GPU-accelerated path tracer in Rust. I’d meant to have this post up sooner, but nothing ruins my productivity quite like Games Done Quick. I’m back now, though, so it’s time to turn the GPU ray-tracer from the last post into a real path tracer.\n\nTracing Paths As mentioned last time, Path Tracing is an extension to Ray Tracing which attempts to simulate global illumination.",

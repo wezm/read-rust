@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
+      "title": "Signal Hook: Unix signal hanadling in Rust",
+      "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",
+      "url": "https://vorner.github.io/2018/06/28/signal-hook.html",
+      "date_published": "2018-06-28T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "75ff979d-19df-4238-9064-d02708b64a00",
+      "title": "Rust Pointers for C Programmers",
+      "content_text": "I knew that there are a lot of different “pointers” but I found all the descriptions of them lacking or confusing. Specifically, Rust calls itself a systems programming language, yet I found no clear description of how the different pointers map to C—the systems programming language. Eventually, I stumbled across The Periodic Table of Rust Types, which made things a bit clearer, but I still didn’t feel like I truly understood.\n\nDuring my weekend expedition to Rust land, I think I’ve grokked things enough to write this explanation of how Rust does things. As always, feedback is welcomed.",
+      "url": "http://blahg.josefsipek.net/?p=580",
+      "date_published": "2018-01-28T15:47:00+00:00",
+      "author": {
+        "name": "Josef “Jeff” Sipek",
+        "url": "http://blahg.josefsipek.net"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "80a9211d-dd65-4da8-b8d6-5d4223ee278d",
       "title": "Auditing popular Rust crates: how a one-line unsafe has nearly ruined everything",
       "content_text": "Following the actix-web incident (which is fixed now, at least mostly) I decided to poke other popular Rust libraries and see what comes of it.\n\nThe good news is I’ve poked at 6 popular crates now, and I’ve got not a single actually exploitable vulnerability. I am impressed. When I poked popular C libraries a few years ago it quickly ended in tears. The bad news is I’ve found one instance that was not a security vulnerability by sheer luck, plus a whole slew of denial-of-service bugs. And I can’t fix all of them by myself. Read on to find out how I did it, and how you can help!",

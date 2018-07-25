@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "861a1228-9bbd-4d34-b08d-40b191f19abd",
+      "title": "The Return of: Can Rust speed up your Azure Functions?",
+      "content_text": "A couple of weeks back I started using WASM on Azure’s FaaS (serverless/Functions as a Services) and unexpectedly the Rust version of my simple Monte Carlo estimation was considerably slower than its JavaScript counterpart. Clearly this needs more exploring! This time around the challenges will be harder and more practical. Let’s see how WASM and JavaScript perform.",
+      "url": "https://blog.x5ff.xyz/blog/azure-functions-wasm-rust-2/",
+      "date_published": "2018-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "863992ef-fc2b-4235-a8bd-206d55fd416f",
+      "title": "actix – a basic TCP client",
+      "content_text": "In our last post about actix we introduced you to the Rust programming language and the actix actor framework. This week we will build a basic TCP client with actix.",
+      "url": "https://simplabs.com/blog/2018/06/27/actix-tcp-client.html",
+      "date_published": "2018-06-27T00:00:00+00:00",
+      "author": {
+        "name": "Tobias Bieniek",
+        "url": "https://simplabs.com/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a16772c9-e5d4-4e73-8bec-934d8ae183c5",
       "title": "A web application completely in Rust",
       "content_text": "My latest software architectural experiment is to write a complete real-world web application in Rust with as less as boilerplate as possible. Within this post I want to share my findings with you to answer the question on how much web Rust actually is.",
