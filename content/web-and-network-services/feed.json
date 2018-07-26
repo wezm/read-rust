@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a95c25cb-0553-42ee-a81a-4a9cedce53e8",
+      "title": "Rust + actix-web power Atlas Weekend music festival",
+      "content_text": "We've just finished music festival Atlas Weekend which took place in Kyiv, Ukraine. This year there were for about 450,000 visitors during 6 days. I'm glad to announce that Rust and actix-web are used as a backend for main technical purposes of festival.",
+      "url": "https://www.reddit.com/r/rust/comments/8xdsx5/rust_actixweb_in_the_on_of_the_biggest_music/",
+      "date_published": "2018-07-10T03:16:52+10:00",
+      "author": {
+        "name": "/u/maxfrai",
+        "url": "https://www.reddit.com/user/maxfrai"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "861a1228-9bbd-4d34-b08d-40b191f19abd",
       "title": "The Return of: Can Rust speed up your Azure Functions?",
       "content_text": "A couple of weeks back I started using WASM on Azure’s FaaS (serverless/Functions as a Services) and unexpectedly the Rust version of my simple Monte Carlo estimation was considerably slower than its JavaScript counterpart. Clearly this needs more exploring! This time around the challenges will be harder and more practical. Let’s see how WASM and JavaScript perform.",

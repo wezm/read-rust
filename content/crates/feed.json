@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e5caa9df-4d3f-46be-a8ce-79369f0cad32",
+      "title": "Wayland-rs 0.21: Pure Rust implementation",
+      "content_text": "wayland-rs is a set of crates providing generic APIs to manipulate the Wayland protocol, successor of X11 for linux windowing.\n\nHere I am finally, after having hinted at the possibility and finally taken the time to write and merge quite an epic pull request, I can finally say it: wayland-rs is now a pure rust implementation of the protocol, rather than a crate of bindings to the wayland system C libraries.",
+      "url": "https://smithay.github.io/wayland-rs-v-0-21.html",
+      "date_published": "2018-07-18T22:00:00+02:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2a8864ba-0872-45d2-89f4-87e9f368374b",
       "title": "Futures 0.3.0-alpha.1",
       "content_text": "Welcome to the inaugural post of the new futures-rs blog!\n\nAfter several months of work, we’re happy to announce an alpha release of the new edition of future-rs, version 0.3. The immediate goal of this work is to support async/await notation (with borrowing) in Rust itself, which has entailed significant changes to the futures crate.",

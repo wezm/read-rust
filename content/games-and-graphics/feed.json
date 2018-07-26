@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5579acfe-3441-4097-9476-863e348858f5",
+      "title": "The Cheddar shading language",
+      "content_text": "Cheddar is a GLSL superset language. What it means is that most of the GLSL constructs and syntax you’re used to is valid in Cheddar – not all of it; most of it. Cheddar adds a set of features that I think are lacking to GLSL. Among them: Some non-valid GLSL constructions made valid in Cheddar to ease the writing of certain shader stages; A more functional approach to programming shaders on the GPU; Structures, types and GLSL-specific constructs sharing; Imports and modules with live reloading and transitive dependencies.",
+      "url": "https://phaazon.net/blog/cheddar-0.1",
+      "date_published": "2018-07-09T01:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0b53c7ea-570b-4595-b8eb-2f62d8e9cb96",
       "title": "Writing a GPU-Accelerated Path Tracer in Rust - Part 3",
       "content_text": "Hello! Welcome to my third and final post on my GPU-accelerated Path Tracer in Rust. In the last post, we implemented all of the logic necessary to build a true path tracer. Problem is, even on the GPU it’s terrifically slow. This post is (mostly) about fixing that.\n\nBut first, we need to fix a bug or two, because I goofed. *sad trombone*\n\nStep -1: Fixing Bugs /u/anderslanglands on Reddit pointed out that, since I’m using Cosine-weighted Importance Sampling, I need to do some extra math to avoid biasing the results.",

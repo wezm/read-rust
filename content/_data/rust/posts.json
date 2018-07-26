@@ -10,6 +10,92 @@
   },
   "items": [
     {
+      "id": "e5caa9df-4d3f-46be-a8ce-79369f0cad32",
+      "title": "Wayland-rs 0.21: Pure Rust implementation",
+      "content_text": "wayland-rs is a set of crates providing generic APIs to manipulate the Wayland protocol, successor of X11 for linux windowing.\n\nHere I am finally, after having hinted at the possibility and finally taken the time to write and merge quite an epic pull request, I can finally say it: wayland-rs is now a pure rust implementation of the protocol, rather than a crate of bindings to the wayland system C libraries.",
+      "url": "https://smithay.github.io/wayland-rs-v-0-21.html",
+      "date_published": "2018-07-18T22:00:00+02:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5579acfe-3441-4097-9476-863e348858f5",
+      "title": "The Cheddar shading language",
+      "content_text": "Cheddar is a GLSL superset language. What it means is that most of the GLSL constructs and syntax you’re used to is valid in Cheddar – not all of it; most of it. Cheddar adds a set of features that I think are lacking to GLSL. Among them: Some non-valid GLSL constructions made valid in Cheddar to ease the writing of certain shader stages; A more functional approach to programming shaders on the GPU; Structures, types and GLSL-specific constructs sharing; Imports and modules with live reloading and transitive dependencies.",
+      "url": "https://phaazon.net/blog/cheddar-0.1",
+      "date_published": "2018-07-09T01:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "a95c25cb-0553-42ee-a81a-4a9cedce53e8",
+      "title": "Rust + actix-web power Atlas Weekend music festival",
+      "content_text": "We've just finished music festival Atlas Weekend which took place in Kyiv, Ukraine. This year there were for about 450,000 visitors during 6 days. I'm glad to announce that Rust and actix-web are used as a backend for main technical purposes of festival.",
+      "url": "https://www.reddit.com/r/rust/comments/8xdsx5/rust_actixweb_in_the_on_of_the_biggest_music/",
+      "date_published": "2018-07-10T03:16:52+10:00"
+      ,
+      "author": {
+        "name": "/u/maxfrai",
+        "url": "https://www.reddit.com/user/maxfrai"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fbdcd657-aab5-4d28-aa3a-ab04294f49eb",
+      "title": "Multi target Rust builds with auto deployment in Travis-CI",
+      "content_text": "This is just a small build script to automatically compile and create Rust binaries for your i86 32 and 64 bit machine and your Raspberry Pi(ARM) with Travis-CI. On the right side I added a little explanation of the following script.",
+      "url": "https://medium.com/@tyrf/multi-target-rust-builds-with-auto-deployment-in-travis-ci-ab5214fb73ba",
+      "date_published": "2018-07-13T18:44:17.418+00:00",
+      "author": {
+        "name": "Hendrik Teuber",
+        "url": "https://medium.com/@tyrf"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "b4133437-b69d-4491-a40f-a368a8847627",
+      "title": "Pointers Are Complicated, or: What's in a Byte?",
+      "content_text": "This summer, I am again working on Rust full-time, and again I will work (amongst other things) on a “memory model” for Rust/MIR. However, before I can talk about the ideas I have for this year, I have to finally take the time and dispel the myth that “pointers are simple: they are just integers”. Both parts of this statement are false, at least in languages with unsafe features like Rust or C: Pointers are neither simple nor (just) integers.\n\nI also want to define a piece of the memory model that has to be fixed before we can even talk about some of the more complex parts: Just what is the data that is stored in memory? It is organized in bytes, the minimal addressable unit and the smallest piece that can be accessed (at least on most platforms), but what are the possible values of a byte? Again, it turns out “it’s just an 8-bit integer” does not actually work as the answer.\n\nI hope that by the end of this post, you will agree with me on both of these statements. :)",
+      "url": "https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html",
+      "date_published": "2018-07-24T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7e963a31-6451-4f7d-9817-1e8c33c4973d",
+      "title": "Thoughts on Compile-Time Function Evaluation and Type Systems",
+      "content_text": "For some time now (since the 1.26 release, to be precise), Rust has a very powerful machinery for CTFE, or compile-time function evaluation. Since then, there have been various discussions about which operations should be allowed during CTFE, which checks the compiler should do, how this all relates to promotion and which kinds of guarantees we should be able to expect around CTFE. This post is my take on those topics, and it should not be surprising that I am going to take a very type-system centric view. Expect something like a structured brain dump, so there are some unanswered questions towards the end as well.",
+      "url": "https://www.ralfj.de/blog/2018/07/19/const.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "40055859-95cc-47a0-89e3-fd3c8a000fba",
       "title": "Rust vs. Go",
       "content_text": "Welcome to the Rust Review’s bonus post, which I had promised from the very beginning. I’m here to cover the big elephant in the room: Rust vs. Go. Which one is better?\n\nThere is no good answer to this question because this comparison is unfounded. I think people tend to bundle the two languages together because they were released at about the same time and the release of Rust felt like a response to the release of Go. Moreover, both languages are supposed to focus on systems software. But they are vastly different, and even as they both target systems software, they target different kinds of such software.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b4133437-b69d-4491-a40f-a368a8847627",
+      "title": "Pointers Are Complicated, or: What's in a Byte?",
+      "content_text": "This summer, I am again working on Rust full-time, and again I will work (amongst other things) on a “memory model” for Rust/MIR. However, before I can talk about the ideas I have for this year, I have to finally take the time and dispel the myth that “pointers are simple: they are just integers”. Both parts of this statement are false, at least in languages with unsafe features like Rust or C: Pointers are neither simple nor (just) integers.\n\nI also want to define a piece of the memory model that has to be fixed before we can even talk about some of the more complex parts: Just what is the data that is stored in memory? It is organized in bytes, the minimal addressable unit and the smallest piece that can be accessed (at least on most platforms), but what are the possible values of a byte? Again, it turns out “it’s just an 8-bit integer” does not actually work as the answer.\n\nI hope that by the end of this post, you will agree with me on both of these statements. :)",
+      "url": "https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html",
+      "date_published": "2018-07-24T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7e963a31-6451-4f7d-9817-1e8c33c4973d",
+      "title": "Thoughts on Compile-Time Function Evaluation and Type Systems",
+      "content_text": "For some time now (since the 1.26 release, to be precise), Rust has a very powerful machinery for CTFE, or compile-time function evaluation. Since then, there have been various discussions about which operations should be allowed during CTFE, which checks the compiler should do, how this all relates to promotion and which kinds of guarantees we should be able to expect around CTFE. This post is my take on those topics, and it should not be surprising that I am going to take a very type-system centric view. Expect something like a structured brain dump, so there are some unanswered questions towards the end as well.",
+      "url": "https://www.ralfj.de/blog/2018/07/19/const.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "40055859-95cc-47a0-89e3-fd3c8a000fba",
       "title": "Rust vs. Go",
       "content_text": "Welcome to the Rust Review’s bonus post, which I had promised from the very beginning. I’m here to cover the big elephant in the room: Rust vs. Go. Which one is better?\n\nThere is no good answer to this question because this comparison is unfounded. I think people tend to bundle the two languages together because they were released at about the same time and the release of Rust felt like a response to the release of Go. Moreover, both languages are supposed to focus on systems software. But they are vastly different, and even as they both target systems software, they target different kinds of such software.",

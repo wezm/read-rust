@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fbdcd657-aab5-4d28-aa3a-ab04294f49eb",
+      "title": "Multi target Rust builds with auto deployment in Travis-CI",
+      "content_text": "This is just a small build script to automatically compile and create Rust binaries for your i86 32 and 64 bit machine and your Raspberry Pi(ARM) with Travis-CI. On the right side I added a little explanation of the following script.",
+      "url": "https://medium.com/@tyrf/multi-target-rust-builds-with-auto-deployment-in-travis-ci-ab5214fb73ba",
+      "date_published": "2018-07-13T18:44:17.418+00:00",
+      "author": {
+        "name": "Hendrik Teuber",
+        "url": "https://medium.com/@tyrf"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Embedded"
+      ]
+    },
+    {
       "id": "f8a137b7-ce7d-4553-bcec-6170350dc1f2",
       "title": "Rust with Rocket + Elm running on Heroku",
       "content_text": "I had this goal of making a web app that was very fast, stable and easy to deploy. This is what I was hoping to accomplish: strongly typed server-side and client-side languages (Rust & Elm respectively), push-button deployments to the cloud with free hosting initially, and sub-second response times for API calls and page loads. With this setup, I think I'm well on my way to accomplishing each of these.",

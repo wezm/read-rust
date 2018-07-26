@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fbdcd657-aab5-4d28-aa3a-ab04294f49eb",
+      "title": "Multi target Rust builds with auto deployment in Travis-CI",
+      "content_text": "This is just a small build script to automatically compile and create Rust binaries for your i86 32 and 64 bit machine and your Raspberry Pi(ARM) with Travis-CI. On the right side I added a little explanation of the following script.",
+      "url": "https://medium.com/@tyrf/multi-target-rust-builds-with-auto-deployment-in-travis-ci-ab5214fb73ba",
+      "date_published": "2018-07-13T18:44:17.418+00:00",
+      "author": {
+        "name": "Hendrik Teuber",
+        "url": "https://medium.com/@tyrf"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Embedded"
+      ]
+    },
+    {
       "id": "34fa3257-4ea8-4ade-8cad-353aa02239d3",
       "title": "Physical Computing With Rust On Raspberry Pi",
       "content_text": "A couple of months ago I released the rust_gpiozero¹ crate. It is a port of the GPIO Zero² library by the Raspberry Pi Foundation. The library provides a simple interface to control GPIO devices with a Raspberry Pi. Following this, recently ported the Raspberry Pi Foundation’s Physical Computing with Python³ guide for Rust.",
