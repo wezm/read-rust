@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a65d9a08-fc44-4976-b2ad-82b934b7961f",
+      "title": "Flocking in Rust with Piston",
+      "content_text": "Wikipedia states that flocking is a behavior exhibited when a group of birds, called a flock, are foraging or in flight. Flocking simulation are basically softwares which simulate this flocking behavior of birds. The original algorithm is developed by Craig Reynolds in 1986.",
+      "url": "https://blog.shine.rocks/posts/flocking-in-rust-with-piston/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Htet Aung Shine",
+        "url": "https://blog.shine.rocks/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5579acfe-3441-4097-9476-863e348858f5",
       "title": "The Cheddar shading language",
       "content_text": "Cheddar is a GLSL superset language. What it means is that most of the GLSL constructs and syntax you’re used to is valid in Cheddar – not all of it; most of it. Cheddar adds a set of features that I think are lacking to GLSL. Among them: Some non-valid GLSL constructions made valid in Cheddar to ease the writing of certain shader stages; A more functional approach to programming shaders on the GPU; Structures, types and GLSL-specific constructs sharing; Imports and modules with live reloading and transitive dependencies.",

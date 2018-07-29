@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "95c003ee-6a87-45cb-abd3-491bd965d65c",
+      "title": "Announcing the js-sys crate!",
+      "content_text": "The js-sys crate contains raw #[wasm_bindgen] bindings to all the global APIs guaranteed to exist in every JavaScript environment by the ECMAScript standard. It does not contain bindings to any Web- or Node-specific APIs. With the js-sys crate, we can work with Objects, Arrays, Functions, Maps, Sets, etc… without writing the #[wasm_bindgen] imports by hand.",
+      "url": "https://rustwasm.github.io/2018/07/26/announcing-the-js-sys-crate.html",
+      "date_published": "2018-07-26T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a95c25cb-0553-42ee-a81a-4a9cedce53e8",
       "title": "Rust + actix-web power Atlas Weekend music festival",
       "content_text": "We've just finished music festival Atlas Weekend which took place in Kyiv, Ukraine. This year there were for about 450,000 visitors during 6 days. I'm glad to announce that Rust and actix-web are used as a backend for main technical purposes of festival.",

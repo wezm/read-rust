@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "f53d06d7-6b22-4cb8-95f1-66f8ae0bdb8f",
+      "title": "Deploying Rust with Docker and Kubernetes",
+      "content_text": "Using a tiny Rust app to demonstrate deploying Rust with Docker and Kubernetes.",
+      "url": "https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes",
+      "date_published": "2018-07-17T21:36:08+00:00",
+      "author": {
+        "name": "Chris Allen",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "a65d9a08-fc44-4976-b2ad-82b934b7961f",
+      "title": "Flocking in Rust with Piston",
+      "content_text": "Wikipedia states that flocking is a behavior exhibited when a group of birds, called a flock, are foraging or in flight. Flocking simulation are basically softwares which simulate this flocking behavior of birds. The original algorithm is developed by Craig Reynolds in 1986.",
+      "url": "https://blog.shine.rocks/posts/flocking-in-rust-with-piston/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Htet Aung Shine",
+        "url": "https://blog.shine.rocks/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "669e3447-5dac-4fe9-a87a-0b315ae3062d",
+      "title": "Where next for the Monotron",
+      "content_text": "It's a couple of months on from my talk at RustFest on Monotron, so I thought it was worth a quick catch up on where we're going next. As a recap, Monotron currently generates an 800 x 600 VGA signal at 60 Hz (with a pixel clock of 40 MHz). It does this using three synchronised SPI peripherals, a timer generating the horizontal-sync pulse and a GPIO pin for the vertical-sync. With the CPU running at a clock speed of 80 MHz, the SPI peripherals are clocked at 20 MHz producing 400 horizontal pixels per line. This is half the nominal 800 pixels, but we needed to sacrifice resolution to double the amount of CPU time we have to 4 clocks per pixel (i.e. 32 clocks per 8-bit character column).",
+      "url": "http://railwayelectronics.blogspot.com/2018/07/where-next-for-monotron.html?m=1",
+      "date_published": "2018-07-24T22:40:00+01:00",
+      "author": {
+        "name": "theJPster",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "2c62015d-b849-4ab6-bbc9-e62255ca3473",
+      "title": "What is Rust 2018?",
+      "content_text": "The release of Rust 1.31.0 on December 6th will be the first release of “Rust 2018.” This marks a culmination of the last three years of Rust’s development, and brings it together in one neat package. For example, there will be a 2018 edition of the book that incorporates features stabilized since the print edition was considered finalized.",
+      "url": "https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html",
+      "date_published": "2018-07-27T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "95c003ee-6a87-45cb-abd3-491bd965d65c",
+      "title": "Announcing the js-sys crate!",
+      "content_text": "The js-sys crate contains raw #[wasm_bindgen] bindings to all the global APIs guaranteed to exist in every JavaScript environment by the ECMAScript standard. It does not contain bindings to any Web- or Node-specific APIs. With the js-sys crate, we can work with Objects, Arrays, Functions, Maps, Sets, etc… without writing the #[wasm_bindgen] imports by hand.",
+      "url": "https://rustwasm.github.io/2018/07/26/announcing-the-js-sys-crate.html",
+      "date_published": "2018-07-26T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d0dc161e-3fcc-4fc7-9032-f9847bf4f3b8",
+      "title": "Version selection in Cargo",
+      "content_text": "When there are multiple ways to resolve dependencies, Cargo generally chooses the newest possible version. The goal of this post is to explain why Cargo works this way, and how that rationale relates to several recent discussions, including:",
+      "url": "http://aturon.github.io/2018/07/25/cargo-version-selection/",
+      "date_published": "2018-07-25T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e5caa9df-4d3f-46be-a8ce-79369f0cad32",
       "title": "Wayland-rs 0.21: Pure Rust implementation",
       "content_text": "wayland-rs is a set of crates providing generic APIs to manipulate the Wayland protocol, successor of X11 for linux windowing.\n\nHere I am finally, after having hinted at the possibility and finally taken the time to write and merge quite an epic pull request, I can finally say it: wayland-rs is now a pure rust implementation of the protocol, rather than a crate of bindings to the wayland system C libraries.",

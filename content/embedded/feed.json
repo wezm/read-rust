@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "669e3447-5dac-4fe9-a87a-0b315ae3062d",
+      "title": "Where next for the Monotron",
+      "content_text": "It's a couple of months on from my talk at RustFest on Monotron, so I thought it was worth a quick catch up on where we're going next. As a recap, Monotron currently generates an 800 x 600 VGA signal at 60 Hz (with a pixel clock of 40 MHz). It does this using three synchronised SPI peripherals, a timer generating the horizontal-sync pulse and a GPIO pin for the vertical-sync. With the CPU running at a clock speed of 80 MHz, the SPI peripherals are clocked at 20 MHz producing 400 horizontal pixels per line. This is half the nominal 800 pixels, but we needed to sacrifice resolution to double the amount of CPU time we have to 4 clocks per pixel (i.e. 32 clocks per 8-bit character column).",
+      "url": "http://railwayelectronics.blogspot.com/2018/07/where-next-for-monotron.html?m=1",
+      "date_published": "2018-07-24T22:40:00+01:00",
+      "author": {
+        "name": "theJPster",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "fbdcd657-aab5-4d28-aa3a-ab04294f49eb",
       "title": "Multi target Rust builds with auto deployment in Travis-CI",
       "content_text": "This is just a small build script to automatically compile and create Rust binaries for your i86 32 and 64 bit machine and your Raspberry Pi(ARM) with Travis-CI. On the right side I added a little explanation of the following script.",

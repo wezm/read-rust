@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f53d06d7-6b22-4cb8-95f1-66f8ae0bdb8f",
+      "title": "Deploying Rust with Docker and Kubernetes",
+      "content_text": "Using a tiny Rust app to demonstrate deploying Rust with Docker and Kubernetes.",
+      "url": "https://www.fpcomplete.com/blog/2018/07/deploying-rust-with-docker-and-kubernetes",
+      "date_published": "2018-07-17T21:36:08+00:00",
+      "author": {
+        "name": "Chris Allen",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "fbdcd657-aab5-4d28-aa3a-ab04294f49eb",
       "title": "Multi target Rust builds with auto deployment in Travis-CI",
       "content_text": "This is just a small build script to automatically compile and create Rust binaries for your i86 32 and 64 bit machine and your Raspberry Pi(ARM) with Travis-CI. On the right side I added a little explanation of the following script.",

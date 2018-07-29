@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2c62015d-b849-4ab6-bbc9-e62255ca3473",
+      "title": "What is Rust 2018?",
+      "content_text": "The release of Rust 1.31.0 on December 6th will be the first release of “Rust 2018.” This marks a culmination of the last three years of Rust’s development, and brings it together in one neat package. For example, there will be a 2018 edition of the book that incorporates features stabilized since the print edition was considered finalized.",
+      "url": "https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html",
+      "date_published": "2018-07-27T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d0dc161e-3fcc-4fc7-9032-f9847bf4f3b8",
+      "title": "Version selection in Cargo",
+      "content_text": "When there are multiple ways to resolve dependencies, Cargo generally chooses the newest possible version. The goal of this post is to explain why Cargo works this way, and how that rationale relates to several recent discussions, including:",
+      "url": "http://aturon.github.io/2018/07/25/cargo-version-selection/",
+      "date_published": "2018-07-25T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "http://aturon.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b4133437-b69d-4491-a40f-a368a8847627",
       "title": "Pointers Are Complicated, or: What's in a Byte?",
       "content_text": "This summer, I am again working on Rust full-time, and again I will work (amongst other things) on a “memory model” for Rust/MIR. However, before I can talk about the ideas I have for this year, I have to finally take the time and dispel the myth that “pointers are simple: they are just integers”. Both parts of this statement are false, at least in languages with unsafe features like Rust or C: Pointers are neither simple nor (just) integers.\n\nI also want to define a piece of the memory model that has to be fixed before we can even talk about some of the more complex parts: Just what is the data that is stored in memory? It is organized in bytes, the minimal addressable unit and the smallest piece that can be accessed (at least on most platforms), but what are the possible values of a byte? Again, it turns out “it’s just an 8-bit integer” does not actually work as the answer.\n\nI hope that by the end of this post, you will agree with me on both of these statements. :)",
