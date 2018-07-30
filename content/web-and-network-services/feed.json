@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a928dd6a-2db7-4366-bd96-74134b4094b8",
+      "title": "How much of npm can you break?",
+      "content_text": "The idea was simple, choose a package and recursively traverse npm to find all of the packages that depend upon it, after all the npm website offers a ‘Dependents’ tab on a package’s page. I had not anticipated the issues that made this an interesting technical problem.",
+      "url": "https://mrandri19.github.io/2018/06/24/how-much-of-npm-will-you-break.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Andrea Cognolato",
+        "url": "https://mrandri19.github.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "95c003ee-6a87-45cb-abd3-491bd965d65c",
       "title": "Announcing the js-sys crate!",
       "content_text": "The js-sys crate contains raw #[wasm_bindgen] bindings to all the global APIs guaranteed to exist in every JavaScript environment by the ECMAScript standard. It does not contain bindings to any Web- or Node-specific APIs. With the js-sys crate, we can work with Objects, Arrays, Functions, Maps, Sets, etc… without writing the #[wasm_bindgen] imports by hand.",

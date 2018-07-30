@@ -10,6 +10,95 @@
   },
   "items": [
     {
+      "id": "e0622344-66a9-4b93-a59f-1b5250ba8c98",
+      "title": "Using C libraries in Rust: make a sys crate",
+      "content_text": "Using C libraries in a portable way involves a bit of work: finding the library on the system or building it if it's not available, checking if it is compatible, finding C headers and converting them to Rust modules, and giving Cargo correct linking instructions. Often every step of this is tricky, because operating systems, package managers and libraries have their unique quirks that need special handling.\n\nFortunately, all this work can be done once in a build script, and published as a <insert library name>-sys Rust crate. This way other Rust programmers will be able to use the C library without having to re-invent the build script themselves.",
+      "url": "https://kornel.ski/rust-sys-crate",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Kornel",
+        "url": "https://kornel.ski/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "a9a551b0-07a6-48a2-944f-b956438fecc0",
+      "title": "How we built a Visual Studio Code extension for IoT prototyping",
+      "content_text": "We recently had the opportunity to make a Visual Studio Code extension that needed to communicate with an embedded device. This post explains the architecture we chose to achieve that and the decisions that led to it.",
+      "url": "https://cultivatehq.com/posts/how-we-built-a-visual-studio-code-extension-for-iot-prototyping/",
+      "tweet_url": "https://twitter.com/cultivatehq/status/1017750271856869377",
+      "date_published": "2018-07-13T22:39:00+00:00",
+      "author": {
+        "name": "Dan Munckton",
+        "url": "https://cultivatehq.com/posts/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "5f84b8db-7379-4c08-9cae-d2a901caaab1",
+      "title": "Linux Container Internals (Part II)",
+      "content_text": "Containers are moving the world. Each passing day more and more organizations are embracing containers as first-class citizens for distribution and deployment of software components. Containers represent the core of the cloud native paradigm.",
+      "url": "https://rabbitstack.github.io/operating%20systems/containers/linux-container-internals-part-ii/",
+      "tweet_url": "https://twitter.com/rabbitstack/status/1017819753870741504",
+      "date_published": "2018-07-13T18:10:04+02:00",
+      "author": {
+        "name": "Nedim Šabić",
+        "url": "https://rabbitstack.github.io"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "62456010-4ef4-4f1d-87f0-6e0c64929d82",
+      "title": "Ownership in Rust, Part 2",
+      "content_text": "It’s still not problem.",
+      "url": "https://medium.com/@thomascountz/ownership-in-rust-part-2-c3e1da89956e",
+      "tweet_url": "https://twitter.com/ThomasCountz/status/1017089903589543938",
+      "date_published": "2018-07-11T16:55:03.818+00:00",
+      "author": {
+        "name": "Thomas Countz",
+        "url": "https://medium.com/@thomascountz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "c0f25118-a040-4f57-bd18-1594ce4e72f6",
+      "title": "Ownership in Rust, Part 1",
+      "content_text": "It’s not my problem.",
+      "url": "https://medium.com/@thomascountz/ownership-in-rust-part-1-112036b1126b",
+      "tweet_url": "https://twitter.com/ThomasCountz/status/1016426451078348802",
+      "date_published": "2018-07-09T20:58:44.366+00:00",
+      "author": {
+        "name": "Thomas Countz",
+        "url": "https://medium.com/@thomascountz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "a928dd6a-2db7-4366-bd96-74134b4094b8",
+      "title": "How much of npm can you break?",
+      "content_text": "The idea was simple, choose a package and recursively traverse npm to find all of the packages that depend upon it, after all the npm website offers a ‘Dependents’ tab on a package’s page. I had not anticipated the issues that made this an interesting technical problem.",
+      "url": "https://mrandri19.github.io/2018/06/24/how-much-of-npm-will-you-break.html",
+      "date_published": "2018-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Andrea Cognolato",
+        "url": "https://mrandri19.github.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "f53d06d7-6b22-4cb8-95f1-66f8ae0bdb8f",
       "title": "Deploying Rust with Docker and Kubernetes",
       "content_text": "Using a tiny Rust app to demonstrate deploying Rust with Docker and Kubernetes.",

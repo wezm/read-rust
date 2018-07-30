@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e0622344-66a9-4b93-a59f-1b5250ba8c98",
+      "title": "Using C libraries in Rust: make a sys crate",
+      "content_text": "Using C libraries in a portable way involves a bit of work: finding the library on the system or building it if it's not available, checking if it is compatible, finding C headers and converting them to Rust modules, and giving Cargo correct linking instructions. Often every step of this is tricky, because operating systems, package managers and libraries have their unique quirks that need special handling.\n\nFortunately, all this work can be done once in a build script, and published as a <insert library name>-sys Rust crate. This way other Rust programmers will be able to use the C library without having to re-invent the build script themselves.",
+      "url": "https://kornel.ski/rust-sys-crate",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Kornel",
+        "url": "https://kornel.ski/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e5caa9df-4d3f-46be-a8ce-79369f0cad32",
       "title": "Wayland-rs 0.21: Pure Rust implementation",
       "content_text": "wayland-rs is a set of crates providing generic APIs to manipulate the Wayland protocol, successor of X11 for linux windowing.\n\nHere I am finally, after having hinted at the possibility and finally taken the time to write and merge quite an epic pull request, I can finally say it: wayland-rs is now a pure rust implementation of the protocol, rather than a crate of bindings to the wayland system C libraries.",

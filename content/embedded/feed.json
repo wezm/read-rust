@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "a9a551b0-07a6-48a2-944f-b956438fecc0",
+      "title": "How we built a Visual Studio Code extension for IoT prototyping",
+      "content_text": "We recently had the opportunity to make a Visual Studio Code extension that needed to communicate with an embedded device. This post explains the architecture we chose to achieve that and the decisions that led to it.",
+      "url": "https://cultivatehq.com/posts/how-we-built-a-visual-studio-code-extension-for-iot-prototyping/",
+      "date_published": "2018-07-13T22:39:00+00:00",
+      "author": {
+        "name": "Dan Munckton",
+        "url": "https://cultivatehq.com/posts/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Embedded"
+      ]
+    },
+    {
       "id": "669e3447-5dac-4fe9-a87a-0b315ae3062d",
       "title": "Where next for the Monotron",
       "content_text": "It's a couple of months on from my talk at RustFest on Monotron, so I thought it was worth a quick catch up on where we're going next. As a recap, Monotron currently generates an 800 x 600 VGA signal at 60 Hz (with a pixel clock of 40 MHz). It does this using three synchronised SPI peripherals, a timer generating the horizontal-sync pulse and a GPIO pin for the vertical-sync. With the CPU running at a clock speed of 80 MHz, the SPI peripherals are clocked at 20 MHz producing 400 horizontal pixels per line. This is half the nominal 800 pixels, but we needed to sacrifice resolution to double the amount of CPU time we have to 4 clocks per pixel (i.e. 32 clocks per 8-bit character column).",

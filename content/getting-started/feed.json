@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "62456010-4ef4-4f1d-87f0-6e0c64929d82",
+      "title": "Ownership in Rust, Part 2",
+      "content_text": "It’s still not problem.",
+      "url": "https://medium.com/@thomascountz/ownership-in-rust-part-2-c3e1da89956e",
+      "date_published": "2018-07-11T16:55:03.818+00:00",
+      "author": {
+        "name": "Thomas Countz",
+        "url": "https://medium.com/@thomascountz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "c0f25118-a040-4f57-bd18-1594ce4e72f6",
+      "title": "Ownership in Rust, Part 1",
+      "content_text": "It’s not my problem.",
+      "url": "https://medium.com/@thomascountz/ownership-in-rust-part-1-112036b1126b",
+      "date_published": "2018-07-09T20:58:44.366+00:00",
+      "author": {
+        "name": "Thomas Countz",
+        "url": "https://medium.com/@thomascountz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "325fc83d-bba5-48c8-8443-fdd5dd21f8ed",
       "title": "Learning Rust — Conspiracies, Databases, and Diesel.rs",
       "content_text": "This post is the second in a series of posts where I share my experience learning Rust. I’m building out a conspiracy theories API to help me get more familiar with Rust and to have a little fun. Since I am new to Rust, I welcome any and all feedback, especially from developers who have been using Rust for quite some time, leave a comment below or contact me on Twitter. With that out of the way, it is time to put your foil lined hat on and start storing the conspiracies in a database.",

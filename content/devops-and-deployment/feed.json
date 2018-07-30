@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5f84b8db-7379-4c08-9cae-d2a901caaab1",
+      "title": "Linux Container Internals (Part II)",
+      "content_text": "Containers are moving the world. Each passing day more and more organizations are embracing containers as first-class citizens for distribution and deployment of software components. Containers represent the core of the cloud native paradigm.",
+      "url": "https://rabbitstack.github.io/operating%20systems/containers/linux-container-internals-part-ii/",
+      "date_published": "2018-07-13T18:10:04+02:00",
+      "author": {
+        "name": "Nedim Šabić",
+        "url": "https://rabbitstack.github.io"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "f53d06d7-6b22-4cb8-95f1-66f8ae0bdb8f",
       "title": "Deploying Rust with Docker and Kubernetes",
       "content_text": "Using a tiny Rust app to demonstrate deploying Rust with Docker and Kubernetes.",

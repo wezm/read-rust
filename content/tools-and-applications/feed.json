@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "a9a551b0-07a6-48a2-944f-b956438fecc0",
+      "title": "How we built a Visual Studio Code extension for IoT prototyping",
+      "content_text": "We recently had the opportunity to make a Visual Studio Code extension that needed to communicate with an embedded device. This post explains the architecture we chose to achieve that and the decisions that led to it.",
+      "url": "https://cultivatehq.com/posts/how-we-built-a-visual-studio-code-extension-for-iot-prototyping/",
+      "date_published": "2018-07-13T22:39:00+00:00",
+      "author": {
+        "name": "Dan Munckton",
+        "url": "https://cultivatehq.com/posts/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Embedded"
+      ]
+    },
+    {
       "id": "504568b7-fb85-4ed5-b94d-1c96333d2c64",
       "title": "Moving from the shell to Rust with commandspec",
       "content_text": "Almost every project I’ve worked on has grown a shell script named “build.sh”, and not much later a “test.sh” and “run.sh”. At this point, you have to make a decision as a developer whether your goal is to accidentally reinvent make or if your codebase’s needs are better met by an executable to manage your workflow.",
