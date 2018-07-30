@@ -10,6 +10,122 @@
   },
   "items": [
     {
+      "id": "3b874195-0df6-40ca-8667-067d3440061b",
+      "title": "Rust: controlling side effects from the test",
+      "content_text": "Imagine you want to write a timestamping repository of some sorts, that will associate the timestamp of when the storage operation was invoked with the stored value. How to write it in Rust ? And more importantly - how to test it ? I would like to share a solution I found and talk a bit about how it works.",
+      "url": "https://blog.cyplo.net/posts/2018/07/rust-injection.html",
+      "tweet_url": "https://twitter.com/cyplo/status/1023924805266026496",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Cyryl Płotnicki",
+        "url": "https://blog.cyplo.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c5d017d6-de45-4099-9272-19fe01441fdc",
+      "title": "Electrosmog trapping with CC1101",
+      "content_text": "A couple of months ago I moved to a house, and the need to monitor-all-the-things guided me towards the affordable IKEA Sparsnäs energy display. Sparsnäs is made up of two parts, one being the transmitter that is attached to your electricity meter, and the other; the display that stores usage, and presents a variety of graphs. The downside is that there is no way of getting the data out of the display so you have to accept how it’s presented, and that it may get lost, or build something on your own. Thankfully the protocol has been thoroughly reverse engineered and documented in a very elaborate manner.",
+      "url": "https://dsvensson.github.io/posts/2018-07-13-Electrosmog-trapping-with-CC1101.html",
+      "date_published": "2018-07-13T20:06:53+00:00",
+      "author": {
+        "name": "Daniel Svensson",
+        "url": "https://dsvensson.github.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "96eb15b8-5f51-403c-a699-805553293c16",
+      "title": "Building Readable Tests with Fluent Testing APIs",
+      "content_text": "One of the biggest challenges in software testing is defining the input for code under test in a way that is expressive and powerful enough to test complex situations but doesn’t distract from the intent of the test or clutter the test code to a degree that makes it difficult to read.\n\nMany dynamic languages have testing APIs which take advantage of their looser and later type checking to provide easy mocking and stubbing, but strict, statically typed languages can make it difficult to build up suitable instances of the types needed in the test.",
+      "url": "https://leotindall.com/tutorial/building-readable-tests-with-fluent-testing-apis/",
+      "date_published": "2018-07-23T09:56:24-05:00",
+      "author": {
+        "name": "Leo Tindall",
+        "url": "https://leotindall.com/post/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9ceafb2d-9937-48c9-9deb-ff9d1ebd19d3",
+      "title": "cargo-generate: create a new Rust project from a template ",
+      "content_text": "cargo-generate is a developer tool to help you get up and running quickly with a new Rust project by leveraging a pre-existing git repository as a template.",
+      "url": "https://github.com/ashleygwilliams/cargo-generate",
+      "tweet_url": "https://twitter.com/ag_dubs/status/1019325671074664448",
+      "date_published": "2018-07-18T06:59:00+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://github.com/ashleygwilliams"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4a0e6748-9562-4507-bbfe-3cdf49b6292b",
+      "title": "On impl blocks, injection and surjection in Rust",
+      "content_text": "Rust has this cool feature called impl block. An impl block is just a scope that introduces a way to augment a type with methods – do not confuse impl blocks with trait impls, used to implement a given trait.",
+      "url": "https://phaazon.net/blog/on-rust-impl-block",
+      "date_published": "2018-07-22T22:05:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "35ed06d7-694b-4d04-ade3-5a8816619b78",
+      "title": "Let's code with the Roguelike tutorial - Part 3 - Making a dungeon",
+      "content_text": "It's time to start making some rooms and connecting them together. These will require making modifications to the map, so I guess it's time to finally refactor the map code into its own legitimate class.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part3-making-dungeon.html",
+      "tweet_url": "https://twitter.com/yosenspace/status/1014293283432886272",
+      "date_published": "2018-07-04T09:42:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "54c6e230-51fa-42c2-bcab-26b75e699bb3",
+      "title": "Rustberry 0.1.0 has been released, and I need more testers!",
+      "content_text": "After many laborious hours of reading and interpreting the various online references, I've published the first release of my latest project, a crate to safely abstract Raspberry Pi's platform-specific features in Rust. I've (very creatively) named it Rustberry, and it's finally stable and clean enough that I'm able to publish it and receive initial feedback.",
+      "url": "https://www.reddit.com/r/rust/comments/8x1ayd/calling_all_raspberry_pi_owners_rustberry_010_has/",
+      "date_published": "2018-07-08T23:06:00+10:00",
+      "author": {
+        "name": "/u/ninja_tokumei",
+        "url": "https://www.reddit.com/user/ninja_tokumei"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e29e550b-7c05-4625-9a81-513b316b5675",
+      "title": "Futures 0.3.0-alpha.2",
+      "content_text": "Several new changes while working towards 0.3.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/07/30/futures-0.3.0-alpha.2.html",
+      "tweet_url": "https://twitter.com/RustNetWG/status/1023942869806080000",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Josef Brandl",
+        "url": "http://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e0622344-66a9-4b93-a59f-1b5250ba8c98",
       "title": "Using C libraries in Rust: make a sys crate",
       "content_text": "Using C libraries in a portable way involves a bit of work: finding the library on the system or building it if it's not available, checking if it is compatible, finding C headers and converting them to Rust modules, and giving Cargo correct linking instructions. Often every step of this is tricky, because operating systems, package managers and libraries have their unique quirks that need special handling.\n\nFortunately, all this work can be done once in a build script, and published as a <insert library name>-sys Rust crate. This way other Rust programmers will be able to use the C library without having to re-invent the build script themselves.",

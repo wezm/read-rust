@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "35ed06d7-694b-4d04-ade3-5a8816619b78",
+      "title": "Let's code with the Roguelike tutorial - Part 3 - Making a dungeon",
+      "content_text": "It's time to start making some rooms and connecting them together. These will require making modifications to the map, so I guess it's time to finally refactor the map code into its own legitimate class.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part3-making-dungeon.html",
+      "date_published": "2018-07-04T09:42:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "a65d9a08-fc44-4976-b2ad-82b934b7961f",
       "title": "Flocking in Rust with Piston",
       "content_text": "Wikipedia states that flocking is a behavior exhibited when a group of birds, called a flock, are foraging or in flight. Flocking simulation are basically softwares which simulate this flocking behavior of birds. The original algorithm is developed by Craig Reynolds in 1986.",

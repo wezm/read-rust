@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9ceafb2d-9937-48c9-9deb-ff9d1ebd19d3",
+      "title": "cargo-generate: create a new Rust project from a template ",
+      "content_text": "cargo-generate is a developer tool to help you get up and running quickly with a new Rust project by leveraging a pre-existing git repository as a template.",
+      "url": "https://github.com/ashleygwilliams/cargo-generate",
+      "date_published": "2018-07-18T06:59:00+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://github.com/ashleygwilliams"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "a9a551b0-07a6-48a2-944f-b956438fecc0",
       "title": "How we built a Visual Studio Code extension for IoT prototyping",
       "content_text": "We recently had the opportunity to make a Visual Studio Code extension that needed to communicate with an embedded device. This post explains the architecture we chose to achieve that and the decisions that led to it.",

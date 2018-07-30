@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "3b874195-0df6-40ca-8667-067d3440061b",
+      "title": "Rust: controlling side effects from the test",
+      "content_text": "Imagine you want to write a timestamping repository of some sorts, that will associate the timestamp of when the storage operation was invoked with the stored value. How to write it in Rust ? And more importantly - how to test it ? I would like to share a solution I found and talk a bit about how it works.",
+      "url": "https://blog.cyplo.net/posts/2018/07/rust-injection.html",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Cyryl Płotnicki",
+        "url": "https://blog.cyplo.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "96eb15b8-5f51-403c-a699-805553293c16",
+      "title": "Building Readable Tests with Fluent Testing APIs",
+      "content_text": "One of the biggest challenges in software testing is defining the input for code under test in a way that is expressive and powerful enough to test complex situations but doesn’t distract from the intent of the test or clutter the test code to a degree that makes it difficult to read.\n\nMany dynamic languages have testing APIs which take advantage of their looser and later type checking to provide easy mocking and stubbing, but strict, statically typed languages can make it difficult to build up suitable instances of the types needed in the test.",
+      "url": "https://leotindall.com/tutorial/building-readable-tests-with-fluent-testing-apis/",
+      "date_published": "2018-07-23T09:56:24-05:00",
+      "author": {
+        "name": "Leo Tindall",
+        "url": "https://leotindall.com/post/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a0e6748-9562-4507-bbfe-3cdf49b6292b",
+      "title": "On impl blocks, injection and surjection in Rust",
+      "content_text": "Rust has this cool feature called impl block. An impl block is just a scope that introduces a way to augment a type with methods – do not confuse impl blocks with trait impls, used to implement a given trait.",
+      "url": "https://phaazon.net/blog/on-rust-impl-block",
+      "date_published": "2018-07-22T22:05:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2c62015d-b849-4ab6-bbc9-e62255ca3473",
       "title": "What is Rust 2018?",
       "content_text": "The release of Rust 1.31.0 on December 6th will be the first release of “Rust 2018.” This marks a culmination of the last three years of Rust’s development, and brings it together in one neat package. For example, there will be a 2018 edition of the book that incorporates features stabilized since the print edition was considered finalized.",
