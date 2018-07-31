@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "86add592-8587-406b-8233-a06e675452f0",
+      "title": "Using a Mac to cross-compile Linux binaries",
+      "content_text": "The cycle of development we’re most familiar with is: write code, compile your code, then run this code on the same machine you were writing it on. On most desktop OSes, you pick up a compiler by downloading one from your package manager. Xcode and Visual Studio are toolchains (actually IDEs) that leverage being platform-specific, each including tools tailored around the platform your code will run on and heavily showcasing the parent OS’s design language.",
+      "url": "http://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html",
+      "date_published": "2018-07-27T13:22:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2dba28aa-a443-4887-9806-aba84cf787ef",
       "title": "A Snapshot of Rust's Popularity in July 2018",
       "content_text": "Talking about a language’s popularity is traditionally a tricky topic. How do you measure popularity? How do you compare one language to another when they’re focused on different styles and different audiences? So, rather than having one or two charts, I’m going to look at a number of “slices” into Rust’s growth to see it front different angles.",

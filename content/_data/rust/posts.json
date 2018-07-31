@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "86add592-8587-406b-8233-a06e675452f0",
+      "title": "Using a Mac to cross-compile Linux binaries",
+      "content_text": "The cycle of development we’re most familiar with is: write code, compile your code, then run this code on the same machine you were writing it on. On most desktop OSes, you pick up a compiler by downloading one from your package manager. Xcode and Visual Studio are toolchains (actually IDEs) that leverage being platform-specific, each including tools tailored around the platform your code will run on and heavily showcasing the parent OS’s design language.",
+      "url": "http://timryan.org/2018/07/27/cross-compiling-linux-binaries-from-macos.html",
+      "tweet_url": "https://twitter.com/trimryan/status/1022890474636488706",
+      "date_published": "2018-07-27T13:22:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6204efce-b9b3-4225-ae6b-5fc74f441d5f",
       "title": "Is WebAssembly the return of Java Applets & Flash?",
       "content_text": "For this post, I’m going to make three comparisons: to Flash, to Java Applets, and occasionally to PNaCL. Secondly, this post is going to focus on the web use-case for WebAssembly, even though the previous post was about non-web uses. We’ll make that comparison in the next post. Finally, this post is kind of like eating tapas, there’s a bunch of little sections.",
