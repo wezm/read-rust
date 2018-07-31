@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "1220a3b8-605c-4d1d-8c38-163bd5a8f02e",
+      "title": "Rust and OpenGL from scratch, a blog post series about building an OpenGL renderer with Rust",
+      "content_text": "I titled this post “from scratch”, because I am going to assume little knowledge of Rust and basic knowledge of 3D graphics and OpenGL.\n\nTherefore, this tutorial may teach you basic Rust and how to get Rust working with OpenGL, however for in-depth OpenGL learning you will need another tutorial or book.\n\n“From Scratch” also means that we will try to build abstractions ourselves, so that we get better knowledge of Rust. In addition to that, we will able to follow existing OpenGL tutorials, because we will know exactly what OpenGL functions we are calling.",
+      "url": "https://www.reddit.com/r/rust/comments/92abkg/rust_and_opengl_from_scratch_a_blog_post_series/",
+      "date_published": "2018-07-27T17:01:38+10:00",
+      "author": {
+        "name": "Nerijus Arlauskas",
+        "url": "http://nercury.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "51e59a36-6a0e-4599-b52f-5874cc1e9ec5",
+      "title": "Procedural level generation with Rust",
+      "content_text": "Procedural generation is a technique which allows content to be created programmatically, rather than everything in a game being specifically placed by a designer. Procedural generation doesn't mean completely randomised, rather randomised elements are used as long as they make sense.\n\nThis tutorial will show how to create a tilemap-based level with rooms connected by straight corridors, using Rust. We'll also cover how to use seeds to reproduce specific layouts and serialise the output into JSON. The rooms will be placed at random within the level, and corridors are drawn horizontally and vertically to connect the centres of the rooms.",
+      "url": "https://www.jamestease.co.uk/blether/procedural-level-generation-rust",
+      "date_published": "2018-07-04T00:00:00+00:00",
+      "author": {
+        "name": "James Tease",
+        "url": "https://www.jamestease.co.uk/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0c4246e6-b2cb-42fa-930f-b32ed84c8880",
+      "title": "Conduit 0.5.0 and the future of Conduit",
+      "content_text": "Today we’re very happy to announce Conduit 0.5.0, which introduces zero-config automatic TLS between mesh’d pods (including certificate creation and distribution). This means that most Kubernetes users can now encrypt internal HTTP communication between their service in just two simple commands.\n\nWe’re also happy to announce that 0.5.0 will be the last major release of Conduit. Conduit is graduating into the Linkerd project to become the basis of Linkerd 2.0. Read on for what this means!",
+      "url": "https://blog.conduit.io/2018/07/06/conduit-0-5-and-the-future/",
+      "date_published": "2018-07-06T16:41:57+00:00",
+      "author": {
+        "name": "Oliver Gould",
+        "url": "https://blog.conduit.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "9ba882d4-cadd-4708-906b-2ec25fe72941",
+      "title": "Let's code with the Roguelike tutorial - Part 5 - Setting up enemies",
+      "content_text": "I now have the game up to the point where the player has a random dungeon to explore. It's time to make it more interesting by adding some threats - namely, some monsters.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part5-setting-up-enemies.html",
+      "date_published": "2018-07-11T04:57:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "86add592-8587-406b-8233-a06e675452f0",
       "title": "Using a Mac to cross-compile Linux binaries",
       "content_text": "The cycle of development we’re most familiar with is: write code, compile your code, then run this code on the same machine you were writing it on. On most desktop OSes, you pick up a compiler by downloading one from your package manager. Xcode and Visual Studio are toolchains (actually IDEs) that leverage being platform-specific, each including tools tailored around the platform your code will run on and heavily showcasing the parent OS’s design language.",

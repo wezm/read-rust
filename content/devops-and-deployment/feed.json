@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0c4246e6-b2cb-42fa-930f-b32ed84c8880",
+      "title": "Conduit 0.5.0 and the future of Conduit",
+      "content_text": "Today we’re very happy to announce Conduit 0.5.0, which introduces zero-config automatic TLS between mesh’d pods (including certificate creation and distribution). This means that most Kubernetes users can now encrypt internal HTTP communication between their service in just two simple commands.\n\nWe’re also happy to announce that 0.5.0 will be the last major release of Conduit. Conduit is graduating into the Linkerd project to become the basis of Linkerd 2.0. Read on for what this means!",
+      "url": "https://blog.conduit.io/2018/07/06/conduit-0-5-and-the-future/",
+      "date_published": "2018-07-06T16:41:57+00:00",
+      "author": {
+        "name": "Oliver Gould",
+        "url": "https://blog.conduit.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "5f84b8db-7379-4c08-9cae-d2a901caaab1",
       "title": "Linux Container Internals (Part II)",
       "content_text": "Containers are moving the world. Each passing day more and more organizations are embracing containers as first-class citizens for distribution and deployment of software components. Containers represent the core of the cloud native paradigm.",
