@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1e1fcc0e-6af2-4223-8689-4cab5a34222f",
+      "title": "Let's code with the Roguelike tutorial - Part 4 - Field of view and exploration",
+      "content_text": "In the current implementation, the player can see the entire layout of the dungeon from the beginning. The next step is to change the game to start off with the dungeon hidden, so the player will actually have some rooms to explore.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part4-field-view-exploration.html",
+      "date_published": "2018-07-11T04:57:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "35ed06d7-694b-4d04-ade3-5a8816619b78",
       "title": "Let's code with the Roguelike tutorial - Part 3 - Making a dungeon",
       "content_text": "It's time to start making some rooms and connecting them together. These will require making modifications to the map, so I guess it's time to finally refactor the map code into its own legitimate class.",

@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "6204efce-b9b3-4225-ae6b-5fc74f441d5f",
+      "title": "Is WebAssembly the return of Java Applets & Flash?",
+      "content_text": "For this post, I’m going to make three comparisons: to Flash, to Java Applets, and occasionally to PNaCL. Secondly, this post is going to focus on the web use-case for WebAssembly, even though the previous post was about non-web uses. We’ll make that comparison in the next post. Finally, this post is kind of like eating tapas, there’s a bunch of little sections.",
+      "url": "https://words.steveklabnik.com/is-webassembly-the-return-of-java-applets-flash",
+      "date_published": "2018-07-26T00:03:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b3d696eb-a5d0-4118-a7b0-328623d35555",
+      "title": "A static web app in Rust",
+      "content_text": "A three day tour of Yew and WASM with Rust",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/07/22/static-web-app-rust.html",
+      "date_published": "2018-07-22T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7f8cf89b-0cca-43c6-a660-3780bd2cdf72",
+      "title": "Writing a front-end WebAssembly framework in Rust: lessons learned",
+      "content_text": "Over the past few months, I’ve been writing Smithy, a very work-in-progress front-end WebAssembly framework written in Rust.\n\nMy goal for Smithy is to enable you to use idiomatic Rust to write front-end code. This has costs: for example worrying about lifetimes and using Rc<RefCell<State>> to share state. But this also has the potential to give you the safety guarantees that the Rust compiler provides when writing browser code!",
+      "url": "https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96",
+      "date_published": "2018-07-30T12:46:05.428+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a928dd6a-2db7-4366-bd96-74134b4094b8",
       "title": "How much of npm can you break?",
       "content_text": "The idea was simple, choose a package and recursively traverse npm to find all of the packages that depend upon it, after all the npm website offers a ‘Dependents’ tab on a package’s page. I had not anticipated the issues that made this an interesting technical problem.",

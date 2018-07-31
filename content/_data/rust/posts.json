@@ -10,6 +10,111 @@
   },
   "items": [
     {
+      "id": "6204efce-b9b3-4225-ae6b-5fc74f441d5f",
+      "title": "Is WebAssembly the return of Java Applets & Flash?",
+      "content_text": "For this post, I’m going to make three comparisons: to Flash, to Java Applets, and occasionally to PNaCL. Secondly, this post is going to focus on the web use-case for WebAssembly, even though the previous post was about non-web uses. We’ll make that comparison in the next post. Finally, this post is kind of like eating tapas, there’s a bunch of little sections.",
+      "url": "https://words.steveklabnik.com/is-webassembly-the-return-of-java-applets-flash",
+      "tweet_url": "https://twitter.com/steveklabnik/status/1022120059509112833",
+      "date_published": "2018-07-26T00:03:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "41e44eb5-79db-4f16-83c2-a126c4d43286",
+      "title": "Bringing Rust to Ledger hardware wallets",
+      "content_text": "Beginning of this year I wanted to experiment with some embedded development. I ended up looking into Ledger cryptocurrency hardware wallet application development. I wouldn’t actually consider this true embedded development as a lot of the heavy lifting has been done and abstracted away by Ledger, but it’s still writing software for a very constrained environment. Ledger applications only get 4KB of RAM to utilise and most of the embedded development practices still apply (no heap allocations for instance).",
+      "url": "https://medium.com/@roosmaa/bringing-rust-to-ledger-hardware-wallet-ccf1356a7de1",
+      "tweet_url": "https://twitter.com/roosmaa/status/1022457886885244929",
+      "date_published": "2018-07-26T12:01:48.407+00:00",
+      "author": {
+        "name": "Mart Roosmaa",
+        "url": "https://medium.com/@roosmaa"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "1e1fcc0e-6af2-4223-8689-4cab5a34222f",
+      "title": "Let's code with the Roguelike tutorial - Part 4 - Field of view and exploration",
+      "content_text": "In the current implementation, the player can see the entire layout of the dungeon from the beginning. The next step is to change the game to start off with the dungeon hidden, so the player will actually have some rooms to explore.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part4-field-view-exploration.html",
+      "tweet_url": "https://twitter.com/yosenspace/status/1016758392528855040",
+      "date_published": "2018-07-11T04:57:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "2dba28aa-a443-4887-9806-aba84cf787ef",
+      "title": "A Snapshot of Rust's Popularity in July 2018",
+      "content_text": "Talking about a language’s popularity is traditionally a tricky topic. How do you measure popularity? How do you compare one language to another when they’re focused on different styles and different audiences? So, rather than having one or two charts, I’m going to look at a number of “slices” into Rust’s growth to see it front different angles.",
+      "url": "http://www.jonathanturner.org/2018/07/snapshot-of-rust-popularity.html",
+      "tweet_url": "https://twitter.com/jntrnr/status/1022950415254605824",
+      "date_published": "2018-07-28T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8f26eb1d-8d0c-4785-a7fb-85c8cf5c6f27",
+      "title": "Streaming UTF-8 in Haskell and Rust",
+      "content_text": "An investigation into getting Haskell-like error handling ergonomics into a Rust application dealing with streaming UTF-8 encoding and decoding.",
+      "url": "https://www.fpcomplete.com/blog/2018/07/streaming-utf8-haskell-rust",
+      "tweet_url": "https://twitter.com/FPComplete/status/1023859619909828608",
+      "date_published": "2018-07-30T09:00:00+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b3d696eb-a5d0-4118-a7b0-328623d35555",
+      "title": "A static web app in Rust",
+      "content_text": "A three day tour of Yew and WASM with Rust",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/07/22/static-web-app-rust.html",
+      "tweet_url": "https://twitter.com/benj_fry/status/1021207356762443776",
+      "date_published": "2018-07-22T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7f8cf89b-0cca-43c6-a660-3780bd2cdf72",
+      "title": "Writing a front-end WebAssembly framework in Rust: lessons learned",
+      "content_text": "Over the past few months, I’ve been writing Smithy, a very work-in-progress front-end WebAssembly framework written in Rust.\n\nMy goal for Smithy is to enable you to use idiomatic Rust to write front-end code. This has costs: for example worrying about lifetimes and using Rc<RefCell<State>> to share state. But this also has the potential to give you the safety guarantees that the Rust compiler provides when writing browser code!",
+      "url": "https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96",
+      "tweet_url": "https://twitter.com/StatisticsFTW/status/1023913544302166018",
+      "date_published": "2018-07-30T12:46:05.428+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3b874195-0df6-40ca-8667-067d3440061b",
       "title": "Rust: controlling side effects from the test",
       "content_text": "Imagine you want to write a timestamping repository of some sorts, that will associate the timestamp of when the storage operation was invoked with the stored value. How to write it in Rust ? And more importantly - how to test it ? I would like to share a solution I found and talk a bit about how it works.",

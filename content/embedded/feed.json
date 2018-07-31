@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "41e44eb5-79db-4f16-83c2-a126c4d43286",
+      "title": "Bringing Rust to Ledger hardware wallets",
+      "content_text": "Beginning of this year I wanted to experiment with some embedded development. I ended up looking into Ledger cryptocurrency hardware wallet application development. I wouldn’t actually consider this true embedded development as a lot of the heavy lifting has been done and abstracted away by Ledger, but it’s still writing software for a very constrained environment. Ledger applications only get 4KB of RAM to utilise and most of the embedded development practices still apply (no heap allocations for instance).",
+      "url": "https://medium.com/@roosmaa/bringing-rust-to-ledger-hardware-wallet-ccf1356a7de1",
+      "date_published": "2018-07-26T12:01:48.407+00:00",
+      "author": {
+        "name": "Mart Roosmaa",
+        "url": "https://medium.com/@roosmaa"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "c5d017d6-de45-4099-9272-19fe01441fdc",
       "title": "Electrosmog trapping with CC1101",
       "content_text": "A couple of months ago I moved to a house, and the need to monitor-all-the-things guided me towards the affordable IKEA Sparsnäs energy display. Sparsnäs is made up of two parts, one being the transmitter that is attached to your electricity meter, and the other; the display that stores usage, and presents a variety of graphs. The downside is that there is no way of getting the data out of the display so you have to accept how it’s presented, and that it may get lost, or build something on your own. Thankfully the protocol has been thoroughly reverse engineered and documented in a very elaborate manner.",

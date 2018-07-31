@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2dba28aa-a443-4887-9806-aba84cf787ef",
+      "title": "A Snapshot of Rust's Popularity in July 2018",
+      "content_text": "Talking about a language’s popularity is traditionally a tricky topic. How do you measure popularity? How do you compare one language to another when they’re focused on different styles and different audiences? So, rather than having one or two charts, I’m going to look at a number of “slices” into Rust’s growth to see it front different angles.",
+      "url": "http://www.jonathanturner.org/2018/07/snapshot-of-rust-popularity.html",
+      "date_published": "2018-07-28T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8f26eb1d-8d0c-4785-a7fb-85c8cf5c6f27",
+      "title": "Streaming UTF-8 in Haskell and Rust",
+      "content_text": "An investigation into getting Haskell-like error handling ergonomics into a Rust application dealing with streaming UTF-8 encoding and decoding.",
+      "url": "https://www.fpcomplete.com/blog/2018/07/streaming-utf8-haskell-rust",
+      "date_published": "2018-07-30T09:00:00+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3b874195-0df6-40ca-8667-067d3440061b",
       "title": "Rust: controlling side effects from the test",
       "content_text": "Imagine you want to write a timestamping repository of some sorts, that will associate the timestamp of when the storage operation was invoked with the stored value. How to write it in Rust ? And more importantly - how to test it ? I would like to share a solution I found and talk a bit about how it works.",
