@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f0e4ab48-bf11-47bf-9267-4da78f78bdcc",
+      "title": "Programming Servo: How to match",
+      "content_text": "Today, let’s share some lessons learned from contributing to Servo, which is a great way to learn Rust.",
+      "url": "https://medium.com/programming-servo/programming-servo-how-to-match-b76c43f76fe6",
+      "date_published": "2018-07-27T04:37:21.175+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "62456010-4ef4-4f1d-87f0-6e0c64929d82",
       "title": "Ownership in Rust, Part 2",
       "content_text": "It’s still not problem.",

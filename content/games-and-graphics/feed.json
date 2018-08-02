@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "92d89e3b-be0d-4f75-b335-79e26b2373e5",
+      "title": "Let's code with the Roguelike tutorial - Part 7 - Enhancing the UI",
+      "content_text": "Up to now, all the rendering code has been in the game loop in the main function. The rendering code is simple and straightforward, so, while it should have been extracted into its own function, there wasn't a pressing need to do so. Now that I'm going to enhance the UI, the rendering needs to be extracted.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part7-enhancing-ui.html",
+      "date_published": "2018-07-18T08:50:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "6744150e-efec-40e9-a978-ed41e314d64a",
       "title": "Let's code with the Roguelike tutorial - Part 6 - Combat engine",
       "content_text": " I now have a map, and a bunch of monsters on the map, able to attack and be attacked by the player. To provide for different kinds of monsters, I needed to add stats like combat strength and HP.",

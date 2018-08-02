@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "f7eba5d3-ef85-47cb-88ec-345cf3c46ade",
+      "title": "Rust concurrency patterns: Natural Born Pipelines",
+      "content_text": "There seems to be demand for a “Rust concurrent pipeline” guide à la https://blog.golang.org/pipelines, so let’s give it a try.",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-natural-born-pipelines-4d599e7612fc",
+      "date_published": "2018-07-28T09:12:33.449+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a243dc7d-5708-4a3d-bae8-20ccc3de53d0",
+      "title": "My experience with the Rust 2018 preview",
+      "content_text": "Recently, I wrote a little a side project to sign git commits without gpg. When I did this, I decided to use the Rust 2018 edition. I also transitioned an existing library from Rust 2015 to Rust 2018 to see how that tooling worked. I thought I’d write a blog post about my experience using the Rust 2018 preview and the state of things right now.",
+      "url": "https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/",
+      "date_published": "2018-07-24T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "44372b96-a1e4-44ee-af79-4496c4f629e6",
+      "title": "Announcing Rust 1.28",
+      "content_text": "The Rust team is happy to announce a new version of Rust. This release includes the global_allocator attribute to customise the allocator, improved error messages for format strings, and a number of number related stabilisations.",
+      "url": "https://blog.rust-lang.org/2018/08/02/Rust-1.28.html",
+      "date_published": "2018-08-02T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "86add592-8587-406b-8233-a06e675452f0",
       "title": "Using a Mac to cross-compile Linux binaries",
       "content_text": "The cycle of development we’re most familiar with is: write code, compile your code, then run this code on the same machine you were writing it on. On most desktop OSes, you pick up a compiler by downloading one from your package manager. Xcode and Visual Studio are toolchains (actually IDEs) that leverage being platform-specific, each including tools tailored around the platform your code will run on and heavily showcasing the parent OS’s design language.",

@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "0a171d26-74e1-491c-befd-e02ac528c1ff",
+      "title": "#[derive(Debug)] on serde steroids",
+      "content_text": "In this post I'd like to introduce a serdebug helper which is a drop-in replacement for #[derive(Debug)] with some of the advanced features that serde can provide.",
+      "url": "https://rreverser.com/derive-serdebug/",
+      "date_published": "2018-07-31T16:00:45+00:00",
+      "author": {
+        "name": "Ingvar Stepanyan",
+        "url": "https://rreverser.com/#open"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "81096070-a563-47a0-8f09-2e5fb3c1b984",
+      "title": "Sequoia, a new OpenPGP implementation",
+      "content_text": "This past fall, three former GnuPG developers began working on a new OpenPGP implementation in Rust called Sequoia. As it’s starting to shape up and become useful, I feel now is a good time to announce the project to the larger Rust community, and hopefully get some feedback before our first release.",
+      "url": "https://www.reddit.com/r/rust/comments/93mng5/ann_sequoia_a_new_openpgp_implementation/",
+      "date_published": "2018-08-01T16:50:12+10:00",
+      "author": {
+        "name": "/u/nwalfield",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
       "id": "55adde79-edfa-433f-8c4f-40f2baee7cd9",
       "title": "warp",
       "content_text": "Over the past several months, I’ve been working a web framework in Rust. I wanted to make use of the new hyper 0.12 changes, so the framework is just as fast, is asynchronous, and benefits from all the improvements found powering Linkerd. More importantly, I wanted there to be a reason for making a new framework; it couldn’t just be yet another framework with the only difference being I’ve written it. Instead, the way this framework is used is quite different than many that exist. In doing so, it expresses a strong opinion, which might not match your previous experiences, but I believe it manages to do something really special.\n\nI’m super excited to reveal warp, a joint project with @carllerche.",

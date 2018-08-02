@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "81096070-a563-47a0-8f09-2e5fb3c1b984",
+      "title": "Sequoia, a new OpenPGP implementation",
+      "content_text": "This past fall, three former GnuPG developers began working on a new OpenPGP implementation in Rust called Sequoia. As it’s starting to shape up and become useful, I feel now is a good time to announce the project to the larger Rust community, and hopefully get some feedback before our first release.",
+      "url": "https://www.reddit.com/r/rust/comments/93mng5/ann_sequoia_a_new_openpgp_implementation/",
+      "date_published": "2018-08-01T16:50:12+10:00",
+      "author": {
+        "name": "/u/nwalfield",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
+      "id": "31fd7758-63f6-4e38-8331-bd27fd6324ba",
+      "title": "Recommending books (with Rust)",
+      "content_text": "In this post, we’re going to build a sequence-based recommender system in Rust: a system that accepts a person’s reading history as input, and outputs recommendations on what to read next.",
+      "url": "https://maciejkula.github.io/2018/07/27/recommending-books-with-rust/",
+      "date_published": "2018-07-27T09:17:00-07:00",
+      "author": {
+        "name": "Maciej Kula",
+        "url": "https://maciejkula.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "bf6d4501-afb3-40dc-aa8a-bef247e2e77b",
       "title": "Why I Ripped The Same CD 300 Times",
       "content_text": "The piano arrangement album 帰るべき城 by Altneuland was published in 2005. I discovered it in 2008 (probably on YouTube), downloaded the best copy I could find, and filed it away in the TODO list. Recent advances in international parcel forwarding technology let me buy a used copy last year, but when it arrived none of my CD drives could read track #3. This sort of thing is common when buying used CDs, especially if they need to transit a USPS international shipping center. I shelved it and kept on the lookout for another copy, which I located last month. It arrived on Friday, I immediately tried to rip it, and hit the exact same error. This didn’t seem to be an issue of wear or damage…",

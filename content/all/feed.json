@@ -10,6 +10,119 @@
   },
   "items": [
     {
+      "id": "92d89e3b-be0d-4f75-b335-79e26b2373e5",
+      "title": "Let's code with the Roguelike tutorial - Part 7 - Enhancing the UI",
+      "content_text": "Up to now, all the rendering code has been in the game loop in the main function. The rendering code is simple and straightforward, so, while it should have been extracted into its own function, there wasn't a pressing need to do so. Now that I'm going to enhance the UI, the rendering needs to be extracted.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part7-enhancing-ui.html",
+      "date_published": "2018-07-18T08:50:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0a171d26-74e1-491c-befd-e02ac528c1ff",
+      "title": "#[derive(Debug)] on serde steroids",
+      "content_text": "In this post I'd like to introduce a serdebug helper which is a drop-in replacement for #[derive(Debug)] with some of the advanced features that serde can provide.",
+      "url": "https://rreverser.com/derive-serdebug/",
+      "date_published": "2018-07-31T16:00:45+00:00",
+      "author": {
+        "name": "Ingvar Stepanyan",
+        "url": "https://rreverser.com/#open"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "81096070-a563-47a0-8f09-2e5fb3c1b984",
+      "title": "Sequoia, a new OpenPGP implementation",
+      "content_text": "This past fall, three former GnuPG developers began working on a new OpenPGP implementation in Rust called Sequoia. As it’s starting to shape up and become useful, I feel now is a good time to announce the project to the larger Rust community, and hopefully get some feedback before our first release.",
+      "url": "https://www.reddit.com/r/rust/comments/93mng5/ann_sequoia_a_new_openpgp_implementation/",
+      "date_published": "2018-08-01T16:50:12+10:00",
+      "author": {
+        "name": "/u/nwalfield",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
+      "id": "f7eba5d3-ef85-47cb-88ec-345cf3c46ade",
+      "title": "Rust concurrency patterns: Natural Born Pipelines",
+      "content_text": "There seems to be demand for a “Rust concurrent pipeline” guide à la https://blog.golang.org/pipelines, so let’s give it a try.",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-natural-born-pipelines-4d599e7612fc",
+      "date_published": "2018-07-28T09:12:33.449+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "31fd7758-63f6-4e38-8331-bd27fd6324ba",
+      "title": "Recommending books (with Rust)",
+      "content_text": "In this post, we’re going to build a sequence-based recommender system in Rust: a system that accepts a person’s reading history as input, and outputs recommendations on what to read next.",
+      "url": "https://maciejkula.github.io/2018/07/27/recommending-books-with-rust/",
+      "date_published": "2018-07-27T09:17:00-07:00",
+      "author": {
+        "name": "Maciej Kula",
+        "url": "https://maciejkula.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f0e4ab48-bf11-47bf-9267-4da78f78bdcc",
+      "title": "Programming Servo: How to match",
+      "content_text": "Today, let’s share some lessons learned from contributing to Servo, which is a great way to learn Rust.",
+      "url": "https://medium.com/programming-servo/programming-servo-how-to-match-b76c43f76fe6",
+      "date_published": "2018-07-27T04:37:21.175+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "a243dc7d-5708-4a3d-bae8-20ccc3de53d0",
+      "title": "My experience with the Rust 2018 preview",
+      "content_text": "Recently, I wrote a little a side project to sign git commits without gpg. When I did this, I decided to use the Rust 2018 edition. I also transitioned an existing library from Rust 2015 to Rust 2018 to see how that tooling worked. I thought I’d write a blog post about my experience using the Rust 2018 preview and the state of things right now.",
+      "url": "https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/",
+      "date_published": "2018-07-24T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "44372b96-a1e4-44ee-af79-4496c4f629e6",
+      "title": "Announcing Rust 1.28",
+      "content_text": "The Rust team is happy to announce a new version of Rust. This release includes the global_allocator attribute to customise the allocator, improved error messages for format strings, and a number of number related stabilisations.",
+      "url": "https://blog.rust-lang.org/2018/08/02/Rust-1.28.html",
+      "date_published": "2018-08-02T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6744150e-efec-40e9-a978-ed41e314d64a",
       "title": "Let's code with the Roguelike tutorial - Part 6 - Combat engine",
       "content_text": " I now have a map, and a bunch of monsters on the map, able to attack and be attacked by the player. To provide for different kinds of monsters, I needed to add stats like combat strength and HP.",
