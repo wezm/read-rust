@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "bf6d4501-afb3-40dc-aa8a-bef247e2e77b",
+      "title": "Why I Ripped The Same CD 300 Times",
+      "content_text": "The piano arrangement album 帰るべき城 by Altneuland was published in 2005. I discovered it in 2008 (probably on YouTube), downloaded the best copy I could find, and filed it away in the TODO list. Recent advances in international parcel forwarding technology let me buy a used copy last year, but when it arrived none of my CD drives could read track #3. This sort of thing is common when buying used CDs, especially if they need to transit a USPS international shipping center. I shelved it and kept on the lookout for another copy, which I located last month. It arrived on Friday, I immediately tried to rip it, and hit the exact same error. This didn’t seem to be an issue of wear or damage…",
+      "url": "https://john-millikin.com/%F0%9F%A4%94/why-i-ripped-the-same-cd-300-times",
+      "date_published": "2018-08-02T00:00:00+00:00",
+      "author": {
+        "name": "John Millikin",
+        "url": "https://john-millikin.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4c6bb401-ff09-4bce-a6d2-d598777a0ce2",
+      "title": "fastcat - A Faster 'cat' Implementation Using Splice",
+      "content_text": "Lots of people asked me to write another piece about the internals of well-known Unix commands. Well, actually, nobody asked me, but it makes for a good intro. I'm sure you’ve read the previous parts about yes and ls — they are awesome.\n\nAnyway, today we talk about cat, which is used to concatenate files - or, more commonly, abused to print a file's contents to the screen.",
+      "url": "https://matthias-endler.de/2018/fastcat/",
+      "date_published": "2018-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://matthias-endler.de/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "14507477-073a-4055-a2de-b0e4c4fd2ad5",
+      "title": "Announcing Vagga 0.8.1 – PaulColomiets",
+      "content_text": "We are excited to announce the next version of vagga, the containerization tool that makes setting up development environments easy and fun. This release brings local overrides for vagga commands, support of ubuntu bionic, better CI support, space reuse between multiple projects, and more.",
+      "url": "https://medium.com/@paulcolomiets/announcing-vagga-0-8-1-5e1fd44ee6fa",
+      "date_published": "2018-07-31T19:39:25.963+00:00",
+      "author": {
+        "name": "PaulColomiets",
+        "url": "https://medium.com/@paulcolomiets"
+      },
+      "tags": [
+        "Tools and Applications",
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "9ceafb2d-9937-48c9-9deb-ff9d1ebd19d3",
       "title": "cargo-generate: create a new Rust project from a template ",
       "content_text": "cargo-generate is a developer tool to help you get up and running quickly with a new Rust project by leveraging a pre-existing git repository as a template.",

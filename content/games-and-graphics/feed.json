@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6744150e-efec-40e9-a978-ed41e314d64a",
+      "title": "Let's code with the Roguelike tutorial - Part 6 - Combat engine",
+      "content_text": " I now have a map, and a bunch of monsters on the map, able to attack and be attacked by the player. To provide for different kinds of monsters, I needed to add stats like combat strength and HP.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part6-combat-engine.html",
+      "date_published": "2018-07-18T07:28:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "1220a3b8-605c-4d1d-8c38-163bd5a8f02e",
       "title": "Rust and OpenGL from scratch, a blog post series about building an OpenGL renderer with Rust",
       "content_text": "I titled this post “from scratch”, because I am going to assume little knowledge of Rust and basic knowledge of 3D graphics and OpenGL.\n\nTherefore, this tutorial may teach you basic Rust and how to get Rust working with OpenGL, however for in-depth OpenGL learning you will need another tutorial or book.\n\n“From Scratch” also means that we will try to build abstractions ourselves, so that we get better knowledge of Rust. In addition to that, we will able to follow existing OpenGL tutorials, because we will know exactly what OpenGL functions we are calling.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5473f9e8-40a8-43fe-956e-e84678267c90",
+      "title": "BetaFPV F3 Drone Flight Controller - Board Support Crate",
+      "content_text": "In a previous blog post I described how to get a very simple Rust program compiling for and running on the BetaFPV F3 drone flight controller. Since that time I’ve been working to create a board support crate to provide a high level API for the board.",
+      "url": "https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-board-support-crate/",
+      "date_published": "2018-07-31T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "41e44eb5-79db-4f16-83c2-a126c4d43286",
       "title": "Bringing Rust to Ledger hardware wallets",
       "content_text": "Beginning of this year I wanted to experiment with some embedded development. I ended up looking into Ledger cryptocurrency hardware wallet application development. I wouldn’t actually consider this true embedded development as a lot of the heavy lifting has been done and abstracted away by Ledger, but it’s still writing software for a very constrained environment. Ledger applications only get 4KB of RAM to utilise and most of the embedded development practices still apply (no heap allocations for instance).",

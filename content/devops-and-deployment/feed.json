@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "14507477-073a-4055-a2de-b0e4c4fd2ad5",
+      "title": "Announcing Vagga 0.8.1 – PaulColomiets",
+      "content_text": "We are excited to announce the next version of vagga, the containerization tool that makes setting up development environments easy and fun. This release brings local overrides for vagga commands, support of ubuntu bionic, better CI support, space reuse between multiple projects, and more.",
+      "url": "https://medium.com/@paulcolomiets/announcing-vagga-0-8-1-5e1fd44ee6fa",
+      "date_published": "2018-07-31T19:39:25.963+00:00",
+      "author": {
+        "name": "PaulColomiets",
+        "url": "https://medium.com/@paulcolomiets"
+      },
+      "tags": [
+        "Tools and Applications",
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "0c4246e6-b2cb-42fa-930f-b32ed84c8880",
       "title": "Conduit 0.5.0 and the future of Conduit",
       "content_text": "Today we’re very happy to announce Conduit 0.5.0, which introduces zero-config automatic TLS between mesh’d pods (including certificate creation and distribution). This means that most Kubernetes users can now encrypt internal HTTP communication between their service in just two simple commands.\n\nWe’re also happy to announce that 0.5.0 will be the last major release of Conduit. Conduit is graduating into the Linkerd project to become the basis of Linkerd 2.0. Read on for what this means!",

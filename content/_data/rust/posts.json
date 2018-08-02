@@ -10,6 +10,111 @@
   },
   "items": [
     {
+      "id": "6744150e-efec-40e9-a978-ed41e314d64a",
+      "title": "Let's code with the Roguelike tutorial - Part 6 - Combat engine",
+      "content_text": " I now have a map, and a bunch of monsters on the map, able to attack and be attacked by the player. To provide for different kinds of monsters, I needed to add stats like combat strength and HP.",
+      "url": "https://www.yosenspace.com/posts/lets-code-roguelike-tutorial-part6-combat-engine.html",
+      "tweet_url": "https://twitter.com/yosenspace/status/1019332915778412544",
+      "date_published": "2018-07-18T07:28:00+00:00",
+      "author": {
+        "name": "Yosen",
+        "url": "https://www.yosenspace.com/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8a924e9f-d803-4e85-b2e8-92b5909c7695",
+      "title": "Accelerating Edwards Curve Arithmetic with Parallel Formulas",
+      "content_text": "The fastest formulas for elliptic curve operations were published by Hisil, Wong, Carter, and Dawson in their 2008 paper Twisted Edwards Curves Revisited. Their paper also describes a parallel version of their formulas, designed to execute four streams of instructions on four independent processors. Until now, these parallel formulas don’t seem to have been implemented in software. But a closer look reveals that slightly modifying the formulas allows the expensive instructions to be executed in uniform, making a vectorized SIMD implementation possible.\n\nI implemented this strategy in Rust, targeting 256-bit wide AVX2 operations. The resulting implementation performs double-base scalar multiplication faster than other Ed25519 implementations I tested, and is even faster than FourQ without endomorphisms",
+      "url": "https://medium.com/@hdevalence/accelerating-edwards-curve-arithmetic-with-parallel-formulas-ac12cf5015be",
+      "tweet_url": "https://twitter.com/hdevalence/status/1024714581350862849",
+      "date_published": "2018-08-01T17:41:42.002+00:00",
+      "author": {
+        "name": "Henry de Valence",
+        "url": "https://medium.com/@hdevalence"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "bf6d4501-afb3-40dc-aa8a-bef247e2e77b",
+      "title": "Why I Ripped The Same CD 300 Times",
+      "content_text": "The piano arrangement album 帰るべき城 by Altneuland was published in 2005. I discovered it in 2008 (probably on YouTube), downloaded the best copy I could find, and filed it away in the TODO list. Recent advances in international parcel forwarding technology let me buy a used copy last year, but when it arrived none of my CD drives could read track #3. This sort of thing is common when buying used CDs, especially if they need to transit a USPS international shipping center. I shelved it and kept on the lookout for another copy, which I located last month. It arrived on Friday, I immediately tried to rip it, and hit the exact same error. This didn’t seem to be an issue of wear or damage…",
+      "url": "https://john-millikin.com/%F0%9F%A4%94/why-i-ripped-the-same-cd-300-times",
+      "date_published": "2018-08-02T00:00:00+00:00",
+      "author": {
+        "name": "John Millikin",
+        "url": "https://john-millikin.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4c6bb401-ff09-4bce-a6d2-d598777a0ce2",
+      "title": "fastcat - A Faster 'cat' Implementation Using Splice",
+      "content_text": "Lots of people asked me to write another piece about the internals of well-known Unix commands. Well, actually, nobody asked me, but it makes for a good intro. I'm sure you’ve read the previous parts about yes and ls — they are awesome.\n\nAnyway, today we talk about cat, which is used to concatenate files - or, more commonly, abused to print a file's contents to the screen.",
+      "url": "https://matthias-endler.de/2018/fastcat/",
+      "tweet_url": "https://twitter.com/matthiasendler/status/1024392487723524101",
+      "date_published": "2018-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://matthias-endler.de/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "5473f9e8-40a8-43fe-956e-e84678267c90",
+      "title": "BetaFPV F3 Drone Flight Controller - Board Support Crate",
+      "content_text": "In a previous blog post I described how to get a very simple Rust program compiling for and running on the BetaFPV F3 drone flight controller. Since that time I’ve been working to create a board support crate to provide a high level API for the board.",
+      "url": "https://www.joshmcguigan.com/blog/betafpv-drone-flight-controller-board-support-crate/",
+      "date_published": "2018-07-31T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "14507477-073a-4055-a2de-b0e4c4fd2ad5",
+      "title": "Announcing Vagga 0.8.1 – PaulColomiets",
+      "content_text": "We are excited to announce the next version of vagga, the containerization tool that makes setting up development environments easy and fun. This release brings local overrides for vagga commands, support of ubuntu bionic, better CI support, space reuse between multiple projects, and more.",
+      "url": "https://medium.com/@paulcolomiets/announcing-vagga-0-8-1-5e1fd44ee6fa",
+      "tweet_url": "https://twitter.com/PaulColomiets/status/1024380452986134528",
+      "date_published": "2018-07-31T19:39:25.963+00:00",
+      "author": {
+        "name": "PaulColomiets",
+        "url": "https://medium.com/@paulcolomiets"
+      },
+      "tags": [
+        "Tools and Applications",
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "55adde79-edfa-433f-8c4f-40f2baee7cd9",
+      "title": "warp",
+      "content_text": "Over the past several months, I’ve been working a web framework in Rust. I wanted to make use of the new hyper 0.12 changes, so the framework is just as fast, is asynchronous, and benefits from all the improvements found powering Linkerd. More importantly, I wanted there to be a reason for making a new framework; it couldn’t just be yet another framework with the only difference being I’ve written it. Instead, the way this framework is used is quite different than many that exist. In doing so, it expresses a strong opinion, which might not match your previous experiences, but I believe it manages to do something really special.\n\nI’m super excited to reveal warp, a joint project with @carllerche.",
+      "url": "http://seanmonstar.com/post/176530511587/warp",
+      "tweet_url": "https://twitter.com/seanmonstar/status/1024772899197136896",
+      "date_published": "2018-08-01T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "1220a3b8-605c-4d1d-8c38-163bd5a8f02e",
       "title": "Rust and OpenGL from scratch, a blog post series about building an OpenGL renderer with Rust",
       "content_text": "I titled this post “from scratch”, because I am going to assume little knowledge of Rust and basic knowledge of 3D graphics and OpenGL.\n\nTherefore, this tutorial may teach you basic Rust and how to get Rust working with OpenGL, however for in-depth OpenGL learning you will need another tutorial or book.\n\n“From Scratch” also means that we will try to build abstractions ourselves, so that we get better knowledge of Rust. In addition to that, we will able to follow existing OpenGL tutorials, because we will know exactly what OpenGL functions we are calling.",
