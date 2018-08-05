@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e20d8f7a-53c3-45c8-b16e-ac25a20ff548",
+      "title": "Working on the Embedded Rust Book",
+      "content_text": "TL;DR: Up to now, I haven't had as much time or motivation as I would have like to contribute to the Embedded Rust Book. However, I am excited to see the initial version of the book launch with the 2018 edition of Rust (which will ship with stable support for embedded)!, so I will be committing to write one chapter per two weeks, until the end of the year.\n\nRead below for my plan, and how you can help!",
+      "url": "https://jamesmunns.com/blog/working-on-the-book/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://jamesmunns.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "5473f9e8-40a8-43fe-956e-e84678267c90",
       "title": "BetaFPV F3 Drone Flight Controller - Board Support Crate",
       "content_text": "In a previous blog post I described how to get a very simple Rust program compiling for and running on the BetaFPV F3 drone flight controller. Since that time I’ve been working to create a board support crate to provide a high level API for the board.",

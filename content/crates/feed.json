@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "c1718910-2677-4da4-a45f-a8bd055fe075",
+      "title": "Gutenberg 0.4.0: custom taxonomies, image processing and more",
+      "content_text": "Gutenberg 0.4.0 is out with custom taxonomies, image processing, improved shortcodes and more.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-gutenberg-0-4-0/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": "https://www.vincentprouillet.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
       "id": "0a171d26-74e1-491c-befd-e02ac528c1ff",
       "title": "#[derive(Debug)] on serde steroids",
       "content_text": "In this post I'd like to introduce a serdebug helper which is a drop-in replacement for #[derive(Debug)] with some of the advanced features that serde can provide.",

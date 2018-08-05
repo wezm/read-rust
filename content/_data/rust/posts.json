@@ -10,6 +10,125 @@
   },
   "items": [
     {
+      "id": "e20d8f7a-53c3-45c8-b16e-ac25a20ff548",
+      "title": "Working on the Embedded Rust Book",
+      "content_text": "TL;DR: Up to now, I haven't had as much time or motivation as I would have like to contribute to the Embedded Rust Book. However, I am excited to see the initial version of the book launch with the 2018 edition of Rust (which will ship with stable support for embedded)!, so I will be committing to write one chapter per two weeks, until the end of the year.\n\nRead below for my plan, and how you can help!",
+      "url": "https://jamesmunns.com/blog/working-on-the-book/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://jamesmunns.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "58e93b1c-f7b4-440f-88fb-fa5ab900f1c6",
+      "title": "Rust and the Case of the Redundant Comparison",
+      "content_text": "A couple of days ago I landed my second pull request in the Rust Programming Language repository. This is the story of how that went. This post is inspired by other posts about improving the Rust compiler.",
+      "url": "https://blog.dend.ro/rust-and-the-case-of-the-redundant-comparison/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "dend",
+        "url": "https://blog.dend.ro/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "18d063ca-b781-400f-9e5f-1534b5b90630",
+      "title": "CLion IDE Rust plugin update: language support improvements, new quick-fixes, improved debugger and more",
+      "content_text": "CLion 2018.2 was released just recently. Along with the release, the Rust plugin has had an update! In this blog post, we’d like to highlight some of the main improvements in the plugin.",
+      "url": "https://blog.jetbrains.com/clion/2018/08/intellij-rust-update-2018_2/",
+      "tweet_url": "https://twitter.com/clion_ide/status/1024974337005236225",
+      "date_published": "2018-08-02T11:01:28+00:00",
+      "author": {
+        "name": "Anastasia Kazakova",
+        "url": "https://blog.jetbrains.com/clion/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "02647906-fc14-42ea-87ec-19fc717cb3d7",
+      "title": "Some Slight Improvements",
+      "content_text": "Today I want to talk about two Rust PRs I recently wrote. The PRs in question are #52942 and #52997. Both are relatively small changes to Rust’s internally used data structures that improve performance and readability. Both have some basic benchmarks (the first one already had them and I wrote them for the second one), although it’s rather hard to gauge whether they really impacted compile times (as perf.rust-lang.org puts all changes of the specific day together). But that’s not the point I want to make right now.",
+      "url": "https://llogiq.github.io/2018/08/04/improve.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1025526748769906689",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c1718910-2677-4da4-a45f-a8bd055fe075",
+      "title": "Gutenberg 0.4.0: custom taxonomies, image processing and more",
+      "content_text": "Gutenberg 0.4.0 is out with custom taxonomies, image processing, improved shortcodes and more.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-gutenberg-0-4-0/",
+      "tweet_url": "https://twitter.com/20100Prouillet/status/1025733254517870600",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": "https://www.vincentprouillet.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
+      "id": "924567bd-54c7-429d-84a6-db7b8b9221f1",
+      "title": "How to run Rust in OpenFaaS",
+      "content_text": "OpenFaaS is an open source implementation of Function as a Service (Serverless Functions, microservices) that you can self host. Rather than list all the various offerings in this space, I'll refer you to the Cloud Native Computing Foundation, in particular the interactive Landscape.\n\nYou can either deploy existing functions or create new ones. If you create new ones, there's a big list of officially supported languages. Alternative you could turn a CLI into function.\n\nOnce I'd given Python and Ruby a go as an introduction, I wanted to see how easy it would be to create a Rust template.",
+      "url": "https://booyaa.wtf/2018/run-rust-in-openfaas/",
+      "tweet_url": "https://twitter.com/booyaa/status/1025762181701410822",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Mark Sta Ana",
+        "url": "https://booyaa.wtf/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "2cc12b2e-22fb-461a-be01-ffeab54caa9f",
+      "title": "Solving the Generalized Streaming Iterator Problem without GATs",
+      "content_text": "Generic Associated Types (GATs for short) are a long awaited extension to Rust’s type system. They offer a way to work with higher kinded types – a necessity in a couple of situations. A common example is the streaming iterator: an iterator able to return items borrowing from self (the iterator itself). Unfortunately, GATs haven’t even landed in nightly yet. So while are waiting, we can try tackling the streaming iterator problem without GATs. In this post we explore three possible workarounds for situations where an associated type depends on the lifetime of a &self receiver.",
+      "url": "http://lukaskalbertodt.github.io/2018/08/03/solving-the-generalized-streaming-iterator-problem-without-gats.html",
+      "tweet_url": "https://twitter.com/LukasKalbertodt/status/1025741992003883008",
+      "date_published": "2018-08-03T00:00:00+00:00",
+      "author": {
+        "name": "Lukas Kalbertodt",
+        "url": "http://lukaskalbertodt.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1bc929f4-2800-466c-bd70-fb73f7b70ef8",
+      "title": "Easily Analyzing Your S3 Buckets",
+      "content_text": "mazon S3 is a storage solution used by pretty much everyone these days. Due to this there are naturally a bunch of tools for doing almost everything you can think of with S3. This post is about a tool I wrote to retrieve metadata about S3 buckets. If you don't care for the post, feel free to skip straight to the repo.",
+      "url": "http://whitfin.io/analyzing-your-buckets-with-s3-meta/",
+      "tweet_url": "https://twitter.com/_whitfin/status/1025802595967762432",
+      "date_published": "2018-08-04T17:44:06+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "92d89e3b-be0d-4f75-b335-79e26b2373e5",
       "title": "Let's code with the Roguelike tutorial - Part 7 - Enhancing the UI",
       "content_text": "Up to now, all the rendering code has been in the game loop in the main function. The rendering code is simple and straightforward, so, while it should have been extracted into its own function, there wasn't a pressing need to do so. Now that I'm going to enhance the UI, the rendering needs to be extracted.",

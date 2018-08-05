@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "18d063ca-b781-400f-9e5f-1534b5b90630",
+      "title": "CLion IDE Rust plugin update: language support improvements, new quick-fixes, improved debugger and more",
+      "content_text": "CLion 2018.2 was released just recently. Along with the release, the Rust plugin has had an update! In this blog post, we’d like to highlight some of the main improvements in the plugin.",
+      "url": "https://blog.jetbrains.com/clion/2018/08/intellij-rust-update-2018_2/",
+      "date_published": "2018-08-02T11:01:28+00:00",
+      "author": {
+        "name": "Anastasia Kazakova",
+        "url": "https://blog.jetbrains.com/clion/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c1718910-2677-4da4-a45f-a8bd055fe075",
+      "title": "Gutenberg 0.4.0: custom taxonomies, image processing and more",
+      "content_text": "Gutenberg 0.4.0 is out with custom taxonomies, image processing, improved shortcodes and more.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-gutenberg-0-4-0/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": "https://www.vincentprouillet.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Crates"
+      ]
+    },
+    {
+      "id": "1bc929f4-2800-466c-bd70-fb73f7b70ef8",
+      "title": "Easily Analyzing Your S3 Buckets",
+      "content_text": "mazon S3 is a storage solution used by pretty much everyone these days. Due to this there are naturally a bunch of tools for doing almost everything you can think of with S3. This post is about a tool I wrote to retrieve metadata about S3 buckets. If you don't care for the post, feel free to skip straight to the repo.",
+      "url": "http://whitfin.io/analyzing-your-buckets-with-s3-meta/",
+      "date_published": "2018-08-04T17:44:06+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "81096070-a563-47a0-8f09-2e5fb3c1b984",
       "title": "Sequoia, a new OpenPGP implementation",
       "content_text": "This past fall, three former GnuPG developers began working on a new OpenPGP implementation in Rust called Sequoia. As it’s starting to shape up and become useful, I feel now is a good time to announce the project to the larger Rust community, and hopefully get some feedback before our first release.",

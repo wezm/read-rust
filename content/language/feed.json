@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "58e93b1c-f7b4-440f-88fb-fa5ab900f1c6",
+      "title": "Rust and the Case of the Redundant Comparison",
+      "content_text": "A couple of days ago I landed my second pull request in the Rust Programming Language repository. This is the story of how that went. This post is inspired by other posts about improving the Rust compiler.",
+      "url": "https://blog.dend.ro/rust-and-the-case-of-the-redundant-comparison/",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "dend",
+        "url": "https://blog.dend.ro/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "02647906-fc14-42ea-87ec-19fc717cb3d7",
+      "title": "Some Slight Improvements",
+      "content_text": "Today I want to talk about two Rust PRs I recently wrote. The PRs in question are #52942 and #52997. Both are relatively small changes to Rust’s internally used data structures that improve performance and readability. Both have some basic benchmarks (the first one already had them and I wrote them for the second one), although it’s rather hard to gauge whether they really impacted compile times (as perf.rust-lang.org puts all changes of the specific day together). But that’s not the point I want to make right now.",
+      "url": "https://llogiq.github.io/2018/08/04/improve.html",
+      "date_published": "2018-08-04T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2cc12b2e-22fb-461a-be01-ffeab54caa9f",
+      "title": "Solving the Generalized Streaming Iterator Problem without GATs",
+      "content_text": "Generic Associated Types (GATs for short) are a long awaited extension to Rust’s type system. They offer a way to work with higher kinded types – a necessity in a couple of situations. A common example is the streaming iterator: an iterator able to return items borrowing from self (the iterator itself). Unfortunately, GATs haven’t even landed in nightly yet. So while are waiting, we can try tackling the streaming iterator problem without GATs. In this post we explore three possible workarounds for situations where an associated type depends on the lifetime of a &self receiver.",
+      "url": "http://lukaskalbertodt.github.io/2018/08/03/solving-the-generalized-streaming-iterator-problem-without-gats.html",
+      "date_published": "2018-08-03T00:00:00+00:00",
+      "author": {
+        "name": "Lukas Kalbertodt",
+        "url": "http://lukaskalbertodt.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f7eba5d3-ef85-47cb-88ec-345cf3c46ade",
       "title": "Rust concurrency patterns: Natural Born Pipelines",
       "content_text": "There seems to be demand for a “Rust concurrent pipeline” guide à la https://blog.golang.org/pipelines, so let’s give it a try.",
