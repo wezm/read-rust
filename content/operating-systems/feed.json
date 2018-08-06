@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
+      "title": "The State of Rust on Haiku",
+      "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",
+      "url": "https://www.haiku-os.org/blog/nielx/2018-07-05_the_state_of_rust_on_haiku/",
+      "date_published": "2018-07-05T07:31:51+02:00",
+      "author": {
+        "name": "nielx",
+        "url": "https://www.haiku-os.org/blog/"
+      },
+      "tags": [
+        "Operating Systems",
+        "Language"
+      ]
+    },
+    {
+      "id": "382f988d-9fe3-4525-9b21-0c6cb4373303",
+      "title": "RSoC: Porting Redox to ARM (AArch64) — 0x02",
+      "content_text": "At the time of writing the previous blog the plan was to target the Raspberry Pi 3 (Cortex A53) as a development platform because of its availability, popularity and community. Sadly, it seems that Broadcom went through a lot of shortcuts while implementing this specific design, which means features like GIC are half-there or completely missing, like in this case.\n\nAfter a discussion with @microcolonel, he proposed and kindly sent me a HiKey960 reference SoC from the awesome Linaro 96Boards initiative. The quality of this board is definitely a lot better than the Raspberry Pi and the documentation is detailed and open. Great stuff.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-arm-aarch64-0x02-c566ee22f377",
+      "date_published": "2018-08-05T22:39:42.784+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
       "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
       "title": "Signal Hook: Unix signal hanadling in Rust",
       "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",

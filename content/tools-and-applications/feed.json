@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d32e6dac-51d6-4ede-9a7f-10f0bea2ca8a",
+      "title": "Bioyino — a distributed, scalable metric aggregator",
+      "content_text": "So, you collect metrics. So do we. Yep, we also collect them. We can assure you that they are not useless at all, business guys do need…",
+      "url": "https://medium.com/avitotech/bioyino-a-distributed-scalable-statsd-3445acb177eb",
+      "date_published": "2018-07-05T10:07:52.180+00:00",
+      "author": {
+        "name": "Sergey N",
+        "url": "https://medium.com/@albibek"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "18d063ca-b781-400f-9e5f-1534b5b90630",
       "title": "CLion IDE Rust plugin update: language support improvements, new quick-fixes, improved debugger and more",
       "content_text": "CLion 2018.2 was released just recently. Along with the release, the Rust plugin has had an update! In this blog post, we’d like to highlight some of the main improvements in the plugin.",

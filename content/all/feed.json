@@ -10,6 +10,109 @@
   },
   "items": [
     {
+      "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
+      "title": "The State of Rust on Haiku",
+      "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",
+      "url": "https://www.haiku-os.org/blog/nielx/2018-07-05_the_state_of_rust_on_haiku/",
+      "date_published": "2018-07-05T07:31:51+02:00",
+      "author": {
+        "name": "nielx",
+        "url": "https://www.haiku-os.org/blog/"
+      },
+      "tags": [
+        "Operating Systems",
+        "Language"
+      ]
+    },
+    {
+      "id": "d32e6dac-51d6-4ede-9a7f-10f0bea2ca8a",
+      "title": "Bioyino — a distributed, scalable metric aggregator",
+      "content_text": "So, you collect metrics. So do we. Yep, we also collect them. We can assure you that they are not useless at all, business guys do need…",
+      "url": "https://medium.com/avitotech/bioyino-a-distributed-scalable-statsd-3445acb177eb",
+      "date_published": "2018-07-05T10:07:52.180+00:00",
+      "author": {
+        "name": "Sergey N",
+        "url": "https://medium.com/@albibek"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b5717efe-ad7b-4b02-8554-aba801aff909",
+      "title": "Amethyst 0.8 has been released!",
+      "content_text": "With a brand new tutorial and a ton of new features, including prefabs, controller support, MP3 audio, localisation and an even better ergonomics!",
+      "url": "https://www.amethyst.rs/blog/release-0-8/",
+      "date_published": "2018-08-05T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
+      "id": "382f988d-9fe3-4525-9b21-0c6cb4373303",
+      "title": "RSoC: Porting Redox to ARM (AArch64) — 0x02",
+      "content_text": "At the time of writing the previous blog the plan was to target the Raspberry Pi 3 (Cortex A53) as a development platform because of its availability, popularity and community. Sadly, it seems that Broadcom went through a lot of shortcuts while implementing this specific design, which means features like GIC are half-there or completely missing, like in this case.\n\nAfter a discussion with @microcolonel, he proposed and kindly sent me a HiKey960 reference SoC from the awesome Linaro 96Boards initiative. The quality of this board is definitely a lot better than the Raspberry Pi and the documentation is detailed and open. Great stuff.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-arm-aarch64-0x02-c566ee22f377",
+      "date_published": "2018-08-05T22:39:42.784+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "7d6c2d9c-16c8-42be-93d5-d61cc9dac117",
+      "title": "Rust Modules In Less Than 5 Minutes",
+      "content_text": "When I started learning Rust, the module system did not at first seem to be a shining beacon of intuitive design. The Rust documentation is phenomenal, but there are definitely some areas that I found difficult to follow; this being one such topic. So I thought I might take a stab at writing up a guide that I think would have helped me through the awkward growing pains a bit quicker.",
+      "url": "https://medium.com/@erik.tate/rust-modules-in-less-than-5-minutes-9bff7f617798",
+      "date_published": "2018-08-05T23:49:43.586+00:00",
+      "author": {
+        "name": "Erik Tate",
+        "url": "https://medium.com/@erik.tate"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "078a2508-9729-477b-915e-3a72fb6f66e9",
+      "title": "Learning Rust 02: an ls clone",
+      "content_text": "In this post, I’m building an ls clone. It’s pretty similar to the last post’s pwd clone. It’s called rls.",
+      "url": "https://routley.io/tech/2018/07/08/learning-rust-02.html",
+      "date_published": "2018-07-08T00:00:00+01:00",
+      "author": {
+        "name": " James Routley",
+        "url": "https://routley.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "ecb8cd2e-5804-4876-a5c6-c30cbf1c93fa",
+      "title": "Cross compiling Rust for ARM (e.g. Raspberry Pi) using any OS!",
+      "content_text": "Here is a small walkthrough, on how to use Mac OSx, Linux or even Windows (hey not tested but I am sure you can make it work, the tools are the same) to compile your Rust marvellousness and run the binary directly on the Raspberry Pi (2/3/3+).",
+      "url": "https://medium.com/@wizofe/cross-compiling-rust-for-arm-e-g-raspberry-pi-using-any-os-11711ebfc52b",
+      "date_published": "2018-07-07T21:54:26.332+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Embedded"
+      ]
+    },
+    {
       "id": "e20d8f7a-53c3-45c8-b16e-ac25a20ff548",
       "title": "Working on the Embedded Rust Book",
       "content_text": "TL;DR: Up to now, I haven't had as much time or motivation as I would have like to contribute to the Embedded Rust Book. However, I am excited to see the initial version of the book launch with the 2018 edition of Rust (which will ship with stable support for embedded)!, so I will be committing to write one chapter per two weeks, until the end of the year.\n\nRead below for my plan, and how you can help!",

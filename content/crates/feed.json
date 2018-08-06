@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "b5717efe-ad7b-4b02-8554-aba801aff909",
+      "title": "Amethyst 0.8 has been released!",
+      "content_text": "With a brand new tutorial and a ton of new features, including prefabs, controller support, MP3 audio, localisation and an even better ergonomics!",
+      "url": "https://www.amethyst.rs/blog/release-0-8/",
+      "date_published": "2018-08-05T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "c1718910-2677-4da4-a45f-a8bd055fe075",
       "title": "Gutenberg 0.4.0: custom taxonomies, image processing and more",
       "content_text": "Gutenberg 0.4.0 is out with custom taxonomies, image processing, improved shortcodes and more.",

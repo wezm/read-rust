@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "382f988d-9fe3-4525-9b21-0c6cb4373303",
+      "title": "RSoC: Porting Redox to ARM (AArch64) — 0x02",
+      "content_text": "At the time of writing the previous blog the plan was to target the Raspberry Pi 3 (Cortex A53) as a development platform because of its availability, popularity and community. Sadly, it seems that Broadcom went through a lot of shortcuts while implementing this specific design, which means features like GIC are half-there or completely missing, like in this case.\n\nAfter a discussion with @microcolonel, he proposed and kindly sent me a HiKey960 reference SoC from the awesome Linaro 96Boards initiative. The quality of this board is definitely a lot better than the Raspberry Pi and the documentation is detailed and open. Great stuff.",
+      "url": "https://medium.com/@wizofe/rsoc-porting-redox-to-arm-aarch64-0x02-c566ee22f377",
+      "date_published": "2018-08-05T22:39:42.784+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "ecb8cd2e-5804-4876-a5c6-c30cbf1c93fa",
+      "title": "Cross compiling Rust for ARM (e.g. Raspberry Pi) using any OS!",
+      "content_text": "Here is a small walkthrough, on how to use Mac OSx, Linux or even Windows (hey not tested but I am sure you can make it work, the tools are the same) to compile your Rust marvellousness and run the binary directly on the Raspberry Pi (2/3/3+).",
+      "url": "https://medium.com/@wizofe/cross-compiling-rust-for-arm-e-g-raspberry-pi-using-any-os-11711ebfc52b",
+      "date_published": "2018-07-07T21:54:26.332+00:00",
+      "author": {
+        "name": "ioannis valasakis",
+        "url": "https://medium.com/@wizofe"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Embedded"
+      ]
+    },
+    {
       "id": "e20d8f7a-53c3-45c8-b16e-ac25a20ff548",
       "title": "Working on the Embedded Rust Book",
       "content_text": "TL;DR: Up to now, I haven't had as much time or motivation as I would have like to contribute to the Embedded Rust Book. However, I am excited to see the initial version of the book launch with the 2018 edition of Rust (which will ship with stable support for embedded)!, so I will be committing to write one chapter per two weeks, until the end of the year.\n\nRead below for my plan, and how you can help!",

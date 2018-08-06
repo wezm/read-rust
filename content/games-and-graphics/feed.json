@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "b5717efe-ad7b-4b02-8554-aba801aff909",
+      "title": "Amethyst 0.8 has been released!",
+      "content_text": "With a brand new tutorial and a ton of new features, including prefabs, controller support, MP3 audio, localisation and an even better ergonomics!",
+      "url": "https://www.amethyst.rs/blog/release-0-8/",
+      "date_published": "2018-08-05T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "92d89e3b-be0d-4f75-b335-79e26b2373e5",
       "title": "Let's code with the Roguelike tutorial - Part 7 - Enhancing the UI",
       "content_text": "Up to now, all the rendering code has been in the game loop in the main function. The rendering code is simple and straightforward, so, while it should have been extracted into its own function, there wasn't a pressing need to do so. Now that I'm going to enhance the UI, the rendering needs to be extracted.",

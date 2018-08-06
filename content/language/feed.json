@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
+      "title": "The State of Rust on Haiku",
+      "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",
+      "url": "https://www.haiku-os.org/blog/nielx/2018-07-05_the_state_of_rust_on_haiku/",
+      "date_published": "2018-07-05T07:31:51+02:00",
+      "author": {
+        "name": "nielx",
+        "url": "https://www.haiku-os.org/blog/"
+      },
+      "tags": [
+        "Operating Systems",
+        "Language"
+      ]
+    },
+    {
+      "id": "7d6c2d9c-16c8-42be-93d5-d61cc9dac117",
+      "title": "Rust Modules In Less Than 5 Minutes",
+      "content_text": "When I started learning Rust, the module system did not at first seem to be a shining beacon of intuitive design. The Rust documentation is phenomenal, but there are definitely some areas that I found difficult to follow; this being one such topic. So I thought I might take a stab at writing up a guide that I think would have helped me through the awkward growing pains a bit quicker.",
+      "url": "https://medium.com/@erik.tate/rust-modules-in-less-than-5-minutes-9bff7f617798",
+      "date_published": "2018-08-05T23:49:43.586+00:00",
+      "author": {
+        "name": "Erik Tate",
+        "url": "https://medium.com/@erik.tate"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
       "id": "58e93b1c-f7b4-440f-88fb-fa5ab900f1c6",
       "title": "Rust and the Case of the Redundant Comparison",
       "content_text": "A couple of days ago I landed my second pull request in the Rust Programming Language repository. This is the story of how that went. This post is inspired by other posts about improving the Rust compiler.",
