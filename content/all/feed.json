@@ -10,6 +10,161 @@
   },
   "items": [
     {
+      "id": "577e9c57-0455-41c6-9711-be71bf55e550",
+      "title": "intl_pluralrules: A Rust Crate for Handling Plural Forms with CLDR Plural Rules",
+      "content_text": "intl_pluralrules is a Rust crate, built to handle pluralization. Pluralization is the foundation for all localization and many internationalization APIs. With the addition of intl_pluralrules, any locale-aware date-, time- or unit-formatting (“1 second” vs “2 seconds”) and many other pluralization-dependent APIs can be added to Rust.",
+      "url": "https://blog.mozilla.org/l10n/2018/08/03/intl_pluralrules-a-rust-crate-for-handling-plural-forms-with-cldr-plural-rules/",
+      "date_published": "2018-08-03T23:30:19+00:00",
+      "author": {
+        "name": "Kekoa Riggin",
+        "url": "https://blog.mozilla.org/l10n/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2182c554-41eb-4ee7-a1de-11eb90a8223d",
+      "title": "A small custom Bool Type in Diesel",
+      "content_text": "I’ve been working with diesel and serde. I use diesel for my postgres datastore, and serde for serializing/deserializing data to the web. Recently I came across a situation where I needed to define my type in diesel as well as implement deserialize in serde. The example below is a fairly simple so it makes for a good example to share so others can learn (and so I can remember how all this works next time I need it).",
+      "url": "https://noyez.gitlab.io/post/2018-08-05-a-small-custom-bool-type-in-diesel/",
+      "date_published": "2018-08-05T00:00:00+00:00",
+      "author": {
+        "name": "Noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "c7f57579-ce36-4d54-86a4-9aa4a6c1cadd",
+      "title": "So You Want to Build a Language VM - Part 00",
+      "content_text": "A Brief Course in Computer Hardware. This is the prelude to a series of posts to detailing how to build a language VM. If you are familiar with terms like registers, program counter, and assembly, feel free to skip this post. If not, read on.",
+      "url": "https://blog.subnetzero.io/post/building-language-vm-part-00/",
+      "date_published": "2018-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Fletcher Haynes",
+        "url": "https://blog.subnetzero.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4f9e9645-78dc-4c18-a504-653e96a0c960",
+      "title": "That weekend I wasted on newtyped indices",
+      "content_text": "Today, ajyne posted a thread on users.rust-lang.org asking: What have been the drawbacks of static typing for you? Kornel was quick to reply with a variety of points, but this one in particular stands out to me, \"With powerful type systems there’s no end to how far you can go to guarantee things about your program, but you might create a complex monster\". As I see it, there is no truer answer. The type system can be a seductive beast, often promising correctness and performance at the low-low, one-time cost of your soul. I personally can name a number of examples from my own code base where I tried to abstract over something too big and failed. I call these my wasted weekends.",
+      "url": "https://exphp.github.io/2018/07/30/that-weekend-i-wasted-on-newtyped-indices.html",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7161b1be-54de-4776-857e-3ef78df24125",
+      "title": "Pax: A fast dev time JavaScript bundler",
+      "content_text": "Don’t waste time waiting for your bundler to do its thing. Use Pax while you’re developing, and iterate to your heart’s content. Use your super-cool, magical, slow-as-molasses bundler for releases, when you don’t care how long it takes to run.",
+      "url": "https://pax.js.org/",
+      "date_published": "2018-07-25T12:59:16+00:00",
+      "author": {
+        "name": "Nathan",
+        "url": "https://pax.js.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1e54b1bb-953c-4149-b09c-9d1d3f7046cf",
+      "title": "glitchcat — Creating CLI apps in Rust is super easy",
+      "content_text": "glitchcat is a cat-like program with glitch animation.",
+      "url": "https://blog.kuviman.com/2018/07/20/glitchcat.html",
+      "date_published": "2018-07-20T00:00:00+00:00",
+      "author": {
+        "name": "kuviman",
+        "url": "https://blog.kuviman.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "a3f0bd42-0a42-4156-9fd6-74aebe5f0465",
+      "title": "nphysics: 2D and 3D real-time physics engine",
+      "content_text": "I’m excited to announce the brand new website/user-guide for the nphysics2d and nphysics3d crates: pure-rust 2D and 3D real-time physics engines with rigid bodies and joints! Online wasm-based demos are also provided (see for example the Multibody joints 34 demo).",
+      "url": "http://nphysics.org/",
+      "date_published": "2018-07-29T03:46:07+10:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "http://nphysics.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
+      "id": "ea8d1190-c763-4f38-8181-1fc86193bfe4",
+      "title": "Exploring inband lifetimes by converting librustc_mir",
+      "content_text": "Inband lifetimes is a limited change, and does not feel like it greatly enhances code. However, it also doesn’t hurt much and feels slightly better in many cases.\n\nHowever, there are numerous edge cases and slight pain points, many having to do with a lack of known standard ways to do things. As such, many of the edge cases are likely to fall away as we develop after stabilization and come up with standard methods to work with the new feature.\n\nThe primary work to migrate is essentially just deleting ~all lifetime headers (<'a, 'b, 'c>) across impls and functions. More intensive migration would involve replacing untied/single-use lifetimes with '_ in all cases. This is quite hard to do from a person perspective (though compiler can likely do so fairly easily).",
+      "url": "https://mark-simulacrum.github.io/2018/07/19/inband-lifetimes.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Mark Rousskov",
+        "url": "https://mark-simulacrum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b5f6a958-c0bd-4ea9-a1ae-d8e4f5549719",
+      "title": "Stacked Borrows: An Aliasing Model For Rust",
+      "content_text": "In this post, I am proposing “Stacked Borrows”: A set of rules defining which kinds of aliasing are allowed in Rust. This is intended to answer the question which pointer may be used when to perform which kinds of memory accesses.",
+      "url": "https://www.ralfj.de/blog/2018/08/07/stacked-borrows.html",
+      "date_published": "2018-08-07T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "59c63ab5-9b88-498e-a6ce-989f77bcdffe",
+      "title": "Enforcing style in CI for Rust Projects",
+      "content_text": "This article will attempt to help you avoid the debate entirely, at least in your Rust projects, by explaining how you can use the rustfmt tool to enforce style guidelines using CI. We’ll start with a brief introduction to rustfmt, so feel free to skip the next section if you are already familiar.",
+      "url": "https://medium.com/@ag_dubs/enforcing-style-in-ci-for-rust-projects-18f6b09ec69d",
+      "date_published": "2018-07-10T22:03:24.240+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://medium.com/@ag_dubs"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85ab7e93-7bbc-43ef-be5f-5decca1b4651",
+      "title": "Introducing PrrrStack, Pt. 2",
+      "content_text": "In the first article of this series, we created a RestAPI for our application using Postgres, Rust, and Rocket. For the second half, we’ll be using React to create the front end.",
+      "url": "https://medium.com/@ccrsh/introducing-prrrstack-pt-2-24704b5763b2",
+      "date_published": "2018-07-09T12:35:32.505+00:00",
+      "author": {
+        "name": "Crash Springfield",
+        "url": "https://medium.com/@ccrsh"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
       "title": "The State of Rust on Haiku",
       "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",

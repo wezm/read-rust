@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "4f9e9645-78dc-4c18-a504-653e96a0c960",
+      "title": "That weekend I wasted on newtyped indices",
+      "content_text": "Today, ajyne posted a thread on users.rust-lang.org asking: What have been the drawbacks of static typing for you? Kornel was quick to reply with a variety of points, but this one in particular stands out to me, \"With powerful type systems there’s no end to how far you can go to guarantee things about your program, but you might create a complex monster\". As I see it, there is no truer answer. The type system can be a seductive beast, often promising correctness and performance at the low-low, one-time cost of your soul. I personally can name a number of examples from my own code base where I tried to abstract over something too big and failed. I call these my wasted weekends.",
+      "url": "https://exphp.github.io/2018/07/30/that-weekend-i-wasted-on-newtyped-indices.html",
+      "date_published": "2018-07-30T00:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ea8d1190-c763-4f38-8181-1fc86193bfe4",
+      "title": "Exploring inband lifetimes by converting librustc_mir",
+      "content_text": "Inband lifetimes is a limited change, and does not feel like it greatly enhances code. However, it also doesn’t hurt much and feels slightly better in many cases.\n\nHowever, there are numerous edge cases and slight pain points, many having to do with a lack of known standard ways to do things. As such, many of the edge cases are likely to fall away as we develop after stabilization and come up with standard methods to work with the new feature.\n\nThe primary work to migrate is essentially just deleting ~all lifetime headers (<'a, 'b, 'c>) across impls and functions. More intensive migration would involve replacing untied/single-use lifetimes with '_ in all cases. This is quite hard to do from a person perspective (though compiler can likely do so fairly easily).",
+      "url": "https://mark-simulacrum.github.io/2018/07/19/inband-lifetimes.html",
+      "date_published": "2018-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Mark Rousskov",
+        "url": "https://mark-simulacrum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b5f6a958-c0bd-4ea9-a1ae-d8e4f5549719",
+      "title": "Stacked Borrows: An Aliasing Model For Rust",
+      "content_text": "In this post, I am proposing “Stacked Borrows”: A set of rules defining which kinds of aliasing are allowed in Rust. This is intended to answer the question which pointer may be used when to perform which kinds of memory accesses.",
+      "url": "https://www.ralfj.de/blog/2018/08/07/stacked-borrows.html",
+      "date_published": "2018-08-07T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "59c63ab5-9b88-498e-a6ce-989f77bcdffe",
+      "title": "Enforcing style in CI for Rust Projects",
+      "content_text": "This article will attempt to help you avoid the debate entirely, at least in your Rust projects, by explaining how you can use the rustfmt tool to enforce style guidelines using CI. We’ll start with a brief introduction to rustfmt, so feel free to skip the next section if you are already familiar.",
+      "url": "https://medium.com/@ag_dubs/enforcing-style-in-ci-for-rust-projects-18f6b09ec69d",
+      "date_published": "2018-07-10T22:03:24.240+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://medium.com/@ag_dubs"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
       "title": "The State of Rust on Haiku",
       "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "85ab7e93-7bbc-43ef-be5f-5decca1b4651",
+      "title": "Introducing PrrrStack, Pt. 2",
+      "content_text": "In the first article of this series, we created a RestAPI for our application using Postgres, Rust, and Rocket. For the second half, we’ll be using React to create the front end.",
+      "url": "https://medium.com/@ccrsh/introducing-prrrstack-pt-2-24704b5763b2",
+      "date_published": "2018-07-09T12:35:32.505+00:00",
+      "author": {
+        "name": "Crash Springfield",
+        "url": "https://medium.com/@ccrsh"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "55adde79-edfa-433f-8c4f-40f2baee7cd9",
       "title": "warp",
       "content_text": "Over the past several months, I’ve been working a web framework in Rust. I wanted to make use of the new hyper 0.12 changes, so the framework is just as fast, is asynchronous, and benefits from all the improvements found powering Linkerd. More importantly, I wanted there to be a reason for making a new framework; it couldn’t just be yet another framework with the only difference being I’ve written it. Instead, the way this framework is used is quite different than many that exist. In doing so, it expresses a strong opinion, which might not match your previous experiences, but I believe it manages to do something really special.\n\nI’m super excited to reveal warp, a joint project with @carllerche.",

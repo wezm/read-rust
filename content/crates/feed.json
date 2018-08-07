@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "577e9c57-0455-41c6-9711-be71bf55e550",
+      "title": "intl_pluralrules: A Rust Crate for Handling Plural Forms with CLDR Plural Rules",
+      "content_text": "intl_pluralrules is a Rust crate, built to handle pluralization. Pluralization is the foundation for all localization and many internationalization APIs. With the addition of intl_pluralrules, any locale-aware date-, time- or unit-formatting (“1 second” vs “2 seconds”) and many other pluralization-dependent APIs can be added to Rust.",
+      "url": "https://blog.mozilla.org/l10n/2018/08/03/intl_pluralrules-a-rust-crate-for-handling-plural-forms-with-cldr-plural-rules/",
+      "date_published": "2018-08-03T23:30:19+00:00",
+      "author": {
+        "name": "Kekoa Riggin",
+        "url": "https://blog.mozilla.org/l10n/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2182c554-41eb-4ee7-a1de-11eb90a8223d",
+      "title": "A small custom Bool Type in Diesel",
+      "content_text": "I’ve been working with diesel and serde. I use diesel for my postgres datastore, and serde for serializing/deserializing data to the web. Recently I came across a situation where I needed to define my type in diesel as well as implement deserialize in serde. The example below is a fairly simple so it makes for a good example to share so others can learn (and so I can remember how all this works next time I need it).",
+      "url": "https://noyez.gitlab.io/post/2018-08-05-a-small-custom-bool-type-in-diesel/",
+      "date_published": "2018-08-05T00:00:00+00:00",
+      "author": {
+        "name": "Noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "a3f0bd42-0a42-4156-9fd6-74aebe5f0465",
+      "title": "nphysics: 2D and 3D real-time physics engine",
+      "content_text": "I’m excited to announce the brand new website/user-guide for the nphysics2d and nphysics3d crates: pure-rust 2D and 3D real-time physics engines with rigid bodies and joints! Online wasm-based demos are also provided (see for example the Multibody joints 34 demo).",
+      "url": "http://nphysics.org/",
+      "date_published": "2018-07-29T03:46:07+10:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "http://nphysics.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "b5717efe-ad7b-4b02-8554-aba801aff909",
       "title": "Amethyst 0.8 has been released!",
       "content_text": "With a brand new tutorial and a ton of new features, including prefabs, controller support, MP3 audio, localisation and an even better ergonomics!",

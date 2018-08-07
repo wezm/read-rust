@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7161b1be-54de-4776-857e-3ef78df24125",
+      "title": "Pax: A fast dev time JavaScript bundler",
+      "content_text": "Don’t waste time waiting for your bundler to do its thing. Use Pax while you’re developing, and iterate to your heart’s content. Use your super-cool, magical, slow-as-molasses bundler for releases, when you don’t care how long it takes to run.",
+      "url": "https://pax.js.org/",
+      "date_published": "2018-07-25T12:59:16+00:00",
+      "author": {
+        "name": "Nathan",
+        "url": "https://pax.js.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1e54b1bb-953c-4149-b09c-9d1d3f7046cf",
+      "title": "glitchcat — Creating CLI apps in Rust is super easy",
+      "content_text": "glitchcat is a cat-like program with glitch animation.",
+      "url": "https://blog.kuviman.com/2018/07/20/glitchcat.html",
+      "date_published": "2018-07-20T00:00:00+00:00",
+      "author": {
+        "name": "kuviman",
+        "url": "https://blog.kuviman.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "d32e6dac-51d6-4ede-9a7f-10f0bea2ca8a",
       "title": "Bioyino — a distributed, scalable metric aggregator",
       "content_text": "So, you collect metrics. So do we. Yep, we also collect them. We can assure you that they are not useless at all, business guys do need…",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "a3f0bd42-0a42-4156-9fd6-74aebe5f0465",
+      "title": "nphysics: 2D and 3D real-time physics engine",
+      "content_text": "I’m excited to announce the brand new website/user-guide for the nphysics2d and nphysics3d crates: pure-rust 2D and 3D real-time physics engines with rigid bodies and joints! Online wasm-based demos are also provided (see for example the Multibody joints 34 demo).",
+      "url": "http://nphysics.org/",
+      "date_published": "2018-07-29T03:46:07+10:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "http://nphysics.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "b5717efe-ad7b-4b02-8554-aba801aff909",
       "title": "Amethyst 0.8 has been released!",
       "content_text": "With a brand new tutorial and a ton of new features, including prefabs, controller support, MP3 audio, localisation and an even better ergonomics!",
