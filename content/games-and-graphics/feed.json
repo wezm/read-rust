@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "b7c9c3df-7ecd-41f3-8c89-5c1d35298b7b",
+      "title": "Journey into rust #1: Conway’s Game",
+      "content_text": "The language rust has been popping up on my twitter feed and my personal life more and more. It’s been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts “Journey into rust” will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.\n\nOn to the actual first post! After reading “the Rust Programming Language” I wanted to get my hands dirty and actually write some code. I like graphical applications and using low level graphics API’s so I decided to implement a cellular automation in rust. But just implementing cellular automation isn’t very exciting, is it? What if we could do this on the GPU…And off I went on my journey to create Conway’s game of life in rust.",
+      "url": "https://jonathansteyfkens.com/rust/opengl/graphics/2018/08/07/rust-conway-game-of-life.html",
+      "date_published": "2018-08-07T22:30:01+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "a3f0bd42-0a42-4156-9fd6-74aebe5f0465",
       "title": "nphysics: 2D and 3D real-time physics engine",
       "content_text": "I’m excited to announce the brand new website/user-guide for the nphysics2d and nphysics3d crates: pure-rust 2D and 3D real-time physics engines with rigid bodies and joints! Online wasm-based demos are also provided (see for example the Multibody joints 34 demo).",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "31c9d3c0-192b-45f2-922e-5b8d188683bc",
+      "title": "Xori - Custom disassembly framework",
+      "content_text": "Xori is an automation-ready disassembly and static analysis library that consumes shellcode or PE binaries and provides triage analysis data.",
+      "url": "https://sites.google.com/secured.org/malwareunicorn/xori",
+      "date_published": "2018-08-09T08:23:00+00:00",
+      "author": {
+        "name": "Amanda Rousseau and Rich Seymour",
+        "url": "https://sites.google.com/secured.org/malwareunicorn/xori"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "8a924e9f-d803-4e85-b2e8-92b5909c7695",
       "title": "Accelerating Edwards Curve Arithmetic with Parallel Formulas",
       "content_text": "The fastest formulas for elliptic curve operations were published by Hisil, Wong, Carter, and Dawson in their 2008 paper Twisted Edwards Curves Revisited. Their paper also describes a parallel version of their formulas, designed to execute four streams of instructions on four independent processors. Until now, these parallel formulas don’t seem to have been implemented in software. But a closer look reveals that slightly modifying the formulas allows the expensive instructions to be executed in uniform, making a vectorized SIMD implementation possible.\n\nI implemented this strategy in Rust, targeting 256-bit wide AVX2 operations. The resulting implementation performs double-base scalar multiplication faster than other Ed25519 implementations I tested, and is even faster than FourQ without endomorphisms",

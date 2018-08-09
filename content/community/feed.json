@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8cf7d62c-c8d9-4116-ae4c-7ac155d015cb",
+      "title": "Ideas for Rust Meetups",
+      "content_text": "Since I’m co-organizing the Rhein-Main Rust meetup (and am probably the main driving force behind it), I tought, it might be useful to share a few ideas we have that we have either already done, or plan doing – perhaps other meetup organizers can benefit from this. Note that our meetups usually run 2-4 hours, but some attendees may have to join late or leave early so the format has to take this into account.",
+      "url": "https://llogiq.github.io/2018/08/08/meetup-ideas.html",
+      "date_published": "2018-08-08T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "0e7e0d63-d08d-4b38-812b-d67b5b7f9d43",
       "title": "Sustainability",
       "content_text": "I’m at a fork again: my FOSS project responsibilities have grown so much that they encroach on other parts of my life. This includes time I should spend with company, clients and personal live. It leaves me with two options: shed many of my projects (as mxsash does) or find ways of making this more sustainable. Retreating would also mean that on the surviving projects, others would have to cover the resulting gap, often with less skills or experience.",

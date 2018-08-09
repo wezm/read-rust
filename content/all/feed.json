@@ -10,6 +10,92 @@
   },
   "items": [
     {
+      "id": "d6b87789-dd86-49e2-91b6-692607e32f67",
+      "title": "How Rust made me rethink my view about compilers",
+      "content_text": "It's funny how universe aligns things, just few days ago I stumbled upon Rust koans. Already familiar way of learning and exercising, patented by Ruby programmers, where you correct tests and make them work. Also whole method of learning was similar to reading 'Little Schemer' fairly popular book among fellow Lispers. So I'll use this blog post to summarize few early impressions about Rust, and let me tell you straight away, I am loving it so far!",
+      "url": "https://defphil.com/post/2018/07/15/staying-rusty/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Filip Miletic",
+        "url": "https://defphil.com/"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "f0133b81-60d3-416a-b58a-6d6c9c7afe6a",
+      "title": "Launching the 2018 State of Rust Survey",
+      "content_text": "It’s that time again! Time for us to take a look at how the Rust project is doing, and what we should plan for the future. The Rust Community Team is pleased to announce our 2018 State of Rust Survey! Whether or not you use Rust today, we want to know your opinions. Your responses will help the project understand its strengths and weaknesses and establish development priorities for the future.\n\nThis year, volunteers have also translated the survey into 14 languages!",
+      "url": "https://blog.rust-lang.org/2018/08/08/survey.html",
+      "date_published": "2018-08-08T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Community Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b7c9c3df-7ecd-41f3-8c89-5c1d35298b7b",
+      "title": "Journey into rust #1: Conway’s Game",
+      "content_text": "The language rust has been popping up on my twitter feed and my personal life more and more. It’s been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts “Journey into rust” will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.\n\nOn to the actual first post! After reading “the Rust Programming Language” I wanted to get my hands dirty and actually write some code. I like graphical applications and using low level graphics API’s so I decided to implement a cellular automation in rust. But just implementing cellular automation isn’t very exciting, is it? What if we could do this on the GPU…And off I went on my journey to create Conway’s game of life in rust.",
+      "url": "https://jonathansteyfkens.com/rust/opengl/graphics/2018/08/07/rust-conway-game-of-life.html",
+      "date_published": "2018-08-07T22:30:01+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "8c27c640-fb7d-42f9-a31f-09e9f5b35c2d",
+      "title": "Proposal: Rust Custom Test Frameworks",
+      "content_text": "The Rust community recently approved a Custom Test Frameworks eRFC which lays out a series of goals and possible directions of exploration for implementing custom test frameworks. In this post, I present my own proposed fulfillment of the RFC with rationale.",
+      "url": "https://blog.jrenner.net/rust/testing/2018/08/06/custom-test-framework-prop.html",
+      "date_published": "2018-08-08T08:12:00+00:00",
+      "author": {
+        "name": "John Renner",
+        "url": "https://blog.jrenner.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8cf7d62c-c8d9-4116-ae4c-7ac155d015cb",
+      "title": "Ideas for Rust Meetups",
+      "content_text": "Since I’m co-organizing the Rhein-Main Rust meetup (and am probably the main driving force behind it), I tought, it might be useful to share a few ideas we have that we have either already done, or plan doing – perhaps other meetup organizers can benefit from this. Note that our meetups usually run 2-4 hours, but some attendees may have to join late or leave early so the format has to take this into account.",
+      "url": "https://llogiq.github.io/2018/08/08/meetup-ideas.html",
+      "date_published": "2018-08-08T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "31c9d3c0-192b-45f2-922e-5b8d188683bc",
+      "title": "Xori - Custom disassembly framework",
+      "content_text": "Xori is an automation-ready disassembly and static analysis library that consumes shellcode or PE binaries and provides triage analysis data.",
+      "url": "https://sites.google.com/secured.org/malwareunicorn/xori",
+      "date_published": "2018-08-09T08:23:00+00:00",
+      "author": {
+        "name": "Amanda Rousseau and Rich Seymour",
+        "url": "https://sites.google.com/secured.org/malwareunicorn/xori"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "577e9c57-0455-41c6-9711-be71bf55e550",
       "title": "intl_pluralrules: A Rust Crate for Handling Plural Forms with CLDR Plural Rules",
       "content_text": "intl_pluralrules is a Rust crate, built to handle pluralization. Pluralization is the foundation for all localization and many internationalization APIs. With the addition of intl_pluralrules, any locale-aware date-, time- or unit-formatting (“1 second” vs “2 seconds”) and many other pluralization-dependent APIs can be added to Rust.",

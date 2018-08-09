@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "d6b87789-dd86-49e2-91b6-692607e32f67",
+      "title": "How Rust made me rethink my view about compilers",
+      "content_text": "It's funny how universe aligns things, just few days ago I stumbled upon Rust koans. Already familiar way of learning and exercising, patented by Ruby programmers, where you correct tests and make them work. Also whole method of learning was similar to reading 'Little Schemer' fairly popular book among fellow Lispers. So I'll use this blog post to summarize few early impressions about Rust, and let me tell you straight away, I am loving it so far!",
+      "url": "https://defphil.com/post/2018/07/15/staying-rusty/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Filip Miletic",
+        "url": "https://defphil.com/"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "b7c9c3df-7ecd-41f3-8c89-5c1d35298b7b",
+      "title": "Journey into rust #1: Conway’s Game",
+      "content_text": "The language rust has been popping up on my twitter feed and my personal life more and more. It’s been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts “Journey into rust” will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.\n\nOn to the actual first post! After reading “the Rust Programming Language” I wanted to get my hands dirty and actually write some code. I like graphical applications and using low level graphics API’s so I decided to implement a cellular automation in rust. But just implementing cellular automation isn’t very exciting, is it? What if we could do this on the GPU…And off I went on my journey to create Conway’s game of life in rust.",
+      "url": "https://jonathansteyfkens.com/rust/opengl/graphics/2018/08/07/rust-conway-game-of-life.html",
+      "date_published": "2018-08-07T22:30:01+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "7d6c2d9c-16c8-42be-93d5-d61cc9dac117",
       "title": "Rust Modules In Less Than 5 Minutes",
       "content_text": "When I started learning Rust, the module system did not at first seem to be a shining beacon of intuitive design. The Rust documentation is phenomenal, but there are definitely some areas that I found difficult to follow; this being one such topic. So I thought I might take a stab at writing up a guide that I think would have helped me through the awkward growing pains a bit quicker.",
