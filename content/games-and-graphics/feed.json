@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "704eb876-5cac-4636-8817-4946659876e1",
+      "title": "The State of GPGPU in Rust",
+      "content_text": "At work a few months ago, we started experimenting with GPU-acceleration. My boss asked if I was interested. I didn’t know anything about programming GPUs, so of course I said “Heck yes, I’m interested!“. I needed to learn about GPUs in a hurry, and that led to my GPU Path Tracer series. That was a lot of fun, but it showed me that CUDA support in Rust is pretty poor.",
+      "url": "https://bheisler.github.io/post/state-of-gpgpu-in-rust/",
+      "date_published": "2018-08-08T20:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "526c879c-7409-4234-a92c-e04b21f37d0d",
+      "title": "Portability benchmark of Dota2 on MacOS",
+      "content_text": "gfx-rs is a Rust project aiming to make graphics programming more accessible and portable, focusing on exposing a universal Vulkan-like API. It’s a single Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. We are also building a Vulkan Portability implementation based on it, which allows non-Rust applications using Vulkan to run everywhere. This post is focused on the Metal backend only.",
+      "url": "https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html",
+      "date_published": "2018-08-10T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "dd4398c4-2ad7-4f13-a900-2d78fa78bd0c",
+      "title": "Encrusted: An interpreter for Infocom-era interactive fiction games like Zork",
+      "content_text": "A modern z-machine for the classics. Encrusted is an interpreter for Infocom-era interactive fiction games like Zork. Run the web interface here ↑, or get it for your terminal.",
+      "url": "https://sterlingdemille.com/encrusted/",
+      "date_published": "2018-07-19T04:41:01+00:00",
+      "author": {
+        "name": "Sterling DeMille",
+        "url": "https://sterlingdemille.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "b7c9c3df-7ecd-41f3-8c89-5c1d35298b7b",
       "title": "Journey into rust #1: Conway’s Game",
       "content_text": "The language rust has been popping up on my twitter feed and my personal life more and more. It’s been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts “Journey into rust” will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.\n\nOn to the actual first post! After reading “the Rust Programming Language” I wanted to get my hands dirty and actually write some code. I like graphical applications and using low level graphics API’s so I decided to implement a cellular automation in rust. But just implementing cellular automation isn’t very exciting, is it? What if we could do this on the GPU…And off I went on my journey to create Conway’s game of life in rust.",

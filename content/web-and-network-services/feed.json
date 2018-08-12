@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ea6c2f82-fb04-49be-be31-307284eedba4",
+      "title": "Tower Web — A new web framework for Rust",
+      "content_text": "I previously announced Tower and mentioned that a web framework was in the works. It took longer than I had hoped (as it sometimes does with software), but today, I am opening up Tower Web.\n\nTower Web is an asynchronous HTTP web framework that focuses on removing boilerplate. It is built on top of Tokio, Hyper, and of course Tower. It works today on stable Rust.",
+      "url": "https://medium.com/@carllerche/tower-web-a-new-web-framework-for-rust-e2912856851b",
+      "date_published": "2018-08-09T17:46:17.217+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "85ab7e93-7bbc-43ef-be5f-5decca1b4651",
       "title": "Introducing PrrrStack, Pt. 2",
       "content_text": "In the first article of this series, we created a RestAPI for our application using Postgres, Rust, and Rocket. For the second half, we’ll be using React to create the front end.",

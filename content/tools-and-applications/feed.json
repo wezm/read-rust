@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1d84906a-4085-4d87-8f43-786f1d531f44",
+      "title": "Kickstart - a fast and simple project template bootstrapper",
+      "content_text": "Ever had some code base that you regularly use to start a new project? Until now, you've probably lost some time refactoring everything to fill out the right project name, title etc. A few tools already exist but either you're lost in feature bloating hell or you're fighting to configure everything in most cases. The following tool is an early-developement, rust-based, template tool made to be more versatile that its closest python counter-part, cookiecutter.",
+      "url": "https://blog.artemix.org/article/show/kickstart",
+      "date_published": "2018-08-08T23:02:19+00:00",
+      "author": {
+        "name": "Artemis",
+        "url": "https://blog.artemix.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "7161b1be-54de-4776-857e-3ef78df24125",
       "title": "Pax: A fast dev time JavaScript bundler",
       "content_text": "Don’t waste time waiting for your bundler to do its thing. Use Pax while you’re developing, and iterate to your heart’s content. Use your super-cool, magical, slow-as-molasses bundler for releases, when you don’t care how long it takes to run.",

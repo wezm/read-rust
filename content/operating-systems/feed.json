@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6f2abec2-1096-4a82-90db-b1962a2876f7",
+      "title": "RSoC: FAT32 Filesystem in Redox - 3",
+      "content_text": "The previous blog post discusses how raw disk reads were implemented in the loader stub. The next step was to implement a clean read API which can be used by different filesystem libraries in order to read their respective filesystems. Since the raw reads from the BIOS interrupt had a granularity in terms of sectors(each sector being 512 bytes), the reads had to be translated in order to provide byte level granularity. The clone_from_slice function ensures that a direct call to memcopy is not required. The refined read function is here.",
+      "url": "https://www.redox-os.org/news/rsoc-fat32-3/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Deepak Sirone",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "415e9361-8fad-4317-ae02-7abeb1faad3d",
       "title": "The State of Rust on Haiku",
       "content_text": "With the recent addition of Rust 1.27.0 in the HaikuPorts repository, I thought it would be good to do a short, public write-up of the current state of Rust on Haiku, and some insight into the future.",

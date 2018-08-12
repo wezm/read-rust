@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "02a5f7b7-0114-440d-9be0-d5aaf77bfa65",
+      "title": "PrettySize for rust",
+      "content_text": "We’ve just published a rust port of our PrettySize.NET library, now available via cargo and github. Like its .NET predecessor, PrettySize-rs aims to provide a comprehensive API for dealing with file sizes, covering both manipulation and human-readable formatting.",
+      "url": "https://neosmart.net/blog/2018/prettysize-for-rust/",
+      "date_published": "2018-08-11T20:56:39+00:00",
+      "author": {
+        "name": "Mahmoud Al-Qudsi",
+        "url": "https://neosmart.net/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "577e9c57-0455-41c6-9711-be71bf55e550",
       "title": "intl_pluralrules: A Rust Crate for Handling Plural Forms with CLDR Plural Rules",
       "content_text": "intl_pluralrules is a Rust crate, built to handle pluralization. Pluralization is the foundation for all localization and many internationalization APIs. With the addition of intl_pluralrules, any locale-aware date-, time- or unit-formatting (“1 second” vs “2 seconds”) and many other pluralization-dependent APIs can be added to Rust.",

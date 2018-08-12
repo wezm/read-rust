@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "64be78c2-0f4e-413f-ac54-1e6b21215413",
+      "title": "Clippy's \"cast_lossless\" Lint Warning",
+      "content_text": "Recently, I was trying out clippy  — a linting and static analysis tool for Rust, when I ran into a lint warning that wasn’t immediately clear to me: warning: casting u8 to u16 may become silently lossy if types change.",
+      "url": "https://benjamincongdon.me/blog/2018/08/06/Clippys-cast_lossless-Lint-Warning/",
+      "date_published": "2018-08-06T20:28:01+00:00",
+      "author": {
+        "name": "Benjamin Congdon",
+        "url": "https://benjamincongdon.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e141f480-7f0d-4b15-82b6-44d0f807f09c",
+      "title": "GSoC wrap-up - Splitting Servo's script crate",
+      "content_text": "I am Peter Hrvola (retep007) Twitter Github. During my Google Summer of Code (GSoC) project, I have been working on investigating the monolithic nature of Servo’s script crate and prototyping separation to smaller crates. My goal was to improve the use of resources during compilation. Current debug build consumes over 5GB of memory and takes 347s.",
+      "url": "https://blog.servo.org/2018/08/09/gsoc-generic-servo/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Peter Hrvola",
+        "url": "https://twitter.com/retep007"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "02a5f7b7-0114-440d-9be0-d5aaf77bfa65",
+      "title": "PrettySize for rust",
+      "content_text": "We’ve just published a rust port of our PrettySize.NET library, now available via cargo and github. Like its .NET predecessor, PrettySize-rs aims to provide a comprehensive API for dealing with file sizes, covering both manipulation and human-readable formatting.",
+      "url": "https://neosmart.net/blog/2018/prettysize-for-rust/",
+      "date_published": "2018-08-11T20:56:39+00:00",
+      "author": {
+        "name": "Mahmoud Al-Qudsi",
+        "url": "https://neosmart.net/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "704eb876-5cac-4636-8817-4946659876e1",
+      "title": "The State of GPGPU in Rust",
+      "content_text": "At work a few months ago, we started experimenting with GPU-acceleration. My boss asked if I was interested. I didn’t know anything about programming GPUs, so of course I said “Heck yes, I’m interested!“. I needed to learn about GPUs in a hurry, and that led to my GPU Path Tracer series. That was a lot of fun, but it showed me that CUDA support in Rust is pretty poor.",
+      "url": "https://bheisler.github.io/post/state-of-gpgpu-in-rust/",
+      "date_published": "2018-08-08T20:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ea6c2f82-fb04-49be-be31-307284eedba4",
+      "title": "Tower Web — A new web framework for Rust",
+      "content_text": "I previously announced Tower and mentioned that a web framework was in the works. It took longer than I had hoped (as it sometimes does with software), but today, I am opening up Tower Web.\n\nTower Web is an asynchronous HTTP web framework that focuses on removing boilerplate. It is built on top of Tokio, Hyper, and of course Tower. It works today on stable Rust.",
+      "url": "https://medium.com/@carllerche/tower-web-a-new-web-framework-for-rust-e2912856851b",
+      "date_published": "2018-08-09T17:46:17.217+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9a82c540-b8ab-4635-a68b-82754b5fe8a1",
+      "title": "Literate Programming in Rust",
+      "content_text": "In which we explore how cargo and rustdoc make it possible to write documentation and unit tests at once, resulting in code that is explained and tested from the POV of a public API.",
+      "url": "https://damien.codes/posts/literate-rust/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Damien",
+        "url": "https://damien.codes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "526c879c-7409-4234-a92c-e04b21f37d0d",
+      "title": "Portability benchmark of Dota2 on MacOS",
+      "content_text": "gfx-rs is a Rust project aiming to make graphics programming more accessible and portable, focusing on exposing a universal Vulkan-like API. It’s a single Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. We are also building a Vulkan Portability implementation based on it, which allows non-Rust applications using Vulkan to run everywhere. This post is focused on the Metal backend only.",
+      "url": "https://gfx-rs.github.io/2018/08/10/dota2-macos-performance.html",
+      "date_published": "2018-08-10T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6f2abec2-1096-4a82-90db-b1962a2876f7",
+      "title": "RSoC: FAT32 Filesystem in Redox - 3",
+      "content_text": "The previous blog post discusses how raw disk reads were implemented in the loader stub. The next step was to implement a clean read API which can be used by different filesystem libraries in order to read their respective filesystems. Since the raw reads from the BIOS interrupt had a granularity in terms of sectors(each sector being 512 bytes), the reads had to be translated in order to provide byte level granularity. The clone_from_slice function ensures that a direct call to memcopy is not required. The refined read function is here.",
+      "url": "https://www.redox-os.org/news/rsoc-fat32-3/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Deepak Sirone",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "1d84906a-4085-4d87-8f43-786f1d531f44",
+      "title": "Kickstart - a fast and simple project template bootstrapper",
+      "content_text": "Ever had some code base that you regularly use to start a new project? Until now, you've probably lost some time refactoring everything to fill out the right project name, title etc. A few tools already exist but either you're lost in feature bloating hell or you're fighting to configure everything in most cases. The following tool is an early-developement, rust-based, template tool made to be more versatile that its closest python counter-part, cookiecutter.",
+      "url": "https://blog.artemix.org/article/show/kickstart",
+      "date_published": "2018-08-08T23:02:19+00:00",
+      "author": {
+        "name": "Artemis",
+        "url": "https://blog.artemix.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "dd4398c4-2ad7-4f13-a900-2d78fa78bd0c",
+      "title": "Encrusted: An interpreter for Infocom-era interactive fiction games like Zork",
+      "content_text": "A modern z-machine for the classics. Encrusted is an interpreter for Infocom-era interactive fiction games like Zork. Run the web interface here ↑, or get it for your terminal.",
+      "url": "https://sterlingdemille.com/encrusted/",
+      "date_published": "2018-07-19T04:41:01+00:00",
+      "author": {
+        "name": "Sterling DeMille",
+        "url": "https://sterlingdemille.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "d6b87789-dd86-49e2-91b6-692607e32f67",
       "title": "How Rust made me rethink my view about compilers",
       "content_text": "It's funny how universe aligns things, just few days ago I stumbled upon Rust koans. Already familiar way of learning and exercising, patented by Ruby programmers, where you correct tests and make them work. Also whole method of learning was similar to reading 'Little Schemer' fairly popular book among fellow Lispers. So I'll use this blog post to summarize few early impressions about Rust, and let me tell you straight away, I am loving it so far!",

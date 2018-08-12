@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "64be78c2-0f4e-413f-ac54-1e6b21215413",
+      "title": "Clippy's \"cast_lossless\" Lint Warning",
+      "content_text": "Recently, I was trying out clippy  — a linting and static analysis tool for Rust, when I ran into a lint warning that wasn’t immediately clear to me: warning: casting u8 to u16 may become silently lossy if types change.",
+      "url": "https://benjamincongdon.me/blog/2018/08/06/Clippys-cast_lossless-Lint-Warning/",
+      "date_published": "2018-08-06T20:28:01+00:00",
+      "author": {
+        "name": "Benjamin Congdon",
+        "url": "https://benjamincongdon.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e141f480-7f0d-4b15-82b6-44d0f807f09c",
+      "title": "GSoC wrap-up - Splitting Servo's script crate",
+      "content_text": "I am Peter Hrvola (retep007) Twitter Github. During my Google Summer of Code (GSoC) project, I have been working on investigating the monolithic nature of Servo’s script crate and prototyping separation to smaller crates. My goal was to improve the use of resources during compilation. Current debug build consumes over 5GB of memory and takes 347s.",
+      "url": "https://blog.servo.org/2018/08/09/gsoc-generic-servo/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Peter Hrvola",
+        "url": "https://twitter.com/retep007"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9a82c540-b8ab-4635-a68b-82754b5fe8a1",
+      "title": "Literate Programming in Rust",
+      "content_text": "In which we explore how cargo and rustdoc make it possible to write documentation and unit tests at once, resulting in code that is explained and tested from the POV of a public API.",
+      "url": "https://damien.codes/posts/literate-rust/",
+      "date_published": "2018-08-09T00:00:00+00:00",
+      "author": {
+        "name": "Damien",
+        "url": "https://damien.codes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d6b87789-dd86-49e2-91b6-692607e32f67",
       "title": "How Rust made me rethink my view about compilers",
       "content_text": "It's funny how universe aligns things, just few days ago I stumbled upon Rust koans. Already familiar way of learning and exercising, patented by Ruby programmers, where you correct tests and make them work. Also whole method of learning was similar to reading 'Little Schemer' fairly popular book among fellow Lispers. So I'll use this blog post to summarize few early impressions about Rust, and let me tell you straight away, I am loving it so far!",
