@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "e19ac48b-7995-4b64-82d8-64d149067b54",
+      "title": "Object Models And Identities",
+      "content_text": "In many things, Rust is very much like C++. It’s memory management strategy is mostly the same, threading models are copied vanilla, both compile to native code and do about the same optimisations at that time, and traits and templates have a lot in common too. Both tend to be rather feature-rich languages with quite a lot to learn. While Rust is definitely better teacher (I’m looking at you, C++ error message!) and has many more „safety covers“ over the dangerous moving parts inside the engine, the design of the engine is more of an evolution from C++ than a completely new thing.\n\nBut I’ve noticed one rather subtle difference in the philosophy of the languages I’d like to describe here. To make it somewhat more complete, I’ll also throw what some other languages do in this area in.",
+      "url": "https://vorner.github.io/2018/08/12/Object-models-and-identities.html",
+      "date_published": "2018-08-12T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ff118dd1-1fe8-4cde-a359-a00325002ebd",
+      "title": "Refactoring with Rust macros",
+      "content_text": "Refactoring boilerplate code is always easy in dynamically-typed languages, but sometimes takes a bit more effort when constrained by strong typing. This is something I was puzzling over recently, when the penny dropped for me about how Rust's macros can be used to bridge the gap.",
+      "url": "https://philbooth.me/blog/refactoring-with-rust-macros",
+      "date_published": "2018-08-12T12:54:12+00:00",
+      "author": {
+        "name": "Phil Booth",
+        "url": "https://philbooth.me/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6f49ae97-11d3-4e1f-ab95-0307bf406aa5",
+      "title": "How to alleviate the pain of Rust compile times",
+      "content_text": "A few days ago, I wrote about two Rust pain points when using Rust at work. One of these points were the long compile times. In this post, I want to share a few tips that can help alleviate that pain.",
+      "url": "https://vfoley.xyz/rust-compile-speed-tips/",
+      "date_published": "2018-08-11T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1af176be-1d98-419b-85d5-dfbf78cb74df",
+      "title": "Rust needs BFGS. What is BFGS?",
+      "content_text": "There is no general “best” way to minimize a function; different kinds of functions require different strategies. However, Python’s scipy and R’s optim both prominently feature an algorithm called BFGS. I’ll explain what BFGS stands for, the problem that it solves, and how it solves it.",
+      "url": "https://paulkernfeld.com/2018/08/06/rust-needs-bfgs.html",
+      "date_published": "2018-08-06T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "64be78c2-0f4e-413f-ac54-1e6b21215413",
       "title": "Clippy's \"cast_lossless\" Lint Warning",
       "content_text": "Recently, I was trying out clippy  — a linting and static analysis tool for Rust, when I ran into a lint warning that wasn’t immediately clear to me: warning: casting u8 to u16 may become silently lossy if types change.",

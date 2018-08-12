@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1af176be-1d98-419b-85d5-dfbf78cb74df",
+      "title": "Rust needs BFGS. What is BFGS?",
+      "content_text": "There is no general “best” way to minimize a function; different kinds of functions require different strategies. However, Python’s scipy and R’s optim both prominently feature an algorithm called BFGS. I’ll explain what BFGS stands for, the problem that it solves, and how it solves it.",
+      "url": "https://paulkernfeld.com/2018/08/06/rust-needs-bfgs.html",
+      "date_published": "2018-08-06T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "c7f57579-ce36-4d54-86a4-9aa4a6c1cadd",
       "title": "So You Want to Build a Language VM - Part 00",
       "content_text": "A Brief Course in Computer Hardware. This is the prelude to a series of posts to detailing how to build a language VM. If you are familiar with terms like registers, program counter, and assembly, feel free to skip this post. If not, read on.",
