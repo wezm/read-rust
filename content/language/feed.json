@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "523b014f-5ec9-4569-b31f-44720fb3bbc4",
+      "title": "Rust: _(underscore) Does Not Bind",
+      "content_text": "Rust is a language that utilizes the RAII idiom, resulting in different code depending on when the object is destroyed.",
+      "url": "https://medium.com/codechain/rust-underscore-does-not-bind-fec6a18115a8",
+      "date_published": "2018-08-13T07:13:58.080+00:00",
+      "author": {
+        "name": "Seung Woo Kim",
+        "url": "https://medium.com/@koreanboy1120"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a47db977-bb96-4ecf-9203-8c64b438062d",
+      "title": "A FizzBuzzy Tour of Traits in Rust",
+      "content_text": "Traits are a core part of the Rust programming language, and understanding traits, particularly those which are part of the standard library, is necessary in order to write idiomatic Rust. In this post I’ll write several FizzBuzz implementations, each demonstrating the use of a different trait from the Rust standard library.",
+      "url": "https://www.joshmcguigan.com/blog/fizzbuzz-tour-of-traits-rust/",
+      "date_published": "2018-08-13T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4b9c619b-6d09-43a9-82bb-86887dbd3a53",
+      "title": "Diagnosing A Weak Memory Ordering Bug",
+      "content_text": "For the first time in my life I tracked a real bug's root cause to incorrect usage of weak memory orderings. Until now weak memory bugs were something I knew about but had subconciously felt were only relevant to wizards coding on big iron, partly because until recently I've spent most of my career using desktop x86 machines.",
+      "url": "https://robert.ocallahan.org/2018/08/for-first-time-in-my-life-i-tracked.html",
+      "date_published": "2018-08-14T15:18:00+12:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "http://www.blogger.com/profile/01801341049800948737"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "45c51d1f-97ea-41ad-a1fe-3aab3c51d9ee",
+      "title": "A Short Serde Deserialize example",
+      "content_text": "In my previous post, I described taking a simple enum and creating a custom type in diesel. This post will take that same enum and implement deserialize. I often get tripped up by the mechanics of deserializing so this simple enum makes for a good example. Again, this is to benefit anyone looking for more examples of Serde’s Deserialize as well as for myself, so I can remember next time I need to do this.",
+      "url": "https://noyez.gitlab.io/post/2018-08-14-short-serde-deserialize-exapmle/",
+      "date_published": "2018-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8a47c51e-2de1-47c2-8c3d-3f2d84ae13cb",
+      "title": "Never patterns, exhaustive matching, and uninhabited types (oh my!)",
+      "content_text": "One of the long-standing issues that we’ve been wrestling with in Rust is how to integrate the concept of an “uninhabited type” – that is, a type which has no values at all. Uninhabited types are useful to represent the “result” of some computation you know will never execute – for example, if you have to define an error type for some computation, but this particular computation can never fail, you might use an uninhabited type.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/",
+      "date_published": "2018-08-13T00:00:00-07:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "91714b35-a84b-4ac0-a0ed-57e2bdedc9dc",
+      "title": "I learnt Rust: less than a memoir",
+      "content_text": "Over the past two months, I worked on a feature for Project Fluent. My feature was needed in the Rust implementation of Fluent and was published as a Rust crate, making my code available to the entire Rust community. Completing this project brought me a great sense of satisfaction, and having contributed a fundamental internationalization crate to the Rust ecosystem is possibly the biggest milestone in my career as a developer.",
+      "url": "http://blog.kekoariggin.com/coding/i-learnt-rust-less-than-a-memoir/",
+      "date_published": "2018-08-13T04:23:32+00:00",
+      "author": {
+        "name": "Kekoa Riggin",
+        "url": "http://blog.kekoariggin.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e19ac48b-7995-4b64-82d8-64d149067b54",
       "title": "Object Models And Identities",
       "content_text": "In many things, Rust is very much like C++. It’s memory management strategy is mostly the same, threading models are copied vanilla, both compile to native code and do about the same optimisations at that time, and traits and templates have a lot in common too. Both tend to be rather feature-rich languages with quite a lot to learn. While Rust is definitely better teacher (I’m looking at you, C++ error message!) and has many more „safety covers“ over the dangerous moving parts inside the engine, the design of the engine is more of an evolution from C++ than a completely new thing.\n\nBut I’ve noticed one rather subtle difference in the philosophy of the languages I’d like to describe here. To make it somewhat more complete, I’ll also throw what some other languages do in this area in.",

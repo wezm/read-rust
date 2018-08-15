@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "be4fb7bc-7b10-41ce-af58-e877d70fd73d",
+      "title": "Software Security is a Programming Languages Issue",
+      "content_text": "This is the the last of three posts on the course I regularly teach, CS 330, Organization of Programming Languages. The first two posts covered programming language styles and mathematical concepts. This post covers the last 1/4 of the course, which focuses on software security, and related to that, the programming language Rust.",
+      "url": "http://www.pl-enthusiast.net/2018/08/13/security-programming-languages-issue/",
+      "date_published": "2018-08-13T18:00:43+00:00",
+      "author": {
+        "name": "Michael Hicks",
+        "url": "http://www.pl-enthusiast.net/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "31c9d3c0-192b-45f2-922e-5b8d188683bc",
       "title": "Xori - Custom disassembly framework",
       "content_text": "Xori is an automation-ready disassembly and static analysis library that consumes shellcode or PE binaries and provides triage analysis data.",

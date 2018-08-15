@@ -10,6 +10,176 @@
   },
   "items": [
     {
+      "id": "523b014f-5ec9-4569-b31f-44720fb3bbc4",
+      "title": "Rust: _(underscore) Does Not Bind",
+      "content_text": "Rust is a language that utilizes the RAII idiom, resulting in different code depending on when the object is destroyed.",
+      "url": "https://medium.com/codechain/rust-underscore-does-not-bind-fec6a18115a8",
+      "date_published": "2018-08-13T07:13:58.080+00:00",
+      "author": {
+        "name": "Seung Woo Kim",
+        "url": "https://medium.com/@koreanboy1120"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a47db977-bb96-4ecf-9203-8c64b438062d",
+      "title": "A FizzBuzzy Tour of Traits in Rust",
+      "content_text": "Traits are a core part of the Rust programming language, and understanding traits, particularly those which are part of the standard library, is necessary in order to write idiomatic Rust. In this post I’ll write several FizzBuzz implementations, each demonstrating the use of a different trait from the Rust standard library.",
+      "url": "https://www.joshmcguigan.com/blog/fizzbuzz-tour-of-traits-rust/",
+      "date_published": "2018-08-13T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4b9c619b-6d09-43a9-82bb-86887dbd3a53",
+      "title": "Diagnosing A Weak Memory Ordering Bug",
+      "content_text": "For the first time in my life I tracked a real bug's root cause to incorrect usage of weak memory orderings. Until now weak memory bugs were something I knew about but had subconciously felt were only relevant to wizards coding on big iron, partly because until recently I've spent most of my career using desktop x86 machines.",
+      "url": "https://robert.ocallahan.org/2018/08/for-first-time-in-my-life-i-tracked.html",
+      "date_published": "2018-08-14T15:18:00+12:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "http://www.blogger.com/profile/01801341049800948737"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c1519934-b4d6-49ed-bc58-1450331afa63",
+      "title": "GSoC 2018 - D3D11 backend for gfx-rs",
+      "content_text": "For this years GSoC I (@fkaa) worked on implementing the DirectX 11 backend for gfx, a graphics API which translates to Vulkan, DirectX 12 and Metal.",
+      "url": "https://gfx-rs.github.io/2018/08/14/gsoc.html",
+      "date_published": "2018-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Felix Kaaman",
+        "url": "https://github.com/fkaa"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "45c51d1f-97ea-41ad-a1fe-3aab3c51d9ee",
+      "title": "A Short Serde Deserialize example",
+      "content_text": "In my previous post, I described taking a simple enum and creating a custom type in diesel. This post will take that same enum and implement deserialize. I often get tripped up by the mechanics of deserializing so this simple enum makes for a good example. Again, this is to benefit anyone looking for more examples of Serde’s Deserialize as well as for myself, so I can remember next time I need to do this.",
+      "url": "https://noyez.gitlab.io/post/2018-08-14-short-serde-deserialize-exapmle/",
+      "date_published": "2018-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e9ddc1eb-5ab9-4f23-8b9a-a41cea991044",
+      "title": "Tower Web 0.2 — Now 100% comment attribute free",
+      "content_text": "The short version is, Tower Web 0.2 was just released and regular Rust attributes are now used instead of magic comments. The doc comment is replaced with #[get(\"/\")]. This is thanks to Rust macro wizard David Tolnay. I also thought that it would be best to immediately push out 0.2 and then we can all pretend 0.1 didn’t happen.",
+      "url": "https://medium.com/@carllerche/tower-web-0-2-now-100-comment-attribute-free-3ed0633e47e5",
+      "date_published": "2018-08-14T16:22:13.075+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
+      "id": "df22bc28-0b6f-4d1a-960a-9e29ca258b53",
+      "title": "Incremental Parsing in Amp",
+      "content_text": "With the latest release of Amp (text editor), syntax highlighting has been overhauled. This post dives into the performance-related redesign that has landed with v0.5.",
+      "url": "https://medium.com/@jordan_98525/incremental-parsing-in-amp-ba5e8c3e85dc",
+      "date_published": "2018-08-14T16:13:52.640+00:00",
+      "author": {
+        "name": "Jordan MacDonald",
+        "url": "https://medium.com/@jordan_98525"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "8a47c51e-2de1-47c2-8c3d-3f2d84ae13cb",
+      "title": "Never patterns, exhaustive matching, and uninhabited types (oh my!)",
+      "content_text": "One of the long-standing issues that we’ve been wrestling with in Rust is how to integrate the concept of an “uninhabited type” – that is, a type which has no values at all. Uninhabited types are useful to represent the “result” of some computation you know will never execute – for example, if you have to define an error type for some computation, but this particular computation can never fail, you might use an uninhabited type.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/",
+      "date_published": "2018-08-13T00:00:00-07:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "be4fb7bc-7b10-41ce-af58-e877d70fd73d",
+      "title": "Software Security is a Programming Languages Issue",
+      "content_text": "This is the the last of three posts on the course I regularly teach, CS 330, Organization of Programming Languages. The first two posts covered programming language styles and mathematical concepts. This post covers the last 1/4 of the course, which focuses on software security, and related to that, the programming language Rust.",
+      "url": "http://www.pl-enthusiast.net/2018/08/13/security-programming-languages-issue/",
+      "date_published": "2018-08-13T18:00:43+00:00",
+      "author": {
+        "name": "Michael Hicks",
+        "url": "http://www.pl-enthusiast.net/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "91714b35-a84b-4ac0-a0ed-57e2bdedc9dc",
+      "title": "I learnt Rust: less than a memoir",
+      "content_text": "Over the past two months, I worked on a feature for Project Fluent. My feature was needed in the Rust implementation of Fluent and was published as a Rust crate, making my code available to the entire Rust community. Completing this project brought me a great sense of satisfaction, and having contributed a fundamental internationalization crate to the Rust ecosystem is possibly the biggest milestone in my career as a developer.",
+      "url": "http://blog.kekoariggin.com/coding/i-learnt-rust-less-than-a-memoir/",
+      "date_published": "2018-08-13T04:23:32+00:00",
+      "author": {
+        "name": "Kekoa Riggin",
+        "url": "http://blog.kekoariggin.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3bdf428b-c38a-4964-a8f2-a4e0106bd5d1",
+      "title": "Ray Tracing: WebAssembly vs JavaScript",
+      "content_text": "For the past few months I've been toying about with WebAssembly. The examples I've built using WebAssembly were very simple and could easily have been written in JavaScript with perfectly adequate performance. This got me thinking it's about time I make something to really shows where WebAssembly shines. This led me down the path of thinking about very compute-demanding applications. An obvious example is 3d graphics rendering. Even a small scene like the ones I've been creating involve computing millions of vector dot product calculations per second. This kind of CPU-intensive application seemed right up the street of WebAssembly.",
+      "url": "http://matt-harrison.com/raytracing-webassembly-vs-javascript/",
+      "date_published": "2018-08-12T14:09:42+00:00",
+      "author": {
+        "name": "Matt Harrison",
+        "url": "http://matt-harrison.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "47f615b2-5fe1-45a1-b760-9bff19237836",
+      "title": "Syntax diagram generator",
+      "content_text": "This is a demonstration of a pure-rust library to generate syntax diagrams for macro_rules!().Diagrams are generated fully automatically from rust-source as Scalable Vector Graphics, using customizable CSS for layout.",
+      "url": "https://lukaslueg.github.io/macro_railroad_wasm_demo/",
+      "date_published": "2018-08-12T15:04:11+00:00",
+      "author": {
+        "name": "lukaslueg",
+        "url": "https://github.com/lukaslueg"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e19ac48b-7995-4b64-82d8-64d149067b54",
       "title": "Object Models And Identities",
       "content_text": "In many things, Rust is very much like C++. It’s memory management strategy is mostly the same, threading models are copied vanilla, both compile to native code and do about the same optimisations at that time, and traits and templates have a lot in common too. Both tend to be rather feature-rich languages with quite a lot to learn. While Rust is definitely better teacher (I’m looking at you, C++ error message!) and has many more „safety covers“ over the dangerous moving parts inside the engine, the design of the engine is more of an evolution from C++ than a completely new thing.\n\nBut I’ve noticed one rather subtle difference in the philosophy of the languages I’d like to describe here. To make it somewhat more complete, I’ll also throw what some other languages do in this area in.",

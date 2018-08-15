@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "e9ddc1eb-5ab9-4f23-8b9a-a41cea991044",
+      "title": "Tower Web 0.2 — Now 100% comment attribute free",
+      "content_text": "The short version is, Tower Web 0.2 was just released and regular Rust attributes are now used instead of magic comments. The doc comment is replaced with #[get(\"/\")]. This is thanks to Rust macro wizard David Tolnay. I also thought that it would be best to immediately push out 0.2 and then we can all pretend 0.1 didn’t happen.",
+      "url": "https://medium.com/@carllerche/tower-web-0-2-now-100-comment-attribute-free-3ed0633e47e5",
+      "date_published": "2018-08-14T16:22:13.075+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "02a5f7b7-0114-440d-9be0-d5aaf77bfa65",
       "title": "PrettySize for rust",
       "content_text": "We’ve just published a rust port of our PrettySize.NET library, now available via cargo and github. Like its .NET predecessor, PrettySize-rs aims to provide a comprehensive API for dealing with file sizes, covering both manipulation and human-readable formatting.",

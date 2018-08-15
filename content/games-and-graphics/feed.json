@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "c1519934-b4d6-49ed-bc58-1450331afa63",
+      "title": "GSoC 2018 - D3D11 backend for gfx-rs",
+      "content_text": "For this years GSoC I (@fkaa) worked on implementing the DirectX 11 backend for gfx, a graphics API which translates to Vulkan, DirectX 12 and Metal.",
+      "url": "https://gfx-rs.github.io/2018/08/14/gsoc.html",
+      "date_published": "2018-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Felix Kaaman",
+        "url": "https://github.com/fkaa"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "3bdf428b-c38a-4964-a8f2-a4e0106bd5d1",
+      "title": "Ray Tracing: WebAssembly vs JavaScript",
+      "content_text": "For the past few months I've been toying about with WebAssembly. The examples I've built using WebAssembly were very simple and could easily have been written in JavaScript with perfectly adequate performance. This got me thinking it's about time I make something to really shows where WebAssembly shines. This led me down the path of thinking about very compute-demanding applications. An obvious example is 3d graphics rendering. Even a small scene like the ones I've been creating involve computing millions of vector dot product calculations per second. This kind of CPU-intensive application seemed right up the street of WebAssembly.",
+      "url": "http://matt-harrison.com/raytracing-webassembly-vs-javascript/",
+      "date_published": "2018-08-12T14:09:42+00:00",
+      "author": {
+        "name": "Matt Harrison",
+        "url": "http://matt-harrison.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "704eb876-5cac-4636-8817-4946659876e1",
       "title": "The State of GPGPU in Rust",
       "content_text": "At work a few months ago, we started experimenting with GPU-acceleration. My boss asked if I was interested. I didn’t know anything about programming GPUs, so of course I said “Heck yes, I’m interested!“. I needed to learn about GPUs in a hurry, and that led to my GPU Path Tracer series. That was a lot of fun, but it showed me that CUDA support in Rust is pretty poor.",

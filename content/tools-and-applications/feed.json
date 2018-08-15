@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "df22bc28-0b6f-4d1a-960a-9e29ca258b53",
+      "title": "Incremental Parsing in Amp",
+      "content_text": "With the latest release of Amp (text editor), syntax highlighting has been overhauled. This post dives into the performance-related redesign that has landed with v0.5.",
+      "url": "https://medium.com/@jordan_98525/incremental-parsing-in-amp-ba5e8c3e85dc",
+      "date_published": "2018-08-14T16:13:52.640+00:00",
+      "author": {
+        "name": "Jordan MacDonald",
+        "url": "https://medium.com/@jordan_98525"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "1d84906a-4085-4d87-8f43-786f1d531f44",
       "title": "Kickstart - a fast and simple project template bootstrapper",
       "content_text": "Ever had some code base that you regularly use to start a new project? Until now, you've probably lost some time refactoring everything to fill out the right project name, title etc. A few tools already exist but either you're lost in feature bloating hell or you're fighting to configure everything in most cases. The following tool is an early-developement, rust-based, template tool made to be more versatile that its closest python counter-part, cookiecutter.",
