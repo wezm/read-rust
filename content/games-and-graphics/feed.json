@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2e354a2e-10fe-410c-adbf-7b739def3ab6",
+      "title": "UniverCity released into early access",
+      "content_text": "UniverCity is a university management game being programmed in the Rust programming language. As stated above, the game is in early access and is not complete. There will be changes and additions down the line and finishing it may take some time. You may wish to wait until its further along before buying it.",
+      "url": "https://thinkof.name/2018/08/14/early-access-release.html",
+      "date_published": "2018-08-14T10:00:00+00:00",
+      "author": {
+        "name": "Thinkofname",
+        "url": "https://thinkof.name/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "c1519934-b4d6-49ed-bc58-1450331afa63",
       "title": "GSoC 2018 - D3D11 backend for gfx-rs",
       "content_text": "For this years GSoC I (@fkaa) worked on implementing the DirectX 11 backend for gfx, a graphics API which translates to Vulkan, DirectX 12 and Metal.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6c12615c-c39d-4123-993e-a8581915e2f0",
+      "title": "Rust concurrency patterns: communicate by sharing your Sender",
+      "content_text": "Doing concurrency in ‘share by communicating’ style has been popularized by the Go community. It’s a valuable approach to concurrency in Rust too, however, one has to be aware of the different semantics of Rust vs Go channels when doing so.",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-communicate-by-sharing-your-sender-11a496ce7791",
+      "date_published": "2018-07-21T16:10:44.191+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c027288d-df1a-4945-ad6e-1ca444e689c8",
+      "title": "Natively run OCaml from Rust",
+      "content_text": "How to get Rust to execute OCaml code and libraries with zero-cost by sharing C libraries. Call OCaml functions from Rust through ffi, fast!",
+      "url": "https://blog.s-m.ac/ocaml-rust-ffi/",
+      "date_published": "2018-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Mathias Sablé-Meyer and Lucas E. Morales",
+        "url": "https://blog.s-m.ac/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "523b014f-5ec9-4569-b31f-44720fb3bbc4",
       "title": "Rust: _(underscore) Does Not Bind",
       "content_text": "Rust is a language that utilizes the RAII idiom, resulting in different code depending on when the object is destroyed.",

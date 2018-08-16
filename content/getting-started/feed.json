@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2cac0c52-a34d-4124-ab89-d117f7b69118",
+      "title": "In Memes We Rust",
+      "content_text": "Learning Rust to make a Mocking SpongeBob text generator",
+      "url": "https://medium.com/@glitteringkatie/in-memes-we-rust-5c920b1e9af7",
+      "date_published": "2018-07-25T20:11:46.910+00:00",
+      "author": {
+        "name": "Katie Hughes ✨",
+        "url": "https://medium.com/@glitteringkatie"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "d6b87789-dd86-49e2-91b6-692607e32f67",
       "title": "How Rust made me rethink my view about compilers",
       "content_text": "It's funny how universe aligns things, just few days ago I stumbled upon Rust koans. Already familiar way of learning and exercising, patented by Ruby programmers, where you correct tests and make them work. Also whole method of learning was similar to reading 'Little Schemer' fairly popular book among fellow Lispers. So I'll use this blog post to summarize few early impressions about Rust, and let me tell you straight away, I am loving it so far!",
