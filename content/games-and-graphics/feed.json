@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0d9f9b5e-33e1-492a-976e-fcbf0826cbab",
+      "title": "rusty_gl: A simple wrapper over rs-gl to make code safer",
+      "content_text": "I enjoy using OpenGL a lot, but when I switched from C++ to Rust I found it to be less fun to use. This is because the OpenGL (from gl-rs) code never really fit alongside the rest of my Rust code, due to unsafe blocks, PascalCase function names, hacky conversions to c_void pointers etc. So, to make my life easier in the future when using OpenGL in Rust, I made this crate.",
+      "url": "https://www.reddit.com/r/rust/comments/982kqg/rusty_gl_a_simple_wrapper_over_rsgl_to_make_code/",
+      "date_published": "2018-08-18T00:10:17+10:00",
+      "author": {
+        "name": "Hopson97",
+        "url": "https://www.reddit.com/user/Hopson97/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "2e354a2e-10fe-410c-adbf-7b739def3ab6",
       "title": "UniverCity released into early access",
       "content_text": "UniverCity is a university management game being programmed in the Rust programming language. As stated above, the game is in early access and is not complete. There will be changes and additions down the line and finishing it may take some time. You may wish to wait until its further along before buying it.",

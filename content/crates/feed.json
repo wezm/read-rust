@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e53853b1-a7ca-4ffc-bf71-510ed37ea402",
+      "title": "Toykio, a toy event loop",
+      "content_text": "In this blog post I’d like to present toykio, a simple futures executor intended for learning about how executors with an event loop work. Toykio only provides a very minimal feature set: An event loop and TCP streams and listeners. However, it turns out that due to the fact that futures are composable, this is enough to build complex clients and servers.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/08/17/toykio.html",
+      "date_published": "2018-08-17T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Polakov",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2105e8ca-6037-4dfa-86f7-644bdbec71bd",
       "title": "Futures 0.3.0-alpha.3",
       "content_text": "A compatibility layer between 0.3 an 0.1 was developed. It is now possible to convert an 0.3 future into an 0.1 future and vice versa. Similar conversions for streams and sinks are also supported. Additionally, it is now possible to run 0.3 futures and async functions on Tokio’s executor. We have a dedicated blog post coming up that explains this in more detail.",

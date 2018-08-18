@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2ebd5fc5-6e3a-4933-8775-a7a190539f8b",
+      "title": "TSL256X Light Intensity Sensor Driver",
+      "content_text": "It is an exciting time to be working in embedded Rust. After writing my first driver, I mostly had the feeling that for driver writers there was a clear expectation and an obvious standard for how things should be done. My experience writing this driver, which uses I2C rather than GPIO, exposed me to a few topics of active discussion within the embedded Rust working group which I hadn’t seen before.",
+      "url": "https://www.joshmcguigan.com/blog/tsl256x-light-intensity-sensor-driver/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "382f988d-9fe3-4525-9b21-0c6cb4373303",
       "title": "RSoC: Porting Redox to ARM (AArch64) — 0x02",
       "content_text": "At the time of writing the previous blog the plan was to target the Raspberry Pi 3 (Cortex A53) as a development platform because of its availability, popularity and community. Sadly, it seems that Broadcom went through a lot of shortcuts while implementing this specific design, which means features like GIC are half-there or completely missing, like in this case.\n\nAfter a discussion with @microcolonel, he proposed and kindly sent me a HiKey960 reference SoC from the awesome Linaro 96Boards initiative. The quality of this board is definitely a lot better than the Raspberry Pi and the documentation is detailed and open. Great stuff.",

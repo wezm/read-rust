@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "8b803f70-9098-40d0-97af-5cdff0cde756",
+      "title": "Programming Servo: Anatomy of a Fetch",
+      "content_text": "Today, let’s go through an entire fetch in Servo, starting with an example in JS.",
+      "url": "https://medium.com/programming-servo/anatomy-of-a-fetch-8872a5c843cd",
+      "date_published": "2018-08-17T22:29:36.264+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7f4b6826-72f6-4842-882d-2a2e5378bdcd",
+      "title": "How Rust’s standard library was vulnerable for years and nobody noticed",
+      "content_text": "Rust is a new systems programming language that prides itself on memory safety and speed. The gist of it is that if you write code in Rust, it goes as fast as C or C++, but you will not get mysterious intermittent crashes in production or horrific security vulnerabilities, unlike in the latter two.\n\nThat is, until you explicitly opt in to that kind of thing. Uh oh.",
+      "url": "https://medium.com/@shnatsel/how-rusts-standard-library-was-vulnerable-for-years-and-nobody-noticed-aebf0503c3d6",
+      "date_published": "2018-08-18T02:47:33.708+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "0d9f9b5e-33e1-492a-976e-fcbf0826cbab",
+      "title": "rusty_gl: A simple wrapper over rs-gl to make code safer",
+      "content_text": "I enjoy using OpenGL a lot, but when I switched from C++ to Rust I found it to be less fun to use. This is because the OpenGL (from gl-rs) code never really fit alongside the rest of my Rust code, due to unsafe blocks, PascalCase function names, hacky conversions to c_void pointers etc. So, to make my life easier in the future when using OpenGL in Rust, I made this crate.",
+      "url": "https://www.reddit.com/r/rust/comments/982kqg/rusty_gl_a_simple_wrapper_over_rsgl_to_make_code/",
+      "date_published": "2018-08-18T00:10:17+10:00",
+      "author": {
+        "name": "Hopson97",
+        "url": "https://www.reddit.com/user/Hopson97/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1921a96e-ad32-410f-b0a7-c72dc16d3cde",
+      "title": "Rust GraphQL webserver with Warp, Juniper and MongoDB",
+      "content_text": "Rust's web frameworks ecosystem is in constant change, but recently a new framework called warp came out implementing a new, original way to solve the old problem of transforming a request into a response, and I wanted to give it a try.\n\nAnd, as I use GraphQL massively at work, I also wanted to check how well Juniper implements it. To add some spice, I used MongoDB as a storage engine instead of the ubiquitous and well-supported SQL databases.",
+      "url": "http://alex.amiran.it/post/2018-08-16-rust-graphql-webserver-with-warp-juniper-and-mongodb.html",
+      "date_published": "2018-08-16T00:00:00+00:00",
+      "author": {
+        "name": "/dev/random",
+        "url": "http://alex.amiran.it/index.html"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e53853b1-a7ca-4ffc-bf71-510ed37ea402",
+      "title": "Toykio, a toy event loop",
+      "content_text": "In this blog post I’d like to present toykio, a simple futures executor intended for learning about how executors with an event loop work. Toykio only provides a very minimal feature set: An event loop and TCP streams and listeners. However, it turns out that due to the fact that futures are composable, this is enough to build complex clients and servers.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2018/08/17/toykio.html",
+      "date_published": "2018-08-17T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Polakov",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "26f81256-2d48-4d6e-b305-7ed0d88c216b",
+      "title": "Writing Integration Tests in Rust",
+      "content_text": "As part of my overall change over in Rookeries, from Python to Rust, I rewrote a suite of integration tests for the server API. To celebrate my successful transition, I released version 0.11.0 of Rookeries, whose tests use pure Rust now!",
+      "url": "https://dorianpula.ca/2018/08/15/writing-integration-tests-in-rust-releasing-rookeries-v0-11-0/",
+      "date_published": "2018-08-15T23:00:26+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fdc8eef0-1b02-41f7-8340-faf4660db183",
+      "title": "Journey into Gentoo eclass",
+      "content_text": "I spent some days writing a portage eclass for Gentoo. I want to share my experience.",
+      "url": "https://gibix.github.io/gsoc/2018/08/11/journey-into-gentoo-eclass.html",
+      "date_published": "2018-08-11T00:00:00+00:00",
+      "author": {
+        "name": "gibix",
+        "url": "https://gibix.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2ebd5fc5-6e3a-4933-8775-a7a190539f8b",
+      "title": "TSL256X Light Intensity Sensor Driver",
+      "content_text": "It is an exciting time to be working in embedded Rust. After writing my first driver, I mostly had the feeling that for driver writers there was a clear expectation and an obvious standard for how things should be done. My experience writing this driver, which uses I2C rather than GPIO, exposed me to a few topics of active discussion within the embedded Rust working group which I hadn’t seen before.",
+      "url": "https://www.joshmcguigan.com/blog/tsl256x-light-intensity-sensor-driver/",
+      "date_published": "2018-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0a12242d-a074-40cd-afa5-ec83c41c3865",
+      "title": "paste a full featured pastebin written in Rust",
+      "content_text": "A sensible, modern pastebin written in Rust",
+      "url": "https://paste.gg/",
+      "date_published": "2018-07-16T14:42:15+10:00",
+      "author": {
+        "name": "Kyle Clemens",
+        "url": "https://paste.gg/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2e354a2e-10fe-410c-adbf-7b739def3ab6",
       "title": "UniverCity released into early access",
       "content_text": "UniverCity is a university management game being programmed in the Rust programming language. As stated above, the game is in early access and is not complete. There will be changes and additions down the line and finishing it may take some time. You may wish to wait until its further along before buying it.",

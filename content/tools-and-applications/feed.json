@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fdc8eef0-1b02-41f7-8340-faf4660db183",
+      "title": "Journey into Gentoo eclass",
+      "content_text": "I spent some days writing a portage eclass for Gentoo. I want to share my experience.",
+      "url": "https://gibix.github.io/gsoc/2018/08/11/journey-into-gentoo-eclass.html",
+      "date_published": "2018-08-11T00:00:00+00:00",
+      "author": {
+        "name": "gibix",
+        "url": "https://gibix.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "424adcbb-d3de-467b-8ca2-af877e849e85",
       "title": "Introducing the Routinator 3000",
       "content_text": "NLnet Labs is embarking on a new adventure. In the coming months we will be developing an RPKI toolset aimed at making BGP routing more secure. It will consist of three parts: a Certificate Authority package, a Publication Server and Relying Party software. We’ve chosen to do the development in a modern systems programming language, Rust.",
