@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f025d0a3-cc4c-45c7-9587-71057b3d9cbf",
+      "title": "So You Want to Build a Language VM in Rust - Part 00",
+      "content_text": "Hi there! This is the prelude to a series of posts to detailing how to build a language VM. If you are familiar with terms like registers, program counter, and assembly, feel free to skip this post. If not, read on. Please note this is nowhere near comprehensive, but enough to understand what we’re building.",
+      "url": "https://medium.com/iridium-vm/so-you-want-to-build-a-language-vm-part-0-f9132f611a1b",
+      "date_published": "2018-08-17T19:59:12.548+00:00",
+      "author": {
+        "name": "Fletcher Haynes",
+        "url": "https://medium.com/@subnet_zero"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "1af176be-1d98-419b-85d5-dfbf78cb74df",
       "title": "Rust needs BFGS. What is BFGS?",
       "content_text": "There is no general “best” way to minimize a function; different kinds of functions require different strategies. However, Python’s scipy and R’s optim both prominently feature an algorithm called BFGS. I’ll explain what BFGS stands for, the problem that it solves, and how it solves it.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ab387870-cbed-4f6d-b1e2-22d2c2686de4",
+      "title": "RSoC: Relibc - Wrap up",
+      "content_text": "Time for me to pack up and never ever contribute to Redox ever again… Just kidding. This isn’t goodbye, you can’t get rid of me that easily I’m afraid. I’ll definitely want to contribute more, can’t however say with certainty how much time I’ll get, for school is approaching, quickly",
+      "url": "https://www.redox-os.org/news/rsoc-relibc-final/",
+      "date_published": "2018-08-11T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "6f2abec2-1096-4a82-90db-b1962a2876f7",
       "title": "RSoC: FAT32 Filesystem in Redox - 3",
       "content_text": "The previous blog post discusses how raw disk reads were implemented in the loader stub. The next step was to implement a clean read API which can be used by different filesystem libraries in order to read their respective filesystems. Since the raw reads from the BIOS interrupt had a granularity in terms of sectors(each sector being 512 bytes), the reads had to be translated in order to provide byte level granularity. The clone_from_slice function ensures that a direct call to memcopy is not required. The refined read function is here.",

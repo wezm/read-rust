@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
+      "title": "A Beginner’s Guide to Rust Macros ✨",
+      "content_text": "Demystifying one of Rust’s most powerful feature.",
+      "url": "https://medium.com/@phoomparin/a-beginners-guide-to-rust-macros-5c75594498f1",
+      "date_published": "2018-08-18T18:35:50.344+00:00",
+      "author": {
+        "name": "Phoomparin Mano",
+        "url": "https://medium.com/@phoomparin"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "bbb6ed5a-a451-4abf-bbff-2e0b33f6660a",
+      "title": "Rust concurrency patterns: No context, no cancel, no leaks",
+      "content_text": "Let’s put ourselves to the challenge of having an ‘infinite’ generator, which will have to be told to stop generating by the consumer…",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-no-context-no-cancel-no-leak-b6c1ec2dafa5",
+      "date_published": "2018-08-07T10:54:56.242+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d711d36a-fa00-4b26-a367-26b70589af2e",
+      "title": "Logging from Rust in librsvg",
+      "content_text": "Over in this issue we are discussing how to add debug logging for librsvg.  A popular way to add logging to Rust code is to use the log crate. However, the log create is just a facade, and by default the messages do not get emitted anywhere. The calling code has to set up a logger. Crates like env_logger let one set up a logger, during program initialization, that gets configured through an environment variable. This is a problem for librsvg: we are not the program's initialization! Librsvg is a library; it doesn't have a main() function. And since most of the calling code is not Rust, we can't assume that they can call code that can initialize the logging framework.",
+      "url": "https://people.gnome.org/~federico/blog/logging-in-librsvg.html",
+      "date_published": "2018-08-03T19:29:43-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "26f81256-2d48-4d6e-b305-7ed0d88c216b",
       "title": "Writing Integration Tests in Rust",
       "content_text": "As part of my overall change over in Rookeries, from Python to Rust, I rewrote a suite of integration tests for the server API. To celebrate my successful transition, I released version 0.11.0 of Rookeries, whose tests use pure Rust now!",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "09da227e-6517-48db-ae3f-90f1d1086731",
+      "title": "Anatomy a Great Rust Blog",
+      "content_text": "I've posted 718 articles to Read Rust. This post shares some insights I've gleaned from them, to make your posts as readable and discoverable as possible.",
+      "url": "http://www.wezm.net/technical/2018/08/anatomy-of-a-great-rust-blog/",
+      "date_published": "2018-08-18T06:17:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "8cf7d62c-c8d9-4116-ae4c-7ac155d015cb",
       "title": "Ideas for Rust Meetups",
       "content_text": "Since I’m co-organizing the Rhein-Main Rust meetup (and am probably the main driving force behind it), I tought, it might be useful to share a few ideas we have that we have either already done, or plan doing – perhaps other meetup organizers can benefit from this. Note that our meetups usually run 2-4 hours, but some attendees may have to join late or leave early so the format has to take this into account.",

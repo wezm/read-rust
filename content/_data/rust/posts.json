@@ -10,6 +10,121 @@
   },
   "items": [
     {
+      "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
+      "title": "A Beginner’s Guide to Rust Macros ✨",
+      "content_text": "Demystifying one of Rust’s most powerful feature.",
+      "url": "https://medium.com/@phoomparin/a-beginners-guide-to-rust-macros-5c75594498f1",
+      "date_published": "2018-08-18T18:35:50.344+00:00",
+      "author": {
+        "name": "Phoomparin Mano",
+        "url": "https://medium.com/@phoomparin"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "f025d0a3-cc4c-45c7-9587-71057b3d9cbf",
+      "title": "So You Want to Build a Language VM in Rust - Part 00",
+      "content_text": "Hi there! This is the prelude to a series of posts to detailing how to build a language VM. If you are familiar with terms like registers, program counter, and assembly, feel free to skip this post. If not, read on. Please note this is nowhere near comprehensive, but enough to understand what we’re building.",
+      "url": "https://medium.com/iridium-vm/so-you-want-to-build-a-language-vm-part-0-f9132f611a1b",
+      "date_published": "2018-08-17T19:59:12.548+00:00",
+      "author": {
+        "name": "Fletcher Haynes",
+        "url": "https://medium.com/@subnet_zero"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "5eb3a4b0-7653-43b1-9958-a8b96bc32338",
+      "title": "Gfx-hal Tutorial part 0: Drawing a triangle",
+      "content_text": "Eight part series on using gfx-hal for low level graphics programming.",
+      "url": "https://falseidolfactory.com/2018/08/16/gfx-hal-part-0-drawing-a-triangle.html",
+      "tweet_url": "https://twitter.com/Mistodon/status/1030134957631565825",
+      "date_published": "2018-08-16T00:00:00+00:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ab387870-cbed-4f6d-b1e2-22d2c2686de4",
+      "title": "RSoC: Relibc - Wrap up",
+      "content_text": "Time for me to pack up and never ever contribute to Redox ever again… Just kidding. This isn’t goodbye, you can’t get rid of me that easily I’m afraid. I’ll definitely want to contribute more, can’t however say with certainty how much time I’ll get, for school is approaching, quickly",
+      "url": "https://www.redox-os.org/news/rsoc-relibc-final/",
+      "date_published": "2018-08-11T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "bbb6ed5a-a451-4abf-bbff-2e0b33f6660a",
+      "title": "Rust concurrency patterns: No context, no cancel, no leaks",
+      "content_text": "Let’s put ourselves to the challenge of having an ‘infinite’ generator, which will have to be told to stop generating by the consumer…",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-no-context-no-cancel-no-leak-b6c1ec2dafa5",
+      "date_published": "2018-08-07T10:54:56.242+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d711d36a-fa00-4b26-a367-26b70589af2e",
+      "title": "Logging from Rust in librsvg",
+      "content_text": "Over in this issue we are discussing how to add debug logging for librsvg.  A popular way to add logging to Rust code is to use the log crate. However, the log create is just a facade, and by default the messages do not get emitted anywhere. The calling code has to set up a logger. Crates like env_logger let one set up a logger, during program initialization, that gets configured through an environment variable. This is a problem for librsvg: we are not the program's initialization! Librsvg is a library; it doesn't have a main() function. And since most of the calling code is not Rust, we can't assume that they can call code that can initialize the logging framework.",
+      "url": "https://people.gnome.org/~federico/blog/logging-in-librsvg.html",
+      "date_published": "2018-08-03T19:29:43-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09da227e-6517-48db-ae3f-90f1d1086731",
+      "title": "Anatomy a Great Rust Blog",
+      "content_text": "I've posted 718 articles to Read Rust. This post shares some insights I've gleaned from them, to make your posts as readable and discoverable as possible.",
+      "url": "http://www.wezm.net/technical/2018/08/anatomy-of-a-great-rust-blog/",
+      "tweet_url": "https://twitter.com/wezm/status/1031042328662700032",
+      "date_published": "2018-08-18T06:17:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "acd4faef-4a0e-411b-9995-1a3554598c04",
+      "title": "Empty Rust File to Game in Nine Days",
+      "content_text": "A Vulkan game from scratch in nine days. Using minimal libraries and pure Rust.",
+      "url": "https://blog.shivoa.net/2018/07/empty-rust-file-to-game-in-nine-days.html",
+      "date_published": "2018-07-28T22:26:00+01:00",
+      "author": {
+        "name": "Shivoa Birch",
+        "url": "https://plus.google.com/104688779548004579468"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "8b803f70-9098-40d0-97af-5cdff0cde756",
       "title": "Programming Servo: Anatomy of a Fetch",
       "content_text": "Today, let’s go through an entire fetch in Servo, starting with an example in JS.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
+      "title": "A Beginner’s Guide to Rust Macros ✨",
+      "content_text": "Demystifying one of Rust’s most powerful feature.",
+      "url": "https://medium.com/@phoomparin/a-beginners-guide-to-rust-macros-5c75594498f1",
+      "date_published": "2018-08-18T18:35:50.344+00:00",
+      "author": {
+        "name": "Phoomparin Mano",
+        "url": "https://medium.com/@phoomparin"
+      },
+      "tags": [
+        "Language",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "2cac0c52-a34d-4124-ab89-d117f7b69118",
       "title": "In Memes We Rust",
       "content_text": "Learning Rust to make a Mocking SpongeBob text generator",

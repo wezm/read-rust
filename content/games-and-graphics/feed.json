@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "5eb3a4b0-7653-43b1-9958-a8b96bc32338",
+      "title": "Gfx-hal Tutorial part 0: Drawing a triangle",
+      "content_text": "Eight part series on using gfx-hal for low level graphics programming.",
+      "url": "https://falseidolfactory.com/2018/08/16/gfx-hal-part-0-drawing-a-triangle.html",
+      "date_published": "2018-08-16T00:00:00+00:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "acd4faef-4a0e-411b-9995-1a3554598c04",
+      "title": "Empty Rust File to Game in Nine Days",
+      "content_text": "A Vulkan game from scratch in nine days. Using minimal libraries and pure Rust.",
+      "url": "https://blog.shivoa.net/2018/07/empty-rust-file-to-game-in-nine-days.html",
+      "date_published": "2018-07-28T22:26:00+01:00",
+      "author": {
+        "name": "Shivoa Birch",
+        "url": "https://plus.google.com/104688779548004579468"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0d9f9b5e-33e1-492a-976e-fcbf0826cbab",
       "title": "rusty_gl: A simple wrapper over rs-gl to make code safer",
       "content_text": "I enjoy using OpenGL a lot, but when I switched from C++ to Rust I found it to be less fun to use. This is because the OpenGL (from gl-rs) code never really fit alongside the rest of my Rust code, due to unsafe blocks, PascalCase function names, hacky conversions to c_void pointers etc. So, to make my life easier in the future when using OpenGL in Rust, I made this crate.",
