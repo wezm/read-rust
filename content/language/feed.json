@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "29c7c773-0be7-4694-a11d-41717eac218c",
+      "title": "Safe Partial Initialization In Rust",
+      "content_text": "Say we have a struct, Foo, with multiple fields that we would like to partially initialize without resorting to using unsafe. We could write a procedural macro called PartialInit, for example, which would be invoked using derive.",
+      "url": "https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/",
+      "date_published": "2018-08-19T00:00:00+00:00",
+      "author": {
+        "name": "Scott J Maddox",
+        "url": "https://scottjmaddox.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
       "title": "A Beginner’s Guide to Rust Macros ✨",
       "content_text": "Demystifying one of Rust’s most powerful feature.",

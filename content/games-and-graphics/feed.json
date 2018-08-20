@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "5e9a2cd7-e018-41d6-bfeb-a0face2c3f0e",
+      "title": "Journey into rust #2: Compute Shaders",
+      "content_text": "I realized after my first post of this series that it’s not just a journey into rust but also OpenGL. I’ve used other Graphics API’s before but never actually got my hands dirty into OpenGL. Someone on the rust user forums (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.",
+      "url": "https://jonathansteyfkens.com/rust/opengl/graphics/compute/shader/2018/08/19/compute-shaders.html",
+      "date_published": "2018-08-19T20:30:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8914a4f4-eff5-4563-a82f-0c55d013ef7f",
+      "title": "Ludum Dare 42 Postmortem",
+      "content_text": "One of my favorite game jams is Ludum Dare: It’s just you, a theme, and 48 hours to make a game. Pure and challenging, and I’ve participated in several of them from time to time with a variety of tools. Usually my go-to is Unity3D, though arguably my best game was in Python+Pygame. This time though, for Ludum Dare 42 on August 2018, I finally had both the energy and ability to write my game in Rust, using ggez. So I decided to write about it!",
+      "url": "https://wiki.alopex.li/LD42Postmortem",
+      "date_published": "2018-08-13T14:53:05+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5eb3a4b0-7653-43b1-9958-a8b96bc32338",
       "title": "Gfx-hal Tutorial part 0: Drawing a triangle",
       "content_text": "Eight part series on using gfx-hal for low level graphics programming.",

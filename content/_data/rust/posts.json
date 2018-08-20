@@ -10,6 +10,50 @@
   },
   "items": [
     {
+      "id": "5e9a2cd7-e018-41d6-bfeb-a0face2c3f0e",
+      "title": "Journey into rust #2: Compute Shaders",
+      "content_text": "I realized after my first post of this series that it’s not just a journey into rust but also OpenGL. I’ve used other Graphics API’s before but never actually got my hands dirty into OpenGL. Someone on the rust user forums (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.",
+      "url": "https://jonathansteyfkens.com/rust/opengl/graphics/compute/shader/2018/08/19/compute-shaders.html",
+      "tweet_url": "https://twitter.com/Jonathansty/status/1031262724209012736",
+      "date_published": "2018-08-19T20:30:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8914a4f4-eff5-4563-a82f-0c55d013ef7f",
+      "title": "Ludum Dare 42 Postmortem",
+      "content_text": "One of my favorite game jams is Ludum Dare: It’s just you, a theme, and 48 hours to make a game. Pure and challenging, and I’ve participated in several of them from time to time with a variety of tools. Usually my go-to is Unity3D, though arguably my best game was in Python+Pygame. This time though, for Ludum Dare 42 on August 2018, I finally had both the energy and ability to write my game in Rust, using ggez. So I decided to write about it!",
+      "url": "https://wiki.alopex.li/LD42Postmortem",
+      "date_published": "2018-08-13T14:53:05+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "29c7c773-0be7-4694-a11d-41717eac218c",
+      "title": "Safe Partial Initialization In Rust",
+      "content_text": "Say we have a struct, Foo, with multiple fields that we would like to partially initialize without resorting to using unsafe. We could write a procedural macro called PartialInit, for example, which would be invoked using derive.",
+      "url": "https://scottjmaddox.github.io/Safe-partial-initialization-in-Rust/",
+      "tweet_url": "https://twitter.com/scottjmaddox/status/1031300774150778881",
+      "date_published": "2018-08-19T00:00:00+00:00",
+      "author": {
+        "name": "Scott J Maddox",
+        "url": "https://scottjmaddox.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
       "title": "A Beginner’s Guide to Rust Macros ✨",
       "content_text": "Demystifying one of Rust’s most powerful feature.",
@@ -97,7 +141,7 @@
     },
     {
       "id": "09da227e-6517-48db-ae3f-90f1d1086731",
-      "title": "Anatomy a Great Rust Blog",
+      "title": "Anatomy Of a Great Rust Blog",
       "content_text": "I've posted 718 articles to Read Rust. This post shares some insights I've gleaned from them, to make your posts as readable and discoverable as possible.",
       "url": "http://www.wezm.net/technical/2018/08/anatomy-of-a-great-rust-blog/",
       "tweet_url": "https://twitter.com/wezm/status/1031042328662700032",

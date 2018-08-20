@@ -11,7 +11,7 @@
   "items": [
     {
       "id": "09da227e-6517-48db-ae3f-90f1d1086731",
-      "title": "Anatomy a Great Rust Blog",
+      "title": "Anatomy Of a Great Rust Blog",
       "content_text": "I've posted 718 articles to Read Rust. This post shares some insights I've gleaned from them, to make your posts as readable and discoverable as possible.",
       "url": "http://www.wezm.net/technical/2018/08/anatomy-of-a-great-rust-blog/",
       "date_published": "2018-08-18T06:17:00+00:00",
