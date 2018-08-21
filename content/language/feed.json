@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e3b3767b-4228-4432-a525-15d8cbc99f77",
+      "title": "[blog series] From Rust to beyond: Prelude",
+      "content_text": "This series of posts is about those bindings, and explains how to send Rust beyond earth, into many different galaxies. Rust will land in: The WebAssembly galaxy, The ASM.js galaxy, The C galaxy, The PHP galaxy, and The NodeJS galaxy. The ship is currently flying into the Java galaxy, this series may continue if the ship does not crash or has enough resources to survive!",
+      "url": "https://mnt.io/2018/08/21/from-rust-to-beyond-prelude/",
+      "date_published": "2018-08-21T08:46:20+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "29c7c773-0be7-4694-a11d-41717eac218c",
       "title": "Safe Partial Initialization In Rust",
       "content_text": "Say we have a struct, Foo, with multiple fields that we would like to partially initialize without resorting to using unsafe. We could write a procedural macro called PartialInit, for example, which would be invoked using derive.",

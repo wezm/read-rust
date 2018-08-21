@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4f79a6a7-0d44-44ce-b82c-c4376e073660",
+      "title": "C2rust - A bridge to C",
+      "content_text": "The c2rust project exists to help bridge the fact that there is a lot of valuable software written in C and that there have been great strides in making safer and more-reliable programming languages since C was designed. Rust offers many modern improvements for C while still preserving the low-level control that makes it attractive. Beyond that, Rust provides new abstraction capabilities like parametricity, type-traits, methods, a module system, thread-safety, and more.",
+      "url": "https://galois.com/blog/2018/08/c2rust/",
+      "date_published": "2018-08-14T18:16:29+00:00",
+      "author": {
+        "name": "Eric Mertens",
+        "url": "https://galois.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "fdc8eef0-1b02-41f7-8340-faf4660db183",
       "title": "Journey into Gentoo eclass",
       "content_text": "I spent some days writing a portage eclass for Gentoo. I want to share my experience.",

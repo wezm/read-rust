@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d6f7c587-36f5-4276-8b5b-60cd8d857606",
+      "title": "History of the Rand crate",
+      "content_text": "I wrote this bit to give a some background about why Rand looks the way it does, and why it is time to make some changes. The new release, Rand 0.5, is getting almost ready fro release. Also I hope it is a bit entertaining to read about the history in combination with early Rust.",
+      "url": "https://www.reddit.com/r/rust/comments/87qy40/history_of_the_rand_crate/",
+      "date_published": "2018-03-28T21:52:43+11:00",
+      "author": {
+        "name": "u/pitdicker",
+        "url": "https://www.reddit.com/user/pitdicker"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e53853b1-a7ca-4ffc-bf71-510ed37ea402",
       "title": "Toykio, a toy event loop",
       "content_text": "In this blog post I’d like to present toykio, a simple futures executor intended for learning about how executors with an event loop work. Toykio only provides a very minimal feature set: An event loop and TCP streams and listeners. However, it turns out that due to the fact that futures are composable, this is enough to build complex clients and servers.",

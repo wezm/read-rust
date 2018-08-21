@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e3b3767b-4228-4432-a525-15d8cbc99f77",
+      "title": "[blog series] From Rust to beyond: Prelude",
+      "content_text": "This series of posts is about those bindings, and explains how to send Rust beyond earth, into many different galaxies. Rust will land in: The WebAssembly galaxy, The ASM.js galaxy, The C galaxy, The PHP galaxy, and The NodeJS galaxy. The ship is currently flying into the Java galaxy, this series may continue if the ship does not crash or has enough resources to survive!",
+      "url": "https://mnt.io/2018/08/21/from-rust-to-beyond-prelude/",
+      "date_published": "2018-08-21T08:46:20+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d6f7c587-36f5-4276-8b5b-60cd8d857606",
+      "title": "History of the Rand crate",
+      "content_text": "I wrote this bit to give a some background about why Rand looks the way it does, and why it is time to make some changes. The new release, Rand 0.5, is getting almost ready fro release. Also I hope it is a bit entertaining to read about the history in combination with early Rust.",
+      "url": "https://www.reddit.com/r/rust/comments/87qy40/history_of_the_rand_crate/",
+      "date_published": "2018-03-28T21:52:43+11:00",
+      "author": {
+        "name": "u/pitdicker",
+        "url": "https://www.reddit.com/user/pitdicker"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "4f79a6a7-0d44-44ce-b82c-c4376e073660",
+      "title": "C2rust - A bridge to C",
+      "content_text": "The c2rust project exists to help bridge the fact that there is a lot of valuable software written in C and that there have been great strides in making safer and more-reliable programming languages since C was designed. Rust offers many modern improvements for C while still preserving the low-level control that makes it attractive. Beyond that, Rust provides new abstraction capabilities like parametricity, type-traits, methods, a module system, thread-safety, and more.",
+      "url": "https://galois.com/blog/2018/08/c2rust/",
+      "date_published": "2018-08-14T18:16:29+00:00",
+      "author": {
+        "name": "Eric Mertens",
+        "url": "https://galois.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "5e9a2cd7-e018-41d6-bfeb-a0face2c3f0e",
       "title": "Journey into rust #2: Compute Shaders",
       "content_text": "I realized after my first post of this series that it’s not just a journey into rust but also OpenGL. I’ve used other Graphics API’s before but never actually got my hands dirty into OpenGL. Someone on the rust user forums (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.",
