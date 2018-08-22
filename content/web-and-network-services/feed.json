@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b1b8abb7-362a-4004-8b6c-913ca1c85773",
+      "title": "From Rust to beyond: The WebAssembly galaxy",
+      "content_text": "The first galaxy that our Rust parser will explore is the WebAssembly (WASM) galaxy. This post will explain what WebAssembly is, how to compile the parser into WebAssembly, and how to use the WebAssembly binary with Javascript in a browser and with NodeJS.",
+      "url": "https://mnt.io/2018/08/22/from-rust-to-beyond-the-webassembly-galaxy/",
+      "date_published": "2018-08-22T07:46:27+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "8b803f70-9098-40d0-97af-5cdff0cde756",
       "title": "Programming Servo: Anatomy of a Fetch",
       "content_text": "Today, let’s go through an entire fetch in Servo, starting with an example in JS.",

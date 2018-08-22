@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "b1b8abb7-362a-4004-8b6c-913ca1c85773",
+      "title": "From Rust to beyond: The WebAssembly galaxy",
+      "content_text": "The first galaxy that our Rust parser will explore is the WebAssembly (WASM) galaxy. This post will explain what WebAssembly is, how to compile the parser into WebAssembly, and how to use the WebAssembly binary with Javascript in a browser and with NodeJS.",
+      "url": "https://mnt.io/2018/08/22/from-rust-to-beyond-the-webassembly-galaxy/",
+      "tweet_url": "https://twitter.com/mnt_io/status/1032176694285791232",
+      "date_published": "2018-08-22T07:46:27+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e3b3767b-4228-4432-a525-15d8cbc99f77",
       "title": "[blog series] From Rust to beyond: Prelude",
       "content_text": "This series of posts is about those bindings, and explains how to send Rust beyond earth, into many different galaxies. Rust will land in: The WebAssembly galaxy, The ASM.js galaxy, The C galaxy, The PHP galaxy, and The NodeJS galaxy. The ship is currently flying into the Java galaxy, this series may continue if the ship does not crash or has enough resources to survive!",
