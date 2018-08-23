@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d26e4a2d-a00d-4ab2-95e3-326ded5d1fe0",
+      "title": "Reading files quickly in Rust",
+      "content_text": "With the latest release of 1.27 of Rust (SIMD support) the code counters written in Rust were suddenly a lot faster in Linux. In fact it meant that the fastest one tokei was suddenly faster than my scc for almost all tests. In addition a new project polyglot written in a language I have never heard of ATS popped up which is also now faster than my Go program for any repository when running on a machine with less than 8 cores.",
+      "url": "https://boyter.org/posts/reading-files-quickly-in-rust/",
+      "date_published": "2018-08-20T00:00:00+00:00",
+      "author": {
+        "name": "Ben Boyter",
+        "url": "https://boyter.org/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "98469a08-b569-403f-a3ed-6049ff91c0b1",
       "title": "Learning SIMD with Rust by finding planets",
       "content_text": "Rust 1.27.0 has brought SIMD (Single Instruction Multiple Data), also known as vectorization, to stable Rust. If you read the announcement, you will see that SIMD should bring performance enhancements to our applications if we learn how to use it properly. But, for that let's first dive into how SIMD works.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "72c8ca7f-1f7e-47f5-aebc-f06e63a1b367",
+      "title": "Gfx-hal Tutorial part 1: Resizing windows",
+      "content_text": "This tutorial builds on the code we wrote in the previous part. You can find the new code here with comments explaining everything that’s changed, and run it to see what the end result will look like. Last time we got a single triangle rendering on screen. This time we’re going to look at what we need to do to allow window resizing to work properly.",
+      "url": "https://falseidolfactory.com/2018/08/23/gfx-hal-part-1-resizing-windows.html",
+      "date_published": "2018-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5e9a2cd7-e018-41d6-bfeb-a0face2c3f0e",
       "title": "Journey into rust #2: Compute Shaders",
       "content_text": "I realized after my first post of this series that it’s not just a journey into rust but also OpenGL. I’ve used other Graphics API’s before but never actually got my hands dirty into OpenGL. Someone on the rust user forums (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.",
