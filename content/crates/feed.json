@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "99ecbdf0-983f-42d8-850a-5e0532770f17",
+      "title": "Introducing windows-acl: working with ACLs in Rust",
+      "content_text": "Access Control Lists (ACLs) are an integral part of the Microsoft Windows security model. In addition to controlling access to secured resources, they are also used in sandboxing, event auditing, and specifying mandatory integrity levels. They are also exceedingly painful to programmatically manipulate, especially in Rust. Today, help has arrived — we released windows-acl, a Rust crate that simplifies the manipulation of access control lists on Windows.",
+      "url": "https://blog.trailofbits.com/2018/08/23/introducing-windows-acl-working-with-acls-in-rust/",
+      "date_published": "2018-08-23T11:50:39+00:00",
+      "author": {
+        "name": "Trail of Bits",
+        "url": "https://blog.trailofbits.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "d6f7c587-36f5-4276-8b5b-60cd8d857606",
       "title": "History of the Rand crate",
       "content_text": "I wrote this bit to give a some background about why Rand looks the way it does, and why it is time to make some changes. The new release, Rand 0.5, is getting almost ready fro release. Also I hope it is a bit entertaining to read about the history in combination with early Rust.",

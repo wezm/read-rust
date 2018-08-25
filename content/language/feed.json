@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "b0c75f8a-24c3-449e-bc2d-97638d193d3e",
+      "title": "Why an Interior Mutable abstraction is needed in the Rust core library",
+      "content_text": "Interior mutabiliby is a concept known to anyone who have programmed in Rust for a while. And even though Rust's stdlib have several wrapper-types allowing interior mutability there is no trait unifying these types. Motivated by writing libraries suitable for no_std development that are fully safe to use with threads, this blog post will attempt to fill in one gap in the Rust stdlib.",
+      "url": "http://blog.kjeka.com/rust/programming/tmcl/2018/08/24/interior-mut/",
+      "date_published": "2018-08-24T00:00:00+00:00",
+      "author": {
+        "name": "Kjetil Kjeka",
+        "url": "http://blog.kjeka.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a0db6c9-2c0d-4455-b353-474e4f59c87a",
+      "title": "Calling C# natively from Rust",
+      "content_text": "A couple of months ago, I created my first Rust program; a music manager called seiri. seiri is actually a rewrite of a previous, much buggier program that I used to organize my music that was written in C#. The tag library of choice was of course, taglib-sharp, a port of the C++ library TagLib to the .NET ecosystem. Since Rust unfortunately doesn’t have its own native port of TagLib, and any C bindings available didn’t expose the picture API, the most obvious thing to do was to use the C# library with Rust somehow, right?",
+      "url": "https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d",
+      "date_published": "2018-08-24T01:07:46.707+00:00",
+      "author": {
+        "name": "Ronny Chan",
+        "url": "https://medium.com/@chyyran"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4857abad-3757-40b8-a899-93442e4982e9",
+      "title": "Oxidizing sourmash: Python and FFI",
+      "content_text": "Last December I decided to give Rust a run: I spent some time porting the C++ bits of sourmash to Rust. The main advantage here is that it's a problem I know well, so I know what the code is supposed to do and can focus on figuring out syntax and the mental model for the language. I started digging into the symbolic codebase and understanding what they did, and tried to mirror or improve it for my use cases.",
+      "url": "https://blog.luizirber.org/2018/08/23/sourmash-rust/",
+      "date_published": "2018-08-23T17:00:00-03:00",
+      "author": {
+        "name": "Luiz Irber",
+        "url": "https://blog.luizirber.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1332a957-6689-4053-884b-ec31ca39f505",
       "title": "Live Refreshing Cargo Docs",
       "content_text": "rustdoc is a great tool, but as of now there isn’t an official way to have its generated docs refresh as you make edits. Running cargo doc with the --open argument will open the generated docs in browser window. If you make changes to your source code, you’ll need to re-run cargo doc to have the changes reflected in your browser. By chaining together a few other Rust tools, we can pretty easily get the functionality of live-reloading docs.",

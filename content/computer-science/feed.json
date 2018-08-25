@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2ff6e0ef-6a4a-4644-bb22-e6e7858955f9",
+      "title": "Verifying Rust Programs with SMACK",
+      "content_text": "Rust is an emerging systems programming language with guaranteed memory safety and modern language features that has been extensively adopted to build safety-critical software. However, there is currently a lack of automated software verifiers for Rust. In this work, we present our experience extending the SMACK verifier to enable its usage on Rust programs. We evaluate SMACK on a set of Rust programs to demonstrate a wide spectrum of language features it supports.",
+      "url": "http://soarlab.org/2018/07/atva2018-bhr/",
+      "date_published": "2018-07-30T20:39:49+00:00",
+      "author": {
+        "name": "Marek Baranowski, Shaobo He, Zvonimir Rakamaric",
+        "url": "http://soarlab.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "f025d0a3-cc4c-45c7-9587-71057b3d9cbf",
       "title": "So You Want to Build a Language VM in Rust - Part 00",
       "content_text": "Hi there! This is the prelude to a series of posts to detailing how to build a language VM. If you are familiar with terms like registers, program counter, and assembly, feel free to skip this post. If not, read on. Please note this is nowhere near comprehensive, but enough to understand what we’re building.",
