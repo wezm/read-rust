@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f7523f30-31c4-4699-9071-ec6f7ccd1049",
+      "title": "Travel The World Using Partially-Mapped (PMX) Crossover in Rust And JavaScript",
+      "content_text": "Implementing a genetic algorithm in JavaScript and Rust.",
+      "url": "https://blog.x5ff.xyz/blog/ai-rust-javascript-pmx/",
+      "date_published": "2018-08-26T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "2ff6e0ef-6a4a-4644-bb22-e6e7858955f9",
       "title": "Verifying Rust Programs with SMACK",
       "content_text": "Rust is an emerging systems programming language with guaranteed memory safety and modern language features that has been extensively adopted to build safety-critical software. However, there is currently a lack of automated software verifiers for Rust. In this work, we present our experience extending the SMACK verifier to enable its usage on Rust programs. We evaluate SMACK on a set of Rust programs to demonstrate a wide spectrum of language features it supports.",

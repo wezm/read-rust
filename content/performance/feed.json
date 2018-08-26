@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f9bf5234-b8f7-4a0d-9908-e1cf35c6ba8b",
+      "title": "Comparing code counters",
+      "content_text": "This document is a compilation of various benchmarks and comparisons between code counters, namely tokei, cloc, scc, and loc. This document seeks to compare performance, and accuracy of the code counters. polyglot is not currently included as it was unabled to be installed on the machine at the time of writing.",
+      "url": "https://github.com/Aaronepower/tokei/blob/master/COMPARISON.md",
+      "date_published": "2018-08-25T21:00:24+00:00",
+      "author": {
+        "name": "Aaron Power",
+        "url": "https://github.com/Aaronepower/tokei"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "ba6b3643-c414-4efe-90a4-4ea6fd45ef3d",
       "title": "Rust, meet q",
       "content_text": "We leverage the elegance of kdb+ and the power of Rust to create data applications that can process data at the rate of tens of GB/second on consumer grade hardware.",

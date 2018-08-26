@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1b68ce01-24d8-45a9-88df-be24c465141b",
+      "title": "Programmatically generated artwork",
+      "content_text": "I have made four rust programs for programmatically generating artwork in different styles. Here is a sample in each style, along with an explanation of the algorithms.",
+      "url": "https://isaacg1.github.io/posts/programmatically-generated-artwork/",
+      "date_published": "2018-08-26T02:29:13-04:00",
+      "author": {
+        "name": "Isaac Grosof",
+        "url": "https://isaacg1.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "72c8ca7f-1f7e-47f5-aebc-f06e63a1b367",
       "title": "Gfx-hal Tutorial part 1: Resizing windows",
       "content_text": "This tutorial builds on the code we wrote in the previous part. You can find the new code here with comments explaining everything that’s changed, and run it to see what the end result will look like. Last time we got a single triangle rendering on screen. This time we’re going to look at what we need to do to allow window resizing to work properly.",

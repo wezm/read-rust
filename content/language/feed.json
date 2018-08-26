@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "13973f76-d793-4df8-9529-bca5f5f84428",
+      "title": "Easy proc_macro_derive's with synstructure",
+      "content_text": "Recently, I found myself in the market for some quickcheck. However, there were custom types, which had no Arbitrary implementation. Wondering if someone had already written a procedural macro to derive it, I found panicbit’s quickcheck_derive crate. However, to my dismay, it was severely limited in that it could only derive Arbitrary for structs.",
+      "url": "https://llogiq.github.io/2018/08/25/synstruct.html",
+      "date_published": "2018-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b0c75f8a-24c3-449e-bc2d-97638d193d3e",
       "title": "Why an Interior Mutable abstraction is needed in the Rust core library",
       "content_text": "Interior mutabiliby is a concept known to anyone who have programmed in Rust for a while. And even though Rust's stdlib have several wrapper-types allowing interior mutability there is no trait unifying these types. Motivated by writing libraries suitable for no_std development that are fully safe to use with threads, this blog post will attempt to fill in one gap in the Rust stdlib.",
