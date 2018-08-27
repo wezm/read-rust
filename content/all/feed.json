@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fcadb47a-753e-44c9-830e-0e2cda34b365",
+      "title": "Programming Servo: The Debug Way",
+      "content_text": "Servo is a huge project. I have counted the lines of code for you. There are almost a hundred thousand lines of code in the Servo project. To develop such a big project, knowing how to debug in a right way is very important, since you would like to find the bottleneck in a fast and efficient way.\n\nIn this article, I will teach you some tips to use GDB developing and debugging your Rust code in the Servo project.",
+      "url": "https://medium.com/coding-neutrino-blog/programming-servo-the-debug-way-5db01f09b7f4",
+      "date_published": "2018-08-26T14:55:42.024+00:00",
+      "author": {
+        "name": "Liu An Chi",
+        "url": "https://medium.com/@tigercosmos"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f9bf5234-b8f7-4a0d-9908-e1cf35c6ba8b",
       "title": "Comparing code counters",
       "content_text": "This document is a compilation of various benchmarks and comparisons between code counters, namely tokei, cloc, scc, and loc. This document seeks to compare performance, and accuracy of the code counters. polyglot is not currently included as it was unabled to be installed on the machine at the time of writing.",
@@ -5727,11 +5741,11 @@
     {
       "id": "096f02f7-0ce4-41ef-8896-f8209ca126f5",
       "title": "GLib/GIO async operations and Rust futures + async/await",
-      "content_text": "Unfortunately I was not able to attend the Rust+GNOME hackfest in Madrid last week, but I could at least spend some of my work time at Centricular on implementing one of the things I wanted to work on during the hackfest. The other one, more closely related to the gnome-class work, will be the topic &#8230; <a href=\"https://coaxion.net/blog/2018/04/glib-gio-async-operations-and-rust-futures-async-await/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">GLib/GIO async operations and Rust futures + async/await</span></a>",
+      "content_text": "With the latest GIT version of the Rust bindings for GLib, GTK, etc it is now possible to make use of the Rust futures infrastructure for GIO async operations and various other functions. This should make writing of GNOME, and in general GLib-using, applications in Rust quite a bit more convenient.",
       "url": "https://coaxion.net/blog/2018/04/glib-gio-async-operations-and-rust-futures-async-await/",
       "date_published": "2018-04-23T08:46:32+00:00",
       "author": {
-        "name": "With the latest GIT version of the Rust bindings for GLib, GTK, etc it is now possible to make use of the Rust futures infrastructure for GIO async operations and various other functions. This should make writing of GNOME, and in general GLib-using, applications in Rust quite a bit more convenient.",
+        "name": "Sebastian Dröge",
         "url": "https://coaxion.net/blog/"
       },
       "tags": [
