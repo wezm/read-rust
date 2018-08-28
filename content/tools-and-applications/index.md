@@ -2,7 +2,8 @@ title: Tools and Applications
 layout: default.liquid
 ---
 
-Command line tools and GUI applications built with Rust.
+Command line tools and GUI applications built with Rust or built for
+Rust.
 
 <h2>
   Posts

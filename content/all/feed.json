@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
+      "title": "Password Generation in Ruby and Rust",
+      "content_text": "Writing the same password generator in two different languages to learn more Rust.",
+      "url": "https://hur.st/blog/2018/08-25-password-generation-in-ruby-and-rust/",
+      "date_published": "2018-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hurst",
+        "url": "https://hur.st/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "10c577b9-fdf3-4aa3-80dd-78c6e4abb8c7",
+      "title": "From Rust to beyond: The ASM.js galaxy",
+      "content_text": "The second galaxy that our Rust parser will explore is the ASM.js galaxy. This post will explain what ASM.js is, how to compile the parser into ASM.js, and how to use the ASM.js module with Javascript in a browser. The goal is to use ASM.js as a fallback to WebAssembly when it is not available. I highly recommend to read the previous episode about WebAssembly since they have a lot in common.",
+      "url": "https://mnt.io/2018/08/28/from-rust-to-beyond-the-asm-js-galaxy/",
+      "date_published": "2018-08-28T07:39:03+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7a251e22-3430-4226-85e0-a94e73b3e785",
+      "title": "Experimental async / await support for Tokio",
+      "content_text": "In case you haven’t heard, async / await is a big new feature that is being worked on for Rust. It aims to make asynchronous programming easy (well, at least a little bit easier than it is today). The work has been on going for a while and is already usable today on the Rust nightly channel.\n\nI’m happy to announce that Tokio now has experimental async / await support! Let’s dig in a bit.",
+      "url": "https://tokio.rs/blog/2018-08-async-await/",
+      "date_published": "2018-08-27T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a7804e3a-d98b-4135-9d38-e75aeb294961",
+      "title": "Oxidizing sourmash: WebAssembly",
+      "content_text": "In \"Oxidizing sourmash: Python and FFI\" I described my road to learn Rust, but something that I omitted was that around the same time the WebAssembly support in Rust started to look better and better and was a huge influence in my decision to learn Rust. Reimplementing the sourmash C++ extension in Rust and use the same codebase in the browser sounded very attractive, and now that it was working I started looking into how to use the WebAssembly target in Rust.",
+      "url": "https://blog.luizirber.org/2018/08/27/sourmash-wasm/",
+      "date_published": "2018-08-27T15:30:00-03:00",
+      "author": {
+        "name": "Luiz Irber",
+        "url": "https://blog.luizirber.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e2e12b4d-817f-4c1b-997f-285d9eec6a74",
+      "title": "IntelliJ Rust features. Entry one: Macros",
+      "content_text": "In this series of short blog posts, we are going to take a closer look at the key Rust related features present in JetBrains IDEs through our corresponding plugin.",
+      "url": "https://blog.jetbrains.com/clion/2018/08/intellij-rust-features-entry-one-macros/",
+      "date_published": "2018-08-24T16:11:11+00:00",
+      "author": {
+        "name": "Kirill Malich",
+        "url": "https://blog.jetbrains.com/clion/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "fcadb47a-753e-44c9-830e-0e2cda34b365",
       "title": "Programming Servo: The Debug Way",
       "content_text": "Servo is a huge project. I have counted the lines of code for you. There are almost a hundred thousand lines of code in the Servo project. To develop such a big project, knowing how to debug in a right way is very important, since you would like to find the bottleneck in a fast and efficient way.\n\nIn this article, I will teach you some tips to use GDB developing and debugging your Rust code in the Servo project.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7a251e22-3430-4226-85e0-a94e73b3e785",
+      "title": "Experimental async / await support for Tokio",
+      "content_text": "In case you haven’t heard, async / await is a big new feature that is being worked on for Rust. It aims to make asynchronous programming easy (well, at least a little bit easier than it is today). The work has been on going for a while and is already usable today on the Rust nightly channel.\n\nI’m happy to announce that Tokio now has experimental async / await support! Let’s dig in a bit.",
+      "url": "https://tokio.rs/blog/2018-08-async-await/",
+      "date_published": "2018-08-27T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "fcadb47a-753e-44c9-830e-0e2cda34b365",
       "title": "Programming Servo: The Debug Way",
       "content_text": "Servo is a huge project. I have counted the lines of code for you. There are almost a hundred thousand lines of code in the Servo project. To develop such a big project, knowing how to debug in a right way is very important, since you would like to find the bottleneck in a fast and efficient way.\n\nIn this article, I will teach you some tips to use GDB developing and debugging your Rust code in the Servo project.",

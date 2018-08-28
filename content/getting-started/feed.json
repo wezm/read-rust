@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
+      "title": "Password Generation in Ruby and Rust",
+      "content_text": "Writing the same password generator in two different languages to learn more Rust.",
+      "url": "https://hur.st/blog/2018/08-25-password-generation-in-ruby-and-rust/",
+      "date_published": "2018-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hurst",
+        "url": "https://hur.st/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "9f3fb115-f832-421a-bf28-18148cc3bde0",
       "title": "A Beginner’s Guide to Rust Macros ✨",
       "content_text": "Demystifying one of Rust’s most powerful feature.",

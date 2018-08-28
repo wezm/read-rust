@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
+      "title": "Password Generation in Ruby and Rust",
+      "content_text": "Writing the same password generator in two different languages to learn more Rust.",
+      "url": "https://hur.st/blog/2018/08-25-password-generation-in-ruby-and-rust/",
+      "date_published": "2018-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hurst",
+        "url": "https://hur.st/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e2e12b4d-817f-4c1b-997f-285d9eec6a74",
+      "title": "IntelliJ Rust features. Entry one: Macros",
+      "content_text": "In this series of short blog posts, we are going to take a closer look at the key Rust related features present in JetBrains IDEs through our corresponding plugin.",
+      "url": "https://blog.jetbrains.com/clion/2018/08/intellij-rust-features-entry-one-macros/",
+      "date_published": "2018-08-24T16:11:11+00:00",
+      "author": {
+        "name": "Kirill Malich",
+        "url": "https://blog.jetbrains.com/clion/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4f79a6a7-0d44-44ce-b82c-c4376e073660",
       "title": "C2rust - A bridge to C",
       "content_text": "The c2rust project exists to help bridge the fact that there is a lot of valuable software written in C and that there have been great strides in making safer and more-reliable programming languages since C was designed. Rust offers many modern improvements for C while still preserving the low-level control that makes it attractive. Beyond that, Rust provides new abstraction capabilities like parametricity, type-traits, methods, a module system, thread-safety, and more.",
