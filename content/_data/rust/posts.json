@@ -10,6 +10,78 @@
   },
   "items": [
     {
+      "id": "90241d58-f6a1-4df5-9c3f-15c94998c6df",
+      "title": "Thoughts on Rust from a PHP developer!",
+      "content_text": "I first starting learning Rust about 6 months ago, I was looking for a new language to learn when I came across it. At first I thought Rust was only meant to be a low level, systems programming language, but the more I learned, the more I realised the potential it has for high level programming and web applications. Also, along the way I learned many ways in which Rust prevents many of the typical bugs often found in applications written in other programming languages.",
+      "url": "https://www.smashing-bugs.tk/software-development/rust/2018/08/27/on-rust-from-a-php-developer.html",
+      "tweet_url": "https://twitter.com/dicabrejas/status/1034197625526878208",
+      "date_published": "2018-08-27T14:41:11+00:00",
+      "author": {
+        "name": "Diego Cabrejas",
+        "url": "https://www.smashing-bugs.tk/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a2e99609-1298-4f79-b2f3-0cce908a701f",
+      "title": "Serde Deserialize This or That into u64",
+      "content_text": "Recently I ran into a bug in my code; hey, it happens. The bug was that I had a struct which could serialize into json, but could not deserialize from its own json. The struct holds a value for a mac address, which is 48-bit integer (that i store in a u64), but it is serialized using the network interface name. For example on my mac, i have a network interface named en1 with the mac address of 20:c9:d0:b0:a4:71.",
+      "url": "https://noyez.gitlab.io/post/2018-08-28-serilize-this-or-that-into-u64/",
+      "date_published": "2018-08-28T00:00:00+00:00",
+      "author": {
+        "name": "Noyez",
+        "url": "https://noyez.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09fcee2d-1825-46a0-952f-7035c41b2b32",
+      "title": "Introduction to asynchronous programming in Rust",
+      "content_text": "An alternate introdcution to the APR book. This book aims to be a comprehensive, up-to-date guide on the async story in Rust, appropriate for beginners and old hands alike. We assume you already know Rust fairly well, including having done some multi-threaded programming. If any Rust terms in this guide are unfamiliar, you should check out the Rust book.",
+      "url": "https://github.com/nrc/apr-intro",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1034956987958800389",
+      "date_published": "2018-08-30T10:12:00+00:00" ,
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09bd9199-be43-439f-ad36-d22904a73fb1",
+      "title": "Debugging an Rc<T> reference leak in Rust",
+      "content_text": "The bug that caused two brown-paper-bag releases in librsvg — because it was leaking all the SVG nodes — has been interesting. Memory leaks in Rust? Isn't it supposed to prevent that? Well, yeah, but the leaks were caused by the C side of things, and by unsafe code in Rust, which does not prevent leaks.",
+      "url": "https://people.gnome.org/~federico/blog/debugging-reference-leak-in-rust.html",
+      "date_published": "2018-08-29T16:47:13-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ed925df2-a1c7-4125-a27c-7cbda8dbac71",
+      "title": "Programming Servo: the makings of a task-queue",
+      "content_text": "In Servo, task-sources are implemented via a channel, whose sender is cloned for each specific task-source, and where tasks are messages sent on the channel and containing a closure representing the actual task.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-makings-of-a-task-queue-b4138cd246ca",
+      "date_published": "2018-08-28T10:11:58.984+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
       "title": "Password Generation in Ruby and Rust",
       "content_text": "Writing the same password generator in two different languages to learn more Rust.",

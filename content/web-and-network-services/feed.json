@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ed925df2-a1c7-4125-a27c-7cbda8dbac71",
+      "title": "Programming Servo: the makings of a task-queue",
+      "content_text": "In Servo, task-sources are implemented via a channel, whose sender is cloned for each specific task-source, and where tasks are messages sent on the channel and containing a closure representing the actual task.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-makings-of-a-task-queue-b4138cd246ca",
+      "date_published": "2018-08-28T10:11:58.984+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "10c577b9-fdf3-4aa3-80dd-78c6e4abb8c7",
       "title": "From Rust to beyond: The ASM.js galaxy",
       "content_text": "The second galaxy that our Rust parser will explore is the ASM.js galaxy. This post will explain what ASM.js is, how to compile the parser into ASM.js, and how to use the ASM.js module with Javascript in a browser. The goal is to use ASM.js as a fallback to WebAssembly when it is not available. I highly recommend to read the previous episode about WebAssembly since they have a lot in common.",
