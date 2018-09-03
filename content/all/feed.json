@@ -10,6 +10,91 @@
   },
   "items": [
     {
+      "id": "44aebda5-9403-432d-b94e-d81449a1edbf",
+      "title": "Using RwLock and CondVars in Rust",
+      "content_text": "Read many, write exclusive locks – RwLock Consider a situation where you have a resource that must be manipulated only a single thread at a time, but is safe to be queried by many—that is, you have many readers and only one writer.\n\nWhile you could protect this resource with a mutex, the trouble is that the mutex makes no distinction between its lockers; every thread will be forced to wait, no matter what their intentions.",
+      "url": "https://tutorialedge.net/rust/using-rwlocks-and-condvars-rust/",
+      "date_published": "2018-09-01T15:09:49+01:00",
+      "author": {
+        "name": "Brian L. Troutwine",
+        "url": "//plus.google.com/b/115194233692529836662"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7610bbc1-58a1-413b-a4a3-dad7877ca1bd",
+      "title": "Rust pattern: Iterating an over a Rc<Vec<T>>",
+      "content_text": "This post examines a particular, seemingly simple problem: given ownership of a Rc<Vec<u32>>, can we write a function that returns an impl Iterator<Item = u32>? It turns out that this is a bit harder than it might at first appear – and, as we’ll see, for good reason. I’ll dig into what’s going on, how you can fix it, and how we might extend the language in the future to try and get past this challenge.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/09/02/rust-pattern-iterating-an-over-a-rc-vec-t/",
+      "date_published": "2018-09-02T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "271f4485-7452-487c-a1ee-4043dac3c60e",
+      "title": "Rust: Fail Fast and Loudly",
+      "content_text": "To panic or to return a Result: why libraries in Rust must weigh their options rather than accepting a never-panic mandate.",
+      "url": "https://blog.shivoa.net/2018/08/rust-fail-fast-and-loudly.html",
+      "date_published": "2018-08-31T02:58:00.001+01:00",
+      "author": {
+        "name": "Shivoa Birch",
+        "url": "https://plus.google.com/104688779548004579468"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "715ee4bf-9164-4c58-aa4f-93f088859281",
+      "title": "Benchmarking a Rust web application",
+      "content_text": "I set out out my goal 9 for Rustnish: Write benchmark code that compares runtime performance of Rustnish against Varnish. Use cargo bench to execute the benchmarks.\n\nThe basic idea of a performance test here is to send many HTTP requests to the web service (the reverse proxy in this case) and measure how fast the responses arrive back. Comparing the results from Rustnish and Varnish should give us an idea if our performance expectations are holding up.",
+      "url": "https://klausi.github.io/rustnish/2018/08/31/benchmarking-a-rust-web-application.html",
+      "date_published": "2018-08-31T00:00:00+00:00",
+      "author": {
+        "name": "klausi",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
+      "id": "c3d8acef-fe90-4a0c-9fc5-9061f0694581",
+      "title": "Rust Factory Without Box (Trait Object)",
+      "content_text": "I’ve been playing around a lot with Rust recently and it’s quickly becoming my second-favourite programming language. One of the things I’ve been playing with is some Object Oriented design concepts as they might apply.",
+      "url": "https://singpolyma.net/2018/09/rust-factory-without-box-trait-object/",
+      "date_published": "2018-09-01T17:52:00+00:00",
+      "author": {
+        "name": "Stephen Paul Weber",
+        "url": "https://singpolyma.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "deb45294-d269-481c-a767-f4fd7c00cf0f",
+      "title": "Primitives in Rust are Weird (and Cool)",
+      "content_text": "I wrote a really small Rust program a while back because I was curious. I was 100% convinced itcouldn’t possibly run. And to my complete befuddlement, it compiled, ran, and produced a completely sensible output.",
+      "url": "https://speice.io/2018/09/primitives-in-rust-are-weird.html",
+      "date_published": "2018-09-01T00:00:00-04:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "90241d58-f6a1-4df5-9c3f-15c94998c6df",
       "title": "Thoughts on Rust from a PHP developer!",
       "content_text": "I first starting learning Rust about 6 months ago, I was looking for a new language to learn when I came across it. At first I thought Rust was only meant to be a low level, systems programming language, but the more I learned, the more I realised the potential it has for high level programming and web applications. Also, along the way I learned many ways in which Rust prevents many of the typical bugs often found in applications written in other programming languages.",

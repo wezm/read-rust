@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "715ee4bf-9164-4c58-aa4f-93f088859281",
+      "title": "Benchmarking a Rust web application",
+      "content_text": "I set out out my goal 9 for Rustnish: Write benchmark code that compares runtime performance of Rustnish against Varnish. Use cargo bench to execute the benchmarks.\n\nThe basic idea of a performance test here is to send many HTTP requests to the web service (the reverse proxy in this case) and measure how fast the responses arrive back. Comparing the results from Rustnish and Varnish should give us an idea if our performance expectations are holding up.",
+      "url": "https://klausi.github.io/rustnish/2018/08/31/benchmarking-a-rust-web-application.html",
+      "date_published": "2018-08-31T00:00:00+00:00",
+      "author": {
+        "name": "klausi",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "f9bf5234-b8f7-4a0d-9908-e1cf35c6ba8b",
       "title": "Comparing code counters",
       "content_text": "This document is a compilation of various benchmarks and comparisons between code counters, namely tokei, cloc, scc, and loc. This document seeks to compare performance, and accuracy of the code counters. polyglot is not currently included as it was unabled to be installed on the machine at the time of writing.",

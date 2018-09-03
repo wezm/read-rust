@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "715ee4bf-9164-4c58-aa4f-93f088859281",
+      "title": "Benchmarking a Rust web application",
+      "content_text": "I set out out my goal 9 for Rustnish: Write benchmark code that compares runtime performance of Rustnish against Varnish. Use cargo bench to execute the benchmarks.\n\nThe basic idea of a performance test here is to send many HTTP requests to the web service (the reverse proxy in this case) and measure how fast the responses arrive back. Comparing the results from Rustnish and Varnish should give us an idea if our performance expectations are holding up.",
+      "url": "https://klausi.github.io/rustnish/2018/08/31/benchmarking-a-rust-web-application.html",
+      "date_published": "2018-08-31T00:00:00+00:00",
+      "author": {
+        "name": "klausi",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
       "id": "ed925df2-a1c7-4125-a27c-7cbda8dbac71",
       "title": "Programming Servo: the makings of a task-queue",
       "content_text": "In Servo, task-sources are implemented via a channel, whose sender is cloned for each specific task-source, and where tasks are messages sent on the channel and containing a closure representing the actual task.",
