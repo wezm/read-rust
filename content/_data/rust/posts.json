@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "e3bf830e-e1ed-462b-9a6a-edac9ba2d699",
+      "title": "Why Rust Closures are (Somewhat) Hard",
+      "content_text": "Rust closures are harder for three main reasons: The first is that it is both statically and strongly typed, so we’ll need to explicitly annotate these function types. Second, Lua functions are dynamically allocated (‘boxed’.) Rust does not allocate silently because it prefers to be explicit and is a system language designed for maximally efficient code. Third, closures share references with their environment. In the case of Lua, the garbage collector ensures that these references will live long enough. With Rust, the borrow checker needs to be able to track the lifetimes of these references.",
+      "url": "http://stevedonovan.github.io/rustifications/2018/08/18/rust-closures-are-hard.html",
+      "tweet_url": "https://twitter.com/StevedInJoburg/status/1035825868826791937",
+      "date_published": "2018-08-18T00:00:00+02:00",
+      "author": {
+        "name": "Steve Donovan",
+        "url": "http://stevedonovan.github.io/rustifications/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5d84ad61-702d-400b-ac40-6325904e031d",
+      "title": "Feasible functors in Rust",
+      "content_text": "withoutboats, one of the Rust language design team, recently posted a thread on the infeasibility of monads as a useful abstraction technique in Rust, as a response to the persistence of some (usually from outside the Rust community) in claiming that “Rust is doing things incorrectly” by developing specific solutions to problems, rather than using a general category theoretic framework for everything. The points demonstrate real difficulties with attempting to use a general framework for these problems and to me serves perfectly as a “the ball’s in your court now” to anyone claiming Rust is ignoring theory and coming up with unnecessary solutions to solved problems: if you think Rust could use monadic abstractions, you have to be able to address these counterarguments.",
+      "url": "https://varkor.github.io/blog/2018/08/28/feasible-functors-in-rust.html",
+      "date_published": "2018-08-28T12:20:10+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "44aebda5-9403-432d-b94e-d81449a1edbf",
       "title": "Using RwLock and CondVars in Rust",
       "content_text": "Read many, write exclusive locks – RwLock Consider a situation where you have a resource that must be manipulated only a single thread at a time, but is safe to be queried by many—that is, you have many readers and only one writer.\n\nWhile you could protect this resource with a mutex, the trouble is that the mutex makes no distinction between its lockers; every thread will be forced to wait, no matter what their intentions.",
