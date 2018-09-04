@@ -22,7 +22,7 @@ a feed:
 * [Coballt](http://cobalt-org.github.io/docs/rss.html)
 * [Ghost](https://ghost.org/) — enabled by default at `/rss/` on your blog.
 * [Hugo](https://gohugo.io/templates/rss/)
-* [Jekyll](https://github.com/assafgelber/jekyll-rss)
+* [Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#10-rss-feed)
 * [Wordpress](https://codex.wordpress.org/WordPress_Feeds)
 
 [rust-reddit]: https://www.reddit.com/r/rust/

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6c60dc7f-81f5-4718-9bfa-4c68e7a7d1ab",
+      "title": "RPCS3 and Dolphin emulators on macOS using gfx-portability",
+      "content_text": "After improving functionality and performance of gfx-portability’s Metal backend through benchmarking Dota2, and verifying certain functionality through the Vulkan Conformance Test Suite (CTS), we decided to expand our testing to other projects. We quickly found two projects which matched our criteria: RPCS3 and Dolphin.",
+      "url": "https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html",
+      "date_published": "2018-09-03T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e3bf830e-e1ed-462b-9a6a-edac9ba2d699",
       "title": "Why Rust Closures are (Somewhat) Hard",
       "content_text": "Rust closures are harder for three main reasons: The first is that it is both statically and strongly typed, so we’ll need to explicitly annotate these function types. Second, Lua functions are dynamically allocated (‘boxed’.) Rust does not allocate silently because it prefers to be explicit and is a system language designed for maximally efficient code. Third, closures share references with their environment. In the case of Lua, the garbage collector ensures that these references will live long enough. With Rust, the borrow checker needs to be able to track the lifetimes of these references.",

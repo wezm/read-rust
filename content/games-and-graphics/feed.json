@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6c60dc7f-81f5-4718-9bfa-4c68e7a7d1ab",
+      "title": "RPCS3 and Dolphin emulators on macOS using gfx-portability",
+      "content_text": "After improving functionality and performance of gfx-portability’s Metal backend through benchmarking Dota2, and verifying certain functionality through the Vulkan Conformance Test Suite (CTS), we decided to expand our testing to other projects. We quickly found two projects which matched our criteria: RPCS3 and Dolphin.",
+      "url": "https://gfx-rs.github.io/2018/09/03/rpcs3-dolphin.html",
+      "date_published": "2018-09-03T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "1b68ce01-24d8-45a9-88df-be24c465141b",
       "title": "Programmatically generated artwork",
       "content_text": "I have made four rust programs for programmatically generating artwork in different styles. Here is a sample in each style, along with an explanation of the algorithms.",
