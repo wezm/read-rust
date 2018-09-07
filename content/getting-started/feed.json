@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e989a06c-ac0a-4a49-9591-8867e574c37b",
+      "title": "O(1) sum_of_multiples() in Rust",
+      "content_text": "I had been working mostly in Scala for a while, then took a diversion into Swift and Objective C.  I wanted to learn another language after that, and had all but decided on Clojure.  But Rust kept nagging at me — there was something about it. So I watched some videos, then read the book, and then started the Rust track at Exercism.io.",
+      "url": "https://nicholassterling.wordpress.com/2018/08/31/o1-sum_of_multiples-in-rust/",
+      "date_published": "2018-08-31T05:51:05+00:00",
+      "author": {
+        "name": "Nicholas Sterling",
+        "url": "https://nicholassterling.wordpress.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
       "title": "Password Generation in Ruby and Rust",
       "content_text": "Writing the same password generator in two different languages to learn more Rust.",

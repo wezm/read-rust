@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "919b55ea-6ff7-4893-8c6f-1bd17b6cbab2",
+      "title": "Announcing Spirit",
+      "content_text": "Spirit is a crate that cuts down on boilerplate when creating unix daemons, with support for live configuration reloading.",
+      "url": "https://vorner.github.io/2018/09/03/Announcing-Spirit.html",
+      "date_published": "2018-09-03T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "99ecbdf0-983f-42d8-850a-5e0532770f17",
       "title": "Introducing windows-acl: working with ACLs in Rust",
       "content_text": "Access Control Lists (ACLs) are an integral part of the Microsoft Windows security model. In addition to controlling access to secured resources, they are also used in sandboxing, event auditing, and specifying mandatory integrity levels. They are also exceedingly painful to programmatically manipulate, especially in Rust. Today, help has arrived — we released windows-acl, a Rust crate that simplifies the manipulation of access control lists on Windows.",

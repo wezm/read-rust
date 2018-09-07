@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "bf9e8fe4-c788-47c9-9a8a-27ee3fa0b20f",
+      "title": "Rust Faster SIMD edition",
+      "content_text": "It’s been a while since I’ve been playing the benchmarksgame with Rust. But I recently found an interesting crate called packed_simd which had a SIMD-ified version of some benchmarks, so as Rust stable now has stdsimd, we should be able to speed up our benchmarks quite a bit.",
+      "url": "https://llogiq.github.io/2018/09/06/fast.html",
+      "date_published": "2018-09-06T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "3c7f3466-8495-4684-b0c2-e0b26ca9234c",
+      "title": "Time difference between L1 cache fetch and memory fetch",
+      "content_text": "Aim: Measure how fast a fetch from L1 cache is when compared to a fetch from memory. Instead of writing pure assembly code, we will use Rust's inline assembly feature.",
+      "url": "https://nitish.ch/notes/time-difference-between-l1-cache-fetch-and-memory-fetch/",
+      "date_published": "2018-09-02T22:15:24+00:00",
+      "author": {
+        "name": "Nitish Chinta",
+        "url": "https://nitish.ch/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "715ee4bf-9164-4c58-aa4f-93f088859281",
       "title": "Benchmarking a Rust web application",
       "content_text": "I set out out my goal 9 for Rustnish: Write benchmark code that compares runtime performance of Rustnish against Varnish. Use cargo bench to execute the benchmarks.\n\nThe basic idea of a performance test here is to send many HTTP requests to the web service (the reverse proxy in this case) and measure how fast the responses arrive back. Comparing the results from Rustnish and Varnish should give us an idea if our performance expectations are holding up.",

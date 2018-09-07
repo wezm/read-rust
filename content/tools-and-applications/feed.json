@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a92cab79-16fc-46b9-9bdb-0eb21518db8c",
+      "title": "Rust at Datalust",
+      "content_text": "At Datalust we build a log server called Seq. It's really a database, written in C#, with its own SQL-based query language, that's specifically designed for storing and querying structured log data. In the past, Seq has managed log event storage through ESENT, which is a storage technology baked into Windows. For our cross-platform Seq 5 release we’ve built a storage engine called Flare in the Rust programming language to replace our usage of ESENT.",
+      "url": "https://blog.getseq.net/rust-at-datalust/",
+      "date_published": "2018-09-03T22:18:30+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "8b60e040-4635-4a84-b8a6-3e0f2933f066",
       "title": "Password Generation in Ruby and Rust",
       "content_text": "Writing the same password generator in two different languages to learn more Rust.",

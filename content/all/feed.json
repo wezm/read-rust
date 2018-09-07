@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "bf9e8fe4-c788-47c9-9a8a-27ee3fa0b20f",
+      "title": "Rust Faster SIMD edition",
+      "content_text": "It’s been a while since I’ve been playing the benchmarksgame with Rust. But I recently found an interesting crate called packed_simd which had a SIMD-ified version of some benchmarks, so as Rust stable now has stdsimd, we should be able to speed up our benchmarks quite a bit.",
+      "url": "https://llogiq.github.io/2018/09/06/fast.html",
+      "date_published": "2018-09-06T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "a92cab79-16fc-46b9-9bdb-0eb21518db8c",
+      "title": "Rust at Datalust",
+      "content_text": "At Datalust we build a log server called Seq. It's really a database, written in C#, with its own SQL-based query language, that's specifically designed for storing and querying structured log data. In the past, Seq has managed log event storage through ESENT, which is a storage technology baked into Windows. For our cross-platform Seq 5 release we’ve built a storage engine called Flare in the Rust programming language to replace our usage of ESENT.",
+      "url": "https://blog.getseq.net/rust-at-datalust/",
+      "date_published": "2018-09-03T22:18:30+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "e989a06c-ac0a-4a49-9591-8867e574c37b",
+      "title": "O(1) sum_of_multiples() in Rust",
+      "content_text": "I had been working mostly in Scala for a while, then took a diversion into Swift and Objective C.  I wanted to learn another language after that, and had all but decided on Clojure.  But Rust kept nagging at me — there was something about it. So I watched some videos, then read the book, and then started the Rust track at Exercism.io.",
+      "url": "https://nicholassterling.wordpress.com/2018/08/31/o1-sum_of_multiples-in-rust/",
+      "date_published": "2018-08-31T05:51:05+00:00",
+      "author": {
+        "name": "Nicholas Sterling",
+        "url": "https://nicholassterling.wordpress.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "919b55ea-6ff7-4893-8c6f-1bd17b6cbab2",
+      "title": "Announcing Spirit",
+      "content_text": "Spirit is a crate that cuts down on boilerplate when creating unix daemons, with support for live configuration reloading.",
+      "url": "https://vorner.github.io/2018/09/03/Announcing-Spirit.html",
+      "date_published": "2018-09-03T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "3c7f3466-8495-4684-b0c2-e0b26ca9234c",
+      "title": "Time difference between L1 cache fetch and memory fetch",
+      "content_text": "Aim: Measure how fast a fetch from L1 cache is when compared to a fetch from memory. Instead of writing pure assembly code, we will use Rust's inline assembly feature.",
+      "url": "https://nitish.ch/notes/time-difference-between-l1-cache-fetch-and-memory-fetch/",
+      "date_published": "2018-09-02T22:15:24+00:00",
+      "author": {
+        "name": "Nitish Chinta",
+        "url": "https://nitish.ch/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "6c60dc7f-81f5-4718-9bfa-4c68e7a7d1ab",
       "title": "RPCS3 and Dolphin emulators on macOS using gfx-portability",
       "content_text": "After improving functionality and performance of gfx-portability’s Metal backend through benchmarking Dota2, and verifying certain functionality through the Vulkan Conformance Test Suite (CTS), we decided to expand our testing to other projects. We quickly found two projects which matched our criteria: RPCS3 and Dolphin.",
