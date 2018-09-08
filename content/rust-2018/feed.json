@@ -195,7 +195,7 @@
     },
     {
       "id": "1151cad4-ce36-4944-96d3-e6062f1daf97",
-      "title": "The Job Advertising Story of Rust – Vignesh Sankaran – Medium",
+      "title": "The Job Advertising Story of Rust",
       "content_text": "Note: This is the first blog post that I’ve ever written. Feedback is much appreciated :).",
       "url": "https://medium.com/@vign_esh/the-job-advertising-story-of-rust-5c6394e8ecab",
       "date_published": "2018-01-22T10:44:36.238+00:00",
@@ -224,7 +224,7 @@
     },
     {
       "id": "e2276407-cab7-48f6-8a4e-b981fbed0417",
-      "title": "Rust and its stance in data science – Eduardo Pinho – Medium",
+      "title": "Rust and its stance in data science",
       "content_text": "This isn’t something that I would do very often, but a call was made, and I would like to take that chance to fill in some ideas with…",
       "url": "https://medium.com/@e_net4/rust-and-its-stance-in-data-science-76d2c5ad2363",
       "date_published": "2018-01-20T16:55:44.934+00:00",
@@ -462,7 +462,7 @@
     },
     {
       "id": "c7becfa2-4e61-490a-838c-7b207956e21f",
-      "title": "Rust MMXVIII, but, like, from a casual perspective – Yoshua Wuyts – Medium",
+      "title": "Rust MMXVIII, but, like, from a casual perspective",
       "content_text": "*ring ring*",
       "url": "https://medium.com/@yoshuawuyts/rust-mmxviii-but-like-from-my-perspective-6363f485ab2b",
       "date_published": "2018-01-14T14:46:43.092+00:00",
@@ -504,7 +504,7 @@
     },
     {
       "id": "4bf00d31-d65c-43fc-b95a-5caa3df0ac4b",
-      "title": "Rust2018 – Doug Tangren – Medium",
+      "title": "Rust2018",
       "content_text": "Rust, in no small way, has captured quite a bit of my imagination in the last 4 and a half years. The language and community has a lot of…",
       "url": "https://medium.com/@softprops/rust2018-75393b4a086f",
       "date_published": "2018-01-14T22:07:16.240+00:00",
@@ -659,7 +659,7 @@
     },
     {
       "id": "9bd09566-0ba0-47a2-9400-a01a0e218e51",
-      "title": "Rust incremental-difficulty tutorial series – Theodore Keloglou – Medium",
+      "title": "Rust incremental-difficulty tutorial series",
       "content_text": "A response to Rust’s Call for Community Blogposts #Rust2018",
       "url": "https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7",
       "date_published": "2018-01-03T23:16:35.588+00:00",
@@ -673,7 +673,7 @@
     },
     {
       "id": "6aea5335-d3b5-4c36-be35-8461d9206149",
-      "title": "Rust and crate of wishes for 2018 – Nabeel Ali Memon – Medium",
+      "title": "Rust and crate of wishes for 2018",
       "content_text": "I appreciate the great community effort being fostered by Mozilla’s Rust team and the cool Rust community outside that have been helpful in…",
       "url": "https://medium.com/@nimtiazm/rust-and-crate-of-wishes-for-2018-1258f6977d42",
       "date_published": "2018-01-13T09:14:15.330+00:00",
@@ -687,7 +687,7 @@
     },
     {
       "id": "28b10d91-030e-4828-b02e-4d173b8cfab9",
-      "title": "Rust in 2018 – Black Djikstra – Medium",
+      "title": "Rust in 2018",
       "content_text": "As a beginner in rust, it has been the gateway to so many interesting concepts.",
       "url": "https://medium.com/@blackdjikstra/rust-in-2018-d6c0be87cba8",
       "date_published": "2018-01-12T23:05:58.997+00:00",

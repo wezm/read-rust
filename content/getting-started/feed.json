@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7b94766b-f2c3-42f6-b215-7b63f07a4e95",
+      "title": "Adventures in Rust: Futures and Tokio",
+      "content_text": "One of my newer hobbies recently has been learning and toying around with Rust. Recently, as part of this learning process, I've started implementing an IP address lookup service as a small side project. During the course of implementing this project I ran into what turned out to be a bit of a hurdle to tackle, specifically performing reverse dns resolution asynchronously.\n\nMy hope is that through exploring this problem, I can aid others in understanding these concepts which can be initially difficult grasp. This is especially so as the behavior and function of Futures vary wildly between various languages and runtimes.",
+      "url": "http://bryangilbert.com/post/code/rust/adventures-futures-tokio-rust/",
+      "date_published": "2018-09-04T00:00:00+00:00",
+      "author": {
+        "name": "Bryan Gilbert",
+        "url": "http://bryangilbert.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e989a06c-ac0a-4a49-9591-8867e574c37b",
       "title": "O(1) sum_of_multiples() in Rust",
       "content_text": "I had been working mostly in Scala for a while, then took a diversion into Swift and Objective C.  I wanted to learn another language after that, and had all but decided on Clojure.  But Rust kept nagging at me — there was something about it. So I watched some videos, then read the book, and then started the Rust track at Exercism.io.",

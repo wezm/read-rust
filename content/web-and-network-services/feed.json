@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "850319b3-4515-4f9c-b833-67a391d5ab26",
+      "title": "Programming Servo: A generic “worker event-loop”",
+      "content_text": "Let’s take a look at how in Rust you can have an algorithm generic over T, where T is further bound by a trait, which itself is generic over one of several parameters.",
+      "url": "https://medium.com/programming-servo/programming-servo-a-generic-worker-event-loop-400a6f113a60",
+      "date_published": "2018-09-02T07:03:47.310+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e7fbc029-a108-4209-bbf4-9e152701d9a6",
+      "title": "Tower Web — Expanding the middleware stack",
+      "content_text": "tower-web version 0.2.2 has been released. It comes with a number of new features, which I will talk about in this post. Primarily, the middleware story is starting to come together. I will be expanding some on how middleware fits into Tower and web in general.",
+      "url": "https://medium.com/@carllerche/tower-web-expanding-the-middleware-stack-f9bf55bfa109",
+      "date_published": "2018-09-07T14:21:28.473+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "715ee4bf-9164-4c58-aa4f-93f088859281",
       "title": "Benchmarking a Rust web application",
       "content_text": "I set out out my goal 9 for Rustnish: Write benchmark code that compares runtime performance of Rustnish against Varnish. Use cargo bench to execute the benchmarks.\n\nThe basic idea of a performance test here is to send many HTTP requests to the web service (the reverse proxy in this case) and measure how fast the responses arrive back. Comparing the results from Rustnish and Varnish should give us an idea if our performance expectations are holding up.",

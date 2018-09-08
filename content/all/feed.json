@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "d1f041f8-f77b-404b-a776-5615afef85f4",
+      "title": "GIR support in gnome-class",
+      "content_text": "Recently I've been working again in the rust port of libgepub, libgepub is C code, but in the rust-migration branch almost all the real functionality is done with rust and the GepubDoc class is a GObject wrapper around that code. For this reason I was thinking about to use gnome-class to implement GepubDoc. Gnome-class is a rust lib to write GObject code in rust that's compatible with the C binary API so then you can call this new GObject code written with gnome-class from C. So, libgepub is the excuse to start to implement GIR in gnome-class.",
+      "url": "http://danigm.net/gnome-class-gir.html",
+      "date_published": "2018-09-01T00:00:00+02:00",
+      "author": {
+        "name": "danigm",
+        "url": "http://danigm.net/category/blog.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "850319b3-4515-4f9c-b833-67a391d5ab26",
+      "title": "Programming Servo: A generic “worker event-loop”",
+      "content_text": "Let’s take a look at how in Rust you can have an algorithm generic over T, where T is further bound by a trait, which itself is generic over one of several parameters.",
+      "url": "https://medium.com/programming-servo/programming-servo-a-generic-worker-event-loop-400a6f113a60",
+      "date_published": "2018-09-02T07:03:47.310+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7b94766b-f2c3-42f6-b215-7b63f07a4e95",
+      "title": "Adventures in Rust: Futures and Tokio",
+      "content_text": "One of my newer hobbies recently has been learning and toying around with Rust. Recently, as part of this learning process, I've started implementing an IP address lookup service as a small side project. During the course of implementing this project I ran into what turned out to be a bit of a hurdle to tackle, specifically performing reverse dns resolution asynchronously.\n\nMy hope is that through exploring this problem, I can aid others in understanding these concepts which can be initially difficult grasp. This is especially so as the behavior and function of Futures vary wildly between various languages and runtimes.",
+      "url": "http://bryangilbert.com/post/code/rust/adventures-futures-tokio-rust/",
+      "date_published": "2018-09-04T00:00:00+00:00",
+      "author": {
+        "name": "Bryan Gilbert",
+        "url": "http://bryangilbert.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e7fbc029-a108-4209-bbf4-9e152701d9a6",
+      "title": "Tower Web — Expanding the middleware stack",
+      "content_text": "tower-web version 0.2.2 has been released. It comes with a number of new features, which I will talk about in this post. Primarily, the middleware story is starting to come together. I will be expanding some on how middleware fits into Tower and web in general.",
+      "url": "https://medium.com/@carllerche/tower-web-expanding-the-middleware-stack-f9bf55bfa109",
+      "date_published": "2018-09-07T14:21:28.473+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9572581f-4d30-4abb-9aa8-8f7842b37117",
+      "title": "Sonnerie: A simple timeseries database",
+      "content_text": "Sonnerie is a time-series database. Map a timestamp to a floating-point value. Store multiple of these series in a single database. Insert tens of millions of samples in minutes, on rotational media.",
+      "url": "https://github.com/njaard/sonnerie",
+      "date_published": "2018-09-08T00:00:00+00:00",
+      "author": {
+        "name": "Kalle Samuels",
+        "url": "https://github.com/njaard"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "bf9e8fe4-c788-47c9-9a8a-27ee3fa0b20f",
       "title": "Rust Faster SIMD edition",
       "content_text": "It’s been a while since I’ve been playing the benchmarksgame with Rust. But I recently found an interesting crate called packed_simd which had a SIMD-ified version of some benchmarks, so as Rust stable now has stdsimd, we should be able to speed up our benchmarks quite a bit.",
@@ -9704,7 +9774,7 @@
     },
     {
       "id": "1151cad4-ce36-4944-96d3-e6062f1daf97",
-      "title": "The Job Advertising Story of Rust – Vignesh Sankaran – Medium",
+      "title": "The Job Advertising Story of Rust",
       "content_text": "Note: This is the first blog post that I’ve ever written. Feedback is much appreciated :).",
       "url": "https://medium.com/@vign_esh/the-job-advertising-story-of-rust-5c6394e8ecab",
       "date_published": "2018-01-22T10:44:36.238+00:00",
@@ -9733,7 +9803,7 @@
     },
     {
       "id": "e2276407-cab7-48f6-8a4e-b981fbed0417",
-      "title": "Rust and its stance in data science – Eduardo Pinho – Medium",
+      "title": "Rust and its stance in data science",
       "content_text": "This isn’t something that I would do very often, but a call was made, and I would like to take that chance to fill in some ideas with…",
       "url": "https://medium.com/@e_net4/rust-and-its-stance-in-data-science-76d2c5ad2363",
       "date_published": "2018-01-20T16:55:44.934+00:00",
@@ -9971,7 +10041,7 @@
     },
     {
       "id": "c7becfa2-4e61-490a-838c-7b207956e21f",
-      "title": "Rust MMXVIII, but, like, from a casual perspective – Yoshua Wuyts – Medium",
+      "title": "Rust MMXVIII, but, like, from a casual perspective",
       "content_text": "*ring ring*",
       "url": "https://medium.com/@yoshuawuyts/rust-mmxviii-but-like-from-my-perspective-6363f485ab2b",
       "date_published": "2018-01-14T14:46:43.092+00:00",
@@ -10013,7 +10083,7 @@
     },
     {
       "id": "4bf00d31-d65c-43fc-b95a-5caa3df0ac4b",
-      "title": "Rust2018 – Doug Tangren – Medium",
+      "title": "Rust2018",
       "content_text": "Rust, in no small way, has captured quite a bit of my imagination in the last 4 and a half years. The language and community has a lot of…",
       "url": "https://medium.com/@softprops/rust2018-75393b4a086f",
       "date_published": "2018-01-14T22:07:16.240+00:00",
@@ -10168,7 +10238,7 @@
     },
     {
       "id": "9bd09566-0ba0-47a2-9400-a01a0e218e51",
-      "title": "Rust incremental-difficulty tutorial series – Theodore Keloglou – Medium",
+      "title": "Rust incremental-difficulty tutorial series",
       "content_text": "A response to Rust’s Call for Community Blogposts #Rust2018",
       "url": "https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7",
       "date_published": "2018-01-03T23:16:35.588+00:00",
@@ -10182,7 +10252,7 @@
     },
     {
       "id": "6aea5335-d3b5-4c36-be35-8461d9206149",
-      "title": "Rust and crate of wishes for 2018 – Nabeel Ali Memon – Medium",
+      "title": "Rust and crate of wishes for 2018",
       "content_text": "I appreciate the great community effort being fostered by Mozilla’s Rust team and the cool Rust community outside that have been helpful in…",
       "url": "https://medium.com/@nimtiazm/rust-and-crate-of-wishes-for-2018-1258f6977d42",
       "date_published": "2018-01-13T09:14:15.330+00:00",
@@ -10196,7 +10266,7 @@
     },
     {
       "id": "28b10d91-030e-4828-b02e-4d173b8cfab9",
-      "title": "Rust in 2018 – Black Djikstra – Medium",
+      "title": "Rust in 2018",
       "content_text": "As a beginner in rust, it has been the gateway to so many interesting concepts.",
       "url": "https://medium.com/@blackdjikstra/rust-in-2018-d6c0be87cba8",
       "date_published": "2018-01-12T23:05:58.997+00:00",
