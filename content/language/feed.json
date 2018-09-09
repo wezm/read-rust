@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "83d6c5ed-e847-4807-8c6c-40e97f66b9d5",
+      "title": "The Common Rust Traits",
+      "content_text": "In Rust, data types - primitives, structs, enums and any other ‘aggregate’ types like tuples and arrays - are dumb. They may have methods but that is just a convenience (they are just functions). Types have no relationship with each other.\n\nTraits are the abstract mechanism for adding functionality to types and establishing relationships between them.",
+      "url": "https://stevedonovan.github.io/rustifications/2018/09/08/common-rust-traits.html",
+      "date_published": "2018-09-08T00:00:00+02:00",
+      "author": {
+        "name": "Steve Donovan",
+        "url": "http://stevedonovan.github.io/rustifications/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e3bf830e-e1ed-462b-9a6a-edac9ba2d699",
       "title": "Why Rust Closures are (Somewhat) Hard",
       "content_text": "Rust closures are harder for three main reasons: The first is that it is both statically and strongly typed, so we’ll need to explicitly annotate these function types. Second, Lua functions are dynamically allocated (‘boxed’.) Rust does not allocate silently because it prefers to be explicit and is a system language designed for maximally efficient code. Third, closures share references with their environment. In the case of Lua, the garbage collector ensures that these references will live long enough. With Rust, the borrow checker needs to be able to track the lifetimes of these references.",

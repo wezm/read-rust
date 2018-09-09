@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "83d6c5ed-e847-4807-8c6c-40e97f66b9d5",
+      "title": "The Common Rust Traits",
+      "content_text": "In Rust, data types - primitives, structs, enums and any other ‘aggregate’ types like tuples and arrays - are dumb. They may have methods but that is just a convenience (they are just functions). Types have no relationship with each other.\n\nTraits are the abstract mechanism for adding functionality to types and establishing relationships between them.",
+      "url": "https://stevedonovan.github.io/rustifications/2018/09/08/common-rust-traits.html",
+      "date_published": "2018-09-08T00:00:00+02:00",
+      "author": {
+        "name": "Steve Donovan",
+        "url": "http://stevedonovan.github.io/rustifications/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d1f041f8-f77b-404b-a776-5615afef85f4",
       "title": "GIR support in gnome-class",
       "content_text": "Recently I've been working again in the rust port of libgepub, libgepub is C code, but in the rust-migration branch almost all the real functionality is done with rust and the GepubDoc class is a GObject wrapper around that code. For this reason I was thinking about to use gnome-class to implement GepubDoc. Gnome-class is a rust lib to write GObject code in rust that's compatible with the C binary API so then you can call this new GObject code written with gnome-class from C. So, libgepub is the excuse to start to implement GIR in gnome-class.",
