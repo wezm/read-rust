@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "956dab4d-a04e-4278-bb20-906f4eac7a82",
+      "title": "GStreamer Rust bindings 0.12 and GStreamer Plugin 0.3 release",
+      "content_text": "After almost 6 months, a new release of the GStreamer Rust bindings and the GStreamer plugin writing infrastructure for Rust is out. As usual this was coinciding with the release of all the gtk-rs crates to make use of all the new features they contain.",
+      "url": "https://coaxion.net/blog/2018/09/gstreamer-rust-bindings-0-12-and-gstreamer-plugin-0-3-release/",
+      "date_published": "2018-09-10T11:41:59+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "d1f041f8-f77b-404b-a776-5615afef85f4",
       "title": "GIR support in gnome-class",
       "content_text": "Recently I've been working again in the rust port of libgepub, libgepub is C code, but in the rust-migration branch almost all the real functionality is done with rust and the GepubDoc class is a GObject wrapper around that code. For this reason I was thinking about to use gnome-class to implement GepubDoc. Gnome-class is a rust lib to write GObject code in rust that's compatible with the C binary API so then you can call this new GObject code written with gnome-class from C. So, libgepub is the excuse to start to implement GIR in gnome-class.",

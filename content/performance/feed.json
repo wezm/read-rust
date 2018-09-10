@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d8bbfe78-53bb-49df-9d7b-092d306492c0",
+      "title": "Parallelizing PNG: Choosing Rust for mtpng",
+      "content_text": "In my last post I wrapped up the patches to improve perceived performance of screenshots on the Linux GNOME desktop. With that done, why not implement my crazy plan for parallel PNG encoding to speed the actual save time?",
+      "url": "https://brionv.com/log/2018/09/09/parallelizing-png-part-5-choosing-rust-for-mtpng/",
+      "date_published": "2018-09-09T23:32:41+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "bf9e8fe4-c788-47c9-9a8a-27ee3fa0b20f",
       "title": "Rust Faster SIMD edition",
       "content_text": "It’s been a while since I’ve been playing the benchmarksgame with Rust. But I recently found an interesting crate called packed_simd which had a SIMD-ified version of some benchmarks, so as Rust stable now has stdsimd, we should be able to speed up our benchmarks quite a bit.",

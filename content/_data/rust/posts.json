@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "956dab4d-a04e-4278-bb20-906f4eac7a82",
+      "title": "GStreamer Rust bindings 0.12 and GStreamer Plugin 0.3 release",
+      "content_text": "After almost 6 months, a new release of the GStreamer Rust bindings and the GStreamer plugin writing infrastructure for Rust is out. As usual this was coinciding with the release of all the gtk-rs crates to make use of all the new features they contain.",
+      "url": "https://coaxion.net/blog/2018/09/gstreamer-rust-bindings-0-12-and-gstreamer-plugin-0-3-release/",
+      "date_published": "2018-09-10T11:41:59+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d8bbfe78-53bb-49df-9d7b-092d306492c0",
+      "title": "Parallelizing PNG: Choosing Rust for mtpng",
+      "content_text": "In my last post I wrapped up the patches to improve perceived performance of screenshots on the Linux GNOME desktop. With that done, why not implement my crazy plan for parallel PNG encoding to speed the actual save time?",
+      "url": "https://brionv.com/log/2018/09/09/parallelizing-png-part-5-choosing-rust-for-mtpng/",
+      "date_published": "2018-09-09T23:32:41+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "83d6c5ed-e847-4807-8c6c-40e97f66b9d5",
       "title": "The Common Rust Traits",
       "content_text": "In Rust, data types - primitives, structs, enums and any other ‘aggregate’ types like tuples and arrays - are dumb. They may have methods but that is just a convenience (they are just functions). Types have no relationship with each other.\n\nTraits are the abstract mechanism for adding functionality to types and establishing relationships between them.",
