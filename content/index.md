@@ -18,7 +18,7 @@ New posts are added to one or more of the following sections:
 <ul>
 <li><a href="/all/">All Posts</a></li>
 {% for category in site.data.categories %}
-<li><a href="{{ category.path }}">{{ category.name }}</a> — {{ category.description }}</li>
+<li><a href="{{ category.path }}">{{ category.name | escape }}</a> — {{ category.description | escape }}</li>
 {% endfor %}
 </ul>
 <!-- * [Community](/community/) — regarding the Rust community. -->
@@ -42,7 +42,7 @@ New posts are added to one or more of the following sections:
 {% for post in site.data.rust.posts.items %}
   {% assign count = count | plus: 1 %}
 <li>
-  <a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}
+  <a href="{{ post.url }}">{{ post.title | escape }}</a> by {{ post.author.name | escape }}
   in {% for tag in post.tags %}<a href="/{{ tag | downcase | replace: " ", "-" }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
 </li>
   {% if count >= 10 %}{% break %}{% endif %}

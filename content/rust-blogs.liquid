@@ -6,7 +6,7 @@ format: Raw
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.1">
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title | escape }}</title>
   </head>
   <body>
   {% for blog in site.data.rust.blogs.feeds %}

@@ -17,6 +17,6 @@ All {{ site.data.rust.posts.items | size }} posts.
 
 <ul>
 {% for post in site.data.rust.posts.items %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+  <li><a href="{{ post.url }}">{{ post.title | escape }}</a> by {{ post.author.name | escape }}</li>
 {% endfor %}
 </ul>

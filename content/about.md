@@ -19,7 +19,7 @@ for the whole site, as well as each of the categories:
 <ul>
 <li>Main feed (all posts): <a href="/all/feed.rss">RSS</a> or <a href="/all/feed.json">JSON</a></li>
 {% for category in site.data.categories %}
-<li>{{ category.name }}: <a href="{{ category.path }}feed.rss">RSS</a> or <a href="{{ category.path }}feed.json">JSON</a></li>
+<li>{{ category.name | escape }}: <a href="{{ category.path }}feed.rss">RSS</a> or <a href="{{ category.path }}feed.json">JSON</a></li>
 {% endfor %}
 </ul>
 

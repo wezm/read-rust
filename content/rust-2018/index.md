@@ -28,7 +28,7 @@ and elsewhere.
 <ul>
 {% for post in site.data.rust.posts.items %}
   {% if post.tags contains "Rust 2018" %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> by {{ post.author.name }}</li>
+  <li><a href="{{ post.url }}">{{ post.title | escape }}</a> by {{ post.author.name | escape }}</li>
   {% endif %}
 {% endfor %}
 </ul>
