@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6313ebb2-076c-449b-8fb1-372c9b025168",
+      "title": "How we organize a complex Rust codebase",
+      "content_text": "At Datalust we’ve been busy building Flare: a storage engine for our log server, Seq, written in the Rust programming language. This post is a point-in-time look at how we've approached building this fairly complex piece of software in Rust in 2018. I’d like to share a few",
+      "url": "https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/",
+      "date_published": "2018-09-11T22:26:05+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f712f29b-efed-4c75-a4a0-8523fa0b6d52",
       "title": "Unit Type Params",
       "content_text": "I always enjoy reading blogs about patterns or tricks people have picked up writing Rust. I’ve seen this a few times but not read about it anywhere.\n\nI’ve been doing class assignments from Operating Systems cs140e. I highly recommend this class if you know a bit of Rust and would like to try writing some lower level code. The class involves building bits of an OS for the raspberry pi.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6d814a89-7614-47d1-b3f4-b660279b379d",
+      "title": "Rust: My first impressions",
+      "content_text": "At work I’m seeing more and more embedded software; over the past few years in, among others, coffee machines, forklifts, and cars. Embedded software needs to be fast and extremely efficient with hardware resources. In some cases it not even acceptable to have a tiny break for some garbage collection. So, typical tech stacks for backend development can’t be used, never mind anything that uses browser technologies. Unsurprisingly, almost all embedded software is written in C++, and, in fact, that is also what I used recently for a personal project with a micro-controller.\n\nLooking through the remaining choices, I went past Golang, which uses garbage collection, and set my eyes on Rust. In this post I’ll describe my first impressions, some of the frustrating moments, but also the extremely impressive performance on a larger piece of code.",
+      "url": "https://erik.doernenburg.com/2018/09/rust-my-first-impressions/",
+      "date_published": "2018-09-07T00:00:00+02:00",
+      "author": {
+        "name": "Erik Dörnenburg",
+        "url": "https://erik.doernenburg.com/blog"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "7b94766b-f2c3-42f6-b215-7b63f07a4e95",
       "title": "Adventures in Rust: Futures and Tokio",
       "content_text": "One of my newer hobbies recently has been learning and toying around with Rust. Recently, as part of this learning process, I've started implementing an IP address lookup service as a small side project. During the course of implementing this project I ran into what turned out to be a bit of a hurdle to tackle, specifically performing reverse dns resolution asynchronously.\n\nMy hope is that through exploring this problem, I can aid others in understanding these concepts which can be initially difficult grasp. This is especially so as the behavior and function of Futures vary wildly between various languages and runtimes.",

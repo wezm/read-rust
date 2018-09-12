@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1461a8b4-863b-40c1-bb2d-0ff077d738e1",
+      "title": "Rising Tide: building a modular web framework in the open",
+      "content_text": "The Network Services Working Group aims to improve the story for web development this year in several respects: by bolstering foundations like async/await, by improving the ecosystem of web-related crates, and by pulling these pieces together into a framework and book called Tide. The name “Tide” refers to “a rising tide lifts all boats”; the intent is to improve sharing, compatibility, and improvements across all web development and frameworks in Rust.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/09/11/tide.html",
+      "date_published": "2018-09-11T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "850319b3-4515-4f9c-b833-67a391d5ab26",
       "title": "Programming Servo: A generic “worker event-loop”",
       "content_text": "Let’s take a look at how in Rust you can have an algorithm generic over T, where T is further bound by a trait, which itself is generic over one of several parameters.",

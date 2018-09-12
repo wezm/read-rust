@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2cfb43bc-99fe-4fea-beb0-8e422c55376a",
+      "title": "Parallelizing PNG, part 7: Rust profiling on Linux",
+      "content_text": "I already covered some inner-loop optimization tricks for low-level Rust code in mtpng, but how do you check how fast bits of your code are anyway?\n\nThe way to go is to use a sampling-based profiler native to your operating system. I’ve done most of my detailed profiling on Linux, using the “perf” tool.",
+      "url": "https://brionv.com/log/2018/09/11/parallelizing-png-part-7-rust-profiling-on-linux/",
+      "date_published": "2018-09-11T19:52:29+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "d8bbfe78-53bb-49df-9d7b-092d306492c0",
       "title": "Parallelizing PNG: Choosing Rust for mtpng",
       "content_text": "In my last post I wrapped up the patches to improve perceived performance of screenshots on the Linux GNOME desktop. With that done, why not implement my crazy plan for parallel PNG encoding to speed the actual save time?",

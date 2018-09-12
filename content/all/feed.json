@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "2cfb43bc-99fe-4fea-beb0-8e422c55376a",
+      "title": "Parallelizing PNG, part 7: Rust profiling on Linux",
+      "content_text": "I already covered some inner-loop optimization tricks for low-level Rust code in mtpng, but how do you check how fast bits of your code are anyway?\n\nThe way to go is to use a sampling-based profiler native to your operating system. I’ve done most of my detailed profiling on Linux, using the “perf” tool.",
+      "url": "https://brionv.com/log/2018/09/11/parallelizing-png-part-7-rust-profiling-on-linux/",
+      "date_published": "2018-09-11T19:52:29+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "6d814a89-7614-47d1-b3f4-b660279b379d",
+      "title": "Rust: My first impressions",
+      "content_text": "At work I’m seeing more and more embedded software; over the past few years in, among others, coffee machines, forklifts, and cars. Embedded software needs to be fast and extremely efficient with hardware resources. In some cases it not even acceptable to have a tiny break for some garbage collection. So, typical tech stacks for backend development can’t be used, never mind anything that uses browser technologies. Unsurprisingly, almost all embedded software is written in C++, and, in fact, that is also what I used recently for a personal project with a micro-controller.\n\nLooking through the remaining choices, I went past Golang, which uses garbage collection, and set my eyes on Rust. In this post I’ll describe my first impressions, some of the frustrating moments, but also the extremely impressive performance on a larger piece of code.",
+      "url": "https://erik.doernenburg.com/2018/09/rust-my-first-impressions/",
+      "date_published": "2018-09-07T00:00:00+02:00",
+      "author": {
+        "name": "Erik Dörnenburg",
+        "url": "https://erik.doernenburg.com/blog"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1461a8b4-863b-40c1-bb2d-0ff077d738e1",
+      "title": "Rising Tide: building a modular web framework in the open",
+      "content_text": "The Network Services Working Group aims to improve the story for web development this year in several respects: by bolstering foundations like async/await, by improving the ecosystem of web-related crates, and by pulling these pieces together into a framework and book called Tide. The name “Tide” refers to “a rising tide lifts all boats”; the intent is to improve sharing, compatibility, and improvements across all web development and frameworks in Rust.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/09/11/tide.html",
+      "date_published": "2018-09-11T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6313ebb2-076c-449b-8fb1-372c9b025168",
+      "title": "How we organize a complex Rust codebase",
+      "content_text": "At Datalust we’ve been busy building Flare: a storage engine for our log server, Seq, written in the Rust programming language. This post is a point-in-time look at how we've approached building this fairly complex piece of software in Rust in 2018. I’d like to share a few",
+      "url": "https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/",
+      "date_published": "2018-09-11T22:26:05+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f712f29b-efed-4c75-a4a0-8523fa0b6d52",
       "title": "Unit Type Params",
       "content_text": "I always enjoy reading blogs about patterns or tricks people have picked up writing Rust. I’ve seen this a few times but not read about it anywhere.\n\nI’ve been doing class assignments from Operating Systems cs140e. I highly recommend this class if you know a bit of Rust and would like to try writing some lower level code. The class involves building bits of an OS for the raspberry pi.",
