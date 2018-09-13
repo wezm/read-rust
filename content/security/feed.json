@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2e015136-8213-4fa3-afe0-78bf520d1da6",
+      "title": "Transparent encryption and decryption in rust with cryptostreams",
+      "content_text": "The rust community has fortunately adopted the OpenSSL bindings as the approach of choice, and the rust-openssl crate makes it easy to both bundle and consume the openssl bindings from rust in a cross-platform manner. What it doesn’t do is make encryption and decryption any easier than OpenSSL itself does.\n\nEnter the cryptostream crate. Released on github and on crates.io under the MIT public license, cryptostream finally provides an easy and transparent way to add encryption and decryption to pipelines involving objects implementing Read or Write, making encryption (or decryption) as easy as creating a new cryptostream object, passing in an existing Read/Write impl, and then reading/writing from/to the cryptostream instead.",
+      "url": "https://neosmart.net/blog/2018/transparent-encryption-and-decryption-in-rust-with-cryptostreams/",
+      "date_published": "2018-09-12T23:35:55+00:00",
+      "author": {
+        "name": "Mahmoud Al-Qudsi",
+        "url": "https://neosmart.net/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "7f4b6826-72f6-4842-882d-2a2e5378bdcd",
       "title": "How Rust’s standard library was vulnerable for years and nobody noticed",
       "content_text": "Rust is a new systems programming language that prides itself on memory safety and speed. The gist of it is that if you write code in Rust, it goes as fast as C or C++, but you will not get mysterious intermittent crashes in production or horrific security vulnerabilities, unlike in the latter two.\n\nThat is, until you explicitly opt in to that kind of thing. Uh oh.",

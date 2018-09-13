@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "48eac964-8486-4cd6-83cb-3bca4ff5b616",
+      "title": "Measuring SmallVec Footprint with Smallvectune",
+      "content_text": "Rust is all about paying only for what you use, and gives us plenty tools to eliminate unneeded allocation. One of the tools that is used in a lot of crates (crates.io shows 98 dependent crates) is SmallVec. It is also used in the Rust compiler. I recently got around to speed up the operation of getting a SmallVec from a slice of copyable data. In short, they’re awesome.",
+      "url": "https://llogiq.github.io/2018/09/13/smallvec.html",
+      "date_published": "2018-09-13T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "2cfb43bc-99fe-4fea-beb0-8e422c55376a",
       "title": "Parallelizing PNG, part 7: Rust profiling on Linux",
       "content_text": "I already covered some inner-loop optimization tricks for low-level Rust code in mtpng, but how do you check how fast bits of your code are anyway?\n\nThe way to go is to use a sampling-based profiler native to your operating system. I’ve done most of my detailed profiling on Linux, using the “perf” tool.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "bec949a2-4c38-4646-ae0b-1d8638c506a6",
+      "title": "Parallelizing PNG, part 8: Rust macros for constant specialization",
+      "content_text": "In my last posts I covered profiling and some tips for optimizing inner loops in Rust code while working on a multithreaded PNG encoder. Rust’s macro system is another powerful tool for simplifying your code, and sometimes awesomeizing your performance…",
+      "url": "https://brionv.com/log/2018/09/12/parallelizing-png-part-8-rust-macros-for-constant-specialization/",
+      "date_published": "2018-09-12T15:26:54+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "001f1e0d-3927-4e39-800e-68324a02887a",
+      "title": "Rust Associated Type",
+      "content_text": "Associated Types in Rust are similar to Generic Types; however, Associated Types limit the types of things a user can do, which consequently facilitates code management. Among the Generic Types of traits, types that depend on the type of trait implementation can be expressed by using the Associated Type syntax. By comparing the Associated and Generic Types, you can get a better understanding of Associated Types.",
+      "url": "https://medium.com/codechain/rust-associated-type-2281dbf98229",
+      "date_published": "2018-09-13T06:50:57.959+00:00",
+      "author": {
+        "name": "Seung Woo Kim",
+        "url": "https://medium.com/@koreanboy1120"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6313ebb2-076c-449b-8fb1-372c9b025168",
       "title": "How we organize a complex Rust codebase",
       "content_text": "At Datalust we’ve been busy building Flare: a storage engine for our log server, Seq, written in the Rust programming language. This post is a point-in-time look at how we've approached building this fairly complex piece of software in Rust in 2018. I’d like to share a few",

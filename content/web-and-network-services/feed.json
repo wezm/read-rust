@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d72f5483-1247-46d8-8764-7ac5ec0fb2d3",
+      "title": "Rust and JavaScript Interop ↔️",
+      "content_text": "In recent projects of mine, I’ve been using WebAssembly quite a bit. WebAssembly (Wasm) is “a new binary instruction format for a stack based virtual machine” that lets you use languages besides JavaScript to run code on a web page - usually either for performance reasons or to run code you’d like to share across different platforms. In my opinion, the most promising of these languages, due to its lack of a need for a runtime and great tooling is Rust.",
+      "url": "https://blog.ryanlevick.com/posts/wasm-bindgen-interop/",
+      "date_published": "2018-09-12T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "1461a8b4-863b-40c1-bb2d-0ff077d738e1",
       "title": "Rising Tide: building a modular web framework in the open",
       "content_text": "The Network Services Working Group aims to improve the story for web development this year in several respects: by bolstering foundations like async/await, by improving the ecosystem of web-related crates, and by pulling these pieces together into a framework and book called Tide. The name “Tide” refers to “a rising tide lifts all boats”; the intent is to improve sharing, compatibility, and improvements across all web development and frameworks in Rust.",
