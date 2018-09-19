@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "4f00ccb1-9966-4c6d-83e9-0e8032ff68a4",
+      "title": "Alacritty now supports scrollback",
+      "content_text": "Alacritty, the OpenGL terminal emulator written in Rust, now supports scrollback! Performance has improved, and we've got benchmarks to share.",
+      "url": "https://jwilm.io/blog/alacritty-lands-scrollback/",
+      "date_published": "2018-09-16T17:00:00-07:00",
+      "author": {
+        "name": "Joe Wilm",
+        "url": "https://jwilm.io/blog"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "a92cab79-16fc-46b9-9bdb-0eb21518db8c",
       "title": "Rust at Datalust",
       "content_text": "At Datalust we build a log server called Seq. It's really a database, written in C#, with its own SQL-based query language, that's specifically designed for storing and querying structured log data. In the past, Seq has managed log event storage through ESENT, which is a storage technology baked into Windows. For our cross-platform Seq 5 release we’ve built a storage engine called Flare in the Rust programming language to replace our usage of ESENT.",

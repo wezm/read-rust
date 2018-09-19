@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cf201dba-76a2-49e1-a4d9-b28093189901",
+      "title": "Announcing Linkerd 2.0: from service mesh to service sidecar",
+      "content_text": "The 2.0 release of Linkerd brings two very significant changes. First, we’ve completely rewritten Linkerd to be orders of magnitude faster and smaller than Linkerd 1.x. Linkerd 2.0’s data plane is comprised of ultralight Rust proxies which consume around 10mb of RSS and have a p99 latency of <1ms. Linkerd’s minimalist control plane (written in Go) is similarly designed for speed and low resource footprint.",
+      "url": "https://blog.linkerd.io/2018/09/18/announcing-linkerd-2-0/",
+      "date_published": "2018-09-18T17:00:00+00:00",
+      "author": {
+        "name": "William Morgan",
+        "url": "https://blog.linkerd.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "d72f5483-1247-46d8-8764-7ac5ec0fb2d3",
       "title": "Rust and JavaScript Interop ↔️",
       "content_text": "In recent projects of mine, I’ve been using WebAssembly quite a bit. WebAssembly (Wasm) is “a new binary instruction format for a stack based virtual machine” that lets you use languages besides JavaScript to run code on a web page - usually either for performance reasons or to run code you’d like to share across different platforms. In my opinion, the most promising of these languages, due to its lack of a need for a runtime and great tooling is Rust.",

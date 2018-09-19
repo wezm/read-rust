@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "a64aef93-521d-414e-ae6e-853f147b1180",
+      "title": "You can't \"turn off the borrow checker\" in Rust",
+      "content_text": "Every once in a while, someone will talk about unsafe in Rust, and how it “turns off the borrow checker.” I think this framing leads to misconceptions about unsafe and how it interacts with safe code. Here’s some code that causes a borrow checker... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "url": "https://words.steveklabnik.com/you-can-t-turn-off-the-borrow-checker-in-rust",
+      "date_published": "2018-09-14T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dc9c068f-0a7f-4a31-aec2-f30b51066b89",
+      "title": "Announcing Rust 1.29",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.29.0. The two most significant things in this release aren’t even language features: they’re new abilities that Cargo has grown, and they’re both about lints: cargo fix can automatically fix your code that has warnings. cargo clippy is a bunch of lints to catch common mistakes and improve your Rust code.",
+      "url": "https://blog.rust-lang.org/2018/09/13/Rust-1.29.html",
+      "date_published": "2018-09-13T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0f587c1a-da0e-46d2-bee3-3a3cc6fc5352",
+      "title": "Ownership Explained with Python",
+      "content_text": "It’s not immediately obvious that calling min(squares) modifies squares. If squares were a list or even a range, we would be able to call min and max on it with no problem. It would be nice if the language prevented us from trying to use something twice that can only be used once. Almost all modern languages, both statically and dynamically typed, will fail at runtime in these situations.",
+      "url": "https://paulkernfeld.com/2018/09/16/ownership-explained-with-python.html",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b78327e0-5dc5-4187-be6b-9e06204b4631",
+      "title": "Lockout, Part 2: And nary a function to be found",
+      "content_text": "This is part of a blog series on working towards an intuitive mental model for lifetimes in Rust. When I tried to sit myself down and really, really write down an in-depth example… I realized that there was no two ways about it. Before you can learn to appreciate why lifetimes exist, you must learn what life would be like without them. And in order to do that, well…",
+      "url": "https://exphp.github.io/2018/09/18/lockout-part-2.html",
+      "date_published": "2018-09-18T19:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6c1f472d-337d-48c0-96d3-807afe8e58e3",
+      "title": "Lockout, Part 1: Everything you know about lifetimes is wrong",
+      "content_text": "This is part of a blog series on a new way to look at lifetimes in Rust's type system. I hope to cover some advanced aspects of lifetimes that are seldom discussed in the open, and my goal is ultimately to help convey new intuitions about how to use them correctly.",
+      "url": "https://exphp.github.io/2018/09/17/lockout-part-1.html",
+      "date_published": "2018-09-17T01:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7f5b5694-9cda-4692-8cbe-42458122faff",
+      "title": "Falling in love with Rust",
+      "content_text": "We are living in a Golden Age of software, one that will produce artifacts that will endure for generations. Of course, it can be hard to hold such heady thoughts when we seem to be up to our armpits in vendored flotsam, flooded by sloppy abstractions hastily implemented. Among current languages, only Rust seems to share this aspiration for permanence, with a perspective that is decidedly larger than itself.",
+      "url": "http://dtrace.org/blogs/bmc/2018/09/18/falling-in-love-with-rust/",
+      "date_published": "2018-09-18T22:31:51+00:00",
+      "author": {
+        "name": "Bryan Cantrill",
+        "url": "http://dtrace.org/blogs/bmc/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "bec949a2-4c38-4646-ae0b-1d8638c506a6",
       "title": "Parallelizing PNG, part 8: Rust macros for constant specialization",
       "content_text": "In my last posts I covered profiling and some tips for optimizing inner loops in Rust code while working on a multithreaded PNG encoder. Rust’s macro system is another powerful tool for simplifying your code, and sometimes awesomeizing your performance…",

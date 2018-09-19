@@ -10,6 +10,139 @@
   },
   "items": [
     {
+      "id": "cf201dba-76a2-49e1-a4d9-b28093189901",
+      "title": "Announcing Linkerd 2.0: from service mesh to service sidecar",
+      "content_text": "The 2.0 release of Linkerd brings two very significant changes. First, we’ve completely rewritten Linkerd to be orders of magnitude faster and smaller than Linkerd 1.x. Linkerd 2.0’s data plane is comprised of ultralight Rust proxies which consume around 10mb of RSS and have a p99 latency of <1ms. Linkerd’s minimalist control plane (written in Go) is similarly designed for speed and low resource footprint.",
+      "url": "https://blog.linkerd.io/2018/09/18/announcing-linkerd-2-0/",
+      "tweet_url": "https://twitter.com/linkerd/status/1042119979028508672",
+      "date_published": "2018-09-18T17:00:00+00:00",
+      "author": {
+        "name": "William Morgan",
+        "url": "https://blog.linkerd.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a64aef93-521d-414e-ae6e-853f147b1180",
+      "title": "You can't \"turn off the borrow checker\" in Rust",
+      "content_text": "Every once in a while, someone will talk about unsafe in Rust, and how it “turns off the borrow checker.” I think this framing leads to misconceptions about unsafe and how it interacts with safe code. Here’s some code that causes a borrow checker... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "url": "https://words.steveklabnik.com/you-can-t-turn-off-the-borrow-checker-in-rust",
+      "tweet_url": "https://twitter.com/steveklabnik/status/1040617863978123264",
+      "date_published": "2018-09-14T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "68ff6ef3-ead4-43c9-8813-f355d9f3710c",
+      "title": "My RustConf 2018 Closing Keynote",
+      "content_text": "I said in my talk that I would post a potentially more interesting long-form version of the talk that includes things that I couldn’t fit into the 30-ish minute time slot. What I’ve included below is my original long-form version of this talk, but my original intention was not to post this as-is. Originally I wanted to clean this up a bit more and make this into something that wasn’t so much a giant wall of text, but after I started doing this I realized that I was just rewriting it entirely, and at that rate I would never get around to releasing it, which I promised I would do in a timely manner.",
+      "url": "https://kyren.github.io/2018/09/14/rustconf-talk.html",
+      "date_published": "2018-09-14T00:00:00+00:00",
+      "author": {
+        "name": "Catherine West",
+        "url": "https://kyren.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "dc9c068f-0a7f-4a31-aec2-f30b51066b89",
+      "title": "Announcing Rust 1.29",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.29.0. The two most significant things in this release aren’t even language features: they’re new abilities that Cargo has grown, and they’re both about lints: cargo fix can automatically fix your code that has warnings. cargo clippy is a bunch of lints to catch common mistakes and improve your Rust code.",
+      "url": "https://blog.rust-lang.org/2018/09/13/Rust-1.29.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1040282287869448194",
+      "date_published": "2018-09-13T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0f587c1a-da0e-46d2-bee3-3a3cc6fc5352",
+      "title": "Ownership Explained with Python",
+      "content_text": "It’s not immediately obvious that calling min(squares) modifies squares. If squares were a list or even a range, we would be able to call min and max on it with no problem. It would be nice if the language prevented us from trying to use something twice that can only be used once. Almost all modern languages, both statically and dynamically typed, will fail at runtime in these situations.",
+      "url": "https://paulkernfeld.com/2018/09/16/ownership-explained-with-python.html",
+      "tweet_url": "https://twitter.com/occupy_paul_st/status/1041340077006352384",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b78327e0-5dc5-4187-be6b-9e06204b4631",
+      "title": "Lockout, Part 2: And nary a function to be found",
+      "content_text": "This is part of a blog series on working towards an intuitive mental model for lifetimes in Rust. When I tried to sit myself down and really, really write down an in-depth example… I realized that there was no two ways about it. Before you can learn to appreciate why lifetimes exist, you must learn what life would be like without them. And in order to do that, well…",
+      "url": "https://exphp.github.io/2018/09/18/lockout-part-2.html",
+      "date_published": "2018-09-18T19:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6c1f472d-337d-48c0-96d3-807afe8e58e3",
+      "title": "Lockout, Part 1: Everything you know about lifetimes is wrong",
+      "content_text": "This is part of a blog series on a new way to look at lifetimes in Rust's type system. I hope to cover some advanced aspects of lifetimes that are seldom discussed in the open, and my goal is ultimately to help convey new intuitions about how to use them correctly.",
+      "url": "https://exphp.github.io/2018/09/17/lockout-part-1.html",
+      "date_published": "2018-09-17T01:00:00+00:00",
+      "author": {
+        "name": "Michael Lamparski",
+        "url": "https://exphp.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4f00ccb1-9966-4c6d-83e9-0e8032ff68a4",
+      "title": "Alacritty now supports scrollback",
+      "content_text": "Alacritty, the OpenGL terminal emulator written in Rust, now supports scrollback! Performance has improved, and we've got benchmarks to share.",
+      "url": "https://jwilm.io/blog/alacritty-lands-scrollback/",
+      "tweet_url": "https://twitter.com/i_am_jwilm/status/1041708671217033217",
+      "date_published": "2018-09-16T17:00:00-07:00",
+      "author": {
+        "name": "Joe Wilm",
+        "url": "https://jwilm.io/blog"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "7f5b5694-9cda-4692-8cbe-42458122faff",
+      "title": "Falling in love with Rust",
+      "content_text": "We are living in a Golden Age of software, one that will produce artifacts that will endure for generations. Of course, it can be hard to hold such heady thoughts when we seem to be up to our armpits in vendored flotsam, flooded by sloppy abstractions hastily implemented. Among current languages, only Rust seems to share this aspiration for permanence, with a perspective that is decidedly larger than itself.",
+      "url": "http://dtrace.org/blogs/bmc/2018/09/18/falling-in-love-with-rust/",
+      "tweet_url": "https://twitter.com/bcantrill/status/1042180114199375872",
+      "date_published": "2018-09-18T22:31:51+00:00",
+      "author": {
+        "name": "Bryan Cantrill",
+        "url": "http://dtrace.org/blogs/bmc/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2e015136-8213-4fa3-afe0-78bf520d1da6",
       "title": "Transparent encryption and decryption in rust with cryptostreams",
       "content_text": "The rust community has fortunately adopted the OpenSSL bindings as the approach of choice, and the rust-openssl crate makes it easy to both bundle and consume the openssl bindings from rust in a cross-platform manner. What it doesn’t do is make encryption and decryption any easier than OpenSSL itself does.\n\nEnter the cryptostream crate. Released on github and on crates.io under the MIT public license, cryptostream finally provides an easy and transparent way to add encryption and decryption to pipelines involving objects implementing Read or Write, making encryption (or decryption) as easy as creating a new cryptostream object, passing in an existing Read/Write impl, and then reading/writing from/to the cryptostream instead.",

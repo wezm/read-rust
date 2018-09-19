@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "4f00ccb1-9966-4c6d-83e9-0e8032ff68a4",
+      "title": "Alacritty now supports scrollback",
+      "content_text": "Alacritty, the OpenGL terminal emulator written in Rust, now supports scrollback! Performance has improved, and we've got benchmarks to share.",
+      "url": "https://jwilm.io/blog/alacritty-lands-scrollback/",
+      "date_published": "2018-09-16T17:00:00-07:00",
+      "author": {
+        "name": "Joe Wilm",
+        "url": "https://jwilm.io/blog"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
       "id": "48eac964-8486-4cd6-83cb-3bca4ff5b616",
       "title": "Measuring SmallVec Footprint with Smallvectune",
       "content_text": "Rust is all about paying only for what you use, and gives us plenty tools to eliminate unneeded allocation. One of the tools that is used in a lot of crates (crates.io shows 98 dependent crates) is SmallVec. It is also used in the Rust compiler. I recently got around to speed up the operation of getting a SmallVec from a slice of copyable data. In short, they’re awesome.",

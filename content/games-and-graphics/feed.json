@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "68ff6ef3-ead4-43c9-8813-f355d9f3710c",
+      "title": "My RustConf 2018 Closing Keynote",
+      "content_text": "I said in my talk that I would post a potentially more interesting long-form version of the talk that includes things that I couldn’t fit into the 30-ish minute time slot. What I’ve included below is my original long-form version of this talk, but my original intention was not to post this as-is. Originally I wanted to clean this up a bit more and make this into something that wasn’t so much a giant wall of text, but after I started doing this I realized that I was just rewriting it entirely, and at that rate I would never get around to releasing it, which I promised I would do in a timely manner.",
+      "url": "https://kyren.github.io/2018/09/14/rustconf-talk.html",
+      "date_published": "2018-09-14T00:00:00+00:00",
+      "author": {
+        "name": "Catherine West",
+        "url": "https://kyren.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "6c60dc7f-81f5-4718-9bfa-4c68e7a7d1ab",
       "title": "RPCS3 and Dolphin emulators on macOS using gfx-portability",
       "content_text": "After improving functionality and performance of gfx-portability’s Metal backend through benchmarking Dota2, and verifying certain functionality through the Vulkan Conformance Test Suite (CTS), we decided to expand our testing to other projects. We quickly found two projects which matched our criteria: RPCS3 and Dolphin.",
