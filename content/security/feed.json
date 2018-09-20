@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2fec1872-4519-4b08-8012-147db9dff5e0",
+      "title": "Postgres over TLS with postgres and r2d2_postgres",
+      "content_text": "In this post we’ll go over how to get the postgres crate and r2d2_postgres working with openssl for connection pooling with TLS.",
+      "url": "https://matthewkmayer.github.io/blag/public/post/postgres-tls/",
+      "date_published": "2018-09-13T00:00:00+00:00",
+      "author": {
+        "name": "Matthew Mayer's",
+        "url": "https://matthewkmayer.github.io/blag/public"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "2e015136-8213-4fa3-afe0-78bf520d1da6",
       "title": "Transparent encryption and decryption in rust with cryptostreams",
       "content_text": "The rust community has fortunately adopted the OpenSSL bindings as the approach of choice, and the rust-openssl crate makes it easy to both bundle and consume the openssl bindings from rust in a cross-platform manner. What it doesn’t do is make encryption and decryption any easier than OpenSSL itself does.\n\nEnter the cryptostream crate. Released on github and on crates.io under the MIT public license, cryptostream finally provides an easy and transparent way to add encryption and decryption to pipelines involving objects implementing Read or Write, making encryption (or decryption) as easy as creating a new cryptostream object, passing in an existing Read/Write impl, and then reading/writing from/to the cryptostream instead.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3cd66c51-9cd4-4548-9a94-214d3f241ae2",
+      "title": "My recommended crates for computer graphics",
+      "content_text": "It’s been a while since my last post! Lately I’ve been quite demotivated to actually produce something worth while for doing a writeup about. Instead I offer you some thoughts on my recent findings using rust and some crates I found particularly useful for computer graphics.",
+      "url": "https://jonathansteyfkens.com/rust/graphics/compute/2018/09/15/my-recommended-cg-crates.html",
+      "date_published": "2018-09-15T22:15:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "68ff6ef3-ead4-43c9-8813-f355d9f3710c",
       "title": "My RustConf 2018 Closing Keynote",
       "content_text": "I said in my talk that I would post a potentially more interesting long-form version of the talk that includes things that I couldn’t fit into the 30-ish minute time slot. What I’ve included below is my original long-form version of this talk, but my original intention was not to post this as-is. Originally I wanted to clean this up a bit more and make this into something that wasn’t so much a giant wall of text, but after I started doing this I realized that I was just rewriting it entirely, and at that rate I would never get around to releasing it, which I promised I would do in a timely manner.",

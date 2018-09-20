@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "63b188d7-d82f-425d-9d07-a17d7fdc43f8",
+      "title": "How we integrate Rust with C#",
+      "content_text": "Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something I've talked about previously.\n\nBetween Rust and C# we have a foreign function interface (FFI) that lets us call out to Rust code from within the .NET runtime. In this post I'd like to explore our approach to FFI between Seq and its storage engine using the API for reading log events as a reference.",
+      "url": "https://blog.getseq.net/rust-at-datalust-how-we-integrate-rust-with-csharp/",
+      "date_published": "2018-09-18T23:15:06+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b5f32e7e-843c-40cf-8c6c-126bc74e6c4e",
+      "title": "Function composition in Rust using a custom smart pointer",
+      "content_text": "Still drunk with the power of function composition, I started to play around with the technique in Rust, a language I've been experimenting with. Rust is a low-level language with a strict compiler that saves you from doing dangerous things. Furthermore, Rust is a functional language. It has several concepts and features inspired by Haskell (read more) and Scala for example. The design of Rust makes it highly expressive and attractive.",
+      "url": "https://bsoptei.github.io/",
+      "date_published": "2018-09-15T00:00:00+00:00",
+      "author": {
+        "name": "Balázs Söptei",
+        "url": "https://bsoptei.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a64aef93-521d-414e-ae6e-853f147b1180",
       "title": "You can't \"turn off the borrow checker\" in Rust",
       "content_text": "Every once in a while, someone will talk about unsafe in Rust, and how it “turns off the borrow checker.” I think this framing leads to misconceptions about unsafe and how it interacts with safe code. Here’s some code that causes a borrow checker... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",

@@ -10,6 +10,151 @@
   },
   "items": [
     {
+      "id": "63b188d7-d82f-425d-9d07-a17d7fdc43f8",
+      "title": "How we integrate Rust with C#",
+      "content_text": "Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something I've talked about previously.\n\nBetween Rust and C# we have a foreign function interface (FFI) that lets us call out to Rust code from within the .NET runtime. In this post I'd like to explore our approach to FFI between Seq and its storage engine using the API for reading log events as a reference.",
+      "url": "https://blog.getseq.net/rust-at-datalust-how-we-integrate-rust-with-csharp/",
+      "date_published": "2018-09-18T23:15:06+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://blog.getseq.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e3bb7297-9e70-4070-a2aa-8bb8f9a5eaf2",
+      "title": "A Sudoku Solver & Generator 🔢",
+      "content_text": "For a small side project I’m working on, I’m using a Sudoku puzzle solver and puzzle generator that I’ve written in Rust. The experience was fun, so I thought I’d write up a little bit about the algorithm I’ve used and some interesting stats about how it performs.",
+      "url": "https://blog.ryanlevick.com/posts/sudoku-solver-generator/",
+      "tweet_url": "https://twitter.com/itchyankles/status/1042013143722078209",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "2fec1872-4519-4b08-8012-147db9dff5e0",
+      "title": "Postgres over TLS with postgres and r2d2_postgres",
+      "content_text": "In this post we’ll go over how to get the postgres crate and r2d2_postgres working with openssl for connection pooling with TLS.",
+      "url": "https://matthewkmayer.github.io/blag/public/post/postgres-tls/",
+      "tweet_url": "https://twitter.com/Motoblag/status/1041413288649621505",
+      "date_published": "2018-09-13T00:00:00+00:00",
+      "author": {
+        "name": "Matthew Mayer's",
+        "url": "https://matthewkmayer.github.io/blag/public"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "c75159c1-4e8c-4b09-9371-430cc5971b94",
+      "title": "TOTP generator with account handling for multiple tokens",
+      "content_text": " a totp generator I wrote a while ago in C++ but now it’s in rust. It can generate a token and save it into an account file that is AES encrypted. The password is never saved, so it’s secure enough to use it. One of it’s properties it will have over the c++ implementation is it’s safe, it uses a proper IV and once I’m done, it will also support encryption via PGP.",
+      "url": "https://skarlso.github.io/2018/09/13/gotp/",
+      "tweet_url": "https://twitter.com/Skarlso/status/1041634075478568960",
+      "date_published": "2018-09-13T08:01:00+01:00",
+      "author": {
+        "name": "Gergely Brautigam",
+        "url": "https://skarlso.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "790afaff-5784-4b34-82eb-38a05a05a0ec",
+      "title": "Browsing your mail with Rust and Qt",
+      "content_text": "Let’s write a mail viewer with Rust and Qt. This is another blog about Rust Qt Binding Generator, the project that lets you add a Qt GUI to your Rust code, or if you will, add Rust to your Qt program.",
+      "url": "https://www.vandenoever.info/blog/2018/09/16/browsing_your_mail_with_rust_and_qt.html",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Jos van den Oever",
+        "url": "https://www.vandenoever.info/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "3cd66c51-9cd4-4548-9a94-214d3f241ae2",
+      "title": "My recommended crates for computer graphics",
+      "content_text": "It’s been a while since my last post! Lately I’ve been quite demotivated to actually produce something worth while for doing a writeup about. Instead I offer you some thoughts on my recent findings using rust and some crates I found particularly useful for computer graphics.",
+      "url": "https://jonathansteyfkens.com/rust/graphics/compute/2018/09/15/my-recommended-cg-crates.html",
+      "date_published": "2018-09-15T22:15:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "b5f32e7e-843c-40cf-8c6c-126bc74e6c4e",
+      "title": "Function composition in Rust using a custom smart pointer",
+      "content_text": "Still drunk with the power of function composition, I started to play around with the technique in Rust, a language I've been experimenting with. Rust is a low-level language with a strict compiler that saves you from doing dangerous things. Furthermore, Rust is a functional language. It has several concepts and features inspired by Haskell (read more) and Scala for example. The design of Rust makes it highly expressive and attractive.",
+      "url": "https://bsoptei.github.io/",
+      "date_published": "2018-09-15T00:00:00+00:00",
+      "author": {
+        "name": "Balázs Söptei",
+        "url": "https://bsoptei.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e112cc10-746d-4151-b0e4-76832be74e09",
+      "title": "Rust: Pass-By-Value or Pass-By-Reference?",
+      "content_text": "The other day, a friend of mine who is learning Rust asked if Rust is a pass-by-value or a pass-by-reference language. For the unfamiliar, pass-by-value means that when passing an argument to a function it gets copied into the new function so that the value in the calling function and the value in the called function are two separate values. Changes to one will not in turn result in the same change to the other. Pass-by-reference, on the other hand, means that when passing an argument to a function, it doesn’t copy the value but rather the argument is merely a transparent reference to the original value. This means changes to the value in the called function change the value in the calling function since they are the same value.",
+      "url": "https://blog.ryanlevick.com/posts/rust-pass-value-or-reference/",
+      "tweet_url": "https://twitter.com/itchyankles/status/1040557915986452480",
+      "date_published": "2018-09-12T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "90da273a-d430-4fd5-891c-1aa33bc00588",
+      "title": "Beware the rust cache on Travis",
+      "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds.",
+      "url": "https://levans.fr/rust_travis_cache.html",
+      "date_published": "2018-09-05T17:00:00+02:00",
+      "author": {
+        "name": "Victor \"Levans\" Berger",
+        "url": "https://levans.fr/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "90573eab-4e15-48a4-9c53-8f3466356845",
+      "title": "The evolution of performance in ppbert",
+      "content_text": "Today I released ppbert 0.8.4. This release also marks the first time that one of my original test files can be pretty printed in less than a second. I’ll use this occasion to look back on ppbert and how I was able to improve its performance, little by little.", 
+      "url": "https://vfoley.xyz/ppbert-perf-evolution/",
+      "date_published": "2018-09-19T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "cf201dba-76a2-49e1-a4d9-b28093189901",
       "title": "Announcing Linkerd 2.0: from service mesh to service sidecar",
       "content_text": "The 2.0 release of Linkerd brings two very significant changes. First, we’ve completely rewritten Linkerd to be orders of magnitude faster and smaller than Linkerd 1.x. Linkerd 2.0’s data plane is comprised of ultralight Rust proxies which consume around 10mb of RSS and have a p99 latency of <1ms. Linkerd’s minimalist control plane (written in Go) is similarly designed for speed and low resource footprint.",

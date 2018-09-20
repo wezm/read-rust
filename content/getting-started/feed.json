@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e112cc10-746d-4151-b0e4-76832be74e09",
+      "title": "Rust: Pass-By-Value or Pass-By-Reference?",
+      "content_text": "The other day, a friend of mine who is learning Rust asked if Rust is a pass-by-value or a pass-by-reference language. For the unfamiliar, pass-by-value means that when passing an argument to a function it gets copied into the new function so that the value in the calling function and the value in the called function are two separate values. Changes to one will not in turn result in the same change to the other. Pass-by-reference, on the other hand, means that when passing an argument to a function, it doesn’t copy the value but rather the argument is merely a transparent reference to the original value. This means changes to the value in the called function change the value in the calling function since they are the same value.",
+      "url": "https://blog.ryanlevick.com/posts/rust-pass-value-or-reference/",
+      "date_published": "2018-09-12T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "6d814a89-7614-47d1-b3f4-b660279b379d",
       "title": "Rust: My first impressions",
       "content_text": "At work I’m seeing more and more embedded software; over the past few years in, among others, coffee machines, forklifts, and cars. Embedded software needs to be fast and extremely efficient with hardware resources. In some cases it not even acceptable to have a tiny break for some garbage collection. So, typical tech stacks for backend development can’t be used, never mind anything that uses browser technologies. Unsurprisingly, almost all embedded software is written in C++, and, in fact, that is also what I used recently for a personal project with a micro-controller.\n\nLooking through the remaining choices, I went past Golang, which uses garbage collection, and set my eyes on Rust. In this post I’ll describe my first impressions, some of the frustrating moments, but also the extremely impressive performance on a larger piece of code.",

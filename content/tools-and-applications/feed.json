@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "e3bb7297-9e70-4070-a2aa-8bb8f9a5eaf2",
+      "title": "A Sudoku Solver & Generator 🔢",
+      "content_text": "For a small side project I’m working on, I’m using a Sudoku puzzle solver and puzzle generator that I’ve written in Rust. The experience was fun, so I thought I’d write up a little bit about the algorithm I’ve used and some interesting stats about how it performs.",
+      "url": "https://blog.ryanlevick.com/posts/sudoku-solver-generator/",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "c75159c1-4e8c-4b09-9371-430cc5971b94",
+      "title": "TOTP generator with account handling for multiple tokens",
+      "content_text": " a totp generator I wrote a while ago in C++ but now it’s in rust. It can generate a token and save it into an account file that is AES encrypted. The password is never saved, so it’s secure enough to use it. One of it’s properties it will have over the c++ implementation is it’s safe, it uses a proper IV and once I’m done, it will also support encryption via PGP.",
+      "url": "https://skarlso.github.io/2018/09/13/gotp/",
+      "date_published": "2018-09-13T08:01:00+01:00",
+      "author": {
+        "name": "Gergely Brautigam",
+        "url": "https://skarlso.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "790afaff-5784-4b34-82eb-38a05a05a0ec",
+      "title": "Browsing your mail with Rust and Qt",
+      "content_text": "Let’s write a mail viewer with Rust and Qt. This is another blog about Rust Qt Binding Generator, the project that lets you add a Qt GUI to your Rust code, or if you will, add Rust to your Qt program.",
+      "url": "https://www.vandenoever.info/blog/2018/09/16/browsing_your_mail_with_rust_and_qt.html",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Jos van den Oever",
+        "url": "https://www.vandenoever.info/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4f00ccb1-9966-4c6d-83e9-0e8032ff68a4",
       "title": "Alacritty now supports scrollback",
       "content_text": "Alacritty, the OpenGL terminal emulator written in Rust, now supports scrollback! Performance has improved, and we've got benchmarks to share.",

@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "e3bb7297-9e70-4070-a2aa-8bb8f9a5eaf2",
+      "title": "A Sudoku Solver & Generator 🔢",
+      "content_text": "For a small side project I’m working on, I’m using a Sudoku puzzle solver and puzzle generator that I’ve written in Rust. The experience was fun, so I thought I’d write up a little bit about the algorithm I’ve used and some interesting stats about how it performs.",
+      "url": "https://blog.ryanlevick.com/posts/sudoku-solver-generator/",
+      "date_published": "2018-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "90573eab-4e15-48a4-9c53-8f3466356845",
+      "title": "The evolution of performance in ppbert",
+      "content_text": "Today I released ppbert 0.8.4. This release also marks the first time that one of my original test files can be pretty printed in less than a second. I’ll use this occasion to look back on ppbert and how I was able to improve its performance, little by little.",
+      "url": "https://vfoley.xyz/ppbert-perf-evolution/",
+      "date_published": "2018-09-19T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "4f00ccb1-9966-4c6d-83e9-0e8032ff68a4",
       "title": "Alacritty now supports scrollback",
       "content_text": "Alacritty, the OpenGL terminal emulator written in Rust, now supports scrollback! Performance has improved, and we've got benchmarks to share.",
