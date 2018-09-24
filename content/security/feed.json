@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e36be553-3461-4742-8127-2a41c9f54d93",
+      "title": "Security advisory for the standard library (str::repeat)",
+      "content_text": "The Rust team was recently notified of a security vulnerability affecting the standard library’s str::repeat function. When passed a large number this function has an integer overflow which can lead to an out of bounds write. If you are not using str::repeat, you are not affected.",
+      "url": "https://blog.rust-lang.org/2018/09/21/Security-advisory-for-std.html",
+      "date_published": "2018-09-21T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "2fec1872-4519-4b08-8012-147db9dff5e0",
       "title": "Postgres over TLS with postgres and r2d2_postgres",
       "content_text": "In this post we’ll go over how to get the postgres crate and r2d2_postgres working with openssl for connection pooling with TLS.",

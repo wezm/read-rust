@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "04d63d37-82e6-4076-a90f-ef0a20945316",
+      "title": "My Experience in Increasing Rust's Reach 2018",
+      "content_text": "I recently had the privilege of participating the Increasing Rust’s Reach(IRR) program. The program aims to grow Rust’s community of project collaborators and leaders. Increasing Rust’s Reach brings together Rust team members and individuals who are underrepresented in Rust’s community and the tech industry for a partnership of three (3) months, from mid-May to mid-August. Each partnership agrees to a commitment of 3–5 hours per week working on a Rust Project.",
+      "url": "https://rahul-thakoor.github.io/my-experience-in-increasing-rusts-reach-2018/",
+      "date_published": "2018-09-16T08:49:37+04:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://rahul-thakoor.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "09da227e-6517-48db-ae3f-90f1d1086731",
       "title": "Anatomy Of a Great Rust Blog",
       "content_text": "I've posted 718 articles to Read Rust. This post shares some insights I've gleaned from them, to make your posts as readable and discoverable as possible.",

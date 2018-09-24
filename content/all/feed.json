@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "e36be553-3461-4742-8127-2a41c9f54d93",
+      "title": "Security advisory for the standard library (str::repeat)",
+      "content_text": "The Rust team was recently notified of a security vulnerability affecting the standard library’s str::repeat function. When passed a large number this function has an integer overflow which can lead to an out of bounds write. If you are not using str::repeat, you are not affected.",
+      "url": "https://blog.rust-lang.org/2018/09/21/Security-advisory-for-std.html",
+      "date_published": "2018-09-21T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "564060f8-e187-4947-80ca-867ed3762d1b",
+      "title": "Office Hours #0: Debugging with GDB",
+      "content_text": "This blog post is just going to be a quick summary of the basic workflow of using Rust with gdb on the command line. I’m assuming you are using Linux here, since I think otherwise you would prefer a different debugger. There are probably also nifty graphical tools you can use and maybe even IDE integrations, I’m not sure.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/09/21/office-hours-0-debugging-with-gdb/",
+      "date_published": "2018-09-21T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0a206ee6-7e54-4570-9f0c-8040fb9cd530",
+      "title": "Running Little Rust Snippets with Runner",
+      "content_text": "runner is mostly a clever wrapper around normal Cargo operations. runner acts like an interpreter. There is no forced directory structure, just source. But it’s just using rustc under the hood in the most direct way possible.",
+      "url": "https://stevedonovan.github.io/rustifications/2018/09/23/runner.html",
+      "date_published": "2018-09-23T00:00:00+02:00",
+      "author": {
+        "name": "Steve Donovan",
+        "url": "http://stevedonovan.github.io/rustifications/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "04d63d37-82e6-4076-a90f-ef0a20945316",
+      "title": "My Experience in Increasing Rust's Reach 2018",
+      "content_text": "I recently had the privilege of participating the Increasing Rust’s Reach(IRR) program. The program aims to grow Rust’s community of project collaborators and leaders. Increasing Rust’s Reach brings together Rust team members and individuals who are underrepresented in Rust’s community and the tech industry for a partnership of three (3) months, from mid-May to mid-August. Each partnership agrees to a commitment of 3–5 hours per week working on a Rust Project.",
+      "url": "https://rahul-thakoor.github.io/my-experience-in-increasing-rusts-reach-2018/",
+      "date_published": "2018-09-16T08:49:37+04:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://rahul-thakoor.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "21440a24-a7da-4c72-8232-df22c7438b09",
+      "title": "Smithy progress update: How I decreased WebAssembly bundle size by 90%",
+      "content_text": "Smithy, a web development framework written in Rust that compiles to WebAssembly. In the mean time, there has been substantial progress, and Smithy is on the verge of being ready for alpha use! In this post, I want to describe the improvements that have been made, and what’s on the Smithy roadmap!",
+      "url": "https://medium.com/@robert.balicki_2494/smithy-progress-update-how-i-decreased-webassembly-bundle-size-by-90-e7fe194b2f58",
+      "date_published": "2018-09-24T03:36:53.708+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a2d3880c-1803-4f4d-8345-b46f2d056985",
+      "title": "A Rust FFI adventure in unsafety",
+      "content_text": "This blog post covers my adventure in fixing a bug in the Rust bindings for the Capstone C library, a disassembly library that supports several CPU architectures. The capstone-rs crate attempts to provide a Rusty, object-oriented interface. You do not necessarily need previous experience in C code or foreign function (FFI) bindings to understand this blog post. I will cover some of the steps I used to debug this problem. Hopefully, readers can learn from my mistakes.",
+      "url": "https://travisf.net/capstone-rs-unsafety-adventure",
+      "date_published": "2018-09-21T00:00:00+00:00",
+      "author": {
+        "name": "Travis Finkenauer",
+        "url": "https://travisf.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0e8e1d2a-729c-41b0-953f-e14de11b8c59",
+      "title": "Trying to tackle the orphans problem",
+      "content_text": "In this blog entry, I want to explore a specific problem of orphans and how I decided to solve it in a crate of mine. The problem is the following: Given a crate that has a given responsibility, how can someone add an implementation of a given trait without having to use a type wrapper or augment the crate’s scope?",
+      "url": "https://phaazon.net/blog/orphans-problem",
+      "date_published": "2018-09-20T12:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5a387bd6-85b7-439d-97d4-fdb76fec80c5",
+      "title": "Hegemon: A modular system monitor written in Rust",
+      "content_text": "Hegemon is a work-in-progress modular system monitor written in safe Rust. Currently, it has the following features: Monitor CPU and memory usage, temperatures, and fan speeds; expand any data stream to reveal a more detailed graph and additional information, adjustable update interval.",
+      "url": "https://github.com/p-e-w/hegemon",
+      "date_published": "2018-09-22T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Emanuel Weidmann",
+        "url": "http://worldwidemann.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "63b188d7-d82f-425d-9d07-a17d7fdc43f8",
       "title": "How we integrate Rust with C#",
       "content_text": "Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something I've talked about previously.\n\nBetween Rust and C# we have a foreign function interface (FFI) that lets us call out to Rust code from within the .NET runtime. In this post I'd like to explore our approach to FFI between Seq and its storage engine using the API for reading log events as a reference.",

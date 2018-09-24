@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0a206ee6-7e54-4570-9f0c-8040fb9cd530",
+      "title": "Running Little Rust Snippets with Runner",
+      "content_text": "runner is mostly a clever wrapper around normal Cargo operations. runner acts like an interpreter. There is no forced directory structure, just source. But it’s just using rustc under the hood in the most direct way possible.",
+      "url": "https://stevedonovan.github.io/rustifications/2018/09/23/runner.html",
+      "date_published": "2018-09-23T00:00:00+02:00",
+      "author": {
+        "name": "Steve Donovan",
+        "url": "http://stevedonovan.github.io/rustifications/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "5a387bd6-85b7-439d-97d4-fdb76fec80c5",
+      "title": "Hegemon: A modular system monitor written in Rust",
+      "content_text": "Hegemon is a work-in-progress modular system monitor written in safe Rust. Currently, it has the following features: Monitor CPU and memory usage, temperatures, and fan speeds; expand any data stream to reveal a more detailed graph and additional information, adjustable update interval.",
+      "url": "https://github.com/p-e-w/hegemon",
+      "date_published": "2018-09-22T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Emanuel Weidmann",
+        "url": "http://worldwidemann.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e3bb7297-9e70-4070-a2aa-8bb8f9a5eaf2",
       "title": "A Sudoku Solver & Generator 🔢",
       "content_text": "For a small side project I’m working on, I’m using a Sudoku puzzle solver and puzzle generator that I’ve written in Rust. The experience was fun, so I thought I’d write up a little bit about the algorithm I’ve used and some interesting stats about how it performs.",

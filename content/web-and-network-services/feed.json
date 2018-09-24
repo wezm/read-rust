@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "21440a24-a7da-4c72-8232-df22c7438b09",
+      "title": "Smithy progress update: How I decreased WebAssembly bundle size by 90%",
+      "content_text": "Smithy, a web development framework written in Rust that compiles to WebAssembly. In the mean time, there has been substantial progress, and Smithy is on the verge of being ready for alpha use! In this post, I want to describe the improvements that have been made, and what’s on the Smithy roadmap!",
+      "url": "https://medium.com/@robert.balicki_2494/smithy-progress-update-how-i-decreased-webassembly-bundle-size-by-90-e7fe194b2f58",
+      "date_published": "2018-09-24T03:36:53.708+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "cf201dba-76a2-49e1-a4d9-b28093189901",
       "title": "Announcing Linkerd 2.0: from service mesh to service sidecar",
       "content_text": "The 2.0 release of Linkerd brings two very significant changes. First, we’ve completely rewritten Linkerd to be orders of magnitude faster and smaller than Linkerd 1.x. Linkerd 2.0’s data plane is comprised of ultralight Rust proxies which consume around 10mb of RSS and have a p99 latency of <1ms. Linkerd’s minimalist control plane (written in Go) is similarly designed for speed and low resource footprint.",

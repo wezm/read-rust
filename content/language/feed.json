@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "564060f8-e187-4947-80ca-867ed3762d1b",
+      "title": "Office Hours #0: Debugging with GDB",
+      "content_text": "This blog post is just going to be a quick summary of the basic workflow of using Rust with gdb on the command line. I’m assuming you are using Linux here, since I think otherwise you would prefer a different debugger. There are probably also nifty graphical tools you can use and maybe even IDE integrations, I’m not sure.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/09/21/office-hours-0-debugging-with-gdb/",
+      "date_published": "2018-09-21T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a2d3880c-1803-4f4d-8345-b46f2d056985",
+      "title": "A Rust FFI adventure in unsafety",
+      "content_text": "This blog post covers my adventure in fixing a bug in the Rust bindings for the Capstone C library, a disassembly library that supports several CPU architectures. The capstone-rs crate attempts to provide a Rusty, object-oriented interface. You do not necessarily need previous experience in C code or foreign function (FFI) bindings to understand this blog post. I will cover some of the steps I used to debug this problem. Hopefully, readers can learn from my mistakes.",
+      "url": "https://travisf.net/capstone-rs-unsafety-adventure",
+      "date_published": "2018-09-21T00:00:00+00:00",
+      "author": {
+        "name": "Travis Finkenauer",
+        "url": "https://travisf.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0e8e1d2a-729c-41b0-953f-e14de11b8c59",
+      "title": "Trying to tackle the orphans problem",
+      "content_text": "In this blog entry, I want to explore a specific problem of orphans and how I decided to solve it in a crate of mine. The problem is the following: Given a crate that has a given responsibility, how can someone add an implementation of a given trait without having to use a type wrapper or augment the crate’s scope?",
+      "url": "https://phaazon.net/blog/orphans-problem",
+      "date_published": "2018-09-20T12:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "63b188d7-d82f-425d-9d07-a17d7fdc43f8",
       "title": "How we integrate Rust with C#",
       "content_text": "Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something I've talked about previously.\n\nBetween Rust and C# we have a foreign function interface (FFI) that lets us call out to Rust code from within the .NET runtime. In this post I'd like to explore our approach to FFI between Seq and its storage engine using the API for reading log events as a reference.",
