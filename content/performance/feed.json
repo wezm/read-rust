@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "23617503-ac10-4027-bd53-a98ad82c7d1e",
+      "title": "The relative performance of C and Rust",
+      "content_text": "I reimplemented a body of C software in Rust, and it performed better for the same task; what’s going on? And is there anything broader we can say about these results?\n\nTo explore this, I ran some statemap rendering tests on SmartOS on a single-socket Haswell server (Xeon E3-1270 v3) running at 3.50GHz. The C version was compiled with GCC 7.3.0 with -O2 level optimizations; the Rust version was compiled with 1.29.0 with --release. All of the tests were run bound to a processor set containing a single core; all were bound to one logical CPU within that core, with the other logical CPU forced to be idle. cpustat was used to gather CPU performance counter data, with one number denoting one run with pic0 programmed to that CPU performance counter. The input file (~30MB compressed) contains 3.5M state changes, and in the default config will generate a ~6MB SVG. ",
+      "url": "http://dtrace.org/blogs/bmc/2018/09/28/the-relative-performance-of-c-and-rust/",
+      "date_published": "2018-09-29T01:28:17+00:00",
+      "author": {
+        "name": "Bryan Cantrill",
+        "url": "http://dtrace.org/blogs/bmc/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "e3bb7297-9e70-4070-a2aa-8bb8f9a5eaf2",
       "title": "A Sudoku Solver & Generator 🔢",
       "content_text": "For a small side project I’m working on, I’m using a Sudoku puzzle solver and puzzle generator that I’ve written in Rust. The experience was fun, so I thought I’d write up a little bit about the algorithm I’ve used and some interesting stats about how it performs.",

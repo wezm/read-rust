@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "385cdc5a-e6e0-4562-b9f3-156b296d6a03",
+      "title": "How I’ve found vulnerability in a popular Rust crate (and you can too)",
+      "content_text": "I have recently discovered a zero-day vulnerability in a fairly popular and well-designed Rust crate. In this article I’m going to discuss how I did it and why it wasn’t discovered earlier, and introduce a new tool, libdiffuzz, that I’ve created for the job. A recently discovered vulnerability in Rust standard library makes a cameo appearance.",
+      "url": "https://medium.com/@shnatsel/how-ive-found-vulnerability-in-a-popular-rust-crate-and-you-can-too-3db081a67fb",
+      "date_published": "2018-09-28T03:51:45.283+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "e36be553-3461-4742-8127-2a41c9f54d93",
       "title": "Security advisory for the standard library (str::repeat)",
       "content_text": "The Rust team was recently notified of a security vulnerability affecting the standard library’s str::repeat function. When passed a large number this function has an integer overflow which can lead to an out of bounds write. If you are not using str::repeat, you are not affected.",

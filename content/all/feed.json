@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "0b2520e8-b69d-4edb-91b1-3558494fd0cd",
+      "title": "rust-on-mobile: Example of creating and running a basic \"Hello World\" application on iOS",
+      "content_text": "This repo is a place where examples can be added of iOS/android projects written entirely/mostly in rust.",
+      "url": "https://github.com/mtak-/rust-on-mobile/blob/master/examples/ios/example01.md",
+      "date_published": "2018-09-24T06:09:32+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "adea520f-a6b7-43f5-b705-62aefc4c00e6",
+      "title": "Announcing Rust 1.29.1",
+      "content_text": "A security vulnerability was found in the standard library where if a large number was passed to str::repeat it could cause a buffer overflow after an integer overflow. If you do not call the str::repeat function you are not affected. This has been addressed by unconditionally panicking in str::repeat on integer overflow.",
+      "url": "https://blog.rust-lang.org/2018/09/25/Rust-1.29.1.html",
+      "date_published": "2018-09-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "27dd6f1a-6659-43d5-aa7b-2e0ee21c7173",
+      "title": "Announcing the web-sys crate!",
+      "content_text": "We are pleased to announce the first release of the web-sys crate! It provides raw bindings to all the Web’s APIs: everything from DOM manipulation to WebGL to Web Audio to timers to fetch and more!",
+      "url": "https://rustwasm.github.io/2018/09/26/announcing-web-sys.html",
+      "date_published": "2018-09-26T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "385cdc5a-e6e0-4562-b9f3-156b296d6a03",
+      "title": "How I’ve found vulnerability in a popular Rust crate (and you can too)",
+      "content_text": "I have recently discovered a zero-day vulnerability in a fairly popular and well-designed Rust crate. In this article I’m going to discuss how I did it and why it wasn’t discovered earlier, and introduce a new tool, libdiffuzz, that I’ve created for the job. A recently discovered vulnerability in Rust standard library makes a cameo appearance.",
+      "url": "https://medium.com/@shnatsel/how-ive-found-vulnerability-in-a-popular-rust-crate-and-you-can-too-3db081a67fb",
+      "date_published": "2018-09-28T03:51:45.283+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "ba0468b9-b0dd-40d1-b253-9fa70cb05ddf",
+      "title": "eBPF, ingrained in Rust",
+      "content_text": "Today we are releasing RedBPF and ingraind, our eBPF toolkit that integrates with StatsD and S3, to gather feedback, and see where others in the Rust community might take this framework. If you are looking to up your company’s monitoring game, gather more data about your Raspberry Pi cluster at home, or just have a strong academic interest in Rust and low-level bit shepherding, you might want to read on.",
+      "url": "https://blog.redsift.com/labs/ebpf-ingrained-in-rust/",
+      "date_published": "2018-09-25T14:45:44+00:00",
+      "author": {
+        "name": "Peter Parkanyi",
+        "url": "https://blog.redsift.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fa23119f-23c8-404c-9aaa-5a75da99d131",
+      "title": "Tower Web 0.3 — async/await and template support",
+      "content_text": "Today, Tower Web 0.3 has been released and it comes with two major new features: Experimental support for async/await. Support for using templates to render responses.",
+      "url": "https://medium.com/@carllerche/tower-web-0-3-async-await-and-template-support-e0bb8ed47941",
+      "date_published": "2018-09-28T17:32:13.187+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "23617503-ac10-4027-bd53-a98ad82c7d1e",
+      "title": "The relative performance of C and Rust",
+      "content_text": "I reimplemented a body of C software in Rust, and it performed better for the same task; what’s going on? And is there anything broader we can say about these results?\n\nTo explore this, I ran some statemap rendering tests on SmartOS on a single-socket Haswell server (Xeon E3-1270 v3) running at 3.50GHz. The C version was compiled with GCC 7.3.0 with -O2 level optimizations; the Rust version was compiled with 1.29.0 with --release. All of the tests were run bound to a processor set containing a single core; all were bound to one logical CPU within that core, with the other logical CPU forced to be idle. cpustat was used to gather CPU performance counter data, with one number denoting one run with pic0 programmed to that CPU performance counter. The input file (~30MB compressed) contains 3.5M state changes, and in the default config will generate a ~6MB SVG. ",
+      "url": "http://dtrace.org/blogs/bmc/2018/09/28/the-relative-performance-of-c-and-rust/",
+      "date_published": "2018-09-29T01:28:17+00:00",
+      "author": {
+        "name": "Bryan Cantrill",
+        "url": "http://dtrace.org/blogs/bmc/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "e36be553-3461-4742-8127-2a41c9f54d93",
       "title": "Security advisory for the standard library (str::repeat)",
       "content_text": "The Rust team was recently notified of a security vulnerability affecting the standard library’s str::repeat function. When passed a large number this function has an integer overflow which can lead to an out of bounds write. If you are not using str::repeat, you are not affected.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0b2520e8-b69d-4edb-91b1-3558494fd0cd",
+      "title": "rust-on-mobile: Example of creating and running a basic \"Hello World\" application on iOS",
+      "content_text": "This repo is a place where examples can be added of iOS/android projects written entirely/mostly in rust.",
+      "url": "https://github.com/mtak-/rust-on-mobile/blob/master/examples/ios/example01.md",
+      "date_published": "2018-09-24T06:09:32+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "adea520f-a6b7-43f5-b705-62aefc4c00e6",
+      "title": "Announcing Rust 1.29.1",
+      "content_text": "A security vulnerability was found in the standard library where if a large number was passed to str::repeat it could cause a buffer overflow after an integer overflow. If you do not call the str::repeat function you are not affected. This has been addressed by unconditionally panicking in str::repeat on integer overflow.",
+      "url": "https://blog.rust-lang.org/2018/09/25/Rust-1.29.1.html",
+      "date_published": "2018-09-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "564060f8-e187-4947-80ca-867ed3762d1b",
       "title": "Office Hours #0: Debugging with GDB",
       "content_text": "This blog post is just going to be a quick summary of the basic workflow of using Rust with gdb on the command line. I’m assuming you are using Linux here, since I think otherwise you would prefer a different debugger. There are probably also nifty graphical tools you can use and maybe even IDE integrations, I’m not sure.",

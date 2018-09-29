@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "27dd6f1a-6659-43d5-aa7b-2e0ee21c7173",
+      "title": "Announcing the web-sys crate!",
+      "content_text": "We are pleased to announce the first release of the web-sys crate! It provides raw bindings to all the Web’s APIs: everything from DOM manipulation to WebGL to Web Audio to timers to fetch and more!",
+      "url": "https://rustwasm.github.io/2018/09/26/announcing-web-sys.html",
+      "date_published": "2018-09-26T00:00:00+00:00",
+      "author": {
+        "name": "rustwasm",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ba0468b9-b0dd-40d1-b253-9fa70cb05ddf",
+      "title": "eBPF, ingrained in Rust",
+      "content_text": "Today we are releasing RedBPF and ingraind, our eBPF toolkit that integrates with StatsD and S3, to gather feedback, and see where others in the Rust community might take this framework. If you are looking to up your company’s monitoring game, gather more data about your Raspberry Pi cluster at home, or just have a strong academic interest in Rust and low-level bit shepherding, you might want to read on.",
+      "url": "https://blog.redsift.com/labs/ebpf-ingrained-in-rust/",
+      "date_published": "2018-09-25T14:45:44+00:00",
+      "author": {
+        "name": "Peter Parkanyi",
+        "url": "https://blog.redsift.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fa23119f-23c8-404c-9aaa-5a75da99d131",
+      "title": "Tower Web 0.3 — async/await and template support",
+      "content_text": "Today, Tower Web 0.3 has been released and it comes with two major new features: Experimental support for async/await. Support for using templates to render responses.",
+      "url": "https://medium.com/@carllerche/tower-web-0-3-async-await-and-template-support-e0bb8ed47941",
+      "date_published": "2018-09-28T17:32:13.187+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://medium.com/@carllerche"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "21440a24-a7da-4c72-8232-df22c7438b09",
       "title": "Smithy progress update: How I decreased WebAssembly bundle size by 90%",
       "content_text": "Smithy, a web development framework written in Rust that compiles to WebAssembly. In the mean time, there has been substantial progress, and Smithy is on the verge of being ready for alpha use! In this post, I want to describe the improvements that have been made, and what’s on the Smithy roadmap!",
