@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8e066aec-6f09-44df-b763-b4d44b772fb5",
+      "title": "Understanding Compilers — For Humans (Version 2)",
+      "content_text": "Understanding your compiler internally allows you to use it effectively. Walk through how programming languages and compilers work in this chronological synopsis. Lots of links, example code, and diagrams have been composed to aid in your understanding.\n\nUnderstanding Compilers — For Humans (Version 2) is a successor to my second article on Medium, with over 21 thousand views. I am so glad I could make a positive impact on people’s education, and I am excited to bring a complete rewrite based on the input I received from the original article. I chose Rust as this work’s primary language.",
+      "url": "https://towardsdatascience.com/understanding-compilers-for-humans-version-2-157f0edb02dd",
+      "date_published": "2018-09-29T16:01:01.807+00:00",
+      "author": {
+        "name": "Luke Wilson",
+        "url": "https://towardsdatascience.com/@aesl"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e112cc10-746d-4151-b0e4-76832be74e09",
       "title": "Rust: Pass-By-Value or Pass-By-Reference?",
       "content_text": "The other day, a friend of mine who is learning Rust asked if Rust is a pass-by-value or a pass-by-reference language. For the unfamiliar, pass-by-value means that when passing an argument to a function it gets copied into the new function so that the value in the calling function and the value in the called function are two separate values. Changes to one will not in turn result in the same change to the other. Pass-by-reference, on the other hand, means that when passing an argument to a function, it doesn’t copy the value but rather the argument is merely a transparent reference to the original value. This means changes to the value in the called function change the value in the calling function since they are the same value.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c0b70c5d-190f-4c9d-ac44-d65a64a61b1f",
+      "title": "The Undergarden, a text adventure in Rust: 1 - Sections",
+      "content_text": "I’m attempting to write a (very simple, at least initally) text adventure in Rust, so I’m going to share progress on my blog starting today. This first post is about the sections, that to day is the rooms of a house for example.",
+      "url": "https://www.cattlegrid.info/the-undergarden-text-adventure-rust-1-sections",
+      "date_published": "2018-09-27T20:04:00+00:00",
+      "author": {
+        "name": "Michele Beltrame",
+        "url": "https://www.cattlegrid.info/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3cd66c51-9cd4-4548-9a94-214d3f241ae2",
       "title": "My recommended crates for computer graphics",
       "content_text": "It’s been a while since my last post! Lately I’ve been quite demotivated to actually produce something worth while for doing a writeup about. Instead I offer you some thoughts on my recent findings using rust and some crates I found particularly useful for computer graphics.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "38d1a807-a596-4423-a458-beab7d9df074",
+      "title": "Programming WebAssembly with Rust — The Book!",
+      "content_text": "I am proud to announce that I’m working on a book for the Pragmatic Programmers. The title hasn’t been set in stone yet, but the book will be about programming WebAssembly with Rust.",
+      "url": "https://medium.com/@KevinHoffman/programming-webassembly-with-rust-the-book-7c4a890fcf97",
+      "date_published": "2018-09-28T13:25:42.837+00:00",
+      "author": {
+        "name": "Kevin Hoffman",
+        "url": "https://medium.com/@KevinHoffman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "27dd6f1a-6659-43d5-aa7b-2e0ee21c7173",
       "title": "Announcing the web-sys crate!",
       "content_text": "We are pleased to announce the first release of the web-sys crate! It provides raw bindings to all the Web’s APIs: everything from DOM manipulation to WebGL to Web Audio to timers to fetch and more!",

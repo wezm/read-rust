@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0ec2fec4-ed74-4377-b1f5-1e6a5eec6025",
+      "title": "Office Hours #1: Cyclic services",
+      "content_text": "This is a report on the second “office hours”, in which we discussed how to setup a series of services or actors that communicate with one another. This is a classic kind of problem in Rust: how to deal with cyclic data. Usually, the answer is that the cycle is not necessary (as in this case).",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/09/24/office-hours-1-cyclic-services/",
+      "date_published": "2018-09-24T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9128e298-33fe-4f13-a9c7-7ff2361ee2da",
+      "title": "An EFI App a bit rusty",
+      "content_text": "After two tweets that I made last week, playing around with UEFI and Rust, some people asked to publish a blog post explaining how to create a UEFI application fully written in Rust and demonstrate all the testing environment.",
+      "url": "https://medium.com/@gil0mendes/an-efi-app-a-bit-rusty-82c36b745f49",
+      "date_published": "2018-09-30T21:56:12.954+00:00",
+      "author": {
+        "name": "Gil Mendes",
+        "url": "https://medium.com/@gil0mendes"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0b2520e8-b69d-4edb-91b1-3558494fd0cd",
       "title": "rust-on-mobile: Example of creating and running a basic \"Hello World\" application on iOS",
       "content_text": "This repo is a place where examples can be added of iOS/android projects written entirely/mostly in rust.",

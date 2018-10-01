@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "96405556-ac98-433a-a0f8-c3de068e47d3",
+      "title": "‘orion’ - yet another attempt at pure-Rust cryptography",
+      "content_text": "orion is another attempt at cryptography implemented in pure Rust. Its main focus is usability. This is in part achieved by providing a thorough documentation of the library. High-level abstractions are also provided, which are an attempt at guiding the users towards safe usage of the lower-level functionality of the library.",
+      "url": "https://brycx.github.io/2018/09/25/orion-pure-rust-crypto-lib.html",
+      "date_published": "2018-09-25T00:00:00+00:00",
+      "author": {
+        "name": "brycx",
+        "url": "https://brycx.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Security"
+      ]
+    },
+    {
       "id": "385cdc5a-e6e0-4562-b9f3-156b296d6a03",
       "title": "How I’ve found vulnerability in a popular Rust crate (and you can too)",
       "content_text": "I have recently discovered a zero-day vulnerability in a fairly popular and well-designed Rust crate. In this article I’m going to discuss how I did it and why it wasn’t discovered earlier, and introduce a new tool, libdiffuzz, that I’ve created for the job. A recently discovered vulnerability in Rust standard library makes a cameo appearance.",

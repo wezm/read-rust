@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "96405556-ac98-433a-a0f8-c3de068e47d3",
+      "title": "‘orion’ - yet another attempt at pure-Rust cryptography",
+      "content_text": "orion is another attempt at cryptography implemented in pure Rust. Its main focus is usability. This is in part achieved by providing a thorough documentation of the library. High-level abstractions are also provided, which are an attempt at guiding the users towards safe usage of the lower-level functionality of the library.",
+      "url": "https://brycx.github.io/2018/09/25/orion-pure-rust-crypto-lib.html",
+      "date_published": "2018-09-25T00:00:00+00:00",
+      "author": {
+        "name": "brycx",
+        "url": "https://brycx.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Security"
+      ]
+    },
+    {
       "id": "956dab4d-a04e-4278-bb20-906f4eac7a82",
       "title": "GStreamer Rust bindings 0.12 and GStreamer Plugin 0.3 release",
       "content_text": "After almost 6 months, a new release of the GStreamer Rust bindings and the GStreamer plugin writing infrastructure for Rust is out. As usual this was coinciding with the release of all the gtk-rs crates to make use of all the new features they contain.",
