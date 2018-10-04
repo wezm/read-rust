@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cbc812fb-b5ff-44cc-ae96-f4a5ae44e7dd",
+      "title": "Announcing the Tokio Doc Push (we need you!)",
+      "content_text": "In the past, there has been reoccurring feedback that Tokio is hard to understand. I believe a lack of good documentation plays a significant part. It’s time to fix this problem.\n\nAnd because Tokio is open source, it is on us (the community) to make this happen! 👏",
+      "url": "https://tokio.rs/blog/2018-10-doc-blitz/",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/blog/2018-10-doc-blitz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0ec2fec4-ed74-4377-b1f5-1e6a5eec6025",
       "title": "Office Hours #1: Cyclic services",
       "content_text": "This is a report on the second “office hours”, in which we discussed how to setup a series of services or actors that communicate with one another. This is a classic kind of problem in Rust: how to deal with cyclic data. Usually, the answer is that the cycle is not necessary (as in this case).",

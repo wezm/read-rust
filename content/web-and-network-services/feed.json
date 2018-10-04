@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "cba35bca-a821-4ba9-81d8-3cee56f5e199",
+      "title": "WebAssembly and Dynamic Memory",
+      "content_text": "WebAssembly is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.\n\nThese high-level languages like C/C++/Rust (+Javascript) deal with different allocations of memory, such as static memory, stack memory and dynamic memory.",
+      "url": "https://frehberg.wordpress.com/webassembly-and-dynamic-memory/",
+      "date_published": "2018-10-04T03:19:18+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.wordpress.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "217f309f-bfff-4997-8ff7-faddf10b670f",
+      "title": "Introducing Ruukh Framework",
+      "content_text": "Rust has its goals set on to be a primary WASM language and it would be awesome to use it both in backend and frontend web. Ruukh is one of such efforts to realise that dream. Ruukh, a frontend web framework, is inspired by both VueJS and ReactJS.",
+      "url": "https://sharadchand.com/2018/10/03/ruukh-framework.html",
+      "date_published": "2018-10-03T12:38:00+00:00",
+      "author": {
+        "name": "Sharad Chand",
+        "url": "https://sharadchand.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7de9ba6b-a3ae-4db5-a911-15126a264b26",
+      "title": "Lessons learned on writing web applications completely in Rust",
+      "content_text": "This blog post is an update to the preceeding article “A web application completely written in Rust” and summarizes the projects’ progress over the last months.",
+      "url": "https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287",
+      "date_published": "2018-10-03T11:59:12.827+00:00",
+      "author": {
+        "name": "Sascha Grunert",
+        "url": "https://medium.com/@saschagrunert"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "38d1a807-a596-4423-a458-beab7d9df074",
       "title": "Programming WebAssembly with Rust — The Book!",
       "content_text": "I am proud to announce that I’m working on a book for the Pragmatic Programmers. The title hasn’t been set in stone yet, but the book will be about programming WebAssembly with Rust.",

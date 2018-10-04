@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "22538446-2c14-4b71-bd82-46c2db0371a1",
+      "title": "The Undergarden, a text adventure in Rust: 2 - Objects",
+      "content_text": "In this second blog post I’m showing how I implemented objects - things the player can interact with - for a text adventure written in Rust. As usual, the full code is available on GitHub.",
+      "url": "https://www.cattlegrid.info/the-undergarden-text-adventure-rust-2-objects",
+      "date_published": "2018-10-04T04:51:00+00:00",
+      "author": {
+        "name": "Michele Beltrame",
+        "url": "https://www.cattlegrid.info/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "abd3f1ce-8faf-4c92-a8d3-20c34e41af97",
+      "title": "Porting My CUDA Path Tracer to ptx-builder/linker",
+      "content_text": "A bunch of stuff has happened since I published my post on The State of GPGPU in Rust. Most importantly, Denys Zariaiev (@denzp) released his work on a custom linker for Rust CUDA kernels, and a build.rs helper crate to make it easier to use.\nThese two crates eliminate many of the problems I referred to in my previous post. The linker solves most of the “invalid PTX file” problems, while the ptx-builder crate does all of the magic that Accel was doing behind the scenes.",
+      "url": "https://bheisler.github.io/post/ptx-builder-and-linker/",
+      "date_published": "2018-10-01T19:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "c0b70c5d-190f-4c9d-ac44-d65a64a61b1f",
       "title": "The Undergarden, a text adventure in Rust: 1 - Sections",
       "content_text": "I’m attempting to write a (very simple, at least initally) text adventure in Rust, so I’m going to share progress on my blog starting today. This first post is about the sections, that to day is the rooms of a house for example.",

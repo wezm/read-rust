@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "cbc812fb-b5ff-44cc-ae96-f4a5ae44e7dd",
+      "title": "Announcing the Tokio Doc Push (we need you!)",
+      "content_text": "In the past, there has been reoccurring feedback that Tokio is hard to understand. I believe a lack of good documentation plays a significant part. It’s time to fix this problem.\n\nAnd because Tokio is open source, it is on us (the community) to make this happen! 👏",
+      "url": "https://tokio.rs/blog/2018-10-doc-blitz/",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/blog/2018-10-doc-blitz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "22538446-2c14-4b71-bd82-46c2db0371a1",
+      "title": "The Undergarden, a text adventure in Rust: 2 - Objects",
+      "content_text": "In this second blog post I’m showing how I implemented objects - things the player can interact with - for a text adventure written in Rust. As usual, the full code is available on GitHub.",
+      "url": "https://www.cattlegrid.info/the-undergarden-text-adventure-rust-2-objects",
+      "date_published": "2018-10-04T04:51:00+00:00",
+      "author": {
+        "name": "Michele Beltrame",
+        "url": "https://www.cattlegrid.info/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "cba35bca-a821-4ba9-81d8-3cee56f5e199",
+      "title": "WebAssembly and Dynamic Memory",
+      "content_text": "WebAssembly is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.\n\nThese high-level languages like C/C++/Rust (+Javascript) deal with different allocations of memory, such as static memory, stack memory and dynamic memory.",
+      "url": "https://frehberg.wordpress.com/webassembly-and-dynamic-memory/",
+      "date_published": "2018-10-04T03:19:18+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.wordpress.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "217f309f-bfff-4997-8ff7-faddf10b670f",
+      "title": "Introducing Ruukh Framework",
+      "content_text": "Rust has its goals set on to be a primary WASM language and it would be awesome to use it both in backend and frontend web. Ruukh is one of such efforts to realise that dream. Ruukh, a frontend web framework, is inspired by both VueJS and ReactJS.",
+      "url": "https://sharadchand.com/2018/10/03/ruukh-framework.html",
+      "date_published": "2018-10-03T12:38:00+00:00",
+      "author": {
+        "name": "Sharad Chand",
+        "url": "https://sharadchand.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7de9ba6b-a3ae-4db5-a911-15126a264b26",
+      "title": "Lessons learned on writing web applications completely in Rust",
+      "content_text": "This blog post is an update to the preceeding article “A web application completely written in Rust” and summarizes the projects’ progress over the last months.",
+      "url": "https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287",
+      "date_published": "2018-10-03T11:59:12.827+00:00",
+      "author": {
+        "name": "Sascha Grunert",
+        "url": "https://medium.com/@saschagrunert"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4ae0bbf7-720b-48d3-8c5d-d5b3c8e061dd",
+      "title": "Red Hat's Stratis Storage Project Reaches Its 1.0 Stable Milestone",
+      "content_text": "Stratis 1.0 was quietly released last week with the 1.0 version marking its initial stable release and where also the on-disk meta-data format has been stabilized. Red Hat engineers believe Stratis is now ready for more widespread testing.",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Stratis-1.0-Released",
+      "date_published": "2018-10-02T04:48:34-04:00",
+      "author": {
+        "name": "Michael Larabel",
+        "url": "https://www.phoronix.com/scan.php?page=home"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "abd3f1ce-8faf-4c92-a8d3-20c34e41af97",
+      "title": "Porting My CUDA Path Tracer to ptx-builder/linker",
+      "content_text": "A bunch of stuff has happened since I published my post on The State of GPGPU in Rust. Most importantly, Denys Zariaiev (@denzp) released his work on a custom linker for Rust CUDA kernels, and a build.rs helper crate to make it easier to use.\nThese two crates eliminate many of the problems I referred to in my previous post. The linker solves most of the “invalid PTX file” problems, while the ptx-builder crate does all of the magic that Accel was doing behind the scenes.",
+      "url": "https://bheisler.github.io/post/ptx-builder-and-linker/",
+      "date_published": "2018-10-01T19:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "307ed024-4949-4c53-80cf-c1e60a57e0a7",
+      "title": "lolbench: automagically and empirically discovering Rust performance regressions",
+      "content_text": "lolbench compiles ~350 benchmarks with every Rust nightly. It then runs them and highlights potential performance regressions in the standard library and the output of the compiler. Each toolchain’s run is summarized with a list of likely candidates, as seen in the image below, and we’re now getting started using these to safeguard the performance of Rust programs. Come help!",
+      "url": "https://blog.anp.lol/rust/2018/09/29/lolbench/",
+      "date_published": "2018-09-29T00:00:00+00:00",
+      "author": {
+        "name": "Adam Perry",
+        "url": "https://blog.anp.lol/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "0ec2fec4-ed74-4377-b1f5-1e6a5eec6025",
       "title": "Office Hours #1: Cyclic services",
       "content_text": "This is a report on the second “office hours”, in which we discussed how to setup a series of services or actors that communicate with one another. This is a classic kind of problem in Rust: how to deal with cyclic data. Usually, the answer is that the cycle is not necessary (as in this case).",

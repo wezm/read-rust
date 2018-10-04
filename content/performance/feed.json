@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "307ed024-4949-4c53-80cf-c1e60a57e0a7",
+      "title": "lolbench: automagically and empirically discovering Rust performance regressions",
+      "content_text": "lolbench compiles ~350 benchmarks with every Rust nightly. It then runs them and highlights potential performance regressions in the standard library and the output of the compiler. Each toolchain’s run is summarized with a list of likely candidates, as seen in the image below, and we’re now getting started using these to safeguard the performance of Rust programs. Come help!",
+      "url": "https://blog.anp.lol/rust/2018/09/29/lolbench/",
+      "date_published": "2018-09-29T00:00:00+00:00",
+      "author": {
+        "name": "Adam Perry",
+        "url": "https://blog.anp.lol/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "23617503-ac10-4027-bd53-a98ad82c7d1e",
       "title": "The relative performance of C and Rust",
       "content_text": "I reimplemented a body of C software in Rust, and it performed better for the same task; what’s going on? And is there anything broader we can say about these results?\n\nTo explore this, I ran some statemap rendering tests on SmartOS on a single-socket Haswell server (Xeon E3-1270 v3) running at 3.50GHz. The C version was compiled with GCC 7.3.0 with -O2 level optimizations; the Rust version was compiled with 1.29.0 with --release. All of the tests were run bound to a processor set containing a single core; all were bound to one logical CPU within that core, with the other logical CPU forced to be idle. cpustat was used to gather CPU performance counter data, with one number denoting one run with pic0 programmed to that CPU performance counter. The input file (~30MB compressed) contains 3.5M state changes, and in the default config will generate a ~6MB SVG. ",

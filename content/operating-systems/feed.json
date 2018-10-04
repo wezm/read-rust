@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4ae0bbf7-720b-48d3-8c5d-d5b3c8e061dd",
+      "title": "Red Hat's Stratis Storage Project Reaches Its 1.0 Stable Milestone",
+      "content_text": "Stratis 1.0 was quietly released last week with the 1.0 version marking its initial stable release and where also the on-disk meta-data format has been stabilized. Red Hat engineers believe Stratis is now ready for more widespread testing.",
+      "url": "https://www.phoronix.com/scan.php?page=news_item&px=Stratis-1.0-Released",
+      "date_published": "2018-10-02T04:48:34-04:00",
+      "author": {
+        "name": "Michael Larabel",
+        "url": "https://www.phoronix.com/scan.php?page=home"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "ab387870-cbed-4f6d-b1e2-22d2c2686de4",
       "title": "RSoC: Relibc - Wrap up",
       "content_text": "Time for me to pack up and never ever contribute to Redox ever again… Just kidding. This isn’t goodbye, you can’t get rid of me that easily I’m afraid. I’ll definitely want to contribute more, can’t however say with certainty how much time I’ll get, for school is approaching, quickly",
