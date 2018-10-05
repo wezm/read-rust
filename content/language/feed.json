@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "d7c70ce9-96bc-4518-8e3e-429503883006",
+      "title": "Default values ..copy that",
+      "content_text": "When I talk to folks foreign to Rust, I often get asked the question: “Why doesn’t Rust have support for default arguments”. When I first started learning Rust I pondered the same question. Eventually I came to realize that it does, kind of. Rust just takes different approach based on it’s unique design choices, one which I now wish other languages supported.",
+      "url": "https://medium.com/@softprops/default-values-copy-that-ae43831781f3",
+      "date_published": "2018-10-04T17:06:48.457+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "11786513-db52-4fdb-ac03-e4a854b36f2b",
+      "title": "Writing Rust NIFs for your Elixir code with the Rustler package",
+      "content_text": "There will be times where code will run slow and Erlang/Elixir optimizations will only go so far. BEAM has several ways to interface with foreign code, the fastest way being with a Native Implemented Function (NIF) whose API expects them to be written in C. But speaking frankly, the last time I worked with C involved a lengthy debugging session that boiled down to the lack of type safety, so I’d rather not have to repeat that experience. It’s for this reason that Rust is such a compelling language.",
+      "url": "https://medium.com/@jacob.lerche/writing-rust-nifs-for-your-elixir-code-with-the-rustler-package-d884a7c0dbe3",
+      "date_published": "2018-09-28T01:54:27.302+00:00",
+      "author": {
+        "name": "Jacob Lerche",
+        "url": "https://medium.com/@jacob.lerche"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "cbc812fb-b5ff-44cc-ae96-f4a5ae44e7dd",
       "title": "Announcing the Tokio Doc Push (we need you!)",
       "content_text": "In the past, there has been reoccurring feedback that Tokio is hard to understand. I believe a lack of good documentation plays a significant part. It’s time to fix this problem.\n\nAnd because Tokio is open source, it is on us (the community) to make this happen! 👏",

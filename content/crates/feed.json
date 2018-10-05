@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "2e26b090-21b9-42e2-9ac5-9664e79af88e",
+      "title": "Merlin: flexible, composable transcripts for zero-knowledge proofs",
+      "content_text": "Merlin is a small Rust library that performs the Fiat-Shamir transformation in software, maintaining a STROBE-based transcript of the proof protocol and allowing the prover to commit messages to the transcript and compute challenges bound to all previous messages. It also provides a transcript-based RNG for use by the prover, generalizing “deterministic” and “synthetic” nonces to arbitrarily complex zero-knowledge protocols.",
+      "url": "https://medium.com/@hdevalence/merlin-flexible-composable-transcripts-for-zero-knowledge-proofs-28d9fda22d9a",
+      "date_published": "2018-09-28T21:07:20.750+00:00",
+      "author": {
+        "name": "Henry de Valence",
+        "url": "https://medium.com/@hdevalence"
+      },
+      "tags": [
+        "Crates",
+        "Security"
+      ]
+    },
+    {
       "id": "96405556-ac98-433a-a0f8-c3de068e47d3",
       "title": "‘orion’ - yet another attempt at pure-Rust cryptography",
       "content_text": "orion is another attempt at cryptography implemented in pure Rust. Its main focus is usability. This is in part achieved by providing a thorough documentation of the library. High-level abstractions are also provided, which are an attempt at guiding the users towards safe usage of the lower-level functionality of the library.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ec683955-b4c5-426c-858d-f180fde10abb",
+      "title": "Rust RPG: Introductory Tutorial of Rust, Unit Testing, and Continuous Integration with a Roguelike",
+      "content_text": "We’re going to walk through a Rust application that I’ve built, which is essentially a basic Roguelike in most regards.",
+      "url": "https://medium.com/@cameron.manavian/rust-rpg-introductory-tutorial-of-rust-unit-testing-and-continuous-integration-with-a-roguelike-b7b86e90855c",
+      "date_published": "2018-09-28T13:46:04.544+00:00",
+      "author": {
+        "name": "Cameron Manavian",
+        "url": "https://medium.com/@cameron.manavian"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "22538446-2c14-4b71-bd82-46c2db0371a1",
       "title": "The Undergarden, a text adventure in Rust: 2 - Objects",
       "content_text": "In this second blog post I’m showing how I implemented objects - things the player can interact with - for a text adventure written in Rust. As usual, the full code is available on GitHub.",
