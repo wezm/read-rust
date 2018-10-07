@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a708e2c2-f0bd-4691-88c0-d004bedd667a",
+      "title": "pest Parser 2.0 Released",
+      "content_text": "pest is a general purpose parser written in Rust with a focus on accessibility, correctness, and performance. It uses parsing expression grammars (or PEG) as input, which are similar in spirit to regular expressions, but which offer the enhanced expressivity needed to parse complex languages. ",
+      "url": "https://pest.rs/",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Dragoș Tiselice",
+        "url": "https://github.com/dragostis"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2e26b090-21b9-42e2-9ac5-9664e79af88e",
       "title": "Merlin: flexible, composable transcripts for zero-knowledge proofs",
       "content_text": "Merlin is a small Rust library that performs the Fiat-Shamir transformation in software, maintaining a STROBE-based transcript of the proof protocol and allowing the prover to commit messages to the transcript and compute challenges bound to all previous messages. It also provides a transcript-based RNG for use by the prover, generalizing “deterministic” and “synthetic” nonces to arbitrarily complex zero-knowledge protocols.",

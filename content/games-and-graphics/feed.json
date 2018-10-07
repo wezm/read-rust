@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4a3da20e-11fb-4868-9aa1-593f62439bd9",
+      "title": "GLSL quasiquoting in Rust!",
+      "content_text": " glsl-quasiquote-0.1 was released today! The crate provides you with two macros: glsl! and glsl_str!. Both are procedural macros that requires a nightly compiler and the proc_macro_non_items feature. They will both output a TranslationUnit, that represents a whole shader AST.",
+      "url": "https://phaazon.net/blog/glsl-quasiquoting",
+      "date_published": "2018-10-05T19:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "ec683955-b4c5-426c-858d-f180fde10abb",
       "title": "Rust RPG: Introductory Tutorial of Rust, Unit Testing, and Continuous Integration with a Roguelike",
       "content_text": "We’re going to walk through a Rust application that I’ve built, which is essentially a basic Roguelike in most regards.",

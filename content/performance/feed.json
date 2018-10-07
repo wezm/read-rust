@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "55b31f9c-fa63-4890-bcf3-5f9b899c197f",
+      "title": "Going Four Times Faster using Multi-Threading",
+      "content_text": "Rust makes writing parallel code safe. Rayon makes it easy.",
+      "url": "http://worthe-it.co.za/programming/2018/10/03/going-four-times-faster-with-multithreading.html",
+      "date_published": "2018-10-03T00:00:00+00:00",
+      "author": {
+        "name": "Justin Worthe",
+        "url": "http://worthe-it.co.za/blog/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "dceefb77-f60e-4864-80e4-1dfb50c52cce",
+      "title": "No, pest is not faster than nom",
+      "content_text": "But today (October 4th, 2018), the pest website featured a very misleading graph. Yes, a pest 2.0 parser that does not convert the input to Rust types is indeed faster than a nom 4.0 parser that does convert the input to Rust types. But what happens if I write a nom 4.0 parser that does not convert its input to Rust types?",
+      "url": "https://unhandledexpression.com/general/2018/10/04/no-pest-is-not-faster-than-nom.html",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "307ed024-4949-4c53-80cf-c1e60a57e0a7",
       "title": "lolbench: automagically and empirically discovering Rust performance regressions",
       "content_text": "lolbench compiles ~350 benchmarks with every Rust nightly. It then runs them and highlights potential performance regressions in the standard library and the output of the compiler. Each toolchain’s run is summarized with a list of likely candidates, as seen in the image below, and we’re now getting started using these to safeguard the performance of Rust programs. Come help!",

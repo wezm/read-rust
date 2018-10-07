@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "4a3da20e-11fb-4868-9aa1-593f62439bd9",
+      "title": "GLSL quasiquoting in Rust!",
+      "content_text": " glsl-quasiquote-0.1 was released today! The crate provides you with two macros: glsl! and glsl_str!. Both are procedural macros that requires a nightly compiler and the proc_macro_non_items feature. They will both output a TranslationUnit, that represents a whole shader AST.",
+      "url": "https://phaazon.net/blog/glsl-quasiquoting",
+      "date_published": "2018-10-05T19:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "55b31f9c-fa63-4890-bcf3-5f9b899c197f",
+      "title": "Going Four Times Faster using Multi-Threading",
+      "content_text": "Rust makes writing parallel code safe. Rayon makes it easy.",
+      "url": "http://worthe-it.co.za/programming/2018/10/03/going-four-times-faster-with-multithreading.html",
+      "date_published": "2018-10-03T00:00:00+00:00",
+      "author": {
+        "name": "Justin Worthe",
+        "url": "http://worthe-it.co.za/blog/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "dceefb77-f60e-4864-80e4-1dfb50c52cce",
+      "title": "No, pest is not faster than nom",
+      "content_text": "But today (October 4th, 2018), the pest website featured a very misleading graph. Yes, a pest 2.0 parser that does not convert the input to Rust types is indeed faster than a nom 4.0 parser that does convert the input to Rust types. But what happens if I write a nom 4.0 parser that does not convert its input to Rust types?",
+      "url": "https://unhandledexpression.com/general/2018/10/04/no-pest-is-not-faster-than-nom.html",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "5c9a36df-c260-4d16-87b1-9b7e3107f7b8",
+      "title": "Who authors the most popular crates on crates.io?",
+      "content_text": "I had a question this morning: who authors the most popular crates on crates.io? First, we have to figure out what we mean by “most popular.” My first guess was “top 100 by recent downloads”, so I looked at crates.io. Once I got to 100, I found... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "url": "https://words.steveklabnik.com/who-authors-the-most-popular-crates-on-crates-io",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a708e2c2-f0bd-4691-88c0-d004bedd667a",
+      "title": "pest Parser 2.0 Released",
+      "content_text": "pest is a general purpose parser written in Rust with a focus on accessibility, correctness, and performance. It uses parsing expression grammars (or PEG) as input, which are similar in spirit to regular expressions, but which offer the enhanced expressivity needed to parse complex languages. ",
+      "url": "https://pest.rs/",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Dragoș Tiselice",
+        "url": "https://github.com/dragostis"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "427e3260-79d6-4050-a6be-c1695f37db19",
       "title": "Beware the rust cache on Travis",
       "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds. Or does it?",

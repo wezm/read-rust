@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5c9a36df-c260-4d16-87b1-9b7e3107f7b8",
+      "title": "Who authors the most popular crates on crates.io?",
+      "content_text": "I had a question this morning: who authors the most popular crates on crates.io? First, we have to figure out what we mean by “most popular.” My first guess was “top 100 by recent downloads”, so I looked at crates.io. Once I got to 100, I found... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "url": "https://words.steveklabnik.com/who-authors-the-most-popular-crates-on-crates-io",
+      "date_published": "2018-10-04T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d7c70ce9-96bc-4518-8e3e-429503883006",
       "title": "Default values ..copy that",
       "content_text": "When I talk to folks foreign to Rust, I often get asked the question: “Why doesn’t Rust have support for default arguments”. When I first started learning Rust I pondered the same question. Eventually I came to realize that it does, kind of. Rust just takes different approach based on it’s unique design choices, one which I now wish other languages supported.",
