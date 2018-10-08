@@ -4,22 +4,22 @@ version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
 
 [dependencies]
-atom_syndication = "0.5"
-chrono = { version = "0.4.0", features = ['serde'] }
-egg-mode = "0.12"
-failure = "0.1"
-failure_derive = "0.1"
-feedfinder = "0.1"
-getopts = "0.2"
-kuchiki = "0.6"
-mammut = "0.10"
-opengraph = "0.1"
-reqwest = "0.8"
+atom_syndication = "<= 1.0"
+chrono = { version = "<= 1.0", features = ['serde'] }
+egg-mode = "<= 1.0"
+failure = "<= 1.0"
+failure_derive = "<= 1.0"
+feedfinder = "<= 1.0"
+getopts = "<= 1.0"
+kuchiki = "<= 1.0"
+mammut = "<= 1.0"
+opengraph = "<= 1.0"
+reqwest = "<= 1.0"
 rss = "1.2"
 serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
-tokio-core = "0.1"
+tokio-core = "<= 1.0"
 url = "1.7"
-url_serde = "0.2"
-uuid = { version = "0.5", features = ['v4', 'serde'] }
+url_serde = "<= 1.0"
+uuid = { version = "<= 1.0", features = ['v4', 'serde'] }

@@ -15,7 +15,7 @@ use std::env;
 use std::io::BufReader;
 use std::path::Path;
 
-use reqwest::header::{ContentType, Location};
+use reqwest::header::{CONTENT_TYPE, LOCATION};
 use reqwest::{RedirectPolicy, StatusCode};
 
 use read_rust::error::Error;
@@ -41,10 +41,10 @@ fn resolve_url(url: Url) -> Result<Url, Error> {
     let mut url = url;
     while request_count < 10 {
         let response = client.head(url.clone()).send().map_err(Error::Reqwest)?;
-        if response.status() == StatusCode::MovedPermanently {
-            if let Some(next_url) = response.headers().get::<Location>() {
-                let next_url = next_url.to_string();
-                url = Url::parse(&next_url).map_err(Error::Url)?;
+        if response.status() == StatusCode::MOVED_PERMANENTLY {
+            if let Some(next_url) = response.headers().get(LOCATION) {
+                let next_url = next_url.to_str().expect("header isn't valid utf-8");
+                url = Url::parse(next_url).map_err(Error::Url)?;
             }
         }
 
@@ -78,16 +78,14 @@ fn extract_author(doc: &kuchiki::NodeRef, feed_author: Option<&Author>) -> Autho
                 .and_then(|link| {
                     let attrs = link.attributes.borrow();
                     attrs.get("content").map(|content| content.to_owned())
-                })
-                .or_else(|| {
+                }).or_else(|| {
                     doc.select_first("meta[property='author']")
                         .ok()
                         .and_then(|link| {
                             let attrs = link.attributes.borrow();
                             attrs.get("content").map(|content| content.to_owned())
                         })
-                })
-                .or_else(|| {
+                }).or_else(|| {
                     doc.select_first("meta[property='article:author']")
                         .ok()
                         .and_then(|link| {
@@ -109,14 +107,12 @@ fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffs
         .and_then(|link| {
             let attrs = link.attributes.borrow();
             attrs.get("content").map(|content| content.to_owned())
-        })
-        .or_else(|| {
+        }).or_else(|| {
             doc.select_first("article time").ok().and_then(|time| {
                 let attrs = time.attributes.borrow();
                 attrs.get("datetime").map(|content| content.to_owned())
             })
-        })
-        .and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
+        }).and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
 }
 
 fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &FeedType) -> bool {
@@ -124,15 +120,15 @@ fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &Fee
         return false;
     }
 
-    if !response.headers().has::<ContentType>() {
+    if !response.headers().contains_key(CONTENT_TYPE) {
         return false;
     }
 
-    let content_type = response
-        .headers()
-        .get::<ContentType>()
-        .map(|ct| ct.to_string().to_lowercase())
-        .unwrap(); // Safe due to has check above
+    // Safe due to has check above
+    let content_type = response.headers()[CONTENT_TYPE]
+        .to_str()
+        .map(|ct| ct.to_lowercase())
+        .expect("ContentType is not valid utf-8");
 
     // This doesn't handle a JSON feed discovered through links in the page... for now that's ok
     (*feed_type == FeedType::Json && content_type.contains("json")) || content_type.contains("xml")
@@ -167,16 +163,14 @@ fn fetch_and_parse_feed(url: &Url, type_hint: &FeedType) -> Option<Feed> {
         return None;
     }
 
-    let content_type = response
-        .headers()
-        .get::<ContentType>()
-        .map(|ct| ct.to_string().to_lowercase());
-
-    if content_type.is_none() {
+    let content_type = if let Some(content_type) = response.headers().get(CONTENT_TYPE) {
+        content_type
+            .to_str()
+            .map(|ct| ct.to_lowercase())
+            .expect("ContentType is not valid utf-8")
+    } else {
         return None;
-    }
-
-    let content_type = content_type.unwrap();
+    };
 
     let feed = if content_type.contains("json") || *type_hint == FeedType::Json {
         // TODO: Add a BufReader interface to JsonFeed
@@ -208,25 +202,26 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
     }.expect("unable to set scheme of alternate URL");
 
     let post_info = match *feed {
-        Feed::Atom(ref feed) => feed.entries()
+        Feed::Atom(ref feed) => feed
+            .entries()
             .iter()
             .find(|&entry| {
                 entry.links().iter().any(|link| {
                     link.href() == post_url.as_str() || link.href() == alternate_url.as_str()
                 })
-            })
-            .map(PostInfo::from),
-        Feed::Json(ref feed) => feed.items
+            }).map(PostInfo::from),
+        Feed::Json(ref feed) => feed
+            .items
             .iter()
             .find(|item| &item.url == post_url || item.url == alternate_url)
             .map(PostInfo::from),
-        Feed::Rss(ref feed) => feed.items()
+        Feed::Rss(ref feed) => feed
+            .items()
             .iter()
             .find(|&item| {
                 item.link() == Some(post_url.as_str())
                     || item.link() == Some(alternate_url.as_str())
-            })
-            .map(PostInfo::from),
+            }).map(PostInfo::from),
     };
 
     if post_info.is_none() {
@@ -236,7 +231,8 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
 }
 
 fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
-    let ogobj = opengraph::extract(&mut html.as_bytes()).ok_or(Error::HtmlParseError)?;
+    let ogobj = opengraph::extract(&mut html.as_bytes(), Default::default())
+        .map_err(|_err| Error::HtmlParseError)?;
     let doc = kuchiki::parse_html().one(html);
 
     let feed_info = find_feed(html, url)?
@@ -254,20 +250,19 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
                 doc.select_first("title")
                     .ok()
                     .map(|title| title.text_contents())
-            })
-            .ok_or_else(|| Error::StringError("Document has no title".to_owned()))?
+            }).ok_or_else(|| Error::StringError("Document has no title".to_owned()))?
     }.trim()
-        .to_owned();
+    .to_owned();
 
     let description = match ogobj.description {
         Some(desc) => desc,
-        None => doc.select_first("meta[name='description']")
+        None => doc
+            .select_first("meta[name='description']")
             .ok()
             .and_then(|link| {
                 let attrs = link.attributes.borrow();
                 attrs.get("content").map(|content| content.to_owned())
-            })
-            .or_else(|| feed_info.description.clone())
+            }).or_else(|| feed_info.description.clone())
             .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
