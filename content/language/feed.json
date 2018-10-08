@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e34760d5-658d-475a-91eb-c489a649ee86",
+      "title": "Testing reqwest-based clients",
+      "content_text": "In this article we will make a small Rust library that uses the reqwest http client library, and see what we can do to adequately test the business logic. We assume you have the Rust toolchain installed, and are at least passingly familiar with programming in Rust.",
+      "url": "https://write.as/balrogboogie/testing-reqwest-based-clients",
+      "date_published": "2018-10-05T20:57:27+00:00",
+      "author": {
+        "name": "balrogboogie",
+        "url": "https://write.as/balrogboogie/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fd7f3d68-5d82-41ba-b841-d11a37e4b98d",
+      "title": "Declarative Rust static analysis",
+      "content_text": "Rust's Macros 2.0 are intuitive: demonstrate a pattern, and the compiler can insert the pattern into your program wherever you want it. Inspired by this syntax, I wondered: Could you “run a macro backwards”—use the same by-example language to describe patterns to search for?",
+      "url": "http://blog.lambdaverse.org/comacro/",
+      "date_published": "2018-10-07T19:23:17+00:00",
+      "author": {
+        "name": "Kaz Wesley",
+        "url": "http://blog.lambdaverse.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5c9a36df-c260-4d16-87b1-9b7e3107f7b8",
       "title": "Who authors the most popular crates on crates.io?",
       "content_text": "I had a question this morning: who authors the most popular crates on crates.io? First, we have to figure out what we mean by “most popular.” My first guess was “top 100 by recent downloads”, so I looked at crates.io. Once I got to 100, I found... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",

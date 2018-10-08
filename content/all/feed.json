@@ -10,9 +10,51 @@
   },
   "items": [
     {
+      "id": "e34760d5-658d-475a-91eb-c489a649ee86",
+      "title": "Testing reqwest-based clients",
+      "content_text": "In this article we will make a small Rust library that uses the reqwest http client library, and see what we can do to adequately test the business logic. We assume you have the Rust toolchain installed, and are at least passingly familiar with programming in Rust.",
+      "url": "https://write.as/balrogboogie/testing-reqwest-based-clients",
+      "date_published": "2018-10-05T20:57:27+00:00",
+      "author": {
+        "name": "balrogboogie",
+        "url": "https://write.as/balrogboogie/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "917520f5-6f74-4e91-87e1-40d2360c0e46",
+      "title": "A Case Study in Heaptrack",
+      "content_text": "When I first started building the dtparse crate, my intention was to mirror as closely as possible the equivalent Python library. Python, as you may know, is garbage collected. Very rarely is memory usage considered in Python, and I likewise wasn’t paying too much attention when dtparse was first being built.\n\nThis lackadaisical approach to memory works well enough, and I’m not planning on making dtparse hyper-efficient. But every so often, I’ve wondered: “what exactly is going on in memory?”",
+      "url": "https://speice.io/2018/10/case-study-optimization.html",
+      "date_published": "2018-10-08T00:00:00-04:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "fd7f3d68-5d82-41ba-b841-d11a37e4b98d",
+      "title": "Declarative Rust static analysis",
+      "content_text": "Rust's Macros 2.0 are intuitive: demonstrate a pattern, and the compiler can insert the pattern into your program wherever you want it. Inspired by this syntax, I wondered: Could you “run a macro backwards”—use the same by-example language to describe patterns to search for?",
+      "url": "http://blog.lambdaverse.org/comacro/",
+      "date_published": "2018-10-07T19:23:17+00:00",
+      "author": {
+        "name": "Kaz Wesley",
+        "url": "http://blog.lambdaverse.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4a3da20e-11fb-4868-9aa1-593f62439bd9",
       "title": "GLSL quasiquoting in Rust!",
-      "content_text": " glsl-quasiquote-0.1 was released today! The crate provides you with two macros: glsl! and glsl_str!. Both are procedural macros that requires a nightly compiler and the proc_macro_non_items feature. They will both output a TranslationUnit, that represents a whole shader AST.",
+      "content_text": "glsl-quasiquote-0.1 was released today! The crate provides you with two macros: glsl! and glsl_str!. Both are procedural macros that requires a nightly compiler and the proc_macro_non_items feature. They will both output a TranslationUnit, that represents a whole shader AST.",
       "url": "https://phaazon.net/blog/glsl-quasiquoting",
       "date_published": "2018-10-05T19:00:00+00:00",
       "author": {
