@@ -11,13 +11,13 @@
   "items": [
     {
       "id": "ab2b9642-16a3-4d28-9f8b-5f6938964600",
-      "title": "Wiki - PortingCToRust",
-      "content_text": "FIXME",
+      "title": "Porting C (minimp3) To Rust",
+      "content_text": "So because it seemed like a good idea at the time, I decided to port the minimp3 library from C to Rust. I want a pure Rust MP3 decoder crate to exist under a permissive license, I wanted to learn a few things about the MP3 file format, and it seemed small enough to do in a single weekend. (In reality it was largely done in about a week.) I’m quite good at Rust, and I’m okay at C (but rusty; hah!), and I know nothing at all about MP3 decoding. So, it was a fun learning experience. It was very interesting seeing how C and Rust’s different feature set changed how the programs were written. minimp3 turned out to be a good choice for this, since it is standalone, pretty well-written C as far as I can tell, does nothing that needs to be unsafe, and small but not trivial. This article is an attempt to organize my thoughts, notes and observations as I went about the project, in the hopes that it will be useful or at least interesting to someone else.",
       "url": "https://wiki.alopex.li/PortingCToRust",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-10-08T19:53:10+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
       },
       "tags": [
         "Language"
@@ -25,13 +25,13 @@
     },
     {
       "id": "0d41cc9f-584c-4da3-8516-a567cc923279",
-      "title": "Oxidizing Python: Speeding up URL quoting by 10x using Rust - Blue Yonder | Technology Blog",
-      "content_text": "This blog article aims to show you how to call Rust from Python and has a few benchmarks to motivate why you may want to do so.",
+      "title": "Oxidizing Python: Speeding up URL quoting by 10× using Rust",
+      "content_text": "Recently a colleague of mine told me about a small bottleneck with url quoting since we are quoting a lot of storage keys at least once when loading or storing a dataset. To speed it up, we are going to write a C-Library in Rust and invoke it from Python.",
       "url": "https://tech.blue-yonder.com/oxidizing-python-speeding-up-urlquoting-by-using-rust/",
       "date_published": "2018-10-08T10:48:12+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Markus Klein",
+        "url": "https://tech.blue-yonder.com/"
       },
       "tags": [
         "Performance"
@@ -39,14 +39,14 @@
     },
     {
       "id": "b2cb0409-6147-4d84-8261-734f17fda39c",
-      "title": "Noria: dynamic, partially-stateful data-flow for high-performance web applications | USENIX",
-      "content_text": "FIXME",
+      "title": "Noria: dynamic, partially-stateful data-flow for high-performance web applications",
+      "content_text": "We introduce partially-stateful data-flow, a new streaming data-flow model that supports eviction and reconstruction of data-flow state on demand. By avoiding state explosion and supporting live changes to the data-flow graph, this model makes data-flow viable for building long-lived, low-latency applications, such as web applications. Our implementation, Noria, simplifies the backend infrastructure for read-heavy web applications while improving their performance.\n\nA Noria application supplies a relational schema and a set of parameterized queries, which Noria compiles into a data-flow program that pre-computes results for reads and incrementally applies writes. Noria makes it easy to write high-performance applications without manual performance tuning or complex-to-maintain caching layers. Partial statefulness helps Noria limit its in-memory state without prior data-flow systems’ restriction to windowed state, and helps Noria adapt its data-flow to schema and query changes while on-line. Unlike prior data-flow systems, Noria also shares state and computation across related queries, eliminating duplicate work.\n\nOn a real web application’s queries, our prototype scales to 5× higher load than a hand-optimized MySQL baseline. Noria also outperforms a typical MySQL/memcached stack and the materialized views of a commercial database. It scales to tens of millions of reads and millions of writes per second over multiple servers, outperforming a state-of-the-art streaming data-flow system.",
       "url": "https://www.usenix.org/conference/osdi18/presentation/gjengset",
       "tweet_url": "https://twitter.com/Jonhoo/status/1049452983308697605",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-10-09T11:14:00+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Jon Gjengset, Malte Schwarzkopf, Jonathan Behrens, and Lara Timbó Araújo",
+        "url": "https://www.usenix.org/conference/osdi18"
       },
       "tags": [
         "Computer Science"
@@ -55,13 +55,13 @@
     {
       "id": "a8939774-cb65-4cca-b7c4-47f8f0249f96",
       "title": "Hunting for Bugs in Rust",
-      "content_text": "Way back in August I announced that I was starting in on \"a project to QuickCheck Rust’s standard library data structures\", here. And I did! The project is called bughunt-rust and I've been poking at it on weekends since, adjusting my approach based on papers I've been reading, experience",
+      "content_text": "Way back in August I announced that I was starting in on \"a project to QuickCheck Rust’s standard library data structures\", here. And I did! The project is called bughunt-rust and I've been poking at it on weekends since, adjusting my approach based on papers I've been reading, experience gained writing test code and the kind of results I've been getting. This post goes through what I've been up to, where I see the project heading in the near term.",
       "url": "https://blog.troutwine.us/2018/10/08/hunting-for-bugs-in-rust/",
       "tweet_url": "https://twitter.com/bltroutwine/status/1049363553713414147",
       "date_published": "2018-10-08T17:27:54+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Brian L. Troutwine",
+        "url": "http://blog.troutwine.us/"
       },
       "tags": [
         "Language"
@@ -70,12 +70,12 @@
     {
       "id": "49cace2a-ebaf-4aec-b41b-8fb7aa67acc8",
       "title": "Remacs continues to improve",
-      "content_text": "FIXME",
+      "content_text": "As you doubtless know, Emacs has an embedded Lisp environment that provides a large number of intersting Lisp functions that the user can call. Many of these are implemented in C for speed, and we've been rewriting them in Rust. So far we've ported 394 individual Lisp functions from C to Rust, of which 207 were ported in this last year. This is about a third of the total, as you can see by this graph. We've actually completely ported several whole C files now.",
       "url": "http://db48x.net/rust-remacs-2018/",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-10-09T12:35:00+00:00",
       "author": {
         "name": "db48x",
-        "url": null
+        "url": "http://db48x.net/"
       },
       "tags": [
         "Tools and Applications"
@@ -83,13 +83,13 @@
     },
     {
       "id": "af77ca8e-342a-450b-90e8-a6b1d485c8b8",
-      "title": "Bluetooth Low Energy with Rust | 219 Design",
-      "content_text": "Product Design & Development",
+      "title": "Bluetooth Low Energy with Rust",
+      "content_text": "For a change of pace, I have been learning embedded development using Rust in my spare time, which has been an exciting challenge. A core component of my project is to have two devices communicating wirelessly, and (at the time I started working on this) there were no “no-std” Rust Bluetooth crates available. So I started to write my own. I had already chosen to work on the Nucleo, and to use the IDB05A1 shield, which contains a BlueNRG-MS module.",
       "url": "https://219design.com/bluetooth-low-energy-with-rust/",
       "date_published": "2018-09-27T19:52:09+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Daniel Gallagher",
+        "url": "https://219design.com/news/"
       },
       "tags": [
         "Embedded"
@@ -97,13 +97,13 @@
     },
     {
       "id": "a3b6b34c-174b-4738-9c06-c9ab251718c4",
-      "title": "Rust has a static garbage collector • Steve Klabnik",
-      "content_text": "There’s a fairly common argument that pops up on programming forums, and it’s about the nature of what “garbage collection” means. In the research world, this is what GC means: Garbage collection (GC), also known as automatic memory management, is... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "title": "Rust has a static garbage collector",
+      "content_text": "I’ve often seen people make statements like this one, from the Rust subreddit this morning, \"Manual memory management requires more work than garbage collected. Its a trade off of course to be more performant or use lower resources. When and where should Rust be used or not used according to you?\". While I don’t completely disagree with this sentiment, it’s also never quite sat right with me. Yes, Rust is a bit harder at the start, but once you get over a hump, I don’t generally find writing Rust to be significantly harder than using a GC’d language. I’ve been trying to figure out why that is.",
       "url": "https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2018-10-10T00:00:00+00:00",
       "author": {
-        "name": "FIXME",
-        "url": null
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
       },
       "tags": [
         "Language"

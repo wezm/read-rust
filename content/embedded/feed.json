@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "af77ca8e-342a-450b-90e8-a6b1d485c8b8",
+      "title": "Bluetooth Low Energy with Rust",
+      "content_text": "For a change of pace, I have been learning embedded development using Rust in my spare time, which has been an exciting challenge. A core component of my project is to have two devices communicating wirelessly, and (at the time I started working on this) there were no “no-std” Rust Bluetooth crates available. So I started to write my own. I had already chosen to work on the Nucleo, and to use the IDB05A1 shield, which contains a BlueNRG-MS module.",
+      "url": "https://219design.com/bluetooth-low-energy-with-rust/",
+      "date_published": "2018-09-27T19:52:09+00:00",
+      "author": {
+        "name": "Daniel Gallagher",
+        "url": "https://219design.com/news/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "2ebd5fc5-6e3a-4933-8775-a7a190539f8b",
       "title": "TSL256X Light Intensity Sensor Driver",
       "content_text": "It is an exciting time to be working in embedded Rust. After writing my first driver, I mostly had the feeling that for driver writers there was a clear expectation and an obvious standard for how things should be done. My experience writing this driver, which uses I2C rather than GPIO, exposed me to a few topics of active discussion within the embedded Rust working group which I hadn’t seen before.",

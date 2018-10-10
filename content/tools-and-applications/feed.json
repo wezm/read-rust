@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "49cace2a-ebaf-4aec-b41b-8fb7aa67acc8",
+      "title": "Remacs continues to improve",
+      "content_text": "As you doubtless know, Emacs has an embedded Lisp environment that provides a large number of intersting Lisp functions that the user can call. Many of these are implemented in C for speed, and we've been rewriting them in Rust. So far we've ported 394 individual Lisp functions from C to Rust, of which 207 were ported in this last year. This is about a third of the total, as you can see by this graph. We've actually completely ported several whole C files now.",
+      "url": "http://db48x.net/rust-remacs-2018/",
+      "date_published": "2018-10-09T12:35:00+00:00",
+      "author": {
+        "name": "db48x",
+        "url": "http://db48x.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "0a206ee6-7e54-4570-9f0c-8040fb9cd530",
       "title": "Running Little Rust Snippets with Runner",
       "content_text": "runner is mostly a clever wrapper around normal Cargo operations. runner acts like an interpreter. There is no forced directory structure, just source. But it’s just using rustc under the hood in the most direct way possible.",

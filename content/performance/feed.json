@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0d41cc9f-584c-4da3-8516-a567cc923279",
+      "title": "Oxidizing Python: Speeding up URL quoting by 10× using Rust",
+      "content_text": "Recently a colleague of mine told me about a small bottleneck with url quoting since we are quoting a lot of storage keys at least once when loading or storing a dataset. To speed it up, we are going to write a C-Library in Rust and invoke it from Python.",
+      "url": "https://tech.blue-yonder.com/oxidizing-python-speeding-up-urlquoting-by-using-rust/",
+      "date_published": "2018-10-08T10:48:12+00:00",
+      "author": {
+        "name": "Markus Klein",
+        "url": "https://tech.blue-yonder.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "917520f5-6f74-4e91-87e1-40d2360c0e46",
       "title": "A Case Study in Heaptrack",
       "content_text": "When I first started building the dtparse crate, my intention was to mirror as closely as possible the equivalent Python library. Python, as you may know, is garbage collected. Very rarely is memory usage considered in Python, and I likewise wasn’t paying too much attention when dtparse was first being built.\n\nThis lackadaisical approach to memory works well enough, and I’m not planning on making dtparse hyper-efficient. But every so often, I’ve wondered: “what exactly is going on in memory?”",

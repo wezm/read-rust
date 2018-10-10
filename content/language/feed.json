@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "ab2b9642-16a3-4d28-9f8b-5f6938964600",
+      "title": "Porting C (minimp3) To Rust",
+      "content_text": "So because it seemed like a good idea at the time, I decided to port the minimp3 library from C to Rust. I want a pure Rust MP3 decoder crate to exist under a permissive license, I wanted to learn a few things about the MP3 file format, and it seemed small enough to do in a single weekend. (In reality it was largely done in about a week.) I’m quite good at Rust, and I’m okay at C (but rusty; hah!), and I know nothing at all about MP3 decoding. So, it was a fun learning experience. It was very interesting seeing how C and Rust’s different feature set changed how the programs were written. minimp3 turned out to be a good choice for this, since it is standalone, pretty well-written C as far as I can tell, does nothing that needs to be unsafe, and small but not trivial. This article is an attempt to organize my thoughts, notes and observations as I went about the project, in the hopes that it will be useful or at least interesting to someone else.",
+      "url": "https://wiki.alopex.li/PortingCToRust",
+      "date_published": "2018-10-08T19:53:10+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a8939774-cb65-4cca-b7c4-47f8f0249f96",
+      "title": "Hunting for Bugs in Rust",
+      "content_text": "Way back in August I announced that I was starting in on \"a project to QuickCheck Rust’s standard library data structures\", here. And I did! The project is called bughunt-rust and I've been poking at it on weekends since, adjusting my approach based on papers I've been reading, experience gained writing test code and the kind of results I've been getting. This post goes through what I've been up to, where I see the project heading in the near term.",
+      "url": "https://blog.troutwine.us/2018/10/08/hunting-for-bugs-in-rust/",
+      "date_published": "2018-10-08T17:27:54+00:00",
+      "author": {
+        "name": "Brian L. Troutwine",
+        "url": "http://blog.troutwine.us/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a3b6b34c-174b-4738-9c06-c9ab251718c4",
+      "title": "Rust has a static garbage collector",
+      "content_text": "I’ve often seen people make statements like this one, from the Rust subreddit this morning, \"Manual memory management requires more work than garbage collected. Its a trade off of course to be more performant or use lower resources. When and where should Rust be used or not used according to you?\". While I don’t completely disagree with this sentiment, it’s also never quite sat right with me. Yes, Rust is a bit harder at the start, but once you get over a hump, I don’t generally find writing Rust to be significantly harder than using a GC’d language. I’ve been trying to figure out why that is.",
+      "url": "https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis",
+      "date_published": "2018-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e34760d5-658d-475a-91eb-c489a649ee86",
       "title": "Testing reqwest-based clients",
       "content_text": "In this article we will make a small Rust library that uses the reqwest http client library, and see what we can do to adequately test the business logic. We assume you have the Rust toolchain installed, and are at least passingly familiar with programming in Rust.",
