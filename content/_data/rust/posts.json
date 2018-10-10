@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "ab2b9642-16a3-4d28-9f8b-5f6938964600",
+      "title": "Wiki - PortingCToRust",
+      "content_text": "FIXME",
+      "url": "https://wiki.alopex.li/PortingCToRust",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0d41cc9f-584c-4da3-8516-a567cc923279",
+      "title": "Oxidizing Python: Speeding up URL quoting by 10x using Rust - Blue Yonder | Technology Blog",
+      "content_text": "This blog article aims to show you how to call Rust from Python and has a few benchmarks to motivate why you may want to do so.",
+      "url": "https://tech.blue-yonder.com/oxidizing-python-speeding-up-urlquoting-by-using-rust/",
+      "date_published": "2018-10-08T10:48:12+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "b2cb0409-6147-4d84-8261-734f17fda39c",
+      "title": "Noria: dynamic, partially-stateful data-flow for high-performance web applications | USENIX",
+      "content_text": "FIXME",
+      "url": "https://www.usenix.org/conference/osdi18/presentation/gjengset",
+      "tweet_url": "https://twitter.com/Jonhoo/status/1049452983308697605",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "a8939774-cb65-4cca-b7c4-47f8f0249f96",
+      "title": "Hunting for Bugs in Rust",
+      "content_text": "Way back in August I announced that I was starting in on \"a project to QuickCheck Rust’s standard library data structures\", here. And I did! The project is called bughunt-rust and I've been poking at it on weekends since, adjusting my approach based on papers I've been reading, experience",
+      "url": "https://blog.troutwine.us/2018/10/08/hunting-for-bugs-in-rust/",
+      "tweet_url": "https://twitter.com/bltroutwine/status/1049363553713414147",
+      "date_published": "2018-10-08T17:27:54+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "49cace2a-ebaf-4aec-b41b-8fb7aa67acc8",
+      "title": "Remacs continues to improve",
+      "content_text": "FIXME",
+      "url": "http://db48x.net/rust-remacs-2018/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "db48x",
+        "url": null
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "af77ca8e-342a-450b-90e8-a6b1d485c8b8",
+      "title": "Bluetooth Low Energy with Rust | 219 Design",
+      "content_text": "Product Design & Development",
+      "url": "https://219design.com/bluetooth-low-energy-with-rust/",
+      "date_published": "2018-09-27T19:52:09+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "a3b6b34c-174b-4738-9c06-c9ab251718c4",
+      "title": "Rust has a static garbage collector • Steve Klabnik",
+      "content_text": "There’s a fairly common argument that pops up on programming forums, and it’s about the nature of what “garbage collection” means. In the research world, this is what GC means: Garbage collection (GC), also known as automatic memory management, is... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
+      "url": "https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "FIXME",
+        "url": null
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e34760d5-658d-475a-91eb-c489a649ee86",
       "title": "Testing reqwest-based clients",
       "content_text": "In this article we will make a small Rust library that uses the reqwest http client library, and see what we can do to adequately test the business logic. We assume you have the Rust toolchain installed, and are at least passingly familiar with programming in Rust.",
