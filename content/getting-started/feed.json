@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ceb7c2a6-d905-4b13-8f42-4aa42cd9b3e3",
+      "title": "Building a command-line todo app in Rust",
+      "content_text": "In this tutorial, we are going to create a simple command-line todo app. By the end of this tutorial, you should have a basic understanding of Rust programming language, building command-line apps in Rust, and performing file-system operations in Rust.",
+      "url": "https://medium.com/@devashishdxt/building-a-command-line-todo-app-in-rust-a89bb7af91c3",
+      "date_published": "2018-10-12T13:14:56.867+00:00",
+      "author": {
+        "name": "Devashish Dixit",
+        "url": "https://medium.com/@devashishdxt"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "8e066aec-6f09-44df-b763-b4d44b772fb5",
       "title": "Understanding Compilers — For Humans (Version 2)",
       "content_text": "Understanding your compiler internally allows you to use it effectively. Walk through how programming languages and compilers work in this chronological synopsis. Lots of links, example code, and diagrams have been composed to aid in your understanding.\n\nUnderstanding Compilers — For Humans (Version 2) is a successor to my second article on Medium, with over 21 thousand views. I am so glad I could make a positive impact on people’s education, and I am excited to bring a complete rewrite based on the input I received from the original article. I chose Rust as this work’s primary language.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bb052dfe-fdb1-4848-9fdf-28c7c5023d93",
+      "title": "Using WebAssembly to Accelerate Markdown Rendering",
+      "content_text": "Markdown rendering is very important to the performance of Semaphor - every message you send and read is a Markdown document - so we're always looking for ways to improve the performance of rendering Markdown. A couple months ago Jonathan Moore and I wondered how easy it would be to integrate WebAssembly into a React component, replacing the render() function, and we thought that moving Markdown parsing into Rust would be a great way to test this idea out.",
+      "url": "https://engineering.spideroak.com/2018/08/29/using-webassembly-to-speed-up-message-rendering/",
+      "date_published": "2018-08-29T10:10:00+00:00",
+      "author": {
+        "name": "Chip Black and Jonathan Moore",
+        "url": "https://engineering.spideroak.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "cba35bca-a821-4ba9-81d8-3cee56f5e199",
       "title": "WebAssembly and Dynamic Memory",
       "content_text": "WebAssembly is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.\n\nThese high-level languages like C/C++/Rust (+Javascript) deal with different allocations of memory, such as static memory, stack memory and dynamic memory.",

@@ -10,6 +10,123 @@
   },
   "items": [
     {
+      "id": "e7b5dffe-46bb-42a8-a17c-2ede829080ff",
+      "title": "Const-fn compile-time SUBLEQ interpreter",
+      "content_text": "With the minimal subset of const fn becoming stable soon (in the second next Rust version), I wanted to give const fns a try and test what is possible with them. We implemented a compile-time SUBLEQ interpreter which only uses const-fns, which you can find on the playground. Let's walk through the process of building this abomination :)",
+      "url": "https://www.reddit.com/r/rust/comments/9o6vzo/constfn_compiletime_subleq_interpreter/",
+      "date_published": "2018-10-15T09:10:49+11:00",
+      "author": {
+        "name": "u/oberien",
+        "url": "https://www.reddit.com/user/oberien"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3d3a61ed-ff74-4407-b508-0c7405b8c653",
+      "title": "Following up on the 2d graphics in Rust discussion",
+      "content_text": "Ralph Levien recently published A crate I want: 2d graphics on his blog, which started some interesting discussions on reddit. At the same time there is a nascent discussion on the draw2d repository (which doesn't have any code at this point) about a potential 2d graphics crate.",
+      "url": "https://nical.github.io/posts/rust-2d-graphics-01.html",
+      "date_published": "2018-10-14T00:00:00+02:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "11700b19-9b9f-44c3-9708-2c4cd7f0d721",
+      "title": "Reflections on Implementing the ndarray-csv Crate",
+      "content_text": "Recently, I wrote ndarray-csv, a Rust crate for converting between CSV files and 2D arrays. There are already crates for CSV and arrays, so how exciting could this possibly be? Actually, there was a lot more to it than I had thought: although it started out as a two-hour project, I ended up rewriting the entire thing three times!",
+      "url": "https://paulkernfeld.com/2018/10/13/ndarray-csv-reflections.html",
+      "tweet_url": "https://twitter.com/occupy_paul_st/status/1051118905236828161",
+      "date_published": "2018-10-13T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ceb7c2a6-d905-4b13-8f42-4aa42cd9b3e3",
+      "title": "Building a command-line todo app in Rust",
+      "content_text": "In this tutorial, we are going to create a simple command-line todo app. By the end of this tutorial, you should have a basic understanding of Rust programming language, building command-line apps in Rust, and performing file-system operations in Rust.",
+      "url": "https://medium.com/@devashishdxt/building-a-command-line-todo-app-in-rust-a89bb7af91c3",
+      "tweet_url": "https://twitter.com/devashishdxt/status/1050738222706413569",
+      "date_published": "2018-10-12T13:14:56.867+00:00",
+      "author": {
+        "name": "Devashish Dixit",
+        "url": "https://medium.com/@devashishdxt"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "08336620-497d-49b2-9e77-eeb36d26f512",
+      "title": "Fixing a Clippy crash",
+      "content_text": "3 weeks ago I set out to fix a crash in Clippy, this is what I learned along the way. I hope this blog post will be useful for other people diving into Clippy and maybe serve as motivation if things get difficult.",
+      "url": "https://phansch.net/2018/10/10/fixing-a-clippy-crash/",
+      "tweet_url": "https://twitter.com/phansch/status/1050106987780935680",
+      "date_published": "2018-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Hansch",
+        "url": "https://phansch.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bb052dfe-fdb1-4848-9fdf-28c7c5023d93",
+      "title": "Using WebAssembly to Accelerate Markdown Rendering",
+      "content_text": "Markdown rendering is very important to the performance of Semaphor - every message you send and read is a Markdown document - so we're always looking for ways to improve the performance of rendering Markdown. A couple months ago Jonathan Moore and I wondered how easy it would be to integrate WebAssembly into a React component, replacing the render() function, and we thought that moving Markdown parsing into Rust would be a great way to test this idea out.",
+      "url": "https://engineering.spideroak.com/2018/08/29/using-webassembly-to-speed-up-message-rendering/",
+      "tweet_url": "https://twitter.com/0x0000org/status/1050157850008272896",
+      "date_published": "2018-08-29T10:10:00+00:00",
+      "author": {
+        "name": "Chip Black and Jonathan Moore",
+        "url": "https://engineering.spideroak.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "63fef91b-3a2c-4b05-9fad-bc5a80bd1733",
+      "title": "A crate I want: 2d graphics",
+      "content_text": "The Rust ecosystem has lot of excellent crates, and many more new ones being published. I believe one is missing, though, and I’d really like to see it happen: a cross-platform abstraction for 2D graphics. In this post I will set out what I want.",
+      "url": "https://raphlinus.github.io/rust/graphics/2018/10/11/2d-graphics.html",
+      "date_published": "2018-10-11T22:44:03+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "492f5ab9-f95c-480b-8377-dc2f06e836b8",
+      "title": "Notes on Type Layouts and ABIs in Rust",
+      "content_text": "Over the years I've found myself with a weird amount of knowledge about how types and ABIs in Rust work, and I wanted to write it all down in one place so that... it's written down in one place. Much of this information can or should be found in the Rust Language Reference and the Rustonomicon.",
+      "url": "https://gankro.github.io/blah/rust-layouts-and-abis/",
+      "tweet_url": "https://twitter.com/Gankro/status/1050024576908955649",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ab2b9642-16a3-4d28-9f8b-5f6938964600",
       "title": "Porting C (minimp3) To Rust",
       "content_text": "So because it seemed like a good idea at the time, I decided to port the minimp3 library from C to Rust. I want a pure Rust MP3 decoder crate to exist under a permissive license, I wanted to learn a few things about the MP3 file format, and it seemed small enough to do in a single weekend. (In reality it was largely done in about a week.) I’m quite good at Rust, and I’m okay at C (but rusty; hah!), and I know nothing at all about MP3 decoding. So, it was a fun learning experience. It was very interesting seeing how C and Rust’s different feature set changed how the programs were written. minimp3 turned out to be a good choice for this, since it is standalone, pretty well-written C as far as I can tell, does nothing that needs to be unsafe, and small but not trivial. This article is an attempt to organize my thoughts, notes and observations as I went about the project, in the hopes that it will be useful or at least interesting to someone else.",
@@ -221,20 +338,6 @@
       },
       "tags": [
         "Crates"
-      ]
-    },
-    {
-      "id": "427e3260-79d6-4050-a6be-c1695f37db19",
-      "title": "Beware the rust cache on Travis",
-      "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds. Or does it?",
-      "url": "https://levans.fr/rust_travis_cache.html",
-      "date_published": "2018-09-05T17:00:00+02:00",
-      "author": {
-        "name": "Victor \"Levans\" Berger",
-        "url": "https://levans.fr/"
-      },
-      "tags": [
-        "DevOps and Deployment"
       ]
     },
     {

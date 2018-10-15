@@ -10,20 +10,6 @@
   },
   "items": [
     {
-      "id": "427e3260-79d6-4050-a6be-c1695f37db19",
-      "title": "Beware the rust cache on Travis",
-      "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds. Or does it?",
-      "url": "https://levans.fr/rust_travis_cache.html",
-      "date_published": "2018-09-05T17:00:00+02:00",
-      "author": {
-        "name": "Victor \"Levans\" Berger",
-        "url": "https://levans.fr/"
-      },
-      "tags": [
-        "DevOps and Deployment"
-      ]
-    },
-    {
       "id": "90da273a-d430-4fd5-891c-1aa33bc00588",
       "title": "Beware the rust cache on Travis",
       "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds.",

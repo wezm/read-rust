@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e7b5dffe-46bb-42a8-a17c-2ede829080ff",
+      "title": "Const-fn compile-time SUBLEQ interpreter",
+      "content_text": "With the minimal subset of const fn becoming stable soon (in the second next Rust version), I wanted to give const fns a try and test what is possible with them. We implemented a compile-time SUBLEQ interpreter which only uses const-fns, which you can find on the playground. Let's walk through the process of building this abomination :)",
+      "url": "https://www.reddit.com/r/rust/comments/9o6vzo/constfn_compiletime_subleq_interpreter/",
+      "date_published": "2018-10-15T09:10:49+11:00",
+      "author": {
+        "name": "u/oberien",
+        "url": "https://www.reddit.com/user/oberien"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "08336620-497d-49b2-9e77-eeb36d26f512",
+      "title": "Fixing a Clippy crash",
+      "content_text": "3 weeks ago I set out to fix a crash in Clippy, this is what I learned along the way. I hope this blog post will be useful for other people diving into Clippy and maybe serve as motivation if things get difficult.",
+      "url": "https://phansch.net/2018/10/10/fixing-a-clippy-crash/",
+      "date_published": "2018-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Hansch",
+        "url": "https://phansch.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "492f5ab9-f95c-480b-8377-dc2f06e836b8",
+      "title": "Notes on Type Layouts and ABIs in Rust",
+      "content_text": "Over the years I've found myself with a weird amount of knowledge about how types and ABIs in Rust work, and I wanted to write it all down in one place so that... it's written down in one place. Much of this information can or should be found in the Rust Language Reference and the Rustonomicon.",
+      "url": "https://gankro.github.io/blah/rust-layouts-and-abis/",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ab2b9642-16a3-4d28-9f8b-5f6938964600",
       "title": "Porting C (minimp3) To Rust",
       "content_text": "So because it seemed like a good idea at the time, I decided to port the minimp3 library from C to Rust. I want a pure Rust MP3 decoder crate to exist under a permissive license, I wanted to learn a few things about the MP3 file format, and it seemed small enough to do in a single weekend. (In reality it was largely done in about a week.) I’m quite good at Rust, and I’m okay at C (but rusty; hah!), and I know nothing at all about MP3 decoding. So, it was a fun learning experience. It was very interesting seeing how C and Rust’s different feature set changed how the programs were written. minimp3 turned out to be a good choice for this, since it is standalone, pretty well-written C as far as I can tell, does nothing that needs to be unsafe, and small but not trivial. This article is an attempt to organize my thoughts, notes and observations as I went about the project, in the hopes that it will be useful or at least interesting to someone else.",

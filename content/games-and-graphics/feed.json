@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3d3a61ed-ff74-4407-b508-0c7405b8c653",
+      "title": "Following up on the 2d graphics in Rust discussion",
+      "content_text": "Ralph Levien recently published A crate I want: 2d graphics on his blog, which started some interesting discussions on reddit. At the same time there is a nascent discussion on the draw2d repository (which doesn't have any code at this point) about a potential 2d graphics crate.",
+      "url": "https://nical.github.io/posts/rust-2d-graphics-01.html",
+      "date_published": "2018-10-14T00:00:00+02:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "63fef91b-3a2c-4b05-9fad-bc5a80bd1733",
+      "title": "A crate I want: 2d graphics",
+      "content_text": "The Rust ecosystem has lot of excellent crates, and many more new ones being published. I believe one is missing, though, and I’d really like to see it happen: a cross-platform abstraction for 2D graphics. In this post I will set out what I want.",
+      "url": "https://raphlinus.github.io/rust/graphics/2018/10/11/2d-graphics.html",
+      "date_published": "2018-10-11T22:44:03+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "4a3da20e-11fb-4868-9aa1-593f62439bd9",
       "title": "GLSL quasiquoting in Rust!",
       "content_text": "glsl-quasiquote-0.1 was released today! The crate provides you with two macros: glsl! and glsl_str!. Both are procedural macros that requires a nightly compiler and the proc_macro_non_items feature. They will both output a TranslationUnit, that represents a whole shader AST.",

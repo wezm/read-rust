@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "11700b19-9b9f-44c3-9708-2c4cd7f0d721",
+      "title": "Reflections on Implementing the ndarray-csv Crate",
+      "content_text": "Recently, I wrote ndarray-csv, a Rust crate for converting between CSV files and 2D arrays. There are already crates for CSV and arrays, so how exciting could this possibly be? Actually, there was a lot more to it than I had thought: although it started out as a two-hour project, I ended up rewriting the entire thing three times!",
+      "url": "https://paulkernfeld.com/2018/10/13/ndarray-csv-reflections.html",
+      "date_published": "2018-10-13T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "a708e2c2-f0bd-4691-88c0-d004bedd667a",
       "title": "pest Parser 2.0 Released",
       "content_text": "pest is a general purpose parser written in Rust with a focus on accessibility, correctness, and performance. It uses parsing expression grammars (or PEG) as input, which are similar in spirit to regular expressions, but which offer the enhanced expressivity needed to parse complex languages. ",
