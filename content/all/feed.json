@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "2b068be3-88b7-4d60-ad38-cfd40019cf5f",
+      "title": "imag: Call for Participation (1)",
+      "content_text": "This is the first call for participation for the imag project. I have no experience writing such calls for participation, so please bear with me!\n\nRight now, the imag ecosystem has some tools available which are already usable and in rather good shape. There is a contact manager, a diary and a notes tool, a habit tracker and a time tracker are there as well, though those are not extensively tested by now.",
+      "url": "https://imag-pim.org/blog/2018/10/10/call-for-participation-1/",
+      "date_published": "2018-10-10T08:42:06+00:00",
+      "author": {
+        "name": "imag",
+        "url": "https://imag-pim.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "cb2bfe24-75a2-43d6-bebc-b8f8ac610c95",
+      "title": "Rust Programming with Dynamsoft Barcode Reader",
+      "content_text": "A few days ago, I accepted a new challenge of creating a simple command line barcode reader using Rust and Dynamsoft Barcode Reader SDK. Rust is a system programming language similar to C++. The learning process did not go through smoothly as I expected. It is not as easy as learning other high-level programming languages such as Java and Python. In this article, I share my experience of learning and using Rust.",
+      "url": "https://medium.com/@yushulx/rust-programming-with-dynamsoft-barcode-reader-3d1e83004bba",
+      "date_published": "2018-10-11T00:26:20+00:00",
+      "author": {
+        "name": "Xiao Ling",
+        "url": "https://medium.com/@yushulx"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2657be5e-f98f-48a7-9e0a-c4ad2c183cba",
+      "title": "ruplacer: find and replace text in source files",
+      "content_text": "Today I’d like to talk about a command-line tool I’ve been working on. It’s called ruplacer and as the name suggest, it’s rually cool and written in Rust. Basically, it finds and replaces text in source files.",
+      "url": "https://dmerej.info/blog/post/ruplacer/",
+      "date_published": "2018-10-14T12:34:43+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2e4df02b-88e0-4510-851a-d1dce6014568",
+      "title": "Configuration envy",
+      "content_text": "For many of my use cases for running Rust applications, storing configuration in file format is less attractive as I’m typically running Rust inside docker containers and container orchestrators typically encourage the use of standard interfaces like the env for configuration. So I pondered 🤔, “What if I could treat my program’s env parameterization with the same level of typing I treat my functions and enclosing types with while getting everything one get’s from using serde for free?” That would be the bee’s knees 🐝 . Enter: envy.",
+      "url": "https://medium.com/@softprops/configuration-envy-a09584386705",
+      "date_published": "2018-10-16T04:17:18.209+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0c92d9d7-26ba-4152-9820-08ef1011689d",
+      "title": "Serverless Rust with Cloudflare Workers",
+      "content_text": "It's exciting times for Rust developers. Cloudflare's Serverless Platform, Cloudflare Workers, allows you to compile your code to WASM, upload to 150+ data centers and invoke those functions just as easily as if they were JavaScript functions. Today I'm going to convert my lipsum generator to use Rust and explore the developer experience (hint: it's already pretty nice).",
+      "url": "https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/",
+      "date_published": "2018-10-16T12:00:00+00:00",
+      "author": {
+        "name": "Steven Pack",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "0c44f78b-c47a-4be2-9e30-4fa129304a9c",
+      "title": "Pi-hole: Announcing Our RESTful API",
+      "content_text": "The API is written in Rust, a language new to the Pi-hole project. Rust is a safe and fast language which matches well with our goals for the API. It is statically typed and prevents whole categories of errors while being productive and extendable.",
+      "url": "https://pi-hole.net/2018/10/15/announcing-our-restful-api-contributions-welcome/",
+      "date_published": "2018-10-15T13:00:33+00:00",
+      "author": {
+        "name": "Pi-hole",
+        "url": "https://pi-hole.net/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "351bd1f1-82e3-4b80-882e-9b2aac228c5a",
+      "title": "Future directions for cbindgen (rust-ffi)",
+      "content_text": "There’s been a persistent set of issues we’ve had with cbindgen that have not been solved. They all roughly result from the same problem; cbindgen is a standalone parser of rust code, not a rustc plugin. What this means is that cbindgen doesn’t understand your rust library like the compiler does. We’ve tried to minimize the differences here by making cbindgen smarter, but it’s not obvious that’s the best approach going forward.",
+      "url": "http://dreamingofbits.com/post/future-directions-for-cbindgen-rust-ffi/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Hunt",
+        "url": "http://dreamingofbits.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "476c5ab3-1148-4507-b294-8e4c06a188fd",
+      "title": "Rust and features discoverability",
+      "content_text": "Whatever the project you work on, you should must document your code. There are several situations – let’s call this the First Hypothesis",
+      "url": "https://phaazon.net/blog/rust-features-documentation",
+      "date_published": "2018-10-13T23:37:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7abf3b08-b87f-4bd1-a4f4-4d79f4216413",
+      "title": "Amethyst is growing; news on ongoing projects",
+      "content_text": "We want to share some of the progress being made on Amethyst! As we've had a lot of expansion, we've also revamped the way we manage the project and we have some very interesting new features being worked on.",
+      "url": "https://www.amethyst.rs/blog/dev-news-10-2018/",
+      "date_published": "2018-10-14T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e7b5dffe-46bb-42a8-a17c-2ede829080ff",
       "title": "Const-fn compile-time SUBLEQ interpreter",
       "content_text": "With the minimal subset of const fn becoming stable soon (in the second next Rust version), I wanted to give const fns a try and test what is possible with them. We implemented a compile-time SUBLEQ interpreter which only uses const-fns, which you can find on the playground. Let's walk through the process of building this abomination :)",

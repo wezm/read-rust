@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7abf3b08-b87f-4bd1-a4f4-4d79f4216413",
+      "title": "Amethyst is growing; news on ongoing projects",
+      "content_text": "We want to share some of the progress being made on Amethyst! As we've had a lot of expansion, we've also revamped the way we manage the project and we have some very interesting new features being worked on.",
+      "url": "https://www.amethyst.rs/blog/dev-news-10-2018/",
+      "date_published": "2018-10-14T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3d3a61ed-ff74-4407-b508-0c7405b8c653",
       "title": "Following up on the 2d graphics in Rust discussion",
       "content_text": "Ralph Levien recently published A crate I want: 2d graphics on his blog, which started some interesting discussions on reddit. At the same time there is a nascent discussion on the draw2d repository (which doesn't have any code at this point) about a potential 2d graphics crate.",

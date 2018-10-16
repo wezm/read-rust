@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "2b068be3-88b7-4d60-ad38-cfd40019cf5f",
+      "title": "imag: Call for Participation (1)",
+      "content_text": "This is the first call for participation for the imag project. I have no experience writing such calls for participation, so please bear with me!\n\nRight now, the imag ecosystem has some tools available which are already usable and in rather good shape. There is a contact manager, a diary and a notes tool, a habit tracker and a time tracker are there as well, though those are not extensively tested by now.",
+      "url": "https://imag-pim.org/blog/2018/10/10/call-for-participation-1/",
+      "date_published": "2018-10-10T08:42:06+00:00",
+      "author": {
+        "name": "imag",
+        "url": "https://imag-pim.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "cb2bfe24-75a2-43d6-bebc-b8f8ac610c95",
+      "title": "Rust Programming with Dynamsoft Barcode Reader",
+      "content_text": "A few days ago, I accepted a new challenge of creating a simple command line barcode reader using Rust and Dynamsoft Barcode Reader SDK. Rust is a system programming language similar to C++. The learning process did not go through smoothly as I expected. It is not as easy as learning other high-level programming languages such as Java and Python. In this article, I share my experience of learning and using Rust.",
+      "url": "https://medium.com/@yushulx/rust-programming-with-dynamsoft-barcode-reader-3d1e83004bba",
+      "date_published": "2018-10-11T00:26:20+00:00",
+      "author": {
+        "name": "Xiao Ling",
+        "url": "https://medium.com/@yushulx"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2657be5e-f98f-48a7-9e0a-c4ad2c183cba",
+      "title": "ruplacer: find and replace text in source files",
+      "content_text": "Today I’d like to talk about a command-line tool I’ve been working on. It’s called ruplacer and as the name suggest, it’s rually cool and written in Rust. Basically, it finds and replaces text in source files.",
+      "url": "https://dmerej.info/blog/post/ruplacer/",
+      "date_published": "2018-10-14T12:34:43+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "49cace2a-ebaf-4aec-b41b-8fb7aa67acc8",
       "title": "Remacs continues to improve",
       "content_text": "As you doubtless know, Emacs has an embedded Lisp environment that provides a large number of intersting Lisp functions that the user can call. Many of these are implemented in C for speed, and we've been rewriting them in Rust. So far we've ported 394 individual Lisp functions from C to Rust, of which 207 were ported in this last year. This is about a third of the total, as you can see by this graph. We've actually completely ported several whole C files now.",
