@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7141f981-74d7-4df6-9ce2-b857fff58557",
+      "title": "Routing and extraction in Tide: a first sketch",
+      "content_text": "This post continues the series on Tide, sketching a possible design for routing and extraction that combines some of the best ideas from frameworks like Rocket, Actix, and Gotham.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/10/16/tide-routing.html",
+      "date_published": "2018-10-16T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "0c92d9d7-26ba-4152-9820-08ef1011689d",
       "title": "Serverless Rust with Cloudflare Workers",
       "content_text": "It's exciting times for Rust developers. Cloudflare's Serverless Platform, Cloudflare Workers, allows you to compile your code to WASM, upload to 150+ data centers and invoke those functions just as easily as if they were JavaScript functions. Today I'm going to convert my lipsum generator to use Rust and explore the developer experience (hint: it's already pretty nice).",

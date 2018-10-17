@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9a9651de-466e-411e-9449-c1d6878ffba0",
+      "title": "Game Dev From Zero - Part 1: Hello",
+      "content_text": "With this article, I want to introduce you to game development. I want to give you a little tour of where to start, how to explore possibilities and revive my journey a little bit at the same time. I will try to construct different games from the ground up while writing this article, so you can experience game-dev live.",
+      "url": "https://hashnode.com/post/game-dev-from-zero-part-1-hello-rust-lang-cjn3brwto001jv7s2e533bdfc",
+      "date_published": "2018-10-11T00:00:00+00:00",
+      "author": {
+        "name": "Marco Alka",
+        "url": "https://hashnode.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1ac9419e-3a15-4c2e-961d-20160f9ef6e9",
+      "title": "Gfx-hal Tutorial part 2: Vertex buffers",
+      "content_text": "For the last two parts of this tutorial, all we’ve had to look at on-screen is a single blueish triangle. In this part, we want to display a more complex shape, with more variation in color. To do this, we’ll have to stop hard-coding our triangle mesh in the vertex shader. (And start hard-coding it in the source code!)",
+      "url": "https://falseidolfactory.com/2018/10/09/gfx-hal-part-2-vertex-buffers.html",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "7abf3b08-b87f-4bd1-a4f4-4d79f4216413",
       "title": "Amethyst is growing; news on ongoing projects",
       "content_text": "We want to share some of the progress being made on Amethyst! As we've had a lot of expansion, we've also revamped the way we manage the project and we have some very interesting new features being worked on.",

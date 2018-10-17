@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "9a9651de-466e-411e-9449-c1d6878ffba0",
+      "title": "Game Dev From Zero - Part 1: Hello",
+      "content_text": "With this article, I want to introduce you to game development. I want to give you a little tour of where to start, how to explore possibilities and revive my journey a little bit at the same time. I will try to construct different games from the ground up while writing this article, so you can experience game-dev live.",
+      "url": "https://hashnode.com/post/game-dev-from-zero-part-1-hello-rust-lang-cjn3brwto001jv7s2e533bdfc",
+      "tweet_url": "https://twitter.com/minecrawlerx/status/1050095684295303168",
+      "date_published": "2018-10-11T00:00:00+00:00",
+      "author": {
+        "name": "Marco Alka",
+        "url": "https://hashnode.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "7141f981-74d7-4df6-9ce2-b857fff58557",
+      "title": "Routing and extraction in Tide: a first sketch",
+      "content_text": "This post continues the series on Tide, sketching a possible design for routing and extraction that combines some of the best ideas from frameworks like Rocket, Actix, and Gotham.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/10/16/tide-routing.html",
+      "date_published": "2018-10-16T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "1ac9419e-3a15-4c2e-961d-20160f9ef6e9",
+      "title": "Gfx-hal Tutorial part 2: Vertex buffers",
+      "content_text": "For the last two parts of this tutorial, all we’ve had to look at on-screen is a single blueish triangle. In this part, we want to display a more complex shape, with more variation in color. To do this, we’ll have to stop hard-coding our triangle mesh in the vertex shader. (And start hard-coding it in the source code!)",
+      "url": "https://falseidolfactory.com/2018/10/09/gfx-hal-part-2-vertex-buffers.html",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Mistodon",
+        "url": "https://falseidolfactory.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "9ed3a1ea-2c0d-4508-a2d7-69e9bb07557a",
+      "title": "New crate: pin-cell",
+      "content_text": "Today I realized a new crate called pin-cell. This crate contains a type called PinCell, which is a kind of cell that is similar to RefCell, but only can allow pinned mutable references into its interior. Right now, the crate is nightly only and no-std compatible.\nHow is the API of PinCell different from RefCell? When you call borrow_mut on a RefCell, you get a type back that implements DerefMut, allowing you to mutate the interior value.",
+      "url": "https://boats.gitlab.io/blog/post/pin-cell/",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "620115c2-e4f9-4c5c-953a-d891cc636b01",
+      "title": "Rust SGX SDK v1.0.4 Released",
+      "content_text": "Rust SGX SDK, maintained by Baidu X-Lab, is a convenient framework to develop secure trusted computing applications for Intel SGX enclaves. Based on it, developers can easily build trusted SGX enclaves with memory safety guarantees. This adds an extra strong (and strongest ever) security layer over the SGX isolation, further keeping attackers away from the secrets in enclave even if they compromised the privileged software environment (operating system, hypervisor, etc.). Rust SGX SDK thus means a lot to privacy protection and trusted computing on public cloud platforms and blockchains.",
+      "url": "https://medium.com/baiduxlab/rust-sgx-sdk-v1-0-4-released-9c7d9056a888",
+      "date_published": "2018-10-09T17:50:10.689+00:00",
+      "author": {
+        "name": "Baidu X-Lab",
+        "url": "https://medium.com/@baidu.xlab"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0f56caac-74c9-414c-89d5-fe1cb9a74424",
+      "title": "Rust and the Three Laws of Informatics",
+      "content_text": "What are the most important properties of programs, and how much do existing languages help? How is Rust different?",
+      "url": "https://medium.com/@schemouil/rust-and-the-three-laws-of-informatics-4324062b322b",
+      "date_published": "2018-10-09T07:42:09.509+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://medium.com/@schemouil"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b138af7a-2e74-44c1-b362-03af475f050b",
+      "title": "Shifgrethor I: Garbage collection as a Rust library",
+      "content_text": "I’m really excited to share with you an experiment that I’ve been working on for the past 5 or 6 weeks. It’s a Rust library called shifgrethor. shifgrethor implements a garbage collector in Rust with an API I believe to be properly memory safe.\nI’ll be going through all of the technical details in future blog posts, so I want to kick this series off with a high level overview of the project’s purpose and design decisions.",
+      "url": "https://boats.gitlab.io/blog/post/shifgrethor-i/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1052571664121257986",
+      "date_published": "2018-10-16T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "2b068be3-88b7-4d60-ad38-cfd40019cf5f",
       "title": "imag: Call for Participation (1)",
       "content_text": "This is the first call for participation for the imag project. I have no experience writing such calls for participation, so please bear with me!\n\nRight now, the imag ecosystem has some tools available which are already usable and in rather good shape. There is a contact manager, a diary and a notes tool, a habit tracker and a time tracker are there as well, though those are not extensively tested by now.",

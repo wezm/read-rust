@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9ed3a1ea-2c0d-4508-a2d7-69e9bb07557a",
+      "title": "New crate: pin-cell",
+      "content_text": "Today I realized a new crate called pin-cell. This crate contains a type called PinCell, which is a kind of cell that is similar to RefCell, but only can allow pinned mutable references into its interior. Right now, the crate is nightly only and no-std compatible.\nHow is the API of PinCell different from RefCell? When you call borrow_mut on a RefCell, you get a type back that implements DerefMut, allowing you to mutate the interior value.",
+      "url": "https://boats.gitlab.io/blog/post/pin-cell/",
+      "date_published": "2018-10-09T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "620115c2-e4f9-4c5c-953a-d891cc636b01",
+      "title": "Rust SGX SDK v1.0.4 Released",
+      "content_text": "Rust SGX SDK, maintained by Baidu X-Lab, is a convenient framework to develop secure trusted computing applications for Intel SGX enclaves. Based on it, developers can easily build trusted SGX enclaves with memory safety guarantees. This adds an extra strong (and strongest ever) security layer over the SGX isolation, further keeping attackers away from the secrets in enclave even if they compromised the privileged software environment (operating system, hypervisor, etc.). Rust SGX SDK thus means a lot to privacy protection and trusted computing on public cloud platforms and blockchains.",
+      "url": "https://medium.com/baiduxlab/rust-sgx-sdk-v1-0-4-released-9c7d9056a888",
+      "date_published": "2018-10-09T17:50:10.689+00:00",
+      "author": {
+        "name": "Baidu X-Lab",
+        "url": "https://medium.com/@baidu.xlab"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2e4df02b-88e0-4510-851a-d1dce6014568",
       "title": "Configuration envy",
       "content_text": "For many of my use cases for running Rust applications, storing configuration in file format is less attractive as I’m typically running Rust inside docker containers and container orchestrators typically encourage the use of standard interfaces like the env for configuration. So I pondered 🤔, “What if I could treat my program’s env parameterization with the same level of typing I treat my functions and enclosing types with while getting everything one get’s from using serde for free?” That would be the bee’s knees 🐝 . Enter: envy.",

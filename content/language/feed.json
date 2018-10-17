@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0f56caac-74c9-414c-89d5-fe1cb9a74424",
+      "title": "Rust and the Three Laws of Informatics",
+      "content_text": "What are the most important properties of programs, and how much do existing languages help? How is Rust different?",
+      "url": "https://medium.com/@schemouil/rust-and-the-three-laws-of-informatics-4324062b322b",
+      "date_published": "2018-10-09T07:42:09.509+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://medium.com/@schemouil"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "351bd1f1-82e3-4b80-882e-9b2aac228c5a",
       "title": "Future directions for cbindgen (rust-ffi)",
       "content_text": "There’s been a persistent set of issues we’ve had with cbindgen that have not been solved. They all roughly result from the same problem; cbindgen is a standalone parser of rust code, not a rustc plugin. What this means is that cbindgen doesn’t understand your rust library like the compiler does. We’ve tried to minimize the differences here by making cbindgen smarter, but it’s not obvious that’s the best approach going forward.",
