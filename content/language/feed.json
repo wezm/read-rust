@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "c2e61957-0d95-43e3-af09-3173307bf95c",
+      "title": "Rust's Orphan Rule Is Good, Actually",
+      "content_text": "The orphan trait rule in Rust is interesting and works impressively well for what it intends to do. While I'm often frustrated by the limitations it imposes, it absolutely succeeds at removing ambiguity in whether or not a trait will be implemented for a type.",
+      "url": "https://davidlegare.ghost.io/rusts-orphan-rule/",
+      "date_published": "2018-10-20T05:42:04+00:00",
+      "author": {
+        "name": "David LeGare",
+        "url": "https://davidlegare.ghost.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4f32d4ec-419f-4025-b508-3c486ffb059e",
+      "title": "Towards fearless SIMD",
+      "content_text": "SIMD is a powerful performance technique, and is especially valuable in signal and image processing applications. I will be using it very extensively in my synthesizer, and also it’s increasingly used in xi-editor to optimize string comparisons and similar primitives.",
+      "url": "https://raphlinus.github.io/rust/simd/2018/10/19/fearless-simd.html",
+      "date_published": "2018-10-19T17:03:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b39581e7-2147-4b4a-bfdf-b19141e80d89",
+      "title": "Is Rust functional?",
+      "content_text": "Rust is an imperative systems programming language. Why does it have so much attention from functional programming advocates? Is it hiding a functional nature?",
+      "url": "https://www.fpcomplete.com/blog/2018/10/is-rust-functional",
+      "date_published": "2018-10-18T03:02:08+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0f56caac-74c9-414c-89d5-fe1cb9a74424",
       "title": "Rust and the Three Laws of Informatics",
       "content_text": "What are the most important properties of programs, and how much do existing languages help? How is Rust different?",

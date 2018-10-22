@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "0367445a-ecf2-4c7a-9829-1b38d731036c",
+      "title": "Release of glsl-quasiquote-0.2 with support for GLSL pragmas",
+      "content_text": "glsl-quasiquote-0.2 was released early this morning. This new version provides a more stable public API. Two major changes: The glsl_str! proc-macro would have only survived the 0.1 version. It’s now deprecated and will be removed soon. The glsl! proc-macro now supports GLSL pragmas (both #version and #extension).",
+      "url": "https://phaazon.net/blog/glsl-quasiquote-0.2",
+      "date_published": "2018-10-22T02:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "60825132-c54b-4297-9f81-936601b76f64",
+      "title": "My Experience With Learning Rust",
+      "content_text": "Although I didn’t start writing this blog when I started writing in Rust, I remember clearly why I started writing in Rust. From what I had been doing in C#, none of it utilized multiple threads. Multi-threaded programming had always been a sore topic for me. Things like thread synchronization and message passing never really made sense to me. I learned Rust mainly due to its promises for ease of programming for multiple threads. Once hearing that things like parts of Firefox were written using it, and the Mozilla themselves were very strongly invested in Rust, I had more reason to start writing in it. I’d assume that if Mozilla were to invest so much in a programming language, it must have some sort of benefits over your usual C and C++ programming languages. Even further than that, I’ve heard of some game studios adopting Rust in their games and I was pretty much hooked at that point.",
+      "url": "https://medium.com/@nathanielbarragan/my-experience-with-learning-rust-bbcb6b7c1063",
+      "date_published": "2018-10-22T02:29:02.205+00:00",
+      "author": {
+        "name": "Nathaniel Barragan",
+        "url": "https://medium.com/@nathanielbarragan"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "ec7874f9-e0a0-453b-b723-bdcb56e8ad09",
+      "title": "Rust Mesh Optimizer",
+      "content_text": "When triangle meshes are rendered by a GPU, there are pipeline stages that need to load and process vertex and index data. The efficiency of this process will depend on the layout of the data, and how the GPU is designed. There is an excellent library from Arseny Kapoulkine called meshoptimizer, which provides a variety of algorithms for optimizing geometry for the GPU.",
+      "url": "https://www.wihlidal.com/blog/pipeline/2018-10-20-rust-mesh-optimizer/",
+      "date_published": "2018-10-20T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "c2e61957-0d95-43e3-af09-3173307bf95c",
+      "title": "Rust's Orphan Rule Is Good, Actually",
+      "content_text": "The orphan trait rule in Rust is interesting and works impressively well for what it intends to do. While I'm often frustrated by the limitations it imposes, it absolutely succeeds at removing ambiguity in whether or not a trait will be implemented for a type.",
+      "url": "https://davidlegare.ghost.io/rusts-orphan-rule/",
+      "date_published": "2018-10-20T05:42:04+00:00",
+      "author": {
+        "name": "David LeGare",
+        "url": "https://davidlegare.ghost.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8157d765-72cb-40a0-b59f-6b4ae2ae173d",
+      "title": "Rust RwLock and Mutex Performance Oddities",
+      "content_text": "Recently I have been working on Rust datastructures once again. In the process I wanted to test how my work performed compared to a standard library RwLock and Mutex. On my home laptop the RwLock was 5 times faster, the Mutex 2 times faster than my work.\n\nSo checking out my code on my workplace workstation and running my bench marks I noticed the Mutex was the same - 2 times faster. However, the RwLock was 4000 times slower.",
+      "url": "https://fy.blackhats.net.au/blog/html/2018/10/19/rust_rwlock_and_mutex_performance_oddities.html",
+      "date_published": "2018-10-19T00:00:00+00:00",
+      "author": {
+        "name": "firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "4f32d4ec-419f-4025-b508-3c486ffb059e",
+      "title": "Towards fearless SIMD",
+      "content_text": "SIMD is a powerful performance technique, and is especially valuable in signal and image processing applications. I will be using it very extensively in my synthesizer, and also it’s increasingly used in xi-editor to optimize string comparisons and similar primitives.",
+      "url": "https://raphlinus.github.io/rust/simd/2018/10/19/fearless-simd.html",
+      "date_published": "2018-10-19T17:03:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c1a9ce3b-fd19-4285-b465-ab7607792297",
+      "title": "Serverless Rust with AWS Lambda and WebAssembly",
+      "content_text": "In this post, I look at how WebAssembly can be used to create serverless functions and demonstrate an AWS Lambda function written entirely in Rust.",
+      "url": "https://blog.scottlogic.com/2018/10/18/serverless-rust.html",
+      "date_published": "2018-10-18T00:00:00+00:00",
+      "author": {
+        "name": "Colin Eberhardt",
+        "url": "https://www.scottlogic.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b39581e7-2147-4b4a-bfdf-b19141e80d89",
+      "title": "Is Rust functional?",
+      "content_text": "Rust is an imperative systems programming language. Why does it have so much attention from functional programming advocates? Is it hiding a functional nature?",
+      "url": "https://www.fpcomplete.com/blog/2018/10/is-rust-functional",
+      "date_published": "2018-10-18T03:02:08+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9a9651de-466e-411e-9449-c1d6878ffba0",
       "title": "Game Dev From Zero - Part 1: Hello",
       "content_text": "With this article, I want to introduce you to game development. I want to give you a little tour of where to start, how to explore possibilities and revive my journey a little bit at the same time. I will try to construct different games from the ground up while writing this article, so you can experience game-dev live.",

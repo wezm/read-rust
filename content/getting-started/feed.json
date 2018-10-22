@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "60825132-c54b-4297-9f81-936601b76f64",
+      "title": "My Experience With Learning Rust",
+      "content_text": "Although I didn’t start writing this blog when I started writing in Rust, I remember clearly why I started writing in Rust. From what I had been doing in C#, none of it utilized multiple threads. Multi-threaded programming had always been a sore topic for me. Things like thread synchronization and message passing never really made sense to me. I learned Rust mainly due to its promises for ease of programming for multiple threads. Once hearing that things like parts of Firefox were written using it, and the Mozilla themselves were very strongly invested in Rust, I had more reason to start writing in it. I’d assume that if Mozilla were to invest so much in a programming language, it must have some sort of benefits over your usual C and C++ programming languages. Even further than that, I’ve heard of some game studios adopting Rust in their games and I was pretty much hooked at that point.",
+      "url": "https://medium.com/@nathanielbarragan/my-experience-with-learning-rust-bbcb6b7c1063",
+      "date_published": "2018-10-22T02:29:02.205+00:00",
+      "author": {
+        "name": "Nathaniel Barragan",
+        "url": "https://medium.com/@nathanielbarragan"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "ceb7c2a6-d905-4b13-8f42-4aa42cd9b3e3",
       "title": "Building a command-line todo app in Rust",
       "content_text": "In this tutorial, we are going to create a simple command-line todo app. By the end of this tutorial, you should have a basic understanding of Rust programming language, building command-line apps in Rust, and performing file-system operations in Rust.",

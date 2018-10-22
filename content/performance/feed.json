@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8157d765-72cb-40a0-b59f-6b4ae2ae173d",
+      "title": "Rust RwLock and Mutex Performance Oddities",
+      "content_text": "Recently I have been working on Rust datastructures once again. In the process I wanted to test how my work performed compared to a standard library RwLock and Mutex. On my home laptop the RwLock was 5 times faster, the Mutex 2 times faster than my work.\n\nSo checking out my code on my workplace workstation and running my bench marks I noticed the Mutex was the same - 2 times faster. However, the RwLock was 4000 times slower.",
+      "url": "https://fy.blackhats.net.au/blog/html/2018/10/19/rust_rwlock_and_mutex_performance_oddities.html",
+      "date_published": "2018-10-19T00:00:00+00:00",
+      "author": {
+        "name": "firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "0d41cc9f-584c-4da3-8516-a567cc923279",
       "title": "Oxidizing Python: Speeding up URL quoting by 10× using Rust",
       "content_text": "Recently a colleague of mine told me about a small bottleneck with url quoting since we are quoting a lot of storage keys at least once when loading or storing a dataset. To speed it up, we are going to write a C-Library in Rust and invoke it from Python.",

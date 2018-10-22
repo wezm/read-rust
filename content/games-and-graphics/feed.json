@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0367445a-ecf2-4c7a-9829-1b38d731036c",
+      "title": "Release of glsl-quasiquote-0.2 with support for GLSL pragmas",
+      "content_text": "glsl-quasiquote-0.2 was released early this morning. This new version provides a more stable public API. Two major changes: The glsl_str! proc-macro would have only survived the 0.1 version. It’s now deprecated and will be removed soon. The glsl! proc-macro now supports GLSL pragmas (both #version and #extension).",
+      "url": "https://phaazon.net/blog/glsl-quasiquote-0.2",
+      "date_published": "2018-10-22T02:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ec7874f9-e0a0-453b-b723-bdcb56e8ad09",
+      "title": "Rust Mesh Optimizer",
+      "content_text": "When triangle meshes are rendered by a GPU, there are pipeline stages that need to load and process vertex and index data. The efficiency of this process will depend on the layout of the data, and how the GPU is designed. There is an excellent library from Arseny Kapoulkine called meshoptimizer, which provides a variety of algorithms for optimizing geometry for the GPU.",
+      "url": "https://www.wihlidal.com/blog/pipeline/2018-10-20-rust-mesh-optimizer/",
+      "date_published": "2018-10-20T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "9a9651de-466e-411e-9449-c1d6878ffba0",
       "title": "Game Dev From Zero - Part 1: Hello",
       "content_text": "With this article, I want to introduce you to game development. I want to give you a little tour of where to start, how to explore possibilities and revive my journey a little bit at the same time. I will try to construct different games from the ground up while writing this article, so you can experience game-dev live.",
