@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fac60173-70f5-4682-a698-716cf05306ce",
+      "title": "korq: Kubernetes Dynamic Log Tailing Utility",
+      "content_text": "K∅RQ is used for tailing pod logs concurrently and following groups at once. It was basically a need to follow logs during deployment and see how instances behave during and after deployment. This is the main motive behind K∅RQ.",
+      "url": "https://vertexclique.github.io/korq/",
+      "date_published": "2018-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://vertexclique.github.io/"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "90da273a-d430-4fd5-891c-1aa33bc00588",
       "title": "Beware the rust cache on Travis",
       "content_text": "Today, I was working on optimizing my travis builds to speed them up, especially in the direction of caching. Travis allows you to set cache: cargo in your .travis.yml to enable caching for rust projects and caching is cool: it avoids having to rebuild all dependencies all the time, speeding up the builds.",

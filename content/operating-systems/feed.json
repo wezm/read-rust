@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "97757259-e11d-4a4f-88cb-2653ca3cb977",
+      "title": "Hardware Interrupts | Writing an OS in Rust",
+      "content_text": "In this post we set up the programmable interrupt controller to correctly forward hardware interrupts to the CPU. To handle these interrupts we add new entries to our interrupt descriptor table, just like we did for our exception handlers. We will learn how to get periodic timer interrupts and how to get input from the keyboard.",
+      "url": "https://os.phil-opp.com/hardware-interrupts/",
+      "date_published": "2018-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "4ae0bbf7-720b-48d3-8c5d-d5b3c8e061dd",
       "title": "Red Hat's Stratis Storage Project Reaches Its 1.0 Stable Milestone",
       "content_text": "Stratis 1.0 was quietly released last week with the 1.0 version marking its initial stable release and where also the on-disk meta-data format has been stabilized. Red Hat engineers believe Stratis is now ready for more widespread testing.",

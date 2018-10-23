@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fae7cb69-a7bf-4cb1-9d1d-f5e703312ef7",
+      "title": "Rust can be difficult to learn and frustrating, but it’s also the most exciting thing in software development in a long time",
+      "content_text": "I recently decided to put serious effort into learning the Rust programming language. I saw it coming up frequently in interesting projects (e.g. ripgrep) and kept hearing good things about it. My hesitation to picking up Rust since its 1.0 release in 2015 came from two fronts. First, I’m completely invested in Go because of InfluxDB. Second, I heard that it was not the easiest thing to learn. While I don’t normally shy away from difficult tasks, I was hesitant because I believe that many developer tools that take off do so because they are easy to use or give developers significant productivity gains. More often than not, I want to invest my time in tools that I think have longevity that will get some critical mass in the market.",
+      "url": "https://www.influxdata.com/blog/rust-can-be-difficult-to-learn-and-frustrating-but-its-also-the-most-exciting-thing-in-software-development-in-a-long-time/",
+      "date_published": "2018-10-22T18:45:16+00:00",
+      "author": {
+        "name": "Paul Dix",
+        "url": "https://www.influxdata.com/blog/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "60825132-c54b-4297-9f81-936601b76f64",
       "title": "My Experience With Learning Rust",
       "content_text": "Although I didn’t start writing this blog when I started writing in Rust, I remember clearly why I started writing in Rust. From what I had been doing in C#, none of it utilized multiple threads. Multi-threaded programming had always been a sore topic for me. Things like thread synchronization and message passing never really made sense to me. I learned Rust mainly due to its promises for ease of programming for multiple threads. Once hearing that things like parts of Firefox were written using it, and the Mozilla themselves were very strongly invested in Rust, I had more reason to start writing in it. I’d assume that if Mozilla were to invest so much in a programming language, it must have some sort of benefits over your usual C and C++ programming languages. Even further than that, I’ve heard of some game studios adopting Rust in their games and I was pretty much hooked at that point.",

@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "fac60173-70f5-4682-a698-716cf05306ce",
+      "title": "korq: Kubernetes Dynamic Log Tailing Utility",
+      "content_text": "K∅RQ is used for tailing pod logs concurrently and following groups at once. It was basically a need to follow logs during deployment and see how instances behave during and after deployment. This is the main motive behind K∅RQ.",
+      "url": "https://vertexclique.github.io/korq/",
+      "date_published": "2018-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://vertexclique.github.io/"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "97757259-e11d-4a4f-88cb-2653ca3cb977",
+      "title": "Hardware Interrupts | Writing an OS in Rust",
+      "content_text": "In this post we set up the programmable interrupt controller to correctly forward hardware interrupts to the CPU. To handle these interrupts we add new entries to our interrupt descriptor table, just like we did for our exception handlers. We will learn how to get periodic timer interrupts and how to get input from the keyboard.",
+      "url": "https://os.phil-opp.com/hardware-interrupts/",
+      "date_published": "2018-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "d418a0ea-dbef-4bfa-bc74-827185aef57c",
+      "title": "Auth Web Microservice with rust using Actix-Web",
+      "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to Rust.",
+      "url": "https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-1/",
+      "date_published": "2018-10-08T13:02:37+01:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://hgill.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4c54199d-d367-4525-8202-cba2c82afa3d",
+      "title": "Rust has higher kinded types already... sort of",
+      "content_text": "In Rust, a type which takes type parameters (Rc<T>, Vec<T>, HashMap<K, V>, etc) is only a valid type when all type parameters are specified. In other words, Rc, Vec, and HashMap<K> are not types. You can’t have a variable of type Rc. You can’t pass Rc as a parameter to other types. The ability to have such things be actual types is a feature called higher kinded types (HKT).",
+      "url": "https://joshlf.com/post/2018/10/18/rust-higher-kinded-types-already/",
+      "date_published": "2018-10-18T00:00:00+00:00",
+      "author": {
+        "name": "Joshua Liebow-Feeser",
+        "url": "https://joshlf.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fae7cb69-a7bf-4cb1-9d1d-f5e703312ef7",
+      "title": "Rust can be difficult to learn and frustrating, but it’s also the most exciting thing in software development in a long time",
+      "content_text": "I recently decided to put serious effort into learning the Rust programming language. I saw it coming up frequently in interesting projects (e.g. ripgrep) and kept hearing good things about it. My hesitation to picking up Rust since its 1.0 release in 2015 came from two fronts. First, I’m completely invested in Go because of InfluxDB. Second, I heard that it was not the easiest thing to learn. While I don’t normally shy away from difficult tasks, I was hesitant because I believe that many developer tools that take off do so because they are easy to use or give developers significant productivity gains. More often than not, I want to invest my time in tools that I think have longevity that will get some critical mass in the market.",
+      "url": "https://www.influxdata.com/blog/rust-can-be-difficult-to-learn-and-frustrating-but-its-also-the-most-exciting-thing-in-software-development-in-a-long-time/",
+      "date_published": "2018-10-22T18:45:16+00:00",
+      "author": {
+        "name": "Paul Dix",
+        "url": "https://www.influxdata.com/blog/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "0367445a-ecf2-4c7a-9829-1b38d731036c",
       "title": "Release of glsl-quasiquote-0.2 with support for GLSL pragmas",
       "content_text": "glsl-quasiquote-0.2 was released early this morning. This new version provides a more stable public API. Two major changes: The glsl_str! proc-macro would have only survived the 0.1 version. It’s now deprecated and will be removed soon. The glsl! proc-macro now supports GLSL pragmas (both #version and #extension).",

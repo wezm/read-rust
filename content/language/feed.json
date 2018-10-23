@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4c54199d-d367-4525-8202-cba2c82afa3d",
+      "title": "Rust has higher kinded types already... sort of",
+      "content_text": "In Rust, a type which takes type parameters (Rc<T>, Vec<T>, HashMap<K, V>, etc) is only a valid type when all type parameters are specified. In other words, Rc, Vec, and HashMap<K> are not types. You can’t have a variable of type Rc. You can’t pass Rc as a parameter to other types. The ability to have such things be actual types is a feature called higher kinded types (HKT).",
+      "url": "https://joshlf.com/post/2018/10/18/rust-higher-kinded-types-already/",
+      "date_published": "2018-10-18T00:00:00+00:00",
+      "author": {
+        "name": "Joshua Liebow-Feeser",
+        "url": "https://joshlf.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c2e61957-0d95-43e3-af09-3173307bf95c",
       "title": "Rust's Orphan Rule Is Good, Actually",
       "content_text": "The orphan trait rule in Rust is interesting and works impressively well for what it intends to do. While I'm often frustrated by the limitations it imposes, it absolutely succeeds at removing ambiguity in whether or not a trait will be implemented for a type.",

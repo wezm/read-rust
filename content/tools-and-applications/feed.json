@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fac60173-70f5-4682-a698-716cf05306ce",
+      "title": "korq: Kubernetes Dynamic Log Tailing Utility",
+      "content_text": "K∅RQ is used for tailing pod logs concurrently and following groups at once. It was basically a need to follow logs during deployment and see how instances behave during and after deployment. This is the main motive behind K∅RQ.",
+      "url": "https://vertexclique.github.io/korq/",
+      "date_published": "2018-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://vertexclique.github.io/"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2b068be3-88b7-4d60-ad38-cfd40019cf5f",
       "title": "imag: Call for Participation (1)",
       "content_text": "This is the first call for participation for the imag project. I have no experience writing such calls for participation, so please bear with me!\n\nRight now, the imag ecosystem has some tools available which are already usable and in rather good shape. There is a contact manager, a diary and a notes tool, a habit tracker and a time tracker are there as well, though those are not extensively tested by now.",

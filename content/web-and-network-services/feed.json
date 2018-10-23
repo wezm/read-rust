@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d418a0ea-dbef-4bfa-bc74-827185aef57c",
+      "title": "Auth Web Microservice with rust using Actix-Web",
+      "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to Rust.",
+      "url": "https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-1/",
+      "date_published": "2018-10-08T13:02:37+01:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://hgill.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "c1a9ce3b-fd19-4285-b465-ab7607792297",
       "title": "Serverless Rust with AWS Lambda and WebAssembly",
       "content_text": "In this post, I look at how WebAssembly can be used to create serverless functions and demonstrate an AWS Lambda function written entirely in Rust.",
