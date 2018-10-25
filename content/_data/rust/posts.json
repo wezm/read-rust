@@ -10,6 +10,51 @@
   },
   "items": [
     {
+      "id": "a758c495-92fa-476d-9758-a916dc50c2f9",
+      "title": "Summer School With The Rust Compiler",
+      "content_text": "Learning Rust is hard for everyone, but it’s even worse for me because I’ve been working with Ruby during past ten years. Switching to Rust from Ruby is leaving an anything-goes hippie commune to a summer school for delinquent programmers run by a sadistic and unforgiving teacher. Why would anyone use a compiler like this? The answer is simple: to learn how to write better code.",
+      "url": "http://patshaughnessy.net/2018/10/24/summer-school-with-the-rust-compiler",
+      "tweet_url": "https://twitter.com/pat_shaughnessy/status/1055194650825248769",
+      "date_published": "2018-10-24T03:00:00+00:00",
+      "author": {
+        "name": "Pat Shaughnessy",
+        "url": "http://patshaughnessy.net/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1025ea91-d834-4f58-97cc-dabcee3b86df",
+      "title": "Multithreading Rust and Wasm",
+      "content_text": "When WebAssembly was first shipped it was an MVP which, while minimal, has spawned a huge number of exciting projects which work today across all major browsers. Rust has capitalized on the wasm MVP’s success as well with tools like wasm-bindgen and wasm-pack by making the MVP feel less minimal. WebAssembly is yet more ambitious, though! Since inception it’s always been intended to extend the WebAssembly specification with new features and functionality.",
+      "url": "https://rustwasm.github.io/2018/10/24/multithreading-rust-and-wasm.html",
+      "tweet_url": "https://twitter.com/rustwasm/status/1054724935174811648",
+      "date_published": "2018-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Alex Crichton",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "96f12355-f732-45f5-9ca2-d2e68bc741ab",
+      "title": "Plumbing the Deps of the Crate: Caching Rust Docker Builds",
+      "content_text": "Learn how to cache your Docker builds with Rust better so you don't keep downloading and building your deps over and over and over again!",
+      "url": "https://mgattozzi.com/caching-rust-docker-builds/",
+      "tweet_url": "https://twitter.com/mgattozzi/status/1054577001405837312",
+      "date_published": "2018-10-23T03:32:10+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "fac60173-70f5-4682-a698-716cf05306ce",
       "title": "korq: Kubernetes Dynamic Log Tailing Utility",
       "content_text": "K∅RQ is used for tailing pod logs concurrently and following groups at once. It was basically a need to follow logs during deployment and see how instances behave during and after deployment. This is the main motive behind K∅RQ.",

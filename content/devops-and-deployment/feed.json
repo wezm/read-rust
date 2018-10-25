@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "96f12355-f732-45f5-9ca2-d2e68bc741ab",
+      "title": "Plumbing the Deps of the Crate: Caching Rust Docker Builds",
+      "content_text": "Learn how to cache your Docker builds with Rust better so you don't keep downloading and building your deps over and over and over again!",
+      "url": "https://mgattozzi.com/caching-rust-docker-builds/",
+      "date_published": "2018-10-23T03:32:10+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "fac60173-70f5-4682-a698-716cf05306ce",
       "title": "korq: Kubernetes Dynamic Log Tailing Utility",
       "content_text": "K∅RQ is used for tailing pod logs concurrently and following groups at once. It was basically a need to follow logs during deployment and see how instances behave during and after deployment. This is the main motive behind K∅RQ.",

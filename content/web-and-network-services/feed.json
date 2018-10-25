@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1025ea91-d834-4f58-97cc-dabcee3b86df",
+      "title": "Multithreading Rust and Wasm",
+      "content_text": "When WebAssembly was first shipped it was an MVP which, while minimal, has spawned a huge number of exciting projects which work today across all major browsers. Rust has capitalized on the wasm MVP’s success as well with tools like wasm-bindgen and wasm-pack by making the MVP feel less minimal. WebAssembly is yet more ambitious, though! Since inception it’s always been intended to extend the WebAssembly specification with new features and functionality.",
+      "url": "https://rustwasm.github.io/2018/10/24/multithreading-rust-and-wasm.html",
+      "date_published": "2018-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Alex Crichton",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "d418a0ea-dbef-4bfa-bc74-827185aef57c",
       "title": "Auth Web Microservice with rust using Actix-Web",
       "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to Rust.",
