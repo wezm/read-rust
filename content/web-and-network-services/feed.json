@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8c9a2022-1124-47da-94c4-a85e808a257c",
+      "title": "10x Your JavaScript With WASM And Rust",
+      "content_text": "This is part four in a series of Rust on Azure Functions. The other parts are about performance comparisons (part 1 and part 2), and explaining the PMX algorithm (part 3). If you want to learn more about Genetic Algorithms be sure to read part 3 first).",
+      "url": "https://blog.x5ff.xyz/blog/azure-functions-wasm-rust-ai/",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "1025ea91-d834-4f58-97cc-dabcee3b86df",
       "title": "Multithreading Rust and Wasm",
       "content_text": "When WebAssembly was first shipped it was an MVP which, while minimal, has spawned a huge number of exciting projects which work today across all major browsers. Rust has capitalized on the wasm MVP’s success as well with tools like wasm-bindgen and wasm-pack by making the MVP feel less minimal. WebAssembly is yet more ambitious, though! Since inception it’s always been intended to extend the WebAssembly specification with new features and functionality.",

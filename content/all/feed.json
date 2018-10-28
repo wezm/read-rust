@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "e64df9c0-3056-4720-837e-670543317c59",
+      "title": "Problems Scaling A Large Multi-Crate Rust Project",
+      "content_text": "We have 85K lines of Rust code implementing the backend of our Pernosco debugger. To impose some modularity constraints and to reduce build times, from the beginning we organized our code as a large set of crates in a single Cargo workspace in a single Gitlab repository. Currently we have 48 crates. This has mostly worked pretty well but as the number of our crates keeps increasing, we have hit some serious scalability problems.",
+      "url": "https://robert.ocallahan.org/2018/10/problems-scaling-large-multi-crate-rust.html?m=1",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/?m=1"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8c9a2022-1124-47da-94c4-a85e808a257c",
+      "title": "10x Your JavaScript With WASM And Rust",
+      "content_text": "This is part four in a series of Rust on Azure Functions. The other parts are about performance comparisons (part 1 and part 2), and explaining the PMX algorithm (part 3). If you want to learn more about Genetic Algorithms be sure to read part 3 first).",
+      "url": "https://blog.x5ff.xyz/blog/azure-functions-wasm-rust-ai/",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "451e814b-f0e1-4d88-bdda-9862ab107902",
+      "title": "The Case For Macros",
+      "content_text": "I know a few Rustaceans who are wary of macros. One privately admitted to hating them with a passion. They are right; macros can make code harder to understand (both for humans and computers, for example many clippy lints have an explicit check to only lint outside of macros), so they should be used with some caution.",
+      "url": "https://llogiq.github.io/2018/10/25/macros.html",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "80d71718-3acf-49d1-ad47-3e05c5da17a2",
+      "title": "Parsing logs 230x faster with Rust",
+      "content_text": "Perhaps surprisingly, one of the most challenging things about operating RubyGems.org is the logs. A single day of request logs is usually around 500 gigabytes on disk. So every day, we generate about 500 files that are 85MB on disk, and contain about a million streaming JSON objects that take up 1GB when uncompressed. What we want out of those files is incredibly tiny—a few thousand integers, labelled with names and version numbers. Without any real idea of how to get those counts out of S3, I started by writing a proof of concept Ruby script that could parse one of the 500 log files and print out stats from it. Even on my super-fast laptop, my prototype script would take more than 16 hours to parse 24 hours worth of logs.",
+      "url": "https://andre.arko.net/2018/10/25/parsing-logs-230x-faster-with-rust/",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Andre Arko",
+        "url": "https://plus.google.com/116392164619002275727"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "88e3b29b-1f9a-41a2-bb8a-9f73310c0352",
+      "title": "Shifgrethor III: Rooting",
+      "content_text": "After the digression in the previous post, it’s time to get back to what I promised in the first post: a look at how shifgrethor handles rooting. Shifgrethor’s solution is somewhat novel and takes advantage of some of Rust’s specific features, so I want to start by looking briefly at some of the other options.",
+      "url": "https://boats.gitlab.io/blog/post/shifgrethor-iii/",
+      "date_published": "2018-10-24T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "3db4746e-d5ac-46c7-af24-a25e2db1b7d2",
+      "title": "Announcing Rust 1.30",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.30.0. Rust 1.30 is an exciting release with a number of features: Procedural Macros, Module system improvements, Raw Identifiers, and more.",
+      "url": "https://blog.rust-lang.org/2018/10/25/Rust-1.30.0.html",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a758c495-92fa-476d-9758-a916dc50c2f9",
       "title": "Summer School With The Rust Compiler",
       "content_text": "Learning Rust is hard for everyone, but it’s even worse for me because I’ve been working with Ruby during past ten years. Switching to Rust from Ruby is leaving an anything-goes hippie commune to a summer school for delinquent programmers run by a sadistic and unforgiving teacher. Why would anyone use a compiler like this? The answer is simple: to learn how to write better code.",
@@ -283,7 +367,7 @@
       "url": "https://boats.gitlab.io/blog/post/pin-cell/",
       "date_published": "2018-10-09T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -325,7 +409,7 @@
       "url": "https://boats.gitlab.io/blog/post/shifgrethor-i/",
       "date_published": "2018-10-16T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -2333,7 +2417,7 @@
       "url": "https://boats.gitlab.io/blog/post/rethinking-pin/",
       "date_published": "2018-08-22T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -3704,7 +3788,7 @@
       "url": "https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/",
       "date_published": "2018-07-24T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -6125,7 +6209,7 @@
       "url": "https://boats.gitlab.io/blog/post/async-methods-ii/",
       "date_published": "2018-06-04T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -6195,7 +6279,7 @@
       "url": "https://boats.gitlab.io/blog/post/async-methods-i/",
       "date_published": "2018-05-31T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -8528,7 +8612,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-04-06-async-await-final/",
       "date_published": "2018-04-06T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -9348,7 +9432,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-03-20-async-vi/",
       "date_published": "2018-03-20T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -10346,7 +10430,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-02-22-failure-1.0/",
       "date_published": "2018-02-22T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -10911,7 +10995,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-02-08-async-v-getting-back-to-the-futures/",
       "date_published": "2018-02-08T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -10982,7 +11066,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-02-07-async-iv-an-even-better-proposal/",
       "date_published": "2018-02-07T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -11082,7 +11166,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-01-30-async-iii-moving-forward/",
       "date_published": "2018-02-04T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [

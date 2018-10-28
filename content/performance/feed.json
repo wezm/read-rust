@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "80d71718-3acf-49d1-ad47-3e05c5da17a2",
+      "title": "Parsing logs 230x faster with Rust",
+      "content_text": "Perhaps surprisingly, one of the most challenging things about operating RubyGems.org is the logs. A single day of request logs is usually around 500 gigabytes on disk. So every day, we generate about 500 files that are 85MB on disk, and contain about a million streaming JSON objects that take up 1GB when uncompressed. What we want out of those files is incredibly tiny—a few thousand integers, labelled with names and version numbers. Without any real idea of how to get those counts out of S3, I started by writing a proof of concept Ruby script that could parse one of the 500 log files and print out stats from it. Even on my super-fast laptop, my prototype script would take more than 16 hours to parse 24 hours worth of logs.",
+      "url": "https://andre.arko.net/2018/10/25/parsing-logs-230x-faster-with-rust/",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Andre Arko",
+        "url": "https://plus.google.com/116392164619002275727"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "8157d765-72cb-40a0-b59f-6b4ae2ae173d",
       "title": "Rust RwLock and Mutex Performance Oddities",
       "content_text": "Recently I have been working on Rust datastructures once again. In the process I wanted to test how my work performed compared to a standard library RwLock and Mutex. On my home laptop the RwLock was 5 times faster, the Mutex 2 times faster than my work.\n\nSo checking out my code on my workplace workstation and running my bench marks I noticed the Mutex was the same - 2 times faster. However, the RwLock was 4000 times slower.",

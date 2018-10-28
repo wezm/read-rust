@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e64df9c0-3056-4720-837e-670543317c59",
+      "title": "Problems Scaling A Large Multi-Crate Rust Project",
+      "content_text": "We have 85K lines of Rust code implementing the backend of our Pernosco debugger. To impose some modularity constraints and to reduce build times, from the beginning we organized our code as a large set of crates in a single Cargo workspace in a single Gitlab repository. Currently we have 48 crates. This has mostly worked pretty well but as the number of our crates keeps increasing, we have hit some serious scalability problems.",
+      "url": "https://robert.ocallahan.org/2018/10/problems-scaling-large-multi-crate-rust.html?m=1",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/?m=1"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "451e814b-f0e1-4d88-bdda-9862ab107902",
+      "title": "The Case For Macros",
+      "content_text": "I know a few Rustaceans who are wary of macros. One privately admitted to hating them with a passion. They are right; macros can make code harder to understand (both for humans and computers, for example many clippy lints have an explicit check to only lint outside of macros), so they should be used with some caution.",
+      "url": "https://llogiq.github.io/2018/10/25/macros.html",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3db4746e-d5ac-46c7-af24-a25e2db1b7d2",
+      "title": "Announcing Rust 1.30",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.30.0. Rust 1.30 is an exciting release with a number of features: Procedural Macros, Module system improvements, Raw Identifiers, and more.",
+      "url": "https://blog.rust-lang.org/2018/10/25/Rust-1.30.0.html",
+      "date_published": "2018-10-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4c54199d-d367-4525-8202-cba2c82afa3d",
       "title": "Rust has higher kinded types already... sort of",
       "content_text": "In Rust, a type which takes type parameters (Rc<T>, Vec<T>, HashMap<K, V>, etc) is only a valid type when all type parameters are specified. In other words, Rc, Vec, and HashMap<K> are not types. You can’t have a variable of type Rc. You can’t pass Rc as a parameter to other types. The ability to have such things be actual types is a feature called higher kinded types (HKT).",
@@ -856,7 +898,7 @@
       "url": "https://boats.gitlab.io/blog/post/rethinking-pin/",
       "date_published": "2018-08-22T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -1350,7 +1392,7 @@
       "url": "https://boats.gitlab.io/blog/post/my-experience-with-rust-2018/",
       "date_published": "2018-07-24T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -2193,7 +2235,7 @@
       "url": "https://boats.gitlab.io/blog/post/async-methods-ii/",
       "date_published": "2018-06-04T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -2235,7 +2277,7 @@
       "url": "https://boats.gitlab.io/blog/post/async-methods-i/",
       "date_published": "2018-05-31T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -3091,7 +3133,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-04-06-async-await-final/",
       "date_published": "2018-04-06T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -3445,7 +3487,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-03-20-async-vi/",
       "date_published": "2018-03-20T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -4080,7 +4122,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-02-08-async-v-getting-back-to-the-futures/",
       "date_published": "2018-02-08T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -4094,7 +4136,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-02-07-async-iv-an-even-better-proposal/",
       "date_published": "2018-02-07T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
@@ -4151,7 +4193,7 @@
       "url": "https://boats.gitlab.io/blog/post/2018-01-30-async-iii-moving-forward/",
       "date_published": "2018-02-04T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [

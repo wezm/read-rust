@@ -10,13 +10,27 @@
   },
   "items": [
     {
+      "id": "88e3b29b-1f9a-41a2-bb8a-9f73310c0352",
+      "title": "Shifgrethor III: Rooting",
+      "content_text": "After the digression in the previous post, it’s time to get back to what I promised in the first post: a look at how shifgrethor handles rooting. Shifgrethor’s solution is somewhat novel and takes advantage of some of Rust’s specific features, so I want to start by looking briefly at some of the other options.",
+      "url": "https://boats.gitlab.io/blog/post/shifgrethor-iii/",
+      "date_published": "2018-10-24T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "b138af7a-2e74-44c1-b362-03af475f050b",
       "title": "Shifgrethor I: Garbage collection as a Rust library",
       "content_text": "I’m really excited to share with you an experiment that I’ve been working on for the past 5 or 6 weeks. It’s a Rust library called shifgrethor. shifgrethor implements a garbage collector in Rust with an API I believe to be properly memory safe.\nI’ll be going through all of the technical details in future blog posts, so I want to kick this series off with a high level overview of the project’s purpose and design decisions.",
       "url": "https://boats.gitlab.io/blog/post/shifgrethor-i/",
       "date_published": "2018-10-16T00:00:00+00:00",
       "author": {
-        "name": "boats",
+        "name": "withoutboats",
         "url": "https://boats.gitlab.io/blog/"
       },
       "tags": [
