@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7141c453-0f38-4d85-a3bd-f01abc08ad77",
+      "title": "2d graphics in Rust discussion - A look at GPU memory management",
+      "content_text": "In this post I'll write about an piece of the low level details of an hypothetical rust 2d graphics crate built on top of gfx-hal. Gfx provides a vulkan-like interface implemented on top of vulkan, d3d12, metal or flavors of OpenGL. just like the previous post this is in the context of recent discussions about a 2d graphics crate in rust.",
+      "url": "https://nical.github.io/posts/rust-2d-graphics-02.html",
+      "date_published": "2018-10-28T00:00:00+02:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0367445a-ecf2-4c7a-9829-1b38d731036c",
       "title": "Release of glsl-quasiquote-0.2 with support for GLSL pragmas",
       "content_text": "glsl-quasiquote-0.2 was released early this morning. This new version provides a more stable public API. Two major changes: The glsl_str! proc-macro would have only survived the 0.1 version. It’s now deprecated and will be removed soon. The glsl! proc-macro now supports GLSL pragmas (both #version and #extension).",

@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "d8946b80-5782-44b2-80d9-9ac2e18eb5d0",
+      "title": "Qt applications with Cargo",
+      "content_text": "This blog shows how Qt applications can be built with Cargo. The goal is to make compiling them as simple as installing Qt and running cargo build.",
+      "url": "https://www.vandenoever.info/blog/2018/10/30/building_qt_apps_with_cargo.html",
+      "date_published": "2018-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Jos van den Oever",
+        "url": "https://www.vandenoever.info/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "77d7a663-c11c-476c-a180-a84d0edf2975",
+      "title": "Announcing Gotham 0.3",
+      "content_text": "First of all, hello there! This is the first announcement after the call for maintainers back in summer, and includes the efforts of several new faces: @whitfin, @nyarly, @colinbankier. Together, as well as input from the original authors @bradleybeddoes and @smangelsdorf, we are the new maintainers of the Gotham project. Today we’re excited to announce the release of Gotham 0.3, which follows the evolution of the broader Rust ecosystem.",
+      "url": "https://gotham.rs/blog/release/2018/10/29/gotham-0.3.html",
+      "date_published": "2018-10-29T15:31:00+00:00",
+      "author": {
+        "name": "@whitfin, @nyarly, @colinbankier",
+        "url": "https://gotham.rs/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "1f6655e8-89c4-4e30-91e6-776449b88293",
+      "title": "Finding and fixing memory leaks in a Hyper application or 'How I Learned to Stop Worrying and Love the Allocator'",
+      "content_text": "I was doing some initial load testing of the next version our application, so that performance regressions can be tracked, when I noticed something. After only a few seconds of throwing wrk at it, our backend was using 1.3GB of memory, growing at around 50MB/s. Yikes.",
+      "url": "https://blog.1aim.com/2018/10/finding-and-fixing-memory-leaks-in-a-hyper-application-or-how-i-learned-to-stop-worrying-and-love-the-allocator/",
+      "date_published": "2018-10-29T00:00:00+00:00",
+      "author": {
+        "name": "Ferdia McKeogh",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "268e1717-7988-4cb0-83e4-f4c902a969a8",
+      "title": "Auth Web Microservice with rust using Actix-Web - Part 2",
+      "content_text": "Picking up from part one, we now have as server that takes an email address from a request and spits out a JSON response with an invitation object. In part one I said that we will send an email to the user, after some thought and feedback, we will be skipping this part now (look out for part 3). For now we will use the http response from the server to verify the email so to speak.",
+      "url": "https://hgill.io/posts/auth-microservice-rust-actix-web-diesel-complete-tutorial-part-2/",
+      "date_published": "2018-10-28T13:02:37+01:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://hgill.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6bf46601-8824-4e8e-b625-f3b6f9d074da",
+      "title": "From Rust to beyond: The PHP galaxy",
+      "content_text": "This blog post is part of a series explaining how to send Rust beyond earth, into many different galaxies. The galaxy we will explore today is the PHP galaxy. This post will explain what PHP is, how to compile any Rust program to C and then to a PHP native extension.",
+      "url": "https://mnt.io/2018/10/29/from-rust-to-beyond-the-php-galaxy/",
+      "date_published": "2018-10-29T10:17:12+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e5f786a1-6dd9-427f-8202-03b5a38a7ace",
+      "title": "My release checklist for Rust programs",
+      "content_text": "After some practice with three of my Rust projects (fd, hyperfine and bat), my workflow has converged to something that works quite well and avoids many pitfalls that I have walked into in the past. My hope in writing this post is that this process can be useful for others as well. The following is my release checklist for fd, but I have very similar lists for other projects.",
+      "url": "https://dev.to/sharkdp/my-release-checklist-for-rust-programs-1m33",
+      "date_published": "2018-10-28T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://dev.to/sharkdp"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7141c453-0f38-4d85-a3bd-f01abc08ad77",
+      "title": "2d graphics in Rust discussion - A look at GPU memory management",
+      "content_text": "In this post I'll write about an piece of the low level details of an hypothetical rust 2d graphics crate built on top of gfx-hal. Gfx provides a vulkan-like interface implemented on top of vulkan, d3d12, metal or flavors of OpenGL. just like the previous post this is in the context of recent discussions about a 2d graphics crate in rust.",
+      "url": "https://nical.github.io/posts/rust-2d-graphics-02.html",
+      "date_published": "2018-10-28T00:00:00+02:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "427d9cb0-4562-45c7-b6f0-3defc4df172b",
+      "title": "Improving ndarray-csv: Goodbye failure, Hello Extension Traits",
+      "content_text": "Two weeks ago, I wrote a blog post explaining some design decisions that I made for the ndarray-csv crate. Based on some excellent Reddit comments and GitHub issues from dtolnay, I have amended some of these decisions.",
+      "url": "https://paulkernfeld.com/2018/10/27/improving-ndarray-csv.html",
+      "date_published": "2018-10-27T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e64df9c0-3056-4720-837e-670543317c59",
       "title": "Problems Scaling A Large Multi-Crate Rust Project",
       "content_text": "We have 85K lines of Rust code implementing the backend of our Pernosco debugger. To impose some modularity constraints and to reduce build times, from the beginning we organized our code as a large set of crates in a single Cargo workspace in a single Gitlab repository. Currently we have 48 crates. This has mostly worked pretty well but as the number of our crates keeps increasing, we have hit some serious scalability problems.",

@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "1f6655e8-89c4-4e30-91e6-776449b88293",
+      "title": "Finding and fixing memory leaks in a Hyper application or 'How I Learned to Stop Worrying and Love the Allocator'",
+      "content_text": "I was doing some initial load testing of the next version our application, so that performance regressions can be tracked, when I noticed something. After only a few seconds of throwing wrk at it, our backend was using 1.3GB of memory, growing at around 50MB/s. Yikes.",
+      "url": "https://blog.1aim.com/2018/10/finding-and-fixing-memory-leaks-in-a-hyper-application-or-how-i-learned-to-stop-worrying-and-love-the-allocator/",
+      "date_published": "2018-10-29T00:00:00+00:00",
+      "author": {
+        "name": "Ferdia McKeogh",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6bf46601-8824-4e8e-b625-f3b6f9d074da",
+      "title": "From Rust to beyond: The PHP galaxy",
+      "content_text": "This blog post is part of a series explaining how to send Rust beyond earth, into many different galaxies. The galaxy we will explore today is the PHP galaxy. This post will explain what PHP is, how to compile any Rust program to C and then to a PHP native extension.",
+      "url": "https://mnt.io/2018/10/29/from-rust-to-beyond-the-php-galaxy/",
+      "date_published": "2018-10-29T10:17:12+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://mnt.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e5f786a1-6dd9-427f-8202-03b5a38a7ace",
+      "title": "My release checklist for Rust programs",
+      "content_text": "After some practice with three of my Rust projects (fd, hyperfine and bat), my workflow has converged to something that works quite well and avoids many pitfalls that I have walked into in the past. My hope in writing this post is that this process can be useful for others as well. The following is my release checklist for fd, but I have very similar lists for other projects.",
+      "url": "https://dev.to/sharkdp/my-release-checklist-for-rust-programs-1m33",
+      "date_published": "2018-10-28T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://dev.to/sharkdp"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "427d9cb0-4562-45c7-b6f0-3defc4df172b",
+      "title": "Improving ndarray-csv: Goodbye failure, Hello Extension Traits",
+      "content_text": "Two weeks ago, I wrote a blog post explaining some design decisions that I made for the ndarray-csv crate. Based on some excellent Reddit comments and GitHub issues from dtolnay, I have amended some of these decisions.",
+      "url": "https://paulkernfeld.com/2018/10/27/improving-ndarray-csv.html",
+      "date_published": "2018-10-27T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e64df9c0-3056-4720-837e-670543317c59",
       "title": "Problems Scaling A Large Multi-Crate Rust Project",
       "content_text": "We have 85K lines of Rust code implementing the backend of our Pernosco debugger. To impose some modularity constraints and to reduce build times, from the beginning we organized our code as a large set of crates in a single Cargo workspace in a single Gitlab repository. Currently we have 48 crates. This has mostly worked pretty well but as the number of our crates keeps increasing, we have hit some serious scalability problems.",
