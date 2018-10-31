@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "13502f64-39c2-4eae-9825-b68c2056bc66",
+      "title": "The Embedded Working Group Newsletter - Embedded on Stable!",
+      "content_text": "This is a special \"spotlight\" edition of the newsletter, where we look at a few topics in a bit more detail: Embedded Rust Applications on Stable, Cortex-A team, shared-bus, and more.",
+      "url": "https://rust-embedded.github.io/blog/2018-10-28-newsletter-14/",
+      "date_published": "2018-10-28T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "af77ca8e-342a-450b-90e8-a6b1d485c8b8",
       "title": "Bluetooth Low Energy with Rust",
       "content_text": "For a change of pace, I have been learning embedded development using Rust in my spare time, which has been an exciting challenge. A core component of my project is to have two devices communicating wirelessly, and (at the time I started working on this) there were no “no-std” Rust Bluetooth crates available. So I started to write my own. I had already chosen to work on the Nucleo, and to use the IDB05A1 shield, which contains a BlueNRG-MS module.",

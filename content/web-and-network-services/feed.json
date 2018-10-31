@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4b5e36d0-0775-48da-a6f9-ab19ce9a5aae",
+      "title": "Serverless Rust",
+      "content_text": "This is going to be the first post ( and hopefully not last ) in a series of posts about writing (and thinking about) serverless applications in Rust. Stay tuned…",
+      "url": "https://medium.com/@softprops/serverless-rust-318732a3596",
+      "date_published": "2018-10-30T02:08:22.553+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "77d7a663-c11c-476c-a180-a84d0edf2975",
       "title": "Announcing Gotham 0.3",
       "content_text": "First of all, hello there! This is the first announcement after the call for maintainers back in summer, and includes the efforts of several new faces: @whitfin, @nyarly, @colinbankier. Together, as well as input from the original authors @bradleybeddoes and @smangelsdorf, we are the new maintainers of the Gotham project. Today we’re excited to announce the release of Gotham 0.3, which follows the evolution of the broader Rust ecosystem.",

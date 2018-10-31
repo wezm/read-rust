@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "092a372d-fa4a-48e7-8382-c85069e9a425",
+      "title": "Pyro - A fast, small and documented Entity Component System",
+      "content_text": "In contrast to many other ECS, iteration in Pyro is fully linear. Different combinations of components always live in the same storage. The advantage is that iteration is always fully linear and no cache is wasted. The storage behind the scene is a SoA storage.",
+      "url": "https://maikklein.github.io/pyro-ecs/",
+      "date_published": "2018-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Maik Klein",
+        "url": "https://maikklein.github.io/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
+      "id": "38c548bb-e3d4-428d-9a95-89ca0c8ce3c9",
+      "title": "What is Rusty ECMA Script Scanner (RESS)",
+      "content_text": "After releasing the Rusty ECMA Script Scanner (RESS) 0.5, my next big effort in the Rust+Javascript space is to increase the amount of documentation. This post is an effort to clarify what RESS does and how someone might use it.",
+      "url": "https://wiredforge.com/blog/rusty_ecma/what-is-a-scanner/index.html",
+      "date_published": "2018-10-02T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "13502f64-39c2-4eae-9825-b68c2056bc66",
+      "title": "The Embedded Working Group Newsletter - Embedded on Stable!",
+      "content_text": "This is a special \"spotlight\" edition of the newsletter, where we look at a few topics in a bit more detail: Embedded Rust Applications on Stable, Cortex-A team, shared-bus, and more.",
+      "url": "https://rust-embedded.github.io/blog/2018-10-28-newsletter-14/",
+      "date_published": "2018-10-28T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "4b5e36d0-0775-48da-a6f9-ab19ce9a5aae",
+      "title": "Serverless Rust",
+      "content_text": "This is going to be the first post ( and hopefully not last ) in a series of posts about writing (and thinking about) serverless applications in Rust. Stay tuned…",
+      "url": "https://medium.com/@softprops/serverless-rust-318732a3596",
+      "date_published": "2018-10-30T02:08:22.553+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "d8946b80-5782-44b2-80d9-9ac2e18eb5d0",
       "title": "Qt applications with Cargo",
       "content_text": "This blog shows how Qt applications can be built with Cargo. The goal is to make compiling them as simple as installing Qt and running cargo build.",

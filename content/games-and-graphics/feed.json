@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "092a372d-fa4a-48e7-8382-c85069e9a425",
+      "title": "Pyro - A fast, small and documented Entity Component System",
+      "content_text": "In contrast to many other ECS, iteration in Pyro is fully linear. Different combinations of components always live in the same storage. The advantage is that iteration is always fully linear and no cache is wasted. The storage behind the scene is a SoA storage.",
+      "url": "https://maikklein.github.io/pyro-ecs/",
+      "date_published": "2018-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Maik Klein",
+        "url": "https://maikklein.github.io/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "7141c453-0f38-4d85-a3bd-f01abc08ad77",
       "title": "2d graphics in Rust discussion - A look at GPU memory management",
       "content_text": "In this post I'll write about an piece of the low level details of an hypothetical rust 2d graphics crate built on top of gfx-hal. Gfx provides a vulkan-like interface implemented on top of vulkan, d3d12, metal or flavors of OpenGL. just like the previous post this is in the context of recent discussions about a 2d graphics crate in rust.",
