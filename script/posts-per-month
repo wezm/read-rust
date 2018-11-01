@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+require 'json'
+require 'time'
+
+unless ARGV[0]
+  $stderr.puts "Usage posts-per-month path/to/posts.json"
+  exit 1
+end
+
+feed = JSON.parse(File.read(ARGV[0]))
+
+results = Hash.new { |h, k| h[k] = Hash.new(0) }
+
+feed['items'].each do |post|
+  t = Time.parse(post['date_published'])
+  results[t.year][t.month] += 1
+end
+
+CSV do |csv|
+  results.each do |year, stats|
+    stats.each do |month, count|
+      csv << [year, month, count]
+    end
+  end
+end
