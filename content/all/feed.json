@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3c73e50b-c4cd-43ea-9214-49f711bf3058",
+      "title": "MIR-based borrowck is almost here",
+      "content_text": "Now that the final Rust 2018 Release Candidate has shipped, I thought it would be a good idea to do another update on the state of the MIR-based borrow check (aka NLL). Let’s get the highlights out of the way. Most importantly, Rust 2018 crates will use NLL by default. Once the Rust 2018 release candidate becomes stable, we plan to switch Rust 2015 crates to use NLL as well, but we’re holding off until we have some more experience with people using it in the wild.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/10/31/mir-based-borrowck-is-almost-here/",
+      "date_published": "2018-10-31T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "092a372d-fa4a-48e7-8382-c85069e9a425",
       "title": "Pyro - A fast, small and documented Entity Component System",
       "content_text": "In contrast to many other ECS, iteration in Pyro is fully linear. Different combinations of components always live in the same storage. The advantage is that iteration is always fully linear and no cache is wasted. The storage behind the scene is a SoA storage.",
