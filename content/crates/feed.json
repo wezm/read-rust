@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "db47620d-045e-42dc-bc1a-6aedaed9d948",
+      "title": "eyeoh: My first Rust library",
+      "content_text": "I realized I kept copy and pasting (or re-writing) functions to take user input or read simple files into Rust variables. So I’ve been working on a Rust library that attempts to make these tasks easier.",
+      "url": "https://sts10.github.io//2018/11/02/eyeoh-rust-library.html",
+      "date_published": "2018-11-02T22:18:50+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "092a372d-fa4a-48e7-8382-c85069e9a425",
       "title": "Pyro - A fast, small and documented Entity Component System",
       "content_text": "In contrast to many other ECS, iteration in Pyro is fully linear. Different combinations of components always live in the same storage. The advantage is that iteration is always fully linear and no cache is wasted. The storage behind the scene is a SoA storage.",

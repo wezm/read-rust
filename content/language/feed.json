@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "bfd4f2e7-3e44-4383-a144-ae5da7c664fa",
+      "title": "After NLL: Interprocedural conflicts",
+      "content_text": "In my previous post on the status of NLL, I promised to talk about “What is next?” for ownership and borrowing in Rust. I want to lay out the various limitat...",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/11/01/after-nll-interprocedural-conflicts/",
+      "date_published": "2018-11-01T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dd822196-d8f4-4764-9727-6096581c035a",
+      "title": "On dealing with owning and borrowing in public interfaces",
+      "content_text": "I’ve been writing on a few examples code lately to add to documentations of some crates of mine. I write a lot of code that creates new objects that need other objects in order to be built. Most of the APIs you can see around tend to love the borrow principle – and I do.",
+      "url": "https://phaazon.net/blog/on-owning-borrowing-pub-interface",
+      "date_published": "2018-11-04T01:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7be81fee-ef29-448f-9e03-9be0fc63fbb7",
+      "title": "Anchored and Uniform Paths",
+      "content_text": "Rust 2018 is almost out the door, but there is one big decision the language team has yet to make. It has to do with the modules and paths system, so of course it is a very easy decision that no one has a strong opinion about. ;-)\nIn Rust 2018, we’ll be making some big changes to how paths work to try to create a more consistent experience. The “lodestar” (if you will) of these changes is an idea we call “1path:” the idea no matter where you are in your project, whether in a use statement or normal code, a path is interpreted the same way.",
+      "url": "https://boats.gitlab.io/blog/post/anchored-uniform/",
+      "date_published": "2018-11-02T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3c73e50b-c4cd-43ea-9214-49f711bf3058",
       "title": "MIR-based borrowck is almost here",
       "content_text": "Now that the final Rust 2018 Release Candidate has shipped, I thought it would be a good idea to do another update on the state of the MIR-based borrow check (aka NLL). Let’s get the highlights out of the way. Most importantly, Rust 2018 crates will use NLL by default. Once the Rust 2018 release candidate becomes stable, we plan to switch Rust 2015 crates to use NLL as well, but we’re holding off until we have some more experience with people using it in the wild.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b49cc876-bb7e-4861-a0d6-34b4396b3600",
+      "title": "Rust Nightly, Travis CI and Code Coverage",
+      "content_text": "How to setup test a Rust Nightly project with a workspace in Travis CI and collect coverage information with kcov and Codecov.",
+      "url": "https://baptiste.gelez.xyz/~/Rust/rust-nightly-travis-ci-and-code-coverage/",
+      "date_published": "2018-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Baptiste Gelez",
+        "url": "https://baptiste.gelez.xyz/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "96f12355-f732-45f5-9ca2-d2e68bc741ab",
       "title": "Plumbing the Deps of the Crate: Caching Rust Docker Builds",
       "content_text": "Learn how to cache your Docker builds with Rust better so you don't keep downloading and building your deps over and over and over again!",
