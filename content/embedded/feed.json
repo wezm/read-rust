@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e8029bd5-78ca-4797-bf1b-9f909f132a4b",
+      "title": "Monotron at Rust Belt Rust",
+      "content_text": "So now @rustbeltrust is over, I thought it was worth writing down a few details about what Monotron can do. It's had a few upgrades since @RustFest Paris! I tried to keep them under wraps to avoid spoilers but I can share them now. This is an un-roll and re-edit of my Twitter thread, and the features listed here are in no particular order.",
+      "url": "https://railwayelectronics.blogspot.com/2018/11/monotron-at-rust-belt-rust.html",
+      "date_published": "2018-11-04T20:49:00.001+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "13502f64-39c2-4eae-9825-b68c2056bc66",
       "title": "The Embedded Working Group Newsletter - Embedded on Stable!",
       "content_text": "This is a special \"spotlight\" edition of the newsletter, where we look at a few topics in a bit more detail: Embedded Rust Applications on Stable, Cortex-A team, shared-bus, and more.",
@@ -173,7 +187,7 @@
       "url": "http://railwayelectronics.blogspot.com/2018/07/where-next-for-monotron.html?m=1",
       "date_published": "2018-07-24T22:40:00+01:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [
@@ -638,7 +652,7 @@
       "url": "http://railwayelectronics.blogspot.com.au/2018/02/i-decided-to-make-1980s-home-computer.html?m=1",
       "date_published": "2018-02-20T22:16:00+00:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [
@@ -767,7 +781,7 @@
       "url": "http://railwayelectronics.blogspot.com.au/2018/01/i-recently-picked-up-embedded-project.html",
       "date_published": "2018-01-14T00:00:00+00:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [

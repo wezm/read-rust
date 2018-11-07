@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "09e9a0eb-339f-496e-8477-911e89774938",
+      "title": "Learning a new language for more than 2 months (feat. Exercism)",
+      "content_text": "Usually I take about a week to learn a new language so I can start doing some real work with it. After all a programming language (at least the high level and dynamic ones) is just assignment, calculation, branching, looping and reuse (and in certain cases, concurrency/parallelism, not gonna dive deep in defining the difference though). Well, that was true until I started learning Rust, partly for my own leisure. I still don’t feel comfortable writing a complete Rust code. Though I really like the language.",
+      "url": "https://cslai.coolsilon.com/2018/11/06/learning-a-new-language-for-more-than-2-months-feat-exercism/",
+      "date_published": "2018-11-06T11:18:35+00:00",
+      "author": {
+        "name": "Jeffrey04",
+        "url": "https://cslai.coolsilon.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "a758c495-92fa-476d-9758-a916dc50c2f9",
       "title": "Summer School With The Rust Compiler",
       "content_text": "Learning Rust is hard for everyone, but it’s even worse for me because I’ve been working with Ruby during past ten years. Switching to Rust from Ruby is leaving an anything-goes hippie commune to a summer school for delinquent programmers run by a sadistic and unforgiving teacher. Why would anyone use a compiler like this? The answer is simple: to learn how to write better code.",

@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "09e9a0eb-339f-496e-8477-911e89774938",
+      "title": "Learning a new language for more than 2 months (feat. Exercism)",
+      "content_text": "Usually I take about a week to learn a new language so I can start doing some real work with it. After all a programming language (at least the high level and dynamic ones) is just assignment, calculation, branching, looping and reuse (and in certain cases, concurrency/parallelism, not gonna dive deep in defining the difference though). Well, that was true until I started learning Rust, partly for my own leisure. I still don’t feel comfortable writing a complete Rust code. Though I really like the language.",
+      "url": "https://cslai.coolsilon.com/2018/11/06/learning-a-new-language-for-more-than-2-months-feat-exercism/",
+      "date_published": "2018-11-06T11:18:35+00:00",
+      "author": {
+        "name": "Jeffrey04",
+        "url": "https://cslai.coolsilon.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "6e6bbbca-9a60-4c29-a050-1d34f08192ea",
+      "title": "A New Way of Thinking",
+      "content_text": "Rust was my language of the year. You know, that thing where programmers set out to learn a new programming language every year. Usually not to be productive at it but to familiarize themselves with current trends in language design, implementation, and paradigms. I had heard a lot of good stuff about Rust and decided late last year to make it my 2018 language. I’m only a few days in but I’ve been smacked by some of what I consider the best ideas in programming I’ve encountered yet.",
+      "url": "https://boakye.yiadom.org/rust/new/",
+      "date_published": "2018-11-04T23:59:50+00:00",
+      "author": {
+        "name": "Yaw Boakye",
+        "url": "https://boakye.yiadom.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "495a9412-287b-4baf-af46-007603eff49a",
+      "title": "A hammer you can only hold by the handle",
+      "content_text": "Today we’re looking at the rust borrow checker from a different perspective. As you may know, the borrow checker is designed to safely handle memory allocation and ownership, preventing accessess to invalid memory and ensuring data-race freedom. This is a form of resource management: the borrow checker is tracking who’s in charge of a chunk of memory, and who is currently allowed to read or write to it. In this post, we’ll see how these facilities can be used to enforce higher-level API constraints in your libraries and software. Once you’re familiar with these techniques, we’ll cover how the same principles apply to advanced memory management and handling of other more abstract resources.",
+      "url": "https://blog.systems.ethz.ch/blog/2018/a-hammer-you-can-only-hold-by-the-handle.html",
+      "date_published": "2018-11-05T00:00:00+00:00",
+      "author": {
+        "name": "Andrea Lattuada",
+        "url": "https://blog.systems.ethz.ch/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e8029bd5-78ca-4797-bf1b-9f909f132a4b",
+      "title": "Monotron at Rust Belt Rust",
+      "content_text": "So now @rustbeltrust is over, I thought it was worth writing down a few details about what Monotron can do. It's had a few upgrades since @RustFest Paris! I tried to keep them under wraps to avoid spoilers but I can share them now. This is an un-roll and re-edit of my Twitter thread, and the features listed here are in no particular order.",
+      "url": "https://railwayelectronics.blogspot.com/2018/11/monotron-at-rust-belt-rust.html",
+      "date_published": "2018-11-04T20:49:00.001+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "14df2f8d-908b-4836-966f-b307f763319d",
+      "title": "How to speed up the Rust compiler in 2018: NLL edition",
+      "content_text": "Niko Matsakis recently blogged about the Rust compiler’s new borrow checker, which implements non-lexical lifetimes (NLL). The new borrow checker is a really nice improvement to Rust, because it accepts many sound programs that the old borrow checker rejected.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/11/06/how-to-speed-up-the-rust-compiler-in-2018-nll-edition/",
+      "tweet_url": "https://twitter.com/nnethercote/status/1059600194839359488",
+      "date_published": "2018-11-06T00:09:41+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "b49cc876-bb7e-4861-a0d6-34b4396b3600",
       "title": "Rust Nightly, Travis CI and Code Coverage",
       "content_text": "How to setup test a Rust Nightly project with a workspace in Travis CI and collect coverage information with kcov and Codecov.",
@@ -4726,7 +4797,7 @@
       "tweet_url": "https://twitter.com/therealjpster/status/1021873858826194947",
       "date_published": "2018-07-24T22:40:00+01:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [
@@ -10986,7 +11057,7 @@
       "url": "http://railwayelectronics.blogspot.com.au/2018/02/i-decided-to-make-1980s-home-computer.html?m=1",
       "date_published": "2018-02-20T22:16:00+00:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [
@@ -12328,7 +12399,7 @@
       "url": "http://railwayelectronics.blogspot.com.au/2018/01/i-recently-picked-up-embedded-project.html",
       "date_published": "2018-01-14T00:00:00+00:00",
       "author": {
-        "name": "theJPster",
+        "name": "Jonathan Pallant",
         "url": "http://railwayelectronics.blogspot.com.au/"
       },
       "tags": [

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "14df2f8d-908b-4836-966f-b307f763319d",
+      "title": "How to speed up the Rust compiler in 2018: NLL edition",
+      "content_text": "Niko Matsakis recently blogged about the Rust compiler’s new borrow checker, which implements non-lexical lifetimes (NLL). The new borrow checker is a really nice improvement to Rust, because it accepts many sound programs that the old borrow checker rejected.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/11/06/how-to-speed-up-the-rust-compiler-in-2018-nll-edition/",
+      "date_published": "2018-11-06T00:09:41+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "80d71718-3acf-49d1-ad47-3e05c5da17a2",
       "title": "Parsing logs 230x faster with Rust",
       "content_text": "Perhaps surprisingly, one of the most challenging things about operating RubyGems.org is the logs. A single day of request logs is usually around 500 gigabytes on disk. So every day, we generate about 500 files that are 85MB on disk, and contain about a million streaming JSON objects that take up 1GB when uncompressed. What we want out of those files is incredibly tiny—a few thousand integers, labelled with names and version numbers. Without any real idea of how to get those counts out of S3, I started by writing a proof of concept Ruby script that could parse one of the 500 log files and print out stats from it. Even on my super-fast laptop, my prototype script would take more than 16 hours to parse 24 hours worth of logs.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6e6bbbca-9a60-4c29-a050-1d34f08192ea",
+      "title": "A New Way of Thinking",
+      "content_text": "Rust was my language of the year. You know, that thing where programmers set out to learn a new programming language every year. Usually not to be productive at it but to familiarize themselves with current trends in language design, implementation, and paradigms. I had heard a lot of good stuff about Rust and decided late last year to make it my 2018 language. I’m only a few days in but I’ve been smacked by some of what I consider the best ideas in programming I’ve encountered yet.",
+      "url": "https://boakye.yiadom.org/rust/new/",
+      "date_published": "2018-11-04T23:59:50+00:00",
+      "author": {
+        "name": "Yaw Boakye",
+        "url": "https://boakye.yiadom.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "495a9412-287b-4baf-af46-007603eff49a",
+      "title": "A hammer you can only hold by the handle",
+      "content_text": "Today we’re looking at the rust borrow checker from a different perspective. As you may know, the borrow checker is designed to safely handle memory allocation and ownership, preventing accessess to invalid memory and ensuring data-race freedom. This is a form of resource management: the borrow checker is tracking who’s in charge of a chunk of memory, and who is currently allowed to read or write to it. In this post, we’ll see how these facilities can be used to enforce higher-level API constraints in your libraries and software. Once you’re familiar with these techniques, we’ll cover how the same principles apply to advanced memory management and handling of other more abstract resources.",
+      "url": "https://blog.systems.ethz.ch/blog/2018/a-hammer-you-can-only-hold-by-the-handle.html",
+      "date_published": "2018-11-05T00:00:00+00:00",
+      "author": {
+        "name": "Andrea Lattuada",
+        "url": "https://blog.systems.ethz.ch/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "bfd4f2e7-3e44-4383-a144-ae5da7c664fa",
       "title": "After NLL: Interprocedural conflicts",
       "content_text": "In my previous post on the status of NLL, I promised to talk about “What is next?” for ownership and borrowing in Rust. I want to lay out the various limitat...",
