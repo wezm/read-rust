@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b8931a7e-08d1-406b-b751-6bd27a9d4d67",
+      "title": "Middleware in Tide",
+      "content_text": "After the positive response to the routing and extraction proposal in Tide, I’m pleased to say that an initial implementation is available on GitHub! As a testament to the strong foundation that Rust’s ecosystem provides, the basic framework implementation took only about 1,000 lines of code.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/11/07/tide-middleware.html",
+      "date_published": "2018-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4b5e36d0-0775-48da-a6f9-ab19ce9a5aae",
       "title": "Serverless Rust",
       "content_text": "This is going to be the first post ( and hopefully not last ) in a series of posts about writing (and thinking about) serverless applications in Rust. Stay tuned…",

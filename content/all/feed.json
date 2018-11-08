@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b8931a7e-08d1-406b-b751-6bd27a9d4d67",
+      "title": "Middleware in Tide",
+      "content_text": "After the positive response to the routing and extraction proposal in Tide, I’m pleased to say that an initial implementation is available on GitHub! As a testament to the strong foundation that Rust’s ecosystem provides, the basic framework implementation took only about 1,000 lines of code.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/11/07/tide-middleware.html",
+      "date_published": "2018-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "bfe6aa2d-0dbd-4966-81cc-eebed27ca28d",
+      "title": "Higher-Order Functions in Rust",
+      "content_text": "Rust is an imperative language but it provides many tools in the standard library which adhere to a more functional style, like the Iterator trait and its methods like map, for_each, and filter. This is a quick run-down of how to define your own higher-order functions in Rust which can both take closures as parameters and return closures in such a way that you can use the two together.",
+      "url": "https://dev.to/deciduously/higher-order-functions-in-rust-287h",
+      "date_published": "2018-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Ben Lovy",
+        "url": "https://dev.to/deciduously"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "09e9a0eb-339f-496e-8477-911e89774938",
       "title": "Learning a new language for more than 2 months (feat. Exercism)",
       "content_text": "Usually I take about a week to learn a new language so I can start doing some real work with it. After all a programming language (at least the high level and dynamic ones) is just assignment, calculation, branching, looping and reuse (and in certain cases, concurrency/parallelism, not gonna dive deep in defining the difference though). Well, that was true until I started learning Rust, partly for my own leisure. I still don’t feel comfortable writing a complete Rust code. Though I really like the language.",

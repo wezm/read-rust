@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bfe6aa2d-0dbd-4966-81cc-eebed27ca28d",
+      "title": "Higher-Order Functions in Rust",
+      "content_text": "Rust is an imperative language but it provides many tools in the standard library which adhere to a more functional style, like the Iterator trait and its methods like map, for_each, and filter. This is a quick run-down of how to define your own higher-order functions in Rust which can both take closures as parameters and return closures in such a way that you can use the two together.",
+      "url": "https://dev.to/deciduously/higher-order-functions-in-rust-287h",
+      "date_published": "2018-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Ben Lovy",
+        "url": "https://dev.to/deciduously"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6e6bbbca-9a60-4c29-a050-1d34f08192ea",
       "title": "A New Way of Thinking",
       "content_text": "Rust was my language of the year. You know, that thing where programmers set out to learn a new programming language every year. Usually not to be productive at it but to familiarize themselves with current trends in language design, implementation, and paradigms. I had heard a lot of good stuff about Rust and decided late last year to make it my 2018 language. I’m only a few days in but I’ve been smacked by some of what I consider the best ideas in programming I’ve encountered yet.",
