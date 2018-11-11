@@ -10,6 +10,108 @@
   },
   "items": [
     {
+      "id": "d435191e-e40d-477d-a5ee-908808ee5eee",
+      "title": "Rust Flow: Function and Method Sequences in Rust",
+      "content_text": "Rust allows for a very functional style of value “flow” without sacrificing the performance of a more traditionally imperative sequence. Furthermore, the functional flow may offer more clarity about value lifetimes and error handling that the imperative sequence might obscure.",
+      "url": "https://myrrlyn.net/blog/misc/rust-flow",
+      "date_published": "2018-11-11T14:44:00+00:00",
+      "author": {
+        "name": "Alexander Payne",
+        "url": "https://myrrlyn.net/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "125dced7-207a-4c36-904b-3d17c903c508",
+      "title": "Optional Arguments in Rust",
+      "content_text": "When designing an API for your crate one topic which can come is how to handle optional arguments. Let’s explore our Options in Rust!",
+      "url": "https://hoverbear.org/2018/11/04/optional-arguments/",
+      "date_published": "2018-11-04T00:00:00+00:00",
+      "author": {
+        "name": "Andrew Hobden",
+        "url": "https://hoverbear.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "364d5469-2447-49c8-ab4c-e0b82da96f27",
+      "title": "Monadic do notation in Rust: Part I",
+      "content_text": "Following last time, where we saw that, given parameterision over traits (rather than just types), we could implement functors and monads in Rust that supported existing “monad-like” traits like Iterator and Future, I thought it would be interesting to tackle another one of the arguments against monads in Rust.",
+      "url": "https://varkor.github.io/blog/2018/11/10/monadic-do-notation-in-rust-part-i.html",
+      "date_published": "2018-11-10T20:10:56+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "190265bb-a65b-4acd-99e9-3d6f8a06969c",
+      "title": "proc_macro_attribute Revisited",
+      "content_text": "Recently, the procedural macro interface was somewhat stabilized. OK, there’s still the unstable proc_macro_hygiene feature you have to activate, but at least the registrar and rustc_private are no longer needed.",
+      "url": "https://llogiq.github.io/2018/11/10/proc-macro.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1061369687798415360",
+      "date_published": "2018-11-10T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4ace2654-b6a1-4a4a-9917-07f9e12c1ec2",
+      "title": "How to get the size of Rust types with -Zprint-type-sizes",
+      "content_text": "When optimizing Rust code it’s sometimes useful to know how big a type is, i.e. how many bytes it takes up in memory. std::mem::size_of can tell you, but often you want to know the exact layout as well. For example, an enum might be surprisingly big, in which case you probably will want to know if, for example, there is one variant that is much bigger than the others.",
+      "url": "https://blog.mozilla.org/nnethercote/2018/11/09/how-to-get-the-size-of-rust-types-with-zprint-type-sizes/",
+      "tweet_url": "https://twitter.com/nnethercote/status/1060739730449428480",
+      "date_published": "2018-11-09T03:42:40+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "89cf760b-0385-4e81-ad78-45b7eb3b2aa2",
+      "title": "Making progress in await syntax",
+      "content_text": "One thing we’ve left as an unresolved question so far in the matter of async/await syntax is the exact final syntax for the await operation. In the current implementation, awaits are written using a compiler plugin:\n\nasync fn foo() {\nawait!(bar());\n}\n\nThis is not because of any technical limitation: the reason we have done this is that we have not decided on the precise, final syntax for the await operation.",
+      "url": "https://boats.gitlab.io/blog/post/await-syntax/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1060567294257123329",
+      "date_published": "2018-11-08T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9dae526e-703d-4726-b68c-92f847e3c85f",
+      "title": "After NLL: Moving from borrowed data and the sentinel pattern",
+      "content_text": "Continuing on with my “After NLL” series, I want to look at another common error that I see and its solution: today’s choice is about moves from borrowed data and the Sentinel Pattern that can be used to enable them.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2018/11/10/after-nll-moving-from-borrowed-data-and-the-sentinel-pattern/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1061363212191522816",
+      "date_published": "2018-11-10T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b8931a7e-08d1-406b-b751-6bd27a9d4d67",
       "title": "Middleware in Tide",
       "content_text": "After the positive response to the routing and extraction proposal in Tide, I’m pleased to say that an initial implementation is available on GitHub! As a testament to the strong foundation that Rust’s ecosystem provides, the basic framework implementation took only about 1,000 lines of code.",
