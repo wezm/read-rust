@@ -10,12 +10,27 @@
     {
       "title": "Steve Klabnik",
       "feed_url": "http://feeds.feedburner.com/steveklabnik/words",
-      "home_page_url": "http://words.steveklabnik.com"
+      "home_page_url": "https://words.steveklabnik.com"
     },
     {
       "title": "Armin Ronacher's Thoughts and Writings",
       "feed_url": "http://lucumr.pocoo.org/feed.atom",
       "home_page_url": "http://lucumr.pocoo.org/"
+    },
+    {
+      "title": "Jon Leighton",
+      "feed_url": "http://www.jonathanleighton.com/articles.xml",
+      "home_page_url": "http://jonathanleighton.com/"
+    },
+    {
+      "title": "Baby Steps",
+      "feed_url": "http://smallcultfollowing.com/babysteps/atom.xml",
+      "home_page_url": "http://smallcultfollowing.com/babysteps/"
+    },
+    {
+      "title": "Nicholas Nethercote",
+      "feed_url": "https://blog.mozilla.org/nnethercote/feed/",
+      "home_page_url": "https://blog.mozilla.org/nnethercote"
     },
     {
       "title": "seanmonstar",
@@ -25,7 +40,7 @@
     {
       "title": "Chris Morgan’s blog",
       "feed_url": "http://chrismorgan.info/blog.xml",
-      "home_page_url": "http://chrismorgan.info/"
+      "home_page_url": "https://chrismorgan.info/"
     },
     {
       "title": "zinc.rs",
@@ -48,6 +63,26 @@
       "home_page_url": "https://blog.rust-lang.org/"
     },
     {
+      "title": "coaxion.net – slomo's blog",
+      "feed_url": "https://coaxion.net/blog/feed/",
+      "home_page_url": "https://coaxion.net/blog"
+    },
+    {
+      "title": "Articles - brandur.org",
+      "feed_url": "https://brandur.org/articles.atom",
+      "home_page_url": "https://brandur.org"
+    },
+    {
+      "title": "Dirkjan Ochtman",
+      "feed_url": "https://dirkjan.ochtman.nl/writing/feeds/all.atom.xml",
+      "home_page_url": "/writing/"
+    },
+    {
+      "title": "Dropbox Tech Blog",
+      "feed_url": "https://blogs.dropbox.com/tech/feed/",
+      "home_page_url": "https://dropboxtechblog.wordpress.com"
+    },
+    {
       "title": "Herman J. Radtke III Blog",
       "feed_url": "http://hermanradtke.com/atom.xml",
       "home_page_url": "http://hermanradtke.com/"
@@ -58,9 +93,19 @@
       "home_page_url": "https://ruudvanasseldonk.com/writing"
     },
     {
-      "title": "Aaron Turon",
-      "feed_url": "http://aturon.github.io/blog/atom.xml",
-      "home_page_url": "http://aturon.github.io/blog/"
+      "title": "Chris Krycho - tech",
+      "feed_url": "http://www.chriskrycho.com/feeds/tech.xml",
+      "home_page_url": "http://www.chriskrycho.com/"
+    },
+    {
+      "title": "Blog - Stephanie Hurlburt",
+      "feed_url": "http://stephaniehurlburt.com/blog?format=RSS",
+      "home_page_url": "http://stephaniehurlburt.com/blog/"
+    },
+    {
+      "title": "Redox - Your Next(Gen) OS",
+      "feed_url": "http://www.redox-os.org/index.xml",
+      "home_page_url": "https://www.redox-os.org/"
     },
     {
       "title": "Are we web yet?",
@@ -75,7 +120,12 @@
     {
       "title": "Llogiq on stuff",
       "feed_url": "http://llogiq.github.io/feed.xml",
-      "home_page_url": "http://llogiq.github.io/"
+      "home_page_url": "https://llogiq.github.io/"
+    },
+    {
+      "title": "Matt Keeter",
+      "feed_url": "http://www.mattkeeter.com/atom.xml",
+      "home_page_url": "http://mattkeeter.com"
     },
     {
       "title": "In Pursuit of Laziness",
@@ -98,9 +148,9 @@
       "home_page_url": "http://www.integer32.com/"
     },
     {
-      "title": "dikaiosune.github.io",
+      "title": "anp.github.io",
       "feed_url": "http://blog.adamperry.me/feed.xml",
-      "home_page_url": "http://blog.adamperry.me/"
+      "home_page_url": "https://blog.anp.lol/"
     },
     {
       "title": "Pascal's Scribbles",
@@ -138,9 +188,9 @@
       "home_page_url": "https://blog.clap.rs/"
     },
     {
-      "title": "James",
+      "title": "James Munns",
       "feed_url": "http://jamesmunns.com/feed.xml",
-      "home_page_url": "https://jamesmunns.com/"
+      "home_page_url": "https://jamesmunns.com"
     },
     {
       "title": "Seth Codes Things",
@@ -148,7 +198,12 @@
       "home_page_url": "http://www.sethhenderson.net/"
     },
     {
-      "title": "A Hoverbear's Musings",
+      "title": "Gokberk Yaltirakli",
+      "feed_url": "https://gkbrk.com/feed.xml",
+      "home_page_url": "https://gkbrk.com/"
+    },
+    {
+      "title": "Musings",
       "feed_url": "https://hoverbear.org/feed.xml",
       "home_page_url": "https://hoverbear.org/"
     },
@@ -156,6 +211,11 @@
       "title": "embed.rs",
       "feed_url": "http://embed.rs/atom.xml",
       "home_page_url": "http://embed.rs"
+    },
+    {
+      "title": "Comments on: ripgrep",
+      "feed_url": "http://mjtsai.com/blog/2016/10/12/ripgrep/feed/",
+      "home_page_url": "http://mjtsai.com/blog/2016/10/12/ripgrep/"
     },
     {
       "title": "Jon Gjengset",
@@ -198,9 +258,19 @@
       "home_page_url": "https://onesignal.com/blog/"
     },
     {
-      "title": "Blog Name",
+      "title": "Joe Wilm's Blog",
       "feed_url": "http://blog.jwilm.io/feed.xml",
-      "home_page_url": "http://blog.url.com/"
+      "home_page_url": "https://jwilm.io/blog"
+    },
+    {
+      "title": "Guillaume Endignoux",
+      "feed_url": "https://gendignoux.com/blog/feed.xml",
+      "home_page_url": "https://gendignoux.com/blog/"
+    },
+    {
+      "title": "Rust on Hacker News",
+      "feed_url": "http://hnapp.com/rss?q=rust%20type%3Astory",
+      "home_page_url": "http://hnapp.com/?q=rust%20type%3Astory"
     },
     {
       "title": "Zimon Dai's Random Thoughts",
@@ -213,9 +283,19 @@
       "home_page_url": "http://rust.fastmail.com.user.fm/index.xml"
     },
     {
+      "title": "Whatever",
+      "feed_url": "http://blog.jeffsmits.net/feed.xml",
+      "home_page_url": "http://blog.jeffsmits.net/"
+    },
+    {
       "title": "Thiago Pontes",
       "feed_url": "http://blog.thiago.me/rss/",
       "home_page_url": "http://blog.thiago.me/"
+    },
+    {
+      "title": "Bryce Fisher-Fleig",
+      "feed_url": "https://bryce.fisher-fleig.org/feed.xml",
+      "home_page_url": "https://bryce.fisher-fleig.org"
     },
     {
       "title": "Exploring Rust on Teensy",
@@ -235,7 +315,17 @@
     {
       "title": "Embedded in Rust",
       "feed_url": "http://blog.japaric.io/index.xml",
-      "home_page_url": "http://blog.japaric.io/"
+      "home_page_url": "https://blog.japaric.io/"
+    },
+    {
+      "title": "Blog on Jix' Site",
+      "feed_url": "https://jix.one/index.xml",
+      "home_page_url": "https://jix.one/"
+    },
+    {
+      "title": "Federico's Blog",
+      "feed_url": "https://people.gnome.org/~federico/blog/feeds/all.atom.xml",
+      "home_page_url": "https://people.gnome.org/~federico/blog/"
     },
     {
       "title": "blog :: [Thought] → [Article]",
@@ -243,19 +333,34 @@
       "home_page_url": "http://perplexinglyemma.blogspot.com/"
     },
     {
+      "title": "Own your bits",
+      "feed_url": "https://ownyourbits.com/feed/",
+      "home_page_url": "https://ownyourbits.com"
+    },
+    {
       "title": "alexeyzabelin.com",
       "feed_url": "https://alexeyzabelin.com/feed.xml",
       "home_page_url": "http://alexeyzabelin.com/"
     },
     {
-      "title": "Awesome Rust Newsletter",
-      "feed_url": "https://rust.libhunt.com/newsletter/feed",
-      "home_page_url": "https://rust.libhunt.com/newsletter/feed"
+      "title": "Il y a du thé renversé au bord de la table !",
+      "feed_url": "https://yoric.github.io/index.xml",
+      "home_page_url": "https://yoric.github.io/"
     },
     {
       "title": "Rust Herald",
       "feed_url": "https://herald.community.rs/rss",
       "home_page_url": "https://herald.community.rs/"
+    },
+    {
+      "title": "Writing an OS in Rust",
+      "feed_url": "https://os.phil-opp.com/rss.xml",
+      "home_page_url": "https://os.phil-opp.com"
+    },
+    {
+      "title": "Raph Levien’s blog",
+      "feed_url": "https://raphlinus.github.io/feed.xml",
+      "home_page_url": "https://raphlinus.github.io/"
     },
     {
       "title": "withoutblogs",
@@ -264,8 +369,18 @@
     },
     {
       "title": "Home / unrelenting.technology",
-      "feed_url": "https://granary-demo.appspot.com/url?input=html&amp;output=atom&amp;hub=https%3A%2F%2Fswitchboard.p3k.io&amp;url=https%3A%2F%2Funrelenting.technology%2F",
+      "feed_url": "https://granary-demo.appspot.com/url?input=html&output=atom&hub=https%3A%2F%2Fswitchboard.p3k.io&url=https%3A%2F%2Funrelenting.technology%2F",
       "home_page_url": "https://unrelenting.technology/"
+    },
+    {
+      "title": "James Routley",
+      "feed_url": "https://routley.io/feed.xml",
+      "home_page_url": "https://routley.io/"
+    },
+    {
+      "title": "Ivan Enderlin's thoughts",
+      "feed_url": "https://mnt.io/feed/",
+      "home_page_url": "https://mnt.io"
     },
     {
       "title": "Home on Kade Killary",
@@ -276,6 +391,416 @@
       "title": "So, you want to write an Operating System in Rust?",
       "feed_url": "https://sywtwaosir.wordpress.com/feed/",
       "home_page_url": "https://sywtwaosir.wordpress.com"
+    },
+    {
+      "title": "Russell Cohen",
+      "feed_url": "https://rcoh.me/index.xml",
+      "home_page_url": "https://rcoh.me/"
+    },
+    {
+      "title": "Jan Walter",
+      "feed_url": "https://www.janwalter.org/feed.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Ricky Han blog",
+      "feed_url": "http://rickyhan.com/feed.xml",
+      "home_page_url": "http://rickyhan.com/"
+    },
+    {
+      "title": "Blogs on Tokio",
+      "feed_url": "https://tokio.rs/blog/index.xml",
+      "home_page_url": "https://tokio.rs/blog/"
+    },
+    {
+      "title": "Aaron Turon",
+      "feed_url": "http://aturon.github.io/atom.xml",
+      "home_page_url": "http://aturon.github.io/"
+    },
+    {
+      "title": "Collecting Rust",
+      "feed_url": "https://marwes.github.io/feed.xml",
+      "home_page_url": "http://marwes.github.io/"
+    },
+    {
+      "title": "exyr.org",
+      "feed_url": "https://exyr.org/feed.atom",
+      "home_page_url": "https://exyr.org/"
+    },
+    {
+      "title": "ENOSPC",
+      "feed_url": "https://eno.space//blog/feed.xml",
+      "home_page_url": "https://eno.space/blog"
+    },
+    {
+      "title": "Some(udoprog)",
+      "feed_url": "https://udoprog.github.io/feed.xml",
+      "home_page_url": "https://udoprog.github.io/"
+    },
+    {
+      "title": "imag",
+      "feed_url": "https://imag-pim.org/index.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Railway Electronics",
+      "feed_url": "http://railwayelectronics.blogspot.com/feeds/posts/default",
+      "home_page_url": "http://railwayelectronics.blogspot.com/"
+    },
+    {
+      "title": "libpasta",
+      "feed_url": "https://libpasta.github.io/index.xml",
+      "home_page_url": "https://libpasta.github.io/"
+    },
+    {
+      "title": "quiet misdreavus miniblog",
+      "feed_url": "https://quietmisdreavus.net/feed.xml",
+      "home_page_url": "https://quietmisdreavus.net"
+    },
+    {
+      "title": "Barely Functional",
+      "feed_url": "https://mgattozzi.com/feed",
+      "home_page_url": "https://mgattozzi.com/"
+    },
+    {
+      "title": "Lobsters: Rust",
+      "feed_url": "https://lobste.rs/t/rust.rss",
+      "home_page_url": "https://lobste.rs/"
+    },
+    {
+      "title": "matklad",
+      "feed_url": "https://matklad.github.io//feed.xml",
+      "home_page_url": "https://matklad.github.io//"
+    },
+    {
+      "title": "Thinkofname’s blog",
+      "feed_url": "https://thinkof.name/feed.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Ed's Home Page",
+      "feed_url": "https://epage.github.io/rss.xml",
+      "home_page_url": "https://epage.github.io"
+    },
+    {
+      "title": "Casper",
+      "feed_url": "http://casualhacks.net/blog/feed.xml",
+      "home_page_url": "https://casualx.github.io"
+    },
+    {
+      "title": "rustnish",
+      "feed_url": "https://klausi.github.io/rustnish/feed.xml",
+      "home_page_url": "https://klausi.github.io/rustnish/"
+    },
+    {
+      "title": "blog.dbrgn.ch",
+      "feed_url": "https://blog.dbrgn.ch/feed.atom",
+      "home_page_url": "https://blog.dbrgn.ch/"
+    },
+    {
+      "title": "mttyng",
+      "feed_url": "http://mttyng.com/rss.xml",
+      "home_page_url": "https://mttyng.com"
+    },
+    {
+      "title": "Citybound Devblog",
+      "feed_url": "http://cityboundsim.com/devblog/rss.xml",
+      "home_page_url": "http://aeplay.co"
+    },
+    {
+      "title": "masahiko-ofgp notebook",
+      "feed_url": "https://masahiko-ofgp-notebook.blogspot.com/feeds/posts/default",
+      "home_page_url": "https://masahiko-ofgp-notebook.blogspot.com/"
+    },
+    {
+      "title": "Yet Another Embedded Software Developer",
+      "feed_url": "http://ithinuel.me/feed.xml",
+      "home_page_url": "http://ithinuel.me/"
+    },
+    {
+      "title": "Davide Aversa",
+      "feed_url": "http://www.davideaversa.it/feed/",
+      "home_page_url": "http://www.davideaversa.it"
+    },
+    {
+      "title": "Rust on Medium",
+      "feed_url": "https://medium.com/feed/tag/rust",
+      "home_page_url": "https://medium.com/tag/rust/latest?source=rss------rust-5"
+    },
+    {
+      "title": "Page Fault Blog",
+      "feed_url": "https://pagefault.blog/feed/",
+      "home_page_url": "https://pagefault.blog"
+    },
+    {
+      "title": "Electronic Ramblings",
+      "feed_url": "https://hatsunearu.github.io/feed.xml",
+      "home_page_url": "http://hatsunearu.github.io/"
+    },
+    {
+      "title": "Prevent Default",
+      "feed_url": "https://sts10.github.io//feed.xml",
+      "home_page_url": "https://sts10.github.io//"
+    },
+    {
+      "title": "troubles.md",
+      "feed_url": "http://troubles.md/index.xml",
+      "home_page_url": "http://troubles.md/"
+    },
+    {
+      "title": "Steve Zeidner",
+      "feed_url": "https://stevezeidner.com/rss.xml",
+      "home_page_url": "https://stevezeidner.com"
+    },
+    {
+      "title": "Wolfgang Ziegler",
+      "feed_url": "https://wolfgang-ziegler.com/blog/rss",
+      "home_page_url": "https://wolfgang-ziegler.com"
+    },
+    {
+      "title": "polyfloyd's stuff",
+      "feed_url": "https://polyfloyd.net/index.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Vincent Barrielle",
+      "feed_url": "https://barrielle.cedeela.fr/research_page/feeds/all.atom.xml",
+      "home_page_url": "https://barrielle.cedeela.fr/research_page/"
+    },
+    {
+      "title": "dmerej's blog",
+      "feed_url": "https://dmerej.info/blog/index.xml",
+      "home_page_url": "https://dmerej.info/blog/"
+    },
+    {
+      "title": "starlight",
+      "feed_url": "https://damad.be/joost/blog/feed.xml",
+      "home_page_url": "https://damad.be/joost/"
+    },
+    {
+      "title": "theomn",
+      "feed_url": "https://theomn.com/rss.xml",
+      "home_page_url": "https://theomn.com"
+    },
+    {
+      "title": "Julio Merino",
+      "feed_url": "http://julio.meroh.net/feed.xml",
+      "home_page_url": "http://julio.meroh.net/"
+    },
+    {
+      "title": "Bobbin Blog",
+      "feed_url": "http://www.bobbin.io/blog/index.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "False Idol Factory",
+      "feed_url": "https://falseidolfactory.com/feed.xml",
+      "home_page_url": "https://falseidolfactory.com/"
+    },
+    {
+      "title": "Infinite Negative Utility",
+      "feed_url": "https://blog.infinitenegativeutility.com/rss",
+      "home_page_url": "http://blog.infinitenegativeutility.com"
+    },
+    {
+      "title": "a̶͟g̵̡͝e͜͞ ̡́ò͝f ̴́.͏ ̶i̢̕n̶͏͠f̶̧o͢͢",
+      "feed_url": "https://ageof.info/feed.xml",
+      "home_page_url": "https://ageof.info/"
+    },
+    {
+      "title": "Ian Douglas Scott's Blog",
+      "feed_url": "https://iandouglasscott.com/feed.xml",
+      "home_page_url": "https://iandouglasscott.com/"
+    },
+    {
+      "title": "Pronounced /ˈʃɪ.vəʊ.æ/",
+      "feed_url": "https://blog.shivoa.net/feeds/posts/default",
+      "home_page_url": "https://blog.shivoa.net/"
+    },
+    {
+      "title": "Pyfisch’s Blog",
+      "feed_url": "https://pyfisch.org/blog/feed.xml",
+      "home_page_url": "https://pyfisch.org/blog/"
+    },
+    {
+      "title": "Sid Shanker’s Blog",
+      "feed_url": "http://squidarth.com/feed.xml",
+      "home_page_url": "http://squidarth.com/"
+    },
+    {
+      "title": "Danblog",
+      "feed_url": "http://danielwelch.github.io/feeds/all.atom.xml",
+      "home_page_url": "https://danielwelch.github.io/"
+    },
+    {
+      "title": "Ivan Dubrov",
+      "feed_url": "https://idubrov.github.io/feed.xml",
+      "home_page_url": "http://idubrov.name/"
+    },
+    {
+      "title": "shifting bits",
+      "feed_url": "https://bitshifter.github.io/atom.xml",
+      "home_page_url": "http://bitshifter.github.io/"
+    },
+    {
+      "title": "Garrett's Blog",
+      "feed_url": "https://gsquire.github.io/static/index.xml",
+      "home_page_url": "https://gsquire.github.io/static/"
+    },
+    {
+      "title": "speice.io",
+      "feed_url": "https://speice.io/feed.xml",
+      "home_page_url": "https://speice.io/"
+    },
+    {
+      "title": "IQDevs",
+      "feed_url": "https://iqdevs.github.io/feed.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Blogs on x5ff",
+      "feed_url": "https://blog.x5ff.xyz/blog/index.xml",
+      "home_page_url": "https://blog.x5ff.xyz/blog/"
+    },
+    {
+      "title": "Josh Mcguigan - The things I write",
+      "feed_url": "https://www.joshmcguigan.com/rss.xml",
+      "home_page_url": "https://www.joshmcguigan.com"
+    },
+    {
+      "title": "Futures-RS",
+      "feed_url": "https://rust-lang-nursery.github.io/futures-rs/feed.xml",
+      "home_page_url": "https://rust-lang-nursery.github.io/futures-rs/"
+    },
+    {
+      "title": "Ralf's Ramblings: Rust",
+      "feed_url": "https://www.ralfj.de/blog/categories/rust.xml",
+      "home_page_url": "https://www.ralfj.de/blog/categories/rust.html"
+    },
+    {
+      "title": "Home",
+      "feed_url": "https://mrandri19.github.io/feed.xml",
+      "home_page_url": "mrandri19.github.io/"
+    },
+    {
+      "title": "Home on Leo Tindall",
+      "feed_url": "https://leotindall.com/index.xml",
+      "home_page_url": "https://leotindall.com/"
+    },
+    {
+      "title": "Non-Recurring Engineering",
+      "feed_url": "http://timryan.org/feed.xml",
+      "home_page_url": "timryan.org/"
+    },
+    {
+      "title": "Artemis's blog. Development, security and more.",
+      "feed_url": "https://blog.artemix.org/article/feed",
+      "home_page_url": "https://blog.artemix.org/"
+    },
+    {
+      "title": "Benjamin Congdon's Blog",
+      "feed_url": "https://benjamincongdon.me/blog/feed.xml",
+      "home_page_url": "https://benjamincongdon.me/blog/"
+    },
+    {
+      "title": "Existing by coincidence, programming deliberately",
+      "feed_url": "https://philbooth.me/blog.atom",
+      "home_page_url": "https://philbooth.me/blog"
+    },
+    {
+      "title": "/dev/random",
+      "feed_url": "http://alex.amiran.it/rss.xml",
+      "home_page_url": "http://alex.amiran.it"
+    },
+    {
+      "title": "When Penguins Can Fly…",
+      "feed_url": "https://dorianpula.ca/feed/",
+      "home_page_url": "https://dorianpula.ca"
+    },
+    {
+      "title": "gibix",
+      "feed_url": "https://gibix.github.io/feed.xml",
+      "home_page_url": "https://gibix.github.io/"
+    },
+    {
+      "title": "Ben E. C. Boyter",
+      "feed_url": "https://boyter.org/index.xml",
+      "home_page_url": "https://boyter.org/"
+    },
+    {
+      "title": "hur.st's bl.aagh",
+      "feed_url": "https://hur.st/rss.xml",
+      "home_page_url": "https://hur.st"
+    },
+    {
+      "title": "Rust Embedded Working Group",
+      "feed_url": "https://rust-embedded.github.io/blog/rss.xml",
+      "home_page_url": "https://rust-embedded.github.io/blog"
+    },
+    {
+      "title": "Christine Dodrill's Blog",
+      "feed_url": "https://christine.website/blog.rss",
+      "home_page_url": "https://christine.website/blog"
+    },
+    {
+      "title": "Rustifications",
+      "feed_url": "http://stevedonovan.github.io/rustifications/feed.xml",
+      "home_page_url": "https://stevedonovan.github.io/rustifications/"
+    },
+    {
+      "title": "anp.github.io",
+      "feed_url": "https://blog.anp.lol/feed.xml",
+      "home_page_url": "https://blog.anp.lol/"
+    },
+    {
+      "title": "Esoterically Typed",
+      "feed_url": "https://leshow.github.io/index.xml",
+      "home_page_url": "https://leshow.github.io/"
+    },
+    {
+      "title": "Rust Network Services Working Group",
+      "feed_url": "https://rust-lang-nursery.github.io/wg-net/feed.xml",
+      "home_page_url": "/wg-net/"
+    },
+    {
+      "title": "The Cattle Grid",
+      "feed_url": "https://www.cattlegrid.info/feed.xml",
+      "home_page_url": "/"
+    },
+    {
+      "title": "Frank Rehberger",
+      "feed_url": "https://frehberg.wordpress.com/feed/",
+      "home_page_url": "https://frehberg.wordpress.com"
+    },
+    {
+      "title": "balrogboogie",
+      "feed_url": "https://write.as/balrogboogie/feed/",
+      "home_page_url": "https://write.as/balrogboogie/"
+    },
+    {
+      "title": "Michael Snoyman's blog",
+      "feed_url": "https://www.snoyman.com/feed/rust-crash-course",
+      "home_page_url": "https://www.snoyman.com/"
+    },
+    {
+      "title": "joshlf.com",
+      "feed_url": "https://joshlf.com/index.xml",
+      "home_page_url": "https://joshlf.com/"
+    },
+    {
+      "title": "Insignificant Truths",
+      "feed_url": "https://boakye.yiadom.org/index.xml",
+      "home_page_url": "https://boakye.yiadom.org/"
+    },
+    {
+      "title": "varkor’s blog",
+      "feed_url": "https://varkor.github.io/blog/feed.xml",
+      "home_page_url": "https://varkor.github.io/blog/"
+    },
+    {
+      "title": "Unsolicited Discourse",
+      "feed_url": "https://myrrlyn.net/blog.rss",
+      "home_page_url": "https://myrrlyn.net/blog"
     }
   ]
 }

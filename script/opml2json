@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'nokogiri'
+
+if ARGV.size < 1
+  $stderr.puts "Usage: opml2json subscriptions.ompl"
+  exit 1
+end
+
+opml = Nokogiri::XML.parse(File.read(ARGV[0]), nil, 'utf-8')
+json = {
+  'title' => 'Rust Blogs',
+  'description' => 'Blogs that post about the Rust programming language',
+  'feeds' => [
+  ]
+}
+
+opml.css("outline[type='rss']").each do |outline|
+  json['feeds'] << {
+    'title' => outline['title'],
+    'feed_url' => outline['xmlUrl'],
+    'home_page_url' => outline['htmlUrl'],
+  }
+end
+
+puts JSON.pretty_generate(json)

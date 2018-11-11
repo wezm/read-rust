@@ -25,9 +25,9 @@ for the whole site, as well as each of the categories:
 
 In order to discover new posts I subscribe to a lot of Rust related RSS feeds.
 The list is available in [OPML] (readily importable into [feed
-readers](/faq.html#subscribe)) and JSON:
+readers](/faq.html#subscribe)):
 
-* Blog list: [OPML](/rust-blogs.opml) or [JSON]()
+* Blog list: [OPML](/rust-blogs.opml))
 
 ## Social Media
 
