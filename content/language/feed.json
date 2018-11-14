@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "858249f6-6979-48c9-a138-1b7fd2fc9502",
+      "title": "Things Rust doesn’t let you do",
+      "content_text": "A survey of things that Rust doesn’t let you do although arguably safe.",
+      "url": "https://medium.com/@GolDDranks/things-rust-doesnt-let-you-do-draft-f596a3c740a5",
+      "date_published": "2018-11-12T01:34:25.494+00:00",
+      "author": {
+        "name": "Pyry Kontio",
+        "url": "https://medium.com/@GolDDranks"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c6c90807-5108-434e-9dc0-c5ba8135420d",
+      "title": "Truly Zero Cost",
+      "content_text": "I know it is claimed how Rust has zero cost abstractions and such and that all these levels of abstractions will just go away in a release build. But there’s a difference in hearing the theory and seeing it really happen in practice. And I don’t appreciate it because I’d consider it magic, but more because I understand how that is being done and it still looks cool.",
+      "url": "https://vorner.github.io/2018/11/11/truly-zero-cost.html",
+      "date_published": "2018-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d435191e-e40d-477d-a5ee-908808ee5eee",
       "title": "Rust Flow: Function and Method Sequences in Rust",
       "content_text": "Rust allows for a very functional style of value “flow” without sacrificing the performance of a more traditionally imperative sequence. Furthermore, the functional flow may offer more clarity about value lifetimes and error handling that the imperative sequence might obscure.",

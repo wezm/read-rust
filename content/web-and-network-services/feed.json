@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b2687a6e-55b3-4d3b-a025-fc9e7c592e8e",
+      "title": "Serve archived static files over HTTP",
+      "content_text": "Say you want to store a huge number of very small filesthat you will only access over HTTP.For example:You are using rustdoc to render the documentation of a library.Without much work you’ll end up with about 100k HTML filesthat are about 10kB each.As it turns out,this number of small files is very annoying for any kind of file system performance.Best case: making copies/backups is slow.Worst case: You’re using an anti virus software and it takes ages.",
+      "url": "https://deterministic.space/serve-archived-static-files-over-http.html",
+      "date_published": "2018-11-11T00:00:00+01:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "b8931a7e-08d1-406b-b751-6bd27a9d4d67",
       "title": "Middleware in Tide",
       "content_text": "After the positive response to the routing and extraction proposal in Tide, I’m pleased to say that an initial implementation is available on GitHub! As a testament to the strong foundation that Rust’s ecosystem provides, the basic framework implementation took only about 1,000 lines of code.",

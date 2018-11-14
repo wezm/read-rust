@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "93922af4-e454-4bfd-a0f2-64c481a6263c",
+      "title": "Exploring a shipping puzzle, part 2",
+      "content_text": "A friend recently told me about a puzzle, which is a great excuse to explore programming craft. My Rust solution was a simple port of my second Clojure solution. The only major difference is that it takes advantage of mutability (which is idiomatic in Rust, unlike in Clojure). The Rust solution runs in about 4.22 ± 0.05 ms, or about 5x faster than the fast Clojure solution.",
+      "url": "https://kevinlynagh.com/notes/shipping-puzzle/part-2/",
+      "date_published": "2018-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Kevin Lynagh",
+        "url": "https://kevinlynagh.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "14df2f8d-908b-4836-966f-b307f763319d",
       "title": "How to speed up the Rust compiler in 2018: NLL edition",
       "content_text": "Niko Matsakis recently blogged about the Rust compiler’s new borrow checker, which implements non-lexical lifetimes (NLL). The new borrow checker is a really nice improvement to Rust, because it accepts many sound programs that the old borrow checker rejected.",

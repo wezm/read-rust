@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "b2687a6e-55b3-4d3b-a025-fc9e7c592e8e",
+      "title": "Serve archived static files over HTTP",
+      "content_text": "Say you want to store a huge number of very small filesthat you will only access over HTTP.For example:You are using rustdoc to render the documentation of a library.Without much work you’ll end up with about 100k HTML filesthat are about 10kB each.As it turns out,this number of small files is very annoying for any kind of file system performance.Best case: making copies/backups is slow.Worst case: You’re using an anti virus software and it takes ages.",
+      "url": "https://deterministic.space/serve-archived-static-files-over-http.html",
+      "date_published": "2018-11-11T00:00:00+01:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b612b468-7306-4f7b-a09a-2b4f0bac5b55",
+      "title": "Introducing Mundane, a new cryptography library for Rust",
+      "content_text": "Mundane is a cryptography library written in Rust and backed by BoringSSL. It aims to be difficult to misuse, ergonomic, and performant (in that order). It was originally created to serve the cryptography needs of Fuchsia, but we’ve decided to split it off as a general-purpose crate.",
+      "url": "https://joshlf.com/post/2018/11/06/introducing-mundane/",
+      "date_published": "2018-11-06T00:00:00+00:00",
+      "author": {
+        "name": "Joshua Liebow-Feeser",
+        "url": "https://joshlf.com/"
+      },
+      "tags": [
+        "Security",
+        "Crates"
+      ]
+    },
+    {
+      "id": "93922af4-e454-4bfd-a0f2-64c481a6263c",
+      "title": "Exploring a shipping puzzle, part 2",
+      "content_text": "A friend recently told me about a puzzle, which is a great excuse to explore programming craft. My Rust solution was a simple port of my second Clojure solution. The only major difference is that it takes advantage of mutability (which is idiomatic in Rust, unlike in Clojure). The Rust solution runs in about 4.22 ± 0.05 ms, or about 5x faster than the fast Clojure solution.",
+      "url": "https://kevinlynagh.com/notes/shipping-puzzle/part-2/",
+      "date_published": "2018-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Kevin Lynagh",
+        "url": "https://kevinlynagh.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "858249f6-6979-48c9-a138-1b7fd2fc9502",
+      "title": "Things Rust doesn’t let you do",
+      "content_text": "A survey of things that Rust doesn’t let you do although arguably safe.",
+      "url": "https://medium.com/@GolDDranks/things-rust-doesnt-let-you-do-draft-f596a3c740a5",
+      "date_published": "2018-11-12T01:34:25.494+00:00",
+      "author": {
+        "name": "Pyry Kontio",
+        "url": "https://medium.com/@GolDDranks"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c6c90807-5108-434e-9dc0-c5ba8135420d",
+      "title": "Truly Zero Cost",
+      "content_text": "I know it is claimed how Rust has zero cost abstractions and such and that all these levels of abstractions will just go away in a release build. But there’s a difference in hearing the theory and seeing it really happen in practice. And I don’t appreciate it because I’d consider it magic, but more because I understand how that is being done and it still looks cool.",
+      "url": "https://vorner.github.io/2018/11/11/truly-zero-cost.html",
+      "date_published": "2018-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d435191e-e40d-477d-a5ee-908808ee5eee",
       "title": "Rust Flow: Function and Method Sequences in Rust",
       "content_text": "Rust allows for a very functional style of value “flow” without sacrificing the performance of a more traditionally imperative sequence. Furthermore, the functional flow may offer more clarity about value lifetimes and error handling that the imperative sequence might obscure.",
