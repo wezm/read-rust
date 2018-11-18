@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dabab963-1e9e-4b55-bb85-d0173a1db54a",
+      "title": "Rust And Game Development",
+      "content_text": "Rust is excellent for performance crucial applications that run on multi-processor architectures and these two aspects are also critical for game development. Rust has already seen a bunch of interest from games developers like Chucklefish, Embark Studios, Ready at Dawn, etc. - but in order to really excel I’d love to organize some structured efforts to improve the ecosystem and I think it would be great if the 2019 roadmap will include game development.",
+      "url": "https://alexene.github.io/2018/11/15/Rust-and-game-development.html",
+      "date_published": "2018-11-15T00:00:00+00:00",
+      "author": {
+        "name": "Alexandru Ene",
+        "url": "https://alexene.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "092a372d-fa4a-48e7-8382-c85069e9a425",
       "title": "Pyro - A fast, small and documented Entity Component System",
       "content_text": "In contrast to many other ECS, iteration in Pyro is fully linear. Different combinations of components always live in the same storage. The advantage is that iteration is always fully linear and no cache is wasted. The storage behind the scene is a SoA storage.",

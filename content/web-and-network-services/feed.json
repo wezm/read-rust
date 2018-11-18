@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ad136bed-3540-4ced-8a77-448b94426ba3",
+      "title": "Bringing Elm’s architecture to Rust and Webassembly",
+      "content_text": "I really like Elm. It is a delightful language with an amazing ecosystem. It has an interesting architecture called TEA, The Elm Architecture. Another language I like is Rust. On paper, Rust is completely different from Elm, but in using them both, I have seen some resemblance. Having used both Elm and Rust I had something I wanted to try. Would it be possible to create The Elm Architecture in Rust?",
+      "url": "https://sindrejohansen.no/blog/willow/rust/elm/2018/11/16/willow-elm-in-rust.html",
+      "date_published": "2018-11-16T16:35:22+00:00",
+      "author": {
+        "name": "Sindre",
+        "url": "https://sindrejohansen.no/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "b2687a6e-55b3-4d3b-a025-fc9e7c592e8e",
       "title": "Serve archived static files over HTTP",
       "content_text": "Say you want to store a huge number of very small filesthat you will only access over HTTP.For example:You are using rustdoc to render the documentation of a library.Without much work you’ll end up with about 100k HTML filesthat are about 10kB each.As it turns out,this number of small files is very annoying for any kind of file system performance.Best case: making copies/backups is slow.Worst case: You’re using an anti virus software and it takes ages.",

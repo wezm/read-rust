@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "68074e79-2747-4170-970f-0e56b936578c",
+      "title": "This Year in Embedded Rust",
+      "content_text": "This year the Embedded WG set out to build the solid foundation that the embedded Rust ecosystem requires to thrive. As we approach the date of the 2018 edition release we reflect on our progress and share our achievements with you in this post.",
+      "url": "https://rust-embedded.github.io/blog/2018-11-14-this-year-in-embedded-rust/",
+      "date_published": "2018-11-14T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "e8029bd5-78ca-4797-bf1b-9f909f132a4b",
       "title": "Monotron at Rust Belt Rust",
       "content_text": "So now @rustbeltrust is over, I thought it was worth writing down a few details about what Monotron can do. It's had a few upgrades since @RustFest Paris! I tried to keep them under wraps to avoid spoilers but I can share them now. This is an un-roll and re-edit of my Twitter thread, and the features listed here are in no particular order.",

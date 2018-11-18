@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "b21ca2e0-5670-4a7b-af11-3a6c1312d5e2",
+      "title": "Rust, MongoDB & Wither 0.6",
+      "content_text": "Hello everyone! I would like to share an update on an open source project which I have been developing for a little while now. It is a Rust project called Wither which attempts to “provide a simple, sane & predictable interface into MongoDB, based on data models”. This post is about the 0.6 release of this crate, and I would like to dive into some of the aspects of developing this release which I really enjoyed or which I found interesting.",
+      "url": "https://medium.com/docql/https-medium-com-docql-rust-mongodb-wither-13e803c9ae72",
+      "date_published": "2018-11-14T18:33:12.226+00:00",
+      "author": {
+        "name": "Anthony Dodd",
+        "url": "https://medium.com/docql"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "68074e79-2747-4170-970f-0e56b936578c",
+      "title": "This Year in Embedded Rust",
+      "content_text": "This year the Embedded WG set out to build the solid foundation that the embedded Rust ecosystem requires to thrive. As we approach the date of the 2018 edition release we reflect on our progress and share our achievements with you in this post.",
+      "url": "https://rust-embedded.github.io/blog/2018-11-14-this-year-in-embedded-rust/",
+      "date_published": "2018-11-14T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e8b911ca-d007-441e-93e3-d8f1f1b89a00",
+      "title": "Program Synthesis is Possible in Rust",
+      "content_text": "Program synthesis is the act of automatically constructing a program thatfulfills a given specification. I recently stumbled across Adrian Sampson’s Program Synthesis is Possible blog post. Adrian describes and implements minisynth, a toy program synthesizer that generates constants for holes in a template program when given a specification. What fun! As a way to learn more about program synthesis myself, I ported minisynth to Rust.",
+      "url": "http://fitzgeraldnick.com/2018/11/15/program-synthesis-is-possible-in-rust.html",
+      "date_published": "2018-11-15T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dabab963-1e9e-4b55-bb85-d0173a1db54a",
+      "title": "Rust And Game Development",
+      "content_text": "Rust is excellent for performance crucial applications that run on multi-processor architectures and these two aspects are also critical for game development. Rust has already seen a bunch of interest from games developers like Chucklefish, Embark Studios, Ready at Dawn, etc. - but in order to really excel I’d love to organize some structured efforts to improve the ecosystem and I think it would be great if the 2019 roadmap will include game development.",
+      "url": "https://alexene.github.io/2018/11/15/Rust-and-game-development.html",
+      "date_published": "2018-11-15T00:00:00+00:00",
+      "author": {
+        "name": "Alexandru Ene",
+        "url": "https://alexene.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ad136bed-3540-4ced-8a77-448b94426ba3",
+      "title": "Bringing Elm’s architecture to Rust and Webassembly",
+      "content_text": "I really like Elm. It is a delightful language with an amazing ecosystem. It has an interesting architecture called TEA, The Elm Architecture. Another language I like is Rust. On paper, Rust is completely different from Elm, but in using them both, I have seen some resemblance. Having used both Elm and Rust I had something I wanted to try. Would it be possible to create The Elm Architecture in Rust?",
+      "url": "https://sindrejohansen.no/blog/willow/rust/elm/2018/11/16/willow-elm-in-rust.html",
+      "date_published": "2018-11-16T16:35:22+00:00",
+      "author": {
+        "name": "Sindre",
+        "url": "https://sindrejohansen.no/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "2a3a85cf-b4ac-49ff-9a27-4d377cd3d0cb",
+      "title": "Introducing pest into glsl and hindsight about nom vs. pest (part 1)",
+      "content_text": "This is the first article out of a (I guess?!) series of upcoming articles about… parsing. More specifically, I’ve been writing the glsl crate for a while now and the current, in-use parser is backed with nom. nom is a parser combinator crate written originally by @geal and there has been a lot of fuzz around nom vs. pest lately.\n\nSoooooooooooo. Because glsl is written with nom in its third iteration and because nom is now at version 4, I decided it was time to update the parser code of glsl. I heard about the comparison between pest and nom and decided to write an implementation with pest.\n\nThis is the first article of a series about how writing a pest looks like is fun compared to writing the nom parser. I’ll post several articles as I advance and see interesting matter to discuss and share.",
+      "url": "https://phaazon.net/blog/glsl-pest-part-1",
+      "date_published": "2018-11-17T05:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6b8f2916-9634-4d6b-ae64-02d565c58659",
+      "title": "Gutenberg is out, Zola 0.5.0 is in",
+      "content_text": "Gutenberg changes name to Zola and gets a big release to celebrate.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-zola-0-5-0/",
+      "date_published": "2018-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": null
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "4d211c62-3ab3-4db5-a900-94731f798765",
+      "title": "Stacked Borrows Implemented",
+      "content_text": "Three months ago, I proposed Stacked Borrows as a model for defining what kinds of aliasing are allowed in Rust, and the idea of a validity invariant that has to be maintained by all code at all times. Since then I have been busy implementing both of these, and developed Stacked Borrows further in doing so. This post describes the latest version of Stacked Borrows, and reports my findings from the implementation phase: What worked, what did not, and what remains to be done. There will also be an opportunity for you to help the effort!",
+      "url": "https://www.ralfj.de/blog/2018/11/16/stacked-borrows-implementation.html",
+      "date_published": "2018-11-16T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b2687a6e-55b3-4d3b-a025-fc9e7c592e8e",
       "title": "Serve archived static files over HTTP",
       "content_text": "Say you want to store a huge number of very small filesthat you will only access over HTTP.For example:You are using rustdoc to render the documentation of a library.Without much work you’ll end up with about 100k HTML filesthat are about 10kB each.As it turns out,this number of small files is very annoying for any kind of file system performance.Best case: making copies/backups is slow.Worst case: You’re using an anti virus software and it takes ages.",

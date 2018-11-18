@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e8b911ca-d007-441e-93e3-d8f1f1b89a00",
+      "title": "Program Synthesis is Possible in Rust",
+      "content_text": "Program synthesis is the act of automatically constructing a program thatfulfills a given specification. I recently stumbled across Adrian Sampson’s Program Synthesis is Possible blog post. Adrian describes and implements minisynth, a toy program synthesizer that generates constants for holes in a template program when given a specification. What fun! As a way to learn more about program synthesis myself, I ported minisynth to Rust.",
+      "url": "http://fitzgeraldnick.com/2018/11/15/program-synthesis-is-possible-in-rust.html",
+      "date_published": "2018-11-15T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4d211c62-3ab3-4db5-a900-94731f798765",
+      "title": "Stacked Borrows Implemented",
+      "content_text": "Three months ago, I proposed Stacked Borrows as a model for defining what kinds of aliasing are allowed in Rust, and the idea of a validity invariant that has to be maintained by all code at all times. Since then I have been busy implementing both of these, and developed Stacked Borrows further in doing so. This post describes the latest version of Stacked Borrows, and reports my findings from the implementation phase: What worked, what did not, and what remains to be done. There will also be an opportunity for you to help the effort!",
+      "url": "https://www.ralfj.de/blog/2018/11/16/stacked-borrows-implementation.html",
+      "date_published": "2018-11-16T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "858249f6-6979-48c9-a138-1b7fd2fc9502",
       "title": "Things Rust doesn’t let you do",
       "content_text": "A survey of things that Rust doesn’t let you do although arguably safe.",
