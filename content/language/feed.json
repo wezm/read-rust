@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "24375765-7fa7-4729-8b69-734c409c47fb",
+      "title": "Compile Time Feature Flags in Rust",
+      "content_text": "Toggling feature flags when you compile for zero runtime cost",
+      "url": "https://www.worthe-it.co.za/programming/2018/11/18/compile-time-feature-flags-in-rust.html",
+      "date_published": "2018-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Justin Worthe",
+        "url": "http://worthe-it.co.za/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "18ce3041-0f7a-4bf8-8e5a-ccea2a6c8053",
+      "title": "Can you Drop it?",
+      "content_text": "Resource allocation & the implementation of drop logic in Rust.",
+      "url": "http://optimistictypes.com/can-you-drop-it/",
+      "date_published": "2018-11-17T00:00:00+00:00",
+      "author": {
+        "name": "J Haigh",
+        "url": "https://debugsteven.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e8b911ca-d007-441e-93e3-d8f1f1b89a00",
       "title": "Program Synthesis is Possible in Rust",
       "content_text": "Program synthesis is the act of automatically constructing a program thatfulfills a given specification. I recently stumbled across Adrian Sampson’s Program Synthesis is Possible blog post. Adrian describes and implements minisynth, a toy program synthesizer that generates constants for holes in a template program when given a specification. What fun! As a way to learn more about program synthesis myself, I ported minisynth to Rust.",

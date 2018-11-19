@@ -10,6 +10,64 @@
   },
   "items": [
     {
+      "id": "3c9dc7f2-978e-4663-900e-8a49c10bf57f",
+      "title": "Wait-Free Per-Object Thread-Local Storage",
+      "content_text": "In this post, I present a wait-free thread-local storage using the Rust language.",
+      "url": "https://bzim.gitlab.io/blog/posts/wait-free-per-object-thread-local-storage.html",
+      "date_published": "2018-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Bruno Corrêa Zimmermann",
+        "url": "https://bzim.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "84353bd7-6977-4894-883f-b917ccef0b45",
+      "title": "Introducing pest into glsl and hindsight about nom vs. pest (part 2)",
+      "content_text": "This is the second article about my experience at supporting pest in my glsl crate – without, for now, removing the nom parser.",
+      "url": "https://phaazon.net/blog/glsl-pest-part-2",
+      "date_published": "2018-11-17T20:40:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "24375765-7fa7-4729-8b69-734c409c47fb",
+      "title": "Compile Time Feature Flags in Rust",
+      "content_text": "Toggling feature flags when you compile for zero runtime cost",
+      "url": "https://www.worthe-it.co.za/programming/2018/11/18/compile-time-feature-flags-in-rust.html",
+      "tweet_url": "https://twitter.com/JWorthe/status/1064120946246717441",
+      "date_published": "2018-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Justin Worthe",
+        "url": "http://worthe-it.co.za/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "18ce3041-0f7a-4bf8-8e5a-ccea2a6c8053",
+      "title": "Can you Drop it?",
+      "content_text": "Resource allocation & the implementation of drop logic in Rust.",
+      "url": "http://optimistictypes.com/can-you-drop-it/",
+      "tweet_url": "https://twitter.com/DebugSteven/status/1063936416042893320",
+      "date_published": "2018-11-17T00:00:00+00:00",
+      "author": {
+        "name": "J Haigh",
+        "url": "https://debugsteven.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b21ca2e0-5670-4a7b-af11-3a6c1312d5e2",
       "title": "Rust, MongoDB & Wither 0.6",
       "content_text": "Hello everyone! I would like to share an update on an open source project which I have been developing for a little while now. It is a Rust project called Wither which attempts to “provide a simple, sane & predictable interface into MongoDB, based on data models”. This post is about the 0.6 release of this crate, and I would like to dive into some of the aspects of developing this release which I really enjoyed or which I found interesting.",
