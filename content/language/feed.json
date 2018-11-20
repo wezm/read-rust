@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "40ed3562-277a-453f-84a6-29ab5314ed0c",
+      "title": "Programming Servo: A background-hang-monitor",
+      "content_text": "Let’s say you’re contributing to a system in Rust consisting of a bunch of different components, running in their own threads or processes, for example an engine to make the Web run.\n\nWhen one of those components seemingly hangs on something, how can you find out what it is hanging on? Maybe a backtrace of what that component is doing at that time would be useful?\n\nThat’s easy, for that we have thebacktrace-rs crate, right?\n\nWell, there’s a catch: how do we call Backtrace::new() from a thread that is hanging?",
+      "url": "https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1",
+      "date_published": "2018-11-16T12:30:06.212+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "24375765-7fa7-4729-8b69-734c409c47fb",
       "title": "Compile Time Feature Flags in Rust",
       "content_text": "Toggling feature flags when you compile for zero runtime cost",

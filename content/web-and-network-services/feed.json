@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "97715a00-432f-4cfa-9c11-92f0d74ff60e",
+      "title": "Running Rust natively in AWS Lambda and testing it locally",
+      "content_text": "Abusing Go runtime in AWS to run Rust binaries",
+      "url": "https://medium.com/@bernardo.belchior1/running-rust-natively-in-aws-lambda-and-testing-it-locally-57080421426d",
+      "date_published": "2018-11-12T14:23:33.534+00:00",
+      "author": {
+        "name": "Bernardo Belchior",
+        "url": "https://medium.com/@bernardo.belchior1"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "ad136bed-3540-4ced-8a77-448b94426ba3",
       "title": "Bringing Elm’s architecture to Rust and Webassembly",
       "content_text": "I really like Elm. It is a delightful language with an amazing ecosystem. It has an interesting architecture called TEA, The Elm Architecture. Another language I like is Rust. On paper, Rust is completely different from Elm, but in using them both, I have seen some resemblance. Having used both Elm and Rust I had something I wanted to try. Would it be possible to create The Elm Architecture in Rust?",

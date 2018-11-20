@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5527d11f-6f5e-47f4-b208-c90499764f04",
+      "title": "Build Your Own Shell using Rust",
+      "content_text": "This is a tutorial on building your own shell using Rust, in the spirit of the build-your-own-x list. Creating a shell is a great way to understand how the shell, terminal emulator, and OS work together.",
+      "url": "https://www.joshmcguigan.com/blog/build-your-own-shell-rust/",
+      "date_published": "2018-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "d8946b80-5782-44b2-80d9-9ac2e18eb5d0",
       "title": "Qt applications with Cargo",
       "content_text": "This blog shows how Qt applications can be built with Cargo. The goal is to make compiling them as simple as installing Qt and running cargo build.",

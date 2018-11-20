@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "04284ee3-1ace-4204-bb2f-e2d27249c8c2",
+      "title": "Synthesizing Structures with immense",
+      "content_text": "I wrote a nightly Rust library called immense for synthesizing 3D structures with simple composable rules, inspired by Structure Synth. In the docs I cover the basics, and in this article I’ll go over making a mesh from start to finish.",
+      "url": "https://paytonturnage.com/writing/2018-11-17-synthesizing-structures-with-immense/",
+      "date_published": "2018-11-17T12:09:00+00:00",
+      "author": {
+        "name": "Payton Turnage",
+        "url": "https://paytonturnage.com/writing/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5527d11f-6f5e-47f4-b208-c90499764f04",
+      "title": "Build Your Own Shell using Rust",
+      "content_text": "This is a tutorial on building your own shell using Rust, in the spirit of the build-your-own-x list. Creating a shell is a great way to understand how the shell, terminal emulator, and OS work together.",
+      "url": "https://www.joshmcguigan.com/blog/build-your-own-shell-rust/",
+      "date_published": "2018-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "40ed3562-277a-453f-84a6-29ab5314ed0c",
+      "title": "Programming Servo: A background-hang-monitor",
+      "content_text": "Let’s say you’re contributing to a system in Rust consisting of a bunch of different components, running in their own threads or processes, for example an engine to make the Web run.\n\nWhen one of those components seemingly hangs on something, how can you find out what it is hanging on? Maybe a backtrace of what that component is doing at that time would be useful?\n\nThat’s easy, for that we have thebacktrace-rs crate, right?\n\nWell, there’s a catch: how do we call Backtrace::new() from a thread that is hanging?",
+      "url": "https://medium.com/programming-servo/programming-servo-a-background-hang-monitor-73e89185ce1",
+      "date_published": "2018-11-16T12:30:06.212+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "97715a00-432f-4cfa-9c11-92f0d74ff60e",
+      "title": "Running Rust natively in AWS Lambda and testing it locally",
+      "content_text": "Abusing Go runtime in AWS to run Rust binaries",
+      "url": "https://medium.com/@bernardo.belchior1/running-rust-natively-in-aws-lambda-and-testing-it-locally-57080421426d",
+      "date_published": "2018-11-12T14:23:33.534+00:00",
+      "author": {
+        "name": "Bernardo Belchior",
+        "url": "https://medium.com/@bernardo.belchior1"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3c9dc7f2-978e-4663-900e-8a49c10bf57f",
       "title": "Wait-Free Per-Object Thread-Local Storage",
       "content_text": "In this post, I present a wait-free thread-local storage using the Rust language.",

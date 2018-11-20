@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "04284ee3-1ace-4204-bb2f-e2d27249c8c2",
+      "title": "Synthesizing Structures with immense",
+      "content_text": "I wrote a nightly Rust library called immense for synthesizing 3D structures with simple composable rules, inspired by Structure Synth. In the docs I cover the basics, and in this article I’ll go over making a mesh from start to finish.",
+      "url": "https://paytonturnage.com/writing/2018-11-17-synthesizing-structures-with-immense/",
+      "date_published": "2018-11-17T12:09:00+00:00",
+      "author": {
+        "name": "Payton Turnage",
+        "url": "https://paytonturnage.com/writing/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "dabab963-1e9e-4b55-bb85-d0173a1db54a",
       "title": "Rust And Game Development",
       "content_text": "Rust is excellent for performance crucial applications that run on multi-processor architectures and these two aspects are also critical for game development. Rust has already seen a bunch of interest from games developers like Chucklefish, Embark Studios, Ready at Dawn, etc. - but in order to really excel I’d love to organize some structured efforts to improve the ecosystem and I think it would be great if the 2019 roadmap will include game development.",
