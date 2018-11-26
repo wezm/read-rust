@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c5b56719-bdcd-4d91-8b61-85a27cd5315c",
+      "title": "Generic Methods in Rust: How Exonum Shifted from Iron to Actix-web",
+      "content_text": "In this article, we describe how we ported the Exonum framework to actix-web using generic programming.",
+      "url": "https://medium.com/meetbitfury/generic-methods-in-rust-how-exonum-shifted-from-iron-to-actix-web-7a2752171388",
+      "date_published": "2018-11-21T10:51:32.586+00:00",
+      "author": {
+        "name": "Exonum",
+        "url": "https://medium.com/@ExonumPlatform"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "97715a00-432f-4cfa-9c11-92f0d74ff60e",
       "title": "Running Rust natively in AWS Lambda and testing it locally",
       "content_text": "Abusing Go runtime in AWS to run Rust binaries",

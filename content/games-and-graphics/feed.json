@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1e18d220-093b-46bd-b260-640ed3d74deb",
+      "title": "Amethyst Foundation Created",
+      "content_text": "The Amethyst team has some special announcements. A non-profit foundation has been formed and a new community forums site has been created.",
+      "url": "https://www.amethyst.rs/blog/non-profit-announce/",
+      "date_published": "2018-11-23T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "04284ee3-1ace-4204-bb2f-e2d27249c8c2",
       "title": "Synthesizing Structures with immense",
       "content_text": "I wrote a nightly Rust library called immense for synthesizing 3D structures with simple composable rules, inspired by Structure Synth. In the docs I cover the basics, and in this article I’ll go over making a mesh from start to finish.",

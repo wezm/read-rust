@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c9fdbd06-59fd-444f-b7a9-cd238817a72f",
+      "title": "Still in love with Rust",
+      "content_text": "I think I've discovered Rust somewhere around the year 2012. With time I grew more and more fond of Rust. The language kept evolving in a direction that was my personal sweet spot: a modern C. And at some point I realized I'm in love with Rust. And I still am today, after a couple of years of using it. So let me tell you why is Rust my darling programming language.",
+      "url": "https://dpc.pw/still-in-love-with-rust",
+      "date_published": "2018-11-06T07:38:10+00:00",
+      "author": {
+        "name": "Dawid Ciężarkiewicz aka `dpc`",
+        "url": "http://dpc.pw/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "22495ae4-a7be-4899-92ab-ede35669df1b",
+      "title": "Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams",
+      "content_text": "Prior to this experience, I had thought that Futures, Sinks and Streams were the smallest building blocks in the world of Tokio, and so I went looking through the Tokio documentation for these things. Actually, all of the fundamental objects to read and write bytes to things implement one or both of AsyncRead and AsyncWrite, but not the Future, Sink or Stream traits. In fact, there are lots of poll_x methods dotted around, so I realised I needed to figure out how to make use of them.",
+      "url": "https://jsdw.me/posts/rust-futures-tokio/",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "James Wilson",
+        "url": "https://jsdw.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "40ed3562-277a-453f-84a6-29ab5314ed0c",
       "title": "Programming Servo: A background-hang-monitor",
       "content_text": "Let’s say you’re contributing to a system in Rust consisting of a bunch of different components, running in their own threads or processes, for example an engine to make the Web run.\n\nWhen one of those components seemingly hangs on something, how can you find out what it is hanging on? Maybe a backtrace of what that component is doing at that time would be useful?\n\nThat’s easy, for that we have thebacktrace-rs crate, right?\n\nWell, there’s a catch: how do we call Backtrace::new() from a thread that is hanging?",

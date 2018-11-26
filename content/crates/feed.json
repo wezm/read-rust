@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "c9feb6f2-ba42-42ca-a0a3-dc37f4ce69ff",
+      "title": "Rust+GNOME Hackfest #4",
+      "content_text": "Less than 2 weeks ago, I was working on improving the integration of Rust with GNOME libraries at the fourth Hackfest, which happened this time in Thessaloniki.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-thessaloniki",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Community",
+        "Crates"
+      ]
+    },
+    {
       "id": "3c9dc7f2-978e-4663-900e-8a49c10bf57f",
       "title": "Wait-Free Per-Object Thread-Local Storage",
       "content_text": "In this post, I present a wait-free thread-local storage using the Rust language.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "4c4ca2bc-0e59-4c24-92c1-2b37630f2280",
+      "title": "Rusty clock: An alarm clock with environment stats in pure bare metal embedded Rust",
+      "content_text": "This alarm clock is programed in bare metal rust (no OS). It features pressure, temperature, humidity, monophonic alarm on a e-paper display.",
+      "url": "https://github.com/TeXitoi/rusty-clock/blob/master/README.md",
+      "date_published": "2018-11-21T23:03:26+00:00",
+      "author": {
+        "name": "Guillaume P.",
+        "url": "https://github.com/TeXitoi"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "30b59cbd-a9ce-4f67-846b-93a30d134e5d",
+      "title": "WIP: A no_std Rust crate for reading SD/MMC cards",
+      "content_text": "To make it easier to load programs on to the Monotron, I've been working on a crate to make it really simple to read data from SD and SDHC cards formatted with FAT16 or FAT32. The crate is written without `alloc` so it uses zero heap, and I try to keep no more than one 512 byte block on the stack at a time.",
+      "url": "https://www.reddit.com/r/rust/comments/a07k6e/wip_a_no_std_rust_crate_for_reading_sdmmc_cards/",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "68074e79-2747-4170-970f-0e56b936578c",
       "title": "This Year in Embedded Rust",
       "content_text": "This year the Embedded WG set out to build the solid foundation that the embedded Rust ecosystem requires to thrive. As we approach the date of the 2018 edition release we reflect on our progress and share our achievements with you in this post.",

@@ -10,6 +10,119 @@
   },
   "items": [
     {
+      "id": "5d14453d-3a6f-4f26-8aa1-20edec9e9347",
+      "title": "The Seedling Sees the Light of Day: Sequoia-PGP Initial Release",
+      "content_text": "On October 16, 2017, we made the first commit to the Sequoia repository. Just over a year and a thousand commits later, Sequoia’s low-level API is nearly feature complete, and is already usable. For instance, a port of the p≡p engine to Sequoia is almost finished, and the code is significantly simpler than the version using the current OpenPGP library. We’ve also made experimental ports of other software that use OpenPGP, and written some new software to further validate the completeness and ergonomics of the API.",
+      "url": "https://sequoia-pgp.org/blog/2018/11/26/initial-release/",
+      "date_published": "2018-11-26T10:08:17+01:00",
+      "author": {
+        "name": "Neal H. Walfield, Justus Winter, and Kai Michaelis",
+        "url": "https://sequoia-pgp.org/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "c5b56719-bdcd-4d91-8b61-85a27cd5315c",
+      "title": "Generic Methods in Rust: How Exonum Shifted from Iron to Actix-web",
+      "content_text": "In this article, we describe how we ported the Exonum framework to actix-web using generic programming.",
+      "url": "https://medium.com/meetbitfury/generic-methods-in-rust-how-exonum-shifted-from-iron-to-actix-web-7a2752171388",
+      "date_published": "2018-11-21T10:51:32.586+00:00",
+      "author": {
+        "name": "Exonum",
+        "url": "https://medium.com/@ExonumPlatform"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c9fdbd06-59fd-444f-b7a9-cd238817a72f",
+      "title": "Still in love with Rust",
+      "content_text": "I think I've discovered Rust somewhere around the year 2012. With time I grew more and more fond of Rust. The language kept evolving in a direction that was my personal sweet spot: a modern C. And at some point I realized I'm in love with Rust. And I still am today, after a couple of years of using it. So let me tell you why is Rust my darling programming language.",
+      "url": "https://dpc.pw/still-in-love-with-rust",
+      "date_published": "2018-11-06T07:38:10+00:00",
+      "author": {
+        "name": "Dawid Ciężarkiewicz aka `dpc`",
+        "url": "http://dpc.pw/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4c4ca2bc-0e59-4c24-92c1-2b37630f2280",
+      "title": "Rusty clock: An alarm clock with environment stats in pure bare metal embedded Rust",
+      "content_text": "This alarm clock is programed in bare metal rust (no OS). It features pressure, temperature, humidity, monophonic alarm on a e-paper display.",
+      "url": "https://github.com/TeXitoi/rusty-clock/blob/master/README.md",
+      "date_published": "2018-11-21T23:03:26+00:00",
+      "author": {
+        "name": "Guillaume P.",
+        "url": "https://github.com/TeXitoi"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "22495ae4-a7be-4899-92ab-ede35669df1b",
+      "title": "Converting AsyncRead and AsyncWrite to Futures, Sinks and Streams",
+      "content_text": "Prior to this experience, I had thought that Futures, Sinks and Streams were the smallest building blocks in the world of Tokio, and so I went looking through the Tokio documentation for these things. Actually, all of the fundamental objects to read and write bytes to things implement one or both of AsyncRead and AsyncWrite, but not the Future, Sink or Stream traits. In fact, there are lots of poll_x methods dotted around, so I realised I needed to figure out how to make use of them.",
+      "url": "https://jsdw.me/posts/rust-futures-tokio/",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "James Wilson",
+        "url": "https://jsdw.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "30b59cbd-a9ce-4f67-846b-93a30d134e5d",
+      "title": "WIP: A no_std Rust crate for reading SD/MMC cards",
+      "content_text": "To make it easier to load programs on to the Monotron, I've been working on a crate to make it really simple to read data from SD and SDHC cards formatted with FAT16 or FAT32. The crate is written without `alloc` so it uses zero heap, and I try to keep no more than one 512 byte block on the stack at a time.",
+      "url": "https://www.reddit.com/r/rust/comments/a07k6e/wip_a_no_std_rust_crate_for_reading_sdmmc_cards/",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "1e18d220-093b-46bd-b260-640ed3d74deb",
+      "title": "Amethyst Foundation Created",
+      "content_text": "The Amethyst team has some special announcements. A non-profit foundation has been formed and a new community forums site has been created.",
+      "url": "https://www.amethyst.rs/blog/non-profit-announce/",
+      "date_published": "2018-11-23T00:00:00+00:00",
+      "author": {
+        "name": "Moxinilian (Théo Degioanni)",
+        "url": "https://www.amethyst.rs/blog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "c9feb6f2-ba42-42ca-a0a3-dc37f4ce69ff",
+      "title": "Rust+GNOME Hackfest #4",
+      "content_text": "Less than 2 weeks ago, I was working on improving the integration of Rust with GNOME libraries at the fourth Hackfest, which happened this time in Thessaloniki.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-thessaloniki",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Community",
+        "Crates"
+      ]
+    },
+    {
       "id": "04284ee3-1ace-4204-bb2f-e2d27249c8c2",
       "title": "Synthesizing Structures with immense",
       "content_text": "I wrote a nightly Rust library called immense for synthesizing 3D structures with simple composable rules, inspired by Structure Synth. In the docs I cover the basics, and in this article I’ll go over making a mesh from start to finish.",

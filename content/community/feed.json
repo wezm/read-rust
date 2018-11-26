@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "c9feb6f2-ba42-42ca-a0a3-dc37f4ce69ff",
+      "title": "Rust+GNOME Hackfest #4",
+      "content_text": "Less than 2 weeks ago, I was working on improving the integration of Rust with GNOME libraries at the fourth Hackfest, which happened this time in Thessaloniki.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-thessaloniki",
+      "date_published": "2018-11-25T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Community",
+        "Crates"
+      ]
+    },
+    {
       "id": "04d63d37-82e6-4076-a90f-ef0a20945316",
       "title": "My Experience in Increasing Rust's Reach 2018",
       "content_text": "I recently had the privilege of participating the Increasing Rust’s Reach(IRR) program. The program aims to grow Rust’s community of project collaborators and leaders. Increasing Rust’s Reach brings together Rust team members and individuals who are underrepresented in Rust’s community and the tech industry for a partnership of three (3) months, from mid-May to mid-August. Each partnership agrees to a commitment of 3–5 hours per week working on a Rust Project.",
