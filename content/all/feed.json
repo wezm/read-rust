@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "c1afc363-1078-4dbd-a3e4-e0f05f255d62",
+      "title": "Getting started with nightly async/await support",
+      "content_text": "Following on from my last post, I thought I would look at async/await support in Rust. The async/await support coming to Rust brings with it a much more ergonomic way to work with asynchronous computations. In this post I'll introduce std::future::Future, and run through how to make use of them, and how to interoperate with the current ecosystem which is built around version 0.1 of the futures package.",
+      "url": "https://jsdw.me/posts/rust-asyncawait-preview/",
+      "date_published": "2018-11-26T00:00:00+00:00",
+      "author": {
+        "name": "James Wilson",
+        "url": "https://jsdw.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "50e86e16-57e4-4740-8251-b7eb6340d9ad",
+      "title": "Firecracker: Secure and Fast microVM for Serverless Computing",
+      "content_text": "In the fall of 2017, we decided to write Firecracker in Rust, a modern programming language that guarantees thread and memory safety and prevents buffer overflows and many other types of memory safety errors that can lead to security vulnerabilities. Read more details about the features and architecture of the Firecracker VMM at Firecracker Design.\n\nFirecracker microVMs improve efficiency and utilization with a low memory overhead of < 5 MiB per microVMs. This means that you can pack thousands of microVMs onto a single machine. You can use an in-process rate limiter to control, with fine granularity, how network and storage resources are shared, even across thousands of microVMs. All hardware compute resources can be safely oversubscribed, to maximize the number of workloads that can run on a host.",
+      "url": "https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/",
+      "date_published": "2018-11-27T05:02:08+00:00",
+      "author": {
+        "name": "Arun Gupta",
+        "url": "https://aws.amazon.com/blogs/opensource/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "abba07ed-5ffb-4b29-ba29-f1e6dbdce718",
+      "title": "Tide’s evolving middleware approach",
+      "content_text": "Since the last post on Tide, there have been a number of excellent contributions from a bunch of new contributors! In this post, I want to talk about the work that @tirr-c has done to substantially improve the middleware story.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/11/27/tide-middleware-evolution.html",
+      "date_published": "2018-11-27T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "8c1f73a9-291c-4aa2-9e50-2cf4538f36db",
+      "title": "Rust Quiz",
+      "content_text": "Test your Rust knowledge with tricky Rust questions.",
+      "url": "https://dtolnay.github.io/rust-quiz/",
+      "date_published": "2018-11-29T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay and Alex Crichton",
+        "url": "https://dtolnay.github.io/rust-quiz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5ed5c8fa-d94a-44ab-836b-35ee61f1f048",
+      "title": "Rust Survey 2018 Results",
+      "content_text": "Another year means another Rust survey, and this year marks Rust’s third annual survey. This year, the survey launched for the first time in multiple languages. In total 14 languages, in addition to English, were covered. The results from non-English languages totalled 25% of all responses and helped pushed the number of responses to a new record of 5991 responses. Before we begin the analysis, we just want to give a big “thank you!” to all the people who took the time to respond and give us your thoughts. It’s because of your help that Rust will continue to improve year after year.",
+      "url": "https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html",
+      "date_published": "2018-11-27T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Survey Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ed652ceb-f7cd-4566-b37c-757f6d089240",
+      "title": "Rust Language Cheat Sheet",
+      "content_text": "This is the \"Rust Language Cheat Sheet\". It is for users who: are early Rust professionals (experienced programmers, intermediate Rust users), and prefer visual, example-driven content. Use cases, in order of priority: \"identification guide\" for unknown or symbolic constructs encountered in code. Provide further reading from easy to advanced (Book to Nomicon). Quick lookup for language related problems. Discover constructs in the language you might not know.",
+      "url": "https://cheats.rs/",
+      "date_published": "2018-11-28T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Biedert",
+        "url": "https://github.com/ralfbiedert"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5d14453d-3a6f-4f26-8aa1-20edec9e9347",
       "title": "The Seedling Sees the Light of Day: Sequoia-PGP Initial Release",
       "content_text": "On October 16, 2017, we made the first commit to the Sequoia repository. Just over a year and a thousand commits later, Sequoia’s low-level API is nearly feature complete, and is already usable. For instance, a port of the p≡p engine to Sequoia is almost finished, and the code is significantly simpler than the version using the current OpenPGP library. We’ve also made experimental ports of other software that use OpenPGP, and written some new software to further validate the completeness and ergonomics of the API.",

@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "c1afc363-1078-4dbd-a3e4-e0f05f255d62",
+      "title": "Getting started with nightly async/await support",
+      "content_text": "Following on from my last post, I thought I would look at async/await support in Rust. The async/await support coming to Rust brings with it a much more ergonomic way to work with asynchronous computations. In this post I'll introduce std::future::Future, and run through how to make use of them, and how to interoperate with the current ecosystem which is built around version 0.1 of the futures package.",
+      "url": "https://jsdw.me/posts/rust-asyncawait-preview/",
+      "date_published": "2018-11-26T00:00:00+00:00",
+      "author": {
+        "name": "James Wilson",
+        "url": "https://jsdw.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8c1f73a9-291c-4aa2-9e50-2cf4538f36db",
+      "title": "Rust Quiz",
+      "content_text": "Test your Rust knowledge with tricky Rust questions.",
+      "url": "https://dtolnay.github.io/rust-quiz/",
+      "date_published": "2018-11-29T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay and Alex Crichton",
+        "url": "https://dtolnay.github.io/rust-quiz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5ed5c8fa-d94a-44ab-836b-35ee61f1f048",
+      "title": "Rust Survey 2018 Results",
+      "content_text": "Another year means another Rust survey, and this year marks Rust’s third annual survey. This year, the survey launched for the first time in multiple languages. In total 14 languages, in addition to English, were covered. The results from non-English languages totalled 25% of all responses and helped pushed the number of responses to a new record of 5991 responses. Before we begin the analysis, we just want to give a big “thank you!” to all the people who took the time to respond and give us your thoughts. It’s because of your help that Rust will continue to improve year after year.",
+      "url": "https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html",
+      "date_published": "2018-11-27T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Survey Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ed652ceb-f7cd-4566-b37c-757f6d089240",
+      "title": "Rust Language Cheat Sheet",
+      "content_text": "This is the \"Rust Language Cheat Sheet\". It is for users who: are early Rust professionals (experienced programmers, intermediate Rust users), and prefer visual, example-driven content. Use cases, in order of priority: \"identification guide\" for unknown or symbolic constructs encountered in code. Provide further reading from easy to advanced (Book to Nomicon). Quick lookup for language related problems. Discover constructs in the language you might not know.",
+      "url": "https://cheats.rs/",
+      "date_published": "2018-11-28T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Biedert",
+        "url": "https://github.com/ralfbiedert"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c9fdbd06-59fd-444f-b7a9-cd238817a72f",
       "title": "Still in love with Rust",
       "content_text": "I think I've discovered Rust somewhere around the year 2012. With time I grew more and more fond of Rust. The language kept evolving in a direction that was my personal sweet spot: a modern C. And at some point I realized I'm in love with Rust. And I still am today, after a couple of years of using it. So let me tell you why is Rust my darling programming language.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "abba07ed-5ffb-4b29-ba29-f1e6dbdce718",
+      "title": "Tide’s evolving middleware approach",
+      "content_text": "Since the last post on Tide, there have been a number of excellent contributions from a bunch of new contributors! In this post, I want to talk about the work that @tirr-c has done to substantially improve the middleware story.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/11/27/tide-middleware-evolution.html",
+      "date_published": "2018-11-27T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "c5b56719-bdcd-4d91-8b61-85a27cd5315c",
       "title": "Generic Methods in Rust: How Exonum Shifted from Iron to Actix-web",
       "content_text": "In this article, we describe how we ported the Exonum framework to actix-web using generic programming.",

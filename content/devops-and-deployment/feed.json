@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "50e86e16-57e4-4740-8251-b7eb6340d9ad",
+      "title": "Firecracker: Secure and Fast microVM for Serverless Computing",
+      "content_text": "In the fall of 2017, we decided to write Firecracker in Rust, a modern programming language that guarantees thread and memory safety and prevents buffer overflows and many other types of memory safety errors that can lead to security vulnerabilities. Read more details about the features and architecture of the Firecracker VMM at Firecracker Design.\n\nFirecracker microVMs improve efficiency and utilization with a low memory overhead of < 5 MiB per microVMs. This means that you can pack thousands of microVMs onto a single machine. You can use an in-process rate limiter to control, with fine granularity, how network and storage resources are shared, even across thousands of microVMs. All hardware compute resources can be safely oversubscribed, to maximize the number of workloads that can run on a host.",
+      "url": "https://aws.amazon.com/blogs/opensource/firecracker-open-source-secure-fast-microvm-serverless/",
+      "date_published": "2018-11-27T05:02:08+00:00",
+      "author": {
+        "name": "Arun Gupta",
+        "url": "https://aws.amazon.com/blogs/opensource/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "97715a00-432f-4cfa-9c11-92f0d74ff60e",
       "title": "Running Rust natively in AWS Lambda and testing it locally",
       "content_text": "Abusing Go runtime in AWS to run Rust binaries",
