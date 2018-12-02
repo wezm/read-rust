@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "400c4c0d-78d0-41fe-bd07-c4a720ade708",
+      "title": "Haskell and Rust",
+      "content_text": "Learn more about how the Rust programming language shares many of the advantages offered by Haskell such as a strong type system, great tooling, polymorphism, immutability, concurrency, and great software testing methodologies.  Rust is a good choice when you need to squeeze in extra performance.",
+      "url": "https://www.fpcomplete.com/blog/2018/11/haskell-and-rust",
+      "date_published": "2018-11-26T17:33:00+00:00",
+      "author": {
+        "name": "Chris Allen",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5a0c9b1f-c433-44e6-947e-74076725fc32",
+      "title": "Rust Flow, Part Two",
+      "content_text": "Rust doesn’t have a language-level concept of generic mutability, which makes “method threading” (which take `self` by some handle, and return it in the same way) hard to write. This article covers how to write in that pattern in a less painful way.",
+      "url": "https://myrrlyn.net/blog/misc/rust-flow-part-two",
+      "date_published": "2018-11-29T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Payne",
+        "url": "https://myrrlyn.net/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6afc7e52-af6d-4ecd-a5af-fb9e27a6ccf6",
+      "title": "A new look for rust-lang.org",
+      "content_text": "Today, we’d like to announce a beta of the new rust-lang.org. If you go to https://beta.rust-lang.org, you’ll see a preview of the new site.",
+      "url": "https://blog.rust-lang.org/2018/11/29/a-new-look-for-rust-lang-org.html",
+      "date_published": "2018-11-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c1afc363-1078-4dbd-a3e4-e0f05f255d62",
       "title": "Getting started with nightly async/await support",
       "content_text": "Following on from my last post, I thought I would look at async/await support in Rust. The async/await support coming to Rust brings with it a much more ergonomic way to work with asynchronous computations. In this post I'll introduce std::future::Future, and run through how to make use of them, and how to interoperate with the current ecosystem which is built around version 0.1 of the futures package.",

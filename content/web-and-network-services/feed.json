@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "881d8c07-ccf4-48be-ab22-bd76cc7c848d",
+      "title": "Rust Web Survey Results 2018",
+      "content_text": "We recently sent out a survey regarding the state of the current Rust web ecosystem and we got over a 1000 responses! We really appreciate the feedback from the community. This will help us continue to improve upon the state of the Rust web ecosystem. Today, we would like to go over the responses and understand the results.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/11/28/wg-net-survey.html",
+      "date_published": "2018-11-28T00:00:00+00:00",
+      "author": {
+        "name": "Bhargav Voleti",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "48218be5-130b-4274-b41a-7bfa20086f0d",
+      "title": "Rust Runtime for AWS Lambda",
+      "content_text": "AWS Lambda, which makes it easy for developers to run code for virtually any type of application or backend service with zero administration, has just announced the Runtime APIs. The Runtime APIs define an HTTP-based specification of the Lambda programming model which can be implemented in any programming language. To accompany the API launch, we have open sourced a runtime for the Rust language.",
+      "url": "https://aws.amazon.com/blogs/opensource/rust-runtime-for-aws-lambda/",
+      "date_published": "2018-11-29T18:02:27+00:00",
+      "author": {
+        "name": "Stefano Buliani",
+        "url": "https://aws.amazon.com/blogs/opensource/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "abba07ed-5ffb-4b29-ba29-f1e6dbdce718",
       "title": "Tide’s evolving middleware approach",
       "content_text": "Since the last post on Tide, there have been a number of excellent contributions from a bunch of new contributors! In this post, I want to talk about the work that @tirr-c has done to substantially improve the middleware story.",
