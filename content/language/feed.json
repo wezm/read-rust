@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "3234baba-f03d-467c-b032-d7d0dec7a12d",
+      "title": " A call for Rust 2019 Roadmap blog posts",
+      "content_text": "Starting today and running until of January 15, we’d like to ask the community to write blogposts reflecting on Rust in 2018 and proposing goals and directions for Rust in 2019.",
+      "url": "https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Community Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a9fa887f-3615-45d9-ab2d-d400d30f1039",
+      "title": "Rust 2018 is here… but what is it?",
+      "content_text": "Starting today, the Rust 2018 edition is in its first release. With this edition, we’ve focused on making Rust developers as productive as they can be. But beyond that, it can be hard to explain exactly what Rust 2018 is.",
+      "url": "https://hacks.mozilla.org/2018/12/rust-2018-is-here/",
+      "date_published": "2018-12-06T16:13:55+00:00",
+      "author": {
+        "name": "Lin Clark",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "18cf1853-dbff-4634-8045-fbcaf36bd4fc",
+      "title": " Announcing Rust 1.31 and Rust 2018",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.31.0, and \"Rust 2018\" as well. Rust is a programming language that empowers everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "400c4c0d-78d0-41fe-bd07-c4a720ade708",
       "title": "Haskell and Rust",
       "content_text": "Learn more about how the Rust programming language shares many of the advantages offered by Haskell such as a strong type system, great tooling, polymorphism, immutability, concurrency, and great software testing methodologies.  Rust is a good choice when you need to squeeze in extra performance.",

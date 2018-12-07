@@ -10,6 +10,50 @@
   },
   "items": [
     {
+      "id": "3234baba-f03d-467c-b032-d7d0dec7a12d",
+      "title": " A call for Rust 2019 Roadmap blog posts",
+      "content_text": "Starting today and running until of January 15, we’d like to ask the community to write blogposts reflecting on Rust in 2018 and proposing goals and directions for Rust in 2019.",
+      "url": "https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Community Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a9fa887f-3615-45d9-ab2d-d400d30f1039",
+      "title": "Rust 2018 is here… but what is it?",
+      "content_text": "Starting today, the Rust 2018 edition is in its first release. With this edition, we’ve focused on making Rust developers as productive as they can be. But beyond that, it can be hard to explain exactly what Rust 2018 is.",
+      "url": "https://hacks.mozilla.org/2018/12/rust-2018-is-here/",
+      "tweet_url": "https://twitter.com/linclark/status/1070714231601946629",
+      "date_published": "2018-12-06T16:13:55+00:00",
+      "author": {
+        "name": "Lin Clark",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "18cf1853-dbff-4634-8045-fbcaf36bd4fc",
+      "title": " Announcing Rust 1.31 and Rust 2018",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.31.0, and \"Rust 2018\" as well. Rust is a programming language that empowers everyone to build reliable and efficient software.",
+      "url": "https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1070732843855294467",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "881d8c07-ccf4-48be-ab22-bd76cc7c848d",
       "title": "Rust Web Survey Results 2018",
       "content_text": "We recently sent out a survey regarding the state of the current Rust web ecosystem and we got over a 1000 responses! We really appreciate the feedback from the community. This will help us continue to improve upon the state of the Rust web ecosystem. Today, we would like to go over the responses and understand the results.",
