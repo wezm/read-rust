@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3c8b4f15-959d-40cc-a79c-1a375f498bb0",
+      "title": "Rust: Error handling – Learning Rust",
+      "content_text": "Welcome Back! This is the fifth post of Learning Rust series. Rust is a well designed language and safety is one of the main focus area of it. Its design decisions have been taken to prevent errors and major issues of systems programs like data races, null pointer exceptions, sensitive data leakage through exceptions and etc. So today, we are going to talk more about the concepts behind Error Handling in Rust.",
+      "url": "https://medium.com/learning-rust/rust-error-handling-72a8e036dd3",
+      "date_published": "2018-12-06T19:11:01.554+00:00",
+      "author": {
+        "name": "Dumindu Madunuwan",
+        "url": "https://medium.com/@dumindu"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "09e9a0eb-339f-496e-8477-911e89774938",
       "title": "Learning a new language for more than 2 months (feat. Exercism)",
       "content_text": "Usually I take about a week to learn a new language so I can start doing some real work with it. After all a programming language (at least the high level and dynamic ones) is just assignment, calculation, branching, looping and reuse (and in certain cases, concurrency/parallelism, not gonna dive deep in defining the difference though). Well, that was true until I started learning Rust, partly for my own leisure. I still don’t feel comfortable writing a complete Rust code. Though I really like the language.",

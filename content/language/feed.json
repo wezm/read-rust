@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b9206a7e-5ee3-4336-b756-afab50e9992f",
+      "title": "Debugging Cargo Test",
+      "content_text": "While developing some crates in rust, I ran into a few crashes in certain situations when using these crates from another application. In order to more easily reproduce the problem, and also minimize or eliminate future regressions, I decided to write some unit tests for these issues, and use them to more easily debug the problems… or so I thought!",
+      "url": "https://www.wihlidal.com/blog/general/2018-12-07-debugging-cargo-test/",
+      "date_published": "2018-12-07T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3234baba-f03d-467c-b032-d7d0dec7a12d",
       "title": " A call for Rust 2019 Roadmap blog posts",
       "content_text": "Starting today and running until of January 15, we’d like to ask the community to write blogposts reflecting on Rust in 2018 and proposing goals and directions for Rust in 2019.",

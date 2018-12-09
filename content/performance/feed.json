@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "4ea6d02a-6279-4eef-af2f-bd67424d6de8",
+      "title": "The Swiss Army Knife of Hashmaps",
+      "content_text": "A while back, there was a discussion comparing the performance of using the hashbrown crate (based on Google’s SwissTable implementation) in the Rust compiler. In the last RustFest, Amanieu was experimenting on integrating his crate into stdlib, which turned out to have some really promising results. As a result, it’s being planned to move the crate into stdlib.\n\nWhile the integration is still ongoing, there’s currently no blog post out there explaining SwissTable at the moment. So, I thought I’d dig deeper into the Rust implementation to try and explain how its (almost) identical twin hashbrown::HashMap works.",
+      "url": "https://blog.waffles.space/2018/12/07/deep-dive-into-hashbrown/",
+      "date_published": "2018-12-07T16:58:46+00:00",
+      "author": {
+        "name": "Ravi Shankar",
+        "url": "https://blog.waffles.space/"
+      },
+      "tags": [
+        "Computer Science",
+        "Performance"
+      ]
+    },
+    {
       "id": "93922af4-e454-4bfd-a0f2-64c481a6263c",
       "title": "Exploring a shipping puzzle, part 2",
       "content_text": "A friend recently told me about a puzzle, which is a great excuse to explore programming craft. My Rust solution was a simple port of my second Clojure solution. The only major difference is that it takes advantage of mutability (which is idiomatic in Rust, unlike in Clojure). The Rust solution runs in about 4.22 ± 0.05 ms, or about 5x faster than the fast Clojure solution.",

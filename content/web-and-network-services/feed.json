@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "05ee17e8-44f9-41c4-9f29-b4a5be430158",
+      "title": "Safe Web Services with Actix and Sentry",
+      "content_text": "Enjoy this quick introduction to creating a web server with Actix and monitoring it with Sentry.",
+      "url": "https://blog.sentry.io/2018/12/04/safe-web-services-actix-sentry",
+      "date_published": "2018-12-04T00:00:00+00:00",
+      "author": {
+        "name": "Jan Michael Auer",
+        "url": "https://blog.sentry.io/index.html"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c0eb769f-4785-436d-b0b9-4bff16b30ef8",
+      "title": "Reflecting on Rust and WebAssembly in 2018",
+      "content_text": "🎉 The 2018 edition of Rust has officially shipped, and the initial Rust and WebAssembly development story along with it! 🎉 To see how far we’ve come, let’s reflect on the Rust and WebAssembly story a year ago: rustc could emit WebAssembly binaries for you, but that was about it. As far as communication with JavaScript went, you had to work with raw wasm imports and exports yourself. That meant you could only pass 32- and 64-bit integers and floats back and forth. No Rust structs, JavaScript objects, strings, or slices could be passed back forth. And distributing your library’s .wasm so that other downstream projects could depend on it? Good luck.",
+      "url": "https://rustwasm.github.io/2018/12/06/reflecting-on-rust-and-wasm-in-2018.html",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "Rust and WebAssembly",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "881d8c07-ccf4-48be-ab22-bd76cc7c848d",
       "title": "Rust Web Survey Results 2018",
       "content_text": "We recently sent out a survey regarding the state of the current Rust web ecosystem and we got over a 1000 responses! We really appreciate the feedback from the community. This will help us continue to improve upon the state of the Rust web ecosystem. Today, we would like to go over the responses and understand the results.",

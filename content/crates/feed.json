@@ -88,7 +88,7 @@
       "date_published": "2018-11-17T00:00:00+00:00",
       "author": {
         "name": "Vincent Prouillet",
-        "url": null
+        "url": "https://www.vincentprouillet.com/blog/"
       },
       "tags": [
         "Crates"

@@ -10,6 +10,169 @@
   },
   "items": [
     {
+      "id": "e20c3d81-ce4b-491d-98e1-632aeb5e40a4",
+      "title": "Plans for 2019",
+      "content_text": "Many people have asked me what I’m working on lately, and I thought I’d give a quick rundown of my status and plans for 2019. I intend to keep this post updated with the status of projects as they progress.",
+      "url": "https://pcwalton.github.io/2018/12/07/plans-for-2019.html",
+      "tweet_url": "https://twitter.com/pcwalton/status/1071138038397448192",
+      "date_published": "2018-12-07T12:49:00+00:00",
+      "author": {
+        "name": "Patrick Walton",
+        "url": "https://pcwalton.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "05ee17e8-44f9-41c4-9f29-b4a5be430158",
+      "title": "Safe Web Services with Actix and Sentry",
+      "content_text": "Enjoy this quick introduction to creating a web server with Actix and monitoring it with Sentry.",
+      "url": "https://blog.sentry.io/2018/12/04/safe-web-services-actix-sentry",
+      "tweet_url": "https://twitter.com/getsentry/status/1070331968699686918",
+      "date_published": "2018-12-04T00:00:00+00:00",
+      "author": {
+        "name": "Jan Michael Auer",
+        "url": "https://blog.sentry.io/index.html"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "97627c69-e162-420e-8d30-22c0755d0b76",
+      "title": "Rust in the new age",
+      "content_text": "A wishlist of what I would like to accomplish with Rust in 2019.",
+      "url": "https://quietmisdreavus.net/code/2018/12/07/rust-in-the-new-age/",
+      "tweet_url": "https://twitter.com/QuietMisdreavus/status/1071179893076049920",
+      "date_published": "2018-12-07T17:00:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "4ea6d02a-6279-4eef-af2f-bd67424d6de8",
+      "title": "The Swiss Army Knife of Hashmaps",
+      "content_text": "A while back, there was a discussion comparing the performance of using the hashbrown crate (based on Google’s SwissTable implementation) in the Rust compiler. In the last RustFest, Amanieu was experimenting on integrating his crate into stdlib, which turned out to have some really promising results. As a result, it’s being planned to move the crate into stdlib.\n\nWhile the integration is still ongoing, there’s currently no blog post out there explaining SwissTable at the moment. So, I thought I’d dig deeper into the Rust implementation to try and explain how its (almost) identical twin hashbrown::HashMap works.",
+      "url": "https://blog.waffles.space/2018/12/07/deep-dive-into-hashbrown/",
+      "tweet_url": "https://twitter.com/wafflespeanut/status/1071100420871745536",
+      "date_published": "2018-12-07T16:58:46+00:00",
+      "author": {
+        "name": "Ravi Shankar",
+        "url": "https://blog.waffles.space/"
+      },
+      "tags": [
+        "Computer Science",
+        "Performance"
+      ]
+    },
+    {
+      "id": "e7334cc0-fe8a-4b16-b96f-c25b2073dc52",
+      "title": "A simple agenda for the Rust Game Development WG",
+      "content_text": "Proposing Amethyst as our flagship project.",
+      "url": "https://medium.com/rustgamedev/a-simple-agenda-for-the-rust-game-development-wg-485cfc72b088",
+      "tweet_url": "https://twitter.com/erlend_sh/status/1071191482789445633",
+      "date_published": "2018-12-07T23:51:48.344+00:00",
+      "author": {
+        "name": "Erlend S. Heggen",
+        "url": "https://medium.com/@erlend_sh"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "b9206a7e-5ee3-4336-b756-afab50e9992f",
+      "title": "Debugging Cargo Test",
+      "content_text": "While developing some crates in rust, I ran into a few crashes in certain situations when using these crates from another application. In order to more easily reproduce the problem, and also minimize or eliminate future regressions, I decided to write some unit tests for these issues, and use them to more easily debug the problems… or so I thought!",
+      "url": "https://www.wihlidal.com/blog/general/2018-12-07-debugging-cargo-test/",
+      "tweet_url": "https://twitter.com/gwihlidal/status/1071177128161501184",
+      "date_published": "2018-12-07T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8f026251-f6df-4816-a89f-855741aacbf6",
+      "title": "The Fallow Year, my Rust2019 post",
+      "content_text": "Rust is an amazing project. It’s unlike anything I’ve ever seen. Not only are we seeing an ever-growing number of big name users of Rust, we also continue to see leaps in productivity and functionality. Yesterday, the Rust 2018 edition shipped. The culmination of three years of work, it shows off what the community is capable of: new features, backwards compatibility, new ergonomics without sacrificing performance, and the list goes on and on.\n\nWhich is why it might comes as a little bit of a surprise that I suggest we let the field rest for the year. More specifically, that we should let one field rest while we plant another. Rather than focusing on new designs, I suggest we turn our attention outside of RFCs to other areas of Rust.",
+      "url": "https://www.jonathanturner.org/2018/12/the-fallow-year.html",
+      "tweet_url": "https://twitter.com/jntrnr/status/1071112040352112641",
+      "date_published": "2018-12-08T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "3c8b4f15-959d-40cc-a79c-1a375f498bb0",
+      "title": "Rust: Error handling – Learning Rust",
+      "content_text": "Welcome Back! This is the fifth post of Learning Rust series. Rust is a well designed language and safety is one of the main focus area of it. Its design decisions have been taken to prevent errors and major issues of systems programs like data races, null pointer exceptions, sensitive data leakage through exceptions and etc. So today, we are going to talk more about the concepts behind Error Handling in Rust.",
+      "url": "https://medium.com/learning-rust/rust-error-handling-72a8e036dd3",
+      "date_published": "2018-12-06T19:11:01.554+00:00",
+      "author": {
+        "name": "Dumindu Madunuwan",
+        "url": "https://medium.com/@dumindu"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "efb83d26-14fa-4649-b4f2-e792f0e8a658",
+      "title": "2019 Roadmap? More like a wishlist",
+      "content_text": "I think there is too much unfinished and unpolished stuff in Rust. My wish for 2019 would be to ship most of this. If I had to choose a theme for Rust 2021 that would be \"Reliability\", to convey that what is shipped has actually been polished to the point that it does not fail.",
+      "url": "https://www.reddit.com/r/rust/comments/a3sav1/2019_roadmap_more_like_a_wishlist_finish_and_ship/",
+      "date_published": "2018-12-07T08:06:04+11:00",
+      "author": {
+        "name": "u/0b_0101_001_1010",
+        "url": "https://www.reddit.com/user/0b_0101_001_1010/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "a3f673ea-49c8-4942-96a3-8565d6191ec5",
+      "title": "Making Rust a perfect fit for high-performance computations",
+      "content_text": "I think Rust could help at the task of writing performant computational software, because its expressiveness, flexibility and degree of low-level control rivals that of C++, which is the de facto dominant programming language of this community where sophisticated abstractions and high performance are both desired. All the while being vastly easier to learn, and to use correctly and efficiently at the same time.",
+      "url": "https://gist.github.com/HadrienG2/e9a875bdf98b528594f4e20f8176bb68",
+      "date_published": "2018-12-06T21:06:21+00:00",
+      "author": {
+        "name": "Hadrien G.",
+        "url": "https://gist.github.com/HadrienG2"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "c0eb769f-4785-436d-b0b9-4bff16b30ef8",
+      "title": "Reflecting on Rust and WebAssembly in 2018",
+      "content_text": "🎉 The 2018 edition of Rust has officially shipped, and the initial Rust and WebAssembly development story along with it! 🎉 To see how far we’ve come, let’s reflect on the Rust and WebAssembly story a year ago: rustc could emit WebAssembly binaries for you, but that was about it. As far as communication with JavaScript went, you had to work with raw wasm imports and exports yourself. That meant you could only pass 32- and 64-bit integers and floats back and forth. No Rust structs, JavaScript objects, strings, or slices could be passed back forth. And distributing your library’s .wasm so that other downstream projects could depend on it? Good luck.",
+      "url": "https://rustwasm.github.io/2018/12/06/reflecting-on-rust-and-wasm-in-2018.html",
+      "tweet_url": "https://twitter.com/rustwasm/status/1070732396184698881",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "Rust and WebAssembly",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3234baba-f03d-467c-b032-d7d0dec7a12d",
       "title": " A call for Rust 2019 Roadmap blog posts",
       "content_text": "Starting today and running until of January 15, we’d like to ask the community to write blogposts reflecting on Rust in 2018 and proposing goals and directions for Rust in 2019.",
@@ -541,7 +704,7 @@
       "date_published": "2018-11-17T00:00:00+00:00",
       "author": {
         "name": "Vincent Prouillet",
-        "url": null
+        "url": "https://www.vincentprouillet.com/blog/"
       },
       "tags": [
         "Crates"
