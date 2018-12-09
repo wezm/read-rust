@@ -250,7 +250,7 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
                 doc.select_first("title")
                     .ok()
                     .map(|title| title.text_contents())
-            }).ok_or_else(|| Error::StringError("Document has no title".to_owned()))?
+            }).unwrap_or_else(|| "FIXME".to_owned())
     }.trim()
     .to_owned();
 
