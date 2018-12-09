@@ -1,0 +1,28 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Rust 2019",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/rust-2019/feed.json",
+  "description": "Rust 2019 posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "3234baba-f03d-467c-b032-d7d0dec7a12d",
+      "title": " A call for Rust 2019 Roadmap blog posts",
+      "content_text": "Starting today and running until of January 15, we’d like to ask the community to write blogposts reflecting on Rust in 2018 and proposing goals and directions for Rust in 2019.",
+      "url": "https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html",
+      "date_published": "2018-12-06T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Community Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language",
+        "Rust 2019"
+      ]
+    }
+  ]
+}
