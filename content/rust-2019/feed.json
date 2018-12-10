@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "57aae12d-0d27-4eec-b3f3-4ff99f294435",
+      "title": "Rust 2019 – The Road Ahead",
+      "content_text": "The Rust community team is soliciting blog posts to help plan the 2019 efforts. So here’s my take. I’ll start by looking back at the last year. We’ve seen great and impactful changes in the Rust landscape, such as non-lexical lifetimes, the stabilization of procedural macros and const fn, stable clippy and rustfmt, the further development of powerful IDE integration such as IntelliJ, Atom and VSCode.",
+      "url": "https://llogiq.github.io/2018/12/08/rust.html",
+      "date_published": "2018-12-08T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "0e733a02-5972-4106-98a7-d0613485cac1",
+      "title": "Rust 2019 — let us pursue composability",
+      "content_text": "We should drive home the goals set in spirit of productivity in 2019. We should also consider composibility as the next overarching theme.",
+      "url": "https://medium.com/@GolDDranks/rust-2019-let-us-pursue-composability-70f1eb2238c3",
+      "date_published": "2018-12-09T02:50:51.197+00:00",
+      "author": {
+        "name": "Pyry Kontio",
+        "url": "https://medium.com/@GolDDranks"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "e20c3d81-ce4b-491d-98e1-632aeb5e40a4",
       "title": "Plans for 2019",
       "content_text": "Many people have asked me what I’m working on lately, and I thought I’d give a quick rundown of my status and plans for 2019. I intend to keep this post updated with the status of projects as they progress.",

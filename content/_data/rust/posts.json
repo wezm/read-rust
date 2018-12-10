@@ -10,6 +10,139 @@
   },
   "items": [
     {
+      "id": "afa2fbf0-9866-4be5-aa97-247c58bbccf7",
+      "title": "cargo-call-stack: Whole program static stack analysis",
+      "content_text": "The tool produces a call graph of the selected program as a dot file. Each node (function) in the call graph includes the local stack usage of the function, if provided by LLVM (see -Z emit-stack-sizes). If the call graph contains no cycles then the tool also computes the maximum stack usage of each function, that is the stack usage that includes the stack usage of the functions the function may invoke.",
+      "url": "https://github.com/japaric/cargo-call-stack#cargo-call-stack",
+      "tweet_url": "https://twitter.com/japaricious/status/1069569802241486850",
+      "date_published": "2018-12-03T23:31:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "27a7e602-da8a-4c0b-9ec1-81cc22c00df9",
+      "title": "Using Web Assembly in the Browser",
+      "content_text": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. This essentially means that is is fast, because the program is compiled to a much more compact format, making it faster to parse. Wasm can be written by hand if you're looking for a challenge, but is primarily meant to be written in another language, and then compiled to Wasm. You may know a little about Assembly language and how it works - here's a quick refresher in-case you're rusty.",
+      "url": "https://ljcode.org/blog/wasm-part1/",
+      "tweet_url": "https://twitter.com/SenojEkul/status/1072051343064330240",
+      "date_published": "2018-12-10T00:00:00+00:00",
+      "author": {
+        "name": "Luke Jones",
+        "url": "https://ljcode.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "57aae12d-0d27-4eec-b3f3-4ff99f294435",
+      "title": "Rust 2019 – The Road Ahead",
+      "content_text": "The Rust community team is soliciting blog posts to help plan the 2019 efforts. So here’s my take. I’ll start by looking back at the last year. We’ve seen great and impactful changes in the Rust landscape, such as non-lexical lifetimes, the stabilization of procedural macros and const fn, stable clippy and rustfmt, the further development of powerful IDE integration such as IntelliJ, Atom and VSCode.",
+      "url": "https://llogiq.github.io/2018/12/08/rust.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1071522084508090370",
+      "date_published": "2018-12-08T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "7df2b166-e70e-4b15-bf6e-9475a81096e9",
+      "title": "Creating my first AWS Lambda using Rust",
+      "content_text": "Taking advantage of AWS Lambda Runtime support for Rust",
+      "url": "https://medium.com/@kkostov/rust-aws-lambda-30a1b92d4009",
+      "tweet_url": "https://twitter.com/kkostov/status/1069209857138573313",
+      "date_published": "2018-12-02T12:40:16.527+00:00",
+      "author": {
+        "name": "Konstantin",
+        "url": "https://medium.com/@kkostov"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c52eda57-1761-4ec3-9e59-c4c45d665574",
+      "title": "Dice.rs: Rust on Lambda",
+      "content_text": "Rust support on AWS Lambda was recently released, which seems like as good an opportunity as any to share some code and the solutions to challenges I encountered along the way ☺. I’ve decided to create a little diceware service, and the lambda-runtime crate provides a great API to make this a breeze.",
+      "url": "https://kellenfujimoto.com/posts/dicers-rust-on-lambda/",
+      "tweet_url": "https://twitter.com/rakenodiax/status/1069893133079588864",
+      "date_published": "2018-12-02T14:18:59+01:00",
+      "author": {
+        "name": "Kellen Frodelius-Fujimoto",
+        "url": "https://kellenfujimoto.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "2b4ef111-3f3b-416d-b94d-55fe01a94455",
+      "title": "More on RLS version numbering",
+      "content_text": "In a few days the 2018 edition is going to roll out, and that will include some new framing around Rust's tooling. We've got a core set of developer tools which are stable and ready for widespread use. We're going to have a blog post all about that, but for",
+      "url": "https://www.ncameron.org/blog/more-on-rls-version-numbering/",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1069789790051143680",
+      "date_published": "2018-12-04T03:00:20+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "deadc4e1-1e13-49ca-b62b-cd8af455a164",
+      "title": "Wherefore art thou Romio?",
+      "content_text": "This blog post is about a project called Romio that I’ve been working on over the past two or three weeks. Romio is a port of a small part of the Tokio project to the newer futures APIs.\n\nI started the project to get some experience porting code from the old futures API to the new API. However, we realized that this code could also be useful to other people who want to experiment with networking code using the new async/await syntax, so with the help of others we polished it up during the RustFest Rome “impl days” and now its being released for people to experiment with.",
+      "url": "http://boats.gitlab.io/blog/post/romio/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1070430725986545664",
+      "date_published": "2018-12-05T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "8f8ef893-ae80-4991-9d17-93049ee0adc6",
+      "title": "Spirit Tutorial",
+      "content_text": "In short, when writing a daemon or a service, we have the „muscle“ of the application ‒ whatever we write the daemon for. And we have a whole lot of infrastructure around that: logging, command line parsing, configuration. And while there are Rust libraries for all that, one needs nontrivial amount of boilerplate code to bridge all this together. Spirit aims to be this bridge.",
+      "url": "https://vorner.github.io/2018/12/09/Spirit-Tutorial.html",
+      "date_published": "2018-12-09T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0e733a02-5972-4106-98a7-d0613485cac1",
+      "title": "Rust 2019 — let us pursue composability",
+      "content_text": "We should drive home the goals set in spirit of productivity in 2019. We should also consider composibility as the next overarching theme.",
+      "url": "https://medium.com/@GolDDranks/rust-2019-let-us-pursue-composability-70f1eb2238c3",
+      "date_published": "2018-12-09T02:50:51.197+00:00",
+      "author": {
+        "name": "Pyry Kontio",
+        "url": "https://medium.com/@GolDDranks"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "e20c3d81-ce4b-491d-98e1-632aeb5e40a4",
       "title": "Plans for 2019",
       "content_text": "Many people have asked me what I’m working on lately, and I thought I’d give a quick rundown of my status and plans for 2019. I intend to keep this post updated with the status of projects as they progress.",

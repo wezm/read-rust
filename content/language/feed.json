@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2b4ef111-3f3b-416d-b94d-55fe01a94455",
+      "title": "More on RLS version numbering",
+      "content_text": "In a few days the 2018 edition is going to roll out, and that will include some new framing around Rust's tooling. We've got a core set of developer tools which are stable and ready for widespread use. We're going to have a blog post all about that, but for",
+      "url": "https://www.ncameron.org/blog/more-on-rls-version-numbering/",
+      "date_published": "2018-12-04T03:00:20+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b9206a7e-5ee3-4336-b756-afab50e9992f",
       "title": "Debugging Cargo Test",
       "content_text": "While developing some crates in rust, I ran into a few crashes in certain situations when using these crates from another application. In order to more easily reproduce the problem, and also minimize or eliminate future regressions, I decided to write some unit tests for these issues, and use them to more easily debug the problems… or so I thought!",

@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "27a7e602-da8a-4c0b-9ec1-81cc22c00df9",
+      "title": "Using Web Assembly in the Browser",
+      "content_text": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. This essentially means that is is fast, because the program is compiled to a much more compact format, making it faster to parse. Wasm can be written by hand if you're looking for a challenge, but is primarily meant to be written in another language, and then compiled to Wasm. You may know a little about Assembly language and how it works - here's a quick refresher in-case you're rusty.",
+      "url": "https://ljcode.org/blog/wasm-part1/",
+      "date_published": "2018-12-10T00:00:00+00:00",
+      "author": {
+        "name": "Luke Jones",
+        "url": "https://ljcode.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7df2b166-e70e-4b15-bf6e-9475a81096e9",
+      "title": "Creating my first AWS Lambda using Rust",
+      "content_text": "Taking advantage of AWS Lambda Runtime support for Rust",
+      "url": "https://medium.com/@kkostov/rust-aws-lambda-30a1b92d4009",
+      "date_published": "2018-12-02T12:40:16.527+00:00",
+      "author": {
+        "name": "Konstantin",
+        "url": "https://medium.com/@kkostov"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c52eda57-1761-4ec3-9e59-c4c45d665574",
+      "title": "Dice.rs: Rust on Lambda",
+      "content_text": "Rust support on AWS Lambda was recently released, which seems like as good an opportunity as any to share some code and the solutions to challenges I encountered along the way ☺. I’ve decided to create a little diceware service, and the lambda-runtime crate provides a great API to make this a breeze.",
+      "url": "https://kellenfujimoto.com/posts/dicers-rust-on-lambda/",
+      "date_published": "2018-12-02T14:18:59+01:00",
+      "author": {
+        "name": "Kellen Frodelius-Fujimoto",
+        "url": "https://kellenfujimoto.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "deadc4e1-1e13-49ca-b62b-cd8af455a164",
+      "title": "Wherefore art thou Romio?",
+      "content_text": "This blog post is about a project called Romio that I’ve been working on over the past two or three weeks. Romio is a port of a small part of the Tokio project to the newer futures APIs.\n\nI started the project to get some experience porting code from the old futures API to the new API. However, we realized that this code could also be useful to other people who want to experiment with networking code using the new async/await syntax, so with the help of others we polished it up during the RustFest Rome “impl days” and now its being released for people to experiment with.",
+      "url": "http://boats.gitlab.io/blog/post/romio/",
+      "date_published": "2018-12-05T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "05ee17e8-44f9-41c4-9f29-b4a5be430158",
       "title": "Safe Web Services with Actix and Sentry",
       "content_text": "Enjoy this quick introduction to creating a web server with Actix and monitoring it with Sentry.",

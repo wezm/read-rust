@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "afa2fbf0-9866-4be5-aa97-247c58bbccf7",
+      "title": "cargo-call-stack: Whole program static stack analysis",
+      "content_text": "The tool produces a call graph of the selected program as a dot file. Each node (function) in the call graph includes the local stack usage of the function, if provided by LLVM (see -Z emit-stack-sizes). If the call graph contains no cycles then the tool also computes the maximum stack usage of each function, that is the stack usage that includes the stack usage of the functions the function may invoke.",
+      "url": "https://github.com/japaric/cargo-call-stack#cargo-call-stack",
+      "date_published": "2018-12-03T23:31:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "4c4ca2bc-0e59-4c24-92c1-2b37630f2280",
       "title": "Rusty clock: An alarm clock with environment stats in pure bare metal embedded Rust",
       "content_text": "This alarm clock is programed in bare metal rust (no OS). It features pressure, temperature, humidity, monophonic alarm on a e-paper display.",

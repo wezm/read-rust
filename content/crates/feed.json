@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8f8ef893-ae80-4991-9d17-93049ee0adc6",
+      "title": "Spirit Tutorial",
+      "content_text": "In short, when writing a daemon or a service, we have the „muscle“ of the application ‒ whatever we write the daemon for. And we have a whole lot of infrastructure around that: logging, command line parsing, configuration. And while there are Rust libraries for all that, one needs nontrivial amount of boilerplate code to bridge all this together. Spirit aims to be this bridge.",
+      "url": "https://vorner.github.io/2018/12/09/Spirit-Tutorial.html",
+      "date_published": "2018-12-09T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c9feb6f2-ba42-42ca-a0a3-dc37f4ce69ff",
       "title": "Rust+GNOME Hackfest #4",
       "content_text": "Less than 2 weeks ago, I was working on improving the integration of Rust with GNOME libraries at the fourth Hackfest, which happened this time in Thessaloniki.",
