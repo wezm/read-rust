@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "20ba5c8d-b4f2-4ae5-af75-7631ccc05f12",
+      "title": "cargo-inspect: A Little Tool for Exploring Rust Internals",
+      "content_text": "Rust allows for a lot of syntactic sugar, that makes it a pleasure to write. It is sometimes hard, however, to look behind the curtain and see what the compiler is really doing with our code. I wondered if there was a tool, which revealed what Rust was doing behind the curtains.",
+      "url": "https://matthias-endler.de/2018/cargo-inspect/",
+      "date_published": "2018-12-01T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://matthias-endler.de/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "5527d11f-6f5e-47f4-b208-c90499764f04",
       "title": "Build Your Own Shell using Rust",
       "content_text": "This is a tutorial on building your own shell using Rust, in the spirit of the build-your-own-x list. Creating a shell is a great way to understand how the shell, terminal emulator, and OS work together.",

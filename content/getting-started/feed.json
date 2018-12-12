@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f8aa1176-9ae2-447f-b914-a6950612d7f2",
+      "title": "8 Lessons from First Days of Advent of Code 2018",
+      "content_text": "I’ve got two days of Advent of Code 2018 under my belt and four stars to show for it! But I’ll be the first to admit that I had plenty of help, so I thought it only fair that I write out some of the things I’ve already learned about Rust.",
+      "url": "https://sts10.github.io/2018/12/02/lessons-from-first-two-days-of-advent-of-code-2018.html",
+      "date_published": "2018-12-02T23:22:00+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3c8b4f15-959d-40cc-a79c-1a375f498bb0",
       "title": "Rust: Error handling – Learning Rust",
       "content_text": "Welcome Back! This is the fifth post of Learning Rust series. Rust is a well designed language and safety is one of the main focus area of it. Its design decisions have been taken to prevent errors and major issues of systems programs like data races, null pointer exceptions, sensitive data leakage through exceptions and etc. So today, we are going to talk more about the concepts behind Error Handling in Rust.",

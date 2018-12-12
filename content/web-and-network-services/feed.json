@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "9e21d91f-ef59-43f5-98c9-ba96d003fcb3",
+      "title": "Rocket v0.4: Typed URIs, Database Support, Revamped Queries, & More!",
+      "content_text": "I am elated to announce that the next major release of Rocket is now available! Rocket 0.4 is a step forward in every direction: it is packed with features and improvements that increase developer productivity, improve application security and robustness, provide new opportunities for extensibility, and deliver a renewed degree of toolchain stability.",
+      "url": "https://rocket.rs/v0.4/news/2018-12-08-version-0.4/",
+      "date_published": "2018-12-08T00:00:00+00:00",
+      "author": {
+        "name": "Sergio Benitez",
+        "url": "https://rocket.rs/news"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "5493161b-6e7d-4b81-887f-af80a0d2c410",
+      "title": "CFG Game: Put your CS skills to good use and craft burgers",
+      "content_text": "This past weekend I made a game for Ludum Dare 43. Tools used: Aseprite, quicksilver. Inspired by Zachtronics. It is written in Rust and compiled to WebAssembly.",
+      "url": "http://rickyhan.com/jekyll/update/2018/12/03/make-burgers-context-free-grammar.html",
+      "date_published": "2018-12-03T04:37:02+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "27a7e602-da8a-4c0b-9ec1-81cc22c00df9",
       "title": "Using Web Assembly in the Browser",
       "content_text": "WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. This essentially means that is is fast, because the program is compiled to a much more compact format, making it faster to parse. Wasm can be written by hand if you're looking for a challenge, but is primarily meant to be written in another language, and then compiled to Wasm. You may know a little about Assembly language and how it works - here's a quick refresher in-case you're rusty.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "4fe3c55c-a091-40c2-ada0-8c5d371afc31",
+      "title": "Existential types in Rust",
+      "content_text": "The Rust project I am working on is a caching layer, currently backed by Redis, and it came to a point where I needed to leverage pipelining. On its own, pipelining is straightforward as the redis crate implements it already. However all notions of a cache in our code are abstracted out behind a trait so we can have alternative implementations, such as an in-memory HashMap-backed implementation.\n\nThe problem arises with representing the pipeline in code. It would force any implementation of our cache to Redis’s notion of a pipeline. Not only would this make it difficult to introspect during testing, but it would also be nonsensical for our HashMap-backed cache. My usual answer to this in languages that support higher-kinded types is to use tagless-final algebras, but Rust’s type system currently doesn’t support higher-kinded types1. Fortunately, there is a pretty good alternative that Rust does support: existential types.",
+      "url": "https://adelbertc.github.io/posts/2018-12-10-rust-existentials.html",
+      "date_published": "2018-12-10T00:00:00+00:00",
+      "author": {
+        "name": "Adelbert Chang",
+        "url": "https://adelbertc.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9303577c-bd85-4bfa-9b0c-30685300155c",
+      "title": "Inside Rust’s Async Transform",
+      "content_text": "As you likely know if you’re reading this post Rust has an upcoming async/await feature being tested in nightly. Because of Rust’s unique features and positioning fully understanding the implementation powering this syntax is very different to understanding other well-known implementations (C# and JavaScript’s being the ones I am familiar with). Instead of thinking of a CPS-like transform where an async function is split into a series of continuations that are chained together via a Future::then method, Rust instead uses a generator/coroutine transform to turn the function into a state machine (C# and probably most JavaScript implementations use a similar transform under the hood, but as far as I’m aware because of the garbage collector these are indistinguishable from the naive CPS transform they are normally described as). For more detail on why Rust is taking this approach you should read eRFC 2033: Experimental Coroutines, that lays out the why’s much better than I could here.\n\nWhat I’m going to try and provide instead, is a look into how this actually works today. What steps the compiler takes to turn an async fn into a normal function returning a state machine that you could write if you wanted to (but you definitely don’t).",
+      "url": "https://blag.nemo157.com/2018/12/09/inside-rusts-async-transform.html",
+      "date_published": "2018-12-09T00:00:00+00:00",
+      "author": {
+        "name": "Wim Looman",
+        "url": "https://blag.nemo157.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2b4ef111-3f3b-416d-b94d-55fe01a94455",
       "title": "More on RLS version numbering",
       "content_text": "In a few days the 2018 edition is going to roll out, and that will include some new framing around Rust's tooling. We've got a core set of developer tools which are stable and ready for widespread use. We're going to have a blog post all about that, but for",

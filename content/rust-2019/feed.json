@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4259e940-d508-4de3-8971-3c3df7b30f98",
+      "title": "Rust in 2022",
+      "content_text": "A response to the call for 2019 roadmap blog posts. In case you missed it, we released our second edition of Rust this year! An edition is an opportunity to make backwards incompatible changes, but more than that it's an opportunity to bring attention to how programming in Rust has changed. With the 2018 edition out of the door, now is the time to think about the next edition: how do we want programming in Rust in 2022 to be different to programming in Rust today? Once we've worked that out, lets work backwards to what should be done in 2019.",
+      "url": "https://www.ncameron.org/blog/rust-in-2022/",
+      "date_published": "2018-12-11T04:34:31+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "57aae12d-0d27-4eec-b3f3-4ff99f294435",
       "title": "Rust 2019 – The Road Ahead",
       "content_text": "The Rust community team is soliciting blog posts to help plan the 2019 efforts. So here’s my take. I’ll start by looking back at the last year. We’ve seen great and impactful changes in the Rust landscape, such as non-lexical lifetimes, the stabilization of procedural macros and const fn, stable clippy and rustfmt, the further development of powerful IDE integration such as IntelliJ, Atom and VSCode.",

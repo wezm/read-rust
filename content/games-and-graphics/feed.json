@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "05addab4-8c30-4a75-9221-e156ea5d319c",
+      "title": "Announcing RustaCUDA v0.1.0",
+      "content_text": "In my post on GPGPU in Rust, I declared that I intended to work on improving the state of CUDA support in Rust. Since then, I’ve been mostly radio-silent. I’m pleased to announce that I have actually been working on something, and I’ve finally published that something.\nRustaCUDA RustaCUDA is a new wrapper crate for the CUDA driver API. It allows the programmer to allocate and free GPU memory, copy data to and from the GPU, load CUDA modules and launch kernels, all with a mostly-safe, programmer-friendly, Rust-y interface.",
+      "url": "https://bheisler.github.io/post/announcing-rustacuda/",
+      "date_published": "2018-12-01T15:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5493161b-6e7d-4b81-887f-af80a0d2c410",
+      "title": "CFG Game: Put your CS skills to good use and craft burgers",
+      "content_text": "This past weekend I made a game for Ludum Dare 43. Tools used: Aseprite, quicksilver. Inspired by Zachtronics. It is written in Rust and compiled to WebAssembly.",
+      "url": "http://rickyhan.com/jekyll/update/2018/12/03/make-burgers-context-free-grammar.html",
+      "date_published": "2018-12-03T04:37:02+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "1e18d220-093b-46bd-b260-640ed3d74deb",
       "title": "Amethyst Foundation Created",
       "content_text": "The Amethyst team has some special announcements. A non-profit foundation has been formed and a new community forums site has been created.",

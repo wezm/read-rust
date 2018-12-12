@@ -10,6 +10,123 @@
   },
   "items": [
     {
+      "id": "9e21d91f-ef59-43f5-98c9-ba96d003fcb3",
+      "title": "Rocket v0.4: Typed URIs, Database Support, Revamped Queries, & More!",
+      "content_text": "I am elated to announce that the next major release of Rocket is now available! Rocket 0.4 is a step forward in every direction: it is packed with features and improvements that increase developer productivity, improve application security and robustness, provide new opportunities for extensibility, and deliver a renewed degree of toolchain stability.",
+      "url": "https://rocket.rs/v0.4/news/2018-12-08-version-0.4/",
+      "date_published": "2018-12-08T00:00:00+00:00",
+      "author": {
+        "name": "Sergio Benitez",
+        "url": "https://rocket.rs/news"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4fe3c55c-a091-40c2-ada0-8c5d371afc31",
+      "title": "Existential types in Rust",
+      "content_text": "The Rust project I am working on is a caching layer, currently backed by Redis, and it came to a point where I needed to leverage pipelining. On its own, pipelining is straightforward as the redis crate implements it already. However all notions of a cache in our code are abstracted out behind a trait so we can have alternative implementations, such as an in-memory HashMap-backed implementation.\n\nThe problem arises with representing the pipeline in code. It would force any implementation of our cache to Redis’s notion of a pipeline. Not only would this make it difficult to introspect during testing, but it would also be nonsensical for our HashMap-backed cache. My usual answer to this in languages that support higher-kinded types is to use tagless-final algebras, but Rust’s type system currently doesn’t support higher-kinded types1. Fortunately, there is a pretty good alternative that Rust does support: existential types.",
+      "url": "https://adelbertc.github.io/posts/2018-12-10-rust-existentials.html",
+      "tweet_url": "https://twitter.com/adelbertchang/status/1072166361600712712",
+      "date_published": "2018-12-10T00:00:00+00:00",
+      "author": {
+        "name": "Adelbert Chang",
+        "url": "https://adelbertc.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4259e940-d508-4de3-8971-3c3df7b30f98",
+      "title": "Rust in 2022",
+      "content_text": "A response to the call for 2019 roadmap blog posts. In case you missed it, we released our second edition of Rust this year! An edition is an opportunity to make backwards incompatible changes, but more than that it's an opportunity to bring attention to how programming in Rust has changed. With the 2018 edition out of the door, now is the time to think about the next edition: how do we want programming in Rust in 2022 to be different to programming in Rust today? Once we've worked that out, lets work backwards to what should be done in 2019.",
+      "url": "https://www.ncameron.org/blog/rust-in-2022/",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1072349233221722112",
+      "date_published": "2018-12-11T04:34:31+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "20ba5c8d-b4f2-4ae5-af75-7631ccc05f12",
+      "title": "cargo-inspect: A Little Tool for Exploring Rust Internals",
+      "content_text": "Rust allows for a lot of syntactic sugar, that makes it a pleasure to write. It is sometimes hard, however, to look behind the curtain and see what the compiler is really doing with our code. I wondered if there was a tool, which revealed what Rust was doing behind the curtains.",
+      "url": "https://matthias-endler.de/2018/cargo-inspect/",
+      "tweet_url": "https://twitter.com/matthiasendler/status/1069642732761698305",
+      "date_published": "2018-12-01T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://matthias-endler.de/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f8aa1176-9ae2-447f-b914-a6950612d7f2",
+      "title": "8 Lessons from First Days of Advent of Code 2018",
+      "content_text": "I’ve got two days of Advent of Code 2018 under my belt and four stars to show for it! But I’ll be the first to admit that I had plenty of help, so I thought it only fair that I write out some of the things I’ve already learned about Rust.",
+      "url": "https://sts10.github.io/2018/12/02/lessons-from-first-two-days-of-advent-of-code-2018.html",
+      "date_published": "2018-12-02T23:22:00+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "05addab4-8c30-4a75-9221-e156ea5d319c",
+      "title": "Announcing RustaCUDA v0.1.0",
+      "content_text": "In my post on GPGPU in Rust, I declared that I intended to work on improving the state of CUDA support in Rust. Since then, I’ve been mostly radio-silent. I’m pleased to announce that I have actually been working on something, and I’ve finally published that something.\nRustaCUDA RustaCUDA is a new wrapper crate for the CUDA driver API. It allows the programmer to allocate and free GPU memory, copy data to and from the GPU, load CUDA modules and launch kernels, all with a mostly-safe, programmer-friendly, Rust-y interface.",
+      "url": "https://bheisler.github.io/post/announcing-rustacuda/",
+      "tweet_url": "https://twitter.com/redattack34/status/1069095970422620165",
+      "date_published": "2018-12-01T15:00:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5493161b-6e7d-4b81-887f-af80a0d2c410",
+      "title": "CFG Game: Put your CS skills to good use and craft burgers",
+      "content_text": "This past weekend I made a game for Ludum Dare 43. Tools used: Aseprite, quicksilver. Inspired by Zachtronics. It is written in Rust and compiled to WebAssembly.",
+      "url": "http://rickyhan.com/jekyll/update/2018/12/03/make-burgers-context-free-grammar.html",
+      "date_published": "2018-12-03T04:37:02+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9303577c-bd85-4bfa-9b0c-30685300155c",
+      "title": "Inside Rust’s Async Transform",
+      "content_text": "As you likely know if you’re reading this post Rust has an upcoming async/await feature being tested in nightly. Because of Rust’s unique features and positioning fully understanding the implementation powering this syntax is very different to understanding other well-known implementations (C# and JavaScript’s being the ones I am familiar with). Instead of thinking of a CPS-like transform where an async function is split into a series of continuations that are chained together via a Future::then method, Rust instead uses a generator/coroutine transform to turn the function into a state machine (C# and probably most JavaScript implementations use a similar transform under the hood, but as far as I’m aware because of the garbage collector these are indistinguishable from the naive CPS transform they are normally described as). For more detail on why Rust is taking this approach you should read eRFC 2033: Experimental Coroutines, that lays out the why’s much better than I could here.\n\nWhat I’m going to try and provide instead, is a look into how this actually works today. What steps the compiler takes to turn an async fn into a normal function returning a state machine that you could write if you wanted to (but you definitely don’t).",
+      "url": "https://blag.nemo157.com/2018/12/09/inside-rusts-async-transform.html",
+      "date_published": "2018-12-09T00:00:00+00:00",
+      "author": {
+        "name": "Wim Looman",
+        "url": "https://blag.nemo157.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "afa2fbf0-9866-4be5-aa97-247c58bbccf7",
       "title": "cargo-call-stack: Whole program static stack analysis",
       "content_text": "The tool produces a call graph of the selected program as a dot file. Each node (function) in the call graph includes the local stack usage of the function, if provided by LLVM (see -Z emit-stack-sizes). If the call graph contains no cycles then the tool also computes the maximum stack usage of each function, that is the stack usage that includes the stack usage of the functions the function may invoke.",
