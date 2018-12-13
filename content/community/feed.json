@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2fdb4722-43ce-4bad-b37e-67dae34eecb2",
+      "title": "Positive-Sum Games",
+      "content_text": "One thing I learned from Aaron Turon is to search for positive-sum games. First what does that even mean? In most arguments you may run into, it will be easy to find a zero-sum game: Your win is my loss and vice versa. However, in many situations, it is actually possible to go above those petty games and find a variant that allows us both to win.",
+      "url": "https://llogiq.github.io/2018/12/11/sum.html",
+      "date_published": "2018-12-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "c9feb6f2-ba42-42ca-a0a3-dc37f4ce69ff",
       "title": "Rust+GNOME Hackfest #4",
       "content_text": "Less than 2 weeks ago, I was working on improving the integration of Rust with GNOME libraries at the fourth Hackfest, which happened this time in Thessaloniki.",

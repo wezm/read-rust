@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "36dce8e1-2508-4e34-8aaf-1eb43a8b17e1",
+      "title": "Building Alexa Skills in Rust",
+      "content_text": "My favorite way to explore Lambdas is to build Alexa skills because of the immediate feedback: you write a little code, and a home device talks to you. It’s a peek into the long promised of world of easy service composition.\n\nUnfortunately, Rust didn’t have complete Alexa skill request/response handling (there is a crate from 2 years ago that handled only the basics), so I wrote one called alexa_sdk. (It’s basically a struct plus serde wrapper around the Alexa JSON spec, with some helpers.",
+      "url": "https://medium.com/@amalec/building-alexa-skills-in-rust-4cf54a497ea4",
+      "date_published": "2018-12-09T21:30:38.780+00:00",
+      "author": {
+        "name": "Arien Malec",
+        "url": "https://medium.com/@amalec"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "fd9c743c-fb89-4e75-8a46-a837c02174a1",
+      "title": "Implementing an EBNF grammar in pest",
+      "content_text": "A recent project has led me to have a go at writing an XML parser. I thought I’d document my experiences using pest to implement a lexer using the EBNF-esque formal grammar.",
+      "url": "https://compenguy.github.io/hobbies/rust/ebnf-to-pest.html",
+      "date_published": "2018-11-22T05:46:00+11:00",
+      "author": {
+        "name": "Will Page",
+        "url": "https://compenguy.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "8f8ef893-ae80-4991-9d17-93049ee0adc6",
       "title": "Spirit Tutorial",
       "content_text": "In short, when writing a daemon or a service, we have the „muscle“ of the application ‒ whatever we write the daemon for. And we have a whole lot of infrastructure around that: logging, command line parsing, configuration. And while there are Rust libraries for all that, one needs nontrivial amount of boilerplate code to bridge all this together. Spirit aims to be this bridge.",

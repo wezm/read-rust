@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "78791a3b-395e-4d3b-b091-66aa2fa2c577",
+      "title": "Edge programming with Rust and WebAssembly",
+      "content_text": "Take a developer deep dive into Terrarium, our multi-language, browser-based editor and deployment platform at the edge. Learn how to compile Rust programs to WebAssembly right on your local machine, interact with the Terrarium system, and explore some applications we’ve built with it.",
+      "url": "https://www.fastly.com/blog/edge-programming-rust-web-assembly",
+      "date_published": "2018-12-12T16:00:00+00:00",
+      "author": {
+        "name": "Pat Hickey",
+        "url": "https://www.fastly.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "9e21d91f-ef59-43f5-98c9-ba96d003fcb3",
       "title": "Rocket v0.4: Typed URIs, Database Support, Revamped Queries, & More!",
       "content_text": "I am elated to announce that the next major release of Rocket is now available! Rocket 0.4 is a step forward in every direction: it is packed with features and improvements that increase developer productivity, improve application security and robustness, provide new opportunities for extensibility, and deliver a renewed degree of toolchain stability.",

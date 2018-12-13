@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "00b55ed6-da3d-4c6a-90ed-ebea6191afd8",
+      "title": "Dynamically Generating Dockerfiles for K8s",
+      "content_text": "Hello everyone! Today I am excited to announce that DocQL is open-sourcing a Rust crate (a library) which we built internally called…",
+      "url": "https://medium.com/docql/dynamically-generating-dockerfiles-for-k8s-d2baf7bfef5a",
+      "date_published": "2018-12-10T19:43:10.002+00:00",
+      "author": {
+        "name": "Anthony Dodd",
+        "url": "https://medium.com/@doddzilla0"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "50e86e16-57e4-4740-8251-b7eb6340d9ad",
       "title": "Firecracker: Secure and Fast microVM for Serverless Computing",
       "content_text": "In the fall of 2017, we decided to write Firecracker in Rust, a modern programming language that guarantees thread and memory safety and prevents buffer overflows and many other types of memory safety errors that can lead to security vulnerabilities. Read more details about the features and architecture of the Firecracker VMM at Firecracker Design.\n\nFirecracker microVMs improve efficiency and utilization with a low memory overhead of < 5 MiB per microVMs. This means that you can pack thousands of microVMs onto a single machine. You can use an in-process rate limiter to control, with fine granularity, how network and storage resources are shared, even across thousands of microVMs. All hardware compute resources can be safely oversubscribed, to maximize the number of workloads that can run on a host.",

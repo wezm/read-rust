@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "36dce8e1-2508-4e34-8aaf-1eb43a8b17e1",
+      "title": "Building Alexa Skills in Rust",
+      "content_text": "My favorite way to explore Lambdas is to build Alexa skills because of the immediate feedback: you write a little code, and a home device talks to you. It’s a peek into the long promised of world of easy service composition.\n\nUnfortunately, Rust didn’t have complete Alexa skill request/response handling (there is a crate from 2 years ago that handled only the basics), so I wrote one called alexa_sdk. (It’s basically a struct plus serde wrapper around the Alexa JSON spec, with some helpers.",
+      "url": "https://medium.com/@amalec/building-alexa-skills-in-rust-4cf54a497ea4",
+      "date_published": "2018-12-09T21:30:38.780+00:00",
+      "author": {
+        "name": "Arien Malec",
+        "url": "https://medium.com/@amalec"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "dcaa5235-2614-4f61-b0b4-8b1f2e0d136e",
+      "title": "Lokathor's Rust 2019 wishpost",
+      "content_text": "Recently I've been using Rust for GBA development (repo link), and before that I spent most of my Rust time with Handmade Hero work (the actual repo is private to handmade hero backers, so that link is just the main website). As you might expect, this has given me a quite different view of what I want to see from Rust. Basically, I don't want more crates. I want language, and tools, and most importantly education.",
+      "url": "https://www.reddit.com/r/rust/comments/a4ygji/lokathors_rust_2019_wishpost",
+      "date_published": "2018-12-11T05:47:42+11:00",
+      "author": {
+        "name": "u/Lokathor",
+        "url": "https://www.reddit.com/user/Lokathor/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "2fdb4722-43ce-4bad-b37e-67dae34eecb2",
+      "title": "Positive-Sum Games",
+      "content_text": "One thing I learned from Aaron Turon is to search for positive-sum games. First what does that even mean? In most arguments you may run into, it will be easy to find a zero-sum game: Your win is my loss and vice versa. However, in many situations, it is actually possible to go above those petty games and find a variant that allows us both to win.",
+      "url": "https://llogiq.github.io/2018/12/11/sum.html",
+      "date_published": "2018-12-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "78791a3b-395e-4d3b-b091-66aa2fa2c577",
+      "title": "Edge programming with Rust and WebAssembly",
+      "content_text": "Take a developer deep dive into Terrarium, our multi-language, browser-based editor and deployment platform at the edge. Learn how to compile Rust programs to WebAssembly right on your local machine, interact with the Terrarium system, and explore some applications we’ve built with it.",
+      "url": "https://www.fastly.com/blog/edge-programming-rust-web-assembly",
+      "date_published": "2018-12-12T16:00:00+00:00",
+      "author": {
+        "name": "Pat Hickey",
+        "url": "https://www.fastly.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a884801e-f80b-4ea4-8441-a86c2c736086",
+      "title": "Rust 2019 - It's the Little Things",
+      "content_text": "This might be an uncommon opinion—especially among those motivated enough to write a Rust 2019 post—but I actually think Rust is pretty much at a good place now. For the kinds of things that I want to do (e.g. my path tracer), there isn't much that Rust is lacking as a language. There are some fiddly things like \"placement new\" that could be useful, but nothing really major. And of course, well-designed new features are always welcome, they just don't seem particularly critical to me at this point. In other words, I'm pretty much satisfied. Mission accomplished, as far as I'm concerned. I think the rest is just polish. Just the little things.",
+      "url": "https://blog.cessen.com/post/2018_12_12_rust_2019_its_the_little_things",
+      "date_published": "2018-12-12T00:00:00+00:00",
+      "author": {
+        "name": "Nathan Vegdahl",
+        "url": "https://blog.cessen.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "c0d67320-edd6-4eef-b345-bbf3288acaae",
+      "title": "Rust 2019: Think Bigger",
+      "content_text": "Rust shines when we find ways to have our cake and eat it too: memory safety without runtime garbage collection, abstraction without overhead, threading without data races. We must find new ways to continue this tradition for Rust 2019 and beyond.",
+      "url": "http://fitzgeraldnick.com/2018/12/11/rust-2019-think-bigger.html",
+      "date_published": "2018-12-11T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "fd9c743c-fb89-4e75-8a46-a837c02174a1",
+      "title": "Implementing an EBNF grammar in pest",
+      "content_text": "A recent project has led me to have a go at writing an XML parser. I thought I’d document my experiences using pest to implement a lexer using the EBNF-esque formal grammar.",
+      "url": "https://compenguy.github.io/hobbies/rust/ebnf-to-pest.html",
+      "date_published": "2018-11-22T05:46:00+11:00",
+      "author": {
+        "name": "Will Page",
+        "url": "https://compenguy.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "00b55ed6-da3d-4c6a-90ed-ebea6191afd8",
+      "title": "Dynamically Generating Dockerfiles for K8s",
+      "content_text": "Hello everyone! Today I am excited to announce that DocQL is open-sourcing a Rust crate (a library) which we built internally called…",
+      "url": "https://medium.com/docql/dynamically-generating-dockerfiles-for-k8s-d2baf7bfef5a",
+      "date_published": "2018-12-10T19:43:10.002+00:00",
+      "author": {
+        "name": "Anthony Dodd",
+        "url": "https://medium.com/@doddzilla0"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "9e21d91f-ef59-43f5-98c9-ba96d003fcb3",
       "title": "Rocket v0.4: Typed URIs, Database Support, Revamped Queries, & More!",
       "content_text": "I am elated to announce that the next major release of Rocket is now available! Rocket 0.4 is a step forward in every direction: it is packed with features and improvements that increase developer productivity, improve application security and robustness, provide new opportunities for extensibility, and deliver a renewed degree of toolchain stability.",

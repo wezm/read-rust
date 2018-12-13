@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "dcaa5235-2614-4f61-b0b4-8b1f2e0d136e",
+      "title": "Lokathor's Rust 2019 wishpost",
+      "content_text": "Recently I've been using Rust for GBA development (repo link), and before that I spent most of my Rust time with Handmade Hero work (the actual repo is private to handmade hero backers, so that link is just the main website). As you might expect, this has given me a quite different view of what I want to see from Rust. Basically, I don't want more crates. I want language, and tools, and most importantly education.",
+      "url": "https://www.reddit.com/r/rust/comments/a4ygji/lokathors_rust_2019_wishpost",
+      "date_published": "2018-12-11T05:47:42+11:00",
+      "author": {
+        "name": "u/Lokathor",
+        "url": "https://www.reddit.com/user/Lokathor/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "a884801e-f80b-4ea4-8441-a86c2c736086",
+      "title": "Rust 2019 - It's the Little Things",
+      "content_text": "This might be an uncommon opinion—especially among those motivated enough to write a Rust 2019 post—but I actually think Rust is pretty much at a good place now. For the kinds of things that I want to do (e.g. my path tracer), there isn't much that Rust is lacking as a language. There are some fiddly things like \"placement new\" that could be useful, but nothing really major. And of course, well-designed new features are always welcome, they just don't seem particularly critical to me at this point. In other words, I'm pretty much satisfied. Mission accomplished, as far as I'm concerned. I think the rest is just polish. Just the little things.",
+      "url": "https://blog.cessen.com/post/2018_12_12_rust_2019_its_the_little_things",
+      "date_published": "2018-12-12T00:00:00+00:00",
+      "author": {
+        "name": "Nathan Vegdahl",
+        "url": "https://blog.cessen.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "c0d67320-edd6-4eef-b345-bbf3288acaae",
+      "title": "Rust 2019: Think Bigger",
+      "content_text": "Rust shines when we find ways to have our cake and eat it too: memory safety without runtime garbage collection, abstraction without overhead, threading without data races. We must find new ways to continue this tradition for Rust 2019 and beyond.",
+      "url": "http://fitzgeraldnick.com/2018/12/11/rust-2019-think-bigger.html",
+      "date_published": "2018-12-11T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "4259e940-d508-4de3-8971-3c3df7b30f98",
       "title": "Rust in 2022",
       "content_text": "A response to the call for 2019 roadmap blog posts. In case you missed it, we released our second edition of Rust this year! An edition is an opportunity to make backwards incompatible changes, but more than that it's an opportunity to bring attention to how programming in Rust has changed. With the 2018 edition out of the door, now is the time to think about the next edition: how do we want programming in Rust in 2022 to be different to programming in Rust today? Once we've worked that out, lets work backwards to what should be done in 2019.",
