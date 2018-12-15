@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9e8f8e34-8fe9-4b4b-b40a-970e0a85a993",
+      "title": "Sinistersnare's Rust 2019 Wishlist",
+      "content_text": "Rust needs to focus on less glamorous features in 2019. We have added a lot of great features since 1.0, but we need to address the warts that we have had for a long time. I mostly echo sentiments from Jonathan Turner, Nathan Vegdahl, and many others in my ‘fallow-year’ sentiments. Overall, Compilation speed and generic constants are my two most wished-for features. On top of that, I would like to see more ecosystem work to make embedded applications more feasible and easy to use. Finally, Rust needs a moratorium on adding syntactic sugar for 2019.",
+      "url": "https://drs.is/post/rust-wishlist-2019/",
+      "date_published": "2018-12-12T08:10:44-05:00",
+      "author": {
+        "name": "Davis Ross Silverman",
+        "url": "https://drs.is/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "fde9a5b7-9e92-41aa-994a-15bdb87d2909",
+      "title": "My Wishes for Rust 2019",
+      "content_text": "2018 was a massive year for rust, and it's great to reflect back on how far we've all come. My main wish for the new year is to put on the breaks a little bit, and finish off what has been started without taking on anything majorly new.",
+      "url": "https://cetra3.github.io/blog/rust-2019/",
+      "date_published": "2018-12-14T00:00:00+00:00",
+      "author": {
+        "name": "cetra3",
+        "url": "https://github.com/cetra3/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "dcaa5235-2614-4f61-b0b4-8b1f2e0d136e",
       "title": "Lokathor's Rust 2019 wishpost",
       "content_text": "Recently I've been using Rust for GBA development (repo link), and before that I spent most of my Rust time with Handmade Hero work (the actual repo is private to handmade hero backers, so that link is just the main website). As you might expect, this has given me a quite different view of what I want to see from Rust. Basically, I don't want more crates. I want language, and tools, and most importantly education.",

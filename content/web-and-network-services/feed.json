@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "f12043be-3b2d-4ab3-8ce1-51463ffad905",
+      "title": "Rust and WebAssembly in 2019",
+      "content_text": "Compiling Rust to WebAssembly should be the best choice for fast, reliable code for the Web. Additionally, the same way that Rust integrates with C calling conventions and libraries on native targets, Rust should also integrate with JavaScript and HTML5 on the Web. These are the Rust and WebAssembly domain working group’s core values. In 2018, we made it possible to surgically replace performance-sensitive JavaScript with Rust-generated WebAssembly. I propose that we make larger-scale adoption of Rust and WebAssembly practical in 2019.",
+      "url": "http://fitzgeraldnick.com/2018/12/14/rust-and-webassembly-in-2019.html",
+      "date_published": "2018-12-14T00:00:00-08:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "53c9e07b-f4d5-423f-8a84-05e119814fda",
+      "title": "Async in Rust, circa 2018",
+      "content_text": "Rust 2018 has shipped, and we’re closing in on the end of the year. While we didn’t manage to ship async/await as part of the edition itself, the community has made quite a lot of progress toward that goal. This post summarizes the state of play, and announces the publication of several crates intended to facilitate use of async/await on the nightly ecosystem.",
+      "url": "https://rust-lang-nursery.github.io/wg-net/2018/12/13/async-update.html",
+      "date_published": "2018-12-13T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Turon",
+        "url": "https://rust-lang-nursery.github.io/wg-net/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "108e3952-7d7b-4fcc-9c76-073646f2ddee",
+      "title": "Generating Sudoku Boards pt. 3: Rust for WebAssembly",
+      "content_text": "Adjusting an existing Rust project to build a native binary and library for WASM, load in JS. Details on working through build issues.",
+      "url": "https://medium.com/@rossharrison/generating-sudoku-boards-pt-3-rust-for-webassembly-85bd7294c34a",
+      "date_published": "2018-11-26T00:18:40.579+00:00",
+      "author": {
+        "name": "Ross Harrison",
+        "url": "https://medium.com/@rossharrison"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c1576100-8199-418d-bd9a-03c71f1b5559",
+      "title": "Serverless HTTP in Rust",
+      "content_text": "Throw down your main! Rustlang Serverless HTTP applications won’t need them where they’re going",
+      "url": "https://medium.com/@softprops/serverless-http-9a58f9b2df60",
+      "date_published": "2018-11-28T11:11:52.987+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "78791a3b-395e-4d3b-b091-66aa2fa2c577",
       "title": "Edge programming with Rust and WebAssembly",
       "content_text": "Take a developer deep dive into Terrarium, our multi-language, browser-based editor and deployment platform at the edge. Learn how to compile Rust programs to WebAssembly right on your local machine, interact with the Terrarium system, and explore some applications we’ve built with it.",

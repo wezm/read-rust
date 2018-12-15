@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "6bf8dccd-51b6-4dcb-a9eb-e38923d28a2c",
+      "title": "Bootstrapping Rust",
+      "content_text": "It has been a long-standing tradition to develop a language far enough to be able to write the language's compiler in the same language, and Rust does the same. Rust is nowadays written in Rust. We've tracked down the earlier Rust versions, which were written in OCaml, and were planning to use these to bootstrap Rust. But in parallel, John Hudge (Mutabah) developed a Rust compiler, called \"mrustc\", written in C++. mrustc is now good enough to compile Rust 1.19.0. Using mrustc, we were able to build Rust entirely from source with a bootstrap chain",
+      "url": "https://www.gnu.org/software/guix/blog/2018/bootstrapping-rust/",
+      "date_published": "2018-12-11T00:00:00+00:00",
+      "author": {
+        "name": "Danny Milosavljevic",
+        "url": "https://www.gnu.org/software/guix/blog/"
+      },
+      "tags": [
+        "Language",
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "97757259-e11d-4a4f-88cb-2653ca3cb977",
       "title": "Hardware Interrupts | Writing an OS in Rust",
       "content_text": "In this post we set up the programmable interrupt controller to correctly forward hardware interrupts to the CPU. To handle these interrupts we add new entries to our interrupt descriptor table, just like we did for our exception handlers. We will learn how to get periodic timer interrupts and how to get input from the keyboard.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "733eb57b-95f6-490b-b3aa-ba223cacb0f5",
+      "title": "Rust Raps - Ferris Crab (Rust Raps 2018 Edition)",
+      "content_text": "Just released: the hot new single “Ferris Crab (Rust Raps 2018 Edition)” by Rusta Rhymes off their upcoming debut album impl Drop for Mic {}.",
+      "url": "http://fitzgeraldnick.com/2018/12/13/rust-raps.html",
+      "date_published": "2018-12-13T00:00:00-08:00",
+      "author": {
+        "name": "Rusta Rhymes",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "2fdb4722-43ce-4bad-b37e-67dae34eecb2",
       "title": "Positive-Sum Games",
       "content_text": "One thing I learned from Aaron Turon is to search for positive-sum games. First what does that even mean? In most arguments you may run into, it will be easy to find a zero-sum game: Your win is my loss and vice versa. However, in many situations, it is actually possible to go above those petty games and find a variant that allows us both to win.",

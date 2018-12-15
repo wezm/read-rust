@@ -10,6 +10,91 @@
   },
   "items": [
     {
+      "id": "d4acf845-6f69-4f54-bd37-96d62f83a54c",
+      "title": "Yet another Rust 2018 wishlist",
+      "content_text": "The 2018 year brought a lot of incredible new features and I'm impressed with all the work that was put in to make the 2018 edition happen. I want to join the other users asking for 2019 to be a year we adjust to all the new changes and focus on cleaning and polishing, not entirely new projects*. For the upcoming year I'd like to see progress on compilation speed and maintenance attention in the library ecosystem.",
+      "url": "https://www.reddit.com/r/rust/comments/a5q7eb/yet_another_rust_2018_wishlist/",
+      "date_published": "2018-12-13T15:38:32+11:00",
+      "author": {
+        "name": "u/Saefroch",
+        "url": "https://www.reddit.com/user/Saefroch"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dd6ec508-904b-4cd2-96ca-3df2ed99b074",
+      "title": "Rust 2019 - my 2¢",
+      "content_text": "I will not be really original here, but I really hope to see the following features to land on stable in 2019: const generics, async/await, GATs, inherent traits, minimum supported Rust version:",
+      "url": "https://www.reddit.com/r/rust/comments/a5s024/rust_2019_my_2/",
+      "date_published": "2018-12-13T20:24:49+11:00",
+      "author": {
+        "name": "u/newpavlov",
+        "url": "https://www.reddit.com/user/newpavlov"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a02deaa2-0f75-48c6-86ef-f6a314be6355",
+      "title": "Rust 2019",
+      "content_text": "In 2019, there are three areas where I would like to see the Rust community focus its efforts: Improved compile times, A community effort to review crates, More “80% solutions”.",
+      "url": "https://vfoley.xyz/rust-2019/",
+      "date_published": "2018-12-09T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Foley",
+        "url": "http://vfoley.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c02900f4-a733-4865-980c-3c139ffe0ac8",
+      "title": "Storing unboxed trait objects in Rust",
+      "content_text": "This blog post will outline the creation of dynstack, a stack datastructure that stores trait objects unboxed to minimize the number of heap allocations necessary.",
+      "url": "https://guiand.xyz/blog-posts/unboxed-trait-objects.html",
+      "date_published": "2018-11-10T00:00:00+00:00",
+      "author": {
+        "name": "Gui Andrade",
+        "url": "https://guiand.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6bf8dccd-51b6-4dcb-a9eb-e38923d28a2c",
+      "title": "Bootstrapping Rust",
+      "content_text": "It has been a long-standing tradition to develop a language far enough to be able to write the language's compiler in the same language, and Rust does the same. Rust is nowadays written in Rust. We've tracked down the earlier Rust versions, which were written in OCaml, and were planning to use these to bootstrap Rust. But in parallel, John Hudge (Mutabah) developed a Rust compiler, called \"mrustc\", written in C++. mrustc is now good enough to compile Rust 1.19.0. Using mrustc, we were able to build Rust entirely from source with a bootstrap chain",
+      "url": "https://www.gnu.org/software/guix/blog/2018/bootstrapping-rust/",
+      "date_published": "2018-12-11T00:00:00+00:00",
+      "author": {
+        "name": "Danny Milosavljevic",
+        "url": "https://www.gnu.org/software/guix/blog/"
+      },
+      "tags": [
+        "Language",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "823c892a-d7a2-4185-b80f-ba0b47899b25",
+      "title": "How I Wrote a Modern C++ Library in Rust",
+      "content_text": "Since version 56, Firefox has had a new character encoding conversion library called encoding_rs. It is written in Rust and replaced the old C++ character encoding conversion library called uconv that dated from early 1999. Initially, all the callers of the character encoding conversion library were C++ code, so the new library, despite being written in Rust, needed to feel usable when used from C++ code. In fact, the library appears to C++ callers as a modern C++ library. Here are the patterns that I used to accomplish that.",
+      "url": "https://hsivonen.fi/modern-cpp-in-rust/",
+      "date_published": "2018-12-03T00:00:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4fe3c55c-a091-40c2-ada0-8c5d371afc31",
       "title": "Existential types in Rust",
       "content_text": "The Rust project I am working on is a caching layer, currently backed by Redis, and it came to a point where I needed to leverage pipelining. On its own, pipelining is straightforward as the redis crate implements it already. However all notions of a cache in our code are abstracted out behind a trait so we can have alternative implementations, such as an in-memory HashMap-backed implementation.\n\nThe problem arises with representing the pipeline in code. It would force any implementation of our cache to Redis’s notion of a pipeline. Not only would this make it difficult to introspect during testing, but it would also be nonsensical for our HashMap-backed cache. My usual answer to this in languages that support higher-kinded types is to use tagless-final algebras, but Rust’s type system currently doesn’t support higher-kinded types1. Fortunately, there is a pretty good alternative that Rust does support: existential types.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "00a3f85a-45c7-42b3-8fac-605dcb945229",
+      "title": "Writing MapReduce Jobs Using Rust and Efflux",
+      "content_text": "During my work life, I spend a lot of time working with MapReduce-style workflows, particularly with Hadoop infrastructure. A lot of this work is spent with larger amounts of data in order to implement the batch layer of the Lambda architecture. Due to this, the largest concern is that the behaviour is consistent across both the batch layer and the realtime layer - naturally you wouldn't want sporadic behaviour across the two. The easiest way to do this is to share code across the layers, to avoid having to keep implementations in sync. We have recently been working with Rust, which has been a little difficult to integrate with Hadoop MapReduce flows due to the fact it's mainly written in Java. It's because of this that I began to work on a small library named Efflux. It's designed as a very small interface to the MapReduce pattern, and implemented in Rust to allow us to share code across the batch layer easily.",
+      "url": "https://whitfin.io/writing-mapreduce-jobs-using-rust/",
+      "date_published": "2018-11-28T07:00:49+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "36dce8e1-2508-4e34-8aaf-1eb43a8b17e1",
       "title": "Building Alexa Skills in Rust",
       "content_text": "My favorite way to explore Lambdas is to build Alexa skills because of the immediate feedback: you write a little code, and a home device talks to you. It’s a peek into the long promised of world of easy service composition.\n\nUnfortunately, Rust didn’t have complete Alexa skill request/response handling (there is a crate from 2 years ago that handled only the basics), so I wrote one called alexa_sdk. (It’s basically a struct plus serde wrapper around the Alexa JSON spec, with some helpers.",
