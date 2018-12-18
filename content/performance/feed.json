@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f848772a-4132-4e4f-b817-c4a6dec365b7",
+      "title": "Making Rust Float Parsing Fast and Correct",
+      "content_text": "Previously, I wrote about how Rust parsing is atypically slow comparing Rust's libcore implementation to a rudimentary parser I wrote. However, as others noted, the comparison was fairly limited. It didn't compare Rust's implementation to other implementations, such as glibc's strtod or Go's ParseFloat. The parser I implemented wasn't correct, it led to rounding error for most representations, by using floats for intermediate values. Furthermore, the comparisons used data unlikely to be encountered in real-world datasets, overstating the performance differences by forcing Rust to use slower algorithms. So, naturally, I aimed to address all these concerns. And finally, I forgot to disable CPU scaling, meaning CPU throttling could have led to inconsistent benchmarks.",
+      "url": "https://www.reddit.com/r/rust/comments/a6j5j1/making_rust_float_parsing_fast_and_correct/",
+      "date_published": "2018-12-16T08:39:39+11:00",
+      "author": {
+        "name": "u/ialex32_2",
+        "url": "https://www.reddit.com/user/ialex32_2/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "4ea6d02a-6279-4eef-af2f-bd67424d6de8",
       "title": "The Swiss Army Knife of Hashmaps",
       "content_text": "A while back, there was a discussion comparing the performance of using the hashbrown crate (based on Google’s SwissTable implementation) in the Rust compiler. In the last RustFest, Amanieu was experimenting on integrating his crate into stdlib, which turned out to have some really promising results. As a result, it’s being planned to move the crate into stdlib.\n\nWhile the integration is still ongoing, there’s currently no blog post out there explaining SwissTable at the moment. So, I thought I’d dig deeper into the Rust implementation to try and explain how its (almost) identical twin hashbrown::HashMap works.",

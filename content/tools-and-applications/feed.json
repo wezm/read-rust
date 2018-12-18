@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "bf6eb06b-346b-4f0c-a294-ee1dde663418",
+      "title": "Rust Analyzer in 2018 and 2019",
+      "content_text": "Hi! I am Aleksey Kladov (aka @matklad). In the past, I've worked at Jet Brains where I've helped to create the IntelliJ Rust plug-in, and now I am a part of the Ferrous Systems team.\n\nI've spent a significant amount of the last year experimenting with various approaches to make the Rust IDE story better. The culmination of my experiments is the rust-analyzer project – an experimental Rust compiler frontend, targeting the IDE/Language Server Protocol use case.",
+      "url": "https://ferrous-systems.com/blog/rust-analyzer-2019/",
+      "date_published": "2018-12-15T00:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://ferrous-systems.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "629810d5-0f02-4ef1-9826-32cd4bc2f048",
+      "title": "Tools in the 2018 edition",
+      "content_text": "In this blog post I'll cover Clippy and Rustfmt – two tools that have been around for a few years and are now stable and ready for general use. I'll also cover IDE support – a key workflow for many users which is now much better supported. I'll start by talking about Rustfix, a new tool which was central to our edition migration plans.",
+      "url": "https://blog.rust-lang.org/2018/12/17/Rust-2018-dev-tools.html",
+      "date_published": "2018-12-17T00:00:00+00:00",
+      "author": {
+        "name": "The Dev-tools team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "20ba5c8d-b4f2-4ae5-af75-7631ccc05f12",
       "title": "cargo-inspect: A Little Tool for Exploring Rust Internals",
       "content_text": "Rust allows for a lot of syntactic sugar, that makes it a pleasure to write. It is sometimes hard, however, to look behind the curtain and see what the compiler is really doing with our code. I wondered if there was a tool, which revealed what Rust was doing behind the curtains.",

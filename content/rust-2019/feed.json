@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "f0adf24b-6589-4306-a580-6cef894ad3b7",
+      "title": "Organizational Debt",
+      "content_text": "We all know that classic aphorism: Year comes to an end, Rust blog post press send. This is mine.\n\nThere are lots of cool technical improvements to Rust that I want the project to achieve this year, and a few in particular that I’m definitely going to be putting a lot of time into. But this blog post is going to talk about none of them. Instead, I want to talk about organizational debt, and how badly the Rust project needs to deal with it in 2019.",
+      "url": "https://boats.gitlab.io/blog/post/rust-2019/",
+      "date_published": "2019-12-16T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "94ad8d78-4b62-41ff-86c3-44690a1dbf66",
+      "title": "My thoughts on Rust 2019",
+      "content_text": "Recently, the Rust Core Team solicited blog posts on where Rust should be headed in 2019. Here’s mine.",
+      "url": "https://raphlinus.github.io/rust/2018/12/16/rust-2019.html",
+      "date_published": "2018-12-16T14:55:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "8d54d930-66a9-438f-8dad-de13e2fe8c3c",
+      "title": "Rust 2019: Go Slow",
+      "content_text": "I have many technical wishes for Rust, the language, in 2019. However, I’m not going to mention any in particular in this post. In fact, I can almost say that I’d prefer for there to not be a focus on achieving technical milestones in the next year.",
+      "url": "https://blog.hwc.io/posts/rust-2019/",
+      "date_published": "2018-12-16T15:39:32-05:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "34b69da0-cd61-4a16-8bfe-21d8d98dd4bd",
+      "title": "Rust 2019",
+      "content_text": "This is a bit of a brain dump of my thoughts about Rust 2019. Mainly I work on my own code coverage tool tarpaulin, embedded rust and random little tools. So my perspective will be coloured by this.",
+      "url": "https://gist.github.com/xd009642/083a689c1fe460459d6bc792a626604e",
+      "date_published": "2018-12-16T15:22:21+00:00",
+      "author": {
+        "name": "xd009642",
+        "url": "https://gist.github.com/xd009642"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f11f3bca-353a-4c96-b50d-7a28acb0d7ec",
+      "title": "Intermission",
+      "content_text": "Things I would like prioritized in the 2019 roadmap: Reduced Compilation Times, Refined Tools.",
+      "url": "https://azriel.im/will/2018/12/18/intermission/",
+      "date_published": "2018-12-18T11:31:13+13:00",
+      "author": {
+        "name": "Azriel Hoh",
+        "url": "https://azriel.im/will"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "9e8f8e34-8fe9-4b4b-b40a-970e0a85a993",
       "title": "Sinistersnare's Rust 2019 Wishlist",
       "content_text": "Rust needs to focus on less glamorous features in 2019. We have added a lot of great features since 1.0, but we need to address the warts that we have had for a long time. I mostly echo sentiments from Jonathan Turner, Nathan Vegdahl, and many others in my ‘fallow-year’ sentiments. Overall, Compilation speed and generic constants are my two most wished-for features. On top of that, I would like to see more ecosystem work to make embedded applications more feasible and easy to use. Finally, Rust needs a moratorium on adding syntactic sugar for 2019.",

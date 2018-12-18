@@ -10,6 +10,134 @@
   },
   "items": [
     {
+      "id": "f848772a-4132-4e4f-b817-c4a6dec365b7",
+      "title": "Making Rust Float Parsing Fast and Correct",
+      "content_text": "Previously, I wrote about how Rust parsing is atypically slow comparing Rust's libcore implementation to a rudimentary parser I wrote. However, as others noted, the comparison was fairly limited. It didn't compare Rust's implementation to other implementations, such as glibc's strtod or Go's ParseFloat. The parser I implemented wasn't correct, it led to rounding error for most representations, by using floats for intermediate values. Furthermore, the comparisons used data unlikely to be encountered in real-world datasets, overstating the performance differences by forcing Rust to use slower algorithms. So, naturally, I aimed to address all these concerns. And finally, I forgot to disable CPU scaling, meaning CPU throttling could have led to inconsistent benchmarks.",
+      "url": "https://www.reddit.com/r/rust/comments/a6j5j1/making_rust_float_parsing_fast_and_correct/",
+      "date_published": "2018-12-16T08:39:39+11:00",
+      "author": {
+        "name": "u/ialex32_2",
+        "url": "https://www.reddit.com/user/ialex32_2/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "3f750cea-55f1-44cf-b965-b3a2803de32b",
+      "title": "Creating an empty iterator of a certain type in Rust",
+      "content_text": "I am working these days on the development of offst's Index server. I needed to implement a basic directed graph structure, allowing to run the BFS algorithm to find routes with a certain amount of capacity. During the work on the Index server I had the problem of wanting to return an empty iterator in an early flow of a function.",
+      "url": "https://www.freedomlayer.org/offst/option-iterator/",
+      "date_published": "2018-12-15T00:00:00+00:00",
+      "author": {
+        "name": "Freedomlayer",
+        "url": "https://www.freedomlayer.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bf6eb06b-346b-4f0c-a294-ee1dde663418",
+      "title": "Rust Analyzer in 2018 and 2019",
+      "content_text": "Hi! I am Aleksey Kladov (aka @matklad). In the past, I've worked at Jet Brains where I've helped to create the IntelliJ Rust plug-in, and now I am a part of the Ferrous Systems team.\n\nI've spent a significant amount of the last year experimenting with various approaches to make the Rust IDE story better. The culmination of my experiments is the rust-analyzer project – an experimental Rust compiler frontend, targeting the IDE/Language Server Protocol use case.",
+      "url": "https://ferrous-systems.com/blog/rust-analyzer-2019/",
+      "tweet_url": "https://twitter.com/FerrousSystems/status/1074272931818041344",
+      "date_published": "2018-12-15T00:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://ferrous-systems.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "f0adf24b-6589-4306-a580-6cef894ad3b7",
+      "title": "Organizational Debt",
+      "content_text": "We all know that classic aphorism: Year comes to an end, Rust blog post press send. This is mine.\n\nThere are lots of cool technical improvements to Rust that I want the project to achieve this year, and a few in particular that I’m definitely going to be putting a lot of time into. But this blog post is going to talk about none of them. Instead, I want to talk about organizational debt, and how badly the Rust project needs to deal with it in 2019.",
+      "url": "https://boats.gitlab.io/blog/post/rust-2019/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1074361605339652096",
+      "date_published": "2019-12-16T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "94ad8d78-4b62-41ff-86c3-44690a1dbf66",
+      "title": "My thoughts on Rust 2019",
+      "content_text": "Recently, the Rust Core Team solicited blog posts on where Rust should be headed in 2019. Here’s mine.",
+      "url": "https://raphlinus.github.io/rust/2018/12/16/rust-2019.html",
+      "date_published": "2018-12-16T14:55:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "629810d5-0f02-4ef1-9826-32cd4bc2f048",
+      "title": "Tools in the 2018 edition",
+      "content_text": "In this blog post I'll cover Clippy and Rustfmt – two tools that have been around for a few years and are now stable and ready for general use. I'll also cover IDE support – a key workflow for many users which is now much better supported. I'll start by talking about Rustfix, a new tool which was central to our edition migration plans.",
+      "url": "https://blog.rust-lang.org/2018/12/17/Rust-2018-dev-tools.html",
+      "date_published": "2018-12-17T00:00:00+00:00",
+      "author": {
+        "name": "The Dev-tools team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "8d54d930-66a9-438f-8dad-de13e2fe8c3c",
+      "title": "Rust 2019: Go Slow",
+      "content_text": "I have many technical wishes for Rust, the language, in 2019. However, I’m not going to mention any in particular in this post. In fact, I can almost say that I’d prefer for there to not be a focus on achieving technical milestones in the next year.",
+      "url": "https://blog.hwc.io/posts/rust-2019/",
+      "date_published": "2018-12-16T15:39:32-05:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "34b69da0-cd61-4a16-8bfe-21d8d98dd4bd",
+      "title": "Rust 2019",
+      "content_text": "This is a bit of a brain dump of my thoughts about Rust 2019. Mainly I work on my own code coverage tool tarpaulin, embedded rust and random little tools. So my perspective will be coloured by this.",
+      "url": "https://gist.github.com/xd009642/083a689c1fe460459d6bc792a626604e",
+      "date_published": "2018-12-16T15:22:21+00:00",
+      "author": {
+        "name": "xd009642",
+        "url": "https://gist.github.com/xd009642"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f11f3bca-353a-4c96-b50d-7a28acb0d7ec",
+      "title": "Intermission",
+      "content_text": "Things I would like prioritized in the 2019 roadmap: Reduced Compilation Times, Refined Tools.",
+      "url": "https://azriel.im/will/2018/12/18/intermission/",
+      "date_published": "2018-12-18T11:31:13+13:00",
+      "author": {
+        "name": "Azriel Hoh",
+        "url": "https://azriel.im/will"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "f12043be-3b2d-4ab3-8ce1-51463ffad905",
       "title": "Rust and WebAssembly in 2019",
       "content_text": "Compiling Rust to WebAssembly should be the best choice for fast, reliable code for the Web. Additionally, the same way that Rust integrates with C calling conventions and libraries on native targets, Rust should also integrate with JavaScript and HTML5 on the Web. These are the Rust and WebAssembly domain working group’s core values. In 2018, we made it possible to surgically replace performance-sensitive JavaScript with Rust-generated WebAssembly. I propose that we make larger-scale adoption of Rust and WebAssembly practical in 2019.",

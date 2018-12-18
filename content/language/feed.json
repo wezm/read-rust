@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3f750cea-55f1-44cf-b965-b3a2803de32b",
+      "title": "Creating an empty iterator of a certain type in Rust",
+      "content_text": "I am working these days on the development of offst's Index server. I needed to implement a basic directed graph structure, allowing to run the BFS algorithm to find routes with a certain amount of capacity. During the work on the Index server I had the problem of wanting to return an empty iterator in an early flow of a function.",
+      "url": "https://www.freedomlayer.org/offst/option-iterator/",
+      "date_published": "2018-12-15T00:00:00+00:00",
+      "author": {
+        "name": "Freedomlayer",
+        "url": "https://www.freedomlayer.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d4acf845-6f69-4f54-bd37-96d62f83a54c",
       "title": "Yet another Rust 2018 wishlist",
       "content_text": "The 2018 year brought a lot of incredible new features and I'm impressed with all the work that was put in to make the 2018 edition happen. I want to join the other users asking for 2019 to be a year we adjust to all the new changes and focus on cleaning and polishing, not entirely new projects*. For the upcoming year I'd like to see progress on compilation speed and maintenance attention in the library ecosystem.",
