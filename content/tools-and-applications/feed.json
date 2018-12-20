@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8aa85a12-b1d3-4e8d-a2b9-39356878a151",
+      "title": "Analyze disk usage with dutree",
+      "content_text": "dutree is a command line tool to analyze disk usage.",
+      "url": "https://ownyourbits.com/2018/03/25/analyze-disk-usage-with-dutree/",
+      "date_published": "2018-03-25T16:10:54+00:00",
+      "author": {
+        "name": "nachoparker",
+        "url": "https://ownyourbits.com/author/cisquero_admin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "bf6eb06b-346b-4f0c-a294-ee1dde663418",
       "title": "Rust Analyzer in 2018 and 2019",
       "content_text": "Hi! I am Aleksey Kladov (aka @matklad). In the past, I've worked at Jet Brains where I've helped to create the IntelliJ Rust plug-in, and now I am a part of the Ferrous Systems team.\n\nI've spent a significant amount of the last year experimenting with various approaches to make the Rust IDE story better. The culmination of my experiments is the rust-analyzer project – an experimental Rust compiler frontend, targeting the IDE/Language Server Protocol use case.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "72e699cc-6b46-4f3b-9295-fef767681af8",
+      "title": "RTFM v0.4: +stable, software tasks, message passing and a timer queue",
+      "content_text": "Today I’m pleased to announce v0.4.0 of the Real Time for The Masses framework (AKA RTFM), a concurrency framework for building real time applications. This release also packs quite a few new features which I’ll briefly cover in this post. For a more throughout explanation of RTFM’s task model and its capabilities check out the RTFM book, which includes examples you can run on your laptop (yay for emulation), and the API documentation.",
+      "url": "https://blog.japaric.io/rtfm-v4/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": null
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "afa2fbf0-9866-4be5-aa97-247c58bbccf7",
       "title": "cargo-call-stack: Whole program static stack analysis",
       "content_text": "The tool produces a call graph of the selected program as a dot file. Each node (function) in the call graph includes the local stack usage of the function, if provided by LLVM (see -Z emit-stack-sizes). If the call graph contains no cycles then the tool also computes the maximum stack usage of each function, that is the stack usage that includes the stack usage of the functions the function may invoke.",

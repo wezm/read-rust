@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "5bfa329e-1d71-4b98-af03-90c1672ebb8b",
+      "title": "How to Become a Rust Super-developer",
+      "content_text": "This is an article and a tutorial about stumbling and failing. It is about trying hard, and giving up - just to start all over again. All for the one goal - becoming the master of coding in Rust.",
+      "url": "https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Marco Alka",
+        "url": "https://hashnode.com/@maruru"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "8aa85a12-b1d3-4e8d-a2b9-39356878a151",
+      "title": "Analyze disk usage with dutree",
+      "content_text": "dutree is a command line tool to analyze disk usage.",
+      "url": "https://ownyourbits.com/2018/03/25/analyze-disk-usage-with-dutree/",
+      "date_published": "2018-03-25T16:10:54+00:00",
+      "author": {
+        "name": "nachoparker",
+        "url": "https://ownyourbits.com/author/cisquero_admin/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "8abe1072-74b2-4cc8-b349-ba38a3bfae1b",
+      "title": "A great 2018, an even better 2019",
+      "content_text": "A year ago, Tokio was a very different library. It includes the (now deprecated) tokio-core which provided a future executor, I/O selector, and basic TCP/UDP types in a single library. It also included tokio-proto, but we won't talk about that. Over the past year, Tokio has grown to become Rust's asynchronous I/O platform. It has been adopted by a number of large companies to build apps.",
+      "url": "https://tokio.rs/blog/2018-12-recap-2018/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "72e699cc-6b46-4f3b-9295-fef767681af8",
+      "title": "RTFM v0.4: +stable, software tasks, message passing and a timer queue",
+      "content_text": "Today I’m pleased to announce v0.4.0 of the Real Time for The Masses framework (AKA RTFM), a concurrency framework for building real time applications. This release also packs quite a few new features which I’ll briefly cover in this post. For a more throughout explanation of RTFM’s task model and its capabilities check out the RTFM book, which includes examples you can run on your laptop (yay for emulation), and the API documentation.",
+      "url": "https://blog.japaric.io/rtfm-v4/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": null
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "3edd04cc-9a58-4b57-ab93-d948575875d9",
+      "title": "Rust 2019: Bootstrapping Minorities",
+      "content_text": "As a response of https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html 3 for tooling improvement. Nice to see rust improved so much these few years on productivity but I think there is room for improvement. This would be my first post about Rust after hanging around for quite some time.",
+      "url": "https://internals.rust-lang.org/t/rust-2019-bootstrapping-minorities/9053",
+      "date_published": "2018-12-18T14:08:45+00:00",
+      "author": {
+        "name": "Ivan Tham",
+        "url": "https://pickfire.tk/posts"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "2bc063a6-80f5-4f7b-aea3-329ceef00a8e",
+      "title": "Rust 2019",
+      "content_text": "The Rust team encouraged people to write blog posts reflecting on Rust in 2018 and proposing goals and directions for 2019. Here’s mine. This is knowingly blatantly focused on the niche that is immediately relevant to my work. I don’t even pretend this to represent any kind of overall big picture.",
+      "url": "https://hsivonen.fi/rust2019/",
+      "date_published": "2018-12-14T00:00:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "62aed63f-688e-45cd-9d1e-5247b3cbeae3",
+      "title": "encoding_rs: a Web-Compatible Character Encoding Library in Rust",
+      "content_text": "encoding_rs is a high-decode-performance, low-legacy-encode-footprint and high-correctness implementation of the WHATWG Encoding Standard written in Rust. In Firefox 56, encoding_rs replaced uconv as the character encoding library used in Firefox. This wasn’t an addition of a component but an actual replacement: uconv was removed when encoding_rs landed. This writeup covers the motivation and design of encoding_rs, as well as some benchmark results.",
+      "url": "https://hsivonen.fi/encoding_rs/",
+      "date_published": "2018-12-03T00:00:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "7ebb05f4-2bc2-4637-b38d-fd29d4a1cc3c",
+      "title": "Rust 2019: Technical Debt, Continued Productivity, and Stability",
+      "content_text": "I hope this post doesn't come across as a laundry list of stuff to do. Mainly, I consider a lot of this to be technical debt, and I would like to see it paid down a bit. Most of them also happen to be pain points that I have come across in my own usage of Rust, so perhaps I'm biased! Feel free to let me know...",
+      "url": "https://gist.github.com/mark-i-m/2c3508ab7a9f2c48f634f0b5da3bb000",
+      "date_published": "2018-12-11T23:47:53+00:00",
+      "author": {
+        "name": "@mark-i-m",
+        "url": "https://gist.github.com/mark-i-m"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "f848772a-4132-4e4f-b817-c4a6dec365b7",
       "title": "Making Rust Float Parsing Fast and Correct",
       "content_text": "Previously, I wrote about how Rust parsing is atypically slow comparing Rust's libcore implementation to a rudimentary parser I wrote. However, as others noted, the comparison was fairly limited. It didn't compare Rust's implementation to other implementations, such as glibc's strtod or Go's ParseFloat. The parser I implemented wasn't correct, it led to rounding error for most representations, by using floats for intermediate values. Furthermore, the comparisons used data unlikely to be encountered in real-world datasets, overstating the performance differences by forcing Rust to use slower algorithms. So, naturally, I aimed to address all these concerns. And finally, I forgot to disable CPU scaling, meaning CPU throttling could have led to inconsistent benchmarks.",
@@ -2841,7 +2953,7 @@
       "date_published": "2018-10-04T00:00:00+00:00",
       "author": {
         "name": "Carl Lerche",
-        "url": "https://tokio.rs/blog/2018-10-doc-blitz/"
+        "url": "https://tokio.rs/blog/"
       },
       "tags": [
         "Language"

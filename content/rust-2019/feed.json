@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "3edd04cc-9a58-4b57-ab93-d948575875d9",
+      "title": "Rust 2019: Bootstrapping Minorities",
+      "content_text": "As a response of https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html 3 for tooling improvement. Nice to see rust improved so much these few years on productivity but I think there is room for improvement. This would be my first post about Rust after hanging around for quite some time.",
+      "url": "https://internals.rust-lang.org/t/rust-2019-bootstrapping-minorities/9053",
+      "date_published": "2018-12-18T14:08:45+00:00",
+      "author": {
+        "name": "Ivan Tham",
+        "url": "https://pickfire.tk/posts"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "2bc063a6-80f5-4f7b-aea3-329ceef00a8e",
+      "title": "Rust 2019",
+      "content_text": "The Rust team encouraged people to write blog posts reflecting on Rust in 2018 and proposing goals and directions for 2019. Here’s mine. This is knowingly blatantly focused on the niche that is immediately relevant to my work. I don’t even pretend this to represent any kind of overall big picture.",
+      "url": "https://hsivonen.fi/rust2019/",
+      "date_published": "2018-12-14T00:00:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "7ebb05f4-2bc2-4637-b38d-fd29d4a1cc3c",
+      "title": "Rust 2019: Technical Debt, Continued Productivity, and Stability",
+      "content_text": "I hope this post doesn't come across as a laundry list of stuff to do. Mainly, I consider a lot of this to be technical debt, and I would like to see it paid down a bit. Most of them also happen to be pain points that I have come across in my own usage of Rust, so perhaps I'm biased! Feel free to let me know...",
+      "url": "https://gist.github.com/mark-i-m/2c3508ab7a9f2c48f634f0b5da3bb000",
+      "date_published": "2018-12-11T23:47:53+00:00",
+      "author": {
+        "name": "@mark-i-m",
+        "url": "https://gist.github.com/mark-i-m"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "f0adf24b-6589-4306-a580-6cef894ad3b7",
       "title": "Organizational Debt",
       "content_text": "We all know that classic aphorism: Year comes to an end, Rust blog post press send. This is mine.\n\nThere are lots of cool technical improvements to Rust that I want the project to achieve this year, and a few in particular that I’m definitely going to be putting a lot of time into. But this blog post is going to talk about none of them. Instead, I want to talk about organizational debt, and how badly the Rust project needs to deal with it in 2019.",

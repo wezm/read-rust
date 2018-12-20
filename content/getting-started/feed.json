@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5bfa329e-1d71-4b98-af03-90c1672ebb8b",
+      "title": "How to Become a Rust Super-developer",
+      "content_text": "This is an article and a tutorial about stumbling and failing. It is about trying hard, and giving up - just to start all over again. All for the one goal - becoming the master of coding in Rust.",
+      "url": "https://hashnode.com/post/how-to-become-a-rust-super-developer-cjpv1ee7e000buhs2aqrdw2ym",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Marco Alka",
+        "url": "https://hashnode.com/@maruru"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "f8aa1176-9ae2-447f-b914-a6950612d7f2",
       "title": "8 Lessons from First Days of Advent of Code 2018",
       "content_text": "I’ve got two days of Advent of Code 2018 under my belt and four stars to show for it! But I’ll be the first to admit that I had plenty of help, so I thought it only fair that I write out some of the things I’ve already learned about Rust.",

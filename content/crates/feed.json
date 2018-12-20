@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "8abe1072-74b2-4cc8-b349-ba38a3bfae1b",
+      "title": "A great 2018, an even better 2019",
+      "content_text": "A year ago, Tokio was a very different library. It includes the (now deprecated) tokio-core which provided a future executor, I/O selector, and basic TCP/UDP types in a single library. It also included tokio-proto, but we won't talk about that. Over the past year, Tokio has grown to become Rust's asynchronous I/O platform. It has been adopted by a number of large companies to build apps.",
+      "url": "https://tokio.rs/blog/2018-12-recap-2018/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "62aed63f-688e-45cd-9d1e-5247b3cbeae3",
+      "title": "encoding_rs: a Web-Compatible Character Encoding Library in Rust",
+      "content_text": "encoding_rs is a high-decode-performance, low-legacy-encode-footprint and high-correctness implementation of the WHATWG Encoding Standard written in Rust. In Firefox 56, encoding_rs replaced uconv as the character encoding library used in Firefox. This wasn’t an addition of a component but an actual replacement: uconv was removed when encoding_rs landed. This writeup covers the motivation and design of encoding_rs, as well as some benchmark results.",
+      "url": "https://hsivonen.fi/encoding_rs/",
+      "date_published": "2018-12-03T00:00:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "00a3f85a-45c7-42b3-8fac-605dcb945229",
       "title": "Writing MapReduce Jobs Using Rust and Efflux",
       "content_text": "During my work life, I spend a lot of time working with MapReduce-style workflows, particularly with Hadoop infrastructure. A lot of this work is spent with larger amounts of data in order to implement the batch layer of the Lambda architecture. Due to this, the largest concern is that the behaviour is consistent across both the batch layer and the realtime layer - naturally you wouldn't want sporadic behaviour across the two. The easiest way to do this is to share code across the layers, to avoid having to keep implementations in sync. We have recently been working with Rust, which has been a little difficult to integrate with Hadoop MapReduce flows due to the fact it's mainly written in Java. It's because of this that I began to work on a small library named Efflux. It's designed as a very small interface to the MapReduce pattern, and implemented in Rust to allow us to share code across the batch layer easily.",
