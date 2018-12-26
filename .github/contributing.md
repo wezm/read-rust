@@ -1,9 +1,9 @@
 ## Missing Posts
 
-Note that adding new posts is a manual process and I generally update the feed
-once or twice a day. If you tweeted your post with #Rust2018 it will be picked
-automatically when I update the feed. If you post your post to
-[/r/rust][reddit] I should also notice it and include it.
+Adding new posts to Read Rust is currently a manual process and I generally
+update the feed a few times a week. I read Mastodon, Twitter and
+[Reddit][rust-reddit] as well as subscribe to a lot of RSS feeds to discover
+new posts. Please only submit posts written in, or after 2018.
 
 For all other posts [create an issue on GitHub][add-post].
 
