@@ -7,7 +7,8 @@ This repo contains the source to the website and tools for updating the feeds.
 
 ## Contributing
 
-See the [contributing guidelines][contributing].
+Check out the [Submission page on the website][contributing] for info on
+submitting a post.
 
 ## Building
 
@@ -35,7 +36,7 @@ Running `make` will build the tools and generate the site content.
 3. Add the new category to the `Makefile`
 
 [self]: https://readrust.net/
-[contributing]: https://github.com/wezm/read-rust/blob/master/.github/contributing.md
+[contributing]: https://readrust.net/submit.html
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
 [Cobalt]: http://cobalt-org.github.io/
 [install-cobalt]: http://cobalt-org.github.io/docs/install.html
