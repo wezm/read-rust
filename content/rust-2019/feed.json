@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "1c724779-9e18-4c1a-94db-7799f444f6b3",
+      "title": "Rust2019",
+      "content_text": "It’s the time year to reflect on the past and to make wishful prospects for the future.",
+      "url": "https://medium.com/@softprops/rust2019-83ebfe46602e",
+      "date_published": "2018-12-21T05:47:42.351+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "db72fed1-63a5-41eb-868f-716f694cd52e",
+      "title": "Rust 2019 -- Correctness and stabilizations",
+      "content_text": "Last year for Rust 2018 I didn’t write a post like this, hoping to see other people write it. But even with a hundred plus posts that didn’t happen, so this year it’s the moment to speak up. I have used many different languages in past and when I started studying Rust at version 1.0 I was quickly impressed by its very good design, I was mostly in agreement with most of its design decisions, despite every useful language has a messy implementation. Even small things were designed with care. And I loved how much Rust cares for code correctness. I prefer to avoid long debug sessions and to use more time in the design and coding phases. So I’ve kept learning and using it ever since. For 2019 and beyond I’d like Rust to keep working on finishing its many unfinished parts.",
+      "url": "https://internals.rust-lang.org/t/rust-2019-correctness-and-stabilizations/8991",
+      "date_published": "2018-12-09T11:38:40+00:00",
+      "author": {
+        "name": "leonardo",
+        "url": "http://www.fantascienza.net/leonardo/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "3edd04cc-9a58-4b57-ab93-d948575875d9",
       "title": "Rust 2019: Bootstrapping Minorities",
       "content_text": "As a response of https://blog.rust-lang.org/2018/12/06/call-for-rust-2019-roadmap-blogposts.html 3 for tooling improvement. Nice to see rust improved so much these few years on productivity but I think there is room for improvement. This would be my first post about Rust after hanging around for quite some time.",

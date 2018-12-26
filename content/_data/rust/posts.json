@@ -10,6 +10,139 @@
   },
   "items": [
     {
+      "id": "525bee43-14cb-422e-8b91-58322a8d2c63",
+      "title": "Rust for algorithms",
+      "content_text": "How I decided to challenge myself and solve coding tasks using Rust",
+      "url": "https://ilyabiz.com/2018/12/rust-for-algorithms/",
+      "tweet_url": "https://twitter.com/IlyaBizyaev/status/1076945160448159749",
+      "date_published": "2018-12-23T20:54:31+00:00",
+      "author": {
+        "name": "Ilya Bizyaev",
+        "url": "https://ilyabiz.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "6aa36df9-001c-478b-830e-56e2b896303b",
+      "title": "Rust & Python—A Gentle Comparison using Simple Neural Networks",
+      "content_text": "A gentle comparison between Rust & Python from multiple perspectives against a small, relatively simple problem.",
+      "url": "https://blog.digital-horror.com/rust-python-comparison/",
+      "date_published": "2018-12-23T17:10:39+00:00",
+      "author": {
+        "name": "Juxhin Dyrmishi Brigjaj",
+        "url": "https://blog.digital-horror.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "deb0916b-c8e3-47b1-b957-bfa8015b73ff",
+      "title": "Six years with Rust",
+      "content_text": "This past year was… intense. Rust 1.31 was basically Rust 2.0, at least in the marketing sense. I burned myself out getting the first edition of the book together for Rust 1.0, and I burned myself out getting the edition shipped.\n\nLet’s talk about the bad and the good. Bad first so we end on the high notes.",
+      "url": "https://words.steveklabnik.com/six-years-with-rust",
+      "tweet_url": "https://twitter.com/steveklabnik/status/1076338522691379200",
+      "date_published": "2018-12-21T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7dd6ca97-374d-4c01-86fb-f3fed29bb6f6",
+      "title": "Visualizing Crates.io",
+      "content_text": "Visualizing Rust's growing ecosystem through crates.io, Rust's central package repository.",
+      "url": "https://8-p.info/visualizing-crates-io/",
+      "tweet_url": "https://twitter.com/kzys/status/1076645174648856581",
+      "date_published": "2018-12-23T12:06:00+00:00",
+      "author": {
+        "name": "Kazuyoshi Kato",
+        "url": "https://8-p.info/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f0df7d96-1aae-46ea-b454-d4d2ce7d3efd",
+      "title": "Azure Functions written in Rust",
+      "content_text": "A few days ago, we discussed how to write AWS Lambdas in Rust. Today, we’re going to learn how to create and deploy an Azure Function using Rust and the azure-functions-sdk library.",
+      "url": "https://robertohuertas.com/2018/12/22/azure-function-rust/",
+      "tweet_url": "https://twitter.com/robertohuertasm/status/1076648099995664384",
+      "date_published": "2018-12-22T00:00:00+00:00",
+      "author": {
+        "name": "Roberto Huertas",
+        "url": "https://robertohuertas.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "a4b9f89c-49bd-4910-b1c6-de1c0da5786c",
+      "title": "Managing Rust Dependencies with Nix, Part I",
+      "content_text": "Learn how to integrate Rust Cargo package manager with the Nix package manager.",
+      "url": "https://www.hadean.com/blog/managing-rust-dependencies-with-nix-part-i",
+      "tweet_url": "https://twitter.com/AetherEngine/status/1076152002550337537",
+      "date_published": "2018-11-15T16:03:00+00:00",
+      "author": {
+        "name": "James Kay",
+        "url": "https://www.hadean.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1c724779-9e18-4c1a-94db-7799f444f6b3",
+      "title": "Rust2019",
+      "content_text": "It’s the time year to reflect on the past and to make wishful prospects for the future.",
+      "url": "https://medium.com/@softprops/rust2019-83ebfe46602e",
+      "tweet_url": "https://twitter.com/softprops/status/1075991736772481024",
+      "date_published": "2018-12-21T05:47:42.351+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "e01f334f-a14e-4a54-b7d7-76c9cc6ccdc7",
+      "title": "Procedural Macros in Rust 2018",
+      "content_text": "Perhaps my favorite feature in the Rust 2018 edition is procedural macros. Procedural macros have had a long and storied history in Rust (and will continue to have a storied future!), and now is perhaps one of the best times to get involved with them because the 2018 edition has so dramatically improved the experience both defining and using them.\n\nHere I'd like to explore what procedural macros are, what they're capable of, notable new features, and some fun use cases of procedural macros. I might even convince you that this is Rust 2018's best feature as well!",
+      "url": "https://blog.rust-lang.org/2018/12/21/Procedural-Macros-in-Rust-2018.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1076175678075211776",
+      "date_published": "2018-12-21T00:00:00+00:00",
+      "author": {
+        "name": "Alex Crichton",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "db72fed1-63a5-41eb-868f-716f694cd52e",
+      "title": "Rust 2019 -- Correctness and stabilizations",
+      "content_text": "Last year for Rust 2018 I didn’t write a post like this, hoping to see other people write it. But even with a hundred plus posts that didn’t happen, so this year it’s the moment to speak up. I have used many different languages in past and when I started studying Rust at version 1.0 I was quickly impressed by its very good design, I was mostly in agreement with most of its design decisions, despite every useful language has a messy implementation. Even small things were designed with care. And I loved how much Rust cares for code correctness. I prefer to avoid long debug sessions and to use more time in the design and coding phases. So I’ve kept learning and using it ever since. For 2019 and beyond I’d like Rust to keep working on finishing its many unfinished parts.",
+      "url": "https://internals.rust-lang.org/t/rust-2019-correctness-and-stabilizations/8991",
+      "date_published": "2018-12-09T11:38:40+00:00",
+      "author": {
+        "name": "leonardo",
+        "url": "http://www.fantascienza.net/leonardo/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "5bfa329e-1d71-4b98-af03-90c1672ebb8b",
       "title": "How to Become a Rust Super-developer",
       "content_text": "This is an article and a tutorial about stumbling and failing. It is about trying hard, and giving up - just to start all over again. All for the one goal - becoming the master of coding in Rust.",
@@ -62,7 +195,7 @@
       "date_published": "2018-12-19T00:00:00+00:00",
       "author": {
         "name": "Jorge Aparicio",
-        "url": null
+        "url": "http://blog.japaric.io/"
       },
       "tags": [
         "Embedded"

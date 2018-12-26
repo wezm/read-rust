@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "525bee43-14cb-422e-8b91-58322a8d2c63",
+      "title": "Rust for algorithms",
+      "content_text": "How I decided to challenge myself and solve coding tasks using Rust",
+      "url": "https://ilyabiz.com/2018/12/rust-for-algorithms/",
+      "date_published": "2018-12-23T20:54:31+00:00",
+      "author": {
+        "name": "Ilya Bizyaev",
+        "url": "https://ilyabiz.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5bfa329e-1d71-4b98-af03-90c1672ebb8b",
       "title": "How to Become a Rust Super-developer",
       "content_text": "This is an article and a tutorial about stumbling and failing. It is about trying hard, and giving up - just to start all over again. All for the one goal - becoming the master of coding in Rust.",

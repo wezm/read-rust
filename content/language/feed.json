@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "deb0916b-c8e3-47b1-b957-bfa8015b73ff",
+      "title": "Six years with Rust",
+      "content_text": "This past year was… intense. Rust 1.31 was basically Rust 2.0, at least in the marketing sense. I burned myself out getting the first edition of the book together for Rust 1.0, and I burned myself out getting the edition shipped.\n\nLet’s talk about the bad and the good. Bad first so we end on the high notes.",
+      "url": "https://words.steveklabnik.com/six-years-with-rust",
+      "date_published": "2018-12-21T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7dd6ca97-374d-4c01-86fb-f3fed29bb6f6",
+      "title": "Visualizing Crates.io",
+      "content_text": "Visualizing Rust's growing ecosystem through crates.io, Rust's central package repository.",
+      "url": "https://8-p.info/visualizing-crates-io/",
+      "date_published": "2018-12-23T12:06:00+00:00",
+      "author": {
+        "name": "Kazuyoshi Kato",
+        "url": "https://8-p.info/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a4b9f89c-49bd-4910-b1c6-de1c0da5786c",
+      "title": "Managing Rust Dependencies with Nix, Part I",
+      "content_text": "Learn how to integrate Rust Cargo package manager with the Nix package manager.",
+      "url": "https://www.hadean.com/blog/managing-rust-dependencies-with-nix-part-i",
+      "date_published": "2018-11-15T16:03:00+00:00",
+      "author": {
+        "name": "James Kay",
+        "url": "https://www.hadean.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e01f334f-a14e-4a54-b7d7-76c9cc6ccdc7",
+      "title": "Procedural Macros in Rust 2018",
+      "content_text": "Perhaps my favorite feature in the Rust 2018 edition is procedural macros. Procedural macros have had a long and storied history in Rust (and will continue to have a storied future!), and now is perhaps one of the best times to get involved with them because the 2018 edition has so dramatically improved the experience both defining and using them.\n\nHere I'd like to explore what procedural macros are, what they're capable of, notable new features, and some fun use cases of procedural macros. I might even convince you that this is Rust 2018's best feature as well!",
+      "url": "https://blog.rust-lang.org/2018/12/21/Procedural-Macros-in-Rust-2018.html",
+      "date_published": "2018-12-21T00:00:00+00:00",
+      "author": {
+        "name": "Alex Crichton",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3f750cea-55f1-44cf-b965-b3a2803de32b",
       "title": "Creating an empty iterator of a certain type in Rust",
       "content_text": "I am working these days on the development of offst's Index server. I needed to implement a basic directed graph structure, allowing to run the BFS algorithm to find routes with a certain amount of capacity. During the work on the Index server I had the problem of wanting to return an empty iterator in an early flow of a function.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6aa36df9-001c-478b-830e-56e2b896303b",
+      "title": "Rust & Python—A Gentle Comparison using Simple Neural Networks",
+      "content_text": "A gentle comparison between Rust & Python from multiple perspectives against a small, relatively simple problem.",
+      "url": "https://blog.digital-horror.com/rust-python-comparison/",
+      "date_published": "2018-12-23T17:10:39+00:00",
+      "author": {
+        "name": "Juxhin Dyrmishi Brigjaj",
+        "url": "https://blog.digital-horror.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "f848772a-4132-4e4f-b817-c4a6dec365b7",
       "title": "Making Rust Float Parsing Fast and Correct",
       "content_text": "Previously, I wrote about how Rust parsing is atypically slow comparing Rust's libcore implementation to a rudimentary parser I wrote. However, as others noted, the comparison was fairly limited. It didn't compare Rust's implementation to other implementations, such as glibc's strtod or Go's ParseFloat. The parser I implemented wasn't correct, it led to rounding error for most representations, by using floats for intermediate values. Furthermore, the comparisons used data unlikely to be encountered in real-world datasets, overstating the performance differences by forcing Rust to use slower algorithms. So, naturally, I aimed to address all these concerns. And finally, I forgot to disable CPU scaling, meaning CPU throttling could have led to inconsistent benchmarks.",
