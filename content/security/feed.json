@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "aa59c999-cba6-4f20-80cc-888e8e257a73",
+      "title": "gbl: A typestate-powered zero-copy crate for GBL firmware update files",
+      "content_text": "After a few weeks of reverse-engineering, internal dogfooding, and API design discussion, we're finally publishing our gbl crate for good.\n\nThe library implements a parser and writer for GBL firmware update containers, which are used to perform secure OTA updates for certain microcontrollers.",
+      "url": "https://blog.1aim.com/post/gbl-release/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Jonas Schievink",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Embedded",
+        "Security"
+      ]
+    },
+    {
       "id": "5d14453d-3a6f-4f26-8aa1-20edec9e9347",
       "title": "The Seedling Sees the Light of Day: Sequoia-PGP Initial Release",
       "content_text": "On October 16, 2017, we made the first commit to the Sequoia repository. Just over a year and a thousand commits later, Sequoia’s low-level API is nearly feature complete, and is already usable. For instance, a port of the p≡p engine to Sequoia is almost finished, and the code is significantly simpler than the version using the current OpenPGP library. We’ve also made experimental ports of other software that use OpenPGP, and written some new software to further validate the completeness and ergonomics of the API.",

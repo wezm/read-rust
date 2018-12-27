@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "aa59c999-cba6-4f20-80cc-888e8e257a73",
+      "title": "gbl: A typestate-powered zero-copy crate for GBL firmware update files",
+      "content_text": "After a few weeks of reverse-engineering, internal dogfooding, and API design discussion, we're finally publishing our gbl crate for good.\n\nThe library implements a parser and writer for GBL firmware update containers, which are used to perform secure OTA updates for certain microcontrollers.",
+      "url": "https://blog.1aim.com/post/gbl-release/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Jonas Schievink",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Embedded",
+        "Security"
+      ]
+    },
+    {
       "id": "72e699cc-6b46-4f3b-9295-fef767681af8",
       "title": "RTFM v0.4: +stable, software tasks, message passing and a timer queue",
       "content_text": "Today I’m pleased to announce v0.4.0 of the Real Time for The Masses framework (AKA RTFM), a concurrency framework for building real time applications. This release also packs quite a few new features which I’ll briefly cover in this post. For a more throughout explanation of RTFM’s task model and its capabilities check out the RTFM book, which includes examples you can run on your laptop (yay for emulation), and the API documentation.",

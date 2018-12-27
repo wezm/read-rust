@@ -10,6 +10,119 @@
   },
   "items": [
     {
+      "id": "1b761099-8ee4-4e1c-86b1-2aeac151507c",
+      "title": "Rust 2019: Stabilization",
+      "content_text": "If you’re familiar with the history of Rust you might be confused with a call to stabilization. After all, Rust 2015 (a.k.a 1.0) was all about stabilization and the team has actually done a pretty good job with achieving this goal. So what gives?\n\nWhile Rust 2015 defined stabilization around language backward compatibility, it’s time for the language, the tooling, the ecosystem and the governance to stabilize. Each of these characterize stability in a different way. Let me explain a bit more what I mean.",
+      "url": "https://blog.ryanlevick.com/posts/rust-2019/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "aa59c999-cba6-4f20-80cc-888e8e257a73",
+      "title": "gbl: A typestate-powered zero-copy crate for GBL firmware update files",
+      "content_text": "After a few weeks of reverse-engineering, internal dogfooding, and API design discussion, we're finally publishing our gbl crate for good.\n\nThe library implements a parser and writer for GBL firmware update containers, which are used to perform secure OTA updates for certain microcontrollers.",
+      "url": "https://blog.1aim.com/post/gbl-release/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Jonas Schievink",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Embedded",
+        "Security"
+      ]
+    },
+    {
+      "id": "164aa143-a832-491e-b1c0-304913959b8d",
+      "title": "Serverless Rust: Revisited",
+      "content_text": "A refreshing new story for running Rust on AWS Lambda.",
+      "url": "https://medium.com/@softprops/serverless-rust-revisited-f2c79f4039bb",
+      "date_published": "2018-12-22T15:43:04.617+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "5a894193-9c56-4f80-8e38-546cadf5da44",
+      "title": "Rust 2019: Ignorant Thoughts",
+      "content_text": "I’ve written a single library in Rust, called Horned-OWL for manipulating OWL. The experience has been positive. There is already a good and complete library for manipulating OWL called the OWL API, so I needed a strong motivation for writing another. That motivation is simple: the OWL API is in Java and it is slow. Rust has fulfilled it’s promise for me; Horned-OWL is an order of magnitude faster thatn the OWL API. What have I learned from the experience though, and what could be improved?",
+      "url": "http://www.russet.org.uk/blog/3207",
+      "date_published": "2018-12-24T09:05:36+00:00",
+      "author": {
+        "name": "Phillip Lord",
+        "url": "http://www.russet.org.uk/blog"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f90bfac4-bbae-4d28-baec-d46eadb5e2cb",
+      "title": "Rust in 2019",
+      "content_text": "Rust made good progress in 2018: const fn in particular was a welcome and sorely needed feature. With #[panic_handler] now stable, we can finally write no_std binary crates on stable and not worry the next release will break it. We got some other useful features, including the following: u128, NonNull, fixed-length slice patterns, LTO, #[repr(transparent)], #[repr(align(_))] In 2019, I have one major wish for Rust: Const Generics.",
+      "url": "https://blog.strake.me.uk/archives/93",
+      "date_published": "2018-12-24T02:52:50+00:00",
+      "author": {
+        "name": "Strake",
+        "url": "https://blog.strake.me.uk/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "1a96907b-61a3-4b4f-aba9-640a5b6ac00e",
+      "title": "My wishlist for Rust ‘19",
+      "content_text": "This isn’t exactly a blog so this won’t be exactly a “post”, but I’d like to write down my thoughts on this notepad answering the call for a wishlist for Rust 2019. Opinions expressed are from the point of view of an enthusiast, Rust apprentice, that happened to be knee-deep involved in organizing the RustFest in Rome. It’s fun to pin today some thoughts and see in 12 months how things will have evolved!",
+      "url": "https://apiraino.github.io/2018/12/19/call-for-2019-roadmap.html",
+      "date_published": "2018-12-19T00:00:00+01:00",
+      "author": {
+        "name": "apiraino",
+        "url": "https://apiraino.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "0717e76b-2097-4ee0-87b1-5f6cffadbdf0",
+      "title": "On Rust",
+      "content_text": "Back in 2013, I started a series of posts on programming languages I found interesting. One of the languages I wanted to write about at that time was Rust. As often happens, life got in the way, and it’s only now, in the twilight of 2018 I’m coming round to a long overdue post.",
+      "url": "https://dehora.net/journal/2018/12/23/on-rust",
+      "date_published": "2018-12-23T16:34:59+00:00",
+      "author": {
+        "name": "Bill de hÓra",
+        "url": "https://dehora.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1155adc5-9d95-4185-97bb-742e3c0bd446",
+      "title": "Rust 2019 and beyond: limits to (some) growth",
+      "content_text": "This is a blog post (as solicited) about my suggestions for the Rust project in 2019 and beyond. I should note that I am speaking only for myself, not anyone else, and not even as a very active participant in Rust anymore. Moreover these suggestions, to a large extent, apply to many projects. Rust is just one case, but one that is currently doing some conscious year-end reflection. I should also note overall that I'm quite pleased by the trajectory of the Rust project and this suggestion is being made only in the spirit of keeping it healthy and on-track, avoiding some problems I observe developing in it, as a mostly-outsider these days.",
+      "url": "https://graydon2.dreamwidth.org/263429.html",
+      "date_published": "2018-12-26T11:29:00+00:00",
+      "author": {
+        "name": "Graydon Hoare",
+        "url": "https://graydon2.dreamwidth.org/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "525bee43-14cb-422e-8b91-58322a8d2c63",
       "title": "Rust for algorithms",
       "content_text": "How I decided to challenge myself and solve coding tasks using Rust",

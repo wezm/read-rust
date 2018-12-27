@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "164aa143-a832-491e-b1c0-304913959b8d",
+      "title": "Serverless Rust: Revisited",
+      "content_text": "A refreshing new story for running Rust on AWS Lambda.",
+      "url": "https://medium.com/@softprops/serverless-rust-revisited-f2c79f4039bb",
+      "date_published": "2018-12-22T15:43:04.617+00:00",
+      "author": {
+        "name": "Doug Tangren",
+        "url": "https://medium.com/@softprops"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "f0df7d96-1aae-46ea-b454-d4d2ce7d3efd",
       "title": "Azure Functions written in Rust",
       "content_text": "A few days ago, we discussed how to write AWS Lambdas in Rust. Today, we’re going to learn how to create and deploy an Azure Function using Rust and the azure-functions-sdk library.",

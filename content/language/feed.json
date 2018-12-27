@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0717e76b-2097-4ee0-87b1-5f6cffadbdf0",
+      "title": "On Rust",
+      "content_text": "Back in 2013, I started a series of posts on programming languages I found interesting. One of the languages I wanted to write about at that time was Rust. As often happens, life got in the way, and it’s only now, in the twilight of 2018 I’m coming round to a long overdue post.",
+      "url": "https://dehora.net/journal/2018/12/23/on-rust",
+      "date_published": "2018-12-23T16:34:59+00:00",
+      "author": {
+        "name": "Bill de hÓra",
+        "url": "https://dehora.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "deb0916b-c8e3-47b1-b957-bfa8015b73ff",
       "title": "Six years with Rust",
       "content_text": "This past year was… intense. Rust 1.31 was basically Rust 2.0, at least in the marketing sense. I burned myself out getting the first edition of the book together for Rust 1.0, and I burned myself out getting the edition shipped.\n\nLet’s talk about the bad and the good. Bad first so we end on the high notes.",
