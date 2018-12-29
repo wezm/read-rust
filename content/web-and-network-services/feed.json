@@ -1366,6 +1366,20 @@
       ]
     },
     {
+      "id": "6e75a3dc-d157-4f13-878c-5111cd6b03a2",
+      "title": "Small WebAssembly Binaries with Rust + Emscripten",
+      "content_text": "The Rust language is one of the earliest adopters of WebAssembly, and it has more than one way to compile to it:",
+      "url": "https://kripken.github.io/blog/binaryen/2018/04/18/rust-emscripten.html",
+      "date_published": "2018-04-18T17:52:56+00:00",
+      "author": {
+        "name": "Alon Zakai",
+        "url": "https://kripken.github.io/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "43c290f5-4178-431d-9874-5e24cde01299",
       "title": "Hello wasm-pack!",
       "content_text": "wasm-pack is a tool for assembling and packaging Rust crates that target WebAssembly. These packages can be published to the npm Registry and used alongside other packages. This means you can use them side-by-side with JS and other packages, and in many kind of applications, be it a Node.js server side app, a client-side application bundled by Webpack, or any other sort of application that uses npm dependencies. You can find wasm-pack on crates.io and GitHub.",

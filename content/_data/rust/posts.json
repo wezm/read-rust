@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "5e9ee3df-617a-4a7c-b8bd-ade701971b10",
+      "title": "Methods for Array Initialization in Rust",
+      "content_text": "Arrays in Rust are fixed size, and Rust requires that every element in an array is initialized to a valid value when the array is initialized. The result of these requirements is array initialization in Rust is a much deeper topic then it would seem.",
+      "url": "https://www.joshmcguigan.com/blog/array-initialization-rust/",
+      "date_published": "2018-12-22T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "94213785-3a82-4f06-99ee-8477c184903c",
+      "title": "Thoughts on Rust in 2019",
+      "content_text": "This year is also a bit special; in 2018, we introduced “editions” to Rust, on a roughly three-year schedule. So now is not just a good time to think about 2019, but about 2020 and 2021 as well. Rust 2015 was about “stability”. Rust 2018 was about “productivity.” I’d like Rust 2021 to be about “maturity.” In order to get there, here’s what we need in 2019.",
+      "url": "https://words.steveklabnik.com/thoughts-on-rust-in-2019",
+      "tweet_url": "https://twitter.com/steveklabnik/status/1078306298138116096",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "e72d0a8e-198f-4bd2-bf1e-7e0e94fac9d5",
+      "title": "QADAPT - debug_assert! for your memory usage",
+      "content_text": "I think it’s part of the human condition to ignore perfectly good advice when it comes our way. A bit over a month ago, I was dispensing sage wisdom for the ages: I had a really great idea: build a custom allocator that allows you to track your own allocations. I gave it a shot, but learned very quickly: never write your own allocator. I proceeded to ignore it, because we never really learn from our mistakes. There’s another part of the human condition that derives joy from seeing things explode. And that’s the part I’m going to focus on.",
+      "url": "https://speice.io/2018/12/allocation-safety.html",
+      "date_published": "2018-12-15T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "043f0bae-caa0-4d77-8336-9ec0813a0ca0",
+      "title": "Easy Postgres extensions in Rust with pg-extend-rs",
+      "content_text": "A project to make Postgres extensions in Rust easy, you might learn how to use macro_rules, attribute macros, allocators and some FFI in this post.",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/12/27/announcing-pg-extend.html",
+      "date_published": "2018-12-27T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "04d1c753-5242-4aa9-bff7-500a717a62bc",
+      "title": "A Rusty Advent of Code",
+      "content_text": "For the first time, I took part in the Advent of Code this year. If you haven't heard of it, it's a daily programming challenge that can be solved in any programming language. Rust was very present in the Advent of Code community with people contributing a ton of Rust-related content. In the daily solutions thread on the /r/aoc subreddit, there were always several Rust solutions posted. Advent of Code really helps show off the things that make Rust shine, demonstrating the power and utility of many community-created crates as well as the language itself.",
+      "url": "https://cprimozic.net/blog/a-rusty-aoc/",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Casey Primozic",
+        "url": "https://cprimozic.net/blog/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
+      "id": "fe9a3482-44e2-48d3-8728-0a15b4d2fd48",
+      "title": "async-io-demo: Rust asynchronous io: from mio to stackless coroutine",
+      "content_text": "2019 is approaching. The rust team keeps their promise about asynchronous IO: async is introduced as keywords, Pin, Future, Poll and await! is introduced into standard library. I have never used rust for asynchronous IO programming earlier, so I almost know nothing about it. However, I would use it for a project recently but couldn't find many documents that are remarkably helpful for newbie of rust asynchronous programming. My purpose of writing this blog is to review and summarize, I will be happy if it can help someone who are interested in rust asynchronous programming.",
+      "url": "https://github.com/Hexilee/async-io-demo",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Li Chenxi",
+        "url": "https://github.com/Hexilee"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4f647aa7-226f-4b30-b814-399284d59111",
+      "title": "My Wish List For Rust 2019",
+      "content_text": "For the first time, I’m writing for the Rust Roadmap blog posts call. Why this year? Maybe because after being part of the community for 3-ish years, I feel I’ve reached a level of knowledge of the language that allows me to talk about it. I’m far from being an expert, but I wrote an application of my own and I am contributing to Cobalt. Enough experience to give me some material to think about.",
+      "url": "https://haurchefant.fr/posts/2018/12/my-wishlist-for-rust-2019/",
+      "tweet_url": "https://twitter.com/geobomatic/status/1078679308330254337",
+      "date_published": "2018-12-28T15:48:15+00:00",
+      "author": {
+        "name": "Geobert Quach",
+        "url": "https://haurchefant.fr/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "53e4c3d4-a70a-4caa-a4c8-17be048c93df",
+      "title": "Thoughts on Rust in 2019",
+      "content_text": "2018 was a success with the stated goals of releasing “editions” and working on usability/ergonomics. My first encounter with Rust was pre-1.0 (early 2015) and I immediately saw that Rust would be my future, wherein I joked to colleagues that I’d use it to “make toasters talk”. Followed by a sizeable hiatus (lack of personal time), I came back mid-year 2018. I can say for certain that the focus on usability and ergonomics was successful. Rust is much easier to use now than it was then. Rust format (rustfmt), Rust language server (RLS), text editor support, cargo tooling, compiler messages, and ecosystem crates’ quality and diversity are all amazing. The community is crazy diverse (first language learners, experienced systems people, web-dev people, programming language theory people, etc…). The chaos is well-managed with self-organizing working groups.",
+      "url": "https://medium.com/@bowlescompling/thoughts-on-rust-in-2019-6c0af39a6b76",
+      "tweet_url": "https://twitter.com/jbowayles/status/1078694719692177408",
+      "date_published": "2018-12-28T16:49:44.954+00:00",
+      "author": {
+        "name": "Josh Bowles",
+        "url": "https://medium.com/@bowlescompling"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "89df3ecf-8eeb-4da6-9945-3d69b6095f5e",
+      "title": "My Rust 2019 Dream: Dominate the Web",
+      "content_text": "A lot of people already know Rust is a great systems language. It can be put on embedded, feels better than C/C++ in many ways, and concurrency is way better than it was before. It's almost no doubt that Rust will continue to grow in these realms. The opportunity I see Rust has to lose though, is being the defacto language of the future of serious web programming. The dream I see is Rust as the language every one uses to create backend, front end, and perhaps even the distributed web ( wasm distributed apps on blockchain implementations).",
+      "url": "https://www.reddit.com/r/rust/comments/aac8zk/my_rust_2019_dream_dominate_the_web/?st=JQ8PQ5Z8&sh=3ad6032f",
+      "date_published": "2018-12-29T00:04:23+00:00",
+      "author": {
+        "name": "u/richardanaya",
+        "url": "https://www.reddit.com/user/richardanaya/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "3e7aead6-1e45-4897-8029-993214b6eb99",
+      "title": "Rust 2019: The shift in Rust",
+      "content_text": "This is my answer to the call for blogposts about what I’d like the year 2019 to mean for Rust.",
+      "url": "https://vorner.github.io/2018/12/27/rust-2019.html",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "1b761099-8ee4-4e1c-86b1-2aeac151507c",
       "title": "Rust 2019: Stabilization",
       "content_text": "If you’re familiar with the history of Rust you might be confused with a call to stabilization. After all, Rust 2015 (a.k.a 1.0) was all about stabilization and the team has actually done a pretty good job with achieving this goal. So what gives?\n\nWhile Rust 2015 defined stabilization around language backward compatibility, it’s time for the language, the tooling, the ecosystem and the governance to stabilize. Each of these characterize stability in a different way. Let me explain a bit more what I mean.",
@@ -10532,7 +10676,7 @@
         "url": "https://kripken.github.io/blog/"
       },
       "tags": [
-        "Web and Network Services "
+        "Web and Network Services"
       ]
     },
     {

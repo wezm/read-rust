@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "94213785-3a82-4f06-99ee-8477c184903c",
+      "title": "Thoughts on Rust in 2019",
+      "content_text": "This year is also a bit special; in 2018, we introduced “editions” to Rust, on a roughly three-year schedule. So now is not just a good time to think about 2019, but about 2020 and 2021 as well. Rust 2015 was about “stability”. Rust 2018 was about “productivity.” I’d like Rust 2021 to be about “maturity.” In order to get there, here’s what we need in 2019.",
+      "url": "https://words.steveklabnik.com/thoughts-on-rust-in-2019",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "4f647aa7-226f-4b30-b814-399284d59111",
+      "title": "My Wish List For Rust 2019",
+      "content_text": "For the first time, I’m writing for the Rust Roadmap blog posts call. Why this year? Maybe because after being part of the community for 3-ish years, I feel I’ve reached a level of knowledge of the language that allows me to talk about it. I’m far from being an expert, but I wrote an application of my own and I am contributing to Cobalt. Enough experience to give me some material to think about.",
+      "url": "https://haurchefant.fr/posts/2018/12/my-wishlist-for-rust-2019/",
+      "date_published": "2018-12-28T15:48:15+00:00",
+      "author": {
+        "name": "Geobert Quach",
+        "url": "https://haurchefant.fr/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "53e4c3d4-a70a-4caa-a4c8-17be048c93df",
+      "title": "Thoughts on Rust in 2019",
+      "content_text": "2018 was a success with the stated goals of releasing “editions” and working on usability/ergonomics. My first encounter with Rust was pre-1.0 (early 2015) and I immediately saw that Rust would be my future, wherein I joked to colleagues that I’d use it to “make toasters talk”. Followed by a sizeable hiatus (lack of personal time), I came back mid-year 2018. I can say for certain that the focus on usability and ergonomics was successful. Rust is much easier to use now than it was then. Rust format (rustfmt), Rust language server (RLS), text editor support, cargo tooling, compiler messages, and ecosystem crates’ quality and diversity are all amazing. The community is crazy diverse (first language learners, experienced systems people, web-dev people, programming language theory people, etc…). The chaos is well-managed with self-organizing working groups.",
+      "url": "https://medium.com/@bowlescompling/thoughts-on-rust-in-2019-6c0af39a6b76",
+      "date_published": "2018-12-28T16:49:44.954+00:00",
+      "author": {
+        "name": "Josh Bowles",
+        "url": "https://medium.com/@bowlescompling"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "89df3ecf-8eeb-4da6-9945-3d69b6095f5e",
+      "title": "My Rust 2019 Dream: Dominate the Web",
+      "content_text": "A lot of people already know Rust is a great systems language. It can be put on embedded, feels better than C/C++ in many ways, and concurrency is way better than it was before. It's almost no doubt that Rust will continue to grow in these realms. The opportunity I see Rust has to lose though, is being the defacto language of the future of serious web programming. The dream I see is Rust as the language every one uses to create backend, front end, and perhaps even the distributed web ( wasm distributed apps on blockchain implementations).",
+      "url": "https://www.reddit.com/r/rust/comments/aac8zk/my_rust_2019_dream_dominate_the_web/?st=JQ8PQ5Z8&sh=3ad6032f",
+      "date_published": "2018-12-29T00:04:23+00:00",
+      "author": {
+        "name": "u/richardanaya",
+        "url": "https://www.reddit.com/user/richardanaya/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "3e7aead6-1e45-4897-8029-993214b6eb99",
+      "title": "Rust 2019: The shift in Rust",
+      "content_text": "This is my answer to the call for blogposts about what I’d like the year 2019 to mean for Rust.",
+      "url": "https://vorner.github.io/2018/12/27/rust-2019.html",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "1b761099-8ee4-4e1c-86b1-2aeac151507c",
       "title": "Rust 2019: Stabilization",
       "content_text": "If you’re familiar with the history of Rust you might be confused with a call to stabilization. After all, Rust 2015 (a.k.a 1.0) was all about stabilization and the team has actually done a pretty good job with achieving this goal. So what gives?\n\nWhile Rust 2015 defined stabilization around language backward compatibility, it’s time for the language, the tooling, the ecosystem and the governance to stabilize. Each of these characterize stability in a different way. Let me explain a bit more what I mean.",

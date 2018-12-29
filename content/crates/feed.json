@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e72d0a8e-198f-4bd2-bf1e-7e0e94fac9d5",
+      "title": "QADAPT - debug_assert! for your memory usage",
+      "content_text": "I think it’s part of the human condition to ignore perfectly good advice when it comes our way. A bit over a month ago, I was dispensing sage wisdom for the ages: I had a really great idea: build a custom allocator that allows you to track your own allocations. I gave it a shot, but learned very quickly: never write your own allocator. I proceeded to ignore it, because we never really learn from our mistakes. There’s another part of the human condition that derives joy from seeing things explode. And that’s the part I’m going to focus on.",
+      "url": "https://speice.io/2018/12/allocation-safety.html",
+      "date_published": "2018-12-15T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "043f0bae-caa0-4d77-8336-9ec0813a0ca0",
+      "title": "Easy Postgres extensions in Rust with pg-extend-rs",
+      "content_text": "A project to make Postgres extensions in Rust easy, you might learn how to use macro_rules, attribute macros, allocators and some FFI in this post.",
+      "url": "https://bluejekyll.github.io/blog/rust/2018/12/27/announcing-pg-extend.html",
+      "date_published": "2018-12-27T07:00:00+00:00",
+      "author": {
+        "name": "Benjamin Fry",
+        "url": "https://bluejekyll.github.io/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "8abe1072-74b2-4cc8-b349-ba38a3bfae1b",
       "title": "A great 2018, an even better 2019",
       "content_text": "A year ago, Tokio was a very different library. It includes the (now deprecated) tokio-core which provided a future executor, I/O selector, and basic TCP/UDP types in a single library. It also included tokio-proto, but we won't talk about that. Over the past year, Tokio has grown to become Rust's asynchronous I/O platform. It has been adopted by a number of large companies to build apps.",

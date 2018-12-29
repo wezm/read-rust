@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "5e9ee3df-617a-4a7c-b8bd-ade701971b10",
+      "title": "Methods for Array Initialization in Rust",
+      "content_text": "Arrays in Rust are fixed size, and Rust requires that every element in an array is initialized to a valid value when the array is initialized. The result of these requirements is array initialization in Rust is a much deeper topic then it would seem.",
+      "url": "https://www.joshmcguigan.com/blog/array-initialization-rust/",
+      "date_published": "2018-12-22T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "04d1c753-5242-4aa9-bff7-500a717a62bc",
+      "title": "A Rusty Advent of Code",
+      "content_text": "For the first time, I took part in the Advent of Code this year. If you haven't heard of it, it's a daily programming challenge that can be solved in any programming language. Rust was very present in the Advent of Code community with people contributing a ton of Rust-related content. In the daily solutions thread on the /r/aoc subreddit, there were always several Rust solutions posted. Advent of Code really helps show off the things that make Rust shine, demonstrating the power and utility of many community-created crates as well as the language itself.",
+      "url": "https://cprimozic.net/blog/a-rusty-aoc/",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Casey Primozic",
+        "url": "https://cprimozic.net/blog/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
+      "id": "fe9a3482-44e2-48d3-8728-0a15b4d2fd48",
+      "title": "async-io-demo: Rust asynchronous io: from mio to stackless coroutine",
+      "content_text": "2019 is approaching. The rust team keeps their promise about asynchronous IO: async is introduced as keywords, Pin, Future, Poll and await! is introduced into standard library. I have never used rust for asynchronous IO programming earlier, so I almost know nothing about it. However, I would use it for a project recently but couldn't find many documents that are remarkably helpful for newbie of rust asynchronous programming. My purpose of writing this blog is to review and summarize, I will be happy if it can help someone who are interested in rust asynchronous programming.",
+      "url": "https://github.com/Hexilee/async-io-demo",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Li Chenxi",
+        "url": "https://github.com/Hexilee"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0717e76b-2097-4ee0-87b1-5f6cffadbdf0",
       "title": "On Rust",
       "content_text": "Back in 2013, I started a series of posts on programming languages I found interesting. One of the languages I wanted to write about at that time was Rust. As often happens, life got in the way, and it’s only now, in the twilight of 2018 I’m coming round to a long overdue post.",

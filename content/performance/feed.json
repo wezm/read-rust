@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "04d1c753-5242-4aa9-bff7-500a717a62bc",
+      "title": "A Rusty Advent of Code",
+      "content_text": "For the first time, I took part in the Advent of Code this year. If you haven't heard of it, it's a daily programming challenge that can be solved in any programming language. Rust was very present in the Advent of Code community with people contributing a ton of Rust-related content. In the daily solutions thread on the /r/aoc subreddit, there were always several Rust solutions posted. Advent of Code really helps show off the things that make Rust shine, demonstrating the power and utility of many community-created crates as well as the language itself.",
+      "url": "https://cprimozic.net/blog/a-rusty-aoc/",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "Casey Primozic",
+        "url": "https://cprimozic.net/blog/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
       "id": "6aa36df9-001c-478b-830e-56e2b896303b",
       "title": "Rust & Python—A Gentle Comparison using Simple Neural Networks",
       "content_text": "A gentle comparison between Rust & Python from multiple perspectives against a small, relatively simple problem.",
