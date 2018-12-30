@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9a6530f2-df83-41a2-b9fe-c2408eabbe0f",
+      "title": "This Year in Gfx-rs - 2018",
+      "content_text": "In 2018 the project left the nursery and entered the adolescence period...",
+      "url": "https://gfx-rs.github.io/2018/12/27/this-year.html",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "05addab4-8c30-4a75-9221-e156ea5d319c",
       "title": "Announcing RustaCUDA v0.1.0",
       "content_text": "In my post on GPGPU in Rust, I declared that I intended to work on improving the state of CUDA support in Rust. Since then, I’ve been mostly radio-silent. I’m pleased to announce that I have actually been working on something, and I’ve finally published that something.\nRustaCUDA RustaCUDA is a new wrapper crate for the CUDA driver API. It allows the programmer to allocate and free GPU memory, copy data to and from the GPU, load CUDA modules and launch kernels, all with a mostly-safe, programmer-friendly, Rust-y interface.",

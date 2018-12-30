@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "bddc8eb0-f2db-4330-87fa-2eca9a68e9e5",
+      "title": "Currying in rust Part 3 (The circle of life ... aka why borrowchecker ... why?!)",
+      "content_text": "Today we're going to take a look at the 'pipe' function my friend has written and why all of the sudden lifetimes get important esp. when using references.",
+      "url": "https://hashnode.com/post/currying-in-rust-part-3-the-circle-of-life-aka-why-borrowchecker-why-cjq3z1dd800dknds1sls4dqav",
+      "date_published": "2018-12-25T16:35:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://github.com/chilimatic"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0a14c8b2-c25a-4733-9682-e1cc71567cc9",
+      "title": "Handling failure in Rust",
+      "content_text": "I’ve begun to seriously dig into the Rust programming language. The learning curve is real, but I already appreciate the work they’ve put into ergonomics. I’m writing a simple photo thumbnail endpoint using the Rocket web framework (v0.4) and Image library (v0.20.1). My first pass used a lot of unwrapping to ignore potential errors. A lot can go wrong, even in this “simple” case. Rocket catches any panics thrown by route handlers, so this is about as robust as a naive equivalent in most other languages. However, Rust at least forces us to be explicit and purposeful about when we want to be sloppy. This is great for a first quick and dirty pass, but we can do much better.",
+      "url": "https://esimmler.com/handling-failure-in-rust/",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Erik Simmler",
+        "url": "https://esimmler.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5e9ee3df-617a-4a7c-b8bd-ade701971b10",
       "title": "Methods for Array Initialization in Rust",
       "content_text": "Arrays in Rust are fixed size, and Rust requires that every element in an array is initialized to a valid value when the array is initialized. The result of these requirements is array initialization in Rust is a much deeper topic then it would seem.",

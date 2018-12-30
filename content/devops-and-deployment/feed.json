@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a60ffa53-800e-42b3-a0df-feadc7a9e931",
+      "title": "GitHub Actions: An introductory look and first impressions",
+      "content_text": "I cover first impressions on GitHub actions using Rust as well as how to make it do a simple merge with a comment!",
+      "url": "https://mgattozzi.com/github-actions-an-introductory-look-and-first-impressions/",
+      "date_published": "2018-12-04T23:21:39+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "164aa143-a832-491e-b1c0-304913959b8d",
       "title": "Serverless Rust: Revisited",
       "content_text": "A refreshing new story for running Rust on AWS Lambda.",

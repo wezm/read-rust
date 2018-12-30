@@ -10,6 +10,135 @@
   },
   "items": [
     {
+      "id": "0461ffc8-05b3-413d-a015-c0859ed9665f",
+      "title": "Announcing 'err-derive' - yet another error handling library",
+      "content_text": "err-derive A failure-like derive macro for the std Error. The source code is mostly copied from failure-derive.",
+      "url": "https://users.rust-lang.org/t/announcing-err-derive-yet-another-error-handling-library/23594",
+      "date_published": "2018-12-27T13:09:02+00:00",
+      "author": {
+        "name": "Thomas Schaller",
+        "url": "https://users.rust-lang.org/u/torkleyy"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "b6c3cfcb-a670-4295-8a94-a76931e60985",
+      "title": "Rust 2019 - Usability and Tools",
+      "content_text": "This is my personal answer to the call for Rust 2019 Roadmap blog posts. To make it easier to read I've separated the post into sections by topic: Cargo & Crates.io, Rustdoc, Language & Stdlib, Compiler & Analyzer.",
+      "url": "https://crepererum.net/rust-2019-stabilization-and-ecosystem/",
+      "tweet_url": "https://twitter.com/crepererum/status/1078729627244417024",
+      "date_published": "2018-12-28T19:07:59+00:00",
+      "author": {
+        "name": "Marco Neumann",
+        "url": "https://crepererum.net/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "bddc8eb0-f2db-4330-87fa-2eca9a68e9e5",
+      "title": "Currying in rust Part 3 (The circle of life ... aka why borrowchecker ... why?!)",
+      "content_text": "Today we're going to take a look at the 'pipe' function my friend has written and why all of the sudden lifetimes get important esp. when using references.",
+      "url": "https://hashnode.com/post/currying-in-rust-part-3-the-circle-of-life-aka-why-borrowchecker-why-cjq3z1dd800dknds1sls4dqav",
+      "tweet_url": "https://twitter.com/hashnode/status/1077810824746422273",
+      "date_published": "2018-12-25T16:35:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://github.com/chilimatic"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2508ab68-2b48-4066-a6b4-a15a4f061025",
+      "title": "Jix' Site: Introducing partial_ref",
+      "content_text": "Recently there has been some discussion about interprocedural borrowing conflicts in rust. This is something I’ve been fighting with a lot, especially while working on my SAT solver varisat. Around the time Niko Matsakis published his blog post about this, I realized that the existing workarounds I’ve been using in varisat have become a maintenance nightmare. Making simple changes to the code required lots of changes in the boilerplate needed to thread various references to the places where they’re needed.\n\nWhile I didn’t think that a new language feature to solve this would be something I’d be willing to wait for, I decided to sit down and figure out how such a language feature would have to look like. I knew that I wanted something that allows for partial borrows across function calls. I also prefer this to work with annotations instead of global inference. While trying to come up with a coherent design that fits neatly into the existing type and trait system, I realized that most of what I wanted can be realized in stable rust today.",
+      "url": "https://jix.one/introducing-partial_ref/",
+      "date_published": "2018-12-24T14:07:10+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "a60ffa53-800e-42b3-a0df-feadc7a9e931",
+      "title": "GitHub Actions: An introductory look and first impressions",
+      "content_text": "I cover first impressions on GitHub actions using Rust as well as how to make it do a simple merge with a comment!",
+      "url": "https://mgattozzi.com/github-actions-an-introductory-look-and-first-impressions/",
+      "date_published": "2018-12-04T23:21:39+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "9a6530f2-df83-41a2-b9fe-c2408eabbe0f",
+      "title": "This Year in Gfx-rs - 2018",
+      "content_text": "In 2018 the project left the nursery and entered the adolescence period...",
+      "url": "https://gfx-rs.github.io/2018/12/27/this-year.html",
+      "date_published": "2018-12-27T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0a14c8b2-c25a-4733-9682-e1cc71567cc9",
+      "title": "Handling failure in Rust",
+      "content_text": "I’ve begun to seriously dig into the Rust programming language. The learning curve is real, but I already appreciate the work they’ve put into ergonomics. I’m writing a simple photo thumbnail endpoint using the Rocket web framework (v0.4) and Image library (v0.20.1). My first pass used a lot of unwrapping to ignore potential errors. A lot can go wrong, even in this “simple” case. Rocket catches any panics thrown by route handlers, so this is about as robust as a naive equivalent in most other languages. However, Rust at least forces us to be explicit and purposeful about when we want to be sloppy. This is great for a first quick and dirty pass, but we can do much better.",
+      "url": "https://esimmler.com/handling-failure-in-rust/",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Erik Simmler",
+        "url": "https://esimmler.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ae506c52-88d5-4803-ade0-610f083298ae",
+      "title": "cargo-crev and Rust 2019 fearless code reuse",
+      "content_text": "In my opinion, one of the biggest reasons why Rust is so productive is that it's a superb language for code reuse. Despite all these strengths, there's one problem that sticks out like a sore thumb: trust. Every additional dependency is another piece of code that could be buggy, or even malicious. And in my opinion, it's problem so serious, that is entirely blocking the untapped potential of code reuse in Rust.",
+      "url": "https://dpc.pw/cargo-crev-and-rust-2019-fearless-code-reuse",
+      "date_published": "2018-12-29T04:43:26+00:00",
+      "author": {
+        "name": "Dawid Ciężarkiewicz aka `dpc`",
+        "url": "http://dpc.pw/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "c4069a09-be22-45a1-a39b-3067584379a8",
+      "title": "Debugging Rust with VSCode on FreeBSD",
+      "content_text": "The following is a set of notes for installing VSCode on FreeBSD and getting a debugger up and running in a step by step guide. I thought I would share them in a full post as having a full IDE with syntax and error highlighting along with detailed in-context explanations has been really useful as I get to grips with Rust.",
+      "url": "https://venshare.com/debugging-rust-with-vscode-on-freebsd/",
+      "tweet_url": "https://twitter.com/dhigit9/status/1078804399860928513",
+      "date_published": "2018-12-28T23:56:37+00:00",
+      "author": {
+        "name": "Anton Whalley",
+        "url": "https://venshare.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "5e9ee3df-617a-4a7c-b8bd-ade701971b10",
       "title": "Methods for Array Initialization in Rust",
       "content_text": "Arrays in Rust are fixed size, and Rust requires that every element in an array is initialized to a valid value when the array is initialized. The result of these requirements is array initialization in Rust is a much deeper topic then it would seem.",

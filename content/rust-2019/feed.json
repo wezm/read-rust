@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b6c3cfcb-a670-4295-8a94-a76931e60985",
+      "title": "Rust 2019 - Usability and Tools",
+      "content_text": "This is my personal answer to the call for Rust 2019 Roadmap blog posts. To make it easier to read I've separated the post into sections by topic: Cargo & Crates.io, Rustdoc, Language & Stdlib, Compiler & Analyzer.",
+      "url": "https://crepererum.net/rust-2019-stabilization-and-ecosystem/",
+      "date_published": "2018-12-28T19:07:59+00:00",
+      "author": {
+        "name": "Marco Neumann",
+        "url": "https://crepererum.net/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "ae506c52-88d5-4803-ade0-610f083298ae",
+      "title": "cargo-crev and Rust 2019 fearless code reuse",
+      "content_text": "In my opinion, one of the biggest reasons why Rust is so productive is that it's a superb language for code reuse. Despite all these strengths, there's one problem that sticks out like a sore thumb: trust. Every additional dependency is another piece of code that could be buggy, or even malicious. And in my opinion, it's problem so serious, that is entirely blocking the untapped potential of code reuse in Rust.",
+      "url": "https://dpc.pw/cargo-crev-and-rust-2019-fearless-code-reuse",
+      "date_published": "2018-12-29T04:43:26+00:00",
+      "author": {
+        "name": "Dawid Ciężarkiewicz aka `dpc`",
+        "url": "http://dpc.pw/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "94213785-3a82-4f06-99ee-8477c184903c",
       "title": "Thoughts on Rust in 2019",
       "content_text": "This year is also a bit special; in 2018, we introduced “editions” to Rust, on a roughly three-year schedule. So now is not just a good time to think about 2019, but about 2020 and 2021 as well. Rust 2015 was about “stability”. Rust 2018 was about “productivity.” I’d like Rust 2021 to be about “maturity.” In order to get there, here’s what we need in 2019.",
