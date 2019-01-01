@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "df592561-9217-416a-bb32-5d610d948fad",
+      "title": "Rust in 2019: Working through the growing pains",
+      "content_text": "TLDR: this post is not as eloquent as I’d like it to be, but the main takeaway\nis that Rust is still a fast growing language, and has experienced expected growing pains,\nboth social and technological. This is okay, and we as the community need to\nwork through these pains, with the teams, not despite them.",
+      "url": "https://isaacwoods.tk/rust_2019/",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Isaac Woods",
+        "url": "https://isaacwoods.tk/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "fb92d7a2-b953-45d4-89b0-83cd1648cc47",
+      "title": "Rust 2019: Address the \"Big\" Problem",
+      "content_text": "Tame Complexity through Community Involvement Tools",
+      "url": "https://internals.rust-lang.org/t/rust-2019-address-the-big-problem/9109",
+      "date_published": "2018-12-27T19:10:18+00:00",
+      "author": {
+        "name": "Sam Sieber",
+        "url": "https://internals.rust-lang.org/u/samsieber"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "eb6cda74-6556-4a37-bd1e-0a6471b700e4",
+      "title": "Rust in 2019: The next year and edition",
+      "content_text": "This post is gonna be as much personal as it is both technical and people oriented. Buckle up, we’re gonna cover a lot of things, and a lot of it is not fun. This is definitely one of those, “We really need to look at ourselves in the mirror” hard truths posts. As I type this though, I’ve reflecting on the past few years with the Rust community I’m just in awe of the amount of work, dedication, and passion that’s gone into it. I started Rust when I was still starting my career and finishing up my CS degree and now we have a brand spanking new edition! So much has changed that it’s honestly mind boggling thinking about it. Even at work I gave a history of Rust presentation and it was wild being able to go “back in the day” for something that was just a regular day a few years ago.\n\nNow I find myself thinking about the problems we face as we become an even bigger community. We have a lot of problems. They’re good problems to have, but problems that must be solved eventually. I’m gonna go through all of them, what I see as major pain points/issues we’ve solved up to now, the present problems, and ones on the horizon. I’ll cover what I think we should focus on in the upcoming year and where we can go towards for Rust’s 2nd Edition. Let’s get started!",
+      "url": "https://mgattozzi.com/rust-in-2019-the-next-year-and-edition/",
+      "date_published": "2018-12-31T19:20:32+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "536bfa8b-ba21-44b5-b570-3e5850de6320",
+      "title": "Rust 2019 wish-list",
+      "content_text": "I'm writing in Rust a lot less than what I'd like, in part because of the lack of time, in part because the language and developer experience are already good. What I found missing is...",
+      "url": "https://www.reddit.com/r/rust/comments/a6y6my/rust_2019_wishlist/",
+      "date_published": "2018-12-17T20:06:00+00:00",
+      "author": {
+        "name": "Matteo Bertini",
+        "url": "https://mastodon.technology/@naufraghi"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "055bf639-2649-43e8-8604-91388b069c98",
+      "title": "Rust 2019 -- Finish Core Stuff!",
+      "content_text": "I am a relatively new in Rust, but I believe I have gathered enough experience the last few months to enjoy its strengths and discover some of its current shortcomings. Being relatively new at Rust, I am also of this generation that started immediately with Edition 2018. I switched to nightly very early on, and recently have been porting some code back to stable (1.31.x). I am overall very satisfied with Rust, but sometimes I come across something that doesn't work as I hoped. Every time that happens, I discover there is work-in-progress solving these issues, including, most of the time, a merged RFC, a nightly implementation behind feature gates or at least some blogs from core developers. Many time, the work I come across is from many years back.\n\nI have read several #Rust2019 and I want to use this opportunity to agree with those that suggest to finish current core stuff.",
+      "url": "https://gist.github.com/magnet/fab817fd64411f65d8d5f5109eadd5f9",
+      "date_published": "2018-12-25T19:03:55+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://gist.github.com/magnet"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "ee55b2d9-0365-406f-aaef-b4247d8fdf78",
+      "title": "All I Want for Rust 2019 is You (To Give a Talk)",
+      "content_text": "A call to action for local Rust meetups.",
+      "url": "https://optimistictypes.com/rust-2019/",
+      "date_published": "2018-12-30T00:00:00+00:00",
+      "author": {
+        "name": "J Haigh",
+        "url": "https://debugsteven.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "b6c3cfcb-a670-4295-8a94-a76931e60985",
       "title": "Rust 2019 - Usability and Tools",
       "content_text": "This is my personal answer to the call for Rust 2019 Roadmap blog posts. To make it easier to read I've separated the post into sections by topic: Cargo & Crates.io, Rustdoc, Language & Stdlib, Compiler & Analyzer.",

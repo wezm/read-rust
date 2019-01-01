@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "793ef59c-ee13-4673-a06b-e65d461e7b1c",
+      "title": "What is 'Placement New' in Rust?",
+      "content_text": "Placement new is a feature currently being discussed for the Rust programming language. It gives programmer control of memory allocation and memory placement, where current memory allocation implementations are hidden behind compiler internals via the Box::new interface. This is Rust’s answer to C++ placement new, allowing one to control not only when and how memory is freed, but also where it is allocated and freed from.",
+      "url": "http://blakesmith.me/2018/12/31/what-is-placement-new-in-rust.html",
+      "date_published": "2018-12-31T00:00:00+00:00",
+      "author": {
+        "name": "Blake Smith",
+        "url": "http://blakesmith.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "152067d5-472f-4ba2-9429-6a5de749bf99",
+      "title": "Barriers and Two-phase Borrows in Stacked Borrows",
+      "content_text": "My internship (“research assistantship”) with Mozilla has ended several weeks ago, and this post is a report of the most recent tweaks I made to Miri and Stacked Borrows. Neither project is by any means “done”, of course. However, both have reached a fairly reasonable state, so I felt some kind of closing report made sense. Also, if I ever want to finish my PhD, I’ll have to seriously scale down the amount of time I work on Rust – so at least from my side, things will move more slowly from now on.\n\nIn particular, installing Miri and running your test suite in it is now just a single command away! Scroll all the way down if you are not interested in the rest.",
+      "url": "https://www.ralfj.de/blog/2018/12/26/stacked-borrows-barriers.html",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "bddc8eb0-f2db-4330-87fa-2eca9a68e9e5",
       "title": "Currying in rust Part 3 (The circle of life ... aka why borrowchecker ... why?!)",
       "content_text": "Today we're going to take a look at the 'pipe' function my friend has written and why all of the sudden lifetimes get important esp. when using references.",

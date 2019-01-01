@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f6f38aae-10b9-4c71-b4fd-c0412a56e064",
+      "title": "Converting a Python library to Rust",
+      "content_text": "I rewrote a Python project in Rust. The rewrite took a fair bit longer than expected, but the results were good (about 9 times faster and ½ the memory usage). In the process, I learned a fair bit about Rust.",
+      "url": "https://alantrick.ca/writings/programming/python_to_rust/",
+      "date_published": "2018-12-22T00:00:00+00:00",
+      "author": {
+        "name": "Alan Trick",
+        "url": "https://alantrick.ca/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "6022c644-5499-422b-baab-9124f58a0c69",
+      "title": "Comparing Pythagorean triples in C++, D, and Rust",
+      "content_text": "You may have recently encountered and/or read this blog post criticising a possible C++20 implementation of Pythagorean triples using ranges. In it the author benchmarks different implemetations of the problem, comparing readability, compile times, run times and binary sizes. My main language these days is D, and given that D also has ranges (and right now, as opposed to a future version of the language), I almost immediately reached for my keyboard. By that time there were already some D and Rust versions floating about as a result of the reddit thread, so fortunately for lazy me “all” I had to next was to benchmark the lot of them.",
+      "url": "https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/",
+      "date_published": "2018-12-31T13:16:03+00:00",
+      "author": {
+        "name": "Átila Alves Neves",
+        "url": "https://atilanevesoncode.wordpress.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "04d1c753-5242-4aa9-bff7-500a717a62bc",
       "title": "A Rusty Advent of Code",
       "content_text": "For the first time, I took part in the Advent of Code this year. If you haven't heard of it, it's a daily programming challenge that can be solved in any programming language. Rust was very present in the Advent of Code community with people contributing a ton of Rust-related content. In the daily solutions thread on the /r/aoc subreddit, there were always several Rust solutions posted. Advent of Code really helps show off the things that make Rust shine, demonstrating the power and utility of many community-created crates as well as the language itself.",

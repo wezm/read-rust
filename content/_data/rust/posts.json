@@ -10,6 +10,152 @@
   },
   "items": [
     {
+      "id": "df592561-9217-416a-bb32-5d610d948fad",
+      "title": "Rust in 2019: Working through the growing pains",
+      "content_text": "TLDR: this post is not as eloquent as I’d like it to be, but the main takeaway\nis that Rust is still a fast growing language, and has experienced expected growing pains,\nboth social and technological. This is okay, and we as the community need to\nwork through these pains, with the teams, not despite them.",
+      "url": "https://isaacwoods.tk/rust_2019/",
+      "tweet_url": "https://twitter.com/IsaacWoods1234/status/1075404272542629888",
+      "date_published": "2018-12-19T00:00:00+00:00",
+      "author": {
+        "name": "Isaac Woods",
+        "url": "https://isaacwoods.tk/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "793ef59c-ee13-4673-a06b-e65d461e7b1c",
+      "title": "What is 'Placement New' in Rust?",
+      "content_text": "Placement new is a feature currently being discussed for the Rust programming language. It gives programmer control of memory allocation and memory placement, where current memory allocation implementations are hidden behind compiler internals via the Box::new interface. This is Rust’s answer to C++ placement new, allowing one to control not only when and how memory is freed, but also where it is allocated and freed from.",
+      "url": "http://blakesmith.me/2018/12/31/what-is-placement-new-in-rust.html",
+      "date_published": "2018-12-31T00:00:00+00:00",
+      "author": {
+        "name": "Blake Smith",
+        "url": "http://blakesmith.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fb92d7a2-b953-45d4-89b0-83cd1648cc47",
+      "title": "Rust 2019: Address the \"Big\" Problem",
+      "content_text": "Tame Complexity through Community Involvement Tools",
+      "url": "https://internals.rust-lang.org/t/rust-2019-address-the-big-problem/9109",
+      "date_published": "2018-12-27T19:10:18+00:00",
+      "author": {
+        "name": "Sam Sieber",
+        "url": "https://internals.rust-lang.org/u/samsieber"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f6f38aae-10b9-4c71-b4fd-c0412a56e064",
+      "title": "Converting a Python library to Rust",
+      "content_text": "I rewrote a Python project in Rust. The rewrite took a fair bit longer than expected, but the results were good (about 9 times faster and ½ the memory usage). In the process, I learned a fair bit about Rust.",
+      "url": "https://alantrick.ca/writings/programming/python_to_rust/",
+      "date_published": "2018-12-22T00:00:00+00:00",
+      "author": {
+        "name": "Alan Trick",
+        "url": "https://alantrick.ca/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "6022c644-5499-422b-baab-9124f58a0c69",
+      "title": "Comparing Pythagorean triples in C++, D, and Rust",
+      "content_text": "You may have recently encountered and/or read this blog post criticising a possible C++20 implementation of Pythagorean triples using ranges. In it the author benchmarks different implemetations of the problem, comparing readability, compile times, run times and binary sizes. My main language these days is D, and given that D also has ranges (and right now, as opposed to a future version of the language), I almost immediately reached for my keyboard. By that time there were already some D and Rust versions floating about as a result of the reddit thread, so fortunately for lazy me “all” I had to next was to benchmark the lot of them.",
+      "url": "https://atilanevesoncode.wordpress.com/2018/12/31/comparing-pythagorean-triples-in-c-d-and-rust/",
+      "tweet_url": "https://twitter.com/atilaneves/status/1079728315798298627",
+      "date_published": "2018-12-31T13:16:03+00:00",
+      "author": {
+        "name": "Átila Alves Neves",
+        "url": "https://atilanevesoncode.wordpress.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "eb6cda74-6556-4a37-bd1e-0a6471b700e4",
+      "title": "Rust in 2019: The next year and edition",
+      "content_text": "This post is gonna be as much personal as it is both technical and people oriented. Buckle up, we’re gonna cover a lot of things, and a lot of it is not fun. This is definitely one of those, “We really need to look at ourselves in the mirror” hard truths posts. As I type this though, I’ve reflecting on the past few years with the Rust community I’m just in awe of the amount of work, dedication, and passion that’s gone into it. I started Rust when I was still starting my career and finishing up my CS degree and now we have a brand spanking new edition! So much has changed that it’s honestly mind boggling thinking about it. Even at work I gave a history of Rust presentation and it was wild being able to go “back in the day” for something that was just a regular day a few years ago.\n\nNow I find myself thinking about the problems we face as we become an even bigger community. We have a lot of problems. They’re good problems to have, but problems that must be solved eventually. I’m gonna go through all of them, what I see as major pain points/issues we’ve solved up to now, the present problems, and ones on the horizon. I’ll cover what I think we should focus on in the upcoming year and where we can go towards for Rust’s 2nd Edition. Let’s get started!",
+      "url": "https://mgattozzi.com/rust-in-2019-the-next-year-and-edition/",
+      "tweet_url": "https://twitter.com/mgattozzi/status/1079820230715682817",
+      "date_published": "2018-12-31T19:20:32+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "152067d5-472f-4ba2-9429-6a5de749bf99",
+      "title": "Barriers and Two-phase Borrows in Stacked Borrows",
+      "content_text": "My internship (“research assistantship”) with Mozilla has ended several weeks ago, and this post is a report of the most recent tweaks I made to Miri and Stacked Borrows. Neither project is by any means “done”, of course. However, both have reached a fairly reasonable state, so I felt some kind of closing report made sense. Also, if I ever want to finish my PhD, I’ll have to seriously scale down the amount of time I work on Rust – so at least from my side, things will move more slowly from now on.\n\nIn particular, installing Miri and running your test suite in it is now just a single command away! Scroll all the way down if you are not interested in the rest.",
+      "url": "https://www.ralfj.de/blog/2018/12/26/stacked-borrows-barriers.html",
+      "date_published": "2018-12-26T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "536bfa8b-ba21-44b5-b570-3e5850de6320",
+      "title": "Rust 2019 wish-list",
+      "content_text": "I'm writing in Rust a lot less than what I'd like, in part because of the lack of time, in part because the language and developer experience are already good. What I found missing is...",
+      "url": "https://www.reddit.com/r/rust/comments/a6y6my/rust_2019_wishlist/",
+      "tweet_url": "https://twitter.com/naufraghi/status/1074591741351727104",
+      "date_published": "2018-12-17T20:06:00+00:00",
+      "author": {
+        "name": "Matteo Bertini",
+        "url": "https://mastodon.technology/@naufraghi"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "055bf639-2649-43e8-8604-91388b069c98",
+      "title": "Rust 2019 -- Finish Core Stuff!",
+      "content_text": "I am a relatively new in Rust, but I believe I have gathered enough experience the last few months to enjoy its strengths and discover some of its current shortcomings. Being relatively new at Rust, I am also of this generation that started immediately with Edition 2018. I switched to nightly very early on, and recently have been porting some code back to stable (1.31.x). I am overall very satisfied with Rust, but sometimes I come across something that doesn't work as I hoped. Every time that happens, I discover there is work-in-progress solving these issues, including, most of the time, a merged RFC, a nightly implementation behind feature gates or at least some blogs from core developers. Many time, the work I come across is from many years back.\n\nI have read several #Rust2019 and I want to use this opportunity to agree with those that suggest to finish current core stuff.",
+      "url": "https://gist.github.com/magnet/fab817fd64411f65d8d5f5109eadd5f9",
+      "tweet_url": "https://twitter.com/simach/status/1077641394045534209",
+      "date_published": "2018-12-25T19:03:55+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://gist.github.com/magnet"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "ee55b2d9-0365-406f-aaef-b4247d8fdf78",
+      "title": "All I Want for Rust 2019 is You (To Give a Talk)",
+      "content_text": "A call to action for local Rust meetups.",
+      "url": "https://optimistictypes.com/rust-2019/",
+      "tweet_url": "https://twitter.com/DebugSteven/status/1079606857214287877",
+      "date_published": "2018-12-30T00:00:00+00:00",
+      "author": {
+        "name": "J Haigh",
+        "url": "https://debugsteven.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "0461ffc8-05b3-413d-a015-c0859ed9665f",
       "title": "Announcing 'err-derive' - yet another error handling library",
       "content_text": "err-derive A failure-like derive macro for the std Error. The source code is mostly copied from failure-derive.",
