@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "4a2d72d8-3aa4-4c82-a95f-847f3e0c650d",
+      "title": "I made MPD index SoundCloud, here's how I did it",
+      "content_text": "The usual process of playing something on our music server is a bit cumbersome: I have to browse SoundCloud, download a track that seems interesting, upload it to the music server, let MPD index it, and then play it.\n\nTo make my life easier, I wanted to leverage Linux’s FUSE interface to expose the audio on SoundCloud as a bunch of files in a folder which MPD could then index and play from. I could have taken a couple of other approaches such as swapping MPD with Mopidy, an MPD-compatible music player with SoundCloud support, or a scraper that periodically downloads the latest audio from my feed. And while these alternatives were probably easier to implement, I went for the FUSE driver because I thought it was cool.",
+      "url": "https://polyfloyd.net/post/soundcloud-fuse-mpd/",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "polyfloyd",
+        "url": "https://polyfloyd.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "bc334e2e-7ac8-4019-a197-da3d1d19edbf",
+      "title": "Version 0.2 of Smithay, a library for making wayland compositors",
+      "content_text": "Announcement of version 0.2 of smithay, now providing the fundamentals of a wayland compositor.",
+      "url": "https://smithay.github.io/smithay-v-0-2.html",
+      "date_published": "2018-12-28T17:00:00+01:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ea33097d-8f78-4d8d-9f75-bc9305380398",
+      "title": "PyOxidizer: Make distributable Python applications using Rust",
+      "content_text": "PyOxidizer is a collection of Rust crates that facilitate building libraries and binaries containing Python interpreters. PyOxidizer is capable of producing a single file executable - with all dependencies statically linked and all resources (like .pyc files) embedded in the executable.",
+      "url": "https://github.com/indygreg/pyoxidizer",
+      "date_published": "2019-01-03T00:00:00+00:00",
+      "author": {
+        "name": "Gregory Szorc",
+        "url": "https://github.com/indygreg"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ff73c006-4009-4e7b-9405-7d4ea2b3c08d",
       "title": "Propagating Errors",
       "content_text": "Lately, I have been converting the code in librsvg that handles XML from C to Rust. For many technical reasons, the library still uses libxml2, GNOME's historic XML parsing library, but some of the callbacks to handle XML events like start_element, end_element, characters, are now implemented in Rust. This has meant that I'm running into all the cases where the original C code in librsvg failed to handle errors properly; Rust really makes it obvious when that happens.\n\nIn this post I want to talk a bit about propagating errors. You call a function, it returns an error, and then what?",

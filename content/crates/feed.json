@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bc334e2e-7ac8-4019-a197-da3d1d19edbf",
+      "title": "Version 0.2 of Smithay, a library for making wayland compositors",
+      "content_text": "Announcement of version 0.2 of smithay, now providing the fundamentals of a wayland compositor.",
+      "url": "https://smithay.github.io/smithay-v-0-2.html",
+      "date_published": "2018-12-28T17:00:00+01:00",
+      "author": {
+        "name": "Victor Berger",
+        "url": "https://smithay.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "0461ffc8-05b3-413d-a015-c0859ed9665f",
       "title": "Announcing 'err-derive' - yet another error handling library",
       "content_text": "err-derive A failure-like derive macro for the std Error. The source code is mostly copied from failure-derive.",
