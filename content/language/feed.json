@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ff73c006-4009-4e7b-9405-7d4ea2b3c08d",
+      "title": "Propagating Errors",
+      "content_text": "Lately, I have been converting the code in librsvg that handles XML from C to Rust. For many technical reasons, the library still uses libxml2, GNOME's historic XML parsing library, but some of the callbacks to handle XML events like start_element, end_element, characters, are now implemented in Rust. This has meant that I'm running into all the cases where the original C code in librsvg failed to handle errors properly; Rust really makes it obvious when that happens.\n\nIn this post I want to talk a bit about propagating errors. You call a function, it returns an error, and then what?",
+      "url": "https://people.gnome.org/~federico/blog/propagating-errors.html",
+      "date_published": "2018-11-21T13:58:12-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "793ef59c-ee13-4673-a06b-e65d461e7b1c",
       "title": "What is 'Placement New' in Rust?",
       "content_text": "Placement new is a feature currently being discussed for the Rust programming language. It gives programmer control of memory allocation and memory placement, where current memory allocation implementations are hidden behind compiler internals via the Box::new interface. This is Rust’s answer to C++ placement new, allowing one to control not only when and how memory is freed, but also where it is allocated and freed from.",

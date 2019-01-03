@@ -10,6 +10,136 @@
   },
   "items": [
     {
+      "id": "ff73c006-4009-4e7b-9405-7d4ea2b3c08d",
+      "title": "Propagating Errors",
+      "content_text": "Lately, I have been converting the code in librsvg that handles XML from C to Rust. For many technical reasons, the library still uses libxml2, GNOME's historic XML parsing library, but some of the callbacks to handle XML events like start_element, end_element, characters, are now implemented in Rust. This has meant that I'm running into all the cases where the original C code in librsvg failed to handle errors properly; Rust really makes it obvious when that happens.\n\nIn this post I want to talk a bit about propagating errors. You call a function, it returns an error, and then what?",
+      "url": "https://people.gnome.org/~federico/blog/propagating-errors.html",
+      "date_published": "2018-11-21T13:58:12-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f96e4dca-7eb6-4855-849f-97007457148d",
+      "title": "Making and using C-compatible libraries in Rust: present and future",
+      "content_text": "Since there are plenty of blogposts about what people would like to have or will implement in rust in 2019 here is mine.\n\nI spent the last few weeks of my spare time making a C-api for rav1e called crav1e, overall the experience had been a mixed bag and there is large space for improvement.",
+      "url": "https://blogs.gentoo.org/lu_zero/2018/12/30/making-and-using-c-compatible-libraries-in-rust-present-and-future/",
+      "tweet_url": "https://twitter.com/lu_zero_/status/1079308159561486336",
+      "date_published": "2018-12-30T09:25:47+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://blogs.gentoo.org/lu_zero/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "7d13bc11-63fd-48bd-bef2-459379a5e6c4",
+      "title": "Rustduino pt. I: setting up the development environment",
+      "content_text": "This post details the steps needed to start programming an Arduino UNO board using the Rust programming language and working on Mac OS.",
+      "url": "https://treesandrobots.com/2018/12/rustduino-pt-1-setting-up-development-environment.html",
+      "tweet_url": "https://twitter.com/jacoscaz/status/1080173976201162753",
+      "date_published": "2018-12-30T00:00:00+00:00",
+      "author": {
+        "name": "Jacopo Scazzosi",
+        "url": "https://treesandrobots.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "da6b6f38-a2c9-43df-a97b-6084e3a8ee7d",
+      "title": "Rust in 2019",
+      "content_text": "These are some rough notes on things in the Rust project that are important to me, that I’d like to work on in 2019. I haven’t got a grand vision this time around (I tried that last year, but ran out of bandwidth to properly drive it).",
+      "url": "https://kodraus.github.io/rust/2019/01/01/rust-2019.html",
+      "tweet_url": "https://twitter.com/KodrAus/status/1079934058396676096",
+      "date_published": "2019-01-01T02:44:00+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://kodraus.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5ef7bb7d-ef60-4758-90e5-04c6cb63a544",
+      "title": "My wishlist for Rust in 2019",
+      "content_text": "It's starting to become a tradition to see a bunch of posts around the new year on what the community wants to see from Rust. For the second year in a row, the Rust core team asked for feedback for the 2019 roadmap and this is what I'd like: \"rustfix all the things\" and a better infrastructure.",
+      "url": "https://www.pietroalbini.org/blog/rust-2019-wishlist/",
+      "tweet_url": "https://twitter.com/pietroalbini/status/1080450472882958336",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Pietro Albini",
+        "url": "https://www.pietroalbini.org/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "3f5071e6-1c55-42fc-ac93-8b1d70958d25",
+      "title": "Russian AI Cup 2018",
+      "content_text": "Russian AI Cup — annual IT-oriented competition initiative, organized by Mail.Ru Group and Codeforces. Last year we started using Rust compiled to WebAssembly to show the games on web. This time, we went even further, and the game itself is now written in Rust. So, now web player, local game runner and testing suite is actually same application with same source code. This means that you can, among other things, play the game in browser, which was not possible before.",
+      "url": "https://blog.kuviman.com/2019/01/01/russian-ai-cup-2018.html",
+      "date_published": "2019-01-01T00:00:00+00:00",
+      "author": {
+        "name": "kuviman",
+        "url": "https://blog.kuviman.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "d282adbf-dce7-4fbb-86e5-2d33df229932",
+      "title": "Leveraging Rust types for modular specification and verification",
+      "content_text": "Rust’s type system ensures memory safety: well-typed Rust programs are guaranteed to not exhibit problems such as dangling pointers, data races, and unexpected side effects through aliased references. Going beyond memory safety, for instance, to guarantee the absence of assertion failures or functional correctness, requires static program verification. Formal verification of system software is notoriously difficult and requires complex specifications and logics to reason about pointers, aliasing, and side effects on mutable state. This complexity is a major obstacle to a more widespread verification of system software.\n\nIn this paper, we present a novel verification technique that leverages Rust’s type system to greatly simplify the specification and verification of Rust programs. We analyse information from the Rust compiler and synthesise a corresponding core proof for the program in a flavour of separation logic tailored to automation. Crucially, our proofs are constructed and checked automatically; users of our work never work with the underlying formal logic. Users can add specifications at the abstraction level of Rust expressions; we show how to interweave these to extend our core proof to prove modularly whether these specifications are correct. We have implemented our technique for a subset of Rust; our initial evaluation on two thousand functions from widely-used Rust crates demonstrates its effectiveness",
+      "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/311092",
+      "date_published": "2018-12-17T07:00:47+00:00",
+      "author": {
+        "name": "Astrauskas, Vytautas; Müller, Peter; Poli, Federico; Summers, Alexander",
+        "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/22"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "02aaa21e-53a6-4e80-9ad2-73fdfcab3569",
+      "title": "Rust 2019: Compiler, Community, and Const Generics",
+      "content_text": "This article is a repsponse to the call for 2019 wishlist blog posts for the Rust programming language.",
+      "url": "https://nicoburns.com/blog/rust-2019/",
+      "date_published": "2019-01-03T00:00:00+00:00",
+      "author": {
+        "name": "Nico Burns",
+        "url": "https://nicoburns.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "24596458-21bc-4c81-af9c-957f439796b3",
+      "title": "My Personal Rust 2019",
+      "content_text": "Many people have already posted their thoughts on the future of Rust. There are some excellent ideas in there that are probably more important than what I have to say. On the other hand my blog post covers my personal experiences I’ve had in the few years I’ve been writing Rust.",
+      "url": "https://casualhacks.net/blog/2019-01-01/my-personal-rust-2019/",
+      "date_published": "2019-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Casper",
+        "url": "http://casualhacks.net/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "df592561-9217-416a-bb32-5d610d948fad",
       "title": "Rust in 2019: Working through the growing pains",
       "content_text": "TLDR: this post is not as eloquent as I’d like it to be, but the main takeaway\nis that Rust is still a fast growing language, and has experienced expected growing pains,\nboth social and technological. This is okay, and we as the community need to\nwork through these pains, with the teams, not despite them.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7d13bc11-63fd-48bd-bef2-459379a5e6c4",
+      "title": "Rustduino pt. I: setting up the development environment",
+      "content_text": "This post details the steps needed to start programming an Arduino UNO board using the Rust programming language and working on Mac OS.",
+      "url": "https://treesandrobots.com/2018/12/rustduino-pt-1-setting-up-development-environment.html",
+      "date_published": "2018-12-30T00:00:00+00:00",
+      "author": {
+        "name": "Jacopo Scazzosi",
+        "url": "https://treesandrobots.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "aa59c999-cba6-4f20-80cc-888e8e257a73",
       "title": "gbl: A typestate-powered zero-copy crate for GBL firmware update files",
       "content_text": "After a few weeks of reverse-engineering, internal dogfooding, and API design discussion, we're finally publishing our gbl crate for good.\n\nThe library implements a parser and writer for GBL firmware update containers, which are used to perform secure OTA updates for certain microcontrollers.",

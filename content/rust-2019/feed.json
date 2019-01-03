@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "f96e4dca-7eb6-4855-849f-97007457148d",
+      "title": "Making and using C-compatible libraries in Rust: present and future",
+      "content_text": "Since there are plenty of blogposts about what people would like to have or will implement in rust in 2019 here is mine.\n\nI spent the last few weeks of my spare time making a C-api for rav1e called crav1e, overall the experience had been a mixed bag and there is large space for improvement.",
+      "url": "https://blogs.gentoo.org/lu_zero/2018/12/30/making-and-using-c-compatible-libraries-in-rust-present-and-future/",
+      "date_published": "2018-12-30T09:25:47+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://blogs.gentoo.org/lu_zero/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "da6b6f38-a2c9-43df-a97b-6084e3a8ee7d",
+      "title": "Rust in 2019",
+      "content_text": "These are some rough notes on things in the Rust project that are important to me, that I’d like to work on in 2019. I haven’t got a grand vision this time around (I tried that last year, but ran out of bandwidth to properly drive it).",
+      "url": "https://kodraus.github.io/rust/2019/01/01/rust-2019.html",
+      "date_published": "2019-01-01T02:44:00+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://kodraus.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5ef7bb7d-ef60-4758-90e5-04c6cb63a544",
+      "title": "My wishlist for Rust in 2019",
+      "content_text": "It's starting to become a tradition to see a bunch of posts around the new year on what the community wants to see from Rust. For the second year in a row, the Rust core team asked for feedback for the 2019 roadmap and this is what I'd like: \"rustfix all the things\" and a better infrastructure.",
+      "url": "https://www.pietroalbini.org/blog/rust-2019-wishlist/",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Pietro Albini",
+        "url": "https://www.pietroalbini.org/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "02aaa21e-53a6-4e80-9ad2-73fdfcab3569",
+      "title": "Rust 2019: Compiler, Community, and Const Generics",
+      "content_text": "This article is a repsponse to the call for 2019 wishlist blog posts for the Rust programming language.",
+      "url": "https://nicoburns.com/blog/rust-2019/",
+      "date_published": "2019-01-03T00:00:00+00:00",
+      "author": {
+        "name": "Nico Burns",
+        "url": "https://nicoburns.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "24596458-21bc-4c81-af9c-957f439796b3",
+      "title": "My Personal Rust 2019",
+      "content_text": "Many people have already posted their thoughts on the future of Rust. There are some excellent ideas in there that are probably more important than what I have to say. On the other hand my blog post covers my personal experiences I’ve had in the few years I’ve been writing Rust.",
+      "url": "https://casualhacks.net/blog/2019-01-01/my-personal-rust-2019/",
+      "date_published": "2019-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Casper",
+        "url": "http://casualhacks.net/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "df592561-9217-416a-bb32-5d610d948fad",
       "title": "Rust in 2019: Working through the growing pains",
       "content_text": "TLDR: this post is not as eloquent as I’d like it to be, but the main takeaway\nis that Rust is still a fast growing language, and has experienced expected growing pains,\nboth social and technological. This is okay, and we as the community need to\nwork through these pains, with the teams, not despite them.",

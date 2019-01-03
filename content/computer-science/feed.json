@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d282adbf-dce7-4fbb-86e5-2d33df229932",
+      "title": "Leveraging Rust types for modular specification and verification",
+      "content_text": "Rust’s type system ensures memory safety: well-typed Rust programs are guaranteed to not exhibit problems such as dangling pointers, data races, and unexpected side effects through aliased references. Going beyond memory safety, for instance, to guarantee the absence of assertion failures or functional correctness, requires static program verification. Formal verification of system software is notoriously difficult and requires complex specifications and logics to reason about pointers, aliasing, and side effects on mutable state. This complexity is a major obstacle to a more widespread verification of system software.\n\nIn this paper, we present a novel verification technique that leverages Rust’s type system to greatly simplify the specification and verification of Rust programs. We analyse information from the Rust compiler and synthesise a corresponding core proof for the program in a flavour of separation logic tailored to automation. Crucially, our proofs are constructed and checked automatically; users of our work never work with the underlying formal logic. Users can add specifications at the abstraction level of Rust expressions; we show how to interweave these to extend our core proof to prove modularly whether these specifications are correct. We have implemented our technique for a subset of Rust; our initial evaluation on two thousand functions from widely-used Rust crates demonstrates its effectiveness",
+      "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/311092",
+      "date_published": "2018-12-17T07:00:47+00:00",
+      "author": {
+        "name": "Astrauskas, Vytautas; Müller, Peter; Poli, Federico; Summers, Alexander",
+        "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/22"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "4ea6d02a-6279-4eef-af2f-bd67424d6de8",
       "title": "The Swiss Army Knife of Hashmaps",
       "content_text": "A while back, there was a discussion comparing the performance of using the hashbrown crate (based on Google’s SwissTable implementation) in the Rust compiler. In the last RustFest, Amanieu was experimenting on integrating his crate into stdlib, which turned out to have some really promising results. As a result, it’s being planned to move the crate into stdlib.\n\nWhile the integration is still ongoing, there’s currently no blog post out there explaining SwissTable at the moment. So, I thought I’d dig deeper into the Rust implementation to try and explain how its (almost) identical twin hashbrown::HashMap works.",

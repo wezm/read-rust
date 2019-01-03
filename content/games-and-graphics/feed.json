@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3f5071e6-1c55-42fc-ac93-8b1d70958d25",
+      "title": "Russian AI Cup 2018",
+      "content_text": "Russian AI Cup — annual IT-oriented competition initiative, organized by Mail.Ru Group and Codeforces. Last year we started using Rust compiled to WebAssembly to show the games on web. This time, we went even further, and the game itself is now written in Rust. So, now web player, local game runner and testing suite is actually same application with same source code. This means that you can, among other things, play the game in browser, which was not possible before.",
+      "url": "https://blog.kuviman.com/2019/01/01/russian-ai-cup-2018.html",
+      "date_published": "2019-01-01T00:00:00+00:00",
+      "author": {
+        "name": "kuviman",
+        "url": "https://blog.kuviman.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "9a6530f2-df83-41a2-b9fe-c2408eabbe0f",
       "title": "This Year in Gfx-rs - 2018",
       "content_text": "In 2018 the project left the nursery and entered the adolescence period...",
