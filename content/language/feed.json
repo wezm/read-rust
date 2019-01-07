@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "470de398-add8-4fdd-9b38-c79c781c58fa",
+      "title": "Deriving Traits in Rust with Procedural Macros",
+      "content_text": "Procedural macros in Rust are a really compelling feature that I didn’t understand until recently. There are a few gotchas, but they make it super easy to implement custom #[derive()] expansions for implementing traits with a single line of code. Let’s dive in.",
+      "url": "https://naftuli.wtf/2019/01/02/rust-derive-macros/",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Naftuli Kay",
+        "url": "https://naftuli.wtf/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ff73c006-4009-4e7b-9405-7d4ea2b3c08d",
       "title": "Propagating Errors",
       "content_text": "Lately, I have been converting the code in librsvg that handles XML from C to Rust. For many technical reasons, the library still uses libxml2, GNOME's historic XML parsing library, but some of the callbacks to handle XML events like start_element, end_element, characters, are now implemented in Rust. This has meant that I'm running into all the cases where the original C code in librsvg failed to handle errors properly; Rust really makes it obvious when that happens.\n\nIn this post I want to talk a bit about propagating errors. You call a function, it returns an error, and then what?",

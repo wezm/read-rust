@@ -10,6 +10,36 @@
   },
   "items": [
     {
+      "id": "7828aada-388f-4b7b-bac1-24de2e65cf6a",
+      "title": "Thessaloniki GNOME+Rust Hackfest 2018",
+      "content_text": "A couple of weeks ago we had the fourth GNOME+Rust hackfest, this time in Thessaloniki, Greece.  We held the hackfest at the CoHo coworking space, a small, cozy office between the University and the sea. Every such hackfest I am overwhelmed by the kind hackers who work on [gnome-class], the code generator for GObject implementations in Rust.",
+      "url": "https://people.gnome.org/~federico/blog/thessaloniki-gnome-rust-2018.html",
+      "date_published": "2018-11-27T17:37:31-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Community",
+        "Crates"
+      ]
+    },
+    {
+      "id": "ad9d038f-52e6-4860-a264-61a795428b87",
+      "title": "Scannerless parsing of boolean grammars with derivatives in Rust",
+      "content_text": "This is yet another library for writing parsers in Rust. What makes this one different is that I've combined some existing academic work in a way that I think is novel. The result is an unusually flexible parsing library while still offering competitive performance and memory usage.",
+      "url": "https://github.com/jameysharp/weighted-regexp-rs/blob/master/README.md",
+      "date_published": "2019-01-06T00:00:00+00:00",
+      "author": {
+        "name": "Jamey Sharp",
+        "url": "https://github.com/jameysharp"
+      },
+      "tags": [
+        "Crates",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "bc334e2e-7ac8-4019-a197-da3d1d19edbf",
       "title": "Version 0.2 of Smithay, a library for making wayland compositors",
       "content_text": "Announcement of version 0.2 of smithay, now providing the fundamentals of a wayland compositor.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "ad9d038f-52e6-4860-a264-61a795428b87",
+      "title": "Scannerless parsing of boolean grammars with derivatives in Rust",
+      "content_text": "This is yet another library for writing parsers in Rust. What makes this one different is that I've combined some existing academic work in a way that I think is novel. The result is an unusually flexible parsing library while still offering competitive performance and memory usage.",
+      "url": "https://github.com/jameysharp/weighted-regexp-rs/blob/master/README.md",
+      "date_published": "2019-01-06T00:00:00+00:00",
+      "author": {
+        "name": "Jamey Sharp",
+        "url": "https://github.com/jameysharp"
+      },
+      "tags": [
+        "Crates",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "d282adbf-dce7-4fbb-86e5-2d33df229932",
       "title": "Leveraging Rust types for modular specification and verification",
       "content_text": "Rust’s type system ensures memory safety: well-typed Rust programs are guaranteed to not exhibit problems such as dangling pointers, data races, and unexpected side effects through aliased references. Going beyond memory safety, for instance, to guarantee the absence of assertion failures or functional correctness, requires static program verification. Formal verification of system software is notoriously difficult and requires complex specifications and logics to reason about pointers, aliasing, and side effects on mutable state. This complexity is a major obstacle to a more widespread verification of system software.\n\nIn this paper, we present a novel verification technique that leverages Rust’s type system to greatly simplify the specification and verification of Rust programs. We analyse information from the Rust compiler and synthesise a corresponding core proof for the program in a flavour of separation logic tailored to automation. Crucially, our proofs are constructed and checked automatically; users of our work never work with the underlying formal logic. Users can add specifications at the abstraction level of Rust expressions; we show how to interweave these to extend our core proof to prove modularly whether these specifications are correct. We have implemented our technique for a subset of Rust; our initial evaluation on two thousand functions from widely-used Rust crates demonstrates its effectiveness",

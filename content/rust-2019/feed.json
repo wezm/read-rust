@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "5b89867c-1a66-4b88-ab28-5b04e6cda3f5",
+      "title": "Rust 2019: Towards Richer Language Extensions",
+      "content_text": "As of Rust 1.30, the Rust language now has support for a very expressive feature called procedural macros 3. Procedural macros are great because they enable Rust to do more, without baking a lot of potentially domain-specific information into the language. For example, automatic serialization of data types 5 and expressive, type-safe abstractions for web servers 6 can both be implemented using procedural macros.\n\nHowever, while expressive, procedural macros can’t do everything.",
+      "url": "https://internals.rust-lang.org/t/rust-2019-towards-richer-language-extensions/9151",
+      "date_published": "2019-01-06T01:17:43+00:00",
+      "author": {
+        "name": "Elliott Slaughter",
+        "url": "https://internals.rust-lang.org/u/elliottslaughter"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "23462803-be17-4a96-b8f1-64af9c0e79d8",
+      "title": "Scientific Rust #rust2019",
+      "content_text": "The Rust community requested feedback last year for where the language should go in 2018, and now they are running it again for 2019. Last year I was too new in Rust to organize a blog post, but after an year using it I feel more comfortable writing this!\n\nIn this post I will be focusing more in two areas: array computing (what most people consider 'scientific programming' to be) and \"data structures\".",
+      "url": "https://blog.luizirber.org/2019/01/05/rust-2019/",
+      "date_published": "2019-01-05T17:00:00-02:00",
+      "author": {
+        "name": "Luiz Irber",
+        "url": "https://blog.luizirber.org/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "275f95ad-70be-4870-bb50-0c5df78ed9be",
+      "title": "Rust 2019",
+      "content_text": "Thinking about Rust’s evolution like a video game (heh), we have just reached level 2018. Our programming language is in a good state but there are a lot of progress bars for features where we need to get a few more experience points to unlock a new ability.",
+      "url": "https://deterministic.space/rust-2019.html",
+      "date_published": "2019-01-04T00:00:00+01:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "e11a846b-3426-49af-b3b4-bc444adfe11b",
+      "title": "Rust 2019 posts",
+      "content_text": "When starting collecting ideas about this years Rust 2019 post, I had far to many to fit into one document. For that reasons, I’ll start writing multiple small pieces. I might come back to them at a later point this year. Most of my wishes are around the project structure, but I also have some technical ones. Most of them deal with the current growth and maturity of the project. All of these are living documents and even just drafts, so they might change at any time and might be released in draft form.",
+      "url": "https://yakshav.es/rust-2019/",
+      "date_published": "2019-01-03T23:57:00+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "http://yakshav.es/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "51795148-94c2-4912-9e84-eb9502a80d4c",
+      "title": "Rust 2019: Beat C++",
+      "content_text": "I'm not a contributor outside a few issues here and there, but I have some thoughts about how Rust could be improved in 2019. There's been a lot of talk of the Fallow Year and limiting new features, and I think these are great ideas. With that in mind, a goal that follows along those lines is to \"Beat C++.\" Rust doesn't have to beat C++ by performing better in benchmarks. Rather, Rust can beat C++ by making it easier to write optimized code, benchmark it, and profile it.",
+      "url": "https://www.reddit.com/r/rust/comments/acjcbp/rust_2019_beat_c/?st=JQIGPCJV&sh=0e8b6ffc",
+      "date_published": "2019-01-05T00:00:00+00:00",
+      "author": {
+        "name": "u/Holy_City",
+        "url": "https://www.reddit.com/user/Holy_City"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "f96e4dca-7eb6-4855-849f-97007457148d",
       "title": "Making and using C-compatible libraries in Rust: present and future",
       "content_text": "Since there are plenty of blogposts about what people would like to have or will implement in rust in 2019 here is mine.\n\nI spent the last few weeks of my spare time making a C-api for rav1e called crav1e, overall the experience had been a mixed bag and there is large space for improvement.",

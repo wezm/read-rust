@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9cccb5d4-edfb-483f-ab75-0b099242fd69",
+      "title": "Followups",
+      "content_text": "Here are some followups on previous blog postings. Including, Arclength, and 2D graphics.",
+      "url": "https://raphlinus.github.io/curves/graphics/2019/01/04/followups.html",
+      "date_published": "2019-01-04T16:54:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3f5071e6-1c55-42fc-ac93-8b1d70958d25",
       "title": "Russian AI Cup 2018",
       "content_text": "Russian AI Cup — annual IT-oriented competition initiative, organized by Mail.Ru Group and Codeforces. Last year we started using Rust compiled to WebAssembly to show the games on web. This time, we went even further, and the game itself is now written in Rust. So, now web player, local game runner and testing suite is actually same application with same source code. This means that you can, among other things, play the game in browser, which was not possible before.",
