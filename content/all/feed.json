@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "4fda94a2-d93a-4d1d-8ffe-e171600b13ce",
+      "title": "Using Rust for Gamedev",
+      "content_text": "I’ve recently created a new website and finished an online game named Adventures of Pascal Penguin. One of the most unique things about this game is that it was written in Rust and runs in web browsers thanks to WebAssembly. WebAssembly has only been mainstream for about a year or so, so not many games have been created like this. I want to share a little about my journey with Rust: how I started with it and how I got to this point.",
+      "url": "https://medium.com/@michelotti.matthew/using-rust-for-gamedev-2f60b0e4cc5c",
+      "date_published": "2019-01-04T06:15:37.008+00:00",
+      "author": {
+        "name": "Matthew Michelotti",
+        "url": "https://medium.com/@michelotti.matthew"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1dd7a631-a2a9-42e8-ba0c-87b56bc6af38",
+      "title": "generic-array Design and Usage Notes",
+      "content_text": "generic-array is a method of achieving fixed-length fixed-size stack-allocated generic arrays without needing const generics in stable Rust.",
+      "url": "https://github.com/fizyk20/generic-array/blob/master/DESIGN.md",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Trent",
+        "url": "https://github.com/novacrazy"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "94e44d97-0440-4673-9727-734c2be63a7d",
+      "title": "The Last Thing Rust Needs",
+      "content_text": "In 2014, world-renowned C++ expert Scott Meyers was invited to DConf, Facebook's conference on the D programming language. D is a modern, multi-paradigm systems language with a good amount of inspiration from C++, so the choice was only fitting.",
+      "url": "https://h2co3.github.io/rust2019/",
+      "date_published": "2019-01-05T00:00:00+00:00",
+      "author": {
+        "name": "Árpád Goretity",
+        "url": "https://h2co3.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "a46b1128-605b-4cab-b36f-5766125ba2f3",
+      "title": "Comparing Rust and JavaScript Ergonomics with a Simple Linked List",
+      "content_text": "My day-to-day work involves writing a fair bit of JavaScript but, lately, I've gotten really interested in Rust. The other day, I decided to take a slightly different approach: I decided to take a simple linked list program—the type can and do ask my students to implement in JavaScript in ~20 minutes—and re-implement it in Rust. Specifically, I decided to build a queue implemented with a singly linked list.",
+      "url": "https://www.codesections.com/blog/javascript-vs-rust-linked-list/",
+      "date_published": "2019-01-06T00:00:00+00:00",
+      "author": {
+        "name": "Daniel Long Sockwell",
+        "url": "https://www.codesections.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ec95e248-cef0-42ed-8a49-8e03d8c7e30b",
+      "title": "thank u, next",
+      "content_text": "I started working at 15, when I took a job as a pizza cook. Over the next seven years, I moved up the ranks, to a driver, shift manager, and then as part of the “new store opening team.” The franchise was growing, and we needed to help new franchisees open their new stores. I’d travel to where the new store was a week before they would open, help train the new staff, and then work their opening weekend. It was really fulfilling work; if pizza paid as well as tech, I’d seriously consider doing it forever.",
+      "url": "https://words.steveklabnik.com/thank-u-next",
+      "date_published": "2019-01-08T01:10:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "069e9371-d000-454f-b73d-0b082a92988b",
+      "title": "How I learned to love Rust",
+      "content_text": "A journey from hating Rust to loving it more than any other language.",
+      "url": "https://medium.com/@geis/how-i-learned-to-love-rust-abfac6c1f6d1",
+      "date_published": "2019-01-07T21:07:51.883+00:00",
+      "author": {
+        "name": "Grégoire Geis",
+        "url": "https://medium.com/@geis"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "626da706-6d3e-4986-a6dd-b8002ee01290",
+      "title": "Rust in 2019: Focus on sustainability",
+      "content_text": "To me, 2018 felt like a big turning point for Rust, and it wasn’t just the edition. Suddenly, it has become “normal” for me to meet people using Rust at their jobs. Rust conferences are growing and starting to have large number of sponsors. Heck, I even met some professional Rust developers amongst the parents at a kid’s birthday party recently. Something has shifted, and I like it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/07/rust-in-2019-focus-on-sustainability/",
+      "date_published": "2019-01-07T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "234e0c08-173d-431d-861b-3f4bbb214a6b",
+      "title": "Using TLS with Rust: Part I",
+      "content_text": "The next interesting step in my Rust network protocol exercise is to implement TLS. I haven’t looked at that yet, so it is going to be interesting.",
+      "url": "https://ayende.com/blog/185698-A/using-tls-with-rust-part-i",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "470de398-add8-4fdd-9b38-c79c781c58fa",
       "title": "Deriving Traits in Rust with Procedural Macros",
       "content_text": "Procedural macros in Rust are a really compelling feature that I didn’t understand until recently. There are a few gotchas, but they make it super easy to implement custom #[derive()] expansions for implementing traits with a single line of code. Let’s dive in.",

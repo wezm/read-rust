@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1dd7a631-a2a9-42e8-ba0c-87b56bc6af38",
+      "title": "generic-array Design and Usage Notes",
+      "content_text": "generic-array is a method of achieving fixed-length fixed-size stack-allocated generic arrays without needing const generics in stable Rust.",
+      "url": "https://github.com/fizyk20/generic-array/blob/master/DESIGN.md",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Trent",
+        "url": "https://github.com/novacrazy"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "7828aada-388f-4b7b-bac1-24de2e65cf6a",
       "title": "Thessaloniki GNOME+Rust Hackfest 2018",
       "content_text": "A couple of weeks ago we had the fourth GNOME+Rust hackfest, this time in Thessaloniki, Greece.  We held the hackfest at the CoHo coworking space, a small, cozy office between the University and the sea. Every such hackfest I am overwhelmed by the kind hackers who work on [gnome-class], the code generator for GObject implementations in Rust.",

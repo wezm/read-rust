@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "069e9371-d000-454f-b73d-0b082a92988b",
+      "title": "How I learned to love Rust",
+      "content_text": "A journey from hating Rust to loving it more than any other language.",
+      "url": "https://medium.com/@geis/how-i-learned-to-love-rust-abfac6c1f6d1",
+      "date_published": "2019-01-07T21:07:51.883+00:00",
+      "author": {
+        "name": "Grégoire Geis",
+        "url": "https://medium.com/@geis"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "525bee43-14cb-422e-8b91-58322a8d2c63",
       "title": "Rust for algorithms",
       "content_text": "How I decided to challenge myself and solve coding tasks using Rust",

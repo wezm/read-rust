@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "234e0c08-173d-431d-861b-3f4bbb214a6b",
+      "title": "Using TLS with Rust: Part I",
+      "content_text": "The next interesting step in my Rust network protocol exercise is to implement TLS. I haven’t looked at that yet, so it is going to be interesting.",
+      "url": "https://ayende.com/blog/185698-A/using-tls-with-rust-part-i",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "aa59c999-cba6-4f20-80cc-888e8e257a73",
       "title": "gbl: A typestate-powered zero-copy crate for GBL firmware update files",
       "content_text": "After a few weeks of reverse-engineering, internal dogfooding, and API design discussion, we're finally publishing our gbl crate for good.\n\nThe library implements a parser and writer for GBL firmware update containers, which are used to perform secure OTA updates for certain microcontrollers.",

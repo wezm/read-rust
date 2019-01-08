@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a46b1128-605b-4cab-b36f-5766125ba2f3",
+      "title": "Comparing Rust and JavaScript Ergonomics with a Simple Linked List",
+      "content_text": "My day-to-day work involves writing a fair bit of JavaScript but, lately, I've gotten really interested in Rust. The other day, I decided to take a slightly different approach: I decided to take a simple linked list program—the type can and do ask my students to implement in JavaScript in ~20 minutes—and re-implement it in Rust. Specifically, I decided to build a queue implemented with a singly linked list.",
+      "url": "https://www.codesections.com/blog/javascript-vs-rust-linked-list/",
+      "date_published": "2019-01-06T00:00:00+00:00",
+      "author": {
+        "name": "Daniel Long Sockwell",
+        "url": "https://www.codesections.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "470de398-add8-4fdd-9b38-c79c781c58fa",
       "title": "Deriving Traits in Rust with Procedural Macros",
       "content_text": "Procedural macros in Rust are a really compelling feature that I didn’t understand until recently. There are a few gotchas, but they make it super easy to implement custom #[derive()] expansions for implementing traits with a single line of code. Let’s dive in.",

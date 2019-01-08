@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "94e44d97-0440-4673-9727-734c2be63a7d",
+      "title": "The Last Thing Rust Needs",
+      "content_text": "In 2014, world-renowned C++ expert Scott Meyers was invited to DConf, Facebook's conference on the D programming language. D is a modern, multi-paradigm systems language with a good amount of inspiration from C++, so the choice was only fitting.",
+      "url": "https://h2co3.github.io/rust2019/",
+      "date_published": "2019-01-05T00:00:00+00:00",
+      "author": {
+        "name": "Árpád Goretity",
+        "url": "https://h2co3.github.io/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "626da706-6d3e-4986-a6dd-b8002ee01290",
+      "title": "Rust in 2019: Focus on sustainability",
+      "content_text": "To me, 2018 felt like a big turning point for Rust, and it wasn’t just the edition. Suddenly, it has become “normal” for me to meet people using Rust at their jobs. Rust conferences are growing and starting to have large number of sponsors. Heck, I even met some professional Rust developers amongst the parents at a kid’s birthday party recently. Something has shifted, and I like it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/07/rust-in-2019-focus-on-sustainability/",
+      "date_published": "2019-01-07T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "5b89867c-1a66-4b88-ab28-5b04e6cda3f5",
       "title": "Rust 2019: Towards Richer Language Extensions",
       "content_text": "As of Rust 1.30, the Rust language now has support for a very expressive feature called procedural macros 3. Procedural macros are great because they enable Rust to do more, without baking a lot of potentially domain-specific information into the language. For example, automatic serialization of data types 5 and expressive, type-safe abstractions for web servers 6 can both be implemented using procedural macros.\n\nHowever, while expressive, procedural macros can’t do everything.",

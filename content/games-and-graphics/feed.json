@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4fda94a2-d93a-4d1d-8ffe-e171600b13ce",
+      "title": "Using Rust for Gamedev",
+      "content_text": "I’ve recently created a new website and finished an online game named Adventures of Pascal Penguin. One of the most unique things about this game is that it was written in Rust and runs in web browsers thanks to WebAssembly. WebAssembly has only been mainstream for about a year or so, so not many games have been created like this. I want to share a little about my journey with Rust: how I started with it and how I got to this point.",
+      "url": "https://medium.com/@michelotti.matthew/using-rust-for-gamedev-2f60b0e4cc5c",
+      "date_published": "2019-01-04T06:15:37.008+00:00",
+      "author": {
+        "name": "Matthew Michelotti",
+        "url": "https://medium.com/@michelotti.matthew"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "9cccb5d4-edfb-483f-ab75-0b099242fd69",
       "title": "Followups",
       "content_text": "Here are some followups on previous blog postings. Including, Arclength, and 2D graphics.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ec95e248-cef0-42ed-8a49-8e03d8c7e30b",
+      "title": "thank u, next",
+      "content_text": "I started working at 15, when I took a job as a pizza cook. Over the next seven years, I moved up the ranks, to a driver, shift manager, and then as part of the “new store opening team.” The franchise was growing, and we needed to help new franchisees open their new stores. I’d travel to where the new store was a week before they would open, help train the new staff, and then work their opening weekend. It was really fulfilling work; if pizza paid as well as tech, I’d seriously consider doing it forever.",
+      "url": "https://words.steveklabnik.com/thank-u-next",
+      "date_published": "2019-01-08T01:10:00+00:00",
+      "author": {
+        "name": "Steve Klabnik",
+        "url": "https://words.steveklabnik.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "7828aada-388f-4b7b-bac1-24de2e65cf6a",
       "title": "Thessaloniki GNOME+Rust Hackfest 2018",
       "content_text": "A couple of weeks ago we had the fourth GNOME+Rust hackfest, this time in Thessaloniki, Greece.  We held the hackfest at the CoHo coworking space, a small, cozy office between the University and the sea. Every such hackfest I am overwhelmed by the kind hackers who work on [gnome-class], the code generator for GObject implementations in Rust.",
