@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f941f6bf-eaf1-428a-a5d0-f8e35d504a3a",
+      "title": "Supernova: rustfmt",
+      "content_text": "I previously wrote about Supernova, and my experience contributing to a project in a language I had never used before. Although my PR is still WIP status (I need to find time to get a solid grasp on Date/Time stuff in Rust, specifically using the chrono crate), I picked up some smaller issues in the interim to stay involved.\n\nMy most recent PR’s involved working off of a previous PR which introduced code linting with clippy, and taking it one step further by introducing rustfmt to help ensure consistent coding style in our CI pipeline.",
+      "url": "https://medium.com/@chayadanz/supernova-rustfmt-5c3d0c56831c",
+      "date_published": "2019-01-10T04:22:26.772+00:00",
+      "author": {
+        "name": "Chaya Danzinger",
+        "url": "https://medium.com/@chayadanz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "069e9371-d000-454f-b73d-0b082a92988b",
       "title": "How I learned to love Rust",
       "content_text": "A journey from hating Rust to loving it more than any other language.",

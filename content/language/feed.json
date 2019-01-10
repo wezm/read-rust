@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "fa5229de-d279-44c7-9d62-0163e7dc1771",
+      "title": "Rust Community Norms for Unsafe Code",
+      "content_text": "I recently released Ropey 1.0, a text rope library for Rust. Ropey uses unsafe code internally, and its use of unsafe unsurprisingly came up in the 1.0 release thread on Reddit.\n\nThe ensuing discussion (especially thanks to Shnatsel) helped me significantly reduce the amount of unsafe code in Ropey with minimal (though not non-existent) performance degradation. But the whole thing nevertheless got me thinking about unsafe code and community norms around it, and I figured writing some of those thoughts down might be useful.",
+      "url": "https://blog.cessen.com/post/2019_01_09_rust_community_norms_for_unsafe_code",
+      "date_published": "2019-01-09T00:00:00+00:00",
+      "author": {
+        "name": "Nathan Vegdahl",
+        "url": "https://blog.cessen.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "916f96ed-c1cc-4955-ade6-626b3ebf08bd",
+      "title": "Building a JS Interpreter in Rust – Part 2",
+      "content_text": "When writing an interpreter or a compiler for any language, you usually need to start with a lexer and a parser. Boa here is no different, our first task will be to do the same but what do these do?",
+      "url": "https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2/",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Jason Williams",
+        "url": "https://jason-williams.co.uk/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a46b1128-605b-4cab-b36f-5766125ba2f3",
       "title": "Comparing Rust and JavaScript Ergonomics with a Simple Linked List",
       "content_text": "My day-to-day work involves writing a fair bit of JavaScript but, lately, I've gotten really interested in Rust. The other day, I decided to take a slightly different approach: I decided to take a simple linked list program—the type can and do ask my students to implement in JavaScript in ~20 minutes—and re-implement it in Rust. Specifically, I decided to build a queue implemented with a singly linked list.",

@@ -10,6 +10,136 @@
   },
   "items": [
     {
+      "id": "fa5229de-d279-44c7-9d62-0163e7dc1771",
+      "title": "Rust Community Norms for Unsafe Code",
+      "content_text": "I recently released Ropey 1.0, a text rope library for Rust. Ropey uses unsafe code internally, and its use of unsafe unsurprisingly came up in the 1.0 release thread on Reddit.\n\nThe ensuing discussion (especially thanks to Shnatsel) helped me significantly reduce the amount of unsafe code in Ropey with minimal (though not non-existent) performance degradation. But the whole thing nevertheless got me thinking about unsafe code and community norms around it, and I figured writing some of those thoughts down might be useful.",
+      "url": "https://blog.cessen.com/post/2019_01_09_rust_community_norms_for_unsafe_code",
+      "date_published": "2019-01-09T00:00:00+00:00",
+      "author": {
+        "name": "Nathan Vegdahl",
+        "url": "https://blog.cessen.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "01a84c85-f79f-42fa-9632-e3ee5f0f5b6e",
+      "title": "Using TLS with Rust: Part II - Client authentication",
+      "content_text": "The task that I have for now is to add client authentication via X509 client certificate. That is both obvious and non obvious, unfortunately. I’ll admit that I’m enjoying exploring Rust features, so I don’t know how idiomatic this code is, but it is certainly dense.",
+      "url": "https://ayende.com/blog/185730-A/using-tls-with-rust-part-ii-client-authentication",
+      "date_published": "2019-01-07T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "916f96ed-c1cc-4955-ade6-626b3ebf08bd",
+      "title": "Building a JS Interpreter in Rust – Part 2",
+      "content_text": "When writing an interpreter or a compiler for any language, you usually need to start with a lexer and a parser. Boa here is no different, our first task will be to do the same but what do these do?",
+      "url": "https://jason-williams.co.uk/building-a-js-interpreter-in-rust-part-2/",
+      "tweet_url": "https://twitter.com/Jason_williams/status/1080406568296951808",
+      "date_published": "2019-01-02T00:00:00+00:00",
+      "author": {
+        "name": "Jason Williams",
+        "url": "https://jason-williams.co.uk/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "36f876cd-8e90-4399-bec5-1e7b4883b95b",
+      "title": "Rust in 2019 and beyond",
+      "content_text": "During the RustFest 2018 in Rome, Aaron Turon said something that stuck with me, which was that Rust is actually about empowering developers. Personally I think this is a very profound thought, that the goal of a programming language is to help others to do and achieve things they never thought possible.\n\nJavaScript empowers developers by being accessible - everyone can start and succeed quickly. It’s great. Rust on the other hand empowers developers by giving them the tools to go deep.\n\nLet’s unpack that.",
+      "url": "https://blog.x5ff.xyz/blog/what-makes-rust-awesome-2019/",
+      "tweet_url": "https://twitter.com/0x5ff/status/1082959841277198336",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5f1f5616-399f-4b02-9a8b-cfc34fa4f44c",
+      "title": "Rust 2019 wish list",
+      "content_text": "As with any wish list, it started short and then grew a bit. There are three sections Community, Technical and Ethics and I hope it is not too lengthy.",
+      "url": "https://estada.ch/2019/1/9/rust-2019-wish-list/",
+      "tweet_url": "https://twitter.com/dns2utf8/status/1082975063824130048",
+      "date_published": "2019-01-09T00:00:00+01:00",
+      "author": {
+        "name": "Stefan Schindler",
+        "url": "https://estada.ch/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "2a37239a-12d8-4647-bef0-90312992b2b7",
+      "title": "Parsing, Validating, and Assembling URLs in Rust",
+      "content_text": "These days, we hardly think about URLs. Popular content management tools default to so-called “pretty” slugs, and even here, on secretfader.com, I remove stop-words to ensure the tidiest, most SEO-friendly URLs possible.\nIt would be easy to forget the struggles that led to best practices of today’s web. However, to my generation of internet hackers, URLs riddled with ampersands and question marks were entirely normal. In those days, assuming URLs would be comprised of hyphenated alphanumeric characters was obviously unsafe; instead, we learned the official standard for parsing and constructing URLs.",
+      "url": "https://www.secretfader.com/blog/2019/01/parsing-validating-assembling-urls-rust/",
+      "tweet_url": "https://twitter.com/secretfader/status/1082742026125230080",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Nicholas (Fader) Young",
+        "url": "https://secretfader.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "4afbd4d0-42ae-460f-8805-22e094fb394b",
+      "title": "sharkdp/hexyl: A command-line hex viewer",
+      "content_text": "hexyl is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII).",
+      "url": "https://github.com/sharkdp/hexyl",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://dev.to/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ca3c5e56-62c9-4f06-a652-9dd666e7c61e",
+      "title": "Stability → Productivity → Maintainability",
+      "content_text": "Rust in 2019 and beyond: In response to the call for blog posts on the direction Rust should take in 2019 and beyond I’ve come up with a few ideas.",
+      "url": "https://medium.com/@tom.kaitchuck/stability-productivity-maintainability-9179f4b3e23f",
+      "date_published": "2019-01-10T01:27:31.575+00:00",
+      "author": {
+        "name": "Tom Kaitchuck",
+        "url": "https://medium.com/@tom.kaitchuck"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f941f6bf-eaf1-428a-a5d0-f8e35d504a3a",
+      "title": "Supernova: rustfmt",
+      "content_text": "I previously wrote about Supernova, and my experience contributing to a project in a language I had never used before. Although my PR is still WIP status (I need to find time to get a solid grasp on Date/Time stuff in Rust, specifically using the chrono crate), I picked up some smaller issues in the interim to stay involved.\n\nMy most recent PR’s involved working off of a previous PR which introduced code linting with clippy, and taking it one step further by introducing rustfmt to help ensure consistent coding style in our CI pipeline.",
+      "url": "https://medium.com/@chayadanz/supernova-rustfmt-5c3d0c56831c",
+      "date_published": "2019-01-10T04:22:26.772+00:00",
+      "author": {
+        "name": "Chaya Danzinger",
+        "url": "https://medium.com/@chayadanz"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "4fda94a2-d93a-4d1d-8ffe-e171600b13ce",
       "title": "Using Rust for Gamedev",
       "content_text": "I’ve recently created a new website and finished an online game named Adventures of Pascal Penguin. One of the most unique things about this game is that it was written in Rust and runs in web browsers thanks to WebAssembly. WebAssembly has only been mainstream for about a year or so, so not many games have been created like this. I want to share a little about my journey with Rust: how I started with it and how I got to this point.",

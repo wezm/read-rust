@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "01a84c85-f79f-42fa-9632-e3ee5f0f5b6e",
+      "title": "Using TLS with Rust: Part II - Client authentication",
+      "content_text": "The task that I have for now is to add client authentication via X509 client certificate. That is both obvious and non obvious, unfortunately. I’ll admit that I’m enjoying exploring Rust features, so I don’t know how idiomatic this code is, but it is certainly dense.",
+      "url": "https://ayende.com/blog/185730-A/using-tls-with-rust-part-ii-client-authentication",
+      "date_published": "2019-01-07T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "234e0c08-173d-431d-861b-3f4bbb214a6b",
       "title": "Using TLS with Rust: Part I",
       "content_text": "The next interesting step in my Rust network protocol exercise is to implement TLS. I haven’t looked at that yet, so it is going to be interesting.",

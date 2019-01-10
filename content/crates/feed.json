@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2a37239a-12d8-4647-bef0-90312992b2b7",
+      "title": "Parsing, Validating, and Assembling URLs in Rust",
+      "content_text": "These days, we hardly think about URLs. Popular content management tools default to so-called “pretty” slugs, and even here, on secretfader.com, I remove stop-words to ensure the tidiest, most SEO-friendly URLs possible.\nIt would be easy to forget the struggles that led to best practices of today’s web. However, to my generation of internet hackers, URLs riddled with ampersands and question marks were entirely normal. In those days, assuming URLs would be comprised of hyphenated alphanumeric characters was obviously unsafe; instead, we learned the official standard for parsing and constructing URLs.",
+      "url": "https://www.secretfader.com/blog/2019/01/parsing-validating-assembling-urls-rust/",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Nicholas (Fader) Young",
+        "url": "https://secretfader.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "1dd7a631-a2a9-42e8-ba0c-87b56bc6af38",
       "title": "generic-array Design and Usage Notes",
       "content_text": "generic-array is a method of achieving fixed-length fixed-size stack-allocated generic arrays without needing const generics in stable Rust.",

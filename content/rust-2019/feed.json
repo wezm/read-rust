@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "36f876cd-8e90-4399-bec5-1e7b4883b95b",
+      "title": "Rust in 2019 and beyond",
+      "content_text": "During the RustFest 2018 in Rome, Aaron Turon said something that stuck with me, which was that Rust is actually about empowering developers. Personally I think this is a very profound thought, that the goal of a programming language is to help others to do and achieve things they never thought possible.\n\nJavaScript empowers developers by being accessible - everyone can start and succeed quickly. It’s great. Rust on the other hand empowers developers by giving them the tools to go deep.\n\nLet’s unpack that.",
+      "url": "https://blog.x5ff.xyz/blog/what-makes-rust-awesome-2019/",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5f1f5616-399f-4b02-9a8b-cfc34fa4f44c",
+      "title": "Rust 2019 wish list",
+      "content_text": "As with any wish list, it started short and then grew a bit. There are three sections Community, Technical and Ethics and I hope it is not too lengthy.",
+      "url": "https://estada.ch/2019/1/9/rust-2019-wish-list/",
+      "date_published": "2019-01-09T00:00:00+01:00",
+      "author": {
+        "name": "Stefan Schindler",
+        "url": "https://estada.ch/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "ca3c5e56-62c9-4f06-a652-9dd666e7c61e",
+      "title": "Stability → Productivity → Maintainability",
+      "content_text": "Rust in 2019 and beyond: In response to the call for blog posts on the direction Rust should take in 2019 and beyond I’ve come up with a few ideas.",
+      "url": "https://medium.com/@tom.kaitchuck/stability-productivity-maintainability-9179f4b3e23f",
+      "date_published": "2019-01-10T01:27:31.575+00:00",
+      "author": {
+        "name": "Tom Kaitchuck",
+        "url": "https://medium.com/@tom.kaitchuck"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "94e44d97-0440-4673-9727-734c2be63a7d",
       "title": "The Last Thing Rust Needs",
       "content_text": "In 2014, world-renowned C++ expert Scott Meyers was invited to DConf, Facebook's conference on the D programming language. D is a modern, multi-paradigm systems language with a good amount of inspiration from C++, so the choice was only fitting.",

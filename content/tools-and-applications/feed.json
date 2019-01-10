@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4afbd4d0-42ae-460f-8805-22e094fb394b",
+      "title": "sharkdp/hexyl: A command-line hex viewer",
+      "content_text": "hexyl is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII).",
+      "url": "https://github.com/sharkdp/hexyl",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://dev.to/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4a2d72d8-3aa4-4c82-a95f-847f3e0c650d",
       "title": "I made MPD index SoundCloud, here's how I did it",
       "content_text": "The usual process of playing something on our music server is a bit cumbersome: I have to browse SoundCloud, download a track that seems interesting, upload it to the music server, let MPD index it, and then play it.\n\nTo make my life easier, I wanted to leverage Linux’s FUSE interface to expose the audio on SoundCloud as a bunch of files in a folder which MPD could then index and play from. I could have taken a couple of other approaches such as swapping MPD with Mopidy, an MPD-compatible music player with SoundCloud support, or a scraper that periodically downloads the latest audio from my feed. And while these alternatives were probably easier to implement, I went for the FUSE driver because I thought it was cool.",
