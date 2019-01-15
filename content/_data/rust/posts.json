@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "814184fc-04bb-468b-8fa4-19a1027bf4d2",
+      "title": "Goals and Directions for Rust in 2019",
+      "content_text": "2018 was a very busy year for the Rust project. A new edition was released, progress on stabilising Rust’s asynchronous I/O story was made, a new website was launched, and so much more! In 2019 I’d like to see the language and wider crates community become more sustainable, address some common gothca’s that newcomers experience, and promote more platforms/architectures to tier 1 status.",
+      "url": "http://www.wezm.net/technical/2019/01/goals-directions-rust-2019/",
+      "tweet_url": "https://twitter.com/wezm/status/1084560471565361152",
+      "date_published": "2019-01-13T21:00:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "761f2490-5d60-424a-868c-84efd9b171c8",
       "title": "Technolution Rust 2019 Roadmap",
       "content_text": "We rely on Rust. So do our customers, sometimes without even knowing it. We build software that is installed on devices that go out into the world, sometimes never to be seen again in years or even decades. But 15 years from now, we may get a request to make a change to that software.\n\nHistorically we have been very successful doing just that, first in C and later in Java. Slowly but steadily, we are coming to rely on Rust to be able to create maintainable mission-critical software for our customers.\n\nTherefore our proposal for the 2021 roadmap: Reliability.\n\nThis blog post reflects on our journey up to the 2018 edition and outlines our view on Rust's progression in the coming years.",
