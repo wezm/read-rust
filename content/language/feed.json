@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "b4d25622-7886-48c7-901c-e382c05122cb",
+      "title": "Exploring Column-Oriented Data in Rust with frunk HLists",
+      "content_text": "Row-oriented storage and column-oriented storage are two major ways of laying out data in memory. In Rust, there is a simple way to think of this: row-oriented storage is like an array of structs, whereas column-oriented storage is like a struct of arrays. It’s easy to use row-oriented storage in Rust, so this post is going to explore column-oriented storage.",
+      "url": "https://paulkernfeld.com/2019/01/13/frunk-column.html",
+      "date_published": "2019-01-13T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "60e20969-d592-4d79-91e8-633409505b03",
+      "title": "Proposed Rust community norm for unsafe code",
+      "content_text": "Recently cessen asked  people to write their thoughts on Rust community norm for unsafe code. So here it is.",
+      "url": "http://sanxiyn.blogspot.com/2019/01/proposed-rust-community-norm-for-unsafe.html",
+      "date_published": "2019-01-10T19:03:00.002+09:00",
+      "author": {
+        "name": "Seo Sanghyeon",
+        "url": "http://sanxiyn.blogspot.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2eb4baa4-aac1-4bc2-8162-d2eb290a1ac9",
+      "title": "Generate Rust tests from data files",
+      "content_text": "Sometimes you just have a bunch of example data laying around and you want to make sure your code works with all of them. Some of them are probably short and sweet and could live happily as doctests, which are amazing btw. But some of them are more awkward to present in such form, because, for example, of their size or number. Typically when you have an example of how the program should behave you write an example-based unit test. Ideally, each of them would represent an isolated example and they should fail independently. But, converting your source data files into a unit test one by one, manually, can be a bit tedious. Rust build scripts to the rescue !",
+      "url": "https://blog.cyplo.net/posts/2018/12/generate-rust-tests-from-data.html",
+      "date_published": "2018-12-25T00:00:00+00:00",
+      "author": {
+        "name": "Cyryl Płotnicki",
+        "url": "https://blog.cyplo.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0b01d8d7-aa94-4382-8fbf-c2979f7018ad",
+      "title": "Scala Developer Journey into Rust - Part 2 : Type Inference",
+      "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala.This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences.",
+      "url": "http://blog.madhukaraphatak.com/rust-scala-part-2/",
+      "date_published": "2019-01-14T00:00:00+00:00",
+      "author": {
+        "name": "Madhukara Phatak",
+        "url": "http://madhukaraphatak.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "dfbac96b-1ab3-48a8-9c50-917188335ddd",
       "title": "const types, traits and implementations in Rust",
       "content_text": "Rust permits a limited form of compile-time function execution in the form of const and const fn. While, initially, const may seem like a reasonaby straightforward feature, it turns out to raise a wealth of interesting and complex design questions. In this post, we’re going to look at a particular design question that has been under discussion for some time and propose a design that is natural and expressive. This is motivated both from a syntactic perspective and a theoretic perspective.",

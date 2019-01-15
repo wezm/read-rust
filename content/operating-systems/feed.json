@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b88f26ba-23c6-4d9b-9559-7ccc6477c7af",
+      "title": "Writing an OS in Rust - Introduction to Paging",
+      "content_text": "This post introduces paging, a very common memory management scheme that we will also use for our operating system. It explains why memory isolation is needed, how segmentation works, what virtual memory is, and how paging solves memory fragmentation issues. It also explores the layout of multilevel page tables on the x86_64 architecture.",
+      "url": "https://os.phil-opp.com/paging-introduction/",
+      "date_published": "2019-01-14T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "6bf8dccd-51b6-4dcb-a9eb-e38923d28a2c",
       "title": "Bootstrapping Rust",
       "content_text": "It has been a long-standing tradition to develop a language far enough to be able to write the language's compiler in the same language, and Rust does the same. Rust is nowadays written in Rust. We've tracked down the earlier Rust versions, which were written in OCaml, and were planning to use these to bootstrap Rust. But in parallel, John Hudge (Mutabah) developed a Rust compiler, called \"mrustc\", written in C++. mrustc is now good enough to compile Rust 1.19.0. Using mrustc, we were able to build Rust entirely from source with a bootstrap chain",

@@ -10,6 +10,136 @@
   },
   "items": [
     {
+      "id": "b4d25622-7886-48c7-901c-e382c05122cb",
+      "title": "Exploring Column-Oriented Data in Rust with frunk HLists",
+      "content_text": "Row-oriented storage and column-oriented storage are two major ways of laying out data in memory. In Rust, there is a simple way to think of this: row-oriented storage is like an array of structs, whereas column-oriented storage is like a struct of arrays. It’s easy to use row-oriented storage in Rust, so this post is going to explore column-oriented storage.",
+      "url": "https://paulkernfeld.com/2019/01/13/frunk-column.html",
+      "tweet_url": "https://twitter.com/occupy_paul_st/status/1084564680994099201",
+      "date_published": "2019-01-13T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "60e20969-d592-4d79-91e8-633409505b03",
+      "title": "Proposed Rust community norm for unsafe code",
+      "content_text": "Recently cessen asked  people to write their thoughts on Rust community norm for unsafe code. So here it is.",
+      "url": "http://sanxiyn.blogspot.com/2019/01/proposed-rust-community-norm-for-unsafe.html",
+      "date_published": "2019-01-10T19:03:00.002+09:00",
+      "author": {
+        "name": "Seo Sanghyeon",
+        "url": "http://sanxiyn.blogspot.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2eb4baa4-aac1-4bc2-8162-d2eb290a1ac9",
+      "title": "Generate Rust tests from data files",
+      "content_text": "Sometimes you just have a bunch of example data laying around and you want to make sure your code works with all of them. Some of them are probably short and sweet and could live happily as doctests, which are amazing btw. But some of them are more awkward to present in such form, because, for example, of their size or number. Typically when you have an example of how the program should behave you write an example-based unit test. Ideally, each of them would represent an isolated example and they should fail independently. But, converting your source data files into a unit test one by one, manually, can be a bit tedious. Rust build scripts to the rescue !",
+      "url": "https://blog.cyplo.net/posts/2018/12/generate-rust-tests-from-data.html",
+      "tweet_url": "https://twitter.com/cyplo/status/1084409768582758400",
+      "date_published": "2018-12-25T00:00:00+00:00",
+      "author": {
+        "name": "Cyryl Płotnicki",
+        "url": "https://blog.cyplo.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b88f26ba-23c6-4d9b-9559-7ccc6477c7af",
+      "title": "Writing an OS in Rust - Introduction to Paging",
+      "content_text": "This post introduces paging, a very common memory management scheme that we will also use for our operating system. It explains why memory isolation is needed, how segmentation works, what virtual memory is, and how paging solves memory fragmentation issues. It also explores the layout of multilevel page tables on the x86_64 architecture.",
+      "url": "https://os.phil-opp.com/paging-introduction/",
+      "tweet_url": "https://twitter.com/phil_opp/status/1084821814537318400",
+      "date_published": "2019-01-14T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "0b01d8d7-aa94-4382-8fbf-c2979f7018ad",
+      "title": "Scala Developer Journey into Rust - Part 2 : Type Inference",
+      "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala.This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences.",
+      "url": "http://blog.madhukaraphatak.com/rust-scala-part-2/",
+      "tweet_url": "https://twitter.com/madhukaraphatak/status/1084814593434673153",
+      "date_published": "2019-01-14T00:00:00+00:00",
+      "author": {
+        "name": "Madhukara Phatak",
+        "url": "http://madhukaraphatak.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1d74a896-3c60-4a3b-a94d-29881d3c602b",
+      "title": "What I would like to see in Rust in 2019",
+      "content_text": "The Rust maintainers recently asked the community what they would like to see happening in Rust, in 2019. Many people have stated that Rust could use a fallow year. I generally agree, but there are a few changes to the language I consider important/useful enough to implement despite the proposed moratorium on features.",
+      "url": "http://salt-documentary.blog/rust-2019/",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Alex (leitimmel)",
+        "url": "http://salt-documentary.blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "31f71876-3c22-47bf-bea9-4eaf184d6913",
+      "title": "WASM 2019",
+      "content_text": "Two days ago I wrote about what I plan to work on this year. This is my post about what I'd like to see happen with WebAssembly and Rust in 2019.",
+      "url": "https://blog.yoshuawuyts.com/wasm-2019/",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "8b0fd582-3249-46f1-80a9-81e2ac18f0d1",
+      "title": "Rust 2019: Laying the groundwork for an amazing future",
+      "content_text": "This year another call for community blog posts on the future directions for Rust is up. This post re-iterates some of the points I mentioned last year (including simply copying some parts of the text), while re-stating the issues in the context of Rust 2019. A summary is that I think that the two most important themes is community management and support for awesome libraries. The why, how, and what is discussed below.",
+      "url": "https://zayenz.se/blog/post/rust-2019/",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Mikael Zayenz Lagerkvist",
+        "url": "https://zayenz.se/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5dbd8253-66c0-4061-8bc7-fd741a1fedbc",
+      "title": "#Rust2019 Are We GUI Yet?",
+      "content_text": "I want to tackle one specific topic in contrast to other posts that are mostly from a different perspective, and I want to paint the \"Big Picture\" and overall direction. This post is about the narrow topic of GUI and I want to make a case to convince, at least a fraction of the community that is interested in this field, that it might be a good idea to invest in this direction.",
+      "url": "http://areweguiyet.com/newsfeed/2019-01-13_rust2019.html",
+      "date_published": "2019-01-13T00:00:00+00:00",
+      "author": {
+        "name": "Dustin Bensing",
+        "url": "http://areweguiyet.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "814184fc-04bb-468b-8fa4-19a1027bf4d2",
       "title": "Goals and Directions for Rust in 2019",
       "content_text": "2018 was a very busy year for the Rust project. A new edition was released, progress on stabilising Rust’s asynchronous I/O story was made, a new website was launched, and so much more! In 2019 I’d like to see the language and wider crates community become more sustainable, address some common gothca’s that newcomers experience, and promote more platforms/architectures to tier 1 status.",

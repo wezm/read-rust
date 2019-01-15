@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "1d74a896-3c60-4a3b-a94d-29881d3c602b",
+      "title": "What I would like to see in Rust in 2019",
+      "content_text": "The Rust maintainers recently asked the community what they would like to see happening in Rust, in 2019. Many people have stated that Rust could use a fallow year. I generally agree, but there are a few changes to the language I consider important/useful enough to implement despite the proposed moratorium on features.",
+      "url": "http://salt-documentary.blog/rust-2019/",
+      "date_published": "2019-01-08T00:00:00+00:00",
+      "author": {
+        "name": "Alex (leitimmel)",
+        "url": "http://salt-documentary.blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "31f71876-3c22-47bf-bea9-4eaf184d6913",
+      "title": "WASM 2019",
+      "content_text": "Two days ago I wrote about what I plan to work on this year. This is my post about what I'd like to see happen with WebAssembly and Rust in 2019.",
+      "url": "https://blog.yoshuawuyts.com/wasm-2019/",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "8b0fd582-3249-46f1-80a9-81e2ac18f0d1",
+      "title": "Rust 2019: Laying the groundwork for an amazing future",
+      "content_text": "This year another call for community blog posts on the future directions for Rust is up. This post re-iterates some of the points I mentioned last year (including simply copying some parts of the text), while re-stating the issues in the context of Rust 2019. A summary is that I think that the two most important themes is community management and support for awesome libraries. The why, how, and what is discussed below.",
+      "url": "https://zayenz.se/blog/post/rust-2019/",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Mikael Zayenz Lagerkvist",
+        "url": "https://zayenz.se/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5dbd8253-66c0-4061-8bc7-fd741a1fedbc",
+      "title": "#Rust2019 Are We GUI Yet?",
+      "content_text": "I want to tackle one specific topic in contrast to other posts that are mostly from a different perspective, and I want to paint the \"Big Picture\" and overall direction. This post is about the narrow topic of GUI and I want to make a case to convince, at least a fraction of the community that is interested in this field, that it might be a good idea to invest in this direction.",
+      "url": "http://areweguiyet.com/newsfeed/2019-01-13_rust2019.html",
+      "date_published": "2019-01-13T00:00:00+00:00",
+      "author": {
+        "name": "Dustin Bensing",
+        "url": "http://areweguiyet.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "814184fc-04bb-468b-8fa4-19a1027bf4d2",
       "title": "Goals and Directions for Rust in 2019",
       "content_text": "2018 was a very busy year for the Rust project. A new edition was released, progress on stabilising Rust’s asynchronous I/O story was made, a new website was launched, and so much more! In 2019 I’d like to see the language and wider crates community become more sustainable, address some common gothca’s that newcomers experience, and promote more platforms/architectures to tier 1 status.",
