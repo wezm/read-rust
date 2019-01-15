@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "761f2490-5d60-424a-868c-84efd9b171c8",
+      "title": "Technolution Rust 2019 Roadmap",
+      "content_text": "We rely on Rust. So do our customers, sometimes without even knowing it. We build software that is installed on devices that go out into the world, sometimes never to be seen again in years or even decades. But 15 years from now, we may get a request to make a change to that software.\n\nHistorically we have been very successful doing just that, first in C and later in Java. Slowly but steadily, we are coming to rely on Rust to be able to create maintainable mission-critical software for our customers.\n\nTherefore our proposal for the 2021 roadmap: Reliability.\n\nThis blog post reflects on our journey up to the 2018 edition and outlines our view on Rust's progression in the coming years.",
+      "url": "https://www.technolution.eu/en/about-us/news/279-technolution-rust-2019-roadmap.html",
+      "date_published": "2019-01-11T00:00:00+00:00",
+      "author": {
+        "name": "Technolution B.V.",
+        "url": "https://www.technolution.eu/en/about-us/news/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5059354d-87d1-41e8-9f5d-79f6e62cea41",
+      "title": "Rust 2019-2021 -- Math and Simulation",
+      "content_text": "Some of my first real, non-toy projects in Rust, way back in 2015, were numeric. I was taking a graduate-level Reinforcement Learning and MDP class at the time, and shortly after transitioned to using it in my research in AI. Rust has a lot going for it in terms of package management, speed, and typing.\n\nUnfortunately, it falls apart in several fundamental areas when it comes to mathematical and scientific uses. Some of these are ecosystem problems (i.e. the work just isn't there) and some of it are more core problems (e.g. type-level numerics, which will be solved Soon™, hopefully).",
+      "url": "https://gist.github.com/Zaerei/a030377aca10acf21bb0f48860f2f9ac",
+      "date_published": "2019-01-12T03:10:53+00:00",
+      "author": {
+        "name": "Zoe Juozapaitis",
+        "url": "https://github.com/Zaerei"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "03ffa23c-960c-4ca4-9de6-2ab39088fab5",
+      "title": "Rust 2019: Solid Foundations for Unsafe Code",
+      "content_text": "I think in 2019, we should make a coordinated effort to improving the foundations for writing unsafe code. Of course my particular Rust bubble is mostly about unsafe code, as you will know if you have read some of my previous posts – but safety is a core value proposition of Rust, and the entire ecosystem rests on a foundation of crates that make heavy use of unsafe code, so I believe that caring about unsafe code is an important piece to Rust’s overall success.",
+      "url": "https://www.ralfj.de/blog/2019/01/12/rust-2019.html",
+      "date_published": "2019-01-12T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "dfbac96b-1ab3-48a8-9c50-917188335ddd",
+      "title": "const types, traits and implementations in Rust",
+      "content_text": "Rust permits a limited form of compile-time function execution in the form of const and const fn. While, initially, const may seem like a reasonaby straightforward feature, it turns out to raise a wealth of interesting and complex design questions. In this post, we’re going to look at a particular design question that has been under discussion for some time and propose a design that is natural and expressive. This is motivated both from a syntactic perspective and a theoretic perspective.",
+      "url": "https://varkor.github.io/blog/2019/01/11/const-types-traits-and-implementations-in-Rust.html",
+      "date_published": "2019-01-11T19:02:40+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f0ba6ba2-b32e-4d88-a8e4-a1e33f099387",
+      "title": "Introducing Ammolite: A work-in-progress rendering engine with focus on VR/AR",
+      "content_text": "Welcome to the inaugural article of the metaview project. metaview is an effort to create a universal platform for VR/AR applications similarly to how the web browser is a platform for web applications. For more information about metaview and its goals, see About. This article covers ammolite, a work-in-progress rendering engine with focus on VR/AR.",
+      "url": "https://metaview.link/articles/introducing-ammolite.html",
+      "date_published": "2019-01-12T00:00:00+00:00",
+      "author": {
+        "name": "Jakub Hlusička ",
+        "url": "https://metaview.link/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5c15ca59-eba1-43d8-9dd4-206f574826cf",
+      "title": "Understanding Rust Lifetimes",
+      "content_text": "No, seriously, this time for real.",
+      "url": "https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa",
+      "date_published": "2019-01-10T01:26:26.038+00:00",
+      "author": {
+        "name": "Maksym Zavershynskyi",
+        "url": "https://medium.com/@zaver.max"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1430d9af-511b-4a0d-9802-083db4a4b858",
+      "title": "Rust 2019: security",
+      "content_text": "The problem is now that if we are measuring safety of Rust according to safe vs unsafe, the most obvious metric to optimize for is amount of unsafe lines in the code.\n\nAnd this is why I think that security should be part of Rust’s stable ecosystem development. And 2019 should be the year for improving the processes around it.",
+      "url": "https://snf.github.io/2019/01/10/rust-2019-security/",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "Sebastian Fernandez",
+        "url": "http://snf.github.io/about/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "54ecd8fa-cc4f-4c5f-acef-fc75e1e6ce7f",
+      "title": "Librsvg is almost rustified now",
+      "content_text": "Since a few days ago, librsvg's library implementation is almost 100% Rust code. Paolo Borelli's and Carlos Martín Nieto's latest commits made it possible. What does \"almost 100% Rust code\" mean here?",
+      "url": "https://people.gnome.org/~federico/blog/librsvg-is-almost-rustified.html",
+      "date_published": "2019-01-10T12:28:11-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3b8b78a8-dd56-425a-86f5-886e7341a8c4",
+      "title": "Year of wlroots",
+      "content_text": " wlroots is a hip new Wayland compositor framework that Way Cooler has been using for about a year now. I’m going to go ahead and declare 2019 the year of wlroots. Most of the work was done in 2018, but this year is when major compositors will begin to use it. Currently the only usable Wayland compositor that uses wlroots is sway, which is fast approaching a stable 1.0. However there is a long list of startup compositors (including Way Cooler) that are using wlroots. At least some of them are expected to come into their own as alternatives to traditional X11 based systems this year, and it’s all thanks to wlroots.",
+      "url": "http://way-cooler.org/blog/2019/01/09/year-of-wlroots.html",
+      "date_published": "2019-01-09T00:00:00+00:00",
+      "author": {
+        "name": "Preston Carpenter",
+        "url": "http://way-cooler.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "fa5229de-d279-44c7-9d62-0163e7dc1771",
       "title": "Rust Community Norms for Unsafe Code",
       "content_text": "I recently released Ropey 1.0, a text rope library for Rust. Ropey uses unsafe code internally, and its use of unsafe unsurprisingly came up in the 1.0 release thread on Reddit.\n\nThe ensuing discussion (especially thanks to Shnatsel) helped me significantly reduce the amount of unsafe code in Ropey with minimal (though not non-existent) performance degradation. But the whole thing nevertheless got me thinking about unsafe code and community norms around it, and I figured writing some of those thoughts down might be useful.",

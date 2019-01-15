@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "761f2490-5d60-424a-868c-84efd9b171c8",
+      "title": "Technolution Rust 2019 Roadmap",
+      "content_text": "We rely on Rust. So do our customers, sometimes without even knowing it. We build software that is installed on devices that go out into the world, sometimes never to be seen again in years or even decades. But 15 years from now, we may get a request to make a change to that software.\n\nHistorically we have been very successful doing just that, first in C and later in Java. Slowly but steadily, we are coming to rely on Rust to be able to create maintainable mission-critical software for our customers.\n\nTherefore our proposal for the 2021 roadmap: Reliability.\n\nThis blog post reflects on our journey up to the 2018 edition and outlines our view on Rust's progression in the coming years.",
+      "url": "https://www.technolution.eu/en/about-us/news/279-technolution-rust-2019-roadmap.html",
+      "date_published": "2019-01-11T00:00:00+00:00",
+      "author": {
+        "name": "Technolution B.V.",
+        "url": "https://www.technolution.eu/en/about-us/news/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "5059354d-87d1-41e8-9f5d-79f6e62cea41",
+      "title": "Rust 2019-2021 -- Math and Simulation",
+      "content_text": "Some of my first real, non-toy projects in Rust, way back in 2015, were numeric. I was taking a graduate-level Reinforcement Learning and MDP class at the time, and shortly after transitioned to using it in my research in AI. Rust has a lot going for it in terms of package management, speed, and typing.\n\nUnfortunately, it falls apart in several fundamental areas when it comes to mathematical and scientific uses. Some of these are ecosystem problems (i.e. the work just isn't there) and some of it are more core problems (e.g. type-level numerics, which will be solved Soon™, hopefully).",
+      "url": "https://gist.github.com/Zaerei/a030377aca10acf21bb0f48860f2f9ac",
+      "date_published": "2019-01-12T03:10:53+00:00",
+      "author": {
+        "name": "Zoe Juozapaitis",
+        "url": "https://github.com/Zaerei"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "03ffa23c-960c-4ca4-9de6-2ab39088fab5",
+      "title": "Rust 2019: Solid Foundations for Unsafe Code",
+      "content_text": "I think in 2019, we should make a coordinated effort to improving the foundations for writing unsafe code. Of course my particular Rust bubble is mostly about unsafe code, as you will know if you have read some of my previous posts – but safety is a core value proposition of Rust, and the entire ecosystem rests on a foundation of crates that make heavy use of unsafe code, so I believe that caring about unsafe code is an important piece to Rust’s overall success.",
+      "url": "https://www.ralfj.de/blog/2019/01/12/rust-2019.html",
+      "date_published": "2019-01-12T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "1430d9af-511b-4a0d-9802-083db4a4b858",
+      "title": "Rust 2019: security",
+      "content_text": "The problem is now that if we are measuring safety of Rust according to safe vs unsafe, the most obvious metric to optimize for is amount of unsafe lines in the code.\n\nAnd this is why I think that security should be part of Rust’s stable ecosystem development. And 2019 should be the year for improving the processes around it.",
+      "url": "https://snf.github.io/2019/01/10/rust-2019-security/",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "Sebastian Fernandez",
+        "url": "http://snf.github.io/about/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "36f876cd-8e90-4399-bec5-1e7b4883b95b",
       "title": "Rust in 2019 and beyond",
       "content_text": "During the RustFest 2018 in Rome, Aaron Turon said something that stuck with me, which was that Rust is actually about empowering developers. Personally I think this is a very profound thought, that the goal of a programming language is to help others to do and achieve things they never thought possible.\n\nJavaScript empowers developers by being accessible - everyone can start and succeed quickly. It’s great. Rust on the other hand empowers developers by giving them the tools to go deep.\n\nLet’s unpack that.",

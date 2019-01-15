@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f0ba6ba2-b32e-4d88-a8e4-a1e33f099387",
+      "title": "Introducing Ammolite: A work-in-progress rendering engine with focus on VR/AR",
+      "content_text": "Welcome to the inaugural article of the metaview project. metaview is an effort to create a universal platform for VR/AR applications similarly to how the web browser is a platform for web applications. For more information about metaview and its goals, see About. This article covers ammolite, a work-in-progress rendering engine with focus on VR/AR.",
+      "url": "https://metaview.link/articles/introducing-ammolite.html",
+      "date_published": "2019-01-12T00:00:00+00:00",
+      "author": {
+        "name": "Jakub Hlusička ",
+        "url": "https://metaview.link/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "3b8b78a8-dd56-425a-86f5-886e7341a8c4",
+      "title": "Year of wlroots",
+      "content_text": " wlroots is a hip new Wayland compositor framework that Way Cooler has been using for about a year now. I’m going to go ahead and declare 2019 the year of wlroots. Most of the work was done in 2018, but this year is when major compositors will begin to use it. Currently the only usable Wayland compositor that uses wlroots is sway, which is fast approaching a stable 1.0. However there is a long list of startup compositors (including Way Cooler) that are using wlroots. At least some of them are expected to come into their own as alternatives to traditional X11 based systems this year, and it’s all thanks to wlroots.",
+      "url": "http://way-cooler.org/blog/2019/01/09/year-of-wlroots.html",
+      "date_published": "2019-01-09T00:00:00+00:00",
+      "author": {
+        "name": "Preston Carpenter",
+        "url": "http://way-cooler.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "4fda94a2-d93a-4d1d-8ffe-e171600b13ce",
       "title": "Using Rust for Gamedev",
       "content_text": "I’ve recently created a new website and finished an online game named Adventures of Pascal Penguin. One of the most unique things about this game is that it was written in Rust and runs in web browsers thanks to WebAssembly. WebAssembly has only been mainstream for about a year or so, so not many games have been created like this. I want to share a little about my journey with Rust: how I started with it and how I got to this point.",

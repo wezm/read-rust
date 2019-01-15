@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "dfbac96b-1ab3-48a8-9c50-917188335ddd",
+      "title": "const types, traits and implementations in Rust",
+      "content_text": "Rust permits a limited form of compile-time function execution in the form of const and const fn. While, initially, const may seem like a reasonaby straightforward feature, it turns out to raise a wealth of interesting and complex design questions. In this post, we’re going to look at a particular design question that has been under discussion for some time and propose a design that is natural and expressive. This is motivated both from a syntactic perspective and a theoretic perspective.",
+      "url": "https://varkor.github.io/blog/2019/01/11/const-types-traits-and-implementations-in-Rust.html",
+      "date_published": "2019-01-11T19:02:40+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5c15ca59-eba1-43d8-9dd4-206f574826cf",
+      "title": "Understanding Rust Lifetimes",
+      "content_text": "No, seriously, this time for real.",
+      "url": "https://medium.com/nearprotocol/understanding-rust-lifetimes-e813bcd405fa",
+      "date_published": "2019-01-10T01:26:26.038+00:00",
+      "author": {
+        "name": "Maksym Zavershynskyi",
+        "url": "https://medium.com/@zaver.max"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "54ecd8fa-cc4f-4c5f-acef-fc75e1e6ce7f",
+      "title": "Librsvg is almost rustified now",
+      "content_text": "Since a few days ago, librsvg's library implementation is almost 100% Rust code. Paolo Borelli's and Carlos Martín Nieto's latest commits made it possible. What does \"almost 100% Rust code\" mean here?",
+      "url": "https://people.gnome.org/~federico/blog/librsvg-is-almost-rustified.html",
+      "date_published": "2019-01-10T12:28:11-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "fa5229de-d279-44c7-9d62-0163e7dc1771",
       "title": "Rust Community Norms for Unsafe Code",
       "content_text": "I recently released Ropey 1.0, a text rope library for Rust. Ropey uses unsafe code internally, and its use of unsafe unsurprisingly came up in the 1.0 release thread on Reddit.\n\nThe ensuing discussion (especially thanks to Shnatsel) helped me significantly reduce the amount of unsafe code in Ropey with minimal (though not non-existent) performance degradation. But the whole thing nevertheless got me thinking about unsafe code and community norms around it, and I figured writing some of those thoughts down might be useful.",
