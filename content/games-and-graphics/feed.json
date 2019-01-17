@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "83f4f369-b8cd-43ba-a61f-87a1654e64a9",
+      "title": "After Hours Game Development",
+      "content_text": "In my spare time I am working on a dwarf colony management game that’s written in rust. I started this project about one year ago and since it has reached this milestone and I didn’t abandon it I think it’s a good time to look at the curent status.",
+      "url": "https://alexene.github.io/2019/01/15/After-hours-game-development.html",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Alexandru Ene",
+        "url": "https://alexene.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "3ea00e75-be59-40b9-bdc5-e7a783044422",
+      "title": "The State Of GGEZ 2019",
+      "content_text": "ggez is a lightweight portable game framework in Rust, inspired by LÖVE. I do most of the actual maintenance and planning behind it, and I’ve been sort of in and out of contact this year, so I thought I’d write up a little thing about the present and future of the project. I remembered that at the beginning of last year I wrote GgezOnWasm, but only remembered a little of what went into it, so I went back and read it. And then got hives from the stress of all the promises I’ve made. So, I feel justified in being a bit slow with working on ggez lately.",
+      "url": "https://wiki.alopex.li/TheStateOfGGEZ2019",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6bd951b0-06dc-445a-9e68-ea9c56b18e37",
+      "title": "OpenMoonstone v0.2 released",
+      "content_text": "OpenMoonstone is a open source reimplementation of Moonstone: A Hard Day's Knight following along the lines of projects like OpenTTD and OpenXcom. You can try it out https://github.com/joetsoi/OpenMoonstone",
+      "url": "http://leastsignificant.blogspot.com/2019/01/openmoonstone-v02-released.html?m=1",
+      "date_published": "2019-01-16T19:34:00+00:00",
+      "author": {
+        "name": "least significant",
+        "url": "http://leastsignificant.blogspot.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "aded8d9a-b1d5-47b6-aa28-fcee947cbfb1",
+      "title": "A bot for Starcraft in Rust, C or any other language",
+      "content_text": "StarCraft: Brood War. This game means so much to me! And to many of you, I guess. So much, that I wonder if I should even give a link to its page on Wikipedia or not.\n\nOnce Halt sent me PM and offered to learn Rust. Like any ordinary people, we decided to start with hello world writing a dynamic library for Windows that could be loaded into StarCraft's address space and manage units.",
+      "url": "https://habr.com/en/post/436254/",
+      "date_published": "2019-01-17T10:15:00+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://habr.com/en/users/humbug/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "f0ba6ba2-b32e-4d88-a8e4-a1e33f099387",
       "title": "Introducing Ammolite: A work-in-progress rendering engine with focus on VR/AR",
       "content_text": "Welcome to the inaugural article of the metaview project. metaview is an effort to create a universal platform for VR/AR applications similarly to how the web browser is a platform for web applications. For more information about metaview and its goals, see About. This article covers ammolite, a work-in-progress rendering engine with focus on VR/AR.",

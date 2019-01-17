@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "cdb3ed72-c1a4-4ff2-8350-cb5768fd96d4",
+      "title": "Stretch — A flexbox implementation in Rust",
+      "content_text": "Let’s talk about Layout. Layout is fundamental to any UI application. The layout engine is what takes a set of rules and figures out where to place elements on the screen. This sounds simple enough but as UIs become increasingly complex we rely more on the layout engine to be able to create these UIs as easily as possible. Not only should it be easy to build these UIs but the engine performing this work is also required to do so at minimum cost as it runs possibly on every frame (for example when performing layout animations).",
+      "url": "https://medium.com/visly/stretch-a-flexbox-implementation-in-rust-60762b5a3331",
+      "date_published": "2019-01-15T20:04:57.767+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6e54473a-fefd-4447-8888-98137bd74692",
+      "title": "proc-macro-rules - macro_rules-like pattern matching inside a procedural macro",
+      "content_text": "I'm announcing a new library for procedural macro authors: proc-macro-rules (and on crates.io). It allows you to do macro_rules-like pattern matching inside a procedural macro. The goal is to smooth the transition from declarative to procedural macros (this works pretty well when used with the quote crate).",
+      "url": "https://www.ncameron.org/blog/proc-macro-rules/",
+      "date_published": "2019-01-16T19:27:54+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "3697f091-2478-437f-bdbb-3e464fe1ab8a",
+      "title": "Rust bindings for GStreamerGL: Memoirs",
+      "content_text": "Thanks to Mozilla and Igalia I have the opportunity to work on Servo, adding it HTML5 multimedia features. First, with the help of Fernando Jiménez, we finished what my colleague Philippe Normand and Sebastian Dröge (one of my programming heroes) started: a media player in Rust designed to be integrated in Servo. This media player lives in its own crate: servo/media along with the WebAudio engine. A crate, in Rust jargon, is like a library. This crate is (very ad-hocly) designed to be multimedia framework agnostic, but the only backend right now is for GStreamer. Later we integrated it into Servo adding an initial support for audio and video tags.",
+      "url": "https://blogs.igalia.com/vjaquez/2019/01/16/rust-bindings-for-gstreamergl-memoirs/",
+      "date_published": "2019-01-16T19:42:55+00:00",
+      "author": {
+        "name": "vjaquez",
+        "url": "https://blogs.igalia.com/vjaquez/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2a37239a-12d8-4647-bef0-90312992b2b7",
       "title": "Parsing, Validating, and Assembling URLs in Rust",
       "content_text": "These days, we hardly think about URLs. Popular content management tools default to so-called “pretty” slugs, and even here, on secretfader.com, I remove stop-words to ensure the tidiest, most SEO-friendly URLs possible.\nIt would be easy to forget the struggles that led to best practices of today’s web. However, to my generation of internet hackers, URLs riddled with ampersands and question marks were entirely normal. In those days, assuming URLs would be comprised of hyphenated alphanumeric characters was obviously unsafe; instead, we learned the official standard for parsing and constructing URLs.",

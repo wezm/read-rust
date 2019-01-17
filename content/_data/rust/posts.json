@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "459fb1f7-d0c4-4a08-bbc9-201d7572dc49",
+      "title": "Non-Web Embeddings for Rust Wasm 2019",
+      "content_text": "The Rust Wasm team has made tremendous progress in building robust developer tooling for Rust targeting WebAssembly on the Web in 2018. However, Non-Web Embeddings are also supported by WebAssembly but have not received much attention yet for Rust Wasm tooling. Our wish for Rust Wasm 2019 is to improve the tooling for Non-Web Wasm Embeddings which we believe also has enormous potential.",
+      "url": "https://medium.com/wasmer/non-web-embeddings-for-rust-wasm-2019-7b290e94f81d",
+      "tweet_url": "https://twitter.com/wasmerio/status/1085233264653037568",
+      "date_published": "2019-01-15T13:57:51.370+00:00",
+      "author": {
+        "name": "Brandon Fish",
+        "url": "https://medium.com/@fish0398"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "6538f1d7-c69c-4eae-841e-ce48c657aa65",
+      "title": "Rust 2019: Ownership without fear",
+      "content_text": "Like last year, the Rust community team asked community members to write blog posts \"proposing goals and directions for 2019\"; this is mine. Like withoutboats' post and Niko Matsakis' take, this post will focus on organizational issues. As such, the \"ownership\" from the title refers to a leadership principle, not the technical type system concept we all know and love.",
+      "url": "https://dirkjan.ochtman.nl/writing/2019/01/01/rust-2019-ownership-without-fear.html",
+      "tweet_url": "https://twitter.com/djco/status/1085287832539795462",
+      "date_published": "2019-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Dirkjan Ochtman",
+        "url": "https://dirkjan.ochtman.nl/writing"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "f262d079-9126-4b48-ad7c-9c29105c16fe",
+      "title": "Rust in 2019: Security, Maturity, Stability",
+      "content_text": "2018 marked my second year as a full-time Rust developer, and I’m happy to say it’s the first year I shipped production Rust applications. Thus far these applications have been unproblematic, quietly and efficiently doing their job, and just as boring and predictable as I’d hope they’d be. I would like to hope my experience is repeatable, and that 2019 is the year that Rust can transcend the notion of being a bleeding-edge science experiment and instead settle down into being a “boring in a good way” practical language with a growing community developing and deploying production-quality software.",
+      "url": "https://tonyarcieri.com/rust-in-2019-security-maturity-stability",
+      "date_published": "2019-01-15T23:37:32-08:00",
+      "author": {
+        "name": "Tony Arcieri",
+        "url": "http://tonyarcieri.com/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "cdb3ed72-c1a4-4ff2-8350-cb5768fd96d4",
+      "title": "Stretch — A flexbox implementation in Rust",
+      "content_text": "Let’s talk about Layout. Layout is fundamental to any UI application. The layout engine is what takes a set of rules and figures out where to place elements on the screen. This sounds simple enough but as UIs become increasingly complex we rely more on the layout engine to be able to create these UIs as easily as possible. Not only should it be easy to build these UIs but the engine performing this work is also required to do so at minimum cost as it runs possibly on every frame (for example when performing layout animations).",
+      "url": "https://medium.com/visly/stretch-a-flexbox-implementation-in-rust-60762b5a3331",
+      "date_published": "2019-01-15T20:04:57.767+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "83f4f369-b8cd-43ba-a61f-87a1654e64a9",
+      "title": "After Hours Game Development",
+      "content_text": "In my spare time I am working on a dwarf colony management game that’s written in rust. I started this project about one year ago and since it has reached this milestone and I didn’t abandon it I think it’s a good time to look at the curent status.",
+      "url": "https://alexene.github.io/2019/01/15/After-hours-game-development.html",
+      "tweet_url": "https://twitter.com/_AlexEne_/status/1085336327967703045",
+      "date_published": "2019-01-15T00:00:00+00:00",
+      "author": {
+        "name": "Alexandru Ene",
+        "url": "https://alexene.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "3ea00e75-be59-40b9-bdc5-e7a783044422",
+      "title": "The State Of GGEZ 2019",
+      "content_text": "ggez is a lightweight portable game framework in Rust, inspired by LÖVE. I do most of the actual maintenance and planning behind it, and I’ve been sort of in and out of contact this year, so I thought I’d write up a little thing about the present and future of the project. I remembered that at the beginning of last year I wrote GgezOnWasm, but only remembered a little of what went into it, so I went back and read it. And then got hives from the stress of all the promises I’ve made. So, I feel justified in being a bit slow with working on ggez lately.",
+      "url": "https://wiki.alopex.li/TheStateOfGGEZ2019",
+      "date_published": "2019-01-10T00:00:00+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6bd951b0-06dc-445a-9e68-ea9c56b18e37",
+      "title": "OpenMoonstone v0.2 released",
+      "content_text": "OpenMoonstone is a open source reimplementation of Moonstone: A Hard Day's Knight following along the lines of projects like OpenTTD and OpenXcom. You can try it out https://github.com/joetsoi/OpenMoonstone",
+      "url": "http://leastsignificant.blogspot.com/2019/01/openmoonstone-v02-released.html?m=1",
+      "date_published": "2019-01-16T19:34:00+00:00",
+      "author": {
+        "name": "least significant",
+        "url": "http://leastsignificant.blogspot.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6e54473a-fefd-4447-8888-98137bd74692",
+      "title": "proc-macro-rules - macro_rules-like pattern matching inside a procedural macro",
+      "content_text": "I'm announcing a new library for procedural macro authors: proc-macro-rules (and on crates.io). It allows you to do macro_rules-like pattern matching inside a procedural macro. The goal is to smooth the transition from declarative to procedural macros (this works pretty well when used with the quote crate).",
+      "url": "https://www.ncameron.org/blog/proc-macro-rules/",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1085620511516717056",
+      "date_published": "2019-01-16T19:27:54+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "3697f091-2478-437f-bdbb-3e464fe1ab8a",
+      "title": "Rust bindings for GStreamerGL: Memoirs",
+      "content_text": "Thanks to Mozilla and Igalia I have the opportunity to work on Servo, adding it HTML5 multimedia features. First, with the help of Fernando Jiménez, we finished what my colleague Philippe Normand and Sebastian Dröge (one of my programming heroes) started: a media player in Rust designed to be integrated in Servo. This media player lives in its own crate: servo/media along with the WebAudio engine. A crate, in Rust jargon, is like a library. This crate is (very ad-hocly) designed to be multimedia framework agnostic, but the only backend right now is for GStreamer. Later we integrated it into Servo adding an initial support for audio and video tags.",
+      "url": "https://blogs.igalia.com/vjaquez/2019/01/16/rust-bindings-for-gstreamergl-memoirs/",
+      "date_published": "2019-01-16T19:42:55+00:00",
+      "author": {
+        "name": "vjaquez",
+        "url": "https://blogs.igalia.com/vjaquez/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "aded8d9a-b1d5-47b6-aa28-fcee947cbfb1",
+      "title": "A bot for Starcraft in Rust, C or any other language",
+      "content_text": "StarCraft: Brood War. This game means so much to me! And to many of you, I guess. So much, that I wonder if I should even give a link to its page on Wikipedia or not.\n\nOnce Halt sent me PM and offered to learn Rust. Like any ordinary people, we decided to start with hello world writing a dynamic library for Windows that could be loaded into StarCraft's address space and manage units.",
+      "url": "https://habr.com/en/post/436254/",
+      "date_published": "2019-01-17T10:15:00+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://habr.com/en/users/humbug/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "b4d25622-7886-48c7-901c-e382c05122cb",
       "title": "Exploring Column-Oriented Data in Rust with frunk HLists",
       "content_text": "Row-oriented storage and column-oriented storage are two major ways of laying out data in memory. In Rust, there is a simple way to think of this: row-oriented storage is like an array of structs, whereas column-oriented storage is like a struct of arrays. It’s easy to use row-oriented storage in Rust, so this post is going to explore column-oriented storage.",
