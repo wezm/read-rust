@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "2785bcea-bff1-46c3-913b-87888f79133c",
+      "title": "Security as Rust 2019 goal",
+      "content_text": "The goals and 2019 roadmap of Rust Secure Code Working Group",
+      "url": "https://medium.com/@shnatsel/security-as-rust-2019-goal-6a060116ba39",
+      "date_published": "2019-01-18T18:20:42.379+00:00",
+      "author": {
+        "name": "Sergey Davidoff et al.",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Rust 2019",
+        "Security"
+      ]
+    },
+    {
       "id": "459fb1f7-d0c4-4a08-bbc9-201d7572dc49",
       "title": "Non-Web Embeddings for Rust Wasm 2019",
       "content_text": "The Rust Wasm team has made tremendous progress in building robust developer tooling for Rust targeting WebAssembly on the Web in 2018. However, Non-Web Embeddings are also supported by WebAssembly but have not received much attention yet for Rust Wasm tooling. Our wish for Rust Wasm 2019 is to improve the tooling for Non-Web Wasm Embeddings which we believe also has enormous potential.",

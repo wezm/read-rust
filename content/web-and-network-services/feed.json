@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "0cba574e-769b-491e-83de-cfa070b1b942",
+      "title": "WebGL + Rust: Basic Water Tutorial",
+      "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",
+      "url": "http://www.chinedufn.com/3d-webgl-basic-water-tutorial/",
+      "date_published": "2019-01-06T13:00:00-05:00",
+      "author": {
+        "name": "Chinedu Francis Nwafili",
+        "url": "http://www.chinedufn.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "f12043be-3b2d-4ab3-8ce1-51463ffad905",
       "title": "Rust and WebAssembly in 2019",
       "content_text": "Compiling Rust to WebAssembly should be the best choice for fast, reliable code for the Web. Additionally, the same way that Rust integrates with C calling conventions and libraries on native targets, Rust should also integrate with JavaScript and HTML5 on the Web. These are the Rust and WebAssembly domain working group’s core values. In 2018, we made it possible to surgically replace performance-sensitive JavaScript with Rust-generated WebAssembly. I propose that we make larger-scale adoption of Rust and WebAssembly practical in 2019.",

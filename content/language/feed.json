@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "90b0ffa9-1711-4870-9e30-37375be50515",
+      "title": "How to order Rust code",
+      "content_text": "Note:This post is about how I arrange the code I write in Rust.If you wanted to “order” Rust codein the “hire someone to write code” sense,you should still keep on readingas this is excellent material for a job interview.(Not the opinion I present but having an opinion on the topic.)",
+      "url": "https://deterministic.space/how-to-order-rust-code.html",
+      "date_published": "2019-01-17T00:00:00+01:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "65dcfcd4-e17a-4e0d-bd56-ccea6cfe062f",
+      "title": "When Rust is safer than Haskell",
+      "content_text": "Haskell generally has better safety guarantees than Rust, there are some cases when Rust is safer than Haskell. This post explores when Rust is safe to use.",
+      "url": "https://www.fpcomplete.com/blog/when-rust-is-safer-than-haskell",
+      "date_published": "2019-01-17T18:09:09+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "97ace8ce-4c4f-442d-bab3-10a97bd119df",
+      "title": "Announcing Rust 1.32.0",
+      "content_text": "Rust 1.32.0 has a few quality of life improvements, switches the default allocator, and makes additional functions const.",
+      "url": "https://blog.rust-lang.org/2019/01/17/Rust-1.32.0.html",
+      "date_published": "2019-01-17T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85502039-9617-4e25-a34d-2e1f8cd2f452",
+      "title": "Closures: Magic Functions",
+      "content_text": "Closures seem like magical functions. They can do magic like capture their environment, which normal functions can’t do. How does this work?",
+      "url": "https://krishnasannasi.github.io/rust/syntactic/sugar/2019/01/17/Closures-Magic-Functions.html",
+      "date_published": "2019-01-17T19:00:00+00:00",
+      "author": {
+        "name": "Krishna Sannasi",
+        "url": "https://krishnasannasi.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2afd97b3-7b60-4a21-b07a-7f353a23dc4d",
+      "title": "Polonius and region errors",
+      "content_text": "Now that NLL has been shipped, I’ve been doing some work revisiting the Polonius project. Polonius is the project that implements the “alias-based formulation” described in my older blogpost. Polonius has come a long way since that post; it’s now quite fast and also experimentally integrated into rustc, where it passes the full test suite.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/",
+      "date_published": "2019-01-17T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b4d25622-7886-48c7-901c-e382c05122cb",
       "title": "Exploring Column-Oriented Data in Rust with frunk HLists",
       "content_text": "Row-oriented storage and column-oriented storage are two major ways of laying out data in memory. In Rust, there is a simple way to think of this: row-oriented storage is like an array of structs, whereas column-oriented storage is like a struct of arrays. It’s easy to use row-oriented storage in Rust, so this post is going to explore column-oriented storage.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "04445dcf-4cd1-47ee-b40e-58d17bdf0a9c",
+      "title": "paw at Rust GUIs",
+      "content_text": "The recent release of Flutter 1.0 was quite exciting for me. I’m not much of anGUI person nor do I make a lot of mobile apps but after looking through some examples, I started to like their take on UI frameworks. In particular, the three aspects mentioned above seemed to be handled very well!\n\nBack to Rust. I wondered how to adopt a similar API under the strict eyes 👀 of the borrow- and typechecker — which resulted in the experimental UI framework paw (in progress..)",
+      "url": "https://medium.com/@m.siglreith/paw-at-rust-guis-d4d848e14b94",
+      "date_published": "2019-01-17T18:12:55.923+00:00",
+      "author": {
+        "name": "msiglreith",
+        "url": "https://medium.com/@m.siglreith"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "cdb3ed72-c1a4-4ff2-8350-cb5768fd96d4",
       "title": "Stretch — A flexbox implementation in Rust",
       "content_text": "Let’s talk about Layout. Layout is fundamental to any UI application. The layout engine is what takes a set of rules and figures out where to place elements on the screen. This sounds simple enough but as UIs become increasingly complex we rely more on the layout engine to be able to create these UIs as easily as possible. Not only should it be easy to build these UIs but the engine performing this work is also required to do so at minimum cost as it runs possibly on every frame (for example when performing layout animations).",

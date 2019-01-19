@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "0cba574e-769b-491e-83de-cfa070b1b942",
+      "title": "WebGL + Rust: Basic Water Tutorial",
+      "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",
+      "url": "http://www.chinedufn.com/3d-webgl-basic-water-tutorial/",
+      "date_published": "2019-01-06T13:00:00-05:00",
+      "author": {
+        "name": "Chinedu Francis Nwafili",
+        "url": "http://www.chinedufn.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "83f4f369-b8cd-43ba-a61f-87a1654e64a9",
       "title": "After Hours Game Development",
       "content_text": "In my spare time I am working on a dwarf colony management game that’s written in rust. I started this project about one year ago and since it has reached this milestone and I didn’t abandon it I think it’s a good time to look at the curent status.",

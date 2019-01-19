@@ -10,6 +10,120 @@
   },
   "items": [
     {
+      "id": "0cba574e-769b-491e-83de-cfa070b1b942",
+      "title": "WebGL + Rust: Basic Water Tutorial",
+      "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",
+      "url": "http://www.chinedufn.com/3d-webgl-basic-water-tutorial/",
+      "date_published": "2019-01-06T13:00:00-05:00",
+      "author": {
+        "name": "Chinedu Francis Nwafili",
+        "url": "http://www.chinedufn.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "04445dcf-4cd1-47ee-b40e-58d17bdf0a9c",
+      "title": "paw at Rust GUIs",
+      "content_text": "The recent release of Flutter 1.0 was quite exciting for me. I’m not much of anGUI person nor do I make a lot of mobile apps but after looking through some examples, I started to like their take on UI frameworks. In particular, the three aspects mentioned above seemed to be handled very well!\n\nBack to Rust. I wondered how to adopt a similar API under the strict eyes 👀 of the borrow- and typechecker — which resulted in the experimental UI framework paw (in progress..)",
+      "url": "https://medium.com/@m.siglreith/paw-at-rust-guis-d4d848e14b94",
+      "date_published": "2019-01-17T18:12:55.923+00:00",
+      "author": {
+        "name": "msiglreith",
+        "url": "https://medium.com/@m.siglreith"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "90b0ffa9-1711-4870-9e30-37375be50515",
+      "title": "How to order Rust code",
+      "content_text": "Note:This post is about how I arrange the code I write in Rust.If you wanted to “order” Rust codein the “hire someone to write code” sense,you should still keep on readingas this is excellent material for a job interview.(Not the opinion I present but having an opinion on the topic.)",
+      "url": "https://deterministic.space/how-to-order-rust-code.html",
+      "date_published": "2019-01-17T00:00:00+01:00",
+      "author": {
+        "name": "Pascal Hertleif",
+        "url": "https://deterministic.space/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "65dcfcd4-e17a-4e0d-bd56-ccea6cfe062f",
+      "title": "When Rust is safer than Haskell",
+      "content_text": "Haskell generally has better safety guarantees than Rust, there are some cases when Rust is safer than Haskell. This post explores when Rust is safe to use.",
+      "url": "https://www.fpcomplete.com/blog/when-rust-is-safer-than-haskell",
+      "date_published": "2019-01-17T18:09:09+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.fpcomplete.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "97ace8ce-4c4f-442d-bab3-10a97bd119df",
+      "title": "Announcing Rust 1.32.0",
+      "content_text": "Rust 1.32.0 has a few quality of life improvements, switches the default allocator, and makes additional functions const.",
+      "url": "https://blog.rust-lang.org/2019/01/17/Rust-1.32.0.html",
+      "date_published": "2019-01-17T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85502039-9617-4e25-a34d-2e1f8cd2f452",
+      "title": "Closures: Magic Functions",
+      "content_text": "Closures seem like magical functions. They can do magic like capture their environment, which normal functions can’t do. How does this work?",
+      "url": "https://krishnasannasi.github.io/rust/syntactic/sugar/2019/01/17/Closures-Magic-Functions.html",
+      "date_published": "2019-01-17T19:00:00+00:00",
+      "author": {
+        "name": "Krishna Sannasi",
+        "url": "https://krishnasannasi.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2afd97b3-7b60-4a21-b07a-7f353a23dc4d",
+      "title": "Polonius and region errors",
+      "content_text": "Now that NLL has been shipped, I’ve been doing some work revisiting the Polonius project. Polonius is the project that implements the “alias-based formulation” described in my older blogpost. Polonius has come a long way since that post; it’s now quite fast and also experimentally integrated into rustc, where it passes the full test suite.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/17/polonius-and-region-errors/",
+      "date_published": "2019-01-17T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2785bcea-bff1-46c3-913b-87888f79133c",
+      "title": "Security as Rust 2019 goal",
+      "content_text": "The goals and 2019 roadmap of Rust Secure Code Working Group",
+      "url": "https://medium.com/@shnatsel/security-as-rust-2019-goal-6a060116ba39",
+      "date_published": "2019-01-18T18:20:42.379+00:00",
+      "author": {
+        "name": "Sergey Davidoff et al.",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Rust 2019",
+        "Security"
+      ]
+    },
+    {
       "id": "459fb1f7-d0c4-4a08-bbc9-201d7572dc49",
       "title": "Non-Web Embeddings for Rust Wasm 2019",
       "content_text": "The Rust Wasm team has made tremendous progress in building robust developer tooling for Rust targeting WebAssembly on the Web in 2018. However, Non-Web Embeddings are also supported by WebAssembly but have not received much attention yet for Rust Wasm tooling. Our wish for Rust Wasm 2019 is to improve the tooling for Non-Web Wasm Embeddings which we believe also has enormous potential.",

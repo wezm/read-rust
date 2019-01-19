@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "2785bcea-bff1-46c3-913b-87888f79133c",
+      "title": "Security as Rust 2019 goal",
+      "content_text": "The goals and 2019 roadmap of Rust Secure Code Working Group",
+      "url": "https://medium.com/@shnatsel/security-as-rust-2019-goal-6a060116ba39",
+      "date_published": "2019-01-18T18:20:42.379+00:00",
+      "author": {
+        "name": "Sergey Davidoff et al.",
+        "url": "https://medium.com/@shnatsel"
+      },
+      "tags": [
+        "Rust 2019",
+        "Security"
+      ]
+    },
+    {
       "id": "01a84c85-f79f-42fa-9632-e3ee5f0f5b6e",
       "title": "Using TLS with Rust: Part II - Client authentication",
       "content_text": "The task that I have for now is to add client authentication via X509 client certificate. That is both obvious and non obvious, unfortunately. I’ll admit that I’m enjoying exploring Rust features, so I don’t know how idiomatic this code is, but it is certainly dense.",
