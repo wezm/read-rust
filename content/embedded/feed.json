@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b4901fae-b805-4020-b425-47d2fc82b14d",
+      "title": "My Rust Powered linux.conf.au e-Paper Badge",
+      "content_text": "I attended linux.conf.au (for the first time) in Christchurch, New Zealand. It’s a week long conference covering Linux, open source software and hardware, privacy, security and much more. The theme this year was IoT. In line with the theme I built a digital conference badge to take to the conference. It used a tri-colour e-Paper display and was powered by a Rust program I built running on Raspbian Linux. This post describes how it was built, how it works, and how it fared at the conference. The source code is on GitHub.",
+      "url": "http://www.wezm.net/technical/2019/01/linux-conf-au-rust-epaper-badge/",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "7d13bc11-63fd-48bd-bef2-459379a5e6c4",
       "title": "Rustduino pt. I: setting up the development environment",
       "content_text": "This post details the steps needed to start programming an Arduino UNO board using the Rust programming language and working on Mac OS.",

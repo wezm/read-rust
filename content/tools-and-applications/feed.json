@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "8a353b9f-bb7e-40d7-a5ab-fd5372ad76f4",
+      "title": "Packaging a game for Windows, Mac, and Linux with Rust.",
+      "content_text": "Building a cross platform game for desktop operating systems in Rust is fairly doable without needing much platform specific code. Glutin is a Rust alternative to SDL for handling window creation & input. GFX handles most of the graphics API abstraction for you. You still write the shaders, but I was able to just use OpenGL and get it working on Windows 10, MacOS, and Ubuntu.",
+      "url": "https://agmprojects.com/blog/packaging-a-game-for-windows-mac-and-linux-with-rust",
+      "date_published": "2019-02-02T23:53:56+00:00",
+      "author": {
+        "name": "Aaron McLeod",
+        "url": "https://agmprojects.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0be32871-6687-4e3d-9cab-5bbb411c9cc0",
+      "title": "A detailed guide to writing your first Neovim plugin in Rust",
+      "content_text": "I recently wrote a plugin in Rust to control the Spotify desktop app for MacOS and find lyrics from within Neovim and found it to be a neat experience overall, and that’s coming from someone who isn’t a Rust expert. This post is a summary of all the research and discovery that happened during that process.",
+      "url": "https://medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1",
+      "date_published": "2019-02-04T09:58:50.953+00:00",
+      "author": {
+        "name": "Srishan Bhattarai",
+        "url": "https://medium.com/@srishanbhattarai"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "4afbd4d0-42ae-460f-8805-22e094fb394b",
       "title": "sharkdp/hexyl: A command-line hex viewer",
       "content_text": "hexyl is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII).",

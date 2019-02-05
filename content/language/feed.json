@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "040a805b-f794-4df1-810f-5d3607a3f274",
+      "title": "Cargo's next few years",
+      "content_text": "The Cargo team have been thinking about and discussing long-term plans for Cargo. In this post I'll talk about what we hope Cargo will look like around the time of the next edition (assuming there is another edition and that it happens in about three years, neither of which is confirmed). There will be another post soon on more concrete plans for this year, including some kind of roadmap.",
+      "url": "https://www.ncameron.org/blog/cargos-next-few-years/",
+      "date_published": "2019-02-02T04:35:37+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2d233ddd-ecb5-499d-88b8-a0f14797c1a7",
+      "title": "Rust on iOS",
+      "content_text": "If you’re an iOS developer you may be asking yourself how and why you would make use of Rust on iOS. This article will mostly cover the how. As to why, the most compelling reason for us at Visly is that it enables us to share code between Android and iOS in a performant and safe manner, in a language much easier to work with than C++.",
+      "url": "https://medium.com/visly/rust-on-ios-39f799b3c1dd",
+      "date_published": "2019-01-26T21:30:07.781+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "799301a7-d57a-4e9c-8412-aafc4e643f0a",
+      "title": "Rust OSS Governance and Sustainablility I",
+      "content_text": "Recently I travelled all the way to Waterloo from Boston for Starcon. With a 9 hour drive I had a lot of time to think about things and so I spent a good majority of it thinking about OSS Governanace and Sustainability. What I came up with and thought of is the more concrete solutions to the problems I brought up in my Rust 2019 post. With the Rust All hands in Berlin only a few weeks away I wanted to get my thoughts in order by writing out some of the solutions to specific problems I came up with. Now, this doesn't mean they'll be accepted! We might even find better solutions! I just felt a need to articulate them as both a reference point and to make sure I've thought through them well. I'll be splitting them into a few posts so I can publish more faster, rather than write one long post that won't be published in time. With that in mind let's begin!",
+      "url": "https://mgattozzi.com/oss-governance-and-sustainablility-i/",
+      "date_published": "2019-01-22T04:20:23+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f950f168-d74e-4b3a-b2f5-18546a7d282b",
+      "title": "Why aren't my Rust threads running?",
+      "content_text": "I got a bit tangled up while experimenting with threads and channels in Rust. The compiler prevented any undefined behavior or memory corruption, but it can only do so much. My problems came from a shaky understanding of the language’s fundamentals and the inherent complexity of parallel programming. Or, in my case, attempted parallel programming.",
+      "url": "https://esimmler.com/why-arent-my-rust-threads-running/",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Erik Simmler",
+        "url": "https://esimmler.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "90b0ffa9-1711-4870-9e30-37375be50515",
       "title": "How to order Rust code",
       "content_text": "Note:This post is about how I arrange the code I write in Rust.If you wanted to “order” Rust codein the “hire someone to write code” sense,you should still keep on readingas this is excellent material for a job interview.(Not the opinion I present but having an opinion on the topic.)",

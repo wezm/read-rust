@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b7475efb-632c-4875-ab6b-d283e220a434",
+      "title": "Solving Advent of Code in Under a Second",
+      "content_text": "Algorithms and optimization to solve all Advent of Code 2018 puzzles in under one total second.",
+      "url": "https://www.forrestthewoods.com/blog/solving-advent-of-code-in-under-a-second/",
+      "date_published": "2019-02-03T00:00:00+00:00",
+      "author": {
+        "name": "Forrest Smith",
+        "url": "https://www.forrestthewoods.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "f6f38aae-10b9-4c71-b4fd-c0412a56e064",
       "title": "Converting a Python library to Rust",
       "content_text": "I rewrote a Python project in Rust. The rewrite took a fair bit longer than expected, but the results were good (about 9 times faster and ½ the memory usage). In the process, I learned a fair bit about Rust.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "8a353b9f-bb7e-40d7-a5ab-fd5372ad76f4",
+      "title": "Packaging a game for Windows, Mac, and Linux with Rust.",
+      "content_text": "Building a cross platform game for desktop operating systems in Rust is fairly doable without needing much platform specific code. Glutin is a Rust alternative to SDL for handling window creation & input. GFX handles most of the graphics API abstraction for you. You still write the shaders, but I was able to just use OpenGL and get it working on Windows 10, MacOS, and Ubuntu.",
+      "url": "https://agmprojects.com/blog/packaging-a-game-for-windows-mac-and-linux-with-rust",
+      "date_published": "2019-02-02T23:53:56+00:00",
+      "author": {
+        "name": "Aaron McLeod",
+        "url": "https://agmprojects.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "0cba574e-769b-491e-83de-cfa070b1b942",
       "title": "WebGL + Rust: Basic Water Tutorial",
       "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",

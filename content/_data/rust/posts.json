@@ -10,6 +10,154 @@
   },
   "items": [
     {
+      "id": "b4901fae-b805-4020-b425-47d2fc82b14d",
+      "title": "My Rust Powered linux.conf.au e-Paper Badge",
+      "content_text": "I attended linux.conf.au (for the first time) in Christchurch, New Zealand. It’s a week long conference covering Linux, open source software and hardware, privacy, security and much more. The theme this year was IoT. In line with the theme I built a digital conference badge to take to the conference. It used a tri-colour e-Paper display and was powered by a Rust program I built running on Raspbian Linux. This post describes how it was built, how it works, and how it fared at the conference. The source code is on GitHub.",
+      "url": "http://www.wezm.net/technical/2019/01/linux-conf-au-rust-epaper-badge/",
+      "tweet_url": "https://twitter.com/wezm/status/1089321009507778560",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "8a353b9f-bb7e-40d7-a5ab-fd5372ad76f4",
+      "title": "Packaging a game for Windows, Mac, and Linux with Rust.",
+      "content_text": "Building a cross platform game for desktop operating systems in Rust is fairly doable without needing much platform specific code. Glutin is a Rust alternative to SDL for handling window creation & input. GFX handles most of the graphics API abstraction for you. You still write the shaders, but I was able to just use OpenGL and get it working on Windows 10, MacOS, and Ubuntu.",
+      "url": "https://agmprojects.com/blog/packaging-a-game-for-windows-mac-and-linux-with-rust",
+      "tweet_url": "https://twitter.com/agmcleod/status/1091847346516709376",
+      "date_published": "2019-02-02T23:53:56+00:00",
+      "author": {
+        "name": "Aaron McLeod",
+        "url": "https://agmprojects.com/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0be32871-6687-4e3d-9cab-5bbb411c9cc0",
+      "title": "A detailed guide to writing your first Neovim plugin in Rust",
+      "content_text": "I recently wrote a plugin in Rust to control the Spotify desktop app for MacOS and find lyrics from within Neovim and found it to be a neat experience overall, and that’s coming from someone who isn’t a Rust expert. This post is a summary of all the research and discovery that happened during that process.",
+      "url": "https://medium.com/@srishanbhattarai/a-detailed-guide-to-writing-your-first-neovim-plugin-in-rust-a81604c606b1",
+      "date_published": "2019-02-04T09:58:50.953+00:00",
+      "author": {
+        "name": "Srishan Bhattarai",
+        "url": "https://medium.com/@srishanbhattarai"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "040a805b-f794-4df1-810f-5d3607a3f274",
+      "title": "Cargo's next few years",
+      "content_text": "The Cargo team have been thinking about and discussing long-term plans for Cargo. In this post I'll talk about what we hope Cargo will look like around the time of the next edition (assuming there is another edition and that it happens in about three years, neither of which is confirmed). There will be another post soon on more concrete plans for this year, including some kind of roadmap.",
+      "url": "https://www.ncameron.org/blog/cargos-next-few-years/",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1091555893697605632",
+      "date_published": "2019-02-02T04:35:37+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2d233ddd-ecb5-499d-88b8-a0f14797c1a7",
+      "title": "Rust on iOS",
+      "content_text": "If you’re an iOS developer you may be asking yourself how and why you would make use of Rust on iOS. This article will mostly cover the how. As to why, the most compelling reason for us at Visly is that it enables us to share code between Android and iOS in a performant and safe manner, in a language much easier to work with than C++.",
+      "url": "https://medium.com/visly/rust-on-ios-39f799b3c1dd",
+      "date_published": "2019-01-26T21:30:07.781+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "76ad8f41-d0b9-4789-b45a-5cfa550aa7c3",
+      "title": "Exporting Serde types to TypeScript",
+      "content_text": "I built my first web application with Rust and WebAssembly back in 2017. At the time, support for compiling Rust with the wasm32-unknown-unknown target had just landed, letting you run Rust code in the browser with few modifications. The downside was that loading and interacting with WebAssembly might require you to explicitly allocate and track memory. You might even need to manually decode UTF-8 strings in JavaScript:",
+      "url": "http://timryan.org/2019/01/22/exporting-serde-types-to-typescript.html",
+      "tweet_url": "https://twitter.com/trimryan/status/1087755468804681729",
+      "date_published": "2019-01-22T16:00:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "799301a7-d57a-4e9c-8412-aafc4e643f0a",
+      "title": "Rust OSS Governance and Sustainablility I",
+      "content_text": "Recently I travelled all the way to Waterloo from Boston for Starcon. With a 9 hour drive I had a lot of time to think about things and so I spent a good majority of it thinking about OSS Governanace and Sustainability. What I came up with and thought of is the more concrete solutions to the problems I brought up in my Rust 2019 post. With the Rust All hands in Berlin only a few weeks away I wanted to get my thoughts in order by writing out some of the solutions to specific problems I came up with. Now, this doesn't mean they'll be accepted! We might even find better solutions! I just felt a need to articulate them as both a reference point and to make sure I've thought through them well. I'll be splitting them into a few posts so I can publish more faster, rather than write one long post that won't be published in time. With that in mind let's begin!",
+      "url": "https://mgattozzi.com/oss-governance-and-sustainablility-i/",
+      "tweet_url": "https://twitter.com/mgattozzi/status/1087566238606413825",
+      "date_published": "2019-01-22T04:20:23+00:00",
+      "author": {
+        "name": "Michael Gattozzi",
+        "url": "https://mgattozzi.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f950f168-d74e-4b3a-b2f5-18546a7d282b",
+      "title": "Why aren't my Rust threads running?",
+      "content_text": "I got a bit tangled up while experimenting with threads and channels in Rust. The compiler prevented any undefined behavior or memory corruption, but it can only do so much. My problems came from a shaky understanding of the language’s fundamentals and the inherent complexity of parallel programming. Or, in my case, attempted parallel programming.",
+      "url": "https://esimmler.com/why-arent-my-rust-threads-running/",
+      "tweet_url": "https://twitter.com/tgecho/status/1086749657240358912",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Erik Simmler",
+        "url": "https://esimmler.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b7475efb-632c-4875-ab6b-d283e220a434",
+      "title": "Solving Advent of Code in Under a Second",
+      "content_text": "Algorithms and optimization to solve all Advent of Code 2018 puzzles in under one total second.",
+      "url": "https://www.forrestthewoods.com/blog/solving-advent-of-code-in-under-a-second/",
+      "tweet_url": "https://twitter.com/ForrestTheWoods/status/1092459425632116736",
+      "date_published": "2019-02-03T00:00:00+00:00",
+      "author": {
+        "name": "Forrest Smith",
+        "url": "https://www.forrestthewoods.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "f468c7cf-9fa8-493c-9354-88d5e460016c",
+      "title": "#Rust2019",
+      "content_text": "Rust has been my favorite programming language lately. These are my thoughts and opinions on the future of the project, in response to the #Rust2019 call for blog posts. I write about what I love about Rust and what I want to see from it.",
+      "url": "https://i.pristi.ga/2019/01/19/rust2019/",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Jasen Borisov",
+        "url": "https://i.pristi.ga/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "0cba574e-769b-491e-83de-cfa070b1b942",
       "title": "WebGL + Rust: Basic Water Tutorial",
       "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",

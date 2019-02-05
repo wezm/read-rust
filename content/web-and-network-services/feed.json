@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "76ad8f41-d0b9-4789-b45a-5cfa550aa7c3",
+      "title": "Exporting Serde types to TypeScript",
+      "content_text": "I built my first web application with Rust and WebAssembly back in 2017. At the time, support for compiling Rust with the wasm32-unknown-unknown target had just landed, letting you run Rust code in the browser with few modifications. The downside was that loading and interacting with WebAssembly might require you to explicitly allocate and track memory. You might even need to manually decode UTF-8 strings in JavaScript:",
+      "url": "http://timryan.org/2019/01/22/exporting-serde-types-to-typescript.html",
+      "date_published": "2019-01-22T16:00:00+00:00",
+      "author": {
+        "name": "Tim Ryan",
+        "url": "http://timryan.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "0cba574e-769b-491e-83de-cfa070b1b942",
       "title": "WebGL + Rust: Basic Water Tutorial",
       "content_text": "In this tutorial we’ll discuss the ideas and concepts behind rendering water and then talk through some demo code.",

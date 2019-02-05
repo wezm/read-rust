@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f468c7cf-9fa8-493c-9354-88d5e460016c",
+      "title": "#Rust2019",
+      "content_text": "Rust has been my favorite programming language lately. These are my thoughts and opinions on the future of the project, in response to the #Rust2019 call for blog posts. I write about what I love about Rust and what I want to see from it.",
+      "url": "https://i.pristi.ga/2019/01/19/rust2019/",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Jasen Borisov",
+        "url": "https://i.pristi.ga/"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
       "id": "2785bcea-bff1-46c3-913b-87888f79133c",
       "title": "Security as Rust 2019 goal",
       "content_text": "The goals and 2019 roadmap of Rust Secure Code Working Group",
