@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "e743cfa5-87bc-46d7-9dc6-693352d91e6a",
+      "title": "Letting the compiler tell you what to do - an example using Rust",
+      "content_text": "If you’ve ever wrote code in a compiled language (C, C++, Java, …), you are probably used to compiler error messages, and you may think there are only here to prevent you from making mistakes. Well sometimes you can also use compiler error messages to design and implement new features. Let me show you with a simple command-line program written in Rust.",
+      "url": "https://dmerej.info/blog/post/letting-the-compiler-tell-you-what-to-do/",
+      "date_published": "2019-01-12T12:26:27+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09b9f354-aeed-4d48-b859-9c63fcdddb2e",
+      "title": "Polonius and the case of the hereditary harrop predicate",
+      "content_text": "In my previous post about Polonius and subregion obligations, I mentioned that there needs to be a follow-up to deal with higher-ranked subregions. This post digs a bit more into what the problem is in the first place and sketches out the general solution I have in mind, but doesn’t give any concrete algorithms for it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/21/hereditary-harrop-region-constraints/",
+      "date_published": "2019-01-21T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "892a8c46-fee3-48d8-bc78-69a13a9a5c8d",
+      "title": "The steps towards rustc, the great optimiser",
+      "content_text": "It has been more than 3 years now since the MIR ini­ti­at­ive has been ac­cep­ted. Cur­rently rustc has a num­ber of MIR op­tim­isa­tions: a simple in­lin­er, ba­sic con­stant and copy propaga­tion, a single in­struc­tion com­bin­a­tion rule, a few graph sim­pli­fic­a­tion and clean up passes… The pat­tern here is clear – most of the op­tim­isa­tions we cur­rently have are ba­sic and lim­ited in their po­tency. Given the pace at which we man­aged to bring up MIR in the first place, one would be right to ex­pect… some­thing more.\n\nAs some­body who has made an at­tempt and failed to im­ple­ment a num­ber of data­flow-­based op­tim­isa­tions (a­mong other thing­s), I con­sider my­self fairly qual­i­fied to haz­ard a guess as to what is the reason for the cur­rent state we are at. Here it goes.",
+      "url": "https://kazlauskas.me/entries/the-road-to-bestest-optimiser.html",
+      "date_published": "2019-02-01T00:00:00+00:00",
+      "author": {
+        "name": "Simonas Kazlauskas",
+        "url": "https://kazlauskas.me/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8788ae2c-06ea-4226-a28e-8755b31c6860",
+      "title": "Refactoring allowed URLs in librsvg",
+      "content_text": "While in the middle of converting librsvg's code that processes XML from C to Rust, I went into a digression that has to do with the way librsvg decides which files are allowed to be referenced from within an SVG. There was a central function rsvg_io_acquire_stream() which took a URL as a string. The code assumed that that URL had been first validated with a function called allow_load(url). Rust made it possible to actually make it impossible to acquire a disallowed URL.",
+      "url": "https://people.gnome.org/~federico/blog/refactoring-allowed-urls-in-librsvg.html",
+      "date_published": "2018-11-29T11:31:37-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "040a805b-f794-4df1-810f-5d3607a3f274",
       "title": "Cargo's next few years",
       "content_text": "The Cargo team have been thinking about and discussing long-term plans for Cargo. In this post I'll talk about what we hope Cargo will look like around the time of the next edition (assuming there is another edition and that it happens in about three years, neither of which is confirmed). There will be another post soon on more concrete plans for this year, including some kind of roadmap.",

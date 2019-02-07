@@ -10,6 +10,123 @@
   },
   "items": [
     {
+      "id": "e743cfa5-87bc-46d7-9dc6-693352d91e6a",
+      "title": "Letting the compiler tell you what to do - an example using Rust",
+      "content_text": "If you’ve ever wrote code in a compiled language (C, C++, Java, …), you are probably used to compiler error messages, and you may think there are only here to prevent you from making mistakes. Well sometimes you can also use compiler error messages to design and implement new features. Let me show you with a simple command-line program written in Rust.",
+      "url": "https://dmerej.info/blog/post/letting-the-compiler-tell-you-what-to-do/",
+      "date_published": "2019-01-12T12:26:27+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4f4e3ed0-1852-4954-9cde-1d74c7e54b6f",
+      "title": "Learning the Rust Programming Language",
+      "content_text": "Rust has been on my radar for some time and I aspire to become proficient with the Rust Programming Language in 2019. Initially, my interest in Rust was sparked by the memory ownership model. With WASM support going mainstream I thought I’d give Rust a deeper look and have enjoyed my experience so far. This post is a living post that will continue to be revised and appended as I learn more about Rust.",
+      "url": "https://www.aarongreenlee.com/blog/beginning-to-learn-rust-programming-language-rustlang/",
+      "tweet_url": "https://twitter.com/aarongreenlee/status/1087460155250429954",
+      "date_published": "2019-01-21T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Greenlee",
+        "url": "https://www.aarongreenlee.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "09b9f354-aeed-4d48-b859-9c63fcdddb2e",
+      "title": "Polonius and the case of the hereditary harrop predicate",
+      "content_text": "In my previous post about Polonius and subregion obligations, I mentioned that there needs to be a follow-up to deal with higher-ranked subregions. This post digs a bit more into what the problem is in the first place and sketches out the general solution I have in mind, but doesn’t give any concrete algorithms for it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/21/hereditary-harrop-region-constraints/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1087708610463965184",
+      "date_published": "2019-01-21T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "daf60963-a30c-4e74-82cb-123d2faac884",
+      "title": "Using Rust for creating Ubuntu Touch apps",
+      "content_text": "This post aims to give you a small introduction to using the Rust programming language for writing apps for Ubuntu touch.",
+      "url": "https://timsueberkrueb.io/posts/2019/01/18/rust-ubuntu-touch-app-dev/",
+      "date_published": "2019-01-20T00:00:00+00:00",
+      "author": {
+        "name": "Tim Süberkrüb",
+        "url": "https://timsueberkrueb.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "892a8c46-fee3-48d8-bc78-69a13a9a5c8d",
+      "title": "The steps towards rustc, the great optimiser",
+      "content_text": "It has been more than 3 years now since the MIR ini­ti­at­ive has been ac­cep­ted. Cur­rently rustc has a num­ber of MIR op­tim­isa­tions: a simple in­lin­er, ba­sic con­stant and copy propaga­tion, a single in­struc­tion com­bin­a­tion rule, a few graph sim­pli­fic­a­tion and clean up passes… The pat­tern here is clear – most of the op­tim­isa­tions we cur­rently have are ba­sic and lim­ited in their po­tency. Given the pace at which we man­aged to bring up MIR in the first place, one would be right to ex­pect… some­thing more.\n\nAs some­body who has made an at­tempt and failed to im­ple­ment a num­ber of data­flow-­based op­tim­isa­tions (a­mong other thing­s), I con­sider my­self fairly qual­i­fied to haz­ard a guess as to what is the reason for the cur­rent state we are at. Here it goes.",
+      "url": "https://kazlauskas.me/entries/the-road-to-bestest-optimiser.html",
+      "date_published": "2019-02-01T00:00:00+00:00",
+      "author": {
+        "name": "Simonas Kazlauskas",
+        "url": "https://kazlauskas.me/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8788ae2c-06ea-4226-a28e-8755b31c6860",
+      "title": "Refactoring allowed URLs in librsvg",
+      "content_text": "While in the middle of converting librsvg's code that processes XML from C to Rust, I went into a digression that has to do with the way librsvg decides which files are allowed to be referenced from within an SVG. There was a central function rsvg_io_acquire_stream() which took a URL as a string. The code assumed that that URL had been first validated with a function called allow_load(url). Rust made it possible to actually make it impossible to acquire a disallowed URL.",
+      "url": "https://people.gnome.org/~federico/blog/refactoring-allowed-urls-in-librsvg.html",
+      "date_published": "2018-11-29T11:31:37-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "559ed8de-7e83-4caa-aef1-f2b5fd7faa01",
+      "title": "Notion: the hassle-free JavaScript toolchain manager",
+      "content_text": "Reliable: Ensure everyone in your project uses an identical dev environment, from the Node version to your preferred package manager.\n\nUniversal: Enjoy the same command-line experience in every shell and every major operating system.\n\nFast: Notion is implemented in Rust and deployed as a static executable for maximum performance.",
+      "url": "https://github.com/notion-cli/notion",
+      "tweet_url": "https://twitter.com/littlecalculist/status/1092866261111922688",
+      "date_published": "2019-02-06T06:23:00+00:00",
+      "author": {
+        "name": "LinkedIn Engineering",
+        "url": "https://github.com/notion-cli"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c032fc9f-79b2-454f-914f-a32fda90092d",
+      "title": "Embedded Rust Experiments - Is my STM32 MCU running fast?",
+      "content_text": "So, I have this STM32VLDISCOVERY dev board. It has the STM32F100RBT6B MCU, capable of running at 24MHz. On the board, there is a 8MHz crystal. Naturally, when you are new to microcontrollers (like me), you may have a few questions: When we upload a program on this development board, at what speed it is actually running? Is it using this external crystal? Why is this crystal 8MHz if the MCU is capable of 24MHz? If our program is not running at the maximum speed, how do we make it run at the maximum speed?",
+      "url": "https://nercury.github.io/rust/embedded/experiments/2019/01/27/rust-embedded-02-measuring-the-clock.html",
+      "tweet_url": "https://twitter.com/nercury/status/1089500979517632513",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Nerijus Arlauskas",
+        "url": "http://nercury.github.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Performance"
+      ]
+    },
+    {
       "id": "b4901fae-b805-4020-b425-47d2fc82b14d",
       "title": "My Rust Powered linux.conf.au e-Paper Badge",
       "content_text": "I attended linux.conf.au (for the first time) in Christchurch, New Zealand. It’s a week long conference covering Linux, open source software and hardware, privacy, security and much more. The theme this year was IoT. In line with the theme I built a digital conference badge to take to the conference. It used a tri-colour e-Paper display and was powered by a Rust program I built running on Raspbian Linux. This post describes how it was built, how it works, and how it fared at the conference. The source code is on GitHub.",

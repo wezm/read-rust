@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "daf60963-a30c-4e74-82cb-123d2faac884",
+      "title": "Using Rust for creating Ubuntu Touch apps",
+      "content_text": "This post aims to give you a small introduction to using the Rust programming language for writing apps for Ubuntu touch.",
+      "url": "https://timsueberkrueb.io/posts/2019/01/18/rust-ubuntu-touch-app-dev/",
+      "date_published": "2019-01-20T00:00:00+00:00",
+      "author": {
+        "name": "Tim Süberkrüb",
+        "url": "https://timsueberkrueb.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "559ed8de-7e83-4caa-aef1-f2b5fd7faa01",
+      "title": "Notion: the hassle-free JavaScript toolchain manager",
+      "content_text": "Reliable: Ensure everyone in your project uses an identical dev environment, from the Node version to your preferred package manager.\n\nUniversal: Enjoy the same command-line experience in every shell and every major operating system.\n\nFast: Notion is implemented in Rust and deployed as a static executable for maximum performance.",
+      "url": "https://github.com/notion-cli/notion",
+      "date_published": "2019-02-06T06:23:00+00:00",
+      "author": {
+        "name": "LinkedIn Engineering",
+        "url": "https://github.com/notion-cli"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "8a353b9f-bb7e-40d7-a5ab-fd5372ad76f4",
       "title": "Packaging a game for Windows, Mac, and Linux with Rust.",
       "content_text": "Building a cross platform game for desktop operating systems in Rust is fairly doable without needing much platform specific code. Glutin is a Rust alternative to SDL for handling window creation & input. GFX handles most of the graphics API abstraction for you. You still write the shaders, but I was able to just use OpenGL and get it working on Windows 10, MacOS, and Ubuntu.",

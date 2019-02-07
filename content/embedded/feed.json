@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "c032fc9f-79b2-454f-914f-a32fda90092d",
+      "title": "Embedded Rust Experiments - Is my STM32 MCU running fast?",
+      "content_text": "So, I have this STM32VLDISCOVERY dev board. It has the STM32F100RBT6B MCU, capable of running at 24MHz. On the board, there is a 8MHz crystal. Naturally, when you are new to microcontrollers (like me), you may have a few questions: When we upload a program on this development board, at what speed it is actually running? Is it using this external crystal? Why is this crystal 8MHz if the MCU is capable of 24MHz? If our program is not running at the maximum speed, how do we make it run at the maximum speed?",
+      "url": "https://nercury.github.io/rust/embedded/experiments/2019/01/27/rust-embedded-02-measuring-the-clock.html",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Nerijus Arlauskas",
+        "url": "http://nercury.github.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Performance"
+      ]
+    },
+    {
       "id": "b4901fae-b805-4020-b425-47d2fc82b14d",
       "title": "My Rust Powered linux.conf.au e-Paper Badge",
       "content_text": "I attended linux.conf.au (for the first time) in Christchurch, New Zealand. It’s a week long conference covering Linux, open source software and hardware, privacy, security and much more. The theme this year was IoT. In line with the theme I built a digital conference badge to take to the conference. It used a tri-colour e-Paper display and was powered by a Rust program I built running on Raspbian Linux. This post describes how it was built, how it works, and how it fared at the conference. The source code is on GitHub.",

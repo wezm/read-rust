@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4f4e3ed0-1852-4954-9cde-1d74c7e54b6f",
+      "title": "Learning the Rust Programming Language",
+      "content_text": "Rust has been on my radar for some time and I aspire to become proficient with the Rust Programming Language in 2019. Initially, my interest in Rust was sparked by the memory ownership model. With WASM support going mainstream I thought I’d give Rust a deeper look and have enjoyed my experience so far. This post is a living post that will continue to be revised and appended as I learn more about Rust.",
+      "url": "https://www.aarongreenlee.com/blog/beginning-to-learn-rust-programming-language-rustlang/",
+      "date_published": "2019-01-21T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Greenlee",
+        "url": "https://www.aarongreenlee.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "f941f6bf-eaf1-428a-a5d0-f8e35d504a3a",
       "title": "Supernova: rustfmt",
       "content_text": "I previously wrote about Supernova, and my experience contributing to a project in a language I had never used before. Although my PR is still WIP status (I need to find time to get a solid grasp on Date/Time stuff in Rust, specifically using the chrono crate), I picked up some smaller issues in the interim to stay involved.\n\nMy most recent PR’s involved working off of a previous PR which introduced code linting with clippy, and taking it one step further by introducing rustfmt to help ensure consistent coding style in our CI pipeline.",
