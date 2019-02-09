@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e1fdb8ec-e1f8-4718-ba5d-bb3bdf897506",
+      "title": "Rust for Node developers",
+      "content_text": "An introduction to the Rust programming language for Node developers.",
+      "url": "https://github.com/Mercateo/rust-for-node-developers",
+      "date_published": "2019-01-31T23:59:00+00:00",
+      "author": {
+        "name": "Donald Pipowitch",
+        "url": "https://github.com/Mercateo"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "4f4e3ed0-1852-4954-9cde-1d74c7e54b6f",
       "title": "Learning the Rust Programming Language",
       "content_text": "Rust has been on my radar for some time and I aspire to become proficient with the Rust Programming Language in 2019. Initially, my interest in Rust was sparked by the memory ownership model. With WASM support going mainstream I thought I’d give Rust a deeper look and have enjoyed my experience so far. This post is a living post that will continue to be revised and appended as I learn more about Rust.",

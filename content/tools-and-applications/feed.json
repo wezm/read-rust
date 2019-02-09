@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7bbec28c-a388-4372-92d9-4d2082454d67",
+      "title": "Rust powered CLI apk decompiler",
+      "content_text": "Lately I’ve been needing to reverse engineer some apks and I’ve been manually using some third-party tools to do so. But, how could we speed up the process? A little bit of Rust can be very helpful!",
+      "url": "https://robertohuertas.com/2019/02/03/rust_cli_apk_decompiler/",
+      "date_published": "2019-02-03T00:00:00+00:00",
+      "author": {
+        "name": "Roberto Huertas",
+        "url": "https://robertohuertas.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2eb82c9e-d427-4beb-9a07-e2fc2f5bb9df",
+      "title": "A Python Interpreter written in Rust",
+      "content_text": "Goals: Full Python-3 environment entirely in Rust (not CPython bindings). A clean implementation without compatibility hacks",
+      "url": "https://github.com/RustPython/RustPython",
+      "date_published": "2019-02-06T00:00:00+00:00",
+      "author": {
+        "name": "RustPython",
+        "url": "https://github.com/RustPython/RustPython"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "daf60963-a30c-4e74-82cb-123d2faac884",
       "title": "Using Rust for creating Ubuntu Touch apps",
       "content_text": "This post aims to give you a small introduction to using the Rust programming language for writing apps for Ubuntu touch.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5e9f0f9a-99dc-4971-a8a2-9bd2a2cf4cce",
+      "title": "Rust on STM32: Blinking an LED",
+      "content_text": "All tutorials I found felt somehow outdated and I don't have the board used in the embedded Rust book. So I wanted to document how I got some Rust code running on the BluePill.",
+      "url": "https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/",
+      "date_published": "2019-02-06T01:00:00+01:00",
+      "author": {
+        "name": "Jonathan Klimt",
+        "url": "https://jonathanklimt.de/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "c032fc9f-79b2-454f-914f-a32fda90092d",
       "title": "Embedded Rust Experiments - Is my STM32 MCU running fast?",
       "content_text": "So, I have this STM32VLDISCOVERY dev board. It has the STM32F100RBT6B MCU, capable of running at 24MHz. On the board, there is a 8MHz crystal. Naturally, when you are new to microcontrollers (like me), you may have a few questions: When we upload a program on this development board, at what speed it is actually running? Is it using this external crystal? Why is this crystal 8MHz if the MCU is capable of 24MHz? If our program is not running at the maximum speed, how do we make it run at the maximum speed?",

@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "7bbec28c-a388-4372-92d9-4d2082454d67",
+      "title": "Rust powered CLI apk decompiler",
+      "content_text": "Lately I’ve been needing to reverse engineer some apks and I’ve been manually using some third-party tools to do so. But, how could we speed up the process? A little bit of Rust can be very helpful!",
+      "url": "https://robertohuertas.com/2019/02/03/rust_cli_apk_decompiler/",
+      "date_published": "2019-02-03T00:00:00+00:00",
+      "author": {
+        "name": "Roberto Huertas",
+        "url": "https://robertohuertas.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "e1fdb8ec-e1f8-4718-ba5d-bb3bdf897506",
+      "title": "Rust for Node developers",
+      "content_text": "An introduction to the Rust programming language for Node developers.",
+      "url": "https://github.com/Mercateo/rust-for-node-developers",
+      "date_published": "2019-01-31T23:59:00+00:00",
+      "author": {
+        "name": "Donald Pipowitch",
+        "url": "https://github.com/Mercateo"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "30602bae-8957-4b3a-92d2-eec9e6f2fddd",
+      "title": "Salsa: Incremental recompilation",
+      "content_text": "So for the last couple of months or so, I’ve been hacking in my spare time on this library named salsa, along with a number of awesome other folks. Salsa basically extracts the incremental recompilation techniques that we built for rustc into a general-purpose framework that can be used by other programs. Salsa is developing quickly: with the publishing of v0.10.0, we saw a big step up in the overall ergonomics, and I think the current interface is starting to feel very nice.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/01/29/salsa-incremental-recompilation/",
+      "date_published": "2019-01-29T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a6ed1c0-83d7-4392-9d2a-9b749a5433fe",
+      "title": "Rust: regret-less concurrency",
+      "content_text": "Rust offers the promise of “fearless concurrency”, and delivers on it through memory safety. Yet this safety doesn’t guarantee code that is easy to maintain. If one is not “fearful” of complexity, concurrency can easily become a story of regrets. Can we get a “regret-less” kind of concurrency?",
+      "url": "https://medium.com/@polyglot_factotum/rust-regret-less-concurrency-2238b9e53333",
+      "date_published": "2019-02-02T12:15:32.811+00:00",
+      "author": {
+        "name": "Polyglot Factotum",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2eb82c9e-d427-4beb-9a07-e2fc2f5bb9df",
+      "title": "A Python Interpreter written in Rust",
+      "content_text": "Goals: Full Python-3 environment entirely in Rust (not CPython bindings). A clean implementation without compatibility hacks",
+      "url": "https://github.com/RustPython/RustPython",
+      "date_published": "2019-02-06T00:00:00+00:00",
+      "author": {
+        "name": "RustPython",
+        "url": "https://github.com/RustPython/RustPython"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "7028c8de-9b0d-4f0f-a74e-0e07126cd80e",
+      "title": "Killing unwrap()",
+      "content_text": "A collection of snippets to avoid unnecessary calls to unwrap() in Rust.",
+      "url": "https://dmerej.info/blog/post/killing-unwrap/",
+      "date_published": "2019-01-30T19:11:26+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/humans.txt"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5b4334f5-08f9-450c-88cf-20fe91993cdc",
+      "title": "Writing Mails from Rust (1/3): Mail in general",
+      "content_text": "This is the first part in a three part blog post about (e-)mails and how to create, encode and send them using the mail crate (a library).",
+      "url": "https://blog.1aim.com/post/002-mail-1-intro/",
+      "date_published": "2019-01-28T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Korber",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2d51794e-d4d6-44a1-a2ab-f04940842e84",
+      "title": "Performance of Rust's match vs. lookup tables",
+      "content_text": "I’ve been getting into bioinformatics algorithms lately and ran across an interesting pull request that improved performance by changing a Rust match expression to a lookup. This felt quite surprising to me since, well, the match is so simple — why isn’t the compiler already generating optimal code for it?",
+      "url": "https://kevinlynagh.com/notes/match-vs-lookup/",
+      "date_published": "2019-01-22T00:00:00+00:00",
+      "author": {
+        "name": "Kevin Lynagh",
+        "url": "https://kevinlynagh.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "5e9f0f9a-99dc-4971-a8a2-9bd2a2cf4cce",
+      "title": "Rust on STM32: Blinking an LED",
+      "content_text": "All tutorials I found felt somehow outdated and I don't have the board used in the embedded Rust book. So I wanted to document how I got some Rust code running on the BluePill.",
+      "url": "https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/",
+      "date_published": "2019-02-06T01:00:00+01:00",
+      "author": {
+        "name": "Jonathan Klimt",
+        "url": "https://jonathanklimt.de/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "e743cfa5-87bc-46d7-9dc6-693352d91e6a",
       "title": "Letting the compiler tell you what to do - an example using Rust",
       "content_text": "If you’ve ever wrote code in a compiled language (C, C++, Java, …), you are probably used to compiler error messages, and you may think there are only here to prevent you from making mistakes. Well sometimes you can also use compiler error messages to design and implement new features. Let me show you with a simple command-line program written in Rust.",

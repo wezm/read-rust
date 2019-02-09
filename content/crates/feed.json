@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5b4334f5-08f9-450c-88cf-20fe91993cdc",
+      "title": "Writing Mails from Rust (1/3): Mail in general",
+      "content_text": "This is the first part in a three part blog post about (e-)mails and how to create, encode and send them using the mail crate (a library).",
+      "url": "https://blog.1aim.com/post/002-mail-1-intro/",
+      "date_published": "2019-01-28T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Korber",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "04445dcf-4cd1-47ee-b40e-58d17bdf0a9c",
       "title": "paw at Rust GUIs",
       "content_text": "The recent release of Flutter 1.0 was quite exciting for me. I’m not much of anGUI person nor do I make a lot of mobile apps but after looking through some examples, I started to like their take on UI frameworks. In particular, the three aspects mentioned above seemed to be handled very well!\n\nBack to Rust. I wondered how to adopt a similar API under the strict eyes 👀 of the borrow- and typechecker — which resulted in the experimental UI framework paw (in progress..)",
