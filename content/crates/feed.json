@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "6b4003d7-f0ce-4105-8ed5-f4bea94f77b9",
+      "title": "Metered-rs: fast, ergonomic metrics for Rust",
+      "content_text": "I’m pleased to announce the release of metered-rs, a crate that helps live measurements of code, inspired by Coda Hale’s Java metrics, with the philosophy that measuring program performance at runtime is valuable, and independent from benchmarking.",
+      "url": "https://users.rust-lang.org/t/metered-rs-fast-ergonomic-metrics-for-rust/25061",
+      "date_published": "2019-02-07T18:14:21+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://twitter.com/simach"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5e8e4feb-2bb8-4337-bfba-a71003c797ed",
+      "title": "First release of ieee802154 crate - Partial implementation of the IEEE 802.15.4 standard",
+      "content_text": "I’ve released the ieee802154 crate, a partial implementation of the IEEE 802.15.4 standard, earlier this week.  IEEE 802.15.4 is a standard for low-rate wireless personal area networks. It is used as the basis for higher-level protocols like 6LoWPAN, Zigbee, or Thread. The ieee802154 crate is only a partial implementation of this standard, but I hope it can be used as a basis for future work by extending it as required.",
+      "url": "https://users.rust-lang.org/t/first-release-of-ieee802154-0-1-partial-implementation-of-the-ieee-802-15-4-standard/25094",
+      "date_published": "2019-02-08T14:24:56+00:00",
+      "author": {
+        "name": "Hanno Braun",
+        "url": "https://users.rust-lang.org/u/hannobraun"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
       "id": "5b4334f5-08f9-450c-88cf-20fe91993cdc",
       "title": "Writing Mails from Rust (1/3): Mail in general",
       "content_text": "This is the first part in a three part blog post about (e-)mails and how to create, encode and send them using the mail crate (a library).",

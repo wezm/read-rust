@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2b4a2862-e8ba-427b-aa27-c206356f5700",
+      "title": "Creating 🌊 web-server .deb binary with Rust",
+      "content_text": "We are going to make a demo linux web-server with systemd, config file and installable .deb binary in Rust.",
+      "url": "https://gill.net.in/posts/creating-web-server-deb-binary-with-rust/",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://gill.net.in/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "b88f26ba-23c6-4d9b-9559-7ccc6477c7af",
       "title": "Writing an OS in Rust - Introduction to Paging",
       "content_text": "This post introduces paging, a very common memory management scheme that we will also use for our operating system. It explains why memory isolation is needed, how segmentation works, what virtual memory is, and how paging solves memory fragmentation issues. It also explores the layout of multilevel page tables on the x86_64 architecture.",

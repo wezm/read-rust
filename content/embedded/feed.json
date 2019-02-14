@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "5e8e4feb-2bb8-4337-bfba-a71003c797ed",
+      "title": "First release of ieee802154 crate - Partial implementation of the IEEE 802.15.4 standard",
+      "content_text": "I’ve released the ieee802154 crate, a partial implementation of the IEEE 802.15.4 standard, earlier this week.  IEEE 802.15.4 is a standard for low-rate wireless personal area networks. It is used as the basis for higher-level protocols like 6LoWPAN, Zigbee, or Thread. The ieee802154 crate is only a partial implementation of this standard, but I hope it can be used as a basis for future work by extending it as required.",
+      "url": "https://users.rust-lang.org/t/first-release-of-ieee802154-0-1-partial-implementation-of-the-ieee-802-15-4-standard/25094",
+      "date_published": "2019-02-08T14:24:56+00:00",
+      "author": {
+        "name": "Hanno Braun",
+        "url": "https://users.rust-lang.org/u/hannobraun"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
       "id": "5e9f0f9a-99dc-4971-a8a2-9bd2a2cf4cce",
       "title": "Rust on STM32: Blinking an LED",
       "content_text": "All tutorials I found felt somehow outdated and I don't have the board used in the embedded Rust book. So I wanted to document how I got some Rust code running on the BluePill.",

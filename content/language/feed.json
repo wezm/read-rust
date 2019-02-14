@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "1c46694b-ae67-4596-9f46-0e9fd419f585",
+      "title": "No, the problem isn’t “bad coders”",
+      "content_text": "A recent blog article discussed the fact that 70% of all security bugs in Microsoft products are due to memory safety vulnerabilities. A lot of the comments I’ve seen on social media boil down to “The problem isn’t the use of a memory unsafe language, but that the programmers who wrote this code are bad.”\n\nIn this article, I’m going to look at a recent bug that was caught by the Rust compiler, which I think shows that not only is this assertion unreasonable but virtually impossible for reasons I haven’t seen discussed. While the example I’m going to give is about thread safety rather than memory safety, the arguments I’m going to present can be applied to both.",
+      "url": "https://medium.com/@sgrif/no-the-problem-isnt-bad-coders-ed4347810270",
+      "date_published": "2019-02-12T16:13:55.539+00:00",
+      "author": {
+        "name": "Sean Griffin",
+        "url": "https://medium.com/@sgrif"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "56014abd-0fd0-4b8c-91ba-734e4f16ddac",
+      "title": "Gtk-rs: how to have mutable object in a closure?",
+      "content_text": "I wanted, was to start the Gtk application with already generated image of the prime numbers spiral (contained in gtk::Image widget) and then be able to re-generate the image when user changed something. It could be \"Generate\" click action for instance to show image in different resolution or color. The problem with the button closure was that when I added the Gtk image to the box_vert container, the next time the button was pressed, the code was supposed to remove existing image and add new one, but it didn't.",
+      "url": "http://sireliah.com/niusy/gtk_rust_mutable_object_in_closure/",
+      "date_published": "2019-02-12T21:58:00+00:00",
+      "author": {
+        "name": "Piotr Gołąb",
+        "url": "http://sireliah.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03bb4da4-48ab-4e1a-a092-be737761fd6f",
+      "title": "All-Hands 2019 Recap",
+      "content_text": "Last week, I was in Berlin at the Rust All-Hands 2019. It was great! I will miss nerding out in discussions about type theory and having every question answered by just going to the person who’s the expert in that area, and asking them. In this post, I am summarizing the progress we made in my main areas of interest and the discussions I was involved in—this is obviously just a small slice of all the things that happened.",
+      "url": "https://www.ralfj.de/blog/2019/02/12/all-hands-recap.html",
+      "date_published": "2019-02-12T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3c0e89db-b8b3-44bc-a952-4cf406146fae",
+      "title": "Are you still using `println` in Rust for debugging?",
+      "content_text": "In this blog, I will explain about new debugging macro dbg, added in Rust 1.32.0. This is a macro for quick and dirty debugging with which you can inspect the value of a given expression.",
+      "url": "https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/",
+      "date_published": "2019-02-11T04:20:21+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "30602bae-8957-4b3a-92d2-eec9e6f2fddd",
       "title": "Salsa: Incremental recompilation",
       "content_text": "So for the last couple of months or so, I’ve been hacking in my spare time on this library named salsa, along with a number of awesome other folks. Salsa basically extracts the incremental recompilation techniques that we built for rustc into a general-purpose framework that can be used by other programs. Salsa is developing quickly: with the publishing of v0.10.0, we saw a big step up in the overall ergonomics, and I think the current interface is starting to feel very nice.",

@@ -10,6 +10,147 @@
   },
   "items": [
     {
+      "id": "6b4003d7-f0ce-4105-8ed5-f4bea94f77b9",
+      "title": "Metered-rs: fast, ergonomic metrics for Rust",
+      "content_text": "I’m pleased to announce the release of metered-rs, a crate that helps live measurements of code, inspired by Coda Hale’s Java metrics, with the philosophy that measuring program performance at runtime is valuable, and independent from benchmarking.",
+      "url": "https://users.rust-lang.org/t/metered-rs-fast-ergonomic-metrics-for-rust/25061",
+      "date_published": "2019-02-07T18:14:21+00:00",
+      "author": {
+        "name": "Simon Chemouil",
+        "url": "https://twitter.com/simach"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "f2388917-1b08-4e6d-9051-daa496814ab1",
+      "title": "Hello, sandboxfs 0.1.0",
+      "content_text": "I am pleased to announce that the first release of sandboxfs, 0.1.0, is finally here! You can download the sources and prebuilt binaries from the 0.1.0 release page and you can read the installation instructions for more details.\n\nThe journey to this first release has been a long one. sandboxfs was first conceived over two years ago, was first announced in August 2017, showed its first promising results in April 2018, and has been undergoing a rewrite from Go to Rust.",
+      "url": "http://julio.meroh.net/2019/02/hello-sandboxfs-0.1.0.html",
+      "date_published": "2019-02-05T09:00:00-05:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "http://julio.meroh.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2b4a2862-e8ba-427b-aa27-c206356f5700",
+      "title": "Creating 🌊 web-server .deb binary with Rust",
+      "content_text": "We are going to make a demo linux web-server with systemd, config file and installable .deb binary in Rust.",
+      "url": "https://gill.net.in/posts/creating-web-server-deb-binary-with-rust/",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://gill.net.in/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "b6ca1619-6bdb-4efc-a043-ea73ed0e8336",
+      "title": "Auditing Rust Crypto: The First Hours",
+      "content_text": "Checklists are a simple yet effective component of security and safety procedures in various fields, from flight safety and surgery to network security, and of course cryptography. So here’s a couple of things you want to check when starting the audit of a crypto software written in Rust.",
+      "url": "https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/",
+      "date_published": "2019-02-07T14:00:15+00:00",
+      "author": {
+        "name": "https://research.kudelskisecurity.com/",
+        "url": "JP Aumasson"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "5e8e4feb-2bb8-4337-bfba-a71003c797ed",
+      "title": "First release of ieee802154 crate - Partial implementation of the IEEE 802.15.4 standard",
+      "content_text": "I’ve released the ieee802154 crate, a partial implementation of the IEEE 802.15.4 standard, earlier this week.  IEEE 802.15.4 is a standard for low-rate wireless personal area networks. It is used as the basis for higher-level protocols like 6LoWPAN, Zigbee, or Thread. The ieee802154 crate is only a partial implementation of this standard, but I hope it can be used as a basis for future work by extending it as required.",
+      "url": "https://users.rust-lang.org/t/first-release-of-ieee802154-0-1-partial-implementation-of-the-ieee-802-15-4-standard/25094",
+      "date_published": "2019-02-08T14:24:56+00:00",
+      "author": {
+        "name": "Hanno Braun",
+        "url": "https://users.rust-lang.org/u/hannobraun"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "a552df74-7e67-4b0a-9e12-a75afc9235b8",
+      "title": "Be part of ANSSI’s new « Guide to develop secure applications with Rust »",
+      "content_text": "Rust is an open source programming language which combines security, modernity and performance. As well, it is gradually being adopted in a large number of projects. To support developers, ANSSI offers a new \"Guide to develop secure applications with Rust\". This guide is intended to be a living document and it’s open to all contributions from the community. The object of this document is to provide hints and recommendations for secure applications development using the Rust programming language, that allow users to benefits of the good level of trust the Rust language already provides.",
+      "url": "https://www.ssi.gouv.fr/en/actualite/be-part-of-anssis-new-guide-to-develop-secure-applications-with-rust/",
+      "date_published": "2019-02-09T03:29:00+00:00",
+      "author": {
+        "name": "ANSSI",
+        "url": "https://www.ssi.gouv.fr/en/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "1c46694b-ae67-4596-9f46-0e9fd419f585",
+      "title": "No, the problem isn’t “bad coders”",
+      "content_text": "A recent blog article discussed the fact that 70% of all security bugs in Microsoft products are due to memory safety vulnerabilities. A lot of the comments I’ve seen on social media boil down to “The problem isn’t the use of a memory unsafe language, but that the programmers who wrote this code are bad.”\n\nIn this article, I’m going to look at a recent bug that was caught by the Rust compiler, which I think shows that not only is this assertion unreasonable but virtually impossible for reasons I haven’t seen discussed. While the example I’m going to give is about thread safety rather than memory safety, the arguments I’m going to present can be applied to both.",
+      "url": "https://medium.com/@sgrif/no-the-problem-isnt-bad-coders-ed4347810270",
+      "date_published": "2019-02-12T16:13:55.539+00:00",
+      "author": {
+        "name": "Sean Griffin",
+        "url": "https://medium.com/@sgrif"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "56014abd-0fd0-4b8c-91ba-734e4f16ddac",
+      "title": "Gtk-rs: how to have mutable object in a closure?",
+      "content_text": "I wanted, was to start the Gtk application with already generated image of the prime numbers spiral (contained in gtk::Image widget) and then be able to re-generate the image when user changed something. It could be \"Generate\" click action for instance to show image in different resolution or color. The problem with the button closure was that when I added the Gtk image to the box_vert container, the next time the button was pressed, the code was supposed to remove existing image and add new one, but it didn't.",
+      "url": "http://sireliah.com/niusy/gtk_rust_mutable_object_in_closure/",
+      "date_published": "2019-02-12T21:58:00+00:00",
+      "author": {
+        "name": "Piotr Gołąb",
+        "url": "http://sireliah.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "03bb4da4-48ab-4e1a-a092-be737761fd6f",
+      "title": "All-Hands 2019 Recap",
+      "content_text": "Last week, I was in Berlin at the Rust All-Hands 2019. It was great! I will miss nerding out in discussions about type theory and having every question answered by just going to the person who’s the expert in that area, and asking them. In this post, I am summarizing the progress we made in my main areas of interest and the discussions I was involved in—this is obviously just a small slice of all the things that happened.",
+      "url": "https://www.ralfj.de/blog/2019/02/12/all-hands-recap.html",
+      "date_published": "2019-02-12T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3c0e89db-b8b3-44bc-a952-4cf406146fae",
+      "title": "Are you still using `println` in Rust for debugging?",
+      "content_text": "In this blog, I will explain about new debugging macro dbg, added in Rust 1.32.0. This is a macro for quick and dirty debugging with which you can inspect the value of a given expression.",
+      "url": "https://blog.knoldus.com/are-you-still-using-println-in-rust-for-debugging/",
+      "date_published": "2019-02-11T04:20:21+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "7bbec28c-a388-4372-92d9-4d2082454d67",
       "title": "Rust powered CLI apk decompiler",
       "content_text": "Lately I’ve been needing to reverse engineer some apks and I’ve been manually using some third-party tools to do so. But, how could we speed up the process? A little bit of Rust can be very helpful!",

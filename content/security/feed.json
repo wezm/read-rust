@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b6ca1619-6bdb-4efc-a043-ea73ed0e8336",
+      "title": "Auditing Rust Crypto: The First Hours",
+      "content_text": "Checklists are a simple yet effective component of security and safety procedures in various fields, from flight safety and surgery to network security, and of course cryptography. So here’s a couple of things you want to check when starting the audit of a crypto software written in Rust.",
+      "url": "https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/",
+      "date_published": "2019-02-07T14:00:15+00:00",
+      "author": {
+        "name": "https://research.kudelskisecurity.com/",
+        "url": "JP Aumasson"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a552df74-7e67-4b0a-9e12-a75afc9235b8",
+      "title": "Be part of ANSSI’s new « Guide to develop secure applications with Rust »",
+      "content_text": "Rust is an open source programming language which combines security, modernity and performance. As well, it is gradually being adopted in a large number of projects. To support developers, ANSSI offers a new \"Guide to develop secure applications with Rust\". This guide is intended to be a living document and it’s open to all contributions from the community. The object of this document is to provide hints and recommendations for secure applications development using the Rust programming language, that allow users to benefits of the good level of trust the Rust language already provides.",
+      "url": "https://www.ssi.gouv.fr/en/actualite/be-part-of-anssis-new-guide-to-develop-secure-applications-with-rust/",
+      "date_published": "2019-02-09T03:29:00+00:00",
+      "author": {
+        "name": "ANSSI",
+        "url": "https://www.ssi.gouv.fr/en/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "2785bcea-bff1-46c3-913b-87888f79133c",
       "title": "Security as Rust 2019 goal",
       "content_text": "The goals and 2019 roadmap of Rust Secure Code Working Group",
