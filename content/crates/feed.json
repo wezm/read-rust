@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0a429d63-c63c-4161-8960-c83915c01b26",
+      "title": "Lyon in 2018",
+      "content_text": "In 2018 my activity on the project has varied depending on the time and energy I have had left after work and other activities. As it turns out, working on getting WebRender shipped in Firefox is at the same time amazing and very demanding, and what's left of my brain after a good day of work isn't always up to some of the ambitions I have planned for lyon. Fortunately I am not the only one who contributed to the project, and while progress was slow on the most ambitious plans, I did spend some time on smaller features and polish.\n\nI'll get to these big plans towards the end of this post. In the mean time let's look at some of the highlights of what changed in lyon in 2018.",
+      "url": "https://nical.github.io/posts/lyon-2018.html",
+      "date_published": "2019-02-17T00:00:00+01:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "6b4003d7-f0ce-4105-8ed5-f4bea94f77b9",
       "title": "Metered-rs: fast, ergonomic metrics for Rust",
       "content_text": "I’m pleased to announce the release of metered-rs, a crate that helps live measurements of code, inspired by Coda Hale’s Java metrics, with the philosophy that measuring program performance at runtime is valuable, and independent from benchmarking.",

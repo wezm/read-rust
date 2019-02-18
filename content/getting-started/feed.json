@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9700147a-735e-4903-b9fb-f91d6de54fe0",
+      "title": "A brief introduction to Rust",
+      "content_text": "I heard of Rust back in 2015 at a meetup. I have since spent time with Rust on and off. In 2018, I had more time to explore Rust. Thinking of using blogging as a learning tool while going further down the rabbit hole of Rust, I setup this blog. In this post, I would like to briefly walk through some important features of the language.",
+      "url": "https://odetorust.com/a-brief-introduction-to-rust/",
+      "date_published": "2019-02-14T20:25:00+00:00",
+      "author": {
+        "name": "Nyi Nyi Than",
+        "url": "https://odetorust.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e1fdb8ec-e1f8-4718-ba5d-bb3bdf897506",
       "title": "Rust for Node developers",
       "content_text": "An introduction to the Rust programming language for Node developers.",

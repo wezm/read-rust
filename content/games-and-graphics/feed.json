@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "54a69419-caf9-408f-bd41-ab6ee7897b92",
+      "title": "My Tour of Rust – Day 4 – Ray Tracing Part 2",
+      "content_text": "Learning Rust through the porting of the code from Peter Shirley's Ray Tracing in a Weekend. Focused on Polymorphism, Ownership and Traits in Rust.",
+      "url": "https://rushtonality.com/2019/02/15/my-tour-of-rust-day-4-ray-tracing-part-2/",
+      "date_published": "2019-02-15T20:13:45+00:00",
+      "author": {
+        "name": "Stephen Rushton",
+        "url": "https://rushtonality.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "8a353b9f-bb7e-40d7-a5ab-fd5372ad76f4",
       "title": "Packaging a game for Windows, Mac, and Linux with Rust.",
       "content_text": "Building a cross platform game for desktop operating systems in Rust is fairly doable without needing much platform specific code. Glutin is a Rust alternative to SDL for handling window creation & input. GFX handles most of the graphics API abstraction for you. You still write the shaders, but I was able to just use OpenGL and get it working on Windows 10, MacOS, and Ubuntu.",

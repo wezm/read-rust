@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "09067d7b-54fc-4555-9e1f-a6622ea5e390",
+      "title": "Replacing a hot path in your app's JavaScript with WebAssembly",
+      "content_text": "In my previous articles I talked about how WebAssembly allows you to bring the library ecosystem of C/C++ to the web. One app that makes extensive use of C/C++ libraries is squoosh, our web app that allows you compress images with a variety of codecs that have been compiled from C++ to WebAssembly.\n\nIn my experience, most performance problems on the web are caused by forced layout and excessive paint but every now and then an app needs to do a computationally expensive task that takes a lot of time. WebAssembly can help here.",
+      "url": "https://developers.google.com/web/updates/2019/02/hotpath-with-wasm",
+      "date_published": "2019-02-15T07:38:00+00:00",
+      "author": {
+        "name": "Surma",
+        "url": "https://developers.google.com/web/resources/contributors/surma"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9496d523-3ad4-42ac-a6eb-183ed3d55713",
+      "title": "Why should you use Rust in WebAssembly?",
+      "content_text": "WebAssembly (Wasm) is a technology that has the chance to reshape how we build apps for the browser. Not only will it allow us to build whole new classes of web applications, but it will also allow us to make existing apps written in JavaScript even more performant.\n\nIn this article about the state of the Rust and Wasm ecosystem, I'll try to explain why Rust is the language that can unlock the true potential of WebAssembly.",
+      "url": "https://opensource.com/article/19/2/why-use-rust-webassembly",
+      "date_published": "2019-02-15T03:01:00-05:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "76ad8f41-d0b9-4789-b45a-5cfa550aa7c3",
       "title": "Exporting Serde types to TypeScript",
       "content_text": "I built my first web application with Rust and WebAssembly back in 2017. At the time, support for compiling Rust with the wasm32-unknown-unknown target had just landed, letting you run Rust code in the browser with few modifications. The downside was that loading and interacting with WebAssembly might require you to explicitly allocate and track memory. You might even need to manually decode UTF-8 strings in JavaScript:",

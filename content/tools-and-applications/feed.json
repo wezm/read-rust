@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "da140d7b-47bf-4d63-a3e1-75ade64bed2f",
+      "title": "MonkeyType: type inference for transpiling Python to Rust",
+      "content_text": "In my previous post about Python to Rust transpiler I’ve said, that one of the biggest problems is absence of types in python and inability to infer them for functions. But it turns out there is a solution to this problem. Guys from Instagram have developed an incredible tool for runtime type inference called MonkeyType. It monitors what types functions accept and return while running a program. This approach works quite nicely so I want to share with you how it’s done.",
+      "url": "https://medium.com/@konchunas/monkeytype-type-inference-for-transpiling-python-to-rust-64fa5a9eb966",
+      "date_published": "2019-02-15T22:25:31.687+00:00",
+      "author": {
+        "name": "Julian Konchunas",
+        "url": "https://medium.com/@konchunas"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f2388917-1b08-4e6d-9051-daa496814ab1",
       "title": "Hello, sandboxfs 0.1.0",
       "content_text": "I am pleased to announce that the first release of sandboxfs, 0.1.0, is finally here! You can download the sources and prebuilt binaries from the 0.1.0 release page and you can read the installation instructions for more details.\n\nThe journey to this first release has been a long one. sandboxfs was first conceived over two years ago, was first announced in August 2017, showed its first promising results in April 2018, and has been undergoing a rewrite from Go to Rust.",

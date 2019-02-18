@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "d7fe7d63-d2c8-4bfc-834b-a93155c10dcb",
+      "title": "Rust: A unique perspective",
+      "content_text": "In which I try to explain the reasoning behind Rust’s memory-safety mechanisms.",
+      "url": "https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html",
+      "date_published": "2019-02-07T00:00:00+00:00",
+      "author": {
+        "name": "Matt Brubeck",
+        "url": "https://limpet.net/mbrubeck/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d1d825d3-b864-466c-9909-287ae17591a9",
+      "title": "Moving from Ruby to Rust",
+      "content_text": "How we migrated our Tier 1 service from Ruby to Rust and didn’t break production.",
+      "url": "https://deliveroo.engineering/2019/02/14/moving-from-ruby-to-rust.html",
+      "date_published": "2019-02-14T00:00:00+00:00",
+      "author": {
+        "name": "Andrii Dmytrenko",
+        "url": "https://deliveroo.engineering/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "66563fe6-008a-475e-9337-42ee770d649c",
+      "title": "Rust Governance: Scaling Empathy",
+      "content_text": "There’s been a lot of talk about improving Rust’s governance model lately. As we decompress from last year’s hectic edition work, we’re slowly starting to look at all the bits of debt we accumulated, and organizational debt is high on that list.\n\nI’ve been talking in private with people about a bunch of these things for quite a while now, and I felt it worthwhile to write down as much of my thoughts as I can before the Rust All Hands in Berlin this week.",
+      "url": "https://manishearth.github.io/blog/2019/02/04/rust-governance-scaling-empathy/",
+      "date_published": "2019-02-04T00:00:00+00:00",
+      "author": {
+        "name": "Manish Goregaokar",
+        "url": "https://manishearth.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e412275c-f2ce-4748-bf3d-c53375ff5693",
+      "title": "Cross compiling Rust from Linux to macOS",
+      "content_text": "I’ve recently been working on a Rust project at work which requires compiling for Linux (GNU), Linux (musl - for Alpine Linux) and macOS. I use Linux Mint nearly all the time, so building for macOS targets has required asking very nicely to borrow a spare Macbook Air. This is naturally a bit crap, so I set out to find a Linux-only solution to cross compile for macOS using osxcross. A weekend of pain later, and I have the following post. Hopefully it spares you a weekend of your own pain.",
+      "url": "https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html",
+      "date_published": "2019-02-17T00:00:00+00:00",
+      "author": {
+        "name": "James Waples",
+        "url": "https://wapl.es/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1c46694b-ae67-4596-9f46-0e9fd419f585",
       "title": "No, the problem isn’t “bad coders”",
       "content_text": "A recent blog article discussed the fact that 70% of all security bugs in Microsoft products are due to memory safety vulnerabilities. A lot of the comments I’ve seen on social media boil down to “The problem isn’t the use of a memory unsafe language, but that the programmers who wrote this code are bad.”\n\nIn this article, I’m going to look at a recent bug that was caught by the Rust compiler, which I think shows that not only is this assertion unreasonable but virtually impossible for reasons I haven’t seen discussed. While the example I’m going to give is about thread safety rather than memory safety, the arguments I’m going to present can be applied to both.",

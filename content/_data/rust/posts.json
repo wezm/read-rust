@@ -10,6 +10,155 @@
   },
   "items": [
     {
+      "id": "d7fe7d63-d2c8-4bfc-834b-a93155c10dcb",
+      "title": "Rust: A unique perspective",
+      "content_text": "In which I try to explain the reasoning behind Rust’s memory-safety mechanisms.",
+      "url": "https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html",
+      "tweet_url": "https://twitter.com/mbrubeck/status/1093645826453233665",
+      "date_published": "2019-02-07T00:00:00+00:00",
+      "author": {
+        "name": "Matt Brubeck",
+        "url": "https://limpet.net/mbrubeck/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0a429d63-c63c-4161-8960-c83915c01b26",
+      "title": "Lyon in 2018",
+      "content_text": "In 2018 my activity on the project has varied depending on the time and energy I have had left after work and other activities. As it turns out, working on getting WebRender shipped in Firefox is at the same time amazing and very demanding, and what's left of my brain after a good day of work isn't always up to some of the ambitions I have planned for lyon. Fortunately I am not the only one who contributed to the project, and while progress was slow on the most ambitious plans, I did spend some time on smaller features and polish.\n\nI'll get to these big plans towards the end of this post. In the mean time let's look at some of the highlights of what changed in lyon in 2018.",
+      "url": "https://nical.github.io/posts/lyon-2018.html",
+      "tweet_url": "https://twitter.com/nicalsilva/status/1097096561748779010",
+      "date_published": "2019-02-17T00:00:00+01:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d1d825d3-b864-466c-9909-287ae17591a9",
+      "title": "Moving from Ruby to Rust",
+      "content_text": "How we migrated our Tier 1 service from Ruby to Rust and didn’t break production.",
+      "url": "https://deliveroo.engineering/2019/02/14/moving-from-ruby-to-rust.html",
+      "tweet_url": "https://twitter.com/DeliverooEng/status/1096080567043612673",
+      "date_published": "2019-02-14T00:00:00+00:00",
+      "author": {
+        "name": "Andrii Dmytrenko",
+        "url": "https://deliveroo.engineering/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09067d7b-54fc-4555-9e1f-a6622ea5e390",
+      "title": "Replacing a hot path in your app's JavaScript with WebAssembly",
+      "content_text": "In my previous articles I talked about how WebAssembly allows you to bring the library ecosystem of C/C++ to the web. One app that makes extensive use of C/C++ libraries is squoosh, our web app that allows you compress images with a variety of codecs that have been compiled from C++ to WebAssembly.\n\nIn my experience, most performance problems on the web are caused by forced layout and excessive paint but every now and then an app needs to do a computationally expensive task that takes a lot of time. WebAssembly can help here.",
+      "url": "https://developers.google.com/web/updates/2019/02/hotpath-with-wasm",
+      "tweet_url": "https://twitter.com/DasSurma/status/1096146648152059907",
+      "date_published": "2019-02-15T07:38:00+00:00",
+      "author": {
+        "name": "Surma",
+        "url": "https://developers.google.com/web/resources/contributors/surma"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9700147a-735e-4903-b9fb-f91d6de54fe0",
+      "title": "A brief introduction to Rust",
+      "content_text": "I heard of Rust back in 2015 at a meetup. I have since spent time with Rust on and off. In 2018, I had more time to explore Rust. Thinking of using blogging as a learning tool while going further down the rabbit hole of Rust, I setup this blog. In this post, I would like to briefly walk through some important features of the language.",
+      "url": "https://odetorust.com/a-brief-introduction-to-rust/",
+      "tweet_url": "https://twitter.com/thannyinyi/status/1095977366684225536",
+      "date_published": "2019-02-14T20:25:00+00:00",
+      "author": {
+        "name": "Nyi Nyi Than",
+        "url": "https://odetorust.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "9496d523-3ad4-42ac-a6eb-183ed3d55713",
+      "title": "Why should you use Rust in WebAssembly?",
+      "content_text": "WebAssembly (Wasm) is a technology that has the chance to reshape how we build apps for the browser. Not only will it allow us to build whole new classes of web applications, but it will also allow us to make existing apps written in JavaScript even more performant.\n\nIn this article about the state of the Rust and Wasm ecosystem, I'll try to explain why Rust is the language that can unlock the true potential of WebAssembly.",
+      "url": "https://opensource.com/article/19/2/why-use-rust-webassembly",
+      "tweet_url": "https://twitter.com/ryan_levick/status/1096423003808825345",
+      "date_published": "2019-02-15T03:01:00-05:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "da140d7b-47bf-4d63-a3e1-75ade64bed2f",
+      "title": "MonkeyType: type inference for transpiling Python to Rust",
+      "content_text": "In my previous post about Python to Rust transpiler I’ve said, that one of the biggest problems is absence of types in python and inability to infer them for functions. But it turns out there is a solution to this problem. Guys from Instagram have developed an incredible tool for runtime type inference called MonkeyType. It monitors what types functions accept and return while running a program. This approach works quite nicely so I want to share with you how it’s done.",
+      "url": "https://medium.com/@konchunas/monkeytype-type-inference-for-transpiling-python-to-rust-64fa5a9eb966",
+      "date_published": "2019-02-15T22:25:31.687+00:00",
+      "author": {
+        "name": "Julian Konchunas",
+        "url": "https://medium.com/@konchunas"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "54a69419-caf9-408f-bd41-ab6ee7897b92",
+      "title": "My Tour of Rust – Day 4 – Ray Tracing Part 2",
+      "content_text": "Learning Rust through the porting of the code from Peter Shirley's Ray Tracing in a Weekend. Focused on Polymorphism, Ownership and Traits in Rust.",
+      "url": "https://rushtonality.com/2019/02/15/my-tour-of-rust-day-4-ray-tracing-part-2/",
+      "tweet_url": "https://twitter.com/rushtonality/status/1096504457314136072",
+      "date_published": "2019-02-15T20:13:45+00:00",
+      "author": {
+        "name": "Stephen Rushton",
+        "url": "https://rushtonality.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "66563fe6-008a-475e-9337-42ee770d649c",
+      "title": "Rust Governance: Scaling Empathy",
+      "content_text": "There’s been a lot of talk about improving Rust’s governance model lately. As we decompress from last year’s hectic edition work, we’re slowly starting to look at all the bits of debt we accumulated, and organizational debt is high on that list.\n\nI’ve been talking in private with people about a bunch of these things for quite a while now, and I felt it worthwhile to write down as much of my thoughts as I can before the Rust All Hands in Berlin this week.",
+      "url": "https://manishearth.github.io/blog/2019/02/04/rust-governance-scaling-empathy/",
+      "tweet_url": "https://twitter.com/ManishEarth/status/1092345438202675201",
+      "date_published": "2019-02-04T00:00:00+00:00",
+      "author": {
+        "name": "Manish Goregaokar",
+        "url": "https://manishearth.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e412275c-f2ce-4748-bf3d-c53375ff5693",
+      "title": "Cross compiling Rust from Linux to macOS",
+      "content_text": "I’ve recently been working on a Rust project at work which requires compiling for Linux (GNU), Linux (musl - for Alpine Linux) and macOS. I use Linux Mint nearly all the time, so building for macOS targets has required asking very nicely to borrow a spare Macbook Air. This is naturally a bit crap, so I set out to find a Linux-only solution to cross compile for macOS using osxcross. A weekend of pain later, and I have the following post. Hopefully it spares you a weekend of your own pain.",
+      "url": "https://wapl.es/rust/2019/02/17/rust-cross-compile-linux-to-macos.html",
+      "tweet_url": "https://twitter.com/jam_waffles/status/1097151811549609984",
+      "date_published": "2019-02-17T00:00:00+00:00",
+      "author": {
+        "name": "James Waples",
+        "url": "https://wapl.es/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6b4003d7-f0ce-4105-8ed5-f4bea94f77b9",
       "title": "Metered-rs: fast, ergonomic metrics for Rust",
       "content_text": "I’m pleased to announce the release of metered-rs, a crate that helps live measurements of code, inspired by Coda Hale’s Java metrics, with the philosophy that measuring program performance at runtime is valuable, and independent from benchmarking.",
