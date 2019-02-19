@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e89d9e3f-1400-40ca-9e1c-d90817daf41e",
+      "title": "Fearless Security: Memory Safety",
+      "content_text": "Memory safety violations can cause programs to crash unexpectedly and can be exploited to alter intended behavior--languages can manage this multiple ways.",
+      "url": "https://hacks.mozilla.org/2019/01/fearless-security-memory-safety/",
+      "date_published": "2019-01-23T15:00:57+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "b6ca1619-6bdb-4efc-a043-ea73ed0e8336",
       "title": "Auditing Rust Crypto: The First Hours",
       "content_text": "Checklists are a simple yet effective component of security and safety procedures in various fields, from flight safety and surgery to network security, and of course cryptography. So here’s a couple of things you want to check when starting the audit of a crypto software written in Rust.",

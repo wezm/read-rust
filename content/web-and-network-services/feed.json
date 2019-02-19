@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2810bb3d-7b68-42f0-ba5f-5c7a5956caf7",
+      "title": "Enjoy a slice of QUIC, and Rust!",
+      "content_text": "During last year’s Birthday Week we announced early support for QUIC, the next generation encrypted-by-default network transport protocol designed to secure and accelerate web traffic on the Internet.\n\nWe are not quite ready to make this feature available to every Cloudflare customer yet, but while you wait we thought you might enjoy a slice of quiche, our own open-source implementation of the QUIC protocol written in Rust.",
+      "url": "https://blog.cloudflare.com/enjoy-a-slice-of-quic-and-rust/",
+      "date_published": "2019-01-22T16:26:07+00:00",
+      "author": {
+        "name": "Alessandro Ghedini",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d430867d-388e-4cfb-9e42-698d80876f1c",
+      "title": "Announcing OOProxy, a reverse OpenID and OAuth2 proxy",
+      "content_text": "At HAL24K, we benefit a lot from open source software. That is why, to contribute back, we’ve started an internal program to open source some of the internal tools and libraries we’ve used to build our platform and machine learning solutions, starting with OOProxy. OOProxy is a reverse OpenID and OAuth2 proxy that we use to protect our HTTP-based machine learning APIs.",
+      "url": "https://medium.com/hal24k-techblog/announcing-ooproxy-b041bab2bc85",
+      "date_published": "2019-01-30T14:10:08.484+00:00",
+      "author": {
+        "name": "Tim Stokman",
+        "url": "https://medium.com/@timstokman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "09067d7b-54fc-4555-9e1f-a6622ea5e390",
       "title": "Replacing a hot path in your app's JavaScript with WebAssembly",
       "content_text": "In my previous articles I talked about how WebAssembly allows you to bring the library ecosystem of C/C++ to the web. One app that makes extensive use of C/C++ libraries is squoosh, our web app that allows you compress images with a variety of codecs that have been compiled from C++ to WebAssembly.\n\nIn my experience, most performance problems on the web are caused by forced layout and excessive paint but every now and then an app needs to do a computationally expensive task that takes a lot of time. WebAssembly can help here.",

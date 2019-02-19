@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "821ecfae-acd8-4a50-907e-77c394807c86",
+      "title": "syswall: a firewall for syscalls",
+      "content_text": "A while back I started thinking about software and how it does what it does. Perhaps even more importantly, I started thinking about how we can know what software does, without relying on the software's marketing pitch.",
+      "url": "https://www.polaris64.net/blog/programming/2019/syswall-a-firewall-for-syscalls",
+      "date_published": "2019-02-16T22:07:25+00:00",
+      "author": {
+        "name": "Simon Pugnet",
+        "url": "https://www.polaris64.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "81e00756-52f6-48fe-839e-28c88b690aef",
+      "title": "Shipping Rust Binaries with GoReleaser",
+      "content_text": "Although GoReleaser supports building just Go projects, it does so much more in the packaging and distribution department that it is extremely hard to ignore.",
+      "url": "https://medium.com/@jondot/shipping-rust-binaries-with-goreleaser-d5aa42a46be0",
+      "date_published": "2019-02-16T17:47:00.522+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "da140d7b-47bf-4d63-a3e1-75ade64bed2f",
       "title": "MonkeyType: type inference for transpiling Python to Rust",
       "content_text": "In my previous post about Python to Rust transpiler I’ve said, that one of the biggest problems is absence of types in python and inability to infer them for functions. But it turns out there is a solution to this problem. Guys from Instagram have developed an incredible tool for runtime type inference called MonkeyType. It monitors what types functions accept and return while running a program. This approach works quite nicely so I want to share with you how it’s done.",

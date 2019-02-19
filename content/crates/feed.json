@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "7d5bbb25-d599-43d5-82cb-1a4dcdf47286",
+      "title": "Lock-free Rust: Crossbeam in 2019",
+      "content_text": "This is a follow-up post to Lock-freedom without garbage collection from 2015, which introduced Crossbeam, a Rust library that implements efficient lock-free data structures without relying on a tracing garbage collector.",
+      "url": "https://stjepang.github.io/2019/01/29/lock-free-rust-crossbeam-in-2019.html",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavina",
+        "url": "https://stjepang.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Performance"
+      ]
+    },
+    {
       "id": "0a429d63-c63c-4161-8960-c83915c01b26",
       "title": "Lyon in 2018",
       "content_text": "In 2018 my activity on the project has varied depending on the time and energy I have had left after work and other activities. As it turns out, working on getting WebRender shipped in Firefox is at the same time amazing and very demanding, and what's left of my brain after a good day of work isn't always up to some of the ambitions I have planned for lyon. Fortunately I am not the only one who contributed to the project, and while progress was slow on the most ambitious plans, I did spend some time on smaller features and polish.\n\nI'll get to these big plans towards the end of this post. In the mean time let's look at some of the highlights of what changed in lyon in 2018.",

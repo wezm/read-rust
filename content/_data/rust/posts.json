@@ -10,6 +10,152 @@
   },
   "items": [
     {
+      "id": "52b68916-b65b-4a28-9bac-e8c8038c6194",
+      "title": "The Builder Pattern in Rust",
+      "content_text": "For the very first coding blog, I think it is appropriate to start with building objects. This post is about the Builder Pattern in Rust, and how it taught me I couldn’t write everything the way I want. Yes, strong typing prevents you from common pitfalls, and C++ can go quite far in this direction (as many JS/Python enthusiastic will gladly testify). It is often easy to forget how it sometimes prevents you from writing a completely legal and safe code, due to rules being too “protective”. And as Rust takes the code safety to a whole new level, sometimes a trivial code can’t be written, and without the proper knowledge, it might seem entirely arbitrary. It was a subtle restriction in the builder pattern that took me by surprise first.",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/building-rust",
+      "tweet_url": "https://twitter.com/oribenshir/status/1093905527321624577",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9494ac41-95c6-43e8-86ef-660443465886",
+      "title": "Rewriting stackcollapse-xdebug in Rust",
+      "content_text": "A week or so ago, I saw the inferno project mentioned on the Rust subreddit. It was a rewrite of the great FlameGraph library into Rust. All of the work was being livestreamed by Jon Gjengset. I ended up watching some of the livestreams and had the idea of porting the stackcollapse-xdebug.php file to Rust, potentially so it could be included in the project in the future.",
+      "url": "https://daniellockyer.com/rewriting-stackcollapse-xdebug/",
+      "tweet_url": "https://twitter.com/DanielLockyer/status/1094605231155900416",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Daniel Lockyer",
+        "url": "https://daniellockyer.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "821ecfae-acd8-4a50-907e-77c394807c86",
+      "title": "syswall: a firewall for syscalls",
+      "content_text": "A while back I started thinking about software and how it does what it does. Perhaps even more importantly, I started thinking about how we can know what software does, without relying on the software's marketing pitch.",
+      "url": "https://www.polaris64.net/blog/programming/2019/syswall-a-firewall-for-syscalls",
+      "date_published": "2019-02-16T22:07:25+00:00",
+      "author": {
+        "name": "Simon Pugnet",
+        "url": "https://www.polaris64.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "a22c0b8e-ed54-4502-8130-a03913b6ff67",
+      "title": "Generators I: Toward a minimum viable product",
+      "content_text": "We’re still not finished with the design of async/await, but it’s already become clear that it’s time to get the next phases of the feature into the pipeline. There are two extensions to the minimal async/await feature we’ve currently got that seem like the clear high priority:\n Async methods: allowing async fn to be used in traits. Generators: allowing imperative control flow to create Iterators and Streams the same way async fn allows imperative control flow to create a Future.",
+      "url": "https://boats.gitlab.io/blog/post/generators-i/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1095000355514052610",
+      "date_published": "2019-02-11T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "81e00756-52f6-48fe-839e-28c88b690aef",
+      "title": "Shipping Rust Binaries with GoReleaser",
+      "content_text": "Although GoReleaser supports building just Go projects, it does so much more in the packaging and distribution department that it is extremely hard to ignore.",
+      "url": "https://medium.com/@jondot/shipping-rust-binaries-with-goreleaser-d5aa42a46be0",
+      "date_published": "2019-02-16T17:47:00.522+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2810bb3d-7b68-42f0-ba5f-5c7a5956caf7",
+      "title": "Enjoy a slice of QUIC, and Rust!",
+      "content_text": "During last year’s Birthday Week we announced early support for QUIC, the next generation encrypted-by-default network transport protocol designed to secure and accelerate web traffic on the Internet.\n\nWe are not quite ready to make this feature available to every Cloudflare customer yet, but while you wait we thought you might enjoy a slice of quiche, our own open-source implementation of the QUIC protocol written in Rust.",
+      "url": "https://blog.cloudflare.com/enjoy-a-slice-of-quic-and-rust/",
+      "tweet_url": "https://twitter.com/Cloudflare/status/1089342729195347969",
+      "date_published": "2019-01-22T16:26:07+00:00",
+      "author": {
+        "name": "Alessandro Ghedini",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e89d9e3f-1400-40ca-9e1c-d90817daf41e",
+      "title": "Fearless Security: Memory Safety",
+      "content_text": "Memory safety violations can cause programs to crash unexpectedly and can be exploited to alter intended behavior--languages can manage this multiple ways.",
+      "url": "https://hacks.mozilla.org/2019/01/fearless-security-memory-safety/",
+      "tweet_url": "https://twitter.com/mozhacks/status/1088118455734362112",
+      "date_published": "2019-01-23T15:00:57+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "6881b0f3-53e8-4fbf-bca2-9e108792bf29",
+      "title": "Rust: The story of closures",
+      "content_text": "The Rust programming language introduced many leading concepts in the programming language design landscape. The most famous features are the borrow checker, the ownership management and the trait system.\n\nHowever, the fantastic expressiveness of the closures is generally underestimated. Yes, from the day Javascript introduces closures to main stream programming languages, these days closures become one of the basic features for almost all modern languages. However, Rust’s ownership rules result in some brand-new observations to closures and its position in programming. Let’s start the journey now.",
+      "url": "https://medium.com/@earthengine/rust-the-story-of-closures-8f8e5af7ea1c",
+      "date_published": "2019-01-27T03:12:11.943+00:00",
+      "author": {
+        "name": "Earth Engine",
+        "url": "https://medium.com/@earthengine"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d5bbb25-d599-43d5-82cb-1a4dcdf47286",
+      "title": "Lock-free Rust: Crossbeam in 2019",
+      "content_text": "This is a follow-up post to Lock-freedom without garbage collection from 2015, which introduced Crossbeam, a Rust library that implements efficient lock-free data structures without relying on a tracing garbage collector.",
+      "url": "https://stjepang.github.io/2019/01/29/lock-free-rust-crossbeam-in-2019.html",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavina",
+        "url": "https://stjepang.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Performance"
+      ]
+    },
+    {
+      "id": "d430867d-388e-4cfb-9e42-698d80876f1c",
+      "title": "Announcing OOProxy, a reverse OpenID and OAuth2 proxy",
+      "content_text": "At HAL24K, we benefit a lot from open source software. That is why, to contribute back, we’ve started an internal program to open source some of the internal tools and libraries we’ve used to build our platform and machine learning solutions, starting with OOProxy. OOProxy is a reverse OpenID and OAuth2 proxy that we use to protect our HTTP-based machine learning APIs.",
+      "url": "https://medium.com/hal24k-techblog/announcing-ooproxy-b041bab2bc85",
+      "date_published": "2019-01-30T14:10:08.484+00:00",
+      "author": {
+        "name": "Tim Stokman",
+        "url": "https://medium.com/@timstokman"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "d7fe7d63-d2c8-4bfc-834b-a93155c10dcb",
       "title": "Rust: A unique perspective",
       "content_text": "In which I try to explain the reasoning behind Rust’s memory-safety mechanisms.",

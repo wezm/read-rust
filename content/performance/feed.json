@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "9494ac41-95c6-43e8-86ef-660443465886",
+      "title": "Rewriting stackcollapse-xdebug in Rust",
+      "content_text": "A week or so ago, I saw the inferno project mentioned on the Rust subreddit. It was a rewrite of the great FlameGraph library into Rust. All of the work was being livestreamed by Jon Gjengset. I ended up watching some of the livestreams and had the idea of porting the stackcollapse-xdebug.php file to Rust, potentially so it could be included in the project in the future.",
+      "url": "https://daniellockyer.com/rewriting-stackcollapse-xdebug/",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Daniel Lockyer",
+        "url": "https://daniellockyer.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "7d5bbb25-d599-43d5-82cb-1a4dcdf47286",
+      "title": "Lock-free Rust: Crossbeam in 2019",
+      "content_text": "This is a follow-up post to Lock-freedom without garbage collection from 2015, which introduced Crossbeam, a Rust library that implements efficient lock-free data structures without relying on a tracing garbage collector.",
+      "url": "https://stjepang.github.io/2019/01/29/lock-free-rust-crossbeam-in-2019.html",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavina",
+        "url": "https://stjepang.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Performance"
+      ]
+    },
+    {
       "id": "2d51794e-d4d6-44a1-a2ab-f04940842e84",
       "title": "Performance of Rust's match vs. lookup tables",
       "content_text": "I’ve been getting into bioinformatics algorithms lately and ran across an interesting pull request that improved performance by changing a Rust match expression to a lookup. This felt quite surprising to me since, well, the match is so simple — why isn’t the compiler already generating optimal code for it?",
