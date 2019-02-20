@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2c73855c-6079-427a-b075-4c07ed3cec23",
+      "title": "Cross-compiling Rust code to Minix",
+      "content_text": "I’ve decided to take a look at Minix, which is an interesting microkernel OS. Naturally after building Minix from git, the first thing I decided to try was porting Rust’s std to Minix so I could cross-compile Rust programs from Linux to run under Minix. Okay, I suppose I could have started with something else, but porting Rust software and modifying the platform-depending part of std is something I have experience with from working on Redox OS. And Rust really isn’t that hard to port.",
+      "url": "https://iandouglasscott.com/2019/02/18/cross-compiling-rust-code-to-minix/",
+      "date_published": "2019-02-18T13:00:00-08:00",
+      "author": {
+        "name": "Ian Douglas Scott",
+        "url": "https://iandouglasscott.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "2b4a2862-e8ba-427b-aa27-c206356f5700",
       "title": "Creating 🌊 web-server .deb binary with Rust",
       "content_text": "We are going to make a demo linux web-server with systemd, config file and installable .deb binary in Rust.",

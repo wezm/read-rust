@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "08743d28-0fe1-42f6-ac4a-50f3698891a0",
+      "title": "Structure your data in Rust",
+      "content_text": "Structuring of data in the correct way is very important. In java and C++, we use Class & Object. In C, we use structures, unions, and enums. We know that Rust adopts some features of functional programming and OOPs. Class and object is the main weapon of OOPs but how does Rust provide that functionality?",
+      "url": "https://blog.knoldus.com/structure-your-data-in-rust/",
+      "date_published": "2019-02-11T08:44:09+00:00",
+      "author": {
+        "name": "Amita Yadav",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "fb473ea5-9d84-4c2d-9926-282c55dcbf18",
+      "title": "My experience with Rust",
+      "content_text": "I started learning Rust in 2018. I completed my work in an open source project and was thinking about learning a new programming language. My motive was to learn a language that allows you to control the lower level of a high-level programming language. I considered learning Golang, but, in most of the online articles I learned that Rust (being a system programming language) gives you more control than Go, however, the learning curve is far steeper than Go. I had no worries about deadlines or time, therefore I chose Rust.",
+      "url": "http://subhojit777.in/rust-language-experience/",
+      "date_published": "2019-02-20T00:00:00+00:00",
+      "author": {
+        "name": "Subhojit Paul",
+        "url": "http://subhojit777.in/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e87f2464-ee95-4e9a-8d8c-4ccbba6b165c",
+      "title": "Reflections on Learning Rust By Building Punchtop",
+      "content_text": "To learn Rust, I implemented an audio game. There were some things I liked and some things I didn't. Some things were easy and some were hard. And there were plenty of libraries that were a joy to use.",
+      "url": "https://hyperbo.la/w/reflections-on-learning-rust/",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Lopopolo",
+        "url": "https://hyperbo.la/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "9700147a-735e-4903-b9fb-f91d6de54fe0",
       "title": "A brief introduction to Rust",
       "content_text": "I heard of Rust back in 2015 at a meetup. I have since spent time with Rust on and off. In 2018, I had more time to explore Rust. Thinking of using blogging as a learning tool while going further down the rabbit hole of Rust, I setup this blog. In this post, I would like to briefly walk through some important features of the language.",

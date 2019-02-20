@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "5e9e06ae-e22f-4798-b921-d8cb96bf451e",
+      "title": "Fearless Security: Thread Safety",
+      "content_text": "Multithreading allows programs to do more faster, but adds synchronization bugs and attacks. From a security standpoint, why do we care about thread safety?",
+      "url": "https://hacks.mozilla.org/2019/02/fearless-security-thread-safety/",
+      "date_published": "2019-02-14T15:48:10+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7c13bc47-79a3-408a-bfc0-d67639f4f359",
+      "title": "DOS: the final frontier...",
+      "content_text": "In our crusade to oxidize platform after platform, I've been working to bring Rust to yet another target: MS-DOS. I don't know if this has been done before, but I couldn't find any information about it on the web, so I had to rely on information about using GCC to compile MS-DOS programs (not all of which carried over), and it took quite a bit of fiddling with the target specification to get things just right. In the end, I've managed to produce COM executables that can call DOS interrupts and interface with hardware such as the PC speaker, and presumably the rest of the hardware, given the right code.",
+      "url": "https://www.reddit.com/r/rust/comments/ask2v5/dos_the_final_frontier/",
+      "date_published": "2019-02-20T15:47:21+11:00",
+      "author": {
+        "name": "u/serentty",
+        "url": "https://www.reddit.com/user/serentty"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "82089039-8f19-4e01-8d91-d0ef468bbab8",
+      "title": "Exploring Rust",
+      "content_text": "Rust provides a lot of language constructs to enable and empower the user to write memory safe and correct code. But what happens behind these constructs? In this post I will outline ways of exploring rust and it’s compiler.\n\nLast weekend I went to fosdem 2019. This is where I had the chance to attend a talk given by Matthias Endler. In his talk he explained how rust has got a lot of syntactic sugar to help the programmers in writing safe and correct code, part of his talk was explaining cargo-inspect to analyse this syntax and see what’s happening behind the scenes. This inspired me to dig a bit deeper and try out other tools.",
+      "url": "https://jonathansteyfkens.com/posts/explore-rust.html",
+      "date_published": "2019-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9cb7faf6-a9cb-4bf5-9549-96ee7e80dd12",
+      "title": "One Hundred Rust PRs later",
+      "content_text": "It’s hard for me to believe but it’s already been over a year since I seriously committed to learning Rust and I have now reached my initial goal of 100 open source contributions to the Rust ecosystem. You can see the full list here. I want to use this blog post to review the work I’ve done, talk about the challenges I’ve come across and how I’ve tried to deal with them. I’m afraid I haven’t blogged in a long time and this is a bit longer than usual.",
+      "url": "https://phansch.net/2019/02/18/onehundred-rust-prs/",
+      "date_published": "2019-02-18T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Hansch",
+        "url": "https://phansch.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "52b68916-b65b-4a28-9bac-e8c8038c6194",
       "title": "The Builder Pattern in Rust",
       "content_text": "For the very first coding blog, I think it is appropriate to start with building objects. This post is about the Builder Pattern in Rust, and how it taught me I couldn’t write everything the way I want. Yes, strong typing prevents you from common pitfalls, and C++ can go quite far in this direction (as many JS/Python enthusiastic will gladly testify). It is often easy to forget how it sometimes prevents you from writing a completely legal and safe code, due to rules being too “protective”. And as Rust takes the code safety to a whole new level, sometimes a trivial code can’t be written, and without the proper knowledge, it might seem entirely arbitrary. It was a subtle restriction in the builder pattern that took me by surprise first.",

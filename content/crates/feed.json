@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fe990782-d611-46a2-a6c1-4048707e61df",
+      "title": "Introducing embedded-sdmmc - a pure-Rust #[no_std] SD card and FAT16/FAT32 library",
+      "content_text": "161 votes and 6 comments so far on Reddit",
+      "url": "https://www.reddit.com/r/rust/comments/ascvls/introducing_embeddedsdmmc_a_purerust_no_std_sd/",
+      "date_published": "2019-02-20T04:32:00+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded",
+        "Crates"
+      ]
+    },
+    {
       "id": "7d5bbb25-d599-43d5-82cb-1a4dcdf47286",
       "title": "Lock-free Rust: Crossbeam in 2019",
       "content_text": "This is a follow-up post to Lock-freedom without garbage collection from 2015, which introduced Crossbeam, a Rust library that implements efficient lock-free data structures without relying on a tracing garbage collector.",

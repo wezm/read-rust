@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a4e3cb9f-0d9d-4a47-98cd-2b51d39b7eb6",
+      "title": "A Very Relatable Database: Part 1",
+      "content_text": "I like to find ways to fill up my free time over winter breaks. Since I’m not in school for a month, I usually take the time to do some self-study on a topic I find interesting. This past month, it was building a database. Unfortunately, I had only a casual understanding of how a database actually works under the hood, and no idea how to get started. Additionally, I decided to write the database in Rust, since I knew there would be complicated management of data, and I wanted to avoid headaches involving invalid data. Finally, rust’s static garbage collector meant I wouldn’t have to rely on a runtime to guarantee this.\n\nThat was a month ago. While I’m not too far along (mostly due to being busier than expected during the break), I still have things I think are worth sharing.",
+      "url": "https://natelincoln.com/a-very-relatable-database/part-1/",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Nate Lincoln",
+        "url": "https://natelincoln.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "821ecfae-acd8-4a50-907e-77c394807c86",
       "title": "syswall: a firewall for syscalls",
       "content_text": "A while back I started thinking about software and how it does what it does. Perhaps even more importantly, I started thinking about how we can know what software does, without relying on the software's marketing pitch.",

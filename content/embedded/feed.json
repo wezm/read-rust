@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "fe990782-d611-46a2-a6c1-4048707e61df",
+      "title": "Introducing embedded-sdmmc - a pure-Rust #[no_std] SD card and FAT16/FAT32 library",
+      "content_text": "161 votes and 6 comments so far on Reddit",
+      "url": "https://www.reddit.com/r/rust/comments/ascvls/introducing_embeddedsdmmc_a_purerust_no_std_sd/",
+      "date_published": "2019-02-20T04:32:00+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded",
+        "Crates"
+      ]
+    },
+    {
       "id": "5e8e4feb-2bb8-4337-bfba-a71003c797ed",
       "title": "First release of ieee802154 crate - Partial implementation of the IEEE 802.15.4 standard",
       "content_text": "I’ve released the ieee802154 crate, a partial implementation of the IEEE 802.15.4 standard, earlier this week.  IEEE 802.15.4 is a standard for low-rate wireless personal area networks. It is used as the basis for higher-level protocols like 6LoWPAN, Zigbee, or Thread. The ieee802154 crate is only a partial implementation of this standard, but I hope it can be used as a basis for future work by extending it as required.",

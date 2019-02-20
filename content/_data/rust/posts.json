@@ -10,6 +10,153 @@
   },
   "items": [
     {
+      "id": "a4e3cb9f-0d9d-4a47-98cd-2b51d39b7eb6",
+      "title": "A Very Relatable Database: Part 1",
+      "content_text": "I like to find ways to fill up my free time over winter breaks. Since I’m not in school for a month, I usually take the time to do some self-study on a topic I find interesting. This past month, it was building a database. Unfortunately, I had only a casual understanding of how a database actually works under the hood, and no idea how to get started. Additionally, I decided to write the database in Rust, since I knew there would be complicated management of data, and I wanted to avoid headaches involving invalid data. Finally, rust’s static garbage collector meant I wouldn’t have to rely on a runtime to guarantee this.\n\nThat was a month ago. While I’m not too far along (mostly due to being busier than expected during the break), I still have things I think are worth sharing.",
+      "url": "https://natelincoln.com/a-very-relatable-database/part-1/",
+      "tweet_url": "https://twitter.com/lincolnnathan21/status/1086728923449315328",
+      "date_published": "2019-01-19T00:00:00+00:00",
+      "author": {
+        "name": "Nate Lincoln",
+        "url": "https://natelincoln.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "08743d28-0fe1-42f6-ac4a-50f3698891a0",
+      "title": "Structure your data in Rust",
+      "content_text": "Structuring of data in the correct way is very important. In java and C++, we use Class & Object. In C, we use structures, unions, and enums. We know that Rust adopts some features of functional programming and OOPs. Class and object is the main weapon of OOPs but how does Rust provide that functionality?",
+      "url": "https://blog.knoldus.com/structure-your-data-in-rust/",
+      "date_published": "2019-02-11T08:44:09+00:00",
+      "author": {
+        "name": "Amita Yadav",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "fb473ea5-9d84-4c2d-9926-282c55dcbf18",
+      "title": "My experience with Rust",
+      "content_text": "I started learning Rust in 2018. I completed my work in an open source project and was thinking about learning a new programming language. My motive was to learn a language that allows you to control the lower level of a high-level programming language. I considered learning Golang, but, in most of the online articles I learned that Rust (being a system programming language) gives you more control than Go, however, the learning curve is far steeper than Go. I had no worries about deadlines or time, therefore I chose Rust.",
+      "url": "http://subhojit777.in/rust-language-experience/",
+      "tweet_url": "https://twitter.com/_subhojit_paul/status/1098080953828851719",
+      "date_published": "2019-02-20T00:00:00+00:00",
+      "author": {
+        "name": "Subhojit Paul",
+        "url": "http://subhojit777.in/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "2c73855c-6079-427a-b075-4c07ed3cec23",
+      "title": "Cross-compiling Rust code to Minix",
+      "content_text": "I’ve decided to take a look at Minix, which is an interesting microkernel OS. Naturally after building Minix from git, the first thing I decided to try was porting Rust’s std to Minix so I could cross-compile Rust programs from Linux to run under Minix. Okay, I suppose I could have started with something else, but porting Rust software and modifying the platform-depending part of std is something I have experience with from working on Redox OS. And Rust really isn’t that hard to port.",
+      "url": "https://iandouglasscott.com/2019/02/18/cross-compiling-rust-code-to-minix/",
+      "date_published": "2019-02-18T13:00:00-08:00",
+      "author": {
+        "name": "Ian Douglas Scott",
+        "url": "https://iandouglasscott.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "5e9e06ae-e22f-4798-b921-d8cb96bf451e",
+      "title": "Fearless Security: Thread Safety",
+      "content_text": "Multithreading allows programs to do more faster, but adds synchronization bugs and attacks. From a security standpoint, why do we care about thread safety?",
+      "url": "https://hacks.mozilla.org/2019/02/fearless-security-thread-safety/",
+      "tweet_url": "https://twitter.com/avadacatavra/status/1096079909225676800",
+      "date_published": "2019-02-14T15:48:10+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7c13bc47-79a3-408a-bfc0-d67639f4f359",
+      "title": "DOS: the final frontier...",
+      "content_text": "In our crusade to oxidize platform after platform, I've been working to bring Rust to yet another target: MS-DOS. I don't know if this has been done before, but I couldn't find any information about it on the web, so I had to rely on information about using GCC to compile MS-DOS programs (not all of which carried over), and it took quite a bit of fiddling with the target specification to get things just right. In the end, I've managed to produce COM executables that can call DOS interrupts and interface with hardware such as the PC speaker, and presumably the rest of the hardware, given the right code.",
+      "url": "https://www.reddit.com/r/rust/comments/ask2v5/dos_the_final_frontier/",
+      "date_published": "2019-02-20T15:47:21+11:00",
+      "author": {
+        "name": "u/serentty",
+        "url": "https://www.reddit.com/user/serentty"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fe990782-d611-46a2-a6c1-4048707e61df",
+      "title": "Introducing embedded-sdmmc - a pure-Rust #[no_std] SD card and FAT16/FAT32 library",
+      "content_text": "161 votes and 6 comments so far on Reddit",
+      "url": "https://www.reddit.com/r/rust/comments/ascvls/introducing_embeddedsdmmc_a_purerust_no_std_sd/",
+      "tweet_url": "https://twitter.com/therealjpster/status/1097911700869779456",
+      "date_published": "2019-02-20T04:32:00+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://railwayelectronics.blogspot.com.au/"
+      },
+      "tags": [
+        "Embedded",
+        "Crates"
+      ]
+    },
+    {
+      "id": "82089039-8f19-4e01-8d91-d0ef468bbab8",
+      "title": "Exploring Rust",
+      "content_text": "Rust provides a lot of language constructs to enable and empower the user to write memory safe and correct code. But what happens behind these constructs? In this post I will outline ways of exploring rust and it’s compiler.\n\nLast weekend I went to fosdem 2019. This is where I had the chance to attend a talk given by Matthias Endler. In his talk he explained how rust has got a lot of syntactic sugar to help the programmers in writing safe and correct code, part of his talk was explaining cargo-inspect to analyse this syntax and see what’s happening behind the scenes. This inspired me to dig a bit deeper and try out other tools.",
+      "url": "https://jonathansteyfkens.com/posts/explore-rust.html",
+      "tweet_url": "https://twitter.com/Jonathansty/status/1094205063181021190",
+      "date_published": "2019-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9cb7faf6-a9cb-4bf5-9549-96ee7e80dd12",
+      "title": "One Hundred Rust PRs later",
+      "content_text": "It’s hard for me to believe but it’s already been over a year since I seriously committed to learning Rust and I have now reached my initial goal of 100 open source contributions to the Rust ecosystem. You can see the full list here. I want to use this blog post to review the work I’ve done, talk about the challenges I’ve come across and how I’ve tried to deal with them. I’m afraid I haven’t blogged in a long time and this is a bit longer than usual.",
+      "url": "https://phansch.net/2019/02/18/onehundred-rust-prs/",
+      "tweet_url": "https://twitter.com/phansch/status/1097133526439415809",
+      "date_published": "2019-02-18T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Hansch",
+        "url": "https://phansch.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e87f2464-ee95-4e9a-8d8c-4ccbba6b165c",
+      "title": "Reflections on Learning Rust By Building Punchtop",
+      "content_text": "To learn Rust, I implemented an audio game. There were some things I liked and some things I didn't. Some things were easy and some were hard. And there were plenty of libraries that were a joy to use.",
+      "url": "https://hyperbo.la/w/reflections-on-learning-rust/",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Lopopolo",
+        "url": "https://hyperbo.la/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "52b68916-b65b-4a28-9bac-e8c8038c6194",
       "title": "The Builder Pattern in Rust",
       "content_text": "For the very first coding blog, I think it is appropriate to start with building objects. This post is about the Builder Pattern in Rust, and how it taught me I couldn’t write everything the way I want. Yes, strong typing prevents you from common pitfalls, and C++ can go quite far in this direction (as many JS/Python enthusiastic will gladly testify). It is often easy to forget how it sometimes prevents you from writing a completely legal and safe code, due to rules being too “protective”. And as Rust takes the code safety to a whole new level, sometimes a trivial code can’t be written, and without the proper knowledge, it might seem entirely arbitrary. It was a subtle restriction in the builder pattern that took me by surprise first.",
