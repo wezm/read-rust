@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "94fdb740-ae30-402f-9dc5-3f98b6a2753a",
+      "title": "Embedding WebAssembly in your Rust application",
+      "content_text": "Wasmer is a WebAssembly runtime designed to run both standalone and embedded. The crate wasmer-runtime exposes an easy to use and safe api for compiling, creating imports, and calling WebAssembly from your own library. This tutorial goes over how to make a simple wasm application and run it using the wasmer-runtime!",
+      "url": "https://medium.com/wasmer/executing-webassembly-in-your-rust-application-d5cd32e8ce46",
+      "date_published": "2019-01-24T17:20:46.602+00:00",
+      "author": {
+        "name": "Brandon Fish and Lachlan Sneff",
+        "url": "https://medium.com/@fish0398"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a3541593-fc72-40c3-a4b8-7fdad4cab8fe",
+      "title": "Introducing swc (speedy web compiler) 1.0",
+      "content_text": "swc(speedy web compiler) is a super-fast javascript to javascript compiler. It can transpile typescript / jsx / ecmascript 2019 to browser-compatible javascript. It's 16x - 20x faster than babel even on single-core synchronous benchmark. Note that actual performance gap is larger because swc works on worker thread while babel works on event loop thread.",
+      "url": "https://swc-project.github.io/blog/2019/02/08/Introducing-swc-1.0",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "DongYoon Kang",
+        "url": "https://swc-project.github.io/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2810bb3d-7b68-42f0-ba5f-5c7a5956caf7",
       "title": "Enjoy a slice of QUIC, and Rust!",
       "content_text": "During last year’s Birthday Week we announced early support for QUIC, the next generation encrypted-by-default network transport protocol designed to secure and accelerate web traffic on the Internet.\n\nWe are not quite ready to make this feature available to every Cloudflare customer yet, but while you wait we thought you might enjoy a slice of quiche, our own open-source implementation of the QUIC protocol written in Rust.",

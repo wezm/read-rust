@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ea353a56-0b7b-4025-a410-0e479c39950a",
+      "title": "Updates about my work on native-Rust GUI, text layout, splines, markdown parsing, and more",
+      "content_text": "This post is actually a collection of updates about pretty big things, but the writeup is small. Several will be expanded into larger blog posts - if there are any that you are especially eager to see, please tweet at me and I’ll give the topic priority.",
+      "url": "https://raphlinus.github.io/personal/2019/02/20/more-small-updates.html",
+      "date_published": "2019-02-20T17:02:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "54a69419-caf9-408f-bd41-ab6ee7897b92",
       "title": "My Tour of Rust – Day 4 – Ray Tracing Part 2",
       "content_text": "Learning Rust through the porting of the code from Peter Shirley's Ray Tracing in a Weekend. Focused on Polymorphism, Ownership and Traits in Rust.",

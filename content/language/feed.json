@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "365d8318-a9d3-4c1e-9f2a-73c4c5d812ee",
+      "title": "Hindsight on Advent of Code 2018",
+      "content_text": "On the 1st of December 2018, I decided to give it a try to Advent of Code. AoC is, basically, a programming challenge website where you get two puzzles unlocked every day of December from 1st to 25th – hence the name. It has a ranking system which scores are based on the absolute time you took to solve the puzzles – i.e. spent time as soon as the puzzles got unlocked. As a French living in Paris, I find this a bit unfair (we get puzzles unlocked at around 5:00 AM!) and then I just realized I could do the puzzles for fun only.\n\nThis blog post sums up what I did with AoC#18, my thoughts about the puzzles and even a meta-discussion about programming challenges. I used Haskell for most challenges and switched to Rust for no specific reason. Just fun.",
+      "url": "https://phaazon.net/blog/aoc-18-hindsight",
+      "date_published": "2019-01-12T00:20:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2c43b8ca-4c87-4138-adfc-2e32660061a2",
+      "title": "Generators II: The Question Mark Problem",
+      "content_text": "This is my second post on the design of generators. In the first post, I outlined what an MVP of the feature would look like. In this post, I want to take a look at the first design issue for the feature: how it integrates with the ? operator.",
+      "url": "https://boats.gitlab.io/blog/post/generators-ii/",
+      "date_published": "2019-02-18T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5e9e06ae-e22f-4798-b921-d8cb96bf451e",
       "title": "Fearless Security: Thread Safety",
       "content_text": "Multithreading allows programs to do more faster, but adds synchronization bugs and attacks. From a security standpoint, why do we care about thread safety?",
