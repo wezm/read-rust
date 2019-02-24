@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "2c967b7c-6987-45ae-96b1-776ee6c51011",
+      "title": "Procedural Generation with Wave Function Collapse",
+      "content_text": "Wave Function Collapse is a procedural generation algorithm which produces images by arranging a collection of tiles according to rules about which tiles may be adjacent to each other tile, and relatively how frequently each tile should appear. The algorithm maintains, for each pixel of the output image, a probability distribution of the tiles which may be placed there. It repeatedly chooses a pixel to “collapse” - choosing a tile to use for that pixel based on its distribution. WFC gets its name from quantum physics. The goal of this post is to build an intuition for how and why the WFC algorithm works.",
+      "url": "https://gridbugs.org/wave-function-collapse/",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Stephen Sherratt",
+        "url": "https://gridbugs.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "ad9d038f-52e6-4860-a264-61a795428b87",
       "title": "Scannerless parsing of boolean grammars with derivatives in Rust",
       "content_text": "This is yet another library for writing parsers in Rust. What makes this one different is that I've combined some existing academic work in a way that I think is novel. The result is an unusually flexible parsing library while still offering competitive performance and memory usage.",

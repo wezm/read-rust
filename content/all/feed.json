@@ -10,6 +10,147 @@
   },
   "items": [
     {
+      "id": "3efffa85-74d0-41d1-8d14-c5933470cf0a",
+      "title": "Building an Embedded Futures Executor",
+      "content_text": "After discovering that the embedded-hal ecosystem wasn't quite what I wanted it to be, I set out to build the abstractions that I wanted to use, namely: async-first and core::future compatible. The first thing on the list? A way to run the Futures of course!",
+      "url": "https://josh.robsonchase.com/embedded-executor/",
+      "date_published": "2019-01-26T22:00:00-05:00",
+      "author": {
+        "name": "Josh Robson Chase",
+        "url": "https://josh.robsonchase.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "2c0fbe82-0ef4-455a-94f9-886472559fdb",
+      "title": "MPSC Channel API for painless usage of threads with GTK in Rust",
+      "content_text": "A very common question that comes up on IRC or elsewhere by people trying to use the gtk-rs GTK bindings in Rust is how to modify UI state, or more specifically GTK widgets, from another thread. I’ll take this opportunity to also explain why it’s not so trivial in Rust first and also explain another solution.",
+      "url": "https://coaxion.net/blog/2019/02/mpsc-channel-api-for-painless-usage-of-threads-with-gtk-in-rust/",
+      "date_published": "2019-02-09T13:25:55+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "df83e971-50b8-474a-8ecf-dd9a2b213972",
+      "title": "Writing a Rust Roguelike for the Desktop and the Web",
+      "content_text": "I want to participate in this year's 7 Day Roguelike Challenge. If you've looked around this blog, you know the language is going to be Rust. But for the 7DRL, I'd really love if people could play it in the browser. What follows is a little guide to get you to a small playable proof of concept that can build native Windows, macOS and Linux executables but also runs in the browser via WebAssembly.",
+      "url": "https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/",
+      "date_published": "2019-02-09T18:13:52+00:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://aimlesslygoingforward.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "295b15d9-04eb-420c-bc3e-8b3c12a81882",
+      "title": "Visualizing your Rust code using graphviz",
+      "content_text": "In a previous post I mentioned that the Rust compiler allows you to output interesting intermediate languages/formats in a number of different ways. hir, mir and even flowgraphs! In this post I will be giving a brief overview of the flowgraph format and also instructions on how to generate images from your code.",
+      "url": "https://jonathansteyfkens.com/posts/visualizing-rust.html",
+      "date_published": "2019-02-17T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "16bded10-81dc-4ef1-bf04-83a8ab584308",
+      "title": "A Quick Look at Trait Objects in Rust",
+      "content_text": "One of the things that baffled me for quite a long time are Rust’s “trait objects”: they felt like an odd part of the language and I was never quite sure whether I was using them or not, even when I wanted to be. Since I’ve recently had cause to look into them in more detail, I thought it might be helpful to write a few things down, in case anyone else finds my explanation useful. The first part of this blog post covers the basics and the second part takes a look at the performance implications of the way trait objects are implemented in Rust.",
+      "url": "https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html",
+      "date_published": "2019-02-12T00:00:00+00:00",
+      "author": {
+        "name": "Laurence Tratt",
+        "url": "https://tratt.net/laurie/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3a45d462-3f13-451b-8b15-03d07069c3f3",
+      "title": "git req | switch branches, not context",
+      "content_text": "Check out git branches by their pull (or merge) request ID",
+      "url": "https://arusahni.github.io/git-req/",
+      "date_published": "2019-02-21T10:16:00+00:00",
+      "author": {
+        "name": "Aru Sahni",
+        "url": "https://arusahni.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "7a149bc9-7e87-40cb-b3ef-da277059f897",
+      "title": "New Gtk-rs release finally happened!",
+      "content_text": "It’s time for a new release! Main adds/changes this time are: We added the generation of the Atk crate. We now generate functions taking callback as parameters. We improved the channels handling in GLib. The whole new GString type! The minimum Rust version supported is now the 1.31. The minimum version of all libraries has been changed to GNOME 3.14. The maximum version of all libraries has been upgraded to GNOME 3.30. Added subclassing support in GLib. Even more bindings generated. Let’s see those in details.",
+      "url": "https://gtk-rs.org/blog/2019/02/21/new-release.html",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs",
+        "url": "http://gtk-rs.org/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2471466d-74a1-4d19-82d7-6909e10178cd",
+      "title": "Changes in the core team",
+      "content_text": "Just a quick update: You may have noticed that, in the last month or so, a number of Rust core team members have changed their jobs and/or their roles in the project.",
+      "url": "https://blog.rust-lang.org/2019/02/22/Core-team-changes.html",
+      "date_published": "2019-02-22T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2c967b7c-6987-45ae-96b1-776ee6c51011",
+      "title": "Procedural Generation with Wave Function Collapse",
+      "content_text": "Wave Function Collapse is a procedural generation algorithm which produces images by arranging a collection of tiles according to rules about which tiles may be adjacent to each other tile, and relatively how frequently each tile should appear. The algorithm maintains, for each pixel of the output image, a probability distribution of the tiles which may be placed there. It repeatedly chooses a pixel to “collapse” - choosing a tile to use for that pixel based on its distribution. WFC gets its name from quantum physics. The goal of this post is to build an intuition for how and why the WFC algorithm works.",
+      "url": "https://gridbugs.org/wave-function-collapse/",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Stephen Sherratt",
+        "url": "https://gridbugs.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "0d3ca45d-85aa-40ab-95f0-40ec5abaa75f",
+      "title": "Rust lang team working groups",
+      "content_text": "Now that the Rust 2018 edition has shipped, the language design team has been thinking a lot about what to do in 2019 and over the next few years. I think we’ve got a lot of exciting stuff on the horizon, and I wanted to write about it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/02/22/rust-lang-team-working-groups/",
+      "date_published": "2019-02-22T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1184c74a-bcbf-4aee-ae13-70dd37a6d68a",
       "title": "Bootstrapping My Embedded Rust Development Environment",
       "content_text": "After watching James Munns' Something for Nothing talk at RustConf about all of the cool things in the embedded Rust world that have been going on, I decided to take a crack at some embedded work. I built an ErgoDox a while back and already had some basic understanding of how its keyboard controller operates, so I thought \"why not design my own keyboard?\"",

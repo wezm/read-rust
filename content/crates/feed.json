@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7a149bc9-7e87-40cb-b3ef-da277059f897",
+      "title": "New Gtk-rs release finally happened!",
+      "content_text": "It’s time for a new release! Main adds/changes this time are: We added the generation of the Atk crate. We now generate functions taking callback as parameters. We improved the channels handling in GLib. The whole new GString type! The minimum Rust version supported is now the 1.31. The minimum version of all libraries has been changed to GNOME 3.14. The maximum version of all libraries has been upgraded to GNOME 3.30. Added subclassing support in GLib. Even more bindings generated. Let’s see those in details.",
+      "url": "https://gtk-rs.org/blog/2019/02/21/new-release.html",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs",
+        "url": "http://gtk-rs.org/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "7405fc44-d31f-49f8-a260-b837ff0e3f12",
       "title": "Rutie: “The Tie Between Ruby and Rust.”",
       "content_text": "Integrate Ruby with your Rust application. Or integrate Rust with your Ruby application. This project allows you to do either with relative ease.",

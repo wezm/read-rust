@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "2c0fbe82-0ef4-455a-94f9-886472559fdb",
+      "title": "MPSC Channel API for painless usage of threads with GTK in Rust",
+      "content_text": "A very common question that comes up on IRC or elsewhere by people trying to use the gtk-rs GTK bindings in Rust is how to modify UI state, or more specifically GTK widgets, from another thread. I’ll take this opportunity to also explain why it’s not so trivial in Rust first and also explain another solution.",
+      "url": "https://coaxion.net/blog/2019/02/mpsc-channel-api-for-painless-usage-of-threads-with-gtk-in-rust/",
+      "date_published": "2019-02-09T13:25:55+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "295b15d9-04eb-420c-bc3e-8b3c12a81882",
+      "title": "Visualizing your Rust code using graphviz",
+      "content_text": "In a previous post I mentioned that the Rust compiler allows you to output interesting intermediate languages/formats in a number of different ways. hir, mir and even flowgraphs! In this post I will be giving a brief overview of the flowgraph format and also instructions on how to generate images from your code.",
+      "url": "https://jonathansteyfkens.com/posts/visualizing-rust.html",
+      "date_published": "2019-02-17T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Steyfkens",
+        "url": "https://jonathansteyfkens.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "16bded10-81dc-4ef1-bf04-83a8ab584308",
+      "title": "A Quick Look at Trait Objects in Rust",
+      "content_text": "One of the things that baffled me for quite a long time are Rust’s “trait objects”: they felt like an odd part of the language and I was never quite sure whether I was using them or not, even when I wanted to be. Since I’ve recently had cause to look into them in more detail, I thought it might be helpful to write a few things down, in case anyone else finds my explanation useful. The first part of this blog post covers the basics and the second part takes a look at the performance implications of the way trait objects are implemented in Rust.",
+      "url": "https://tratt.net/laurie/blog/entries/a_quick_look_at_trait_objects_in_rust.html",
+      "date_published": "2019-02-12T00:00:00+00:00",
+      "author": {
+        "name": "Laurence Tratt",
+        "url": "https://tratt.net/laurie/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2471466d-74a1-4d19-82d7-6909e10178cd",
+      "title": "Changes in the core team",
+      "content_text": "Just a quick update: You may have noticed that, in the last month or so, a number of Rust core team members have changed their jobs and/or their roles in the project.",
+      "url": "https://blog.rust-lang.org/2019/02/22/Core-team-changes.html",
+      "date_published": "2019-02-22T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0d3ca45d-85aa-40ab-95f0-40ec5abaa75f",
+      "title": "Rust lang team working groups",
+      "content_text": "Now that the Rust 2018 edition has shipped, the language design team has been thinking a lot about what to do in 2019 and over the next few years. I think we’ve got a lot of exciting stuff on the horizon, and I wanted to write about it.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/02/22/rust-lang-team-working-groups/",
+      "date_published": "2019-02-22T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "365d8318-a9d3-4c1e-9f2a-73c4c5d812ee",
       "title": "Hindsight on Advent of Code 2018",
       "content_text": "On the 1st of December 2018, I decided to give it a try to Advent of Code. AoC is, basically, a programming challenge website where you get two puzzles unlocked every day of December from 1st to 25th – hence the name. It has a ranking system which scores are based on the absolute time you took to solve the puzzles – i.e. spent time as soon as the puzzles got unlocked. As a French living in Paris, I find this a bit unfair (we get puzzles unlocked at around 5:00 AM!) and then I just realized I could do the puzzles for fun only.\n\nThis blog post sums up what I did with AoC#18, my thoughts about the puzzles and even a meta-discussion about programming challenges. I used Haskell for most challenges and switched to Rust for no specific reason. Just fun.",

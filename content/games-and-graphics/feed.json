@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "df83e971-50b8-474a-8ecf-dd9a2b213972",
+      "title": "Writing a Rust Roguelike for the Desktop and the Web",
+      "content_text": "I want to participate in this year's 7 Day Roguelike Challenge. If you've looked around this blog, you know the language is going to be Rust. But for the 7DRL, I'd really love if people could play it in the browser. What follows is a little guide to get you to a small playable proof of concept that can build native Windows, macOS and Linux executables but also runs in the browser via WebAssembly.",
+      "url": "https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/",
+      "date_published": "2019-02-09T18:13:52+00:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://aimlesslygoingforward.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "2c967b7c-6987-45ae-96b1-776ee6c51011",
+      "title": "Procedural Generation with Wave Function Collapse",
+      "content_text": "Wave Function Collapse is a procedural generation algorithm which produces images by arranging a collection of tiles according to rules about which tiles may be adjacent to each other tile, and relatively how frequently each tile should appear. The algorithm maintains, for each pixel of the output image, a probability distribution of the tiles which may be placed there. It repeatedly chooses a pixel to “collapse” - choosing a tile to use for that pixel based on its distribution. WFC gets its name from quantum physics. The goal of this post is to build an intuition for how and why the WFC algorithm works.",
+      "url": "https://gridbugs.org/wave-function-collapse/",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Stephen Sherratt",
+        "url": "https://gridbugs.org/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "ea353a56-0b7b-4025-a410-0e479c39950a",
       "title": "Updates about my work on native-Rust GUI, text layout, splines, markdown parsing, and more",
       "content_text": "This post is actually a collection of updates about pretty big things, but the writeup is small. Several will be expanded into larger blog posts - if there are any that you are especially eager to see, please tweet at me and I’ll give the topic priority.",

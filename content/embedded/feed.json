@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3efffa85-74d0-41d1-8d14-c5933470cf0a",
+      "title": "Building an Embedded Futures Executor",
+      "content_text": "After discovering that the embedded-hal ecosystem wasn't quite what I wanted it to be, I set out to build the abstractions that I wanted to use, namely: async-first and core::future compatible. The first thing on the list? A way to run the Futures of course!",
+      "url": "https://josh.robsonchase.com/embedded-executor/",
+      "date_published": "2019-01-26T22:00:00-05:00",
+      "author": {
+        "name": "Josh Robson Chase",
+        "url": "https://josh.robsonchase.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "1184c74a-bcbf-4aee-ae13-70dd37a6d68a",
       "title": "Bootstrapping My Embedded Rust Development Environment",
       "content_text": "After watching James Munns' Something for Nothing talk at RustConf about all of the cool things in the embedded Rust world that have been going on, I decided to take a crack at some embedded work. I built an ErgoDox a while back and already had some basic understanding of how its keyboard controller operates, so I thought \"why not design my own keyboard?\"",
