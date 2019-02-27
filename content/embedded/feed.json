@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e7d75d4a-b84d-41fd-a164-016bb9e9d99c",
+      "title": "The Embedded Working Group Newsletter - 15",
+      "content_text": "This is the fifteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-15/",
+      "date_published": "2019-02-20T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "34d09d33-17ae-4799-9026-f41fc6d95fe4",
+      "title": "Firmware examples that make use of the jnet embedded TCP/IP crate",
+      "content_text": "[Experiment] JNeT: japaric's network thingies.",
+      "url": "https://github.com/japaric/jnet/tree/master/firmware",
+      "date_published": "2019-02-26T04:35:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "3efffa85-74d0-41d1-8d14-c5933470cf0a",
       "title": "Building an Embedded Futures Executor",
       "content_text": "After discovering that the embedded-hal ecosystem wasn't quite what I wanted it to be, I set out to build the abstractions that I wanted to use, namely: async-first and core::future compatible. The first thing on the list? A way to run the Futures of course!",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8d4c090f-e6e3-4975-abe7-385479579cfa",
+      "title": "Scientific computing: a Rust adventure [Part 0 - Vectors]",
+      "content_text": "My daily work revolves around building Machine Learning applications, while a lot of my evenings have been spent experimenting with Rust, getting more and more fascinated and in love with the language.\n\nIt couldn’t be helped: I started to have a look at what the Rust ecosystem had to offer for Machine Learning, Big Data and scientific computing at large. I quickly found out that there is a lot to be done and a lot of potential (see here or here). It got me really fired up 🔥",
+      "url": "https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/",
+      "date_published": "2019-02-23T00:00:00+00:00",
+      "author": {
+        "name": "Luca Palmieri",
+        "url": "https://www.lpalmieri.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "2c967b7c-6987-45ae-96b1-776ee6c51011",
       "title": "Procedural Generation with Wave Function Collapse",
       "content_text": "Wave Function Collapse is a procedural generation algorithm which produces images by arranging a collection of tiles according to rules about which tiles may be adjacent to each other tile, and relatively how frequently each tile should appear. The algorithm maintains, for each pixel of the output image, a probability distribution of the tiles which may be placed there. It repeatedly chooses a pixel to “collapse” - choosing a tile to use for that pixel based on its distribution. WFC gets its name from quantum physics. The goal of this post is to build an intuition for how and why the WFC algorithm works.",

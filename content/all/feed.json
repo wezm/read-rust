@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "a40e4318-64e5-4929-800f-4308c242b49c",
+      "title": "You can live without Exceptions, if you are using Rust",
+      "content_text": "If you are coming from Java background, where you have used Exception Handling extensively and you have started working on new language like Rust, which doesn’t support Exception Handling then you will be forced to think that does such kind of world really exists?",
+      "url": "https://blog.knoldus.com/you-can-live-without-exceptions-if-you-are-using-rust/",
+      "date_published": "2019-02-18T08:18:34+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "12b9edfa-c917-436a-b001-76305b65eb0d",
+      "title": "Working with Command Line Arguments in Rust",
+      "content_text": "Command Line Arguments are used to control program from outside instead of hard-coding those values inside the code and supplied to program when it is invoked. In this blog, I’ll demystify you how to use Command Line Arguments in the Rust Programming Language.",
+      "url": "https://blog.knoldus.com/working-with-command-line-arguments-in-rust/",
+      "date_published": "2019-02-26T07:05:40+00:00",
+      "author": {
+        "name": "Pawan Bisht",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e7d75d4a-b84d-41fd-a164-016bb9e9d99c",
+      "title": "The Embedded Working Group Newsletter - 15",
+      "content_text": "This is the fifteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-15/",
+      "date_published": "2019-02-20T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "ddee0856-44f0-4b27-a925-8c7b39904a35",
+      "title": "Mod player in Rust - part 1",
+      "content_text": "For my next Rust project I want to try something a bit more challenging than the Sudoku solver. I want to write a mod player in Rust.",
+      "url": "https://www.codeslow.com/2019/01/mod-player-in-rust-part-1.html",
+      "date_published": "2019-01-19T12:43:00.001-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://www.codeslow.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "dfa770cf-7919-4344-b9ef-6ad7b5e0a084",
+      "title": "Rust 2019: Rust Audio",
+      "content_text": "Howdy y'all. This is a super late 2019 goal post but I drank too much coffee this morning and wanted to get some thoughts out. I'd love to see 2019 be a great year for progressing the environment for developing audio applications in Rust. I'm not saying that there aren't already some good libraries out there, but in comparison with the defacto C++ offerings, we have a long way to go. Basically, I'd love to see an alternative to JUCE in Rust, and that is very ambitious because JUCE is an amazing library!",
+      "url": "https://www.reddit.com/r/rust/comments/aua2tb/rust_2019_rust_audio/?st=JSJEXJDY&sh=497b171c",
+      "date_published": "2019-02-25T04:21:15+11:00",
+      "author": {
+        "name": "u/engid",
+        "url": "https://www.reddit.com/user/engid"
+      },
+      "tags": [
+        "Rust 2019"
+      ]
+    },
+    {
+      "id": "8d4c090f-e6e3-4975-abe7-385479579cfa",
+      "title": "Scientific computing: a Rust adventure [Part 0 - Vectors]",
+      "content_text": "My daily work revolves around building Machine Learning applications, while a lot of my evenings have been spent experimenting with Rust, getting more and more fascinated and in love with the language.\n\nIt couldn’t be helped: I started to have a look at what the Rust ecosystem had to offer for Machine Learning, Big Data and scientific computing at large. I quickly found out that there is a lot to be done and a lot of potential (see here or here). It got me really fired up 🔥",
+      "url": "https://www.lpalmieri.com/posts/2019-02-23-scientific-computing-a-rust-adventure-part-0-vectors/",
+      "date_published": "2019-02-23T00:00:00+00:00",
+      "author": {
+        "name": "Luca Palmieri",
+        "url": "https://www.lpalmieri.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "e513ef63-5727-4db5-8830-08606838d1e3",
+      "title": "Introducing battery crate",
+      "content_text": "My new pet project for reading batteries information in Rust.",
+      "url": "https://svartalf.info/posts/2019-02-25-introducing-battery-crate/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "34d09d33-17ae-4799-9026-f41fc6d95fe4",
+      "title": "Firmware examples that make use of the jnet embedded TCP/IP crate",
+      "content_text": "[Experiment] JNeT: japaric's network thingies.",
+      "url": "https://github.com/japaric/jnet/tree/master/firmware",
+      "date_published": "2019-02-26T04:35:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "938a7c8a-5c3d-4adb-82e0-caf416396075",
+      "title": "Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that",
+      "content_text": "several models that make it easier to reason about concurrent programs have been envisioned over time. In this article, we'll have a quick look at a few of them, from new to not-so-new languages. I don't intend to give an extensive analysis of each solution, or make a formal comparison between them. My intention is to simply explain the basics of each solution and how they can be used in practice (with code samples that show off what the result of using the models might look like), so that other developers may have an easier time understanding them and deciding which solution, or language, might be better applicable to their particular problems.",
+      "url": "https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat",
+      "date_published": "2019-02-24T09:13:00+00:00",
+      "author": {
+        "name": "Renato Athaydes",
+        "url": "https://sites.google.com/a/athaydes.com/renato-athaydes/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "b149b575-39a9-4136-8749-29e04c5cf0b3",
+      "title": "Rust Case Study: Community makes Rust an easy choice for npm [pdf]",
+      "content_text": "Learn how npm uses Rust",
+      "url": "https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf",
+      "date_published": "2019-02-27T03:26:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3efffa85-74d0-41d1-8d14-c5933470cf0a",
       "title": "Building an Embedded Futures Executor",
       "content_text": "After discovering that the embedded-hal ecosystem wasn't quite what I wanted it to be, I set out to build the abstractions that I wanted to use, namely: async-first and core::future compatible. The first thing on the list? A way to run the Futures of course!",

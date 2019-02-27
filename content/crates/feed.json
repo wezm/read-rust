@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e513ef63-5727-4db5-8830-08606838d1e3",
+      "title": "Introducing battery crate",
+      "content_text": "My new pet project for reading batteries information in Rust.",
+      "url": "https://svartalf.info/posts/2019-02-25-introducing-battery-crate/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "7a149bc9-7e87-40cb-b3ef-da277059f897",
       "title": "New Gtk-rs release finally happened!",
       "content_text": "It’s time for a new release! Main adds/changes this time are: We added the generation of the Atk crate. We now generate functions taking callback as parameters. We improved the channels handling in GLib. The whole new GString type! The minimum Rust version supported is now the 1.31. The minimum version of all libraries has been changed to GNOME 3.14. The maximum version of all libraries has been upgraded to GNOME 3.30. Added subclassing support in GLib. Even more bindings generated. Let’s see those in details.",

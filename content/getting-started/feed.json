@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "a40e4318-64e5-4929-800f-4308c242b49c",
+      "title": "You can live without Exceptions, if you are using Rust",
+      "content_text": "If you are coming from Java background, where you have used Exception Handling extensively and you have started working on new language like Rust, which doesn’t support Exception Handling then you will be forced to think that does such kind of world really exists?",
+      "url": "https://blog.knoldus.com/you-can-live-without-exceptions-if-you-are-using-rust/",
+      "date_published": "2019-02-18T08:18:34+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "12b9edfa-c917-436a-b001-76305b65eb0d",
+      "title": "Working with Command Line Arguments in Rust",
+      "content_text": "Command Line Arguments are used to control program from outside instead of hard-coding those values inside the code and supplied to program when it is invoked. In this blog, I’ll demystify you how to use Command Line Arguments in the Rust Programming Language.",
+      "url": "https://blog.knoldus.com/working-with-command-line-arguments-in-rust/",
+      "date_published": "2019-02-26T07:05:40+00:00",
+      "author": {
+        "name": "Pawan Bisht",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "115896de-7fb5-4c2e-b969-1c63550669e1",
       "title": "Learning Rust in 2019",
       "content_text": "If you have made up your mind to learn this modern programming language in 2019, this is a small attempt for new learners to have an unofficial learning path for getting to know and mastering Rust. I am still learning Rust and I will update post as and when required. This is iteration 1.",

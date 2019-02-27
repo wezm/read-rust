@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "938a7c8a-5c3d-4adb-82e0-caf416396075",
+      "title": "Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that",
+      "content_text": "several models that make it easier to reason about concurrent programs have been envisioned over time. In this article, we'll have a quick look at a few of them, from new to not-so-new languages. I don't intend to give an extensive analysis of each solution, or make a formal comparison between them. My intention is to simply explain the basics of each solution and how they can be used in practice (with code samples that show off what the result of using the models might look like), so that other developers may have an easier time understanding them and deciding which solution, or language, might be better applicable to their particular problems.",
+      "url": "https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat",
+      "date_published": "2019-02-24T09:13:00+00:00",
+      "author": {
+        "name": "Renato Athaydes",
+        "url": "https://sites.google.com/a/athaydes.com/renato-athaydes/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "9494ac41-95c6-43e8-86ef-660443465886",
       "title": "Rewriting stackcollapse-xdebug in Rust",
       "content_text": "A week or so ago, I saw the inferno project mentioned on the Rust subreddit. It was a rewrite of the great FlameGraph library into Rust. All of the work was being livestreamed by Jon Gjengset. I ended up watching some of the livestreams and had the idea of porting the stackcollapse-xdebug.php file to Rust, potentially so it could be included in the project in the future.",

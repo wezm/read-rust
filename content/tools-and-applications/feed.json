@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ddee0856-44f0-4b27-a925-8c7b39904a35",
+      "title": "Mod player in Rust - part 1",
+      "content_text": "For my next Rust project I want to try something a bit more challenging than the Sudoku solver. I want to write a mod player in Rust.",
+      "url": "https://www.codeslow.com/2019/01/mod-player-in-rust-part-1.html",
+      "date_published": "2019-01-19T12:43:00.001-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://www.codeslow.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "3a45d462-3f13-451b-8b15-03d07069c3f3",
       "title": "git req | switch branches, not context",
       "content_text": "Check out git branches by their pull (or merge) request ID",

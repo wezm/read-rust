@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b149b575-39a9-4136-8749-29e04c5cf0b3",
+      "title": "Rust Case Study: Community makes Rust an easy choice for npm [pdf]",
+      "content_text": "Learn how npm uses Rust",
+      "url": "https://www.rust-lang.org/static/pdfs/Rust-npm-Whitepaper.pdf",
+      "date_published": "2019-02-27T03:26:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "2c0fbe82-0ef4-455a-94f9-886472559fdb",
       "title": "MPSC Channel API for painless usage of threads with GTK in Rust",
       "content_text": "A very common question that comes up on IRC or elsewhere by people trying to use the gtk-rs GTK bindings in Rust is how to modify UI state, or more specifically GTK widgets, from another thread. I’ll take this opportunity to also explain why it’s not so trivial in Rust first and also explain another solution.",
