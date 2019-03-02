@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e6376cd5-713f-4a8e-8792-2329772feee5",
+      "title": "Announcing Rust 1.33.0",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.33.0. The two largest features in this release are significant improvements to const fns, and the stabilization of a new concept: \"pinning.\"",
+      "url": "https://blog.rust-lang.org/2019/02/28/Rust-1.33.0.html",
+      "date_published": "2019-02-28T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a6483426-5600-4cf0-a514-c532946abda3",
+      "title": "Bid adieu to tarpaulin, HTML reports are here for Rust",
+      "content_text": "Kcov is a code coverage tool for Binaries, Shell scripts as well as Python scripts. It generates an HTML file for most of the languages. But we will focus mainly on Rust language.",
+      "url": "https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/",
+      "date_published": "2019-02-26T06:41:19+00:00",
+      "author": {
+        "name": "Mudit Chhabra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f93cc38e-4380-4174-8f53-b5c6674772da",
+      "title": "Rust build scripts vs. Meson",
+      "content_text": "One of the pain points in trying to make the Meson build system work with Rust and Cargo is Cargo's use of build scripts, i.e. the build.rs that many Rust programs use for doing things before the main build. This post is about my exploration of what build.rs does.",
+      "url": "https://people.gnome.org/~federico/blog/rust-build-scripts.html",
+      "date_published": "2019-02-27T12:14:12-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b149b575-39a9-4136-8749-29e04c5cf0b3",
       "title": "Rust Case Study: Community makes Rust an easy choice for npm [pdf]",
       "content_text": "Learn how npm uses Rust",

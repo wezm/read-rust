@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "756d2f52-51dd-4408-ae79-3b17c02849e3",
+      "title": "Comparing C and Rust network protocol exercises - Ayende @ Rahien",
+      "content_text": "Almost by accident, it turned out that I implemented a pretty simple, but non trivial task in both C and Rust and blogged about them. Now that I’m done with both of them, I thought it would be interesting to talk about the differences in the experiences. The Rust version clocks at exactly 400 lines of code and uses 12 external crates. The C version has 911 lines of C code and another 140 lines in headers and depends on libuv and openssl.",
+      "url": "https://ayende.com/blog/185859-A/comparing-c-and-rust-network-protocol-exercises?Key=bd1ba87d-6e7e-4739-824d-0ca6fc232b05",
+      "date_published": "2019-02-05T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "94fdb740-ae30-402f-9dc5-3f98b6a2753a",
       "title": "Embedding WebAssembly in your Rust application",
       "content_text": "Wasmer is a WebAssembly runtime designed to run both standalone and embedded. The crate wasmer-runtime exposes an easy to use and safe api for compiling, creating imports, and calling WebAssembly from your own library. This tutorial goes over how to make a simple wasm application and run it using the wasmer-runtime!",

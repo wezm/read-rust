@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "70a94e2b-dbd2-4f66-ada8-5886b5c51fab",
+      "title": "Low level text layout kickoff",
+      "content_text": "This post is to announce a new Rust library for low-level text layout, called “skribo” (the Esperanto word for “writing”). This has been a major gap in the Rust ecosystem, and I hope the new crate can improve text handling across the board.",
+      "url": "https://raphlinus.github.io/rust/skribo/text/2019/02/27/text-layout-kickoff.html",
+      "date_published": "2019-02-27T18:16:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "03e057c7-1da0-4468-b0f8-3aaedde6b241",
+      "title": "Combine Results for Improved Rust Validation Logic",
+      "content_text": "The error handling features within Rust are some of my favorite things about the language. This system works great when you are in a function which returns a Result and you want to exit at the first error you come to. However, it can be challenging if your goal is to try a few failure-prone things and return each of the errors, rather than just the first error. This is the problem multi_try attempts to solve. ",
+      "url": "https://www.joshmcguigan.com/blog/multi-try-improved-validation-logic-rust/",
+      "date_published": "2019-02-23T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e513ef63-5727-4db5-8830-08606838d1e3",
       "title": "Introducing battery crate",
       "content_text": "My new pet project for reading batteries information in Rust.",

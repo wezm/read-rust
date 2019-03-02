@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "fae48adb-0406-4124-b06d-6b9d7a667d85",
+      "title": "Zero knowledge proofs using Bulletproofs",
+      "content_text": "I will show how to create various zero knowledge proofs using the Bulletproofs implementation from dalek-cryptography. The examples will be i) proving knowledge of factors of a given number without revealing the factors, ii) a range proof, i.e. prove that you know a value x such that a ≤ x ≤ b without revealing x, iii) prove that the value you have is non-zero without revealing it (without using above range proof), iv) Set membership, i.e given a set S, prove that you know an element contained in the set without revealing the element, v) Similarly, set non-membership without revealing the value of the absent element. The examples can be adapted with little effort such that they can be used in ZK-SNARK implementations like libsnark or bellman.",
+      "url": "https://medium.com/coinmonks/zero-knowledge-proofs-using-bulletproofs-4a8e2579fc82",
+      "date_published": "2019-02-23T20:38:04.316+00:00",
+      "author": {
+        "name": "Lovesh Harchandani",
+        "url": "https://medium.com/@loveshharchandani"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "1ffc5388-6476-4542-90c1-398c561a2c43",
+      "title": "Implications of Rewriting a Browser Component in Rust",
+      "content_text": "Since our first release in 2002, there have been 69 security bugs in Firefox’s style component. If we'd had a time machine and could have written this component in Rust from the start, 51% wouldn't have happened. That said, Rust is not foolproof. Developers still need to be aware of correctness bugs and data leakage attacks.",
+      "url": "https://hacks.mozilla.org/2019/02/rewriting-a-browser-component-in-rust/",
+      "date_published": "2019-02-28T14:10:27+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "84b2eb06-712b-4d63-b899-c91e16e1b0ee",
       "title": "Manage security vulnerabilities in embedded IoT devices with Rust",
       "content_text": "The Rust programming language’s rich type system and ownership model guarantee memory-safety and thread-safety — and eliminate many classes of bugs and security vulnerabilities at compile-time.",

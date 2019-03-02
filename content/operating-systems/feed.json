@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c8769017-9667-4bad-82c6-e43ec7391182",
+      "title": "This Week in Pop!_OS 1",
+      "content_text": "This will be the first in a series of weekly updates on progress made in the development of Pop!_OS. Thus, this will only contain content pertaining specifically to Pop!_OS, though at times there may be some overlap with the hardware side of System76.",
+      "url": "https://pop-planet.info/2019/02/this-week-in-pop/",
+      "date_published": "2019-02-28T00:20:54+00:00",
+      "author": {
+        "name": "Michael Murphy",
+        "url": "https://pop-planet.info/author/mmstickmangmail-com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "2c73855c-6079-427a-b075-4c07ed3cec23",
       "title": "Cross-compiling Rust code to Minix",
       "content_text": "I’ve decided to take a look at Minix, which is an interesting microkernel OS. Naturally after building Minix from git, the first thing I decided to try was porting Rust’s std to Minix so I could cross-compile Rust programs from Linux to run under Minix. Okay, I suppose I could have started with something else, but porting Rust software and modifying the platform-depending part of std is something I have experience with from working on Redox OS. And Rust really isn’t that hard to port.",

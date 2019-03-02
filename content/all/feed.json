@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "fae48adb-0406-4124-b06d-6b9d7a667d85",
+      "title": "Zero knowledge proofs using Bulletproofs",
+      "content_text": "I will show how to create various zero knowledge proofs using the Bulletproofs implementation from dalek-cryptography. The examples will be i) proving knowledge of factors of a given number without revealing the factors, ii) a range proof, i.e. prove that you know a value x such that a ≤ x ≤ b without revealing x, iii) prove that the value you have is non-zero without revealing it (without using above range proof), iv) Set membership, i.e given a set S, prove that you know an element contained in the set without revealing the element, v) Similarly, set non-membership without revealing the value of the absent element. The examples can be adapted with little effort such that they can be used in ZK-SNARK implementations like libsnark or bellman.",
+      "url": "https://medium.com/coinmonks/zero-knowledge-proofs-using-bulletproofs-4a8e2579fc82",
+      "date_published": "2019-02-23T20:38:04.316+00:00",
+      "author": {
+        "name": "Lovesh Harchandani",
+        "url": "https://medium.com/@loveshharchandani"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "7ace680c-a527-42f6-9eeb-dc4fd680aa53",
+      "title": "What is Happening in Piston 7",
+      "content_text": "This blog post is a brief summary of what happened the past 8 months in the Piston project.",
+      "url": "http://blog.piston.rs/2019/02/08/what-is-happening-7/",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Sven Nilsen",
+        "url": "http://blog.piston.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1ffc5388-6476-4542-90c1-398c561a2c43",
+      "title": "Implications of Rewriting a Browser Component in Rust",
+      "content_text": "Since our first release in 2002, there have been 69 security bugs in Firefox’s style component. If we'd had a time machine and could have written this component in Rust from the start, 51% wouldn't have happened. That said, Rust is not foolproof. Developers still need to be aware of correctness bugs and data leakage attacks.",
+      "url": "https://hacks.mozilla.org/2019/02/rewriting-a-browser-component-in-rust/",
+      "date_published": "2019-02-28T14:10:27+00:00",
+      "author": {
+        "name": "Diane Hosfelt",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "e6376cd5-713f-4a8e-8792-2329772feee5",
+      "title": "Announcing Rust 1.33.0",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.33.0. The two largest features in this release are significant improvements to const fns, and the stabilization of a new concept: \"pinning.\"",
+      "url": "https://blog.rust-lang.org/2019/02/28/Rust-1.33.0.html",
+      "date_published": "2019-02-28T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a6483426-5600-4cf0-a514-c532946abda3",
+      "title": "Bid adieu to tarpaulin, HTML reports are here for Rust",
+      "content_text": "Kcov is a code coverage tool for Binaries, Shell scripts as well as Python scripts. It generates an HTML file for most of the languages. But we will focus mainly on Rust language.",
+      "url": "https://blog.knoldus.com/bid-adieu-to-tarpaulin-html-reports-are-here-for-rust/",
+      "date_published": "2019-02-26T06:41:19+00:00",
+      "author": {
+        "name": "Mudit Chhabra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c8769017-9667-4bad-82c6-e43ec7391182",
+      "title": "This Week in Pop!_OS 1",
+      "content_text": "This will be the first in a series of weekly updates on progress made in the development of Pop!_OS. Thus, this will only contain content pertaining specifically to Pop!_OS, though at times there may be some overlap with the hardware side of System76.",
+      "url": "https://pop-planet.info/2019/02/this-week-in-pop/",
+      "date_published": "2019-02-28T00:20:54+00:00",
+      "author": {
+        "name": "Michael Murphy",
+        "url": "https://pop-planet.info/author/mmstickmangmail-com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "70a94e2b-dbd2-4f66-ada8-5886b5c51fab",
+      "title": "Low level text layout kickoff",
+      "content_text": "This post is to announce a new Rust library for low-level text layout, called “skribo” (the Esperanto word for “writing”). This has been a major gap in the Rust ecosystem, and I hope the new crate can improve text handling across the board.",
+      "url": "https://raphlinus.github.io/rust/skribo/text/2019/02/27/text-layout-kickoff.html",
+      "date_published": "2019-02-27T18:16:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "f93cc38e-4380-4174-8f53-b5c6674772da",
+      "title": "Rust build scripts vs. Meson",
+      "content_text": "One of the pain points in trying to make the Meson build system work with Rust and Cargo is Cargo's use of build scripts, i.e. the build.rs that many Rust programs use for doing things before the main build. This post is about my exploration of what build.rs does.",
+      "url": "https://people.gnome.org/~federico/blog/rust-build-scripts.html",
+      "date_published": "2019-02-27T12:14:12-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "756d2f52-51dd-4408-ae79-3b17c02849e3",
+      "title": "Comparing C and Rust network protocol exercises - Ayende @ Rahien",
+      "content_text": "Almost by accident, it turned out that I implemented a pretty simple, but non trivial task in both C and Rust and blogged about them. Now that I’m done with both of them, I thought it would be interesting to talk about the differences in the experiences. The Rust version clocks at exactly 400 lines of code and uses 12 external crates. The C version has 911 lines of C code and another 140 lines in headers and depends on libuv and openssl.",
+      "url": "https://ayende.com/blog/185859-A/comparing-c-and-rust-network-protocol-exercises?Key=bd1ba87d-6e7e-4739-824d-0ca6fc232b05",
+      "date_published": "2019-02-05T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "03e057c7-1da0-4468-b0f8-3aaedde6b241",
+      "title": "Combine Results for Improved Rust Validation Logic",
+      "content_text": "The error handling features within Rust are some of my favorite things about the language. This system works great when you are in a function which returns a Result and you want to exit at the first error you come to. However, it can be challenging if your goal is to try a few failure-prone things and return each of the errors, rather than just the first error. This is the problem multi_try attempts to solve. ",
+      "url": "https://www.joshmcguigan.com/blog/multi-try-improved-validation-logic-rust/",
+      "date_published": "2019-02-23T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "a40e4318-64e5-4929-800f-4308c242b49c",
       "title": "You can live without Exceptions, if you are using Rust",
       "content_text": "If you are coming from Java background, where you have used Exception Handling extensively and you have started working on new language like Rust, which doesn’t support Exception Handling then you will be forced to think that does such kind of world really exists?",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7ace680c-a527-42f6-9eeb-dc4fd680aa53",
+      "title": "What is Happening in Piston 7",
+      "content_text": "This blog post is a brief summary of what happened the past 8 months in the Piston project.",
+      "url": "http://blog.piston.rs/2019/02/08/what-is-happening-7/",
+      "date_published": "2019-02-08T00:00:00+00:00",
+      "author": {
+        "name": "Sven Nilsen",
+        "url": "http://blog.piston.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "df83e971-50b8-474a-8ecf-dd9a2b213972",
       "title": "Writing a Rust Roguelike for the Desktop and the Web",
       "content_text": "I want to participate in this year's 7 Day Roguelike Challenge. If you've looked around this blog, you know the language is going to be Rust. But for the 7DRL, I'd really love if people could play it in the browser. What follows is a little guide to get you to a small playable proof of concept that can build native Windows, macOS and Linux executables but also runs in the browser via WebAssembly.",
