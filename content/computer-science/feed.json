@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7fa900ce-52d1-494e-b770-ed5ef64aea61",
+      "title": "Building fast interpreters in Rust",
+      "content_text": "we created a configurable Rust library for writing and executing Wireshark®-like filters in different parts of our stack written in Go, Lua, C, C++ and JavaScript Workers. We have now open-sourced this library under our Github account: https://github.com/cloudflare/wirefilter. This post will dive into its design, explain why we didn’t use a parser generator and how our execution engine balances security, runtime performance and compilation cost for the generated filters.",
+      "url": "https://blog.cloudflare.com/building-fast-interpreters-in-rust/",
+      "date_published": "2019-03-04T16:00:00+00:00",
+      "author": {
+        "name": "Ingvar Stepanyan",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "17e95b5e-6cd8-4f98-8030-c923e69897cb",
+      "title": "luster: An experimental Lua VM implemented in pure Rust",
+      "content_text": " What I want to talk about though (and what I will eventually write a blog post about) is the technique that I'm using in luster for safe garbage collection. Inside luster are two libraries called \"gc-arena\" and \"gc-sequence\", and they represent a new (I believe novel?) system for safe garbage collection in Rust. There have been several attempts here before such as rust-gc and shifgrethor, and this represents another attempt with... different? limitations more appropriate for implementing language runtimes like Lua.",
+      "url": "https://www.reddit.com/r/rust/comments/awx9cy/github_kyrenluster_an_experimental_lua_vm/",
+      "date_published": "2019-03-04T06:26:29+11:00",
+      "author": {
+        "name": "Catherine West",
+        "url": "https://kyren.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "8d4c090f-e6e3-4975-abe7-385479579cfa",
       "title": "Scientific computing: a Rust adventure [Part 0 - Vectors]",
       "content_text": "My daily work revolves around building Machine Learning applications, while a lot of my evenings have been spent experimenting with Rust, getting more and more fascinated and in love with the language.\n\nIt couldn’t be helped: I started to have a look at what the Rust ecosystem had to offer for Machine Learning, Big Data and scientific computing at large. I quickly found out that there is a lot to be done and a lot of potential (see here or here). It got me really fired up 🔥",

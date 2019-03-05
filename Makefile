@@ -26,6 +26,9 @@ all: feeds
 	cargo run --release --bin toot -- -n ${TOOTED} ${POSTS} ${CATEGORIES}
 	cargo run --release --bin tweet -- -n ${TWEETED} ${POSTS} ${CATEGORIES}
 
+check:
+	./script/check
+
 feeds: ${FEEDS}
 
 ${GENERATE_RSS}: src/bin/generate-rss.rs

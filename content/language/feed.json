@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e9d10b77-3f54-4479-b685-26efa74f67ce",
+      "title": "Getting started with Rust FFI",
+      "content_text": "The memory models of Rust and C can often cause a lot of friction. This guide is born out of my own personal struggles writing transmission-sys a wrapper for the Transmission BitTorrent client. Though in this guide we will go over the much simpler example of writing a wrapper for libevent-sys.",
+      "url": "https://rushsteve1.us/wp/getting-started-with-rust-ffi/",
+      "date_published": "2019-02-15T03:00:32+00:00",
+      "author": {
+        "name": "Rushsteve1",
+        "url": "https://rushsteve1.us/wp/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c838f89e-80f8-4146-b26e-622020ff2653",
+      "title": "Async-await status report",
+      "content_text": "I wanted to post a quick update on the status of the async-await effort. The short version is that we’re in the home stretch for some kind of stabilization, but there remain some significant questions to overcome.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/03/01/async-await-status-report/",
+      "date_published": "2019-03-01T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a9fd96a-fd25-48dd-a97e-511e023b35f8",
+      "title": "Proposal: New channels for Rust’s standard library",
+      "content_text": "In this blog post, I’m proposing we also replace the guts of mpsc with crossbeam-channel for some more performance wins. However, unlike with mutexes and hash maps, this change will also enable oft-requested new features that make it tempting to deprecate mpsc altogether and introduce better channels designed from scratch.",
+      "url": "https://stjepang.github.io/2019/03/02/new-channels.html",
+      "date_published": "2019-03-02T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavina",
+        "url": "https://stjepang.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e6376cd5-713f-4a8e-8792-2329772feee5",
       "title": "Announcing Rust 1.33.0",
       "content_text": "The Rust team is happy to announce a new version of Rust, 1.33.0. The two largest features in this release are significant improvements to const fns, and the stabilization of a new concept: \"pinning.\"",

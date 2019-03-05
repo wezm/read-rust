@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "a540ae81-ddbb-4279-a507-b7faf43e5b19",
+      "title": "Pedal to the metal: dynamic templates with Ramhorns",
+      "content_text": "I have a problem. I don't know what to call it, but there is this itch I have when I find something that can obviously be made more efficient. The way I get about scratching that itch these days is by writing some Rust. I just got such an itch when looking at static site generators for this blog, Hugo (written in Go) is pretty much state-of-the art. In Rust land we have Zola, which is feature-rich, mature (for v0.5), and definitely fast enough for most users, and yet it is not as fast as it could be. Being written in Rust is, by itself, not a guarantee of top performance. The implementation matters. After some looking around I've narrowed down a problem I want to tackle (for now) to one area: template engines.",
+      "url": "https://maciej.codes/2019-03-03-ramhorns.html",
+      "date_published": "2019-03-03T00:00:00+00:00",
+      "author": {
+        "name": "Maciej Hirsz",
+        "url": "https://maciej.codes/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ce110dd7-46c1-4f12-880f-1c0bbf3a6726",
+      "title": "Starling, the Binary Indexed Merkle Tree (Or Merkle-BIT)",
+      "content_text": "Hey rustaceans! With a little help from your feedback just a few hours ago, I'm proud to present to you all Starling, a Binary Indexed Merkle tree! I've been working on this data structure for the last few months, and I think it is ready now for the community to have a look. Let me explain what it is and why it might be useful for your project.",
+      "url": "https://www.reddit.com/r/rust/comments/aww097/starling_the_binary_indexed_merkle_tree_or/",
+      "date_published": "2019-03-04T04:12:50+11:00",
+      "author": {
+        "name": "ChosunOne",
+        "url": "https://www.reddit.com/user/ChosunOne"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2c0b32cc-51a7-4e6f-a729-92c6cedcd7b1",
+      "title": "Our first Rust crate: decrypting ansible vaults",
+      "content_text": "We encrypt these secrets in so-called ansible vaults. Kuberwave also has the need to access these secrets. Because our staff is already comfortable with using these vaults, we’ve decided to also employ them for our Kubernetes setup. For this I created ansible-vault-rs, a library that can decrypt ansible vaults. Note that it can not create or edit vaults, because I have no need (yet) for this functionality.",
+      "url": "https://medium.com/@woutergeraedts/our-first-rust-crate-decrypting-ansible-vaults-25f2f3a9a674",
+      "date_published": "2019-02-22T08:12:26.080+00:00",
+      "author": {
+        "name": "Wouter Geraedts",
+        "url": "https://medium.com/@woutergeraedts"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "70a94e2b-dbd2-4f66-ada8-5886b5c51fab",
       "title": "Low level text layout kickoff",
       "content_text": "This post is to announce a new Rust library for low-level text layout, called “skribo” (the Esperanto word for “writing”). This has been a major gap in the Rust ecosystem, and I hope the new crate can improve text handling across the board.",

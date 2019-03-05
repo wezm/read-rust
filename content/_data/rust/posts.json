@@ -10,6 +10,122 @@
   },
   "items": [
     {
+      "id": "e9d10b77-3f54-4479-b685-26efa74f67ce",
+      "title": "Getting started with Rust FFI",
+      "content_text": "The memory models of Rust and C can often cause a lot of friction. This guide is born out of my own personal struggles writing transmission-sys a wrapper for the Transmission BitTorrent client. Though in this guide we will go over the much simpler example of writing a wrapper for libevent-sys.",
+      "url": "https://rushsteve1.us/wp/getting-started-with-rust-ffi/",
+      "date_published": "2019-02-15T03:00:32+00:00",
+      "author": {
+        "name": "Rushsteve1",
+        "url": "https://rushsteve1.us/wp/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c838f89e-80f8-4146-b26e-622020ff2653",
+      "title": "Async-await status report",
+      "content_text": "I wanted to post a quick update on the status of the async-await effort. The short version is that we’re in the home stretch for some kind of stabilization, but there remain some significant questions to overcome.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/03/01/async-await-status-report/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1101591018686869506",
+      "date_published": "2019-03-01T00:00:00-05:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a9fd96a-fd25-48dd-a97e-511e023b35f8",
+      "title": "Proposal: New channels for Rust’s standard library",
+      "content_text": "In this blog post, I’m proposing we also replace the guts of mpsc with crossbeam-channel for some more performance wins. However, unlike with mutexes and hash maps, this change will also enable oft-requested new features that make it tempting to deprecate mpsc altogether and introduce better channels designed from scratch.",
+      "url": "https://stjepang.github.io/2019/03/02/new-channels.html",
+      "tweet_url": "https://twitter.com/stjepang/status/1101818131482398720",
+      "date_published": "2019-03-02T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavina",
+        "url": "https://stjepang.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7fa900ce-52d1-494e-b770-ed5ef64aea61",
+      "title": "Building fast interpreters in Rust",
+      "content_text": "we created a configurable Rust library for writing and executing Wireshark®-like filters in different parts of our stack written in Go, Lua, C, C++ and JavaScript Workers. We have now open-sourced this library under our Github account: https://github.com/cloudflare/wirefilter. This post will dive into its design, explain why we didn’t use a parser generator and how our execution engine balances security, runtime performance and compilation cost for the generated filters.",
+      "url": "https://blog.cloudflare.com/building-fast-interpreters-in-rust/",
+      "tweet_url": "https://twitter.com/RReverser/status/1102603707584315393",
+      "date_published": "2019-03-04T16:00:00+00:00",
+      "author": {
+        "name": "Ingvar Stepanyan",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "a540ae81-ddbb-4279-a507-b7faf43e5b19",
+      "title": "Pedal to the metal: dynamic templates with Ramhorns",
+      "content_text": "I have a problem. I don't know what to call it, but there is this itch I have when I find something that can obviously be made more efficient. The way I get about scratching that itch these days is by writing some Rust. I just got such an itch when looking at static site generators for this blog, Hugo (written in Go) is pretty much state-of-the art. In Rust land we have Zola, which is feature-rich, mature (for v0.5), and definitely fast enough for most users, and yet it is not as fast as it could be. Being written in Rust is, by itself, not a guarantee of top performance. The implementation matters. After some looking around I've narrowed down a problem I want to tackle (for now) to one area: template engines.",
+      "url": "https://maciej.codes/2019-03-03-ramhorns.html",
+      "tweet_url": "https://twitter.com/MaciejHirsz/status/1102289289671516163",
+      "date_published": "2019-03-03T00:00:00+00:00",
+      "author": {
+        "name": "Maciej Hirsz",
+        "url": "https://maciej.codes/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ce110dd7-46c1-4f12-880f-1c0bbf3a6726",
+      "title": "Starling, the Binary Indexed Merkle Tree (Or Merkle-BIT)",
+      "content_text": "Hey rustaceans! With a little help from your feedback just a few hours ago, I'm proud to present to you all Starling, a Binary Indexed Merkle tree! I've been working on this data structure for the last few months, and I think it is ready now for the community to have a look. Let me explain what it is and why it might be useful for your project.",
+      "url": "https://www.reddit.com/r/rust/comments/aww097/starling_the_binary_indexed_merkle_tree_or/",
+      "date_published": "2019-03-04T04:12:50+11:00",
+      "author": {
+        "name": "ChosunOne",
+        "url": "https://www.reddit.com/user/ChosunOne"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "17e95b5e-6cd8-4f98-8030-c923e69897cb",
+      "title": "luster: An experimental Lua VM implemented in pure Rust",
+      "content_text": " What I want to talk about though (and what I will eventually write a blog post about) is the technique that I'm using in luster for safe garbage collection. Inside luster are two libraries called \"gc-arena\" and \"gc-sequence\", and they represent a new (I believe novel?) system for safe garbage collection in Rust. There have been several attempts here before such as rust-gc and shifgrethor, and this represents another attempt with... different? limitations more appropriate for implementing language runtimes like Lua.",
+      "url": "https://www.reddit.com/r/rust/comments/awx9cy/github_kyrenluster_an_experimental_lua_vm/",
+      "date_published": "2019-03-04T06:26:29+11:00",
+      "author": {
+        "name": "Catherine West",
+        "url": "https://kyren.github.io/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "2c0b32cc-51a7-4e6f-a729-92c6cedcd7b1",
+      "title": "Our first Rust crate: decrypting ansible vaults",
+      "content_text": "We encrypt these secrets in so-called ansible vaults. Kuberwave also has the need to access these secrets. Because our staff is already comfortable with using these vaults, we’ve decided to also employ them for our Kubernetes setup. For this I created ansible-vault-rs, a library that can decrypt ansible vaults. Note that it can not create or edit vaults, because I have no need (yet) for this functionality.",
+      "url": "https://medium.com/@woutergeraedts/our-first-rust-crate-decrypting-ansible-vaults-25f2f3a9a674",
+      "date_published": "2019-02-22T08:12:26.080+00:00",
+      "author": {
+        "name": "Wouter Geraedts",
+        "url": "https://medium.com/@woutergeraedts"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "fae48adb-0406-4124-b06d-6b9d7a667d85",
       "title": "Zero knowledge proofs using Bulletproofs",
       "content_text": "I will show how to create various zero knowledge proofs using the Bulletproofs implementation from dalek-cryptography. The examples will be i) proving knowledge of factors of a given number without revealing the factors, ii) a range proof, i.e. prove that you know a value x such that a ≤ x ≤ b without revealing x, iii) prove that the value you have is non-zero without revealing it (without using above range proof), iv) Set membership, i.e given a set S, prove that you know an element contained in the set without revealing the element, v) Similarly, set non-membership without revealing the value of the absent element. The examples can be adapted with little effort such that they can be used in ZK-SNARK implementations like libsnark or bellman.",
