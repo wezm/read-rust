@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f333987d-a697-4e1c-8667-7d6bd4e765de",
+      "title": "Rust EDP: Build SGX enclaves in Rust",
+      "content_text": "Secure enclaves provide an operating environment for code which is secure from interference by outside parties, including root users, malware, and the OS. This environment is built on three key pillars: Fully isolated execution, Sealing, Remote attestation. The Fortanix Enclave Development platform lets you write complete applications inside an enclave. The Fortanix EDP is fully integrated with the Rust compiler. Rust code that doesn't link to native libraries and that doesn't use processes or files should compile out of the box.",
+      "url": "https://edp.fortanix.com/",
+      "date_published": "2019-01-30T06:45:00+00:00",
+      "author": {
+        "name": "Jethro Beekman",
+        "url": "https://twitter.com/JethroGB"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "fae48adb-0406-4124-b06d-6b9d7a667d85",
       "title": "Zero knowledge proofs using Bulletproofs",
       "content_text": "I will show how to create various zero knowledge proofs using the Bulletproofs implementation from dalek-cryptography. The examples will be i) proving knowledge of factors of a given number without revealing the factors, ii) a range proof, i.e. prove that you know a value x such that a ≤ x ≤ b without revealing x, iii) prove that the value you have is non-zero without revealing it (without using above range proof), iv) Set membership, i.e given a set S, prove that you know an element contained in the set without revealing the element, v) Similarly, set non-membership without revealing the value of the absent element. The examples can be adapted with little effort such that they can be used in ZK-SNARK implementations like libsnark or bellman.",

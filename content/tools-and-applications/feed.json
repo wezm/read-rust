@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "a1899a77-1a12-49f3-92e2-5e353491c8ae",
+      "title": "Forge: A scripting language for Rust gamedev inspired by JS, Rust and Python",
+      "content_text": "Forge is a dynamically-typed language written in Rust. It is inspired by JavaScript, Rust, Python and Rhai. In the future, you'll be able to use Forge as a general-purpose lightweight scripting language in your applications.",
+      "url": "https://github.com/zesterer/forge",
+      "date_published": "2019-02-27T04:21:00+00:00",
+      "author": {
+        "name": "Joshua Barretto",
+        "url": "https://github.com/zesterer"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "53d60351-cb50-4f9f-83d7-e6c8d94ab025",
+      "title": "Part 3: Graggles can have cycles",
+      "content_text": "Almost two years ago, I promised a series of three posts about version control. The first two (here and here) introduced a new (at the time) framework for version control. The third post, which I never finished, was going to talk about the datastructures and algorithms used in pijul, a version control system built around that new framework. The problem is that pijul is a complex piece of software, and so I had lots of trouble wrapping my head around it.\n\nTwo years later, I’m finally ready to continue with this series of posts (but having learned from my earlier mistakes, I’m not going to predict the total number of posts ahead of time). In the meantime, I’ve written my own toy version control system (VCS) to help me understand what’s going on. It’s called ojo, and it’s extremely primitive: to start with, it can only track a single file. However, it is (just barely) sophisticated enough to demonstrate the important ideas. I’m also doing my best to make the code is clear and well-documented.",
+      "url": "https://jneem.github.io/cycles/",
+      "date_published": "2019-02-19T00:00:00+00:00",
+      "author": {
+        "name": "Joe Neeman",
+        "url": "https://jneem.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "650d3646-0583-473d-bb43-a2f22f2e8e7d",
+      "title": "Rust Lifetime Visualization Ideas",
+      "content_text": "Many people have had the idea that there should be a way to visualize lifetimes in Rust. Indeed, the Rust Book used to include ASCII diagrams of lifetimes in some code examples. When fighting the borrow checker, it would be great if the IDE or editor could automatically provide a visualization of the lifetimes in your code.",
+      "url": "https://blog.adamant-lang.org/2019/rust-lifetime-visualization-ideas/",
+      "date_published": "2019-02-18T00:00:00+00:00",
+      "author": {
+        "name": "Jeff Walker",
+        "url": "https://blog.adamant-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c921449d-2331-49fc-b265-9219380330ed",
+      "title": "Mod player in Rust - part 2",
+      "content_text": "My last article finished with reading the pattern tables from the mode files. In this post I want to finish parsing the entire file so we can move onto playing it. First we need to work out where the pattern data is and how long it is.",
+      "url": "https://www.codeslow.com/2019/01/mod-player-in-rust-part-2.html",
+      "date_published": "2019-01-26T03:39:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://plus.google.com/112174343863185920753"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ddee0856-44f0-4b27-a925-8c7b39904a35",
       "title": "Mod player in Rust - part 1",
       "content_text": "For my next Rust project I want to try something a bit more challenging than the Sudoku solver. I want to write a mod player in Rust.",

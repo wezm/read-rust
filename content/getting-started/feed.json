@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b72bfa37-94f9-4758-9028-225ce6f93877",
+      "title": "Safe Way to access private fields in Rust",
+      "content_text": "Do you want your fields to be private but got stuck in accessing them from other module. Then this blog let you know the ways to access the private fields as well as which one is safer way.",
+      "url": "https://blog.knoldus.com/safe-way-to-access-private-fields-in-rust/",
+      "date_published": "2019-03-04T06:04:58+00:00",
+      "author": {
+        "name": "Amita Yadav",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "a40e4318-64e5-4929-800f-4308c242b49c",
       "title": "You can live without Exceptions, if you are using Rust",
       "content_text": "If you are coming from Java background, where you have used Exception Handling extensively and you have started working on new language like Rust, which doesn’t support Exception Handling then you will be forced to think that does such kind of world really exists?",

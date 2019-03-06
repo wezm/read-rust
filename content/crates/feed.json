@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "e0caaf97-6980-4421-afbe-3fca31872c73",
+      "title": "Releasing rust_gpiozero v0.2.0",
+      "content_text": "A new version packed with new features and improvements: Blink leds without blocking main thread and adjust brightness. ⚙️ Work with servo motors and adjust motor speed. 〜 Work with software PWM.",
+      "url": "https://rahul-thakoor.github.io/releasing-rust_gpiozero-v0.2.0/",
+      "date_published": "2019-02-27T17:43:48+04:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://rahul-thakoor.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "fe2180a3-53fb-4b12-b6b2-722c19587b39",
+      "title": "100x improvement on startup time in Wasmer 0.2.0",
+      "content_text": "We’ve been working steadily to get Wasmer to execute WebAssembly modules on the server-side as fast as possible. TL;DR — We got 100x improvement on startup time on Wasmer 0.2.0.",
+      "url": "https://medium.com/wasmer/running-webassembly-100x-faster-%EF%B8%8F-a8237e9a372d",
+      "date_published": "2019-02-25T22:04:55.331+00:00",
+      "author": {
+        "name": "Syrus Akbary",
+        "url": "https://medium.com/@syrusakbary"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "a540ae81-ddbb-4279-a507-b7faf43e5b19",
       "title": "Pedal to the metal: dynamic templates with Ramhorns",
       "content_text": "I have a problem. I don't know what to call it, but there is this itch I have when I find something that can obviously be made more efficient. The way I get about scratching that itch these days is by writing some Rust. I just got such an itch when looking at static site generators for this blog, Hugo (written in Go) is pretty much state-of-the art. In Rust land we have Zola, which is feature-rich, mature (for v0.5), and definitely fast enough for most users, and yet it is not as fast as it could be. Being written in Rust is, by itself, not a guarantee of top performance. The implementation matters. After some looking around I've narrowed down a problem I want to tackle (for now) to one area: template engines.",

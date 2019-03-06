@@ -10,6 +10,151 @@
   },
   "items": [
     {
+      "id": "f333987d-a697-4e1c-8667-7d6bd4e765de",
+      "title": "Rust EDP: Build SGX enclaves in Rust",
+      "content_text": "Secure enclaves provide an operating environment for code which is secure from interference by outside parties, including root users, malware, and the OS. This environment is built on three key pillars: Fully isolated execution, Sealing, Remote attestation. The Fortanix Enclave Development platform lets you write complete applications inside an enclave. The Fortanix EDP is fully integrated with the Rust compiler. Rust code that doesn't link to native libraries and that doesn't use processes or files should compile out of the box.",
+      "url": "https://edp.fortanix.com/",
+      "tweet_url": "https://twitter.com/JethroGB/status/1090335181750206464",
+      "date_published": "2019-01-30T06:45:00+00:00",
+      "author": {
+        "name": "Jethro Beekman",
+        "url": "https://twitter.com/JethroGB"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "e0caaf97-6980-4421-afbe-3fca31872c73",
+      "title": "Releasing rust_gpiozero v0.2.0",
+      "content_text": "A new version packed with new features and improvements: Blink leds without blocking main thread and adjust brightness. ⚙️ Work with servo motors and adjust motor speed. 〜 Work with software PWM.",
+      "url": "https://rahul-thakoor.github.io/releasing-rust_gpiozero-v0.2.0/",
+      "tweet_url": "https://twitter.com/rahulthakoor/status/1100791415561469952",
+      "date_published": "2019-02-27T17:43:48+04:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://rahul-thakoor.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "28f6c857-f8f6-4ff3-8a21-12c894a7dbb8",
+      "title": "JavaFX UI in Rust",
+      "content_text": "In this post, I would like to share the way how we can implement a Rust application that has a User Interface written in JavaFX.",
+      "url": "https://astonbitecode.github.io/blog/post/rust-javafx/",
+      "date_published": "2019-02-28T00:05:58+00:00",
+      "author": {
+        "name": "Aston",
+        "url": "https://astonbitecode.github.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a1899a77-1a12-49f3-92e2-5e353491c8ae",
+      "title": "Forge: A scripting language for Rust gamedev inspired by JS, Rust and Python",
+      "content_text": "Forge is a dynamically-typed language written in Rust. It is inspired by JavaScript, Rust, Python and Rhai. In the future, you'll be able to use Forge as a general-purpose lightweight scripting language in your applications.",
+      "url": "https://github.com/zesterer/forge",
+      "tweet_url": "https://twitter.com/rust_gamedev/status/1100445678650691587",
+      "date_published": "2019-02-27T04:21:00+00:00",
+      "author": {
+        "name": "Joshua Barretto",
+        "url": "https://github.com/zesterer"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "fe2180a3-53fb-4b12-b6b2-722c19587b39",
+      "title": "100x improvement on startup time in Wasmer 0.2.0",
+      "content_text": "We’ve been working steadily to get Wasmer to execute WebAssembly modules on the server-side as fast as possible. TL;DR — We got 100x improvement on startup time on Wasmer 0.2.0.",
+      "url": "https://medium.com/wasmer/running-webassembly-100x-faster-%EF%B8%8F-a8237e9a372d",
+      "date_published": "2019-02-25T22:04:55.331+00:00",
+      "author": {
+        "name": "Syrus Akbary",
+        "url": "https://medium.com/@syrusakbary"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "53d60351-cb50-4f9f-83d7-e6c8d94ab025",
+      "title": "Part 3: Graggles can have cycles",
+      "content_text": "Almost two years ago, I promised a series of three posts about version control. The first two (here and here) introduced a new (at the time) framework for version control. The third post, which I never finished, was going to talk about the datastructures and algorithms used in pijul, a version control system built around that new framework. The problem is that pijul is a complex piece of software, and so I had lots of trouble wrapping my head around it.\n\nTwo years later, I’m finally ready to continue with this series of posts (but having learned from my earlier mistakes, I’m not going to predict the total number of posts ahead of time). In the meantime, I’ve written my own toy version control system (VCS) to help me understand what’s going on. It’s called ojo, and it’s extremely primitive: to start with, it can only track a single file. However, it is (just barely) sophisticated enough to demonstrate the important ideas. I’m also doing my best to make the code is clear and well-documented.",
+      "url": "https://jneem.github.io/cycles/",
+      "date_published": "2019-02-19T00:00:00+00:00",
+      "author": {
+        "name": "Joe Neeman",
+        "url": "https://jneem.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "650d3646-0583-473d-bb43-a2f22f2e8e7d",
+      "title": "Rust Lifetime Visualization Ideas",
+      "content_text": "Many people have had the idea that there should be a way to visualize lifetimes in Rust. Indeed, the Rust Book used to include ASCII diagrams of lifetimes in some code examples. When fighting the borrow checker, it would be great if the IDE or editor could automatically provide a visualization of the lifetimes in your code.",
+      "url": "https://blog.adamant-lang.org/2019/rust-lifetime-visualization-ideas/",
+      "date_published": "2019-02-18T00:00:00+00:00",
+      "author": {
+        "name": "Jeff Walker",
+        "url": "https://blog.adamant-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b72bfa37-94f9-4758-9028-225ce6f93877",
+      "title": "Safe Way to access private fields in Rust",
+      "content_text": "Do you want your fields to be private but got stuck in accessing them from other module. Then this blog let you know the ways to access the private fields as well as which one is safer way.",
+      "url": "https://blog.knoldus.com/safe-way-to-access-private-fields-in-rust/",
+      "date_published": "2019-03-04T06:04:58+00:00",
+      "author": {
+        "name": "Amita Yadav",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "c921449d-2331-49fc-b265-9219380330ed",
+      "title": "Mod player in Rust - part 2",
+      "content_text": "My last article finished with reading the pattern tables from the mode files. In this post I want to finish parsing the entire file so we can move onto playing it. First we need to work out where the pattern data is and how long it is.",
+      "url": "https://www.codeslow.com/2019/01/mod-player-in-rust-part-2.html",
+      "date_published": "2019-01-26T03:39:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://plus.google.com/112174343863185920753"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "38d6b47d-bd95-4566-af44-c30769c1e149",
+      "title": "24 hours of game development in Rust",
+      "content_text": "In this post I'll talk about a small game I've been developing in about 24 hours in total (mostly in a few hour blocks during evenings or weekends). The game is far from finished, but I thought I'd write up about my experience so far, what I've learnt and some interesting observations about building a game from scratch-ish and doing it in Rust.",
+      "url": "http://iolivia.me/posts/24-hours-of-rust-game-dev/",
+      "tweet_url": "https://twitter.com/oliviff/status/1101546144436498437",
+      "date_published": "2019-03-01T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e9d10b77-3f54-4479-b685-26efa74f67ce",
       "title": "Getting started with Rust FFI",
       "content_text": "The memory models of Rust and C can often cause a lot of friction. This guide is born out of my own personal struggles writing transmission-sys a wrapper for the Transmission BitTorrent client. Though in this guide we will go over the much simpler example of writing a wrapper for libevent-sys.",

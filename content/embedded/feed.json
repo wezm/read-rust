@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "e0caaf97-6980-4421-afbe-3fca31872c73",
+      "title": "Releasing rust_gpiozero v0.2.0",
+      "content_text": "A new version packed with new features and improvements: Blink leds without blocking main thread and adjust brightness. ⚙️ Work with servo motors and adjust motor speed. 〜 Work with software PWM.",
+      "url": "https://rahul-thakoor.github.io/releasing-rust_gpiozero-v0.2.0/",
+      "date_published": "2019-02-27T17:43:48+04:00",
+      "author": {
+        "name": "Rahul Thakoor",
+        "url": "https://rahul-thakoor.github.io/"
+      },
+      "tags": [
+        "Crates",
+        "Embedded"
+      ]
+    },
+    {
       "id": "e7d75d4a-b84d-41fd-a164-016bb9e9d99c",
       "title": "The Embedded Working Group Newsletter - 15",
       "content_text": "This is the fifteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "28f6c857-f8f6-4ff3-8a21-12c894a7dbb8",
+      "title": "JavaFX UI in Rust",
+      "content_text": "In this post, I would like to share the way how we can implement a Rust application that has a User Interface written in JavaFX.",
+      "url": "https://astonbitecode.github.io/blog/post/rust-javafx/",
+      "date_published": "2019-02-28T00:05:58+00:00",
+      "author": {
+        "name": "Aston",
+        "url": "https://astonbitecode.github.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "e9d10b77-3f54-4479-b685-26efa74f67ce",
       "title": "Getting started with Rust FFI",
       "content_text": "The memory models of Rust and C can often cause a lot of friction. This guide is born out of my own personal struggles writing transmission-sys a wrapper for the Transmission BitTorrent client. Though in this guide we will go over the much simpler example of writing a wrapper for libevent-sys.",
