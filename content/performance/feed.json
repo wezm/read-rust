@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "04aedaf8-e7fe-4b54-8b6c-9fb77e31f739",
+      "title": "Rust benchmarking with Criterion on Travis CI",
+      "content_text": "Criterion allows you to benchmark against Rust stable, but it’s also providing a set of awesome features: Statistics: Statistical analysis detects if, and by how much, performance has changed since the last benchmark run. Charts: Uses gnuplot to generate detailed graphs of benchmark results. Stable-compatible: Benchmark your code without installing nightly Rust.",
+      "url": "https://medium.com/@yamafaktory/rust-benchmarking-with-criterion-on-travis-ci-%EF%B8%8F-8b54d321e05",
+      "date_published": "2019-01-27T22:14:12.147+00:00",
+      "author": {
+        "name": "Davy Duperron",
+        "url": "https://medium.com/@yamafaktory"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "ca80053b-f874-4631-9f13-c8ffaf6dabd6",
+      "title": "From 48s to 5s - optimizing a 350 line pathtracer in Rust",
+      "content_text": "In this post I’ll talk about how to port a short raytracer written in C#/C++ codebase to Rust, then applying some simple optimizations by leveraging some features in Rust.",
+      "url": "https://medium.com/@cfsamson/from-48s-to-5s-optimizing-a-350-line-pathtracer-in-rust-191ab4a1a412",
+      "date_published": "2019-03-04T23:03:25.223+00:00",
+      "author": {
+        "name": "Carl Fredrik Samson",
+        "url": "https://medium.com/@cfsamson"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "938a7c8a-5c3d-4adb-82e0-caf416396075",
       "title": "Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that",
       "content_text": "several models that make it easier to reason about concurrent programs have been envisioned over time. In this article, we'll have a quick look at a few of them, from new to not-so-new languages. I don't intend to give an extensive analysis of each solution, or make a formal comparison between them. My intention is to simply explain the basics of each solution and how they can be used in practice (with code samples that show off what the result of using the models might look like), so that other developers may have an easier time understanding them and deciding which solution, or language, might be better applicable to their particular problems.",

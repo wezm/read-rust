@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "977952df-eb7d-43eb-82e2-3e53b7e00a72",
+      "title": "Torchbear - a fast and complete interpreter for the new Speakeasy langauge",
+      "content_text": "Torchbear is a new programming environment currently available for Windows, Android, MacOS, and Linux. With it, you get Rust's great library ecosystem, but you don't need to recompile with each change to how you use those libraries. Since you express your domain logic in a higher level scripting language and your system logic in Rust's language, you get the best of both worlds!",
+      "url": "https://github.com/foundpatterns/torchbear",
+      "date_published": "2019-03-06T13:17:44+11:00",
+      "author": {
+        "name": "Mitchell Tannenbaum",
+        "url": "https://github.com/foundpatterns"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "fee5c201-613a-4b03-832a-369ceb788400",
+      "title": "Mod player in Rust - part 3. Audio and threads",
+      "content_text": "I finished my last post with having a fully parsed mod file in memory and ready to be played. By the end of this post I want to get the code into a state where the main thread lets the user pick instruments from the mod file and play them back on the audio thread.",
+      "url": "https://www.codeslow.com/2019/02/mod-player-in-rust-part-3-audio-and.html",
+      "date_published": "2019-02-04T14:42:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://plus.google.com/112174343863185920753"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "aa9ed2af-2308-4ae8-a009-caf772f96e3b",
+      "title": "Part 4: Line IDs in toy version control system, oji",
+      "content_text": "I’ve written quite a bit about the theory of patches and merging, but nothing yet about how to actually implement anything efficiently. That will be the subject of this post, and probably some future posts too.",
+      "url": "https://jneem.github.io/ids/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Joe Neeman",
+        "url": "https://jneem.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "a1899a77-1a12-49f3-92e2-5e353491c8ae",
       "title": "Forge: A scripting language for Rust gamedev inspired by JS, Rust and Python",
       "content_text": "Forge is a dynamically-typed language written in Rust. It is inspired by JavaScript, Rust, Python and Rhai. In the future, you'll be able to use Forge as a general-purpose lightweight scripting language in your applications.",

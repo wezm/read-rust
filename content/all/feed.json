@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "48cd5e22-48f6-4711-a1d2-e9ce7338ef0d",
+      "title": "Enjoy Compile time function evaluation using 'const fn' in Rust",
+      "content_text": "A few days ago, I was exploring Rust’s Unstable Book and found pretty much same feature in Rust, which is const_fn. I started exploring this feature more after the recent Rust release 1.33.0, in which Rust team has announced major improvements in const fn. The idea of using const fn is to compute result at compile time so that time can be saved when code is run.",
+      "url": "https://blog.knoldus.com/no-more-run-time-enjoy-compile-time-function-evaluation-using-const-fn-in-rust/",
+      "date_published": "2019-03-04T15:26:43+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "04aedaf8-e7fe-4b54-8b6c-9fb77e31f739",
+      "title": "Rust benchmarking with Criterion on Travis CI",
+      "content_text": "Criterion allows you to benchmark against Rust stable, but it’s also providing a set of awesome features: Statistics: Statistical analysis detects if, and by how much, performance has changed since the last benchmark run. Charts: Uses gnuplot to generate detailed graphs of benchmark results. Stable-compatible: Benchmark your code without installing nightly Rust.",
+      "url": "https://medium.com/@yamafaktory/rust-benchmarking-with-criterion-on-travis-ci-%EF%B8%8F-8b54d321e05",
+      "date_published": "2019-01-27T22:14:12.147+00:00",
+      "author": {
+        "name": "Davy Duperron",
+        "url": "https://medium.com/@yamafaktory"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "977952df-eb7d-43eb-82e2-3e53b7e00a72",
+      "title": "Torchbear - a fast and complete interpreter for the new Speakeasy langauge",
+      "content_text": "Torchbear is a new programming environment currently available for Windows, Android, MacOS, and Linux. With it, you get Rust's great library ecosystem, but you don't need to recompile with each change to how you use those libraries. Since you express your domain logic in a higher level scripting language and your system logic in Rust's language, you get the best of both worlds!",
+      "url": "https://github.com/foundpatterns/torchbear",
+      "date_published": "2019-03-06T13:17:44+11:00",
+      "author": {
+        "name": "Mitchell Tannenbaum",
+        "url": "https://github.com/foundpatterns"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "861a769a-5c77-4afb-bb9d-b0e05cd3855e",
+      "title": "The rise of wgpu: Native WebGPU implementation based on gfx-hal",
+      "content_text": "WebGPU is a new graphics/compute API developed by the browser vendors (and Intel) within W3C: The goal is to design a new Web API that exposes these modern technologies in a performant, powerful and safe manner.\n\nDon’t be confused by the “Web” part here - both us (gfx-rs team) and Google are trying to make it feasible to run on native platforms as well. Typically, the Web as a platform has different priorities from native: a lot of focus is placed on the security and portability (in a wider and stronger sense). Coincidentally, these are qualities we are currently missing in the gfx-rs ecosystem: security means safety (in the Rust sense), and portability means that people can use it and run everywhere, without worrying about thousands of potential configurations at run-time, or diverging behavior between platforms due to timing differences or loosely defined behavior.\n\nWith these goals in mind, we’d like to announce our new project: wgpu-rs.",
+      "url": "https://gfx-rs.github.io/2019/03/06/wgpu.html",
+      "date_published": "2019-03-06T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "25b303a5-4e11-416b-a5a5-db8f7d35db8c",
+      "title": "Embedded Graphics 0.4.7 and TinyBMP 0.1.0",
+      "content_text": "Embedded graphics 0.4.7 has been released, along with a new sister crate, tinybmp! TinyBMP aims to parse BMP-format image data using no dynamic allocations. It targets embedded environments but can be used in any place a small BMP parser is required. Thanks to TinyBMP, Embedded Graphics now supports loading this simple image format. The header photo was made using Embedded Graphics and the SSD1331 driver in pure Rust. In this post, I’ll talk through how the BMP file is parsed in no_std environments with nom and how to get BMP images working with embedded_graphics.",
+      "url": "https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html",
+      "date_published": "2019-03-05T08:51:11+00:00",
+      "author": {
+        "name": "James Waples",
+        "url": "https://wapl.es/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "c2a5636f-d083-4e22-94d7-5b26df1b173d",
+      "title": "The Embedded Working Group Newsletter - 16",
+      "content_text": "This is the sixteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-16/",
+      "date_published": "2019-03-06T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "ca80053b-f874-4631-9f13-c8ffaf6dabd6",
+      "title": "From 48s to 5s - optimizing a 350 line pathtracer in Rust",
+      "content_text": "In this post I’ll talk about how to port a short raytracer written in C#/C++ codebase to Rust, then applying some simple optimizations by leveraging some features in Rust.",
+      "url": "https://medium.com/@cfsamson/from-48s-to-5s-optimizing-a-350-line-pathtracer-in-rust-191ab4a1a412",
+      "date_published": "2019-03-04T23:03:25.223+00:00",
+      "author": {
+        "name": "Carl Fredrik Samson",
+        "url": "https://medium.com/@cfsamson"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "fee5c201-613a-4b03-832a-369ceb788400",
+      "title": "Mod player in Rust - part 3. Audio and threads",
+      "content_text": "I finished my last post with having a fully parsed mod file in memory and ready to be played. By the end of this post I want to get the code into a state where the main thread lets the user pick instruments from the mod file and play them back on the audio thread.",
+      "url": "https://www.codeslow.com/2019/02/mod-player-in-rust-part-3-audio-and.html",
+      "date_published": "2019-02-04T14:42:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://plus.google.com/112174343863185920753"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "df193fd9-bd7c-45bc-bc27-27ba8dee5bbb",
+      "title": "Entity component system (ECS) explained with tennis players and courts",
+      "content_text": "In the last post  I talked about a small game I built in Rust and roughly how far I got in 24 hours. One of the biggest challenges I had was…",
+      "url": "http://iolivia.me/posts/entity-component-system-explained/",
+      "date_published": "2019-03-03T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "aa9ed2af-2308-4ae8-a009-caf772f96e3b",
+      "title": "Part 4: Line IDs in toy version control system, oji",
+      "content_text": "I’ve written quite a bit about the theory of patches and merging, but nothing yet about how to actually implement anything efficiently. That will be the subject of this post, and probably some future posts too.",
+      "url": "https://jneem.github.io/ids/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Joe Neeman",
+        "url": "https://jneem.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f333987d-a697-4e1c-8667-7d6bd4e765de",
       "title": "Rust EDP: Build SGX enclaves in Rust",
       "content_text": "Secure enclaves provide an operating environment for code which is secure from interference by outside parties, including root users, malware, and the OS. This environment is built on three key pillars: Fully isolated execution, Sealing, Remote attestation. The Fortanix Enclave Development platform lets you write complete applications inside an enclave. The Fortanix EDP is fully integrated with the Rust compiler. Rust code that doesn't link to native libraries and that doesn't use processes or files should compile out of the box.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "48cd5e22-48f6-4711-a1d2-e9ce7338ef0d",
+      "title": "Enjoy Compile time function evaluation using 'const fn' in Rust",
+      "content_text": "A few days ago, I was exploring Rust’s Unstable Book and found pretty much same feature in Rust, which is const_fn. I started exploring this feature more after the recent Rust release 1.33.0, in which Rust team has announced major improvements in const fn. The idea of using const fn is to compute result at compile time so that time can be saved when code is run.",
+      "url": "https://blog.knoldus.com/no-more-run-time-enjoy-compile-time-function-evaluation-using-const-fn-in-rust/",
+      "date_published": "2019-03-04T15:26:43+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "28f6c857-f8f6-4ff3-8a21-12c894a7dbb8",
       "title": "JavaFX UI in Rust",
       "content_text": "In this post, I would like to share the way how we can implement a Rust application that has a User Interface written in JavaFX.",

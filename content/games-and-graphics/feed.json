@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "861a769a-5c77-4afb-bb9d-b0e05cd3855e",
+      "title": "The rise of wgpu: Native WebGPU implementation based on gfx-hal",
+      "content_text": "WebGPU is a new graphics/compute API developed by the browser vendors (and Intel) within W3C: The goal is to design a new Web API that exposes these modern technologies in a performant, powerful and safe manner.\n\nDon’t be confused by the “Web” part here - both us (gfx-rs team) and Google are trying to make it feasible to run on native platforms as well. Typically, the Web as a platform has different priorities from native: a lot of focus is placed on the security and portability (in a wider and stronger sense). Coincidentally, these are qualities we are currently missing in the gfx-rs ecosystem: security means safety (in the Rust sense), and portability means that people can use it and run everywhere, without worrying about thousands of potential configurations at run-time, or diverging behavior between platforms due to timing differences or loosely defined behavior.\n\nWith these goals in mind, we’d like to announce our new project: wgpu-rs.",
+      "url": "https://gfx-rs.github.io/2019/03/06/wgpu.html",
+      "date_published": "2019-03-06T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "df193fd9-bd7c-45bc-bc27-27ba8dee5bbb",
+      "title": "Entity component system (ECS) explained with tennis players and courts",
+      "content_text": "In the last post  I talked about a small game I built in Rust and roughly how far I got in 24 hours. One of the biggest challenges I had was…",
+      "url": "http://iolivia.me/posts/entity-component-system-explained/",
+      "date_published": "2019-03-03T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "38d6b47d-bd95-4566-af44-c30769c1e149",
       "title": "24 hours of game development in Rust",
       "content_text": "In this post I'll talk about a small game I've been developing in about 24 hours in total (mostly in a few hour blocks during evenings or weekends). The game is far from finished, but I thought I'd write up about my experience so far, what I've learnt and some interesting observations about building a game from scratch-ish and doing it in Rust.",
