@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "58a0a3ec-5b93-4e53-bcd0-d8df56d02848",
+      "title": "Intro to web programming in Rust for NodeJS developers",
+      "content_text": "Rust is different. You can pick up Python or Ruby over the weekend, create a first CRUD application and be happy with the results. With Rust… with Rust you will struggle to pass a String to a different method, change and return it. You then will order the Rust book, see its size, *sigh* and get started. After a few weeks fighting through the book after work, you give up and wait until someone else creates an easy-to-follow tutorial. Here is your “easy” tutorial.",
+      "url": "https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1",
+      "date_published": "2019-03-10T10:53:02.197+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://medium.com/@gruberbastian"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "b72bfa37-94f9-4758-9028-225ce6f93877",
       "title": "Safe Way to access private fields in Rust",
       "content_text": "Do you want your fields to be private but got stuck in accessing them from other module. Then this blog let you know the ways to access the private fields as well as which one is safer way.",

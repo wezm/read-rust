@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "23fcf66c-3fff-4894-836d-32a880171b46",
+      "title": "How productive is Rust?",
+      "content_text": "We often get the question how productive working with Rust is. “We know that it is awesome, but isn’t it hard to learn? Don’t you struggle with the borrow checker?”. Well, we put it to the test in Google’s Hash Code 2019 programming competition.",
+      "url": "https://medium.com/@woutergeraedts/how-productive-is-rust-e2260db28f09",
+      "date_published": "2019-03-08T12:59:39.723+00:00",
+      "author": {
+        "name": "Wouter Geraedts",
+        "url": "https://medium.com/@woutergeraedts"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "48cd5e22-48f6-4711-a1d2-e9ce7338ef0d",
       "title": "Enjoy Compile time function evaluation using 'const fn' in Rust",
       "content_text": "A few days ago, I was exploring Rust’s Unstable Book and found pretty much same feature in Rust, which is const_fn. I started exploring this feature more after the recent Rust release 1.33.0, in which Rust team has announced major improvements in const fn. The idea of using const fn is to compute result at compile time so that time can be saved when code is run.",

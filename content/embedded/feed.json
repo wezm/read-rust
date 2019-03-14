@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "349a5a06-2dd8-475d-9911-4d777ca6250f",
+      "title": "Implementing a static stack usage analysis tool",
+      "content_text": "This blog covers the implementation details of cargo-call-stack v0.1.2. So, why would you ever want to analyze the stack usage of your program at compile time? The obvious answer is when you want to know if your application can stack overflow at runtime without actually running your program. This is important for embedded applications where stack overflows can corrupt memory, and it’s actually a hard requirement for certifying the functional safety of embedded applications.",
+      "url": "https://blog.japaric.io/stack-analysis/",
+      "date_published": "2019-03-13T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0febede4-eee9-43df-bd74-dd2a44dcb4fb",
+      "title": "A Coding Retreat and Getting Embedded Rust Running on a SensorTag",
+      "content_text": "This past long weekend some friends on I went on a coding retreat inspired by John Carmack doing similar in 2018. During the weekend I worked on adding support for the Texas Instruments SensorTag to the embedded Rust ecosystem. This post is a summary of the weekend and what I was able to achieve code wise.",
+      "url": "https://www.wezm.net/technical/2019/03/sensortag-embedded-rust-coding-retreat/",
+      "date_published": "2019-03-12T08:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "ae65ad4b-c966-483f-a57a-965ab7ba7d28",
+      "title": "Hardware Debugging a Raspberry Pi using JTAG",
+      "content_text": "Functionally, this tutorial is the same as the previous one, where we reset or power down the RPi. Around that, we add infrastructure for JTAG debugging.",
+      "url": "https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG",
+      "date_published": "2019-03-10T13:59:01+00:00",
+      "author": {
+        "name": "Andre Richter",
+        "url": "https://github.com/andre-richter"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "25b303a5-4e11-416b-a5a5-db8f7d35db8c",
       "title": "Embedded Graphics 0.4.7 and TinyBMP 0.1.0",
       "content_text": "Embedded graphics 0.4.7 has been released, along with a new sister crate, tinybmp! TinyBMP aims to parse BMP-format image data using no dynamic allocations. It targets embedded environments but can be used in any place a small BMP parser is required. Thanks to TinyBMP, Embedded Graphics now supports loading this simple image format. The header photo was made using Embedded Graphics and the SSD1331 driver in pure Rust. In this post, I’ll talk through how the BMP file is parsed in no_std environments with nom and how to get BMP images working with embedded_graphics.",

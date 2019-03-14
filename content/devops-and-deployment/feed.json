@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5288ae7c-b0a5-4e98-b6ad-512af05f04e4",
+      "title": "Azure Pipelines for Rust Projects",
+      "content_text": "In this post I will detail why I believe that Azure Pipelines can be a great CI / CD platform for open source Rust projects on Github. The catch is that there are some rough spots on Azure Pipelines and in the rust ecosystem, but everything can be worked around. In writing this post, I hope to detail examples one can copy and paste into their projects.",
+      "url": "https://nbsoftsolutions.com/blog/azure-pipelines-for-rust-projects",
+      "date_published": "2019-02-28T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "a60ffa53-800e-42b3-a0df-feadc7a9e931",
       "title": "GitHub Actions: An introductory look and first impressions",
       "content_text": "I cover first impressions on GitHub actions using Rust as well as how to make it do a simple merge with a comment!",

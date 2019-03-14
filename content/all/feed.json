@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "c4806dc1-431a-46e2-a950-8f29194a87b1",
+      "title": "Typetag: Serde serializable and deserializable trait objects",
+      "content_text": "Serde serializable and deserializable trait objects. This crate provides a macro for painless serialization of &dyn Trait trait objects and serialization + deserialization of Box<dyn Trait> trait objects.",
+      "url": "https://github.com/dtolnay/typetag/blob/master/README.md",
+      "date_published": "2019-01-24T01:13:57+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "569a6623-bebb-48a6-8946-57b158a4a9b8",
+      "title": "Mod player in Rust - part 4. Finally some music",
+      "content_text": "In this post we will finally have some music. I will spend some time discussing how the Amiga sound hardware worked. The original mod file format and how it is played back is intimately linked with the Amiga hardware.",
+      "url": "https://www.codeslow.com/2019/02/in-this-post-we-will-finally-have-some.html",
+      "date_published": "2019-02-17T03:50:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://www.codeslow.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "349a5a06-2dd8-475d-9911-4d777ca6250f",
+      "title": "Implementing a static stack usage analysis tool",
+      "content_text": "This blog covers the implementation details of cargo-call-stack v0.1.2. So, why would you ever want to analyze the stack usage of your program at compile time? The obvious answer is when you want to know if your application can stack overflow at runtime without actually running your program. This is important for embedded applications where stack overflows can corrupt memory, and it’s actually a hard requirement for certifying the functional safety of embedded applications.",
+      "url": "https://blog.japaric.io/stack-analysis/",
+      "date_published": "2019-03-13T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0febede4-eee9-43df-bd74-dd2a44dcb4fb",
+      "title": "A Coding Retreat and Getting Embedded Rust Running on a SensorTag",
+      "content_text": "This past long weekend some friends on I went on a coding retreat inspired by John Carmack doing similar in 2018. During the weekend I worked on adding support for the Texas Instruments SensorTag to the embedded Rust ecosystem. This post is a summary of the weekend and what I was able to achieve code wise.",
+      "url": "https://www.wezm.net/technical/2019/03/sensortag-embedded-rust-coding-retreat/",
+      "date_published": "2019-03-12T08:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "d3f4b805-773f-499e-84c8-b79fcb40631f",
+      "title": "Building the virtualization stack of the future with rust-vmm",
+      "content_text": "rust-vmm facilitates sharing core virtualization components between Rust Virtual Machine Monitors.",
+      "url": "https://opensource.com/article/19/3/rust-virtual-machine",
+      "date_published": "2019-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Andreea Florescu",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "5288ae7c-b0a5-4e98-b6ad-512af05f04e4",
+      "title": "Azure Pipelines for Rust Projects",
+      "content_text": "In this post I will detail why I believe that Azure Pipelines can be a great CI / CD platform for open source Rust projects on Github. The catch is that there are some rough spots on Azure Pipelines and in the rust ecosystem, but everything can be worked around. In writing this post, I hope to detail examples one can copy and paste into their projects.",
+      "url": "https://nbsoftsolutions.com/blog/azure-pipelines-for-rust-projects",
+      "date_published": "2019-02-28T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "58a0a3ec-5b93-4e53-bcd0-d8df56d02848",
+      "title": "Intro to web programming in Rust for NodeJS developers",
+      "content_text": "Rust is different. You can pick up Python or Ruby over the weekend, create a first CRUD application and be happy with the results. With Rust… with Rust you will struggle to pass a String to a different method, change and return it. You then will order the Rust book, see its size, *sigh* and get started. After a few weeks fighting through the book after work, you give up and wait until someone else creates an easy-to-follow tutorial. Here is your “easy” tutorial.",
+      "url": "https://medium.com/@gruberbastian/intro-to-web-programming-in-rust-for-nodejs-developers-1a9c048c4de1",
+      "date_published": "2019-03-10T10:53:02.197+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://medium.com/@gruberbastian"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "ae65ad4b-c966-483f-a57a-965ab7ba7d28",
+      "title": "Hardware Debugging a Raspberry Pi using JTAG",
+      "content_text": "Functionally, this tutorial is the same as the previous one, where we reset or power down the RPi. Around that, we add infrastructure for JTAG debugging.",
+      "url": "https://github.com/rust-embedded/rust-raspi3-OS-tutorials/tree/master/0B_hw_debug_JTAG",
+      "date_published": "2019-03-10T13:59:01+00:00",
+      "author": {
+        "name": "Andre Richter",
+        "url": "https://github.com/andre-richter"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e2a2559d-5bf2-45b6-ba62-a3af84913c3a",
+      "title": "rust-audit: Know exact library versions used to build your Rust executable",
+      "content_text": "Know exact library versions used to build your Rust executable. Audit binaries for known bugs or security vulnerabilities in production, at scale, with zero bookkeeping.",
+      "url": "https://github.com/Shnatsel/rust-audit",
+      "date_published": "2019-03-02T20:02:25+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://github.com/Shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "23fcf66c-3fff-4894-836d-32a880171b46",
+      "title": "How productive is Rust?",
+      "content_text": "We often get the question how productive working with Rust is. “We know that it is awesome, but isn’t it hard to learn? Don’t you struggle with the borrow checker?”. Well, we put it to the test in Google’s Hash Code 2019 programming competition.",
+      "url": "https://medium.com/@woutergeraedts/how-productive-is-rust-e2260db28f09",
+      "date_published": "2019-03-08T12:59:39.723+00:00",
+      "author": {
+        "name": "Wouter Geraedts",
+        "url": "https://medium.com/@woutergeraedts"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "48cd5e22-48f6-4711-a1d2-e9ce7338ef0d",
       "title": "Enjoy Compile time function evaluation using 'const fn' in Rust",
       "content_text": "A few days ago, I was exploring Rust’s Unstable Book and found pretty much same feature in Rust, which is const_fn. I started exploring this feature more after the recent Rust release 1.33.0, in which Rust team has announced major improvements in const fn. The idea of using const fn is to compute result at compile time so that time can be saved when code is run.",
@@ -115,7 +255,7 @@
       "date_published": "2019-02-04T14:42:00-08:00",
       "author": {
         "name": "Jani Peltonen",
-        "url": "https://plus.google.com/112174343863185920753"
+        "url": "https://www.codeslow.com/"
       },
       "tags": [
         "Tools and Applications"
@@ -270,7 +410,7 @@
       "date_published": "2019-01-26T03:39:00-08:00",
       "author": {
         "name": "Jani Peltonen",
-        "url": "https://plus.google.com/112174343863185920753"
+        "url": "https://www.codeslow.com/"
       },
       "tags": [
         "Tools and Applications"

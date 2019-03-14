@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e2a2559d-5bf2-45b6-ba62-a3af84913c3a",
+      "title": "rust-audit: Know exact library versions used to build your Rust executable",
+      "content_text": "Know exact library versions used to build your Rust executable. Audit binaries for known bugs or security vulnerabilities in production, at scale, with zero bookkeeping.",
+      "url": "https://github.com/Shnatsel/rust-audit",
+      "date_published": "2019-03-02T20:02:25+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://github.com/Shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "f333987d-a697-4e1c-8667-7d6bd4e765de",
       "title": "Rust EDP: Build SGX enclaves in Rust",
       "content_text": "Secure enclaves provide an operating environment for code which is secure from interference by outside parties, including root users, malware, and the OS. This environment is built on three key pillars: Fully isolated execution, Sealing, Remote attestation. The Fortanix Enclave Development platform lets you write complete applications inside an enclave. The Fortanix EDP is fully integrated with the Rust compiler. Rust code that doesn't link to native libraries and that doesn't use processes or files should compile out of the box.",

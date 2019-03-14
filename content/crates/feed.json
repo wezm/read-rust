@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c4806dc1-431a-46e2-a950-8f29194a87b1",
+      "title": "Typetag: Serde serializable and deserializable trait objects",
+      "content_text": "Serde serializable and deserializable trait objects. This crate provides a macro for painless serialization of &dyn Trait trait objects and serialization + deserialization of Box<dyn Trait> trait objects.",
+      "url": "https://github.com/dtolnay/typetag/blob/master/README.md",
+      "date_published": "2019-01-24T01:13:57+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e0caaf97-6980-4421-afbe-3fca31872c73",
       "title": "Releasing rust_gpiozero v0.2.0",
       "content_text": "A new version packed with new features and improvements: Blink leds without blocking main thread and adjust brightness. ⚙️ Work with servo motors and adjust motor speed. 〜 Work with software PWM.",

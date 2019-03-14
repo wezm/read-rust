@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "569a6623-bebb-48a6-8946-57b158a4a9b8",
+      "title": "Mod player in Rust - part 4. Finally some music",
+      "content_text": "In this post we will finally have some music. I will spend some time discussing how the Amiga sound hardware worked. The original mod file format and how it is played back is intimately linked with the Amiga hardware.",
+      "url": "https://www.codeslow.com/2019/02/in-this-post-we-will-finally-have-some.html",
+      "date_published": "2019-02-17T03:50:00-08:00",
+      "author": {
+        "name": "Jani Peltonen",
+        "url": "https://www.codeslow.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d3f4b805-773f-499e-84c8-b79fcb40631f",
+      "title": "Building the virtualization stack of the future with rust-vmm",
+      "content_text": "rust-vmm facilitates sharing core virtualization components between Rust Virtual Machine Monitors.",
+      "url": "https://opensource.com/article/19/3/rust-virtual-machine",
+      "date_published": "2019-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Andreea Florescu",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "977952df-eb7d-43eb-82e2-3e53b7e00a72",
       "title": "Torchbear - a fast and complete interpreter for the new Speakeasy langauge",
       "content_text": "Torchbear is a new programming environment currently available for Windows, Android, MacOS, and Linux. With it, you get Rust's great library ecosystem, but you don't need to recompile with each change to how you use those libraries. Since you express your domain logic in a higher level scripting language and your system logic in Rust's language, you get the best of both worlds!",
@@ -31,7 +59,7 @@
       "date_published": "2019-02-04T14:42:00-08:00",
       "author": {
         "name": "Jani Peltonen",
-        "url": "https://plus.google.com/112174343863185920753"
+        "url": "https://www.codeslow.com/"
       },
       "tags": [
         "Tools and Applications"
@@ -101,7 +129,7 @@
       "date_published": "2019-01-26T03:39:00-08:00",
       "author": {
         "name": "Jani Peltonen",
-        "url": "https://plus.google.com/112174343863185920753"
+        "url": "https://www.codeslow.com/"
       },
       "tags": [
         "Tools and Applications"
