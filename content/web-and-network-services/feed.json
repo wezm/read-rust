@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "23efff3a-8be9-443e-bc32-9de200d2e173",
+      "title": "Fast, Bump-Allocated Virtual DOMs with Rust and Wasm",
+      "content_text": "Dodrio is a virtual DOM library written in Rust and WebAssembly. It takes advantage of both Wasm’s linear memory and Rust’s low-level control by designing virtual DOM rendering around bump allocation. Preliminary benchmark results suggest it has best-in-class performance.",
+      "url": "https://hacks.mozilla.org/2019/03/fast-bump-allocated-virtual-doms-with-rust-and-wasm/",
+      "date_published": "2019-03-14T16:54:44+00:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "356cc6f0-1e2a-4060-8b81-df1d1d6cd911",
+      "title": "WASP, a Lisp dialect for performant, concise Web Assembly modules",
+      "content_text": "WASP is ‘a LISP programming language for extremely performant and concise web assembly modules.’ That means that you can use WASP to generate WASM modules.",
+      "url": "https://medium.com/@nbaltunian/wasp-a-lisp-dialect-for-performant-concise-web-assembly-modules-29f5f7282b6a",
+      "date_published": "2019-03-09T04:24:29.408+00:00",
+      "author": {
+        "name": "Noah",
+        "url": "https://medium.com/@nbaltunian"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "756d2f52-51dd-4408-ae79-3b17c02849e3",
       "title": "Comparing C and Rust network protocol exercises - Ayende @ Rahien",
       "content_text": "Almost by accident, it turned out that I implemented a pretty simple, but non trivial task in both C and Rust and blogged about them. Now that I’m done with both of them, I thought it would be interesting to talk about the differences in the experiences. The Rust version clocks at exactly 400 lines of code and uses 12 external crates. The C version has 911 lines of C code and another 140 lines in headers and depends on libuv and openssl.",

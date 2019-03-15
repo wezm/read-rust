@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "c3575790-8873-4860-bc2a-15ba5f636a42",
+      "title": "Persy: an attempt to write a transactional storage engine in Rust",
+      "content_text": "Persy is a single file storage engine, all the data, referencing structures and logs are kept in a single file. Persy support read-committed transactions, using copy on write to guarantee high concurrency and isolation, the data consistency is guaranteed by a transaction log that recover the operations in case of crash. Persy provide segments to organize records of different kinds and allow the scan on a single segment. Persy provide index implementation that can be used to associate any simple value to another value or a record reference. In Persy a record is a simple Vec<u8>, the content of the record is ignored by Persy, is just stored and retrieved on request.",
+      "url": "http://persy.rs/posts/persy-0.4.html",
+      "date_published": "2019-03-15T00:00:00+00:00",
+      "author": {
+        "name": "tglman",
+        "url": "https://gitlab.com/tglman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ec8871ce-7c85-42a8-bd0c-e85c09a2f04d",
+      "title": "ActivityWatch automatic time-tracking software switches to Rust",
+      "content_text": "While Python is a great language to quickly build new features in, it’s not great for performance or deploying to multiple platforms (especially Android). So @johan-bjareholt took on the tremendous task of reimplementing aw-server in the highly performant and secure programming language Rust. Since Rust compiles to Android we have built a library for use on Android, letting us avoid reimplement all of ActivityWatch to Android devices specifically (and vastly decreases the time to port future features like sync to Android).",
+      "url": "https://forum.activitywatch.net/t/development-update-march-2019/189",
+      "date_published": "2019-03-12T12:06:19+00:00",
+      "author": {
+        "name": "Erik Bjäreholt",
+        "url": "https://forum.activitywatch.net/u/ErikBjare"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0c70dd5f-51e6-4f07-8707-6783ca471d0c",
+      "title": "Remote Development and Debugging of Rust with CLion",
+      "content_text": "Most in our team use CLion for Rust development which is especially great for local debugging, alas it is not free. Since we are developing a blockchain it requires careful orchestration of the nodes running on separate machines, and occasionally we need to debug some corner case on a remotely running node. CLion and other JetBrains products have great support of the remote development and debugging. However, unfortunately, Rust is not a primary language of CLion which makes configuration tricky. In this post we walk through the configuration of CLion for remote Rust development and debugging.",
+      "url": "https://medium.com/nearprotocol/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1",
+      "date_published": "2019-03-11T01:18:15.454+00:00",
+      "author": {
+        "name": "Maksym Zavershynskyi",
+        "url": "https://medium.com/@zaver.max"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "31d81292-5ae5-4462-8f26-ca156d625f40",
+      "title": "Refactoring Varisat: 2. Clause Storage and Unit Propagation",
+      "content_text": "This is the second post in my series about refactoring varisat. Since the last post I started implementing some of the core data structures and algorithms of a CDCL based SAT solver: clause storage and unit propagation. In this post I will explain how the these parts work and the rationale behind some of the decisions I made.",
+      "url": "https://jix.one/refactoring-varisat-2-clause-storage-and-unit-propagation/",
+      "date_published": "2019-03-02T18:18:04+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "e448a9b1-396d-4b48-8cba-40419fc3cce6",
+      "title": "Scientific computing: a Rust adventure [Part 1 - Zero-cost abstractions]",
+      "content_text": "We left, at the end of the previous episode, with an intuitive understanding of Rust’s ownership system: we worked with vectors of integers, Vec<i32>, and we came up with a naive - but surprisingly fast! - scalar product implementation followed by a very simple sort function using the bubble sort algorithm.\n\nIn this episode we will implement a generic version of the same scalar product routine. This will require the introduction of several key concepts concerning Rust’s type system: generics, traits, operators, associated types, Copy.",
+      "url": "https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/",
+      "date_published": "2019-03-12T00:00:00+00:00",
+      "author": {
+        "name": "Luca Palmieri",
+        "url": "https://www.lpalmieri.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "23efff3a-8be9-443e-bc32-9de200d2e173",
+      "title": "Fast, Bump-Allocated Virtual DOMs with Rust and Wasm",
+      "content_text": "Dodrio is a virtual DOM library written in Rust and WebAssembly. It takes advantage of both Wasm’s linear memory and Rust’s low-level control by designing virtual DOM rendering around bump allocation. Preliminary benchmark results suggest it has best-in-class performance.",
+      "url": "https://hacks.mozilla.org/2019/03/fast-bump-allocated-virtual-doms-with-rust-and-wasm/",
+      "date_published": "2019-03-14T16:54:44+00:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "https://hacks.mozilla.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ad1ab029-a374-4fde-8f62-6100bf699da2",
+      "title": "Pulldown_cmark 0.3 release announcement",
+      "content_text": "pulldown_cmark, a fast pull parser for the CommonMark markdown standard written in Rust, has just seen its 0.3 release. It marks a milestone for renewed CommonMark test compliance and performance. In this blog post, we'll have a quick look at the goals of the rewrite, how they were achieved and what's next for the crate.",
+      "url": "https://fullyfaithful.eu/pulldown-cmark/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Marcus Klaas de Vries",
+        "url": "https://fullyfaithful.eu/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "eac014e1-98a8-4913-9050-5e7a073b8611",
+      "title": "Oxide: The Essence of Rust",
+      "content_text": "Rust is a major advancement in industrial programming languages due in large part to its success in bridging the gap between low-level systems programming and high-level application programming. This success has ultimately empowered programmers to more easily build reliable and efficient software, and at its heart lies a novel approach to ownership that balances type system expressivity with usability.\n\nIn this work, we set out to capture the essence of this model of ownership by developing a type systems account of Rust's borrow checker. To that end, we present Oxide, a formalized programming language close to source-level Rust (but with fully-annotated types). This presentation takes a new view of lifetimes as approximate provenances of references, and our type system is able to automatically compute this information through a flow-sensitive substructural typing judgment for which we prove syntactic type safety using progress and preservation. The result is a simpler formulation of borrow checking - including recent features such as non-lexical lifetimes - that we hope researchers will be able to use as the basis for work on Rust.",
+      "url": "https://arxiv.org/abs/1903.00982",
+      "date_published": "2019-03-03T20:22:37+00:00",
+      "author": {
+        "name": "Aaron Weiss, Daniel Patterson, Nicholas D. Matsakis, Amal Ahmed",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "356cc6f0-1e2a-4060-8b81-df1d1d6cd911",
+      "title": "WASP, a Lisp dialect for performant, concise Web Assembly modules",
+      "content_text": "WASP is ‘a LISP programming language for extremely performant and concise web assembly modules.’ That means that you can use WASP to generate WASM modules.",
+      "url": "https://medium.com/@nbaltunian/wasp-a-lisp-dialect-for-performant-concise-web-assembly-modules-29f5f7282b6a",
+      "date_published": "2019-03-09T04:24:29.408+00:00",
+      "author": {
+        "name": "Noah",
+        "url": "https://medium.com/@nbaltunian"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7da6de6b-bbf8-4587-ab48-615ee988d899",
+      "title": "Up and Running with React + Rust + Wasm",
+      "content_text": "I’m super excited about WebAssembly! It’s fast, (can be) small, and extremely portable. In fact, I wouldn’t be surprised if in the near future most web developers write code that eventually gets compiled to Wasm.\n\nBut currently there’s not a huge selection of resources showing how to get started with WebAssembly, and I couldn’t find any tutorials that worked with create-react-app. Most focus on writing and compiling a module, but rush over the details of actually using Wasm code. What follows is a basic setup for a React app using WebAssembly that should serve as a good foundation for more complex applications.",
+      "url": "https://prestonrichey.com/blog/react-rust-wasm/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Preston Richey",
+        "url": "https://prestonrichey.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c4806dc1-431a-46e2-a950-8f29194a87b1",
       "title": "Typetag: Serde serializable and deserializable trait objects",
       "content_text": "Serde serializable and deserializable trait objects. This crate provides a macro for painless serialization of &dyn Trait trait objects and serialization + deserialization of Box<dyn Trait> trait objects.",

@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "c3575790-8873-4860-bc2a-15ba5f636a42",
+      "title": "Persy: an attempt to write a transactional storage engine in Rust",
+      "content_text": "Persy is a single file storage engine, all the data, referencing structures and logs are kept in a single file. Persy support read-committed transactions, using copy on write to guarantee high concurrency and isolation, the data consistency is guaranteed by a transaction log that recover the operations in case of crash. Persy provide segments to organize records of different kinds and allow the scan on a single segment. Persy provide index implementation that can be used to associate any simple value to another value or a record reference. In Persy a record is a simple Vec<u8>, the content of the record is ignored by Persy, is just stored and retrieved on request.",
+      "url": "http://persy.rs/posts/persy-0.4.html",
+      "date_published": "2019-03-15T00:00:00+00:00",
+      "author": {
+        "name": "tglman",
+        "url": "https://gitlab.com/tglman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ad1ab029-a374-4fde-8f62-6100bf699da2",
+      "title": "Pulldown_cmark 0.3 release announcement",
+      "content_text": "pulldown_cmark, a fast pull parser for the CommonMark markdown standard written in Rust, has just seen its 0.3 release. It marks a milestone for renewed CommonMark test compliance and performance. In this blog post, we'll have a quick look at the goals of the rewrite, how they were achieved and what's next for the crate.",
+      "url": "https://fullyfaithful.eu/pulldown-cmark/",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Marcus Klaas de Vries",
+        "url": "https://fullyfaithful.eu/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "7da6de6b-bbf8-4587-ab48-615ee988d899",
+      "title": "Up and Running with React + Rust + Wasm",
+      "content_text": "I’m super excited about WebAssembly! It’s fast, (can be) small, and extremely portable. In fact, I wouldn’t be surprised if in the near future most web developers write code that eventually gets compiled to Wasm.\n\nBut currently there’s not a huge selection of resources showing how to get started with WebAssembly, and I couldn’t find any tutorials that worked with create-react-app. Most focus on writing and compiling a module, but rush over the details of actually using Wasm code. What follows is a basic setup for a React app using WebAssembly that should serve as a good foundation for more complex applications.",
+      "url": "https://prestonrichey.com/blog/react-rust-wasm/",
+      "date_published": "2019-02-25T00:00:00+00:00",
+      "author": {
+        "name": "Preston Richey",
+        "url": "https://prestonrichey.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c4806dc1-431a-46e2-a950-8f29194a87b1",
       "title": "Typetag: Serde serializable and deserializable trait objects",
       "content_text": "Serde serializable and deserializable trait objects. This crate provides a macro for painless serialization of &dyn Trait trait objects and serialization + deserialization of Box<dyn Trait> trait objects.",

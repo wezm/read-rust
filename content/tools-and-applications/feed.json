@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ec8871ce-7c85-42a8-bd0c-e85c09a2f04d",
+      "title": "ActivityWatch automatic time-tracking software switches to Rust",
+      "content_text": "While Python is a great language to quickly build new features in, it’s not great for performance or deploying to multiple platforms (especially Android). So @johan-bjareholt took on the tremendous task of reimplementing aw-server in the highly performant and secure programming language Rust. Since Rust compiles to Android we have built a library for use on Android, letting us avoid reimplement all of ActivityWatch to Android devices specifically (and vastly decreases the time to port future features like sync to Android).",
+      "url": "https://forum.activitywatch.net/t/development-update-march-2019/189",
+      "date_published": "2019-03-12T12:06:19+00:00",
+      "author": {
+        "name": "Erik Bjäreholt",
+        "url": "https://forum.activitywatch.net/u/ErikBjare"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0c70dd5f-51e6-4f07-8707-6783ca471d0c",
+      "title": "Remote Development and Debugging of Rust with CLion",
+      "content_text": "Most in our team use CLion for Rust development which is especially great for local debugging, alas it is not free. Since we are developing a blockchain it requires careful orchestration of the nodes running on separate machines, and occasionally we need to debug some corner case on a remotely running node. CLion and other JetBrains products have great support of the remote development and debugging. However, unfortunately, Rust is not a primary language of CLion which makes configuration tricky. In this post we walk through the configuration of CLion for remote Rust development and debugging.",
+      "url": "https://medium.com/nearprotocol/remote-development-and-debugging-of-rust-with-clion-39c38ced7cc1",
+      "date_published": "2019-03-11T01:18:15.454+00:00",
+      "author": {
+        "name": "Maksym Zavershynskyi",
+        "url": "https://medium.com/@zaver.max"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "569a6623-bebb-48a6-8946-57b158a4a9b8",
       "title": "Mod player in Rust - part 4. Finally some music",
       "content_text": "In this post we will finally have some music. I will spend some time discussing how the Amiga sound hardware worked. The original mod file format and how it is played back is intimately linked with the Amiga hardware.",

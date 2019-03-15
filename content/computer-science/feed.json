@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "31d81292-5ae5-4462-8f26-ca156d625f40",
+      "title": "Refactoring Varisat: 2. Clause Storage and Unit Propagation",
+      "content_text": "This is the second post in my series about refactoring varisat. Since the last post I started implementing some of the core data structures and algorithms of a CDCL based SAT solver: clause storage and unit propagation. In this post I will explain how the these parts work and the rationale behind some of the decisions I made.",
+      "url": "https://jix.one/refactoring-varisat-2-clause-storage-and-unit-propagation/",
+      "date_published": "2019-03-02T18:18:04+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "e448a9b1-396d-4b48-8cba-40419fc3cce6",
+      "title": "Scientific computing: a Rust adventure [Part 1 - Zero-cost abstractions]",
+      "content_text": "We left, at the end of the previous episode, with an intuitive understanding of Rust’s ownership system: we worked with vectors of integers, Vec<i32>, and we came up with a naive - but surprisingly fast! - scalar product implementation followed by a very simple sort function using the bubble sort algorithm.\n\nIn this episode we will implement a generic version of the same scalar product routine. This will require the introduction of several key concepts concerning Rust’s type system: generics, traits, operators, associated types, Copy.",
+      "url": "https://www.lpalmieri.com/posts/2019-03-12-scientific-computing-a-rust-adventure-part-1-zero-cost-abstractions/",
+      "date_published": "2019-03-12T00:00:00+00:00",
+      "author": {
+        "name": "Luca Palmieri",
+        "url": "https://www.lpalmieri.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "eac014e1-98a8-4913-9050-5e7a073b8611",
+      "title": "Oxide: The Essence of Rust",
+      "content_text": "Rust is a major advancement in industrial programming languages due in large part to its success in bridging the gap between low-level systems programming and high-level application programming. This success has ultimately empowered programmers to more easily build reliable and efficient software, and at its heart lies a novel approach to ownership that balances type system expressivity with usability.\n\nIn this work, we set out to capture the essence of this model of ownership by developing a type systems account of Rust's borrow checker. To that end, we present Oxide, a formalized programming language close to source-level Rust (but with fully-annotated types). This presentation takes a new view of lifetimes as approximate provenances of references, and our type system is able to automatically compute this information through a flow-sensitive substructural typing judgment for which we prove syntactic type safety using progress and preservation. The result is a simpler formulation of borrow checking - including recent features such as non-lexical lifetimes - that we hope researchers will be able to use as the basis for work on Rust.",
+      "url": "https://arxiv.org/abs/1903.00982",
+      "date_published": "2019-03-03T20:22:37+00:00",
+      "author": {
+        "name": "Aaron Weiss, Daniel Patterson, Nicholas D. Matsakis, Amal Ahmed",
+        "url": "https://arxiv.org/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "7fa900ce-52d1-494e-b770-ed5ef64aea61",
       "title": "Building fast interpreters in Rust",
       "content_text": "we created a configurable Rust library for writing and executing Wireshark®-like filters in different parts of our stack written in Go, Lua, C, C++ and JavaScript Workers. We have now open-sourced this library under our Github account: https://github.com/cloudflare/wirefilter. This post will dive into its design, explain why we didn’t use a parser generator and how our execution engine balances security, runtime performance and compilation cost for the generated filters.",
