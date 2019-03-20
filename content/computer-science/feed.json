@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "da916659-e0c2-4c4c-a793-b4f7273dcd1f",
+      "title": "Refactoring Varisat: 3. Conflict Driven Clause Learning",
+      "content_text": "This is the third post in my series about refactoring varisat. In this post the new code base turns into a working SAT solver. While you can use the command line tool or the library to solve some small and easy SAT problems now, there is still a lot ahead to gain feature and performance parity with varisat 0.1.\n\nIn the last post we saw how unit propagation is implemented. When some variables are known, unit propagation allows us to derive the values of new variables or finds a clause that cannot be satisfied. Unit propagation alone isn’t enough though, as there is no guarantee to make progress. To continue the search for a satisfying solution after propagating all assignments, it is necessary to make a guess. A natural way to handle this would be recursion and backtracking. This would give us a variant of the DPLL algorithm from which conflict driven clause learning evolved.",
+      "url": "https://jix.one/refactoring-varisat-3-cdcl/",
+      "date_published": "2019-03-18T20:00:53+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "31d81292-5ae5-4462-8f26-ca156d625f40",
       "title": "Refactoring Varisat: 2. Clause Storage and Unit Propagation",
       "content_text": "This is the second post in my series about refactoring varisat. Since the last post I started implementing some of the core data structures and algorithms of a CDCL based SAT solver: clause storage and unit propagation. In this post I will explain how the these parts work and the rationale behind some of the decisions I made.",

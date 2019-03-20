@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b1715412-8fc8-4882-9230-71e2b95c4b55",
+      "title": "Introducing cargo-instruments: zero-hassle profiling on macOS",
+      "content_text": "cargo-instruments (github) is a cargo plugin that makes it easy to profile rust binaries on macOS.  tl;dr: cargo-instruments is a shim between cargo and Xcode's very powerful dtrace-backed diagnostic suite, Instruments. Out of the box, this lets you track cpu / thread usage, allocations, context switches, and a bunch of other stuff.",
+      "url": "https://www.reddit.com/r/rust/comments/b20eca/introducing_cargoinstruments_zerohassle_profiling/",
+      "date_published": "2019-03-17T13:18:32+11:00",
+      "author": {
+        "name": "cmyr",
+        "url": "https://www.reddit.com/user/cmyr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ec8871ce-7c85-42a8-bd0c-e85c09a2f04d",
       "title": "ActivityWatch automatic time-tracking software switches to Rust",
       "content_text": "While Python is a great language to quickly build new features in, it’s not great for performance or deploying to multiple platforms (especially Android). So @johan-bjareholt took on the tremendous task of reimplementing aw-server in the highly performant and secure programming language Rust. Since Rust compiles to Android we have built a library for use on Android, letting us avoid reimplement all of ActivityWatch to Android devices specifically (and vastly decreases the time to port future features like sync to Android).",

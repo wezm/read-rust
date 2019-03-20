@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4ba1b199-045c-4ba4-80e2-6741bc648f06",
+      "title": "Programming GPIO Interrupts in Rust",
+      "content_text": "Using Embedded Rust to configure and service a hardware interrupt on the STM32F3 Discovery board.",
+      "url": "https://flowdsp.io/blog/stm32f3-01-interrupts/",
+      "date_published": "2019-03-17T00:00:00+00:00",
+      "author": {
+        "name": "Antoine van Gelder",
+        "url": "https://flowdsp.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "349a5a06-2dd8-475d-9911-4d777ca6250f",
       "title": "Implementing a static stack usage analysis tool",
       "content_text": "This blog covers the implementation details of cargo-call-stack v0.1.2. So, why would you ever want to analyze the stack usage of your program at compile time? The obvious answer is when you want to know if your application can stack overflow at runtime without actually running your program. This is important for embedded applications where stack overflows can corrupt memory, and it’s actually a hard requirement for certifying the functional safety of embedded applications.",

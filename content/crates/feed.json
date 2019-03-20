@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "187cf7df-3448-4699-86f6-28e90a1a025f",
+      "title": "Implementing a Hidden Markov Model in Rust",
+      "content_text": "Over the past few months, I’ve implemented hmmm, a Rust library for Hidden Markov Models (HMMs). HMMs are a well-established statistical machine learning technique for modeling sequences of data. They have been applied to problems like speech recognition and bioinformatics. They are called “hidden” because each discrete time step is associated with a hidden state. Below, I’ll briefly discuss some challenges that I ran into while implementing this library.",
+      "url": "https://paulkernfeld.com/2019/03/17/hmmm.html",
+      "date_published": "2019-03-17T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "04f2e112-c86d-4468-9b75-d74f84429d69",
+      "title": "A Rust API for librsvg",
+      "content_text": "After the librsvg team finished the rustification of librsvg's main library, I wanted to start porting the high-level test suite to Rust. This is mainly to be able to run tests in parallel, which cargo test does automatically in order to reduce test times. However, this meant that librsvg needed a Rust API that would exercise the same code paths as the C entry points. At the same time, I wanted the Rust API to make it impossible to misuse the library.",
+      "url": "https://people.gnome.org/~federico/blog/a-rust-api-for-librsvg.html",
+      "date_published": "2019-03-15T13:36:47-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c3575790-8873-4860-bc2a-15ba5f636a42",
       "title": "Persy: an attempt to write a transactional storage engine in Rust",
       "content_text": "Persy is a single file storage engine, all the data, referencing structures and logs are kept in a single file. Persy support read-committed transactions, using copy on write to guarantee high concurrency and isolation, the data consistency is guaranteed by a transaction log that recover the operations in case of crash. Persy provide segments to organize records of different kinds and allow the scan on a single segment. Persy provide index implementation that can be used to associate any simple value to another value or a record reference. In Persy a record is a simple Vec<u8>, the content of the record is ignored by Persy, is just stored and retrieved on request.",
@@ -28,7 +56,7 @@
       "title": "Pulldown_cmark 0.3 release announcement",
       "content_text": "pulldown_cmark, a fast pull parser for the CommonMark markdown standard written in Rust, has just seen its 0.3 release. It marks a milestone for renewed CommonMark test compliance and performance. In this blog post, we'll have a quick look at the goals of the rewrite, how they were achieved and what's next for the crate.",
       "url": "https://fullyfaithful.eu/pulldown-cmark/",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2019-03-15T08:19:00+00:00",
       "author": {
         "name": "Marcus Klaas de Vries",
         "url": "https://fullyfaithful.eu/"

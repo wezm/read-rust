@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dc9cf1b6-7814-4a3a-9e3e-adcd17835a81",
+      "title": "Governance Working Group announcement",
+      "content_text": "I’m very excited to announce the formation of the Governance working group, an offspring of the Core team. The high-level goal of the group is making the workings of the Rust project more predictable and transparent. The working group will examine, document, and propose improvements to some of the policies and procedures that we use to run the project. To that end, the Governance WG will take multiple viewpoints and investigate our current modes of working under the perspective of community members and project members alike. Our aim is to make the project more transparent and also make it easier for interested community members to give effective feedback and stay close to the project.",
+      "url": "https://internals.rust-lang.org/t/governance-working-group-announcement/9637",
+      "date_published": "2019-03-18T16:01:23+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "https://internals.rust-lang.org/u/skade"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "ec95e248-cef0-42ed-8a49-8e03d8c7e30b",
       "title": "thank u, next",
       "content_text": "I started working at 15, when I took a job as a pizza cook. Over the next seven years, I moved up the ranks, to a driver, shift manager, and then as part of the “new store opening team.” The franchise was growing, and we needed to help new franchisees open their new stores. I’d travel to where the new store was a week before they would open, help train the new staff, and then work their opening weekend. It was really fulfilling work; if pizza paid as well as tech, I’d seriously consider doing it forever.",

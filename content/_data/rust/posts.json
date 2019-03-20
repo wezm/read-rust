@@ -10,6 +10,154 @@
   },
   "items": [
     {
+      "id": "6d82f826-46bb-4cb3-ba49-3a18c736f5ab",
+      "title": "Web Development with Rust: Deploy your first App",
+      "content_text": "If you learn something new, always have an updated version of your project in production. It keeps you motivated. We cover the most common options of how to do this in and with Rust.",
+      "url": "https://dev.to/gruberb/web-programming-in-rust-02x-deploy-your-first-app-1k05",
+      "tweet_url": "https://twitter.com/byteadventures/status/1107933188612124672",
+      "date_published": "2019-03-19T20:13:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "54f59df5-bf2f-46e5-a817-0a31878f7cda",
+      "title": "Implementing a NES Emulator in Rust",
+      "content_text": "Recently, I made an emulator for the Nintendo Entertainment Console(NES) - a game console first released in 1983. In this article, I’ll talk about how I used Rust to develop the emulator. I’ll cover questions like: What features does the emulator support? What games can it play? How did I approach the problem of emulating the NES? Did Rust’s type system or borrow checker interfere? Were there performance issues?",
+      "url": "http://www.michaelburge.us/2019/03/18/nes-design.html",
+      "tweet_url": "https://twitter.com/TheMichaelBurge/status/1107995144911900672",
+      "date_published": "2019-03-18T13:34:00+00:00",
+      "author": {
+        "name": "Michael Burge",
+        "url": "http://www.michaelburge.us/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "da916659-e0c2-4c4c-a793-b4f7273dcd1f",
+      "title": "Refactoring Varisat: 3. Conflict Driven Clause Learning",
+      "content_text": "This is the third post in my series about refactoring varisat. In this post the new code base turns into a working SAT solver. While you can use the command line tool or the library to solve some small and easy SAT problems now, there is still a lot ahead to gain feature and performance parity with varisat 0.1.\n\nIn the last post we saw how unit propagation is implemented. When some variables are known, unit propagation allows us to derive the values of new variables or finds a clause that cannot be satisfied. Unit propagation alone isn’t enough though, as there is no guarantee to make progress. To continue the search for a satisfying solution after propagating all assignments, it is necessary to make a guess. A natural way to handle this would be recursion and backtracking. This would give us a variant of the DPLL algorithm from which conflict driven clause learning evolved.",
+      "url": "https://jix.one/refactoring-varisat-3-cdcl/",
+      "date_published": "2019-03-18T20:00:53+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "187cf7df-3448-4699-86f6-28e90a1a025f",
+      "title": "Implementing a Hidden Markov Model in Rust",
+      "content_text": "Over the past few months, I’ve implemented hmmm, a Rust library for Hidden Markov Models (HMMs). HMMs are a well-established statistical machine learning technique for modeling sequences of data. They have been applied to problems like speech recognition and bioinformatics. They are called “hidden” because each discrete time step is associated with a hidden state. Below, I’ll briefly discuss some challenges that I ran into while implementing this library.",
+      "url": "https://paulkernfeld.com/2019/03/17/hmmm.html",
+      "tweet_url": "https://twitter.com/occupy_paul_st/status/1107350612079980549",
+      "date_published": "2019-03-17T00:00:00+00:00",
+      "author": {
+        "name": "Paul Kernfeld",
+        "url": "https://paulkernfeld.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "4ba1b199-045c-4ba4-80e2-6741bc648f06",
+      "title": "Programming GPIO Interrupts in Rust",
+      "content_text": "Using Embedded Rust to configure and service a hardware interrupt on the STM32F3 Discovery board.",
+      "url": "https://flowdsp.io/blog/stm32f3-01-interrupts/",
+      "tweet_url": "https://twitter.com/antvangelder/status/1107571105026453504",
+      "date_published": "2019-03-17T00:00:00+00:00",
+      "author": {
+        "name": "Antoine van Gelder",
+        "url": "https://flowdsp.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "208250d2-7529-4548-b658-0b76353e05de",
+      "title": "Building and augmenting libraries by calling Rust from JavaScript",
+      "content_text": "Explore how to use WebAssembly (Wasm) to embed Rust inside JavaScript.",
+      "url": "https://opensource.com/article/19/3/calling-rust-javascript",
+      "tweet_url": "https://twitter.com/ryan_levick/status/1107612070411993089",
+      "date_published": "2019-03-18T03:02:00-04:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "04f2e112-c86d-4468-9b75-d74f84429d69",
+      "title": "A Rust API for librsvg",
+      "content_text": "After the librsvg team finished the rustification of librsvg's main library, I wanted to start porting the high-level test suite to Rust. This is mainly to be able to run tests in parallel, which cargo test does automatically in order to reduce test times. However, this meant that librsvg needed a Rust API that would exercise the same code paths as the C entry points. At the same time, I wanted the Rust API to make it impossible to misuse the library.",
+      "url": "https://people.gnome.org/~federico/blog/a-rust-api-for-librsvg.html",
+      "date_published": "2019-03-15T13:36:47-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "b1715412-8fc8-4882-9230-71e2b95c4b55",
+      "title": "Introducing cargo-instruments: zero-hassle profiling on macOS",
+      "content_text": "cargo-instruments (github) is a cargo plugin that makes it easy to profile rust binaries on macOS.  tl;dr: cargo-instruments is a shim between cargo and Xcode's very powerful dtrace-backed diagnostic suite, Instruments. Out of the box, this lets you track cpu / thread usage, allocations, context switches, and a bunch of other stuff.",
+      "url": "https://www.reddit.com/r/rust/comments/b20eca/introducing_cargoinstruments_zerohassle_profiling/",
+      "date_published": "2019-03-17T13:18:32+11:00",
+      "author": {
+        "name": "cmyr",
+        "url": "https://www.reddit.com/user/cmyr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "38a15a60-b3e5-49c5-9036-3af3d6bc43ff",
+      "title": "Why Hashbrown Does A Double-Lookup",
+      "content_text": "I recently finished a detailed review of hashbrown, which will likely become the new implementation for rust's std::collections::HashMap. One of the most surprising things I found was in the implementation of insert. It was doing something that was so offensive to people who care about collection performance that we had designed an entire API to help people avoid it: it did two lookups in the map. However, after some more discussion and review, I concluded that this implementation was reasonable. This post will try to cover why that is.",
+      "url": "https://gankro.github.io/blah/hashbrown-insert/",
+      "tweet_url": "https://twitter.com/Gankro/status/1108232734076518400",
+      "date_published": "2019-03-20T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
+      "id": "dc9cf1b6-7814-4a3a-9e3e-adcd17835a81",
+      "title": "Governance Working Group announcement",
+      "content_text": "I’m very excited to announce the formation of the Governance working group, an offspring of the Core team. The high-level goal of the group is making the workings of the Rust project more predictable and transparent. The working group will examine, document, and propose improvements to some of the policies and procedures that we use to run the project. To that end, the Governance WG will take multiple viewpoints and investigate our current modes of working under the perspective of community members and project members alike. Our aim is to make the project more transparent and also make it easier for interested community members to give effective feedback and stay close to the project.",
+      "url": "https://internals.rust-lang.org/t/governance-working-group-announcement/9637",
+      "tweet_url": "https://twitter.com/rustlang/status/1107677774968426496",
+      "date_published": "2019-03-18T16:01:23+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "https://internals.rust-lang.org/u/skade"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "c3575790-8873-4860-bc2a-15ba5f636a42",
       "title": "Persy: an attempt to write a transactional storage engine in Rust",
       "content_text": "Persy is a single file storage engine, all the data, referencing structures and logs are kept in a single file. Persy support read-committed transactions, using copy on write to guarantee high concurrency and isolation, the data consistency is guaranteed by a transaction log that recover the operations in case of crash. Persy provide segments to organize records of different kinds and allow the scan on a single segment. Persy provide index implementation that can be used to associate any simple value to another value or a record reference. In Persy a record is a simple Vec<u8>, the content of the record is ignored by Persy, is just stored and retrieved on request.",

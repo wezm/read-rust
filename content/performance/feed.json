@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "38a15a60-b3e5-49c5-9036-3af3d6bc43ff",
+      "title": "Why Hashbrown Does A Double-Lookup",
+      "content_text": "I recently finished a detailed review of hashbrown, which will likely become the new implementation for rust's std::collections::HashMap. One of the most surprising things I found was in the implementation of insert. It was doing something that was so offensive to people who care about collection performance that we had designed an entire API to help people avoid it: it did two lookups in the map. However, after some more discussion and review, I concluded that this implementation was reasonable. This post will try to cover why that is.",
+      "url": "https://gankro.github.io/blah/hashbrown-insert/",
+      "date_published": "2019-03-20T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
       "id": "04aedaf8-e7fe-4b54-8b6c-9fb77e31f739",
       "title": "Rust benchmarking with Criterion on Travis CI",
       "content_text": "Criterion allows you to benchmark against Rust stable, but it’s also providing a set of awesome features: Statistics: Statistical analysis detects if, and by how much, performance has changed since the last benchmark run. Charts: Uses gnuplot to generate detailed graphs of benchmark results. Stable-compatible: Benchmark your code without installing nightly Rust.",

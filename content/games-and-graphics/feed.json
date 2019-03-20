@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "54f59df5-bf2f-46e5-a817-0a31878f7cda",
+      "title": "Implementing a NES Emulator in Rust",
+      "content_text": "Recently, I made an emulator for the Nintendo Entertainment Console(NES) - a game console first released in 1983. In this article, I’ll talk about how I used Rust to develop the emulator. I’ll cover questions like: What features does the emulator support? What games can it play? How did I approach the problem of emulating the NES? Did Rust’s type system or borrow checker interfere? Were there performance issues?",
+      "url": "http://www.michaelburge.us/2019/03/18/nes-design.html",
+      "date_published": "2019-03-18T13:34:00+00:00",
+      "author": {
+        "name": "Michael Burge",
+        "url": "http://www.michaelburge.us/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "861a769a-5c77-4afb-bb9d-b0e05cd3855e",
       "title": "The rise of wgpu: Native WebGPU implementation based on gfx-hal",
       "content_text": "WebGPU is a new graphics/compute API developed by the browser vendors (and Intel) within W3C: The goal is to design a new Web API that exposes these modern technologies in a performant, powerful and safe manner.\n\nDon’t be confused by the “Web” part here - both us (gfx-rs team) and Google are trying to make it feasible to run on native platforms as well. Typically, the Web as a platform has different priorities from native: a lot of focus is placed on the security and portability (in a wider and stronger sense). Coincidentally, these are qualities we are currently missing in the gfx-rs ecosystem: security means safety (in the Rust sense), and portability means that people can use it and run everywhere, without worrying about thousands of potential configurations at run-time, or diverging behavior between platforms due to timing differences or loosely defined behavior.\n\nWith these goals in mind, we’d like to announce our new project: wgpu-rs.",

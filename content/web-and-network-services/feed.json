@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6d82f826-46bb-4cb3-ba49-3a18c736f5ab",
+      "title": "Web Development with Rust: Deploy your first App",
+      "content_text": "If you learn something new, always have an updated version of your project in production. It keeps you motivated. We cover the most common options of how to do this in and with Rust.",
+      "url": "https://dev.to/gruberb/web-programming-in-rust-02x-deploy-your-first-app-1k05",
+      "date_published": "2019-03-19T20:13:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "208250d2-7529-4548-b658-0b76353e05de",
+      "title": "Building and augmenting libraries by calling Rust from JavaScript",
+      "content_text": "Explore how to use WebAssembly (Wasm) to embed Rust inside JavaScript.",
+      "url": "https://opensource.com/article/19/3/calling-rust-javascript",
+      "date_published": "2019-03-18T03:02:00-04:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://opensource.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "23efff3a-8be9-443e-bc32-9de200d2e173",
       "title": "Fast, Bump-Allocated Virtual DOMs with Rust and Wasm",
       "content_text": "Dodrio is a virtual DOM library written in Rust and WebAssembly. It takes advantage of both Wasm’s linear memory and Rust’s low-level control by designing virtual DOM rendering around bump allocation. Preliminary benchmark results suggest it has best-in-class performance.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "38a15a60-b3e5-49c5-9036-3af3d6bc43ff",
+      "title": "Why Hashbrown Does A Double-Lookup",
+      "content_text": "I recently finished a detailed review of hashbrown, which will likely become the new implementation for rust's std::collections::HashMap. One of the most surprising things I found was in the implementation of insert. It was doing something that was so offensive to people who care about collection performance that we had designed an entire API to help people avoid it: it did two lookups in the map. However, after some more discussion and review, I concluded that this implementation was reasonable. This post will try to cover why that is.",
+      "url": "https://gankro.github.io/blah/hashbrown-insert/",
+      "date_published": "2019-03-20T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
       "id": "23fcf66c-3fff-4894-836d-32a880171b46",
       "title": "How productive is Rust?",
       "content_text": "We often get the question how productive working with Rust is. “We know that it is awesome, but isn’t it hard to learn? Don’t you struggle with the borrow checker?”. Well, we put it to the test in Google’s Hash Code 2019 programming competition.",
