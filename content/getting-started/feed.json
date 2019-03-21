@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dad7fd3a-4891-4ddc-bf77-81668ffd5ea7",
+      "title": "Rust: The Hard Parts - Part One: References and borrowing",
+      "content_text": "Rust has a perception of being a very difficult language to learn. I had a similar experience, but just as I was told, there is a point where things start to get a lot easier. This post aims to describe the hard parts that I had to get through in order to start being productive with Rust in the belief that this may help others get over the hill to that sweet spot of infinite bliss and productivity. In this post, I’m going to cover references and borrowing.",
+      "url": "https://naftuli.wtf/2019/03/20/rust-the-hard-parts/",
+      "date_published": "2019-03-20T00:00:00+00:00",
+      "author": {
+        "name": "Naftuli Kay",
+        "url": "https://naftuli.wtf/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "58a0a3ec-5b93-4e53-bcd0-d8df56d02848",
       "title": "Intro to web programming in Rust for NodeJS developers",
       "content_text": "Rust is different. You can pick up Python or Ruby over the weekend, create a first CRUD application and be happy with the results. With Rust… with Rust you will struggle to pass a String to a different method, change and return it. You then will order the Rust book, see its size, *sigh* and get started. After a few weeks fighting through the book after work, you give up and wait until someone else creates an easy-to-follow tutorial. Here is your “easy” tutorial.",

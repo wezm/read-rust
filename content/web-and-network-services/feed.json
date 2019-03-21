@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3ad2e4d8-ffb5-4dcc-870e-e5c8dae3ca2a",
+      "title": "Resize images from S3 with AWS Lambda and Rust",
+      "content_text": "Using Rust and AWS Lambda to thumbnail images, cheaply, relablity, and quickly.",
+      "url": "https://matsimitsu.com/blog/2019-03-09-resize-images-from-s3-with-aws-lambda-and-rust/",
+      "date_published": "2019-03-09T00:00:00+00:00",
+      "author": {
+        "name": "Robert Beekman",
+        "url": "https://matsimitsu.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "6d82f826-46bb-4cb3-ba49-3a18c736f5ab",
       "title": "Web Development with Rust: Deploy your first App",
       "content_text": "If you learn something new, always have an updated version of your project in production. It keeps you motivated. We cover the most common options of how to do this in and with Rust.",

@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "d10fac5d-46ac-49b4-a8e0-517cb3cdfcba",
+      "title": "Procedural macro in Rust 101",
+      "content_text": "How to pick a function and make it a macro with added superpowers.",
+      "url": "https://dev.to/naufraghi/procedural-macro-in-rust-101-k3f",
+      "date_published": "2019-03-17T00:00:00+00:00",
+      "author": {
+        "name": "Matteo Bertini",
+        "url": "https://dev.to/naufraghi"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5afc518c-63b7-4b76-96f2-659de41359d9",
+      "title": "rustdoc in 2019",
+      "content_text": "A recap of the 2019 Rust All-Hands from a rustdoc perspective; and the 2019 roadmap for the Rustdoc Team.",
+      "url": "https://quietmisdreavus.net/code/2019/02/19/rustdoc-in-2019/",
+      "date_published": "2019-02-19T12:00:00-06:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09e6b7ba-69f9-4256-9ce5-c75ea253c3ec",
+      "title": "Should Rust channels panic on send if nobody's listening?",
+      "content_text": "Lately, I've been working on several real-world systems using Rust's async and tokio. As you can see on the areweasyncyet.rs site, this requires using nightly Rust and the experimental tokio-async-await library. I hope to talk more about these experiences soon! But today, I want to talk about channel APIs in Rust. A question was raised by @matklad on GitHub, \"I've migrated rust-analyzer to crossbeam-channel 0.3, and the thing I've noticed is that every .send is followed by .unwrap. Perhaps we should make this unwrapping behavior the default, and introduce a separate checked_send which returns a Result?\".",
+      "url": "http://www.randomhacks.net/2019/03/08/should-rust-channels-panic-on-send/",
+      "date_published": "2019-03-08T16:42:27-05:00",
+      "author": {
+        "name": "Eric Kidd",
+        "url": "http://www.randomhacks.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b86ab49d-2104-43d3-86c2-3bbf740f08f2",
+      "title": "Async, futures, and tokio - Rust Crash Course lesson 7",
+      "content_text": "Unlike languages like Haskell, Erlang, and Go, Rust does not have a runtime system providing green threads and asynchronous I/O. However, for many real world use cases, async I/O is strongly desired, if not a hard requirement. The de facto standard library for handling this in Rust is tokio. This post is part of a series based on teaching Rust at FP Complete.",
+      "url": "https://www.snoyman.com/blog/2018/12/rust-crash-course-07-async-futures-tokio",
+      "date_published": "2018-12-03T00:00:00+00:00",
+      "author": {
+        "name": "Michael Snoyman",
+        "url": "https://www.snoyman.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6cab1c1c-68f3-4f20-b239-85009d4d563a",
+      "title": "How to document Rust's macro invocation",
+      "content_text": "You can easily document your Rust items like functions by putting three slashes ///. However, if you want to document each separate invocation of your amazing! macro, it is not that straightfoward.",
+      "url": "https://amanjeev.com/blog/rust-document-macro-invocations/",
+      "date_published": "2019-02-21T00:00:00+00:00",
+      "author": {
+        "name": "Amanjeev Sethi",
+        "url": "https://amanjeev.com/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "38a15a60-b3e5-49c5-9036-3af3d6bc43ff",
       "title": "Why Hashbrown Does A Double-Lookup",
       "content_text": "I recently finished a detailed review of hashbrown, which will likely become the new implementation for rust's std::collections::HashMap. One of the most surprising things I found was in the implementation of insert. It was doing something that was so offensive to people who care about collection performance that we had designed an entire API to help people avoid it: it did two lookups in the map. However, after some more discussion and review, I concluded that this implementation was reasonable. This post will try to cover why that is.",
