@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "806cf62c-14c8-4a7e-afa8-f99843d634f2",
+      "title": "New cargo subcommand: sync-readme",
+      "content_text": "cargo sync-readme synchronizes your README (the file specified by the readme key in your Cargo.toml, or just README.md by default) with the entrypoint of your library or binary crate (by default, lib.rs or main.rs, or what is defined at the path key in your manifest).",
+      "url": "https://phaazon.net/blog/cargo-sync-readme",
+      "date_published": "2019-02-25T18:50:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "b1715412-8fc8-4882-9230-71e2b95c4b55",
       "title": "Introducing cargo-instruments: zero-hassle profiling on macOS",
       "content_text": "cargo-instruments (github) is a cargo plugin that makes it easy to profile rust binaries on macOS.  tl;dr: cargo-instruments is a shim between cargo and Xcode's very powerful dtrace-backed diagnostic suite, Instruments. Out of the box, this lets you track cpu / thread usage, allocations, context switches, and a bunch of other stuff.",

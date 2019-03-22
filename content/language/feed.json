@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "eed8a936-e3c7-45b5-bc50-3e1b95ffb767",
+      "title": "In nightly Rust, 'await!' may never return (dropping futures)",
+      "content_text": "I've been using the proposed await! and Future features in nightly Rust, and overall, I really like the design. But I did run into one surprise: await! may never return, and this has consequences I didn't fully understand. Let's take a look.",
+      "url": "http://www.randomhacks.net/2019/03/09/in-nightly-rust-await-may-never-return/",
+      "date_published": "2019-03-09T15:11:20-05:00",
+      "author": {
+        "name": "Eric Kidd",
+        "url": "http://www.randomhacks.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "34dfeb70-4900-4ef3-b6d5-674d3caf376d",
+      "title": "Learning Rust With Entirely Too Many Linked Lists",
+      "content_text": "I fairly frequently get asked how to implement a linked list in Rust. The answer honestly depends on what your requirements are, and it's obviously not super easy to answer the question on the spot. As such I've decided to write this book to comprehensively answer the question once and for all. In this series I will teach you basic and advanced Rust programming entirely by having you implement 6 linked lists.",
+      "url": "https://rust-unofficial.github.io/too-many-lists/",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "88233a0c-3917-4ec2-b2c5-bcfd322a9662",
+      "title": "Chaining Functions Without Returning Self",
+      "content_text": "It’s a common pattern in the Rust ecosystem to have a function return self at the end in order to enable method chaining. This approach is often used in combination with the builder pattern, though it can also be applied to a wide variety of other situations. The example demonstrates the most straightforward of these cases (i.e. initializing and modifying an object in a single statement), but, as I’m going to demonstrate, this approach quickly breaks down when applied to a wider variety of use cases.",
+      "url": "https://randompoison.github.io/posts/returning-self/",
+      "date_published": "2019-03-21T00:00:00+00:00",
+      "author": {
+        "name": "David LeGare",
+        "url": "https://randompoison.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d10fac5d-46ac-49b4-a8e0-517cb3cdfcba",
       "title": "Procedural macro in Rust 101",
       "content_text": "How to pick a function and make it a macro with added superpowers.",

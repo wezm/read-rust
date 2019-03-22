@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "28a325bb-994b-4dad-9d6f-e92393b5eae0",
+      "title": "Building an Embedded Futures Executor II",
+      "content_text": "Part 2 of my embedded executor journey! Part 1 ended up getting a little long, so I cut it short while still missing some key features like more flexible task spawning and putting the executor to sleep when there's nothing needing to be polled. This time, we'll fill in those gaps!",
+      "url": "https://josh.robsonchase.com/embedded-executor-2/",
+      "date_published": "2019-01-27T15:00:00-05:00",
+      "author": {
+        "name": "Josh Robson Chase",
+        "url": "https://josh.robsonchase.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "3755147e-f87f-4bc8-ac54-2a75b8f55f11",
+      "title": "Learning Rust in 2019",
+      "content_text": "I spent the month of January playing with Rust in my free time. In this article I'm going to share some quick notes on some of the mistakes I made while learning, the resources I used to get unblocked, and what I took away from the experience. My hope is that I can save other Rust newcomers a bit of time by documenting some of the things that I banged my head into. Now, it's worth noting that I'm still a Rust beginner, so if I got something wrong please let me know so that I can update it.",
+      "url": "https://www.ragona.com/posts/learning_rust_2019",
+      "date_published": "2019-01-31T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Ragona",
+        "url": "https://ragona.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "806cf62c-14c8-4a7e-afa8-f99843d634f2",
+      "title": "New cargo subcommand: sync-readme",
+      "content_text": "cargo sync-readme synchronizes your README (the file specified by the readme key in your Cargo.toml, or just README.md by default) with the entrypoint of your library or binary crate (by default, lib.rs or main.rs, or what is defined at the path key in your manifest).",
+      "url": "https://phaazon.net/blog/cargo-sync-readme",
+      "date_published": "2019-02-25T18:50:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "eed8a936-e3c7-45b5-bc50-3e1b95ffb767",
+      "title": "In nightly Rust, 'await!' may never return (dropping futures)",
+      "content_text": "I've been using the proposed await! and Future features in nightly Rust, and overall, I really like the design. But I did run into one surprise: await! may never return, and this has consequences I didn't fully understand. Let's take a look.",
+      "url": "http://www.randomhacks.net/2019/03/09/in-nightly-rust-await-may-never-return/",
+      "date_published": "2019-03-09T15:11:20-05:00",
+      "author": {
+        "name": "Eric Kidd",
+        "url": "http://www.randomhacks.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "34dfeb70-4900-4ef3-b6d5-674d3caf376d",
+      "title": "Learning Rust With Entirely Too Many Linked Lists",
+      "content_text": "I fairly frequently get asked how to implement a linked list in Rust. The answer honestly depends on what your requirements are, and it's obviously not super easy to answer the question on the spot. As such I've decided to write this book to comprehensively answer the question once and for all. In this series I will teach you basic and advanced Rust programming entirely by having you implement 6 linked lists.",
+      "url": "https://rust-unofficial.github.io/too-many-lists/",
+      "tweet_url": "https://twitter.com/Gankro/status/1108809200229064705",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "88233a0c-3917-4ec2-b2c5-bcfd322a9662",
+      "title": "Chaining Functions Without Returning Self",
+      "content_text": "It’s a common pattern in the Rust ecosystem to have a function return self at the end in order to enable method chaining. This approach is often used in combination with the builder pattern, though it can also be applied to a wide variety of other situations. The example demonstrates the most straightforward of these cases (i.e. initializing and modifying an object in a single statement), but, as I’m going to demonstrate, this approach quickly breaks down when applied to a wider variety of use cases.",
+      "url": "https://randompoison.github.io/posts/returning-self/",
+      "date_published": "2019-03-21T00:00:00+00:00",
+      "author": {
+        "name": "David LeGare",
+        "url": "https://randompoison.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "677c24c1-719c-4744-acb3-46eb5e21f991",
+      "title": "The last two months in rustsim #4 (January - February 2019)",
+      "content_text": "Welcome to the fourth edition of This month in rustsim. This monthly newsletter will provide you with a summary of important update that occurred within the rustsim community. This includes in particular updates about the nphysics, ncollide, nalgebra, and alga crate.",
+      "url": "https://www.rustsim.org/blog/2019/03/01/this-month-in-rustsim/",
+      "date_published": "2019-03-01T00:00:00+00:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "https://www.rustsim.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "3ad2e4d8-ffb5-4dcc-870e-e5c8dae3ca2a",
       "title": "Resize images from S3 with AWS Lambda and Rust",
       "content_text": "Using Rust and AWS Lambda to thumbnail images, cheaply, relablity, and quickly.",

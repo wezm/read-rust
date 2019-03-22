@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "28a325bb-994b-4dad-9d6f-e92393b5eae0",
+      "title": "Building an Embedded Futures Executor II",
+      "content_text": "Part 2 of my embedded executor journey! Part 1 ended up getting a little long, so I cut it short while still missing some key features like more flexible task spawning and putting the executor to sleep when there's nothing needing to be polled. This time, we'll fill in those gaps!",
+      "url": "https://josh.robsonchase.com/embedded-executor-2/",
+      "date_published": "2019-01-27T15:00:00-05:00",
+      "author": {
+        "name": "Josh Robson Chase",
+        "url": "https://josh.robsonchase.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "4ba1b199-045c-4ba4-80e2-6741bc648f06",
       "title": "Programming GPIO Interrupts in Rust",
       "content_text": "Using Embedded Rust to configure and service a hardware interrupt on the STM32F3 Discovery board.",

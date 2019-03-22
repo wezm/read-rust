@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "677c24c1-719c-4744-acb3-46eb5e21f991",
+      "title": "The last two months in rustsim #4 (January - February 2019)",
+      "content_text": "Welcome to the fourth edition of This month in rustsim. This monthly newsletter will provide you with a summary of important update that occurred within the rustsim community. This includes in particular updates about the nphysics, ncollide, nalgebra, and alga crate.",
+      "url": "https://www.rustsim.org/blog/2019/03/01/this-month-in-rustsim/",
+      "date_published": "2019-03-01T00:00:00+00:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "https://www.rustsim.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "187cf7df-3448-4699-86f6-28e90a1a025f",
       "title": "Implementing a Hidden Markov Model in Rust",
       "content_text": "Over the past few months, I’ve implemented hmmm, a Rust library for Hidden Markov Models (HMMs). HMMs are a well-established statistical machine learning technique for modeling sequences of data. They have been applied to problems like speech recognition and bioinformatics. They are called “hidden” because each discrete time step is associated with a hidden state. Below, I’ll briefly discuss some challenges that I ran into while implementing this library.",
