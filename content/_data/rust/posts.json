@@ -10,6 +10,93 @@
   },
   "items": [
     {
+      "id": "ba471387-4b93-4e46-8846-c89beddf6916",
+      "title": "Allocations in Rust",
+      "content_text": "There’s an alchemy of distilling complex technical topics into articles and videos that change the way programmers see the tools they interact with on a regular basis. I knew what a linker was, but there’s a staggering amount of complexity in between the OS and main(). Rust programmers use the Box type all the time, but there’s a rich history of the Rust language itself wrapped up in how special it is.\n\nIn a similar vein, this series attempts to look at code and understand how memory is used; the complex choreography of operating system, compiler, and program that frees you to focus on functionality far-flung from frivolous book-keeping. The Rust compiler relieves a great deal of the cognitive burden associated with memory management, but we’re going to step into its world for a while.\n\nLet’s learn a bit about memory in Rust.",
+      "url": "https://speice.io/2019/02/understanding-allocations-in-rust.html",
+      "date_published": "2019-02-04T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1e324360-c349-474e-b091-7c5250958ffc",
+      "title": "Custom Exit Status Codes with ? in main",
+      "content_text": "Rust 1.26 introduced the ability to return a Result from the main method, which was a great ergonomics improvement especially for small CLI applications. If your application returns an Ok, Rust reports a success exit status code to the operating system. Likewise if your application returns an Err, Rust reports an error exit status code.\n\nBut what if you want to return a custom exit status error code for each possible error type in your application, to provide some additional feedback to your user? This leads into an exploration of the Termination and Try traits, and is the topic of this post.",
+      "url": "https://www.joshmcguigan.com/blog/custom-exit-status-codes-rust/",
+      "date_published": "2019-02-09T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "784ce8bf-55af-48fc-9893-23f28a38c999",
+      "title": "Hands-on IoT applications with OpenWhisk and Rust",
+      "content_text": "In this article, we’ll explore Apache OpenWhisk (which we’ll refer to simply as OpenWhisk), an open-source, distributed serverless platform that allows us to execute functions in response to events. OpenWhisk supports a lot of languages out of the box and can be extended to use other languages. In our case, we are going to use Rust as our main primary language.",
+      "url": "https://medium.com/the-theam-journey/hands-on-iot-applications-with-openwhisk-and-rust-acb9ef5bc166",
+      "tweet_url": "https://twitter.com/theagilemonkeys/status/1109118516089835520",
+      "date_published": "2019-03-22T13:41:31.677+00:00",
+      "author": {
+        "name": "Roberto Díaz",
+        "url": "https://medium.com/@roberto_85185"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "d226973e-f9e9-46e7-8395-d63272cd6f61",
+      "title": "The Embedded Working Group Newsletter - 17",
+      "content_text": "This week's highlights: The Embedded Rust Showcase, Oxidize speakers announced, docs on interrupts, and Life before Main!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-17/",
+      "tweet_url": "https://twitter.com/rustembedded/status/1109141455510097922",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "554b2733-697f-41c7-b91b-0261acc1aa24",
+      "title": "barrel.rs: a powerful schema migration builder's 0.5.0 release",
+      "content_text": "barrel makes writing migrations for different databases as easy as possible. It provides you with a common API over SQL, with certain features only provided for database specific implementations. This way you can focus on your Rust code, and stop worrying about SQL.",
+      "url": "https://rust-db.github.io/barrel/blog/releasing-050/",
+      "tweet_url": "https://twitter.com/spacekookie/status/1108832951003987968",
+      "date_published": "2019-03-21T00:00:00+00:00",
+      "author": {
+        "name": "Squirrel People",
+        "url": "https://rust-db.github.io/barrel/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ea9c3fbe-c681-4b42-a0ef-3699a1612972",
+      "title": "Are we Database Yet?",
+      "content_text": "I'm giving a talk next month at our Rust Meetup about using Rust in production. I've been reflecting on my last few months using Rust after learning the language about a year ago. One of my most frustrating experiences tends to always be around the futures ecosystem, as that's where I oft-fruitless labour for hours before giving up on what I'm doing.\n\nI do data engineering and software development work professionally, and these 2 areas are where I often find a lot of pain with using the language.\n\nA few weeks ago I wanted to write something that takes csv files and writes them to a database. I used Apache Arrow's Rust library (which I've started contributing to this year) to do that. The idea was simple, Arrow has a CSV reader that can infer schema, so I map the schema's data types to a database's types, and then I sequentially write records in batches to the database.\n\nI found the exercise quite painful, so I'd like to talk about databases and Rust.",
+      "url": "https://www.reddit.com/r/rust/comments/b463rg/are_we_database_yet/",
+      "date_published": "2019-03-23T02:02:56+11:00",
+      "author": {
+        "name": "nevi-me",
+        "url": "https://www.reddit.com/user/nevi-me"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "28a325bb-994b-4dad-9d6f-e92393b5eae0",
       "title": "Building an Embedded Futures Executor II",
       "content_text": "Part 2 of my embedded executor journey! Part 1 ended up getting a little long, so I cut it short while still missing some key features like more flexible task spawning and putting the executor to sleep when there's nothing needing to be polled. This time, we'll fill in those gaps!",

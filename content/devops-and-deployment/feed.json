@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "784ce8bf-55af-48fc-9893-23f28a38c999",
+      "title": "Hands-on IoT applications with OpenWhisk and Rust",
+      "content_text": "In this article, we’ll explore Apache OpenWhisk (which we’ll refer to simply as OpenWhisk), an open-source, distributed serverless platform that allows us to execute functions in response to events. OpenWhisk supports a lot of languages out of the box and can be extended to use other languages. In our case, we are going to use Rust as our main primary language.",
+      "url": "https://medium.com/the-theam-journey/hands-on-iot-applications-with-openwhisk-and-rust-acb9ef5bc166",
+      "date_published": "2019-03-22T13:41:31.677+00:00",
+      "author": {
+        "name": "Roberto Díaz",
+        "url": "https://medium.com/@roberto_85185"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "5288ae7c-b0a5-4e98-b6ad-512af05f04e4",
       "title": "Azure Pipelines for Rust Projects",
       "content_text": "In this post I will detail why I believe that Azure Pipelines can be a great CI / CD platform for open source Rust projects on Github. The catch is that there are some rough spots on Azure Pipelines and in the rust ecosystem, but everything can be worked around. In writing this post, I hope to detail examples one can copy and paste into their projects.",

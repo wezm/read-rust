@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d226973e-f9e9-46e7-8395-d63272cd6f61",
+      "title": "The Embedded Working Group Newsletter - 17",
+      "content_text": "This week's highlights: The Embedded Rust Showcase, Oxidize speakers announced, docs on interrupts, and Life before Main!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-17/",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "28a325bb-994b-4dad-9d6f-e92393b5eae0",
       "title": "Building an Embedded Futures Executor II",
       "content_text": "Part 2 of my embedded executor journey! Part 1 ended up getting a little long, so I cut it short while still missing some key features like more flexible task spawning and putting the executor to sleep when there's nothing needing to be polled. This time, we'll fill in those gaps!",
