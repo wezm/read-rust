@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1f1562d2-b784-4bda-84d4-a0dc68178793",
+      "title": "Helix: Improve the Performance of Rails with Rust",
+      "content_text": "With Rust, you can do low-level number-crunching and bit-by-bit processing, while enjoying memory safety and concurrency features. With Helix, you can use your Rust code inside of a Rails project.",
+      "url": "https://headway.io/blog/helix-improve-the-performance-of-rails-with-rust/",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Raphael Spencer",
+        "url": "https://headway.io/about/raphael-spencer"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "38a15a60-b3e5-49c5-9036-3af3d6bc43ff",
       "title": "Why Hashbrown Does A Double-Lookup",
       "content_text": "I recently finished a detailed review of hashbrown, which will likely become the new implementation for rust's std::collections::HashMap. One of the most surprising things I found was in the implementation of insert. It was doing something that was so offensive to people who care about collection performance that we had designed an entire API to help people avoid it: it did two lookups in the map. However, after some more discussion and review, I concluded that this implementation was reasonable. This post will try to cover why that is.",

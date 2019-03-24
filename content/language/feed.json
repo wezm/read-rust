@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "6450a97d-c96a-47df-b999-a865defe34ae",
+      "title": "Rust All Hands 2019: Array iterators, Rayon, and more",
+      "content_text": "A few weeks ago, I had the pleasure of attending the second annual Rust All Hands meeting, hosted by Mozilla at their Berlin office. The attendees were a mix of volunteers and corporate employees covering the full range of Rust development, including the compiler, language, libraries, docs, tools, operations, and community. Although I’m sure there will be an official summary of the meeting (like last year’s), in this article, I’ll cover a few things I was directly involved in. First, I’ll look at a feature many developers have wanted for a long time…",
+      "url": "https://developers.redhat.com/blog/2019/03/22/rust-all-hands-2019-array-iterators-rayon-and-more/",
+      "date_published": "2019-03-22T07:05:51+00:00",
+      "author": {
+        "name": "Josh Stone",
+        "url": "https://developers.redhat.com/blog/author/jistoneredhat-com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5190b436-eaa3-4067-a6a0-fec861ea8316",
+      "title": "Handmade Rust Part 1: Introduction & Allocators",
+      "content_text": "Welcome to Handmade Rust, a series (hopefully) where I will be developing a Vulkan rendering engine in Rust the Handmade way. By this, I mean using no external libraries, not even the Rust standard library, only the core lib. I am doing this mainly for my own enjoyment but also because I want to get better at writing Rust, and sometimes the best way to really understand something is to just do it yourself. The project will be available on GitHub at stevenlr/HandmadeRust.\n\nThe first step will be to build a foundation library for memory allocation, containers, and other utilities that are not provided by the core lib.",
+      "url": "http://stevenlr.com/posts/handmade-rust-1-allocators/",
+      "date_published": "2019-02-10T00:50:11+01:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "108f009d-94b1-43c6-8598-43088175772e",
+      "title": "Global Memory Usage: The Whole World",
+      "content_text": "The first memory type we’ll look at is pretty special: when Rust can prove that a value is fixed for the life of a program (const), and when a reference is unique for the life of a program (static as a declaration, not 'static as a lifetime), we can make use of global memory. This special section of data is embedded directly in the program binary so that variables are ready to go once the program loads; no additional computation is necessary.",
+      "url": "https://speice.io/2019/02/the-whole-world.html",
+      "date_published": "2019-02-05T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ba471387-4b93-4e46-8846-c89beddf6916",
       "title": "Allocations in Rust",
       "content_text": "There’s an alchemy of distilling complex technical topics into articles and videos that change the way programmers see the tools they interact with on a regular basis. I knew what a linker was, but there’s a staggering amount of complexity in between the OS and main(). Rust programmers use the Box type all the time, but there’s a rich history of the Rust language itself wrapped up in how special it is.\n\nIn a similar vein, this series attempts to look at code and understand how memory is used; the complex choreography of operating system, compiler, and program that frees you to focus on functionality far-flung from frivolous book-keeping. The Rust compiler relieves a great deal of the cognitive burden associated with memory management, but we’re going to step into its world for a while.\n\nLet’s learn a bit about memory in Rust.",

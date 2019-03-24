@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0b65aa06-68c5-4d0b-9160-6edb0ca35f34",
+      "title": "Portability benchmark of Dolphin Emulator on MacOS",
+      "content_text": "gfx-rs is a Rust project aiming to make graphics programming more accessible and portable, focusing on exposing a universal Vulkan-like API. It’s a single Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. We are also building a Vulkan Portability implementation based on it, which allows non-Rust applications using Vulkan to run everywhere. This post is focused on the Metal backend only.\n\nPreviously, we benchmarked Dota2 and were able to run many other applications and engines successfully, including Dolphin Emulator. For Dolphin, we previously focused on visual correctness. After games appeared to render correctly, we shifted our focus to performance to ensure they also render quickly.",
+      "url": "https://gfx-rs.github.io/2019/03/22/dolphin-macos-performance.html",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "54f59df5-bf2f-46e5-a817-0a31878f7cda",
       "title": "Implementing a NES Emulator in Rust",
       "content_text": "Recently, I made an emulator for the Nintendo Entertainment Console(NES) - a game console first released in 1983. In this article, I’ll talk about how I used Rust to develop the emulator. I’ll cover questions like: What features does the emulator support? What games can it play? How did I approach the problem of emulating the NES? Did Rust’s type system or borrow checker interfere? Were there performance issues?",

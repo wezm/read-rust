@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9082061f-b4a4-4aed-81e6-71a0c7e49b1a",
+      "title": "Packaging up a Rust Binary for Linux",
+      "content_text": "How does one package a Rust app? I would check out creating a snap package (https://t.co/UYibrbPN7c). It worked alright for me, even though the format encourages sandboxing of apps which takes a bit to wrap your mind a bit. Or create a deb using cargo-deb and use the alien utility to transform that to a rpm.",
+      "url": "https://dorianpula.ca/2019/03/15/packaging-up-a-rust-binary-for-linux/",
+      "date_published": "2019-03-15T21:48:17+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "784ce8bf-55af-48fc-9893-23f28a38c999",
       "title": "Hands-on IoT applications with OpenWhisk and Rust",
       "content_text": "In this article, we’ll explore Apache OpenWhisk (which we’ll refer to simply as OpenWhisk), an open-source, distributed serverless platform that allows us to execute functions in response to events. OpenWhisk supports a lot of languages out of the box and can be extended to use other languages. In our case, we are going to use Rust as our main primary language.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3f8f60fc-a917-4f77-98fb-f3d263cda7b3",
+      "title": "Sequoia-PGP: State of the Seedling",
+      "content_text": "I’d like to inform you about the recent progress on your favorite OpenPGP implementation. The Sequoia project made their first release at RustConf Rome during Neal’s talk (video, slides) about our experiences with Rust. The release includes only the low-level openpgp crate, which we renamed to sequoia-openpgp to avoid a namespace collision. In the weeks prior to the release, we moved a lot of code around, and refined our API. For example, we introduced a crypto module and moved all low-level crypto primitives there.",
+      "url": "https://sequoia-pgp.org/blog/2018/12/10/state-of-the-seedling-in-december/",
+      "date_published": "2018-12-10T13:50:35+01:00",
+      "author": {
+        "name": "Justus Winter",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "e2a2559d-5bf2-45b6-ba62-a3af84913c3a",
       "title": "rust-audit: Know exact library versions used to build your Rust executable",
       "content_text": "Know exact library versions used to build your Rust executable. Audit binaries for known bugs or security vulnerabilities in production, at scale, with zero bookkeeping.",

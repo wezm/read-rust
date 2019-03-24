@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "3f8f60fc-a917-4f77-98fb-f3d263cda7b3",
+      "title": "Sequoia-PGP: State of the Seedling",
+      "content_text": "I’d like to inform you about the recent progress on your favorite OpenPGP implementation. The Sequoia project made their first release at RustConf Rome during Neal’s talk (video, slides) about our experiences with Rust. The release includes only the low-level openpgp crate, which we renamed to sequoia-openpgp to avoid a namespace collision. In the weeks prior to the release, we moved a lot of code around, and refined our API. For example, we introduced a crypto module and moved all low-level crypto primitives there.",
+      "url": "https://sequoia-pgp.org/blog/2018/12/10/state-of-the-seedling-in-december/",
+      "date_published": "2018-12-10T13:50:35+01:00",
+      "author": {
+        "name": "Justus Winter",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "6450a97d-c96a-47df-b999-a865defe34ae",
+      "title": "Rust All Hands 2019: Array iterators, Rayon, and more",
+      "content_text": "A few weeks ago, I had the pleasure of attending the second annual Rust All Hands meeting, hosted by Mozilla at their Berlin office. The attendees were a mix of volunteers and corporate employees covering the full range of Rust development, including the compiler, language, libraries, docs, tools, operations, and community. Although I’m sure there will be an official summary of the meeting (like last year’s), in this article, I’ll cover a few things I was directly involved in. First, I’ll look at a feature many developers have wanted for a long time…",
+      "url": "https://developers.redhat.com/blog/2019/03/22/rust-all-hands-2019-array-iterators-rayon-and-more/",
+      "date_published": "2019-03-22T07:05:51+00:00",
+      "author": {
+        "name": "Josh Stone",
+        "url": "https://developers.redhat.com/blog/author/jistoneredhat-com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1f1562d2-b784-4bda-84d4-a0dc68178793",
+      "title": "Helix: Improve the Performance of Rails with Rust",
+      "content_text": "With Rust, you can do low-level number-crunching and bit-by-bit processing, while enjoying memory safety and concurrency features. With Helix, you can use your Rust code inside of a Rails project.",
+      "url": "https://headway.io/blog/helix-improve-the-performance-of-rails-with-rust/",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Raphael Spencer",
+        "url": "https://headway.io/about/raphael-spencer"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "0b65aa06-68c5-4d0b-9160-6edb0ca35f34",
+      "title": "Portability benchmark of Dolphin Emulator on MacOS",
+      "content_text": "gfx-rs is a Rust project aiming to make graphics programming more accessible and portable, focusing on exposing a universal Vulkan-like API. It’s a single Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. We are also building a Vulkan Portability implementation based on it, which allows non-Rust applications using Vulkan to run everywhere. This post is focused on the Metal backend only.\n\nPreviously, we benchmarked Dota2 and were able to run many other applications and engines successfully, including Dolphin Emulator. For Dolphin, we previously focused on visual correctness. After games appeared to render correctly, we shifted our focus to performance to ensure they also render quickly.",
+      "url": "https://gfx-rs.github.io/2019/03/22/dolphin-macos-performance.html",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "9082061f-b4a4-4aed-81e6-71a0c7e49b1a",
+      "title": "Packaging up a Rust Binary for Linux",
+      "content_text": "How does one package a Rust app? I would check out creating a snap package (https://t.co/UYibrbPN7c). It worked alright for me, even though the format encourages sandboxing of apps which takes a bit to wrap your mind a bit. Or create a deb using cargo-deb and use the alien utility to transform that to a rpm.",
+      "url": "https://dorianpula.ca/2019/03/15/packaging-up-a-rust-binary-for-linux/",
+      "date_published": "2019-03-15T21:48:17+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "5190b436-eaa3-4067-a6a0-fec861ea8316",
+      "title": "Handmade Rust Part 1: Introduction & Allocators",
+      "content_text": "Welcome to Handmade Rust, a series (hopefully) where I will be developing a Vulkan rendering engine in Rust the Handmade way. By this, I mean using no external libraries, not even the Rust standard library, only the core lib. I am doing this mainly for my own enjoyment but also because I want to get better at writing Rust, and sometimes the best way to really understand something is to just do it yourself. The project will be available on GitHub at stevenlr/HandmadeRust.\n\nThe first step will be to build a foundation library for memory allocation, containers, and other utilities that are not provided by the core lib.",
+      "url": "http://stevenlr.com/posts/handmade-rust-1-allocators/",
+      "date_published": "2019-02-10T00:50:11+01:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "108f009d-94b1-43c6-8598-43088175772e",
+      "title": "Global Memory Usage: The Whole World",
+      "content_text": "The first memory type we’ll look at is pretty special: when Rust can prove that a value is fixed for the life of a program (const), and when a reference is unique for the life of a program (static as a declaration, not 'static as a lifetime), we can make use of global memory. This special section of data is embedded directly in the program binary so that variables are ready to go once the program loads; no additional computation is necessary.",
+      "url": "https://speice.io/2019/02/the-whole-world.html",
+      "date_published": "2019-02-05T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ba471387-4b93-4e46-8846-c89beddf6916",
       "title": "Allocations in Rust",
       "content_text": "There’s an alchemy of distilling complex technical topics into articles and videos that change the way programmers see the tools they interact with on a regular basis. I knew what a linker was, but there’s a staggering amount of complexity in between the OS and main(). Rust programmers use the Box type all the time, but there’s a rich history of the Rust language itself wrapped up in how special it is.\n\nIn a similar vein, this series attempts to look at code and understand how memory is used; the complex choreography of operating system, compiler, and program that frees you to focus on functionality far-flung from frivolous book-keeping. The Rust compiler relieves a great deal of the cognitive burden associated with memory management, but we’re going to step into its world for a while.\n\nLet’s learn a bit about memory in Rust.",
