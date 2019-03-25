@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "44856ee1-451a-44b6-8cc1-5afd881bb57d",
+      "title": "Fixed Memory: Stacking Up",
+      "content_text": "const and static are perfectly fine, but it’s relatively rare that we know at compile-time about either values or references that will be the same for the duration of our program. Put another way, it’s not often the case that either you or your compiler knows how much memory your entire program will ever need.",
+      "url": "https://speice.io/2019/02/stacking-up.html",
+      "date_published": "2019-02-06T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "59ecea36-40a2-4b3a-aaf5-2d156d885d24",
+      "title": "Handmade Rust Part 2: Unq, an allocator-aware Box",
+      "content_text": "In the Rust standard library, Box is a RAII wrapper for an object on the heap. It’s actually a special type that’s not implemented purely in the library, but also use special features called lang items. It uses the global allocator to allocate its memory. We want a similar type that also has an allocator associated to it. We’ll call it Unq, which mirror C++’s unique_ptr.",
+      "url": "http://stevenlr.com/posts/handmade-rust-2-unq/",
+      "date_published": "2019-02-10T16:30:21+01:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "98e50b2b-889a-49d1-9973-f1d39c9cc389",
+      "title": "My First 3 Weeks of Professional Rust",
+      "content_text": "For the last 15 years as a professional programmer I have worked mostly with dynamic languages. First Perl, then Python, and for the last 10 years or so, Ruby. I’ve also been writing Rust on the side for personal projects for nearly four years. Recently I started a new job and for the first time I’m writing Rust professionally. Rust represents quite a shift in language features, development process and tooling. I thought it would be interesting to reflect on that experience so far.",
+      "url": "https://www.wezm.net/technical/2019/03/first-3-weeks-of-professional-rust/",
+      "date_published": "2019-03-23T22:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6450a97d-c96a-47df-b999-a865defe34ae",
       "title": "Rust All Hands 2019: Array iterators, Rayon, and more",
       "content_text": "A few weeks ago, I had the pleasure of attending the second annual Rust All Hands meeting, hosted by Mozilla at their Berlin office. The attendees were a mix of volunteers and corporate employees covering the full range of Rust development, including the compiler, language, libraries, docs, tools, operations, and community. Although I’m sure there will be an official summary of the meeting (like last year’s), in this article, I’ll cover a few things I was directly involved in. First, I’ll look at a feature many developers have wanted for a long time…",

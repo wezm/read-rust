@@ -10,6 +10,93 @@
   },
   "items": [
     {
+      "id": "44856ee1-451a-44b6-8cc1-5afd881bb57d",
+      "title": "Fixed Memory: Stacking Up",
+      "content_text": "const and static are perfectly fine, but it’s relatively rare that we know at compile-time about either values or references that will be the same for the duration of our program. Put another way, it’s not often the case that either you or your compiler knows how much memory your entire program will ever need.",
+      "url": "https://speice.io/2019/02/stacking-up.html",
+      "date_published": "2019-02-06T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "59ecea36-40a2-4b3a-aaf5-2d156d885d24",
+      "title": "Handmade Rust Part 2: Unq, an allocator-aware Box",
+      "content_text": "In the Rust standard library, Box is a RAII wrapper for an object on the heap. It’s actually a special type that’s not implemented purely in the library, but also use special features called lang items. It uses the global allocator to allocate its memory. We want a similar type that also has an allocator associated to it. We’ll call it Unq, which mirror C++’s unique_ptr.",
+      "url": "http://stevenlr.com/posts/handmade-rust-2-unq/",
+      "tweet_url": "https://twitter.com/steven_lr/status/1094680385643073536",
+      "date_published": "2019-02-10T16:30:21+01:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da7566eb-9da3-4f88-9c13-743fd67037a3",
+      "title": "Rust + Gtk = Wow",
+      "content_text": "As I’ve been experimenting with writing Rust apps, I attempted to create a small little GUI application. At first I attempted to setup everything with Qt, but C++/Qt interoperability with Rust is painful. Very, very painful. I experimented with some more radical UI frameworks such as Azul and Conrad. These have a lot of promise going forward. However for the here and now, I recommend looking at gtk-rs, Rust binding for Gtk.",
+      "url": "https://dorianpula.ca/2019/03/22/rust-gtk-wow/",
+      "date_published": "2019-03-22T21:54:08+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0dbd06f7-147e-404c-81ce-360e61e087e5",
+      "title": "Sonic: Fast, lightweight & schema-less search backend",
+      "content_text": "Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.",
+      "url": "https://github.com/valeriansaliou/sonic",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "Valerian Saliou",
+        "url": "https://github.com/valeriansaliou"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "c3e2f0b2-713e-4ab5-9126-103233acb271",
+      "title": "Redox OS 0.5.0",
+      "content_text": "It has been one year and four days since the last release of Redox OS! In this time, we have been hard at work improving the Redox ecosystem. Much of this work was related to relibc, a new C library written in Rust and maintained by the Redox OS project, and adding new packages to the cookbook. We are proud to report that we have now far exceeded the capabilities of newlib, which we were using as our system C library before. We have added many important libraries and programs, which you can see listed below.",
+      "url": "https://www.redox-os.org/news/release-0.5.0/",
+      "tweet_url": "https://twitter.com/redox_os/status/1109921288758288384",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "Jeremy Soller",
+        "url": "https://www.redox-os.org/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "98e50b2b-889a-49d1-9973-f1d39c9cc389",
+      "title": "My First 3 Weeks of Professional Rust",
+      "content_text": "For the last 15 years as a professional programmer I have worked mostly with dynamic languages. First Perl, then Python, and for the last 10 years or so, Ruby. I’ve also been writing Rust on the side for personal projects for nearly four years. Recently I started a new job and for the first time I’m writing Rust professionally. Rust represents quite a shift in language features, development process and tooling. I thought it would be interesting to reflect on that experience so far.",
+      "url": "https://www.wezm.net/technical/2019/03/first-3-weeks-of-professional-rust/",
+      "tweet_url": "https://twitter.com/wezm/status/1109645058540658688",
+      "date_published": "2019-03-23T22:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3f8f60fc-a917-4f77-98fb-f3d263cda7b3",
       "title": "Sequoia-PGP: State of the Seedling",
       "content_text": "I’d like to inform you about the recent progress on your favorite OpenPGP implementation. The Sequoia project made their first release at RustConf Rome during Neal’s talk (video, slides) about our experiences with Rust. The release includes only the low-level openpgp crate, which we renamed to sequoia-openpgp to avoid a namespace collision. In the weeks prior to the release, we moved a lot of code around, and refined our API. For example, we introduced a crypto module and moved all low-level crypto primitives there.",

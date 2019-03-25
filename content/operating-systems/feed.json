@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c3e2f0b2-713e-4ab5-9126-103233acb271",
+      "title": "Redox OS 0.5.0",
+      "content_text": "It has been one year and four days since the last release of Redox OS! In this time, we have been hard at work improving the Redox ecosystem. Much of this work was related to relibc, a new C library written in Rust and maintained by the Redox OS project, and adding new packages to the cookbook. We are proud to report that we have now far exceeded the capabilities of newlib, which we were using as our system C library before. We have added many important libraries and programs, which you can see listed below.",
+      "url": "https://www.redox-os.org/news/release-0.5.0/",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "Jeremy Soller",
+        "url": "https://www.redox-os.org/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "c8769017-9667-4bad-82c6-e43ec7391182",
       "title": "This Week in Pop!_OS 1",
       "content_text": "This will be the first in a series of weekly updates on progress made in the development of Pop!_OS. Thus, this will only contain content pertaining specifically to Pop!_OS, though at times there may be some overlap with the hardware side of System76.",

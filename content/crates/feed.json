@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0dbd06f7-147e-404c-81ce-360e61e087e5",
+      "title": "Sonic: Fast, lightweight & schema-less search backend",
+      "content_text": "Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.",
+      "url": "https://github.com/valeriansaliou/sonic",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "Valerian Saliou",
+        "url": "https://github.com/valeriansaliou"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "554b2733-697f-41c7-b91b-0261acc1aa24",
       "title": "barrel.rs: a powerful schema migration builder's 0.5.0 release",
       "content_text": "barrel makes writing migrations for different databases as easy as possible. It provides you with a common API over SQL, with certain features only provided for database specific implementations. This way you can focus on your Rust code, and stop worrying about SQL.",
