@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3afe3b54-7b4e-46a5-90c5-b6a23b5d803f",
+      "title": "Making a basic game UI with imgui and ggez",
+      "content_text": "In this post I'll walk you through how you can create game user interface with imgui and ggez. I spent a lot of time trying to make this work for my game (which you can read more about here) and suffered greatly because of the lack of documentation, so I'm writing this so you don't have to!",
+      "url": "http://iolivia.me/posts/imgui-ggez/",
+      "date_published": "2019-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "80cba812-a035-4486-8ec8-14c34c637cfe",
+      "title": "Entity Component Systems in Rust",
+      "content_text": "I realised early on that the heart of the game (engine) was going to be the ECS, and while there are many good Rust written crates for an ECS implementation available, I wanted to write my own as an exercise. And so getting it right (for some definition of right) early on would save me a lot of headaches later on down the track. In this post I'll explain the what/where/how/why and some of the intricacies of using Rust for it.",
+      "url": "https://ljcode.org/blog/ecs/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Luke Jones",
+        "url": "https://ljcode.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0b65aa06-68c5-4d0b-9160-6edb0ca35f34",
       "title": "Portability benchmark of Dolphin Emulator on MacOS",
       "content_text": "gfx-rs is a Rust project aiming to make graphics programming more accessible and portable, focusing on exposing a universal Vulkan-like API. It’s a single Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. We are also building a Vulkan Portability implementation based on it, which allows non-Rust applications using Vulkan to run everywhere. This post is focused on the Metal backend only.\n\nPreviously, we benchmarked Dota2 and were able to run many other applications and engines successfully, including Dolphin Emulator. For Dolphin, we previously focused on visual correctness. After games appeared to render correctly, we shifted our focus to performance to ensure they also render quickly.",

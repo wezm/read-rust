@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ed083e12-489d-4720-8e59-eea15c03c3f8",
+      "title": "MeiliES - Event sourcing in Rust",
+      "content_text": "MeiliES is an Event Sourcing database that uses the RESP (REdis Serialization Protocol) to communicate. We use the Redis protocol to simplify clients implementation. The portability problematics are resolved by using a full Rust implementation (we are using Sled as internal storage).",
+      "url": "https://blog.meilisearch.com/meilies-release/",
+      "date_published": "2019-03-25T14:16:32+00:00",
+      "author": {
+        "name": "Thomas Payet",
+        "url": "https://blog.meilisearch.com/author/thomas/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "710b4e1e-9882-413b-bf2d-9fc746502ede",
+      "title": "clap v3 Update: No More Strings",
+      "content_text": "This is the second post in a series detailing the issues, progress, and design decisions used in clap v3. This post details removing the \"stringly typed\" nature of clap.",
+      "url": "https://kbknapp.dev/clap-v3-update-no-more-strings/",
+      "date_published": "2019-03-08T00:00:00+00:00",
+      "author": {
+        "name": "Kevin K.",
+        "url": "https://kbknapp.dev/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "0dbd06f7-147e-404c-81ce-360e61e087e5",
       "title": "Sonic: Fast, lightweight & schema-less search backend",
       "content_text": "Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.",

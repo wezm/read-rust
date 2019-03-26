@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "03a41715-2772-48f5-8a75-bd0d4d1d04c7",
+      "title": "Understanding Futures In Rust - Part 1",
+      "content_text": "Futures make async programming in Rust easy and readable. Learn how to use futures by building them from scratch.",
+      "url": "https://www.viget.com/articles/understanding-futures-in-rust-part-1/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Joe Jackson",
+        "url": "https://www.viget.com/about/team/jjackson"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e69005a8-5193-4715-b906-f7a1a71db4f0",
+      "title": "Dynamic Memory: A Heaping Helping",
+      "content_text": "Managing dynamic memory is hard. Some languages assume users will do it themselves (C, C++), and some languages go to extreme lengths to protect users from themselves (Java, Python). In Rust, how the language uses dynamic memory (also referred to as the heap) is a system called ownership. And as the docs mention, ownership is Rust’s most unique feature.",
+      "url": "https://speice.io/2019/02/a-heaping-helping.html",
+      "date_published": "2019-02-07T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6ed35d04-359f-4971-9cf6-19d824cdcf72",
+      "title": "Handmade Rust Part 3: Containers",
+      "content_text": "The most commonly used kinds of containers are arrays and maps. Pretty much any other container type can be built using those two, so that’s what we’ll build today! Of course, just like for Unq, we won’t be making simple replacements, instead we’ll be making the most minimal containers necessary for now and add features later as needed, but we’ll be make them allocator aware.",
+      "url": "http://stevenlr.com/posts/handmade-rust-3-containers/",
+      "date_published": "2019-03-23T17:12:54+01:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c24a6d4f-b367-4b18-ad85-52fe59b7e6b3",
+      "title": "The Phantom Builder",
+      "content_text": "Recently on twitter, someone asked fora a practical explainer for PhantomData and while I don't have that I did want to share one place I have found PhantomData to be useful. This blog post is an overview of how I ended up using PhantomData in my builder patterns that require a generic type argument.",
+      "url": "https://wiredforge.com/blog/phantom-builder/index.html",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "29538906-a949-430f-a129-f9c8dca4eb54",
+      "title": "Kickstarting a database working group",
+      "content_text": "I posted the idea of a database WG on twitter recently and it was met with a lot of excitement. Also there was a post on reddit recently that proposed the same idea, taken from examples of where using Rust with databases is currently a painful experience. I would as part of this also want to work out a base charter to start the WG as well as setting up when and how to have regular meetings to discuss roadmaps and current projects that are being worked on.",
+      "url": "https://internals.rust-lang.org/t/kickstarting-a-database-wg/9696",
+      "date_published": "2019-03-25T09:53:26+00:00",
+      "author": {
+        "name": "Katharina Fey",
+        "url": "https://internals.rust-lang.org/u/spacekookie"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "166e7e9f-de17-4abb-b2f4-08169793f3dd",
+      "title": "How to Debug Rust with Visual Studio Code",
+      "content_text": "A step-by-step guide for debugging Rust with Visual Studio Code.",
+      "url": "https://www.forrestthewoods.com/blog/how-to-debug-rust-with-visual-studio-code/",
+      "date_published": "2019-02-03T20:01:00+00:00",
+      "author": {
+        "name": "Forrest Smith",
+        "url": "https://www.forrestthewoods.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "44856ee1-451a-44b6-8cc1-5afd881bb57d",
       "title": "Fixed Memory: Stacking Up",
       "content_text": "const and static are perfectly fine, but it’s relatively rare that we know at compile-time about either values or references that will be the same for the duration of our program. Put another way, it’s not often the case that either you or your compiler knows how much memory your entire program will ever need.",
