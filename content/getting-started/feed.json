@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5ee0634e-47e9-4354-982f-fdbfdd60a3b1",
+      "title": "Rust Basics: the Add Trait",
+      "content_text": "In my journey for better understanding of anything I tend to always return to the basics.\nTo often we base our assumptions on blind 'guess-timations' where we don't understand why something is actually happening but we observed that certain patterns ...",
+      "url": "https://chilimatic.hashnode.dev/rust-basics-the-add-trait-cjtoke4yh002t8hs1c61p82mz",
+      "date_published": "2019-03-25T16:27:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3755147e-f87f-4bc8-ac54-2a75b8f55f11",
       "title": "Learning Rust in 2019",
       "content_text": "I spent the month of January playing with Rust in my free time. In this article I'm going to share some quick notes on some of the mistakes I made while learning, the resources I used to get unblocked, and what I took away from the experience. My hope is that I can save other Rust newcomers a bit of time by documenting some of the things that I banged my head into. Now, it's worth noting that I'm still a Rust beginner, so if I got something wrong please let me know so that I can update it.",

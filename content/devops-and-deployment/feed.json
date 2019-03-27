@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a82e8094-4499-4915-9b77-0d40cce84878",
+      "title": "Cross Compiling Rust for FreeBSD With Docker",
+      "content_text": "For a little side project I’m working on I want to be able to produce pre-compiled binaries for a variety of platforms, including FreeBSD. With a bit of trial and error I have been able to successfully build working FreeBSD binaries from a Docker container, without using (slow) emulation/virtual machines. This post describes how it works and how to add it to your own Rust project.",
+      "url": "https://www.wezm.net/technical/2019/03/cross-compile-freebsd-rust-binary-with-docker/",
+      "date_published": "2019-03-25T04:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "9082061f-b4a4-4aed-81e6-71a0c7e49b1a",
       "title": "Packaging up a Rust Binary for Linux",
       "content_text": "How does one package a Rust app? I would check out creating a snap package (https://t.co/UYibrbPN7c). It worked alright for me, even though the format encourages sandboxing of apps which takes a bit to wrap your mind a bit. Or create a deb using cargo-deb and use the alien utility to transform that to a rpm.",

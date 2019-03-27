@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ff71674c-714c-4d6d-adde-bca7a03d697e",
+      "title": "Miri available as rustup component",
+      "content_text": "Running your unsafe code test suite in Miri has just gotten even easier: Miri is now available as a rustup component!",
+      "url": "https://www.ralfj.de/blog/2019/03/26/miri-as-rustup-component.html",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ee2c7f86-323c-49fe-a707-afc505088445",
+      "title": "Variance in Rust: An intuitive explanation",
+      "content_text": "Recently I made a presentation about subtyping and variance in Rust for our local Vancouver Rust meetup, but I still think intuition was rather lost in the formalism, so here’s my shot at explaining it as intuitively as I can.",
+      "url": "https://ehsanmkermani.com/2019/03/16/variance-in-rust-an-intuitive-explanation/",
+      "date_published": "2019-03-17T03:24:05+00:00",
+      "author": {
+        "name": "Ehsan",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "03a41715-2772-48f5-8a75-bd0d4d1d04c7",
       "title": "Understanding Futures In Rust - Part 1",
       "content_text": "Futures make async programming in Rust easy and readable. Learn how to use futures by building them from scratch.",

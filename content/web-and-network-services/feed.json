@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2da4fac1-5cb0-463b-9654-427f70d25255",
+      "title": "Seed: A frontend framework for Rust, via WebAssembly",
+      "content_text": "I'm distinguishing Seed through clear examples and documentation, and using wasm-bindgen/web-sys internally. I started this project after being unable to get existing frameworks working due to lack of documented examples, and inconsistency between documentation and published versions. My intent is for anyone who's proficient in a frontend framework to get a standalone app working in the browser within a few minutes, using just the quickstart guide.\n\nSeed's different approach to view syntax also distinguishes it: rather than use an HTML-like markup similar to JSX, it uses Rust builtin types, thinly-wrapped by macros that allow flexible composition. This decision will not appeal to everyone, but I think it integrates more naturally with the language.",
+      "url": "https://seed-rs.org/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "David O'Connor",
+        "url": "https://seed-rs.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3ad2e4d8-ffb5-4dcc-870e-e5c8dae3ca2a",
       "title": "Resize images from S3 with AWS Lambda and Rust",
       "content_text": "Using Rust and AWS Lambda to thumbnail images, cheaply, relablity, and quickly.",

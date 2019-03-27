@@ -10,6 +10,107 @@
   },
   "items": [
     {
+      "id": "ff71674c-714c-4d6d-adde-bca7a03d697e",
+      "title": "Miri available as rustup component",
+      "content_text": "Running your unsafe code test suite in Miri has just gotten even easier: Miri is now available as a rustup component!",
+      "url": "https://www.ralfj.de/blog/2019/03/26/miri-as-rustup-component.html",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2da4fac1-5cb0-463b-9654-427f70d25255",
+      "title": "Seed: A frontend framework for Rust, via WebAssembly",
+      "content_text": "I'm distinguishing Seed through clear examples and documentation, and using wasm-bindgen/web-sys internally. I started this project after being unable to get existing frameworks working due to lack of documented examples, and inconsistency between documentation and published versions. My intent is for anyone who's proficient in a frontend framework to get a standalone app working in the browser within a few minutes, using just the quickstart guide.\n\nSeed's different approach to view syntax also distinguishes it: rather than use an HTML-like markup similar to JSX, it uses Rust builtin types, thinly-wrapped by macros that allow flexible composition. This decision will not appeal to everyone, but I think it integrates more naturally with the language.",
+      "url": "https://seed-rs.org/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "David O'Connor",
+        "url": "https://seed-rs.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a82e8094-4499-4915-9b77-0d40cce84878",
+      "title": "Cross Compiling Rust for FreeBSD With Docker",
+      "content_text": "For a little side project I’m working on I want to be able to produce pre-compiled binaries for a variety of platforms, including FreeBSD. With a bit of trial and error I have been able to successfully build working FreeBSD binaries from a Docker container, without using (slow) emulation/virtual machines. This post describes how it works and how to add it to your own Rust project.",
+      "url": "https://www.wezm.net/technical/2019/03/cross-compile-freebsd-rust-binary-with-docker/",
+      "tweet_url": "https://twitter.com/wezm/status/1110049444181901312",
+      "date_published": "2019-03-25T04:45:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "http://www.wezm.net/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "ee2c7f86-323c-49fe-a707-afc505088445",
+      "title": "Variance in Rust: An intuitive explanation",
+      "content_text": "Recently I made a presentation about subtyping and variance in Rust for our local Vancouver Rust meetup, but I still think intuition was rather lost in the formalism, so here’s my shot at explaining it as intuitively as I can.",
+      "url": "https://ehsanmkermani.com/2019/03/16/variance-in-rust-an-intuitive-explanation/",
+      "tweet_url": "https://twitter.com/ehsanmok/status/1110405489903296513",
+      "date_published": "2019-03-17T03:24:05+00:00",
+      "author": {
+        "name": "Ehsan",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7f497632-cdeb-48fc-b03b-8abe30f7ac6e",
+      "title": "Refactoring Varisat: 4. Heuristics",
+      "content_text": "This is the fourth post in my series about refactoring varisat. In the last post we saw how conflict driven clause learning works, in this post we’re going to make it fast. To get there we add several smaller features that were already present in varisat 0.1. While there are still some things missing that varisat 0.1 supports, these are features like proof generation or incremental solving that don’t affect the solving performance.",
+      "url": "https://jix.one/refactoring-varisat-4-heuristics/",
+      "date_published": "2019-03-21T11:46:30+01:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "8c2f780c-fde4-4064-b179-ddc7deaedc98",
+      "title": "Iterated Function System fractal visualizer in Rust",
+      "content_text": "This is a toy program to render Iterated Function System fractals with Rust and OpenGL. Glium is used for OpenGL and the GUI is provided by imgui-rs.",
+      "url": "https://github.com/jherman3/ifs_fractal/blob/master/README.md",
+      "date_published": "2019-03-27T00:00:00+11:00" ,
+      "author": {
+        "name": "jherman3",
+        "url": "https://github.com/jherman3"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5ee0634e-47e9-4354-982f-fdbfdd60a3b1",
+      "title": "Rust Basics: the Add Trait",
+      "content_text": "In my journey for better understanding of anything I tend to always return to the basics.\nTo often we base our assumptions on blind 'guess-timations' where we don't understand why something is actually happening but we observed that certain patterns ...",
+      "url": "https://chilimatic.hashnode.dev/rust-basics-the-add-trait-cjtoke4yh002t8hs1c61p82mz",
+      "tweet_url": "https://twitter.com/shadowdroid/status/1110218766238011392",
+      "date_published": "2019-03-25T16:27:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "03a41715-2772-48f5-8a75-bd0d4d1d04c7",
       "title": "Understanding Futures In Rust - Part 1",
       "content_text": "Futures make async programming in Rust easy and readable. Learn how to use futures by building them from scratch.",
