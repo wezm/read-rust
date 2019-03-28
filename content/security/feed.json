@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "de32ac99-9bcf-4744-ab65-3f22398433d7",
+      "title": "BoringTun, a userspace WireGuard implementation in Rust",
+      "content_text": "Today we are happy to release the source code of a project we’ve been working on for the past few months. It is called BoringTun, and is a userspace implementation of the WireGuard® protocol written in Rust.",
+      "url": "https://blog.cloudflare.com/boringtun-userspace-wireguard-rust/",
+      "date_published": "2019-03-27T13:43:27+00:00",
+      "author": {
+        "name": "Vlad Krasnov",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "3f8f60fc-a917-4f77-98fb-f3d263cda7b3",
       "title": "Sequoia-PGP: State of the Seedling",
       "content_text": "I’d like to inform you about the recent progress on your favorite OpenPGP implementation. The Sequoia project made their first release at RustConf Rome during Neal’s talk (video, slides) about our experiences with Rust. The release includes only the low-level openpgp crate, which we renamed to sequoia-openpgp to avoid a namespace collision. In the weeks prior to the release, we moved a lot of code around, and refined our API. For example, we introduced a crypto module and moved all low-level crypto primitives there.",

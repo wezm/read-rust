@@ -10,6 +10,93 @@
   },
   "items": [
     {
+      "id": "8d10af6d-6142-4201-87d6-32148ac9079c",
+      "title": "Writing an OS in Rust - Paging Implementation",
+      "content_text": "This post shows how to implement paging support in our kernel. It first explores different techniques to make the physical page table frames accessible to the kernel and discusses their respective advantages and drawbacks. It then implements an address translation function and a function to create a new mapping.",
+      "url": "https://os.phil-opp.com/paging-implementation/",
+      "tweet_url": "https://twitter.com/phil_opp/status/1106133686930599936",
+      "date_published": "2019-03-14T21:03:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "e216ede8-5599-48f4-a458-770944ef44f2",
+      "title": "Arraigning a Statement, vol. 1",
+      "content_text": "This time in our “Mutating Rust” series, we want to tackle the most complex mutation so far: Statement removal. Now why do I think this is complex? It’s just removing the statement (or, as we bake our mutations into the code, activating at runtime, putting it behind an if), right?",
+      "url": "https://llogiq.github.io/2019/03/11/stmt.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1105022120491388928",
+      "date_published": "2019-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "de32ac99-9bcf-4744-ab65-3f22398433d7",
+      "title": "BoringTun, a userspace WireGuard implementation in Rust",
+      "content_text": "Today we are happy to release the source code of a project we’ve been working on for the past few months. It is called BoringTun, and is a userspace implementation of the WireGuard® protocol written in Rust.",
+      "url": "https://blog.cloudflare.com/boringtun-userspace-wireguard-rust/",
+      "tweet_url": "https://twitter.com/Cloudflare/status/1110948853958750208",
+      "date_published": "2019-03-27T13:43:27+00:00",
+      "author": {
+        "name": "Vlad Krasnov",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "b78c276e-61fa-41c0-90db-b706fe5864e3",
+      "title": "Generalizing Seqlocks",
+      "content_text": "swym is a very performant Software Transactional Memory (STM) library. It uses a variation on the per-object Transactional Locking II algorithm. The paper does an excellent job explaining the algorithm, but it is not required reading for this article. swym is a generalization of seqlocks - one the TL2 paper almost achieves, but does not for whatever reason.",
+      "url": "https://mtak-blog.github.io/generalizing-seqlocks",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4984adf8-b660-4433-a888-8bd84d669dc0",
+      "title": "Compiler Optimizations: What It's Done Lately",
+      "content_text": "Throughout the series so far, we’ve put a handicap on the code. In the name of consistent and understandable results, we’ve asked the compiler to pretty please leave the training wheels on. Now is the time where we throw out all the rules and take off the kid gloves. As it turns out, both the Rust compiler and the LLVM optimizers are incredibly sophisticated, and we’ll step back and let them do their job.\n\nSimilar to “What Has My Compiler Done For Me Lately?”, we’re focusing on interesting things the Rust language (and LLVM!) can do with memory management.",
+      "url": "https://speice.io/2019/02/compiler-optimizations.html",
+      "date_published": "2019-02-08T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "42678207-257f-4a9c-868a-ab556d18f9d1",
+      "title": "Idiomatic monads in Rust",
+      "content_text": "A pragmatic new design for high-level abstractions In this post, I’m going to describe a new approach to express monads in Rust. It is the most minimal design I have seen proposed and is, in my eyes, the first plausible design for such abstractions — those commonly known as “higher-kinded types”. This approach depends on a very minimal extension to Rust’s type system. In particular, this approach avoids the need for either higher-kinded types (e.g. as in this design) or full abstraction over traits (e.g. “traits for traits”). Most of the design challenges are tackled directly using existing features.",
+      "url": "https://varkor.github.io/blog/2019/03/28/idiomatic-monads-in-rust.html",
+      "date_published": "2019-03-28T00:00:28+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "ff71674c-714c-4d6d-adde-bca7a03d697e",
       "title": "Miri available as rustup component",
       "content_text": "Running your unsafe code test suite in Miri has just gotten even easier: Miri is now available as a rustup component!",
@@ -60,7 +147,7 @@
       "tweet_url": "https://twitter.com/ehsanmok/status/1110405489903296513",
       "date_published": "2019-03-17T03:24:05+00:00",
       "author": {
-        "name": "Ehsan",
+        "name": "Ehsan M. Kermani",
         "url": "https://ehsanmkermani.com/"
       },
       "tags": [
@@ -86,7 +173,7 @@
       "title": "Iterated Function System fractal visualizer in Rust",
       "content_text": "This is a toy program to render Iterated Function System fractals with Rust and OpenGL. Glium is used for OpenGL and the GUI is provided by imgui-rs.",
       "url": "https://github.com/jherman3/ifs_fractal/blob/master/README.md",
-      "date_published": "2019-03-27T00:00:00+11:00" ,
+      "date_published": "2019-03-27T00:00:00+11:00",
       "author": {
         "name": "jherman3",
         "url": "https://github.com/jherman3"

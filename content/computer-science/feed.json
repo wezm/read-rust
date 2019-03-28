@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b78c276e-61fa-41c0-90db-b706fe5864e3",
+      "title": "Generalizing Seqlocks",
+      "content_text": "swym is a very performant Software Transactional Memory (STM) library. It uses a variation on the per-object Transactional Locking II algorithm. The paper does an excellent job explaining the algorithm, but it is not required reading for this article. swym is a generalization of seqlocks - one the TL2 paper almost achieves, but does not for whatever reason.",
+      "url": "https://mtak-blog.github.io/generalizing-seqlocks",
+      "date_published": "2019-03-24T00:00:00+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "42678207-257f-4a9c-868a-ab556d18f9d1",
+      "title": "Idiomatic monads in Rust",
+      "content_text": "A pragmatic new design for high-level abstractions In this post, I’m going to describe a new approach to express monads in Rust. It is the most minimal design I have seen proposed and is, in my eyes, the first plausible design for such abstractions — those commonly known as “higher-kinded types”. This approach depends on a very minimal extension to Rust’s type system. In particular, this approach avoids the need for either higher-kinded types (e.g. as in this design) or full abstraction over traits (e.g. “traits for traits”). Most of the design challenges are tackled directly using existing features.",
+      "url": "https://varkor.github.io/blog/2019/03/28/idiomatic-monads-in-rust.html",
+      "date_published": "2019-03-28T00:00:28+00:00",
+      "author": {
+        "name": "varkor",
+        "url": "https://varkor.github.io/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "7f497632-cdeb-48fc-b03b-8abe30f7ac6e",
       "title": "Refactoring Varisat: 4. Heuristics",
       "content_text": "This is the fourth post in my series about refactoring varisat. In the last post we saw how conflict driven clause learning works, in this post we’re going to make it fast. To get there we add several smaller features that were already present in varisat 0.1. While there are still some things missing that varisat 0.1 supports, these are features like proof generation or incremental solving that don’t affect the solving performance.",

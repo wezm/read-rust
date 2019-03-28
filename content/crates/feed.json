@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e216ede8-5599-48f4-a458-770944ef44f2",
+      "title": "Arraigning a Statement, vol. 1",
+      "content_text": "This time in our “Mutating Rust” series, we want to tackle the most complex mutation so far: Statement removal. Now why do I think this is complex? It’s just removing the statement (or, as we bake our mutations into the code, activating at runtime, putting it behind an if), right?",
+      "url": "https://llogiq.github.io/2019/03/11/stmt.html",
+      "date_published": "2019-03-11T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ed083e12-489d-4720-8e59-eea15c03c3f8",
       "title": "MeiliES - Event sourcing in Rust",
       "content_text": "MeiliES is an Event Sourcing database that uses the RESP (REdis Serialization Protocol) to communicate. We use the Redis protocol to simplify clients implementation. The portability problematics are resolved by using a full Rust implementation (we are using Sled as internal storage).",

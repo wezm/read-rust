@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4984adf8-b660-4433-a888-8bd84d669dc0",
+      "title": "Compiler Optimizations: What It's Done Lately",
+      "content_text": "Throughout the series so far, we’ve put a handicap on the code. In the name of consistent and understandable results, we’ve asked the compiler to pretty please leave the training wheels on. Now is the time where we throw out all the rules and take off the kid gloves. As it turns out, both the Rust compiler and the LLVM optimizers are incredibly sophisticated, and we’ll step back and let them do their job.\n\nSimilar to “What Has My Compiler Done For Me Lately?”, we’re focusing on interesting things the Rust language (and LLVM!) can do with memory management.",
+      "url": "https://speice.io/2019/02/compiler-optimizations.html",
+      "date_published": "2019-02-08T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ff71674c-714c-4d6d-adde-bca7a03d697e",
       "title": "Miri available as rustup component",
       "content_text": "Running your unsafe code test suite in Miri has just gotten even easier: Miri is now available as a rustup component!",
@@ -30,7 +44,7 @@
       "url": "https://ehsanmkermani.com/2019/03/16/variance-in-rust-an-intuitive-explanation/",
       "date_published": "2019-03-17T03:24:05+00:00",
       "author": {
-        "name": "Ehsan",
+        "name": "Ehsan M. Kermani",
         "url": "https://ehsanmkermani.com/"
       },
       "tags": [

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8d10af6d-6142-4201-87d6-32148ac9079c",
+      "title": "Writing an OS in Rust - Paging Implementation",
+      "content_text": "This post shows how to implement paging support in our kernel. It first explores different techniques to make the physical page table frames accessible to the kernel and discusses their respective advantages and drawbacks. It then implements an address translation function and a function to create a new mapping.",
+      "url": "https://os.phil-opp.com/paging-implementation/",
+      "date_published": "2019-03-14T21:03:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "c3e2f0b2-713e-4ab5-9126-103233acb271",
       "title": "Redox OS 0.5.0",
       "content_text": "It has been one year and four days since the last release of Redox OS! In this time, we have been hard at work improving the Redox ecosystem. Much of this work was related to relibc, a new C library written in Rust and maintained by the Redox OS project, and adding new packages to the cookbook. We are proud to report that we have now far exceeded the capabilities of newlib, which we were using as our system C library before. We have added many important libraries and programs, which you can see listed below.",
