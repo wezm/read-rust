@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "4fb7d3bc-05c5-4c23-abaa-70294fa23715",
+      "title": "Ocypod: Redis-backed job queue server with an easy to use HTTP interface",
+      "content_text": "Ocypod is a language-agnostic, Redis-backed job queue server with an easy to use HTTP interface. Its focus is on handling and monitoring long running jobs.",
+      "url": "https://ocypod.readthedocs.io/",
+      "date_published": "2019-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Dave Challis",
+        "url": "https://ocypod.readthedocs.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9a041284-284c-472d-97c0-0e0cd407bb44",
+      "title": "tarssh: An async Rust SSH tarpit",
+      "content_text": "tarssh is an SSH tarpit — a server that trickles an endlessly repeating introductory banner to clients for as long as it remains connected, in order to expend the resources of attackers. It's based on the same concept as Chris Wellons' Endlessh, a similar service written in C.",
+      "url": "https://hur.st/projects/tarssh/",
+      "date_published": "2019-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hurst",
+        "url": "https://hur.st/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2da4fac1-5cb0-463b-9654-427f70d25255",
       "title": "Seed: A frontend framework for Rust, via WebAssembly",
       "content_text": "I'm distinguishing Seed through clear examples and documentation, and using wasm-bindgen/web-sys internally. I started this project after being unable to get existing frameworks working due to lack of documented examples, and inconsistency between documentation and published versions. My intent is for anyone who's proficient in a frontend framework to get a standalone app working in the browser within a few minutes, using just the quickstart guide.\n\nSeed's different approach to view syntax also distinguishes it: rather than use an HTML-like markup similar to JSX, it uses Rust builtin types, thinly-wrapped by macros that allow flexible composition. This decision will not appeal to everyone, but I think it integrates more naturally with the language.",

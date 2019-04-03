@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "5b355e5c-bc78-4134-91a2-c383b350d5f8",
+      "title": "Mocking in Rust with conditional compilation",
+      "content_text": "When writing automated unit tests for your application you will probably need to use mocks at some point. Classical object-oriented programming languages such as PHP solve this with reflection where mock object types are created during test runtime. The code under test expects a certain interface or class and the test code passes mock objects that implement the interface or are a subclass.",
+      "url": "https://klausi.github.io/rustnish/2019/03/31/mocking-in-rust-with-conditional-compilation.html",
+      "date_published": "2019-03-31T00:00:00+00:00",
+      "author": {
+        "name": "klausi",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "865d719c-3067-49d0-8bfc-361bfe91d257",
+      "title": "Summary: What are the Allocation Rules?",
+      "content_text": "While there’s a lot of interesting detail captured in this series, it’s often helpful to have a document that answers some “yes/no” questions. You may not care about what an Iterator looks like in assembly, you just need to know whether it allocates an object on the heap or not. And while Rust will prioritize the fastest behavior it can, here are the rules for each memory type",
+      "url": "https://speice.io/2019/02/summary.html",
+      "date_published": "2019-02-09T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4984adf8-b660-4433-a888-8bd84d669dc0",
       "title": "Compiler Optimizations: What It's Done Lately",
       "content_text": "Throughout the series so far, we’ve put a handicap on the code. In the name of consistent and understandable results, we’ve asked the compiler to pretty please leave the training wheels on. Now is the time where we throw out all the rules and take off the kid gloves. As it turns out, both the Rust compiler and the LLVM optimizers are incredibly sophisticated, and we’ll step back and let them do their job.\n\nSimilar to “What Has My Compiler Done For Me Lately?”, we’re focusing on interesting things the Rust language (and LLVM!) can do with memory management.",

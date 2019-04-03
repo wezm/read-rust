@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f59796ce-77bb-4c3e-b11a-161df3bde835",
+      "title": "Your first CLI tool with Rust",
+      "content_text": "We will go through on how we can build command line tools with Rust, and maybe have fun along the way.",
+      "url": "https://www.demainilpleut.fr/your-first-cli-tool-with-rust/",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Jérémie Veillet",
+        "url": "https://www.demainilpleut.fr/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "86c50475-46ad-47b1-83b7-a3d63fecbb4f",
+      "title": "Five Super Helpful Rust Things That Nobody Told You About",
+      "content_text": "Pretty-print debug, unimplemented!, ”..” struct literal operator, Pattern match guards, and Padding format operator.",
+      "url": "https://saghm.github.io/five-rust-things/",
+      "date_published": "2019-03-30T09:19:00+00:00",
+      "author": {
+        "name": "Saghm Rossi",
+        "url": "https://github.com/saghm"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5ee0634e-47e9-4354-982f-fdbfdd60a3b1",
       "title": "Rust Basics: the Add Trait",
       "content_text": "In my journey for better understanding of anything I tend to always return to the basics.\nTo often we base our assumptions on blind 'guess-timations' where we don't understand why something is actually happening but we observed that certain patterns ...",

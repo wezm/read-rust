@@ -10,6 +10,121 @@
   },
   "items": [
     {
+      "id": "5b355e5c-bc78-4134-91a2-c383b350d5f8",
+      "title": "Mocking in Rust with conditional compilation",
+      "content_text": "When writing automated unit tests for your application you will probably need to use mocks at some point. Classical object-oriented programming languages such as PHP solve this with reflection where mock object types are created during test runtime. The code under test expects a certain interface or class and the test code passes mock objects that implement the interface or are a subclass.",
+      "url": "https://klausi.github.io/rustnish/2019/03/31/mocking-in-rust-with-conditional-compilation.html",
+      "tweet_url": "https://twitter.com/_klausi_/status/1112464691555651587",
+      "date_published": "2019-03-31T00:00:00+00:00",
+      "author": {
+        "name": "klausi",
+        "url": "https://klausi.github.io/rustnish/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4fb7d3bc-05c5-4c23-abaa-70294fa23715",
+      "title": "Ocypod: Redis-backed job queue server with an easy to use HTTP interface",
+      "content_text": "Ocypod is a language-agnostic, Redis-backed job queue server with an easy to use HTTP interface. Its focus is on handling and monitoring long running jobs.",
+      "url": "https://ocypod.readthedocs.io/",
+      "date_published": "2019-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Dave Challis",
+        "url": "https://ocypod.readthedocs.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "865d719c-3067-49d0-8bfc-361bfe91d257",
+      "title": "Summary: What are the Allocation Rules?",
+      "content_text": "While there’s a lot of interesting detail captured in this series, it’s often helpful to have a document that answers some “yes/no” questions. You may not care about what an Iterator looks like in assembly, you just need to know whether it allocates an object on the heap or not. And while Rust will prioritize the fastest behavior it can, here are the rules for each memory type",
+      "url": "https://speice.io/2019/02/summary.html",
+      "date_published": "2019-02-09T00:00:00-05:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f59796ce-77bb-4c3e-b11a-161df3bde835",
+      "title": "Your first CLI tool with Rust",
+      "content_text": "We will go through on how we can build command line tools with Rust, and maybe have fun along the way.",
+      "url": "https://www.demainilpleut.fr/your-first-cli-tool-with-rust/",
+      "tweet_url": "https://twitter.com/jveillet/status/1109138679606456321",
+      "date_published": "2019-03-22T00:00:00+00:00",
+      "author": {
+        "name": "Jérémie Veillet",
+        "url": "https://www.demainilpleut.fr/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "86c50475-46ad-47b1-83b7-a3d63fecbb4f",
+      "title": "Five Super Helpful Rust Things That Nobody Told You About",
+      "content_text": "Pretty-print debug, unimplemented!, ”..” struct literal operator, Pattern match guards, and Padding format operator.",
+      "url": "https://saghm.github.io/five-rust-things/",
+      "tweet_url": "https://twitter.com/rustlang/status/1111754820522819587",
+      "date_published": "2019-03-30T09:19:00+00:00",
+      "author": {
+        "name": "Saghm Rossi",
+        "url": "https://github.com/saghm"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "9a041284-284c-472d-97c0-0e0cd407bb44",
+      "title": "tarssh: An async Rust SSH tarpit",
+      "content_text": "tarssh is an SSH tarpit — a server that trickles an endlessly repeating introductory banner to clients for as long as it remains connected, in order to expend the resources of attackers. It's based on the same concept as Chris Wellons' Endlessh, a similar service written in C.",
+      "url": "https://hur.st/projects/tarssh/",
+      "date_published": "2019-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hurst",
+        "url": "https://hur.st/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a9c1b96b-5e31-432e-bbb8-c18a943d03b9",
+      "title": "Inko Programming Language",
+      "content_text": "Concurrent and safe object-oriented programming, without the headaches.",
+      "url": "https://inko-lang.org/",
+      "date_published": "2019-04-03T00:00:00+00:00",
+      "author": {
+        "name": "Yorick Peterse",
+        "url": "https://inko-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b6fc1bbd-26d3-4334-86cc-3485ec7f4dc4",
+      "title": "Guidelines on Benchmarking and Rust",
+      "content_text": "This post covers: Benchmark reports for contributors, Benchmark reports for users, Profiling with valgrind / kcachegrind, Reproducible benchmarks and graphics, and Tips for benchmark behavior and benchmarking other languages.",
+      "url": "https://nbsoftsolutions.com/blog/guidelines-on-benchmarking-and-rust",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "8d10af6d-6142-4201-87d6-32148ac9079c",
       "title": "Writing an OS in Rust - Paging Implementation",
       "content_text": "This post shows how to implement paging support in our kernel. It first explores different techniques to make the physical page table frames accessible to the kernel and discusses their respective advantages and drawbacks. It then implements an address translation function and a function to create a new mapping.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b6fc1bbd-26d3-4334-86cc-3485ec7f4dc4",
+      "title": "Guidelines on Benchmarking and Rust",
+      "content_text": "This post covers: Benchmark reports for contributors, Benchmark reports for users, Profiling with valgrind / kcachegrind, Reproducible benchmarks and graphics, and Tips for benchmark behavior and benchmarking other languages.",
+      "url": "https://nbsoftsolutions.com/blog/guidelines-on-benchmarking-and-rust",
+      "date_published": "2019-01-27T00:00:00+00:00",
+      "author": {
+        "name": "Nick Babcock",
+        "url": "https://nbsoftsolutions.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "1f1562d2-b784-4bda-84d4-a0dc68178793",
       "title": "Helix: Improve the Performance of Rails with Rust",
       "content_text": "With Rust, you can do low-level number-crunching and bit-by-bit processing, while enjoying memory safety and concurrency features. With Helix, you can use your Rust code inside of a Rails project.",
