@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "a1396ee1-4c3f-47c5-b99c-d7af8ea455a0",
+      "title": "Introducing Smithy — WebAssembly framework for Rust",
+      "content_text": "I’m extremely excited to announce the 0.0.2 release of Smithy, a web development framework for Rust! While it is a very pre-alpha version, it should be functional enough for others to start playing around with. Please, get your feet wet and provide feedback.",
+      "url": "https://medium.com/@robert.balicki_2494/introducing-smithy-webassembly-framework-for-rust-679d8fe9c16",
+      "date_published": "2019-03-28T22:28:07.745+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "900ee12b-4a68-4987-a635-980b9105da76",
+      "title": "Announcing Lucet: Fastly’s native WebAssembly compiler and runtime",
+      "content_text": "Today, we are thrilled to announce the open sourcing of Lucet, Fastly’s native WebAssembly compiler and runtime. WebAssembly is a technology created to enable web browsers to safely execute programs at near-native speeds. It has been shipping in the four major browsers since early 2017.",
+      "url": "https://www.fastly.com/blog/announcing-lucet-fastly-native-webassembly-compiler-runtime",
+      "date_published": "2019-03-28T16:00:00+00:00",
+      "author": {
+        "name": "Pat Hickey",
+        "url": "https://www.fastly.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6d648c86-cd0a-4f11-ac22-af2fe977f6d6",
+      "title": "WASI example using Rust and Lucet",
+      "content_text": "Lucet is Fastly’s native WebAssembly compiler and runtime. Using the Lucet runtime and Rust’s wasm32-unknown-wasi target, we can create a WASM program that runs on the server.",
+      "url": "https://hermanradtke.com/2019/04/01/wasi-example-using-rust-and-lucet.html",
+      "date_published": "2019-04-01T00:00:00+00:00",
+      "author": {
+        "name": "Herman J. Radtke III",
+        "url": "https://hermanradtke.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9ea71842-a6ca-41c6-8384-89c6a05d17cb",
+      "title": "Gloo Update: Onion Layers, Timers, and Events",
+      "content_text": "About two weeks ago, we kicked off our effort to collectively build Gloo, a modular toolkit for building fast and reliable Web apps and libraries with Rust and Wasm. We knew we wanted to explicitly cultivate the Rust and Wasm library ecosystem by spinning out reusable, standalone libraries: things that would help you out whether you were writing a green-field Web app in pure-Rust, building your own framework, or surgically inserting some Rust-generated Wasm into an existing JavaScript project. What was still fuzzy, and which we didn’t know yet, was how we were going design and expose these reusable bits.",
+      "url": "https://rustwasm.github.io/2019/03/26/gloo-onion-layers.html",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4fb7d3bc-05c5-4c23-abaa-70294fa23715",
       "title": "Ocypod: Redis-backed job queue server with an easy to use HTTP interface",
       "content_text": "Ocypod is a language-agnostic, Redis-backed job queue server with an easy to use HTTP interface. Its focus is on handling and monitoring long running jobs.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d10fabc1-ddeb-4ac3-ab03-824bff125807",
+      "title": "Face Detection with Tensorflow Rust",
+      "content_text": "One of the promises of machine learning is to be able to use it for object recognition in photos. This includes being able to pick out features such as animals, buildings and even faces. This article will step you through using some existing models to accomplish face detection using rust and tensorflow.",
+      "url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "date_published": "2019-03-28T00:00:00+00:00",
+      "author": {
+        "name": "cetra3",
+        "url": "https://github.com/cetra3/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "b78c276e-61fa-41c0-90db-b706fe5864e3",
       "title": "Generalizing Seqlocks",
       "content_text": "swym is a very performant Software Transactional Memory (STM) library. It uses a variation on the per-object Transactional Locking II algorithm. The paper does an excellent job explaining the algorithm, but it is not required reading for this article. swym is a generalization of seqlocks - one the TL2 paper almost achieves, but does not for whatever reason.",

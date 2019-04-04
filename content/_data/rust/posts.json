@@ -10,6 +10,138 @@
   },
   "items": [
     {
+      "id": "9c952180-dba4-4a50-8104-4d185ce7ac4b",
+      "title": "Reviewing Sled: Part I",
+      "content_text": "The Sled project is an embedded database written in Rust. I run into it a few times recently and given my day job, I decided to take a peek and understand how it works. The project talks about being Log Structure Merge (and also exposing this to the client) with B+Tree read performance. The last time I read an LSM codebase was quite some time ago, so this is going to be quite interesting, I hope.",
+      "url": "https://ayende.com/blog/186753-A/reviewing-sled-part-i",
+      "date_published": "2019-03-28T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "a1396ee1-4c3f-47c5-b99c-d7af8ea455a0",
+      "title": "Introducing Smithy — WebAssembly framework for Rust",
+      "content_text": "I’m extremely excited to announce the 0.0.2 release of Smithy, a web development framework for Rust! While it is a very pre-alpha version, it should be functional enough for others to start playing around with. Please, get your feet wet and provide feedback.",
+      "url": "https://medium.com/@robert.balicki_2494/introducing-smithy-webassembly-framework-for-rust-679d8fe9c16",
+      "tweet_url": "https://twitter.com/StatisticsFTW/status/1111394852120551428",
+      "date_published": "2019-03-28T22:28:07.745+00:00",
+      "author": {
+        "name": "Robert Balicki",
+        "url": "https://medium.com/@robert.balicki_2494"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "900ee12b-4a68-4987-a635-980b9105da76",
+      "title": "Announcing Lucet: Fastly’s native WebAssembly compiler and runtime",
+      "content_text": "Today, we are thrilled to announce the open sourcing of Lucet, Fastly’s native WebAssembly compiler and runtime. WebAssembly is a technology created to enable web browsers to safely execute programs at near-native speeds. It has been shipping in the four major browsers since early 2017.",
+      "url": "https://www.fastly.com/blog/announcing-lucet-fastly-native-webassembly-compiler-runtime",
+      "tweet_url": "https://twitter.com/fastly/status/1111315867541925889",
+      "date_published": "2019-03-28T16:00:00+00:00",
+      "author": {
+        "name": "Pat Hickey",
+        "url": "https://www.fastly.com/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "eb668d47-71e6-4379-a39c-3abeadd136b3",
+      "title": "RaptorQ (RFC6330) and performance optimization in Rust",
+      "content_text": "I recently decided to learn more about Rust, and wrote a high performance RaptorQ (RFC6330) library. RaptorQ is a fountain code, and the core of the algorithm is a lot of matrix math over GF(256) – which translates into lots of XORs and reads from lookup tables. After getting the initial implementation working, I set about optimizing it. Below is a journal of the steps I took to profile and optimize the implementation.",
+      "url": "https://www.cberner.com/2019/03/30/raptorq-rfc6330-rust-optimization/",
+      "date_published": "2019-03-30T02:11:47+00:00",
+      "author": {
+        "name": "Christopher Berner",
+        "url": "https://www.cberner.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "6d648c86-cd0a-4f11-ac22-af2fe977f6d6",
+      "title": "WASI example using Rust and Lucet",
+      "content_text": "Lucet is Fastly’s native WebAssembly compiler and runtime. Using the Lucet runtime and Rust’s wasm32-unknown-wasi target, we can create a WASM program that runs on the server.",
+      "url": "https://hermanradtke.com/2019/04/01/wasi-example-using-rust-and-lucet.html",
+      "tweet_url": "https://twitter.com/hermanradtke/status/1112747908640604163",
+      "date_published": "2019-04-01T00:00:00+00:00",
+      "author": {
+        "name": "Herman J. Radtke III",
+        "url": "https://hermanradtke.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "94f04f9a-9a74-4e3c-9d96-02fec8e01229",
+      "title": "Moving on from Rails and what's next",
+      "content_text": "It’s been more than 6 years since my first commit to Ruby on Rails. I had just gotten my first full time Ruby position, was excited to move away from PHP, and wanted to give back. Since then I made 1452 commits to the project. Today, I am finally ready to move on from Rails.",
+      "url": "https://blog.seantheprogrammer.com/moving-on-from-rails-and-whats-next",
+      "tweet_url": "https://twitter.com/sgrif/status/1113150283809525760",
+      "date_published": "2019-04-02T11:43:23-07:00",
+      "author": {
+        "name": "Sean Griffin",
+        "url": "https://blog.seantheprogrammer.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "9ea71842-a6ca-41c6-8384-89c6a05d17cb",
+      "title": "Gloo Update: Onion Layers, Timers, and Events",
+      "content_text": "About two weeks ago, we kicked off our effort to collectively build Gloo, a modular toolkit for building fast and reliable Web apps and libraries with Rust and Wasm. We knew we wanted to explicitly cultivate the Rust and Wasm library ecosystem by spinning out reusable, standalone libraries: things that would help you out whether you were writing a green-field Web app in pure-Rust, building your own framework, or surgically inserting some Rust-generated Wasm into an existing JavaScript project. What was still fuzzy, and which we didn’t know yet, was how we were going design and expose these reusable bits.",
+      "url": "https://rustwasm.github.io/2019/03/26/gloo-onion-layers.html",
+      "tweet_url": "https://twitter.com/rustwasm/status/1110932283337273344",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "https://rustwasm.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f1c4efc6-6cb3-4b03-a445-6ee32bd804b7",
+      "title": "Noise Explorer",
+      "content_text": "Noise Explorer is an online engine for reasoning about Noise Protocol Framework Handshake Patterns. Noise Explorer allows you to design and validate Noise Handshake Patterns, to generate cryptographic models for formal verification and to explore a compendium of formal verification results for the most popular and relevant Noise Handshake Patterns in use today.",
+      "url": "https://noiseexplorer.com/",
+      "tweet_url": "https://twitter.com/georgionic/status/1111264250645893121",
+      "date_published": "2019-03-29T00:50:00+00:00",
+      "author": {
+        "name": "georgio",
+        "url": "https://noiseexplorer.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "d10fabc1-ddeb-4ac3-ab03-824bff125807",
+      "title": "Face Detection with Tensorflow Rust",
+      "content_text": "One of the promises of machine learning is to be able to use it for object recognition in photos. This includes being able to pick out features such as animals, buildings and even faces. This article will step you through using some existing models to accomplish face detection using rust and tensorflow.",
+      "url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "date_published": "2019-03-28T00:00:00+00:00",
+      "author": {
+        "name": "cetra3",
+        "url": "https://github.com/cetra3/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "5b355e5c-bc78-4134-91a2-c383b350d5f8",
       "title": "Mocking in Rust with conditional compilation",
       "content_text": "When writing automated unit tests for your application you will probably need to use mocks at some point. Classical object-oriented programming languages such as PHP solve this with reflection where mock object types are created during test runtime. The code under test expects a certain interface or class and the test code passes mock objects that implement the interface or are a subclass.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "94f04f9a-9a74-4e3c-9d96-02fec8e01229",
+      "title": "Moving on from Rails and what's next",
+      "content_text": "It’s been more than 6 years since my first commit to Ruby on Rails. I had just gotten my first full time Ruby position, was excited to move away from PHP, and wanted to give back. Since then I made 1452 commits to the project. Today, I am finally ready to move on from Rails.",
+      "url": "https://blog.seantheprogrammer.com/moving-on-from-rails-and-whats-next",
+      "date_published": "2019-04-02T11:43:23-07:00",
+      "author": {
+        "name": "Sean Griffin",
+        "url": "https://blog.seantheprogrammer.com/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "dc9cf1b6-7814-4a3a-9e3e-adcd17835a81",
       "title": "Governance Working Group announcement",
       "content_text": "I’m very excited to announce the formation of the Governance working group, an offspring of the Core team. The high-level goal of the group is making the workings of the Rust project more predictable and transparent. The working group will examine, document, and propose improvements to some of the policies and procedures that we use to run the project. To that end, the Governance WG will take multiple viewpoints and investigate our current modes of working under the perspective of community members and project members alike. Our aim is to make the project more transparent and also make it easier for interested community members to give effective feedback and stay close to the project.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f1c4efc6-6cb3-4b03-a445-6ee32bd804b7",
+      "title": "Noise Explorer",
+      "content_text": "Noise Explorer is an online engine for reasoning about Noise Protocol Framework Handshake Patterns. Noise Explorer allows you to design and validate Noise Handshake Patterns, to generate cryptographic models for formal verification and to explore a compendium of formal verification results for the most popular and relevant Noise Handshake Patterns in use today.",
+      "url": "https://noiseexplorer.com/",
+      "date_published": "2019-03-29T00:50:00+00:00",
+      "author": {
+        "name": "georgio",
+        "url": "https://noiseexplorer.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "de32ac99-9bcf-4744-ab65-3f22398433d7",
       "title": "BoringTun, a userspace WireGuard implementation in Rust",
       "content_text": "Today we are happy to release the source code of a project we’ve been working on for the past few months. It is called BoringTun, and is a userspace implementation of the WireGuard® protocol written in Rust.",

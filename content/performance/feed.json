@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "eb668d47-71e6-4379-a39c-3abeadd136b3",
+      "title": "RaptorQ (RFC6330) and performance optimization in Rust",
+      "content_text": "I recently decided to learn more about Rust, and wrote a high performance RaptorQ (RFC6330) library. RaptorQ is a fountain code, and the core of the algorithm is a lot of matrix math over GF(256) – which translates into lots of XORs and reads from lookup tables. After getting the initial implementation working, I set about optimizing it. Below is a journal of the steps I took to profile and optimize the implementation.",
+      "url": "https://www.cberner.com/2019/03/30/raptorq-rfc6330-rust-optimization/",
+      "date_published": "2019-03-30T02:11:47+00:00",
+      "author": {
+        "name": "Christopher Berner",
+        "url": "https://www.cberner.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "b6fc1bbd-26d3-4334-86cc-3485ec7f4dc4",
       "title": "Guidelines on Benchmarking and Rust",
       "content_text": "This post covers: Benchmark reports for contributors, Benchmark reports for users, Profiling with valgrind / kcachegrind, Reproducible benchmarks and graphics, and Tips for benchmark behavior and benchmarking other languages.",
