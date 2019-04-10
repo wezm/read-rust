@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "6af41799-4171-46ca-ab1f-572b8669da6e",
+      "title": "Using the IOMMU for Safe and Secure User Space Network Drivers",
+      "content_text": "Commonly used user space network drivers such as DPDK or Snabb currently have effectivelyfull access to the main memory via the unrestricted Direct Memory Access (DMA) capabilities of the PCI Express (PCIe) device they are controlling. This can be a security issue, as the driver can use the PCIe devices DMA access to read and / or write to main memory. In this thesis, support for using the IOMMU via the vfio-pci driver from the Linux kernel for the user space network driver ixy was implemented in C and Rust and the IOMMU and its impact on the drivers were investigated.",
+      "url": "https://www.net.in.tum.de/members/emmericp/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Stefan Huber",
+        "url": "https://www.net.in.tum.de/"
+      },
+      "tags": [
+        "Computer Science",
+        "Security"
+      ]
+    },
+    {
       "id": "d10fabc1-ddeb-4ac3-ab03-824bff125807",
       "title": "Face Detection with Tensorflow Rust",
       "content_text": "One of the promises of machine learning is to be able to use it for object recognition in photos. This includes being able to pick out features such as animals, buildings and even faces. This article will step you through using some existing models to accomplish face detection using rust and tensorflow.",

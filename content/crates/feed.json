@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "410c0a3f-026f-4e8c-9910-40745122a369",
+      "title": "Zola 0.6.0: start of multi-lingual sites",
+      "content_text": "Zola gets the beginning of multi-lingual support and perf improvements.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-zola-0-6-0/",
+      "date_published": "2019-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": "https://www.vincentprouillet.com/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e216ede8-5599-48f4-a458-770944ef44f2",
       "title": "Arraigning a Statement, vol. 1",
       "content_text": "This time in our “Mutating Rust” series, we want to tackle the most complex mutation so far: Statement removal. Now why do I think this is complex? It’s just removing the statement (or, as we bake our mutations into the code, activating at runtime, putting it behind an if), right?",

@@ -10,6 +10,138 @@
   },
   "items": [
     {
+      "id": "0ee4dffd-3f5f-4c26-9a66-5a2c94db3ace",
+      "title": "Javascript evaluator part 1: Lexing",
+      "content_text": "In this post I will describe my latest findings from writing my own Javascript lexer in Rust-lang. I will start by briefly describing what lexing is. Then, I will continue explaining how to implement state machines in Rust-lang. Next, I talk about how to use state machines for Javascript lexing. Last but not least, I cover further performance optimizations of my lexer.",
+      "url": "https://medium.com/@retep007/javascript-lexing-for-high-performance-f9a800ec930d",
+      "date_published": "2019-04-02T06:08:32.573+00:00",
+      "author": {
+        "name": "Peter Hrvola",
+        "url": "https://medium.com/@retep007"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "881b9dbf-f50a-4a3d-9992-de8c093250bf",
+      "title": "Explained: How does async work in Rust?",
+      "content_text": "This article will outline an overview of the why and how async exists in Rust.",
+      "url": "https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8",
+      "tweet_url": "https://twitter.com/byteadventures/status/1113025925409640448",
+      "date_published": "2019-04-02T00:00:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "02cf2c55-f306-4c76-a340-15148b8b1886",
+      "title": "Making a Case: Rust for Python developers",
+      "content_text": "Python developers encompass a huge variety of developers. I am going to target use cases for a particular set of python developers: Machine Learning developers. But for others too, it might prove to be useful.",
+      "url": "https://medium.com/@rajasekar3eg/making-a-case-rust-for-python-developers-1a114e2d89f4",
+      "date_published": "2019-03-10T08:58:53.078+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "5af2fc94-f73d-498a-99b8-15400fad948e",
+      "title": "Arenas vs. Indices",
+      "content_text": "When optimizing code, one thing I’m always looking for is memory layout and access patterns. One such pattern is an arena: Reserve some sufficiently large space to put your objects in, then allocate by incrementing a pointer. If your objects are of a uniform type, you can basically simplify this to a Vec of that type.",
+      "url": "https://llogiq.github.io/2019/04/06/arena.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1114309625027997696",
+      "date_published": "2019-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "410c0a3f-026f-4e8c-9910-40745122a369",
+      "title": "Zola 0.6.0: start of multi-lingual sites",
+      "content_text": "Zola gets the beginning of multi-lingual support and perf improvements.",
+      "url": "https://www.vincentprouillet.com/blog/releasing-zola-0-6-0/",
+      "date_published": "2019-03-25T00:00:00+00:00",
+      "author": {
+        "name": "Vincent Prouillet",
+        "url": "https://www.vincentprouillet.com/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "cbaf5407-81db-4367-9b58-ff9cc668b1a3",
+      "title": "Linkerd v2: How Lessons from Production Adoption Resulted in a Rewrite of the Service Mesh",
+      "content_text": "Linkerd 2.0 introduced a substantial rewrite of the widely adopted service mesh, using a split between Go and Rust. In this article, we discuss the lessons learned in the \"cauldron of production adoption\", and how those lessons became the basis of Linkerd 2.x’s philosophy, design, and implementation.",
+      "url": "https://www.infoq.com/articles/linkerd-v2-production-adoption",
+      "tweet_url": "https://twitter.com/wm/status/1114201709960548354",
+      "date_published": "2019-04-05T00:00:00+00:00",
+      "author": {
+        "name": "William Morgan",
+        "url": "https://www.infoq.com/profile/William-Morgan"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7e90b841-ce0c-47f1-b6ab-420aa7d7bb35",
+      "title": "Our journey from nightly to stable Rust",
+      "content_text": "When we shipped Seq 5.0 back in November, our new storage engine was compiled against Rust's unstable nightly channel. As of Seq 5.1, we can instead use the supported stable channel. That feels like a bit of a milestone so I'd like to share a few details about our journey from nightly to stable, and celebrate the progress the community has made on the language, libraries, and tooling over the last twelve months that made that journey painless for us.",
+      "url": "https://blog.datalust.co/our-journey-from-rust-nightly-to-stable/",
+      "tweet_url": "https://twitter.com/KodrAus/status/1113951521748606976",
+      "date_published": "2019-04-04T23:44:23+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://kodraus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6af41799-4171-46ca-ab1f-572b8669da6e",
+      "title": "Using the IOMMU for Safe and Secure User Space Network Drivers",
+      "content_text": "Commonly used user space network drivers such as DPDK or Snabb currently have effectivelyfull access to the main memory via the unrestricted Direct Memory Access (DMA) capabilities of the PCI Express (PCIe) device they are controlling. This can be a security issue, as the driver can use the PCIe devices DMA access to read and / or write to main memory. In this thesis, support for using the IOMMU via the vfio-pci driver from the Linux kernel for the user space network driver ixy was implemented in C and Rust and the IOMMU and its impact on the drivers were investigated.",
+      "url": "https://www.net.in.tum.de/members/emmericp/",
+      "date_published": "2019-03-26T00:00:00+00:00",
+      "author": {
+        "name": "Stefan Huber",
+        "url": "https://www.net.in.tum.de/"
+      },
+      "tags": [
+        "Computer Science",
+        "Security"
+      ]
+    },
+    {
+      "id": "3046fc78-93d2-4298-a8ae-134f2fbd29b9",
+      "title": "Crossing the Rust FFI frontier with Protocol Buffers",
+      "content_text": "The Firefox Application Services engineering team made the decision to use Rust to build cross-platform components for Firefox Sync, powering Firefox Accounts across many devices. They are implementing core business logic using Rust and wrapping it in a thin platform-native layer, such as Kotlin for Android and Swift for iOS.",
+      "url": "https://hacks.mozilla.org/2019/04/crossing-the-rust-ffi-frontier-with-protocol-buffers/",
+      "tweet_url": "https://twitter.com/mozhacks/status/1113095181669150721",
+      "date_published": "2019-04-02T14:42:47+00:00",
+      "author": {
+        "name": "Edouard Oger",
+        "url": "https://hacks.mozilla.org/author/eogermozilla-com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9c952180-dba4-4a50-8104-4d185ce7ac4b",
       "title": "Reviewing Sled: Part I",
       "content_text": "The Sled project is an embedded database written in Rust. I run into it a few times recently and given my day job, I decided to take a peek and understand how it works. The project talks about being Log Structure Merge (and also exposing this to the client) with B+Tree read performance. The last time I read an LSM codebase was quite some time ago, so this is going to be quite interesting, I hope.",

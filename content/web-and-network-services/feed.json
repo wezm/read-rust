@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cbaf5407-81db-4367-9b58-ff9cc668b1a3",
+      "title": "Linkerd v2: How Lessons from Production Adoption Resulted in a Rewrite of the Service Mesh",
+      "content_text": "Linkerd 2.0 introduced a substantial rewrite of the widely adopted service mesh, using a split between Go and Rust. In this article, we discuss the lessons learned in the \"cauldron of production adoption\", and how those lessons became the basis of Linkerd 2.x’s philosophy, design, and implementation.",
+      "url": "https://www.infoq.com/articles/linkerd-v2-production-adoption",
+      "date_published": "2019-04-05T00:00:00+00:00",
+      "author": {
+        "name": "William Morgan",
+        "url": "https://www.infoq.com/profile/William-Morgan"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a1396ee1-4c3f-47c5-b99c-d7af8ea455a0",
       "title": "Introducing Smithy — WebAssembly framework for Rust",
       "content_text": "I’m extremely excited to announce the 0.0.2 release of Smithy, a web development framework for Rust! While it is a very pre-alpha version, it should be functional enough for others to start playing around with. Please, get your feet wet and provide feedback.",

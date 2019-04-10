@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5af2fc94-f73d-498a-99b8-15400fad948e",
+      "title": "Arenas vs. Indices",
+      "content_text": "When optimizing code, one thing I’m always looking for is memory layout and access patterns. One such pattern is an arena: Reserve some sufficiently large space to put your objects in, then allocate by incrementing a pointer. If your objects are of a uniform type, you can basically simplify this to a Vec of that type.",
+      "url": "https://llogiq.github.io/2019/04/06/arena.html",
+      "date_published": "2019-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "eb668d47-71e6-4379-a39c-3abeadd136b3",
       "title": "RaptorQ (RFC6330) and performance optimization in Rust",
       "content_text": "I recently decided to learn more about Rust, and wrote a high performance RaptorQ (RFC6330) library. RaptorQ is a fountain code, and the core of the algorithm is a lot of matrix math over GF(256) – which translates into lots of XORs and reads from lookup tables. After getting the initial implementation working, I set about optimizing it. Below is a journal of the steps I took to profile and optimize the implementation.",

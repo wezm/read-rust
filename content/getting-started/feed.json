@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "881b9dbf-f50a-4a3d-9992-de8c093250bf",
+      "title": "Explained: How does async work in Rust?",
+      "content_text": "This article will outline an overview of the why and how async exists in Rust.",
+      "url": "https://dev.to/gruberb/explained-how-does-async-work-in-rust-46f8",
+      "date_published": "2019-04-02T00:00:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "02cf2c55-f306-4c76-a340-15148b8b1886",
+      "title": "Making a Case: Rust for Python developers",
+      "content_text": "Python developers encompass a huge variety of developers. I am going to target use cases for a particular set of python developers: Machine Learning developers. But for others too, it might prove to be useful.",
+      "url": "https://medium.com/@rajasekar3eg/making-a-case-rust-for-python-developers-1a114e2d89f4",
+      "date_published": "2019-03-10T08:58:53.078+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "f59796ce-77bb-4c3e-b11a-161df3bde835",
       "title": "Your first CLI tool with Rust",
       "content_text": "We will go through on how we can build command line tools with Rust, and maybe have fun along the way.",

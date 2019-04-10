@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "0ee4dffd-3f5f-4c26-9a66-5a2c94db3ace",
+      "title": "Javascript evaluator part 1: Lexing",
+      "content_text": "In this post I will describe my latest findings from writing my own Javascript lexer in Rust-lang. I will start by briefly describing what lexing is. Then, I will continue explaining how to implement state machines in Rust-lang. Next, I talk about how to use state machines for Javascript lexing. Last but not least, I cover further performance optimizations of my lexer.",
+      "url": "https://medium.com/@retep007/javascript-lexing-for-high-performance-f9a800ec930d",
+      "date_published": "2019-04-02T06:08:32.573+00:00",
+      "author": {
+        "name": "Peter Hrvola",
+        "url": "https://medium.com/@retep007"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7e90b841-ce0c-47f1-b6ab-420aa7d7bb35",
+      "title": "Our journey from nightly to stable Rust",
+      "content_text": "When we shipped Seq 5.0 back in November, our new storage engine was compiled against Rust's unstable nightly channel. As of Seq 5.1, we can instead use the supported stable channel. That feels like a bit of a milestone so I'd like to share a few details about our journey from nightly to stable, and celebrate the progress the community has made on the language, libraries, and tooling over the last twelve months that made that journey painless for us.",
+      "url": "https://blog.datalust.co/our-journey-from-rust-nightly-to-stable/",
+      "date_published": "2019-04-04T23:44:23+00:00",
+      "author": {
+        "name": "Ashley Mannix",
+        "url": "https://kodraus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3046fc78-93d2-4298-a8ae-134f2fbd29b9",
+      "title": "Crossing the Rust FFI frontier with Protocol Buffers",
+      "content_text": "The Firefox Application Services engineering team made the decision to use Rust to build cross-platform components for Firefox Sync, powering Firefox Accounts across many devices. They are implementing core business logic using Rust and wrapping it in a thin platform-native layer, such as Kotlin for Android and Swift for iOS.",
+      "url": "https://hacks.mozilla.org/2019/04/crossing-the-rust-ffi-frontier-with-protocol-buffers/",
+      "date_published": "2019-04-02T14:42:47+00:00",
+      "author": {
+        "name": "Edouard Oger",
+        "url": "https://hacks.mozilla.org/author/eogermozilla-com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5b355e5c-bc78-4134-91a2-c383b350d5f8",
       "title": "Mocking in Rust with conditional compilation",
       "content_text": "When writing automated unit tests for your application you will probably need to use mocks at some point. Classical object-oriented programming languages such as PHP solve this with reflection where mock object types are created during test runtime. The code under test expects a certain interface or class and the test code passes mock objects that implement the interface or are a subclass.",
