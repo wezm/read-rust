@@ -10,6 +10,152 @@
   },
   "items": [
     {
+      "id": "700e8697-e3f3-49ff-bf87-03cfb598ff0d",
+      "title": "Alacritty Version 0.3.0",
+      "content_text": " Alacritty is a terminal emulator with a strong focus on simplicity and performance. With such a strong focus on performance, included features are carefully considered and you can always expect Alacritty to be blazingly fast. By making sane choices for defaults, Alacritty requires no additional setup. However, it does allow configuration of many aspects of the terminal. With this release, Alacritty has officially entered the beta stage – there are still a few missing features and bugs to be fixed, but it is already used by many as a daily driver.",
+      "url": "https://blog.christianduerr.com/alacritty_030_announcement",
+      "date_published": "2019-04-07T00:00:00+00:00",
+      "author": {
+        "name": "Christian Duerr",
+        "url": "https://blog.christianduerr.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "54d19ed4-0cb7-4ab9-939e-5afcdf8b0ca5",
+      "title": "How to Mock Time in Rust Tests and Cargo Gotchas We Met",
+      "content_text": "I'm working in a team developing a big Rust project recently. The project has some features depending on time. We, the developers, want to be able to mock the time in test. In this post, I'll talk about the problems we have met, mostly related to Cargo.",
+      "url": "https://blog.iany.me/2019/03/how-to-mock-time-in-rust-tests-and-cargo-gotchas-we-met",
+      "tweet_url": "https://twitter.com/doitian/status/1112329448119066624",
+      "date_published": "2019-03-31T00:00:00+00:00",
+      "author": {
+        "name": "Ian Yang",
+        "url": "https://blog.iany.me"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f0be7972-25a7-4ff9-af00-904780465c8f",
+      "title": "A Story of Rust",
+      "content_text": "Introducing Rust in an Enterprise Environment...",
+      "url": "https://jobs.zalando.com/tech/blog/story-rust/",
+      "tweet_url": "https://twitter.com/ZalandoTech/status/1111547079929856000",
+      "date_published": "2019-03-28T00:00:00+00:00",
+      "author": {
+        "name": "Christian Douven",
+        "url": "https://jobs.zalando.com/tech/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5643e56a-6a6f-435e-8625-b58ebb5dca22",
+      "title": "The Wrangler CLI: Deploying Rust with WASM on Cloudflare Workers",
+      "content_text": "Today, we're open sourcing and announcing wrangler, a CLI tool for building, previewing, and publishing Rust and WebAssembly Cloudflare Workers. If that sounds like some word salad to you, that's a reasonable reaction.",
+      "url": "https://blog.cloudflare.com/introducing-wrangler-cli/",
+      "tweet_url": "https://twitter.com/Cloudflare/status/1111299645546758145",
+      "date_published": "2019-03-28T16:08:45+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "5826453d-6731-41d9-a4f5-f5dbce6ef1df",
+      "title": "Arraigning a Statement, vol. 2",
+      "content_text": "Last time we defined a minimum viable implementation for mutagen statement removal: Remove only function call statements whose results are not returned from the surrounding block and whose AST do not contain any Assign expressions.",
+      "url": "https://llogiq.github.io/2019/03/14/stmt2.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1106099031825092608",
+      "date_published": "2019-03-14T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "c702047e-47c7-493a-b73e-55a4394eb6da",
+      "title": "hunter: ranger-like file browser written in Rust",
+      "content_text": "hunter is a fast and lag-free file browser/manager for the terminal. It features a heavily asynchronous and multi-threaded design and all disk IO happens off the main thread in a non-blocking fashion, so that hunter will always stay responsive, even under heavy load on a slow spinning rust disk, even with all the previews enabled.",
+      "url": "https://github.com/rabite0/hunter",
+      "tweet_url": "https://twitter.com/wezm/status/1114687460506607616",
+      "date_published": "2019-04-07T00:00:00+00:00",
+      "author": {
+        "name": "rabite0",
+        "url": "https://github.com/rabite0"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "dcd70897-0b31-4930-b57d-3fc567e64c98",
+      "title": "A Basic Web Application with Rust and Actix-web",
+      "content_text": "As a first little project in Rust I thought I'd do something familiar, so I created a small web application, which we'll check out in this post.",
+      "url": "https://zupzup.org/rust-webapp/",
+      "date_published": "2019-04-07T00:00:00+00:00",
+      "author": {
+        "name": "Mario Zupan",
+        "url": "https://zupzup.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "63c81ff0-ee39-437f-a299-70173f639777",
+      "title": "Javascript evaluator part 2: Parser and Basic evaluator",
+      "content_text": "This is the second part of writing Javascript evaluator series. I’m going to talk about my project developing Javascript evaluator in Rust. This post is going to briefly introduce Parsing that’s build on top of the results from Lexer in the first post. Then I will cover elements of evaluation of abstract syntax tree (AST).",
+      "url": "https://medium.com/@retep007/javascript-evaluator-part-2-parser-and-basic-evaluator-d306ff1aec83",
+      "date_published": "2019-04-08T06:39:05.543+00:00",
+      "author": {
+        "name": "Peter Hrvola",
+        "url": "https://medium.com/@retep007"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "749e48bb-50e5-4e7e-8e17-9dd73e1776f2",
+      "title": "A Love Letter to Rust Macros",
+      "content_text": "It’s no secret to people who know me that I’m a huge fan of the Rust programming language. I could talk for hours about the brilliance of the ownership system, my irrational longing for natively compiled languages without garbage collection, or the welcoming community that finally moved me to take a more active part in open source projects. But for a start, I just want to highlight one of my favourite features: Macros.",
+      "url": "https://happens.lol/posts/a-love-letter-to-rust-macros/",
+      "date_published": "2019-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Hilmar Wiegand",
+        "url": "https://happens.lol/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "98a6bda4-dcb1-419a-bf9a-6be8f4b88b8b",
+      "title": "Rust Actix Web + Magic link authentication",
+      "content_text": "In this tutorial, we'll create web app using the Rust actix-web framework and implement magic link authentication powered by ApproveAPI's Rust library.",
+      "url": "https://blog.approveapi.com/tutorials/rust-actix-web-approveapi-magic-login-link/",
+      "tweet_url": "https://twitter.com/AlexGrinman/status/1115732969447141377",
+      "date_published": "2019-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Alex Grinman",
+        "url": "https://blog.approveapi.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "0ee4dffd-3f5f-4c26-9a66-5a2c94db3ace",
       "title": "Javascript evaluator part 1: Lexing",
       "content_text": "In this post I will describe my latest findings from writing my own Javascript lexer in Rust-lang. I will start by briefly describing what lexing is. Then, I will continue explaining how to implement state machines in Rust-lang. Next, I talk about how to use state machines for Javascript lexing. Last but not least, I cover further performance optimizations of my lexer.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5826453d-6731-41d9-a4f5-f5dbce6ef1df",
+      "title": "Arraigning a Statement, vol. 2",
+      "content_text": "Last time we defined a minimum viable implementation for mutagen statement removal: Remove only function call statements whose results are not returned from the surrounding block and whose AST do not contain any Assign expressions.",
+      "url": "https://llogiq.github.io/2019/03/14/stmt2.html",
+      "date_published": "2019-03-14T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "410c0a3f-026f-4e8c-9910-40745122a369",
       "title": "Zola 0.6.0: start of multi-lingual sites",
       "content_text": "Zola gets the beginning of multi-lingual support and perf improvements.",

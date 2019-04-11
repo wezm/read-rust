@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "5643e56a-6a6f-435e-8625-b58ebb5dca22",
+      "title": "The Wrangler CLI: Deploying Rust with WASM on Cloudflare Workers",
+      "content_text": "Today, we're open sourcing and announcing wrangler, a CLI tool for building, previewing, and publishing Rust and WebAssembly Cloudflare Workers. If that sounds like some word salad to you, that's a reasonable reaction.",
+      "url": "https://blog.cloudflare.com/introducing-wrangler-cli/",
+      "date_published": "2019-03-28T16:08:45+00:00",
+      "author": {
+        "name": "Ashley Williams",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "dcd70897-0b31-4930-b57d-3fc567e64c98",
+      "title": "A Basic Web Application with Rust and Actix-web",
+      "content_text": "As a first little project in Rust I thought I'd do something familiar, so I created a small web application, which we'll check out in this post.",
+      "url": "https://zupzup.org/rust-webapp/",
+      "date_published": "2019-04-07T00:00:00+00:00",
+      "author": {
+        "name": "Mario Zupan",
+        "url": "https://zupzup.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "98a6bda4-dcb1-419a-bf9a-6be8f4b88b8b",
+      "title": "Rust Actix Web + Magic link authentication",
+      "content_text": "In this tutorial, we'll create web app using the Rust actix-web framework and implement magic link authentication powered by ApproveAPI's Rust library.",
+      "url": "https://blog.approveapi.com/tutorials/rust-actix-web-approveapi-magic-login-link/",
+      "date_published": "2019-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Alex Grinman",
+        "url": "https://blog.approveapi.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "cbaf5407-81db-4367-9b58-ff9cc668b1a3",
       "title": "Linkerd v2: How Lessons from Production Adoption Resulted in a Rewrite of the Service Mesh",
       "content_text": "Linkerd 2.0 introduced a substantial rewrite of the widely adopted service mesh, using a split between Go and Rust. In this article, we discuss the lessons learned in the \"cauldron of production adoption\", and how those lessons became the basis of Linkerd 2.x’s philosophy, design, and implementation.",
