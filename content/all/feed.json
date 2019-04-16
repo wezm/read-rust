@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "c652e06d-95e4-4da0-8ce8-a94c007587d7",
+      "title": "Announcing Rust 1.34.0",
+      "content_text": "The largest feature in this release is the introduction of alternative cargo registries. The release also includes support for ? in documentation tests, some improvements for #[attribute(..)]s, as well as the stabilization of TryFrom. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/04/11/Rust-1.34.0.html",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ea434653-4ba2-47c0-bc91-ba9c521dc419",
+      "title": "Face Detection with Actix Web",
+      "content_text": "Last article I wrote about how to use tensorflow with rust. This time we're going to take what we've built on, and serve it as an HTTP API call. As Actix Web is nearing its inevitable 1.0 release, I thought it would be a great time to build something with it.",
+      "url": "https://cetra3.github.io/blog/face-detection-with-actix-web/",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "cetra3",
+        "url": "https://github.com/cetra3/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e57004c9-8a39-47af-bd60-b97fbcd07e7a",
+      "title": "cargo-call-stack, part 2: getting call graph information from rustc",
+      "content_text": "In a previous post I described the current implementation of cargo-call-stack, a static stack usage analysis tool. In the second part of that post I described the problems the tool runs into when dealing with indirect function calls (both function pointer calls and dynamic dispatch) and proposed improving the output of the tool by having rustc inject type information in the LLVM IR it produces.\n\nWhile discussing that idea with rustc developers they noted that the compiler could emit information that’s more relevant to call graph analysis than just the signatures of functions and trait methods. In this post I’ll describe the call graph metadata I’m currently implementing in rustc and how it will help tools like cargo-call-stack. By the way, I have a feature branch of cargo-call-stack that uses this upcoming rustc feature if you want to try it out but you’ll need to build a custom rustc.",
+      "url": "https://blog.japaric.io/stack-analysis-2/",
+      "date_published": "2019-04-13T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "45b386b4-5b90-42a7-b17b-00aeb72cde34",
+      "title": "Keeping Rust projects' README.md code examples up-to-date",
+      "content_text": "Because keeping documentation up-to-date is very important (and should be a must have!), we need to check if the examples are still valid after every new updates. Luckily, rustdoc already makes such things very easy. But now, let's say you have examples outside of your Rust code. How can they be tested?",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-04-13+Keeping+Rust+projects%27+README.md+code+examples+up-to-date",
+      "date_published": "2019-04-13T01:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c16ea768-9518-4a40-b51d-9c5e978994a2",
+      "title": "Neat new feature in Rust: iter::from_fn",
+      "content_text": "Recently Rust has introduced a couple of new features, and the one that caught my eye in particular was std::iter::from_fn, which let’s you make an iterator from a function, which is most of what that macro was trying to do, so I thought I would try to convert the various places I was using the macro to use the new function instead…",
+      "url": "https://weblog.latte.ca/blake/tech/rust/makingiterators.html",
+      "date_published": "2019-04-13T20:49:00+00:00",
+      "author": {
+        "name": "Blake Winton",
+        "url": "https://weblog.latte.ca/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "30a32647-13d1-4d87-89c0-804ef7d456e6",
+      "title": "Tricks In Arc Swap",
+      "content_text": "This is a continuation of the Making Arc more atomic post. In short, ArcSwap is a place where you can atomically store and load an Arc, similar to RwLock<Arc<T>> but without the locking. It’s a good tool if you have some data that is very frequently read but infrequently modified, like configuration or an in-memory database that answers millions of queries per second, but is replaced only every 5 minutes. The canonical example for this is routing tables ‒ you want to read them with every passing packet, but you change them only when routing changes.",
+      "url": "https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html",
+      "date_published": "2019-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ebf00798-d92a-4f61-8b2b-8ffceb2c09a9",
+      "title": "Protocols in Tokio (i3 IPC)",
+      "content_text": "There’s a dearth of blog posts online that cover the details of implementing a custom protocol in tokio, at least that I’ve found. I’m going to cover some of the steps I went through in implementing an async version i3wm’s IPC.",
+      "url": "https://leshow.github.io/post/impl_proto_tokio/",
+      "date_published": "2019-04-08T18:53:18-04:00",
+      "author": {
+        "name": "Evan Cameron",
+        "url": "https://leshow.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "afbe8437-4dca-40c1-b6ab-034fbd57c9cd",
+      "title": "Mysteriously Low Hanging Fruit: A Big Improvement To LLD For Rust Debug Builds",
+      "content_text": "LLD is generally much faster than the GNU ld.bfd and ld.gold linkers, so you would think it has been pretty well optimised. You might then be surprised to discover that a 36-line patch dramatically speeds up linking of Rust debug builds, while also shrinking the generated binaries dramatically, both in simple examples and large real-world projects.",
+      "url": "https://robert.ocallahan.org/2019/04/mysteriously-low-hanging-fruit-big.html",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "914d12c5-ea4a-49f4-8466-1f15a9c3340a",
+      "title": "Using rav1e - from your own code",
+      "content_text": "AV1 is a modern video codec brought to you by an alliance of many different bigger and smaller players in the multimedia field. rav1e: The safest and fastest AV1 encoder, built by many volunteers and Mozilla/Xiph developers. crav1e: A companion crate, written by yours truly, that provides a C-API, so the encoder can be used by C libraries and programs. This article will just give a quick overview of the API available right now and it is mainly to help people start using it and hopefully report issues and problem.",
+      "url": "https://dev.to/luzero/using-rav1e-from-your-own-code-2ie0",
+      "date_published": "2019-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://dev.to/luzero"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "99bfc2e1-cc1f-4047-941f-627f7e222d75",
+      "title": "Writing UEFI application in Rust from scratch",
+      "content_text": "Recently, x86_64-unknown-uefi target was added into Rust mainline (https://github.com/rust-lang/rust/pull/56769). So, I tried to write UEFI application with this update. There exists an awesome crate, uefi-rs, which provides Rust interface for UEFI application. However, this is my first time to write UEFI application, so to understand what happens in it, I didn’t use any existing crate.",
+      "url": "https://medium.com/garasubo/writing-uefi-application-in-rust-from-scratch-882bf35a4d63",
+      "date_published": "2019-03-31T08:31:22.455+00:00",
+      "author": {
+        "name": "garasubo (ガラスボー)",
+        "url": "https://medium.com/@garasubo"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "700e8697-e3f3-49ff-bf87-03cfb598ff0d",
       "title": "Alacritty Version 0.3.0",
       "content_text": " Alacritty is a terminal emulator with a strong focus on simplicity and performance. With such a strong focus on performance, included features are carefully considered and you can always expect Alacritty to be blazingly fast. By making sane choices for defaults, Alacritty requires no additional setup. However, it does allow configuration of many aspects of the terminal. With this release, Alacritty has officially entered the beta stage – there are still a few missing features and bugs to be fixed, but it is already used by many as a daily driver.",

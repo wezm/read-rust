@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "99bfc2e1-cc1f-4047-941f-627f7e222d75",
+      "title": "Writing UEFI application in Rust from scratch",
+      "content_text": "Recently, x86_64-unknown-uefi target was added into Rust mainline (https://github.com/rust-lang/rust/pull/56769). So, I tried to write UEFI application with this update. There exists an awesome crate, uefi-rs, which provides Rust interface for UEFI application. However, this is my first time to write UEFI application, so to understand what happens in it, I didn’t use any existing crate.",
+      "url": "https://medium.com/garasubo/writing-uefi-application-in-rust-from-scratch-882bf35a4d63",
+      "date_published": "2019-03-31T08:31:22.455+00:00",
+      "author": {
+        "name": "garasubo (ガラスボー)",
+        "url": "https://medium.com/@garasubo"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "8d10af6d-6142-4201-87d6-32148ac9079c",
       "title": "Writing an OS in Rust - Paging Implementation",
       "content_text": "This post shows how to implement paging support in our kernel. It first explores different techniques to make the physical page table frames accessible to the kernel and discusses their respective advantages and drawbacks. It then implements an address translation function and a function to create a new mapping.",

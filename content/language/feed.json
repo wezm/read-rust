@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "c652e06d-95e4-4da0-8ce8-a94c007587d7",
+      "title": "Announcing Rust 1.34.0",
+      "content_text": "The largest feature in this release is the introduction of alternative cargo registries. The release also includes support for ? in documentation tests, some improvements for #[attribute(..)]s, as well as the stabilization of TryFrom. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/04/11/Rust-1.34.0.html",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c16ea768-9518-4a40-b51d-9c5e978994a2",
+      "title": "Neat new feature in Rust: iter::from_fn",
+      "content_text": "Recently Rust has introduced a couple of new features, and the one that caught my eye in particular was std::iter::from_fn, which let’s you make an iterator from a function, which is most of what that macro was trying to do, so I thought I would try to convert the various places I was using the macro to use the new function instead…",
+      "url": "https://weblog.latte.ca/blake/tech/rust/makingiterators.html",
+      "date_published": "2019-04-13T20:49:00+00:00",
+      "author": {
+        "name": "Blake Winton",
+        "url": "https://weblog.latte.ca/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "30a32647-13d1-4d87-89c0-804ef7d456e6",
+      "title": "Tricks In Arc Swap",
+      "content_text": "This is a continuation of the Making Arc more atomic post. In short, ArcSwap is a place where you can atomically store and load an Arc, similar to RwLock<Arc<T>> but without the locking. It’s a good tool if you have some data that is very frequently read but infrequently modified, like configuration or an in-memory database that answers millions of queries per second, but is replaced only every 5 minutes. The canonical example for this is routing tables ‒ you want to read them with every passing packet, but you change them only when routing changes.",
+      "url": "https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html",
+      "date_published": "2019-04-06T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "afbe8437-4dca-40c1-b6ab-034fbd57c9cd",
+      "title": "Mysteriously Low Hanging Fruit: A Big Improvement To LLD For Rust Debug Builds",
+      "content_text": "LLD is generally much faster than the GNU ld.bfd and ld.gold linkers, so you would think it has been pretty well optimised. You might then be surprised to discover that a 36-line patch dramatically speeds up linking of Rust debug builds, while also shrinking the generated binaries dramatically, both in simple examples and large real-world projects.",
+      "url": "https://robert.ocallahan.org/2019/04/mysteriously-low-hanging-fruit-big.html",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "Robert O'Callahan",
+        "url": "https://robert.ocallahan.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "54d19ed4-0cb7-4ab9-939e-5afcdf8b0ca5",
       "title": "How to Mock Time in Rust Tests and Cargo Gotchas We Met",
       "content_text": "I'm working in a team developing a big Rust project recently. The project has some features depending on time. We, the developers, want to be able to mock the time in test. In this post, I'll talk about the problems we have met, mostly related to Cargo.",

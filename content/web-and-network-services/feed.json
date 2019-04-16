@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ea434653-4ba2-47c0-bc91-ba9c521dc419",
+      "title": "Face Detection with Actix Web",
+      "content_text": "Last article I wrote about how to use tensorflow with rust. This time we're going to take what we've built on, and serve it as an HTTP API call. As Actix Web is nearing its inevitable 1.0 release, I thought it would be a great time to build something with it.",
+      "url": "https://cetra3.github.io/blog/face-detection-with-actix-web/",
+      "date_published": "2019-04-11T00:00:00+00:00",
+      "author": {
+        "name": "cetra3",
+        "url": "https://github.com/cetra3/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "5643e56a-6a6f-435e-8625-b58ebb5dca22",
       "title": "The Wrangler CLI: Deploying Rust with WASM on Cloudflare Workers",
       "content_text": "Today, we're open sourcing and announcing wrangler, a CLI tool for building, previewing, and publishing Rust and WebAssembly Cloudflare Workers. If that sounds like some word salad to you, that's a reasonable reaction.",

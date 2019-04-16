@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e57004c9-8a39-47af-bd60-b97fbcd07e7a",
+      "title": "cargo-call-stack, part 2: getting call graph information from rustc",
+      "content_text": "In a previous post I described the current implementation of cargo-call-stack, a static stack usage analysis tool. In the second part of that post I described the problems the tool runs into when dealing with indirect function calls (both function pointer calls and dynamic dispatch) and proposed improving the output of the tool by having rustc inject type information in the LLVM IR it produces.\n\nWhile discussing that idea with rustc developers they noted that the compiler could emit information that’s more relevant to call graph analysis than just the signatures of functions and trait methods. In this post I’ll describe the call graph metadata I’m currently implementing in rustc and how it will help tools like cargo-call-stack. By the way, I have a feature branch of cargo-call-stack that uses this upcoming rustc feature if you want to try it out but you’ll need to build a custom rustc.",
+      "url": "https://blog.japaric.io/stack-analysis-2/",
+      "date_published": "2019-04-13T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "45b386b4-5b90-42a7-b17b-00aeb72cde34",
+      "title": "Keeping Rust projects' README.md code examples up-to-date",
+      "content_text": "Because keeping documentation up-to-date is very important (and should be a must have!), we need to check if the examples are still valid after every new updates. Luckily, rustdoc already makes such things very easy. But now, let's say you have examples outside of your Rust code. How can they be tested?",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-04-13+Keeping+Rust+projects%27+README.md+code+examples+up-to-date",
+      "date_published": "2019-04-13T01:00:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://blog.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "700e8697-e3f3-49ff-bf87-03cfb598ff0d",
       "title": "Alacritty Version 0.3.0",
       "content_text": " Alacritty is a terminal emulator with a strong focus on simplicity and performance. With such a strong focus on performance, included features are carefully considered and you can always expect Alacritty to be blazingly fast. By making sane choices for defaults, Alacritty requires no additional setup. However, it does allow configuration of many aspects of the terminal. With this release, Alacritty has officially entered the beta stage – there are still a few missing features and bugs to be fixed, but it is already used by many as a daily driver.",

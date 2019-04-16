@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "ebf00798-d92a-4f61-8b2b-8ffceb2c09a9",
+      "title": "Protocols in Tokio (i3 IPC)",
+      "content_text": "There’s a dearth of blog posts online that cover the details of implementing a custom protocol in tokio, at least that I’ve found. I’m going to cover some of the steps I went through in implementing an async version i3wm’s IPC.",
+      "url": "https://leshow.github.io/post/impl_proto_tokio/",
+      "date_published": "2019-04-08T18:53:18-04:00",
+      "author": {
+        "name": "Evan Cameron",
+        "url": "https://leshow.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "914d12c5-ea4a-49f4-8466-1f15a9c3340a",
+      "title": "Using rav1e - from your own code",
+      "content_text": "AV1 is a modern video codec brought to you by an alliance of many different bigger and smaller players in the multimedia field. rav1e: The safest and fastest AV1 encoder, built by many volunteers and Mozilla/Xiph developers. crav1e: A companion crate, written by yours truly, that provides a C-API, so the encoder can be used by C libraries and programs. This article will just give a quick overview of the API available right now and it is mainly to help people start using it and hopefully report issues and problem.",
+      "url": "https://dev.to/luzero/using-rav1e-from-your-own-code-2ie0",
+      "date_published": "2019-04-09T00:00:00+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://dev.to/luzero"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "5826453d-6731-41d9-a4f5-f5dbce6ef1df",
       "title": "Arraigning a Statement, vol. 2",
       "content_text": "Last time we defined a minimum viable implementation for mutagen statement removal: Remove only function call statements whose results are not returned from the surrounding block and whose AST do not contain any Assign expressions.",
