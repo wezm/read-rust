@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f2b4f953-be42-4454-b073-1804aa4a8bb6",
+      "title": "Web Development with Rust — 03/x: Create a REST API",
+      "content_text": "The most common pattern for creating APIs is REST. We will discover how we can build an API in Rust which conforms with the REST pattern.",
+      "url": "https://dev.to/gruberb/web-development-with-rust-03-x-create-a-rest-api-3i82",
+      "date_published": "2019-04-15T00:00:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "ea434653-4ba2-47c0-bc91-ba9c521dc419",
       "title": "Face Detection with Actix Web",
       "content_text": "Last article I wrote about how to use tensorflow with rust. This time we're going to take what we've built on, and serve it as an HTTP API call. As Actix Web is nearing its inevitable 1.0 release, I thought it would be a great time to build something with it.",

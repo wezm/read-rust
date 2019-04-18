@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "77c8e0ed-ccb6-4f29-8ab7-1e8c3cd5d39d",
+      "title": "Rust Associated Type",
+      "content_text": "Associated Types in Rust are similar to Generic Types; however, Associated Types limit the types of things a user can do, which consequently facilitates code management. Among the Generic Types of traits, types that depend on the type of trait implementation can be expressed by using the Associated Type syntax. By comparing the Associated and Generic Types, you can get a better understanding of Associated Types.",
+      "url": "https://medium.com/codechain/rust-associated-type-b0193c22eacd",
+      "date_published": "2019-04-16T10:08:09.783+00:00",
+      "author": {
+        "name": "Park Juhyung",
+        "url": "https://medium.com/@majecty"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8770e0f9-eca2-4f58-b2f4-7761dbcf81bb",
+      "title": "Rust: beyond the typechecker",
+      "content_text": "This post will be different from the previous ones, since I’m going to present some of the early results of my work as a PhD student at the Prosecco team in ...",
+      "url": "https://blog.merigoux.ovh/en/2019/04/16/verifying-rust.html",
+      "date_published": "2019-04-16T00:00:00+00:00",
+      "author": {
+        "name": "Denis Merigoux",
+        "url": "https://blog.merigoux.ovh/en/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "524e6489-33da-4635-977c-9d86e839d185",
+      "title": "Proper Notation for Scalar Multiplication in Rust: Dispatching on the Right-Hand Side of Operators and Rusts's Orphan Rule",
+      "content_text": "The scalar multiplication in a vector space is written kv in math, where k is a scalar value (e.g. a number) and v is a vector. It would be nice to write k * v in programming languages, to stay close to the familiar notation. Object-oriented languages typically only support calling methods on the first argument. But the scalar normally doesn't know about vectors, so it can't easily do that.",
+      "url": "https://www.jstuber.net/2019/04/17/scalar-multiplication-in-rust/",
+      "date_published": "2019-04-17T00:00:00+00:00",
+      "author": {
+        "name": "Jürgen Stuber",
+        "url": "https://www.jstuber.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d171d946-7117-4e2a-bfae-0a4089cdfa9d",
+      "title": "Complex data types and the Rust FFI",
+      "content_text": "There are a few good resources on the internet about using the Rust FFI to expose functions written in Rust to other languages. However, I found little information about passing data types between languages. To help remedy this situation, I describe in this post a simple Rust library that I wrote to explore how to pass complex data types from Rust to C.",
+      "url": "http://kmdouglass.github.io/posts/complex-data-types-and-the-rust-ffi/",
+      "date_published": "2019-04-04T17:51:55+00:00",
+      "author": {
+        "name": "Kyle M. Douglass",
+        "url": "http://kmdouglass.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8042dc34-344d-452f-818c-bebe0f6cf573",
+      "title": "Building a pub/sub server with Sonr (part 1)",
+      "content_text": "This is the first part in a two part series where we explore Sonr by writing a pubsub server in Rust using Sonr.",
+      "url": "https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-1/",
+      "date_published": "2019-04-10T00:00:00+01:00",
+      "author": {
+        "name": "Jonas",
+        "url": "https://hagsteel.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ad1e9e94-37b0-4328-93d5-216cb58cd905",
+      "title": "Using Rust Generics to Enforce DB Record State",
+      "content_text": "I’m currently working on a (private in 2019, public in july 2019) project which is a NoSQL database writting in Rust. To help us manage the correctness and lifecycle of database entries, I have been using advice from the Rust Embedded Group’s Book. As I have mentioned in the past, state machines are a great way to design code, so let’s plot out the state machine we have for Entries",
+      "url": "https://fy.blackhats.net.au/blog/html/2019/04/13/using_rust_generics_to_enforce_db_record_state.html",
+      "date_published": "2019-04-13T00:00:00+00:00",
+      "author": {
+        "name": "firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c652e06d-95e4-4da0-8ce8-a94c007587d7",
       "title": "Announcing Rust 1.34.0",
       "content_text": "The largest feature in this release is the introduction of alternative cargo registries. The release also includes support for ? in documentation tests, some improvements for #[attribute(..)]s, as well as the stabilization of TryFrom. Read on for a few highlights, or see the detailed release notes for additional information.",
