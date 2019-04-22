@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "50725324-0ca7-4137-8e95-9d5e023881f8",
+      "title": "splines-1.0.0 and first release candidate",
+      "content_text": "today, I’m going to talk about the splines crate. And more specifically, the splines-1.0.0-rc.1 release candidate I uploaded today on crates.io. Maybe you’re wondering what a spline is, in the first place. A spline is a mathematic curve that is defined by several polynomials. You can picture them mentally by several small and simple curves combined to each others, giving the curve an interesting shape and properties. Now why we want splines is easy to understand: imagine a curve, something smooth and a bit complex (maybe even with loops). Now, imagine you want to make an object move along that curve. How do you represent that curve and how to you “make something advance along it?”",
+      "url": "https://phaazon.net/blog/splines-1.0.0-rc.1",
+      "date_published": "2019-04-22T01:10:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "b8b79bb1-c176-43e8-bad9-943285e361c6",
       "title": "12 Killer Rust Libraries You Should Try",
       "content_text": "I’ve just crossed a 20K LOC in one of my bigger Rust projects, and thought about pausing for a moment and sharing some great Rust libraries that I’ve used.",

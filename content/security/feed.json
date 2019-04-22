@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4450a6c3-3baa-4485-853b-910969aa0119",
+      "title": "Rust, dudect and constant-time crypto in debug mode",
+      "content_text": "The following are observations from when I started testing my own pure-Rust crypto library, including its dependencies, for constant-time execution. Starting with a short introduction to dudect and how it can be used to test code for timing-based side-channel vulnerabilities. Then discussing the process of discovering a short-circuit that resulted in variable-time execution, in dalek-cryptography’s subtle library and how this seems to relate to Rust codegen option opt-level.",
+      "url": "https://brycx.github.io/2019/04/21/rust-dudect-constant-time-crypto.html",
+      "date_published": "2019-04-21T00:00:00+00:00",
+      "author": {
+        "name": "brycx",
+        "url": "https://brycx.github.io/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "6af41799-4171-46ca-ab1f-572b8669da6e",
       "title": "Using the IOMMU for Safe and Secure User Space Network Drivers",
       "content_text": "Commonly used user space network drivers such as DPDK or Snabb currently have effectivelyfull access to the main memory via the unrestricted Direct Memory Access (DMA) capabilities of the PCI Express (PCIe) device they are controlling. This can be a security issue, as the driver can use the PCIe devices DMA access to read and / or write to main memory. In this thesis, support for using the IOMMU via the vfio-pci driver from the Linux kernel for the user space network driver ixy was implemented in C and Rust and the IOMMU and its impact on the drivers were investigated.",

@@ -10,6 +10,136 @@
   },
   "items": [
     {
+      "id": "675975c8-b21a-4d87-8ac3-7e8c74fd8897",
+      "title": "Things I Enjoy in Rust: Enums",
+      "content_text": "I’ve been diving into Rust for the last couple of months, after my colleague started talking about it. I’ve been wanting to learn a lower level language, but C++ or something of the like have always seemed too daunting for me to even start.\n\nI’d heard of Rust before, and great things too, but hadn’t set apart time to look into it. I finally took the dive. And boy, am I glad I did.\n\nA lot of people talk about the borrowing system of Rust, or how fast it, or the strict type system. All of which are great things, but it’s not what I’m going to write about here. I’m excited about enums.",
+      "url": "https://blog.jonstodle.com/things-i-enjoy-in-rust-enums/",
+      "tweet_url": "https://twitter.com/jonstodle/status/1118931281822257153",
+      "date_published": "2019-04-18T18:00:00+02:00",
+      "author": {
+        "name": "Jon Grythe Stødle",
+        "url": "https://blog.jonstodle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9a01af1b-fcfa-464e-817f-9a6ea54cf9b7",
+      "title": "Building an ASCII image renderer",
+      "content_text": "Although I’m a beginner in Rust, I would like to share the process behind a toy application that I developed recently. It’s a very simple command line tool that prints an image file using ASCII symbols directly to your terminal. ",
+      "url": "https://medium.com/carwow-product-engineering/getting-a-bit-rusty-1285c49e520e",
+      "date_published": "2019-04-18T12:54:32.732+00:00",
+      "author": {
+        "name": "Stepan Khodzhaian",
+        "url": "https://medium.com/@mightykho.dev"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "2c21dd65-6a7c-4ce6-97c6-f7a383c331bf",
+      "title": "Hangman Game Development Tutorial",
+      "content_text": "This tutorial was part of a whorkshop which took place at the Rust Community Stuttgart on April, 17th 2019. We will develop a Hangman text based console game within this tutorial.",
+      "url": "https://github.com/rusticus-io/hangman",
+      "tweet_url": "https://twitter.com/thinkrapido/status/1118833143845408768",
+      "date_published": "2019-04-17T00:00:00+00:00",
+      "author": {
+        "name": "Romeo Disca",
+        "url": "https://github.com/thinkrapido"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "0cc3f8b6-7cd9-423f-96f2-569b660e2bf3",
+      "title": "Lessons moving from iOS delegates to Rust async",
+      "content_text": "The majority of my async programming experience is on iOS and let me tell you, life is good. You can easily dispatch work to background threads. You can bring work back to the main thread. You can mark your classes as delegates and when you need to handle some event the OS will use a magic pre-existing thread pool to invoke your method and you can do whatever you like. It works perfectly almost all the time, except for when it doesn’t because of race conditions or it crashes due to concurrency. Life is good.\n\nRust is less tolerant about the crashing part. While I agree that crashing is bad in principle, avoiding it has significant ramifications for how you can write async code at all. Recently I’ve been finding out what the differences are. Obviously this means I’m more of a noob than an expert, but I’m currently in a good position to point out what the confusing parts are and what the Rust solutions seem to be. (But I’m a noob so take it with a grain of salt.)",
+      "url": "https://thomask.sdf.org/blog/2019/04/19/lessons-moving-from-ios-delegates-to-rust-async.html",
+      "tweet_url": "https://twitter.com/teek_eh/status/1119197978898518017",
+      "date_published": "2019-04-19T19:30:00+10:00",
+      "author": {
+        "name": "Thomas Karpiniec",
+        "url": "https://thomask.sdf.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bda9c409-db67-4283-aadc-ffb54c3ad00d",
+      "title": "Elements of Rust: style and philosophy",
+      "content_text": "A collection of software engineering techniques for effectively expressing intent with Rust.",
+      "url": "https://github.com/ferrous-systems/elements-of-rust",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "Ferrous Systems ",
+        "url": "https://github.com/ferrous-systems"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4450a6c3-3baa-4485-853b-910969aa0119",
+      "title": "Rust, dudect and constant-time crypto in debug mode",
+      "content_text": "The following are observations from when I started testing my own pure-Rust crypto library, including its dependencies, for constant-time execution. Starting with a short introduction to dudect and how it can be used to test code for timing-based side-channel vulnerabilities. Then discussing the process of discovering a short-circuit that resulted in variable-time execution, in dalek-cryptography’s subtle library and how this seems to relate to Rust codegen option opt-level.",
+      "url": "https://brycx.github.io/2019/04/21/rust-dudect-constant-time-crypto.html",
+      "date_published": "2019-04-21T00:00:00+00:00",
+      "author": {
+        "name": "brycx",
+        "url": "https://brycx.github.io/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "50725324-0ca7-4137-8e95-9d5e023881f8",
+      "title": "splines-1.0.0 and first release candidate",
+      "content_text": "today, I’m going to talk about the splines crate. And more specifically, the splines-1.0.0-rc.1 release candidate I uploaded today on crates.io. Maybe you’re wondering what a spline is, in the first place. A spline is a mathematic curve that is defined by several polynomials. You can picture them mentally by several small and simple curves combined to each others, giving the curve an interesting shape and properties. Now why we want splines is easy to understand: imagine a curve, something smooth and a bit complex (maybe even with loops). Now, imagine you want to make an object move along that curve. How do you represent that curve and how to you “make something advance along it?”",
+      "url": "https://phaazon.net/blog/splines-1.0.0-rc.1",
+      "date_published": "2019-04-22T01:10:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "899be7d9-392f-4467-aa75-85b2d3e913f7",
+      "title": "Using Wasmer for Plugins Part 2",
+      "content_text": "In this post we are going to cover how we could pass more complicated data from the wasm module back to the runner.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-2",
+      "date_published": "2019-04-20T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "036c9563-3d69-4cf8-a59a-718976fded92",
+      "title": "Generic returns in Rust",
+      "content_text": "After casting around for a new platform to learn recently, I’ve decided to dive into Rust. Being mostly familiar with untyped languages like Ruby and JavaScript, it’s interesting to learn a statically typed language and see how it changes how one writes programs. There’s a common misconception amongst dynamic typing fans that static typing means you write the same programs, they’re just more verbose and come with more restrictions. And while there is certainly a cost to only being allowed to write type-safe programs, a good type system actually lets you write programs you cannot write in dynamic languages. In Rust, generic return values are a good example of this.",
+      "url": "https://blog.jcoglan.com/2019/04/22/generic-returns-in-rust/",
+      "tweet_url": "https://twitter.com/mountain_ghosts/status/1120389671924715520",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "James Coglan",
+        "url": "https://blog.jcoglan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "3d03c657-cc87-4a01-9547-a583e6ec355f",
       "title": "Rust & The Machine",
       "content_text": "The intended audience is newly started Rust users, especially if you have been using mostly garbage collection to manage memory recently. The explanation is very machine-oriented, but I promise this way is faster than fighting the answers out of the compiler case-by-case. (Elaboration on this and other choices is at the end.)\n\nRust’s memory management is slick enough to barely notice you’re doing any. It can make explaining compiler errors very opaque. If you are already familiar with or willing to learn bare-minimum microarchitecture, just the basics of function execution and memory usage, this article is an efficient crash course for finding the low resistance paths to writing natural Rust.",

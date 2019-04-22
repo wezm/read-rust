@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "899be7d9-392f-4467-aa75-85b2d3e913f7",
+      "title": "Using Wasmer for Plugins Part 2",
+      "content_text": "In this post we are going to cover how we could pass more complicated data from the wasm module back to the runner.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-2",
+      "date_published": "2019-04-20T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3d938fcd-0108-499a-9929-841d1999db4b",
       "title": "Plume: Federated blogging application",
       "content_text": "Plume is a federated blogging engine, based on ActivityPub. It uses the Rocket framework, and Diesel to interact with the database.",

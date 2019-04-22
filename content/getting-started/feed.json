@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9a01af1b-fcfa-464e-817f-9a6ea54cf9b7",
+      "title": "Building an ASCII image renderer",
+      "content_text": "Although I’m a beginner in Rust, I would like to share the process behind a toy application that I developed recently. It’s a very simple command line tool that prints an image file using ASCII symbols directly to your terminal. ",
+      "url": "https://medium.com/carwow-product-engineering/getting-a-bit-rusty-1285c49e520e",
+      "date_published": "2019-04-18T12:54:32.732+00:00",
+      "author": {
+        "name": "Stepan Khodzhaian",
+        "url": "https://medium.com/@mightykho.dev"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "2c21dd65-6a7c-4ce6-97c6-f7a383c331bf",
+      "title": "Hangman Game Development Tutorial",
+      "content_text": "This tutorial was part of a whorkshop which took place at the Rust Community Stuttgart on April, 17th 2019. We will develop a Hangman text based console game within this tutorial.",
+      "url": "https://github.com/rusticus-io/hangman",
+      "date_published": "2019-04-17T00:00:00+00:00",
+      "author": {
+        "name": "Romeo Disca",
+        "url": "https://github.com/thinkrapido"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3d03c657-cc87-4a01-9547-a583e6ec355f",
       "title": "Rust & The Machine",
       "content_text": "The intended audience is newly started Rust users, especially if you have been using mostly garbage collection to manage memory recently. The explanation is very machine-oriented, but I promise this way is faster than fighting the answers out of the compiler case-by-case. (Elaboration on this and other choices is at the end.)\n\nRust’s memory management is slick enough to barely notice you’re doing any. It can make explaining compiler errors very opaque. If you are already familiar with or willing to learn bare-minimum microarchitecture, just the basics of function execution and memory usage, this article is an efficient crash course for finding the low resistance paths to writing natural Rust.",
