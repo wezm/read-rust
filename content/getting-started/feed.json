@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3d03c657-cc87-4a01-9547-a583e6ec355f",
+      "title": "Rust & The Machine",
+      "content_text": "The intended audience is newly started Rust users, especially if you have been using mostly garbage collection to manage memory recently. The explanation is very machine-oriented, but I promise this way is faster than fighting the answers out of the compiler case-by-case. (Elaboration on this and other choices is at the end.)\n\nRust’s memory management is slick enough to barely notice you’re doing any. It can make explaining compiler errors very opaque. If you are already familiar with or willing to learn bare-minimum microarchitecture, just the basics of function execution and memory usage, this article is an efficient crash course for finding the low resistance paths to writing natural Rust.",
+      "url": "https://medium.com/@orbitalK/why-the-machine-b9803a77fa29",
+      "date_published": "2019-03-27T06:52:47.011+00:00",
+      "author": {
+        "name": "Prolific K",
+        "url": "https://medium.com/@orbitalK"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "11088ce0-5efd-4232-8541-dcb76a8ed72e",
+      "title": "Rust for Python Developers: Ownership and Borrowing",
+      "content_text": "Following the previous post, here I am going to introduce the key concepts of Rust — Ownership and Borrowing.",
+      "url": "https://medium.com/@rajasekar3eg/rust-for-python-developers-ownership-and-borrowing-cd85fc10cae4",
+      "date_published": "2019-04-09T21:14:25.078+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "881b9dbf-f50a-4a3d-9992-de8c093250bf",
       "title": "Explained: How does async work in Rust?",
       "content_text": "This article will outline an overview of the why and how async exists in Rust.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "da05eb25-52b2-48f6-9008-944a9a95ccaa",
+      "title": "An interview with the creator of Gleam: an ML like language for the Erlang VM with a compiler written in Rust",
+      "content_text": "An interesting thing about Gleam is that its compiler is written in Rust. I think that Rust is a sort of ML + C language. I like C since the developer is at the driver seat driving with manual transmission. I can’t explain very well but I have always seen C as a simple and powerful language but I have always disliked C++. Knowing that I like ML and C you might understand why I find Rust an interesting language. To sum up we (me and Juan Bono) decided to do this interview with Louis Pilfold not only because of what it is, but also because it is implemented in Rust.",
+      "url": "https://notamonadtutorial.com/an-interview-with-the-creator-of-gleam-an-ml-like-language-for-the-erlang-vm-with-a-compiler-e94775f60dc7",
+      "date_published": "2019-04-01T16:30:35.129+00:00",
+      "author": {
+        "name": "unbalancedparentheses",
+        "url": "https://notamonadtutorial.com/@unbalancedparen"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a085423c-ec98-4fff-ba66-7c23926175d9",
+      "title": "Learning Parser Combinators With Rust",
+      "content_text": "This article teaches the fundamentals of parser combinators to people who are already Rust programmers. It assumes no other knowledge, and will explain everything that isn't directly related to Rust, as well as a few of the more unexpected aspects of using Rust for this purpose. It will not teach you Rust if you don't already know it, and, if so, it probably also won't teach you parser combinators very well.",
+      "url": "https://bodil.lol/parser-combinators/",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Bodil Stokke",
+        "url": "https://bodil.lol/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "77c8e0ed-ccb6-4f29-8ab7-1e8c3cd5d39d",
       "title": "Rust Associated Type",
       "content_text": "Associated Types in Rust are similar to Generic Types; however, Associated Types limit the types of things a user can do, which consequently facilitates code management. Among the Generic Types of traits, types that depend on the type of trait implementation can be expressed by using the Associated Type syntax. By comparing the Associated and Generic Types, you can get a better understanding of Associated Types.",

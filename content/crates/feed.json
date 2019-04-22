@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b8b79bb1-c176-43e8-bad9-943285e361c6",
+      "title": "12 Killer Rust Libraries You Should Try",
+      "content_text": "I’ve just crossed a 20K LOC in one of my bigger Rust projects, and thought about pausing for a moment and sharing some great Rust libraries that I’ve used.",
+      "url": "https://medium.com/@jondot/12-killer-rust-libraries-you-should-know-c60bab07624f",
+      "date_published": "2019-04-19T15:21:32.205+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "b2657146-974b-41b9-ba31-8aae62c25f7d",
+      "title": "6 useful Rust macros that you might not have seen before",
+      "content_text": "Below are 6 Rust macros that are worth taking a look at to improve your project. Rust macros are a great feature that can reduce code boilerplate and be a time saver for programmers. They also offer flexibility for developers to use metaprogramming to add new features to the language and package them in a way that is easy to integrate into code. They are one of the more powerful features of the language and this led me to search github and cargo to see what was out there. Below are some interest macros that are not as well known.",
+      "url": "https://medium.com/@benmcdonald_11671/6-useful-rust-macros-that-you-might-not-have-seen-before-59d1386f7bc5",
+      "date_published": "2019-04-22T02:00:39.198+00:00",
+      "author": {
+        "name": "Ben McDonald",
+        "url": "https://medium.com/@benmcdonald_11671"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "53c58e52-158a-40e1-b59d-3a9ad1a92edb",
       "title": "Runtime",
       "content_text": "The vision of the Async Ecosystem WG is to refine the async Rust experience until it matches the quality and ease of working with today's std. There are a lot of components in that vision, including async/await syntax and borrow checker integration. Today, though, we'd like to introduce another component: Runtime, a crate that makes working with async code feel closer to working with std, and a stepping stone toward ecosystem standardization.",

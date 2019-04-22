@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "49f9c596-e61c-402d-a2de-21c8350ccac6",
+      "title": "LeftWM - A tiling window manager for Adventurers",
+      "content_text": "FIXMEs a tiling window manager written in rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
+      "url": "http://leftwm.org/",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "lex148",
+        "url": "https://github.com/lex148"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e57004c9-8a39-47af-bd60-b97fbcd07e7a",
       "title": "cargo-call-stack, part 2: getting call graph information from rustc",
       "content_text": "In a previous post I described the current implementation of cargo-call-stack, a static stack usage analysis tool. In the second part of that post I described the problems the tool runs into when dealing with indirect function calls (both function pointer calls and dynamic dispatch) and proposed improving the output of the tool by having rustc inject type information in the LLVM IR it produces.\n\nWhile discussing that idea with rustc developers they noted that the compiler could emit information that’s more relevant to call graph analysis than just the signatures of functions and trait methods. In this post I’ll describe the call graph metadata I’m currently implementing in rustc and how it will help tools like cargo-call-stack. By the way, I have a feature branch of cargo-call-stack that uses this upcoming rustc feature if you want to try it out but you’ll need to build a custom rustc.",

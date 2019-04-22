@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3d938fcd-0108-499a-9929-841d1999db4b",
+      "title": "Plume: Federated blogging application",
+      "content_text": "Plume is a federated blogging engine, based on ActivityPub. It uses the Rocket framework, and Diesel to interact with the database.",
+      "url": "https://github.com/Plume-org/Plume",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "Plume Developers",
+        "url": "https://joinplu.me/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d11c58e5-419a-4c3e-923d-b2bac810d445",
+      "title": "Using Wasmer for Plugins Part 1",
+      "content_text": "A few months ago, the Wasmer team announced a Web Assembly (aka wasm) interpreter that could be embedded into rust programs. This is particularly exciting for anyone looking to add plugins to their project and since Rust provides a way to directly compile programs to wasm, it seems like a perfect option. In this series of blog posts we are going to investigate what building a plugin system using wasmer and rust would take.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-1",
+      "date_published": "2019-04-19T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "f2b4f953-be42-4454-b073-1804aa4a8bb6",
       "title": "Web Development with Rust — 03/x: Create a REST API",
       "content_text": "The most common pattern for creating APIs is REST. We will discover how we can build an API in Rust which conforms with the REST pattern.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "00b32f85-009b-464f-8e31-c9930a0b67f3",
+      "title": "AiC: Adventures in consensus",
+      "content_text": "In the talk I gave at Rust LATAM, I said that the Rust project has always emphasized finding the best solution, rather than winning the argument. I think this is one of our deepest values. It’s also one of the hardest for us to uphold.\n\nLet’s face it – when you’re having a conversation, it’s easy to get attached to specific proposals. It’s easy to have those proposals change from “Option A” vs “Option B” to “my option” and “their option”. Once this happens, it can be very hard to let them “win” – even if you know that both options are quite reasonable.\n\nThis is a problem I’ve been thinking a lot about lately. So I wanted to start an irregular series of blog posts entitled “Adventures in consensus”, or AiC for short. These posts are my way of exploring the topic, and hopefully getting some feedback from all of you while I’m at it.\n\nThis first post dives into what a phrase like “finding the best solution” even means (is there a best?) as well as the mechanics of how one might go about deciding if you really have the “best” solution. Along the way, we’ll see a few places where I think our current process could do better.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/19/aic-adventures-in-consensus/",
+      "date_published": "2019-04-19T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "94f04f9a-9a74-4e3c-9d96-02fec8e01229",
       "title": "Moving on from Rails and what's next",
       "content_text": "It’s been more than 6 years since my first commit to Ruby on Rails. I had just gotten my first full time Ruby position, was excited to move away from PHP, and wanted to give back. Since then I made 1452 commits to the project. Today, I am finally ready to move on from Rails.",

@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "3d03c657-cc87-4a01-9547-a583e6ec355f",
+      "title": "Rust & The Machine",
+      "content_text": "The intended audience is newly started Rust users, especially if you have been using mostly garbage collection to manage memory recently. The explanation is very machine-oriented, but I promise this way is faster than fighting the answers out of the compiler case-by-case. (Elaboration on this and other choices is at the end.)\n\nRust’s memory management is slick enough to barely notice you’re doing any. It can make explaining compiler errors very opaque. If you are already familiar with or willing to learn bare-minimum microarchitecture, just the basics of function execution and memory usage, this article is an efficient crash course for finding the low resistance paths to writing natural Rust.",
+      "url": "https://medium.com/@orbitalK/why-the-machine-b9803a77fa29",
+      "date_published": "2019-03-27T06:52:47.011+00:00",
+      "author": {
+        "name": "Prolific K",
+        "url": "https://medium.com/@orbitalK"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "11088ce0-5efd-4232-8541-dcb76a8ed72e",
+      "title": "Rust for Python Developers: Ownership and Borrowing",
+      "content_text": "Following the previous post, here I am going to introduce the key concepts of Rust — Ownership and Borrowing.",
+      "url": "https://medium.com/@rajasekar3eg/rust-for-python-developers-ownership-and-borrowing-cd85fc10cae4",
+      "date_published": "2019-04-09T21:14:25.078+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "da05eb25-52b2-48f6-9008-944a9a95ccaa",
+      "title": "An interview with the creator of Gleam: an ML like language for the Erlang VM with a compiler written in Rust",
+      "content_text": "An interesting thing about Gleam is that its compiler is written in Rust. I think that Rust is a sort of ML + C language. I like C since the developer is at the driver seat driving with manual transmission. I can’t explain very well but I have always seen C as a simple and powerful language but I have always disliked C++. Knowing that I like ML and C you might understand why I find Rust an interesting language. To sum up we (me and Juan Bono) decided to do this interview with Louis Pilfold not only because of what it is, but also because it is implemented in Rust.",
+      "url": "https://notamonadtutorial.com/an-interview-with-the-creator-of-gleam-an-ml-like-language-for-the-erlang-vm-with-a-compiler-e94775f60dc7",
+      "date_published": "2019-04-01T16:30:35.129+00:00",
+      "author": {
+        "name": "unbalancedparentheses",
+        "url": "https://notamonadtutorial.com/@unbalancedparen"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a085423c-ec98-4fff-ba66-7c23926175d9",
+      "title": "Learning Parser Combinators With Rust",
+      "content_text": "This article teaches the fundamentals of parser combinators to people who are already Rust programmers. It assumes no other knowledge, and will explain everything that isn't directly related to Rust, as well as a few of the more unexpected aspects of using Rust for this purpose. It will not teach you Rust if you don't already know it, and, if so, it probably also won't teach you parser combinators very well.",
+      "url": "https://bodil.lol/parser-combinators/",
+      "tweet_url": "https://twitter.com/bodil/status/1118946325377245184",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Bodil Stokke",
+        "url": "https://bodil.lol/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3d938fcd-0108-499a-9929-841d1999db4b",
+      "title": "Plume: Federated blogging application",
+      "content_text": "Plume is a federated blogging engine, based on ActivityPub. It uses the Rocket framework, and Diesel to interact with the database.",
+      "url": "https://github.com/Plume-org/Plume",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "Plume Developers",
+        "url": "https://joinplu.me/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "00b32f85-009b-464f-8e31-c9930a0b67f3",
+      "title": "AiC: Adventures in consensus",
+      "content_text": "In the talk I gave at Rust LATAM, I said that the Rust project has always emphasized finding the best solution, rather than winning the argument. I think this is one of our deepest values. It’s also one of the hardest for us to uphold.\n\nLet’s face it – when you’re having a conversation, it’s easy to get attached to specific proposals. It’s easy to have those proposals change from “Option A” vs “Option B” to “my option” and “their option”. Once this happens, it can be very hard to let them “win” – even if you know that both options are quite reasonable.\n\nThis is a problem I’ve been thinking a lot about lately. So I wanted to start an irregular series of blog posts entitled “Adventures in consensus”, or AiC for short. These posts are my way of exploring the topic, and hopefully getting some feedback from all of you while I’m at it.\n\nThis first post dives into what a phrase like “finding the best solution” even means (is there a best?) as well as the mechanics of how one might go about deciding if you really have the “best” solution. Along the way, we’ll see a few places where I think our current process could do better.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/19/aic-adventures-in-consensus/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1119197163999911936",
+      "date_published": "2019-04-19T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "b8b79bb1-c176-43e8-bad9-943285e361c6",
+      "title": "12 Killer Rust Libraries You Should Try",
+      "content_text": "I’ve just crossed a 20K LOC in one of my bigger Rust projects, and thought about pausing for a moment and sharing some great Rust libraries that I’ve used.",
+      "url": "https://medium.com/@jondot/12-killer-rust-libraries-you-should-know-c60bab07624f",
+      "tweet_url": "https://twitter.com/jondot/status/1119260550985285632",
+      "date_published": "2019-04-19T15:21:32.205+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d11c58e5-419a-4c3e-923d-b2bac810d445",
+      "title": "Using Wasmer for Plugins Part 1",
+      "content_text": "A few months ago, the Wasmer team announced a Web Assembly (aka wasm) interpreter that could be embedded into rust programs. This is particularly exciting for anyone looking to add plugins to their project and since Rust provides a way to directly compile programs to wasm, it seems like a perfect option. In this series of blog posts we are going to investigate what building a plugin system using wasmer and rust would take.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-1",
+      "tweet_url": "https://twitter.com/FreeMasen/status/1119652926048415745",
+      "date_published": "2019-04-19T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "49f9c596-e61c-402d-a2de-21c8350ccac6",
+      "title": "LeftWM - A tiling window manager for Adventurers",
+      "content_text": "FIXMEs a tiling window manager written in rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
+      "url": "http://leftwm.org/",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "lex148",
+        "url": "https://github.com/lex148"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b2657146-974b-41b9-ba31-8aae62c25f7d",
+      "title": "6 useful Rust macros that you might not have seen before",
+      "content_text": "Below are 6 Rust macros that are worth taking a look at to improve your project. Rust macros are a great feature that can reduce code boilerplate and be a time saver for programmers. They also offer flexibility for developers to use metaprogramming to add new features to the language and package them in a way that is easy to integrate into code. They are one of the more powerful features of the language and this led me to search github and cargo to see what was out there. Below are some interest macros that are not as well known.",
+      "url": "https://medium.com/@benmcdonald_11671/6-useful-rust-macros-that-you-might-not-have-seen-before-59d1386f7bc5",
+      "date_published": "2019-04-22T02:00:39.198+00:00",
+      "author": {
+        "name": "Ben McDonald",
+        "url": "https://medium.com/@benmcdonald_11671"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f2b4f953-be42-4454-b073-1804aa4a8bb6",
       "title": "Web Development with Rust — 03/x: Create a REST API",
       "content_text": "The most common pattern for creating APIs is REST. We will discover how we can build an API in Rust which conforms with the REST pattern.",
