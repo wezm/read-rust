@@ -12,7 +12,7 @@
     {
       "id": "49f9c596-e61c-402d-a2de-21c8350ccac6",
       "title": "LeftWM - A tiling window manager for Adventurers",
-      "content_text": "FIXMEs a tiling window manager written in rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
+      "content_text": "A tiling window manager written in Rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
       "url": "http://leftwm.org/",
       "date_published": "2019-04-22T00:00:00+00:00",
       "author": {

@@ -10,6 +10,140 @@
   },
   "items": [
     {
+      "id": "88bf7467-0164-4b01-a0fc-1b33ffe55f45",
+      "title": "Non-lexical lifetimes in Rust",
+      "content_text": "This blog is for new Rustacean, who's just started exploring Rust. Demonstrating a scenario that is possible because of the Non-lexical lifetimes feature. This feature was introduced in Rust 2018 edition. Earlier than, in Rust 2015, it was not possible.",
+      "url": "https://blog.knoldus.com/non-lexical-lifetimes-in-rust/",
+      "tweet_url": "https://twitter.com/ayushmishra2005/status/1118766787753959424",
+      "date_published": "2019-04-18T06:39:28+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "b35d346f-7773-44c5-8db5-4cbe95fb3749",
+      "title": "More than coders",
+      "content_text": "Lately, the compiler team has been changing up the way that we work. Our goal is to make it easier for people to track what we are doing and – hopefully – get involved. This is an ongoing effort, but one thing that has become clear immediately is this: the compiler team needs more than coders.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/15/more-than-coders/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1117830408119492608",
+      "date_published": "2019-04-15T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e335233d-84ab-4f50-9cc0-5e401a6b5363",
+      "title": "AiC: Collaborative summary documents",
+      "content_text": "One of the challenges I see with how we often do design is that this “solution space” is actually quite implicit. We are exploring it through comments, but each comment is only tracing out one path through the terrain. I wanted to see if we could try to represent the solution space explicitly. This post is a kind of “experience report” on one such experiment, what I am calling a collaborative summary document (in contrast to the more standard summary comment that we often do).",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/22/aic-collaborative-summary-documents/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1120433840558878720",
+      "date_published": "2019-04-22T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "8fbc326e-e356-480c-8708-c6b4d8d66719",
+      "title": "Things I Enjoy in Rust: Error Handling",
+      "content_text": "I’ve already talked about how I like how enums are used in Rust. They make it easy to express multiple states and the state’s related data. One place this is excellently utilized is error handling.",
+      "url": "https://blog.jonstodle.com/things-i-enjoy-in-rust-error-handling/",
+      "tweet_url": "https://twitter.com/jonstodle/status/1119909430928334850",
+      "date_published": "2019-04-21T12:00:00+02:00",
+      "author": {
+        "name": "Jon Grythe Stødle",
+        "url": "https://blog.jonstodle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "adc39c05-2876-4ef4-b071-b4133c96c8ca",
+      "title": "Futures 0.1 Compatibility Layer",
+      "content_text": "Rust’s futures ecosystem is currently split in two: On the one hand we have the vibrant ecosystem built around futures@0.1 with its many libraries working on stable Rust and on the other hand there’s the unstable std::future ecosystem with support for the ergonomic and powerful async/await language feature. To bridge the gap between these two worlds we have introduced a compatibility layer as part of the futures@0.3 extension to std::future. This blog post aims to give an overview over how to use it.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2019/04/18/compatibility-layer.html",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Josef Brandl",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "fc88b6c6-cf80-4546-b03a-94bcdebf6232",
+      "title": "Using DMA to transfer data with Embedded Rust",
+      "content_text": "In this article you will learn how to use the Direct Memory Access (DMA) controller to transfer data from memory to the built-in Digital to Analog Converter (DAC) on the STM32F3DISCOVERY board.",
+      "url": "https://flowdsp.io/blog/stm32f3-02-dac-dma/",
+      "tweet_url": "https://twitter.com/antvangelder/status/1120660171028615169",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "Antoine van Gelder",
+        "url": "https://flowdsp.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "c66e7e63-ea76-4d35-a15b-0bf56a905b07",
+      "title": "Rust's 2019 roadmap",
+      "content_text": "Each year the Rust community comes together to set out a roadmap. This year, in addition to the survey, we put out a call for blog posts in December, which resulted in 73 blog posts written over the span of a few weeks. The end result is the recently-merged 2019 roadmap RFC. To get all of the details, please give it a read, but this post lays out some of the highlights.",
+      "url": "https://blog.rust-lang.org/2019/04/23/roadmap.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1120729307905609728",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bd3e3e37-90f2-4941-ba7c-00fdae65bdac",
+      "title": "Using Wasmer for Plugins Part 3",
+      "content_text": "In the last two posts of this series we covered all of the things we would need to use Wasmer as the base for a plugin system. In part one we went over the basics of passing simple data in and out of a web assembly module, in part two we dug deeper into how you might do the same with more complicated data. In this part we are going to explore how we might ease the experience for people developing plugins for our application.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-3/index.html",
+      "tweet_url": "https://twitter.com/FreeMasen/status/1120654794027339783",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "3e1e598a-b186-40d1-b03c-bae1444a6ee7",
+      "title": "What I learned from my failed attempt of writing baremetal android in Rust",
+      "content_text": "Every year I define a super ambitious goal for my learning process to keep myself motivated on the way. This year I defined my goal as writing a bootable kernel image for my old HTC One X android smartphone. I knew it was going to be hard but I never thought I’d fail in the end. It was clearly the Dunning–Kruger effect that made me think that I can achieve what I want to do with my limited knowledge/experience on the subject.",
+      "url": "https://onatm.dev/2019/04/22/what-i-learned-from-my-failed-attempt-of-writing-baremetal-android-in-rust/",
+      "tweet_url": "https://twitter.com/onatm/status/1120291086335971333",
+      "date_published": "2019-04-22T12:35:34+00:00",
+      "author": {
+        "name": "Onat Mercan",
+        "url": "https://onatm.dev/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "675975c8-b21a-4d87-8ac3-7e8c74fd8897",
       "title": "Things I Enjoy in Rust: Enums",
       "content_text": "I’ve been diving into Rust for the last couple of months, after my colleague started talking about it. I’ve been wanting to learn a lower level language, but C++ or something of the like have always seemed too daunting for me to even start.\n\nI’d heard of Rust before, and great things too, but hadn’t set apart time to look into it. I finally took the dive. And boy, am I glad I did.\n\nA lot of people talk about the borrowing system of Rust, or how fast it, or the strict type system. All of which are great things, but it’s not what I’m going to write about here. I’m excited about enums.",
@@ -258,7 +392,7 @@
     {
       "id": "49f9c596-e61c-402d-a2de-21c8350ccac6",
       "title": "LeftWM - A tiling window manager for Adventurers",
-      "content_text": "FIXMEs a tiling window manager written in rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
+      "content_text": "A tiling window manager written in Rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",
       "url": "http://leftwm.org/",
       "date_published": "2019-04-22T00:00:00+00:00",
       "author": {

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "fc88b6c6-cf80-4546-b03a-94bcdebf6232",
+      "title": "Using DMA to transfer data with Embedded Rust",
+      "content_text": "In this article you will learn how to use the Direct Memory Access (DMA) controller to transfer data from memory to the built-in Digital to Analog Converter (DAC) on the STM32F3DISCOVERY board.",
+      "url": "https://flowdsp.io/blog/stm32f3-02-dac-dma/",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "Antoine van Gelder",
+        "url": "https://flowdsp.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "3e1e598a-b186-40d1-b03c-bae1444a6ee7",
+      "title": "What I learned from my failed attempt of writing baremetal android in Rust",
+      "content_text": "Every year I define a super ambitious goal for my learning process to keep myself motivated on the way. This year I defined my goal as writing a bootable kernel image for my old HTC One X android smartphone. I knew it was going to be hard but I never thought I’d fail in the end. It was clearly the Dunning–Kruger effect that made me think that I can achieve what I want to do with my limited knowledge/experience on the subject.",
+      "url": "https://onatm.dev/2019/04/22/what-i-learned-from-my-failed-attempt-of-writing-baremetal-android-in-rust/",
+      "date_published": "2019-04-22T12:35:34+00:00",
+      "author": {
+        "name": "Onat Mercan",
+        "url": "https://onatm.dev/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "d226973e-f9e9-46e7-8395-d63272cd6f61",
       "title": "The Embedded Working Group Newsletter - 17",
       "content_text": "This week's highlights: The Embedded Rust Showcase, Oxidize speakers announced, docs on interrupts, and Life before Main!",

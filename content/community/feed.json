@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e335233d-84ab-4f50-9cc0-5e401a6b5363",
+      "title": "AiC: Collaborative summary documents",
+      "content_text": "One of the challenges I see with how we often do design is that this “solution space” is actually quite implicit. We are exploring it through comments, but each comment is only tracing out one path through the terrain. I wanted to see if we could try to represent the solution space explicitly. This post is a kind of “experience report” on one such experiment, what I am calling a collaborative summary document (in contrast to the more standard summary comment that we often do).",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/22/aic-collaborative-summary-documents/",
+      "date_published": "2019-04-22T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "00b32f85-009b-464f-8e31-c9930a0b67f3",
       "title": "AiC: Adventures in consensus",
       "content_text": "In the talk I gave at Rust LATAM, I said that the Rust project has always emphasized finding the best solution, rather than winning the argument. I think this is one of our deepest values. It’s also one of the hardest for us to uphold.\n\nLet’s face it – when you’re having a conversation, it’s easy to get attached to specific proposals. It’s easy to have those proposals change from “Option A” vs “Option B” to “my option” and “their option”. Once this happens, it can be very hard to let them “win” – even if you know that both options are quite reasonable.\n\nThis is a problem I’ve been thinking a lot about lately. So I wanted to start an irregular series of blog posts entitled “Adventures in consensus”, or AiC for short. These posts are my way of exploring the topic, and hopefully getting some feedback from all of you while I’m at it.\n\nThis first post dives into what a phrase like “finding the best solution” even means (is there a best?) as well as the mechanics of how one might go about deciding if you really have the “best” solution. Along the way, we’ll see a few places where I think our current process could do better.",

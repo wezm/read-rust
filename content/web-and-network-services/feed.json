@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bd3e3e37-90f2-4941-ba7c-00fdae65bdac",
+      "title": "Using Wasmer for Plugins Part 3",
+      "content_text": "In the last two posts of this series we covered all of the things we would need to use Wasmer as the base for a plugin system. In part one we went over the basics of passing simple data in and out of a web assembly module, in part two we dug deeper into how you might do the same with more complicated data. In this part we are going to explore how we might ease the experience for people developing plugins for our application.",
+      "url": "https://wiredforge.com/blog/wasmer-plugin-pt-3/index.html",
+      "date_published": "2019-04-22T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "899be7d9-392f-4467-aa75-85b2d3e913f7",
       "title": "Using Wasmer for Plugins Part 2",
       "content_text": "In this post we are going to cover how we could pass more complicated data from the wasm module back to the runner.",

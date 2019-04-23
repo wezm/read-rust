@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "88bf7467-0164-4b01-a0fc-1b33ffe55f45",
+      "title": "Non-lexical lifetimes in Rust",
+      "content_text": "This blog is for new Rustacean, who's just started exploring Rust. Demonstrating a scenario that is possible because of the Non-lexical lifetimes feature. This feature was introduced in Rust 2018 edition. Earlier than, in Rust 2015, it was not possible.",
+      "url": "https://blog.knoldus.com/non-lexical-lifetimes-in-rust/",
+      "date_published": "2019-04-18T06:39:28+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "9a01af1b-fcfa-464e-817f-9a6ea54cf9b7",
       "title": "Building an ASCII image renderer",
       "content_text": "Although I’m a beginner in Rust, I would like to share the process behind a toy application that I developed recently. It’s a very simple command line tool that prints an image file using ASCII symbols directly to your terminal. ",

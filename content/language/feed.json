@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "b35d346f-7773-44c5-8db5-4cbe95fb3749",
+      "title": "More than coders",
+      "content_text": "Lately, the compiler team has been changing up the way that we work. Our goal is to make it easier for people to track what we are doing and – hopefully – get involved. This is an ongoing effort, but one thing that has become clear immediately is this: the compiler team needs more than coders.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/04/15/more-than-coders/",
+      "date_published": "2019-04-15T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8fbc326e-e356-480c-8708-c6b4d8d66719",
+      "title": "Things I Enjoy in Rust: Error Handling",
+      "content_text": "I’ve already talked about how I like how enums are used in Rust. They make it easy to express multiple states and the state’s related data. One place this is excellently utilized is error handling.",
+      "url": "https://blog.jonstodle.com/things-i-enjoy-in-rust-error-handling/",
+      "date_published": "2019-04-21T12:00:00+02:00",
+      "author": {
+        "name": "Jon Grythe Stødle",
+        "url": "https://blog.jonstodle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c66e7e63-ea76-4d35-a15b-0bf56a905b07",
+      "title": "Rust's 2019 roadmap",
+      "content_text": "Each year the Rust community comes together to set out a roadmap. This year, in addition to the survey, we put out a call for blog posts in December, which resulted in 73 blog posts written over the span of a few weeks. The end result is the recently-merged 2019 roadmap RFC. To get all of the details, please give it a read, but this post lays out some of the highlights.",
+      "url": "https://blog.rust-lang.org/2019/04/23/roadmap.html",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "675975c8-b21a-4d87-8ac3-7e8c74fd8897",
       "title": "Things I Enjoy in Rust: Enums",
       "content_text": "I’ve been diving into Rust for the last couple of months, after my colleague started talking about it. I’ve been wanting to learn a lower level language, but C++ or something of the like have always seemed too daunting for me to even start.\n\nI’d heard of Rust before, and great things too, but hadn’t set apart time to look into it. I finally took the dive. And boy, am I glad I did.\n\nA lot of people talk about the borrowing system of Rust, or how fast it, or the strict type system. All of which are great things, but it’s not what I’m going to write about here. I’m excited about enums.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "adc39c05-2876-4ef4-b071-b4133c96c8ca",
+      "title": "Futures 0.1 Compatibility Layer",
+      "content_text": "Rust’s futures ecosystem is currently split in two: On the one hand we have the vibrant ecosystem built around futures@0.1 with its many libraries working on stable Rust and on the other hand there’s the unstable std::future ecosystem with support for the ergonomic and powerful async/await language feature. To bridge the gap between these two worlds we have introduced a compatibility layer as part of the futures@0.3 extension to std::future. This blog post aims to give an overview over how to use it.",
+      "url": "https://rust-lang-nursery.github.io/futures-rs/blog/2019/04/18/compatibility-layer.html",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Josef Brandl",
+        "url": "https://rust-lang-nursery.github.io/futures-rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "50725324-0ca7-4137-8e95-9d5e023881f8",
       "title": "splines-1.0.0 and first release candidate",
       "content_text": "today, I’m going to talk about the splines crate. And more specifically, the splines-1.0.0-rc.1 release candidate I uploaded today on crates.io. Maybe you’re wondering what a spline is, in the first place. A spline is a mathematic curve that is defined by several polynomials. You can picture them mentally by several small and simple curves combined to each others, giving the curve an interesting shape and properties. Now why we want splines is easy to understand: imagine a curve, something smooth and a bit complex (maybe even with loops). Now, imagine you want to make an object move along that curve. How do you represent that curve and how to you “make something advance along it?”",
