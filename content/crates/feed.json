@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3ac75258-fb50-4341-9a2a-e5a90def4a55",
+      "title": "Writing Mails from Rust (2/3): The mail crate",
+      "content_text": "The mail crate is a modular Rust library for creating, modifying and then encoding mails. It also has bindings to our new crate new-tokio-smtp to allow sending mails asynchronously, as well as bindings to handlebars for creating mails from templates. It currently does not support parsing mails, but is designed in a way that decoding capabilities could be easily added in the future (contact me if that is something you'd be interested in working on!). At 1aim, we are already using mail in production.",
+      "url": "https://blog.1aim.com/post/003-mail-2-crate/",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Korber",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "adc39c05-2876-4ef4-b071-b4133c96c8ca",
       "title": "Futures 0.1 Compatibility Layer",
       "content_text": "Rust’s futures ecosystem is currently split in two: On the one hand we have the vibrant ecosystem built around futures@0.1 with its many libraries working on stable Rust and on the other hand there’s the unstable std::future ecosystem with support for the ergonomic and powerful async/await language feature. To bridge the gap between these two worlds we have introduced a compatibility layer as part of the futures@0.3 extension to std::future. This blog post aims to give an overview over how to use it.",

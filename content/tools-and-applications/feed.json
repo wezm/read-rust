@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f995f40c-77a1-4091-8c38-7ec9c848e3f7",
+      "title": "Sonic: a minimalist  alternative to Elasticsearch written in Rust",
+      "content_text": "I always end up using Elasticsearch to index documents, to generate autocompletes and for geolocation. Sonic doesn’t solve all three problems but it is a good tool to solve the first two. I have not yet used it in production, but it seems like a good lightweight alternative to Elasticsearch.\n\nSince we love databases and we are trying to focus on Rust projects, Amin Arria and I decided to interview Sonic’s creator, Valerian Saliou, who generously agreed.",
+      "url": "https://notamonadtutorial.com/sonic-a-minimalist-alternative-to-elasticsearch-written-in-rust-7f3612ecb47b",
+      "date_published": "2019-04-02T16:15:58.458+00:00",
+      "author": {
+        "name": "unbalancedparentheses",
+        "url": "https://notamonadtutorial.com/@unbalancedparen"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "aeb77fc8-4dba-424f-b119-aa77300b683d",
+      "title": "Reviewing Sled: Part II",
+      "content_text": "Sled is an embedded database engine written in Rust. It takes a very different approach for how to store data, which I’m really excited to see. And with that, let’s be about it. In stopped in my last post when getting to the flusher, which simply sleep and call flush on the iobufs.",
+      "url": "https://ayende.com/blog/186785-A/reviewing-sled-part-ii?Key=d48f04ae-25dc-428e-992a-ff38587a7c72",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "49f9c596-e61c-402d-a2de-21c8350ccac6",
       "title": "LeftWM - A tiling window manager for Adventurers",
       "content_text": "A tiling window manager written in Rust for stability and performance. The core of left is designed to do one thing and one thing well. Be a window manager. Because you probably want more than just a black screen LeftWM is built around the concept of theming. With themes you can choose between different bar / compositor / background / colors, whatever makes you happy. LeftWM has been built from the very beginning to support multiple screens and has been built around ultrawide monitors. You will see this with the default key bindings",

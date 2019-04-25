@@ -10,6 +10,123 @@
   },
   "items": [
     {
+      "id": "3ac75258-fb50-4341-9a2a-e5a90def4a55",
+      "title": "Writing Mails from Rust (2/3): The mail crate",
+      "content_text": "The mail crate is a modular Rust library for creating, modifying and then encoding mails. It also has bindings to our new crate new-tokio-smtp to allow sending mails asynchronously, as well as bindings to handlebars for creating mails from templates. It currently does not support parsing mails, but is designed in a way that decoding capabilities could be easily added in the future (contact me if that is something you'd be interested in working on!). At 1aim, we are already using mail in production.",
+      "url": "https://blog.1aim.com/post/003-mail-2-crate/",
+      "date_published": "2019-01-29T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Korber",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "f995f40c-77a1-4091-8c38-7ec9c848e3f7",
+      "title": "Sonic: a minimalist  alternative to Elasticsearch written in Rust",
+      "content_text": "I always end up using Elasticsearch to index documents, to generate autocompletes and for geolocation. Sonic doesn’t solve all three problems but it is a good tool to solve the first two. I have not yet used it in production, but it seems like a good lightweight alternative to Elasticsearch.\n\nSince we love databases and we are trying to focus on Rust projects, Amin Arria and I decided to interview Sonic’s creator, Valerian Saliou, who generously agreed.",
+      "url": "https://notamonadtutorial.com/sonic-a-minimalist-alternative-to-elasticsearch-written-in-rust-7f3612ecb47b",
+      "tweet_url": "https://twitter.com/unbalancedparen/status/1113115428992286720",
+      "date_published": "2019-04-02T16:15:58.458+00:00",
+      "author": {
+        "name": "unbalancedparentheses",
+        "url": "https://notamonadtutorial.com/@unbalancedparen"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "9197a635-8114-4c33-ae94-226af2147624",
+      "title": "How to Write Better Compilation Error Message In Rust",
+      "content_text": "While exploring Rust's standard libraries, I came across a beautiful feature of Rust - compile_error.",
+      "url": "https://blog.knoldus.com/how-to-write-better-compilation-error-message-in-rust/",
+      "date_published": "2019-03-31T14:08:04+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8c6f2335-8fba-4cb5-9da1-2baba7f59159",
+      "title": "for await loops (Part I)",
+      "content_text": "The biggest unresolved question regarding the async/await syntax is the final syntax for the await operator. There’s been an enormous amount of discussion on this question so far; a summary of the present status of that discussion and the positions within the language team is coming soon. Right now I want to separately focus on one question which impacts that decision but hasn’t been considered very much yet: for loops which process streams.",
+      "url": "https://boats.gitlab.io/blog/post/for-await-i/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1117830397457502208",
+      "date_published": "2019-04-15T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "91b5c36e-a3f8-4cbd-ad0e-cd796ee6ea24",
+      "title": "How Rust Solved Dependency Hell",
+      "content_text": "Every once in a while I'll be involved in a conversation about dependency management and versions, often at work, in which the subject of “dependency hell” will come up. If you're not familiar with the term, then I encourage you to look it up. A brief summary might be: \"The frustration that comes from dealing with application dependency versions and dependency conflicts\". With that in mind, let's get a little technical about dependency resolution.",
+      "url": "https://stephencoakley.com/2019/04/24/how-rust-solved-dependency-hell",
+      "tweet_url": "https://twitter.com/sagebind/status/1121212154726756352",
+      "date_published": "2019-04-24T05:00:00+00:00",
+      "author": {
+        "name": "Stephen Coakley",
+        "url": "https://stephencoakley.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ef4b2e3e-406a-4553-9c49-3676c83eae96",
+      "title": "Leveraging Travis-CI for Continuous Deployment to Publish Compiled Binaries to GitHub",
+      "content_text": "Recently I wrote a binary called \"Watchdog\" in Rust on my Mac that I wanted to take with me to Linux systems I frequent, but I couldn't bring a Rust compiler to these systems for unrelated reasons. This meant I had to cross-compile my application and ship just the binary.",
+      "url": "https://dev.to/hawkinjs/leveraging-travis-ci-for-continuous-deployment-to-publish-compiled-binaries-to-github-2k06",
+      "tweet_url": "https://twitter.com/hawkinjs/status/1121249432727621632",
+      "date_published": "2019-04-25T00:00:00+00:00",
+      "author": {
+        "name": "Josh Hawkins",
+        "url": "https://dev.to/hawkinjs"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "ce78473f-6f58-428d-ba3e-cbbbfc778345",
+      "title": "Announcing Rust 1.34.1",
+      "content_text": "This patch release fixes two false positives and a panic when checking macros in Clippy. Clippy is a tool which provides a collection of lints to catch common mistakes and improve your Rust code.",
+      "url": "https://blog.rust-lang.org/2019/04/25/Rust-1.34.1.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1121454622898622464",
+      "date_published": "2019-04-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "aeb77fc8-4dba-424f-b119-aa77300b683d",
+      "title": "Reviewing Sled: Part II",
+      "content_text": "Sled is an embedded database engine written in Rust. It takes a very different approach for how to store data, which I’m really excited to see. And with that, let’s be about it. In stopped in my last post when getting to the flusher, which simply sleep and call flush on the iobufs.",
+      "url": "https://ayende.com/blog/186785-A/reviewing-sled-part-ii?Key=d48f04ae-25dc-428e-992a-ff38587a7c72",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "88bf7467-0164-4b01-a0fc-1b33ffe55f45",
       "title": "Non-lexical lifetimes in Rust",
       "content_text": "This blog is for new Rustacean, who's just started exploring Rust. Demonstrating a scenario that is possible because of the Non-lexical lifetimes feature. This feature was introduced in Rust 2018 edition. Earlier than, in Rust 2015, it was not possible.",

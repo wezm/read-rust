@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "9197a635-8114-4c33-ae94-226af2147624",
+      "title": "How to Write Better Compilation Error Message In Rust",
+      "content_text": "While exploring Rust's standard libraries, I came across a beautiful feature of Rust - compile_error.",
+      "url": "https://blog.knoldus.com/how-to-write-better-compilation-error-message-in-rust/",
+      "date_published": "2019-03-31T14:08:04+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8c6f2335-8fba-4cb5-9da1-2baba7f59159",
+      "title": "for await loops (Part I)",
+      "content_text": "The biggest unresolved question regarding the async/await syntax is the final syntax for the await operator. There’s been an enormous amount of discussion on this question so far; a summary of the present status of that discussion and the positions within the language team is coming soon. Right now I want to separately focus on one question which impacts that decision but hasn’t been considered very much yet: for loops which process streams.",
+      "url": "https://boats.gitlab.io/blog/post/for-await-i/",
+      "date_published": "2019-04-15T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "91b5c36e-a3f8-4cbd-ad0e-cd796ee6ea24",
+      "title": "How Rust Solved Dependency Hell",
+      "content_text": "Every once in a while I'll be involved in a conversation about dependency management and versions, often at work, in which the subject of “dependency hell” will come up. If you're not familiar with the term, then I encourage you to look it up. A brief summary might be: \"The frustration that comes from dealing with application dependency versions and dependency conflicts\". With that in mind, let's get a little technical about dependency resolution.",
+      "url": "https://stephencoakley.com/2019/04/24/how-rust-solved-dependency-hell",
+      "date_published": "2019-04-24T05:00:00+00:00",
+      "author": {
+        "name": "Stephen Coakley",
+        "url": "https://stephencoakley.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ce78473f-6f58-428d-ba3e-cbbbfc778345",
+      "title": "Announcing Rust 1.34.1",
+      "content_text": "This patch release fixes two false positives and a panic when checking macros in Clippy. Clippy is a tool which provides a collection of lints to catch common mistakes and improve your Rust code.",
+      "url": "https://blog.rust-lang.org/2019/04/25/Rust-1.34.1.html",
+      "date_published": "2019-04-25T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b35d346f-7773-44c5-8db5-4cbe95fb3749",
       "title": "More than coders",
       "content_text": "Lately, the compiler team has been changing up the way that we work. Our goal is to make it easier for people to track what we are doing and – hopefully – get involved. This is an ongoing effort, but one thing that has become clear immediately is this: the compiler team needs more than coders.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ef4b2e3e-406a-4553-9c49-3676c83eae96",
+      "title": "Leveraging Travis-CI for Continuous Deployment to Publish Compiled Binaries to GitHub",
+      "content_text": "Recently I wrote a binary called \"Watchdog\" in Rust on my Mac that I wanted to take with me to Linux systems I frequent, but I couldn't bring a Rust compiler to these systems for unrelated reasons. This meant I had to cross-compile my application and ship just the binary.",
+      "url": "https://dev.to/hawkinjs/leveraging-travis-ci-for-continuous-deployment-to-publish-compiled-binaries-to-github-2k06",
+      "date_published": "2019-04-25T00:00:00+00:00",
+      "author": {
+        "name": "Josh Hawkins",
+        "url": "https://dev.to/hawkinjs"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "a82e8094-4499-4915-9b77-0d40cce84878",
       "title": "Cross Compiling Rust for FreeBSD With Docker",
       "content_text": "For a little side project I’m working on I want to be able to produce pre-compiled binaries for a variety of platforms, including FreeBSD. With a bit of trial and error I have been able to successfully build working FreeBSD binaries from a Docker container, without using (slow) emulation/virtual machines. This post describes how it works and how to add it to your own Rust project.",
