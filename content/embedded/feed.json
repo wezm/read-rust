@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e2e96d6e-78ce-43fe-a9b7-95fce36b169c",
+      "title": "Hello world in morse code",
+      "content_text": "I do love working with Rust. I deliberately create excuses to work on mini projects that ultimately involves coding in Rust. Recently, I have bought a blue pill which is a little board that costs about 1$. Although, I have zero experience in embedded programming I always wanted to give it a try with Rust which, in my case, boils down to blinking a LED on the board. I know there are excellent materials about embedded programming with Rust out there, but things do change very rapidly.",
+      "url": "https://idursun.com/posts/hello_world_in_morse_code/",
+      "date_published": "2019-04-25T19:29:42+01:00",
+      "author": {
+        "name": "Ibrahim Dursun",
+        "url": "https://idursun.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "fc88b6c6-cf80-4546-b03a-94bcdebf6232",
       "title": "Using DMA to transfer data with Embedded Rust",
       "content_text": "In this article you will learn how to use the Direct Memory Access (DMA) controller to transfer data from memory to the built-in Digital to Analog Converter (DAC) on the STM32F3DISCOVERY board.",

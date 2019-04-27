@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c9e2beae-20d5-4c7a-b8de-01f52b18aec1",
+      "title": "Simple Chat using Sonr-extras",
+      "content_text": "Using sonr-extras to build a very basic chat using the provided connection handling objects.",
+      "url": "https://hagsteel.com/posts/simple-chat/",
+      "date_published": "2019-04-24T00:00:00+02:00",
+      "author": {
+        "name": "Jonas",
+        "url": "https://hagsteel.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ad39fd8f-6ca7-499e-bebb-f8a35d3d0a66",
+      "title": "Introducing @now/rust",
+      "content_text": "ZEIT is proud to announce official support for Rust on Now through `@now/rust`. Our mission at ZEIT is to make cloud computing accessible for all. Rust has seen rapid growth in its adoption, and we're proud to be able to support the community.",
+      "url": "https://zeit.co/blog/introducing-now-rust",
+      "date_published": "2019-03-12T00:00:00+00:00",
+      "author": {
+        "name": "ZEIT",
+        "url": "https://zeit.co/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "bd3e3e37-90f2-4941-ba7c-00fdae65bdac",
       "title": "Using Wasmer for Plugins Part 3",
       "content_text": "In the last two posts of this series we covered all of the things we would need to use Wasmer as the base for a plugin system. In part one we went over the basics of passing simple data in and out of a web assembly module, in part two we dug deeper into how you might do the same with more complicated data. In this part we are going to explore how we might ease the experience for people developing plugins for our application.",

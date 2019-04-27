@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0d66bab5-b38a-4f8a-8c6f-2c7c2cd41fab",
+      "title": "Refactoring Varisat 5: Incremental Solving and Proofs",
+      "content_text": "This is the fifth and final post in my series about refactoring varisat. In the last post varisat gained the heuristics needed to solve some non-trivial instances. In this post we’ll add incremental solving and proof generation. This brings varisat to feature parity with the old version.",
+      "url": "https://jix.one/refactoring-varisat-5-incremental-solving-and-proofs/",
+      "date_published": "2019-04-26T16:12:54+02:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "6af41799-4171-46ca-ab1f-572b8669da6e",
       "title": "Using the IOMMU for Safe and Secure User Space Network Drivers",
       "content_text": "Commonly used user space network drivers such as DPDK or Snabb currently have effectivelyfull access to the main memory via the unrestricted Direct Memory Access (DMA) capabilities of the PCI Express (PCIe) device they are controlling. This can be a security issue, as the driver can use the PCIe devices DMA access to read and / or write to main memory. In this thesis, support for using the IOMMU via the vfio-pci driver from the Linux kernel for the user space network driver ixy was implemented in C and Rust and the IOMMU and its impact on the drivers were investigated.",

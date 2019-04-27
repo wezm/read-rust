@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "28c59573-37da-46b6-92c0-f6fbb4a5e613",
+      "title": "Creating cross-platform Rust terminal apps",
+      "content_text": "I’ve been wanting to play around with the cool spinning Pikachu demo everyone was talking about. Sadly, it used termion to do its magic, which meant that unfortunately it wouldn’t work for me. Termion has been a boon for Rust, with lots of folks using it to create terminal applications. Unfortunately, as a Windows user, I know there’s a good chance that if the crate depends on termion that’s the end of the line for me, as termion apps just don’t work in Windows. Surely, I thought, there must be a better way, but I never managed to find one. Enter crossterm.",
+      "url": "http://www.jonathanturner.org/2019/04/porting-the-pikachu.html",
+      "date_published": "2019-04-27T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9197a635-8114-4c33-ae94-226af2147624",
       "title": "How to Write Better Compilation Error Message In Rust",
       "content_text": "While exploring Rust's standard libraries, I came across a beautiful feature of Rust - compile_error.",

@@ -10,6 +10,151 @@
   },
   "items": [
     {
+      "id": "a436e872-4c6f-4b9a-a311-eb7658d23cb2",
+      "title": "Design Space Map",
+      "content_text": "The Rust community currently appears to reconfigure its design process. There is some discussion around RFCs. A topic that comes up is shared summaries. I think this is a great idea and want to share my 2¢ here.",
+      "url": "https://llogiq.github.io/2019/04/23/map.html",
+      "tweet_url": "https://twitter.com/llogiq/status/1120731463073370118",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "c9e2beae-20d5-4c7a-b8de-01f52b18aec1",
+      "title": "Simple Chat using Sonr-extras",
+      "content_text": "Using sonr-extras to build a very basic chat using the provided connection handling objects.",
+      "url": "https://hagsteel.com/posts/simple-chat/",
+      "date_published": "2019-04-24T00:00:00+02:00",
+      "author": {
+        "name": "Jonas",
+        "url": "https://hagsteel.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "47f0e720-8b24-41d0-8f3a-97683b5f03b3",
+      "title": "Implementing tile encoding in rav1e",
+      "content_text": "During the last few months at Videolabs, I added support for tile encoding in rav1e (a Rust AV1 Encoder). AV1 is an open and royalty-free video coding format, concurrent with HEVC (H.265). Rav1e is an encoder written in Rust, developped by Mozilla/Xiph. As such, it takes an input video and encodes it to produce a valid AV1 bitstream. Tile encoding consists in splitting video frames into tiles that can be encoded and decoded independently in parallel (to use several CPUs), at the cost of a small loss in compression efficiency. This speeds up encoding and increases decoding frame rate.",
+      "url": "https://blog.rom1v.com/2019/04/implementing-tile-encoding-in-rav1e/",
+      "date_published": "2019-04-25T00:00:00+00:00",
+      "author": {
+        "name": "Romain Vimont",
+        "url": "https://blog.rom1v.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "9f8e4402-c90a-4e59-90c2-ca34bf6c2689",
+      "title": "Writing Mails from Rust (3/3): Example usage with explanations",
+      "content_text": "After the previous two posts this post will go step by step through how the mail crate can be used to create mails based on a handlebars template and send them to a Mail Submission Agent (MSA).",
+      "url": "https://blog.1aim.com/post/004-mail-3-example/",
+      "date_published": "2019-02-28T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Korber",
+        "url": "https://blog.1aim.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e2e96d6e-78ce-43fe-a9b7-95fce36b169c",
+      "title": "Hello world in morse code",
+      "content_text": "I do love working with Rust. I deliberately create excuses to work on mini projects that ultimately involves coding in Rust. Recently, I have bought a blue pill which is a little board that costs about 1$. Although, I have zero experience in embedded programming I always wanted to give it a try with Rust which, in my case, boils down to blinking a LED on the board. I know there are excellent materials about embedded programming with Rust out there, but things do change very rapidly.",
+      "url": "https://idursun.com/posts/hello_world_in_morse_code/",
+      "tweet_url": "https://twitter.com/idursun/status/1121756119062458369",
+      "date_published": "2019-04-25T19:29:42+01:00",
+      "author": {
+        "name": "Ibrahim Dursun",
+        "url": "https://idursun.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "28c59573-37da-46b6-92c0-f6fbb4a5e613",
+      "title": "Creating cross-platform Rust terminal apps",
+      "content_text": "I’ve been wanting to play around with the cool spinning Pikachu demo everyone was talking about. Sadly, it used termion to do its magic, which meant that unfortunately it wouldn’t work for me. Termion has been a boon for Rust, with lots of folks using it to create terminal applications. Unfortunately, as a Windows user, I know there’s a good chance that if the crate depends on termion that’s the end of the line for me, as termion apps just don’t work in Windows. Surely, I thought, there must be a better way, but I never managed to find one. Enter crossterm.",
+      "url": "http://www.jonathanturner.org/2019/04/porting-the-pikachu.html",
+      "tweet_url": "https://twitter.com/jntrnr/status/1121911927301558272",
+      "date_published": "2019-04-27T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0d66bab5-b38a-4f8a-8c6f-2c7c2cd41fab",
+      "title": "Refactoring Varisat 5: Incremental Solving and Proofs",
+      "content_text": "This is the fifth and final post in my series about refactoring varisat. In the last post varisat gained the heuristics needed to solve some non-trivial instances. In this post we’ll add incremental solving and proof generation. This brings varisat to feature parity with the old version.",
+      "url": "https://jix.one/refactoring-varisat-5-incremental-solving-and-proofs/",
+      "date_published": "2019-04-26T16:12:54+02:00",
+      "author": {
+        "name": "Jannis Harder",
+        "url": "https://jix.one/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "a3598959-4fde-42aa-9fcf-4310741caa5e",
+      "title": "The XV Hex Viewer",
+      "content_text": "XV is a terminal hex viewer with a text user interface, written in 100% safe Rust. Licensed under the Apache-2.0 software license. Get it from crates.io by running cargo install xv in your terminal.",
+      "url": "https://chrisvest.github.io/xv/",
+      "tweet_url": "https://twitter.com/chvest/status/1120780842257850368",
+      "date_published": "2019-04-24T10:34:15+02:00",
+      "author": {
+        "name": "Chris Vest",
+        "url": "https://twitter.com/chvest"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ad39fd8f-6ca7-499e-bebb-f8a35d3d0a66",
+      "title": "Introducing @now/rust",
+      "content_text": "ZEIT is proud to announce official support for Rust on Now through `@now/rust`. Our mission at ZEIT is to make cloud computing accessible for all. Rust has seen rapid growth in its adoption, and we're proud to be able to support the community.",
+      "url": "https://zeit.co/blog/introducing-now-rust",
+      "tweet_url": "https://twitter.com/zeithq/status/1105157012340432897",
+      "date_published": "2019-03-12T00:00:00+00:00",
+      "author": {
+        "name": "ZEIT",
+        "url": "https://zeit.co/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "2d3bd098-bf1d-451b-bef0-b2e84678b4e3",
+      "title": "Terminal Redox: Some Developer Tools Written in Rust",
+      "content_text": "In my very slow and not very steady quest to learn the Rust programming language, I’ve come across a few projects written in the language that I use everyday. I thought I’d write a quick post about them, with some configuration tricks that I’ve made to make them suit my needs.\n\nWhy prefer tools built with Rust? Rust is a very fast language that also works to ensure safety from a group of bugs and pitfalls. It’s also the four-time-running most loved programming language, according to a yearly Stack Overflow survey. Also, since Rust is only a few years old, any program written in Rust is by definition new. Of course newer doesn’t always mean better, but as a non-professional developer I can afford to be on the edge a bit.",
+      "url": "https://sts10.github.io//2019/04/08/terminal-redox-alacritty.html",
+      "date_published": "2019-04-08T22:11:00+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "3ac75258-fb50-4341-9a2a-e5a90def4a55",
       "title": "Writing Mails from Rust (2/3): The mail crate",
       "content_text": "The mail crate is a modular Rust library for creating, modifying and then encoding mails. It also has bindings to our new crate new-tokio-smtp to allow sending mails asynchronously, as well as bindings to handlebars for creating mails from templates. It currently does not support parsing mails, but is designed in a way that decoding capabilities could be easily added in the future (contact me if that is something you'd be interested in working on!). At 1aim, we are already using mail in production.",
@@ -117,7 +262,7 @@
       "title": "Reviewing Sled: Part II",
       "content_text": "Sled is an embedded database engine written in Rust. It takes a very different approach for how to store data, which I’m really excited to see. And with that, let’s be about it. In stopped in my last post when getting to the flusher, which simply sleep and call flush on the iobufs.",
       "url": "https://ayende.com/blog/186785-A/reviewing-sled-part-ii?Key=d48f04ae-25dc-428e-992a-ff38587a7c72",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2019-04-01T00:00:00+00:00",
       "author": {
         "name": "Ayende Rahien",
         "url": "https://ayende.com/blog/"

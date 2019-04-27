@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a436e872-4c6f-4b9a-a311-eb7658d23cb2",
+      "title": "Design Space Map",
+      "content_text": "The Rust community currently appears to reconfigure its design process. There is some discussion around RFCs. A topic that comes up is shared summaries. I think this is a great idea and want to share my 2¢ here.",
+      "url": "https://llogiq.github.io/2019/04/23/map.html",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "e335233d-84ab-4f50-9cc0-5e401a6b5363",
       "title": "AiC: Collaborative summary documents",
       "content_text": "One of the challenges I see with how we often do design is that this “solution space” is actually quite implicit. We are exploring it through comments, but each comment is only tracing out one path through the terrain. I wanted to see if we could try to represent the solution space explicitly. This post is a kind of “experience report” on one such experiment, what I am calling a collaborative summary document (in contrast to the more standard summary comment that we often do).",
