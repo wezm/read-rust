@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "5af81963-5163-49f3-bd47-27b91d6dbd34",
+      "title": "Monitoring AWS Batch Jobs with Rust",
+      "content_text": "At Pixability my team and I recently created a pretty neat AWS Batch driven system. AWS Batch can can handle almost any task seamlessly and it’s pretty easy to manage with the console. This is great already, but I was curious to see what it would look like to monitor Batch with Rust. Watchrs was inspired by this question and currently provides basic functionality to do so. In this post we will be briefly going over how the main components of watchrs were built and how to use them all together.",
+      "url": "https://medium.com/rusted/monitoring-aws-batch-jobs-with-rust-8f1ef6115871",
+      "date_published": "2019-04-24T01:05:46.511+00:00",
+      "author": {
+        "name": "Michael Habib",
+        "url": "https://medium.com/@itsHabib"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "8ff4000f-f8c6-41b9-a91b-c0bd9d23ca69",
+      "title": "Pre luminance-1.0.0 and random thoughts",
+      "content_text": "Hello people. It’s been weeks I have started to work on luminance-1.0.0. For a brief recap, luminance is a graphics crate that I originally created in Haskell, when I ripped it off from a demoscene engine called quaazar in order to make and maintain tiner packages. The Rust port was my first Rust project and it became quickly the default language I would develop graphics applications in.",
+      "url": "https://phaazon.net/blog/pre-luminance-n-random-thoughts",
+      "date_published": "2019-04-26T22:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "675a435e-aadf-4ded-b3d1-50d6a8afaced",
+      "title": "emacs-module-rs provides high-level Rust binding and tools to write Emacs's dynamic modules.",
+      "content_text": "This provides a high-level binding to emacs-module, Emacs's support for dynamic modules.",
+      "url": "https://ubolonton.github.io/emacs-module-rs/0.8.0/",
+      "date_published": "2019-04-20T11:11:45+00:00",
+      "author": {
+        "name": "Tuấn-Anh Nguyễn",
+        "url": "https://github.com/ubolonton"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "9f8e4402-c90a-4e59-90c2-ca34bf6c2689",
       "title": "Writing Mails from Rust (3/3): Example usage with explanations",
       "content_text": "After the previous two posts this post will go step by step through how the mail crate can be used to create mails based on a handlebars template and send them to a Mail Submission Agent (MSA).",

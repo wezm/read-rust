@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2766c75e-b1e0-4ae9-9cc2-8c3a8476bb57",
+      "title": "Writing an OS in Rust: Testing",
+      "content_text": "This post explores unit and integration testing in no_std executables. We will use Rust's support for custom test frameworks to execute test functions inside our kernel. To report the results out of QEMU, we will use different features of QEMU and the bootimage tool.",
+      "url": "https://os.phil-opp.com/testing/",
+      "date_published": "2019-04-27T23:03:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "99bfc2e1-cc1f-4047-941f-627f7e222d75",
       "title": "Writing UEFI application in Rust from scratch",
       "content_text": "Recently, x86_64-unknown-uefi target was added into Rust mainline (https://github.com/rust-lang/rust/pull/56769). So, I tried to write UEFI application with this update. There exists an awesome crate, uefi-rs, which provides Rust interface for UEFI application. However, this is my first time to write UEFI application, so to understand what happens in it, I didn’t use any existing crate.",

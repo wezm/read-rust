@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e25d035f-9121-4cd6-b0ac-f98db53fb3e5",
+      "title": "DataFusion 0.13.0 Benchmarks",
+      "content_text": "Over the past couple weeks I’ve been working on a couple different efforts around parallel query execution with DataFusion: 1. Benchmarking parallel query execution by manually creating one execution context per parquet partition and running on a thread, just to get an idea of expected performance, and comparing results to Apache Spark (running in local mode). 2. Creating a PoC of actual parallel query execution in the Arrow/DataFusion repository. This post is mostly about the first effort.",
+      "url": "https://andygrove.io/2019/04/datafusion-0.13.0-benchmarks/",
+      "date_published": "2019-04-28T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "5af2fc94-f73d-498a-99b8-15400fad948e",
       "title": "Arenas vs. Indices",
       "content_text": "When optimizing code, one thing I’m always looking for is memory layout and access patterns. One such pattern is an arena: Reserve some sufficiently large space to put your objects in, then allocate by incrementing a pointer. If your objects are of a uniform type, you can basically simplify this to a Vec of that type.",

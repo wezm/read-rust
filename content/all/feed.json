@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "b7836b84-068e-4db1-9c0c-2dea0652626d",
+      "title": "Building a pub/sub server with Sonr (part 2)",
+      "content_text": "This is the second part in a two part series on writing a pub/sub server in Rust using Sonr. We will jump straight in building the publisher. This is the biggest piece of code so far in this project.",
+      "url": "https://hagsteel.com/posts/building-a-pub-sub-with-sonr-part-2/",
+      "date_published": "2019-04-11T01:00:00+01:00",
+      "author": {
+        "name": "Jonas",
+        "url": "https://hagsteel.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5af81963-5163-49f3-bd47-27b91d6dbd34",
+      "title": "Monitoring AWS Batch Jobs with Rust",
+      "content_text": "At Pixability my team and I recently created a pretty neat AWS Batch driven system. AWS Batch can can handle almost any task seamlessly and it’s pretty easy to manage with the console. This is great already, but I was curious to see what it would look like to monitor Batch with Rust. Watchrs was inspired by this question and currently provides basic functionality to do so. In this post we will be briefly going over how the main components of watchrs were built and how to use them all together.",
+      "url": "https://medium.com/rusted/monitoring-aws-batch-jobs-with-rust-8f1ef6115871",
+      "date_published": "2019-04-24T01:05:46.511+00:00",
+      "author": {
+        "name": "Michael Habib",
+        "url": "https://medium.com/@itsHabib"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "767bc80b-e61f-4e0f-8cbb-82655b7aa767",
+      "title": "Reviewing Sled: Part III",
+      "content_text": "Unusually for me, I had a bit of a pause in reviewing Sled. As a reminder, Sled is an embedded database engine written in Rust. I last stopped looking at the buffer management, but I still don’t really have a good grasp of what is going on. The next file is the iterator. It looks like it translates between segments and messages in these segments.",
+      "url": "https://ayende.com/blog/187073-C/reviewing-sled-part-iii",
+      "date_published": "2019-04-23T00:00:00+00:00",
+      "author": {
+        "name": "Ayende Rahien",
+        "url": "https://ayende.com/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "95e18b0c-0a6c-42dd-80c8-cb5dbbe906e3",
+      "title": "Modules in Rust Programming Language",
+      "content_text": "Modules are one of the better ways to organize your code and reuse it wherever it is necessary. Rust module system is completely different from what I've used in Languages like JavaScript, GoLang and Python. When I started to learn this pattern, I didn't really like it but, after using them for sometime, now I really like the way it works.",
+      "url": "https://dev.to/saiumesh/modules-in-rust-programming-language-495m",
+      "date_published": "2019-04-25T04:24:00+00:00",
+      "author": {
+        "name": "sai umesh",
+        "url": "https://dev.to/saiumesh"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "8ff4000f-f8c6-41b9-a91b-c0bd9d23ca69",
+      "title": "Pre luminance-1.0.0 and random thoughts",
+      "content_text": "Hello people. It’s been weeks I have started to work on luminance-1.0.0. For a brief recap, luminance is a graphics crate that I originally created in Haskell, when I ripped it off from a demoscene engine called quaazar in order to make and maintain tiner packages. The Rust port was my first Rust project and it became quickly the default language I would develop graphics applications in.",
+      "url": "https://phaazon.net/blog/pre-luminance-n-random-thoughts",
+      "date_published": "2019-04-26T22:30:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e25d035f-9121-4cd6-b0ac-f98db53fb3e5",
+      "title": "DataFusion 0.13.0 Benchmarks",
+      "content_text": "Over the past couple weeks I’ve been working on a couple different efforts around parallel query execution with DataFusion: 1. Benchmarking parallel query execution by manually creating one execution context per parquet partition and running on a thread, just to get an idea of expected performance, and comparing results to Apache Spark (running in local mode). 2. Creating a PoC of actual parallel query execution in the Arrow/DataFusion repository. This post is mostly about the first effort.",
+      "url": "https://andygrove.io/2019/04/datafusion-0.13.0-benchmarks/",
+      "date_published": "2019-04-28T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "675a435e-aadf-4ded-b3d1-50d6a8afaced",
+      "title": "emacs-module-rs provides high-level Rust binding and tools to write Emacs's dynamic modules.",
+      "content_text": "This provides a high-level binding to emacs-module, Emacs's support for dynamic modules.",
+      "url": "https://ubolonton.github.io/emacs-module-rs/0.8.0/",
+      "date_published": "2019-04-20T11:11:45+00:00",
+      "author": {
+        "name": "Tuấn-Anh Nguyễn",
+        "url": "https://github.com/ubolonton"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2766c75e-b1e0-4ae9-9cc2-8c3a8476bb57",
+      "title": "Writing an OS in Rust: Testing",
+      "content_text": "This post explores unit and integration testing in no_std executables. We will use Rust's support for custom test frameworks to execute test functions inside our kernel. To report the results out of QEMU, we will use different features of QEMU and the bootimage tool.",
+      "url": "https://os.phil-opp.com/testing/",
+      "date_published": "2019-04-27T23:03:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/second-edition/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "a436e872-4c6f-4b9a-a311-eb7658d23cb2",
       "title": "Design Space Map",
       "content_text": "The Rust community currently appears to reconfigure its design process. There is some discussion around RFCs. A topic that comes up is shared summaries. I think this is a great idea and want to share my 2¢ here.",
