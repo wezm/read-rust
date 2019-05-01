@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "10ce619a-7183-49cf-91c8-99e0f085a272",
+      "title": "RustPlayground: Quickly test Rust code on macOS.",
+      "content_text": "Rust Playground for MacOS is a standalone native mac application that allows quickly editing and testing rust snippets.",
+      "url": "https://github.com/cmyr/RustPlayground",
+      "date_published": "2019-04-30T03:59:00+00:00",
+      "author": {
+        "name": "colin rofls",
+        "url": "https://github.com/cmyr"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "767bc80b-e61f-4e0f-8cbb-82655b7aa767",
       "title": "Reviewing Sled: Part III",
       "content_text": "Unusually for me, I had a bit of a pause in reviewing Sled. As a reminder, Sled is an embedded database engine written in Rust. I last stopped looking at the buffer management, but I still don’t really have a good grasp of what is going on. The next file is the iterator. It looks like it translates between segments and messages in these segments.",

@@ -10,6 +10,78 @@
   },
   "items": [
     {
+      "id": "00aea687-4bba-48e5-8568-000ef44a419e",
+      "title": "A close touch with Rust community",
+      "content_text": "About RustCon Asia 2019：There was definitely a little bit of everything for everyone attended. It was heartwarming to see people enjoying their experience from talks and at the same time meeting new and old friends. The portion of the attendees was just beginning with Rust benefited from talks such as Olivia’s RustBridge for beginners, Nick’s thinking in Rust and Alex’s How to learn Rust efficiently.",
+      "url": "https://medium.com/@Aimeedeer/a-close-touch-with-rust-community-4a8507b756d9",
+      "date_published": "2019-04-29T11:49:07.850+00:00",
+      "author": {
+        "name": "Aimee Z",
+        "url": "https://medium.com/@Aimeedeer"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "10ce619a-7183-49cf-91c8-99e0f085a272",
+      "title": "RustPlayground: Quickly test Rust code on macOS.",
+      "content_text": "Rust Playground for MacOS is a standalone native mac application that allows quickly editing and testing rust snippets.",
+      "url": "https://github.com/cmyr/RustPlayground",
+      "tweet_url": "https://twitter.com/cmyr/status/1122923394503196672",
+      "date_published": "2019-04-30T03:59:00+00:00",
+      "author": {
+        "name": "colin rofls",
+        "url": "https://github.com/cmyr"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b4cd814f-2f84-4e4d-b3a1-bba98d6a24f2",
+      "title": "Kubernetes operators in Rust",
+      "content_text": "Writing light weight cloud services without Go.",
+      "url": "https://clux.github.io/probes/post/2019-04-29-rust-on-kubernetes/",
+      "date_published": "2019-04-29T00:00:00+00:00",
+      "author": {
+        "name": "clux",
+        "url": "https://clux.github.io/probes/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "f2a55dcd-b163-42ac-8660-311e1cc384d0",
+      "title": "Stacked Borrows 2",
+      "content_text": "Recently, I have significantly updated Stacked Borrows in order to fix some issues with the handling of shared references that were uncovered in the previous version. In this post, I will describe what the new version looks like and how it differs from Stacked Borrows 1. I assume some familiarity with the prior version and will not explain everything from scratch.",
+      "url": "https://www.ralfj.de/blog/2019/04/30/stacked-borrows-2.html",
+      "date_published": "2019-04-30T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "094e167c-f023-449e-9976-247d314fd269",
+      "title": "My Key Learnings after 30,000 LOC in Rust",
+      "content_text": "For me, Rust takes a stroll over the memory lane above and picks and drives home the best experiences from all those languages — which is a",
+      "url": "https://medium.com/@jondot/my-key-learnings-after-30-000-loc-in-rust-a553e6403c19",
+      "tweet_url": "https://twitter.com/jondot/status/1122923363708678151",
+      "date_published": "2019-04-29T17:57:26.520+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b7836b84-068e-4db1-9c0c-2dea0652626d",
       "title": "Building a pub/sub server with Sonr (part 2)",
       "content_text": "This is the second part in a two part series on writing a pub/sub server in Rust using Sonr. We will jump straight in building the publisher. This is the biggest piece of code so far in this project.",

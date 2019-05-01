@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f2a55dcd-b163-42ac-8660-311e1cc384d0",
+      "title": "Stacked Borrows 2",
+      "content_text": "Recently, I have significantly updated Stacked Borrows in order to fix some issues with the handling of shared references that were uncovered in the previous version. In this post, I will describe what the new version looks like and how it differs from Stacked Borrows 1. I assume some familiarity with the prior version and will not explain everything from scratch.",
+      "url": "https://www.ralfj.de/blog/2019/04/30/stacked-borrows-2.html",
+      "date_published": "2019-04-30T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "094e167c-f023-449e-9976-247d314fd269",
+      "title": "My Key Learnings after 30,000 LOC in Rust",
+      "content_text": "For me, Rust takes a stroll over the memory lane above and picks and drives home the best experiences from all those languages — which is a",
+      "url": "https://medium.com/@jondot/my-key-learnings-after-30-000-loc-in-rust-a553e6403c19",
+      "date_published": "2019-04-29T17:57:26.520+00:00",
+      "author": {
+        "name": "Dotan Nahum",
+        "url": "https://medium.com/@jondot"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b7836b84-068e-4db1-9c0c-2dea0652626d",
       "title": "Building a pub/sub server with Sonr (part 2)",
       "content_text": "This is the second part in a two part series on writing a pub/sub server in Rust using Sonr. We will jump straight in building the publisher. This is the biggest piece of code so far in this project.",
