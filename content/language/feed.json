@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "37ea8a58-93a1-4e5c-b125-d98a250e601c",
+      "title": "Chess vocabulary in Rust",
+      "content_text": "Recently I've been using Rust to build a server for the new 7-piece Syzygy endgame tablebases. Using Rust was quite enjoyable and I plan to use it for many future projects. This series is intended to order and share my thoughts, and as a primer to discuss some open questions I have.",
+      "url": "https://backscattering.de/chess/vocabulary/",
+      "date_published": "2019-04-14T00:00:00+00:00",
+      "author": {
+        "name": "Niklas Fiekas",
+        "url": "https://backscattering.de/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f2a55dcd-b163-42ac-8660-311e1cc384d0",
       "title": "Stacked Borrows 2",
       "content_text": "Recently, I have significantly updated Stacked Borrows in order to fix some issues with the handling of shared references that were uncovered in the previous version. In this post, I will describe what the new version looks like and how it differs from Stacked Borrows 1. I assume some familiarity with the prior version and will not explain everything from scratch.",

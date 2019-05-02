@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4b134136-1041-4976-ba52-7e64e767ea89",
+      "title": "gptman: A CLI tool and library for managing GUID partition tables",
+      "content_text": "A CLI tool for Linux that allows you to copy a partition from one disk to another and more. A library that allows managing GUID partition tables. Features include: Read/Write GPT from 512 and 4096 bytes sector size disks, Create a new GPT on a disk, Insert/delete a partition in the table, Align partitions automatically, Resize a partition, Copy/clone a partition from one disk and insert it to another, Change partition type, Fix partitions order, Change disk GUID, Change partition name, Change partition GUID, Toggle legacy BIOS bootable, Toggle no block IO protocol, Toggle required partition flag, Toggle attributes, Customize columns to print, Print raw data of disklabel, Swap partition indexes, Randomize disk's GUID and all partition's GUID, Copy/clone all partitions from one disk and insert it to another.",
+      "url": "https://crates.io/crates/gptman",
+      "date_published": "2019-05-02T01:33:00+00:00",
+      "author": {
+        "name": "Cecile Tonglet",
+        "url": "https://twitter.com/CecileTonglet"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "10ce619a-7183-49cf-91c8-99e0f085a272",
       "title": "RustPlayground: Quickly test Rust code on macOS.",
       "content_text": "Rust Playground for MacOS is a standalone native mac application that allows quickly editing and testing rust snippets.",

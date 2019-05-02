@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7ee0306d-50cc-4b2a-8573-ff0c59c02b3f",
+      "title": "Rust for Frontend Developers: Modules",
+      "content_text": "Not that long ago I decided to start learning Rust. While it has a lot of useful resources online and a very friendly community there's still things that are weird to me. That's because Rust is a very different mental model than the frontend mental model I'm used to.\n\nThat means that things that are obvious to a lot of people are not obvious to me. So I'll try to document some of these things from the perspective of a frontend developer. This time on using modules.",
+      "url": "https://www.kennethlarsen.org/rust-for-frontend-developers-modules/",
+      "date_published": "2019-04-30T09:57:24+00:00",
+      "author": {
+        "name": "Kenneth Larsen",
+        "url": "https://www.kennethlarsen.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "95e18b0c-0a6c-42dd-80c8-cb5dbbe906e3",
       "title": "Modules in Rust Programming Language",
       "content_text": "Modules are one of the better ways to organize your code and reuse it wherever it is necessary. Rust module system is completely different from what I've used in Languages like JavaScript, GoLang and Python. When I started to learn this pattern, I didn't really like it but, after using them for sometime, now I really like the way it works.",

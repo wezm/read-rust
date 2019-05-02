@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "55cb403b-5cda-4f80-8708-f55a3dc66e95",
+      "title": "A Guide to Rust Graphics Libraries in 2019",
+      "content_text": "People on the gamedev channel of the Unofficial Rust Discord were talking about graphics API’s and what goes where and what does what, people were contradicting and correcting each other, the rain of acronyms was falling hard and fast, and it was all getting a bit muddled. So I’m here to attempt to set the record straight. This is intended to provide context for people who want to get into writing graphics stuff (video games, animations, cool visualizations, etc) in Rust and don’t know where to start.",
+      "url": "https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019",
+      "date_published": "2019-05-02T00:00:00+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "http://patreon.com/icefox"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "8c2f780c-fde4-4064-b179-ddc7deaedc98",
       "title": "Iterated Function System fractal visualizer in Rust",
       "content_text": "This is a toy program to render Iterated Function System fractals with Rust and OpenGL. Glium is used for OpenGL and the GUI is provided by imgui-rs.",
