@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9152c867-9b24-49d0-ac2c-d85775162eb4",
+      "title": "Explained: Futures in Rust for Web Development",
+      "content_text": "If you are coming from NodeJS, Futures in Rust don't make much sense. In NodeJS, everything happens asynchronously. Therefore for you to be able to say \"Hey, I really need to wait for the answer for this GET HTTP call\", you are putting.then() on a Promise, so you can make sure you just execute the code inside the .then() when the HTTP call is finished.\n\nIn Rust, everything is blocking and synchronous by default, so you might ask yourself: \"Why bothering with the complexity, that's exactly what I wanted in the first place!\"",
+      "url": "https://dev.to/gruberb/explained-rust-futures-for-web-development-a10",
+      "date_published": "2019-05-02T00:00:00+00:00",
+      "author": {
+        "name": "Bastian Gruber",
+        "url": "https://dev.to/gruberb"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4cc7ac88-4ef9-40fd-b235-bee8151e059d",
       "title": "Rolling your own Router with Smithy v0.0.3",
       "content_text": "Build a WebAssembly application with a hash router using Smithy.",

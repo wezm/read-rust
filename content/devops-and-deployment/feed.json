@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bd254733-37d6-4ef1-959d-67ca2ccfc2ca",
+      "title": "Rust: How to build a Docker image with private Cargo dependencies",
+      "content_text": "In this article, I’m going to show you how to fetch private Cargo dependencies and source them when building a Docker image. This solves a key issue with Docker of not copying over SSH keys when building an image.",
+      "url": "https://medium.com/@c_ameron/rust-how-to-build-a-docker-image-with-private-cargo-dependencies-ab91c25c4301",
+      "date_published": "2019-05-01T04:08:50.966+00:00",
+      "author": {
+        "name": "Cameron",
+        "url": "https://medium.com/@c_ameron"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "b4cd814f-2f84-4e4d-b3a1-bba98d6a24f2",
       "title": "Kubernetes operators in Rust",
       "content_text": "Writing light weight cloud services without Go.",

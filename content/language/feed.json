@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "0bc705c5-726c-4967-84cc-264f7a6338df",
+      "title": "How XV uses Panics",
+      "content_text": "XV is a terminal hex viewer that I am working on. It is the first “real” Rust project that I am working on, coming from a Java background.\n\nJava has exceptions. Both checked exceptions, identified by having the Exception class as a parent class, and unchecked exceptions, which have RuntimeException as a parent class.\n\nRust does not have exceptions. Rust has panics, which, depending on build-time configurations, are either catch-able when they unwind the stack, or only produce a backtrace, or just immediately aborts the process. This is controlled by the “panic” setting in the “profile” sections of your Cargo.toml file.",
+      "url": "https://medium.com/@chrisvest/how-xv-uses-panics-ba22bd6152a5",
+      "date_published": "2019-05-02T16:26:24.329+00:00",
+      "author": {
+        "name": "Chris Vest",
+        "url": "https://medium.com/@chrisvest"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f759c500-da13-4765-81f1-dd59918b09d1",
+      "title": "Extending Python with Rust",
+      "content_text": "Python is a great programming language but sometimes it can be a bit of slowcoach when it comes to performing certain tasks. That’s why developers have been building C/C++ extensions and integrating them with Python to speed up the performance. However, writing these extensions is a bit difficult because these low-level languages are not type-safe, so doesn’t guarantee a defined behavior. This tends to introduce bugs with respect to memory management. Rust ensures memory safety and hence can easily prevent these kinds of bugs.",
+      "url": "https://medium.com/@p_chhetri/extending-python-with-rust-84e9299d34c1",
+      "date_published": "2019-05-01T17:37:44.829+00:00",
+      "author": {
+        "name": "Pradeep Chhetri",
+        "url": "https://medium.com/@p_chhetri"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "facd2bd5-bb49-449e-b8d9-c9f353545c32",
+      "title": "Rustacean Hat Pattern",
+      "content_text": "Making a Ferris the Rustacean hat.",
+      "url": "http://edunham.net/2019/04/06/rustacean_hat_pattern.html",
+      "date_published": "2019-04-06T00:00:00+00:00",
+      "author": {
+        "name": "E. Dunham",
+        "url": "http://edunham.net/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4ce6618d-d773-4260-85c6-639aaf6ec7fc",
+      "title": "Risp (Lisp (in (Rust)))",
+      "content_text": "Many years ago, Peter Norvig wrote a beautiful article about creating a lisp interpreter in Python. It’s the most fun tutorial I’ve seen, not just because it teaches you about my favorite language family (Lisp), but because it cuts through to the essence of interpreters, is fun to follow and quick to finish.\n\nRecently, I had some time and wanted to learn Rust. It’s a beautiful systems language, and I’ve seen some great work come out from those who adopt it. I thought, what better way to learn Rust, than to create a lisp interpreter in it?\n\nHence, Risp — a lisp in rust — was born. In this essay you and I will follow along with Norvig’s Lispy, but instead of Python, we’ll do it in Rust 🙂.",
+      "url": "https://m.stopa.io/risp-lisp-in-rust-90a0dad5b116",
+      "date_published": "2019-05-02T17:44:37.154+00:00",
+      "author": {
+        "name": "Stepan Parunashvili",
+        "url": "https://m.stopa.io/@stepan"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ae1f3c27-6a45-4b49-ac3c-e081adfe52c9",
+      "title": "Cargo in 2019",
+      "content_text": "I recently published a post detailing a vision for the next few years (hah! Not so recently now, this took a lot longer than expected). Here I'll get into more detail about 2019.",
+      "url": "https://www.ncameron.org/blog/cargo-in-2019/",
+      "date_published": "2019-05-01T22:37:35+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "37ea8a58-93a1-4e5c-b125-d98a250e601c",
       "title": "Chess vocabulary in Rust",
       "content_text": "Recently I've been using Rust to build a server for the new 7-piece Syzygy endgame tablebases. Using Rust was quite enjoyable and I plan to use it for many future projects. This series is intended to order and share my thoughts, and as a primer to discuss some open questions I have.",
