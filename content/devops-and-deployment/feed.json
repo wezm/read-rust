@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "350dfd1b-e2c5-4a2b-9b2d-015d933e7a78",
+      "title": "Rust caching on CircleCI using sccache",
+      "content_text": "If you are working in a team that’s writing Rust code and your crates have a good amount of dependencies, you have probably noticed that the Rust compilation phase takes a non-trivial amount of time in comparison to actually running your tests: it is indeed one of the top recurring complains that gets reported to the language team.\n\nIn a CI environment, it gets worse as the testing container starts building pretty much from scratch and everything gets recompiled. One way to alleviate that problem is to cache Rust compiled intermediate objects",
+      "url": "https://medium.com/@edouard.oger/rust-caching-on-circleci-using-sccache-c996344f0115",
+      "date_published": "2019-05-03T21:42:28.171+00:00",
+      "author": {
+        "name": "Edouard Oger",
+        "url": "https://medium.com/@edouard.oger"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "bd254733-37d6-4ef1-959d-67ca2ccfc2ca",
       "title": "Rust: How to build a Docker image with private Cargo dependencies",
       "content_text": "In this article, I’m going to show you how to fetch private Cargo dependencies and source them when building a Docker image. This solves a key issue with Docker of not copying over SSH keys when building an image.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "433737c5-300e-4095-82c3-2ca05e51b029",
+      "title": "Compile-time coprocessor codegen, with Rust macros",
+      "content_text": "Motivation: The Nintendo 3DS uses an ARM standard peripheral, the CoreLink DMA engine, for copying memory among DRAM and memory-mapped peripherals.\n\nThis DMA engine, unlike most other IO devices on the 3DS, actually has its own instruction set where the CPU merely uploads a stream of instructions for the peripheral to execute (other examples of this, on the 3DS, are the DSP audio processor and the PICA graphics chip).\n\nI’d like to compile and run DMA instructions in Rust, in a hopefully ergonomic manner, without needing to use any dynamic memory allocation. This imposes a particular constraint that I need to know the number of instruction bytes at compile time so I can use an appropriately-sized array.",
+      "url": "https://guiand.xyz/blog-posts/macro-assembly-codegen.html",
+      "date_published": "2019-05-03T00:00:00+00:00",
+      "author": {
+        "name": "Gui Andrade",
+        "url": "https://guiand.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0bc705c5-726c-4967-84cc-264f7a6338df",
       "title": "How XV uses Panics",
       "content_text": "XV is a terminal hex viewer that I am working on. It is the first “real” Rust project that I am working on, coming from a Java background.\n\nJava has exceptions. Both checked exceptions, identified by having the Exception class as a parent class, and unchecked exceptions, which have RuntimeException as a parent class.\n\nRust does not have exceptions. Rust has panics, which, depending on build-time configurations, are either catch-able when they unwind the stack, or only produce a backtrace, or just immediately aborts the process. This is controlled by the “panic” setting in the “profile” sections of your Cargo.toml file.",

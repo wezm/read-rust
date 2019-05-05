@@ -10,6 +10,120 @@
   },
   "items": [
     {
+      "id": "350dfd1b-e2c5-4a2b-9b2d-015d933e7a78",
+      "title": "Rust caching on CircleCI using sccache",
+      "content_text": "If you are working in a team that’s writing Rust code and your crates have a good amount of dependencies, you have probably noticed that the Rust compilation phase takes a non-trivial amount of time in comparison to actually running your tests: it is indeed one of the top recurring complains that gets reported to the language team.\n\nIn a CI environment, it gets worse as the testing container starts building pretty much from scratch and everything gets recompiled. One way to alleviate that problem is to cache Rust compiled intermediate objects",
+      "url": "https://medium.com/@edouard.oger/rust-caching-on-circleci-using-sccache-c996344f0115",
+      "date_published": "2019-05-03T21:42:28.171+00:00",
+      "author": {
+        "name": "Edouard Oger",
+        "url": "https://medium.com/@edouard.oger"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "48eed32e-7fd2-4d16-9a34-97c9289cc72c",
+      "title": "Handmade Rust Part 4: Generating Vulkan bindings",
+      "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.<Paste>",
+      "url": "http://stevenlr.com/posts/handmade-rust-4-vulkan-bindings/",
+      "date_published": "2019-05-04T18:33:36+02:00",
+      "author": {
+        "name": "Steven Le Rouzic",
+        "url": "http://stevenlr.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5cea79c2-18d1-470d-b0a4-8647f0e2e5ca",
+      "title": "Rust concurrency patterns: Communicate by sharing your sender(re-visited)",
+      "content_text": "Since I last wrote about this topic, just only about a year ago select as used in the standard-library channel, has been deprecated. So it’s a good time to re-visit some of the concepts in that article, this time in the context of using crossbeam channels, and instead of using a made-up example, let’s dig into some real “production” code, as found in Servo. Let’s continue our exploration of Rust concurrency…",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-communicate-by-sharing-your-sender-re-visited-9d42e6dfecfa",
+      "date_published": "2019-05-05T06:18:08.433+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "e0804329-7f79-4ee4-9087-8aa2e8c0b672",
+      "title": "Structured Greping Of Structured Logging",
+      "content_text": "Why I created a command-line JSON processor.",
+      "url": "https://gidi.io/2019/03/01/structured-greping-of-structured-logging-using-grep-for-json.html",
+      "tweet_url": "https://twitter.com/chekofif/status/1124413072737820678",
+      "date_published": "2019-03-01T21:16:08+00:00",
+      "author": {
+        "name": "Gidi Meir Morris",
+        "url": "https://gidi.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "728cc414-7e29-41ce-86af-0181095c3ec6",
+      "title": "Building Simple APIs with Hyper and Usher",
+      "content_text": "When writing a web service, I often lean towards using tools that are as minimal as possible. One pretty obvious reason for this is the avoidance of dependencies you either don't want or don't need in your project. Whilst I'm not someone who goes out of their way to avoid dependencies, this is a pain point particularly in Rust because of the cost of building them repeatedly rather than shipping extra interpreted files around (especially if you use \"pure\" build environments).",
+      "url": "https://whitfin.io/building-simple-apis-with-hyper-and-usher/",
+      "tweet_url": "https://twitter.com/_whitfin/status/1124359200144887808",
+      "date_published": "2019-05-03T16:56:26+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "db1287e6-d66c-486a-812b-87ba2b37d423",
+      "title": "phrase: A tool for learning significant phrase/term models, and efficiently labeling with them",
+      "content_text": "In general, using phrase falls into 3 steps: Counting n-grams, Exporting scored models, Significant term/phrase extraction/transform N-gram counting is done continuously, providing batches of documents as they come in. Model export reads all n-gram counts so far and calculates mutual information-based collocations - you can then deploy the models by shipping the binary and data/scores_* files to a server. Labeling (identifying all significant terms and phrases in text) or transforming (eager replace of longest found phrases in text) can be done either via the CLI or the web server. Providing labels for documents is not necessary for learning phrases, but does help, and allows for significant term labeling also.",
+      "url": "https://github.com/soaxelbrooke/phrase",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Stuart Axelbrooke",
+        "url": "https://github.com/soaxelbrooke"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e3fadb7b-df84-47a1-b6ca-47186b2b9418",
+      "title": "WebAssembly -Part II.A | Wasm with Rust",
+      "content_text": "This article is more of a how-to on getting up and running with a production-grade web project which incorporates Rust (or any other language for that matter) and WebAssembly into your web pages.",
+      "url": "https://medium.com/tech-lah/webassembly-part-ii-a-wasm-with-rust-2356dbc6526e",
+      "date_published": "2019-05-05T13:27:01.003+00:00",
+      "author": {
+        "name": "Francisco Vilches",
+        "url": "https://medium.com/@franciscov"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "433737c5-300e-4095-82c3-2ca05e51b029",
+      "title": "Compile-time coprocessor codegen, with Rust macros",
+      "content_text": "Motivation: The Nintendo 3DS uses an ARM standard peripheral, the CoreLink DMA engine, for copying memory among DRAM and memory-mapped peripherals.\n\nThis DMA engine, unlike most other IO devices on the 3DS, actually has its own instruction set where the CPU merely uploads a stream of instructions for the peripheral to execute (other examples of this, on the 3DS, are the DSP audio processor and the PICA graphics chip).\n\nI’d like to compile and run DMA instructions in Rust, in a hopefully ergonomic manner, without needing to use any dynamic memory allocation. This imposes a particular constraint that I need to know the number of instruction bytes at compile time so I can use an appropriately-sized array.",
+      "url": "https://guiand.xyz/blog-posts/macro-assembly-codegen.html",
+      "date_published": "2019-05-03T00:00:00+00:00",
+      "author": {
+        "name": "Gui Andrade",
+        "url": "https://guiand.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "63ae6a45-4e07-49c9-914d-b9be320cf7a9",
       "title": "Making Sandspiel",
       "content_text": "Sandspiel is a falling sand game I built in late 2018. I really enjoyed writing this game, and wanted to put into writing some of my goals, design decisions, and learnings from that process.",

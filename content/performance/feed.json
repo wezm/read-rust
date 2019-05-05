@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5cea79c2-18d1-470d-b0a4-8647f0e2e5ca",
+      "title": "Rust concurrency patterns: Communicate by sharing your sender(re-visited)",
+      "content_text": "Since I last wrote about this topic, just only about a year ago select as used in the standard-library channel, has been deprecated. So it’s a good time to re-visit some of the concepts in that article, this time in the context of using crossbeam channels, and instead of using a made-up example, let’s dig into some real “production” code, as found in Servo. Let’s continue our exploration of Rust concurrency…",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-communicate-by-sharing-your-sender-re-visited-9d42e6dfecfa",
+      "date_published": "2019-05-05T06:18:08.433+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "329ef1a1-d5e3-49df-87e6-b4f40038d4d8",
       "title": "Rust parallelism for non-C/C++ developers",
       "content_text": "Majority of the people coming to Rust have C/C++ background which allows them to easily transition into Rust parallelism since it is so similar. However, for many people coming from other languages, it is a challenge. In this post, we will walk through the standard Rust parallelism tools as well as the motivation behind them. This will require a hardware deep dive at the beginning, followed by an explanation of the low-level tools, like atomics, and ending with an explanation of high-level tools like Mutex. Finally, we will explain how Rust guarantees safety in multi-threaded applications.",

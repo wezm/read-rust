@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "db1287e6-d66c-486a-812b-87ba2b37d423",
+      "title": "phrase: A tool for learning significant phrase/term models, and efficiently labeling with them",
+      "content_text": "In general, using phrase falls into 3 steps: Counting n-grams, Exporting scored models, Significant term/phrase extraction/transform N-gram counting is done continuously, providing batches of documents as they come in. Model export reads all n-gram counts so far and calculates mutual information-based collocations - you can then deploy the models by shipping the binary and data/scores_* files to a server. Labeling (identifying all significant terms and phrases in text) or transforming (eager replace of longest found phrases in text) can be done either via the CLI or the web server. Providing labels for documents is not necessary for learning phrases, but does help, and allows for significant term labeling also.",
+      "url": "https://github.com/soaxelbrooke/phrase",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Stuart Axelbrooke",
+        "url": "https://github.com/soaxelbrooke"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "5af81963-5163-49f3-bd47-27b91d6dbd34",
       "title": "Monitoring AWS Batch Jobs with Rust",
       "content_text": "At Pixability my team and I recently created a pretty neat AWS Batch driven system. AWS Batch can can handle almost any task seamlessly and it’s pretty easy to manage with the console. This is great already, but I was curious to see what it would look like to monitor Batch with Rust. Watchrs was inspired by this question and currently provides basic functionality to do so. In this post we will be briefly going over how the main components of watchrs were built and how to use them all together.",

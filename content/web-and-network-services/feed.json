@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "728cc414-7e29-41ce-86af-0181095c3ec6",
+      "title": "Building Simple APIs with Hyper and Usher",
+      "content_text": "When writing a web service, I often lean towards using tools that are as minimal as possible. One pretty obvious reason for this is the avoidance of dependencies you either don't want or don't need in your project. Whilst I'm not someone who goes out of their way to avoid dependencies, this is a pain point particularly in Rust because of the cost of building them repeatedly rather than shipping extra interpreted files around (especially if you use \"pure\" build environments).",
+      "url": "https://whitfin.io/building-simple-apis-with-hyper-and-usher/",
+      "date_published": "2019-05-03T16:56:26+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e3fadb7b-df84-47a1-b6ca-47186b2b9418",
+      "title": "WebAssembly -Part II.A | Wasm with Rust",
+      "content_text": "This article is more of a how-to on getting up and running with a production-grade web project which incorporates Rust (or any other language for that matter) and WebAssembly into your web pages.",
+      "url": "https://medium.com/tech-lah/webassembly-part-ii-a-wasm-with-rust-2356dbc6526e",
+      "date_published": "2019-05-05T13:27:01.003+00:00",
+      "author": {
+        "name": "Francisco Vilches",
+        "url": "https://medium.com/@franciscov"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "9152c867-9b24-49d0-ac2c-d85775162eb4",
       "title": "Explained: Futures in Rust for Web Development",
       "content_text": "If you are coming from NodeJS, Futures in Rust don't make much sense. In NodeJS, everything happens asynchronously. Therefore for you to be able to say \"Hey, I really need to wait for the answer for this GET HTTP call\", you are putting.then() on a Promise, so you can make sure you just execute the code inside the .then() when the HTTP call is finished.\n\nIn Rust, everything is blocking and synchronous by default, so you might ask yourself: \"Why bothering with the complexity, that's exactly what I wanted in the first place!\"",
