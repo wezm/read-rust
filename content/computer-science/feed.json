@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d9831a1a-f79f-4c0b-af9e-b4c5b65cd74f",
+      "title": "A Practical Analysis of Rust's Concurrency Story",
+      "content_text": "Rust is a recent programming language from Mozilla that attempts to solve these intertwined issues by detecting data-races at compile time. Rust's type system encodes a data-structure's ability to be shared between threads in the type system, which in turn allows the compiler to reject programs where threads directly mutate shared state without locks or other protection mechanisms. In this work, we examine how this aspect of Rust's type system impacts the development and refinement of a concurrent data structure, as well as its ability to adapt to situations where correctness is guaranteed by lower-level invariants (e.g., in lock-free algorithms) that are not directly expressible in the type system itself. We detail the implementation of a concurrent lock-free hashmap in order to describe these traits of the Rust language.",
+      "url": "https://arxiv.org/abs/1904.12210",
+      "date_published": "2019-04-27T00:00:00+00:00",
+      "author": {
+        "name": "Aditya Saligrama, Andrew Shen, Jon Gjengset",
+        "url": "https://arxiv.org/list/cs/recent"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "0d66bab5-b38a-4f8a-8c6f-2c7c2cd41fab",
       "title": "Refactoring Varisat 5: Incremental Solving and Proofs",
       "content_text": "This is the fifth and final post in my series about refactoring varisat. In the last post varisat gained the heuristics needed to solve some non-trivial instances. In this post we’ll add incremental solving and proof generation. This brings varisat to feature parity with the old version.",

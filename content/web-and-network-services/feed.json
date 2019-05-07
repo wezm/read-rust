@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ffeaa8e5-849b-4924-9c9f-1ac6adc15a8e",
+      "title": "Unit testing Rust using Chrome",
+      "content_text": "Stretch is a cross-platform Flexbox engine written in Rust. At Visly we are building a design tool for front-end engineers and we needed to ensure components looked the same across web, iOS, and Android without making use of WebViews. This meant replicating the web layout system on mobile.\n\nIn this post, I’ll cover the test setup we use in Stretch, how and why we need to generate unit dynamically. I’ll also cover an example of contributing another test to Stretch, and finally I’ll walk through how we also make use of this system for benchmarking.",
+      "url": "https://medium.com/visly/unit-testing-rust-using-chrome-b8b93572a91d",
+      "date_published": "2019-05-06T16:25:41.951+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "728cc414-7e29-41ce-86af-0181095c3ec6",
       "title": "Building Simple APIs with Hyper and Usher",
       "content_text": "When writing a web service, I often lean towards using tools that are as minimal as possible. One pretty obvious reason for this is the avoidance of dependencies you either don't want or don't need in your project. Whilst I'm not someone who goes out of their way to avoid dependencies, this is a pain point particularly in Rust because of the cost of building them repeatedly rather than shipping extra interpreted files around (especially if you use \"pure\" build environments).",

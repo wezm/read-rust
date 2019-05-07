@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "89a6ce72-79b9-477d-a5e5-bd1e6407c3f5",
+      "title": "World's First Private Cargo Registry",
+      "content_text": "If you're interested in the possibilities that hosting your own private or internal crates brings, then this is incredibly good news for you: Cloudsmith are proud to provide the World's first commercially available public and private Cargo registry hosting, with ultra-fast and secure delivery of your Rust packages, alongside all of the usual Enterprise-grade features that we provide.",
+      "url": "https://blog.cloudsmith.io/2019/05/01/worlds-first-private-cargo-registry/",
+      "date_published": "2019-05-01T12:06:47+00:00",
+      "author": {
+        "name": "Patrick Carey",
+        "url": "https://blog.cloudsmith.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b7f70811-6fa2-4bab-b9e2-be4107ec221b",
+      "title": "A final proposal for await syntax",
+      "content_text": "This is an announcement regarding the resolution of the syntax for the await operator in Rust. This is one of the last major unresolved questions blocking the stabilization of the async/await feature, a feature which will enable many more people to write non-blocking network services in Rust. This post contains information about the timeline for the final decision, a proposal from the language team which is the most likely syntax to be adopted, and the justification for this decision.",
+      "url": "https://boats.gitlab.io/blog/post/await-decision/",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e6de297c-e3b3-40ab-af40-922f95e71444",
+      "title": "Rust and glibc version",
+      "content_text": "The rust compiler dynamically link the executable against the glibc in the system. Hence if you compile your software against a newer version of glibc (say 2.19) that the one available where you run the executable (say in the host is available 2.14) it may not work.\n\nThe cleanest one is to don’t dynamically link against glib, indeed is possible to compile a rust binary statically linking musl, to do so is sufficient to compile against the correct target, usually using cargo build --target x86_64-unknown-linux-musl.\n\nAnother possibility is to compile in an environment with an “old-enough” version of glibc, this is usually done using docker and indeed there is a whole project that aim to create a set “zero setup” docker images. ",
+      "url": "http://redbeardlab.com/2019/05/07/rust-and-glibc-version/",
+      "date_published": "2019-05-07T16:33:59+00:00",
+      "author": {
+        "name": "Simone Mosciatti",
+        "url": "http://redbeardlab.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "433737c5-300e-4095-82c3-2ca05e51b029",
       "title": "Compile-time coprocessor codegen, with Rust macros",
       "content_text": "Motivation: The Nintendo 3DS uses an ARM standard peripheral, the CoreLink DMA engine, for copying memory among DRAM and memory-mapped peripherals.\n\nThis DMA engine, unlike most other IO devices on the 3DS, actually has its own instruction set where the CPU merely uploads a stream of instructions for the peripheral to execute (other examples of this, on the 3DS, are the DSP audio processor and the PICA graphics chip).\n\nI’d like to compile and run DMA instructions in Rust, in a hopefully ergonomic manner, without needing to use any dynamic memory allocation. This imposes a particular constraint that I need to know the number of instruction bytes at compile time so I can use an appropriately-sized array.",

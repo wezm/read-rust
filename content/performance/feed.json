@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7d2c4d88-ce3c-4794-8093-80d1dd15395c",
+      "title": "Racing sed with Rust",
+      "content_text": "As part of a project I’m working on, I sometimes find myself having to deal with quite large X12 files. What I’d really like is a small, self-contained tool that I can pass an X12 file to and rely on it to Do The Right Thing™ without any unnecessary incantations. Since I’m dealing with large source files it would also be nice if it was at least as fast as standard tools like sed. Sounds like a job for…",
+      "url": "https://www.lambdafunctions.com/articles/racing-sed-with-rust",
+      "date_published": "2019-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Mike Clarke",
+        "url": "https://www.lambdafunctions.com/articles"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "5cea79c2-18d1-470d-b0a4-8647f0e2e5ca",
       "title": "Rust concurrency patterns: Communicate by sharing your sender(re-visited)",
       "content_text": "Since I last wrote about this topic, just only about a year ago select as used in the standard-library channel, has been deprecated. So it’s a good time to re-visit some of the concepts in that article, this time in the context of using crossbeam channels, and instead of using a made-up example, let’s dig into some real “production” code, as found in Servo. Let’s continue our exploration of Rust concurrency…",

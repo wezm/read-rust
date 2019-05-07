@@ -10,6 +10,92 @@
   },
   "items": [
     {
+      "id": "89a6ce72-79b9-477d-a5e5-bd1e6407c3f5",
+      "title": "World's First Private Cargo Registry",
+      "content_text": "If you're interested in the possibilities that hosting your own private or internal crates brings, then this is incredibly good news for you: Cloudsmith are proud to provide the World's first commercially available public and private Cargo registry hosting, with ultra-fast and secure delivery of your Rust packages, alongside all of the usual Enterprise-grade features that we provide.",
+      "url": "https://blog.cloudsmith.io/2019/05/01/worlds-first-private-cargo-registry/",
+      "tweet_url": "https://twitter.com/cloudsmith/status/1123597194970435584",
+      "date_published": "2019-05-01T12:06:47+00:00",
+      "author": {
+        "name": "Patrick Carey",
+        "url": "https://blog.cloudsmith.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d9831a1a-f79f-4c0b-af9e-b4c5b65cd74f",
+      "title": "A Practical Analysis of Rust's Concurrency Story",
+      "content_text": "Rust is a recent programming language from Mozilla that attempts to solve these intertwined issues by detecting data-races at compile time. Rust's type system encodes a data-structure's ability to be shared between threads in the type system, which in turn allows the compiler to reject programs where threads directly mutate shared state without locks or other protection mechanisms. In this work, we examine how this aspect of Rust's type system impacts the development and refinement of a concurrent data structure, as well as its ability to adapt to situations where correctness is guaranteed by lower-level invariants (e.g., in lock-free algorithms) that are not directly expressible in the type system itself. We detail the implementation of a concurrent lock-free hashmap in order to describe these traits of the Rust language.",
+      "url": "https://arxiv.org/abs/1904.12210",
+      "date_published": "2019-04-27T00:00:00+00:00",
+      "author": {
+        "name": "Aditya Saligrama, Andrew Shen, Jon Gjengset",
+        "url": "https://arxiv.org/list/cs/recent"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "ffeaa8e5-849b-4924-9c9f-1ac6adc15a8e",
+      "title": "Unit testing Rust using Chrome",
+      "content_text": "Stretch is a cross-platform Flexbox engine written in Rust. At Visly we are building a design tool for front-end engineers and we needed to ensure components looked the same across web, iOS, and Android without making use of WebViews. This meant replicating the web layout system on mobile.\n\nIn this post, I’ll cover the test setup we use in Stretch, how and why we need to generate unit dynamically. I’ll also cover an example of contributing another test to Stretch, and finally I’ll walk through how we also make use of this system for benchmarking.",
+      "url": "https://medium.com/visly/unit-testing-rust-using-chrome-b8b93572a91d",
+      "date_published": "2019-05-06T16:25:41.951+00:00",
+      "author": {
+        "name": "Emil Sjölander",
+        "url": "https://medium.com/@emilsj"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b7f70811-6fa2-4bab-b9e2-be4107ec221b",
+      "title": "A final proposal for await syntax",
+      "content_text": "This is an announcement regarding the resolution of the syntax for the await operator in Rust. This is one of the last major unresolved questions blocking the stabilization of the async/await feature, a feature which will enable many more people to write non-blocking network services in Rust. This post contains information about the timeline for the final decision, a proposal from the language team which is the most likely syntax to be adopted, and the justification for this decision.",
+      "url": "https://boats.gitlab.io/blog/post/await-decision/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1125412141006192640",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "withoutboats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d2c4d88-ce3c-4794-8093-80d1dd15395c",
+      "title": "Racing sed with Rust",
+      "content_text": "As part of a project I’m working on, I sometimes find myself having to deal with quite large X12 files. What I’d really like is a small, self-contained tool that I can pass an X12 file to and rely on it to Do The Right Thing™ without any unnecessary incantations. Since I’m dealing with large source files it would also be nice if it was at least as fast as standard tools like sed. Sounds like a job for…",
+      "url": "https://www.lambdafunctions.com/articles/racing-sed-with-rust",
+      "date_published": "2019-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Mike Clarke",
+        "url": "https://www.lambdafunctions.com/articles"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "e6de297c-e3b3-40ab-af40-922f95e71444",
+      "title": "Rust and glibc version",
+      "content_text": "The rust compiler dynamically link the executable against the glibc in the system. Hence if you compile your software against a newer version of glibc (say 2.19) that the one available where you run the executable (say in the host is available 2.14) it may not work.\n\nThe cleanest one is to don’t dynamically link against glib, indeed is possible to compile a rust binary statically linking musl, to do so is sufficient to compile against the correct target, usually using cargo build --target x86_64-unknown-linux-musl.\n\nAnother possibility is to compile in an environment with an “old-enough” version of glibc, this is usually done using docker and indeed there is a whole project that aim to create a set “zero setup” docker images. ",
+      "url": "http://redbeardlab.com/2019/05/07/rust-and-glibc-version/",
+      "date_published": "2019-05-07T16:33:59+00:00",
+      "author": {
+        "name": "Simone Mosciatti",
+        "url": "http://redbeardlab.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "350dfd1b-e2c5-4a2b-9b2d-015d933e7a78",
       "title": "Rust caching on CircleCI using sccache",
       "content_text": "If you are working in a team that’s writing Rust code and your crates have a good amount of dependencies, you have probably noticed that the Rust compilation phase takes a non-trivial amount of time in comparison to actually running your tests: it is indeed one of the top recurring complains that gets reported to the language team.\n\nIn a CI environment, it gets worse as the testing container starts building pretty much from scratch and everything gets recompiled. One way to alleviate that problem is to cache Rust compiled intermediate objects",
