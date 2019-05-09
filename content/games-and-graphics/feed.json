@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3ce37cbb-5bdc-4340-a83f-9f402616cd58",
+      "title": "2D Graphics on Modern GPU",
+      "content_text": "Is the traditional 2D imaging model nearing the end of its usefulness, or does it have a shiny future in the “modern graphics” world? I spent a week on a research retreat in a cottage in the woods to answer this question, as it shapes the future of UI toolkits. Performant UI must use GPU effectively, and it’s increasingly common to write UI directly in terms of GPU rendering, without a 2D graphics API as in the intermediate layer. Is that the future, or perhaps a mistake?",
+      "url": "https://raphlinus.github.io/rust/graphics/gpu/2019/05/08/modern-2d.html",
+      "date_published": "2019-05-08T20:40:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "48eed32e-7fd2-4d16-9a34-97c9289cc72c",
       "title": "Handmade Rust Part 4: Generating Vulkan bindings",
       "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.<Paste>",

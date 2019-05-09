@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "577c30e3-f6b8-4c6f-98a5-020962df3df3",
+      "title": "Rust Patterns: Enums Instead Of Booleans",
+      "content_text": "As I’ve been writing Rust code more, I’ve noticed how few boolean types I’m using in my code. Instead, I’m using Rust’s powerful enums in 90% of cases where I would have reached for a boolean in another language.",
+      "url": "http://blakesmith.me/2019/05/07/rust-patterns-enums-instead-of-booleans.html",
+      "date_published": "2019-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Blake Smith",
+        "url": "http://blakesmith.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "10bffdde-a5d9-4066-971b-0c155ba8ce2d",
+      "title": "How and why await should be a method afterall",
+      "content_text": "Explains in which way the planned `await` resembles a function call and provides reasoning how apparent contradictions in this model can be dispelled.",
+      "url": "https://www.hardmo.de/article/2019-05-06-await-method-afterall.md",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Andreas Molzer",
+        "url": "https://www.hardmo.de/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "35a812e7-75c8-4ffe-98b0-0dee390a5a51",
+      "title": "Implementing a Interpreted Language in Rust Part 1",
+      "content_text": "We live in a great era for language design. Within the last 5-10 years, several innovative languages have come out and won over the hearts of many developers with a newfound focus on memory safety (Rust), runtime interoperability (JVM: Kotlin, V8: Typescript, BEAM: Elixir), first class concurrency (Go, Pony), dependent types (Idris), Language oriented Programming (Racket) and many more inspired features. In this spirit, I have decided to throw my hat into the ring as well and create my own language for fun.",
+      "url": "http://nedellis.com/2019/05/08/esta_1/",
+      "date_published": "2019-05-08T00:00:00+00:00",
+      "author": {
+        "name": "Ned Ellis",
+        "url": "http://nedellis.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "89a6ce72-79b9-477d-a5e5-bd1e6407c3f5",
       "title": "World's First Private Cargo Registry",
       "content_text": "If you're interested in the possibilities that hosting your own private or internal crates brings, then this is incredibly good news for you: Cloudsmith are proud to provide the World's first commercially available public and private Cargo registry hosting, with ultra-fast and secure delivery of your Rust packages, alongside all of the usual Enterprise-grade features that we provide.",

@@ -10,6 +10,94 @@
   },
   "items": [
     {
+      "id": "b5691501-490d-4eef-a8cc-2728e42774d2",
+      "title": "Learn Rust: Parsing command line arguments with StructOpt",
+      "content_text": "A beginners guide to using StructOpt for parsing command line arguments.",
+      "url": "https://www.tenderisthebyte.com/blog/2019/05/08/parsing-cli-args-with-structopt/",
+      "tweet_url": "https://twitter.com/TenderIsTheByte/status/1126511203944153088",
+      "date_published": "2019-05-08T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Moore",
+        "url": "https://www.tenderisthebyte.com/"
+      },
+      "tags": [
+        "Crates",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "8914cc92-515c-4902-ae43-b247924a0191",
+      "title": "Learning Rust while solving Advent of Code puzzles (a post mortem)",
+      "content_text": "I wanted to learn Rust for some time, but wasn't motivated enough. Finally, there was an opportunity: Every year in December, there is a coding challenge called Advent of Code. So I decided I will use edition 2018 as a motivator to learn new programming language.",
+      "url": "https://andrzej.pragacz.pl/blog/2019/05/learning-rust-while-solving-advent-of-code/",
+      "tweet_url": "https://twitter.com/apragacz/status/1126585037133176834",
+      "date_published": "2019-05-03T00:00:00+00:00",
+      "author": {
+        "name": "Andrzej Pragacz",
+        "url": "https://andrzej.pragacz.pl/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "3ce37cbb-5bdc-4340-a83f-9f402616cd58",
+      "title": "2D Graphics on Modern GPU",
+      "content_text": "Is the traditional 2D imaging model nearing the end of its usefulness, or does it have a shiny future in the “modern graphics” world? I spent a week on a research retreat in a cottage in the woods to answer this question, as it shapes the future of UI toolkits. Performant UI must use GPU effectively, and it’s increasingly common to write UI directly in terms of GPU rendering, without a 2D graphics API as in the intermediate layer. Is that the future, or perhaps a mistake?",
+      "url": "https://raphlinus.github.io/rust/graphics/gpu/2019/05/08/modern-2d.html",
+      "tweet_url": "https://twitter.com/raphlinus/status/1126226722444140544",
+      "date_published": "2019-05-08T20:40:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "577c30e3-f6b8-4c6f-98a5-020962df3df3",
+      "title": "Rust Patterns: Enums Instead Of Booleans",
+      "content_text": "As I’ve been writing Rust code more, I’ve noticed how few boolean types I’m using in my code. Instead, I’m using Rust’s powerful enums in 90% of cases where I would have reached for a boolean in another language.",
+      "url": "http://blakesmith.me/2019/05/07/rust-patterns-enums-instead-of-booleans.html",
+      "date_published": "2019-05-07T00:00:00+00:00",
+      "author": {
+        "name": "Blake Smith",
+        "url": "http://blakesmith.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "10bffdde-a5d9-4066-971b-0c155ba8ce2d",
+      "title": "How and why await should be a method afterall",
+      "content_text": "Explains in which way the planned `await` resembles a function call and provides reasoning how apparent contradictions in this model can be dispelled.",
+      "url": "https://www.hardmo.de/article/2019-05-06-await-method-afterall.md",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Andreas Molzer",
+        "url": "https://www.hardmo.de/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "35a812e7-75c8-4ffe-98b0-0dee390a5a51",
+      "title": "Implementing a Interpreted Language in Rust Part 1",
+      "content_text": "We live in a great era for language design. Within the last 5-10 years, several innovative languages have come out and won over the hearts of many developers with a newfound focus on memory safety (Rust), runtime interoperability (JVM: Kotlin, V8: Typescript, BEAM: Elixir), first class concurrency (Go, Pony), dependent types (Idris), Language oriented Programming (Racket) and many more inspired features. In this spirit, I have decided to throw my hat into the ring as well and create my own language for fun.",
+      "url": "http://nedellis.com/2019/05/08/esta_1/",
+      "date_published": "2019-05-08T00:00:00+00:00",
+      "author": {
+        "name": "Ned Ellis",
+        "url": "http://nedellis.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "89a6ce72-79b9-477d-a5e5-bd1e6407c3f5",
       "title": "World's First Private Cargo Registry",
       "content_text": "If you're interested in the possibilities that hosting your own private or internal crates brings, then this is incredibly good news for you: Cloudsmith are proud to provide the World's first commercially available public and private Cargo registry hosting, with ultra-fast and secure delivery of your Rust packages, alongside all of the usual Enterprise-grade features that we provide.",
