@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "09931418-a93c-4b3f-ab7a-de486a0373fd",
+      "title": "Paw",
+      "content_text": "Today we're announcing paw, a first step by the CLI Working Group to make command line applications more first class in Rust.\n\nWe introduce a procedural macro paw::main that allows passing arguments to fn main, and a new trait ParseArgs that must be implemented by the arguments to main. This allows passing not only the classic std::env::Args to main but also, for example, structopt instances.",
+      "url": "https://blog.yoshuawuyts.com/paw/",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "b5691501-490d-4eef-a8cc-2728e42774d2",
       "title": "Learn Rust: Parsing command line arguments with StructOpt",
       "content_text": "A beginners guide to using StructOpt for parsing command line arguments.",

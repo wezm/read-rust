@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0cbe8a85-0ad7-49b7-b266-db068f4cef8d",
+      "title": "Snips Open Sources Tract",
+      "content_text": "After open sourcing Snips-NLU a year ago, Snips now shares Tract, a new piece of its embedded voice platform. Tract is Snips’ neural network inference engine.",
+      "url": "https://medium.com/snips-ai/snips-open-sources-tract-cdc50f437ef2",
+      "date_published": "2019-05-10T13:59:02.567+00:00",
+      "author": {
+        "name": "Mathieu Poumeyrol",
+        "url": "https://medium.com/@mathieu.poumeyrol"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e0804329-7f79-4ee4-9087-8aa2e8c0b672",
       "title": "Structured Greping Of Structured Logging",
       "content_text": "Why I created a command-line JSON processor.",

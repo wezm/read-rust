@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6c334d13-f697-4774-8820-3665687ec7a4",
+      "title": "Some Thoughts on Rust's Async/Await Debate",
+      "content_text": "This post will be an extension of the debates found in the Rust forums, specifically here and here. A lot is being said in those threads and there's a certain amount of duplicated posts that are drowning out potentially valuable information and perspectives. I've written several comments in those debates",
+      "url": "https://whitfin.io/some-thoughts-on-rusts-async-await-proposals/",
+      "date_published": "2019-05-09T18:41:38+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d5b4554-d4eb-45b4-9d90-a562f36a4f88",
+      "title": "Recursive iterators in Rust",
+      "content_text": "I’ve been looking for this blog post everywhere, but it doesn’t exist, so I guess it’s my turn to write about Some Fun with Rust. Let’s say you have a recursive, acyclic data structure. Now let’s say you want to iterate over the values of the root node and all its children, recursively, so that you get the sequence [1, 2, 3, 4, 5, 6, 7].",
+      "url": "https://amos.me/blog/2019/recursive-iterators-rust/",
+      "date_published": "2019-05-08T00:00:00+00:00",
+      "author": {
+        "name": "amos",
+        "url": "https://amos.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "577c30e3-f6b8-4c6f-98a5-020962df3df3",
       "title": "Rust Patterns: Enums Instead Of Booleans",
       "content_text": "As I’ve been writing Rust code more, I’ve noticed how few boolean types I’m using in my code. Instead, I’m using Rust’s powerful enums in 90% of cases where I would have reached for a boolean in another language.",

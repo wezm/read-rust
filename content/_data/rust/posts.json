@@ -10,6 +10,109 @@
   },
   "items": [
     {
+      "id": "09931418-a93c-4b3f-ab7a-de486a0373fd",
+      "title": "Paw",
+      "content_text": "Today we're announcing paw, a first step by the CLI Working Group to make command line applications more first class in Rust.\n\nWe introduce a procedural macro paw::main that allows passing arguments to fn main, and a new trait ParseArgs that must be implemented by the arguments to main. This allows passing not only the classic std::env::Args to main but also, for example, structopt instances.",
+      "url": "https://blog.yoshuawuyts.com/paw/",
+      "tweet_url": "https://twitter.com/yoshuawuyts/status/1126840804104986624",
+      "date_published": "2019-05-06T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "507fcf49-a4cd-445d-8df1-82eaaad35188",
+      "title": "μAMP: Asymmetric Multi-Processing on microcontrollers",
+      "content_text": "microamp (styled as μAMP) is a framework (library plus cargo subcommand) for building bare-metal applications that target AMP systems. This blog post is a deep dive into this framework which serves as the core foundation of the multi-core version of Real Time For the Masses (RTFM), which I’ll cover in the next blog post.",
+      "url": "https://blog.japaric.io/microamp/",
+      "tweet_url": "https://twitter.com/japaricious/status/1126845464169656320",
+      "date_published": "2019-05-10T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0cbe8a85-0ad7-49b7-b266-db068f4cef8d",
+      "title": "Snips Open Sources Tract",
+      "content_text": "After open sourcing Snips-NLU a year ago, Snips now shares Tract, a new piece of its embedded voice platform. Tract is Snips’ neural network inference engine.",
+      "url": "https://medium.com/snips-ai/snips-open-sources-tract-cdc50f437ef2",
+      "tweet_url": "https://twitter.com/randhindi/status/1126862817339035649",
+      "date_published": "2019-05-10T13:59:02.567+00:00",
+      "author": {
+        "name": "Mathieu Poumeyrol",
+        "url": "https://medium.com/@mathieu.poumeyrol"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "03308e2f-7a8e-4162-8c4e-4bffd1138c51",
+      "title": "rust-hypervisor-firmware",
+      "content_text": "This repository contains a simple KVM firmware that is designed to be launched from anything that supports loading ELF binaries and running them with the Linux kernel loading standard. The ultimate goal is to be able to use this \"firmware\" to be able to load a bootloader from within a disk image.",
+      "url": "https://github.com/intel/rust-hypervisor-firmware/blob/master/README.md",
+      "date_published": "2019-05-11T00:00:00+00:00",
+      "author": {
+        "name": "Intel",
+        "url": "https://github.com/intel"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "25d9490f-05e3-4f5c-a407-19d78b0fb6d4",
+      "title": "Creating a Static HTTP Server with Rust - Part 1",
+      "content_text": "In this series, we will create a basic static HTTP 1.0 server with Rust. At the end of Part 1 of this tutorial, our server will do the following: Listen for and handle TCP connections on a specific port, Accept HTTP 1.0 GET requests, Parse and validate requests for further use, Log incoming requests. We will avoid using libraries that make this trivial (i.e. the http crate) and focus on the fundamentals of how a server works.",
+      "url": "http://concisecoder.io/2019/05/11/creating-a-static-http-server-with-rust-part-1/",
+      "tweet_url": "https://twitter.com/concisecoder/status/1127261552913129478",
+      "date_published": "2019-05-11T17:17:46+00:00",
+      "author": {
+        "name": "Levi Payne",
+        "url": "http://concisecoder.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6c334d13-f697-4774-8820-3665687ec7a4",
+      "title": "Some Thoughts on Rust's Async/Await Debate",
+      "content_text": "This post will be an extension of the debates found in the Rust forums, specifically here and here. A lot is being said in those threads and there's a certain amount of duplicated posts that are drowning out potentially valuable information and perspectives. I've written several comments in those debates",
+      "url": "https://whitfin.io/some-thoughts-on-rusts-async-await-proposals/",
+      "date_published": "2019-05-09T18:41:38+00:00",
+      "author": {
+        "name": "Isaac Whitfield",
+        "url": "https://whitfin.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d5b4554-d4eb-45b4-9d90-a562f36a4f88",
+      "title": "Recursive iterators in Rust",
+      "content_text": "I’ve been looking for this blog post everywhere, but it doesn’t exist, so I guess it’s my turn to write about Some Fun with Rust. Let’s say you have a recursive, acyclic data structure. Now let’s say you want to iterate over the values of the root node and all its children, recursively, so that you get the sequence [1, 2, 3, 4, 5, 6, 7].",
+      "url": "https://amos.me/blog/2019/recursive-iterators-rust/",
+      "tweet_url": "https://twitter.com/fasterthanlime/status/1126595613850836997",
+      "date_published": "2019-05-08T00:00:00+00:00",
+      "author": {
+        "name": "amos",
+        "url": "https://amos.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b5691501-490d-4eef-a8cc-2728e42774d2",
       "title": "Learn Rust: Parsing command line arguments with StructOpt",
       "content_text": "A beginners guide to using StructOpt for parsing command line arguments.",

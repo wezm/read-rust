@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "25d9490f-05e3-4f5c-a407-19d78b0fb6d4",
+      "title": "Creating a Static HTTP Server with Rust - Part 1",
+      "content_text": "In this series, we will create a basic static HTTP 1.0 server with Rust. At the end of Part 1 of this tutorial, our server will do the following: Listen for and handle TCP connections on a specific port, Accept HTTP 1.0 GET requests, Parse and validate requests for further use, Log incoming requests. We will avoid using libraries that make this trivial (i.e. the http crate) and focus on the fundamentals of how a server works.",
+      "url": "http://concisecoder.io/2019/05/11/creating-a-static-http-server-with-rust-part-1/",
+      "date_published": "2019-05-11T17:17:46+00:00",
+      "author": {
+        "name": "Levi Payne",
+        "url": "http://concisecoder.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "ffeaa8e5-849b-4924-9c9f-1ac6adc15a8e",
       "title": "Unit testing Rust using Chrome",
       "content_text": "Stretch is a cross-platform Flexbox engine written in Rust. At Visly we are building a design tool for front-end engineers and we needed to ensure components looked the same across web, iOS, and Android without making use of WebViews. This meant replicating the web layout system on mobile.\n\nIn this post, I’ll cover the test setup we use in Stretch, how and why we need to generate unit dynamically. I’ll also cover an example of contributing another test to Stretch, and finally I’ll walk through how we also make use of this system for benchmarking.",
