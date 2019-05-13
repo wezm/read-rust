@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "a0770f01-6980-48bd-bd23-cdee98b5c16a",
+      "title": "Optional parameters in Rust",
+      "content_text": "Many languages feature “optional” parameters to function arguments: if you provide a value, it will be used, but if you don’t, a default value will be used instead. How to do that in Rust? Well, in Rust you have to provide all the parameters a function requests. You can, however, use “Option”s to do two things: make their usage not mandatory, provide a default value.",
+      "url": "http://blog.keiruaprod.fr/2019/05/11/optional-parameters-in-rust/",
+      "tweet_url": "https://twitter.com/clemkeirua/status/1127291507554308096",
+      "date_published": "2019-05-11T19:16:47+00:00",
+      "author": {
+        "name": "Clement Keirua",
+        "url": "http://www.keiruaprod.fr/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a0a1c63f-18d2-440f-8568-0cdd5899afe3",
+      "title": "Generating a GNOME library using gir crate",
+      "content_text": "In this tutorial, we’ll see how to generate a GNOME library using the gir crate. A few things to note first: It only works on GObject-based libraries.  You need .gir files.\n\nA little explanation about those requirements: the gir crate needs .gir files to generate the library API. You can generally find them alongside the library header files (as you can see here for example, look for “.gir”).\n\nThe .gir files “describes” the library API (objects, arguments, even ownership!). This is where the gir crate comes in: it reads those .gir files and generates the Rust crates from them. You can learn more about the GIR format here.",
+      "url": "https://gtk-rs.org/docs-src/tutorial/gir_tutorial",
+      "date_published": "2019-05-11T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs",
+        "url": "https://gtk-rs.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "154c7165-f0e5-46e1-96e7-c8338485549f",
+      "title": "What’s the best IDE for developing in Rust?",
+      "content_text": "A curation of opinions and facts on a variety of Rust IDEs.",
+      "url": "https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-in-rust-5087d46006f5",
+      "date_published": "2019-05-13T06:43:35.907+00:00",
+      "author": {
+        "name": "Tremaine Eto",
+        "url": "https://medium.com/@tremaineeto"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "09931418-a93c-4b3f-ab7a-de486a0373fd",
       "title": "Paw",
       "content_text": "Today we're announcing paw, a first step by the CLI Working Group to make command line applications more first class in Rust.\n\nWe introduce a procedural macro paw::main that allows passing arguments to fn main, and a new trait ParseArgs that must be implemented by the arguments to main. This allows passing not only the classic std::env::Args to main but also, for example, structopt instances.",
