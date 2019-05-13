@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0650fe18-12a0-40f4-916f-1a5c2464b9d5",
+      "title": "Manticore Operating System",
+      "content_text": "Manticore is a research operating system, written in Rust, with the aim of exploring the parakernel OS architecture.\n\nThe OS is increasingly a bottleneck for server applications that want to take maximum advantage of the hardware. Many traditional kernel interfaces (such as in POSIX) were designed when I/O was significantly slower than the CPU. However, today I/O is getting faster, but single-threaded CPU performance has stagnated. For example, a 40 GbE NIC can receive a cache-line sized packet faster than the CPU can access its last-level cache (LLC), which makes it tricky for an OS to keep up with packets arriving from the network. Similarly, non-volatile memory (NVM) access speed is getting closer to DRAM speeds, which challenges OS abstractions for storage.\n\nTo address this OS bottleneck, server applications are increasingly adopting kernel-bypass techniques. For example, the Seastar framework is an OS implemented in userspace, which implements its own CPU and I/O scheduler, and bypasses the Linux kernel as much as it can. Parakernel is an OS architecture that eliminates many OS abstractions (similar to exokernels) and partitions hardware resources (similar to multikernels) to facilitate high-performance server application with increased application-level parallelism and predictable tail latency.",
+      "url": "https://github.com/manticoreos/manticore",
+      "date_published": "2019-05-13T00:00:00+00:00",
+      "author": {
+        "name": "Pekka Enberg",
+        "url": "https://github.com/manticoreos"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "03308e2f-7a8e-4162-8c4e-4bffd1138c51",
       "title": "rust-hypervisor-firmware",
       "content_text": "This repository contains a simple KVM firmware that is designed to be launched from anything that supports loading ELF binaries and running them with the Linux kernel loading standard. The ultimate goal is to be able to use this \"firmware\" to be able to load a bootloader from within a disk image.",

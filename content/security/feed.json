@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "593aaa73-c49a-4b38-99c7-ce2a1070723d",
+      "title": "Security advisory for the standard library",
+      "content_text": "The Rust team was recently notified of a security vulnerability affecting manual implementations of Error::type_id and their interaction with the Error::downcast family of functions in the standard library. If your code does not manually implement Error::type_id your code is not affected.",
+      "url": "https://blog.rust-lang.org/2019/05/13/Security-advisory.html",
+      "date_published": "2019-05-13T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "4450a6c3-3baa-4485-853b-910969aa0119",
       "title": "Rust, dudect and constant-time crypto in debug mode",
       "content_text": "The following are observations from when I started testing my own pure-Rust crypto library, including its dependencies, for constant-time execution. Starting with a short introduction to dudect and how it can be used to test code for timing-based side-channel vulnerabilities. Then discussing the process of discovering a short-circuit that resulted in variable-time execution, in dalek-cryptography’s subtle library and how this seems to relate to Rust codegen option opt-level.",

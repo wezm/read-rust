@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8922aaed-cc0e-482a-8422-d7dceec6dac3",
+      "title": "Zemeroth v0.5: ggez, WASM, itch.io, visuals, AI, campaign, tests",
+      "content_text": "Zemeroth is a turn-based hexagonal tactical game written in Rust. You can download precompiled v0.5 binaries for Windows, Linux, and macOS. Also, now you can play an online version (read more about it in the \"WebAssembly version\" section).",
+      "url": "https://ozkriff.github.io/2019-05-13--devlog-zemeroth-v0-5/",
+      "date_published": "2019-05-13T00:00:00+00:00",
+      "author": {
+        "name": "Andrey Lesnikov",
+        "url": "https://ozkriff.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3ce37cbb-5bdc-4340-a83f-9f402616cd58",
       "title": "2D Graphics on Modern GPU",
       "content_text": "Is the traditional 2D imaging model nearing the end of its usefulness, or does it have a shiny future in the “modern graphics” world? I spent a week on a research retreat in a cottage in the woods to answer this question, as it shapes the future of UI toolkits. Performant UI must use GPU effectively, and it’s increasingly common to write UI directly in terms of GPU rendering, without a 2D graphics API as in the intermediate layer. Is that the future, or perhaps a mistake?",
