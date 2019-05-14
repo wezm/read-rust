@@ -20002,21 +20002,6 @@
       ]
     },
     {
-      "id": "2b698c99-99e0-4fad-8716-b58dbd9c255c",
-      "title": "Deploying A Rust Server to Google App Engine with Travis CI & Docker",
-      "content_text": "I woke up this morning with one goal: to convert my website (morgangallant.com) into a Rust web server. I have been a long time fan of…",
-      "url": "https://medium.com/@gallantmrgn/deploying-rust-server-to-google-app-engine-with-travis-ci-docker-b80acfce2ce5",
-      "date_published": "2018-02-11T00:07:43.579+00:00",
-      "author": {
-        "name": "Morgan A. Gallant",
-        "url": "https://medium.com/@gallantmrgn"
-      },
-      "tags": [
-        "Web and Network Services",
-        "DevOps and Deployment"
-      ]
-    },
-    {
       "id": "751253b7-494d-4930-9586-40c18cab9280",
       "title": "tealdeer - A very fast implementation of tldr in Rust.",
       "content_text": "A fast command line client for tldr: A collection of simplified and community-driven man pages.",
