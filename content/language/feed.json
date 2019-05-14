@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "294ff4dd-a217-4d15-a378-a2ef10f6aae8",
+      "title": "Announcing Rust 1.34.2",
+      "content_text": "The Error::type_id method was recently stabilized as part of Rust 1.34.0. This point release destabilizes it, preventing any code on the stable and beta channels to implement or use it, awaiting future plans that will be discussed in issue #60784.",
+      "url": "https://blog.rust-lang.org/2019/05/14/Rust-1.34.2.html",
+      "date_published": "2019-05-14T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "a0770f01-6980-48bd-bd23-cdee98b5c16a",
       "title": "Optional parameters in Rust",
       "content_text": "Many languages feature “optional” parameters to function arguments: if you provide a value, it will be used, but if you don’t, a default value will be used instead. How to do that in Rust? Well, in Rust you have to provide all the parameters a function requests. You can, however, use “Option”s to do two things: make their usage not mandatory, provide a default value.",

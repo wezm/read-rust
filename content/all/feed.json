@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "ad13d235-c5b0-454f-b35c-891006484207",
+      "title": "Rust+GNOME Hackfest #5",
+      "content_text": "Last week, I went to the fifth Rust+GNOME hackfest which was in Berlin again. My goal for this hackfest was to fix this issue I opened nearly three years ago. The problem is that sometimes you want to create a widget or an object and set some properties at construction time. This might be needed when you want to set construct-only properties. For instance, you might want to create a webkit2gtk::WebView with a WebContext and a UserContentManager at the same time. That’s why a constructor was manually written for this use case.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-berlin",
+      "date_published": "2019-05-14T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "294ff4dd-a217-4d15-a378-a2ef10f6aae8",
+      "title": "Announcing Rust 1.34.2",
+      "content_text": "The Error::type_id method was recently stabilized as part of Rust 1.34.0. This point release destabilizes it, preventing any code on the stable and beta channels to implement or use it, awaiting future plans that will be discussed in issue #60784.",
+      "url": "https://blog.rust-lang.org/2019/05/14/Rust-1.34.2.html",
+      "date_published": "2019-05-14T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5d09aa3e-28c5-4535-9d07-cc3cafbb2ca2",
+      "title": "State of Machine Learning in Rust",
+      "content_text": "Every once in a while this topic comes up on a social media or Rust user channel. I’d like to describe briefly the way I see where things are going by a little bit of history as well as some information about existing flux of Machine Learning/Deep Learning frameworks and major recent trends.",
+      "url": "https://ehsanmkermani.com/2019/05/13/state-of-machine-learning-in-rust/",
+      "date_published": "2019-05-14T00:48:37+00:00",
+      "author": {
+        "name": "Ehsan M. Kermani",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "593aaa73-c49a-4b38-99c7-ce2a1070723d",
       "title": "Security advisory for the standard library",
       "content_text": "The Rust team was recently notified of a security vulnerability affecting manual implementations of Error::type_id and their interaction with the Error::downcast family of functions in the standard library. If your code does not manually implement Error::type_id your code is not affected.",

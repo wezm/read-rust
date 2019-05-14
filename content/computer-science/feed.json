@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5d09aa3e-28c5-4535-9d07-cc3cafbb2ca2",
+      "title": "State of Machine Learning in Rust",
+      "content_text": "Every once in a while this topic comes up on a social media or Rust user channel. I’d like to describe briefly the way I see where things are going by a little bit of history as well as some information about existing flux of Machine Learning/Deep Learning frameworks and major recent trends.",
+      "url": "https://ehsanmkermani.com/2019/05/13/state-of-machine-learning-in-rust/",
+      "date_published": "2019-05-14T00:48:37+00:00",
+      "author": {
+        "name": "Ehsan M. Kermani",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "d9831a1a-f79f-4c0b-af9e-b4c5b65cd74f",
       "title": "A Practical Analysis of Rust's Concurrency Story",
       "content_text": "Rust is a recent programming language from Mozilla that attempts to solve these intertwined issues by detecting data-races at compile time. Rust's type system encodes a data-structure's ability to be shared between threads in the type system, which in turn allows the compiler to reject programs where threads directly mutate shared state without locks or other protection mechanisms. In this work, we examine how this aspect of Rust's type system impacts the development and refinement of a concurrent data structure, as well as its ability to adapt to situations where correctness is guaranteed by lower-level invariants (e.g., in lock-free algorithms) that are not directly expressible in the type system itself. We detail the implementation of a concurrent lock-free hashmap in order to describe these traits of the Rust language.",

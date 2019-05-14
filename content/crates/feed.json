@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ad13d235-c5b0-454f-b35c-891006484207",
+      "title": "Rust+GNOME Hackfest #5",
+      "content_text": "Last week, I went to the fifth Rust+GNOME hackfest which was in Berlin again. My goal for this hackfest was to fix this issue I opened nearly three years ago. The problem is that sometimes you want to create a widget or an object and set some properties at construction time. This might be needed when you want to set construct-only properties. For instance, you might want to create a webkit2gtk::WebView with a WebContext and a UserContentManager at the same time. That’s why a constructor was manually written for this use case.",
+      "url": "http://antoyo.ml/rust-gnome-hackfest-berlin",
+      "date_published": "2019-05-14T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "a0a1c63f-18d2-440f-8568-0cdd5899afe3",
       "title": "Generating a GNOME library using gir crate",
       "content_text": "In this tutorial, we’ll see how to generate a GNOME library using the gir crate. A few things to note first: It only works on GObject-based libraries.  You need .gir files.\n\nA little explanation about those requirements: the gir crate needs .gir files to generate the library API. You can generally find them alongside the library header files (as you can see here for example, look for “.gir”).\n\nThe .gir files “describes” the library API (objects, arguments, even ownership!). This is where the gir crate comes in: it reads those .gir files and generates the Rust crates from them. You can learn more about the GIR format here.",
