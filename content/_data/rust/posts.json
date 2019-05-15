@@ -593,12 +593,12 @@
       "id": "de6a9110-16fb-47df-a80d-f63af3033589",
       "title": "✩ The RustBridge Roadmap for 2019",
       "content_text": "This is less a specific roadmap and more of a rough braindump of where I think the project currently stands and where I would personally like it to head in 2019 and beyond. With that, let's get started: The main thing I would like to focus on this year is clearing community debt. I don't actually know what you would call this, but it's sort of like technical debt, just manifested within communities.",
-      "url": "https://p.veb.cool/phame/live/1/post/1/the_rustbridge_roadmap_for_2019/",
+      "url": "https://marisa.cloud/phame/live/1/post/1/the_rustbridge_roadmap_for_2019/",
       "tweet_url": "https://twitter.com/faint_visions/status/1123979020847108096",
       "date_published": "2019-05-02T10:19:00+00:00",
       "author": {
         "name": "olivia",
-        "url": "https://p.veb.cool/phame/live/1/"
+        "url": "https://marisa.cloud/phame/live/1/"
       },
       "tags": [
         "Community"
@@ -8836,7 +8836,7 @@
       "id": "68074e79-2747-4170-970f-0e56b936578c",
       "title": "This Year in Embedded Rust",
       "content_text": "This year the Embedded WG set out to build the solid foundation that the embedded Rust ecosystem requires to thrive. As we approach the date of the 2018 edition release we reflect on our progress and share our achievements with you in this post.",
-      "url": "https://rust-embedded.github.io/blog/2018-11-14-this-year-in-embedded-rust/",
+      "url": "https://rust-embedded.github.io/blog/this-year-in-embedded-rust/",
       "tweet_url": "https://twitter.com/rustembedded/status/1062664608538918913",
       "date_published": "2018-11-14T00:00:00+00:00",
       "author": {
