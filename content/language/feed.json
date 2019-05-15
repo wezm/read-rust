@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "1bda7394-787a-42d1-9733-2b503a611ffb",
+      "title": "4 years of Rust",
+      "content_text": "On May 15th, 2015, Rust was released to the world! After 5 years of open development (and a couple of years of sketching before that), we finally hit the button on making the attempt to create a new systems programming language a serious effort!",
+      "url": "https://blog.rust-lang.org/2019/05/15/4-Years-Of-Rust.html",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0e504089-5eaf-4cb5-a22d-04bb587e54f9",
+      "title": "Rust – Handling Executables and their Debug-Symbols",
+      "content_text": "This post is about compiling Rust-code, the executables, the handling of the corresponding debug symbols and core-files. It highlights the importance of debug-symbols for debugging and how to split them of the binary before shipping to customer.",
+      "url": "https://frehberg.com/2019/05/rust-handling-executables-and-their-debug-symbols/",
+      "date_published": "2019-05-14T22:24:55+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6715c2d9-9049-40c2-bc29-cca235bde059",
+      "title": "Creating C/C++ APIs in Rust",
+      "content_text": "Rust is an amazing language with an even better ecosystem. Many design decisions of Rust make it a great fit to add new functionality to existing C/C++ systems or gradually replace parts of those systems!\n\nWhen I tried to make a C++ API for a Rust library, I found that binding from C/C++ to Rust is better documented and has a smoother experience than binding from Rust to C/C++.",
+      "url": "https://karroffel.gitlab.io/post/2019-05-15-rust/",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Herzog",
+        "url": "https://karroffel.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "294ff4dd-a217-4d15-a378-a2ef10f6aae8",
       "title": "Announcing Rust 1.34.2",
       "content_text": "The Error::type_id method was recently stabilized as part of Rust 1.34.0. This point release destabilizes it, preventing any code on the stable and beta channels to implement or use it, awaiting future plans that will be discussed in issue #60784.",

@@ -10,6 +10,80 @@
   },
   "items": [
     {
+      "id": "1bda7394-787a-42d1-9733-2b503a611ffb",
+      "title": "4 years of Rust",
+      "content_text": "On May 15th, 2015, Rust was released to the world! After 5 years of open development (and a couple of years of sketching before that), we finally hit the button on making the attempt to create a new systems programming language a serious effort!",
+      "url": "https://blog.rust-lang.org/2019/05/15/4-Years-Of-Rust.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1128665720819212291",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0e504089-5eaf-4cb5-a22d-04bb587e54f9",
+      "title": "Rust – Handling Executables and their Debug-Symbols",
+      "content_text": "This post is about compiling Rust-code, the executables, the handling of the corresponding debug symbols and core-files. It highlights the importance of debug-symbols for debugging and how to split them of the binary before shipping to customer.",
+      "url": "https://frehberg.com/2019/05/rust-handling-executables-and-their-debug-symbols/",
+      "date_published": "2019-05-14T22:24:55+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6715c2d9-9049-40c2-bc29-cca235bde059",
+      "title": "Creating C/C++ APIs in Rust",
+      "content_text": "Rust is an amazing language with an even better ecosystem. Many design decisions of Rust make it a great fit to add new functionality to existing C/C++ systems or gradually replace parts of those systems!\n\nWhen I tried to make a C++ API for a Rust library, I found that binding from C/C++ to Rust is better documented and has a smoother experience than binding from Rust to C/C++.",
+      "url": "https://karroffel.gitlab.io/post/2019-05-15-rust/",
+      "tweet_url": "https://twitter.com/karroffel/status/1128727938432688130",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Herzog",
+        "url": "https://karroffel.gitlab.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "88afb6a5-3414-407a-9ecc-4e0179e1295f",
+      "title": "Rust for OOP - Series Introduction",
+      "content_text": "While working on my simple chat program, I’ve identified some aspects of Rust, which mastering them will probably turn my code to be more idiomatic. These aspects will turn into a blog series. I’m far from mastering those aspects of Rust, but I’ll share what I’ve learned so far. And how I’ve used it in my chat project.",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/rust-for-oop",
+      "tweet_url": "https://twitter.com/oribenshir/status/1128730024926904320",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "3eb814d5-d467-4e34-ba31-e0a55da4da36",
+      "title": "Introducing Packem: a super fast experimental bundler written in Rust",
+      "content_text": "Packem is an experimental precompiled JavaScript module bundler primarily implemented in Rust. It can also handle a variety of other file types like YAML/TOML, fragment shader files and a lot more.",
+      "url": "https://medium.freecodecamp.org/introducing-packem-a-super-fast-experimental-bundler-written-in-rust-e981af875517",
+      "date_published": "2019-05-15T16:36:27.451+00:00",
+      "author": {
+        "name": "Bukhari Muhammad",
+        "url": "https://medium.freecodecamp.org/@bukharim96"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ad13d235-c5b0-454f-b35c-891006484207",
       "title": "Rust+GNOME Hackfest #5",
       "content_text": "Last week, I went to the fifth Rust+GNOME hackfest which was in Berlin again. My goal for this hackfest was to fix this issue I opened nearly three years ago. The problem is that sometimes you want to create a widget or an object and set some properties at construction time. This might be needed when you want to set construct-only properties. For instance, you might want to create a webkit2gtk::WebView with a WebContext and a UserContentManager at the same time. That’s why a constructor was manually written for this use case.",

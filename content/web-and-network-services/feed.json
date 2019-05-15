@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "3eb814d5-d467-4e34-ba31-e0a55da4da36",
+      "title": "Introducing Packem: a super fast experimental bundler written in Rust",
+      "content_text": "Packem is an experimental precompiled JavaScript module bundler primarily implemented in Rust. It can also handle a variety of other file types like YAML/TOML, fragment shader files and a lot more.",
+      "url": "https://medium.freecodecamp.org/introducing-packem-a-super-fast-experimental-bundler-written-in-rust-e981af875517",
+      "date_published": "2019-05-15T16:36:27.451+00:00",
+      "author": {
+        "name": "Bukhari Muhammad",
+        "url": "https://medium.freecodecamp.org/@bukharim96"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "25d9490f-05e3-4f5c-a407-19d78b0fb6d4",
       "title": "Creating a Static HTTP Server with Rust - Part 1",
       "content_text": "In this series, we will create a basic static HTTP 1.0 server with Rust. At the end of Part 1 of this tutorial, our server will do the following: Listen for and handle TCP connections on a specific port, Accept HTTP 1.0 GET requests, Parse and validate requests for further use, Log incoming requests. We will avoid using libraries that make this trivial (i.e. the http crate) and focus on the fundamentals of how a server works.",

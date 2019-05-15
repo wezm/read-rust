@@ -425,7 +425,7 @@
       "id": "68074e79-2747-4170-970f-0e56b936578c",
       "title": "This Year in Embedded Rust",
       "content_text": "This year the Embedded WG set out to build the solid foundation that the embedded Rust ecosystem requires to thrive. As we approach the date of the 2018 edition release we reflect on our progress and share our achievements with you in this post.",
-      "url": "https://rust-embedded.github.io/blog/2018-11-14-this-year-in-embedded-rust/",
+      "url": "https://rust-embedded.github.io/blog/this-year-in-embedded-rust/",
       "date_published": "2018-11-14T00:00:00+00:00",
       "author": {
         "name": "The Embedded Working Group",
