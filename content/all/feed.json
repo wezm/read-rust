@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "2d643e8c-a753-49c4-b18a-3323bb783259",
+      "title": "Using Rust to Scale Elixir for 11 Million Concurrent Discord Users",
+      "content_text": "Over the last year, the Backend Infrastructure team at Discord was hard at work improving the scalability and performance of our core real-time communications infrastructure. One big project we undertook was changing how we update the Member List.",
+      "url": "https://blog.discordapp.com/using-rust-to-scale-elixir-for-11-million-concurrent-users-c6f19fc029d3",
+      "date_published": "2019-05-17T15:42:16.633+00:00",
+      "author": {
+        "name": "Matt Nowack",
+        "url": "https://blog.discordapp.com/@discord.matt"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "009c05c5-89b2-4519-9133-c46988d45a17",
+      "title": "Rust – Arrays? Make chains, not concat!",
+      "content_text": "f your application needs to iterate over a bunch of items from different sources or arrays, someone with C/C++ background might copy all items into a single vector and iterate this vector. This strategy will cause high costs in terms of allocating heap memory for the consecutive vector buffer. Instead, keep the data where it is, and chain it together to form an iterator over a virtual array. The following Rust code demonstrates the chaining of multiple arrays, forming a single itertator, without any additional allocation of vector buffer in heap. ",
+      "url": "https://frehberg.com/2019/05/rust-arrays-make-chains-no-concat/",
+      "date_published": "2019-05-16T16:59:10+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "64f26c72-e208-4900-90b5-cd1c61ec450b",
+      "title": "Evaluating pipelined rustc compilation",
+      "content_text": "Recently landed in nightly is the ability for Cargo to execute rustc in a “pipelined” fashion which has the promise of faster build times across the ecosystem. This support is turned off by default and the Cargo team is interested to gather more data and information about this feature, and that’s where you come in! If you’re interested in faster compiles, we’re interested in getting your feedback on this feature!",
+      "url": "https://internals.rust-lang.org/t/evaluating-pipelined-rustc-compilation/10199",
+      "date_published": "2019-05-17T16:09:30+00:00",
+      "author": {
+        "name": "Alex Crichton",
+        "url": "https://internals.rust-lang.org/u/alexcrichton"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0369c538-0c12-4b33-9211-fd410b2c38da",
+      "title": "Zero Cost Abstractions",
+      "content_text": "The idea of a zero cost abstraction is very important to certain programming languages, like Rust and C++, which intend to enable users to write programs with excellent performance profiles with relatively little effort. Since this idea is fundamental to the design of Rust and my work, I want to investigate, for a moment, what exactly a zero cost abstraction even is.",
+      "url": "https://boats.gitlab.io/blog/post/zero-cost-abstractions/",
+      "date_published": "2019-05-16T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "27b12f19-d9cb-4ac4-b150-14398ad2f7da",
+      "title": "Terraform: generate 3-d models of geographic terrain",
+      "content_text": "I just spent the past two weeks building a GUI Rust app to help you generate a 3-d model of terrain from around the world, that can then be used for 3-d printing, rendering, or whatever you like.",
+      "url": "https://jaredforsyth.com/posts/intoducing-terraform/",
+      "date_published": "2019-05-16T00:00:00+00:00",
+      "author": {
+        "name": "Jared Forsyth",
+        "url": "https://jaredforsyth.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "e25cac18-f4ca-4872-babe-c4614327e076",
+      "title": "How to start a Rust Chat App",
+      "content_text": "In this post, we will learn how to build simple chat app in your local machine with Rust and simple JavaScript.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-start-Rust-Chat-App",
+      "date_published": "2019-05-16T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "3f754573-640a-4f2c-8c98-bcb1d2727bf9",
+      "title": "Cross compiling and statically linking against Rust libraries",
+      "content_text": "A few years ago, mainly due to performance reasons, we started rewriting specific back-end services from Python to Rust, with great success. Now, for the sake of ease of development and testing, we are exploring the idea of moving parts of our C/C++ code base to Rust, too.\n\nIn order to do so, instead of re-writing everything in one swoop, we decided to try integrating Rust into our existing code base.\n\nFollowing is a summary of our experiments, and a skeleton for writing a Rust library and calling it from a C/C++ application.",
+      "url": "https://medium.com/csis-techblog/cross-compiling-and-statically-linking-against-rust-libraries-2c02ee2c01af",
+      "date_published": "2019-05-16T10:29:25.251+00:00",
+      "author": {
+        "name": "Tiago Seco",
+        "url": "https://medium.com/@TiagoSeco"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e50d6f14-3323-48d5-b85b-e8302eddce92",
+      "title": "Build Rust environment for ESP32",
+      "content_text": "What is it? Recently I heard that LLVM for xtensa is working, so I tried to build Rust for ESP32.",
+      "url": "http://quickhack.net/nom/blog/2019-05-14-build-rust-environment-for-esp32.html",
+      "date_published": "2019-05-14T00:00:00+09:00",
+      "author": {
+        "name": "Yoshinari Nomura",
+        "url": "http://quickhack.net/nom/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "93fbaebd-c627-46f3-89ea-1469e58ecd22",
+      "title": "Papers on Rust",
+      "content_text": "With these crates in a basic but usable state, I went to write papers, Rust code to gather data from the above sources, and inject them into Wikidata. I wrote a Rust trait to represent a generic source, and then wrote adapter structs for each of the sources. Finally, I added some wrapper code to take a list of adapters, query them about a paper, and update Wikidata accordingly.",
+      "url": "http://magnusmanske.de/wordpress/?p=617",
+      "date_published": "2019-05-16T10:06:00+00:00",
+      "author": {
+        "name": "Magnus Manske",
+        "url": "http://blog.magnusmanske.de/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e710999e-81b7-433e-a2cd-d1968a619567",
+      "title": "Rust - 4+ years later",
+      "content_text": "A quick tour through my 4+ years with Rust.",
+      "url": "https://fnordig.de/2019/05/15/rust-4-years-later/",
+      "date_published": "2019-05-15T00:00:00+00:00",
+      "author": {
+        "name": "Jan-Erik Rediger",
+        "url": "https://fnordig.de/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "1bda7394-787a-42d1-9733-2b503a611ffb",
       "title": "4 years of Rust",
       "content_text": "On May 15th, 2015, Rust was released to the world! After 5 years of open development (and a couple of years of sketching before that), we finally hit the button on making the attempt to create a new systems programming language a serious effort!",

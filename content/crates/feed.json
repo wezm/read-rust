@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "93fbaebd-c627-46f3-89ea-1469e58ecd22",
+      "title": "Papers on Rust",
+      "content_text": "With these crates in a basic but usable state, I went to write papers, Rust code to gather data from the above sources, and inject them into Wikidata. I wrote a Rust trait to represent a generic source, and then wrote adapter structs for each of the sources. Finally, I added some wrapper code to take a list of adapters, query them about a paper, and update Wikidata accordingly.",
+      "url": "http://magnusmanske.de/wordpress/?p=617",
+      "date_published": "2019-05-16T10:06:00+00:00",
+      "author": {
+        "name": "Magnus Manske",
+        "url": "http://blog.magnusmanske.de/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ad13d235-c5b0-454f-b35c-891006484207",
       "title": "Rust+GNOME Hackfest #5",
       "content_text": "Last week, I went to the fifth Rust+GNOME hackfest which was in Berlin again. My goal for this hackfest was to fix this issue I opened nearly three years ago. The problem is that sometimes you want to create a widget or an object and set some properties at construction time. This might be needed when you want to set construct-only properties. For instance, you might want to create a webkit2gtk::WebView with a WebContext and a UserContentManager at the same time. That’s why a constructor was manually written for this use case.",

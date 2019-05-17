@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e25cac18-f4ca-4872-babe-c4614327e076",
+      "title": "How to start a Rust Chat App",
+      "content_text": "In this post, we will learn how to build simple chat app in your local machine with Rust and simple JavaScript.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-start-Rust-Chat-App",
+      "date_published": "2019-05-16T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "3eb814d5-d467-4e34-ba31-e0a55da4da36",
       "title": "Introducing Packem: a super fast experimental bundler written in Rust",
       "content_text": "Packem is an experimental precompiled JavaScript module bundler primarily implemented in Rust. It can also handle a variety of other file types like YAML/TOML, fragment shader files and a lot more.",

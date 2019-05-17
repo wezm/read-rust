@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e50d6f14-3323-48d5-b85b-e8302eddce92",
+      "title": "Build Rust environment for ESP32",
+      "content_text": "What is it? Recently I heard that LLVM for xtensa is working, so I tried to build Rust for ESP32.",
+      "url": "http://quickhack.net/nom/blog/2019-05-14-build-rust-environment-for-esp32.html",
+      "date_published": "2019-05-14T00:00:00+09:00",
+      "author": {
+        "name": "Yoshinari Nomura",
+        "url": "http://quickhack.net/nom/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "507fcf49-a4cd-445d-8df1-82eaaad35188",
       "title": "μAMP: Asymmetric Multi-Processing on microcontrollers",
       "content_text": "microamp (styled as μAMP) is a framework (library plus cargo subcommand) for building bare-metal applications that target AMP systems. This blog post is a deep dive into this framework which serves as the core foundation of the multi-core version of Real Time For the Masses (RTFM), which I’ll cover in the next blog post.",

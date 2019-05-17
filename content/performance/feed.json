@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2d643e8c-a753-49c4-b18a-3323bb783259",
+      "title": "Using Rust to Scale Elixir for 11 Million Concurrent Discord Users",
+      "content_text": "Over the last year, the Backend Infrastructure team at Discord was hard at work improving the scalability and performance of our core real-time communications infrastructure. One big project we undertook was changing how we update the Member List.",
+      "url": "https://blog.discordapp.com/using-rust-to-scale-elixir-for-11-million-concurrent-users-c6f19fc029d3",
+      "date_published": "2019-05-17T15:42:16.633+00:00",
+      "author": {
+        "name": "Matt Nowack",
+        "url": "https://blog.discordapp.com/@discord.matt"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "7d2c4d88-ce3c-4794-8093-80d1dd15395c",
       "title": "Racing sed with Rust",
       "content_text": "As part of a project I’m working on, I sometimes find myself having to deal with quite large X12 files. What I’d really like is a small, self-contained tool that I can pass an X12 file to and rely on it to Do The Right Thing™ without any unnecessary incantations. Since I’m dealing with large source files it would also be nice if it was at least as fast as standard tools like sed. Sounds like a job for…",

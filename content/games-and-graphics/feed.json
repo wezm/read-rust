@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "27b12f19-d9cb-4ac4-b150-14398ad2f7da",
+      "title": "Terraform: generate 3-d models of geographic terrain",
+      "content_text": "I just spent the past two weeks building a GUI Rust app to help you generate a 3-d model of terrain from around the world, that can then be used for 3-d printing, rendering, or whatever you like.",
+      "url": "https://jaredforsyth.com/posts/intoducing-terraform/",
+      "date_published": "2019-05-16T00:00:00+00:00",
+      "author": {
+        "name": "Jared Forsyth",
+        "url": "https://jaredforsyth.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "8922aaed-cc0e-482a-8422-d7dceec6dac3",
       "title": "Zemeroth v0.5: ggez, WASM, itch.io, visuals, AI, campaign, tests",
       "content_text": "Zemeroth is a turn-based hexagonal tactical game written in Rust. You can download precompiled v0.5 binaries for Windows, Linux, and macOS. Also, now you can play an online version (read more about it in the \"WebAssembly version\" section).",
