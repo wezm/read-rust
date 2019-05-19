@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "568fdc54-427f-47be-8849-dd040bafe8dd",
+      "title": "Momo · Get Back Some Compile Time From Monomorphization",
+      "content_text": "Monomorphization has one problem (apart from being a ridiculous word that I’ll probably spell wrong every time): It generates rather a lot of code, bloating binary size and potentially pessimizing execution cache usage. Often, generics aren’t really needed for speed, but for ergonomics: Library code might want to present an easy-to-use generic interface that will automate some conversions. However, this often means that almost each user gets their own version of the code, leading to the aforementioned bloat (case in point: Earlier clap versions were notorious for adding hundreds of kilobytes to the binary size – for a simple command line parser).",
+      "url": "https://llogiq.github.io/2019/05/18/momo.html",
+      "date_published": "2019-05-18T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "2d643e8c-a753-49c4-b18a-3323bb783259",
       "title": "Using Rust to Scale Elixir for 11 Million Concurrent Discord Users",
       "content_text": "Over the last year, the Backend Infrastructure team at Discord was hard at work improving the scalability and performance of our core real-time communications infrastructure. One big project we undertook was changing how we update the Member List.",

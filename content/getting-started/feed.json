@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1c9745cb-ea4b-4d95-81b4-c51c4a217602",
+      "title": "Image processing experiments (1)",
+      "content_text": "I implemented an image processing experiment in Rust and was positively surprised.",
+      "url": "https://toswak.net/blog/image-processing-experiments-1-rust/",
+      "date_published": "2019-05-18T00:00:00+00:00",
+      "author": {
+        "name": "Tobias Watzek",
+        "url": "https://toswak.net/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "88afb6a5-3414-407a-9ecc-4e0179e1295f",
       "title": "Rust for OOP - Series Introduction",
       "content_text": "While working on my simple chat program, I’ve identified some aspects of Rust, which mastering them will probably turn my code to be more idiomatic. These aspects will turn into a blog series. I’m far from mastering those aspects of Rust, but I’ll share what I’ve learned so far. And how I’ve used it in my chat project.",

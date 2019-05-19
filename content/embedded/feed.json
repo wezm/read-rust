@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a534602d-8f20-4c12-800d-adbab4f62ca0",
+      "title": "My Project to Write Embedded OS in Rust",
+      "content_text": "My experience writing embedded OS in Rust. The target architecture is Arm Cortex-M series. My application is running on Nucleo-F4291ZI board and QEMU. Currently, I implemented those functionality: Round-robin scheduler to schedule processes running in Thread mode, SVC interfaces to call kernel function for user processes (e.g. print messages using USART, sleep to wait for interrupts), Move to sleep mode to wait for interrupt when there is no executable processes. There are only a few functionality yet, but the core structure is being completed, I think.",
+      "url": "https://medium.com/@garasubo/my-project-to-write-embedded-os-in-rust-eadf83f5ee37",
+      "date_published": "2019-05-17T23:01:00.842+00:00",
+      "author": {
+        "name": "garasubo (ガラスボー)",
+        "url": "https://medium.com/@garasubo"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "e50d6f14-3323-48d5-b85b-e8302eddce92",
       "title": "Build Rust environment for ESP32",
       "content_text": "What is it? Recently I heard that LLVM for xtensa is working, so I tried to build Rust for ESP32.",

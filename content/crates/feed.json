@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fdf7f732-0af5-4031-9135-4b1db1ebfc28",
+      "title": "Shell Completions in Pure Rust",
+      "content_text": "Custom completion behavior is configured using a special bash built-in called complete. complete can be used to designate either a bash function or any other command as the completion script for a particular command. When the user requests completions for a command, complete will run specified code, passing in as args information about what the user has already typed, and expecting as output the completion suggestions. Typically these completion scripts are written in bash, but we’ll look at how it is possible to write them in Rust.",
+      "url": "https://www.joshmcguigan.com/blog/shell-completions-pure-rust/",
+      "date_published": "2019-05-12T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "93fbaebd-c627-46f3-89ea-1469e58ecd22",
       "title": "Papers on Rust",
       "content_text": "With these crates in a basic but usable state, I went to write papers, Rust code to gather data from the above sources, and inject them into Wikidata. I wrote a Rust trait to represent a generic source, and then wrote adapter structs for each of the sources. Finally, I added some wrapper code to take a list of adapters, query them about a paper, and update Wikidata accordingly.",

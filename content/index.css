@@ -99,6 +99,60 @@ blockquote {
   filter: none;
 }
 
+.button {
+  display: inline-block;
+  border: 2px solid #fbd492;
+  color: #444;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+}
+/* a.button[href*='patreon.com'] { */
+/*   border-color: rgb(231, 81, 59); */
+/* } */
+.button:hover {
+  background-color: #fbd492;
+}
+
+.creators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  flex: 0 0 auto;
+  /* border: 1px solid #ffebd4; */
+  border-radius: 3px;
+  margin: 0.5em 0;
+}
+.card h3 {
+  display: inline-block;
+  margin: 0;
+}
+.card img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.card ul {
+  margin: 0.5em 0 0;
+  padding: 0 0 0 20px;
+}
+.card .meta a {
+  color: rgba(0,0,0,.5);
+}
+.card .meta img {
+  width: 20px;
+  filter: saturate(0%);
+}
+.card .content {
+  padding: 1em 0;
+}
+.card .description {
+  clear: both;
+}
+
 #search {
   margin-bottom: 2em;
 }
