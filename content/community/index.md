@@ -1,3 +1,4 @@
+---
 title: Community
 layout: default.liquid
 ---

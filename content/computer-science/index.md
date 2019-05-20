@@ -1,3 +1,4 @@
+---
 title: Computer Science
 layout: default.liquid
 ---

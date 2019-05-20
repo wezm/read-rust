@@ -1,3 +1,4 @@
+---
 title: Performance
 layout: default.liquid
 ---

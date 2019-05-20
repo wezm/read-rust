@@ -1,3 +1,4 @@
+---
 title: Rust 2018
 layout: default.liquid
 ---

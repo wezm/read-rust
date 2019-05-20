@@ -1,3 +1,4 @@
+---
 title: Games and Graphics
 layout: default.liquid
 ---

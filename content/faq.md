@@ -1,3 +1,4 @@
+---
 title: FAQ
 layout: default.liquid
 ---

@@ -1,3 +1,4 @@
+---
 title: Home
 layout: default.liquid
 ---

@@ -1,3 +1,4 @@
+---
 title: Submit Post
 layout: default.liquid
 ---

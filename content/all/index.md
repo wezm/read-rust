@@ -1,3 +1,4 @@
+---
 title: All Posts
 layout: default.liquid
 ---
