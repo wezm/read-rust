@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "feed408e-361c-4a9c-9432-5729aed1e789",
+      "title": "powerset-enum - anonymous enum and a PoC for how that feature can be used to improve Rust's error handling",
+      "content_text": "My crate offers a powerset enum - an enum that can be parametrized to any subset of it's variants. I also included a macro for doing this parametrization by providing the types of the variants - so for example Error![std::io::Error, serde_json::Error] would generate a subset of the enum that can only have IO and JSON parsing errors.",
+      "url": "https://www.reddit.com/r/rust/comments/bqn9e6/announcing_the_powersetenum_crate_a_poor_mans/",
+      "date_published": "2019-05-20T08:50:00+10:00",
+      "author": {
+        "name": "someboddy",
+        "url": "https://www.reddit.com/user/somebodddy/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "fdf7f732-0af5-4031-9135-4b1db1ebfc28",
       "title": "Shell Completions in Pure Rust",
       "content_text": "Custom completion behavior is configured using a special bash built-in called complete. complete can be used to designate either a bash function or any other command as the completion script for a particular command. When the user requests completions for a command, complete will run specified code, passing in as args information about what the user has already typed, and expecting as output the completion suggestions. Typically these completion scripts are written in bash, but we’ll look at how it is possible to write them in Rust.",

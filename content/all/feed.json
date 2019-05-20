@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "feed408e-361c-4a9c-9432-5729aed1e789",
+      "title": "powerset-enum - anonymous enum and a PoC for how that feature can be used to improve Rust's error handling",
+      "content_text": "My crate offers a powerset enum - an enum that can be parametrized to any subset of it's variants. I also included a macro for doing this parametrization by providing the types of the variants - so for example Error![std::io::Error, serde_json::Error] would generate a subset of the enum that can only have IO and JSON parsing errors.",
+      "url": "https://www.reddit.com/r/rust/comments/bqn9e6/announcing_the_powersetenum_crate_a_poor_mans/",
+      "date_published": "2019-05-20T08:50:00+10:00",
+      "author": {
+        "name": "someboddy",
+        "url": "https://www.reddit.com/user/somebodddy/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d6fe8e42-6394-4db9-858e-e572740e0915",
+      "title": "Scala Developer Journey into Rust - Part 5: Domain Models",
+      "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala. This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences.\n\nThis is fifth post in the series. In this post, I will be talking about domain models.",
+      "url": "http://blog.madhukaraphatak.com/rust-scala-part-5/",
+      "date_published": "2019-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Madhukara Phatak",
+        "url": "http://madhukaraphatak.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "eedb81ef-265f-4dc2-a1d9-559d2d68594d",
+      "title": "Rust In Avast",
+      "content_text": "When I joined Avast about a year and a half ago, I did it because of two things:  I wanted to work on interesting problems and I wanted to share the Wisdom of Rust with few more people.\n\nOriginally, I was hired because of my experience with writing software for „bigger embedded“ (think a home router or Raspberry PI ‒ it runs Linux kernel, has a shell, but the file system is a bad joke, your libc has bunch of weird bugs features, you really need to think twice not to waste RAM needlessly and you have to cross-compile), low-level networking knowledge and C++.\n\nBut I don’t enjoy writing C++ (not speaking about the libc features). And I have other skills I like to practice too. So I would drop an occasional comment about how this or that would be better done in Rust. I’ve done internal courses and workshops about Rust for whoever was interested, in the hope more people would start asking to be allowed to do stuff in Rust and I could participate in such projects.",
+      "url": "https://vorner.github.io/2019/05/19/rust-in-avast.html",
+      "date_published": "2019-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e8a7784f-8334-4e7a-b912-a6c3cfbb5522",
+      "title": "Rust for OOP - Project Management",
+      "content_text": "The basics of Rust project layout are simple, and common to many other languages. You have the artifacts of your project. The basics artifacts are executables(binaries) and libraries. You use binaries whenever you want to produce a runnable application. For reusable code, use libraries. Nothing remarkable in Rust. In my projects, I prefer to write almost everything inside libraries, as one can never know when he will reuse a piece of code. Usually, I want my executable to be a thin wrapper around my libraries. Rust has a uniform name for a single library or binary: crate. Meaning crate is either an executable or a library. Creating either a library or a binary crate is straightforward.",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/project-management",
+      "date_published": "2019-05-18T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "fdf7f732-0af5-4031-9135-4b1db1ebfc28",
       "title": "Shell Completions in Pure Rust",
       "content_text": "Custom completion behavior is configured using a special bash built-in called complete. complete can be used to designate either a bash function or any other command as the completion script for a particular command. When the user requests completions for a command, complete will run specified code, passing in as args information about what the user has already typed, and expecting as output the completion suggestions. Typically these completion scripts are written in bash, but we’ll look at how it is possible to write them in Rust.",

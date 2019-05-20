@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "d6fe8e42-6394-4db9-858e-e572740e0915",
+      "title": "Scala Developer Journey into Rust - Part 5: Domain Models",
+      "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala. This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences.\n\nThis is fifth post in the series. In this post, I will be talking about domain models.",
+      "url": "http://blog.madhukaraphatak.com/rust-scala-part-5/",
+      "date_published": "2019-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Madhukara Phatak",
+        "url": "http://madhukaraphatak.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e8a7784f-8334-4e7a-b912-a6c3cfbb5522",
+      "title": "Rust for OOP - Project Management",
+      "content_text": "The basics of Rust project layout are simple, and common to many other languages. You have the artifacts of your project. The basics artifacts are executables(binaries) and libraries. You use binaries whenever you want to produce a runnable application. For reusable code, use libraries. Nothing remarkable in Rust. In my projects, I prefer to write almost everything inside libraries, as one can never know when he will reuse a piece of code. Usually, I want my executable to be a thin wrapper around my libraries. Rust has a uniform name for a single library or binary: crate. Meaning crate is either an executable or a library. Creating either a library or a binary crate is straightforward.",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/project-management",
+      "date_published": "2019-05-18T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "1c9745cb-ea4b-4d95-81b4-c51c4a217602",
       "title": "Image processing experiments (1)",
       "content_text": "I implemented an image processing experiment in Rust and was positively surprised.",

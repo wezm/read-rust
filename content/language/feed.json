@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "eedb81ef-265f-4dc2-a1d9-559d2d68594d",
+      "title": "Rust In Avast",
+      "content_text": "When I joined Avast about a year and a half ago, I did it because of two things:  I wanted to work on interesting problems and I wanted to share the Wisdom of Rust with few more people.\n\nOriginally, I was hired because of my experience with writing software for „bigger embedded“ (think a home router or Raspberry PI ‒ it runs Linux kernel, has a shell, but the file system is a bad joke, your libc has bunch of weird bugs features, you really need to think twice not to waste RAM needlessly and you have to cross-compile), low-level networking knowledge and C++.\n\nBut I don’t enjoy writing C++ (not speaking about the libc features). And I have other skills I like to practice too. So I would drop an occasional comment about how this or that would be better done in Rust. I’ve done internal courses and workshops about Rust for whoever was interested, in the hope more people would start asking to be allowed to do stuff in Rust and I could participate in such projects.",
+      "url": "https://vorner.github.io/2019/05/19/rust-in-avast.html",
+      "date_published": "2019-05-19T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "009c05c5-89b2-4519-9133-c46988d45a17",
       "title": "Rust – Arrays? Make chains, not concat!",
       "content_text": "f your application needs to iterate over a bunch of items from different sources or arrays, someone with C/C++ background might copy all items into a single vector and iterate this vector. This strategy will cause high costs in terms of allocating heap memory for the consecutive vector buffer. Instead, keep the data where it is, and chain it together to form an iterator over a virtual array. The following Rust code demonstrates the chaining of multiple arrays, forming a single itertator, without any additional allocation of vector buffer in heap. ",
