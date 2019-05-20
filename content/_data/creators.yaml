@@ -1,0 +1,628 @@
+---
+  -
+    name: Igor Matuszewski
+    avatar: xanewok.jpg
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/xanewok'
+    code:
+      name: '@Xanewok'
+      link: 'https://github.com/xanewok'
+    description: Member of the Rust <a href="https://www.rust-lang.org/en-US/team.html#IDEs-and-editors-team">IDEs and editors</a> team working on the Rust Language Server (<a href="https://github.com/rust-lang-nursery/rls/">RLS</a>), and other dev tools.
+  -
+    name: QuietMisdreavus
+    avatar: QuietMisdreavus.png
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/QuietMisdreavus'
+    code:
+      name: '@QuietMisdreavus'
+      link: 'https://github.com/QuietMisdreavus'
+    description: Lead of <a href="https://www.rust-lang.org/en-US/team.html#Rustdoc-team" target="_blank">the Rustdoc Team</a>, helping organize issue triage and reviewing new contributions to the documentation tool.
+  -
+    name: Stjepan Glavina
+    avatar: stjepang.jpg
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/stjepang'
+    code:
+      name: '@stjepang'
+      link: 'https://github.com/stjepang'
+    description: crossbeam, all things Rust concurrency
+  -
+    name: Jorge Aparicio
+    avatar: japaric.png
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/japaric/'
+    code:
+      name: '@japaric'
+      link: 'https://github.com/japaric'
+    description: Rust on embedded devices
+  -
+    name: Chris Krycho
+    avatar: chriskrycho.jpg
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/newrustacean/'
+    code:
+      name: '@chriskrycho'
+      link: 'https://github.com/chriskrycho'
+    description: Publishes the <a href="https://newrustacean.com/">New Rustacean podcast</a> covering Rust news, and deep dives in the language.
+  -
+    name: Matthias Endler
+    avatar: mre.png
+    support:
+      name: Patreon
+      link: 'https://www.patreon.com/hellorust/'
+    code:
+      name: '@mre'
+      link: 'https://github.com/mre'
+    description: Publishes the <a href="https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw/featured">Hello Rust!</a> show featuring live coding sessions building in, and exploring Rust.
+  -
+    name: Florian Gilcher
+    avatar: skade.png
+    support:
+      name: Sponsor
+      link: 'https://yakshav.es/sponsor-florian'
+    code:
+      name: '@skade'
+      link: 'https://github.com/skade'
+    description: RustFest organiser, member of the Rust Community team, and Events team lead.
+  -
+    name: Jeremy Soller
+    avatar: jackpot51.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/redox_os
+    code:
+      name: '@jackpot51'
+      link: 'https://gitlab.redox-os.org/jackpot51'
+    description: Creator and lead developer of Redox OS, a Unix-like microkernel operating system written in Rust.
+  -
+    name: Leonora Tindall
+    avatar: NoraCodes.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/noracodes
+    code:
+      name: '@NoraCodes'
+      link: 'https://github.com/NoraCodes'
+    description: |
+      Projects &amp; Crates:
+
+        <ul>
+          <li><a href="https://crates.io/crates/iui">iui</a></li>
+          <li><a href="https://github.com/NoraCodes/rloris">rloris</a></li>
+        </ul>
+  -
+    name: Dirkjan Ochtman
+    avatar: djc.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/dochtman
+    code:
+      name: '@djc'
+      link: 'https://github.com/djc'
+    description: |
+      <strong>Current Rust projects</strong>
+
+      <ul>
+        <li><a href="https://github.com/djc/askama">Askama</a> is a type-safe compiled Jinja-like templating language for Rust, one of the <a href="https://crates.io/categories/template-engine">most popular</a> Rust templating solutions. It aims to be user-friendly and very efficient.</li>
+        <li><a href="https://github.com/djc/quinn">Quinn</a> is a futures-based Rust implementation of the nascent <a href="https://quicwg.github.io/">QUIC</a> internet protocol. It was the subject of a <a href="https://www.youtube.com/watch?v=EHgyY5DNdvI">May 2018 RustFest presentation</a>. It is not yet usable, but I believe the basis that's there is promising, and I'd like to continue development.</li>
+        <li><a href="https://github.com/djc/tokio-imap">tokio-imap and imap-proto</a> are a tokio-based IMAP client and base IMAP protocol library in Rust. imap-proto is also used by <a href="https://github.com/mattnenterprise/rust-imap">rust-imap</a>, the most-popular IMAP library on <a href="http://crates.io" target="_blank" rel="noopener noreferrer">crates.io</a>.</li>
+
+        <li><a href="https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#namespaced-features">namespaced-features</a>
+        is a change to how Cargo reads manifests to improve separation between 
+        features and dependencies. While I have implemented the Cargo parts of 
+        this change, this features will also need changes in the package 
+        registry code.</li>
+        <li><a href="https://github.com/rust-lang/rfcs/blob/master/text/2338-type-alias-enum-variants.md">Type alias enum variants (RFC 2338)</a> is a language feature that I've written the RFC for. The RFC has been accepted, but I would like to <a href="https://github.com/rust-lang/rust/issues/49683">implement</a> the required changes in rustc.</li>
+      </ul>
+  -
+    name: tomaka
+    avatar: tomaka.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/tomaka
+    code:
+      name: '@tomaka'
+      link: 'https://github.com/tomaka'
+    description: |
+      Projects<br>- <strong><a href="http://vulkano.rs/">Vulkano</a></strong> (<em>~45k lines of code</em>) is a safe wrapper around the Vulkan API. It is a low-level brick that allows you to interact with your GPU and execute graphical or compute (GPGPU) operations. Vulkano aims to be very explicit and predictable especially if you are familiar with the Vulkan API, but at the same time provide some high-level functionnalities. Ideal for building a game, a game engine, or a GPGPU application when performances and explicitness matter.<br><br>- <a href="https://github.com/glium/glium"><strong>Glium</strong></a> (<em>~33k lines of code, unmaintained</em>) is a safe wrapper around OpenGL and OpenGL ES. It aims to provide an easy-to-use high-level API while still remaining predictable and not hiding what it does. Even though many people have liked glium, its main goal of being safe was determined to be too difficult because of the many problems with OpenGL itself.<br><br>- <strong><a href="https://github.com/tomaka/android-rs-glue">Android-rs-glue</a></strong> allows you to easily turn your Rust code into an Android package. After installing the Android SDK and NDK, run the <em>`cargo apk</em>` command and you will get an .apk file which you can then install on your device. Works out of the box with <strong>vulkano</strong>, <strong>glium</strong>, <strong>winit</strong> and <strong>glutin</strong>. Also provides a docker image.<br><br>- <strong><a href="https://github.com/tomaka/winit">Winit</a></strong> (<em>~10k lines of code</em>) is a cross-platform window creation library. It allows you to create a basic window on Windows, Linux, MacOS and Android, then lets you handle the events received by this window. In order to show something on the window, you are supposed to create an OpenGL, Vulkan, or DirectX context on top of it, but this is not covered by winit itself.<br><br>- <strong><a href="https://github.com/tomaka/glutin">Glutin</a></strong> (<em>~7k lines of code</em>) does the same as <strong>winit</strong>, but creates an OpenGL context in a cross-platform way on top of the window. The <a href="https://servo.org/">servo</a> project from Mozilla uses a fork of glutin for its own windowing.<br><br>- <a href="https://github.com/tomaka/rodio"><strong>Rodio</strong></a><strong></strong> is a cross-platform high-level audio playback library. It handles decoding audio files, adding filters, pausing/playing, adjusting the volume, and so on.<br><br>- <strong><a href="https://github.com/tomaka/cpal">Cpal</a></strong> is a cross-platform low-level audio playback library used by <strong>rodio</strong>. It opens a channel of communication with the system (WASAPI, ALSA, coreaudio) and allows you to stream PCM data to it.<br><br>- <strong><a href="https://github.com/tomaka/hlua">Hlua</a></strong> is a safe wrapper around the Lua runtime library. Hlua provides a high-level easy-to-use API and handles the Lua stack for you. The library is heavily templated and should have a negligible runtime overhead.<br><br>- <strong><a href="https://github.com/tomaka/rouille">Rouille</a></strong> is a web framework backed by <strong>tiny-http</strong>. Contrary to other Rust web frameworks, rouille lets you write borrow-checker-friendly Rust-code. For example additional parameters to pass to a route handler do not go through the framework but are simply passed as regular function parameters. Rouille is not as shiny-looking as other frameworks, but it should work just as well and is likely more intuitive to use.<br><br>- <strong><a href="https://github.com/tomaka/immi">Immi</a></strong> is a utility toolkit if you want to create an immediate mode user interface. It doesn't perform any drawing, but provides some kind of framework to make your life easier.
+  -
+    name: Raph Levien
+    avatar: raphlinus.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/raphlinus
+    code:
+      name: '@raphlinus'
+      link: 'https://github.com/raphlinus'
+    description: |
+      I've been doing open source software for well over 20 years. These days, I'm especially actively involved in the Rust community, contributing to core infrastructure and creative tools. Perhaps my best known project is&nbsp;<a href="https://xi-editor.github.io/xi-editor/" target="_blank">xi-editor</a>, which is still in early stages but has the potential to become a rich and responsive tool for programmers. I also maintain&nbsp;<a href="https://github.com/raphlinus/pulldown-cmark" target="_blank">pulldown-cmark</a> and a number of other Rust libraries, and am working on a new GUI toolkit called&nbsp;<a href="https://github.com/xi-editor/druid" target="_blank">druid</a>.<br>
+      <br>
+      I was at Google for 11 years, and did open source both as my main job and in 20% projects. These days, I'm going out on my own, creating a video game with music synthesis as a core mechanic. I'm planning to sell the game commercially, but do the synthesizer and Rust infrastructure work as free software with a permissive license. Supporting me on Patreon is a way to vote for me spending more time on free software work to benefit the community, especially the pieces that I don't otherwise have plans to monetize.<br>
+      <br>
+      Follow my&nbsp;<a href="https://raphlinus.github.io/" target="_blank">blog</a> for writings about my Rust work, audio synthesis, and other topics.
+  -
+    name: Sean Griffin
+    avatar: sgrif.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/seantheprogrammer
+    code:
+      name: '@sgrif'
+      link: 'https://github.com/sgrif'
+    description: |
+      I co-lead the team that manages crates.io, the package repository for the Rust programming language. I'm also the person who gets woken up at 3 AM if the service goes down. I created Diesel, an ORM and query builder for Rust.
+  -
+    name: Amethyst
+    avatar: Amethyst.svg
+    support:
+      name: Donate
+      link: https://amethyst.rs/donate
+    code:
+      name: '@amethyst'
+      link: https://github.com/amethyst
+    description: |
+  -
+    name: Plume
+    avatar: Plume.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/Plume/
+    code:
+      name: '@Plume-org'
+      link: https://github.com/Plume-org
+    description: |
+      https://contribute.joinplu.me/guides/become-backer
+  -
+    name: Aardwolf
+    avatar: Aardwolf.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/Aardwolf/
+    code:
+      name: '@Aardwolf-Social'
+      link: https://github.com/Aardwolf-Social
+    description: |
+      <p>Aardwolf is the engine behind a new Facebook-like social platform which is being actively developed.</p>
+
+      <p>Aardwolf shares a philosophy and underlying protocols with Mastodon, a federated microblogging platform with over a 1000 independently-run servers, hosting more than a million active users.</p>
+  -
+    name: Wesley Moore
+    avatar: wezm.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/wezm
+    code:
+      name: '@wezm'
+      link: https://github.com/wezm
+    description: |
+      I am the curator of Read Rust, this very website. I scour the internet for
+      interesting Rust posts so you dont have to. I also write Rust code, such as:
+        <ul>
+          <li><a href="https://crates.io/crates/ssd1675">ssd1675</a></li>
+          <li><a href="https://crates.io/crates/cc2650">cc2650</a></li>
+          <li><a href="https://crates.io/crates/feedfinder">feedfinder</a></li>
+          <li><a href="https://crates.io/crates/profont">profont</a></li>
+        </ul>
+  -
+    name: measlytwerp
+    avatar: measlytwerp.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/measlytwerp/
+    code:
+      name: '@measlytwerp'
+      link: https://github.com/measlytwerp
+    description: |
+  -
+    name: Baptiste Gelez
+    avatar: Bat.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/Bat/
+    code:
+      name: '@BaptisteGelez'
+      link: https://github.com/BaptisteGelez
+    description: |
+      Baptiste is building Plume, a federated blogging application built on ActivityPub.
+  -
+    name: Aaron Power
+    avatar: XAMPPRocky.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/Aaronepower/
+    code:
+      name: '@XAMPPRocky'
+      link: https://github.com/XAMPPRocky
+    description: |
+      Rust contributor and creator of <a href="https://github.com/XAMPPRocky/tokei">tokei</a>
+      fast lines of code counter,
+      <a href="https://github.com/XAMPPRocky/Mammut">Mammut</a> client for the Mastodon
+      API.
+  -
+    name: Kornel 
+    avatar: Kornel.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/kornel/
+    code:
+      name: '@kornelski'
+      link: https://github.com/kornelski
+    description: |
+      Creator of <a href="">Lib.rs</a>, a fast, lightweight site to find quality Rust libraries and applications. Contributor to Rust and <a href="https://crates.io/users/kornelski">many crates</a>, including:
+      <ul>
+        <li><a href="https://crates.io/crates/gifski">gifski</a></li>
+        <li><a href="https://crates.io/crates/dssim">dssim</a></li>
+      </ul>
+  -
+    name: Philipp Oppermann
+    avatar: phil-opp.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/phil-opp/
+    code:
+      name: '@phil-opp'
+      link: https://github.com/phil-opp
+    description: |
+      Publishing a book on <a href="https://os.phil-opp.com/">Writing an OS in Rust</a>.
+      Also maintainer of crates for OS development:
+
+      <ul>
+        <li><a href="https://crates.io/crates/x86_64">x86_64</a> &mdash; Library to program x86_64 hardware.</li>
+        <li><a href="https://crates.io/crates/bootloader">bootloader</a> &mdash; experimental pure-Rust x86 bootloader.</li>
+        <li><a href="https://crates.io/crates/bootimage">bootimage</a> &mdash; tool to create a bootable OS image from a kernel binary.</li>
+      </ul>
+  -
+    name: Jon Gjengset
+    avatar: jonhoo.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/jonhoo/
+    code:
+      name: '@jonhoo'
+      link: https://github.com/jonhoo
+    description: |
+      Rust live coder, and builder of Rust implementations of
+      <a href="https://github.com/HdrHistogram/HdrHistogram_rust">HdrHistogram</a>,
+      <a href="https://github.com/jonhoo/faktory-rs">Faktory</a>, and the <a href="https://github.com/mattnenterprise/rust-imap/">IMAP
+      protocol</a>. I'm also doing
+      research on building a <a href="https://jon.tsp.io/papers/sosp17src-xylem.pdf">fast new database engine</a>.
+  -
+    name: Pascal Hertleif
+    avatar: killercup.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/pascal/
+    code:
+      name: '@killercup'
+      link: https://github.com/killercup
+    description: |
+      <p>I spend an unhealthy amount of time writing open source software. Most of it is currently in Rust.</p>
+
+      <p>Sending some money my way will improve the chances of me working on something you might like—e.g., <a href="https://github.com/killercup/cargo-edit">cargo-edit</a>, <a href="https://github.com/killercup/rustfix">rustfix</a>, or <a href="https://diesel.rs">diesel</a>—or write some more posts on <a href="https://deterministic.space">deterministic.space</a>.</p>
+  -
+    name: Aaron Hill
+    avatar: Aaron1011.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/Aaron1011/
+    code:
+      name: '@Aaron1011'
+      link: https://github.com/Aaron1011
+    description: |
+      Working on Rust and Cargo.
+  -
+    name: Jonas Platte
+    avatar: jplatte.png
+    support:
+      name: Liberapay
+      link: https://liberapay.com/jplatte/
+    code:
+      name: '@jplatte'
+      link: https://github.com/jplatte
+    description: |
+      Creater of <a href="https://turbo.fish/">turbo.fish</a>, contributor to the <a href="https://github.com/ruma/ruma-client">Ruma Matrix client</a> and <a href="https://github.com/fest-im/fest">Fest GTK+ Matrix chat client</a>.
+  -
+    name: Simon N Heath
+    avatar: icefox.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/icefox
+    code:
+      name: '@icefox'
+      link: https://github.com/icefoxen
+    description: |
+      Projects I work on:<br><ul><li>&nbsp;<a href="https://github.com/ggez/ggez/">ggez</a>, a lightweight game framework for making
+      2D games, inspired by <a href="https://love2d.org/">LÖVE</a>.&nbsp; I do maintenance, bugfixes, and general project leadership.</li><li><a href="https://github.com/gfx-rs/gfx/">gfx-rs</a>, a low-level, cross-platform graphics library for Rust. I do documentation and maybe hopefully I'll get to some other things.</li>
+  -
+    name: Sébastien Crozet
+    avatar: sebcrozet.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/sebcrozet/
+    code:
+      name: '@sebcrozet'
+      link: https://github.com/sebcrozet
+    description: |
+      Projects
+
+      <ul>
+      <li><a href="http://nalgebra.org">nalgebra</a> − A linear-algebra library written in rust. This supports matrices of arbitrary dimensions which may or may not be known at compile-time. It features tools for computer graphics including a broad range of transformations (with dedicated types for optimal safety and performances). It is also destined to general linear algebra operation by providing efficient implementation of common matrix Factorizations: SVD, QR, LU, Cholesky, etc.</li>
+      <li><a href="http://nalgebra.org/decompositions_and_lapack/#lapack-integration">nalgebra-lapack</a> − Extention to nalgebra to benefit from existing C/Fortran Lapack operations, e.g., for matrix factorization.</li>
+      <li><a href="https://github.com/sebcrozet/nphysics">nphysics</a> − A pure-rust physics engine that handles both 2D and 3D (exposed to the user as two crates: nphysics2d and nphysics3d). My first goal is to make it at least as fast and featureful as the bullet and Box2D C++ physics engines.</li>
+      <li><a href="http://ncollide.org">ncollide</a> − The collision-detection library underlying nphysics. It is useful on its own when you want to write your physics rules yourself but still need all the geometric operations (distance, interference, contact points, etc.) to be performed efficiently for a wide variety of shapes (including convex hulls).</li>
+      <li><a href="https://github.com/sebcrozet/alga">alga</a>  − An abstract mathematics library. It defines a rich hierarchy of traits from the most simple algebraic entity (the magma) to most complex ones like euclidean spaces, the rotation groups, etc. While sometimes hard to grasp because of the abstract mathematical concepts, it allows extremely flexible generic programming.</li>
+      <li><a href="https://github.com/sebcrozet/kiss3d">kiss3d</a>  − A Keep It Simple, Stupid graphics engine. It allows an easy creation of a 3D scene with simple shapes (cubes, cylinders, etc.) and meshes. I don't intend to implement new features, but Pull Requests are very welcome and it will remain updated short after new versions of nalgebra and ncollide are released. </li>
+  -
+    name: Cyryl Płotnicki
+    avatar: cyplo.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/cyplo/
+    code:
+      name: '@cyplo'
+      link: https://github.com/cyplo
+    description: |
+      I run a program where I teach people Rust for free, either in person in London or remotely on the internet - see <a href="https://blog.cyplo.net/posts/2018/05/pair-with-me-on-rust.html">here</a>.</p>
+
+      <p>I contribute to a lot of open source projects, mainly around Rust - cargo, the compiler itself and some libraries around that as well.</p>
+
+      <p>I run a free fuzzing service for Rust projects where I help people setup fuzzing and also run the fuzzer on my servers.</p>
+  -
+    name: Bernhard Schuster
+    avatar: drahnr.jpg
+    support:
+      name: Liberapay
+      link: https://liberapay.com/drahnr/
+    code:
+      name: '@drahnr'
+      link: https://github.com/drahnr
+    description: |
+      <p>My two major projects are:</p>
+
+      <ul>
+        <li>tokio-mqttc - a fully async MQTT client library using tokio </li>
+        <li>juice / coaster - Machine Learning framework with backend agnostic compute framework</li>
+      </ul>
+  -
+    name: R-iendo
+    avatar: r-iendo.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/r_iendo
+    code:
+      name: '@r-eindo'
+      link: https://gitlab.com/r-iendo
+    description: |
+      Open source company specialized in Rust. Appointing the 
+      <a href="https://suckless.org/philosophy/">suckless philosophy</a>. Creators
+      of <a href="https://crates.io/crates/yarte">Yarte</a>, Yet Another Rust Template Engine.
+      A fast HTML templating engine with Handlebars-like syntax.
+  -
+    name: Denis Kolodin
+    avatar: DenisKolodin.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/deniskolodin
+    code:
+      name: '@DenisKolodin'
+      link: https://github.com/DenisKolodin
+    description: |
+      Creating <a href="https://github.com/DenisKolodin/yew">Yew</a>, a front-end framework designed for <a href="http://webassembly.org/">WebAssembly</a>.<br><br>It was inspired by Elm, Redux and ReactJS, but now it has own architecture and direction of development.
+  -
+    name: Dessalines
+    avatar: dessalines.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/dessalines
+    code:
+      name: '@dessalines'
+      link: https://github.com/dessalines
+    description: |
+      Building Lemmy - A link aggregator for the fediverse. Lemmy is similar to sites like Reddit, lobste.rs, Raddle, or Hacker News: you subscribe to forums you're interested in, post links and discussions, then vote, and comment on them. Behind the scenes, it is very different; anyone can easily run a server, and all these servers are federated (think email).
+  -
+    name: Jovansonlee Cesar
+    avatar: ivanceras.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/ivanceras
+    code:
+      name: '@ivanceras'
+      link: https://github.com/ivanceras
+    description: |
+      <a href="https://github.com/ivanceras/diwata">Diwata</a> - a smart database GUI which does an analytical representation based on your data.<br><br><a href="https://github.com/ivanceras/spongedown">Spongedown</a> - an extension of markdown with added components such as plain-text diagrams.<br><a href="https://github.com/ivanceras/svgbobrus">Svgbob</a> - the engine of diagraming module of spongedown which uses plain-text diagrams and renders it to a nice SVG drawing.<br><br><a href="https://github.com/ivanceras/rustorm">Rustorm</a> - an ORM for rust for querying a database dynamically. This is the ORM used in curtain<br><br><a href="https://github.com/ivanceras/sauron">Sauron</a> - Sauron is an html web framework for building web-apps. It is heavily inspired by elm.
+  -
+    name: Peter Atashian
+    avatar: retep998.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/retep998
+    code:
+      name: '@retep998'
+      link: https://github.com/retep998
+    description: |
+      <p>A Rust and C++ programmer that primarily works on winapi, but also other Windows related libraries as well as Rust itself.</p>
+
+      <p>I also spend an inordinate amount of time in the Rust community, assisting people wherever possible, especially with Windows specific problems.</p>
+  -
+    name: antoyo
+    avatar: antoyo.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/antoyo
+    code:
+      name: '@antoyo'
+      link: https://github.com/antoyo
+    description: |
+      I work on many open source projects. The most popular are:<br><br><ul><li><a href="https://github.com/antoyo/relm">Relm</a>:&nbsp;Idiomatic, GTK+-based, GUI library, inspired by Elm</li><li><a href="https://github.com/antoyo/tql">TQL</a>: A&nbsp;compile-time Rust ORM</li><li><a href="https://github.com/antoyo/titanium">Titanium</a>:&nbsp;A keyboard-driven web browser written in Rust</li></ul>I contribute to&nbsp;<a href="https://github.com/gtk-rs">gtk-rs</a> and am the maintainer of&nbsp;<a href="https://github.com/gtk-rs/webkit2gtk-rs">webkit2gtk-rs</a>.
+  -
+    name: Nikolai Vazquez
+    avatar: nvzqz.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/nvzqz
+    code:
+      name: '@nvzqz'
+      link: https://github.com/nvzqz
+    description: |
+      Building <a href="https://github.com/hexe-rs/Hexe">Hexe</a>, a
+      cross-platform chess engine.
+  -
+    name: Jake "ferris" Taylor
+    avatar: yupferris.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/ferrisstreamsstuff
+    code:
+      name: '@yupferris'
+      link: https://github.com/yupferris
+    description: |
+       I'm ferris! In my free time I write code, like <a href="https://github.com/yupferris/vb-rs">Rustual Boy</a>, a <a href="https://en.wikipedia.org/wiki/Virtual_Boy">Virtual Boy</a> emulator. I also  <a href="https://www.twitch.tv/ferrisstreamsstuff">do streams either about it or while doing it</a>, then <a href="https://www.youtube.com/channel/UC4mpLlHn0FOekNg05yCnkzQ">upload those to youtube</a>.
+  -
+    name: Bruce Mitchener
+    avatar: waywardmonkeys.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/endoli
+    code:
+      name: '@waywardmonkeys'
+      link: https://github.com/waywardmonkeys
+    description: |
+      I am creating a workbench environment centered around structured information. Along the way, I am producing many new libraries in the Rust programming language to support my goals.
+  -
+    name: Anselm Eickhoff
+    avatar: aeplay.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/citybound
+    code:
+      name: '@aeplay'
+      link: https://github.com/aeplay
+    description: |
+      Building Citybound, a city-building game. Citybound is being developed completely open source, with regular prototype releases for you to try out!
+  -
+    name: Félix Saparelli
+    avatar: passcod.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/passcod
+    code:
+      name: '@passcod'
+      link: https://github.com/passcod
+    description: |
+      Maintainer of the <a href="https://github.com/passcod/notify/" target="_blank">Notify</a> library useed by <a href="https://github.com/jwilm/alacritty" target="_blank">Alacritty</a>, <a href="https://github.com/passcod/cargo-watch" target="_blank">Cargo Watch</a>, <a href="https://github.com/koute/cargo-web" target="_blank">Cargo Web</a>, and <a href="https://github.com/rust-lang-nursery/mdBook" target="_blank">MdBook</a>.
+  -
+    name: Yutaka Matsubara
+    avatar: mopemope.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/mopemope
+    code:
+      name: '@mopemope'
+      link: https://github.com/mopemope
+    description: |
+      Building <a href="https://github.com/mopemope/firestarter">Firestarter</a>, a process and shared socket manager. Firestarter shares sockets using the <code>systemd</code> socket passing protocol.
+  -
+    name: Jan Bujak
+    avatar: koute.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/koute
+    code:
+      name: '@koute'
+      link: https://github.com/koute
+    description: |
+      My main projects:
+      → 
+      <a href="https://github.com/koute/stdweb">stdweb</a> is a collections of bindings to the Web APIs (well, at least some of them!) for Rust. It allows you to compile your Rust code to <a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly</a> or <a href="https://en.wikipedia.org/wiki/Asm.js">asm.js</a> and talk with native JavaScript APIs, and even put JavaScript snippets in your code!
+      <br>
+      <br>
+      → 
+      <a href="https://github.com/koute/cargo-web">cargo-web</a> is the tooling counterpart of the stdweb; it supports all of Rust's three Web backends, and can run your tests in a headless Web browser.
+      <br>
+      <br>
+      You can check out 
+      <a href="http://koute.github.io/pinky-web/">my NES emulator compiled to WebAssembly</a> which is powered by all of this tech!
+  -
+    name: Guillaume Gomez
+    avatar: GuillaumeGomez.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/GuillaumeGomez
+    code:
+      name: '@GuillaumeGomez'
+      link: https://github.com/GuillaumeGomez
+    description: |
+      I'm a software engineer mostly spending my time writing opensource libraries for the Rust language, trying to make the world better through my contributions. I'm also part of the Rust teams and a member of the GNOME organization.<br><br>Short list of my projects :<br><ul><li><a>Gtk-rs organization</a></li><li><a href="https://blog.guillaume-gomez.fr/Rust">Rust tutorial (in french)</a></li><li><a href="https://github.com/GuillaumeGomez/rust-GSL">GSL binding for Rust</a></li><li><a href="https://github.com/GuillaumeGomez/process-viewer">A multi-platform process viewer</a>
+  -
+    name: Yurii Rashkovskii
+    avatar: yrashk.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/yrashk
+    code:
+      name: '@yrashk'
+      link: https://github.com/yrashk
+    description: |
+       I am very passionate about decentralized collaboration (aka "edge computing", "desert computing", "true serverless"), and creating open/free solutions for developers that liberate them from vendor lock-ins and all things around. I've recently released&nbsp;<a href="https://sit.fyi/">SIT</a> (Serverless Information Tracker).
+  -
+    name: Kevin K.
+    avatar: kbknapp.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/kbknapp
+    code:
+      name: '@kbknapp'
+      link:  https://github.com/kbknapp
+    description: |
+      Creator and maintainer of the popular <a href="https://crates.io/crates/clap">clap</a> crate,
+      and the <a href="https://crates.io/crates/cargo-outdated">cargo-outdated</a> Cargo sub-command.
+  -
+    name: Ashley Williams
+    avatar: ag_dubs.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/ag_dubs
+    code:
+      name: '@ag_dubs'
+      link: https://github.com/ashleygwilliams
+    description: |
+      Member of the Rust Core Team and the Rust WebAssembly working group. Lead of the Community and <a href="http://crates.io" target="_blank" rel="noopener noreferrer">crates.io</a> teams. Also maintains the <a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a> and <a href="https://github.com/ashleygwilliams/cargo-generate">cargo-generate</a> projects.
+  -
+    name: Geoffroy Couprie
+    avatar: Geal.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/geoffroy
+    code:
+      name: '@Geal'
+      link: https://github.com/Geal
+    description: |
+      Creator of the <a href="https://crates.io/crates/nom">nom</a> parser combinator crate and <a href="https://crates.io/crates/syslog">syslog</a> crate. Contributor to the <a href="">Sōzu HTTP reverse proxy</a> and <a href="https://github.com/sozu-proxy/lapin">lapin</a> asynchronous AMQP client.
+  -
+    name: Paul Masurel
+    avatar: fulmicoton.jpg
+    support:
+      name: Patreon
+      link: https://www.patreon.com/fulmicoton
+    code:
+      name: '@fulmicoton'
+      link: https://github.com/fulmicoton
+    description: |
+      Creator of the <a href="https://github.com/tantivy-search/tantivy">Tantivy</a> full-text search engine library inspired by Apache Lucene. As well as the <a href="https://crates.io/crates/bitpacking">bitpacking crate</a> containing SIMD algorithms for integer compression via bitpacking.
+  -
+    name: Maik Klein
+    avatar: MaikKlein.png
+    support:
+      name: Patreon
+      link: https://www.patreon.com/maikklein
+    code:
+      name: '@MaikKlein'
+      link: https://github.com/MaikKlein
+    description: |
+      Creating the Rust to SPIR-V (Vulkan shading language) compiler, <a href="https://github.com/MaikKlein/rlsl">rlsl</a>.
+
