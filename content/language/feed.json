@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "812b46b0-ec10-45f3-9fc6-4aaa2ae2534e",
+      "title": "Polyglot Projects",
+      "content_text": "An exploration of how I wrote a C++ binding API for my Rust library.",
+      "url": "https://myrrlyn.net/blog/misc/polyglot-projects",
+      "date_published": "2019-05-20T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Payne",
+        "url": "https://myrrlyn.net/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "eedb81ef-265f-4dc2-a1d9-559d2d68594d",
       "title": "Rust In Avast",
       "content_text": "When I joined Avast about a year and a half ago, I did it because of two things:  I wanted to work on interesting problems and I wanted to share the Wisdom of Rust with few more people.\n\nOriginally, I was hired because of my experience with writing software for „bigger embedded“ (think a home router or Raspberry PI ‒ it runs Linux kernel, has a shell, but the file system is a bad joke, your libc has bunch of weird bugs features, you really need to think twice not to waste RAM needlessly and you have to cross-compile), low-level networking knowledge and C++.\n\nBut I don’t enjoy writing C++ (not speaking about the libc features). And I have other skills I like to practice too. So I would drop an occasional comment about how this or that would be better done in Rust. I’ve done internal courses and workshops about Rust for whoever was interested, in the hope more people would start asking to be allowed to do stuff in Rust and I could participate in such projects.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5c93aa16-acee-46d1-8a08-462d9ce7c09f",
+      "title": "The 2019 Rust Event Lineup",
+      "content_text": "We're excited for the 2019 conference season, which we're actually late in writing up. Some incredible events have already happened! Read on to learn more about all the events occurring around the world, past and future.",
+      "url": "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup.html",
+      "date_published": "2019-05-20T00:00:00+00:00",
+      "author": {
+        "name": "Rust Community Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "de6a9110-16fb-47df-a80d-f63af3033589",
       "title": "✩ The RustBridge Roadmap for 2019",
       "content_text": "This is less a specific roadmap and more of a rough braindump of where I think the project currently stands and where I would personally like it to head in 2019 and beyond. With that, let's get started: The main thing I would like to focus on this year is clearing community debt. I don't actually know what you would call this, but it's sort of like technical debt, just manifested within communities.",

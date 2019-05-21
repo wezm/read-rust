@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "db12537e-42d3-4bba-9c68-7adc1afec917",
+      "title": "mini-aio: the new async IO library for Rust",
+      "content_text": "During my work at Adgear, I’ve been working for a while on an async IO library for Rust. This post will present this new library. This library takes a very different approach than most other async IO libraries in Rust: it is actually inspired by the Pony programming language. So, it does not use futures, it does not use async/await: it just provides simple trait",
+      "url": "http://antoyo.ml/mini-aio-new-async-io-library",
+      "date_published": "2019-05-20T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "feed408e-361c-4a9c-9432-5729aed1e789",
       "title": "powerset-enum - anonymous enum and a PoC for how that feature can be used to improve Rust's error handling",
       "content_text": "My crate offers a powerset enum - an enum that can be parametrized to any subset of it's variants. I also included a macro for doing this parametrization by providing the types of the variants - so for example Error![std::io::Error, serde_json::Error] would generate a subset of the enum that can only have IO and JSON parsing errors.",
