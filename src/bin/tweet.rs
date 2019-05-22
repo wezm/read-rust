@@ -7,7 +7,7 @@ extern crate serde;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde_json;
-extern crate tokio_core;
+extern crate tokio;
 extern crate url;
 extern crate uuid;
 
@@ -15,7 +15,7 @@ use egg_mode::tweet::DraftTweet;
 use egg_mode::{KeyPair, Token};
 use failure::Error;
 use getopts::Options;
-use tokio_core::reactor::Core;
+use tokio::runtime::current_thread::block_on_all;
 use url::Url;
 
 use read_rust::categories::Categories;
@@ -51,7 +51,7 @@ pub enum TokenDef {
 }
 
 // Derived from: https://github.com/QuietMisdreavus/twitter-rs/blob/master/examples/common/mod.rs
-#[derive(Deserialize, Serialize)]
+#[derive(Deserialize, Serialize, Debug)]
 pub struct Config {
     #[serde(with = "TokenDef")]
     pub token: Token,
@@ -60,29 +60,29 @@ pub struct Config {
 }
 
 impl Config {
-    pub fn load(core: &mut Core) -> Result<Self, Error> {
+    pub fn load() -> Result<Self, Error> {
         // Make an app for yourself at apps.twitter.com and get your
         // key/secret into these files
         let consumer_key = include_str!(".consumer_key").trim();
         let consumer_secret = include_str!(".consumer_secret").trim();
-        let handle = core.handle();
 
         let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
 
-        let config = if let Ok(mut file) = File::open(TWITTER_DATA_FILE) {
+        let data_file_path = Path::new(TWITTER_DATA_FILE);
+        let config = if let Ok(file) = File::open(data_file_path) {
             let config: Self = serde_json::from_reader(file)?;
+            dbg!(&config);
 
-            if let Err(err) = core.run(egg_mode::verify_tokens(&config.token, &handle)) {
+            if let Err(err) = block_on_all(egg_mode::verify_tokens(&config.token)) {
                 println!("Unable to verify old tokens: {:?}", err);
                 println!("Reauthenticating...");
-                std::fs::remove_file(TWITTER_DATA_FILE)?;
             } else {
                 println!("Token for {} verified.", config.screen_name);
             }
 
             config
         } else {
-            let request_token = core.run(egg_mode::request_token(&con_token, "oob", &handle))?;
+            let request_token = block_on_all(egg_mode::request_token(&con_token, "oob"))?;
 
             println!("Go to the following URL, sign in, and enter the PIN:");
             println!("{}", egg_mode::authorize_url(&request_token));
@@ -91,12 +91,8 @@ impl Config {
             std::io::stdin().read_line(&mut pin)?;
             println!("");
 
-            let (token, user_id, screen_name) = core.run(egg_mode::access_token(
-                con_token,
-                &request_token,
-                pin,
-                &handle,
-            ))?;
+            let (token, user_id, screen_name) =
+                block_on_all(egg_mode::access_token(con_token, &request_token, pin))?;
             let config = Config {
                 token,
                 user_id,
@@ -112,11 +108,10 @@ impl Config {
             config
         };
 
-        // TODO: Is there a better way to query whether a file exists?
-        if std::fs::metadata(TWITTER_DATA_FILE).is_ok() {
+        if data_file_path.exists() {
             Ok(config)
         } else {
-            Self::load(core)
+            Self::load()
         }
     }
 }
@@ -160,11 +155,7 @@ fn run(
     categories_path: &str,
     dry_run: bool,
 ) -> Result<(), Error> {
-    let mut core = Core::new()?;
-    let config = Config::load(&mut core)?;
-
-    let handle = core.handle();
-
+    let config = Config::load()?;
     let tootlist_path = Path::new(tootlist_path);
     let mut tootlist = TootList::load(&tootlist_path)?;
     let feed = JsonFeed::load(Path::new(json_feed_path))?;
@@ -187,8 +178,8 @@ fn run(
                 .ok_or_else(|| format_err!("{} is not a valid tweet URL", tweet_url))?;
             println!("🔁 {}", tweet_url);
             if !dry_run {
-                let work = egg_mode::tweet::retweet(tweet_id, &config.token, &handle);
-                core.run(work)?;
+                let work = egg_mode::tweet::retweet(tweet_id, &config.token);
+                block_on_all(work)?;
             }
         } else {
             let status_text = tweet_text_from_item(&item, &categories);
@@ -196,8 +187,8 @@ fn run(
             if !dry_run {
                 let tweet = DraftTweet::new(status_text);
 
-                let work = tweet.send(&config.token, &handle);
-                core.run(work)?;
+                let work = tweet.send(&config.token);
+                block_on_all(work)?;
             }
         };
 
