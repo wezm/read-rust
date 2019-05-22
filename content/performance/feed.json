@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "63fcd49a-f8d8-46f4-92dd-58cb8d77082c",
+      "title": "Speeding up Ruby MRI with Rust",
+      "content_text": "Let me start by saying I really like Ruby. I tend to agree with the statement saying Ruby is optimized for developer happiness. However, nothing comes for free. Programming ecstasy is a double-edged sword and writing slow Ruby is as easy as it is pleasant.",
+      "url": "https://medium.com/@flixdescteaux/speeding-up-ruby-mri-with-rust-a7c914d2f9d0",
+      "date_published": "2019-05-21T13:58:31.362+00:00",
+      "author": {
+        "name": "Félix Descôteaux",
+        "url": "https://medium.com/@flixdescteaux"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "568fdc54-427f-47be-8849-dd040bafe8dd",
       "title": "Momo · Get Back Some Compile Time From Monomorphization",
       "content_text": "Monomorphization has one problem (apart from being a ridiculous word that I’ll probably spell wrong every time): It generates rather a lot of code, bloating binary size and potentially pessimizing execution cache usage. Often, generics aren’t really needed for speed, but for ergonomics: Library code might want to present an easy-to-use generic interface that will automate some conversions. However, this often means that almost each user gets their own version of the code, leading to the aforementioned bloat (case in point: Earlier clap versions were notorious for adding hundreds of kilobytes to the binary size – for a simple command line parser).",

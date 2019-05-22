@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "c12cd1dc-8523-4caf-add8-4ba0322a3cb6",
+      "title": "Putting the stack back into Stacked Borrows",
+      "content_text": "Less than a month ago, I announced Stacked Borrows 2. In particular, I hoped that that version would bring us closer to proper support for two-phase borrows. Turns out I was a bit too optimistic! Last week, @Manishearth asked on Zulip why Miri rejected a certain program, and it turned out that the issue was related to two-phase borrows: in combination with interior mutability, behavior wasn’t always what we wanted it to be. So, I went back to the drawing board and tried to adjust Stacked Borrows.\n\nIn the end, I decided to give up on “proper” support for two-phase borrows for now, which I explained here. But I also made some tweaks to Stacked Borrows that affect all accesses (not just two-phase borrows), and that’s what this post is about. I am referring to this as “Stacked Borrows 2.1”.",
+      "url": "https://www.ralfj.de/blog/2019/05/21/stacked-borrows-2.1.html",
+      "date_published": "2019-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bab17ec7-d45f-40fa-963b-10c3085fa7bf",
+      "title": "Here's My Type, So Initialize Me Maybe (mem::uninitialized is deprecated)",
+      "content_text": "Rust's infamous mem::uninitialized method has been deprecated in today's nightly build. Its replacement, MaybeUninit, has been stabilized. If you are using the former, you should migrate to using the latter as soon as possible (probably when it hits stable in 6 weeks). This was done because it was determined that mem::uninitialized was fundamentally broken, and could not be made to work.",
+      "url": "https://gankro.github.io/blah/initialize-me-maybe/",
+      "date_published": "2019-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankro.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4dfd194e-9cc6-4b75-b2f4-8900d8fdebcd",
+      "title": "dtolnay/case-studies: Analysis of various tricky Rust code",
+      "content_text": "This repository showcases some examples of tricky Rust code that I have encountered during my years working with a variety of advanced macro libraries in Rust (my own and others').",
+      "url": "https://github.com/dtolnay/case-studies",
+      "date_published": "2019-05-21T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "812b46b0-ec10-45f3-9fc6-4aaa2ae2534e",
       "title": "Polyglot Projects",
       "content_text": "An exploration of how I wrote a C++ binding API for my Rust library.",
