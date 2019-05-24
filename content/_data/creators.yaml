@@ -3,7 +3,7 @@
     name: Igor Matuszewski
     avatar: xanewok.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/xanewok'
     code:
       name: '@Xanewok'
@@ -13,7 +13,7 @@
     name: QuietMisdreavus
     avatar: QuietMisdreavus.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/QuietMisdreavus'
     code:
       name: '@QuietMisdreavus'
@@ -23,7 +23,7 @@
     name: Stjepan Glavina
     avatar: stjepang.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/stjepang'
     code:
       name: '@stjepang'
@@ -33,7 +33,7 @@
     name: Jorge Aparicio
     avatar: japaric.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/japaric'
     code:
       name: '@japaric'
@@ -43,7 +43,7 @@
     name: Chris Krycho
     avatar: chriskrycho.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/newrustacean'
     code:
       name: '@chriskrycho'
@@ -53,7 +53,7 @@
     name: Matthias Endler
     avatar: mre.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: 'https://www.patreon.com/hellorust'
     code:
       name: '@mre'
@@ -63,7 +63,7 @@
     name: Florian Gilcher
     avatar: skade.png
     support:
-      name: Sponsor
+      name: Sponsor Florian
       link: 'https://yakshav.es/sponsor-florian'
     code:
       name: '@skade'
@@ -73,7 +73,7 @@
     name: Jeremy Soller
     avatar: jackpot51.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/redox_os
     code:
       name: '@jackpot51'
@@ -83,7 +83,7 @@
     name: Leonora Tindall
     avatar: NoraCodes.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/noracodes
     code:
       name: '@NoraCodes'
@@ -99,7 +99,7 @@
     name: Dirkjan Ochtman
     avatar: djc.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/dochtman
     code:
       name: '@djc'
@@ -123,7 +123,7 @@
     name: tomaka
     avatar: tomaka.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/tomaka
     code:
       name: '@tomaka'
@@ -134,7 +134,7 @@
     name: Raph Levien
     avatar: raphlinus.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/raphlinus
     code:
       name: '@raphlinus'
@@ -149,8 +149,8 @@
     name: Sean Griffin
     avatar: sgrif.jpg
     support:
-      name: Patreon
-      link: https://www.patreon.com/seantheprogrammer
+      name: Sponsor on GitHub
+      link: https://github.com/users/sgrif/sponsorship
     code:
       name: '@sgrif'
       link: 'https://github.com/sgrif'
@@ -161,7 +161,7 @@
     avatar: Amethyst.svg
     no_thumb: true
     support:
-      name: Donate
+      name: Donate to Amethyst
       link: https://amethyst.rs/donate
     code:
       name: '@amethyst'
@@ -171,7 +171,7 @@
     name: Plume
     avatar: Plume.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/Plume/
     code:
       name: '@Plume-org'
@@ -182,7 +182,7 @@
     name: Aardwolf
     avatar: Aardwolf.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/Aardwolf/
     code:
       name: '@Aardwolf-Social'
@@ -195,7 +195,7 @@
     name: Wesley Moore
     avatar: wezm.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/wezm
     code:
       name: '@wezm'
@@ -213,7 +213,7 @@
     name: measlytwerp
     avatar: measlytwerp.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/measlytwerp/
     code:
       name: '@measlytwerp'
@@ -223,7 +223,7 @@
     name: Baptiste Gelez
     avatar: Bat.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/Bat/
     code:
       name: '@BaptisteGelez'
@@ -234,7 +234,7 @@
     name: Aaron Power
     avatar: XAMPPRocky.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/Aaronepower/
     code:
       name: '@XAMPPRocky'
@@ -248,7 +248,7 @@
     name: Kornel 
     avatar: Kornel.jpg
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/kornel/
     code:
       name: '@kornelski'
@@ -263,7 +263,7 @@
     name: Philipp Oppermann
     avatar: phil-opp.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/phil-opp/
     code:
       name: '@phil-opp'
@@ -281,7 +281,7 @@
     name: Jon Gjengset
     avatar: jonhoo.jpg
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/jonhoo/
     code:
       name: '@jonhoo'
@@ -296,7 +296,7 @@
     name: Pascal Hertleif
     avatar: killercup.jpg
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/pascal/
     code:
       name: '@killercup'
@@ -309,7 +309,7 @@
     name: Aaron Hill
     avatar: Aaron1011.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/Aaron1011/
     code:
       name: '@Aaron1011'
@@ -320,7 +320,7 @@
     name: Jonas Platte
     avatar: jplatte.png
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/jplatte/
     code:
       name: '@jplatte'
@@ -331,7 +331,7 @@
     name: Simon N Heath
     avatar: icefox.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/icefox
     code:
       name: '@icefox'
@@ -343,7 +343,7 @@
     name: Sébastien Crozet
     avatar: sebcrozet.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/sebcrozet
     code:
       name: '@sebcrozet'
@@ -362,7 +362,7 @@
     name: Cyryl Płotnicki
     avatar: cyplo.jpg
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/cyplo/
     code:
       name: '@cyplo'
@@ -377,7 +377,7 @@
     name: Bernhard Schuster
     avatar: drahnr.jpg
     support:
-      name: Liberapay
+      name: Support on Liberapay
       link: https://liberapay.com/drahnr/
     code:
       name: '@drahnr'
@@ -393,7 +393,7 @@
     name: R-iendo
     avatar: r-iendo.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/r_iendo
     code:
       name: '@r-eindo'
@@ -407,7 +407,7 @@
     name: Denis Kolodin
     avatar: DenisKolodin.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/deniskolodin
     code:
       name: '@DenisKolodin'
@@ -418,7 +418,7 @@
     name: Dessalines
     avatar: dessalines.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/dessalines
     code:
       name: '@dessalines'
@@ -429,7 +429,7 @@
     name: Jovansonlee Cesar
     avatar: ivanceras.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/ivanceras
     code:
       name: '@ivanceras'
@@ -440,7 +440,7 @@
     name: Peter Atashian
     avatar: retep998.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/retep998
     code:
       name: '@retep998'
@@ -453,7 +453,7 @@
     name: antoyo
     avatar: antoyo.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/antoyo
     code:
       name: '@antoyo'
@@ -464,7 +464,7 @@
     name: Nikolai Vazquez
     avatar: nvzqz.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/nvzqz
     code:
       name: '@nvzqz'
@@ -476,7 +476,7 @@
     name: Jake "ferris" Taylor
     avatar: yupferris.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/ferrisstreamsstuff
     code:
       name: '@yupferris'
@@ -487,7 +487,7 @@
     name: Bruce Mitchener
     avatar: waywardmonkeys.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/endoli
     code:
       name: '@waywardmonkeys'
@@ -498,7 +498,7 @@
     name: Anselm Eickhoff
     avatar: aeplay.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/citybound
     code:
       name: '@aeplay'
@@ -509,7 +509,7 @@
     name: Félix Saparelli
     avatar: passcod.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/passcod
     code:
       name: '@passcod'
@@ -520,7 +520,7 @@
     name: Yutaka Matsubara
     avatar: mopemope.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/mopemope
     code:
       name: '@mopemope'
@@ -531,7 +531,7 @@
     name: Jan Bujak
     avatar: koute.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/koute
     code:
       name: '@koute'
@@ -552,7 +552,7 @@
     name: Guillaume Gomez
     avatar: GuillaumeGomez.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/GuillaumeGomez
     code:
       name: '@GuillaumeGomez'
@@ -563,7 +563,7 @@
     name: Yurii Rashkovskii
     avatar: yrashk.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/yrashk
     code:
       name: '@yrashk'
@@ -574,7 +574,7 @@
     name: Kevin K.
     avatar: kbknapp.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/kbknapp
     code:
       name: '@kbknapp'
@@ -586,7 +586,7 @@
     name: Ashley Williams
     avatar: ag_dubs.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/ag_dubs
     code:
       name: '@ag_dubs'
@@ -597,7 +597,7 @@
     name: Geoffroy Couprie
     avatar: Geal.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/geoffroy
     code:
       name: '@Geal'
@@ -608,7 +608,7 @@
     name: Paul Masurel
     avatar: fulmicoton.jpg
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/fulmicoton
     code:
       name: '@fulmicoton'
@@ -619,7 +619,7 @@
     name: Maik Klein
     avatar: MaikKlein.png
     support:
-      name: Patreon
+      name: Support on Patreon
       link: https://www.patreon.com/maikklein
     code:
       name: '@MaikKlein'
