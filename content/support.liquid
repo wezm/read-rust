@@ -14,7 +14,11 @@ A See also Aaron Turon's list: http://aturon.github.io/sponsor
   {% for creator in site.data.creators %}
   <div class="card">
     <div class="content">
+      {% if creator.no_thumb %}
       <img class="right floated mini ui image" width="50" src="/images/u/{{ creator.avatar }}">
+      {% else %}
+      <img class="right floated mini ui image" width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}">
+      {% endif %}
       <h3>
         {{ creator.name }}
       </h3>

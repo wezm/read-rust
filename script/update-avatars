@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+
+require 'open-uri'
+require 'nokogiri'
+require 'net/http'
+require 'yaml'
+
+creators = YAML.load_file('content/_data/creators.yaml')
+
+creators.each  do |creator|
+  avatar_path = "content/images/u/#{creator['avatar']}"
+  url = URI(creator['support']['link'])
+
+  if File.exists?(avatar_path) && !File.zero?(avatar_path)
+    puts "#{avatar_path} exists"
+  else
+    puts "Fetching #{url}"
+    html = url.read
+
+    case url.host
+    when 'www.patreon.com'
+      # Originally this was used but for people with cover images it links that
+      # image instead of the avatar:
+      # image_src = doc.at_css('link[rel="image_src"]')
+      # so we do it the hacky way
+      if html =~ /"avatar_photo_url": "([^"]+)"/
+        img_uri = URI($1.gsub('\\u0026', '&'))
+        img = img_uri.read
+        File.write("content/images/u/#{creator['avatar']}", img)
+      else
+        puts "[ERROR]: Unable to find avator in HTML"
+      end
+    when 'liberapay.com'
+      doc =  Nokogiri.HTML(html, nil, 'utf-8')
+      image_src = doc.at_css('.profile-header .avatar')
+      img_uri = URI(image_src['src'].strip)
+      img = img_uri.read
+      File.write(avatar_path, img)
+    else
+      puts "Do #{avatar_path} manually: #{creator['support']['link']}"
+    end
+  end
+end
+

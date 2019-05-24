@@ -34,7 +34,7 @@
     avatar: japaric.png
     support:
       name: Patreon
-      link: 'https://www.patreon.com/japaric/'
+      link: 'https://www.patreon.com/japaric'
     code:
       name: '@japaric'
       link: 'https://github.com/japaric'
@@ -44,7 +44,7 @@
     avatar: chriskrycho.jpg
     support:
       name: Patreon
-      link: 'https://www.patreon.com/newrustacean/'
+      link: 'https://www.patreon.com/newrustacean'
     code:
       name: '@chriskrycho'
       link: 'https://github.com/chriskrycho'
@@ -54,7 +54,7 @@
     avatar: mre.png
     support:
       name: Patreon
-      link: 'https://www.patreon.com/hellorust/'
+      link: 'https://www.patreon.com/hellorust'
     code:
       name: '@mre'
       link: 'https://github.com/mre'
@@ -159,6 +159,7 @@
   -
     name: Amethyst
     avatar: Amethyst.svg
+    no_thumb: true
     support:
       name: Donate
       link: https://amethyst.rs/donate
@@ -342,8 +343,8 @@
     name: Sébastien Crozet
     avatar: sebcrozet.jpg
     support:
-      name: Liberapay
-      link: https://liberapay.com/sebcrozet/
+      name: Patreon
+      link: https://www.patreon.com/sebcrozet
     code:
       name: '@sebcrozet'
       link: https://github.com/sebcrozet
