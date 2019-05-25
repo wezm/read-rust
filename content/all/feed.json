@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "61255817-6eef-43ce-9eea-24a8aedbd9f2",
+      "title": "Writing a Compiler in Rust",
+      "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, with a language and two teammates of your choice. My group of three chose to write our compiler in Rust and it was a fun experience. We spent time coming to design decisions that worked out really well and used Rust’s strengths. Our compiler ended up being around 6800 lines of Rust and I personally put in around 60 hours of solid coding and more on code review and design. In this post I’ll go over some of the design decisions we made and some thoughts on what it was like using Rust.",
+      "url": "http://thume.ca/2019/04/18/writing-a-compiler-in-rust/",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Tristan Hume",
+        "url": "http://thume.ca/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "ecccd5a6-53e0-4e7a-9ece-f02450f3eb2f",
+      "title": "Rebuffing the Attack of the Clones",
+      "content_text": "I left a comment on HN about how I teach new users not to clone, and someone asked me if I’d written more, so here we go!\n\nWhen new users are writing Rust code, it’s reasonably common to “fight with the borrow checker”. I personally find this to be quite a misnomer, as it is not a fight so much as a misunderstanding of the nature of Rust’s semantics. In an attempt to make the errors go away, users will understandably take the path of least resistance, according to the docs they’ve got. They dutifully read up, and eventually land on the clone method. This makes the errors go away! Great! Except if you were my newbie, in the code review I’d tell you clone is banned unless you can tell me why you need it.",
+      "url": "https://thenewwazoo.github.io/clone.html",
+      "date_published": "2019-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Brandon Matthews",
+        "url": "https://thenewwazoo.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "53c0e6e9-a95e-4509-b70a-74e945e74e92",
+      "title": "Announcing Rust 1.35.0",
+      "content_text": "The highlight of this release is the implementation of the FnOnce, FnMut, and Fn closure traits for Box<dyn FnOnce>, Box<dyn FnMut>, and Box<dyn Fn> respectively. Additionally, closures may now be coerced to unsafe function pointers. The dbg! macro introduced in Rust 1.32.0 can now also be called without arguments. Moreover, there were a number of standard library stabilizations. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/05/23/Rust-1.35.0.html",
+      "date_published": "2019-05-23T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "635d3c1f-b71e-4883-b72e-52efe1ab01d0",
+      "title": "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018",
+      "content_text": "We’re proud to announce mockiato! For the last few months, we tackled the issue of creating a usable mocking library. Our primary goals were: Ease of use: The mocks are written in idiomatic Rust and don’t rely on custom macro syntax. Maintainability: The entire code base strives to follow the rules of Clean Code and Clean Architecture as specified by Robert C. Martin.  Strict expectation enforcement: Mockiato catches unexpected behavior as soon as it happens instead of returning default values.",
+      "url": "https://blog.myelin.ch/2019/05/24/mockiato-announcement.html",
+      "date_published": "2019-05-24T00:00:00+00:00",
+      "author": {
+        "name": "Jeremy, Ruben, Jan, Mathias",
+        "url": "https://blog.myelin.ch/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c12cd1dc-8523-4caf-add8-4ba0322a3cb6",
       "title": "Putting the stack back into Stacked Borrows",
       "content_text": "Less than a month ago, I announced Stacked Borrows 2. In particular, I hoped that that version would bring us closer to proper support for two-phase borrows. Turns out I was a bit too optimistic! Last week, @Manishearth asked on Zulip why Miri rejected a certain program, and it turned out that the issue was related to two-phase borrows: in combination with interior mutability, behavior wasn’t always what we wanted it to be. So, I went back to the drawing board and tried to adjust Stacked Borrows.\n\nIn the end, I decided to give up on “proper” support for two-phase borrows for now, which I explained here. But I also made some tweaks to Stacked Borrows that affect all accesses (not just two-phase borrows), and that’s what this post is about. I am referring to this as “Stacked Borrows 2.1”.",

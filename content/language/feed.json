@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "53c0e6e9-a95e-4509-b70a-74e945e74e92",
+      "title": "Announcing Rust 1.35.0",
+      "content_text": "The highlight of this release is the implementation of the FnOnce, FnMut, and Fn closure traits for Box<dyn FnOnce>, Box<dyn FnMut>, and Box<dyn Fn> respectively. Additionally, closures may now be coerced to unsafe function pointers. The dbg! macro introduced in Rust 1.32.0 can now also be called without arguments. Moreover, there were a number of standard library stabilizations. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/05/23/Rust-1.35.0.html",
+      "date_published": "2019-05-23T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "c12cd1dc-8523-4caf-add8-4ba0322a3cb6",
       "title": "Putting the stack back into Stacked Borrows",
       "content_text": "Less than a month ago, I announced Stacked Borrows 2. In particular, I hoped that that version would bring us closer to proper support for two-phase borrows. Turns out I was a bit too optimistic! Last week, @Manishearth asked on Zulip why Miri rejected a certain program, and it turned out that the issue was related to two-phase borrows: in combination with interior mutability, behavior wasn’t always what we wanted it to be. So, I went back to the drawing board and tried to adjust Stacked Borrows.\n\nIn the end, I decided to give up on “proper” support for two-phase borrows for now, which I explained here. But I also made some tweaks to Stacked Borrows that affect all accesses (not just two-phase borrows), and that’s what this post is about. I am referring to this as “Stacked Borrows 2.1”.",

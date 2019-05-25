@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "61255817-6eef-43ce-9eea-24a8aedbd9f2",
+      "title": "Writing a Compiler in Rust",
+      "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, with a language and two teammates of your choice. My group of three chose to write our compiler in Rust and it was a fun experience. We spent time coming to design decisions that worked out really well and used Rust’s strengths. Our compiler ended up being around 6800 lines of Rust and I personally put in around 60 hours of solid coding and more on code review and design. In this post I’ll go over some of the design decisions we made and some thoughts on what it was like using Rust.",
+      "url": "http://thume.ca/2019/04/18/writing-a-compiler-in-rust/",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Tristan Hume",
+        "url": "http://thume.ca/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "5d09aa3e-28c5-4535-9d07-cc3cafbb2ca2",
       "title": "State of Machine Learning in Rust",
       "content_text": "Every once in a while this topic comes up on a social media or Rust user channel. I’d like to describe briefly the way I see where things are going by a little bit of history as well as some information about existing flux of Machine Learning/Deep Learning frameworks and major recent trends.",

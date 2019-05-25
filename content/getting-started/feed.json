@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ecccd5a6-53e0-4e7a-9ece-f02450f3eb2f",
+      "title": "Rebuffing the Attack of the Clones",
+      "content_text": "I left a comment on HN about how I teach new users not to clone, and someone asked me if I’d written more, so here we go!\n\nWhen new users are writing Rust code, it’s reasonably common to “fight with the borrow checker”. I personally find this to be quite a misnomer, as it is not a fight so much as a misunderstanding of the nature of Rust’s semantics. In an attempt to make the errors go away, users will understandably take the path of least resistance, according to the docs they’ve got. They dutifully read up, and eventually land on the clone method. This makes the errors go away! Great! Except if you were my newbie, in the code review I’d tell you clone is banned unless you can tell me why you need it.",
+      "url": "https://thenewwazoo.github.io/clone.html",
+      "date_published": "2019-05-21T00:00:00+00:00",
+      "author": {
+        "name": "Brandon Matthews",
+        "url": "https://thenewwazoo.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "d6fe8e42-6394-4db9-858e-e572740e0915",
       "title": "Scala Developer Journey into Rust - Part 5: Domain Models",
       "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala. This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences.\n\nThis is fifth post in the series. In this post, I will be talking about domain models.",

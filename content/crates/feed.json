@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "635d3c1f-b71e-4883-b72e-52efe1ab01d0",
+      "title": "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018",
+      "content_text": "We’re proud to announce mockiato! For the last few months, we tackled the issue of creating a usable mocking library. Our primary goals were: Ease of use: The mocks are written in idiomatic Rust and don’t rely on custom macro syntax. Maintainability: The entire code base strives to follow the rules of Clean Code and Clean Architecture as specified by Robert C. Martin.  Strict expectation enforcement: Mockiato catches unexpected behavior as soon as it happens instead of returning default values.",
+      "url": "https://blog.myelin.ch/2019/05/24/mockiato-announcement.html",
+      "date_published": "2019-05-24T00:00:00+00:00",
+      "author": {
+        "name": "Jeremy, Ruben, Jan, Mathias",
+        "url": "https://blog.myelin.ch/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "db12537e-42d3-4bba-9c68-7adc1afec917",
       "title": "mini-aio: the new async IO library for Rust",
       "content_text": "During my work at Adgear, I’ve been working for a while on an async IO library for Rust. This post will present this new library. This library takes a very different approach than most other async IO libraries in Rust: it is actually inspired by the Pony programming language. So, it does not use futures, it does not use async/await: it just provides simple trait",
