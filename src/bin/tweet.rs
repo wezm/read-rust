@@ -71,7 +71,6 @@ impl Config {
         let data_file_path = Path::new(TWITTER_DATA_FILE);
         let config = if let Ok(file) = File::open(data_file_path) {
             let config: Self = serde_json::from_reader(file)?;
-            dbg!(&config);
 
             if let Err(err) = block_on_all(egg_mode::verify_tokens(&config.token)) {
                 println!("Unable to verify old tokens: {:?}", err);
