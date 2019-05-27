@@ -653,15 +653,15 @@
       name: 'GuillaumeGomez'
       link: https://github.com/GuillaumeGomez
     description: |
-      Guillaume is a Rust team member and member of the GNOME organization.
-      Their projects include:
+      Guillaume is a Rust team member working on improving Rust's errors,
+      documentation, and rustdoc. Their projects include:
       <ul>
         <li><a href="https://github.com/gtk-rs">Gtk-rs organization</a></li>
         <li><a href="https://blog.guillaume-gomez.fr/Rust">Rust tutorial (in french)</a></li>
         <li><a href="https://github.com/GuillaumeGomez/rust-GSL">GSL binding for Rust</a></li>
         <li><a href="https://github.com/GuillaumeGomez/process-viewer">A multi-platform process viewer</a></li>
       </ul>
-    tags: [gui, crates, rust-team]
+    tags: [gui, crates, rust-team, rust-tools]
   -
     name: Yurii Rashkovskii
     avatar: yrashk.jpg
