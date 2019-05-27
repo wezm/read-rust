@@ -79,9 +79,9 @@ data:
     <div id="{{ creator.code.name }}" class="card" data-tags="{{ creator.tags | join: "," }}">
       <div class="content">
         {% if creator.no_thumb %}
-          <img width="50" src="/images/u/{{ creator.avatar }}">
+          <img width="50" src="/images/u/{{ creator.avatar }}" alt="" />
         {% else %}
-          <img width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}">
+          <img width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}" alt="" />
         {% endif %}
         <h3>
           {{ creator.name }}
