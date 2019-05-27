@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
@@ -13,17 +13,25 @@
     {% endfor %}
 
     <meta name="description" content="Read Rust collects interesting posts related to the Rust programming language.">
+    {% if page.data.js %}
+      <script async src="/js/{{ page.data.js }}" type="text/javascript"></script>
+    {% endif %}
+    {% if page.data.css %}
+      <link rel="stylesheet" type="text/css" href="/css/{{ page.data.css }}">
+    {% endif %}
   </head>
   <body>
     <header>
-      <a href="/">Read <img src="/images/logo.svg" class="logo" /> Rust</a>
+      <a href="/">Read <img src="/images/logo.svg" class="logo" alt="" /> Rust</a>
 
       <nav>
         <div class="list-inline">
           <div><a href="/">Home</a></div>
           <div><a href="/about.html">About</a></div>
-          <div><a href="/faq.html">FAQ</a></div>
           <div><a href="/submit.html">Submit</a></div>
+          <div class="support">
+            <a href="/support.html" class="heart">Support Rust</a>
+          </div>
         </div>
       </nav>
     </header>

@@ -1,0 +1,102 @@
+---
+title: Support Rust
+layout: default.liquid
+data:
+  js: support.js
+  css: balloon.css
+---
+
+<p>
+  If you or your company benefits from Rust and its ecosystem consider
+  supporting it. There are many ways to support Rust:
+</p>
+
+<ul>
+  <li>Contribute code.</li>
+  <li>Write documentation.</li>
+  <li>Publish blog posts, videos, or podcasts.</li>
+  <li>
+    Answer questions on
+    <a href="https://users.rust-lang.org/">the forum</a>,
+    <a href="https://stackoverflow.com/unanswered/tagged/rust">Stack Overflow</a>,
+    <a href="https://www.reddit.com/r/rust">Reddit</a>,
+    <a href="https://matrix.to/#/#rust:matrix.org">Matrix</a>,
+    or <a href="https://discord.gg/rust-lang">Discord</a>.
+  </li>
+  <li>Financial contribution.</li>
+</ul>
+
+<p>
+  Open source has a bit of a problem with sustainability and burning people
+  out. Paying people is one way that we can help compensate them for their time
+  and make open source more sustainable.
+</p>
+
+<p>
+  Below are people and projects contributing to the Rust ecosystem that are
+  accepting financial contributions. If you or your company is able, consider
+  supporting one or more of these fine folks in their work making Rust better.
+  See also <a href="http://aturon.github.io/sponsor">Aaron Turon's list</a>.
+</p>
+
+<p>
+  To add to, or update this list
+  <a href="https://github.com/wezm/read-rust/issues/new?labels=support-rust&amp;template=support_rust.md">please raise an issue</a>.
+</p>
+
+<div id="featured"></div>
+
+<h2 id="rust-creators">Rust Creators</h2>
+
+<div class="filter">
+  <strong class="visually-hidden">Filter:</strong>
+
+  <a href="#all" class="tag">all</a>
+  <a href="#applications" class="tag">applications</a>
+  <a href="#audio" class="tag">audio</a>
+  <a href="#cli" class="tag">cli</a>
+  <a href="#community" class="tag">community</a>
+  <a href="#crates" class="tag">crates</a>
+  <a href="#database" class="tag">database</a>
+  <a href="#documentation" class="tag">documentation</a>
+  <a href="#embedded" class="tag">embedded</a>
+  <a href="#emulators" class="tag">emulators</a>
+  <a href="#games" class="tag">games</a>
+  <a href="#graphics" class="tag">graphics</a>
+  <a href="#gui" class="tag">gui</a>
+  <a href="#mathematics" class="tag">mathematics</a>
+  <a href="#physics" class="tag">physics</a>
+  <a href="#podcast" class="tag">podcast</a>
+  <a href="#rust-team" class="tag">rust-team</a>
+  <a href="#rust-tools" class="tag">rust-tools</a>
+  <a href="#video" class="tag">video</a>
+  <a href="#wasm" class="tag">wasm</a>
+  <a href="#web" class="tag">web</a>
+</div>
+
+<div id="creators" class="creators">
+  {% for creator in site.data.creators %}
+    <div id="{{ creator.code.name }}" class="card" data-tags="{{ creator.tags | join: "," }}">
+      <div class="content">
+        {% if creator.no_thumb %}
+          <img width="50" src="/images/u/{{ creator.avatar }}" alt="" />
+        {% else %}
+          <img width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}" alt="" />
+        {% endif %}
+        <h3>
+          {{ creator.name }}
+        </h3>
+        <div class="meta">
+          <a href="{{ creator.code.link }}">@{{ creator.code.name }}</a>
+        </div>
+        <div class="description">
+          {{ creator.description }}
+        </div>
+      </div>
+      <div class="card-extra">
+        <a href="{{ creator.support.link }}" class="button">{{ creator.support.name }}</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

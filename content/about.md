@@ -26,7 +26,7 @@ for the whole site, as well as each of the categories:
 
 In order to discover new posts I subscribe to a lot of Rust related RSS feeds.
 The list is available in [OPML] (readily importable into [feed
-readers](/faq.html#subscribe)):
+readers](#subscribe)):
 
 * Blog list: [OPML](/rust-blogs.opml))
 
@@ -39,11 +39,51 @@ added post:
 * [Twitter]
 * [Facebook]
 
+## FAQ
+
+<h3 id="subscribe">How do I subscribe?</h3>
+
+Subscribe to [one of the feeds][feeds] in a feed reader. There are feeds for all news
+posts as well as for individual categories. Some feed readers are shown below.
+I&nbsp;use and recommend [Feedbin] + [Reeder]:
+
+* [Feedbin] (Web, Third party clients)
+* [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
+* [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
+* [Feedly](https://feedly.com/) (Web, Third party clients)
+* [NewsBlur](https://www.newsblur.com/) (Web, iOS & Android)
+* [Reeder] (iOS & macOS)
+* [selfoss](https://selfoss.aditu.de/) (Self-hosted)
+* [Thunderbird](https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs) (BSD, Linux, Mac, Windows, etc.)
+
+Alternatively you may follow Read Rust on [Twitter][@read_rust], [Mastodon] or [Facebook].
+
+### What is JSON Feed?
+
+A format similar to <a href="http://cyber.harvard.edu/rss/rss.html">RSS</a> and
+<a href="https://tools.ietf.org/html/rfc4287">Atom</a> but in JSON. For more
+details visit the [JSON&nbsp;Feed website][json-feed-website].
+
+[#Rust2018]: https://twitter.com/search?f=tweets&vertical=default&q=%23Rust2018
+[add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
+[call-for-posts]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
+[favicon]: https://thenounproject.com/term/book/17900
+[Feedbin]: https://feedbin.com/
+[feeds]: /about.html#feeds
+[json-feed-website]: https://jsonfeed.org/
+[Reeder]: http://reederapp.com/
+[rust-reddit]: https://www.reddit.com/r/rust/
+[@read_rust]: https://twitter.com/read_rust
+[Facebook]: https://www.facebook.com/readrust/
+[Mastodon]: https://botsin.space/@readrust
+
 ## Credits
 
 * JSON Feed icon: <https://jsonfeed.org/version/1>
 * Facebook, Mastodon, RSS, Twitter icons: [Super Tiny Icons]
-* favicon: “[Book][favicon]” by Mike Rowe, from [the Noun Project]
+* Logo: “[Book][favicon]” by Mike Rowe, from [the Noun Project]
+* Heart icon: “[Heart]” by Mike Rowe, from [the Noun Project]
+* [Balloon.css]: Copyright (c) 2016 Claudio Holanda
 
 [favicon]: https://thenounproject.com/term/book/17900
 [rust-lang]: https://www.rust-lang.org/
@@ -59,3 +99,5 @@ added post:
 [Facebook]: https://www.facebook.com/readrust/
 [Super Tiny Icons]: https://github.com/edent/SuperTinyIcons
 [Patreon]: https://patreon.com/wezm
+[Heart]: https://thenounproject.com/search/?q=heart&creator=9861&i=372271
+[Balloon.css]: https://github.com/kazzkiq/balloon.css

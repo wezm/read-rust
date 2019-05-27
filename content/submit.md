@@ -27,4 +27,4 @@ a feed:
 * [Wordpress](https://codex.wordpress.org/WordPress_Feeds)
 
 [rust-reddit]: https://www.reddit.com/r/rust/
-[add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&title=Add+post&template=missing_post.md
+[add-post]: https://github.com/wezm/read-rust/issues/new?labels=missing-post&amp;title=Add+post&amp;template=missing_post.md

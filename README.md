@@ -35,6 +35,11 @@ Running `make` will build the tools and generate the site content.
 2. Add a new content directory and index file for the category. E.g. `content/category/index.md`.
 3. Add the new category to the `Makefile`
 
+### Resize Avatars
+
+    cd content/images/u
+    convert *.png *.jpg -set filename:name '%t' -resize 100\> -quality 60 'thumb/%[filename:name].jpg'
+
 [self]: https://readrust.net/
 [contributing]: https://readrust.net/submit.html
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
