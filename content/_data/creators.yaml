@@ -266,8 +266,8 @@
       Measly Twerp has built and published these crates:
       <ul>
       <li><a href="https://crates.io/crates/css-modules" data-balloon="CSS Modules with a macro for convenience." data-balloon-pos="right" data-balloon-length="medium">css-modules</a></li>
-        <li><a href="https://crates.io/crates/glue" data-balloon="Simple brace based markup language." data-balloon-pos="right" data-balloon-length="medium">glue</a></li>
-        <li><a href="https://crates.io/crates/doccy" data-balloon="Parser combinator framework for parsing text based formats." data-balloon-pos="right" data-balloon-length="medium">doccy</a></li>
+        <li><a href="https://crates.io/crates/glue" data-balloon="Parser combinator framework for parsing text based formats." data-balloon-pos="right" data-balloon-length="medium">glue</a></li>
+        <li><a href="https://crates.io/crates/doccy" data-balloon="Simple brace based markup language." data-balloon-pos="right" data-balloon-length="medium">doccy</a></li>
       </ul>
     tags: [crates]
   -
