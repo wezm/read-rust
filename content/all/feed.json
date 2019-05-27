@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "4d542211-c76e-41b8-b9fd-d008c06ed937",
+      "title": "Hawk-Rust Series: Actuation of Raspberry Pi Camera",
+      "content_text": "In this project, we have used Raspberry Pi and its camera to authenticate whether the RFID card is punched by the card’s owner or not. HAWK is a Rust based Image Recognition project, which implements a two-factor authentication by using the RFID card for user identification and Image for user validation. In this blog, I’ll show you how to trigger RPi’s camera using Rust Programming Language. To know more about HAWK click here",
+      "url": "https://blog.knoldus.com/hawk-rust-series-actuation-of-raspberry-pi-camera/",
+      "date_published": "2019-05-23T08:51:49+00:00",
+      "author": {
+        "name": "Pawan Bisht",
+        "url": "https://blog.knoldus.com/author/bishtpawan/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0cc7297b-a14f-443d-a02a-073685c663a3",
+      "title": "Programming Servo: Zen and the art of removing blocks from your system",
+      "content_text": "It all started with a simple issue, a “quick fix”, or so I thought.",
+      "url": "https://medium.com/@polyglot_factotum/programming-servo-zen-and-the-art-of-removing-blocks-from-your-system-51c1b7d404e3",
+      "date_published": "2019-05-26T09:41:02.544+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fe48ce77-ad77-4983-a08d-1fb9cf951bb1",
+      "title": "Blockchain-Flavored WASI",
+      "content_text": "General purpose computation on the blockchain using Web Assembly System Interface (WASI).",
+      "url": "https://medium.com/oasislabs/blockchain-flavored-wasi-50e3612b8eba",
+      "date_published": "2019-05-23T04:07:55.019+00:00",
+      "author": {
+        "name": "Nick Hynes",
+        "url": "https://medium.com/@nhynes_"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "61255817-6eef-43ce-9eea-24a8aedbd9f2",
       "title": "Writing a Compiler in Rust",
       "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, with a language and two teammates of your choice. My group of three chose to write our compiler in Rust and it was a fun experience. We spent time coming to design decisions that worked out really well and used Rust’s strengths. Our compiler ended up being around 6800 lines of Rust and I personally put in around 60 hours of solid coding and more on code review and design. In this post I’ll go over some of the design decisions we made and some thoughts on what it was like using Rust.",
