@@ -54,13 +54,13 @@
     avatar: chriskrycho.jpg
     support:
       name: Support on Patreon
-      link: 'https://www.patreon.com/newrustacean'
+      link: 'https://www.patreon.com/chriskrycho'
     code:
       name: 'chriskrycho'
       link: 'https://github.com/chriskrycho'
     description: |
-      Chris publishes the <a href="https://newrustacean.com/">New Rustacean
-      podcast</a> covering Rust news, and deep dives into the language.
+      Chris published the <a href="https://newrustacean.com/">New Rustacean
+      podcast</a> and is now working on open source software.
     tags: [podcast]
   -
     name: Matthias Endler
