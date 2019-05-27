@@ -271,19 +271,6 @@
       </ul>
     tags: [crates]
   -
-    name: Baptiste Gelez
-    avatar: Bat.png
-    support:
-      name: Support on Liberapay
-      link: https://liberapay.com/Bat/
-    code:
-      name: 'BaptisteGelez'
-      link: https://github.com/BaptisteGelez
-    description: |
-      Baptiste is building <a href="https://github.com/Plume-org/Plume">Plume</a>,
-      a federated blogging application built on ActivityPub.
-    tags: [web, applications]
-  -
     name: Aaron Power
     avatar: XAMPPRocky.png
     support:
