@@ -121,7 +121,7 @@ blockquote {
   border: 2px solid #fbd492;
   color: #fbd492;
   color: hsl(29.8, 100%, 50%);
-  padding: 0.25em 1em;
+  padding: 5px 1em 4px;
   border-radius: 3px;
   text-decoration: none;
   font-size: 0.65em;
