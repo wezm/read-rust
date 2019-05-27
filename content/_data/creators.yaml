@@ -280,7 +280,8 @@
       name: 'BaptisteGelez'
       link: https://github.com/BaptisteGelez
     description: |
-      Baptiste is building <a href="https://github.com/Plume-org/Plume">Plume</a>, a federated blogging application built on ActivityPub.
+      Baptiste is building <a href="https://github.com/Plume-org/Plume">Plume</a>,
+      a federated blogging application built on ActivityPub.
     tags: [web, applications]
   -
     name: Aaron Power
@@ -292,10 +293,11 @@
       name: 'XAMPPRocky'
       link: https://github.com/XAMPPRocky
     description: |
-      Rust contributor and creator of <a href="https://github.com/XAMPPRocky/tokei">tokei</a>,
+      Aaron is a Rust contributor, creator of
+      <a href="https://github.com/XAMPPRocky/tokei">tokei</a>,
       a fast lines of code counter and
-      <a href="https://github.com/XAMPPRocky/Mammut">Mammut</a> client for the Mastodon
-      API.
+      <a href="https://github.com/XAMPPRocky/Mammut">Mammut</a>, a client for
+      the Mastodon API.
     tags: [crates, cli]
   -
     name: Kornel
@@ -307,7 +309,10 @@
       name: 'kornelski'
       link: https://github.com/kornelski
     description: |
-      Kornel is the creator of <a href="https://lib.rs/">Lib.rs</a>, a fast, lightweight site to find quality Rust libraries and applications. Contributor to Rust and <a href="https://crates.io/users/kornelski">many crates</a>, including:
+      Kornel is the creator of <a href="https://lib.rs/">Lib.rs</a>, a fast,
+      lightweight site to find quality Rust libraries and applications.
+      They're also a contributor to Rust and
+      <a href="https://crates.io/users/kornelski">many crates</a>, including:
       <ul>
         <li><a href="https://crates.io/crates/gifski" data-balloon="Highest-quality GIF encoder based on pngquant." data-balloon-pos="right" data-balloon-length="medium">gifski</a></li>
         <li><a href="https://crates.io/crates/dssim" data-balloon="Computes (dis)similarity between two or more PNG images using an algorithm approximating human vision." data-balloon-pos="right" data-balloon-length="medium">dssim</a></li>
@@ -323,8 +328,8 @@
       name: 'phil-opp'
       link: https://github.com/phil-opp
     description: |
-      Philipp is publishing a book on <a href="https://os.phil-opp.com/">Writing an OS in Rust</a> and is
-      also maintainer of crates for OS development:
+      Philipp is publishing a book on <a href="https://os.phil-opp.com/">Writing an OS in Rust</a>
+      and also maintains crates for OS development:
 
       <ul>
         <li><a href="https://crates.io/crates/x86_64" data-balloon="Library to program x86_64 hardware." data-balloon-pos="right" data-balloon-length="medium">x86_64</a></li>
@@ -371,7 +376,8 @@
       name: 'Aaron1011'
       link: https://github.com/Aaron1011
     description: |
-      Aaron works on Rust and Cargo.
+      Aaron works on the Rust compiler fixing bugs and panics amongst other things. They
+      also contribute to Cargo.
     tags: [rust-tools]
   -
     name: Jonas Platte
@@ -461,7 +467,7 @@
       name: 'r-eindo'
       link: https://gitlab.com/r-iendo
     description: |
-      R-iendo is an open source company specialized in Rust. They are the creators
+      R-iendo is an open source company specializing in Rust. They are the creators
       of <a href="https://crates.io/crates/yarte">Yarte</a>,
       a fast HTML templating engine with Handlebars-like syntax.
     tags: [crates]
@@ -536,12 +542,12 @@
       antoyo works on many open source projects. The most popular are:
       <ul>
         <li><a href="https://github.com/antoyo/relm" data-balloon="Idiomatic, GTK+-based, GUI library, inspired by Elm." data-balloon-pos="right" data-balloon-length="medium">Relm</a></li>
-        <li><a href="https://github.com/antoyo/tql" data-balloon="A compile-time Rust ORM." data-balloon-pos="right" data-balloon-length="medium">TQL</a>: </li>
+        <li><a href="https://github.com/antoyo/tql" data-balloon="A compile-time Rust ORM." data-balloon-pos="right" data-balloon-length="medium">TQL</a></li>
         <li><a href="https://github.com/antoyo/titanium" data-balloon="A keyboard-driven web browser written in Rust." data-balloon-pos="right" data-balloon-length="medium">Titanium</a></li>
       </ul>
 
-      They also contribute to <a href="https://github.com/gtk-rs">gtk-rs</a> and are the maintainer of
-      <a href="https://github.com/gtk-rs/webkit2gtk-rs">webkit2gtk-rs</a>.
+      <p>They also contribute to <a href="https://github.com/gtk-rs">gtk-rs</a> and are the maintainer of
+      <a href="https://github.com/gtk-rs/webkit2gtk-rs">webkit2gtk-rs</a>.</p>
     tags: [gui, web, database, crates]
   -
     name: Nikolai Vazquez
@@ -660,7 +666,8 @@
       name: 'GuillaumeGomez'
       link: https://github.com/GuillaumeGomez
     description: |
-      Guillaume is Rust team member and member of the GNOME organization. Their projects include:
+      Guillaume is a Rust team member and member of the GNOME organization.
+      Their projects include:
       <ul>
         <li><a href="https://github.com/gtk-rs">Gtk-rs organization</a></li>
         <li><a href="https://blog.guillaume-gomez.fr/Rust">Rust tutorial (in french)</a></li>
