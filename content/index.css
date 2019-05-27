@@ -41,9 +41,9 @@ h1 a {
   border-bottom: 3px solid currentColor;
 }
 nav a {
-  text-transform: uppercase;
   font-size: 18px;
-  border-bottom: 1px solid rgba(255, 165, 0, 0);
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 165, 0, 0);
   transition: border-bottom-color 250ms;
 }
 nav a:hover {
@@ -64,20 +64,37 @@ blockquote {
   border-left: 3px solid orange;
 }
 .list-inline {
-  margin: 1em;
+  margin: 1em 0;
   display: flex;
   justify-content: center;
 }
 .list-inline > div {
+  width: 4em;
   display: inline;
-  padding: 0 0.5em;
-  flex: 0 1 4em;
+}
+.list-inline .support {
+  width: 6em;
 }
 .logo {
   vertical-align: top;
   width: 50px;
   height: 40px;
   margin: 0 0.5em;
+}
+.heart {
+  position: relative;
+}
+.heart:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: -1em;
+  left: 4em;
+  content: " ";
+  background: url('/images/heart.svg') no-repeat top center;
+  background-size: 1em;
+  transform: rotate(9deg);
 }
 .main {
   margin: 40px auto;
@@ -102,29 +119,54 @@ blockquote {
 .button {
   display: inline-block;
   border: 2px solid #fbd492;
-  color: #444;
+  color: #fbd492;
+  color: hsl(29.8, 100%, 50%);
   padding: 0.25em 1em;
   border-radius: 3px;
   text-decoration: none;
+  font-size: 0.65em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
-/* a.button[href*='patreon.com'] { */
-/*   border-color: rgb(231, 81, 59); */
-/* } */
 .button:hover {
   background-color: #fbd492;
 }
 
+.tag {
+  display: inline-block;
+  background: hsl(37.7, 92.9%, 94.8%);
+  padding: 0 0.5em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: hsl(29.8, 100%, 50%);
+  margin: 0.25em 0;
+  font-size: smaller;
+  border: 2px solid rgba(0,0,0,0);
+}
+.tag:hover {
+  background: hsl(37.7, 92.9%, 90%);
+}
+.tag.active {
+  border-color: hsl(29.8, 100%, 50%);
+}
 .creators {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+#featured h2 {
+  margin-bottom: 0;
+}
 .card {
   width: 300px;
   flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* border: 1px solid #ffebd4; */
   border-radius: 3px;
-  margin: 0.5em 0;
+  margin: 1.5em 0;
 }
 .card h3 {
   display: inline-block;
@@ -142,15 +184,22 @@ blockquote {
 .card .meta a {
   color: rgba(0,0,0,.5);
 }
-.card .meta img {
-  width: 20px;
-  filter: saturate(0%);
-}
 .card .content {
   padding: 1em 0;
 }
 .card .description {
   clear: both;
+}
+
+.hidden {
+  display: none;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
 #search {
@@ -171,11 +220,18 @@ blockquote {
 @media (max-width: 768px) {
   header {
     padding-bottom: 1em;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   .main {
     margin-top: 0;
   }
   .feedicon {
     margin-top: 1em;
+  }
+}
+@media (max-width: 460px) {
+  .list-inline {
+    flex-wrap: wrap;
   }
 }
