@@ -61,7 +61,7 @@
     description: |
       Chris published the <a href="https://newrustacean.com/">New Rustacean
       podcast</a> and is now working on open source software.
-    tags: [podcast]
+    tags: [podcast, community, blog]
   -
     name: Matthias Endler
     avatar: mre.png
@@ -136,7 +136,7 @@
         <li><a href="https://github.com/djc/quinn" data-balloon="A futures-based Rust implementation of the nascent QUIC internet protocol." data-balloon-pos="right" data-balloon-length="medium">Quinn</a></li>
         <li><a href="https://github.com/djc/tokio-imap" data-balloon="A tokio-based IMAP client and base IMAP protocol library." data-balloon-pos="right" data-balloon-length="medium">tokio-imap and imap-proto</a></li>
       </ul>
-    tags: [crates]
+    tags: [crates, blog]
   -
     name: Pierre Krieger
     avatar: tomaka.jpg
@@ -178,7 +178,7 @@
       <a href="https://github.com/linebender/skribo">skribo</a>,
       a library for low-level text layout. Raph posts about his projects on
       <a href="https://raphlinus.github.io/">his blog</a>.
-    tags: [crates]
+    tags: [crates, blog]
   -
     name: Sean Griffin
     avatar: sgrif.jpg
@@ -220,7 +220,7 @@
       link: https://github.com/Plume-org
     description: |
       <a href="https://github.com/Plume-org/Plume">Plume</a> is a federated blogging application built on ActivityPub.
-    tags: [web, application]
+    tags: [web, application, blog]
   -
     name: Aardwolf
     avatar: Aardwolf.png
@@ -352,7 +352,7 @@
       link: https://github.com/killercup
     description: |
       Pascal works on <a href="https://github.com/killercup/cargo-edit">cargo-edit</a>, <a href="https://github.com/killercup/rustfix">rustfix</a>, and <a href="https://diesel.rs">diesel</a> and blogs about Rust at <a href="https://deterministic.space">deterministic.space</a>.
-    tags: [rust-tools, rust-team, crates, database]
+    tags: [rust-tools, rust-team, crates, database, blog]
   -
     name: Aaron Hill
     avatar: Aaron1011.png
@@ -426,7 +426,7 @@
       link: https://github.com/cyplo
     description: |
       Cyryl runs <a href="https://blog.cyplo.net/posts/2018/05/pair-with-me-on-rust.html">a free program</a> that teaches people Rust and a free fuzzing service for Rust projects. Cyryl's open source contributions include cargo, the Rust compiler itself and some libraries around that as well.
-    tags: [community]
+    tags: [community, blog]
   -
     name: Bernhard Schuster
     avatar: drahnr.jpg
@@ -661,7 +661,7 @@
         <li><a href="https://github.com/GuillaumeGomez/rust-GSL">GSL binding for Rust</a></li>
         <li><a href="https://github.com/GuillaumeGomez/process-viewer">A multi-platform process viewer</a></li>
       </ul>
-    tags: [gui, crates, rust-team, rust-tools]
+    tags: [gui, crates, rust-team, rust-tools, blog]
   -
     name: Yurii Rashkovskii
     avatar: yrashk.jpg
