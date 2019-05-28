@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4e723122-0527-43dc-b95b-ff4fd5cd5d28",
+      "title": "Creating a Static HTTP Server with Rust – Part 2",
+      "content_text": "In this series, we are creating a basic static HTTP 1.0 server with Rust. If you haven’t seen Part 1 yet, go do that first. At the end of Part 2, our server will do the following: Read and serve files from a predefined directory on the host server, Generate appropriate HTTP responses to incoming requests, Log information about the response to standard output.",
+      "url": "http://concisecoder.io/2019/05/27/creating-a-static-http-server-with-rust-part-2/",
+      "date_published": "2019-05-27T13:25:29+00:00",
+      "author": {
+        "name": "Levi Payne",
+        "url": "http://concisecoder.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "4d542211-c76e-41b8-b9fd-d008c06ed937",
       "title": "Hawk-Rust Series: Actuation of Raspberry Pi Camera",
       "content_text": "In this project, we have used Raspberry Pi and its camera to authenticate whether the RFID card is punched by the card’s owner or not. HAWK is a Rust based Image Recognition project, which implements a two-factor authentication by using the RFID card for user identification and Image for user validation. In this blog, I’ll show you how to trigger RPi’s camera using Rust Programming Language. To know more about HAWK click here",
