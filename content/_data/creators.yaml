@@ -1,5 +1,31 @@
 ---
   -
+    name: Jacky Alciné
+    avatar: jackyalcine.jpg
+    support:
+      name: Support on Patreon
+      link: 'https://www.patreon.com/jackyalcine'
+    code:
+      name: 'blackaf'
+      link: 'https://github.com/blackaf'
+    description: |
+      Jacky is working on
+      <a href="https://github.com/blackaf/activitydesk">ActivityDesk</a>,
+      a native desktop application written in Rust and Qt that provides a means
+      of interacting with the social Web from your personal desktop.
+    tags: [desktop, application, gui, web]
+  -
+    name: Alex Lyon
+    avatar: arcterus.png
+    support:
+      name: Support on Patreon
+      link: 'https://www.patreon.com/arcterus'
+    code:
+      name: 'Arcterus'
+      link: 'https://github.com/uutils'
+    description: Alex primarily maintains the various <a href="https://github.com/uutils">uutils</a> projects but also contributes occasionally to other community projects like Redox (in particular <a href="https://gitlab.redox-os.org/redox-os/relibc">relibc</a>) and (rarely) the Rust standard library.
+    tags: [crates]
+  -
     name: Igor Matuszewski
     avatar: xanewok.jpg
     support:
