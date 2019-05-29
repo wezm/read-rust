@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cbb3c7f8-1ff0-4a30-b924-08c79542c259",
+      "title": "Eight million pixels and counting – A look at pathfinder",
+      "content_text": "This post is about pathfinder, a GPU vector graphics renderer written in Rust by Patrick Walton as part of his work in the emerging technologies team at Mozilla. Pathfinder can be used to render glyph atlases and larger scenes such as SVG paths. The two use cases are handled a bit differently and in this post I will be focusing on the latter.",
+      "url": "https://nical.github.io/posts/a-look-at-pathfinder.html",
+      "date_published": "2019-05-28T00:00:00+00:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "27b12f19-d9cb-4ac4-b150-14398ad2f7da",
       "title": "Terraform: generate 3-d models of geographic terrain",
       "content_text": "I just spent the past two weeks building a GUI Rust app to help you generate a 3-d model of terrain from around the world, that can then be used for 3-d printing, rendering, or whatever you like.",

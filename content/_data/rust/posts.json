@@ -10,6 +10,51 @@
   },
   "items": [
     {
+      "id": "b3ca84bd-3574-43f7-aef3-988cbc6389a4",
+      "title": "Update on await syntax",
+      "content_text": "In my previous post I said that the lang team would be making our final decision about the syntax of the await operator in the May 23 meeting. That was last Thursday, and we did reach a decision. In brief, we decided to go forward with the preliminary proposal I outlined earlier: a postfix dot syntax, future.await. For more background, in addition the previous post on my blog, you can read this write up about some of the trade offs from April.",
+      "url": "https://boats.gitlab.io/blog/post/await-decision-ii/",
+      "tweet_url": "https://twitter.com/withoutboats/status/1133379255390179330",
+      "date_published": "2019-05-28T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ec3d6230-6b29-4459-8a62-c40a8ef08430",
+      "title": "Calling a Go Library from Rust: A Case Study with SQIP",
+      "content_text": "A brief run-down of how to wrap a Go library in a CGO FFI to enable its functions to be called by Rust.",
+      "url": "https://blog.arranfrance.com/post/cgo-sqip-rust/",
+      "tweet_url": "https://twitter.com/arranf/status/1133390003789324288",
+      "date_published": "2019-05-27T00:00:00+00:00",
+      "author": {
+        "name": "Arran France",
+        "url": "https://blog.arranfrance.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cbb3c7f8-1ff0-4a30-b924-08c79542c259",
+      "title": "Eight million pixels and counting – A look at pathfinder",
+      "content_text": "This post is about pathfinder, a GPU vector graphics renderer written in Rust by Patrick Walton as part of his work in the emerging technologies team at Mozilla. Pathfinder can be used to render glyph atlases and larger scenes such as SVG paths. The two use cases are handled a bit differently and in this post I will be focusing on the latter.",
+      "url": "https://nical.github.io/posts/a-look-at-pathfinder.html",
+      "tweet_url": "https://twitter.com/nicalsilva/status/1133663927064244224",
+      "date_published": "2019-05-28T00:00:00+00:00",
+      "author": {
+        "name": "Nical",
+        "url": "https://nical.github.io/index.html"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "4e723122-0527-43dc-b95b-ff4fd5cd5d28",
       "title": "Creating a Static HTTP Server with Rust – Part 2",
       "content_text": "In this series, we are creating a basic static HTTP 1.0 server with Rust. If you haven’t seen Part 1 yet, go do that first. At the end of Part 2, our server will do the following: Read and serve files from a predefined directory on the host server, Generate appropriate HTTP responses to incoming requests, Log information about the response to standard output.",
