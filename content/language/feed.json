@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "51cdd7b5-fed9-439c-b6f8-c50ee7f93ea2",
+      "title": "Creating a 'paged' Vec in Rust",
+      "content_text": "In this post I'll show you some code I wrote for paginating over a Vec collection in Rust. I needed this for a CLI tool I wrote which was meant to display all the vector entries retrieved from a remote server. In most cases, I expected to receive a lot of results, so to display them in a terminal efficiently, I couldn't reasonably render them all. I decided I would page the results.",
+      "url": "https://dev.to/kdrakon/creating-a-paged-vec-in-rust-193l",
+      "date_published": "2019-05-24T06:36:49+00:00",
+      "author": {
+        "name": "Sean Policarpio",
+        "url": "https://dev.to/kdrakon"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b3ca84bd-3574-43f7-aef3-988cbc6389a4",
       "title": "Update on await syntax",
       "content_text": "In my previous post I said that the lang team would be making our final decision about the syntax of the await operator in the May 23 meeting. That was last Thursday, and we did reach a decision. In brief, we decided to go forward with the preliminary proposal I outlined earlier: a postfix dot syntax, future.await. For more background, in addition the previous post on my blog, you can read this write up about some of the trade offs from April.",

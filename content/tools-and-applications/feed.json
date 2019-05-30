@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "834cc4e5-1dd6-446d-966e-8a869ff45f79",
+      "title": "battop: top for your laptop battery",
+      "content_text": "battop is an interactive viewer, similar to top, htop and other *top utilities, but about batteries installed in your notebook.",
+      "url": "https://github.com/svartalf/rust-battop",
+      "date_published": "2019-05-30T00:00:00+00:00",
+      "author": {
+        "name": "svartalf",
+        "url": "https://github.com/svartalf"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "3eb814d5-d467-4e34-ba31-e0a55da4da36",
       "title": "Introducing Packem: a super fast experimental bundler written in Rust",
       "content_text": "Packem is an experimental precompiled JavaScript module bundler primarily implemented in Rust. It can also handle a variety of other file types like YAML/TOML, fragment shader files and a lot more.",

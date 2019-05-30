@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f94980b0-dfbb-421b-b861-16e158c7c0c2",
+      "title": "Announcing j4rs",
+      "content_text": "j4rs stands for “Java for Rust” and allows effortless calls to Java code, from Rust. Some time ago, on a need to call Java code from Rust, I started the j4rs project. The main idea was to implement a crate that would give the ability to its users to make calls to Java easily, so that they can benefit from the huge Java ecosystem.",
+      "url": "https://astonbitecode.github.io/blog/post/j4rs_0.6.0/",
+      "date_published": "2019-05-24T00:10:10+00:00",
+      "author": {
+        "name": "Aston",
+        "url": "https://astonbitecode.github.io/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "635d3c1f-b71e-4883-b72e-52efe1ab01d0",
       "title": "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018",
       "content_text": "We’re proud to announce mockiato! For the last few months, we tackled the issue of creating a usable mocking library. Our primary goals were: Ease of use: The mocks are written in idiomatic Rust and don’t rely on custom macro syntax. Maintainability: The entire code base strives to follow the rules of Clean Code and Clean Architecture as specified by Robert C. Martin.  Strict expectation enforcement: Mockiato catches unexpected behavior as soon as it happens instead of returning default values.",
