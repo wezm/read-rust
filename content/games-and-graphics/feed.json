@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f6a4f101-2fc4-4bb8-827c-c1e54d5dc877",
+      "title": "Toward Piston 1.0",
+      "content_text": "The Piston core is a set of libraries that defines a core abstraction for user inputs, window and event loop. If you take a look at the dependency graph in the README, it might look a bit scary: In this post I will go through each library, explain what it does and describe the status of stability.",
+      "url": "http://blog.piston.rs/2019/06/01/toward-piston-1.0/",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Sven Nilsen",
+        "url": "http://blog.piston.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "c8b3f39e-8427-42db-93fa-ea196b956607",
       "title": "[blend_info] Rust and Blender",
       "content_text": "To explore a bit the Blender binary file format and provide tools to read and use them I started a new repository on Codeberg. Finally I want to read Blender files directly, and render them with my own renderer. But on my way to develop such a thing, there are many other possibilities, e.g. one could convert Blender files to a new file format, which does not only work for Blender and one single renderer, but would allow any Digital Content Creation (DCC) tool to save to, and any renderer to read from. Anyway, that's a complicated topic and let's start far simpler, by exploring Blender's file format. You get the source code of Blender for reverse engineering (create a debug version and single step through file related code with a debugger) and some Rust code (provided by me) to see what I have figured out so far...",

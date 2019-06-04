@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "254cd239-bad6-4331-ad8e-fe00edfb834d",
+      "title": "Announcing The Triage WG",
+      "content_text": "The Release team is pleased to announce the triage working group , which will assume responsibility from the release team for triaging issues and pull requests in the rust-lang repositories as well as for diagnosing failures in Crater runs.",
+      "url": "https://users.rust-lang.org/t/announcing-the-triage-wg/28909",
+      "date_published": "2019-06-03T16:15:03+00:00",
+      "author": {
+        "name": "Dylan DPC",
+        "url": "https://users.rust-lang.org/u/dylan.dpc"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "d325b708-16d9-45b7-a1d8-6f9e5a331da5",
+      "title": "The Governance WG is going public",
+      "content_text": "Hey all! Today we're happy to announce the Governance Working Group is going public. We've been spending the last couple weeks finding our bearings and structuring the working group.",
+      "url": "https://blog.rust-lang.org/2019/06/03/governance-wg-announcement.html",
+      "date_published": "2019-06-03T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Governance WG",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "5c93aa16-acee-46d1-8a08-462d9ce7c09f",
       "title": "The 2019 Rust Event Lineup",
       "content_text": "We're excited for the 2019 conference season, which we're actually late in writing up. Some incredible events have already happened! Read on to learn more about all the events occurring around the world, past and future.",

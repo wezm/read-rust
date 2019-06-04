@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "332be129-192f-46d1-aefc-c3765e5b1b56",
+      "title": "Bzip2 in Rust - Basic infrastructure and CRC32 computation",
+      "content_text": "I have started a little experiment in porting bits of the widely-used bzip2/bzlib to Rust. I hope this can serve to refresh bzip2, which had its last release in 2010 and has been nominally unmaintained for years.\n\nI hope to make several posts detailing how this port is done. In this post, I'll talk about setting up a Rust infrastructure for bzip2 and my experiments in replacing the C code that does CRC32 computations.",
+      "url": "https://people.gnome.org/~federico/blog/bzip2-in-rust-basic-infra.html",
+      "date_published": "2019-05-30T10:36:19-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "51cdd7b5-fed9-439c-b6f8-c50ee7f93ea2",
       "title": "Creating a 'paged' Vec in Rust",
       "content_text": "In this post I'll show you some code I wrote for paginating over a Vec collection in Rust. I needed this for a CLI tool I wrote which was meant to display all the vector entries retrieved from a remote server. In most cases, I expected to receive a lot of results, so to display them in a terminal efficiently, I couldn't reasonably render them all. I decided I would page the results.",

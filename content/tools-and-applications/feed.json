@@ -10,14 +10,42 @@
   },
   "items": [
     {
+      "id": "2ebb2e7a-9b56-4fe3-8605-91c8deb394a9",
+      "title": "dua: Disk Usage Analyzer",
+      "content_text": "dua (-> Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible.",
+      "url": "https://github.com/Byron/dua-cli",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Sebastian Thiel",
+        "url": "https://github.com/Byron-TW"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "d4eee998-344f-4863-9402-c8636ff8afc0",
+      "title": "LambdaCore Programming Language",
+      "content_text": "An interpreted language written in Rust inspired by the Lisp family of languages.",
+      "url": "https://sites.google.com/view/lcore",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Pebaz",
+        "url": "https://github.com/Pebaz"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "834cc4e5-1dd6-446d-966e-8a869ff45f79",
       "title": "battop: top for your laptop battery",
       "content_text": "battop is an interactive viewer, similar to top, htop and other *top utilities, but about batteries installed in your notebook.",
       "url": "https://github.com/svartalf/rust-battop",
       "date_published": "2019-05-30T00:00:00+00:00",
       "author": {
-        "name": "svartalf",
-        "url": "https://github.com/svartalf"
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
       },
       "tags": [
         "Tools and Applications"

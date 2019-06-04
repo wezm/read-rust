@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "254cd239-bad6-4331-ad8e-fe00edfb834d",
+      "title": "Announcing The Triage WG",
+      "content_text": "The Release team is pleased to announce the triage working group , which will assume responsibility from the release team for triaging issues and pull requests in the rust-lang repositories as well as for diagnosing failures in Crater runs.",
+      "url": "https://users.rust-lang.org/t/announcing-the-triage-wg/28909",
+      "date_published": "2019-06-03T16:15:03+00:00",
+      "author": {
+        "name": "Dylan DPC",
+        "url": "https://users.rust-lang.org/u/dylan.dpc"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "d325b708-16d9-45b7-a1d8-6f9e5a331da5",
+      "title": "The Governance WG is going public",
+      "content_text": "Hey all! Today we're happy to announce the Governance Working Group is going public. We've been spending the last couple weeks finding our bearings and structuring the working group.",
+      "url": "https://blog.rust-lang.org/2019/06/03/governance-wg-announcement.html",
+      "date_published": "2019-06-03T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Governance WG",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "f6a4f101-2fc4-4bb8-827c-c1e54d5dc877",
+      "title": "Toward Piston 1.0",
+      "content_text": "The Piston core is a set of libraries that defines a core abstraction for user inputs, window and event loop. If you take a look at the dependency graph in the README, it might look a bit scary: In this post I will go through each library, explain what it does and describe the status of stability.",
+      "url": "http://blog.piston.rs/2019/06/01/toward-piston-1.0/",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Sven Nilsen",
+        "url": "http://blog.piston.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "2ebb2e7a-9b56-4fe3-8605-91c8deb394a9",
+      "title": "dua: Disk Usage Analyzer",
+      "content_text": "dua (-> Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible.",
+      "url": "https://github.com/Byron/dua-cli",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Sebastian Thiel",
+        "url": "https://github.com/Byron-TW"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "332be129-192f-46d1-aefc-c3765e5b1b56",
+      "title": "Bzip2 in Rust - Basic infrastructure and CRC32 computation",
+      "content_text": "I have started a little experiment in porting bits of the widely-used bzip2/bzlib to Rust. I hope this can serve to refresh bzip2, which had its last release in 2010 and has been nominally unmaintained for years.\n\nI hope to make several posts detailing how this port is done. In this post, I'll talk about setting up a Rust infrastructure for bzip2 and my experiments in replacing the C code that does CRC32 computations.",
+      "url": "https://people.gnome.org/~federico/blog/bzip2-in-rust-basic-infra.html",
+      "date_published": "2019-05-30T10:36:19-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da8a8064-82b9-4b6f-a37e-d8560a353283",
+      "title": "Poking the macOS IO Kit with Rust",
+      "content_text": "How to fetch batteries information from the macOS APIs with Rust",
+      "url": "https://svartalf.info/posts/2019-05-31-poking-the-macos-io-kit-with-rust/",
+      "date_published": "2019-05-31T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "d4eee998-344f-4863-9402-c8636ff8afc0",
+      "title": "LambdaCore Programming Language",
+      "content_text": "An interpreted language written in Rust inspired by the Lisp family of languages.",
+      "url": "https://sites.google.com/view/lcore",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "Pebaz",
+        "url": "https://github.com/Pebaz"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f94980b0-dfbb-421b-b861-16e158c7c0c2",
       "title": "Announcing j4rs",
       "content_text": "j4rs stands for “Java for Rust” and allows effortless calls to Java code, from Rust. Some time ago, on a need to call Java code from Rust, I started the j4rs project. The main idea was to implement a crate that would give the ability to its users to make calls to Java easily, so that they can benefit from the huge Java ecosystem.",
@@ -58,8 +156,8 @@
       "url": "https://github.com/svartalf/rust-battop",
       "date_published": "2019-05-30T00:00:00+00:00",
       "author": {
-        "name": "svartalf",
-        "url": "https://github.com/svartalf"
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
       },
       "tags": [
         "Tools and Applications"
