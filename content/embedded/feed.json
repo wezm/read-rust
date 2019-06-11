@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4676f66e-29a0-4d5d-9da8-34c09f104ca2",
+      "title": "Hosting Embedded Rust apps on Apache Mynewt with STM32 Blue Pill",
+      "content_text": "Today’s microcontrollers (like the STM32 Blue Pill) pack so many features in a tiny package… yet few embedded programmers are capable of exploiting the full potential of modern microcontrollers. Many of us (my IoT students included) seem to be stuck in the 1980s — painstakingly writing C programs for small computers.\n\nIt’s time to drop our legacy programming practices and adopt smarter, safer ways to exploit these microcontrollers… starting with Apache Mynewt and Rust.",
+      "url": "https://medium.com/@ly.lee/hosting-embedded-rust-apps-on-apache-mynewt-with-stm32-blue-pill-c86b119fe5f?sk=f58f4cf6c608fded4b354063e474a93b",
+      "date_published": "2019-06-09T14:47:44.025+00:00",
+      "author": {
+        "name": "Lup Yuen Lee 李立源",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "4d542211-c76e-41b8-b9fd-d008c06ed937",
       "title": "Hawk-Rust Series: Actuation of Raspberry Pi Camera",
       "content_text": "In this project, we have used Raspberry Pi and its camera to authenticate whether the RFID card is punched by the card’s owner or not. HAWK is a Rust based Image Recognition project, which implements a two-factor authentication by using the RFID card for user identification and Image for user validation. In this blog, I’ll show you how to trigger RPi’s camera using Rust Programming Language. To know more about HAWK click here",

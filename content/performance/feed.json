@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d937feae-59ca-4312-bd40-dc77317e441a",
+      "title": "Rust for Machine Learning: SIMD, BLAS, and Lapack",
+      "content_text": "I love Rust. But, as a data scientist, it’s still hard to use Rust on a daily basis. 90% of my programming these days is in Python.\n\nMy interest in Rust-based machine learning sparked several months ago. But, the key limitation I found was the lack of an ergonomic linear algebra library. There’s nalgebra and ndarray and a few others. Yet, I found none of them at the time ergonomic to work with, nor fast in comparison to writing the lower-level SIMD, BLAS, and Lapack code (I have picked up ndarray more in recent weeks and months).\n\nWhile inconvenient, a few months later, I’m glad I had to take things a step further. Rust is great for writing performant code. The resources for writing quite low-level mathematics operations in Rust are quite good. Using blas-src and lapack-src, as well as Rust’s built in SIMD functions, we can write fast and surprisingly portable Rust code. You can even run Rust on the GPU using, at least, the same underlying code.",
+      "url": "https://www.erikpartridge.com/2019-03/rust-ml-simd-blas-lapack",
+      "date_published": "2019-03-16T00:00:00+00:00",
+      "author": {
+        "name": "Erik Partridge",
+        "url": "https://www.erikpartridge.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "63fcd49a-f8d8-46f4-92dd-58cb8d77082c",
       "title": "Speeding up Ruby MRI with Rust",
       "content_text": "Let me start by saying I really like Ruby. I tend to agree with the statement saying Ruby is optimized for developer happiness. However, nothing comes for free. Programming ecstasy is a double-edged sword and writing slow Ruby is as easy as it is pleasant.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "aaa397b7-d0b2-43d0-af75-0934ac4bfe73",
+      "title": "Announcing Contrie: concurrent maps and sets",
+      "content_text": "This is partly an announcement of a new crate folks might find useful, partly a call for participation and help and partly a journal like story how the crate came to being. Read on (or not) or skip to the parts that seem interesting to you.",
+      "url": "https://vorner.github.io/2019/06/09/announcing-contrie.html",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f94980b0-dfbb-421b-b861-16e158c7c0c2",
       "title": "Announcing j4rs",
       "content_text": "j4rs stands for “Java for Rust” and allows effortless calls to Java code, from Rust. Some time ago, on a need to call Java code from Rust, I started the j4rs project. The main idea was to implement a crate that would give the ability to its users to make calls to Java easily, so that they can benefit from the huge Java ecosystem.",

@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "4676f66e-29a0-4d5d-9da8-34c09f104ca2",
+      "title": "Hosting Embedded Rust apps on Apache Mynewt with STM32 Blue Pill",
+      "content_text": "Today’s microcontrollers (like the STM32 Blue Pill) pack so many features in a tiny package… yet few embedded programmers are capable of exploiting the full potential of modern microcontrollers. Many of us (my IoT students included) seem to be stuck in the 1980s — painstakingly writing C programs for small computers.\n\nIt’s time to drop our legacy programming practices and adopt smarter, safer ways to exploit these microcontrollers… starting with Apache Mynewt and Rust.",
+      "url": "https://medium.com/@ly.lee/hosting-embedded-rust-apps-on-apache-mynewt-with-stm32-blue-pill-c86b119fe5f?sk=f58f4cf6c608fded4b354063e474a93b",
+      "date_published": "2019-06-09T14:47:44.025+00:00",
+      "author": {
+        "name": "Lup Yuen Lee 李立源",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "aaa397b7-d0b2-43d0-af75-0934ac4bfe73",
+      "title": "Announcing Contrie: concurrent maps and sets",
+      "content_text": "This is partly an announcement of a new crate folks might find useful, partly a call for participation and help and partly a journal like story how the crate came to being. Read on (or not) or skip to the parts that seem interesting to you.",
+      "url": "https://vorner.github.io/2019/06/09/announcing-contrie.html",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "b1731301-ca91-4f8c-a66a-48320013705b",
+      "title": "Evoli - an official Amethyst showcase game",
+      "content_text": "Today marks the first stable release of Evoli, an evolution-inspired simulation game made in Amethyst. We’ve successfully completed the MVP spec (and then some) as it was laid out back in February.",
+      "url": "https://amethyst.rs/posts/evoli-an-official-amethyst-showcase-game",
+      "date_published": "2019-06-02T00:00:00+00:00",
+      "author": {
+        "name": "Erlend Sogge Heggen",
+        "url": "https://amethyst.rs/news"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "91ae37e0-3d4f-4c78-879d-47e635f8fbda",
+      "title": "Gopher Server in Rust",
+      "content_text": "I find Gopher really cool. I think it’s a really nice way to organize information into trees and hierarchies, and as we all know programmers can’t resist trees. So recently I took an interest in Gopher and started writing my own server.\n\nBut recently it’s been gaining traction; so we should provide a decent landscape for new gophers, full of oxidised servers. Since I started using Gopher more often, it’s beneficial for me if there’s more content out there. So I’m writing this blog post to walk you through how to write your own server. We’ll be doing this in Rust.",
+      "url": "https://gkbrk.com/2019/06/gopher-server/",
+      "date_published": "2019-06-02T01:00:00+01:00",
+      "author": {
+        "name": "Gokberk Yaltirakli",
+        "url": "https://gkbrk.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d937feae-59ca-4312-bd40-dc77317e441a",
+      "title": "Rust for Machine Learning: SIMD, BLAS, and Lapack",
+      "content_text": "I love Rust. But, as a data scientist, it’s still hard to use Rust on a daily basis. 90% of my programming these days is in Python.\n\nMy interest in Rust-based machine learning sparked several months ago. But, the key limitation I found was the lack of an ergonomic linear algebra library. There’s nalgebra and ndarray and a few others. Yet, I found none of them at the time ergonomic to work with, nor fast in comparison to writing the lower-level SIMD, BLAS, and Lapack code (I have picked up ndarray more in recent weeks and months).\n\nWhile inconvenient, a few months later, I’m glad I had to take things a step further. Rust is great for writing performant code. The resources for writing quite low-level mathematics operations in Rust are quite good. Using blas-src and lapack-src, as well as Rust’s built in SIMD functions, we can write fast and surprisingly portable Rust code. You can even run Rust on the GPU using, at least, the same underlying code.",
+      "url": "https://www.erikpartridge.com/2019-03/rust-ml-simd-blas-lapack",
+      "date_published": "2019-03-16T00:00:00+00:00",
+      "author": {
+        "name": "Erik Partridge",
+        "url": "https://www.erikpartridge.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "5503b5d1-aef0-4bb5-8d51-c050b3d4fb1e",
+      "title": "Writing a Raytracer in Rust: part 2",
+      "content_text": "After I posted the previous post, one of my friends remarked, \"i like the way there is no raytracing in the first post its just faffing to get a window\". This is an entirely accurate diagnosis. But, right now, have a representation of a frame buffer as a container (probably a vector) of pixels, which we can pass to the window to render a frame. Now we need to figure out what we’re drawing to it!\n\nThere are a couple of tweaks I need to make to this - a representation of the framebuffer in linear float space, for example. But let’s come back to that. I want to trace rays.",
+      "url": "https://canmom.github.io/programming/graphics/raytracer/rust-raytracer-part-2",
+      "date_published": "2019-05-27T00:00:00+00:00",
+      "author": {
+        "name": "bryn dickinson",
+        "url": "https://canmom.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "2c6b8329-385a-4e19-ba91-4c84b1ebf4bc",
+      "title": "How to Package Rust Applications Into Minimal Docker Containers",
+      "content_text": "In the Go world, it is common to use docker’s multi-stage build feature to produce the app’s docker image in two stages. The first stage uses the golang image and is where we build the application into a statically-linked binary. Once built, we copy the binary into a scratch container in the second stage. The result is a rather small image that has nothing other than the application.\n\nI was looking to do the same thing for my Rust application. While I was at it, I also wanted to leverage the docker build cache to avoid having to download crates on every docker build.",
+      "url": "https://alexbrand.dev/post/how-to-package-rust-applications-into-minimal-docker-containers/",
+      "date_published": "2019-06-01T09:00:00-04:00",
+      "author": {
+        "name": "Alexander Brand",
+        "url": "https://alexbrand.dev/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "6abeffb3-1d06-4642-9a7d-9c089fd1a030",
+      "title": "Rust's Bindgen + Fuse in 2019",
+      "content_text": "I will quickly show how I got bindgen (https://rust-lang.github.io/rust-bindgen) to generate the bindings to Fuse (libfuse) with the current stable1 release of Rust. By doing so, this should demonstrate how to bootstrap writing your own Fuse file system in Rust.\n\nI do realise that there are some crates that already exist that aid in making Fuse drivers in Rust, but this was more or less an excuse to also try out bindgen, which I don't believe those existing libraries utilise.",
+      "url": "https://dev.to/kdrakon/rust-s-bindgen-fuse-in-2019-2e8l",
+      "date_published": "2019-05-23T03:56:28+00:00",
+      "author": {
+        "name": "Sean Policarpio",
+        "url": "https://dev.to/kdrakon"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "254cd239-bad6-4331-ad8e-fe00edfb834d",
       "title": "Announcing The Triage WG",
       "content_text": "The Release team is pleased to announce the triage working group , which will assume responsibility from the release team for triaging issues and pull requests in the rust-lang repositories as well as for diagnosing failures in Crater runs.",
