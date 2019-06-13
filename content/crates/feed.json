@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "ae6027ab-b71f-4bce-9ab8-e1853aa24030",
+      "title": "Actix - Actor System and Web Framework for Rust",
+      "content_text": "Actix web 1.0.0 is released - a small, pragmatic, and extremely fast web framework.",
+      "url": "https://actix.rs/",
+      "date_published": "2019-06-05T15:38:00+00:00",
+      "author": {
+        "name": "Nikolay Kim",
+        "url": "https://twitter.com/fafhrd91"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
+      "id": "aea12212-4a3a-4c00-baa5-313f5c998977",
+      "title": "Announcing our Verifiable Random Function (VRF) Rust library",
+      "content_text": "Recently Gorka Irazoqui Apecechea and me proudly published a VRF crate as an open source project under the MIT license. The library is a fast, flexible and general-purpose Verifiable Random Function (VRF) library written in Rust, which follows the IETF standard draft written by Sharon Goldberg, Moni Naor, Dimitris Papadopoulos, Leonid Reyzin, and Jan Včelák.",
+      "url": "https://medium.com/witnet/announcing-our-verifiable-random-function-vrf-rust-library-2e042c29a4f7",
+      "date_published": "2019-06-03T15:03:50.164+00:00",
+      "author": {
+        "name": "Mario Cao",
+        "url": "https://medium.com/@mariocao"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "aaa397b7-d0b2-43d0-af75-0934ac4bfe73",
       "title": "Announcing Contrie: concurrent maps and sets",
       "content_text": "This is partly an announcement of a new crate folks might find useful, partly a call for participation and help and partly a journal like story how the crate came to being. Read on (or not) or skip to the parts that seem interesting to you.",

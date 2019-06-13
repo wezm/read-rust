@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "ae6027ab-b71f-4bce-9ab8-e1853aa24030",
+      "title": "Actix - Actor System and Web Framework for Rust",
+      "content_text": "Actix web 1.0.0 is released - a small, pragmatic, and extremely fast web framework.",
+      "url": "https://actix.rs/",
+      "date_published": "2019-06-05T15:38:00+00:00",
+      "author": {
+        "name": "Nikolay Kim",
+        "url": "https://twitter.com/fafhrd91"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
       "id": "91ae37e0-3d4f-4c78-879d-47e635f8fbda",
       "title": "Gopher Server in Rust",
       "content_text": "I find Gopher really cool. I think it’s a really nice way to organize information into trees and hierarchies, and as we all know programmers can’t resist trees. So recently I took an interest in Gopher and started writing my own server.\n\nBut recently it’s been gaining traction; so we should provide a decent landscape for new gophers, full of oxidised servers. Since I started using Gopher more often, it’s beneficial for me if there’s more content out there. So I’m writing this blog post to walk you through how to write your own server. We’ll be doing this in Rust.",

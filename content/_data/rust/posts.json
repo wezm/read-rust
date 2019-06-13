@@ -10,6 +10,111 @@
   },
   "items": [
     {
+      "id": "3fab26a6-a1c1-4107-a0c0-c69f2c297342",
+      "title": "Emu - GPU programming language for Rust",
+      "content_text": "Emu is a language for programming GPUs from Rust. Emu provides the emu! macro for compiling functions written in the Emu language to an intermediate code which gets stored in the EMU global constant. You can then run your code using a binding to OpenCL such as ocl or rust-opencl or use the build! macro which generates Rust functions that can be called to run your Emu functions.",
+      "url": "https://calebwin.github.io/emu/",
+      "date_published": "2019-06-13T00:00:00+00:00",
+      "author": {
+        "name": "Caleb Winston",
+        "url": "https://github.com/calebwin"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b3f6b505-fb93-4330-a039-d97e148e80d5",
+      "title": "Sealed Rust",
+      "content_text": "This is the first post in a series detailing Ferrous System's plan to qualify the Rust Language and Compiler for use in the Safety Critical domain. We call this effort Sealed Rust.",
+      "url": "https://ferrous-systems.com/blog/sealed-rust-the-pitch/",
+      "tweet_url": "https://twitter.com/bitshiftmask/status/1136307041797115906",
+      "date_published": "2019-06-06T02:21:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "ae6027ab-b71f-4bce-9ab8-e1853aa24030",
+      "title": "Actix - Actor System and Web Framework for Rust",
+      "content_text": "Actix web 1.0.0 is released - a small, pragmatic, and extremely fast web framework.",
+      "url": "https://actix.rs/",
+      "tweet_url": "https://twitter.com/fafhrd91/status/1136145202094231552",
+      "date_published": "2019-06-05T15:38:00+00:00",
+      "author": {
+        "name": "Nikolay Kim",
+        "url": "https://twitter.com/fafhrd91"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Crates"
+      ]
+    },
+    {
+      "id": "c12ced69-039d-4d8a-99f3-ed518947537a",
+      "title": "The design and implementation of a lock-free ring-buffer with contiguous reservations",
+      "content_text": "Berlin based technology consultancy specialising in the rust programming language and related services.",
+      "url": "https://ferrous-systems.com/blog/lock-free-ring-buffer/",
+      "tweet_url": "https://twitter.com/FerrousSystems/status/1135954894794448896",
+      "date_published": "2019-06-05T03:02:00+00:00",
+      "author": {
+        "name": "Andrea Lattuada and James Munns",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "f9c3c42b-87f8-4edf-820b-aad48a409482",
+      "title": "essential rust tools",
+      "content_text": "Rust has a “community of developers empowered by their tools and each other” (via Katharina Fey in “An async story“). The Rust community helps each other through effective narrative documentation and attention to error messages, and the robust tooling around Rust drives momentum, overcoming some of the natural hurdles when diving into a new language.\n\nHere’s my list of essential rust tools (so far).",
+      "url": "https://www.ultrasaurus.com/2019/06/essential-rust-tools/",
+      "tweet_url": "https://twitter.com/ultrasaurus/status/1135552305057505280",
+      "date_published": "2019-06-03T14:19:23+00:00",
+      "author": {
+        "name": "Sarah Allen",
+        "url": "https://www.ultrasaurus.com/code/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "aea12212-4a3a-4c00-baa5-313f5c998977",
+      "title": "Announcing our Verifiable Random Function (VRF) Rust library",
+      "content_text": "Recently Gorka Irazoqui Apecechea and me proudly published a VRF crate as an open source project under the MIT license. The library is a fast, flexible and general-purpose Verifiable Random Function (VRF) library written in Rust, which follows the IETF standard draft written by Sharon Goldberg, Moni Naor, Dimitris Papadopoulos, Leonid Reyzin, and Jan Včelák.",
+      "url": "https://medium.com/witnet/announcing-our-verifiable-random-function-vrf-rust-library-2e042c29a4f7",
+      "tweet_url": "https://twitter.com/witnet_io/status/1135565714788638720",
+      "date_published": "2019-06-03T15:03:50.164+00:00",
+      "author": {
+        "name": "Mario Cao",
+        "url": "https://medium.com/@mariocao"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d6200716-96c2-4c9c-890d-0047906b7c72",
+      "title": "Rust's custom derives in a hexagonal architecture: Incompatible ideas?",
+      "content_text": "This blog post is a manifestation of a problem that has been floating around in my head for quite a while now. It is about the seemingly incompatible idea of fully embracing Rust's custom derive system in an application that puts a strong focus on a hexagonal architecture.\n\nTo discuss this problem, I am going to first write about both concepts individually. Feel free to skip over those sections if you are already familiar with the topics. The blog post finishes off with some ideas on how Rust could be extended to better support these kind of usecases.",
+      "url": "https://blog.eizinger.io/5835/rust-s-custom-derives-in-a-hexagonal-architecture-incompatible-ideas",
+      "tweet_url": "https://twitter.com/oetzn/status/1134705608035188737",
+      "date_published": "2019-05-30T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Eizinger",
+        "url": "https://blog.eizinger.io/@thomas_eizinger"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4676f66e-29a0-4d5d-9da8-34c09f104ca2",
       "title": "Hosting Embedded Rust apps on Apache Mynewt with STM32 Blue Pill",
       "content_text": "Today’s microcontrollers (like the STM32 Blue Pill) pack so many features in a tiny package… yet few embedded programmers are capable of exploiting the full potential of modern microcontrollers. Many of us (my IoT students included) seem to be stuck in the 1980s — painstakingly writing C programs for small computers.\n\nIt’s time to drop our legacy programming practices and adopt smarter, safer ways to exploit these microcontrollers… starting with Apache Mynewt and Rust.",

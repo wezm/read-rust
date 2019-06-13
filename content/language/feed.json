@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "d6200716-96c2-4c9c-890d-0047906b7c72",
+      "title": "Rust's custom derives in a hexagonal architecture: Incompatible ideas?",
+      "content_text": "This blog post is a manifestation of a problem that has been floating around in my head for quite a while now. It is about the seemingly incompatible idea of fully embracing Rust's custom derive system in an application that puts a strong focus on a hexagonal architecture.\n\nTo discuss this problem, I am going to first write about both concepts individually. Feel free to skip over those sections if you are already familiar with the topics. The blog post finishes off with some ideas on how Rust could be extended to better support these kind of usecases.",
+      "url": "https://blog.eizinger.io/5835/rust-s-custom-derives-in-a-hexagonal-architecture-incompatible-ideas",
+      "date_published": "2019-05-30T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Eizinger",
+        "url": "https://blog.eizinger.io/@thomas_eizinger"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "332be129-192f-46d1-aefc-c3765e5b1b56",
       "title": "Bzip2 in Rust - Basic infrastructure and CRC32 computation",
       "content_text": "I have started a little experiment in porting bits of the widely-used bzip2/bzlib to Rust. I hope this can serve to refresh bzip2, which had its last release in 2010 and has been nominally unmaintained for years.\n\nI hope to make several posts detailing how this port is done. In this post, I'll talk about setting up a Rust infrastructure for bzip2 and my experiments in replacing the C code that does CRC32 computations.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3fab26a6-a1c1-4107-a0c0-c69f2c297342",
+      "title": "Emu - GPU programming language for Rust",
+      "content_text": "Emu is a language for programming GPUs from Rust. Emu provides the emu! macro for compiling functions written in the Emu language to an intermediate code which gets stored in the EMU global constant. You can then run your code using a binding to OpenCL such as ocl or rust-opencl or use the build! macro which generates Rust functions that can be called to run your Emu functions.",
+      "url": "https://calebwin.github.io/emu/",
+      "date_published": "2019-06-13T00:00:00+00:00",
+      "author": {
+        "name": "Caleb Winston",
+        "url": "https://github.com/calebwin"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2ebb2e7a-9b56-4fe3-8605-91c8deb394a9",
       "title": "dua: Disk Usage Analyzer",
       "content_text": "dua (-> Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory. It's parallel by default and will max out your SSD, providing relevant information as fast as possible.",

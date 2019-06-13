@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b3f6b505-fb93-4330-a039-d97e148e80d5",
+      "title": "Sealed Rust",
+      "content_text": "This is the first post in a series detailing Ferrous System's plan to qualify the Rust Language and Compiler for use in the Safety Critical domain. We call this effort Sealed Rust.",
+      "url": "https://ferrous-systems.com/blog/sealed-rust-the-pitch/",
+      "date_published": "2019-06-06T02:21:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "c12ced69-039d-4d8a-99f3-ed518947537a",
+      "title": "The design and implementation of a lock-free ring-buffer with contiguous reservations",
+      "content_text": "Berlin based technology consultancy specialising in the rust programming language and related services.",
+      "url": "https://ferrous-systems.com/blog/lock-free-ring-buffer/",
+      "date_published": "2019-06-05T03:02:00+00:00",
+      "author": {
+        "name": "Andrea Lattuada and James Munns",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "61255817-6eef-43ce-9eea-24a8aedbd9f2",
       "title": "Writing a Compiler in Rust",
       "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, with a language and two teammates of your choice. My group of three chose to write our compiler in Rust and it was a fun experience. We spent time coming to design decisions that worked out really well and used Rust’s strengths. Our compiler ended up being around 6800 lines of Rust and I personally put in around 60 hours of solid coding and more on code review and design. In this post I’ll go over some of the design decisions we made and some thoughts on what it was like using Rust.",
