@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "5d2b3bb3-b939-4e5a-851f-31963f805af4",
+      "title": "5 Year Anniversary",
+      "content_text": "gfx-rs project started with a simple idea: separate the API-specific logic of interaction with the graphic driver from a Rust application. That idea was brewing in the heads of @kvark and @bjz precisely 5 years ago, when they realized the common goal and kicked off the project. The Rust game dev community at the time consisted of a few prominent projects (like kiss3d, claymore, and q3) driven by individuals. They used gl-rs for rendering with no strong separation between higher levels, built as mostly monolithic systems. Because GL was known to keep the CPU occupied on the owning thread, we wanted to provide a separate thread dedicated to talking to the GPU. We had a lot to learn, some great contributors to meet, and hoped to eventually make Rust ecosystem a better place.",
+      "url": "https://gfx-rs.github.io/2019/06/12/anniversary-5.html",
+      "date_published": "2019-06-12T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0f7e8d0a-81fa-4f1a-aa4d-418554873fe6",
+      "title": "Nannou Update - Vulkan, LASERs and more!",
+      "content_text": "Nannou is an open source, creative coding framework for Rust. Today marks one of the biggest milestones for the project since its launch - the release of version 0.9. This version is particularly special for our community as it lands the last eight months of progress into master and onto crates.io. While some of us have already been using the work-in-progress 0.9 branch in our personal and commercial work over the past few months, it is a relief to finally be able to land and share the progress with the wider world!",
+      "url": "https://nannou.cc/posts/nannou_v0.9",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Nannou team",
+        "url": "https://nannou.cc/posts"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "b1731301-ca91-4f8c-a66a-48320013705b",
       "title": "Evoli - an official Amethyst showcase game",
       "content_text": "Today marks the first stable release of Evoli, an evolution-inspired simulation game made in Amethyst. We’ve successfully completed the MVP spec (and then some) as it was laid out back in February.",

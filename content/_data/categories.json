@@ -4,7 +4,7 @@
   { "name": "Crates", "hashtag": "crates", "path": "/crates/", "description": "Notable new or updated crates." },
   { "name": "DevOps and Deployment", "hashtag": "devops", "path": "/devops-and-deployment/", "description": "Building and deploying Rust, containerisation, continuous integration, etc." },
   { "name": "Embedded", "hashtag": "embedded", "path": "/embedded/", "description": "Rust on microcontrollers, IoT, devices." },
-  { "name": "Games and Graphics", "hashtag": "games", "path": "/games-and-graphics/", "description": "Games built with Rust and other graphics related work." },
+  { "name": "Games and Graphics", "hashtag": "graphics", "path": "/games-and-graphics/", "description": "Games built with Rust and other graphics related work." },
   { "name": "Getting Started", "hashtag": "starting", "path": "/getting-started/", "description": "Introductory posts, guides and tutorials for getting started with Rust." },
   { "name": "Language", "hashtag": "language", "path": "/language/", "description": "General posts about the Rust language." },
   { "name": "Operating Systems", "hashtag": "os", "path": "/operating-systems/", "description": "Using Rust to build or explore operating systems." },

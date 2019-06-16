@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c26ac9a2-3fbe-4cb3-b845-58e08b05502c",
+      "title": "A generic kubernetes client",
+      "content_text": "It’s been about a month since we released kube, a new rust client library for kubernetes. We covered the initial release, but it was full of naive optimism and uncertainty. Would the generic setup work with native objects? How far would it extend? Non-standard objects? Patch handling? Event handling? Surely, it’d be a fools errand to write an entire client library?",
+      "url": "https://clux.github.io/probes/post/2019-06-04-towards-a-generic-kube-client/",
+      "date_published": "2019-06-04T00:00:00+00:00",
+      "author": {
+        "name": "clux",
+        "url": "https://clux.github.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "2c6b8329-385a-4e19-ba91-4c84b1ebf4bc",
       "title": "How to Package Rust Applications Into Minimal Docker Containers",
       "content_text": "In the Go world, it is common to use docker’s multi-stage build feature to produce the app’s docker image in two stages. The first stage uses the golang image and is where we build the application into a statically-linked binary. Once built, we copy the binary into a scratch container in the second stage. The result is a rather small image that has nothing other than the application.\n\nI was looking to do the same thing for my Rust application. While I was at it, I also wanted to leverage the docker build cache to avoid having to download crates on every docker build.",

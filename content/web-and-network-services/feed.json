@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f6902c1c-3975-454f-891e-d39b071d66d4",
+      "title": "Introducing Lightbeam: An Optimising Streaming WebAssembly Compiler",
+      "content_text": "Lightbeam is a new streaming compiler for WebAssembly, designed to produce the best possible assembly while still being fast enough to produce assembly faster than the WebAssembly is received over the wire.",
+      "url": "http://troubles.md/posts/lightbeam/",
+      "date_published": "2019-05-04T10:10:34+01:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "ae6027ab-b71f-4bce-9ab8-e1853aa24030",
       "title": "Actix - Actor System and Web Framework for Rust",
       "content_text": "Actix web 1.0.0 is released - a small, pragmatic, and extremely fast web framework.",

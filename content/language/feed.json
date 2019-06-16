@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "05531a2c-35fc-4e51-ad25-77b362b99e03",
+      "title": "Bzip2 in Rust: porting the randomization table",
+      "content_text": "Here is a straightforward port of some easy code. randtable.c has a lookup table with seemingly-random numbers. This table is used by the following macros in bzlib_private.h",
+      "url": "https://people.gnome.org/~federico/blog/bzip2-in-rust-randomization-table.html",
+      "date_published": "2019-06-11T14:30:17-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c4166c18-6984-4c64-bda0-68d98d5b3ae7",
+      "title": "Determining if a Rust Vector has all equal elements",
+      "content_text": "Earlier today, I tooted out a Rust question: How would you write a function to determine if a Vector of integers are all the same, or not. Anyway, the Fediverse is wonderful and full of helpful Rust friends – I ended up getting about a dozen solutions (none exactly the same I don’t think?)",
+      "url": "https://sts10.github.io/2019/06/06/is-all-equal-function.html",
+      "date_published": "2019-06-06T22:11:00+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "30deb171-6751-4af4-9f56-202fe6a78110",
+      "title": "Solutions to the first 20 project euler problems",
+      "content_text": "I’m getting more and more used to thinking about Rust code in an idiomatic way, but I don’t think I’m comfortable enough to call myself a rustacean yet. To further my goal of oxidizing my brain with rust knowledge, I decided to start working through project euler problems sequentially. I’ve recently finished the first 20 problems and I though I’d share the highlights of what I learned about rust along the way.",
+      "url": "https://ngoldbaum.github.io/posts/project-euler/",
+      "date_published": "2019-06-06T10:23:45-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d2d904d-78a6-42be-8c41-c1934b975516",
+      "title": "Tutorial: Use FlatBuffers in Rust",
+      "content_text": "The FlatBuffers project is an extremely efficient schema-versioned serialization library. In this tutorial, you’ll learn how to use it in Rust.",
+      "url": "https://rwinslow.com/posts/use-flatbuffers-in-rust/",
+      "date_published": "2019-05-17T00:00:00+00:00",
+      "author": {
+        "name": "Robert Winslow",
+        "url": "https://rwinslow.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "37400230-0f89-41d9-a9e4-a0d7460217ab",
+      "title": "Overlapping blanket impls",
+      "content_text": "Rust doesn’t allow multiple impls of a trait on the same type. This rule keeps resolution transparent and reliable. It also has an ugly side effect, that for every trait there can be only 1 blanket impl. Compiler is completely distrustful here. What if somebody somewhere created a structure that implemented both ToString and Clone? Should such combination suddenly be forbidden? What about String and u32? This rule prevents type hierarchy from sliding into minefield of odd rules and breakages on every other dependency update.",
+      "url": "https://codesandwich.github.io/overlapping_blanket_impls/",
+      "date_published": "2019-06-05T12:00:00+00:00",
+      "author": {
+        "name": "CodeSandwich",
+        "url": "https://codesandwich.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d6200716-96c2-4c9c-890d-0047906b7c72",
       "title": "Rust's custom derives in a hexagonal architecture: Incompatible ideas?",
       "content_text": "This blog post is a manifestation of a problem that has been floating around in my head for quite a while now. It is about the seemingly incompatible idea of fully embracing Rust's custom derive system in an application that puts a strong focus on a hexagonal architecture.\n\nTo discuss this problem, I am going to first write about both concepts individually. Feel free to skip over those sections if you are already familiar with the topics. The blog post finishes off with some ideas on how Rust could be extended to better support these kind of usecases.",

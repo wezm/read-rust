@@ -10,6 +10,147 @@
   },
   "items": [
     {
+      "id": "5d2b3bb3-b939-4e5a-851f-31963f805af4",
+      "title": "5 Year Anniversary",
+      "content_text": "gfx-rs project started with a simple idea: separate the API-specific logic of interaction with the graphic driver from a Rust application. That idea was brewing in the heads of @kvark and @bjz precisely 5 years ago, when they realized the common goal and kicked off the project. The Rust game dev community at the time consisted of a few prominent projects (like kiss3d, claymore, and q3) driven by individuals. They used gl-rs for rendering with no strong separation between higher levels, built as mostly monolithic systems. Because GL was known to keep the CPU occupied on the owning thread, we wanted to provide a separate thread dedicated to talking to the GPU. We had a lot to learn, some great contributors to meet, and hoped to eventually make Rust ecosystem a better place.",
+      "url": "https://gfx-rs.github.io/2019/06/12/anniversary-5.html",
+      "date_published": "2019-06-12T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "05531a2c-35fc-4e51-ad25-77b362b99e03",
+      "title": "Bzip2 in Rust: porting the randomization table",
+      "content_text": "Here is a straightforward port of some easy code. randtable.c has a lookup table with seemingly-random numbers. This table is used by the following macros in bzlib_private.h",
+      "url": "https://people.gnome.org/~federico/blog/bzip2-in-rust-randomization-table.html",
+      "date_published": "2019-06-11T14:30:17-05:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c4166c18-6984-4c64-bda0-68d98d5b3ae7",
+      "title": "Determining if a Rust Vector has all equal elements",
+      "content_text": "Earlier today, I tooted out a Rust question: How would you write a function to determine if a Vector of integers are all the same, or not. Anyway, the Fediverse is wonderful and full of helpful Rust friends – I ended up getting about a dozen solutions (none exactly the same I don’t think?)",
+      "url": "https://sts10.github.io/2019/06/06/is-all-equal-function.html",
+      "date_published": "2019-06-06T22:11:00+00:00",
+      "author": {
+        "name": "Sam Schlinkert",
+        "url": "https://sts10.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "30deb171-6751-4af4-9f56-202fe6a78110",
+      "title": "Solutions to the first 20 project euler problems",
+      "content_text": "I’m getting more and more used to thinking about Rust code in an idiomatic way, but I don’t think I’m comfortable enough to call myself a rustacean yet. To further my goal of oxidizing my brain with rust knowledge, I decided to start working through project euler problems sequentially. I’ve recently finished the first 20 problems and I though I’d share the highlights of what I learned about rust along the way.",
+      "url": "https://ngoldbaum.github.io/posts/project-euler/",
+      "date_published": "2019-06-06T10:23:45-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7d2d904d-78a6-42be-8c41-c1934b975516",
+      "title": "Tutorial: Use FlatBuffers in Rust",
+      "content_text": "The FlatBuffers project is an extremely efficient schema-versioned serialization library. In this tutorial, you’ll learn how to use it in Rust.",
+      "url": "https://rwinslow.com/posts/use-flatbuffers-in-rust/",
+      "date_published": "2019-05-17T00:00:00+00:00",
+      "author": {
+        "name": "Robert Winslow",
+        "url": "https://rwinslow.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c26ac9a2-3fbe-4cb3-b845-58e08b05502c",
+      "title": "A generic kubernetes client",
+      "content_text": "It’s been about a month since we released kube, a new rust client library for kubernetes. We covered the initial release, but it was full of naive optimism and uncertainty. Would the generic setup work with native objects? How far would it extend? Non-standard objects? Patch handling? Event handling? Surely, it’d be a fools errand to write an entire client library?",
+      "url": "https://clux.github.io/probes/post/2019-06-04-towards-a-generic-kube-client/",
+      "date_published": "2019-06-04T00:00:00+00:00",
+      "author": {
+        "name": "clux",
+        "url": "https://clux.github.io/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "37400230-0f89-41d9-a9e4-a0d7460217ab",
+      "title": "Overlapping blanket impls",
+      "content_text": "Rust doesn’t allow multiple impls of a trait on the same type. This rule keeps resolution transparent and reliable. It also has an ugly side effect, that for every trait there can be only 1 blanket impl. Compiler is completely distrustful here. What if somebody somewhere created a structure that implemented both ToString and Clone? Should such combination suddenly be forbidden? What about String and u32? This rule prevents type hierarchy from sliding into minefield of odd rules and breakages on every other dependency update.",
+      "url": "https://codesandwich.github.io/overlapping_blanket_impls/",
+      "date_published": "2019-06-05T12:00:00+00:00",
+      "author": {
+        "name": "CodeSandwich",
+        "url": "https://codesandwich.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f6902c1c-3975-454f-891e-d39b071d66d4",
+      "title": "Introducing Lightbeam: An Optimising Streaming WebAssembly Compiler",
+      "content_text": "Lightbeam is a new streaming compiler for WebAssembly, designed to produce the best possible assembly while still being fast enough to produce assembly faster than the WebAssembly is received over the wire.",
+      "url": "http://troubles.md/posts/lightbeam/",
+      "date_published": "2019-05-04T10:10:34+01:00",
+      "author": {
+        "name": "troubles.md",
+        "url": "http://troubles.md/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "55e1be8d-4aae-4753-8bc6-9a52a6401722",
+      "title": "Introducing flat-manager",
+      "content_text": "A long time ago I wrote a blog post about how to maintain a Flatpak repository. It is still a nice, mostly up to date, description of how Flatpak repositories work. However, it doesn’t really have a great answer to the issue called syncing updates in the post. In other words, it really is more about how to maintain a repository on one machine.\n\nTo support this I’ve been working on a side project called flat-manager. It is a service written in rust that manages Flatpak repositories. Recently we migrated Flathub to use it, and its seems to work quite well.",
+      "url": "https://blogs.gnome.org/alexl/2019/03/19/introducing-flat-manager/",
+      "date_published": "2019-03-19T13:20:25+00:00",
+      "author": {
+        "name": "Alexander Larsson",
+        "url": "https://blogs.gnome.org/alexl/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0f7e8d0a-81fa-4f1a-aa4d-418554873fe6",
+      "title": "Nannou Update - Vulkan, LASERs and more!",
+      "content_text": "Nannou is an open source, creative coding framework for Rust. Today marks one of the biggest milestones for the project since its launch - the release of version 0.9. This version is particularly special for our community as it lands the last eight months of progress into master and onto crates.io. While some of us have already been using the work-in-progress 0.9 branch in our personal and commercial work over the past few months, it is a relief to finally be able to land and share the progress with the wider world!",
+      "url": "https://nannou.cc/posts/nannou_v0.9",
+      "tweet_url": "https://twitter.com/Joshua_Batty/status/1138112266870697984",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Nannou team",
+        "url": "https://nannou.cc/posts"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3fab26a6-a1c1-4107-a0c0-c69f2c297342",
       "title": "Emu - GPU programming language for Rust",
       "content_text": "Emu is a language for programming GPUs from Rust. Emu provides the emu! macro for compiling functions written in the Emu language to an intermediate code which gets stored in the EMU global constant. You can then run your code using a binding to OpenCL such as ocl or rust-opencl or use the build! macro which generates Rust functions that can be called to run your Emu functions.",

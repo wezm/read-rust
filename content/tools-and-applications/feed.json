@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "55e1be8d-4aae-4753-8bc6-9a52a6401722",
+      "title": "Introducing flat-manager",
+      "content_text": "A long time ago I wrote a blog post about how to maintain a Flatpak repository. It is still a nice, mostly up to date, description of how Flatpak repositories work. However, it doesn’t really have a great answer to the issue called syncing updates in the post. In other words, it really is more about how to maintain a repository on one machine.\n\nTo support this I’ve been working on a side project called flat-manager. It is a service written in rust that manages Flatpak repositories. Recently we migrated Flathub to use it, and its seems to work quite well.",
+      "url": "https://blogs.gnome.org/alexl/2019/03/19/introducing-flat-manager/",
+      "date_published": "2019-03-19T13:20:25+00:00",
+      "author": {
+        "name": "Alexander Larsson",
+        "url": "https://blogs.gnome.org/alexl/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "3fab26a6-a1c1-4107-a0c0-c69f2c297342",
       "title": "Emu - GPU programming language for Rust",
       "content_text": "Emu is a language for programming GPUs from Rust. Emu provides the emu! macro for compiling functions written in the Emu language to an intermediate code which gets stored in the EMU global constant. You can then run your code using a binding to OpenCL such as ocl or rust-opencl or use the build! macro which generates Rust functions that can be called to run your Emu functions.",
