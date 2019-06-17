@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7d1887a3-55d1-448d-8643-2a520bfddc41",
+      "title": "The Typestate Pattern in Rust",
+      "content_text": "The typestate pattern is an API design pattern that encodes information about an object's run-time state in its compile-time type. This pattern is so easy in Rust that it's almost obvious, to the point that you may have already written code that uses it, perhaps without realizing it. I haven't seen a detailed examination of the nuances of this pattern, so here's my contribution.",
+      "url": "http://cliffle.com/blog/rust-typestate/",
+      "date_published": "2019-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Cliff L. Biffle",
+        "url": "http://cliffle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "922ec00d-8aa7-48eb-9344-c1d1eacc44ec",
+      "title": "Threads in rust",
+      "content_text": "In our regular hacksession, the current season ;), we are focusing on threading. Concurrency/Multithreading is a really hard topic it has a lot of very specific nomenclature and there are different 'levels' of concurrency one might say. I will start with the nomenclature starting from the programmers / OS perspective.",
+      "url": "https://chilimatic.hashnode.dev/threads-in-rust-cjwmbxw9e003pzjs19n7pa0bt",
+      "date_published": "2019-06-07T00:00:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "05531a2c-35fc-4e51-ad25-77b362b99e03",
       "title": "Bzip2 in Rust: porting the randomization table",
       "content_text": "Here is a straightforward port of some easy code. randtable.c has a lookup table with seemingly-random numbers. This table is used by the following macros in bzlib_private.h",

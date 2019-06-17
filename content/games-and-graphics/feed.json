@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "42c2c580-96cc-4fc8-9485-b29364da6144",
+      "title": "Release Notes for v0.6.0",
+      "content_text": "The biggest change for this release is that I started writing a parser for binary Blender files. There is a blog post, where I talk a bit about that, how to explore binary Blender files, and basically how to reconstruct useful information from their DNA.",
+      "url": "https://www.rs-pbrt.org/blog/v0-6-0-release-notes/",
+      "date_published": "2019-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Jan Douglas Bert Walter",
+        "url": "https://www.rs-pbrt.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5d2b3bb3-b939-4e5a-851f-31963f805af4",
       "title": "5 Year Anniversary",
       "content_text": "gfx-rs project started with a simple idea: separate the API-specific logic of interaction with the graphic driver from a Rust application. That idea was brewing in the heads of @kvark and @bjz precisely 5 years ago, when they realized the common goal and kicked off the project. The Rust game dev community at the time consisted of a few prominent projects (like kiss3d, claymore, and q3) driven by individuals. They used gl-rs for rendering with no strong separation between higher levels, built as mostly monolithic systems. Because GL was known to keep the CPU occupied on the owning thread, we wanted to provide a separate thread dedicated to talking to the GPU. We had a lot to learn, some great contributors to meet, and hoped to eventually make Rust ecosystem a better place.",

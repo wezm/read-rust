@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "87146592-5c10-431e-8655-5272eec53ed9",
+      "title": "Makepad, a live Rust authoring tool for 2D vector design, shaders and animation",
+      "content_text": "The vision is to build a livecoding / design hybrid program, where procedural design and code are fused in one environment. If you have missed 'learnable programming' please check this out: http://worrydream.com/LearnableProgramming/ Makepad aims to fulfill (some) of these ideas using a completely from-scratch renderstack built on the GPU and Rust. It will be like an IDE meets a vector designtool, and had offspring. Direct manipulation of the vectors modifies the code, the code modifies the vectors.\n\nHowever before we can make this awesome application, we need to build a UI stack. The aim of this toolkit is to be our stepping stone into building a livecoding IDE and designtools that don't suck or fall to pieces along the way.",
+      "url": "https://github.com/makepad/makepad",
+      "date_published": "2019-06-17T00:00:00+00:00",
+      "author": {
+        "name": "makepad",
+        "url": "https://github.com/makepad"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "55e1be8d-4aae-4753-8bc6-9a52a6401722",
       "title": "Introducing flat-manager",
       "content_text": "A long time ago I wrote a blog post about how to maintain a Flatpak repository. It is still a nice, mostly up to date, description of how Flatpak repositories work. However, it doesn’t really have a great answer to the issue called syncing updates in the post. In other words, it really is more about how to maintain a repository on one machine.\n\nTo support this I’ve been working on a side project called flat-manager. It is a service written in rust that manages Flatpak repositories. Recently we migrated Flathub to use it, and its seems to work quite well.",

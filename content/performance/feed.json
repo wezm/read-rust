@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "e3be782c-4057-4e64-9c1a-0ff81761d5d7",
+      "title": "Speed Up Your JavaScript With Rust",
+      "content_text": "For a recent personal project, I had only needed a fairly simple node.js server to do exponential and costly computing tasks. To be honest, I could have switched the entire tech stack, but I estimated that the development time of such a choice wasn’t worth it… Still, I had some functions taking ages to compute. So I had a look around, and decided to let that task be handled by a more appropriate language, in this case Rust.",
+      "url": "https://medium.com/paloit/speed-up-your-javascript-with-rust-7661922562fa",
+      "date_published": "2019-06-06T01:54:49.483+00:00",
+      "author": {
+        "name": "Johan Paasche",
+        "url": "https://medium.com/@Rainbow.Dash"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "d937feae-59ca-4312-bd40-dc77317e441a",
       "title": "Rust for Machine Learning: SIMD, BLAS, and Lapack",
       "content_text": "I love Rust. But, as a data scientist, it’s still hard to use Rust on a daily basis. 90% of my programming these days is in Python.\n\nMy interest in Rust-based machine learning sparked several months ago. But, the key limitation I found was the lack of an ergonomic linear algebra library. There’s nalgebra and ndarray and a few others. Yet, I found none of them at the time ergonomic to work with, nor fast in comparison to writing the lower-level SIMD, BLAS, and Lapack code (I have picked up ndarray more in recent weeks and months).\n\nWhile inconvenient, a few months later, I’m glad I had to take things a step further. Rust is great for writing performant code. The resources for writing quite low-level mathematics operations in Rust are quite good. Using blas-src and lapack-src, as well as Rust’s built in SIMD functions, we can write fast and surprisingly portable Rust code. You can even run Rust on the GPU using, at least, the same underlying code.",

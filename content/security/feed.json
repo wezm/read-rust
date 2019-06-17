@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "81657ee0-b628-449d-b5c3-3258a0219756",
+      "title": "Hagrid: A New Verifying Key Server Built on Sequoia",
+      "content_text": "On Wednesday, Vincent launched a new key server at keys.openpgp.org! What makes this launch special is that keys.openpgp.org is running Hagrid —“The Keeper of Keys”—a new verifying key server, which is written in Rust and based on Sequoia. Even though the launch didn’t receive much media attention, 700 people have already verified their keys in the 48 hours since the announcement.",
+      "url": "https://sequoia-pgp.org/blog/2019/06/14/20190614-hagrid/",
+      "date_published": "2019-06-14T14:21:35+02:00",
+      "author": {
+        "name": "Neal",
+        "url": "https://sequoia-pgp.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "593aaa73-c49a-4b38-99c7-ce2a1070723d",
       "title": "Security advisory for the standard library",
       "content_text": "The Rust team was recently notified of a security vulnerability affecting manual implementations of Error::type_id and their interaction with the Error::downcast family of functions in the standard library. If your code does not manually implement Error::type_id your code is not affected.",

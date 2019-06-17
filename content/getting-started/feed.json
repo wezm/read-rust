@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "56e998a6-89d0-4a99-b11c-a541d35dc9a1",
+      "title": "Debugging with and without parameter in Rust",
+      "content_text": "Rust 1.32.0 introduced a macro dbg! for quick and dirty debugging with which you can inspect the value of a given expression. Rust 1.35.0 announced an improvement in this macro to make it more usable for Rustaceans. Now you can trace any fine and line number using this macro without passing any parameter.",
+      "url": "https://blog.knoldus.com/debugging-with-and-without-parameter-in-rust/",
+      "date_published": "2019-05-30T04:33:10+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/author/ayushmishra2005/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "f9c3c42b-87f8-4edf-820b-aad48a409482",
       "title": "essential rust tools",
       "content_text": "Rust has a “community of developers empowered by their tools and each other” (via Katharina Fey in “An async story“). The Rust community helps each other through effective narrative documentation and attention to error messages, and the robust tooling around Rust drives momentum, overcoming some of the natural hurdles when diving into a new language.\n\nHere’s my list of essential rust tools (so far).",

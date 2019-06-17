@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "87146592-5c10-431e-8655-5272eec53ed9",
+      "title": "Makepad, a live Rust authoring tool for 2D vector design, shaders and animation",
+      "content_text": "The vision is to build a livecoding / design hybrid program, where procedural design and code are fused in one environment. If you have missed 'learnable programming' please check this out: http://worrydream.com/LearnableProgramming/ Makepad aims to fulfill (some) of these ideas using a completely from-scratch renderstack built on the GPU and Rust. It will be like an IDE meets a vector designtool, and had offspring. Direct manipulation of the vectors modifies the code, the code modifies the vectors.\n\nHowever before we can make this awesome application, we need to build a UI stack. The aim of this toolkit is to be our stepping stone into building a livecoding IDE and designtools that don't suck or fall to pieces along the way.",
+      "url": "https://github.com/makepad/makepad",
+      "date_published": "2019-06-17T00:00:00+00:00",
+      "author": {
+        "name": "makepad",
+        "url": "https://github.com/makepad"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f6902c1c-3975-454f-891e-d39b071d66d4",
       "title": "Introducing Lightbeam: An Optimising Streaming WebAssembly Compiler",
       "content_text": "Lightbeam is a new streaming compiler for WebAssembly, designed to produce the best possible assembly while still being fast enough to produce assembly faster than the WebAssembly is received over the wire.",
