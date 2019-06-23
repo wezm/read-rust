@@ -10,6 +10,147 @@
   },
   "items": [
     {
+      "id": "a5730863-ff70-4122-8595-81c11ee59697",
+      "title": "Asyncifying an Actix Web App and Upgrading it to 1.0 - zupzup",
+      "content_text": "In a previous post, we created an Actix 0.7 Web App, which was not fully non-blocking. In this post, we'll become fully non-blocking and upgrade the app to Actix 1.0",
+      "url": "https://zupzup.org/asyncify-rust-webapp/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Mario Zupan",
+        "url": "https://zupzup.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d0496592-58c8-4e56-8cfb-890df49f7b6c",
+      "title": "A simple plugin interface for the Rust FFI",
+      "content_text": "I present a straight-forward design of a plugin interface using the Rust FFI.",
+      "url": "http://kmdouglass.github.io/posts/a-simple-plugin-interface-for-the-rust-ffi/",
+      "date_published": "2019-06-16T07:33:33+00:00",
+      "author": {
+        "name": "Kyle M. Douglass",
+        "url": "http://kmdouglass.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b26fcca3-2a79-4340-88fd-80c6f70c95d1",
+      "title": "On Memoization in Rust",
+      "content_text": "A detailed walk through how to memoize function calls in Rust.",
+      "url": "https://medium.com/swlh/on-memoization-291fd1dd924",
+      "date_published": "2019-06-17T12:30:14.793+00:00",
+      "author": {
+        "name": "Andrew Pritchard",
+        "url": "https://medium.com/@andrewjpritchard"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "54d40e7f-c5c5-4c69-86e2-9913c6a88200",
+      "title": "Collaborative Editor in Rust",
+      "content_text": "I've been experimenting with techniques for collaborative editing in Rust recently and I'd like to share my first functional prototype with you. The demo uses Rust and WebAssembly, and I implemented it using a conflict-free replicated data type (CRDT) based on LOGOOT, which I modified to work with variable-sized strings rather than individual characters or lines.",
+      "url": "https://caolan.org/posts/collaborative_editor_in_rust.html",
+      "date_published": "2019-06-21T00:00:00+00:00",
+      "author": {
+        "name": "Caolan McMahon",
+        "url": "https://caolan.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e7bf2504-b854-4a1d-b946-38075e83e97a",
+      "title": "Rust for OOP - Enums & Pattern Matching - Part 1",
+      "content_text": "We continue our series “Rust for OOP” with Enums & Pattern Matching, one of my preferred features of Rust. I didn’t hear about it before getting into the language, yet immediately fell in love with it. Enums are simple, expressive, reducing code bloat, enable encapsulation, easy to understand, and reason with. It also enables many useful design pattern. ",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/enum-and-pattern-matching-part-1",
+      "date_published": "2019-06-17T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1898399d-d60a-46fc-a3e0-cb8a73fb546e",
+      "title": "The smooth resize test",
+      "content_text": "Today is an exciting point in the evolution of native GUI in Rust. There is much exploration, and a number of promising projects, but I also think we don’t yet know the recipe to make GUI truly great. As I develop my own vision in this space, druid, I hope more that the efforts will learn from each other and that an excellent synthesis will emerge, more so than simply hoping that druid will win.\n\nIn my work, I have come across a problem that is as seemingly simple, yet as difficult to get right, as making decent tea: handling smooth window resizing. Very few GUI toolkits get it perfect, with some failing spectacularly. This is true across platforms, though Windows poses special challenges. It’s also pretty easy to test (as opposed to requiring sophisticated latency measurements, which I also plan to develop). I suggest it become one of the basic tests to evaluate a GUI toolkit.",
+      "url": "https://raphlinus.github.io/rust/gui/2019/06/21/smooth-resize-test.html",
+      "date_published": "2019-06-21T19:50:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Performance"
+      ]
+    },
+    {
+      "id": "7602cf1d-bae1-41bb-bfb8-4d7967af1704",
+      "title": "A Detailed Look at Rust Streams",
+      "content_text": "As Rust's async story is evolving, so is Rust's streaming story. In this post we'll take a look at how Rust's streaming model works, how to use it effectively, and where things are heading in the future.",
+      "url": "https://blog.yoshuawuyts.com/rust-streams/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f756eb13-90c3-407a-a304-66e198248d3b",
+      "title": "Distributed Systems Training in Rust and Go",
+      "content_text": "PingCAP is creating a series of training courses on writing distributed systems in Rust and Go. These courses consist of:\n\nPractical Networked Applications in Rust. A series of projects that incrementally develop a single Rust project from the ground up into a high-performance, networked, parallel and asynchronous key/value store. Along the way various real-world and practical Rust development subject matter are explored and discussed.\n\nDistributed Systems in Rust. Adapted from the MIT 6.824 distributed systems coursework, this course focuses on implementing important distributed algorithms, including the Raft consensus algorithm, and the Percolator distributed transaction protocol.",
+      "url": "https://tikv.org/blog/talent-training/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Brian Anderson",
+        "url": "https://tikv.org/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f1697ece-4d5e-46b8-88b5-d5a2e729ae96",
+      "title": "Rust crates – frehberg’s annotated catalogue",
+      "content_text": "The base of Rust users and contributors is growing steadily. The amount of libraries (aka crates) at http://crates.io is growing quickly; the overall “noise” is increasing. Some libraries might not be maintained any longer 🙁\n\nThis annotated catalogue shall help the Rust-users to find specific, popular, mature Rust crates. This list is WIP (Work In Progress), reflecting my personal shortlist. The ordering in the table top-down doesn’t express any preference.",
+      "url": "https://frehberg.com/2019/06/rust-crates-frehbergs-annotated-catalogue/",
+      "date_published": "2019-06-19T19:13:23+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "87fc989d-1a0d-47ce-9663-105f4e93a217",
+      "title": "Green Threads Explained in 200 Lines of Rust",
+      "content_text": "This book aims to explain green threads by using a small example where we implement a simple but working program where we use our own green threads to execute code.",
+      "url": "https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/",
+      "date_published": "2019-06-12T00:00:00+00:00",
+      "author": {
+        "name": "cfsamson",
+        "url": "https://github.com/cfsamson"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "38752604-badd-4d11-a3e3-92b6091d2153",
       "title": "Rust on the ESP and how to get started",
       "content_text": "Read about a simple quickstart with Rust on the ESP, using a ready-to-run container setup that should make this as easy as possible.",

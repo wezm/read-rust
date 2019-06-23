@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "d0496592-58c8-4e56-8cfb-890df49f7b6c",
+      "title": "A simple plugin interface for the Rust FFI",
+      "content_text": "I present a straight-forward design of a plugin interface using the Rust FFI.",
+      "url": "http://kmdouglass.github.io/posts/a-simple-plugin-interface-for-the-rust-ffi/",
+      "date_published": "2019-06-16T07:33:33+00:00",
+      "author": {
+        "name": "Kyle M. Douglass",
+        "url": "http://kmdouglass.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7602cf1d-bae1-41bb-bfb8-4d7967af1704",
+      "title": "A Detailed Look at Rust Streams",
+      "content_text": "As Rust's async story is evolving, so is Rust's streaming story. In this post we'll take a look at how Rust's streaming model works, how to use it effectively, and where things are heading in the future.",
+      "url": "https://blog.yoshuawuyts.com/rust-streams/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f756eb13-90c3-407a-a304-66e198248d3b",
+      "title": "Distributed Systems Training in Rust and Go",
+      "content_text": "PingCAP is creating a series of training courses on writing distributed systems in Rust and Go. These courses consist of:\n\nPractical Networked Applications in Rust. A series of projects that incrementally develop a single Rust project from the ground up into a high-performance, networked, parallel and asynchronous key/value store. Along the way various real-world and practical Rust development subject matter are explored and discussed.\n\nDistributed Systems in Rust. Adapted from the MIT 6.824 distributed systems coursework, this course focuses on implementing important distributed algorithms, including the Raft consensus algorithm, and the Percolator distributed transaction protocol.",
+      "url": "https://tikv.org/blog/talent-training/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Brian Anderson",
+        "url": "https://tikv.org/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "7d1887a3-55d1-448d-8643-2a520bfddc41",
       "title": "The Typestate Pattern in Rust",
       "content_text": "The typestate pattern is an API design pattern that encodes information about an object's run-time state in its compile-time type. This pattern is so easy in Rust that it's almost obvious, to the point that you may have already written code that uses it, perhaps without realizing it. I haven't seen a detailed examination of the nuances of this pattern, so here's my contribution.",

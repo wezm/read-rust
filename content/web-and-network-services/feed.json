@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "a5730863-ff70-4122-8595-81c11ee59697",
+      "title": "Asyncifying an Actix Web App and Upgrading it to 1.0 - zupzup",
+      "content_text": "In a previous post, we created an Actix 0.7 Web App, which was not fully non-blocking. In this post, we'll become fully non-blocking and upgrade the app to Actix 1.0",
+      "url": "https://zupzup.org/asyncify-rust-webapp/",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Mario Zupan",
+        "url": "https://zupzup.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "54d40e7f-c5c5-4c69-86e2-9913c6a88200",
+      "title": "Collaborative Editor in Rust",
+      "content_text": "I've been experimenting with techniques for collaborative editing in Rust recently and I'd like to share my first functional prototype with you. The demo uses Rust and WebAssembly, and I implemented it using a conflict-free replicated data type (CRDT) based on LOGOOT, which I modified to work with variable-sized strings rather than individual characters or lines.",
+      "url": "https://caolan.org/posts/collaborative_editor_in_rust.html",
+      "date_published": "2019-06-21T00:00:00+00:00",
+      "author": {
+        "name": "Caolan McMahon",
+        "url": "https://caolan.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "87146592-5c10-431e-8655-5272eec53ed9",
       "title": "Makepad, a live Rust authoring tool for 2D vector design, shaders and animation",
       "content_text": "The vision is to build a livecoding / design hybrid program, where procedural design and code are fused in one environment. If you have missed 'learnable programming' please check this out: http://worrydream.com/LearnableProgramming/ Makepad aims to fulfill (some) of these ideas using a completely from-scratch renderstack built on the GPU and Rust. It will be like an IDE meets a vector designtool, and had offspring. Direct manipulation of the vectors modifies the code, the code modifies the vectors.\n\nHowever before we can make this awesome application, we need to build a UI stack. The aim of this toolkit is to be our stepping stone into building a livecoding IDE and designtools that don't suck or fall to pieces along the way.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "87fc989d-1a0d-47ce-9663-105f4e93a217",
+      "title": "Green Threads Explained in 200 Lines of Rust",
+      "content_text": "This book aims to explain green threads by using a small example where we implement a simple but working program where we use our own green threads to execute code.",
+      "url": "https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/",
+      "date_published": "2019-06-12T00:00:00+00:00",
+      "author": {
+        "name": "cfsamson",
+        "url": "https://github.com/cfsamson"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "b3f6b505-fb93-4330-a039-d97e148e80d5",
       "title": "Sealed Rust",
       "content_text": "This is the first post in a series detailing Ferrous System's plan to qualify the Rust Language and Compiler for use in the Safety Critical domain. We call this effort Sealed Rust.",

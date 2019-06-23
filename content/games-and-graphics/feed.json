@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "1898399d-d60a-46fc-a3e0-cb8a73fb546e",
+      "title": "The smooth resize test",
+      "content_text": "Today is an exciting point in the evolution of native GUI in Rust. There is much exploration, and a number of promising projects, but I also think we don’t yet know the recipe to make GUI truly great. As I develop my own vision in this space, druid, I hope more that the efforts will learn from each other and that an excellent synthesis will emerge, more so than simply hoping that druid will win.\n\nIn my work, I have come across a problem that is as seemingly simple, yet as difficult to get right, as making decent tea: handling smooth window resizing. Very few GUI toolkits get it perfect, with some failing spectacularly. This is true across platforms, though Windows poses special challenges. It’s also pretty easy to test (as opposed to requiring sophisticated latency measurements, which I also plan to develop). I suggest it become one of the basic tests to evaluate a GUI toolkit.",
+      "url": "https://raphlinus.github.io/rust/gui/2019/06/21/smooth-resize-test.html",
+      "date_published": "2019-06-21T19:50:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Performance"
+      ]
+    },
+    {
       "id": "42c2c580-96cc-4fc8-9485-b29364da6144",
       "title": "Release Notes for v0.6.0",
       "content_text": "The biggest change for this release is that I started writing a parser for binary Blender files. There is a blog post, where I talk a bit about that, how to explore binary Blender files, and basically how to reconstruct useful information from their DNA.",

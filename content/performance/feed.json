@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "b26fcca3-2a79-4340-88fd-80c6f70c95d1",
+      "title": "On Memoization in Rust",
+      "content_text": "A detailed walk through how to memoize function calls in Rust.",
+      "url": "https://medium.com/swlh/on-memoization-291fd1dd924",
+      "date_published": "2019-06-17T12:30:14.793+00:00",
+      "author": {
+        "name": "Andrew Pritchard",
+        "url": "https://medium.com/@andrewjpritchard"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "1898399d-d60a-46fc-a3e0-cb8a73fb546e",
+      "title": "The smooth resize test",
+      "content_text": "Today is an exciting point in the evolution of native GUI in Rust. There is much exploration, and a number of promising projects, but I also think we don’t yet know the recipe to make GUI truly great. As I develop my own vision in this space, druid, I hope more that the efforts will learn from each other and that an excellent synthesis will emerge, more so than simply hoping that druid will win.\n\nIn my work, I have come across a problem that is as seemingly simple, yet as difficult to get right, as making decent tea: handling smooth window resizing. Very few GUI toolkits get it perfect, with some failing spectacularly. This is true across platforms, though Windows poses special challenges. It’s also pretty easy to test (as opposed to requiring sophisticated latency measurements, which I also plan to develop). I suggest it become one of the basic tests to evaluate a GUI toolkit.",
+      "url": "https://raphlinus.github.io/rust/gui/2019/06/21/smooth-resize-test.html",
+      "date_published": "2019-06-21T19:50:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Performance"
+      ]
+    },
+    {
       "id": "e3be782c-4057-4e64-9c1a-0ff81761d5d7",
       "title": "Speed Up Your JavaScript With Rust",
       "content_text": "For a recent personal project, I had only needed a fairly simple node.js server to do exponential and costly computing tasks. To be honest, I could have switched the entire tech stack, but I estimated that the development time of such a choice wasn’t worth it… Still, I had some functions taking ages to compute. So I had a look around, and decided to let that task be handled by a more appropriate language, in this case Rust.",

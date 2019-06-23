@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f1697ece-4d5e-46b8-88b5-d5a2e729ae96",
+      "title": "Rust crates – frehberg’s annotated catalogue",
+      "content_text": "The base of Rust users and contributors is growing steadily. The amount of libraries (aka crates) at http://crates.io is growing quickly; the overall “noise” is increasing. Some libraries might not be maintained any longer 🙁\n\nThis annotated catalogue shall help the Rust-users to find specific, popular, mature Rust crates. This list is WIP (Work In Progress), reflecting my personal shortlist. The ordering in the table top-down doesn’t express any preference.",
+      "url": "https://frehberg.com/2019/06/rust-crates-frehbergs-annotated-catalogue/",
+      "date_published": "2019-06-19T19:13:23+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ae6027ab-b71f-4bce-9ab8-e1853aa24030",
       "title": "Actix - Actor System and Web Framework for Rust",
       "content_text": "Actix web 1.0.0 is released - a small, pragmatic, and extremely fast web framework.",
