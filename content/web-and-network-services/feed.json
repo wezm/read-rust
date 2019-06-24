@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5150f924-ef3f-4327-a3ba-c5f16076a22b",
+      "title": "Auth Web Microservice with rust using Actix-Web 1.0 - Complete Tutorial",
+      "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to rust 😉.",
+      "url": "https://gill.net.in/posts/auth-microservice-rust-actix-web1.0-diesel-complete-tutorial/",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://gill.net.in/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "a5730863-ff70-4122-8595-81c11ee59697",
       "title": "Asyncifying an Actix Web App and Upgrading it to 1.0 - zupzup",
       "content_text": "In a previous post, we created an Actix 0.7 Web App, which was not fully non-blocking. In this post, we'll become fully non-blocking and upgrade the app to Actix 1.0",

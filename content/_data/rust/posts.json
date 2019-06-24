@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "c03bd61e-3c2d-4e4d-a081-ffa0e3b641ed",
+      "title": "Getting Started with Rust: Working with Files and Doing File I/O",
+      "content_text": "This article demonstrates how to perform basic file and file I/O operations in Rust, and also introduces Rust's ownership concept and the Cargo tool. If you are seeing Rust code for the first time, this article should provide a pretty good idea of how Rust deals with files and file I/O, and if you've used Rust before, you still will appreciate the code examples in this article. ",
+      "url": "https://www.linuxjournal.com/content/getting-started-rust-working-files-and-doing-file-io",
+      "tweet_url": "https://twitter.com/linuxjournal/status/1141736722822311938",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Mihalis Tsoukalos",
+        "url": "https://www.linuxjournal.com/users/mihalis-tsoukalos"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "0f371197-7406-4f9f-8460-b8a9e951ec27",
+      "title": "Rust for OOP - Enums & Pattern Matching - Part 2",
+      "content_text": "We will continue the previous post with two complementary examples. Both will demonstrate the capability of enums to push various language constructs and states into the type system. As an example for it, imagine we could create a type which represents an if statement, and then hand over instances of it around our program. Enums tends to work better than using the underlying concepts for various reason, starting from the complexity of the borrow checkers and lifetimes, through the powerful type system in Rust. And not less important, allowing you to code common patterns as functions, in a way otherwise wouldn’t be available to you. We will see all of this today. Later in the series, we will revisit those examples, and we will demonstrate how well they can compose with other code we can write.",
+      "url": "https://oribenshir.github.io/afternoon_rusting//blog/enum-and-pattern-matching-part-2",
+      "tweet_url": "https://twitter.com/oribenshir/status/1142431503261032448",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "25660960-3e2c-44ba-a511-2dd73afc6a32",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 1",
+      "content_text": "After having a pretty clear goal to meet specified by the RFC, time to get things moving. I started with what I thought would be low hanging fruit: Reading the registers of another process. It ended up being more difficult than I thought, but it ended up being really interesting and I want to share it with you :)",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-1/",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "fafe9330-b614-4ea0-a2eb-1958d77fc8f4",
+      "title": "Real Time For the Masses goes multi-core",
+      "content_text": "v0.5.0 of Real Time For the Masses (RTFM), the embedded concurrency framework, is coming out soon-ish – some time after Rust 1.36 is released – and will include experimental support for homogeneous and heterogeneous multi-core Cortex-M devices. This blog post covers the upcoming multi-core API and includes a refresher on the single-core API.",
+      "url": "https://blog.japaric.io/multicore-rtfm/",
+      "tweet_url": "https://twitter.com/japaricious/status/1142830987631648768",
+      "date_published": "2019-06-23T00:00:00+00:00",
+      "author": {
+        "name": "Jorge Aparicio",
+        "url": "http://blog.japaric.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0904d040-f6c1-4b6a-a9ee-328a5ed55d2d",
+      "title": "Orkhon: ML Inference Framework and Server Runtime",
+      "content_text": "Orkhon is Rust framework for Machine Learning to run/use inference/prediction code written in Python, frozen models and process unseen data. It is mainly focused on serving models and processing unseen data in a performant manner. Instead of using Python directly and having scalability problems for servers this framework tries to solve them with built-in async API.",
+      "url": "https://docs.rs/orkhon/0.1.0/orkhon/",
+      "date_published": "2019-05-29T21:32:00+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://github.com/vertexclique"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5150f924-ef3f-4327-a3ba-c5f16076a22b",
+      "title": "Auth Web Microservice with rust using Actix-Web 1.0 - Complete Tutorial",
+      "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to rust 😉.",
+      "url": "https://gill.net.in/posts/auth-microservice-rust-actix-web1.0-diesel-complete-tutorial/",
+      "date_published": "2019-06-09T00:00:00+00:00",
+      "author": {
+        "name": "Harry Gill",
+        "url": "https://gill.net.in/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6ca39c1c-1424-4f6f-86c0-8e93f84718c0",
+      "title": "How do you impl Display for Vec?",
+      "content_text": "Or, more generally, how do you implement any trait that is outside of your crate, for a type that is also outside of your crate? Lets create a micro app that helps us explore the problem. We’ll create a simple struct, implement Display for that, then try to implement Display for a Vec of that struct. Once we understand the problem we’ll discuss a simple solution and how to make that solution more idiomatic.",
+      "url": "https://medium.com/apolitical-engineering/how-do-you-impl-display-for-vec-b8dbb21d814f",
+      "date_published": "2019-06-10T14:03:02.038+00:00",
+      "author": {
+        "name": "Daniel Mason",
+        "url": "https://medium.com/@Gisleburt"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0f224e61-b4f3-40f2-b99a-431cf41ec5d8",
+      "title": "Gtk-rs: New release - more complete, safer",
+      "content_text": "Welcome everyone to this whole new gtk-rs release! Time to check what was added/updated in this new version.",
+      "url": "https://gtk-rs.org/blog/2019/06/22/new-release.html",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs Developers",
+        "url": "https://gtk-rs.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "13cf6e76-809f-4987-997d-4cb45a26114d",
+      "title": "Amethyst 0.11.0 has been released!",
+      "content_text": "Amethyst 0.11.0 comes packed with the Rendy integration & many small additions throughout the engine.",
+      "url": "https://amethyst.rs/posts/release-0-11",
+      "tweet_url": "https://twitter.com/AmethystEngine/status/1140265649207488514",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Schaller",
+        "url": "https://amethyst.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "dd7226ff-eb20-4edf-b420-9e6bdecf4ddc",
+      "title": "Automating Rust and NodeJS deployment on AWS Lambda using layers",
+      "content_text": "Part of our stack at Clevy is written in Rust, and we use Neon to ease the bindings with other parts of the stack written in NodeJS. Recently, we needed to deploy this stack on AWS Lambda, which runs a very specific NodeJS runtime, not cross-compatible with our existing stack. Since we struggled a little bit with getting Lambda/Rust/Node to play nicely together, I figured I would post a short how-to of what we found worked well for us. You can of course take this as a base and change it to your liking!",
+      "url": "https://medium.com/clevyio/automating-rust-and-nodejs-deployment-on-aws-lambda-using-layers-2d47d129a6bc",
+      "date_published": "2019-06-06T11:28:57.140+00:00",
+      "author": {
+        "name": "Francois Falala-Sechet",
+        "url": "https://medium.com/@frsechet"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "a5730863-ff70-4122-8595-81c11ee59697",
       "title": "Asyncifying an Actix Web App and Upgrading it to 1.0 - zupzup",
       "content_text": "In a previous post, we created an Actix 0.7 Web App, which was not fully non-blocking. In this post, we'll become fully non-blocking and upgrade the app to Actix 1.0",

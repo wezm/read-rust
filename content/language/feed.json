@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6ca39c1c-1424-4f6f-86c0-8e93f84718c0",
+      "title": "How do you impl Display for Vec?",
+      "content_text": "Or, more generally, how do you implement any trait that is outside of your crate, for a type that is also outside of your crate? Lets create a micro app that helps us explore the problem. We’ll create a simple struct, implement Display for that, then try to implement Display for a Vec of that struct. Once we understand the problem we’ll discuss a simple solution and how to make that solution more idiomatic.",
+      "url": "https://medium.com/apolitical-engineering/how-do-you-impl-display-for-vec-b8dbb21d814f",
+      "date_published": "2019-06-10T14:03:02.038+00:00",
+      "author": {
+        "name": "Daniel Mason",
+        "url": "https://medium.com/@Gisleburt"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "d0496592-58c8-4e56-8cfb-890df49f7b6c",
       "title": "A simple plugin interface for the Rust FFI",
       "content_text": "I present a straight-forward design of a plugin interface using the Rust FFI.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c03bd61e-3c2d-4e4d-a081-ffa0e3b641ed",
+      "title": "Getting Started with Rust: Working with Files and Doing File I/O",
+      "content_text": "This article demonstrates how to perform basic file and file I/O operations in Rust, and also introduces Rust's ownership concept and the Cargo tool. If you are seeing Rust code for the first time, this article should provide a pretty good idea of how Rust deals with files and file I/O, and if you've used Rust before, you still will appreciate the code examples in this article. ",
+      "url": "https://www.linuxjournal.com/content/getting-started-rust-working-files-and-doing-file-io",
+      "date_published": "2019-06-20T00:00:00+00:00",
+      "author": {
+        "name": "Mihalis Tsoukalos",
+        "url": "https://www.linuxjournal.com/users/mihalis-tsoukalos"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "0f371197-7406-4f9f-8460-b8a9e951ec27",
+      "title": "Rust for OOP - Enums & Pattern Matching - Part 2",
+      "content_text": "We will continue the previous post with two complementary examples. Both will demonstrate the capability of enums to push various language constructs and states into the type system. As an example for it, imagine we could create a type which represents an if statement, and then hand over instances of it around our program. Enums tends to work better than using the underlying concepts for various reason, starting from the complexity of the borrow checkers and lifetimes, through the powerful type system in Rust. And not less important, allowing you to code common patterns as functions, in a way otherwise wouldn’t be available to you. We will see all of this today. Later in the series, we will revisit those examples, and we will demonstrate how well they can compose with other code we can write.",
+      "url": "https://oribenshir.github.io/afternoon_rusting//blog/enum-and-pattern-matching-part-2",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e7bf2504-b854-4a1d-b946-38075e83e97a",
       "title": "Rust for OOP - Enums & Pattern Matching - Part 1",
       "content_text": "We continue our series “Rust for OOP” with Enums & Pattern Matching, one of my preferred features of Rust. I didn’t hear about it before getting into the language, yet immediately fell in love with it. Enums are simple, expressive, reducing code bloat, enable encapsulation, easy to understand, and reason with. It also enables many useful design pattern. ",

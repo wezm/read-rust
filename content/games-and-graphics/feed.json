@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "13cf6e76-809f-4987-997d-4cb45a26114d",
+      "title": "Amethyst 0.11.0 has been released!",
+      "content_text": "Amethyst 0.11.0 comes packed with the Rendy integration & many small additions throughout the engine.",
+      "url": "https://amethyst.rs/posts/release-0-11",
+      "date_published": "1970-01-01T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Schaller",
+        "url": "https://amethyst.rs/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "1898399d-d60a-46fc-a3e0-cb8a73fb546e",
       "title": "The smooth resize test",
       "content_text": "Today is an exciting point in the evolution of native GUI in Rust. There is much exploration, and a number of promising projects, but I also think we don’t yet know the recipe to make GUI truly great. As I develop my own vision in this space, druid, I hope more that the efforts will learn from each other and that an excellent synthesis will emerge, more so than simply hoping that druid will win.\n\nIn my work, I have come across a problem that is as seemingly simple, yet as difficult to get right, as making decent tea: handling smooth window resizing. Very few GUI toolkits get it perfect, with some failing spectacularly. This is true across platforms, though Windows poses special challenges. It’s also pretty easy to test (as opposed to requiring sophisticated latency measurements, which I also plan to develop). I suggest it become one of the basic tests to evaluate a GUI toolkit.",

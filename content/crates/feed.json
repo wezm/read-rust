@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0904d040-f6c1-4b6a-a9ee-328a5ed55d2d",
+      "title": "Orkhon: ML Inference Framework and Server Runtime",
+      "content_text": "Orkhon is Rust framework for Machine Learning to run/use inference/prediction code written in Python, frozen models and process unseen data. It is mainly focused on serving models and processing unseen data in a performant manner. Instead of using Python directly and having scalability problems for servers this framework tries to solve them with built-in async API.",
+      "url": "https://docs.rs/orkhon/0.1.0/orkhon/",
+      "date_published": "2019-05-29T21:32:00+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://github.com/vertexclique"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0f224e61-b4f3-40f2-b99a-431cf41ec5d8",
+      "title": "Gtk-rs: New release - more complete, safer",
+      "content_text": "Welcome everyone to this whole new gtk-rs release! Time to check what was added/updated in this new version.",
+      "url": "https://gtk-rs.org/blog/2019/06/22/new-release.html",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Gtk-rs Developers",
+        "url": "https://gtk-rs.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f1697ece-4d5e-46b8-88b5-d5a2e729ae96",
       "title": "Rust crates – frehberg’s annotated catalogue",
       "content_text": "The base of Rust users and contributors is growing steadily. The amount of libraries (aka crates) at http://crates.io is growing quickly; the overall “noise” is increasing. Some libraries might not be maintained any longer 🙁\n\nThis annotated catalogue shall help the Rust-users to find specific, popular, mature Rust crates. This list is WIP (Work In Progress), reflecting my personal shortlist. The ordering in the table top-down doesn’t express any preference.",
