@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "7fc0def8-20e5-4923-922d-33732b5fc86c",
+      "title": "On public API and private implementation",
+      "content_text": "In this blog article, I want to explore a problem I’ve been facing from time to time in luminance. The manual dispatch problem. The idea is simple: you are writing a crate and want to expose an API to people. You want them to know which type they can use with a given operation (let’s call it update). However, the actual implementation of this update function is not performed directly by your API but is deferred to a backend implementation. Some people usually like to do that with several crates; in my case, I really don’t care and let’s think in terms of types / modules instead.",
+      "url": "https://phaazon.net/blog/public-api-private-implementation",
+      "date_published": "2019-06-13T17:05:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fde2b9f7-5ee2-4743-8887-0ae941fc2217",
+      "title": "Comparing the Same Project in Rust, Haskell, C++, Python, Scala and OCaml",
+      "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, in teams of up to three people with a language of the group’s choice. This was a rare opportunity to compare implementations of large programs that all did the same thing, written by friends I knew were highly competent, and have a fairly pure opportunity to see what difference design and language choices could make. I gained a lot of useful insights from this. It’s rare to encounter such a controlled comparison of languages, it’s not perfect but it’s much better than most anecdotes people use as the basis for their opinions on programming languages.",
+      "url": "http://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/",
+      "date_published": "2019-04-29T00:00:00+00:00",
+      "author": {
+        "name": "Tristan Hume",
+        "url": "http://thume.ca/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "98e8bcf7-00d1-4f6d-ba28-ea41f2d7b705",
+      "title": "Experiment with streams, reading files with futures",
+      "content_text": "We were experimenting with streams and I wanted to play around with them as well. There are some tokio implementations for async file reading futuers, but since linux filesystems before kernel 5.1 do not really support non blocking file operations. I thought lets have fun breaking things ourselves. As I mentioned this is not really non blocking I/O esp. since there are two ways to view futures in their current state. ",
+      "url": "https://chilimatic.hashnode.dev/experiment-with-streams-reading-files-with-futures-cjx1q0gmo001eurs1pt0c27kz",
+      "date_published": "2019-06-18T00:00:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6ca39c1c-1424-4f6f-86c0-8e93f84718c0",
       "title": "How do you impl Display for Vec?",
       "content_text": "Or, more generally, how do you implement any trait that is outside of your crate, for a type that is also outside of your crate? Lets create a micro app that helps us explore the problem. We’ll create a simple struct, implement Display for that, then try to implement Display for a Vec of that struct. Once we understand the problem we’ll discuss a simple solution and how to make that solution more idiomatic.",

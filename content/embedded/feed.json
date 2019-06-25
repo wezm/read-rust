@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "db087996-8806-49fc-8d6e-78f4158cf0f6",
+      "title": "Help Wanted Solving Our BLE Stack Problem",
+      "content_text": "Jonas Schievink and I have been working on a Bluetooth Low Energy stack in Rust, Rubble. It is now in a state where hard-coded services can be created and used, with all lower layers of the stack functioning.\n\nThe next step is designing and implementing both an interface for managing Services and Characteristics, as well as a system for notifications when a value is changed. This is fairly complex, with no clear or obvious solution hence the call for help.",
+      "url": "https://mckeogh.tech/help-wanted-ble/",
+      "date_published": "2019-06-13T00:00:00+00:00",
+      "author": {
+        "name": "Ferdia McKeogh",
+        "url": "https://mckeogh.tech/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "fafe9330-b614-4ea0-a2eb-1958d77fc8f4",
       "title": "Real Time For the Masses goes multi-core",
       "content_text": "v0.5.0 of Real Time For the Masses (RTFM), the embedded concurrency framework, is coming out soon-ish – some time after Rust 1.36 is released – and will include experimental support for homogeneous and heterogeneous multi-core Cortex-M devices. This blog post covers the upcoming multi-core API and includes a refresher on the single-core API.",

@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "24f33796-8ad9-4162-b8a1-1048ab285062",
+      "title": "The Rust Module System and Useful Crates for CLI Apps",
+      "content_text": "Today I’ll be continuing my series of posts on the rust implementation of the Mercurial version control system I’ve been working on. In this post I’ll be focusing on what I learned this week about the rust module system as well as a few helpful crates I discovered to aid in command-line argument parsing and error handling.",
+      "url": "https://ngoldbaum.github.io/posts/helpful-rust-cli-crates/",
+      "date_published": "2019-06-12T10:06:24-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "7fc0def8-20e5-4923-922d-33732b5fc86c",
+      "title": "On public API and private implementation",
+      "content_text": "In this blog article, I want to explore a problem I’ve been facing from time to time in luminance. The manual dispatch problem. The idea is simple: you are writing a crate and want to expose an API to people. You want them to know which type they can use with a given operation (let’s call it update). However, the actual implementation of this update function is not performed directly by your API but is deferred to a backend implementation. Some people usually like to do that with several crates; in my case, I really don’t care and let’s think in terms of types / modules instead.",
+      "url": "https://phaazon.net/blog/public-api-private-implementation",
+      "date_published": "2019-06-13T17:05:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "db087996-8806-49fc-8d6e-78f4158cf0f6",
+      "title": "Help Wanted Solving Our BLE Stack Problem",
+      "content_text": "Jonas Schievink and I have been working on a Bluetooth Low Energy stack in Rust, Rubble. It is now in a state where hard-coded services can be created and used, with all lower layers of the stack functioning.\n\nThe next step is designing and implementing both an interface for managing Services and Characteristics, as well as a system for notifications when a value is changed. This is fairly complex, with no clear or obvious solution hence the call for help.",
+      "url": "https://mckeogh.tech/help-wanted-ble/",
+      "date_published": "2019-06-13T00:00:00+00:00",
+      "author": {
+        "name": "Ferdia McKeogh",
+        "url": "https://mckeogh.tech/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "fde2b9f7-5ee2-4743-8887-0ae941fc2217",
+      "title": "Comparing the Same Project in Rust, Haskell, C++, Python, Scala and OCaml",
+      "content_text": "During my final term at UWaterloo I took the CS444 compilers class with a project to write a compiler from a substantial subset of Java to x86, in teams of up to three people with a language of the group’s choice. This was a rare opportunity to compare implementations of large programs that all did the same thing, written by friends I knew were highly competent, and have a fairly pure opportunity to see what difference design and language choices could make. I gained a lot of useful insights from this. It’s rare to encounter such a controlled comparison of languages, it’s not perfect but it’s much better than most anecdotes people use as the basis for their opinions on programming languages.",
+      "url": "http://thume.ca/2019/04/29/comparing-compilers-in-rust-haskell-c-and-python/",
+      "date_published": "2019-04-29T00:00:00+00:00",
+      "author": {
+        "name": "Tristan Hume",
+        "url": "http://thume.ca/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "98e8bcf7-00d1-4f6d-ba28-ea41f2d7b705",
+      "title": "Experiment with streams, reading files with futures",
+      "content_text": "We were experimenting with streams and I wanted to play around with them as well. There are some tokio implementations for async file reading futuers, but since linux filesystems before kernel 5.1 do not really support non blocking file operations. I thought lets have fun breaking things ourselves. As I mentioned this is not really non blocking I/O esp. since there are two ways to view futures in their current state. ",
+      "url": "https://chilimatic.hashnode.dev/experiment-with-streams-reading-files-with-futures-cjx1q0gmo001eurs1pt0c27kz",
+      "date_published": "2019-06-18T00:00:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f6a2f624-a597-4ae7-b89a-e621ebb50c55",
+      "title": "nom, the Rust parser combinators library, is now available at version 5",
+      "content_text": "nom, the Rust parser combinators library, is now available at version 5. This is the most mature version of nom. This is the one that feels “done”. This is the parser library that I wanted when I started nom 5 years ago. It’s here at last. nom 5 is a complete rewrite of the internal architecture, to use functions instead of macros, while keeping backward compatibility with existing macros based parsers, and making the error type completely generic.",
+      "url": "http://unhandledexpression.com/general/2019/06/17/nom-5-is-here.html",
+      "date_published": "2019-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c03bd61e-3c2d-4e4d-a081-ffa0e3b641ed",
       "title": "Getting Started with Rust: Working with Files and Doing File I/O",
       "content_text": "This article demonstrates how to perform basic file and file I/O operations in Rust, and also introduces Rust's ownership concept and the Cargo tool. If you are seeing Rust code for the first time, this article should provide a pretty good idea of how Rust deals with files and file I/O, and if you've used Rust before, you still will appreciate the code examples in this article. ",
@@ -126,7 +210,7 @@
       "title": "Amethyst 0.11.0 has been released!",
       "content_text": "Amethyst 0.11.0 comes packed with the Rendy integration & many small additions throughout the engine.",
       "url": "https://amethyst.rs/posts/release-0-11",
-      "date_published": "1970-01-01T00:00:00+00:00",
+      "date_published": "2019-06-17T00:31:00+00:00",
       "author": {
         "name": "Thomas Schaller",
         "url": "https://amethyst.rs/"

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "24f33796-8ad9-4162-b8a1-1048ab285062",
+      "title": "The Rust Module System and Useful Crates for CLI Apps",
+      "content_text": "Today I’ll be continuing my series of posts on the rust implementation of the Mercurial version control system I’ve been working on. In this post I’ll be focusing on what I learned this week about the rust module system as well as a few helpful crates I discovered to aid in command-line argument parsing and error handling.",
+      "url": "https://ngoldbaum.github.io/posts/helpful-rust-cli-crates/",
+      "date_published": "2019-06-12T10:06:24-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "f6a2f624-a597-4ae7-b89a-e621ebb50c55",
+      "title": "nom, the Rust parser combinators library, is now available at version 5",
+      "content_text": "nom, the Rust parser combinators library, is now available at version 5. This is the most mature version of nom. This is the one that feels “done”. This is the parser library that I wanted when I started nom 5 years ago. It’s here at last. nom 5 is a complete rewrite of the internal architecture, to use functions instead of macros, while keeping backward compatibility with existing macros based parsers, and making the error type completely generic.",
+      "url": "http://unhandledexpression.com/general/2019/06/17/nom-5-is-here.html",
+      "date_published": "2019-06-24T00:00:00+00:00",
+      "author": {
+        "name": "Geoffroy Couprie",
+        "url": "https://unhandledexpression.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "0904d040-f6c1-4b6a-a9ee-328a5ed55d2d",
       "title": "Orkhon: ML Inference Framework and Server Runtime",
       "content_text": "Orkhon is Rust framework for Machine Learning to run/use inference/prediction code written in Python, frozen models and process unseen data. It is mainly focused on serving models and processing unseen data in a performant manner. Instead of using Python directly and having scalability problems for servers this framework tries to solve them with built-in async API.",
