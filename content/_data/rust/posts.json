@@ -10,6 +10,133 @@
   },
   "items": [
     {
+      "id": "2c73c05a-7fb3-494d-8fb3-896cf3a343b3",
+      "title": "Wasm By Example",
+      "content_text": "A hands-on introduction into WebAssembly ( Wasm ). Containing simple examples and tutorials on how to implement concepts and various tasks using Wasm.",
+      "url": "https://wasmbyexample.dev/",
+      "tweet_url": "https://twitter.com/torch2424/status/1143571589142740992",
+      "date_published": "2019-06-26T03:28:00+00:00",
+      "author": {
+        "name": "Aaron Turner",
+        "url": "https://twitter.com/torch2424"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6a4e1bf9-728a-4c25-919d-05ae4664366c",
+      "title": "Building Standalone Python Applications with PyOxidizer",
+      "content_text": "Today, I'm excited to announce the first release of PyOxidizer (project, documentation), an open source utility that aims to solve the Python application distribution problem! (The installation instructions are in the docs.) PyOxidizer's marquee feature is that it can produce a single file executable containing a fully-featured Python interpreter, its extensions, standard library, and your application's modules and resources.",
+      "url": "https://gregoryszorc.com/blog/2019/06/24/building-standalone-python-applications-with-pyoxidizer/",
+      "date_published": "2019-06-24T09:00:00+00:00",
+      "author": {
+        "name": "Gregory Szorc",
+        "url": "https://gregoryszorc.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0770f016-861d-4bc1-9ce0-cad6b6e374f2",
+      "title": "Implementing HTSP in Rust",
+      "content_text": "As with most hobby projects, my htsp-rs implementation became a side-side-side project, and it will probably stay that way. Another property of those hobby projects is that I now-and-then pick them up again, and htsp-rs has come to that point now. The reason for picking it up again is different from the reason of its existence though, and that’s a good thing: it means I have multiple reasons for the crate’s existence. Initially, I wanted it as a back-end for a livestreaming app on SailfishOS. Today, I want it as back-end for mpd’s TVHeadend support.",
+      "url": "https://www.rubdos.be/rust/async/programming/2019/06/22/implementing-htsp-in-rust.html",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Ruben De Smet",
+        "url": "https://www.rubdos.be/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "b9742776-a64f-4358-beff-fabdf075d65d",
+      "title": "Rustexp: A Rust regular expression editor & tester",
+      "content_text": "A Rust regular expression editor & tester inspired by Rubular.",
+      "url": "https://rustexp.lpil.uk/",
+      "date_published": "2019-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Louis Pilfold",
+        "url": "http://lpil.uk/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4b9faf2d-145a-4deb-909d-ac58ea05bdc8",
+      "title": "Rust type language - journey to rust",
+      "content_text": "Disclaimer: If you are learning Rust, take this with grain of salt. I’m learning Rust too and I may be utterly wrong in my guesses. The more I read and do Rust, the more I realize, that Rust consists of two (three, if macros counts) languages.",
+      "url": "https://medium.com/journey-to-rust/rust-type-language-48e1c43b1ef4",
+      "date_published": "2019-06-25T14:10:43.359+00:00",
+      "author": {
+        "name": "George Shuklin",
+        "url": "https://medium.com/@george.shuklin"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "170dcb20-7011-4222-afe7-e3eb2298a661",
+      "title": "How macros make your Rust life easier and generally better",
+      "content_text": "Let’s explore a topic that has been quite foreign to me for a long time: macros.",
+      "url": "https://blog.x5ff.xyz/blog/easy-programming-with-rust-macros/",
+      "date_published": "2019-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "10bad307-4122-4dd4-a0b2-4347b1da1a12",
+      "title": "rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.",
+      "content_text": "rga is a line-oriented search tool that allows you to look for a regex in a multitude of file types. rga wraps the awesome ripgrep and enables it to search in pdf, docx, sqlite, jpg, zip, tar.*, movie subtitles (mkv, mp4), etc.",
+      "url": "https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/",
+      "date_published": "2019-06-16T00:00:00+00:00",
+      "author": {
+        "name": "phiresky",
+        "url": "https://phiresky.github.io/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "91f9b804-7782-4a78-ade2-e4d8008923cf",
+      "title": "Why we're using Rust for cloud rendering",
+      "content_text": "We initially began replacing a small component of our stack using Rust, but it quickly became clear that a larger effort would allow a great reduction in complexity. In the end, all the C, C++, and Python components of the service were rebuilt, with Rust used from task loading through to dispatching GPU operations.",
+      "url": "https://www.digitalbridge.com/blog/why-were-using-rust-for-cloud-rendering",
+      "date_published": "2019-06-24T12:07:47+00:00",
+      "author": {
+        "name": "Iain MacIver",
+        "url": "https://www.digitalbridge.com/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c274055b-d2a2-43f1-9ef3-a9fc15521878",
+      "title": "swym: Are we lock-free yet?",
+      "content_text": "swym is a transactional memory library that prioritizes performance. It’s not lock-free, but it does have progress guarantees. This post will explore some of the recent work on swym’s progress promises, as well as some comparisons with non-blocking algorithms. I’m not an expert on schedulers or OS’s, so please correct me if anything is wrong. It might benefit swym!",
+      "url": "https://mtak-blog.github.io/are-we-lock-free-yet",
+      "date_published": "2019-06-24T00:00:00+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "24f33796-8ad9-4162-b8a1-1048ab285062",
       "title": "The Rust Module System and Useful Crates for CLI Apps",
       "content_text": "Today I’ll be continuing my series of posts on the rust implementation of the Mercurial version control system I’ve been working on. In this post I’ll be focusing on what I learned this week about the rust module system as well as a few helpful crates I discovered to aid in command-line argument parsing and error handling.",

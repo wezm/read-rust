@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "4b9faf2d-145a-4deb-909d-ac58ea05bdc8",
+      "title": "Rust type language - journey to rust",
+      "content_text": "Disclaimer: If you are learning Rust, take this with grain of salt. I’m learning Rust too and I may be utterly wrong in my guesses. The more I read and do Rust, the more I realize, that Rust consists of two (three, if macros counts) languages.",
+      "url": "https://medium.com/journey-to-rust/rust-type-language-48e1c43b1ef4",
+      "date_published": "2019-06-25T14:10:43.359+00:00",
+      "author": {
+        "name": "George Shuklin",
+        "url": "https://medium.com/@george.shuklin"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "170dcb20-7011-4222-afe7-e3eb2298a661",
+      "title": "How macros make your Rust life easier and generally better",
+      "content_text": "Let’s explore a topic that has been quite foreign to me for a long time: macros.",
+      "url": "https://blog.x5ff.xyz/blog/easy-programming-with-rust-macros/",
+      "date_published": "2019-06-07T00:00:00+00:00",
+      "author": {
+        "name": "Claus",
+        "url": "https://blog.x5ff.xyz/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "91f9b804-7782-4a78-ade2-e4d8008923cf",
+      "title": "Why we're using Rust for cloud rendering",
+      "content_text": "We initially began replacing a small component of our stack using Rust, but it quickly became clear that a larger effort would allow a great reduction in complexity. In the end, all the C, C++, and Python components of the service were rebuilt, with Rust used from task loading through to dispatching GPU operations.",
+      "url": "https://www.digitalbridge.com/blog/why-were-using-rust-for-cloud-rendering",
+      "date_published": "2019-06-24T12:07:47+00:00",
+      "author": {
+        "name": "Iain MacIver",
+        "url": "https://www.digitalbridge.com/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "7fc0def8-20e5-4923-922d-33732b5fc86c",
       "title": "On public API and private implementation",
       "content_text": "In this blog article, I want to explore a problem I’ve been facing from time to time in luminance. The manual dispatch problem. The idea is simple: you are writing a crate and want to expose an API to people. You want them to know which type they can use with a given operation (let’s call it update). However, the actual implementation of this update function is not performed directly by your API but is deferred to a backend implementation. Some people usually like to do that with several crates; in my case, I really don’t care and let’s think in terms of types / modules instead.",

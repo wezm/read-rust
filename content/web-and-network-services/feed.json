@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "2c73c05a-7fb3-494d-8fb3-896cf3a343b3",
+      "title": "Wasm By Example",
+      "content_text": "A hands-on introduction into WebAssembly ( Wasm ). Containing simple examples and tutorials on how to implement concepts and various tasks using Wasm.",
+      "url": "https://wasmbyexample.dev/",
+      "date_published": "2019-06-26T03:28:00+00:00",
+      "author": {
+        "name": "Aaron Turner",
+        "url": "https://twitter.com/torch2424"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "0770f016-861d-4bc1-9ce0-cad6b6e374f2",
+      "title": "Implementing HTSP in Rust",
+      "content_text": "As with most hobby projects, my htsp-rs implementation became a side-side-side project, and it will probably stay that way. Another property of those hobby projects is that I now-and-then pick them up again, and htsp-rs has come to that point now. The reason for picking it up again is different from the reason of its existence though, and that’s a good thing: it means I have multiple reasons for the crate’s existence. Initially, I wanted it as a back-end for a livestreaming app on SailfishOS. Today, I want it as back-end for mpd’s TVHeadend support.",
+      "url": "https://www.rubdos.be/rust/async/programming/2019/06/22/implementing-htsp-in-rust.html",
+      "date_published": "2019-06-22T00:00:00+00:00",
+      "author": {
+        "name": "Ruben De Smet",
+        "url": "https://www.rubdos.be/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "5150f924-ef3f-4327-a3ba-c5f16076a22b",
       "title": "Auth Web Microservice with rust using Actix-Web 1.0 - Complete Tutorial",
       "content_text": "We are going to create a web-server in rust that only deals with user registration and authentication. I will be explaining the steps in each file as we go. The complete project code is here repo. Please take all this with a pinch of salt as I’m a still a noob to rust 😉.",

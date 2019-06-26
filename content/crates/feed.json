@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c274055b-d2a2-43f1-9ef3-a9fc15521878",
+      "title": "swym: Are we lock-free yet?",
+      "content_text": "swym is a transactional memory library that prioritizes performance. It’s not lock-free, but it does have progress guarantees. This post will explore some of the recent work on swym’s progress promises, as well as some comparisons with non-blocking algorithms. I’m not an expert on schedulers or OS’s, so please correct me if anything is wrong. It might benefit swym!",
+      "url": "https://mtak-blog.github.io/are-we-lock-free-yet",
+      "date_published": "2019-06-24T00:00:00+00:00",
+      "author": {
+        "name": "mtak-",
+        "url": "https://github.com/mtak-"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "24f33796-8ad9-4162-b8a1-1048ab285062",
       "title": "The Rust Module System and Useful Crates for CLI Apps",
       "content_text": "Today I’ll be continuing my series of posts on the rust implementation of the Mercurial version control system I’ve been working on. In this post I’ll be focusing on what I learned this week about the rust module system as well as a few helpful crates I discovered to aid in command-line argument parsing and error handling.",

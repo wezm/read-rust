@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "6a4e1bf9-728a-4c25-919d-05ae4664366c",
+      "title": "Building Standalone Python Applications with PyOxidizer",
+      "content_text": "Today, I'm excited to announce the first release of PyOxidizer (project, documentation), an open source utility that aims to solve the Python application distribution problem! (The installation instructions are in the docs.) PyOxidizer's marquee feature is that it can produce a single file executable containing a fully-featured Python interpreter, its extensions, standard library, and your application's modules and resources.",
+      "url": "https://gregoryszorc.com/blog/2019/06/24/building-standalone-python-applications-with-pyoxidizer/",
+      "date_published": "2019-06-24T09:00:00+00:00",
+      "author": {
+        "name": "Gregory Szorc",
+        "url": "https://gregoryszorc.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b9742776-a64f-4358-beff-fabdf075d65d",
+      "title": "Rustexp: A Rust regular expression editor & tester",
+      "content_text": "A Rust regular expression editor & tester inspired by Rubular.",
+      "url": "https://rustexp.lpil.uk/",
+      "date_published": "2019-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Louis Pilfold",
+        "url": "http://lpil.uk/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "10bad307-4122-4dd4-a0b2-4347b1da1a12",
+      "title": "rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.",
+      "content_text": "rga is a line-oriented search tool that allows you to look for a regex in a multitude of file types. rga wraps the awesome ripgrep and enables it to search in pdf, docx, sqlite, jpg, zip, tar.*, movie subtitles (mkv, mp4), etc.",
+      "url": "https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/",
+      "date_published": "2019-06-16T00:00:00+00:00",
+      "author": {
+        "name": "phiresky",
+        "url": "https://phiresky.github.io/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "87146592-5c10-431e-8655-5272eec53ed9",
       "title": "Makepad, a live Rust authoring tool for 2D vector design, shaders and animation",
       "content_text": "The vision is to build a livecoding / design hybrid program, where procedural design and code are fused in one environment. If you have missed 'learnable programming' please check this out: http://worrydream.com/LearnableProgramming/ Makepad aims to fulfill (some) of these ideas using a completely from-scratch renderstack built on the GPU and Rust. It will be like an IDE meets a vector designtool, and had offspring. Direct manipulation of the vectors modifies the code, the code modifies the vectors.\n\nHowever before we can make this awesome application, we need to build a UI stack. The aim of this toolkit is to be our stepping stone into building a livecoding IDE and designtools that don't suck or fall to pieces along the way.",
