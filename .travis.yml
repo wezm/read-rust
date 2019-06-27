@@ -1,6 +1,13 @@
 language: rust
 cache: cargo
-install: '[ "`cobalt --version`" == "Cobalt 0.15.0" ] || cargo install --force cobalt-bin'
+install: |
+  if [ "`cobalt --version`" == "Cobalt 0.15.4" ]; then
+    curl -OL https://github.com/cobalt-org/cobalt.rs/releases/download/v0.15.4/cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
+    tar zxvf cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
+    mkdir -p ~/.local/bin
+    mv cobalt ~/.local/bin
+  fi
+
 script:
   - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
   - cargo test
