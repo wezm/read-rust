@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9f8dfcb3-e67c-456d-94d5-76ea84f8caa8",
+      "title": "termimad: A library to display rich (Markdown) snippets and texts in a Rust terminal application",
+      "content_text": "A simple tool to display static or dynamic Markdown snippets in the terminal, with skin isolation. Based on crossterm so works on most terminals (even on windows).",
+      "url": "https://github.com/Canop/termimad",
+      "date_published": "2019-06-27T00:00:00+00:00",
+      "author": {
+        "name": "Canop",
+        "url": "https://github.com/Canop"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c274055b-d2a2-43f1-9ef3-a9fc15521878",
       "title": "swym: Are we lock-free yet?",
       "content_text": "swym is a transactional memory library that prioritizes performance. It’s not lock-free, but it does have progress guarantees. This post will explore some of the recent work on swym’s progress promises, as well as some comparisons with non-blocking algorithms. I’m not an expert on schedulers or OS’s, so please correct me if anything is wrong. It might benefit swym!",

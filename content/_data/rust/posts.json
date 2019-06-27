@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "ae8feddf-191a-444f-9423-e7a3e0b4b356",
+      "title": "Writing a proxy in Rust and why it is the language of the future",
+      "content_text": "It’s been a year since I wrote a little proxy with Rust, it is one of my first projects with this language and I learned a lot writing it. To sum up a bit, the main goal of this proxy is to be really simple to use and easy to extend with middlewares. It targets HTTP APIs and can be used in front of a lot of services. This proxy has been used in multiple projects, with microservices architecture and so on…",
+      "url": "https://medium.com/swlh/writing-a-proxy-in-rust-and-why-it-is-the-language-of-the-future-265d8bf7c6d2",
+      "date_published": "2019-06-25T14:43:21.855+00:00",
+      "author": {
+        "name": "Terry Raimondo",
+        "url": "https://medium.com/@terry.raimondo"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f0491f48-a0cd-4f35-a781-a8907f277e8a",
+      "title": "std time",
+      "content_text": "Over the past month we've been hard at work to add time support to the Runtime crate. One of the things we've had to think about has been examples. Which means we've had a chance to become intimately familiar with the good and less good parts of the std::time API.\n\nIn this post we'll look at the std::time API, and some of the proposed changes to smooth things out a bit. Also disclaimer: I've been involved with these proposals, hehe.",
+      "url": "https://blog.yoshuawuyts.com/std-time/",
+      "tweet_url": "https://twitter.com/yoshuawuyts/status/1143538486164819968",
+      "date_published": "2019-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ea3f2d4d-b907-4611-9aaf-d5f6311863a2",
+      "title": "Fuzzing rust code: cargo-fuzz and honggfuzz",
+      "content_text": "This post explains how to test Rust code using fuzzers. Parsers are good target for fuzzers, especially because they usually are functions that only takes bytes as input.",
+      "url": "https://www.wzdftpd.net/blog/rust-fuzzers.html",
+      "date_published": "2019-06-19T00:00:00+02:00",
+      "author": {
+        "name": "Pollux",
+        "url": "https://www.wzdftpd.net/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a47585b4-821e-445c-84dd-003d3b449f7f",
+      "title": "Way of Rhea’s Entity System",
+      "content_text": "Entity systems won by a long shot, so that’s what I’m going to be writing about today. In particular, I’m going to outline the process that lead me to Way of Rhea’s current entity system. Way of Rhea is being built in a custom engine and scripting language written in Rust, but the ideas described should still be applicable elsewhere. Hopefully this writeup will be found helpful, or at least interesting. :)",
+      "url": "https://www.anthropicstudios.com/2019/06/05/entity-systems/",
+      "date_published": "2019-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Mason Remaley",
+        "url": "https://www.anthropicstudios.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "9f8dfcb3-e67c-456d-94d5-76ea84f8caa8",
+      "title": "termimad: A library to display rich (Markdown) snippets and texts in a Rust terminal application",
+      "content_text": "A simple tool to display static or dynamic Markdown snippets in the terminal, with skin isolation. Based on crossterm so works on most terminals (even on windows).",
+      "url": "https://github.com/Canop/termimad",
+      "date_published": "2019-06-27T00:00:00+00:00",
+      "author": {
+        "name": "Canop",
+        "url": "https://github.com/Canop"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "0924bbc6-ebd8-428e-aec2-3ea31077bf2f",
+      "title": "Writing a Raytracer in Rust: part 3",
+      "content_text": "At long last we get to the point of tracing rays - not entirely as we want.",
+      "url": "https://canmom.github.io/programming/graphics/raytracer/rust-raytracer-part-3",
+      "tweet_url": "https://twitter.com/CanonicMomentum/status/1134991298811899906",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "bryn dickinson",
+        "url": "https://canmom.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "cd714c38-04f4-4e7c-a98e-4af4eb7d7464",
+      "title": "Writing an OS in Rust: Heap Allocation",
+      "content_text": "This post adds support for heap allocation to our kernel. First, it gives an introduction to dynamic memory and shows how the borrow checker prevents common allocation errors. It then implements the basic allocation interface of Rust, creates a heap memory region, and sets up an allocator crate. At the end of this post all the allocation and collection types of the built-in alloc crate will be available to our kernel.",
+      "url": "https://os.phil-opp.com/heap-allocation/",
+      "date_published": "2019-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "2c73c05a-7fb3-494d-8fb3-896cf3a343b3",
       "title": "Wasm By Example",
       "content_text": "A hands-on introduction into WebAssembly ( Wasm ). Containing simple examples and tutorials on how to implement concepts and various tasks using Wasm.",
@@ -2707,7 +2807,7 @@
       "date_published": "2019-04-27T23:03:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -4180,7 +4280,7 @@
       "date_published": "2019-03-14T21:03:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -7700,7 +7800,7 @@
       "date_published": "2019-01-14T00:00:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -19112,7 +19212,7 @@
       "date_published": "2018-04-29T00:00:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"

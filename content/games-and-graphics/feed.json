@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "a47585b4-821e-445c-84dd-003d3b449f7f",
+      "title": "Way of Rhea’s Entity System",
+      "content_text": "Entity systems won by a long shot, so that’s what I’m going to be writing about today. In particular, I’m going to outline the process that lead me to Way of Rhea’s current entity system. Way of Rhea is being built in a custom engine and scripting language written in Rust, but the ideas described should still be applicable elsewhere. Hopefully this writeup will be found helpful, or at least interesting. :)",
+      "url": "https://www.anthropicstudios.com/2019/06/05/entity-systems/",
+      "date_published": "2019-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Mason Remaley",
+        "url": "https://www.anthropicstudios.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0924bbc6-ebd8-428e-aec2-3ea31077bf2f",
+      "title": "Writing a Raytracer in Rust: part 3",
+      "content_text": "At long last we get to the point of tracing rays - not entirely as we want.",
+      "url": "https://canmom.github.io/programming/graphics/raytracer/rust-raytracer-part-3",
+      "date_published": "2019-06-01T00:00:00+00:00",
+      "author": {
+        "name": "bryn dickinson",
+        "url": "https://canmom.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "13cf6e76-809f-4987-997d-4cb45a26114d",
       "title": "Amethyst 0.11.0 has been released!",
       "content_text": "Amethyst 0.11.0 comes packed with the Rendy integration & many small additions throughout the engine.",

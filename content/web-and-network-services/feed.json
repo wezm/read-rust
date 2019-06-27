@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ae8feddf-191a-444f-9423-e7a3e0b4b356",
+      "title": "Writing a proxy in Rust and why it is the language of the future",
+      "content_text": "It’s been a year since I wrote a little proxy with Rust, it is one of my first projects with this language and I learned a lot writing it. To sum up a bit, the main goal of this proxy is to be really simple to use and easy to extend with middlewares. It targets HTTP APIs and can be used in front of a lot of services. This proxy has been used in multiple projects, with microservices architecture and so on…",
+      "url": "https://medium.com/swlh/writing-a-proxy-in-rust-and-why-it-is-the-language-of-the-future-265d8bf7c6d2",
+      "date_published": "2019-06-25T14:43:21.855+00:00",
+      "author": {
+        "name": "Terry Raimondo",
+        "url": "https://medium.com/@terry.raimondo"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "2c73c05a-7fb3-494d-8fb3-896cf3a343b3",
       "title": "Wasm By Example",
       "content_text": "A hands-on introduction into WebAssembly ( Wasm ). Containing simple examples and tutorials on how to implement concepts and various tasks using Wasm.",

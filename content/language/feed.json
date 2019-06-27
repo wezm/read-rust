@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f0491f48-a0cd-4f35-a781-a8907f277e8a",
+      "title": "std time",
+      "content_text": "Over the past month we've been hard at work to add time support to the Runtime crate. One of the things we've had to think about has been examples. Which means we've had a chance to become intimately familiar with the good and less good parts of the std::time API.\n\nIn this post we'll look at the std::time API, and some of the proposed changes to smooth things out a bit. Also disclaimer: I've been involved with these proposals, hehe.",
+      "url": "https://blog.yoshuawuyts.com/std-time/",
+      "date_published": "2019-06-25T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "4b9faf2d-145a-4deb-909d-ac58ea05bdc8",
       "title": "Rust type language - journey to rust",
       "content_text": "Disclaimer: If you are learning Rust, take this with grain of salt. I’m learning Rust too and I may be utterly wrong in my guesses. The more I read and do Rust, the more I realize, that Rust consists of two (three, if macros counts) languages.",

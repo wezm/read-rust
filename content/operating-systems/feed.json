@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cd714c38-04f4-4e7c-a98e-4af4eb7d7464",
+      "title": "Writing an OS in Rust: Heap Allocation",
+      "content_text": "This post adds support for heap allocation to our kernel. First, it gives an introduction to dynamic memory and shows how the borrow checker prevents common allocation errors. It then implements the basic allocation interface of Rust, creates a heap memory region, and sets up an allocator crate. At the end of this post all the allocation and collection types of the built-in alloc crate will be available to our kernel.",
+      "url": "https://os.phil-opp.com/heap-allocation/",
+      "date_published": "2019-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Philipp Oppermann",
+        "url": "https://os.phil-opp.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "25660960-3e2c-44ba-a511-2dd73afc6a32",
       "title": "RSoC: Implementing ptrace for Redox OS - part 1",
       "content_text": "After having a pretty clear goal to meet specified by the RFC, time to get things moving. I started with what I thought would be low hanging fruit: Reading the registers of another process. It ended up being more difficult than I thought, but it ended up being really interesting and I want to share it with you :)",
@@ -87,7 +101,7 @@
       "date_published": "2019-04-27T23:03:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -115,7 +129,7 @@
       "date_published": "2019-03-14T21:03:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -185,7 +199,7 @@
       "date_published": "2019-01-14T00:00:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
@@ -470,7 +484,7 @@
       "date_published": "2018-04-29T00:00:00+00:00",
       "author": {
         "name": "Philipp Oppermann",
-        "url": "https://os.phil-opp.com/second-edition/"
+        "url": "https://os.phil-opp.com/"
       },
       "tags": [
         "Operating Systems"
