@@ -46,7 +46,7 @@ nav a {
   border-bottom: 2px solid rgba(255, 165, 0, 0);
   transition: border-bottom-color 250ms;
 }
-nav a:hover {
+nav a:hover, nav a:focus {
   border-bottom-color: rgba(255, 165, 0, 1);
 }
 article {
@@ -120,7 +120,7 @@ blockquote {
   display: inline-block;
   border: 2px solid #fbd492;
   color: #fbd492;
-  color: hsl(29.8, 100%, 50%);
+  color: #000000;
   padding: 5px 1em 4px;
   border-radius: 3px;
   text-decoration: none;
@@ -129,7 +129,7 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.button:hover {
+.button:hover, .button:focus {
   background-color: #fbd492;
 }
 
@@ -139,12 +139,12 @@ blockquote {
   padding: 0 0.5em;
   border-radius: 3px;
   text-decoration: none;
-  color: hsl(29.8, 100%, 50%);
+  color: #000000;
   margin: 0.25em 0;
   font-size: smaller;
   border: 2px solid rgba(0,0,0,0);
 }
-.tag:hover {
+.tag:hover, .tag:focus {
   background: hsl(37.7, 92.9%, 90%);
 }
 .tag.active {
@@ -154,6 +154,7 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
 }
 #featured h2 {
   margin-bottom: 0;
@@ -182,7 +183,7 @@ blockquote {
   padding: 0 0 0 20px;
 }
 .card .meta a {
-  color: rgba(0,0,0,.5);
+  color: rgba(0,0,0,.6);
 }
 .card .content {
   padding: 1em 0;

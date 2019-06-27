@@ -44,60 +44,62 @@ data:
   <a href="https://github.com/wezm/read-rust/issues/new?labels=support-rust&amp;template=support_rust.md">please raise an issue</a>.
 </p>
 
-<div id="featured"></div>
+<section id="featured"></section>
 
-<h2 id="rust-creators">Rust Creators</h2>
+<section>
+  <h2 id="rust-creators">Rust Creators</h2>
 
-<div class="filter">
-  <strong class="visually-hidden">Filter:</strong>
+  <div class="filter">
+    <strong class="visually-hidden">Filter:</strong>
 
-  <a href="#all" class="tag">all</a>
-  <a href="#applications" class="tag">applications</a>
-  <a href="#audio" class="tag">audio</a>
-  <a href="#blog" class="tag">blog</a>
-  <a href="#cli" class="tag">cli</a>
-  <a href="#community" class="tag">community</a>
-  <a href="#crates" class="tag">crates</a>
-  <a href="#database" class="tag">database</a>
-  <a href="#documentation" class="tag">documentation</a>
-  <a href="#embedded" class="tag">embedded</a>
-  <a href="#emulators" class="tag">emulators</a>
-  <a href="#games" class="tag">games</a>
-  <a href="#graphics" class="tag">graphics</a>
-  <a href="#gui" class="tag">gui</a>
-  <a href="#mathematics" class="tag">mathematics</a>
-  <a href="#physics" class="tag">physics</a>
-  <a href="#podcast" class="tag">podcast</a>
-  <a href="#rust-team" class="tag">rust-team</a>
-  <a href="#rust-tools" class="tag">rust-tools</a>
-  <a href="#video" class="tag">video</a>
-  <a href="#wasm" class="tag">wasm</a>
-  <a href="#web" class="tag">web</a>
-</div>
+    <a href="#all" class="tag">all</a>
+    <a href="#applications" class="tag">applications</a>
+    <a href="#audio" class="tag">audio</a>
+    <a href="#blog" class="tag">blog</a>
+    <a href="#cli" class="tag">cli</a>
+    <a href="#community" class="tag">community</a>
+    <a href="#crates" class="tag">crates</a>
+    <a href="#database" class="tag">database</a>
+    <a href="#documentation" class="tag">documentation</a>
+    <a href="#embedded" class="tag">embedded</a>
+    <a href="#emulators" class="tag">emulators</a>
+    <a href="#games" class="tag">games</a>
+    <a href="#graphics" class="tag">graphics</a>
+    <a href="#gui" class="tag">gui</a>
+    <a href="#mathematics" class="tag">mathematics</a>
+    <a href="#physics" class="tag">physics</a>
+    <a href="#podcast" class="tag">podcast</a>
+    <a href="#rust-team" class="tag">rust-team</a>
+    <a href="#rust-tools" class="tag">rust-tools</a>
+    <a href="#video" class="tag">video</a>
+    <a href="#wasm" class="tag">wasm</a>
+    <a href="#web" class="tag">web</a>
+  </div>
 
-<div id="creators" class="creators">
-  {% for creator in site.data.creators %}
-    <div id="{{ creator.code.name }}" class="card" data-tags="{{ creator.tags | join: "," }}">
-      <div class="content">
-        {% if creator.no_thumb %}
-          <img width="50" src="/images/u/{{ creator.avatar }}" alt="" />
-        {% else %}
-          <img width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}" alt="" />
-        {% endif %}
-        <h3>
-          {{ creator.name }}
-        </h3>
-        <div class="meta">
-          <a href="{{ creator.code.link }}">@{{ creator.code.name }}</a>
+  <ul id="creators" class="creators" aria-label="Rust creators">
+    {% for creator in site.data.creators %}
+      <li id="{{ creator.code.name }}" class="card" data-tags="{{ creator.tags | join: "," }}">
+        <div class="content">
+          {% if creator.no_thumb %}
+            <img width="50" src="/images/u/{{ creator.avatar }}" alt="" />
+          {% else %}
+            <img width="50" src="/images/u/thumb/{{ creator.avatar | replace: "png", "jpg" }}" alt="" />
+          {% endif %}
+          <h3>
+            {{ creator.name }}
+          </h3>
+          <div class="meta">
+            <a href="{{ creator.code.link }}">@{{ creator.code.name }}</a>
+          </div>
+          <div class="description">
+            {{ creator.description }}
+          </div>
         </div>
-        <div class="description">
-          {{ creator.description }}
+        <div class="card-extra">
+          <a href="{{ creator.support.link }}" class="button">{{ creator.support.name }}</a>
         </div>
-      </div>
-      <div class="card-extra">
-        <a href="{{ creator.support.link }}" class="button">{{ creator.support.name }}</a>
-      </div>
-    </div>
-  {% endfor %}
-</div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 

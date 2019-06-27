@@ -35,16 +35,16 @@
         </div>
       </nav>
     </header>
-    <div class="main">
+    <main class="main">
       <h1>{{ page.title | escape }}</h1>
       {{ page.content }}
-    </div>
+    </main>
     <footer>
       <form method="get" id="search" class="right" action="https://duckduckgo.com/">
         <input name="sites" value="readrust.net" type="hidden">
         <input name="kz" value="-1" type="hidden">
         <input name="kaf" value="1" type="hidden">
-        <input name="q" id="q" maxlength="255" placeholder="Search" autocapitalize="off" autocomplete="off" title="Search Read Rust" type="text">
+        <input name="q" id="q" maxlength="255" placeholder="Search" autocapitalize="off" autocomplete="off" title="Search Read Rust" aria-label="Search Read Rust" type="search">
         <input value="Search" type="submit">
       </form>
 

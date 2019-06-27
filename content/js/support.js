@@ -77,13 +77,14 @@ const populateFeatured = function() {
     return;
   }
 
-  var creatorsContainer = E('div');
+  var creatorsContainer = E('ul');
   creatorsContainer.className = 'creators';
   var indexes = range(0, creators.length);
   shuffleArray(indexes);
 
   for (var i = 0; i < NUM_CREATORS; i++) {
     var child = creators[indexes[i]].cloneNode(true);
+    child.id += '_featured';
     child.classList.remove('hidden');
     creatorsContainer.appendChild(child);
   }
