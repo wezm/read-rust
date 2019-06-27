@@ -11,6 +11,7 @@ install: |
 script:
   - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
   - cargo test
+  - cobalt build
   - make feeds
 rust:
   - stable
