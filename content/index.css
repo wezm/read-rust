@@ -119,8 +119,7 @@ blockquote {
 .button {
   display: inline-block;
   border: 2px solid #fbd492;
-  color: #fbd492;
-  color: #000000;
+  color: #444;
   padding: 5px 1em 4px;
   border-radius: 3px;
   text-decoration: none;
@@ -139,7 +138,7 @@ blockquote {
   padding: 0 0.5em;
   border-radius: 3px;
   text-decoration: none;
-  color: #000000;
+  color: #444;
   margin: 0.25em 0;
   font-size: smaller;
   border: 2px solid rgba(0,0,0,0);
