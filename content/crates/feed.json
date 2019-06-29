@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f85b4664-304e-4eeb-a93b-2377b74263cd",
+      "title": "async log",
+      "content_text": "Today we'd like to introduce async-log, a general-purpose crate that extends the standard log crate with asynchronous metadata. This is a first step in introducing full-fledged asynchronous tracing capabilities to Rust.",
+      "url": "https://blog.yoshuawuyts.com/async-log/",
+      "date_published": "2019-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "9f8dfcb3-e67c-456d-94d5-76ea84f8caa8",
       "title": "termimad: A library to display rich (Markdown) snippets and texts in a Rust terminal application",
       "content_text": "A simple tool to display static or dynamic Markdown snippets in the terminal, with skin isolation. Based on crossterm so works on most terminals (even on windows).",

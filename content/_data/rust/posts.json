@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "f6b00396-a786-403b-b392-16e784f32241",
+      "title": "Rust Creator Graydon Hoare Talks About Security, History, and Rust",
+      "content_text": "We’re approaching the 9th anniversary of the day Graydon Hoare (and numerous contributors) first revealed to the world the newly-designed Rust programming language. So we thought it’d be a good time to assess our current landscape.\n\nHoare graciously agreed, sharing his thoughts on everything from the state of systems programming, to the difficulty of defining safety on ever-more complex systems — and whether we’re truly more secure today, or confronting an inherited software mess that will take decades to clean up.",
+      "url": "https://thenewstack.io/rust-creator-graydon-hoare-talks-about-security-history-and-rust/",
+      "date_published": "2019-06-18T13:00:49+00:00",
+      "author": {
+        "name": "David Cassel",
+        "url": "https://thenewstack.io/author/destiny/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ca449299-1f7d-493f-9857-b1954e1f371d",
+      "title": "Rust std study series: Interior mutability",
+      "content_text": "Continuing the standard library study, it’s time for Cell<T>!",
+      "url": "https://ehsanmkermani.com/2019/06/18/rust-std-study-series-interior-mutability/",
+      "date_published": "2019-06-18T20:27:25+00:00",
+      "author": {
+        "name": "Ehsan M. Kermani",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c0a8ed1e-1273-49c3-b260-a700b475ada5",
+      "title": "Rust Regex Playground",
+      "content_text": "Web tool to evaluate rust regular expressions.",
+      "url": "https://2fd.github.io/rust-regex-playground/#method=find&regex=%5Cw+&text=abc",
+      "date_published": "2019-06-11T00:00:00+00:00",
+      "author": {
+        "name": "Fede Ramirez",
+        "url": "https://github.com/2fd"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ed6c2d09-739d-476b-b46f-441a1eefc6e3",
+      "title": "A Journey Through Rust Lifetimes",
+      "content_text": "I wanted to write an article about one aspect of Rust I really put off for a long while — lifetimes. They are one of the hardest parts about Rust to wrap one’s brain around. Many of us are simply not used to a compiler with a paradigm around memory ownership where such things are needed.\n\nLifetimes help the compiler make your code safer (i.e. less prone to crashing by using unexpected places in memory). Even if we don’t write them in our code, the compiler is smart enough to figure out your lifetimes without you under the covers. They are often times your secret allies, so let's learn a bit about them.",
+      "url": "https://medium.com/@richardanaya/a-journey-through-rust-lifetimes-5a08782c7091",
+      "date_published": "2019-06-13T00:09:47.932+00:00",
+      "author": {
+        "name": "Richard Anaya",
+        "url": "https://medium.com/@richardanaya"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f545777e-e75d-40c5-af12-a6c8b2d962f4",
+      "title": "How to Emulate a Game Boy: The Book",
+      "content_text": "DMG-01 is a guide for how to emulate a Game Boy. Together, we'll explore the insides of one of the world's most beloved computers.",
+      "url": "https://blog.ryanlevick.com/DMG-01/",
+      "date_published": "2019-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "d682ecb5-9935-4073-8865-f5a66f2a65f5",
+      "title": "Non-Lexical Lifetimes arrives for everyone",
+      "content_text": "It has been literally years since I last posted to this blog. I have been doing a bunch of Rust compiler work. One big feature has been deployed: Non-Lexical Lifetimes (hereafter denoted “NLL”).\n\nThe motivation for this blog post: The next version of Rust, 1.36, is going to have NLL turned on for the 2015 edition. Going forward, all editions of Rust will now use NLL.",
+      "url": "http://blog.pnkfx.org/blog/2019/06/26/breaking-news-non-lexical-lifetimes-arrives-for-everyone/",
+      "date_published": "2019-06-26T12:54:29+02:00",
+      "author": {
+        "name": "Felix S. Klock II",
+        "url": "http://blog.pnkfx.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f85b4664-304e-4eeb-a93b-2377b74263cd",
+      "title": "async log",
+      "content_text": "Today we'd like to introduce async-log, a general-purpose crate that extends the standard log crate with asynchronous metadata. This is a first step in introducing full-fledged asynchronous tracing capabilities to Rust.",
+      "url": "https://blog.yoshuawuyts.com/async-log/",
+      "tweet_url": "https://twitter.com/yoshuawuyts/status/1144750481631301632",
+      "date_published": "2019-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "ae8feddf-191a-444f-9423-e7a3e0b4b356",
       "title": "Writing a proxy in Rust and why it is the language of the future",
       "content_text": "It’s been a year since I wrote a little proxy with Rust, it is one of my first projects with this language and I learned a lot writing it. To sum up a bit, the main goal of this proxy is to be really simple to use and easy to extend with middlewares. It targets HTTP APIs and can be used in front of a lot of services. This proxy has been used in multiple projects, with microservices architecture and so on…",

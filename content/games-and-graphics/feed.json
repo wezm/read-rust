@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f545777e-e75d-40c5-af12-a6c8b2d962f4",
+      "title": "How to Emulate a Game Boy: The Book",
+      "content_text": "DMG-01 is a guide for how to emulate a Game Boy. Together, we'll explore the insides of one of the world's most beloved computers.",
+      "url": "https://blog.ryanlevick.com/DMG-01/",
+      "date_published": "2019-06-29T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://blog.ryanlevick.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "a47585b4-821e-445c-84dd-003d3b449f7f",
       "title": "Way of Rhea’s Entity System",
       "content_text": "Entity systems won by a long shot, so that’s what I’m going to be writing about today. In particular, I’m going to outline the process that lead me to Way of Rhea’s current entity system. Way of Rhea is being built in a custom engine and scripting language written in Rust, but the ideas described should still be applicable elsewhere. Hopefully this writeup will be found helpful, or at least interesting. :)",

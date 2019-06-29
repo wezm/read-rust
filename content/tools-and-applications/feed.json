@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c0a8ed1e-1273-49c3-b260-a700b475ada5",
+      "title": "Rust Regex Playground",
+      "content_text": "Web tool to evaluate rust regular expressions.",
+      "url": "https://2fd.github.io/rust-regex-playground/#method=find&regex=%5Cw+&text=abc",
+      "date_published": "2019-06-11T00:00:00+00:00",
+      "author": {
+        "name": "Fede Ramirez",
+        "url": "https://github.com/2fd"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "6a4e1bf9-728a-4c25-919d-05ae4664366c",
       "title": "Building Standalone Python Applications with PyOxidizer",
       "content_text": "Today, I'm excited to announce the first release of PyOxidizer (project, documentation), an open source utility that aims to solve the Python application distribution problem! (The installation instructions are in the docs.) PyOxidizer's marquee feature is that it can produce a single file executable containing a fully-featured Python interpreter, its extensions, standard library, and your application's modules and resources.",
