@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "cb4c2736-6856-435e-a605-8d7b2155a1c3",
+      "title": "My iterator is returning a reference to a reference",
+      "content_text": "Sometimes you mean it. Other times you really don't. It can be a bit of a headscratcher, but is not a particularly complicated situation, just easy to stumble into on a tired afternoon. In the end it all comes down to the ensuring you're being purposeful about what you're iterating over. I'll take a relatively brief dive into what can cause this, and how you can get back to iterating over what you want to iterate over.",
+      "url": "https://blog.tawhidhannan.co.uk/rust/tidbits/rust-double-ref",
+      "date_published": "2019-06-23T00:00:00+00:00",
+      "author": {
+        "name": "Tawhid Hannan",
+        "url": "https://blog.tawhidhannan.co.uk/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c39c6210-76a8-46f1-ab2d-b6f1be909232",
+      "title": "Understanding Closures in Rust",
+      "content_text": "Summary: Closures are a combination of a function pointer (fn) and a context. A closure with no context is just a function pointer. A closure which has an immutable context belongs to Fn. A closure which has a mutable context belongs to FnMut. A closure that owns its context belongs to FnOnce.",
+      "url": "https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759",
+      "date_published": "2019-06-26T10:27:58.447+00:00",
+      "author": {
+        "name": "Andrew Pritchard",
+        "url": "https://medium.com/@andrewjpritchard"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f6b00396-a786-403b-b392-16e784f32241",
       "title": "Rust Creator Graydon Hoare Talks About Security, History, and Rust",
       "content_text": "We’re approaching the 9th anniversary of the day Graydon Hoare (and numerous contributors) first revealed to the world the newly-designed Rust programming language. So we thought it’d be a good time to assess our current landscape.\n\nHoare graciously agreed, sharing his thoughts on everything from the state of systems programming, to the difficulty of defining safety on ever-more complex systems — and whether we’re truly more secure today, or confronting an inherited software mess that will take decades to clean up.",

@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "876033ef-0f64-4108-89c6-8ce8d6536ac7",
+      "title": "RESS (Rusty EcmaScript Scanner) 0.7.0 bring large performance improvements",
+      "content_text": "A blog about learning computer science concepts with practical projects",
+      "url": "https://wiredforge.com/blog/ress-7/",
+      "date_published": "2019-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Crates",
+        "Performance"
+      ]
+    },
+    {
+      "id": "1ea200e9-2dda-4cad-9190-7aec92439026",
+      "title": "Winit 0.20, the state of windowing in Rust, and a request for help",
+      "content_text": "I’m one of the maintainers of Winit, the main pure-Rust window creation library. Even if you haven’t used it directly, you’ve probably heard of projects that depend on it - Servo and Alacritty being the best-known applications that depend on our codebase. If you’ve done any graphics programming in Rust using Glutin (or dependent projects including gfx-rs, Glium, and Amethyst) we’ve been the ones making the windows actually show up on your desktop.\n\nThis announcement details the major changes since Winit 0.19. Also, we are looking for new contributors! If you are interested in working on the foundations of Rust’s GUI story, now is a great time to join the project.",
+      "url": "https://users.rust-lang.org/t/winit-0-20-the-state-of-windowing-in-rust-and-a-request-for-help/29485",
+      "date_published": "2019-06-21T16:16:03+00:00",
+      "author": {
+        "name": "Osspial",
+        "url": "https://users.rust-lang.org/u/osspial/summary"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f85b4664-304e-4eeb-a93b-2377b74263cd",
       "title": "async log",
       "content_text": "Today we'd like to introduce async-log, a general-purpose crate that extends the standard log crate with asynchronous metadata. This is a first step in introducing full-fledged asynchronous tracing capabilities to Rust.",

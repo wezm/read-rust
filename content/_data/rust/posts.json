@@ -10,6 +10,63 @@
   },
   "items": [
     {
+      "id": "cb4c2736-6856-435e-a605-8d7b2155a1c3",
+      "title": "My iterator is returning a reference to a reference",
+      "content_text": "Sometimes you mean it. Other times you really don't. It can be a bit of a headscratcher, but is not a particularly complicated situation, just easy to stumble into on a tired afternoon. In the end it all comes down to the ensuring you're being purposeful about what you're iterating over. I'll take a relatively brief dive into what can cause this, and how you can get back to iterating over what you want to iterate over.",
+      "url": "https://blog.tawhidhannan.co.uk/rust/tidbits/rust-double-ref",
+      "date_published": "2019-06-23T00:00:00+00:00",
+      "author": {
+        "name": "Tawhid Hannan",
+        "url": "https://blog.tawhidhannan.co.uk/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "876033ef-0f64-4108-89c6-8ce8d6536ac7",
+      "title": "RESS (Rusty EcmaScript Scanner) 0.7.0 bring large performance improvements",
+      "content_text": "A blog about learning computer science concepts with practical projects",
+      "url": "https://wiredforge.com/blog/ress-7/",
+      "date_published": "2019-06-26T00:00:00+00:00",
+      "author": {
+        "name": "Robert Masen",
+        "url": "https://wiredforge.com/"
+      },
+      "tags": [
+        "Crates",
+        "Performance"
+      ]
+    },
+    {
+      "id": "c39c6210-76a8-46f1-ab2d-b6f1be909232",
+      "title": "Understanding Closures in Rust",
+      "content_text": "Summary: Closures are a combination of a function pointer (fn) and a context. A closure with no context is just a function pointer. A closure which has an immutable context belongs to Fn. A closure which has a mutable context belongs to FnMut. A closure that owns its context belongs to FnOnce.",
+      "url": "https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759",
+      "date_published": "2019-06-26T10:27:58.447+00:00",
+      "author": {
+        "name": "Andrew Pritchard",
+        "url": "https://medium.com/@andrewjpritchard"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1ea200e9-2dda-4cad-9190-7aec92439026",
+      "title": "Winit 0.20, the state of windowing in Rust, and a request for help",
+      "content_text": "I’m one of the maintainers of Winit, the main pure-Rust window creation library. Even if you haven’t used it directly, you’ve probably heard of projects that depend on it - Servo and Alacritty being the best-known applications that depend on our codebase. If you’ve done any graphics programming in Rust using Glutin (or dependent projects including gfx-rs, Glium, and Amethyst) we’ve been the ones making the windows actually show up on your desktop.\n\nThis announcement details the major changes since Winit 0.19. Also, we are looking for new contributors! If you are interested in working on the foundations of Rust’s GUI story, now is a great time to join the project.",
+      "url": "https://users.rust-lang.org/t/winit-0-20-the-state-of-windowing-in-rust-and-a-request-for-help/29485",
+      "date_published": "2019-06-21T16:16:03+00:00",
+      "author": {
+        "name": "Osspial",
+        "url": "https://users.rust-lang.org/u/osspial/summary"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f6b00396-a786-403b-b392-16e784f32241",
       "title": "Rust Creator Graydon Hoare Talks About Security, History, and Rust",
       "content_text": "We’re approaching the 9th anniversary of the day Graydon Hoare (and numerous contributors) first revealed to the world the newly-designed Rust programming language. So we thought it’d be a good time to assess our current landscape.\n\nHoare graciously agreed, sharing his thoughts on everything from the state of systems programming, to the difficulty of defining safety on ever-more complex systems — and whether we’re truly more secure today, or confronting an inherited software mess that will take decades to clean up.",
