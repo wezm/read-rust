@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "9618e311-ec84-431c-97ab-c9f010c3c65c",
+      "title": "Optimizing jieba-rs to be 33% faster than cppjieba",
+      "content_text": "This blog post is mainly to share my experience on taking an emerging programming language’s ecosystem seriously and evaluating it by working on a serious project, and see how far we can go in terms of performance and development experience. The project I chose as mentioned in the title is jieba-rs, the rust implementation of a popular Chinese word segmentation library: Jieba.",
+      "url": "https://blog.paulme.ng/posts/2019-06-30-optimizing-jieba-rs-to-be-33percents-faster-than-cppjieba.html",
+      "date_published": "2019-06-30T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/archive.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "bce3d472-5591-44cc-b52a-2573bf8d9f55",
+      "title": "Compiling Rust Apps for Termux with nix-shell",
+      "content_text": "I've been building a program to track how I spend my time, and a couple of the requirements are an interface on my phone, and sync between multiple devices. Since I haven't built an android app in forever, I decided to target termux, at least initially. This will allow me to use the app and test out the synchronization protocol without a ton of upfront effort into building a graphical user interface.",
+      "url": "https://blog.geemili.xyz/blog/rust-app-on-termux-with-nix/",
+      "date_published": "2019-06-29T06:54:28-05:00",
+      "author": {
+        "name": "LeRoyce Pearson",
+        "url": "https://geemili.xyz/blog/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "a3749f41-8d22-4fa8-9f5d-bb1e699f333c",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 2",
+      "content_text": "The next step in the journey of ptrace was to bite the bullet (or at least I thought) and implement system-call tracing. Since the kernel must be able to handle system-calls of processes, it’s quite obvious that the way to set a breakpoint should involve the kernel, running in the context of the tracee, should notify the tracer and wait. So the biggest challenge would be to figure out how kernel synchronization worked.",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-2/",
+      "date_published": "2019-06-30T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "cb4c2736-6856-435e-a605-8d7b2155a1c3",
       "title": "My iterator is returning a reference to a reference",
       "content_text": "Sometimes you mean it. Other times you really don't. It can be a bit of a headscratcher, but is not a particularly complicated situation, just easy to stumble into on a tired afternoon. In the end it all comes down to the ensuring you're being purposeful about what you're iterating over. I'll take a relatively brief dive into what can cause this, and how you can get back to iterating over what you want to iterate over.",
@@ -10584,7 +10626,7 @@
       "date_published": "2018-11-28T00:00:00+00:00",
       "author": {
         "name": "Ralf Biedert",
-        "url": "https://github.com/ralfbiedert"
+        "url": "https://xr.io/"
       },
       "tags": [
         "Language"

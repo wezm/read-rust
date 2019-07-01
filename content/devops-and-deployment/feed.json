@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bce3d472-5591-44cc-b52a-2573bf8d9f55",
+      "title": "Compiling Rust Apps for Termux with nix-shell",
+      "content_text": "I've been building a program to track how I spend my time, and a couple of the requirements are an interface on my phone, and sync between multiple devices. Since I haven't built an android app in forever, I decided to target termux, at least initially. This will allow me to use the app and test out the synchronization protocol without a ton of upfront effort into building a graphical user interface.",
+      "url": "https://blog.geemili.xyz/blog/rust-app-on-termux-with-nix/",
+      "date_published": "2019-06-29T06:54:28-05:00",
+      "author": {
+        "name": "LeRoyce Pearson",
+        "url": "https://geemili.xyz/blog/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "dd7226ff-eb20-4edf-b420-9e6bdecf4ddc",
       "title": "Automating Rust and NodeJS deployment on AWS Lambda using layers",
       "content_text": "Part of our stack at Clevy is written in Rust, and we use Neon to ease the bindings with other parts of the stack written in NodeJS. Recently, we needed to deploy this stack on AWS Lambda, which runs a very specific NodeJS runtime, not cross-compatible with our existing stack. Since we struggled a little bit with getting Lambda/Rust/Node to play nicely together, I figured I would post a short how-to of what we found worked well for us. You can of course take this as a base and change it to your liking!",

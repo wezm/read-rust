@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9618e311-ec84-431c-97ab-c9f010c3c65c",
+      "title": "Optimizing jieba-rs to be 33% faster than cppjieba",
+      "content_text": "This blog post is mainly to share my experience on taking an emerging programming language’s ecosystem seriously and evaluating it by working on a serious project, and see how far we can go in terms of performance and development experience. The project I chose as mentioned in the title is jieba-rs, the rust implementation of a popular Chinese word segmentation library: Jieba.",
+      "url": "https://blog.paulme.ng/posts/2019-06-30-optimizing-jieba-rs-to-be-33percents-faster-than-cppjieba.html",
+      "date_published": "2019-06-30T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/archive.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "876033ef-0f64-4108-89c6-8ce8d6536ac7",
       "title": "RESS (Rusty EcmaScript Scanner) 0.7.0 bring large performance improvements",
       "content_text": "A blog about learning computer science concepts with practical projects",
