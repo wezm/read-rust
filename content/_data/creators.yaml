@@ -1,5 +1,21 @@
 ---
   -
+    name: Kat Marchán
+    avatar: zcat.jpg
+    support:
+      name: Support on GitHub
+      link: 'https://github.com/users/zkat/sponsorship'
+    code:
+      name: 'zcat'
+      link: 'https://github.com/zcat'
+    description: |
+      Kat is getting involved with the Rust ecosystem, writing
+      libraries like <a href="https://crates.io/crates/ssri">ssri</a>, and
+      <a href="https://github.com/zkat/cacache-rs">cacache</a>. They're
+      looking forward to doing more for the Rust community as they keep
+      learning the language.
+    tags: [crates]
+  -
     name: Jacky Alciné
     avatar: jackyalcine.jpg
     support:
