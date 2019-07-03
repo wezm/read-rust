@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c7f25b3a-3d76-4b05-85df-6bf59fb5c92a",
+      "title": "Aelve Codesearch: Regex-based search across all of crates.io",
+      "content_text": "Search the code of all crates published to crates.io.",
+      "url": "https://codesearch.aelve.com/rust",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Aelve",
+        "url": "https://aelve.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "c0a8ed1e-1273-49c3-b260-a700b475ada5",
       "title": "Rust Regex Playground",
       "content_text": "Web tool to evaluate rust regular expressions.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "fdaab910-4937-451e-9fe4-3cfd693069b8",
+      "title": "Building crates so they look like C(ABI) Libraries",
+      "content_text": "How to write a well behaved C-API library in Rust.",
+      "url": "https://dev.to/luzero/building-crates-so-they-look-like-c-abi-libraries-1ibn",
+      "date_published": "2019-07-01T19:40:21+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://dev.to/luzero"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "876033ef-0f64-4108-89c6-8ce8d6536ac7",
       "title": "RESS (Rusty EcmaScript Scanner) 0.7.0 bring large performance improvements",
       "content_text": "A blog about learning computer science concepts with practical projects",

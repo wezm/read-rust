@@ -10,6 +10,163 @@
   },
   "items": [
     {
+      "id": "ec53084d-522d-4916-90b2-c8adda4b75f2",
+      "title": "Rust modules vs files",
+      "content_text": "A while back, I asked on Twitter what people found confusing in Rust, and one of the top topics was “how the module system maps to files”. I remember struggling with that a lot when I first started Rust, so I’ll try to explain it in a way that makes sense to me.",
+      "url": "https://amos.me/blog/2019/rust-modules-vs-files/",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "amos",
+        "url": "https://amos.me/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ead392a4-baff-4c08-9820-8fd74ef14200",
+      "title": "TLS performance: rustls versus OpenSSL",
+      "content_text": "There are quite a few dimensions to how performance can vary between TLS libraries such as handshake performance and bulk performance. This series of blog posts measures and compares the performance of rustls (a TLS library in rust) and OpenSSL.",
+      "url": "https://jbp.io/2019/07/01/rustls-vs-openssl-performance.html",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Joseph Birr-Pixton",
+        "url": "https://jbp.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "db9d60ca-f153-4abf-9654-ac53ec91472e",
+      "title": "How to use Rust Yew",
+      "content_text": "In this post, we will prepare development environment for Rust Yew. Then, we will write minimal code with it and learn how to deploy it in your website also.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-use-Rust-Yew",
+      "date_published": "2019-06-30T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6e2a2811-942b-4e62-b173-6d2b0d3e0acd",
+      "title": "Writing a small ray tracer in Rust and Zig",
+      "content_text": "The two languages that I spent most of my time daydreaming about writing code in are Rust and Zig. Would the lack of features in Zig make me more or less productive than with Rust’s feature overload? Which language is more enjoyable to use for writing a small, self-contained computer graphics project?  To find out, I decided to implement the same simple project in both languages: a small ray tracer, following the book Ray Tracing in One Weekend.",
+      "url": "https://nelari.us/post/raytracer_with_rust_and_zig/",
+      "date_published": "2019-06-27T20:00:00+02:00",
+      "author": {
+        "name": "Johann Muszynski",
+        "url": "https://nelari.us/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
+      "id": "a7b2c09d-06ca-4ae2-89c2-70bf78282396",
+      "title": "One Program Written in Python, Go, and Rust",
+      "content_text": "This is a subjective, primarily developer-ergonomics-based comparison of the three languages from the perspective of a Python developer, but you can skip the prose and go to the code samples, the performance comparison if you want some hard numbers, the takeaway for the tl;dr, or the Python, Go, and Rust diffimg implementations.",
+      "url": "http://www.nicolas-hahn.com/python/go/rust/programming/2019/07/01/program-in-python-go-rust/",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Nicolas Hahn",
+        "url": "http://www.nicolas-hahn.com/"
+      },
+      "tags": [
+        "Language",
+        "Performance"
+      ]
+    },
+    {
+      "id": "faa1d1ec-2bcd-4363-832a-2e03e35d8124",
+      "title": "Increase Rust and WebAssembly performance",
+      "content_text": "What are we gonna do? Create a WebAssembly application that takes a string in markdown format and converts that into HTML.",
+      "url": "https://dev.to/sendilkumarn/increase-rust-and-webassembly-performance-382h",
+      "date_published": "2019-07-02T00:40:25+00:00",
+      "author": {
+        "name": "Sendil Kumar N",
+        "url": "https://dev.to/sendilkumarn"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "fdaab910-4937-451e-9fe4-3cfd693069b8",
+      "title": "Building crates so they look like C(ABI) Libraries",
+      "content_text": "How to write a well behaved C-API library in Rust.",
+      "url": "https://dev.to/luzero/building-crates-so-they-look-like-c-abi-libraries-1ibn",
+      "date_published": "2019-07-01T19:40:21+00:00",
+      "author": {
+        "name": "Luca Barbato",
+        "url": "https://dev.to/luzero"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "38abc54a-6b27-48ec-8789-363ead337d8a",
+      "title": "Sharing references between Python and Rust",
+      "content_text": "In 2018, the Mercurial project decided to use Rust to improve performance and maintainability of previous high-performance code. We have faced some interesting challenges when bridging the Python implementation with the new Rust code, and this is one that I have not found any literature about.",
+      "url": "https://raphaelgomes.dev/blog/articles/2019-07-01-sharing-references-between-python-and-rust.html",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Raphaël Gomès",
+        "url": "https://raphaelgomes.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "09564ee8-19af-4b03-95c4-b231ffd7f24f",
+      "title": "Status of rust-analyzer: Achievements and Open Collective",
+      "content_text": "rust-analyzer is an experimental compiler frontend for the Rust programming language. The ultimate goal for this project is to provide the perfect IDE experience for Rust, with all IDE features working flawlessly while editing code. This post talks about what happened to rust-analyzer in between the all-hands and today, discusses future plans, and also announces the rust-analyzer Open Collective.",
+      "url": "https://ferrous-systems.com/blog/rust-analyzer-status-opencollective/",
+      "date_published": "2019-07-01T22:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Language",
+        "Community"
+      ]
+    },
+    {
+      "id": "c7f25b3a-3d76-4b05-85df-6bf59fb5c92a",
+      "title": "Aelve Codesearch: Regex-based search across all of crates.io",
+      "content_text": "Search the code of all crates published to crates.io.",
+      "url": "https://codesearch.aelve.com/rust",
+      "date_published": "2019-07-01T00:00:00+00:00",
+      "author": {
+        "name": "Aelve",
+        "url": "https://aelve.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "247efda7-549d-4c38-8af1-733755fc4aa7",
+      "title": "Rust WebAssembly Hello World - Deep Dive with wasm-bindgen and wasm2wat",
+      "content_text": "In this article we are going to create a WebAssembly Hello World program with Rust. You might be thinking that a WebAssembly Hello World tutorial could be found almost everywhere, including one on Mozilla website and rustwasm.github.io.",
+      "url": "https://www.webassemblyman.com/rust_webassembly_hello_world.html",
+      "date_published": "2019-07-02T00:00:00+00:00",
+      "author": {
+        "name": "nicole",
+        "url": "https://www.webassemblyman.com/index.html"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "9618e311-ec84-431c-97ab-c9f010c3c65c",
       "title": "Optimizing jieba-rs to be 33% faster than cppjieba",
       "content_text": "This blog post is mainly to share my experience on taking an emerging programming language’s ecosystem seriously and evaluating it by working on a serious project, and see how far we can go in terms of performance and development experience. The project I chose as mentioned in the title is jieba-rs, the rust implementation of a popular Chinese word segmentation library: Jieba.",

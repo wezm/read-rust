@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "09564ee8-19af-4b03-95c4-b231ffd7f24f",
+      "title": "Status of rust-analyzer: Achievements and Open Collective",
+      "content_text": "rust-analyzer is an experimental compiler frontend for the Rust programming language. The ultimate goal for this project is to provide the perfect IDE experience for Rust, with all IDE features working flawlessly while editing code. This post talks about what happened to rust-analyzer in between the all-hands and today, discusses future plans, and also announces the rust-analyzer Open Collective.",
+      "url": "https://ferrous-systems.com/blog/rust-analyzer-status-opencollective/",
+      "date_published": "2019-07-01T22:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Language",
+        "Community"
+      ]
+    },
+    {
       "id": "254cd239-bad6-4331-ad8e-fe00edfb834d",
       "title": "Announcing The Triage WG",
       "content_text": "The Release team is pleased to announce the triage working group , which will assume responsibility from the release team for triaging issues and pull requests in the rust-lang repositories as well as for diagnosing failures in Crater runs.",
