@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "cfa3bc39-5cbc-4544-ae37-488a111411ef",
+      "title": "Safer, Simpler Embedded Rust with Apache Mynewt on STM32 Blue Pill",
+      "content_text": "Declarative and Procedural Macros (plus bindgen and tips for Visual Studio Code) to protect Embedded Rust coders from stumbling into embedded traps.",
+      "url": "https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac",
+      "date_published": "2019-07-07T04:58:53.320+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "e716273a-01bd-4a08-a120-09a0511c71a3",
+      "title": "The Embedded Working Group Newsletter - 18",
+      "content_text": "This is the eighteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-18/",
+      "date_published": "2019-07-02T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "db087996-8806-49fc-8d6e-78f4158cf0f6",
       "title": "Help Wanted Solving Our BLE Stack Problem",
       "content_text": "Jonas Schievink and I have been working on a Bluetooth Low Energy stack in Rust, Rubble. It is now in a state where hard-coded services can be created and used, with all lower layers of the stack functioning.\n\nThe next step is designing and implementing both an interface for managing Services and Characteristics, as well as a system for notifications when a value is changed. This is fairly complex, with no clear or obvious solution hence the call for help.",

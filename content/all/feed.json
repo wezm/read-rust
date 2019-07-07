@@ -10,6 +10,118 @@
   },
   "items": [
     {
+      "id": "cfa3bc39-5cbc-4544-ae37-488a111411ef",
+      "title": "Safer, Simpler Embedded Rust with Apache Mynewt on STM32 Blue Pill",
+      "content_text": "Declarative and Procedural Macros (plus bindgen and tips for Visual Studio Code) to protect Embedded Rust coders from stumbling into embedded traps.",
+      "url": "https://medium.com/@ly.lee/safer-simpler-embedded-rust-with-apache-mynewt-on-stm32-blue-pill-d8fcb41969ac",
+      "date_published": "2019-07-07T04:58:53.320+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "a0b1cf6f-32c6-43dc-bfc4-fb86068d84fa",
+      "title": "pre-alpha release - meli terminal mail client",
+      "content_text": "An early release with basic features and only Maildir support has been published in meli’s git repositories. meli is a new experimental mail client for the terminal. It’s a from-scratch implementation in order to experiment with ideas I had about a client’s design.",
+      "url": "https://meli.delivery/posts/2019-06-15-pre-alpha.html",
+      "date_published": "2019-06-15T00:00:00+00:00",
+      "author": {
+        "name": "epilys",
+        "url": "https://meli.delivery/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "e716273a-01bd-4a08-a120-09a0511c71a3",
+      "title": "The Embedded Working Group Newsletter - 18",
+      "content_text": "This is the eighteenth newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-18/",
+      "date_published": "2019-07-02T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "75040309-d3a6-4941-a8d1-28c6f8bdfc19",
+      "title": "Announcing Rust 1.36.0",
+      "content_text": "This release brings many changes, including the stabilization of the Future trait, the alloc crate, the MaybeUninit<T> type, NLL for Rust 2015, a new HashMap<K, V> implementation, and --offline support in Cargo. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/07/04/Rust-1.36.0.html",
+      "date_published": "2019-07-04T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4ab235dc-fc27-4dfe-aefc-1bcc16a23199",
+      "title": "Cargo --offline ✈️",
+      "content_text": "Rust 1.36 is released on the 4th July and includes a bunch of new stuff. This blog post is about one newly stable feature in Cargo: --offline.",
+      "url": "https://www.ncameron.org/blog/cargo-offline/",
+      "date_published": "2019-07-04T08:13:57+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b5b706cb-863b-4856-843d-6a894a7fc280",
+      "title": "Create Dev's offline page with Rust and WebAssembly 🦄💡✨",
+      "content_text": "Dev's offline page is fun. Can we do that with Rust and WebAssembly? The answer is yes. Let us do it.",
+      "url": "https://dev.to/sendilkumarn/create-dev-s-offline-page-with-rust-and-webassembly-21gn",
+      "date_published": "2019-07-03T23:14:51+00:00",
+      "author": {
+        "name": "Sendil Kumar N",
+        "url": "https://dev.to/sendilkumarn"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "a11e4440-7ad1-4e28-95d7-db6cc8a4544b",
+      "title": "Rust std study series: alloc",
+      "content_text": "Let’s get deep into std::alloc! The very basic need for any program to compile and execute is having access to either physical memory or virtual memory. An allocator is responsible for providing such an access. You can think of an allocator as a service, taking some sort of requests and either giving back a (pointer) to block of memory or some errors. In Rust, a request is a Layout i.e. some meta-data about how the memory we want is supposed to take up the space.",
+      "url": "https://ehsanmkermani.com/2019/07/03/rust-std-study-series-alloc/",
+      "date_published": "2019-07-04T00:20:38+00:00",
+      "author": {
+        "name": "Ehsan M. Kermani",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "04a62a1c-2acd-4ee3-8d83-eac3e9bcbca7",
+      "title": "Speedy Desktop Apps With GTK and Rust",
+      "content_text": "The web platform is the delivery mechanism of choice for a ton of software these days, either through the web browser itself or through Electron, but that doesn’t mean there isn’t a place for a good old fashioned straight-up desktop application in the picture.\n\nFortunately, it’s easier than ever to write a usable, pretty, and performant desktop app, using my language of choice (Rust) and the wildly successful cross-platform GUI framework GTK. In this blog post, we’ll walk through the source code of gDiceRoller. In future posts, I’ll explain how I packaged it for different systems.",
+      "url": "https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust/",
+      "date_published": "2019-07-05T14:00:00-07:00",
+      "author": {
+        "name": "Leonora Tindall",
+        "url": "https://nora.codes/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "ec53084d-522d-4916-90b2-c8adda4b75f2",
       "title": "Rust modules vs files",
       "content_text": "A while back, I asked on Twitter what people found confusing in Rust, and one of the top topics was “how the module system maps to files”. I remember struggling with that a lot when I first started Rust, so I’ll try to explain it in a way that makes sense to me.",

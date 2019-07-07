@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b5b706cb-863b-4856-843d-6a894a7fc280",
+      "title": "Create Dev's offline page with Rust and WebAssembly 🦄💡✨",
+      "content_text": "Dev's offline page is fun. Can we do that with Rust and WebAssembly? The answer is yes. Let us do it.",
+      "url": "https://dev.to/sendilkumarn/create-dev-s-offline-page-with-rust-and-webassembly-21gn",
+      "date_published": "2019-07-03T23:14:51+00:00",
+      "author": {
+        "name": "Sendil Kumar N",
+        "url": "https://dev.to/sendilkumarn"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "db9d60ca-f153-4abf-9654-ac53ec91472e",
       "title": "How to use Rust Yew",
       "content_text": "In this post, we will prepare development environment for Rust Yew. Then, we will write minimal code with it and learn how to deploy it in your website also.",

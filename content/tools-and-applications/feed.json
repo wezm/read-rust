@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "a0b1cf6f-32c6-43dc-bfc4-fb86068d84fa",
+      "title": "pre-alpha release - meli terminal mail client",
+      "content_text": "An early release with basic features and only Maildir support has been published in meli’s git repositories. meli is a new experimental mail client for the terminal. It’s a from-scratch implementation in order to experiment with ideas I had about a client’s design.",
+      "url": "https://meli.delivery/posts/2019-06-15-pre-alpha.html",
+      "date_published": "2019-06-15T00:00:00+00:00",
+      "author": {
+        "name": "epilys",
+        "url": "https://meli.delivery/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "04a62a1c-2acd-4ee3-8d83-eac3e9bcbca7",
+      "title": "Speedy Desktop Apps With GTK and Rust",
+      "content_text": "The web platform is the delivery mechanism of choice for a ton of software these days, either through the web browser itself or through Electron, but that doesn’t mean there isn’t a place for a good old fashioned straight-up desktop application in the picture.\n\nFortunately, it’s easier than ever to write a usable, pretty, and performant desktop app, using my language of choice (Rust) and the wildly successful cross-platform GUI framework GTK. In this blog post, we’ll walk through the source code of gDiceRoller. In future posts, I’ll explain how I packaged it for different systems.",
+      "url": "https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust/",
+      "date_published": "2019-07-05T14:00:00-07:00",
+      "author": {
+        "name": "Leonora Tindall",
+        "url": "https://nora.codes/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "c7f25b3a-3d76-4b05-85df-6bf59fb5c92a",
       "title": "Aelve Codesearch: Regex-based search across all of crates.io",
       "content_text": "Search the code of all crates published to crates.io.",
