@@ -9,7 +9,7 @@ chrono = { version = "0", features = ['serde'] }
 egg-mode = { version = "0", default-features = false, features = ["hyper-rustls"] }
 failure = "0"
 failure_derive = "0"
-feedfinder = "0"
+feedfinder = { git = "https://github.com/wezm/feedfinder.git", branch = "bump-dependencies" }
 getopts = "0"
 kuchiki = "0"
 mammut = "0"
