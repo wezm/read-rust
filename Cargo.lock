@@ -466,7 +466,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "feedfinder"
 version = "0.1.0"
-source = "git+https://github.com/wezm/feedfinder.git?branch=bump-dependencies#ade4f905758f7d086099463fba36195928834604"
+source = "git+https://github.com/wezm/feedfinder.git?branch=bump-dependencies#d4f3ee74bf9683b828978154679a6a24c0f17d1e"
 dependencies = [
  "failure 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "kuchiki 0.7.3 (registry+https://github.com/rust-lang/crates.io-index)",
