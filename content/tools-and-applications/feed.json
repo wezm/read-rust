@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "05694ac8-0c6b-413c-9853-a487c3d25652",
+      "title": "Drawing in GTK in Rust (part 1)",
+      "content_text": "It’s a double challenge: I’m learning Rust (but I can say I more or less know the language by now), and I’m trying to use GTK in Rust. I’m a complete beginner in GTK, and even if I know Rust, it does not mean I can use it properly. So I’ll learn a huge library (written in C) by using it in a complex and hard language I just learned. Well, well, good luck, me.",
+      "url": "https://medium.com/journey-to-rust/drawing-in-gtk-in-rust-part-1-4a401eecc4e0",
+      "date_published": "2019-07-08T07:10:41.840+00:00",
+      "author": {
+        "name": "George Shuklin",
+        "url": "https://medium.com/@george.shuklin"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "a0b1cf6f-32c6-43dc-bfc4-fb86068d84fa",
       "title": "pre-alpha release - meli terminal mail client",
       "content_text": "An early release with basic features and only Maildir support has been published in meli’s git repositories. meli is a new experimental mail client for the terminal. It’s a from-scratch implementation in order to experiment with ideas I had about a client’s design.",

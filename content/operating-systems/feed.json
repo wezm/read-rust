@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "6b3f54a7-e579-456f-8ee8-7753db3f7ee4",
+      "title": "RSoC: Ion as a Library, week 5",
+      "content_text": "Wrapping up the Ion as a library project. It is now possible to embed Ion in any Rust application. Ion takes any Read instance and can execute it (so yes, it is possible to run Ion without ever collecting the script’s binary stream). It takes care of expanding the input and managing the running applications in an efficient manner, with a comprehensive set of errors. Ion is now the rust-based, pipe-oriented liblua alternative.",
+      "url": "https://www.redox-os.org/news/rsoc-ion-lib-4/",
+      "date_published": "2019-07-07T00:00:00+00:00",
+      "author": {
+        "name": "AdminXVII",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "a3749f41-8d22-4fa8-9f5d-bb1e699f333c",
       "title": "RSoC: Implementing ptrace for Redox OS - part 2",
       "content_text": "The next step in the journey of ptrace was to bite the bullet (or at least I thought) and implement system-call tracing. Since the kernel must be able to handle system-calls of processes, it’s quite obvious that the way to set a breakpoint should involve the kernel, running in the context of the tracee, should notify the tracer and wait. So the biggest challenge would be to figure out how kernel synchronization worked.",
