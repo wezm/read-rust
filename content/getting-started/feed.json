@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7a2ae69b-3b31-45da-855b-592a86d96a6b",
+      "title": "CHIP-8 Emulator Rust Port",
+      "content_text": "I thought it would be a nice start to just take existing code and try to see how well it would translate from C++. I simply took my previous CHIP-8 emu and started to chip at it with the help of the docs. If you want to dive right in, here’s the code on GitHub. Anyway, it was my first go at Rust so go easy on me! =)",
+      "url": "https://ryp.github.io/emu/rust/chip8/2019/07/09/chip8-emulator-rust/",
+      "date_published": "2019-07-09T15:00:00+00:00",
+      "author": {
+        "name": "Ryp",
+        "url": "https://ryp.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "c03bd61e-3c2d-4e4d-a081-ffa0e3b641ed",
       "title": "Getting Started with Rust: Working with Files and Doing File I/O",
       "content_text": "This article demonstrates how to perform basic file and file I/O operations in Rust, and also introduces Rust's ownership concept and the Cargo tool. If you are seeing Rust code for the first time, this article should provide a pretty good idea of how Rust deals with files and file I/O, and if you've used Rust before, you still will appreciate the code examples in this article. ",

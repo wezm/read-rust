@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "eecb5f26-323a-4d45-8a03-4fef1b0943e0",
+      "title": "timetill.rs: highlighting all the Rust conferences around the world",
+      "content_text": "timetill.rs is a community project focused on highlighting all the Rust conferences around the world. Timetill.rs is an open project that anyone in the community can contribute to.",
+      "url": "https://timetill.rs/",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "XAMPPRocky",
+        "url": "https://github.com/XAMPPRocky"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "09564ee8-19af-4b03-95c4-b231ffd7f24f",
       "title": "Status of rust-analyzer: Achievements and Open Collective",
       "content_text": "rust-analyzer is an experimental compiler frontend for the Rust programming language. The ultimate goal for this project is to provide the perfect IDE experience for Rust, with all IDE features working flawlessly while editing code. This post talks about what happened to rust-analyzer in between the all-hands and today, discusses future plans, and also announces the rust-analyzer Open Collective.",

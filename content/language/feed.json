@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "6d02baa8-8fcd-45fa-9f96-d36a635a2379",
+      "title": "AiC: Unbounded queues and lang design",
+      "content_text": "I have been thinking about how language feature development works in Rust1. I wanted to write a post about what I see as one of the key problems: too much concurrency in our design process, without any kind of “back-pressure” to help keep the number of “open efforts” under control. This setup does enable us to get a lot of things done sometimes, but I believe it also leads to a number of problems.\n\nAlthough I don’t make any proposals in this post, I am basically advocating for changes to our process that can help us to stay focused on a few active things at a time. Basically, incorporating a notion of capacity such that, if we want to start something new, we either have to finish up with something or else find a way to grow our capacity.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/07/10/aic-unbounded-queues-and-lang-design/",
+      "date_published": "2019-07-10T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3d786e81-3097-48f1-aea9-9a86473f6957",
+      "title": "Functional Programming Jargon in Rust",
+      "content_text": "Github Repository: https://github.com/JasonShin/functional-programming-jargon.rsFunctional programming (FP) provides many advantages, and its popula...",
+      "url": "https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555",
+      "date_published": "2019-07-05T00:00:00+00:00",
+      "author": {
+        "name": "Jason Shin",
+        "url": "https://functional.works-hub.com/learn/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "75040309-d3a6-4941-a8d1-28c6f8bdfc19",
       "title": "Announcing Rust 1.36.0",
       "content_text": "This release brings many changes, including the stabilization of the Future trait, the alloc crate, the MaybeUninit<T> type, NLL for Rust 2015, a new HashMap<K, V> implementation, and --offline support in Cargo. Read on for a few highlights, or see the detailed release notes for additional information.",

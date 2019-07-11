@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "07e226de-482b-4f51-af76-adb65b4a35dc",
+      "title": "The Computer Language Benachmarks Game: Rust ranks #1 for n-body",
+      "content_text": "The Computer Language Benchmarks Game is a free software project for comparing how a given subset of simple algorithms can be implemented in various popular programming languages. I converted the fastest (dating early 2019) n-body C-implementation (#4) to Rust (#7) in a one-to-one fashion, gaining a performance encreasement by factor 1.6 to my own surprise.",
+      "url": "https://frehberg.com/2019/07/the-computer-language-benachmarks-game-rust-ranks-1-for-n-body/",
+      "date_published": "2019-07-09T16:53:57+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "ead392a4-baff-4c08-9820-8fd74ef14200",
       "title": "TLS performance: rustls versus OpenSSL",
       "content_text": "There are quite a few dimensions to how performance can vary between TLS libraries such as handshake performance and bulk performance. This series of blog posts measures and compares the performance of rustls (a TLS library in rust) and OpenSSL.",

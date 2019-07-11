@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "eecb5f26-323a-4d45-8a03-4fef1b0943e0",
+      "title": "timetill.rs: highlighting all the Rust conferences around the world",
+      "content_text": "timetill.rs is a community project focused on highlighting all the Rust conferences around the world. Timetill.rs is an open project that anyone in the community can contribute to.",
+      "url": "https://timetill.rs/",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "XAMPPRocky",
+        "url": "https://github.com/XAMPPRocky"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "6d02baa8-8fcd-45fa-9f96-d36a635a2379",
+      "title": "AiC: Unbounded queues and lang design",
+      "content_text": "I have been thinking about how language feature development works in Rust1. I wanted to write a post about what I see as one of the key problems: too much concurrency in our design process, without any kind of “back-pressure” to help keep the number of “open efforts” under control. This setup does enable us to get a lot of things done sometimes, but I believe it also leads to a number of problems.\n\nAlthough I don’t make any proposals in this post, I am basically advocating for changes to our process that can help us to stay focused on a few active things at a time. Basically, incorporating a notion of capacity such that, if we want to start something new, we either have to finish up with something or else find a way to grow our capacity.",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/07/10/aic-unbounded-queues-and-lang-design/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1149007905154318336",
+      "date_published": "2019-07-10T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7a2ae69b-3b31-45da-855b-592a86d96a6b",
+      "title": "CHIP-8 Emulator Rust Port",
+      "content_text": "I thought it would be a nice start to just take existing code and try to see how well it would translate from C++. I simply took my previous CHIP-8 emu and started to chip at it with the help of the docs. If you want to dive right in, here’s the code on GitHub. Anyway, it was my first go at Rust so go easy on me! =)",
+      "url": "https://ryp.github.io/emu/rust/chip8/2019/07/09/chip8-emulator-rust/",
+      "date_published": "2019-07-09T15:00:00+00:00",
+      "author": {
+        "name": "Ryp",
+        "url": "https://ryp.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "07e226de-482b-4f51-af76-adb65b4a35dc",
+      "title": "The Computer Language Benachmarks Game: Rust ranks #1 for n-body",
+      "content_text": "The Computer Language Benchmarks Game is a free software project for comparing how a given subset of simple algorithms can be implemented in various popular programming languages. I converted the fastest (dating early 2019) n-body C-implementation (#4) to Rust (#7) in a one-to-one fashion, gaining a performance encreasement by factor 1.6 to my own surprise.",
+      "url": "https://frehberg.com/2019/07/the-computer-language-benachmarks-game-rust-ranks-1-for-n-body/",
+      "date_published": "2019-07-09T16:53:57+00:00",
+      "author": {
+        "name": "Frank Rehberger",
+        "url": "https://frehberg.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "66342269-5693-4c70-a15c-917b7818dc07",
+      "title": "Collecting broadcast UDP packets using async networking in Rust",
+      "content_text": "Creating a simple console application in Rust for fun and profit, including some nice tricks to push async programming to the limits.",
+      "url": "https://medium.com/tresorit-engineering/collecting-broadcast-udp-packets-using-async-networking-in-rust-7fd93a631eac",
+      "date_published": "2019-07-08T10:39:21.932+00:00",
+      "author": {
+        "name": "Péter Budai",
+        "url": "https://medium.com/@peterbudai"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "3d786e81-3097-48f1-aea9-9a86473f6957",
+      "title": "Functional Programming Jargon in Rust",
+      "content_text": "Github Repository: https://github.com/JasonShin/functional-programming-jargon.rsFunctional programming (FP) provides many advantages, and its popula...",
+      "url": "https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555",
+      "tweet_url": "https://twitter.com/Functionalworks/status/1148584469470863361",
+      "date_published": "2019-07-05T00:00:00+00:00",
+      "author": {
+        "name": "Jason Shin",
+        "url": "https://functional.works-hub.com/learn/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ff6ab953-5b21-4852-b0e5-058c730767f5",
+      "title": "Rust, a Raspberry Pi and Addressable LED's",
+      "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.<Paste>",
+      "url": "https://blog.tomarrell.com/post/rust_and_leds",
+      "date_published": "2019-07-09T00:00:00+00:00",
+      "author": {
+        "name": "Tom Arrell",
+        "url": "https://blog.tomarrell.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "05694ac8-0c6b-413c-9853-a487c3d25652",
       "title": "Drawing in GTK in Rust (part 1)",
       "content_text": "It’s a double challenge: I’m learning Rust (but I can say I more or less know the language by now), and I’m trying to use GTK in Rust. I’m a complete beginner in GTK, and even if I know Rust, it does not mean I can use it properly. So I’ll learn a huge library (written in C) by using it in a complex and hard language I just learned. Well, well, good luck, me.",
