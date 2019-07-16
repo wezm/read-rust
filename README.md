@@ -24,6 +24,7 @@ them. The tools themselves are:
 
 * `add-url` add a new entry to `feed.json`.
 * `generate-rss` generates `feed.rss`, and the cobalt data from `feed.json`.
+* `opml2json` converts subscriptions downloaded from Feedbin into JSON.
 
 Running `make` will build the tools and generate the site content.
 
@@ -39,6 +40,16 @@ Running `make` will build the tools and generate the site content.
 
     cd content/images/u
     convert *.png *.jpg -set filename:name '%t' -resize 100\> -quality 60 'thumb/%[filename:name].jpg'
+
+### Updating OPML
+
+Download subscriptions from [Feedbin](https://feedbin.com/settings/import_export), then:
+
+    ./script/opml2json ~/Downloads/subscriptions.xml > content/_data/rust/blogs.json
+    make
+    xmllint public/rust-blogs.opml
+
+Some manual tweaks to the JSON might be needed.
 
 [self]: https://readrust.net/
 [contributing]: https://readrust.net/submit.html
