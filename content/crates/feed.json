@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "84e8a302-326a-4c95-a6ae-78d4e8fa1029",
+      "title": "Migrating a crate from futures 0.1 to 0.3",
+      "content_text": "I recently migrated a small/medium-sized crate from Futures 0.1 to 0.3. It was fairly easy, but there were some tricky bits and some things that were not well documented, so I think it is worth me writing up my experience.",
+      "url": "https://www.ncameron.org/blog/migrating-a-crate-from-futures-0-1-to-0-3/",
+      "date_published": "2019-07-08T21:24:28+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "907a2ee8-f215-4259-8179-bc4d542a7647",
+      "title": "Stream combinators implemented using for await syntax",
+      "content_text": " I am a big fan of simplifying the existent code in futures-rs using async/await syntax. My goal was to rewrite the combinators in such a way that even a newbie can understand what was going on. However I met several issues with Stream combinators because it was a little bit hard to construct an impl Stream without defining a struct with a ::poll_next method. So I used Stream::unfold that can create streams from a closure.",
+      "url": "https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://www.reddit.com/user/rproskuryakov/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "fdaab910-4937-451e-9fe4-3cfd693069b8",
       "title": "Building crates so they look like C(ABI) Libraries",
       "content_text": "How to write a well behaved C-API library in Rust.",

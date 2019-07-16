@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "dc58ea4c-1cea-4142-b9e7-00e066527e35",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 3",
+      "content_text": "Before I dive in to this week’s actions, I am pleased to announce that all the last weeks’ work is merged! This merge means you can now experiment with basic ptrace functionality using only basic registers and PTRACE_SYSCALL/PTRACE_SINGLESTEP. I have already opened the second PR in the batch: Ptrace memory reading and floating point registers support which will supply the “final bits” of the initial implementation, before all the nitpicking of final concerns can start (not to underestimate the importance and difficulty of these nitpicks - there are some areas of ptrace that aren’t even thought about yet and those will need tending to)! I will comment on these changes in this blog post, as there are some interesting things going on!",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-3/",
+      "date_published": "2019-07-07T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "6b3f54a7-e579-456f-8ee8-7753db3f7ee4",
       "title": "RSoC: Ion as a Library, week 5",
       "content_text": "Wrapping up the Ion as a library project. It is now possible to embed Ion in any Rust application. Ion takes any Read instance and can execute it (so yes, it is possible to run Ion without ever collecting the script’s binary stream). It takes care of expanding the input and managing the running applications in an efficient manner, with a comprehensive set of errors. Ion is now the rust-based, pipe-oriented liblua alternative.",

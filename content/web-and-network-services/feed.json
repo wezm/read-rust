@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "28d2b0b9-8bfb-4541-b2f5-f84ed2670d56",
+      "title": "Fullstack Rust with Yew",
+      "content_text": "In the previous post How to use Rust Yew, we learnt how to prepare minimal files to build webassembly files with Yew for Rust frontend. We will advance it with some Rust server side code and write a bash file to automate the process.",
+      "url": "https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "66342269-5693-4c70-a15c-917b7818dc07",
       "title": "Collecting broadcast UDP packets using async networking in Rust",
       "content_text": "Creating a simple console application in Rust for fun and profit, including some nice tricks to push async programming to the limits.",

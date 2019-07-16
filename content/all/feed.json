@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "20553a37-476d-45bb-8180-3de54aa932cd",
+      "title": "Testable Component Design in Rust",
+      "content_text": "I consider myself an advanced beginner in Rust. There is still much I’m wrapping my head around–and I still get caught off guard by the “move” and “mutability” rules Rust enforces. However, in keeping with my personal emphasis, I’ve devoted my efforts to learning how to create automated tests in Rust. The below guidelines are not exhaustive, but represent my learning so far. Feedback is welcome!",
+      "url": "http://iextendable.com/2019/07/12/testable-component-design-in-rust/",
+      "date_published": "2019-07-12T13:57:01+00:00",
+      "author": {
+        "name": "Chris McKenzie",
+        "url": "http://iextendable.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dc58ea4c-1cea-4142-b9e7-00e066527e35",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 3",
+      "content_text": "Before I dive in to this week’s actions, I am pleased to announce that all the last weeks’ work is merged! This merge means you can now experiment with basic ptrace functionality using only basic registers and PTRACE_SYSCALL/PTRACE_SINGLESTEP. I have already opened the second PR in the batch: Ptrace memory reading and floating point registers support which will supply the “final bits” of the initial implementation, before all the nitpicking of final concerns can start (not to underestimate the importance and difficulty of these nitpicks - there are some areas of ptrace that aren’t even thought about yet and those will need tending to)! I will comment on these changes in this blog post, as there are some interesting things going on!",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-3/",
+      "date_published": "2019-07-07T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "3161bc30-9df4-4273-8ff7-301ea0426d9f",
+      "title": "\"What The Hardware Does\" is not What Your Program Does: Uninitialized Memory",
+      "content_text": "This post is about uninitialized memory, but also about the semantics of highly optimized “low-level” languages in general. I will try to convince you that reasoning by “what the hardware does” is inherently flawed when talking about languages such as Rust, C or C++. These are not low-level languages. I have made this point before in the context of pointers; this time it is going to be about uninitialized memory.",
+      "url": "https://www.ralfj.de/blog/2019/07/14/uninit.html",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a05e51b1-ea5d-4365-949c-80c0c3e48d54",
+      "title": "What Is Rust's unsafe?",
+      "content_text": "I’ve seen a lot of misconceptions around what the unsafe keyword means for the utility and validity of Rust and its marketing as a “safe systems language”. The truth is a lot more complicated than a single pithy tweet can possibly sum up, unfortunately; here it is as I see it.\n\nBasically, the unsafe keyword does not turn off the advanced type system that keeps Rust code honest. It only allows a few select “superpowers”, like dereferencing raw pointers. It is used to implement safe abstractions over a fundamentally unsafe world so that the majority of Rust code can use those abstractions and avoid memory unsafety.",
+      "url": "https://nora.codes/post/what-is-rusts-unsafe/",
+      "date_published": "2019-07-12T10:00:00-07:00",
+      "author": {
+        "name": "Leonora Tindall",
+        "url": "https://nora.codes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "55481592-1914-40bc-a2be-f7be9702c5c7",
+      "title": "Method for Emulating Higher-Kinded Types in Rust",
+      "content_text": "I've been fiddling about with an idea lately, looking at how higher-kinded types can be represented in such a way that we can reason with them in Rust here and now, without having to wait a couple years for what would be a significant change to the language and compiler.\n\nThere have been multiple discussions on introducing higher-ranked polymorphism into Rust, using Haskell-style Higher-Kinded Types (HKTs) or Scala-looking Generalised Associated Types (GATs). The benefit of higher-ranked polymorphism is to allow higher-level, richer abstractions and pattern expression than just the rank-1 polymorphism we have today.",
+      "url": "https://gist.github.com/edmundsmith/855fcf0cb35dd467c29a9350481f0ecf",
+      "date_published": "2019-07-07T20:47:09+00:00",
+      "author": {
+        "name": "Edmund Smith",
+        "url": "https://gist.github.com/edmundsmith"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "815aa1ce-d98e-484c-8dbf-a91fce9a4167",
+      "title": "Async-await status report #2",
+      "content_text": "I wanted to give an update on the status of the “async-await foundations” working group. This post aims to cover three things: the “async await MVP” that we are currently targeting; how that fits into the bigger picture; and how you can help, if you’re so inclined;",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/07/08/async-await-status-report-2/",
+      "date_published": "2019-07-08T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "84e8a302-326a-4c95-a6ae-78d4e8fa1029",
+      "title": "Migrating a crate from futures 0.1 to 0.3",
+      "content_text": "I recently migrated a small/medium-sized crate from Futures 0.1 to 0.3. It was fairly easy, but there were some tricky bits and some things that were not well documented, so I think it is worth me writing up my experience.",
+      "url": "https://www.ncameron.org/blog/migrating-a-crate-from-futures-0-1-to-0-3/",
+      "date_published": "2019-07-08T21:24:28+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "28d2b0b9-8bfb-4541-b2f5-f84ed2670d56",
+      "title": "Fullstack Rust with Yew",
+      "content_text": "In the previous post How to use Rust Yew, we learnt how to prepare minimal files to build webassembly files with Yew for Rust frontend. We will advance it with some Rust server side code and write a bash file to automate the process.",
+      "url": "https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "907a2ee8-f215-4259-8179-bc4d542a7647",
+      "title": "Stream combinators implemented using for await syntax",
+      "content_text": " I am a big fan of simplifying the existent code in futures-rs using async/await syntax. My goal was to rewrite the combinators in such a way that even a newbie can understand what was going on. However I met several issues with Stream combinators because it was a little bit hard to construct an impl Stream without defining a struct with a ::poll_next method. So I used Stream::unfold that can create streams from a closure.",
+      "url": "https://www.reddit.com/r/rust/comments/cbvhq9/stream_combinators_implemented_using_for_await/",
+      "date_published": "2019-07-11T00:00:00+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://www.reddit.com/user/rproskuryakov/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "22d99aab-bb46-4d9b-9cf5-1e977c639f16",
+      "title": "Visual Programming with Embedded Rust? Yes we can with Apache Mynewt and Google Blockly!",
+      "content_text": "I gotta admit — Embedded Programs are getting darned hard to code on modern microcontrollers, sensors and networks. Faced with the ultra-daunting task of coding a readable, reusable, open-source NB-IoT application for STM32, I asked myself… Could Visual Programming with Embedded Rust solve this problem? Like this…",
+      "url": "https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7",
+      "date_published": "2019-07-12T21:52:53.533+00:00",
+      "author": {
+        "name": "Lup Yuen Lee 李立源",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "eecb5f26-323a-4d45-8a03-4fef1b0943e0",
       "title": "timetill.rs: highlighting all the Rust conferences around the world",
       "content_text": "timetill.rs is a community project focused on highlighting all the Rust conferences around the world. Timetill.rs is an open project that anyone in the community can contribute to.",

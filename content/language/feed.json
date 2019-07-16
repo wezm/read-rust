@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "20553a37-476d-45bb-8180-3de54aa932cd",
+      "title": "Testable Component Design in Rust",
+      "content_text": "I consider myself an advanced beginner in Rust. There is still much I’m wrapping my head around–and I still get caught off guard by the “move” and “mutability” rules Rust enforces. However, in keeping with my personal emphasis, I’ve devoted my efforts to learning how to create automated tests in Rust. The below guidelines are not exhaustive, but represent my learning so far. Feedback is welcome!",
+      "url": "http://iextendable.com/2019/07/12/testable-component-design-in-rust/",
+      "date_published": "2019-07-12T13:57:01+00:00",
+      "author": {
+        "name": "Chris McKenzie",
+        "url": "http://iextendable.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3161bc30-9df4-4273-8ff7-301ea0426d9f",
+      "title": "\"What The Hardware Does\" is not What Your Program Does: Uninitialized Memory",
+      "content_text": "This post is about uninitialized memory, but also about the semantics of highly optimized “low-level” languages in general. I will try to convince you that reasoning by “what the hardware does” is inherently flawed when talking about languages such as Rust, C or C++. These are not low-level languages. I have made this point before in the context of pointers; this time it is going to be about uninitialized memory.",
+      "url": "https://www.ralfj.de/blog/2019/07/14/uninit.html",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a05e51b1-ea5d-4365-949c-80c0c3e48d54",
+      "title": "What Is Rust's unsafe?",
+      "content_text": "I’ve seen a lot of misconceptions around what the unsafe keyword means for the utility and validity of Rust and its marketing as a “safe systems language”. The truth is a lot more complicated than a single pithy tweet can possibly sum up, unfortunately; here it is as I see it.\n\nBasically, the unsafe keyword does not turn off the advanced type system that keeps Rust code honest. It only allows a few select “superpowers”, like dereferencing raw pointers. It is used to implement safe abstractions over a fundamentally unsafe world so that the majority of Rust code can use those abstractions and avoid memory unsafety.",
+      "url": "https://nora.codes/post/what-is-rusts-unsafe/",
+      "date_published": "2019-07-12T10:00:00-07:00",
+      "author": {
+        "name": "Leonora Tindall",
+        "url": "https://nora.codes/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "55481592-1914-40bc-a2be-f7be9702c5c7",
+      "title": "Method for Emulating Higher-Kinded Types in Rust",
+      "content_text": "I've been fiddling about with an idea lately, looking at how higher-kinded types can be represented in such a way that we can reason with them in Rust here and now, without having to wait a couple years for what would be a significant change to the language and compiler.\n\nThere have been multiple discussions on introducing higher-ranked polymorphism into Rust, using Haskell-style Higher-Kinded Types (HKTs) or Scala-looking Generalised Associated Types (GATs). The benefit of higher-ranked polymorphism is to allow higher-level, richer abstractions and pattern expression than just the rank-1 polymorphism we have today.",
+      "url": "https://gist.github.com/edmundsmith/855fcf0cb35dd467c29a9350481f0ecf",
+      "date_published": "2019-07-07T20:47:09+00:00",
+      "author": {
+        "name": "Edmund Smith",
+        "url": "https://gist.github.com/edmundsmith"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "815aa1ce-d98e-484c-8dbf-a91fce9a4167",
+      "title": "Async-await status report #2",
+      "content_text": "I wanted to give an update on the status of the “async-await foundations” working group. This post aims to cover three things: the “async await MVP” that we are currently targeting; how that fits into the bigger picture; and how you can help, if you’re so inclined;",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/07/08/async-await-status-report-2/",
+      "date_published": "2019-07-08T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6d02baa8-8fcd-45fa-9f96-d36a635a2379",
       "title": "AiC: Unbounded queues and lang design",
       "content_text": "I have been thinking about how language feature development works in Rust1. I wanted to write a post about what I see as one of the key problems: too much concurrency in our design process, without any kind of “back-pressure” to help keep the number of “open efforts” under control. This setup does enable us to get a lot of things done sometimes, but I believe it also leads to a number of problems.\n\nAlthough I don’t make any proposals in this post, I am basically advocating for changes to our process that can help us to stay focused on a few active things at a time. Basically, incorporating a notion of capacity such that, if we want to start something new, we either have to finish up with something or else find a way to grow our capacity.",

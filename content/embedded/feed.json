@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "22d99aab-bb46-4d9b-9cf5-1e977c639f16",
+      "title": "Visual Programming with Embedded Rust? Yes we can with Apache Mynewt and Google Blockly!",
+      "content_text": "I gotta admit — Embedded Programs are getting darned hard to code on modern microcontrollers, sensors and networks. Faced with the ultra-daunting task of coding a readable, reusable, open-source NB-IoT application for STM32, I asked myself… Could Visual Programming with Embedded Rust solve this problem? Like this…",
+      "url": "https://medium.com/@ly.lee/visual-programming-with-embedded-rust-yes-we-can-with-apache-mynewt-and-google-blockly-8b67ef7412d7",
+      "date_published": "2019-07-12T21:52:53.533+00:00",
+      "author": {
+        "name": "Lup Yuen Lee 李立源",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "ff6ab953-5b21-4852-b0e5-058c730767f5",
       "title": "Rust, a Raspberry Pi and Addressable LED's",
       "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.<Paste>",
