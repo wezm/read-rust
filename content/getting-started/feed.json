@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5d130478-b1c5-46b7-af4b-9e217dd138b2",
+      "title": "Rust Questions from Beginners, Including Me",
+      "content_text": "Information overload and I’m still trying to find a bigger project I can work on that interests me. I have the Interpreter to work on still, and that will take some serious work! But I’m also thinking of going back to small systems of my programming past and playing with writing them in Rust. In the meantime, I thought I’d sneak around the Rust #beginners channel on Discord and give everyone a peak at some questions (and hopefully some answers) that beginners are asking about their early Rust code.",
+      "url": "https://rust.graystorm.com/2019/07/11/rust-questions-from-beginners-including-me/",
+      "date_published": "2019-07-11T23:48:17+00:00",
+      "author": {
+        "name": "Jeff Culverhouse",
+        "url": "https://rust.graystorm.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "7a2ae69b-3b31-45da-855b-592a86d96a6b",
       "title": "CHIP-8 Emulator Rust Port",
       "content_text": "I thought it would be a nice start to just take existing code and try to see how well it would translate from C++. I simply took my previous CHIP-8 emu and started to chip at it with the help of the docs. If you want to dive right in, here’s the code on GitHub. Anyway, it was my first go at Rust so go easy on me! =)",

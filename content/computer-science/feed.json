@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "44e12e0f-4572-479e-a63c-c4539b2c9ae8",
+      "title": "cedarwood: Efficiently-Updatable Double Array Trie in Rust",
+      "content_text": "Cedarwood is an effort to speed up jieba-rs, an efficient implementation of trie is needed in order to satisfying the following needs.",
+      "url": "https://blog.paulme.ng/posts/2019-07-14-cedarwood:-efficiently-updatable-double-array-trie-in-rust.html",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/"
+      },
+      "tags": [
+        "Computer Science",
+        "Performance"
+      ]
+    },
+    {
       "id": "87fc989d-1a0d-47ce-9663-105f4e93a217",
       "title": "Green Threads Explained in 200 Lines of Rust",
       "content_text": "This book aims to explain green threads by using a small example where we implement a simple but working program where we use our own green threads to execute code.",

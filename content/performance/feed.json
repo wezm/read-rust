@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "44e12e0f-4572-479e-a63c-c4539b2c9ae8",
+      "title": "cedarwood: Efficiently-Updatable Double Array Trie in Rust",
+      "content_text": "Cedarwood is an effort to speed up jieba-rs, an efficient implementation of trie is needed in order to satisfying the following needs.",
+      "url": "https://blog.paulme.ng/posts/2019-07-14-cedarwood:-efficiently-updatable-double-array-trie-in-rust.html",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/"
+      },
+      "tags": [
+        "Computer Science",
+        "Performance"
+      ]
+    },
+    {
+      "id": "688a7c2c-4cb7-4da6-a9d5-3cf4d5f7571a",
+      "title": "How to speed up the Rust compiler in 2019",
+      "content_text": "I have written previously about my efforts to speed up the Rust compiler in 2016 (part 1, part 2) and 2018 (part 1, part 2, NLL edition). It’s time for an update on the first half of 2019.",
+      "url": "https://blog.mozilla.org/nnethercote/2019/07/17/how-to-speed-up-the-rust-compiler-in-2019/",
+      "date_published": "2019-07-17T02:54:57+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "07e226de-482b-4f51-af76-adb65b4a35dc",
       "title": "The Computer Language Benachmarks Game: Rust ranks #1 for n-body",
       "content_text": "The Computer Language Benchmarks Game is a free software project for comparing how a given subset of simple algorithms can be implemented in various popular programming languages. I converted the fastest (dating early 2019) n-body C-implementation (#4) to Rust (#7) in a one-to-one fashion, gaining a performance encreasement by factor 1.6 to my own surprise.",

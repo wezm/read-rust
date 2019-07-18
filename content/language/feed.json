@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "649aefcc-0d0c-4e1c-b2d2-337d3110c606",
+      "title": "Rust vs C++ - Implementing a Neural Network",
+      "content_text": "I first learned Rust back in 2014, before it was stable. Rust is definitely a very interesting language so I have decided to revisit it by programming a simple neural network. For comparison, I also implemented the network in C++, the language I'm looking to replace.",
+      "url": "http://nicktasios.nl/posts/rust-vs-c%2B%2B-implementing-a-neural-network.html",
+      "date_published": "2019-07-06T19:18:48+02:00",
+      "author": {
+        "name": "Nick Tasios",
+        "url": "http://nicktasios.nl/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "20553a37-476d-45bb-8180-3de54aa932cd",
       "title": "Testable Component Design in Rust",
       "content_text": "I consider myself an advanced beginner in Rust. There is still much I’m wrapping my head around–and I still get caught off guard by the “move” and “mutability” rules Rust enforces. However, in keeping with my personal emphasis, I’ve devoted my efforts to learning how to create automated tests in Rust. The below guidelines are not exhaustive, but represent my learning so far. Feedback is welcome!",

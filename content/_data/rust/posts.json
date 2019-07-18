@@ -10,6 +10,153 @@
   },
   "items": [
     {
+      "id": "44e12e0f-4572-479e-a63c-c4539b2c9ae8",
+      "title": "cedarwood: Efficiently-Updatable Double Array Trie in Rust",
+      "content_text": "Cedarwood is an effort to speed up jieba-rs, an efficient implementation of trie is needed in order to satisfying the following needs.",
+      "url": "https://blog.paulme.ng/posts/2019-07-14-cedarwood:-efficiently-updatable-double-array-trie-in-rust.html",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/"
+      },
+      "tags": [
+        "Computer Science",
+        "Performance"
+      ]
+    },
+    {
+      "id": "688a7c2c-4cb7-4da6-a9d5-3cf4d5f7571a",
+      "title": "How to speed up the Rust compiler in 2019",
+      "content_text": "I have written previously about my efforts to speed up the Rust compiler in 2016 (part 1, part 2) and 2018 (part 1, part 2, NLL edition). It’s time for an update on the first half of 2019.",
+      "url": "https://blog.mozilla.org/nnethercote/2019/07/17/how-to-speed-up-the-rust-compiler-in-2019/",
+      "tweet_url": "https://twitter.com/nnethercote/status/1151324763651862528",
+      "date_published": "2019-07-17T02:54:57+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "15701ed9-bc70-4c65-bd7b-616363d7d3d4",
+      "title": "RPG Name Generation",
+      "content_text": "Role-playing and adventure games often require a considerably high number of names to describe characters, locations, items, events, abilities, etc. Humans are very awful generators of randomness, especially upon request. Writers and designers can come up with a handful of well devised names for important identifiers, but having a human generate 100 character names will likely result in many duplicates or boring derivatives. There are a few approaches to this problem: Pattern substitution of a data set with explicit rule-based probability. Using Markov chains to synthesize new results from a data set. Training a neural network to synthesize new results from a data set.",
+      "url": "https://www.wihlidal.com/blog/general/2019-07-14-name-generation/",
+      "tweet_url": "https://twitter.com/gwihlidal/status/1150659058589937665",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "342aba54-6554-4ec9-9d92-cd93edfbc8a2",
+      "title": "Rust as the new C. Part 1: building and combining native libs into C API",
+      "content_text": "In this blog series, I will experiment with Rust as a safer and simpler C/C++ replacement. The idea is to combine a couple of C dependencies in Rust, to do some work using the dependencies in Rust and to expose a final API from a Rust library via C ABI. Then I will consume the same exported Rust methods from a number of modern languages/platforms such as C#, Python, Java, Nodejs, R, Go and even back from C/C++.",
+      "url": "http://hotforknowledge.com/2019/07/14/6-rust-the-new-c/",
+      "tweet_url": "https://twitter.com/GapryYuen/status/1150946459656679424",
+      "date_published": "2019-07-14T16:12:00+03:00",
+      "author": {
+        "name": "Victor Baybekov",
+        "url": "http://hotforknowledge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "0026c42e-9e3b-4a14-96dc-1fe3609e8957",
+      "title": "Rust in one of the biggest music festival Atlas Weekend 2019",
+      "content_text": "I'm happy to announce, that we've just finished one of the biggest European music festival Atlas Weekend which took place in Kyiv, Ukraine. As a year ago, backend for technical purposes of festival is written with Rust: Tickets exchange, entrance control, powerful user management with distributed configurable permissions, backstage pass, control of security workers, their work time, cars entrance, warehouse system for rfid bracelets with full history and control of each rfid. This year we registered more than 6000 workers, each of them has full info tied to bracelet: name, phone, photo, available permissions, time to access festival.",
+      "url": "https://www.reddit.com/r/rust/comments/cdg5b4/rust_in_the_on_of_the_biggest_music_festival/",
+      "date_published": "2019-07-15T00:00:00+00:00",
+      "author": {
+        "name": "/u/maxfrai",
+        "url": "https://www.reddit.com/user/maxfrai"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4979dc89-2295-48da-ae2b-cb84dc37fd8c",
+      "title": "How to use NPM packages with Rust Frontend",
+      "content_text": "In the previous post full-stack Rust with Yew, we learnt how to prepare minimal files to build a full stack Rust web app. You can do whatever Rust allows with it.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-use-NPM-packages-with-Rust-Frontend",
+      "tweet_url": "https://twitter.com/steadylearner_p/status/1150422698000097280",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c7551d1c-be90-4dd7-be38-5fcb78c51ef0",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 4",
+      "content_text": "Once again, last weeks action was merged, which means the full ptrace feature was merged, and it’s time to start tackling the final issues which I have delayed for so long. But, before that, I decided to try to get some basic ptrace compatibility in relibc, so we could see just how far away software like gdb is from being ported, and what concerns I haven’t thought about yet. redox-nix update: That said, I took a little break from the madness, to instead lay my focus on another interesting problem: Newer redoxer couldn’t be compiled using carnix, because of some dependency that used a cargo feature carnix didn’t support. Let me first explain what carnix is, and why this is a problem.",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-4/",
+      "date_published": "2019-07-13T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "f1fef443-d169-4ff1-a74e-262d273c9b9d",
+      "title": "Cactus Harvesting: Cycle-Aware Reference Counting in Rust",
+      "content_text": "🌵 CactusRef is a single-threaded, cycle-aware, reference counting smart pointer [docs] [code]. CactusRef is nearly a drop-in replacement for std::rc1 from the Rust standard library.",
+      "url": "https://hyperbo.la/w/cactus-harvesting/",
+      "date_published": "2019-07-15T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Lopopolo",
+        "url": "https://hyperbo.la/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5d130478-b1c5-46b7-af4b-9e217dd138b2",
+      "title": "Rust Questions from Beginners, Including Me",
+      "content_text": "Information overload and I’m still trying to find a bigger project I can work on that interests me. I have the Interpreter to work on still, and that will take some serious work! But I’m also thinking of going back to small systems of my programming past and playing with writing them in Rust. In the meantime, I thought I’d sneak around the Rust #beginners channel on Discord and give everyone a peak at some questions (and hopefully some answers) that beginners are asking about their early Rust code.",
+      "url": "https://rust.graystorm.com/2019/07/11/rust-questions-from-beginners-including-me/",
+      "tweet_url": "https://twitter.com/jculverhouse/status/1149465545588137984",
+      "date_published": "2019-07-11T23:48:17+00:00",
+      "author": {
+        "name": "Jeff Culverhouse",
+        "url": "https://rust.graystorm.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "649aefcc-0d0c-4e1c-b2d2-337d3110c606",
+      "title": "Rust vs C++ - Implementing a Neural Network",
+      "content_text": "I first learned Rust back in 2014, before it was stable. Rust is definitely a very interesting language so I have decided to revisit it by programming a simple neural network. For comparison, I also implemented the network in C++, the language I'm looking to replace.",
+      "url": "http://nicktasios.nl/posts/rust-vs-c%2B%2B-implementing-a-neural-network.html",
+      "tweet_url": "https://twitter.com/Karyuutensei/status/1150910270530826242",
+      "date_published": "2019-07-06T19:18:48+02:00",
+      "author": {
+        "name": "Nick Tasios",
+        "url": "http://nicktasios.nl/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "20553a37-476d-45bb-8180-3de54aa932cd",
       "title": "Testable Component Design in Rust",
       "content_text": "I consider myself an advanced beginner in Rust. There is still much I’m wrapping my head around–and I still get caught off guard by the “move” and “mutability” rules Rust enforces. However, in keeping with my personal emphasis, I’ve devoted my efforts to learning how to create automated tests in Rust. The below guidelines are not exhaustive, but represent my learning so far. Feedback is welcome!",

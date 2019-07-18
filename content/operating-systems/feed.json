@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c7551d1c-be90-4dd7-be38-5fcb78c51ef0",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 4",
+      "content_text": "Once again, last weeks action was merged, which means the full ptrace feature was merged, and it’s time to start tackling the final issues which I have delayed for so long. But, before that, I decided to try to get some basic ptrace compatibility in relibc, so we could see just how far away software like gdb is from being ported, and what concerns I haven’t thought about yet. redox-nix update: That said, I took a little break from the madness, to instead lay my focus on another interesting problem: Newer redoxer couldn’t be compiled using carnix, because of some dependency that used a cargo feature carnix didn’t support. Let me first explain what carnix is, and why this is a problem.",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-4/",
+      "date_published": "2019-07-13T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "dc58ea4c-1cea-4142-b9e7-00e066527e35",
       "title": "RSoC: Implementing ptrace for Redox OS - part 3",
       "content_text": "Before I dive in to this week’s actions, I am pleased to announce that all the last weeks’ work is merged! This merge means you can now experiment with basic ptrace functionality using only basic registers and PTRACE_SYSCALL/PTRACE_SINGLESTEP. I have already opened the second PR in the batch: Ptrace memory reading and floating point registers support which will supply the “final bits” of the initial implementation, before all the nitpicking of final concerns can start (not to underestimate the importance and difficulty of these nitpicks - there are some areas of ptrace that aren’t even thought about yet and those will need tending to)! I will comment on these changes in this blog post, as there are some interesting things going on!",

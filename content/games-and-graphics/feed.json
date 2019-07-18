@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "15701ed9-bc70-4c65-bd7b-616363d7d3d4",
+      "title": "RPG Name Generation",
+      "content_text": "Role-playing and adventure games often require a considerably high number of names to describe characters, locations, items, events, abilities, etc. Humans are very awful generators of randomness, especially upon request. Writers and designers can come up with a handful of well devised names for important identifiers, but having a human generate 100 character names will likely result in many duplicates or boring derivatives. There are a few approaches to this problem: Pattern substitution of a data set with explicit rule-based probability. Using Markov chains to synthesize new results from a data set. Training a neural network to synthesize new results from a data set.",
+      "url": "https://www.wihlidal.com/blog/general/2019-07-14-name-generation/",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Graham Wihlidal",
+        "url": "https://www.wihlidal.com/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "f545777e-e75d-40c5-af12-a6c8b2d962f4",
       "title": "How to Emulate a Game Boy: The Book",
       "content_text": "DMG-01 is a guide for how to emulate a Game Boy. Together, we'll explore the insides of one of the world's most beloved computers.",

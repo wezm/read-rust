@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "342aba54-6554-4ec9-9d92-cd93edfbc8a2",
+      "title": "Rust as the new C. Part 1: building and combining native libs into C API",
+      "content_text": "In this blog series, I will experiment with Rust as a safer and simpler C/C++ replacement. The idea is to combine a couple of C dependencies in Rust, to do some work using the dependencies in Rust and to expose a final API from a Rust library via C ABI. Then I will consume the same exported Rust methods from a number of modern languages/platforms such as C#, Python, Java, Nodejs, R, Go and even back from C/C++.",
+      "url": "http://hotforknowledge.com/2019/07/14/6-rust-the-new-c/",
+      "date_published": "2019-07-14T16:12:00+03:00",
+      "author": {
+        "name": "Victor Baybekov",
+        "url": "http://hotforknowledge.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "0026c42e-9e3b-4a14-96dc-1fe3609e8957",
+      "title": "Rust in one of the biggest music festival Atlas Weekend 2019",
+      "content_text": "I'm happy to announce, that we've just finished one of the biggest European music festival Atlas Weekend which took place in Kyiv, Ukraine. As a year ago, backend for technical purposes of festival is written with Rust: Tickets exchange, entrance control, powerful user management with distributed configurable permissions, backstage pass, control of security workers, their work time, cars entrance, warehouse system for rfid bracelets with full history and control of each rfid. This year we registered more than 6000 workers, each of them has full info tied to bracelet: name, phone, photo, available permissions, time to access festival.",
+      "url": "https://www.reddit.com/r/rust/comments/cdg5b4/rust_in_the_on_of_the_biggest_music_festival/",
+      "date_published": "2019-07-15T00:00:00+00:00",
+      "author": {
+        "name": "/u/maxfrai",
+        "url": "https://www.reddit.com/user/maxfrai"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4979dc89-2295-48da-ae2b-cb84dc37fd8c",
+      "title": "How to use NPM packages with Rust Frontend",
+      "content_text": "In the previous post full-stack Rust with Yew, we learnt how to prepare minimal files to build a full stack Rust web app. You can do whatever Rust allows with it.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-use-NPM-packages-with-Rust-Frontend",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "28d2b0b9-8bfb-4541-b2f5-f84ed2670d56",
       "title": "Fullstack Rust with Yew",
       "content_text": "In the previous post How to use Rust Yew, we learnt how to prepare minimal files to build webassembly files with Yew for Rust frontend. We will advance it with some Rust server side code and write a bash file to automate the process.",
