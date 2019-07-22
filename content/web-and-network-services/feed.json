@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f47a9bfe-394d-44b0-a4b1-683976a2cee2",
+      "title": "Announcing Ballista - Distributed Compute with Rust, Apache Arrow, and Kubernetes",
+      "content_text": "After taking a break from working on Arrow and DataFusion for a couple of months to focus on some deliverables at work, I have now started a new PoC project to have a second attempt at building a distributed platform with Rust, and this time around I have the advantage of already having some foundational pieces in place, namely Arrow and DataFusion. I have also been gaining experience with Kubernetes recently and I could clearly see how this would simplify the creation of a distributed platform. The pieces really are starting to fall into place.\n\nThe new project is called Ballista and is a fast moving PoC taking a top down approach to building a distributed platform.",
+      "url": "https://andygrove.io/2019/07/announcing-ballista/",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4136ae31-0128-4937-9c8b-91f064c0d8d6",
+      "title": "Gotham - From Start to Heroku",
+      "content_text": "In this article, we’ll implement and deploy a Gotham full-stack web framework using the Tera template system, Webpack for a complete front-end asset management, a minimal VueJS and CoffeeScript web app and deploy to Heroku. Gotham is a Rust framework which is focused on safety, speed, concurrency and async everything. Webpack is a NodeJS website asset preprocessor and bundler which can let you use any of your favorite front end technologies. Combining these technologies allow for a small footprint on the server, which means saving money on infrastructure, very fast performance in page load for higher visitor retention and the full flexibility of client side code available to you for web design without limitations.",
+      "url": "https://blog.codeship.com/gotham-from-start-to-heroku/",
+      "date_published": "2019-04-30T15:15:20+00:00",
+      "author": {
+        "name": "Daniel P. Clark",
+        "url": "https://blog.codeship.com/author/danielclark/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "342aba54-6554-4ec9-9d92-cd93edfbc8a2",
       "title": "Rust as the new C. Part 1: building and combining native libs into C API",
       "content_text": "In this blog series, I will experiment with Rust as a safer and simpler C/C++ replacement. The idea is to combine a couple of C dependencies in Rust, to do some work using the dependencies in Rust and to expose a final API from a Rust library via C ABI. Then I will consume the same exported Rust methods from a number of modern languages/platforms such as C#, Python, Java, Nodejs, R, Go and even back from C/C++.",

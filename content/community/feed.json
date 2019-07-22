@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "52f43349-8161-4996-95ad-138528adcf21",
+      "title": "Localizing the Rust Website to Traditional Chinese",
+      "content_text": "I am glad to announce that the Traditional Chinese (正體中文) version of the Rust official website has been launched. Thanks to all contributors in the community. This article records our experience to achieve the work.",
+      "url": "https://medium.com/coding-neutrino-blog/localize-the-rust-website-to-traditional-chinese-473413f44d21",
+      "date_published": "2019-07-19T16:38:55.762+00:00",
+      "author": {
+        "name": "Liu An Chi (tigercosmos)",
+        "url": "https://medium.com/@tigercosmos"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
       "id": "eecb5f26-323a-4d45-8a03-4fef1b0943e0",
       "title": "timetill.rs: highlighting all the Rust conferences around the world",
       "content_text": "timetill.rs is a community project focused on highlighting all the Rust conferences around the world. Timetill.rs is an open project that anyone in the community can contribute to.",

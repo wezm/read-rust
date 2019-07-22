@@ -10,6 +10,146 @@
   },
   "items": [
     {
+      "id": "c91d6ec8-c734-495e-89ad-e63da5825eb0",
+      "title": "Announcing heim: async library for system information fetching",
+      "content_text": "If you are familiar with Python ecosystem, probably you had heard about psutil package — a cross-platform library for retrieving information about system processes and system utilization (CPU, memory, disks, network and so on). It is very popular and actively used package, which has analogs in other languages: gopsutil for Golang, oshi for Java, you name it. Rust, of course, is not an exception here: we do have psutil, sysinfo, sys-info and systemstat crates.\n\nNow, despite the tremendous work that had been done already by the authors of these crates, I’m excited to announce what I’ve been working on for the past three months: “heim” project — library for system information fetching.",
+      "url": "https://svartalf.info/posts/2019-07-17-announcing-heim-project/",
+      "date_published": "2019-07-17T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "f47a9bfe-394d-44b0-a4b1-683976a2cee2",
+      "title": "Announcing Ballista - Distributed Compute with Rust, Apache Arrow, and Kubernetes",
+      "content_text": "After taking a break from working on Arrow and DataFusion for a couple of months to focus on some deliverables at work, I have now started a new PoC project to have a second attempt at building a distributed platform with Rust, and this time around I have the advantage of already having some foundational pieces in place, namely Arrow and DataFusion. I have also been gaining experience with Kubernetes recently and I could clearly see how this would simplify the creation of a distributed platform. The pieces really are starting to fall into place.\n\nThe new project is called Ballista and is a fast moving PoC taking a top down approach to building a distributed platform.",
+      "url": "https://andygrove.io/2019/07/announcing-ballista/",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "52f43349-8161-4996-95ad-138528adcf21",
+      "title": "Localizing the Rust Website to Traditional Chinese",
+      "content_text": "I am glad to announce that the Traditional Chinese (正體中文) version of the Rust official website has been launched. Thanks to all contributors in the community. This article records our experience to achieve the work.",
+      "url": "https://medium.com/coding-neutrino-blog/localize-the-rust-website-to-traditional-chinese-473413f44d21",
+      "date_published": "2019-07-19T16:38:55.762+00:00",
+      "author": {
+        "name": "Liu An Chi (tigercosmos)",
+        "url": "https://medium.com/@tigercosmos"
+      },
+      "tags": [
+        "Community"
+      ]
+    },
+    {
+      "id": "4f959a60-5f69-4997-b6d8-6cf6e8311e1f",
+      "title": "How to use Torch in Rust with tch-rs",
+      "content_text": "Thanks to the diligent work of Laurent Mazare on his tch-rs crate, the Rust community can now enjoy an easy access to the powerful Torch neural net framework. Being personally an avid user of both Rust and Torch, stumbling on this repo has been nothing but a belated birthday present. In this post, I would like to dive into two examples to present its most fundamental functionalities.",
+      "url": "http://vegapit.com/article/how-to-use-torch-in-rust-with-tch-rs",
+      "date_published": "2019-07-19T13:18:00+01:00",
+      "author": {
+        "name": "Vegapit",
+        "url": "http://vegapit.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "9ec74f93-14a2-47ec-8572-24b9efe51a62",
+      "title": "Introducing Abscissa: iqlusion's security-oriented Rust application framework",
+      "content_text": "Earlier this month we released Abscissa: our security-oriented Rust application framework. After releasing v0.1, we’ve spent the past few weeks further polishing it up in tandem with this blog post, and just released a follow-up v0.2.",
+      "url": "https://iqlusion.blog/introducing-abscissa-rust-application-framework",
+      "date_published": "2019-07-18T07:00:51-07:00",
+      "author": {
+        "name": "Tony Arcieri",
+        "url": "http://iqlusion.blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "cc336a90-bbf5-49c3-94b7-e3c4454cbc53",
+      "title": "Fuzz rising: how fuzz testing is making memory unsafe languages untenable",
+      "content_text": "Go and read the excellent blog post from Cloudflare on their recent outage if you haven’t already. I am not going to talk about most of it, just a few small points that especially interest me right now, which are definitely not the most important things from the outage point of view. This post got a bit long so I split it up, so this is part one.",
+      "url": "https://www.cloudatomiclab.com/fuzz/",
+      "date_published": "2019-07-21T20:52:00+00:00",
+      "author": {
+        "name": "Justin Cormack",
+        "url": "https://www.cloudatomiclab.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a0f3d2bb-e52e-440b-809f-169497494769",
+      "title": "The Temptation of Unsafe",
+      "content_text": "Recently, another round of discussion concerning the use of Rust’s unsafe features in the Actix web framework happened, or rather erupted, on Reddit, even more heated and acrimonious than the first time around. (I am not linking to any of the threads, as I believe that they don’t need any more exposure. Use your favorite search engine.) This proves, if more proof is needed, that people hold passionate beliefs about the matter.",
+      "url": "https://inejge.github.io/blog/2019/07/18/The-Temptation-of-Unsafe.html",
+      "date_published": "2019-07-18T00:00:00+00:00",
+      "author": {
+        "name": "inejge",
+        "url": "https://inejge.github.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85b61a6b-91ab-4194-a236-43a690cc3f2f",
+      "title": "Perils of Constructors",
+      "content_text": "One of my favorite blog posts about Rust is Things Rust Shipped Without by Graydon Hoare. To me, footguns that don’t exist in a language are usually more important than expressiveness. In this slightly philosophical essay, I want to tell about a missing Rust feature I especially like: constructors.",
+      "url": "https://matklad.github.io/2019/07/16/perils-of-constructors.html",
+      "date_published": "2019-07-16T00:00:00+03:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4136ae31-0128-4937-9c8b-91f064c0d8d6",
+      "title": "Gotham - From Start to Heroku",
+      "content_text": "In this article, we’ll implement and deploy a Gotham full-stack web framework using the Tera template system, Webpack for a complete front-end asset management, a minimal VueJS and CoffeeScript web app and deploy to Heroku. Gotham is a Rust framework which is focused on safety, speed, concurrency and async everything. Webpack is a NodeJS website asset preprocessor and bundler which can let you use any of your favorite front end technologies. Combining these technologies allow for a small footprint on the server, which means saving money on infrastructure, very fast performance in page load for higher visitor retention and the full flexibility of client side code available to you for web design without limitations.",
+      "url": "https://blog.codeship.com/gotham-from-start-to-heroku/",
+      "date_published": "2019-04-30T15:15:20+00:00",
+      "author": {
+        "name": "Daniel P. Clark",
+        "url": "https://blog.codeship.com/author/danielclark/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "69f76932-86e3-4ee1-b2ee-f9d986b25389",
+      "title": "New tools for 2D game development in Amethyst",
+      "content_text": "Are you looking to build 2D games with Amethyst? Well, we've got some great news for you! Getting started just became a whole lot easier. There's been 2 recent project releases that we want to tell you more about; encourage you to use them, give us feedback and maybe even contribute!",
+      "url": "https://amethyst.rs/posts/tools-for-2d-games",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "happens",
+        "url": "https://github.com/happenslol"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "44e12e0f-4572-479e-a63c-c4539b2c9ae8",
       "title": "cedarwood: Efficiently-Updatable Double Array Trie in Rust",
       "content_text": "Cedarwood is an effort to speed up jieba-rs, an efficient implementation of trie is needed in order to satisfying the following needs.",

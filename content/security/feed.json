@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cc336a90-bbf5-49c3-94b7-e3c4454cbc53",
+      "title": "Fuzz rising: how fuzz testing is making memory unsafe languages untenable",
+      "content_text": "Go and read the excellent blog post from Cloudflare on their recent outage if you haven’t already. I am not going to talk about most of it, just a few small points that especially interest me right now, which are definitely not the most important things from the outage point of view. This post got a bit long so I split it up, so this is part one.",
+      "url": "https://www.cloudatomiclab.com/fuzz/",
+      "date_published": "2019-07-21T20:52:00+00:00",
+      "author": {
+        "name": "Justin Cormack",
+        "url": "https://www.cloudatomiclab.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "ea3f2d4d-b907-4611-9aaf-d5f6311863a2",
       "title": "Fuzzing rust code: cargo-fuzz and honggfuzz",
       "content_text": "This post explains how to test Rust code using fuzzers. Parsers are good target for fuzzers, especially because they usually are functions that only takes bytes as input.",

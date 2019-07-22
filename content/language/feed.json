@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "a0f3d2bb-e52e-440b-809f-169497494769",
+      "title": "The Temptation of Unsafe",
+      "content_text": "Recently, another round of discussion concerning the use of Rust’s unsafe features in the Actix web framework happened, or rather erupted, on Reddit, even more heated and acrimonious than the first time around. (I am not linking to any of the threads, as I believe that they don’t need any more exposure. Use your favorite search engine.) This proves, if more proof is needed, that people hold passionate beliefs about the matter.",
+      "url": "https://inejge.github.io/blog/2019/07/18/The-Temptation-of-Unsafe.html",
+      "date_published": "2019-07-18T00:00:00+00:00",
+      "author": {
+        "name": "inejge",
+        "url": "https://inejge.github.io/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "85b61a6b-91ab-4194-a236-43a690cc3f2f",
+      "title": "Perils of Constructors",
+      "content_text": "One of my favorite blog posts about Rust is Things Rust Shipped Without by Graydon Hoare. To me, footguns that don’t exist in a language are usually more important than expressiveness. In this slightly philosophical essay, I want to tell about a missing Rust feature I especially like: constructors.",
+      "url": "https://matklad.github.io/2019/07/16/perils-of-constructors.html",
+      "date_published": "2019-07-16T00:00:00+03:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "649aefcc-0d0c-4e1c-b2d2-337d3110c606",
       "title": "Rust vs C++ - Implementing a Neural Network",
       "content_text": "I first learned Rust back in 2014, before it was stable. Rust is definitely a very interesting language so I have decided to revisit it by programming a simple neural network. For comparison, I also implemented the network in C++, the language I'm looking to replace.",

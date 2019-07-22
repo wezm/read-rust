@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "69f76932-86e3-4ee1-b2ee-f9d986b25389",
+      "title": "New tools for 2D game development in Amethyst",
+      "content_text": "Are you looking to build 2D games with Amethyst? Well, we've got some great news for you! Getting started just became a whole lot easier. There's been 2 recent project releases that we want to tell you more about; encourage you to use them, give us feedback and maybe even contribute!",
+      "url": "https://amethyst.rs/posts/tools-for-2d-games",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "happens",
+        "url": "https://github.com/happenslol"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "15701ed9-bc70-4c65-bd7b-616363d7d3d4",
       "title": "RPG Name Generation",
       "content_text": "Role-playing and adventure games often require a considerably high number of names to describe characters, locations, items, events, abilities, etc. Humans are very awful generators of randomness, especially upon request. Writers and designers can come up with a handful of well devised names for important identifiers, but having a human generate 100 character names will likely result in many duplicates or boring derivatives. There are a few approaches to this problem: Pattern substitution of a data set with explicit rule-based probability. Using Markov chains to synthesize new results from a data set. Training a neural network to synthesize new results from a data set.",
