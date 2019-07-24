@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5784cd2f-f28c-4746-8c85-c39ee718c4a0",
+      "title": "How to modulize your Rust Frontend",
+      "content_text": "In the previous post How to use markdown with Rust Frontend, we learnt how to render markdown in Rust frontend and include CSS files from your previous frontend project. You can use a text, image, video, markdown or any HTML elements you want for your Rust frontend. In this post, we will learn how to modulize your Rust Yew frontend app. It will be easy after you learn how to use impl, function, and components for that.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-modulize-your-Rust-Frontend",
+      "date_published": "2019-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "f47a9bfe-394d-44b0-a4b1-683976a2cee2",
       "title": "Announcing Ballista - Distributed Compute with Rust, Apache Arrow, and Kubernetes",
       "content_text": "After taking a break from working on Arrow and DataFusion for a couple of months to focus on some deliverables at work, I have now started a new PoC project to have a second attempt at building a distributed platform with Rust, and this time around I have the advantage of already having some foundational pieces in place, namely Arrow and DataFusion. I have also been gaining experience with Kubernetes recently and I could clearly see how this would simplify the creation of a distributed platform. The pieces really are starting to fall into place.\n\nThe new project is called Ballista and is a fast moving PoC taking a top down approach to building a distributed platform.",

@@ -10,6 +10,133 @@
   },
   "items": [
     {
+      "id": "c8522e50-6845-428d-b2c4-84b9dcfddaa4",
+      "title": "Here be (owned) books: Rust ownership explained with books",
+      "content_text": "One of the biggest Rust’s pros is unique ownership system. Unfortunately, it is also one of the hardest thing to learn. In this article I will try to explain it the same way I had learnt it and how I introduce people to one.",
+      "url": "https://hauleth.dev/post/eli5-ownership/",
+      "date_published": "2019-07-14T17:38:48+01:00",
+      "author": {
+        "name": "Łukasz Jan Niemier",
+        "url": "https://hauleth.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "14ef4b09-79cc-424c-88bd-97a5d40ec957",
+      "title": "cHTTP 0.5 and the Journey Ahead",
+      "content_text": "One of my more recent projects that I have been putting a lot of effort into is a Rust HTTP client called cHTTP, which I introduced on this blog over 18 months ago. Here I want to share an update on the direction of the project, and also give some detail on what months of late evenings and weekends produced in version 0.5 just published today.",
+      "url": "https://stephencoakley.com/2019/07/22/chttp-0.5-and-the-journey-ahead",
+      "date_published": "2019-07-22T05:00:00+00:00",
+      "author": {
+        "name": "Stephen Coakley",
+        "url": "https://stephencoakley.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "348fb7dc-00c7-4587-8276-f11b482576db",
+      "title": "Models of Generics and Metaprogramming: Go, Rust, Swift, D and More",
+      "content_text": "In some domains of programming it’s common to want to write a data structure or algorithm that can work with elements of many different types, such as a generic list or a sorting algorithm that only needs a comparison function. Different programming languages have come up with all sorts of solutions to this problem: From just pointing people to existing general features that can be useful for the purpose (e.g C, Go) to generics systems so powerful they become Turing-complete (e.g. Rust, C++). In this post I’m going to take you on a tour of the generics systems in many different languages and how they are implemented. I’ll start from how languages without a special generics system like C solve the problem and then I’ll show how gradually adding extensions in different directions leads to the systems found in other languages.",
+      "url": "http://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/",
+      "date_published": "2019-07-14T00:00:00+00:00",
+      "author": {
+        "name": "Tristan Hume",
+        "url": "http://thume.ca/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "4e8c0915-f401-40a1-b6b6-6120583484d1",
+      "title": "Bit vectors and variable-length encoding",
+      "content_text": "This is the first post on what is supposed to be an small series about writing compression algoritms in Rust, please take into account that I am no expert in compression so this is the perspective of a learner, if you think there is some improvements or corrections to be done, let me know.\n\nYou might be wondering why bit vectors are relevant for compression and so was I until I started reading a little bit about it. So, let's talk about compression.",
+      "url": "https://christianpoveda.github.io/blog/bit-vectors/",
+      "date_published": "2019-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Christian Poveda",
+        "url": "https://christianpoveda.github.io/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "5784cd2f-f28c-4746-8c85-c39ee718c4a0",
+      "title": "How to modulize your Rust Frontend",
+      "content_text": "In the previous post How to use markdown with Rust Frontend, we learnt how to render markdown in Rust frontend and include CSS files from your previous frontend project. You can use a text, image, video, markdown or any HTML elements you want for your Rust frontend. In this post, we will learn how to modulize your Rust Yew frontend app. It will be easy after you learn how to use impl, function, and components for that.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-modulize-your-Rust-Frontend",
+      "date_published": "2019-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "461ba118-af83-41c6-8afc-42b1d320a826",
+      "title": "Understanding Lifetimes",
+      "content_text": "In this post, I want to describe the Lifetimes in a different way that what I’m learned from the RFC. Audience: You may already have read the Rust Book. Nice if you took a compiler course.",
+      "url": "https://rniczh.github.io/blog/lifetimes-intro/",
+      "date_published": "2019-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Hong-Sheng Zheng",
+        "url": "https://rniczh.github.io/"
+      },
+      "tags": [
+        "Computer Science",
+        "Language"
+      ]
+    },
+    {
+      "id": "3ded792f-b573-465c-a4bf-00a241bc7cbc",
+      "title": "Siderophile: Expose your Crate’s Unsafety",
+      "content_text": "Today we released a tool, siderophile, that helps Rust developers find fuzzing targets in their codebases. Siderophile trawls your crate’s dependencies and attempts to finds every unsafe function, expression, trait method, etc. It then traces these up the callgraph until it finds the function in your crate that uses the unsafety. It ranks the functions it finds in your crate by badness—the more unsafety a function makes use of, the higher its badness rating.",
+      "url": "https://blog.trailofbits.com/2019/07/01/siderophile-expose-your-crates-unsafety/",
+      "date_published": "2019-07-01T15:30:06+00:00",
+      "author": {
+        "name": "Trail of Bits",
+        "url": "https://blog.trailofbits.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "48855ece-4f3a-44aa-80a1-b86a03cc9538",
+      "title": "Baseball Coding with Rust – Intro",
+      "content_text": "From time to time, major league teams will post job offers on FanGraphs. Most of these postings, if not all of them, ask for a level of proficiency in Python or R. While these languages have built up tremendous ecosystems, especially for data science, they are limited in the amount of data they can handle.\n\nThis is not a flaw in either language, rather a design choice. Without getting into the weeds too much about language theory, each language plants itself somewhere on the performance/ease-of-use spectrum. Nothing in today’s piece should be construed as a critique of Python or R. Quite the contrary. Python and R are the bedrock languages of the data science worlds.\n\nToday, I would like to introduce you to Rust, a modern systems programming language that aims to be, in their words, “A language empowering everyone to build reliable and efficient software.” I can personally attest to this being the case.",
+      "url": "https://tht.fangraphs.com/baseball-coding-with-rust-intro/",
+      "date_published": "2019-07-23T10:00:52+00:00",
+      "author": {
+        "name": "Eli Ben-Porat",
+        "url": "https://tht.fangraphs.com/author/ebpbaseball/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "153bc34f-6b3a-4103-8fed-55ed99da9e36",
+      "title": "Why Rust for safe systems programming",
+      "content_text": "In this series, we have explored the need for proactive measures to eliminate a class of vulnerabilities and walked through some examples of memory safety issues we’ve found in Microsoft code that could have been avoided with a different language. Now we’ll peek at why we think that Rust represents the best alternative to C and C++ currently available.",
+      "url": "https://msrc-blog.microsoft.com/2019/07/22/why-rust-for-safe-systems-programming/",
+      "date_published": "2019-07-22T19:19:19+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "c91d6ec8-c734-495e-89ad-e63da5825eb0",
       "title": "Announcing heim: async library for system information fetching",
       "content_text": "If you are familiar with Python ecosystem, probably you had heard about psutil package — a cross-platform library for retrieving information about system processes and system utilization (CPU, memory, disks, network and so on). It is very popular and actively used package, which has analogs in other languages: gopsutil for Golang, oshi for Java, you name it. Rust, of course, is not an exception here: we do have psutil, sysinfo, sys-info and systemstat crates.\n\nNow, despite the tremendous work that had been done already by the authors of these crates, I’m excited to announce what I’ve been working on for the past three months: “heim” project — library for system information fetching.",

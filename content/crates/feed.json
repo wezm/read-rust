@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "14ef4b09-79cc-424c-88bd-97a5d40ec957",
+      "title": "cHTTP 0.5 and the Journey Ahead",
+      "content_text": "One of my more recent projects that I have been putting a lot of effort into is a Rust HTTP client called cHTTP, which I introduced on this blog over 18 months ago. Here I want to share an update on the direction of the project, and also give some detail on what months of late evenings and weekends produced in version 0.5 just published today.",
+      "url": "https://stephencoakley.com/2019/07/22/chttp-0.5-and-the-journey-ahead",
+      "date_published": "2019-07-22T05:00:00+00:00",
+      "author": {
+        "name": "Stephen Coakley",
+        "url": "https://stephencoakley.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c91d6ec8-c734-495e-89ad-e63da5825eb0",
       "title": "Announcing heim: async library for system information fetching",
       "content_text": "If you are familiar with Python ecosystem, probably you had heard about psutil package — a cross-platform library for retrieving information about system processes and system utilization (CPU, memory, disks, network and so on). It is very popular and actively used package, which has analogs in other languages: gopsutil for Golang, oshi for Java, you name it. Rust, of course, is not an exception here: we do have psutil, sysinfo, sys-info and systemstat crates.\n\nNow, despite the tremendous work that had been done already by the authors of these crates, I’m excited to announce what I’ve been working on for the past three months: “heim” project — library for system information fetching.",

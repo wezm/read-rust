@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "461ba118-af83-41c6-8afc-42b1d320a826",
+      "title": "Understanding Lifetimes",
+      "content_text": "In this post, I want to describe the Lifetimes in a different way that what I’m learned from the RFC. Audience: You may already have read the Rust Book. Nice if you took a compiler course.",
+      "url": "https://rniczh.github.io/blog/lifetimes-intro/",
+      "date_published": "2019-06-05T00:00:00+00:00",
+      "author": {
+        "name": "Hong-Sheng Zheng",
+        "url": "https://rniczh.github.io/"
+      },
+      "tags": [
+        "Computer Science",
+        "Language"
+      ]
+    },
+    {
       "id": "a0f3d2bb-e52e-440b-809f-169497494769",
       "title": "The Temptation of Unsafe",
       "content_text": "Recently, another round of discussion concerning the use of Rust’s unsafe features in the Actix web framework happened, or rather erupted, on Reddit, even more heated and acrimonious than the first time around. (I am not linking to any of the threads, as I believe that they don’t need any more exposure. Use your favorite search engine.) This proves, if more proof is needed, that people hold passionate beliefs about the matter.",

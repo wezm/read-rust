@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "3ded792f-b573-465c-a4bf-00a241bc7cbc",
+      "title": "Siderophile: Expose your Crate’s Unsafety",
+      "content_text": "Today we released a tool, siderophile, that helps Rust developers find fuzzing targets in their codebases. Siderophile trawls your crate’s dependencies and attempts to finds every unsafe function, expression, trait method, etc. It then traces these up the callgraph until it finds the function in your crate that uses the unsafety. It ranks the functions it finds in your crate by badness—the more unsafety a function makes use of, the higher its badness rating.",
+      "url": "https://blog.trailofbits.com/2019/07/01/siderophile-expose-your-crates-unsafety/",
+      "date_published": "2019-07-01T15:30:06+00:00",
+      "author": {
+        "name": "Trail of Bits",
+        "url": "https://blog.trailofbits.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "153bc34f-6b3a-4103-8fed-55ed99da9e36",
+      "title": "Why Rust for safe systems programming",
+      "content_text": "In this series, we have explored the need for proactive measures to eliminate a class of vulnerabilities and walked through some examples of memory safety issues we’ve found in Microsoft code that could have been avoided with a different language. Now we’ll peek at why we think that Rust represents the best alternative to C and C++ currently available.",
+      "url": "https://msrc-blog.microsoft.com/2019/07/22/why-rust-for-safe-systems-programming/",
+      "date_published": "2019-07-22T19:19:19+00:00",
+      "author": {
+        "name": "Ryan Levick",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "cc336a90-bbf5-49c3-94b7-e3c4454cbc53",
       "title": "Fuzz rising: how fuzz testing is making memory unsafe languages untenable",
       "content_text": "Go and read the excellent blog post from Cloudflare on their recent outage if you haven’t already. I am not going to talk about most of it, just a few small points that especially interest me right now, which are definitely not the most important things from the outage point of view. This post got a bit long so I split it up, so this is part one.",

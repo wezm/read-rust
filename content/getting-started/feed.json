@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c8522e50-6845-428d-b2c4-84b9dcfddaa4",
+      "title": "Here be (owned) books: Rust ownership explained with books",
+      "content_text": "One of the biggest Rust’s pros is unique ownership system. Unfortunately, it is also one of the hardest thing to learn. In this article I will try to explain it the same way I had learnt it and how I introduce people to one.",
+      "url": "https://hauleth.dev/post/eli5-ownership/",
+      "date_published": "2019-07-14T17:38:48+01:00",
+      "author": {
+        "name": "Łukasz Jan Niemier",
+        "url": "https://hauleth.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "48855ece-4f3a-44aa-80a1-b86a03cc9538",
+      "title": "Baseball Coding with Rust – Intro",
+      "content_text": "From time to time, major league teams will post job offers on FanGraphs. Most of these postings, if not all of them, ask for a level of proficiency in Python or R. While these languages have built up tremendous ecosystems, especially for data science, they are limited in the amount of data they can handle.\n\nThis is not a flaw in either language, rather a design choice. Without getting into the weeds too much about language theory, each language plants itself somewhere on the performance/ease-of-use spectrum. Nothing in today’s piece should be construed as a critique of Python or R. Quite the contrary. Python and R are the bedrock languages of the data science worlds.\n\nToday, I would like to introduce you to Rust, a modern systems programming language that aims to be, in their words, “A language empowering everyone to build reliable and efficient software.” I can personally attest to this being the case.",
+      "url": "https://tht.fangraphs.com/baseball-coding-with-rust-intro/",
+      "date_published": "2019-07-23T10:00:52+00:00",
+      "author": {
+        "name": "Eli Ben-Porat",
+        "url": "https://tht.fangraphs.com/author/ebpbaseball/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5d130478-b1c5-46b7-af4b-9e217dd138b2",
       "title": "Rust Questions from Beginners, Including Me",
       "content_text": "Information overload and I’m still trying to find a bigger project I can work on that interests me. I have the Interpreter to work on still, and that will take some serious work! But I’m also thinking of going back to small systems of my programming past and playing with writing them in Rust. In the meantime, I thought I’d sneak around the Rust #beginners channel on Discord and give everyone a peak at some questions (and hopefully some answers) that beginners are asking about their early Rust code.",
