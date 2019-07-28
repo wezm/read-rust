@@ -5,6 +5,7 @@ extern crate rss;
 extern crate serde_json;
 extern crate url;
 
+use std::collections::HashMap;
 use std::env;
 use std::fs::File;
 use std::path::Path;
@@ -102,11 +103,13 @@ fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::
         .into_iter()
         .take(MAX_ITEMS)
         .filter_map(|item| match *tag {
-            Some(ref tag) => if item.tags.contains(tag) {
-                Some(item.try_into())
-            } else {
-                None
-            },
+            Some(ref tag) => {
+                if item.tags.contains(tag) {
+                    Some(item.try_into())
+                } else {
+                    None
+                }
+            }
             None => Some(item.try_into()),
         })
         .collect()
@@ -114,8 +117,14 @@ fn generate_rss_items(feed: &JsonFeed, tag: &Option<String>) -> Result<Vec<rss::
 
 fn generate_rss(feed: &JsonFeed, rss_feed_path: &str, tag: &Option<String>) -> Result<(), Error> {
     let items = generate_rss_items(feed, tag)?;
+    let mut namespaces = HashMap::new();
+    namespaces.insert(
+        "dc".to_string(),
+        "http://purl.org/dc/elements/1.1/".to_string(),
+    );
 
     let channel = ChannelBuilder::default()
+        .namespaces(namespaces)
         .title(feed.title.clone())
         .link(feed.home_page_url.to_string())
         .description(feed.description.clone())
@@ -136,7 +145,8 @@ fn generate_json_feed(
     tag: &Option<String>,
 ) -> Result<JsonFeed, Error> {
     let mut filtered_items = match *tag {
-        Some(ref tag) => feed.items
+        Some(ref tag) => feed
+            .items
             .clone()
             .into_iter()
             .filter(|item| item.tags.contains(tag))
@@ -150,7 +160,8 @@ fn generate_json_feed(
         .for_each(|item| item.tweet_url = None);
 
     let tag_name = tag.clone().unwrap_or_else(|| "All Posts".to_owned());
-    let mut slug = tag.clone()
+    let mut slug = tag
+        .clone()
         .unwrap_or_else(|| "all".to_owned())
         .to_lowercase()
         .replace(" ", "-");
