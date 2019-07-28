@@ -78,14 +78,16 @@ fn extract_author(doc: &kuchiki::NodeRef, feed_author: Option<&Author>) -> Autho
                 .and_then(|link| {
                     let attrs = link.attributes.borrow();
                     attrs.get("content").map(|content| content.to_owned())
-                }).or_else(|| {
+                })
+                .or_else(|| {
                     doc.select_first("meta[property='author']")
                         .ok()
                         .and_then(|link| {
                             let attrs = link.attributes.borrow();
                             attrs.get("content").map(|content| content.to_owned())
                         })
-                }).or_else(|| {
+                })
+                .or_else(|| {
                     doc.select_first("meta[property='article:author']")
                         .ok()
                         .and_then(|link| {
@@ -107,12 +109,14 @@ fn extract_publication_date(doc: &kuchiki::NodeRef) -> Option<DateTime<FixedOffs
         .and_then(|link| {
             let attrs = link.attributes.borrow();
             attrs.get("content").map(|content| content.to_owned())
-        }).or_else(|| {
+        })
+        .or_else(|| {
             doc.select_first("article time").ok().and_then(|time| {
                 let attrs = time.attributes.borrow();
                 attrs.get("datetime").map(|content| content.to_owned())
             })
-        }).and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
+        })
+        .and_then(|date| DateTime::parse_from_rfc3339(&date).ok())
 }
 
 fn response_is_ok_and_matches_type(response: &reqwest::Response, feed_type: &FeedType) -> bool {
@@ -199,7 +203,8 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
         "http" => alternate_url.set_scheme("https"),
         "https" => alternate_url.set_scheme("http"),
         _ => panic!("post_url is not http or https"),
-    }.expect("unable to set scheme of alternate URL");
+    }
+    .expect("unable to set scheme of alternate URL");
 
     let post_info = match *feed {
         Feed::Atom(ref feed) => feed
@@ -209,7 +214,8 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
                 entry.links().iter().any(|link| {
                     link.href() == post_url.as_str() || link.href() == alternate_url.as_str()
                 })
-            }).map(PostInfo::from),
+            })
+            .map(PostInfo::from),
         Feed::Json(ref feed) => feed
             .items
             .iter()
@@ -221,7 +227,8 @@ fn post_info_from_feed(post_url: &Url, feed: &Feed) -> PostInfo {
             .find(|&item| {
                 item.link() == Some(post_url.as_str())
                     || item.link() == Some(alternate_url.as_str())
-            }).map(PostInfo::from),
+            })
+            .map(PostInfo::from),
     };
 
     if post_info.is_none() {
@@ -250,8 +257,10 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
                 doc.select_first("title")
                     .ok()
                     .map(|title| title.text_contents())
-            }).unwrap_or_else(|| "FIXME".to_owned())
-    }.trim()
+            })
+            .unwrap_or_else(|| "FIXME".to_owned())
+    }
+    .trim()
     .to_owned();
 
     let description = match ogobj.description {
@@ -262,7 +271,8 @@ fn post_info(html: &str, url: &Url) -> Result<PostInfo, Error> {
             .and_then(|link| {
                 let attrs = link.attributes.borrow();
                 attrs.get("content").map(|content| content.to_owned())
-            }).or_else(|| feed_info.description.clone())
+            })
+            .or_else(|| feed_info.description.clone())
             .unwrap_or_else(|| "FIXME".to_owned()),
     };
 
@@ -341,5 +351,6 @@ fn main() {
         &matches.free[0],
         matches.opt_strs("t"),
         matches.opt_str("w"),
-    ).expect("error");
+    )
+    .expect("error");
 }

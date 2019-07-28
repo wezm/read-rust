@@ -61,7 +61,8 @@ fn register() -> Result<Mastodon, Error> {
 }
 
 fn toot_text_from_item(item: &Item, categories: &Categories) -> String {
-    let tags = item.tags
+    let tags = item
+        .tags
         .iter()
         .filter_map(|tag| {
             categories
@@ -92,7 +93,8 @@ fn run(
     let categories_path = Path::new(categories_path);
     let categories = Categories::load(&categories_path)?;
 
-    let to_toot: Vec<Item> = feed.items
+    let to_toot: Vec<Item> = feed
+        .items
         .into_iter()
         .filter(|item| !tootlist.contains(&item.id))
         .collect();
@@ -148,5 +150,6 @@ fn main() {
         &matches.free[1],
         &matches.free[2],
         matches.opt_present("n"),
-    ).expect("error");
+    )
+    .expect("error");
 }

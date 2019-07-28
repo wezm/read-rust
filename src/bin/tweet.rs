@@ -116,7 +116,8 @@ impl Config {
 }
 
 fn tweet_text_from_item(item: &Item, categories: &Categories) -> String {
-    let tags = item.tags
+    let tags = item
+        .tags
         .iter()
         .filter_map(|tag| {
             categories
@@ -161,7 +162,8 @@ fn run(
     let categories_path = Path::new(categories_path);
     let categories = Categories::load(&categories_path)?;
 
-    let to_tweet: Vec<Item> = feed.items
+    let to_tweet: Vec<Item> = feed
+        .items
         .into_iter()
         .filter(|item| !tootlist.contains(&item.id))
         .collect();
@@ -234,26 +236,50 @@ fn main() {
         &matches.free[1],
         &matches.free[2],
         matches.opt_present("n"),
-    ).expect("error");
+    )
+    .expect("error");
 }
 
 #[test]
 fn test_tweet_id_from_valid_url() {
-    assert_eq!(tweet_id_from_url(&"https://twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), Some(1012438300781576192));
+    assert_eq!(
+        tweet_id_from_url(
+            &"https://twitter.com/llogiq/status/1012438300781576192"
+                .parse()
+                .unwrap()
+        ),
+        Some(1012438300781576192)
+    );
 }
 
 #[test]
 fn test_tweet_id_from_invalid_url() {
-    assert_eq!(tweet_id_from_url(&"https://not_twitter.com/llogiq/status/1012438300781576192".parse().unwrap()), None);
+    assert_eq!(
+        tweet_id_from_url(
+            &"https://not_twitter.com/llogiq/status/1012438300781576192"
+                .parse()
+                .unwrap()
+        ),
+        None
+    );
 }
 
 #[test]
 fn test_tweet_id_from_non_status_url() {
-    assert_eq!(tweet_id_from_url(&"https://twitter.com/rustlang/".parse().unwrap()), None);
+    assert_eq!(
+        tweet_id_from_url(&"https://twitter.com/rustlang/".parse().unwrap()),
+        None
+    );
 }
 
 #[test]
 fn test_tweet_id_from_almost_valid_url() {
-    assert_eq!(tweet_id_from_url(&"https://mobile.twitter.com/shaneOsbourne/status/1012451814338424832/photo/2".parse().unwrap()), None);
+    assert_eq!(
+        tweet_id_from_url(
+            &"https://mobile.twitter.com/shaneOsbourne/status/1012451814338424832/photo/2"
+                .parse()
+                .unwrap()
+        ),
+        None
+    );
 }
-

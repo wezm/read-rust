@@ -109,7 +109,8 @@ impl<'a> From<&'a rss::Item> for PostInfo {
             title: item.title().map(|title| title.to_owned()),
             description: item.description().map(|desc| desc.to_owned()),
             author: None, // TODO: From
-            published_at: item.pub_date()
+            published_at: item
+                .pub_date()
                 .and_then(|date| DateTime::parse_from_rfc2822(date).ok()),
         }
     }
