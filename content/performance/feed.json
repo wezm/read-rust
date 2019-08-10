@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "771ffeb1-3f31-43b3-9f4b-17b114e326c2",
+      "title": "The Rust compiler is still getting faster",
+      "content_text": "I previously wrote about one period of improvement in Rust compiler speed. How are things going in 2019?",
+      "url": "https://blog.mozilla.org/nnethercote/2019/07/25/the-rust-compiler-is-still-getting-faster/",
+      "date_published": "2019-07-25T03:56:24+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "44e12e0f-4572-479e-a63c-c4539b2c9ae8",
       "title": "cedarwood: Efficiently-Updatable Double Array Trie in Rust",
       "content_text": "Cedarwood is an effort to speed up jieba-rs, an efficient implementation of trie is needed in order to satisfying the following needs.",

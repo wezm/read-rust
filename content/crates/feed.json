@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b958f8b9-38f2-42e9-8cb9-9b7c59f7b875",
+      "title": "Tokio alpha release with async & await",
+      "content_text": "We’re pleased to announce the release of the first Tokio alpha with async & await support. This includes updating all of the Tokio crates to use std::future instead of futures 0.1. It also includes adding async fn versions of the APIs.",
+      "url": "https://tokio.rs/blog/2019-08-alphas/",
+      "date_published": "2019-08-08T00:00:00+00:00",
+      "author": {
+        "name": "Tokio",
+        "url": "https://tokio.rs/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "14ef4b09-79cc-424c-88bd-97a5d40ec957",
       "title": "cHTTP 0.5 and the Journey Ahead",
       "content_text": "One of my more recent projects that I have been putting a lot of effort into is a Rust HTTP client called cHTTP, which I introduced on this blog over 18 months ago. Here I want to share an update on the direction of the project, and also give some detail on what months of late evenings and weekends produced in version 0.5 just published today.",

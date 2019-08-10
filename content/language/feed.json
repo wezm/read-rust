@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "2a87f758-3eaf-4971-a00f-02f3175d0db5",
+      "title": "Follow-up to Method on Emulating Higher-Kinded Types (HKTs) in Rust",
+      "content_text": "First off, thanks for all the comments and kind words on the original writeup; I've been meaning to follow up on some of the suggestions and write about the different ways to represent monads (and functors, HKTs, etc) that now exist, but a month of being busy has kind of gotten in the way (mainly with three new kittens!).\n\nAnd for sure, I do not expect (nor do I want) this to become the norm for production-level Rust: rather, I hope that this can contribute to the foundations of programming with higher-level abstractions in Rust, somewhat like how early template metaprogramming in C++ and typeclass-constraint-unification metaprogramming in Haskell have contributed, perhaps indirectly, to later innovations in their respective languages and ecosystems that were much more reasoned, sound and usable.",
+      "url": "https://gist.github.com/edmundsmith/e09d5f473172066c0023ef84ee830cad",
+      "date_published": "2019-08-08T11:44:35+00:00",
+      "author": {
+        "name": "Edmund Smith",
+        "url": "https://gist.github.com/edmundsmith"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "27ce3b2b-a0fc-4cf2-ade4-1d4bcd1dabf7",
+      "title": "My First Three Months With Rust",
+      "content_text": "I’ve used C++ professionally in games and simulations for over 10 years, and in the past few years I’ve also used C# to build distributed backend systems. Lately, I’ve been exploring Rust.",
+      "url": "https://blog.aclysma.com/my-first-three-months-with-rust/",
+      "date_published": "2019-08-07T19:13:41+00:00",
+      "author": {
+        "name": "Philip Degarmo",
+        "url": "https://blog.aclysma.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ac36b146-f880-46e7-9f3f-819ab9daefa8",
+      "title": "My Thoughts on Rust's Future: A Positive Outlook",
+      "content_text": "I'm feeling really positive about Rust's prospects of popularity and wide-spread adoption in the future. I've been a part of the Rust community for three years now, and it feels like the stars are starting to align in order to let Rust jump into a position of dominance in the programming language world. There are several different, wide-spread, and mostly unrelated trends that I've noticed are all coming together with positive implications for Rust.",
+      "url": "https://cprimozic.net/blog/my-thoughts-on-rusts-future/",
+      "date_published": "2019-08-03T00:00:00+00:00",
+      "author": {
+        "name": "Casey Primozic",
+        "url": "https://cprimozic.net/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ab2b1d95-83c2-4541-9f2d-bb5224d0b713",
+      "title": "HOWTO: Replace mem::uninitialized with mem::MaybeUninit",
+      "content_text": "The recent 1.36.0 release of Rust has brought a mem::MaybeUninit union that allows safer handling of possibly uninitialized data. MaybeUninit is a replacement of mem::uninitialized. Why? Because using mem::uninitialized it is damn easy to shoot yourself in the foot.",
+      "url": "https://www.reddit.com/r/rust/comments/cefgec/howto_replace_memuninitialized_with_memmaybeuninit/",
+      "date_published": "2019-07-19T10:59:18+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://www.reddit.com/user/rproskuryakov/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "461ba118-af83-41c6-8afc-42b1d320a826",
       "title": "Understanding Lifetimes",
       "content_text": "In this post, I want to describe the Lifetimes in a different way that what I’m learned from the RFC. Audience: You may already have read the Rust Book. Nice if you took a compiler course.",

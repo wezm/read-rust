@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "b958f8b9-38f2-42e9-8cb9-9b7c59f7b875",
+      "title": "Tokio alpha release with async & await",
+      "content_text": "We’re pleased to announce the release of the first Tokio alpha with async & await support. This includes updating all of the Tokio crates to use std::future instead of futures 0.1. It also includes adding async fn versions of the APIs.",
+      "url": "https://tokio.rs/blog/2019-08-alphas/",
+      "tweet_url": "https://twitter.com/tokio_rs/status/1159570806847860736?s=20",
+      "date_published": "2019-08-08T00:00:00+00:00",
+      "author": {
+        "name": "Tokio",
+        "url": "https://tokio.rs/blog/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2a87f758-3eaf-4971-a00f-02f3175d0db5",
+      "title": "Follow-up to Method on Emulating Higher-Kinded Types (HKTs) in Rust",
+      "content_text": "First off, thanks for all the comments and kind words on the original writeup; I've been meaning to follow up on some of the suggestions and write about the different ways to represent monads (and functors, HKTs, etc) that now exist, but a month of being busy has kind of gotten in the way (mainly with three new kittens!).\n\nAnd for sure, I do not expect (nor do I want) this to become the norm for production-level Rust: rather, I hope that this can contribute to the foundations of programming with higher-level abstractions in Rust, somewhat like how early template metaprogramming in C++ and typeclass-constraint-unification metaprogramming in Haskell have contributed, perhaps indirectly, to later innovations in their respective languages and ecosystems that were much more reasoned, sound and usable.",
+      "url": "https://gist.github.com/edmundsmith/e09d5f473172066c0023ef84ee830cad",
+      "date_published": "2019-08-08T11:44:35+00:00",
+      "author": {
+        "name": "Edmund Smith",
+        "url": "https://gist.github.com/edmundsmith"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "27ce3b2b-a0fc-4cf2-ade4-1d4bcd1dabf7",
+      "title": "My First Three Months With Rust",
+      "content_text": "I’ve used C++ professionally in games and simulations for over 10 years, and in the past few years I’ve also used C# to build distributed backend systems. Lately, I’ve been exploring Rust.",
+      "url": "https://blog.aclysma.com/my-first-three-months-with-rust/",
+      "date_published": "2019-08-07T19:13:41+00:00",
+      "author": {
+        "name": "Philip Degarmo",
+        "url": "https://blog.aclysma.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ac36b146-f880-46e7-9f3f-819ab9daefa8",
+      "title": "My Thoughts on Rust's Future: A Positive Outlook",
+      "content_text": "I'm feeling really positive about Rust's prospects of popularity and wide-spread adoption in the future. I've been a part of the Rust community for three years now, and it feels like the stars are starting to align in order to let Rust jump into a position of dominance in the programming language world. There are several different, wide-spread, and mostly unrelated trends that I've noticed are all coming together with positive implications for Rust.",
+      "url": "https://cprimozic.net/blog/my-thoughts-on-rusts-future/",
+      "date_published": "2019-08-03T00:00:00+00:00",
+      "author": {
+        "name": "Casey Primozic",
+        "url": "https://cprimozic.net/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "674ac0a5-a4cc-46f3-84c5-2eb3bdfde2f3",
+      "title": "Javelin project",
+      "content_text": "We are having fun moving the gfx-rs project forward thanks to the power provided by the Rust language. We are building rich abstractions which expand beyond the gfx-hal API itself and into the internal layers of the backends, structured to be modular and maintainable. We are building high-performance graphics and compute infrastructure that deeply interacts with OS and drivers, thanks to the Rust’s FFI capabilities and the lack of runtime. We do all of this while requiring only a portion of our developers’ time and attention, who work on gfx-rs mostly as a side project. Rust allows us to move forward confidently and quickly, experiment with features as well as land production-quality code.",
+      "url": "https://gfx-rs.github.io/2019/07/13/javelin.html",
+      "date_published": "2019-07-13T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "771ffeb1-3f31-43b3-9f4b-17b114e326c2",
+      "title": "The Rust compiler is still getting faster",
+      "content_text": "I previously wrote about one period of improvement in Rust compiler speed. How are things going in 2019?",
+      "url": "https://blog.mozilla.org/nnethercote/2019/07/25/the-rust-compiler-is-still-getting-faster/",
+      "tweet_url": "https://twitter.com/nnethercote/status/1154239762229682176?s=20",
+      "date_published": "2019-07-25T03:56:24+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "ab2b1d95-83c2-4541-9f2d-bb5224d0b713",
+      "title": "HOWTO: Replace mem::uninitialized with mem::MaybeUninit",
+      "content_text": "The recent 1.36.0 release of Rust has brought a mem::MaybeUninit union that allows safer handling of possibly uninitialized data. MaybeUninit is a replacement of mem::uninitialized. Why? Because using mem::uninitialized it is damn easy to shoot yourself in the foot.",
+      "url": "https://www.reddit.com/r/rust/comments/cefgec/howto_replace_memuninitialized_with_memmaybeuninit/",
+      "date_published": "2019-07-19T10:59:18+00:00",
+      "author": {
+        "name": "Roman Proskuryakov",
+        "url": "https://www.reddit.com/user/rproskuryakov/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2e787744-947c-488d-a7b0-06f5e8ed34f3",
+      "title": "Rust Rocks NB-IoT! STM32 Blue Pill with Quectel BC95-G on Apache Mynewt",
+      "content_text": "We’re back in 2019… Hardly anyone writes embedded programs in Rust for microcontrollers (like STM32 Blue Pill), we all use C. But we really should switch to Rust! Moon Base One has given us 2 key reasons…",
+      "url": "https://medium.com/@ly.lee/rust-rocks-nb-iot-stm32-blue-pill-with-quectel-bc95-g-on-apache-mynewt-ef62a7e28f7e",
+      "tweet_url": "https://twitter.com/MisterTechBlog/status/1158040351472414720?s=20",
+      "date_published": "2019-08-07T04:44:39.876+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "ca7ab50b-0ea0-4d8f-9f38-74945bc33900",
+      "title": "How to write Full Stack Rust code",
+      "content_text": "In the previous post How to modulize your Rust Frontend, we learnt how to use impl, functions and Yew components. They help you to find errors and organize your Rust frontend project. In this post, we will include server side code with ws-rs. It will help us to build complete Rust Full Stack chat app similar to what we made at How to start Rust Chat App.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-write-Full-Stack-Rust-code",
+      "tweet_url": "https://twitter.com/steadylearner_p/status/1153286541273391104",
+      "date_published": "2019-07-22T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "94badc73-4b58-487c-88de-ce68562f9f19",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 5",
+      "content_text": "This week I’ve decided to skip trying to get GDB working for now (there are so many issues it’ll take forever to solve them), and instead decided to finally give focus to the final concerns I had about ptrace. Most changes this week was related to getting decent behavior of child processes, although the design feels… suboptimal, somehow (not sure why), so I feel I must be able to improve it better later.\n\nAnother change was security: Tracers running as a non-root user can now in addition to only tracing processes running as the same user, only trace processes that are directly or indirectly children of the tracer. In the future this can easily be allowed with some kind of capability, but currently in Redox there isn’t a capability-like system other than the simple (but really powerful) namespacing system which sadly I don’t think can be used for this.",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-5/",
+      "date_published": "2019-07-22T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "c8522e50-6845-428d-b2c4-84b9dcfddaa4",
       "title": "Here be (owned) books: Rust ownership explained with books",
       "content_text": "One of the biggest Rust’s pros is unique ownership system. Unfortunately, it is also one of the hardest thing to learn. In this article I will try to explain it the same way I had learnt it and how I introduce people to one.",

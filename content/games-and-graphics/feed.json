@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "674ac0a5-a4cc-46f3-84c5-2eb3bdfde2f3",
+      "title": "Javelin project",
+      "content_text": "We are having fun moving the gfx-rs project forward thanks to the power provided by the Rust language. We are building rich abstractions which expand beyond the gfx-hal API itself and into the internal layers of the backends, structured to be modular and maintainable. We are building high-performance graphics and compute infrastructure that deeply interacts with OS and drivers, thanks to the Rust’s FFI capabilities and the lack of runtime. We do all of this while requiring only a portion of our developers’ time and attention, who work on gfx-rs mostly as a side project. Rust allows us to move forward confidently and quickly, experiment with features as well as land production-quality code.",
+      "url": "https://gfx-rs.github.io/2019/07/13/javelin.html",
+      "date_published": "2019-07-13T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "69f76932-86e3-4ee1-b2ee-f9d986b25389",
       "title": "New tools for 2D game development in Amethyst",
       "content_text": "Are you looking to build 2D games with Amethyst? Well, we've got some great news for you! Getting started just became a whole lot easier. There's been 2 recent project releases that we want to tell you more about; encourage you to use them, give us feedback and maybe even contribute!",

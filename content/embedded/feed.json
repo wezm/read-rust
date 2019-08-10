@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2e787744-947c-488d-a7b0-06f5e8ed34f3",
+      "title": "Rust Rocks NB-IoT! STM32 Blue Pill with Quectel BC95-G on Apache Mynewt",
+      "content_text": "We’re back in 2019… Hardly anyone writes embedded programs in Rust for microcontrollers (like STM32 Blue Pill), we all use C. But we really should switch to Rust! Moon Base One has given us 2 key reasons…",
+      "url": "https://medium.com/@ly.lee/rust-rocks-nb-iot-stm32-blue-pill-with-quectel-bc95-g-on-apache-mynewt-ef62a7e28f7e",
+      "date_published": "2019-08-07T04:44:39.876+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "22d99aab-bb46-4d9b-9cf5-1e977c639f16",
       "title": "Visual Programming with Embedded Rust? Yes we can with Apache Mynewt and Google Blockly!",
       "content_text": "I gotta admit — Embedded Programs are getting darned hard to code on modern microcontrollers, sensors and networks. Faced with the ultra-daunting task of coding a readable, reusable, open-source NB-IoT application for STM32, I asked myself… Could Visual Programming with Embedded Rust solve this problem? Like this…",

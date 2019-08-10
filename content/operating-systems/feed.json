@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "94badc73-4b58-487c-88de-ce68562f9f19",
+      "title": "RSoC: Implementing ptrace for Redox OS - part 5",
+      "content_text": "This week I’ve decided to skip trying to get GDB working for now (there are so many issues it’ll take forever to solve them), and instead decided to finally give focus to the final concerns I had about ptrace. Most changes this week was related to getting decent behavior of child processes, although the design feels… suboptimal, somehow (not sure why), so I feel I must be able to improve it better later.\n\nAnother change was security: Tracers running as a non-root user can now in addition to only tracing processes running as the same user, only trace processes that are directly or indirectly children of the tracer. In the future this can easily be allowed with some kind of capability, but currently in Redox there isn’t a capability-like system other than the simple (but really powerful) namespacing system which sadly I don’t think can be used for this.",
+      "url": "https://www.redox-os.org/news/rsoc-ptrace-5/",
+      "date_published": "2019-07-22T00:00:00+00:00",
+      "author": {
+        "name": "jD91mZM2",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "c7551d1c-be90-4dd7-be38-5fcb78c51ef0",
       "title": "RSoC: Implementing ptrace for Redox OS - part 4",
       "content_text": "Once again, last weeks action was merged, which means the full ptrace feature was merged, and it’s time to start tackling the final issues which I have delayed for so long. But, before that, I decided to try to get some basic ptrace compatibility in relibc, so we could see just how far away software like gdb is from being ported, and what concerns I haven’t thought about yet. redox-nix update: That said, I took a little break from the madness, to instead lay my focus on another interesting problem: Newer redoxer couldn’t be compiled using carnix, because of some dependency that used a cargo feature carnix didn’t support. Let me first explain what carnix is, and why this is a problem.",
