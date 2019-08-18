@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "faca5f20-8895-4d5b-850c-d2a8b4149876",
+      "title": "Practical Networked Applications in Rust, Part 1: Non-Networked Key-Value Store",
+      "content_text": "The PingCAP company, makers of the TiDB NewSQL database and the TiKV key-value store, have kindly made publicly available, as well as open-sourced, a set of training courses that they call the \"PingCAP Talent Plan\". These courses train programmers in writing distributed systems in the Go and Rust languages. They are originally intended by PingCAP to train students, new employees and new contributors to TiDB and TiKV and focus as such on subjects relevant to those projects, but are still appropriate to anyone with an interest in learning to make distributed systems in Go and/or Rust.",
+      "url": "https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-1/",
+      "date_published": "2019-07-23T13:00:00+02:00",
+      "author": {
+        "name": "Arve Knudsen",
+        "url": "https://arveknudsen.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "ca7ab50b-0ea0-4d8f-9f38-74945bc33900",
       "title": "How to write Full Stack Rust code",
       "content_text": "In the previous post How to modulize your Rust Frontend, we learnt how to use impl, functions and Yew components. They help you to find errors and organize your Rust frontend project. In this post, we will include server side code with ws-rs. It will help us to build complete Rust Full Stack chat app similar to what we made at How to start Rust Chat App.",

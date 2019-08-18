@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "13003d78-0993-49fe-ae7e-0b0263a77353",
+      "title": "C vs Rust vs Go: performance analysis",
+      "content_text": "In one of my previous jobs I got a task: “For given image find popular colors in that image, so users can browse images by it’s colors”. This is where three languages comes to play. I have implemented histogram algorithm in C, Rust and Go.",
+      "url": "https://medium.com/@marek.michalik/c-vs-rust-vs-go-performance-analysis-945ab749056c",
+      "date_published": "2019-07-18T20:54:01.576+00:00",
+      "author": {
+        "name": "Marek Michalik",
+        "url": "https://medium.com/@marek.michalik"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "fb9caad4-9aa0-4996-92d6-93fd75509dcf",
+      "title": "CPU atomics and orderings explained",
+      "content_text": "Sometimes the question comes up about how CPU memory orderings work, and what they do. I hope this post explains it in a really accessible way.",
+      "url": "https://fy.blackhats.net.au/blog/html/2019/07/16/cpu_atomics_and_orderings_explained.html",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "5f582def-af9d-44cb-9a18-648bff14bd67",
+      "title": "Introducing glam and mathbench",
+      "content_text": "glam is a simple and fast Rust linear algebra library for games and graphics. mathbench is a set of unit tests and benchmarks comparing the performance of glam with the popular Rust linear algebra libraries cgmath and nalgebra. The following is a table of benchmarks produced by mathbench comparing glam performance to cgmath and nalgebra on f32 data.",
+      "url": "http://bitshifter.github.io/2019/07/10/introducing-glam-and-mathbench/",
+      "date_published": "2019-07-10T00:00:00+00:00",
+      "author": {
+        "name": "Cameron Hart",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "771ffeb1-3f31-43b3-9f4b-17b114e326c2",
       "title": "The Rust compiler is still getting faster",
       "content_text": "I previously wrote about one period of improvement in Rust compiler speed. How are things going in 2019?",
@@ -614,7 +657,7 @@
       "url": "https://fy.blackhats.net.au/blog/html/2018/10/19/rust_rwlock_and_mutex_performance_oddities.html",
       "date_published": "2018-10-19T00:00:00+00:00",
       "author": {
-        "name": "firstyear",
+        "name": "Firstyear",
         "url": "https://fy.blackhats.net.au/blog/html/index.html"
       },
       "tags": [

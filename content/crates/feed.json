@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "5b6c323e-57a0-4281-86ee-67c3a4bf6173",
+      "title": "Announcing async-std",
+      "content_text": "We are excited to announce a beta release of async-std with the intent to publish version 1.0 by September 26th, 2019. async-std is a library that looks and feels like the Rust standard library, except everything in it is made to work with async/await exactly as you would expect it to. The library comes with a book and polished API documentation, and will soon provide a stable interface to base your async libraries and applications on. While we don't promise API stability before our 1.0 release, we also don't expect to make any breaking changes.",
+      "url": "https://async.rs/blog/announcing-async-std/",
+      "date_published": "2019-08-16T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavin",
+        "url": "https://async.rs/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5f582def-af9d-44cb-9a18-648bff14bd67",
+      "title": "Introducing glam and mathbench",
+      "content_text": "glam is a simple and fast Rust linear algebra library for games and graphics. mathbench is a set of unit tests and benchmarks comparing the performance of glam with the popular Rust linear algebra libraries cgmath and nalgebra. The following is a table of benchmarks produced by mathbench comparing glam performance to cgmath and nalgebra on f32 data.",
+      "url": "http://bitshifter.github.io/2019/07/10/introducing-glam-and-mathbench/",
+      "date_published": "2019-07-10T00:00:00+00:00",
+      "author": {
+        "name": "Cameron Hart",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "b958f8b9-38f2-42e9-8cb9-9b7c59f7b875",
       "title": "Tokio alpha release with async & await",
       "content_text": "We’re pleased to announce the release of the first Tokio alpha with async & await support. This includes updating all of the Tokio crates to use std::future instead of futures 0.1. It also includes adding async fn versions of the APIs.",

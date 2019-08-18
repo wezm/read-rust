@@ -10,6 +10,138 @@
   },
   "items": [
     {
+      "id": "5b6c323e-57a0-4281-86ee-67c3a4bf6173",
+      "title": "Announcing async-std",
+      "content_text": "We are excited to announce a beta release of async-std with the intent to publish version 1.0 by September 26th, 2019. async-std is a library that looks and feels like the Rust standard library, except everything in it is made to work with async/await exactly as you would expect it to. The library comes with a book and polished API documentation, and will soon provide a stable interface to base your async libraries and applications on. While we don't promise API stability before our 1.0 release, we also don't expect to make any breaking changes.",
+      "url": "https://async.rs/blog/announcing-async-std/",
+      "tweet_url": "https://twitter.com/asyncrs/status/1162393714209280001",
+      "date_published": "2019-08-16T00:00:00+00:00",
+      "author": {
+        "name": "Stjepan Glavin",
+        "url": "https://async.rs/blog"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "13003d78-0993-49fe-ae7e-0b0263a77353",
+      "title": "C vs Rust vs Go: performance analysis",
+      "content_text": "In one of my previous jobs I got a task: “For given image find popular colors in that image, so users can browse images by it’s colors”. This is where three languages comes to play. I have implemented histogram algorithm in C, Rust and Go.",
+      "url": "https://medium.com/@marek.michalik/c-vs-rust-vs-go-performance-analysis-945ab749056c",
+      "date_published": "2019-07-18T20:54:01.576+00:00",
+      "author": {
+        "name": "Marek Michalik",
+        "url": "https://medium.com/@marek.michalik"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "fb9caad4-9aa0-4996-92d6-93fd75509dcf",
+      "title": "CPU atomics and orderings explained",
+      "content_text": "Sometimes the question comes up about how CPU memory orderings work, and what they do. I hope this post explains it in a really accessible way.",
+      "url": "https://fy.blackhats.net.au/blog/html/2019/07/16/cpu_atomics_and_orderings_explained.html",
+      "date_published": "2019-07-16T00:00:00+00:00",
+      "author": {
+        "name": "Firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "76cefd5b-2344-4629-84fb-5bf5c45c0ce0",
+      "title": "Announcing Rust 1.37.0",
+      "content_text": "The highlights of Rust 1.37.0 include referring to enum variants through type aliases, built-in cargo vendor, unnamed const items, profile-guided optimization, a default-run key in Cargo, and #[repr(align(N))] on enums. Read on for a few highlights, or see the detailed release notes for additional information.",
+      "url": "https://blog.rust-lang.org/2019/08/15/Rust-1.37.0.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1162007614013751297",
+      "date_published": "2019-08-15T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5f582def-af9d-44cb-9a18-648bff14bd67",
+      "title": "Introducing glam and mathbench",
+      "content_text": "glam is a simple and fast Rust linear algebra library for games and graphics. mathbench is a set of unit tests and benchmarks comparing the performance of glam with the popular Rust linear algebra libraries cgmath and nalgebra. The following is a table of benchmarks produced by mathbench comparing glam performance to cgmath and nalgebra on f32 data.",
+      "url": "http://bitshifter.github.io/2019/07/10/introducing-glam-and-mathbench/",
+      "tweet_url": "https://twitter.com/bitshifternz/status/1148920317944819712?s=20",
+      "date_published": "2019-07-10T00:00:00+00:00",
+      "author": {
+        "name": "Cameron Hart",
+        "url": "https://bitshifter.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
+      "id": "98583b20-bd88-4cad-8a18-5e375c6c369f",
+      "title": "Unsafe as a Human-Assisted Type System",
+      "content_text": "This is a short note about yet another way to look at Rust’s unsafe. Today, an interesting bug was found in rustc, which made me aware just how useful unsafe is for making code maintainable. The story begins a couple of months ago, when I was casually browsing through recent pull requests for rust-lang/rust. I was probably waiting for my code to compile at that moment :] Anyway, a pull request caught my attention, and, while I was reading the diff, I noticed a usage of unsafe.",
+      "url": "https://matklad.github.io/2019/07/25/unsafe-as-a-type-system.html",
+      "date_published": "2019-07-25T00:00:00+03:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1f02eefe-da84-472d-8df4-039766538e7f",
+      "title": "Baseball Coding with Rust – Part 2",
+      "content_text": "In Part 1, we introduced Rust and built a little program that allowed us to get all the GameDay links for a particular day. Today, we’ll dive right into code and begin the process of building out a complete game from the xml files. As much as possible, I’ll try to explain important concepts along the way as we build out the application. My goal is to deliver a crash course into baseball-centric programming in Rust, complete with code, theory and practical use, without getting too much into the weeds.",
+      "url": "https://tht.fangraphs.com/baseball-coding-with-rust-part-2/",
+      "date_published": "2019-07-24T00:00:00+00:00",
+      "author": {
+        "name": "Eli Ben-Porat",
+        "url": "https://tht.fangraphs.com/author/ebpbaseball/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "6f824da5-4033-40da-994f-581a7909e50e",
+      "title": "Introduction",
+      "content_text": "A home for compiler team planning documents, meeting minutes, and other such things. If you’re interested in learning about how rustc works – as well as advice on building the compiler, preparing a PR, and other similar topics – check out the rustc-guide.",
+      "url": "https://rust-lang.github.io/compiler-team/",
+      "tweet_url": "https://twitter.com/spastorino/status/1154096554527137792?s=20",
+      "date_published": "2019-08-18T04:30:25+00:00",
+      "author": {
+        "name": "Rust Lang Compiler Team",
+        "url": "https://rust-lang.github.io/compiler-team"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "faca5f20-8895-4d5b-850c-d2a8b4149876",
+      "title": "Practical Networked Applications in Rust, Part 1: Non-Networked Key-Value Store",
+      "content_text": "The PingCAP company, makers of the TiDB NewSQL database and the TiKV key-value store, have kindly made publicly available, as well as open-sourced, a set of training courses that they call the \"PingCAP Talent Plan\". These courses train programmers in writing distributed systems in the Go and Rust languages. They are originally intended by PingCAP to train students, new employees and new contributors to TiDB and TiKV and focus as such on subjects relevant to those projects, but are still appropriate to anyone with an interest in learning to make distributed systems in Go and/or Rust.",
+      "url": "https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-1/",
+      "tweet_url": "https://twitter.com/hochgenuss/status/1153688058295926786?s=20",
+      "date_published": "2019-07-23T13:00:00+02:00",
+      "author": {
+        "name": "Arve Knudsen",
+        "url": "https://arveknudsen.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "b958f8b9-38f2-42e9-8cb9-9b7c59f7b875",
       "title": "Tokio alpha release with async & await",
       "content_text": "We’re pleased to announce the release of the first Tokio alpha with async & await support. This includes updating all of the Tokio crates to use std::future instead of futures 0.1. It also includes adding async fn versions of the APIs.",
@@ -4913,7 +5045,7 @@
       "tweet_url": "https://twitter.com/Erstejahre/status/1116877081395073024",
       "date_published": "2019-04-13T00:00:00+00:00",
       "author": {
-        "name": "firstyear",
+        "name": "Firstyear",
         "url": "https://fy.blackhats.net.au/blog/html/index.html"
       },
       "tags": [
@@ -12917,7 +13049,7 @@
       "tweet_url": "https://twitter.com/Erstejahre/status/1053431102457561088",
       "date_published": "2018-10-19T00:00:00+00:00",
       "author": {
-        "name": "firstyear",
+        "name": "Firstyear",
         "url": "https://fy.blackhats.net.au/blog/html/index.html"
       },
       "tags": [
