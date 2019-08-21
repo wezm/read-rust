@@ -54,5 +54,5 @@ Some manual tweaks to the JSON might be needed.
 [self]: https://readrust.net/
 [contributing]: https://readrust.net/submit.html
 [#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
-[Cobalt]: http://cobalt-org.github.io/
-[install-cobalt]: http://cobalt-org.github.io/docs/install.html
+[Cobalt]: https://cobalt-org.github.io/
+[install-cobalt]: https://cobalt-org.github.io/docs/install

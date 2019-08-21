@@ -20,7 +20,7 @@ people and machines alike to subscribe to your posts without having to check
 back all the time. Most blogging systems have built in support for generating
 a feed:
 
-* [Coballt](http://cobalt-org.github.io/docs/rss.html)
+* [Cobalt](https://cobalt-org.github.io/docs/rss)
 * [Zola](https://www.getzola.org/documentation/templates/rss/)
 * [Ghost](https://ghost.org/) — enabled by default at `/rss/` on your blog.
 * [Hugo](https://gohugo.io/templates/rss/)
