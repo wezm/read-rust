@@ -21,6 +21,7 @@ back all the time. Most blogging systems have built in support for generating
 a feed:
 
 * [Coballt](http://cobalt-org.github.io/docs/rss.html)
+* [Zola](https://www.getzola.org/documentation/templates/rss/)
 * [Ghost](https://ghost.org/) — enabled by default at `/rss/` on your blog.
 * [Hugo](https://gohugo.io/templates/rss/)
 * [Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/#10-rss-feed)
