@@ -376,13 +376,13 @@
       name: 'jonhoo'
       link: https://github.com/jonhoo
     description: |
-      Jon is a Rust live coder, and builder of Rust implementations of
+      Jon is a Rust live coder, and the maintainer of Rust implementations of
       <a href="https://github.com/HdrHistogram/HdrHistogram_rust">HdrHistogram</a>,
       <a href="https://github.com/jonhoo/faktory-rs">Faktory</a>, and the
       <a href="https://github.com/mattnenterprise/rust-imap/">IMAP protocol</a>.
-      They're also doing research on building a
-      <a href="https://jon.tsp.io/papers/sosp17src-xylem.pdf">fast new database engine</a>.
-    tags: [database, video]
+      He is also doing research on building a
+      <a href="https://www.usenix.org/conference/osdi18/presentation/gjengset">fast new database engine</a>.
+    tags: [rust-tools, database, database, video]
   -
     name: Pascal Hertleif
     avatar: killercup.jpg
