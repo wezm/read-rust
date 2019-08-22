@@ -10,6 +10,122 @@
   },
   "items": [
     {
+      "id": "c0401410-c335-43a2-a9f3-342909efdb3f",
+      "title": "How Rust optimizes async/await: Part 1",
+      "content_text": "The issue to stabilize an initial version of async/await in Rust has left final comment period. The feature looks slated to stabilize in an upcoming release, most likely 1.39. One of the blockers mentioned in the RFC is the size of the state machines emitted by async fn. I’ve spent the last few months tackling this problem, and wanted to give people a window into the process of writing these optimizations, with all the intricacies involved.",
+      "url": "https://tmandry.gitlab.io/blog/posts/optimizing-await-1/",
+      "tweet_url": "https://twitter.com/tmandry/status/1163481057619873792?s=20",
+      "date_published": "2019-08-18T00:00:00+00:00",
+      "author": {
+        "name": "Tyler Mandry",
+        "url": "https://tmandry.gitlab.io/blog/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "1a249517-dab9-4195-abad-c76c79fd0560",
+      "title": "Rust vs GUI",
+      "content_text": "Implications of Rust's borrow checking and memory ownership on GUI development (simple case)",
+      "url": "https://turbomack.github.io/posts/2019-07-28-rust-vs-gui.html",
+      "tweet_url": "https://twitter.com/turbo_MaCk/status/1155610971311882245?s=20",
+      "date_published": "2019-07-28T00:00:00+00:00",
+      "author": {
+        "name": "Marek Fajkus",
+        "url": "https://turbomack.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "09df4bbd-96fe-49af-8811-407f98c3108e",
+      "title": "Practical Networked Applications in Rust, Part 2: Networked Key-Value Store",
+      "content_text": "Welcome to the second installation in my series on taking the Practical Networked Applications in Rust course, kindly provided by the PingCAP company, where you develop a networked and multithreaded/asynchronous key-value store in the amazing Rust language. In the previous, and initial, post I implemented the course module of making the fundamental key-value store functionality, based around the Bitcask algorithm, which would only allow for local usage on your own computer. In the second module of my course work, I add networking functionality, dividing the application into a client/server architecture so that clients can connect to servers across the network.",
+      "url": "https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-2/",
+      "tweet_url": "https://twitter.com/hochgenuss/status/1157795856122359808?s=20",
+      "date_published": "2019-08-04T01:00:00+02:00",
+      "author": {
+        "name": "Arve Knudsen",
+        "url": "https://arveknudsen.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "902d33e4-a66a-479e-8758-f543083da639",
+      "title": "Await a minute, why bother?",
+      "content_text": "Recently I have been retooling some core Rust libraries at $work to play nicely with native async/await syntax. This note covers my thoughts on why this feature is so important to our async codebase if it's \"just\" syntax sugar for a job that could just be done using raw Futures instead.",
+      "url": "https://docs.rs/dtolnay/0.0.5/dtolnay/macro._01__await_a_minute.html",
+      "date_published": "2019-08-08T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://docs.rs/dtolnay/0.0.5/dtolnay/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2d8f15c2-34f2-4bc2-a1b2-aef6744a9691",
+      "title": "surf",
+      "content_text": "Today we're happy to announce Surf, an asynchronous cross-platform streaming HTTP client for Rust. This project was a collaboration between Kat Marchán (Entropic / Microsoft), Stjepan Glavina (Ferrous Systems), and myself (Yoshua Wuyts). Surf is a friendly HTTP client built for casual Rustaceans and veterans alike. ",
+      "url": "https://blog.yoshuawuyts.com/surf/",
+      "tweet_url": "https://twitter.com/yoshuawuyts/status/1161996959550492672?s=20",
+      "date_published": "2019-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5b9044be-428f-48ff-b1f3-b9f0e6b63732",
+      "title": "Thoughts on Rust bloat",
+      "content_text": "I’m about to accept a PR that will increase druid’s compile time about 3x and its executable size almost 2x. In this case, I think the tradeoff is worth it (without localization, a GUI toolkit is strictly a toy), but the bloat makes me unhappy and I think there is room for improvement in the Rust ecosystem.",
+      "url": "https://raphlinus.github.io/rust/2019/08/21/rust-bloat.html",
+      "date_published": "2019-08-21T17:17:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "05f496a4-b42b-43f3-b0f8-90edcdb52bee",
+      "title": "Visual Embedded Rust Programming with Visual Studio Code",
+      "content_text": "Create and edit Embedded Rust programs for STM32 Blue Pill and Apache Mynewt… By dragging and dropping blocks!",
+      "url": "https://medium.com/@ly.lee/visual-embedded-rust-programming-with-visual-studio-code-1bc1262e398c",
+      "date_published": "2019-08-19T00:08:33.064+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "94dd1a96-2b38-4556-bb32-5064f803e5b6",
+      "title": "Low-level TCP server in Rust with MIO",
+      "content_text": "It is time to get acquainted with Metal IO, low-level cross-platform abstraction over epoll/kqueue written in Rust. In this article I will show and explain how to write simple single-threaded asynchronous TCP server, then teach it to mock HTTP protocol, and then benchmark it with ab/wrk. The results are about to be impressive.",
+      "url": "https://sergey-melnychuk.github.io/2019/08/01/rust-mio-tcp-server/",
+      "date_published": "2019-08-01T22:25:42+00:00",
+      "author": {
+        "name": "Sergey Melnychuk",
+        "url": "https://sergey-melnychuk.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "5b6c323e-57a0-4281-86ee-67c3a4bf6173",
       "title": "Announcing async-std",
       "content_text": "We are excited to announce a beta release of async-std with the intent to publish version 1.0 by September 26th, 2019. async-std is a library that looks and feels like the Rust standard library, except everything in it is made to work with async/await exactly as you would expect it to. The library comes with a book and polished API documentation, and will soon provide a stable interface to base your async libraries and applications on. While we don't promise API stability before our 1.0 release, we also don't expect to make any breaking changes.",

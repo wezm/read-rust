@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c0401410-c335-43a2-a9f3-342909efdb3f",
+      "title": "How Rust optimizes async/await: Part 1",
+      "content_text": "The issue to stabilize an initial version of async/await in Rust has left final comment period. The feature looks slated to stabilize in an upcoming release, most likely 1.39. One of the blockers mentioned in the RFC is the size of the state machines emitted by async fn. I’ve spent the last few months tackling this problem, and wanted to give people a window into the process of writing these optimizations, with all the intricacies involved.",
+      "url": "https://tmandry.gitlab.io/blog/posts/optimizing-await-1/",
+      "date_published": "2019-08-18T00:00:00+00:00",
+      "author": {
+        "name": "Tyler Mandry",
+        "url": "https://tmandry.gitlab.io/blog/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "13003d78-0993-49fe-ae7e-0b0263a77353",
       "title": "C vs Rust vs Go: performance analysis",
       "content_text": "In one of my previous jobs I got a task: “For given image find popular colors in that image, so users can browse images by it’s colors”. This is where three languages comes to play. I have implemented histogram algorithm in C, Rust and Go.",

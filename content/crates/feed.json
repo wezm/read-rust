@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2d8f15c2-34f2-4bc2-a1b2-aef6744a9691",
+      "title": "surf",
+      "content_text": "Today we're happy to announce Surf, an asynchronous cross-platform streaming HTTP client for Rust. This project was a collaboration between Kat Marchán (Entropic / Microsoft), Stjepan Glavina (Ferrous Systems), and myself (Yoshua Wuyts). Surf is a friendly HTTP client built for casual Rustaceans and veterans alike. ",
+      "url": "https://blog.yoshuawuyts.com/surf/",
+      "date_published": "2019-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "5b6c323e-57a0-4281-86ee-67c3a4bf6173",
       "title": "Announcing async-std",
       "content_text": "We are excited to announce a beta release of async-std with the intent to publish version 1.0 by September 26th, 2019. async-std is a library that looks and feels like the Rust standard library, except everything in it is made to work with async/await exactly as you would expect it to. The library comes with a book and polished API documentation, and will soon provide a stable interface to base your async libraries and applications on. While we don't promise API stability before our 1.0 release, we also don't expect to make any breaking changes.",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "902d33e4-a66a-479e-8758-f543083da639",
+      "title": "Await a minute, why bother?",
+      "content_text": "Recently I have been retooling some core Rust libraries at $work to play nicely with native async/await syntax. This note covers my thoughts on why this feature is so important to our async codebase if it's \"just\" syntax sugar for a job that could just be done using raw Futures instead.",
+      "url": "https://docs.rs/dtolnay/0.0.5/dtolnay/macro._01__await_a_minute.html",
+      "date_published": "2019-08-08T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://docs.rs/dtolnay/0.0.5/dtolnay/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5b9044be-428f-48ff-b1f3-b9f0e6b63732",
+      "title": "Thoughts on Rust bloat",
+      "content_text": "I’m about to accept a PR that will increase druid’s compile time about 3x and its executable size almost 2x. In this case, I think the tradeoff is worth it (without localization, a GUI toolkit is strictly a toy), but the bloat makes me unhappy and I think there is room for improvement in the Rust ecosystem.",
+      "url": "https://raphlinus.github.io/rust/2019/08/21/rust-bloat.html",
+      "date_published": "2019-08-21T17:17:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "76cefd5b-2344-4629-84fb-5bf5c45c0ce0",
       "title": "Announcing Rust 1.37.0",
       "content_text": "The highlights of Rust 1.37.0 include referring to enum variants through type aliases, built-in cargo vendor, unnamed const items, profile-guided optimization, a default-run key in Cargo, and #[repr(align(N))] on enums. Read on for a few highlights, or see the detailed release notes for additional information.",

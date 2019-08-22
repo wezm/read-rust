@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1a249517-dab9-4195-abad-c76c79fd0560",
+      "title": "Rust vs GUI",
+      "content_text": "Implications of Rust's borrow checking and memory ownership on GUI development (simple case)",
+      "url": "https://turbomack.github.io/posts/2019-07-28-rust-vs-gui.html",
+      "date_published": "2019-07-28T00:00:00+00:00",
+      "author": {
+        "name": "Marek Fajkus",
+        "url": "https://turbomack.github.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "1f02eefe-da84-472d-8df4-039766538e7f",
       "title": "Baseball Coding with Rust – Part 2",
       "content_text": "In Part 1, we introduced Rust and built a little program that allowed us to get all the GameDay links for a particular day. Today, we’ll dive right into code and begin the process of building out a complete game from the xml files. As much as possible, I’ll try to explain important concepts along the way as we build out the application. My goal is to deliver a crash course into baseball-centric programming in Rust, complete with code, theory and practical use, without getting too much into the weeds.",

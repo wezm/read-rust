@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "09df4bbd-96fe-49af-8811-407f98c3108e",
+      "title": "Practical Networked Applications in Rust, Part 2: Networked Key-Value Store",
+      "content_text": "Welcome to the second installation in my series on taking the Practical Networked Applications in Rust course, kindly provided by the PingCAP company, where you develop a networked and multithreaded/asynchronous key-value store in the amazing Rust language. In the previous, and initial, post I implemented the course module of making the fundamental key-value store functionality, based around the Bitcask algorithm, which would only allow for local usage on your own computer. In the second module of my course work, I add networking functionality, dividing the application into a client/server architecture so that clients can connect to servers across the network.",
+      "url": "https://arveknudsen.com/posts/practical-networked-applications-in-rust/module-2/",
+      "date_published": "2019-08-04T01:00:00+02:00",
+      "author": {
+        "name": "Arve Knudsen",
+        "url": "https://arveknudsen.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "94dd1a96-2b38-4556-bb32-5064f803e5b6",
+      "title": "Low-level TCP server in Rust with MIO",
+      "content_text": "It is time to get acquainted with Metal IO, low-level cross-platform abstraction over epoll/kqueue written in Rust. In this article I will show and explain how to write simple single-threaded asynchronous TCP server, then teach it to mock HTTP protocol, and then benchmark it with ab/wrk. The results are about to be impressive.",
+      "url": "https://sergey-melnychuk.github.io/2019/08/01/rust-mio-tcp-server/",
+      "date_published": "2019-08-01T22:25:42+00:00",
+      "author": {
+        "name": "Sergey Melnychuk",
+        "url": "https://sergey-melnychuk.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "faca5f20-8895-4d5b-850c-d2a8b4149876",
       "title": "Practical Networked Applications in Rust, Part 1: Non-Networked Key-Value Store",
       "content_text": "The PingCAP company, makers of the TiDB NewSQL database and the TiKV key-value store, have kindly made publicly available, as well as open-sourced, a set of training courses that they call the \"PingCAP Talent Plan\". These courses train programmers in writing distributed systems in the Go and Rust languages. They are originally intended by PingCAP to train students, new employees and new contributors to TiDB and TiKV and focus as such on subjects relevant to those projects, but are still appropriate to anyone with an interest in learning to make distributed systems in Go and/or Rust.",
