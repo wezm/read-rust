@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "01b4afb8-222b-4d4f-ad09-443d48231e3f",
+      "title": "Introducing the Rust Game Development Working Group",
+      "content_text": "Rust’s combination of low-level control, excellent performance and modern build tools makes it an exciting choice for game developers. The idea of a working group to support this burgeoning community has been proposed many times over the years, and we’re excited to announce that a group has finally been formed!",
+      "url": "https://rust-gamedev.github.io/2019/08/18/introducing-the-rust-game-development-working-group",
+      "date_published": "2019-08-18T00:00:00+00:00",
+      "author": {
+        "name": "Rust GameDev",
+        "url": "https://rust-gamedev.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "674ac0a5-a4cc-46f3-84c5-2eb3bdfde2f3",
       "title": "Javelin project",
       "content_text": "We are having fun moving the gfx-rs project forward thanks to the power provided by the Rust language. We are building rich abstractions which expand beyond the gfx-hal API itself and into the internal layers of the backends, structured to be modular and maintainable. We are building high-performance graphics and compute infrastructure that deeply interacts with OS and drivers, thanks to the Rust’s FFI capabilities and the lack of runtime. We do all of this while requiring only a portion of our developers’ time and attention, who work on gfx-rs mostly as a side project. Rust allows us to move forward confidently and quickly, experiment with features as well as land production-quality code.",

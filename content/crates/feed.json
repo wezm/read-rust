@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1e20c763-7a28-429e-9d68-e3628dcc2edd",
+      "title": "Artichoke is a Ruby made with Rust",
+      "content_text": "Artichoke is a platform for building MRI-compatible Ruby implementations. Artichoke provides a Ruby runtime implemented in Rust that can be loaded into many VM backends.",
+      "url": "https://github.com/artichoke/artichoke",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Lopopolo",
+        "url": "https://github.com/lopopolo"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2d8f15c2-34f2-4bc2-a1b2-aef6744a9691",
       "title": "surf",
       "content_text": "Today we're happy to announce Surf, an asynchronous cross-platform streaming HTTP client for Rust. This project was a collaboration between Kat Marchán (Entropic / Microsoft), Stjepan Glavina (Ferrous Systems), and myself (Yoshua Wuyts). Surf is a friendly HTTP client built for casual Rustaceans and veterans alike. ",

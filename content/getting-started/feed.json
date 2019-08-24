@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "c4f23f51-7f72-4671-aec3-de6849639309",
+      "title": "A little Rust program for the C major scale",
+      "content_text": "Well I am a professional programmer for over a decade now, so my brain is trained to remember algorithmic thinking. But it's not trained to retain music theory. Which leads me to my beginning life-hack of music theory .... write a music theory shell application in rust to help me understanding the underlying mathematical structures by implementing them. I will try to make this an ongoing regular exercise to combine of my two currently favorite things: Rust and Guitar playing / Music.",
+      "url": "https://chilimatic.hashnode.dev/a-little-rust-program-for-the-c-major-scale-cjyhc96hv001kvcs1heos8grg",
+      "date_published": "2019-07-24T14:23:00+00:00",
+      "author": {
+        "name": "j",
+        "url": "https://chilimatic.hashnode.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "1a249517-dab9-4195-abad-c76c79fd0560",
       "title": "Rust vs GUI",
       "content_text": "Implications of Rust's borrow checking and memory ownership on GUI development (simple case)",

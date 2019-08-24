@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "dac15914-213c-4397-8485-eb2156b0e88b",
+      "title": "Updating to Async/Await",
+      "content_text": "Unless you’ve been living under a rock; you know async/await is coming to rust stable. My last post was about implementing a simple protocol using manual futures, and interacting with tokio. It’s only fitting, then, that I update the lib that post was inspired by to async/await and report back on my findings. If you’re curious about my library or you use the window manager i3, it’s available here or on crates under tokio-i3ipc. The version discussed here is currently unpublished, I’m waiting for the syntax to be released on stable and tokio to push their new version.",
+      "url": "https://leshow.github.io/post/async_await/",
+      "date_published": "2019-08-12T09:30:08-04:00",
+      "author": {
+        "name": "Evan Cameron",
+        "url": "https://leshow.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "398562a1-3ec5-4277-8a7c-5c3388fed5ba",
+      "title": "Rust: safe and unsafe as theorems and axioms",
+      "content_text": "There is a fair amount of confusion about what unsafe means in Rust, as well as debate about how one should think about it. Recently I’ve seen several blog posts like What is Rust’s unsafe?, The Temptation of Unsafe and Unsafe as a Human-Assisted Type System. I’m not really attempting to explain what is considered unsafe in Rust, which is explained by the reference. Nor am I going to try to answer the question of precisely when unsafe should be used and how often. My basic suggestion: we can think of unsafe in terms of mathematical axioms and theorems. This understanding is somewhere in between actual mathematical rigour and an analogy.",
+      "url": "https://iandouglasscott.com/2019/07/26/rust-safe-and-unsafe-as-theorems-and-axioms/",
+      "date_published": "2019-07-26T15:37:00-07:00",
+      "author": {
+        "name": "Ian Douglas Scott",
+        "url": "https://iandouglasscott.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fd4779eb-f9f4-4c63-98c9-d7fe21fb6bac",
+      "title": "Rust for OOP - Closures",
+      "content_text": "Turning functions into first-class citizens in our programming languages is one of the major changes of the decade. Well, kind of. The concept, also known as lambda, is far from new. Functional programming languages had it from the very start, during the late ’50s. Even some of the object-oriented languages like Python had it quite early, back in 1994. However it became an official part of C++ only in 2011, and Java brought it even later in 2014. And with those two languages and many others, it became the norm, even for non-functional programming. As first-class citizens, functions can be saved as variables or transfer as arguments to functions easily.",
+      "url": "https://oribenshir.github.io/afternoon_rusting/blog/closures",
+      "date_published": "2019-07-19T00:00:00+00:00",
+      "author": {
+        "name": "Ori Ben-Shir",
+        "url": "https://oribenshir.github.io/afternoon_rusting/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "902d33e4-a66a-479e-8758-f543083da639",
       "title": "Await a minute, why bother?",
       "content_text": "Recently I have been retooling some core Rust libraries at $work to play nicely with native async/await syntax. This note covers my thoughts on why this feature is so important to our async codebase if it's \"just\" syntax sugar for a job that could just be done using raw Futures instead.",

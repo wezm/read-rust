@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "9e2dbb14-ceba-4562-a577-a218c1e652f8",
+      "title": "The New Firmware Manager: Updating firmware across Linux distributions",
+      "content_text": "Over the past few months, System76 has been developing a simple, easy-to-use tool for updating firmware on Pop!_OS and System76 hardware. Today, we’re excited to announce that you can now check and update firmware through Settings on Pop!_OS, and through the firmware manager GTK application on System76 hardware running other Debian-based distributions.",
+      "url": "https://blog.system76.com/post/187072707563/the-new-firmware-manager-updating-firmware-across",
+      "date_published": "2019-08-17T00:00:00+00:00",
+      "author": {
+        "name": "System76",
+        "url": "https://blog.system76.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "0045c68b-1c6b-4aee-9704-5471d5dd9758",
+      "title": "RSoC: Improving Ion's UX, week 4 - Autocompleting under 1ms",
+      "content_text": "The Redox official website",
+      "url": "https://www.redox-os.org/news/rsoc-ion-ux-3/",
+      "date_published": "2019-07-28T00:00:00+00:00",
+      "author": {
+        "name": "AdminXVII",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "94badc73-4b58-487c-88de-ce68562f9f19",
       "title": "RSoC: Implementing ptrace for Redox OS - part 5",
       "content_text": "This week I’ve decided to skip trying to get GDB working for now (there are so many issues it’ll take forever to solve them), and instead decided to finally give focus to the final concerns I had about ptrace. Most changes this week was related to getting decent behavior of child processes, although the design feels… suboptimal, somehow (not sure why), so I feel I must be able to improve it better later.\n\nAnother change was security: Tracers running as a non-root user can now in addition to only tracing processes running as the same user, only trace processes that are directly or indirectly children of the tracer. In the future this can easily be allowed with some kind of capability, but currently in Redox there isn’t a capability-like system other than the simple (but really powerful) namespacing system which sadly I don’t think can be used for this.",
