@@ -54,7 +54,7 @@
     {
       "id": "ff6ab953-5b21-4852-b0e5-058c730767f5",
       "title": "Rust, a Raspberry Pi and Addressable LED's",
-      "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.<Paste>",
+      "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.",
       "url": "https://blog.tomarrell.com/post/rust_and_leds",
       "date_published": "2019-07-09T00:00:00+00:00",
       "author": {

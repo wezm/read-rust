@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "c5ced679-f825-47f6-b97e-11199ed40973",
+      "title": "6 months of game development in Rust",
+      "content_text": "If you made it here you might have already read my previous post 24 hours of game development in Rust, but if you haven't, it was basically a short summary of how I started learning rust and decided to make a game with it. I started with a classical OOP/trait architecture that was taking me nowhere really fast, so I switched to ECS and got a minimal prototype working. Fast forward 6 months, I wanted to catch you folks up on where I am and what I've learnt so far.",
+      "url": "https://iolivia.me/posts/6-months-of-rust-game-dev/",
+      "date_published": "2019-08-21T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ce52dbf1-c1be-4db1-bdb9-c2ac79ed9b1d",
+      "title": "rx — a minimalist and extensible pixel editor",
+      "content_text": "rx is an extensible, modern and minimalist pixel editor implemented in Rust. It's designed to have as little UI as possible, and instead takes inspiration from vi's modal nature and command mode. Compared to other pixel editors, rx aims to be smaller, yet more configurable and extendable. `rx` takes a different approach when it comes to animation as well, which is done with *strips*.",
+      "url": "http://cloudhead.io/rx/",
+      "date_published": "2019-08-26T20:08:25+00:00",
+      "author": {
+        "name": "Alexis Sellier",
+        "url": "http://cloudhead.io/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "01b4afb8-222b-4d4f-ad09-443d48231e3f",
       "title": "Introducing the Rust Game Development Working Group",
       "content_text": "Rust’s combination of low-level control, excellent performance and modern build tools makes it an exciting choice for game developers. The idea of a working group to support this burgeoning community has been proposed many times over the years, and we’re excited to announce that a group has finally been formed!",
@@ -293,7 +322,7 @@
     {
       "id": "48eed32e-7fd2-4d16-9a34-97c9289cc72c",
       "title": "Handmade Rust Part 4: Generating Vulkan bindings",
-      "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.<Paste>",
+      "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.",
       "url": "http://stevenlr.com/posts/handmade-rust-4-vulkan-bindings/",
       "date_published": "2019-05-04T18:33:36+02:00",
       "author": {

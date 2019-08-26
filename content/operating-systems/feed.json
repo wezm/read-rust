@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a14dd34c-7e7d-4040-9b8f-e8708df5447d",
+      "title": "Rsoc: Improving Ion's UX, week 5 and 6",
+      "content_text": "The Redox official website",
+      "url": "https://www.redox-os.org/news/rsoc-ion-ux-4-5/",
+      "date_published": "2019-08-18T00:00:00+00:00",
+      "author": {
+        "name": "AdminXVII",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "9e2dbb14-ceba-4562-a577-a218c1e652f8",
       "title": "The New Firmware Manager: Updating firmware across Linux distributions",
       "content_text": "Over the past few months, System76 has been developing a simple, easy-to-use tool for updating firmware on Pop!_OS and System76 hardware. Today, we’re excited to announce that you can now check and update firmware through Settings on Pop!_OS, and through the firmware manager GTK application on System76 hardware running other Debian-based distributions.",

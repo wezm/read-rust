@@ -10,6 +10,138 @@
   },
   "items": [
     {
+      "id": "a998ed84-202b-48ad-b8ca-829ae5f387ef",
+      "title": "Using Tree-sitter Parsers in Rust",
+      "content_text": "Tree-sitter is a parser generator tool and parsing library. It generates portable parsers that can be used in several languages including Rust. Tree-sitter grammars are available for several languages. This is a game changer because it lowers the barrier to entry for writing language tooling. You no longer need to write your own parser. With Tree-sitter, you can now simply use an existing parser.",
+      "url": "https://rfdonnelly.github.io/posts/using-tree-sitter-parsers-in-rust/",
+      "date_published": "2019-08-07T11:20:33-07:00",
+      "author": {
+        "name": "Rob Donnelly",
+        "url": "https://rfdonnelly.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5ab7b4e5-a7ab-470c-be66-ec1a8354a782",
+      "title": "Actually Using Crev, Or, The Problem Of Trusting Software Dependencies",
+      "content_text": "Currently the only implementation of crev is cargo-crev, which ties into the Rust language package manager, cargo. However, none of this is Rust-specific apart from the implementation, the basic concept and code review format should work for any language or package system. Code reviews (“proofs”) are just YAML files, and they can be shared around however you feel like – the method currently seems to be by putting proofs in git repositories, and cargo-crev has support for this. crev already has a pretty good getting started guide that covers much of the same ground as this, but I wanted to write something similar that comes from a random user, not the system’s creator.",
+      "url": "https://wiki.alopex.li/ActuallyUsingCrev",
+      "date_published": "2019-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "https://wiki.alopex.li/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0df32177-8f6b-48ec-a896-5555337110fa",
+      "title": "Introduction to C2Rust",
+      "content_text": "Our goal is to build useful tools that make it easier to take existing Rust code and get up and running with Rust. We aim to automate much of the translation and rewriting process so that migrating legacy systems is practical and scalable with minimal manual effort.\n\nWe’re excited to announce that a milestone long in the making is finally here! You can now install C2Rust from crates.io with a simple cargo install on Linux and OS X. We’ve been hard at work improving C2Rust, so go install and give it a spin! You can find the necessary prerequisites in the C2Rust README.",
+      "url": "https://immunant.com/blog/2019/08/introduction-to-c2rust/",
+      "tweet_url": "https://twitter.com/rinon/status/1164703068430032896?s=20",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Immunant, Inc",
+        "url": "https://immunant.com/blog"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "c5ced679-f825-47f6-b97e-11199ed40973",
+      "title": "6 months of game development in Rust",
+      "content_text": "If you made it here you might have already read my previous post 24 hours of game development in Rust, but if you haven't, it was basically a short summary of how I started learning rust and decided to make a game with it. I started with a classical OOP/trait architecture that was taking me nowhere really fast, so I switched to ECS and got a minimal prototype working. Fast forward 6 months, I wanted to catch you folks up on where I am and what I've learnt so far.",
+      "url": "https://iolivia.me/posts/6-months-of-rust-game-dev/",
+      "tweet_url": "https://twitter.com/oliviff/status/1164460622186274817?s=20",
+      "date_published": "2019-08-21T00:00:00+00:00",
+      "author": {
+        "name": "Olivia Ifrim",
+        "url": "http://iolivia.me/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "91dd315b-376c-4411-a87a-7ff4995f0ef4",
+      "title": "Polsim - a case study for small-scale scientific computing in Rust",
+      "content_text": "The motivation for this post is to recount my experiences developing a scientific tool written in Rust in the context of someone with a scientific background2. I'll explain why I made certain choices, and I'll document the things that I struggled with along the way.",
+      "url": "https://tinkering.xyz/polsim/",
+      "date_published": "2019-06-06T11:33:37-05:00",
+      "author": {
+        "name": "Zach Mitchell",
+        "url": "https://tinkering.xyz/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "a14dd34c-7e7d-4040-9b8f-e8708df5447d",
+      "title": "Rsoc: Improving Ion's UX, week 5 and 6",
+      "content_text": "The Redox official website",
+      "url": "https://www.redox-os.org/news/rsoc-ion-ux-4-5/",
+      "date_published": "2019-08-18T00:00:00+00:00",
+      "author": {
+        "name": "AdminXVII",
+        "url": "https://www.redox-os.org/news/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "adf5ec47-1ec7-4b47-9d89-122b4efdd8f9",
+      "title": "Introducing nushell",
+      "content_text": "Today, we’re introducing a new shell, written in Rust. It draws inspiration from the classic Unix philosophy of pipelines, the structured data approach of PowerShell, functional programming, systems programming, and more.",
+      "url": "http://www.jonathanturner.org/2019/08/introducing-nushell.html",
+      "tweet_url": "https://twitter.com/nu_shell/status/1165015039503261696?s=20",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner, Yehuda Katz, and Andrés Robalino, with contributions from Odin Dutton",
+        "url": "https://book.nushell.sh/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ce52dbf1-c1be-4db1-bdb9-c2ac79ed9b1d",
+      "title": "rx — a minimalist and extensible pixel editor",
+      "content_text": "rx is an extensible, modern and minimalist pixel editor implemented in Rust. It's designed to have as little UI as possible, and instead takes inspiration from vi's modal nature and command mode. Compared to other pixel editors, rx aims to be smaller, yet more configurable and extendable. `rx` takes a different approach when it comes to animation as well, which is done with *strips*.",
+      "url": "http://cloudhead.io/rx/",
+      "tweet_url": "https://twitter.com/cloudhead/status/1165566684293472257?s=20",
+      "date_published": "2019-08-26T20:08:25+00:00",
+      "author": {
+        "name": "Alexis Sellier",
+        "url": "http://cloudhead.io/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "315ad655-56d7-48d4-b68a-434cbabf710a",
+      "title": "pastel - A command-line tool to generate, analyze, convert and manipulate colors",
+      "content_text": "pastel is a command-line tool to generate, analyze, convert and manipulate colors. It supports many different color formats and color spaces like RGB, HSL, CIELAB, CIELCh as well as ANSI 8-bit and 24-bit representations.",
+      "url": "https://github.com/sharkdp/pastel",
+      "tweet_url": "https://twitter.com/sharkdp86/status/1165636099630424064?s=20",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://github.com/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "dac15914-213c-4397-8485-eb2156b0e88b",
       "title": "Updating to Async/Await",
       "content_text": "Unless you’ve been living under a rock; you know async/await is coming to rust stable. My last post was about implementing a simple protocol using manual futures, and interacting with tokio. It’s only fitting, then, that I update the lib that post was inspired by to async/await and report back on my findings. If you’re curious about my library or you use the window manager i3, it’s available here or on crates under tokio-i3ipc. The version discussed here is currently unpublished, I’m waiting for the syntax to be released on stable and tokio to push their new version.",
@@ -1174,7 +1306,7 @@
     {
       "id": "ff6ab953-5b21-4852-b0e5-058c730767f5",
       "title": "Rust, a Raspberry Pi and Addressable LED's",
-      "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.<Paste>",
+      "content_text": "I'd been playing around with a couple of LED matrices bought from AliExpress. The LED's on one of the matrices were the very popular WS2812b variant. These panels are made up of addressable RGB LED's soldered to a flexible PCB, giving you three wires out the back -- data, 5V, and ground.\n\nAfter not being able to find a Rust library which supported these things at the time (a few have popped up since), I decided I would instead learn the protocol and try to fiddle with it myself. This is a brief overview of that experience.",
       "url": "https://blog.tomarrell.com/post/rust_and_leds",
       "date_published": "2019-07-09T00:00:00+00:00",
       "author": {
@@ -3960,7 +4092,7 @@
     {
       "id": "48eed32e-7fd2-4d16-9a34-97c9289cc72c",
       "title": "Handmade Rust Part 4: Generating Vulkan bindings",
-      "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.<Paste>",
+      "content_text": "Vulkan is a C API so we’ll need some kind of bindings to be able to use it in Rust. The API is defined in a XML file distributed by Khronos. This file describes the structs, enums, constants, and functions for each version of the API, and all published extensions. The functions can then be loaded from the Vulkan dynamic library and other functions from the API.\n\nHowever using a raw C API isn’t easy in Rust because it requires using a lot of unsafe code. This is why we’ll also generate builders for all structs so we can for instance fill in pointer/size pairs using slices, but we’ll also generate methods that return Rust’s Results and take in Rust-friendly types like references instead of raw C types. Finally we’ll also generate loaders so we don’t have to manually load the function we need.",
       "url": "http://stevenlr.com/posts/handmade-rust-4-vulkan-bindings/",
       "date_published": "2019-05-04T18:33:36+02:00",
       "author": {

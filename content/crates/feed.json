@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a998ed84-202b-48ad-b8ca-829ae5f387ef",
+      "title": "Using Tree-sitter Parsers in Rust",
+      "content_text": "Tree-sitter is a parser generator tool and parsing library. It generates portable parsers that can be used in several languages including Rust. Tree-sitter grammars are available for several languages. This is a game changer because it lowers the barrier to entry for writing language tooling. You no longer need to write your own parser. With Tree-sitter, you can now simply use an existing parser.",
+      "url": "https://rfdonnelly.github.io/posts/using-tree-sitter-parsers-in-rust/",
+      "date_published": "2019-08-07T11:20:33-07:00",
+      "author": {
+        "name": "Rob Donnelly",
+        "url": "https://rfdonnelly.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "1e20c763-7a28-429e-9d68-e3628dcc2edd",
       "title": "Artichoke is a Ruby made with Rust",
       "content_text": "Artichoke is a platform for building MRI-compatible Ruby implementations. Artichoke provides a Ruby runtime implemented in Rust that can be loaded into many VM backends.",

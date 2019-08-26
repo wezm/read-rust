@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "91dd315b-376c-4411-a87a-7ff4995f0ef4",
+      "title": "Polsim - a case study for small-scale scientific computing in Rust",
+      "content_text": "The motivation for this post is to recount my experiences developing a scientific tool written in Rust in the context of someone with a scientific background2. I'll explain why I made certain choices, and I'll document the things that I struggled with along the way.",
+      "url": "https://tinkering.xyz/polsim/",
+      "date_published": "2019-06-06T11:33:37-05:00",
+      "author": {
+        "name": "Zach Mitchell",
+        "url": "https://tinkering.xyz/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "348fb7dc-00c7-4587-8276-f11b482576db",
       "title": "Models of Generics and Metaprogramming: Go, Rust, Swift, D and More",
       "content_text": "In some domains of programming it’s common to want to write a data structure or algorithm that can work with elements of many different types, such as a generic list or a sorting algorithm that only needs a comparison function. Different programming languages have come up with all sorts of solutions to this problem: From just pointing people to existing general features that can be useful for the purpose (e.g C, Go) to generics systems so powerful they become Turing-complete (e.g. Rust, C++). In this post I’m going to take you on a tour of the generics systems in many different languages and how they are implemented. I’ll start from how languages without a special generics system like C solve the problem and then I’ll show how gradually adding extensions in different directions leads to the systems found in other languages.",

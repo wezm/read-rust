@@ -10,6 +10,77 @@
   },
   "items": [
     {
+      "id": "5ab7b4e5-a7ab-470c-be66-ec1a8354a782",
+      "title": "Actually Using Crev, Or, The Problem Of Trusting Software Dependencies",
+      "content_text": "Currently the only implementation of crev is cargo-crev, which ties into the Rust language package manager, cargo. However, none of this is Rust-specific apart from the implementation, the basic concept and code review format should work for any language or package system. Code reviews (“proofs”) are just YAML files, and they can be shared around however you feel like – the method currently seems to be by putting proofs in git repositories, and cargo-crev has support for this. crev already has a pretty good getting started guide that covers much of the same ground as this, but I wanted to write something similar that comes from a random user, not the system’s creator.",
+      "url": "https://wiki.alopex.li/ActuallyUsingCrev",
+      "date_published": "2019-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "https://wiki.alopex.li/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0df32177-8f6b-48ec-a896-5555337110fa",
+      "title": "Introduction to C2Rust",
+      "content_text": "Our goal is to build useful tools that make it easier to take existing Rust code and get up and running with Rust. We aim to automate much of the translation and rewriting process so that migrating legacy systems is practical and scalable with minimal manual effort.\n\nWe’re excited to announce that a milestone long in the making is finally here! You can now install C2Rust from crates.io with a simple cargo install on Linux and OS X. We’ve been hard at work improving C2Rust, so go install and give it a spin! You can find the necessary prerequisites in the C2Rust README.",
+      "url": "https://immunant.com/blog/2019/08/introduction-to-c2rust/",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Immunant, Inc",
+        "url": "https://immunant.com/blog"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "adf5ec47-1ec7-4b47-9d89-122b4efdd8f9",
+      "title": "Introducing nushell",
+      "content_text": "Today, we’re introducing a new shell, written in Rust. It draws inspiration from the classic Unix philosophy of pipelines, the structured data approach of PowerShell, functional programming, systems programming, and more.",
+      "url": "http://www.jonathanturner.org/2019/08/introducing-nushell.html",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner, Yehuda Katz, and Andrés Robalino, with contributions from Odin Dutton",
+        "url": "https://book.nushell.sh/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ce52dbf1-c1be-4db1-bdb9-c2ac79ed9b1d",
+      "title": "rx — a minimalist and extensible pixel editor",
+      "content_text": "rx is an extensible, modern and minimalist pixel editor implemented in Rust. It's designed to have as little UI as possible, and instead takes inspiration from vi's modal nature and command mode. Compared to other pixel editors, rx aims to be smaller, yet more configurable and extendable. `rx` takes a different approach when it comes to animation as well, which is done with *strips*.",
+      "url": "http://cloudhead.io/rx/",
+      "date_published": "2019-08-26T20:08:25+00:00",
+      "author": {
+        "name": "Alexis Sellier",
+        "url": "http://cloudhead.io/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "315ad655-56d7-48d4-b68a-434cbabf710a",
+      "title": "pastel - A command-line tool to generate, analyze, convert and manipulate colors",
+      "content_text": "pastel is a command-line tool to generate, analyze, convert and manipulate colors. It supports many different color formats and color spaces like RGB, HSL, CIELAB, CIELCh as well as ANSI 8-bit and 24-bit representations.",
+      "url": "https://github.com/sharkdp/pastel",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://github.com/sharkdp"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "05694ac8-0c6b-413c-9853-a487c3d25652",
       "title": "Drawing in GTK in Rust (part 1)",
       "content_text": "It’s a double challenge: I’m learning Rust (but I can say I more or less know the language by now), and I’m trying to use GTK in Rust. I’m a complete beginner in GTK, and even if I know Rust, it does not mean I can use it properly. So I’ll learn a huge library (written in C) by using it in a complex and hard language I just learned. Well, well, good luck, me.",
