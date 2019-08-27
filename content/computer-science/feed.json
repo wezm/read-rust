@@ -10,6 +10,51 @@
   },
   "items": [
     {
+      "id": "a4736472-659a-4d2a-9dc4-d4d12d342963",
+      "title": "Understanding Rust Through AVL Trees",
+      "content_text": "From<Elixir>, Into<Rust>. I loved learning the Elixir language and how its pragmatic supervision trees and process model taught me the value fault tolerance as a quality of code than of infrastructure. Having safety and failure recovery as an idiomatic culture and mindset of the language made me a better thinker and developer. As a personal preference then in selecting new languages to learn, I look for potentially new perspectives and insights that it ascribes to its pilgrims. In general, a good learning curve is a good indicator since it has much to teach.",
+      "url": "https://francismurillo.github.io/2019-07-31-Understanding-Rust-Through-AVL-Trees/",
+      "date_published": "2019-07-31T00:00:00+00:00",
+      "author": {
+        "name": "Francis Murillo",
+        "url": "https://francismurillo.github.io/"
+      },
+      "tags": [
+        "Getting Started",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "2439dd44-0bd5-437e-bb60-f7b24b4f02f2",
+      "title": "Codenano, a tool for designing DNA nanostructures",
+      "content_text": "We are proud to announce the release of our software codenano, available at https://dna.hamilton.ie/codenano/. Here, we give an introduction to what codenano can and can not do. The source code for codenano is hosted on a github repository: https://github.com/thenlevy/codenano, along with a short tutorial.\n\nCodenano allows one to design and visualise DNA nanostructures specified using code, all in your browser. Codenano also has the ability to compute some simple interactions between DNA bases in order to help the user design DNA nanostructures that are feasible according to some simple criteria. ",
+      "url": "https://dna.hamilton.ie/2019-07-18-codenano.html",
+      "date_published": "2019-07-18T00:00:00+00:00",
+      "author": {
+        "name": "Nicolas Levy, Pierre-Étienne Meunier and Damien Woods",
+        "url": "https://dna.hamilton.ie/codenano/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
+      "id": "f0cc3e18-ac97-474b-b8f1-416a9e11aadc",
+      "title": "Implementing Lempel-Ziv Jaccard Distance (LZJD) in Rust",
+      "content_text": "One of our clients helps companies in becoming GDPR-compliant. A goal is to recognize sensitive pieces of user data in a big pile of registrations, receipts, emails, and transcripts, and mark them to be checked out later. As more and more data is collected by companies, finding and eliminating sensitive data becomes harder and harder, to the point where it is no longer possible for mere human employees to keep up without assistance.",
+      "url": "https://tweedegolf.nl/blog/33/implementing-lempel-ziv-jaccard-distance-lzjd-in-rust",
+      "date_published": "2019-08-06T00:00:00+00:00",
+      "author": {
+        "name": "Henk Dieter",
+        "url": "https://tweedegolf.nl/blog"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
       "id": "91dd315b-376c-4411-a87a-7ff4995f0ef4",
       "title": "Polsim - a case study for small-scale scientific computing in Rust",
       "content_text": "The motivation for this post is to recount my experiences developing a scientific tool written in Rust in the context of someone with a scientific background2. I'll explain why I made certain choices, and I'll document the things that I struggled with along the way.",

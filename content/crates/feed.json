@@ -10,6 +10,65 @@
   },
   "items": [
     {
+      "id": "f40bd89a-d036-4bfd-819a-9f7c128707d9",
+      "title": "Animate code with awoo!",
+      "content_text": "Lately, I’ve been wanting to re-write demoscene-like applications. Not in the same mood and way as I usually did, though. Instead, I want to build small things for people to play with. A bit like small and easy to use audiovisual experiences (it can be seen as small video games for instance, but focused on the artistic expression as some games do).\n\nThe thing is, the kind of program we want generates its own inputs based on, mostly, the speed at which the hardware it’s running on is able to render a complete frame. The faster the more accurate we sample from that continuous function. That is actually quite logical: more FPS means, literally, more images to sample. The difference between two images will get less and less noticeable as the number of FPS rises. That gives you smooth images.\n\nThe “challenge” here is to write code to schedule those images. Instead of taking a parameter like the time on the command-line and rendering the corresponding image, we will generate a stream of images and will do different things at different times. Especially in demoscene productions, we want to synchronize what’s on the screen with what’s playing on the audio device.",
+      "url": "https://phaazon.net/blog/introducing-awoo",
+      "date_published": "2019-07-28T11:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
+      "id": "9ce993e1-4fda-4f75-9d26-9b15c084d07c",
+      "title": "This month in rustsim #7 (June − July 2019)",
+      "content_text": "Welcome to the seventh edition of _This month in rustsim_! This monthly newsletter will provide you with a",
+      "url": "https://www.rustsim.org/blog/2019/08/01/this-month-in-rustsim/",
+      "date_published": "2019-08-01T00:00:00+00:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "https://www.rustsim.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2439dd44-0bd5-437e-bb60-f7b24b4f02f2",
+      "title": "Codenano, a tool for designing DNA nanostructures",
+      "content_text": "We are proud to announce the release of our software codenano, available at https://dna.hamilton.ie/codenano/. Here, we give an introduction to what codenano can and can not do. The source code for codenano is hosted on a github repository: https://github.com/thenlevy/codenano, along with a short tutorial.\n\nCodenano allows one to design and visualise DNA nanostructures specified using code, all in your browser. Codenano also has the ability to compute some simple interactions between DNA bases in order to help the user design DNA nanostructures that are feasible according to some simple criteria. ",
+      "url": "https://dna.hamilton.ie/2019-07-18-codenano.html",
+      "date_published": "2019-07-18T00:00:00+00:00",
+      "author": {
+        "name": "Nicolas Levy, Pierre-Étienne Meunier and Damien Woods",
+        "url": "https://dna.hamilton.ie/codenano/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
+      "id": "f0cc3e18-ac97-474b-b8f1-416a9e11aadc",
+      "title": "Implementing Lempel-Ziv Jaccard Distance (LZJD) in Rust",
+      "content_text": "One of our clients helps companies in becoming GDPR-compliant. A goal is to recognize sensitive pieces of user data in a big pile of registrations, receipts, emails, and transcripts, and mark them to be checked out later. As more and more data is collected by companies, finding and eliminating sensitive data becomes harder and harder, to the point where it is no longer possible for mere human employees to keep up without assistance.",
+      "url": "https://tweedegolf.nl/blog/33/implementing-lempel-ziv-jaccard-distance-lzjd-in-rust",
+      "date_published": "2019-08-06T00:00:00+00:00",
+      "author": {
+        "name": "Henk Dieter",
+        "url": "https://tweedegolf.nl/blog"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
       "id": "a998ed84-202b-48ad-b8ca-829ae5f387ef",
       "title": "Using Tree-sitter Parsers in Rust",
       "content_text": "Tree-sitter is a parser generator tool and parsing library. It generates portable parsers that can be used in several languages including Rust. Tree-sitter grammars are available for several languages. This is a game changer because it lowers the barrier to entry for writing language tooling. You no longer need to write your own parser. With Tree-sitter, you can now simply use an existing parser.",

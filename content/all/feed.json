@@ -10,6 +10,137 @@
   },
   "items": [
     {
+      "id": "86fe455b-cfd7-472b-860b-2d969a8cd5ba",
+      "title": "Using C Libraries in Rust",
+      "content_text": "Today I want to dig into one of the difficulties we ran into while trying to rewrite our IoT Python code in Rust: specifically FFI, or the “Foreign Function Interface” — the bit that allows Rust to interact with other languages. When I tried to write Rust code to integrate with C libraries a year ago, the existing documents and guides often gave conflicting advice, and I had to stumble through the process on my own. This guide is intended to help future Rustaceans work through the process of porting C libraries to Rust, and familiarize the reader with the most common problems we encountered while doing the same.",
+      "url": "https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a",
+      "date_published": "2019-08-17T00:22:36.987+00:00",
+      "author": {
+        "name": "Jeff Hiner",
+        "url": "https://medium.com/@jhiner"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4da678ba-45e7-444f-b5da-20e2893bb4d6",
+      "title": "How to use routers in Rust Frontend",
+      "content_text": "In the previous post How to use a modal in Rust, we learnt how to write a simple image modal with Rust frontend. We could find that we can build components visible only in specific conditions. In this post, we will learn how to use routers in Rust frontend with Yew. You will find that it is easy with an example.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-use-routers-in-Rust-Frontend",
+      "date_published": "2019-08-27T23:46:31+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f40bd89a-d036-4bfd-819a-9f7c128707d9",
+      "title": "Animate code with awoo!",
+      "content_text": "Lately, I’ve been wanting to re-write demoscene-like applications. Not in the same mood and way as I usually did, though. Instead, I want to build small things for people to play with. A bit like small and easy to use audiovisual experiences (it can be seen as small video games for instance, but focused on the artistic expression as some games do).\n\nThe thing is, the kind of program we want generates its own inputs based on, mostly, the speed at which the hardware it’s running on is able to render a complete frame. The faster the more accurate we sample from that continuous function. That is actually quite logical: more FPS means, literally, more images to sample. The difference between two images will get less and less noticeable as the number of FPS rises. That gives you smooth images.\n\nThe “challenge” here is to write code to schedule those images. Instead of taking a parameter like the time on the command-line and rendering the corresponding image, we will generate a stream of images and will do different things at different times. Especially in demoscene productions, we want to synchronize what’s on the screen with what’s playing on the audio device.",
+      "url": "https://phaazon.net/blog/introducing-awoo",
+      "date_published": "2019-07-28T11:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
+      "id": "c50ebb87-7e8f-4d08-bc8c-ebe51377faf4",
+      "title": "Join Your Threads",
+      "content_text": "This is a note on how to make multithreaded programs more robust. It’s not really specific to Rust, but I get to advertise my new jod-thread micro-crate :)",
+      "url": "https://matklad.github.io/2019/08/23/join-your-threads.html",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b577a6bb-429a-454b-8d2b-77175dba68c8",
+      "title": "Building with async/await in Rust",
+      "content_text": "As you might have heard, async/await is coming to Rust soon. This is a big deal. Rust has already has popular crates (tokio, actix) that provide asynchronous concurrency, but the async syntax coming to stable in 1.39 is much, much more approachable. My experience has been that you can produce and reason about application flow much more easily, which has made me significantly more productive when dealing with highly concurrent systems. To kick the tires of this new syntax I dug into the nightly branch, and built a high-performance TCP client called clobber. In this post I'll talk about why I think async/await in Rust is a big deal, and walk you some of the code in clobber.",
+      "url": "https://ragona.com/posts/clobber_async_await",
+      "date_published": "2019-08-21T00:00:00+00:00",
+      "author": {
+        "name": "Ryan Ragona",
+        "url": "https://ragona.com/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Performance"
+      ]
+    },
+    {
+      "id": "a4736472-659a-4d2a-9dc4-d4d12d342963",
+      "title": "Understanding Rust Through AVL Trees",
+      "content_text": "From<Elixir>, Into<Rust>. I loved learning the Elixir language and how its pragmatic supervision trees and process model taught me the value fault tolerance as a quality of code than of infrastructure. Having safety and failure recovery as an idiomatic culture and mindset of the language made me a better thinker and developer. As a personal preference then in selecting new languages to learn, I look for potentially new perspectives and insights that it ascribes to its pilgrims. In general, a good learning curve is a good indicator since it has much to teach.",
+      "url": "https://francismurillo.github.io/2019-07-31-Understanding-Rust-Through-AVL-Trees/",
+      "date_published": "2019-07-31T00:00:00+00:00",
+      "author": {
+        "name": "Francis Murillo",
+        "url": "https://francismurillo.github.io/"
+      },
+      "tags": [
+        "Getting Started",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "9ce993e1-4fda-4f75-9d26-9b15c084d07c",
+      "title": "This month in rustsim #7 (June − July 2019)",
+      "content_text": "Welcome to the seventh edition of _This month in rustsim_! This monthly newsletter will provide you with a",
+      "url": "https://www.rustsim.org/blog/2019/08/01/this-month-in-rustsim/",
+      "date_published": "2019-08-01T00:00:00+00:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "https://www.rustsim.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2439dd44-0bd5-437e-bb60-f7b24b4f02f2",
+      "title": "Codenano, a tool for designing DNA nanostructures",
+      "content_text": "We are proud to announce the release of our software codenano, available at https://dna.hamilton.ie/codenano/. Here, we give an introduction to what codenano can and can not do. The source code for codenano is hosted on a github repository: https://github.com/thenlevy/codenano, along with a short tutorial.\n\nCodenano allows one to design and visualise DNA nanostructures specified using code, all in your browser. Codenano also has the ability to compute some simple interactions between DNA bases in order to help the user design DNA nanostructures that are feasible according to some simple criteria. ",
+      "url": "https://dna.hamilton.ie/2019-07-18-codenano.html",
+      "date_published": "2019-07-18T00:00:00+00:00",
+      "author": {
+        "name": "Nicolas Levy, Pierre-Étienne Meunier and Damien Woods",
+        "url": "https://dna.hamilton.ie/codenano/"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
+      "id": "f0cc3e18-ac97-474b-b8f1-416a9e11aadc",
+      "title": "Implementing Lempel-Ziv Jaccard Distance (LZJD) in Rust",
+      "content_text": "One of our clients helps companies in becoming GDPR-compliant. A goal is to recognize sensitive pieces of user data in a big pile of registrations, receipts, emails, and transcripts, and mark them to be checked out later. As more and more data is collected by companies, finding and eliminating sensitive data becomes harder and harder, to the point where it is no longer possible for mere human employees to keep up without assistance.",
+      "url": "https://tweedegolf.nl/blog/33/implementing-lempel-ziv-jaccard-distance-lzjd-in-rust",
+      "date_published": "2019-08-06T00:00:00+00:00",
+      "author": {
+        "name": "Henk Dieter",
+        "url": "https://tweedegolf.nl/blog"
+      },
+      "tags": [
+        "Computer Science",
+        "Crates"
+      ]
+    },
+    {
       "id": "a998ed84-202b-48ad-b8ca-829ae5f387ef",
       "title": "Using Tree-sitter Parsers in Rust",
       "content_text": "Tree-sitter is a parser generator tool and parsing library. It generates portable parsers that can be used in several languages including Rust. Tree-sitter grammars are available for several languages. This is a game changer because it lowers the barrier to entry for writing language tooling. You no longer need to write your own parser. With Tree-sitter, you can now simply use an existing parser.",

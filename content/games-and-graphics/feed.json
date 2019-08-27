@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "f40bd89a-d036-4bfd-819a-9f7c128707d9",
+      "title": "Animate code with awoo!",
+      "content_text": "Lately, I’ve been wanting to re-write demoscene-like applications. Not in the same mood and way as I usually did, though. Instead, I want to build small things for people to play with. A bit like small and easy to use audiovisual experiences (it can be seen as small video games for instance, but focused on the artistic expression as some games do).\n\nThe thing is, the kind of program we want generates its own inputs based on, mostly, the speed at which the hardware it’s running on is able to render a complete frame. The faster the more accurate we sample from that continuous function. That is actually quite logical: more FPS means, literally, more images to sample. The difference between two images will get less and less noticeable as the number of FPS rises. That gives you smooth images.\n\nThe “challenge” here is to write code to schedule those images. Instead of taking a parameter like the time on the command-line and rendering the corresponding image, we will generate a stream of images and will do different things at different times. Especially in demoscene productions, we want to synchronize what’s on the screen with what’s playing on the audio device.",
+      "url": "https://phaazon.net/blog/introducing-awoo",
+      "date_published": "2019-07-28T11:00:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Games and Graphics",
+        "Crates"
+      ]
+    },
+    {
       "id": "c5ced679-f825-47f6-b97e-11199ed40973",
       "title": "6 months of game development in Rust",
       "content_text": "If you made it here you might have already read my previous post 24 hours of game development in Rust, but if you haven't, it was basically a short summary of how I started learning rust and decided to make a game with it. I started with a classical OOP/trait architecture that was taking me nowhere really fast, so I switched to ECS and got a minimal prototype working. Fast forward 6 months, I wanted to catch you folks up on where I am and what I've learnt so far.",

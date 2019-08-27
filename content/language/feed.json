@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "86fe455b-cfd7-472b-860b-2d969a8cd5ba",
+      "title": "Using C Libraries in Rust",
+      "content_text": "Today I want to dig into one of the difficulties we ran into while trying to rewrite our IoT Python code in Rust: specifically FFI, or the “Foreign Function Interface” — the bit that allows Rust to interact with other languages. When I tried to write Rust code to integrate with C libraries a year ago, the existing documents and guides often gave conflicting advice, and I had to stumble through the process on my own. This guide is intended to help future Rustaceans work through the process of porting C libraries to Rust, and familiarize the reader with the most common problems we encountered while doing the same.",
+      "url": "https://medium.com/dwelo-r-d/using-c-libraries-in-rust-13961948c72a",
+      "date_published": "2019-08-17T00:22:36.987+00:00",
+      "author": {
+        "name": "Jeff Hiner",
+        "url": "https://medium.com/@jhiner"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c50ebb87-7e8f-4d08-bc8c-ebe51377faf4",
+      "title": "Join Your Threads",
+      "content_text": "This is a note on how to make multithreaded programs more robust. It’s not really specific to Rust, but I get to advertise my new jod-thread micro-crate :)",
+      "url": "https://matklad.github.io/2019/08/23/join-your-threads.html",
+      "date_published": "2019-08-23T00:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "dac15914-213c-4397-8485-eb2156b0e88b",
       "title": "Updating to Async/Await",
       "content_text": "Unless you’ve been living under a rock; you know async/await is coming to rust stable. My last post was about implementing a simple protocol using manual futures, and interacting with tokio. It’s only fitting, then, that I update the lib that post was inspired by to async/await and report back on my findings. If you’re curious about my library or you use the window manager i3, it’s available here or on crates under tokio-i3ipc. The version discussed here is currently unpublished, I’m waiting for the syntax to be released on stable and tokio to push their new version.",

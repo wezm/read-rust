@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "a4736472-659a-4d2a-9dc4-d4d12d342963",
+      "title": "Understanding Rust Through AVL Trees",
+      "content_text": "From<Elixir>, Into<Rust>. I loved learning the Elixir language and how its pragmatic supervision trees and process model taught me the value fault tolerance as a quality of code than of infrastructure. Having safety and failure recovery as an idiomatic culture and mindset of the language made me a better thinker and developer. As a personal preference then in selecting new languages to learn, I look for potentially new perspectives and insights that it ascribes to its pilgrims. In general, a good learning curve is a good indicator since it has much to teach.",
+      "url": "https://francismurillo.github.io/2019-07-31-Understanding-Rust-Through-AVL-Trees/",
+      "date_published": "2019-07-31T00:00:00+00:00",
+      "author": {
+        "name": "Francis Murillo",
+        "url": "https://francismurillo.github.io/"
+      },
+      "tags": [
+        "Getting Started",
+        "Computer Science"
+      ]
+    },
+    {
       "id": "c4f23f51-7f72-4671-aec3-de6849639309",
       "title": "A little Rust program for the C major scale",
       "content_text": "Well I am a professional programmer for over a decade now, so my brain is trained to remember algorithmic thinking. But it's not trained to retain music theory. Which leads me to my beginning life-hack of music theory .... write a music theory shell application in rust to help me understanding the underlying mathematical structures by implementing them. I will try to make this an ongoing regular exercise to combine of my two currently favorite things: Rust and Guitar playing / Music.",
