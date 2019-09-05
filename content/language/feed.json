@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "eb9194f2-85b1-412c-aa0b-0218529bf163",
+      "title": "Wrapping Unsafe C Libraries in Rust",
+      "content_text": "In this article, we will explore how to wrap those functions and make them safe for normal use. We’ll go over how to define a wrapper struct that handles initialization and cleanup, and describe some traits that describe how application developers can safely use your library with threads. We’ll also talk a bit about how to turn a function’s random integer return into an ergonomic, type-checked Result, how to translate strings and arrays to and from the world of C, and how to turn raw pointers returned from C into scoped objects with inherited lifetimes.\n\nThe overall goal of this step is to dig into the C library’s documentation and make each function’s internal assumptions explicit.",
+      "url": "https://medium.com/dwelo-r-d/wrapping-unsafe-c-libraries-in-rust-d75aeb283c65",
+      "date_published": "2019-08-24T07:09:28.812+00:00",
+      "author": {
+        "name": "Jeff Hiner",
+        "url": "https://medium.com/@jhiner"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4bf39b49-7652-4132-8a42-c12c7d922ab9",
+      "title": "Understanding Futures in Rust -- Part 2",
+      "content_text": "If you're familiar with promises in JavaScript and followed the last blog post you may have been confused about where the familiar combinators (then, catch, and finally) were in the previous post. You will find their equivalents in this post, and, by the end, the following code will compile. You will also gain an understanding of the types, traits, and underling concepts that make futures work.",
+      "url": "https://www.viget.com/articles/understanding-futures-is-rust-part-2/",
+      "date_published": "2019-08-15T00:00:00+00:00",
+      "author": {
+        "name": "Joe Jackson",
+        "url": "https://www.viget.com/about/team/jjackson"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2938c850-88bc-4bec-b0fb-f2561f4a0b17",
+      "title": "Runtime Configuration Reloading",
+      "content_text": "A lot of programs need to read some kind of configuration at startup. But the challenge doesn’t end here. Some programs ‒ certainly not all, but some ‒ are long running. For these, restarting them to change configuration isn’t something you’d want to do. The unix daemon convention is to send a SIGHUP signal to the process.",
+      "url": "https://vorner.github.io/2019/08/11/runtime-configuration-reloading.html",
+      "date_published": "2019-08-11T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "86fe455b-cfd7-472b-860b-2d969a8cd5ba",
       "title": "Using C Libraries in Rust",
       "content_text": "Today I want to dig into one of the difficulties we ran into while trying to rewrite our IoT Python code in Rust: specifically FFI, or the “Foreign Function Interface” — the bit that allows Rust to interact with other languages. When I tried to write Rust code to integrate with C libraries a year ago, the existing documents and guides often gave conflicting advice, and I had to stumble through the process on my own. This guide is intended to help future Rustaceans work through the process of porting C libraries to Rust, and familiarize the reader with the most common problems we encountered while doing the same.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "e21ad158-7d23-47c3-82a4-0f76f651c6d9",
+      "title": "Rustacean Terminal Chat App in Rust",
+      "content_text": "Build a basic chat app with the Rust Programming Language.",
+      "url": "https://www.pubnub.com/blog/build-realtime-rust-chat-app-cursive-tui/",
+      "date_published": "2019-08-09T17:31:52+00:00",
+      "author": {
+        "name": "Samba Diallo",
+        "url": "https://www.pubnub.com/blog/author/samba_diallo/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Getting Started"
+      ]
+    },
+    {
       "id": "4da678ba-45e7-444f-b5da-20e2893bb4d6",
       "title": "How to use routers in Rust Frontend",
       "content_text": "In the previous post How to use a modal in Rust, we learnt how to write a simple image modal with Rust frontend. We could find that we can build components visible only in specific conditions. In this post, we will learn how to use routers in Rust frontend with Yew. You will find that it is easy with an example.",

@@ -10,6 +10,133 @@
   },
   "items": [
     {
+      "id": "e21ad158-7d23-47c3-82a4-0f76f651c6d9",
+      "title": "Rustacean Terminal Chat App in Rust",
+      "content_text": "Build a basic chat app with the Rust Programming Language.",
+      "url": "https://www.pubnub.com/blog/build-realtime-rust-chat-app-cursive-tui/",
+      "date_published": "2019-08-09T17:31:52+00:00",
+      "author": {
+        "name": "Samba Diallo",
+        "url": "https://www.pubnub.com/blog/author/samba_diallo/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "eb9194f2-85b1-412c-aa0b-0218529bf163",
+      "title": "Wrapping Unsafe C Libraries in Rust",
+      "content_text": "In this article, we will explore how to wrap those functions and make them safe for normal use. We’ll go over how to define a wrapper struct that handles initialization and cleanup, and describe some traits that describe how application developers can safely use your library with threads. We’ll also talk a bit about how to turn a function’s random integer return into an ergonomic, type-checked Result, how to translate strings and arrays to and from the world of C, and how to turn raw pointers returned from C into scoped objects with inherited lifetimes.\n\nThe overall goal of this step is to dig into the C library’s documentation and make each function’s internal assumptions explicit.",
+      "url": "https://medium.com/dwelo-r-d/wrapping-unsafe-c-libraries-in-rust-d75aeb283c65",
+      "date_published": "2019-08-24T07:09:28.812+00:00",
+      "author": {
+        "name": "Jeff Hiner",
+        "url": "https://medium.com/@jhiner"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4bf39b49-7652-4132-8a42-c12c7d922ab9",
+      "title": "Understanding Futures in Rust -- Part 2",
+      "content_text": "If you're familiar with promises in JavaScript and followed the last blog post you may have been confused about where the familiar combinators (then, catch, and finally) were in the previous post. You will find their equivalents in this post, and, by the end, the following code will compile. You will also gain an understanding of the types, traits, and underling concepts that make futures work.",
+      "url": "https://www.viget.com/articles/understanding-futures-is-rust-part-2/",
+      "date_published": "2019-08-15T00:00:00+00:00",
+      "author": {
+        "name": "Joe Jackson",
+        "url": "https://www.viget.com/about/team/jjackson"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "16a7b9b5-ad78-4644-93f1-fb81e3f6419b",
+      "title": "Learning Rust: Working with threads",
+      "content_text": "I used to live in the single-thread JavaScript happy-land where the closest thing to working with threads I ever did was communicating between a website and a Chrome extension. So when people talked about the difficulties of parallelism and concurrency, I never truly got what the fuss was about.\n\nAs you may have read before, I started learning Rust a few weeks ago, re-writing a text-based game I previously made with Vue. It's a survival game in which you must gather and craft items to eat and drink. It has no winning condition other than trying to survive as many days as possible. I managed to get most of the game features working, but there was an annoying bug: if the user left the game idle for hours, it didn't check for the stats until the user interacted again. You could live for hundreds of days without doing nothing!\n\nI knew this could be solved with threads, so I finally gathered the courage and read the chapter Fearless Concurrency of The Rust Programming Language.",
+      "url": "https://www.codegram.com/blog/learning-rust-threads/",
+      "date_published": "2019-08-12T00:00:00+00:00",
+      "author": {
+        "name": "Núria Soriano",
+        "url": "https://www.codegram.com/blog/author/nuria-soriano"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "0b1d562c-94e0-49fd-be04-15ea918ed05d",
+      "title": "Photo mosaics with Rust",
+      "content_text": "As I've been learning the Rust programming language lately I thought creating a photo-mosaic generator could be a fun project. I knew a generator like this would require a large set of tile images to sample from. The original plan was for it to only create mosaics from emoji which is how it got it's name emosaic (emoji + mosaic = emosaic) but as I progressed it made more sense to keep in generic and let the user provide their own pool of tile images.",
+      "url": "https://willdady.com/photo-mosaics-with-rust/",
+      "date_published": "2019-08-10T00:00:00+00:00",
+      "author": {
+        "name": "Will Dady",
+        "url": "https://willdady.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "2938c850-88bc-4bec-b0fb-f2561f4a0b17",
+      "title": "Runtime Configuration Reloading",
+      "content_text": "A lot of programs need to read some kind of configuration at startup. But the challenge doesn’t end here. Some programs ‒ certainly not all, but some ‒ are long running. For these, restarting them to change configuration isn’t something you’d want to do. The unix daemon convention is to send a SIGHUP signal to the process.",
+      "url": "https://vorner.github.io/2019/08/11/runtime-configuration-reloading.html",
+      "date_published": "2019-08-11T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "60559491-c207-46d3-8ca1-0f9b1615975f",
+      "title": "Amethyst game engine activity Report - July 2019",
+      "content_text": "If you’re new to Amethyst, now is a great time to get better acquainted with our project, developed by a global collective numbering in the double digits. The engine is settling into more frequent releases, making it easier for gamedevs to keep up with our incremental improvements. We’ve added a second showcase game to teach by example whilst demonstrating what Amethyst is currently capable of. And best of all for the newcomers, we’ve introduced the “2D quickstarter”, a simple game template that gets you up and running with a working Amethyst game as quickly as possible.",
+      "url": "https://amethyst.rs/posts/activity-report-july-2019",
+      "date_published": "2019-08-10T00:00:00+00:00",
+      "author": {
+        "name": "Erlend Sogge Heggen",
+        "url": "https://amethyst.rs/news"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "695ee455-42ad-432f-88a0-00deb73361d3",
+      "title": "Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust",
+      "content_text": "In this article we’ll learn to optimise the power consumption of the NB-IoT Sensor Application in the previous tutorial from this jagged power-hungry mess… To these well-disciplined bars… It’s a simple application (coded in Embedded Rust) that polls Blue Pill’s internal temperature sensor and transmits the sensor data to a server over NB-IoT.",
+      "url": "https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90",
+      "date_published": "2019-09-04T01:25:15.966+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "8e664490-3dfb-419b-8281-61ea737dd762",
+      "title": "Announcing actix-raft: Raft distributed consensus implemented using Actix",
+      "content_text": "An implementation of the Raft distributed consensus protocol using the Actix actor framework. Blazing fast Rust, a modern consensus protocol, an outstanding actor framework. This project intends to provide a backbone for the next generation of distributed data storage systems (SQL, NoSQL, KV, Streaming &c) built with Rust.",
+      "url": "https://railgun-rs.github.io/actix-raft/overview.html",
+      "date_published": "2019-08-28T00:00:00+00:00",
+      "author": {
+        "name": "Anthony Dodd",
+        "url": "https://railgun-rs.github.io/actix-raft/overview.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "86fe455b-cfd7-472b-860b-2d969a8cd5ba",
       "title": "Using C Libraries in Rust",
       "content_text": "Today I want to dig into one of the difficulties we ran into while trying to rewrite our IoT Python code in Rust: specifically FFI, or the “Foreign Function Interface” — the bit that allows Rust to interact with other languages. When I tried to write Rust code to integrate with C libraries a year ago, the existing documents and guides often gave conflicting advice, and I had to stumble through the process on my own. This guide is intended to help future Rustaceans work through the process of porting C libraries to Rust, and familiarize the reader with the most common problems we encountered while doing the same.",

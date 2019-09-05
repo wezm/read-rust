@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "e21ad158-7d23-47c3-82a4-0f76f651c6d9",
+      "title": "Rustacean Terminal Chat App in Rust",
+      "content_text": "Build a basic chat app with the Rust Programming Language.",
+      "url": "https://www.pubnub.com/blog/build-realtime-rust-chat-app-cursive-tui/",
+      "date_published": "2019-08-09T17:31:52+00:00",
+      "author": {
+        "name": "Samba Diallo",
+        "url": "https://www.pubnub.com/blog/author/samba_diallo/"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "16a7b9b5-ad78-4644-93f1-fb81e3f6419b",
+      "title": "Learning Rust: Working with threads",
+      "content_text": "I used to live in the single-thread JavaScript happy-land where the closest thing to working with threads I ever did was communicating between a website and a Chrome extension. So when people talked about the difficulties of parallelism and concurrency, I never truly got what the fuss was about.\n\nAs you may have read before, I started learning Rust a few weeks ago, re-writing a text-based game I previously made with Vue. It's a survival game in which you must gather and craft items to eat and drink. It has no winning condition other than trying to survive as many days as possible. I managed to get most of the game features working, but there was an annoying bug: if the user left the game idle for hours, it didn't check for the stats until the user interacted again. You could live for hundreds of days without doing nothing!\n\nI knew this could be solved with threads, so I finally gathered the courage and read the chapter Fearless Concurrency of The Rust Programming Language.",
+      "url": "https://www.codegram.com/blog/learning-rust-threads/",
+      "date_published": "2019-08-12T00:00:00+00:00",
+      "author": {
+        "name": "Núria Soriano",
+        "url": "https://www.codegram.com/blog/author/nuria-soriano"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "a4736472-659a-4d2a-9dc4-d4d12d342963",
       "title": "Understanding Rust Through AVL Trees",
       "content_text": "From<Elixir>, Into<Rust>. I loved learning the Elixir language and how its pragmatic supervision trees and process model taught me the value fault tolerance as a quality of code than of infrastructure. Having safety and failure recovery as an idiomatic culture and mindset of the language made me a better thinker and developer. As a personal preference then in selecting new languages to learn, I look for potentially new perspectives and insights that it ascribes to its pilgrims. In general, a good learning curve is a good indicator since it has much to teach.",

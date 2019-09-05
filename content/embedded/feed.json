@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "695ee455-42ad-432f-88a0-00deb73361d3",
+      "title": "Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust",
+      "content_text": "In this article we’ll learn to optimise the power consumption of the NB-IoT Sensor Application in the previous tutorial from this jagged power-hungry mess… To these well-disciplined bars… It’s a simple application (coded in Embedded Rust) that polls Blue Pill’s internal temperature sensor and transmits the sensor data to a server over NB-IoT.",
+      "url": "https://medium.com/@ly.lee/low-power-nb-iot-on-stm32-blue-pill-with-apache-mynewt-and-embedded-rust-cef5a3ecdd90",
+      "date_published": "2019-09-04T01:25:15.966+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "05f496a4-b42b-43f3-b0f8-90edcdb52bee",
       "title": "Visual Embedded Rust Programming with Visual Studio Code",
       "content_text": "Create and edit Embedded Rust programs for STM32 Blue Pill and Apache Mynewt… By dragging and dropping blocks!",
