@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "518da2d7-644e-4028-95a2-388b2cb5fc0f",
+      "title": "Async Stack Traces in Rust",
+      "content_text": "One neat result of Rust’s futures and async/await design is that all of the async callers are on the stack below the async callees. In most other languages, only the youngest async callee is on the stack, and none of the async callers. Because the youngest frame is most often not where a bug’s root cause lies, this extra context makes debugging async code easier in Rust.",
+      "url": "http://fitzgeraldnick.com/2019/08/27/async-stacks-in-rust.html",
+      "date_published": "2019-08-27T00:00:00-07:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7304ebe7-ee28-48a9-b88c-dd03e2605a10",
+      "title": "How Rust optimizes async/await II: Program analysis",
+      "content_text": "In Part 1, we covered how async fns in Rust are compiled to state machines. We saw that the internal compiler implementation uses generators and the yield statement to facilitate this transformation. In this post, we'll go over some subtleties that the compiler implementation must consider when optimizing generators. We'll look at two different kinds of analysis, liveness analysis and storage conflict detection.",
+      "url": "https://tmandry.gitlab.io/blog/posts/optimizing-await-2/",
+      "date_published": "2019-09-02T00:00:00+00:00",
+      "author": {
+        "name": "Tyler Mandry",
+        "url": "https://tmandry.gitlab.io/blog/"
+      },
+      "tags": [
+        "Performance",
+        "Language"
+      ]
+    },
+    {
       "id": "eb9194f2-85b1-412c-aa0b-0218529bf163",
       "title": "Wrapping Unsafe C Libraries in Rust",
       "content_text": "In this article, we will explore how to wrap those functions and make them safe for normal use. We’ll go over how to define a wrapper struct that handles initialization and cleanup, and describe some traits that describe how application developers can safely use your library with threads. We’ll also talk a bit about how to turn a function’s random integer return into an ergonomic, type-checked Result, how to translate strings and arrays to and from the world of C, and how to turn raw pointers returned from C into scoped objects with inherited lifetimes.\n\nThe overall goal of this step is to dig into the C library’s documentation and make each function’s internal assumptions explicit.",
@@ -82,7 +111,7 @@
     {
       "id": "dac15914-213c-4397-8485-eb2156b0e88b",
       "title": "Updating to Async/Await",
-      "content_text": "Unless you’ve been living under a rock; you know async/await is coming to rust stable. My last post was about implementing a simple protocol using manual futures, and interacting with tokio. It’s only fitting, then, that I update the lib that post was inspired by to async/await and report back on my findings. If you’re curious about my library or you use the window manager i3, it’s available here or on crates under tokio-i3ipc. The version discussed here is currently unpublished, I’m waiting for the syntax to be released on stable and tokio to push their new version.",
+      "content_text": "We’re pleased to announce the release of the first Tokio alpha with async & await support. This includes updating all of the Tokio crates to use std::future instead of futures 0.1. It also includes adding async fn versions of the APIs.",
       "url": "https://leshow.github.io/post/async_await/",
       "date_published": "2019-08-12T09:30:08-04:00",
       "author": {

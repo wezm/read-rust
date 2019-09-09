@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "5e44948a-fa5d-4dbb-a7e7-7e4838fbaa80",
+      "title": "Linux.Fe2O3: a Rust virus",
+      "content_text": "Everytime I try to learn a new programming language, I try by port my prependers (Linux.Zariche, Linux.Liora, Linux.Cephei). Despite the code simplicity , it gives me the chance to understand very useful things in a language, like error handling, file i/o, encryption, memory and a few of its core libraries.\n\nThis time, Rust is the language and I must say that I was impressed by its compiler and error handling, but the syntax is still not 100% clear to me (as you can see from my rudimentar code in Linux.Fe2O3) and I wish it had a built-in random library too. This code was written in less than 2 days, of course its not pretty, has lots of .unwrap() (already got great input from some people on Reddit to help me with that, will be addressed) so I apologise in advance.",
+      "url": "https://www.guitmz.com/linux-fe2o3-rust-virus/",
+      "date_published": "2019-09-06T13:35:51+00:00",
+      "author": {
+        "name": "Guilherme Thomazi",
+        "url": "https://www.guitmz.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "3ded792f-b573-465c-a4bf-00a241bc7cbc",
       "title": "Siderophile: Expose your Crate’s Unsafety",
       "content_text": "Today we released a tool, siderophile, that helps Rust developers find fuzzing targets in their codebases. Siderophile trawls your crate’s dependencies and attempts to finds every unsafe function, expression, trait method, etc. It then traces these up the callgraph until it finds the function in your crate that uses the unsafety. It ranks the functions it finds in your crate by badness—the more unsafety a function makes use of, the higher its badness rating.",

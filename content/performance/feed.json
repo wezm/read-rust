@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "a8b46d95-5e16-4348-abfe-b54bc46da590",
+      "title": "Improvement to the compile time of a crate",
+      "content_text": "For one of my projects, I need to use LLVM so I tried this cool inkwell crate that provides a mostly safe wrapper over LLVM. To my dismay, though, compiling this crate takes… a lot of time: Debug build: 1m 05s Release build: 3m 34s. By the way, I write this article for the sole purpose of trying to fix some problems there is in the crate ecosystem and by no mean I want to incriminate the author of this crate (or any other). I’ve been guilty of doing the same mistakes, but I learned from them and want other people to learn from them as well.",
+      "url": "http://antoyo.ml/compilation-time-dependencies",
+      "date_published": "2019-09-07T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "7304ebe7-ee28-48a9-b88c-dd03e2605a10",
+      "title": "How Rust optimizes async/await II: Program analysis",
+      "content_text": "In Part 1, we covered how async fns in Rust are compiled to state machines. We saw that the internal compiler implementation uses generators and the yield statement to facilitate this transformation. In this post, we'll go over some subtleties that the compiler implementation must consider when optimizing generators. We'll look at two different kinds of analysis, liveness analysis and storage conflict detection.",
+      "url": "https://tmandry.gitlab.io/blog/posts/optimizing-await-2/",
+      "date_published": "2019-09-02T00:00:00+00:00",
+      "author": {
+        "name": "Tyler Mandry",
+        "url": "https://tmandry.gitlab.io/blog/"
+      },
+      "tags": [
+        "Performance",
+        "Language"
+      ]
+    },
+    {
       "id": "b577a6bb-429a-454b-8d2b-77175dba68c8",
       "title": "Building with async/await in Rust",
       "content_text": "As you might have heard, async/await is coming to Rust soon. This is a big deal. Rust has already has popular crates (tokio, actix) that provide asynchronous concurrency, but the async syntax coming to stable in 1.39 is much, much more approachable. My experience has been that you can produce and reason about application flow much more easily, which has made me significantly more productive when dealing with highly concurrent systems. To kick the tires of this new syntax I dug into the nightly branch, and built a high-performance TCP client called clobber. In this post I'll talk about why I think async/await in Rust is a big deal, and walk you some of the code in clobber.",

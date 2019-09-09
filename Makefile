@@ -88,6 +88,10 @@ sync:
 syncfeeds:
 	find public -name '*.rss' -print0 | sed 's/public\///g' | xargs -0 -n 1 -P 0 -I xxxfeed aws s3 cp --cache-control 'max-age=120, public' --content-type 'application/rss+xml' public/xxxfeed s3://readrust.net/xxxfeed
 
-deploy: all sync syncfeeds
+toot:
 	cargo run --release --bin toot -- ${TOOTED} ${POSTS} content/_data/categories.json
+
+tweet:
 	cargo run --release --bin tweet -- ${TWEETED} ${POSTS} content/_data/categories.json
+
+deploy: all sync syncfeeds toot tweet

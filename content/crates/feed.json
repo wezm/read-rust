@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "c7b37ead-766f-4ca9-b816-eb99a0c01b33",
+      "title": "Diagnostics with Tracing",
+      "content_text": "Effectively developing systems and operating them in production requires visibility into their behavior at runtime. While conventional logging can provide some of this visibility, asynchronous software &mdash; like applications using the Tokio runtime &mdash; introduces new challenges.\n\ntracing is a collection of libraries that provide a framework for instrumenting Rust programs to collect structured, context-aware, event driven diagnostics. Note that tracing was originally released under the name tokio-trace; the name was changed to reflect that, although it is part of the Tokio project, the tokio runtime is not required to use tracing.",
+      "url": "https://tokio.rs/blog/2019-08-tracing/",
+      "date_published": "2019-08-14T00:00:00+00:00",
+      "author": {
+        "name": "Eliza Weisman",
+        "url": "https://www.elizas.website/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e2f780ad-41db-499a-999c-321f0e8f556e",
+      "title": "We want smaller, faster, more secure native apps",
+      "content_text": "Introducing Tauri-Apps, an open-source project to help you make native apps with any framework with the power of Rust.",
+      "url": "https://medium.com/tauri-apps/we-want-smaller-faster-more-secure-native-apps-77222f590c64",
+      "date_published": "2019-09-05T20:57:20.829+00:00",
+      "author": {
+        "name": "nothingismagick",
+        "url": "https://medium.com/@drthompsonsmagickindustries"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "8e664490-3dfb-419b-8281-61ea737dd762",
       "title": "Announcing actix-raft: Raft distributed consensus implemented using Actix",
       "content_text": "An implementation of the Raft distributed consensus protocol using the Actix actor framework. Blazing fast Rust, a modern consensus protocol, an outstanding actor framework. This project intends to provide a backbone for the next generation of distributed data storage systems (SQL, NoSQL, KV, Streaming &c) built with Rust.",
