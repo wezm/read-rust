@@ -11,6 +11,6 @@ class CreatePostCategories::V20190928074838 < Avram::Migrator::Migration::V1
 
   def rollback
     drop table_for(PostCategory)
-    #drop_index table_for(PostCategory), [:post_id, :category_id]
+    # drop_index table_for(PostCategory), [:post_id, :category_id]
   end
 end
