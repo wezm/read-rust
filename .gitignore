@@ -1,0 +1,15 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+start_server
+*.dwarf
+*.local.cr
+.env
+/tmp
+/public/js
+/public/css
+/public/mix-manifest.json
+/node_modules
+yarn-error.log

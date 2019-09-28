@@ -1,0 +1,29 @@
+name: read_rust
+version: 0.1.0
+
+authors:
+  - Wesley Moore <wes@wezm.net>
+
+targets:
+  read_rust:
+    main: src/read_rust.cr
+
+crystal: 0.30.1
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.17.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.4.0
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.1
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.2.0
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.5.0

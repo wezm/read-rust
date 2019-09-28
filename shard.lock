@@ -1,0 +1,78 @@
+version: 1.0
+shards:
+  authentic:
+    github: luckyframework/authentic
+    version: 0.4.0
+
+  avram:
+    github: luckyframework/avram
+    version: 0.11.2
+
+  blank:
+    github: kostya/blank
+    version: 0.1.0
+
+  carbon:
+    github: luckyframework/carbon
+    version: 0.1.1
+
+  cry:
+    github: paulcsmith/cry
+    version: 0.4.1
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.6.0
+
+  dexter:
+    github: luckyframework/dexter
+    version: 0.1.2
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.2.0
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.1.2
+
+  habitat:
+    github: luckyframework/habitat
+    version: 0.4.3
+
+  lucky:
+    github: luckyframework/lucky
+    version: 0.17.0
+
+  lucky_cli:
+    github: luckyframework/lucky_cli
+    version: 0.17.0
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: 0.5.0
+
+  lucky_router:
+    github: luckyframework/lucky_router
+    version: 0.2.2
+
+  pg:
+    github: will/crystal-pg
+    version: 0.18.0
+
+  selenium:
+    github: ysbaddaden/selenium-webdriver-crystal
+    commit: a6d0e63ab7ddc6a20923bf4157bc6247c1fa2acc
+
+  shell-table:
+    github: luckyframework/shell-table.cr
+    commit: 078a04ea58ead5203bb435a3b5fff448ddabaeea
+
+  teeplate:
+    github: luckyframework/teeplate
+    version: 0.8.0
+
+  wordsmith:
+    github: luckyframework/wordsmith
+    version: 0.2.0
+
