@@ -1,7 +1,7 @@
 class CreateCategories::V20190928070750 < Avram::Migrator::Migration::V1
   def migrate
     create table_for(Category) do
-      primary_key id : Int32
+      primary_key id : Int16
       add name : String
       add hashtag : String, unique: true
       add slug : String, unique: true, index: true
