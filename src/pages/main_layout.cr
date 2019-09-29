@@ -18,7 +18,7 @@ abstract class MainLayout
         mount Shared::FlashMessages.new(@context.flash)
 
         header do
-          a href: "/" do
+          link to: Home::Index do
             text "Read "
             img alt: "", class: "logo", src: asset("images/logo.svg")
             text " Rust"
@@ -26,16 +26,16 @@ abstract class MainLayout
           nav do
             div class: "list-inline" do
               div do
-                a "Home", href: "/"
+                link "Home", to: Home::Index
               end
               div do
-                a "About", href: "/about.html"
+                link "About", to: About::Show
               end
               div do
-                a "Submit", href: "/submit.html"
+                link "Submit", to: Submit::Show
               end
               div class: "support" do
-                a "Support Rust", class: "heart", href: "/support.html"
+                link "Support Rust", class: "heart", to: Creators::Index
               end
             end
           end
