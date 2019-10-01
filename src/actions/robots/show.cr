@@ -1,4 +1,6 @@
 class Robots::Show < BrowserAction
+  include Auth::AllowGuests
+
   get "/robots.txt" do
     plain_text "User-Agent: *
 Disallow: 
