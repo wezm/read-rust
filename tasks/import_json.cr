@@ -39,7 +39,7 @@ class ImportJson < LuckyCli::Task
     tweeted = Array(Hash(String, String)).from_json(File.read(ARGV[1])).map { |obj| obj["item_id"] }.to_set
     tooted = Array(Hash(String, String)).from_json(File.read(ARGV[2])).map { |obj| obj["item_id"] }.to_set
 
-    categories = CategoryQuery.all.each_with_object({} of String => Int16) do |category, hash|
+    categories = CategoryQuery.all.each_with_object({} of String => Int64) do |category, hash|
       hash[category.name] = category.id
     end
 
