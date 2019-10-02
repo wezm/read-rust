@@ -7,5 +7,11 @@ class Creator < BaseModel
     column code_link_name : String
     column code_link_url : String
     column description : String
+    has_many creator_tags : CreatorTag
+    has_many tags : Tag, through: :creator_tags
+  end
+
+  def avatar_thumbnail : String
+    Avatar.new(avatar).thumbnail_path.to_s
   end
 end

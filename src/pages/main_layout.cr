@@ -8,11 +8,19 @@ abstract class MainLayout
   abstract def content
   abstract def page_title
 
+  def app_js? : Bool
+    false
+  end
+
+  def extra_css : String?
+    nil
+  end
+
   def render
     html_doctype
 
     html lang: "en" do
-      mount Shared::LayoutHead.new(page_title: page_title, context: @context)
+      mount Shared::LayoutHead.new(page_title: page_title, context: @context, app_js: app_js?, extra_css: extra_css)
 
       body do
         mount Shared::FlashMessages.new(@context.flash)
@@ -56,12 +64,9 @@ abstract class MainLayout
           text " Copyright © 2018–#{Time.utc.year} "
           a "Wesley Moore", href: "https://www.wezm.net/about/"
           text ". Read Rust is not an official Rust or Mozilla project."
-          br
-          text " Built with "
-          a "Cobalt", href: "http://cobalt-org.github.io/"
-          text ". Source on "
+          text " Source on "
           a "GitHub", href: "https://github.com/wezm/read-rust"
-          text ". "
+          text "."
           div class: "socials" do
             a href: "/all/feed.rss" do
               img alt: "Read Rust RSS feed", src: asset("images/rss.svg")
@@ -84,12 +89,20 @@ abstract class MainLayout
           end
         end
         script do
-          text " (function() { var script = document.createElement('script'); window.counter = 'https://readrust.goatcounter.com/count' script.async = 1; script.src = '//static.goatcounter.com/count.min.js'; var ins = document.getElementsByTagName('script')[0]; ins.parentNode.insertBefore(script, ins) })(); "
+          raw "
+            (function() {
+              var script = document.createElement('script');
+              window.counter = 'https://readrust.goatcounter.com/count'
+              script.async = 1;
+              script.src = '//static.goatcounter.com/count.min.js';
+
+              var ins = document.getElementsByTagName('script')[0];
+              ins.parentNode.insertBefore(script, ins)
+            })();
+          "
         end
       end
     end
-
-
   end
 
   private def render_signed_in_user(user)

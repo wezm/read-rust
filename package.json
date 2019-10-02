@@ -2,9 +2,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "normalize-scss": "^7.0.1",
-    "rails-ujs": "^5.1.4",
-    "turbolinks": "^5.0.3"
+    "rails-ujs": "^5.1.4"
   },
   "scripts": {
     "heroku-postbuild": "yarn prod",

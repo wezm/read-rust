@@ -52,7 +52,7 @@ class ImportCreators < LuckyCli::Task
     AppDatabase.transaction do
       creators.each do |creator|
         io.puts creator.name
-        SaveCreator.create!(
+        saved_creator = SaveCreator.create!(
           name: creator.name,
           avatar: creator.avatar,
           support_link_name: creator.support.name,
@@ -61,6 +61,15 @@ class ImportCreators < LuckyCli::Task
           code_link_url: creator.code.link,
           description: creator.description
         )
+
+        creator.tags.each do |tag_name|
+          tag = TagQuery.new.name(tag_name).first?
+          if tag.nil?
+            tag = SaveTag.create!(name: tag_name)
+          end
+
+          SaveCreatorTag.create!(creator_id: saved_creator.id, tag_id: tag.id)
+        end
       end
 
       true
