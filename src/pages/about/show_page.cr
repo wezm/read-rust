@@ -1,6 +1,8 @@
 require "markd"
 
 class About::ShowPage < MainLayout
+  include Page::RenderMarkdown
+
   needs categories : CategoryQuery
   quick_def page_title, "About"
 
@@ -125,10 +127,5 @@ class About::ShowPage < MainLayout
     [Heart]: https://thenounproject.com/search/?q=heart&creator=9861&i=372271
     [Balloon.css]: https://github.com/kazzkiq/balloon.css
     MD
-  end
-
-  def render_markdown(source)
-    options = Markd::Options.new(smart: true)
-    Markd.to_html(source, options)
   end
 end

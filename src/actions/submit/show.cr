@@ -1,5 +1,7 @@
 class Submit::Show < BrowserAction
+  include Auth::AllowGuests
+
   get "/submit" do
-    plain_text "Render something in Submit::Show"
+    render ShowPage
   end
 end
