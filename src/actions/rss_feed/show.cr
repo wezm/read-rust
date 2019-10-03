@@ -1,12 +1,13 @@
 class RssFeed::Show < BrowserAction
   include Auth::AllowGuests
+  include Categories::FindCategory
 
   get "/:slug/feed.rss" do
     xml render_feed(category)
   end
 
   private def render_feed(category : AllCategory | Category)
-    posts = category.recent_posts
+    posts = PostQuery.new.recent_in_category(category).limit(100)
     items = posts.map do |post|
       RSS::Item.new(
         guid: RSS::Guid.new(value: post.guid.hexstring, is_permalink: false),
@@ -29,15 +30,5 @@ class RssFeed::Show < BrowserAction
     )
 
     feed.to_xml
-  end
-
-  private def category
-    if slug == "all"
-      AllCategory.new
-    elsif category = CategoryQuery.new.slug(slug).first?
-      category
-    else
-      raise Lucky::RouteNotFoundError.new(context)
-    end
   end
 end
