@@ -1,29 +1,29 @@
 require "markd"
 
 class About::ShowPage < MainLayout
+  needs categories : CategoryQuery
   quick_def page_title, "About"
 
   def content
     raw render_markdown(markdown_top)
 
     ul do
-      li do
-        text "Main feed (all posts): "
-        a "RSS", href: "/all/feed.rss"
-        text " or "
-        a "JSON", href: "/all/feed.json"
+      feed_links(AllCategory.new, "Main feed (all posts)")
+      @categories.each do |category|
+        feed_links(category)
       end
-      text " {% for category in site.data.categories %} "
-      li do
-        text "{{ category.name | escape }}: "
-        a "RSS", href: "{{ category.path }}feed.rss"
-        text " or "
-        a "JSON", href: "{{ category.path }}feed.json"
-      end
-      text " {% endfor %} "
     end
 
     raw render_markdown(markdown_bottom)
+  end
+
+  def feed_links(category, description = category.name)
+    li do
+      text "#{description}: "
+      link "RSS", to: RssFeed::Show.with(category.slug)
+      text " or "
+      link "JSON", to: JsonFeed::Show.with(category.slug)
+    end
   end
 
   def markdown_top
@@ -41,6 +41,14 @@ class About::ShowPage < MainLayout
     I am a proponent of the open web and as a result the content of Read Rust is
     available in a number of machine readable formats. There are feeds available
     for the whole site, as well as each of the categories:
+
+    [rust-lang]: https://www.rust-lang.org/
+    [wezm]: http://www.wezm.net/about/
+    [@wezm]: https://twitter.com/wezm
+    [@wezm@mastodon]: https://mastodon.social/@wezm
+    [Patreon]: https://patreon.com/wezm
+    [source]: https://github.com/wezm/read-rust
+    [issues]: https://github.com/wezm/read-rust/issues
     MD
   end
 
@@ -108,19 +116,12 @@ class About::ShowPage < MainLayout
     * [Balloon.css]: Copyright (c) 2016 Claudio Holanda
 
     [favicon]: https://thenounproject.com/term/book/17900
-    [rust-lang]: https://www.rust-lang.org/
-    [wezm]: http://www.wezm.net/about/
-    [source]: https://github.com/wezm/read-rust
-    [issues]: https://github.com/wezm/read-rust/issues
-    [@wezm]: https://twitter.com/wezm
     [Twitter]: https://twitter.com/read_rust
     [OPML]: https://en.wikipedia.org/wiki/OPML
-    [@wezm@mastodon]: https://mastodon.social/@wezm
     [Mastodon]: https://botsin.space/@readrust
     [the Noun Project]: http://thenounproject.com/
     [Facebook]: https://www.facebook.com/readrust/
     [Super Tiny Icons]: https://github.com/edent/SuperTinyIcons
-    [Patreon]: https://patreon.com/wezm
     [Heart]: https://thenounproject.com/search/?q=heart&creator=9861&i=372271
     [Balloon.css]: https://github.com/kazzkiq/balloon.css
     MD
