@@ -1,9 +1,5 @@
 version: 1.0
 shards:
-  RSS:
-    github: ga2mer/RSS.cr
-    commit: b6ad707db66ea7df735bd2b3f6833f66afdff933
-
   authentic:
     github: luckyframework/authentic
     version: 0.4.0

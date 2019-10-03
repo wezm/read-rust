@@ -29,6 +29,3 @@ dependencies:
   lucky_flow:
     github: luckyframework/lucky_flow
     version: ~> 0.5.0
-  RSS:
-    github: ga2mer/RSS.cr
-    branch: master

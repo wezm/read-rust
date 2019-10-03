@@ -1,5 +1,6 @@
 class Post < BaseModel
   table do
+    column guid : UUID
     column title : String
     column url : String
     column twitter_url : String?

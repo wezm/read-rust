@@ -2,6 +2,7 @@ class CreatePosts::V20190928072820 < Avram::Migrator::Migration::V1
   def migrate
     create table_for(Post) do
       primary_key id : Int64
+      add guid : UUID
       add title : String
       add url : String, unique: true
       add twitter_url : String?

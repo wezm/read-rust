@@ -46,7 +46,8 @@ class ImportPosts < LuckyCli::Task
     AppDatabase.transaction do
       feed.items.each do |post|
         puts post.title
-        created_post = SavePost.create!(
+        created_post = ImportPost.create!(
+          guid: UUID.new(post.id, UUID::Variant::RFC4122, UUID::Version::V4),
           title: post.title,
           url: post.url,
           twitter_url: post.tweet_url,
@@ -56,6 +57,7 @@ class ImportPosts < LuckyCli::Task
           #published_at: post.date_published,
           tweeted_at: tweeted.includes?(post.id) ? Time.utc : nil,
           tooted_at: tooted.includes?(post.id) ? Time.utc : nil,
+          created_at: post.date_published,
         )
         post.tags.each do |category_name|
           SavePostCategory.create!(post_id: created_post.id, category_id: categories[category_name])
