@@ -89,17 +89,17 @@ abstract class MainLayout
           end
         end
         script do
-          raw "
-            (function() {
-              var script = document.createElement('script');
-              window.counter = 'https://readrust.goatcounter.com/count'
-              script.async = 1;
-              script.src = '//static.goatcounter.com/count.min.js';
+          raw <<-JS
+          (function() {
+            var script = document.createElement('script');
+            window.counter = 'https://readrust.goatcounter.com/count'
+            script.async = 1;
+            script.src = '//static.goatcounter.com/count.min.js';
 
-              var ins = document.getElementsByTagName('script')[0];
-              ins.parentNode.insertBefore(script, ins)
-            })();
-          "
+            var ins = document.getElementsByTagName('script')[0];
+            ins.parentNode.insertBefore(script, ins)
+          })();
+          JS
         end
       end
     end
