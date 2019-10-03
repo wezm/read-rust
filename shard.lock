@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  RSS:
+    github: ga2mer/RSS.cr
+    commit: b6ad707db66ea7df735bd2b3f6833f66afdff933
+
   authentic:
     github: luckyframework/authentic
     version: 0.4.0
@@ -55,6 +59,10 @@ shards:
   lucky_router:
     github: luckyframework/lucky_router
     version: 0.2.2
+
+  markd:
+    github: icyleaf/markd
+    version: 0.1.2
 
   pg:
     github: will/crystal-pg
