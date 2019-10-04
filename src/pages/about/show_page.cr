@@ -16,21 +16,6 @@ class About::ShowPage < MainLayout
       end
     end
 
-    para do
-      text "In order to discover new posts I subscribe to a lot of Rust related RSS feeds. The list is available in "
-      a "OPML", href: "https://en.wikipedia.org/wiki/OPML"
-      text " (readily importable into "
-      a href: "#subscribe" do
-        text "feed readers"
-      end
-      text "):"
-    end
-    ul do
-      li do
-        link "Blog list OPML", to: RustBlogs::Index
-      end
-    end
-
     raw render_markdown(markdown_bottom)
   end
 
@@ -71,6 +56,12 @@ class About::ShowPage < MainLayout
 
   def markdown_bottom
     <<-MD
+    In order to discover new posts I subscribe to a lot of Rust related RSS feeds.
+    The list is available in [OPML] (readily importable into [feed
+    readers](#subscribe)):
+
+    * Blog list: [OPML](#{RustBlogs::Index.path})
+
     ## Social Media
 
     Read Rust also has social media accounts, which automatically post each newly

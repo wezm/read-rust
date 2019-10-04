@@ -24,9 +24,15 @@
 # differently in different parts of your app, e.g. `Shared::CompactField``
 class Shared::Field(T) < BaseComponent
   needs field : Avram::PermittedAttribute(T)
+  needs label : String? = nil
 
   def render
-    label_for @field
+    label = @label
+    if label
+      label_for @field, label
+    else
+      label_for @field
+    end
 
     # You can add more default options here. For example:
     #

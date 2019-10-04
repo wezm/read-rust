@@ -1,10 +1,12 @@
 class Me::ShowPage < MainLayout
-  needs current_user : User
   quick_def page_title, "Your Profile"
 
   def content
     h1 "This is your profile"
-    h3 "Email:  #{@current_user.email}"
+    @current_user.try do |user|
+      # FIXME: How to deal with this nicely
+      h3 "Email:  #{user.email}"
+    end
     helpful_tips
   end
 

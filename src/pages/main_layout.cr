@@ -3,7 +3,7 @@ abstract class MainLayout
 
   # 'needs current_user : User' makes it so that the current_user
   # is always required for pages using MainLayout
-  # needs current_user : User?
+  needs current_user : User?
 
   abstract def content
   abstract def page_title
@@ -46,6 +46,9 @@ abstract class MainLayout
                 link "Support Rust", class: "heart", to: Creators::Index
               end
             end
+          end
+          @current_user.try do |user|
+            render_signed_in_user(user)
           end
         end
         main class: "main" do
