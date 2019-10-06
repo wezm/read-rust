@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "17460b05-a9d9-4c79-801c-2a2e54c5132f",
+      "title": "Project update",
+      "content_text": "gfx-rs is a Rust project aiming to make low-level GPU programming portable with low overhead. It’s a single Vulkan-like Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. wgpu-rs is a Rust project on top of gfx-rs that provides safety, accessibility, and even stronger portability. This is an update that is not aligned to any dates or releases. We just want to share about some of the exciting work that landed recently, which will make it to the next release cycle.",
+      "url": "https://gfx-rs.github.io/2019/10/01/update.html",
+      "date_published": "2019-10-01T00:00:00+00:00",
+      "author": {
+        "name": "gfx-rs",
+        "url": "https://gfx-rs.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "0b1d562c-94e0-49fd-be04-15ea918ed05d",
       "title": "Photo mosaics with Rust",
       "content_text": "As I've been learning the Rust programming language lately I thought creating a photo-mosaic generator could be a fun project. I knew a generator like this would require a large set of tile images to sample from. The original plan was for it to only create mosaics from emoji which is how it got it's name emosaic (emoji + mosaic = emosaic) but as I progressed it made more sense to keep in generic and let the user provide their own pool of tile images.",

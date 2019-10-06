@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f449d35d-98c7-4460-9d42-d6641415e542",
+      "title": "Nushell 0.3.0",
+      "content_text": "Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your commandline. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful commandline pipelines. We’re happy to announce that today we’re releasing Nushell 0.3.0. Nu has seen numerous bugfixes, performance improvements, and features added since its initial public release (which was only a few weeks ago!)",
+      "url": "http://www.jonathanturner.org/2019/09/nushell_0_3_0.html",
+      "date_published": "2019-09-24T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "5ab7b4e5-a7ab-470c-be66-ec1a8354a782",
       "title": "Actually Using Crev, Or, The Problem Of Trusting Software Dependencies",
       "content_text": "Currently the only implementation of crev is cargo-crev, which ties into the Rust language package manager, cargo. However, none of this is Rust-specific apart from the implementation, the basic concept and code review format should work for any language or package system. Code reviews (“proofs”) are just YAML files, and they can be shared around however you feel like – the method currently seems to be by putting proofs in git repositories, and cargo-crev has support for this. crev already has a pretty good getting started guide that covers much of the same ground as this, but I wanted to write something similar that comes from a random user, not the system’s creator.",

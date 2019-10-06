@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "55e7a635-29bd-4a2d-aaac-b0d599006ff7",
+      "title": "The \"Inside Rust\" Blog",
+      "content_text": "This is the \"Inside Rust\" blog. This blog is aimed at those who wish to follow along with Rust development. The various Rust teams and working groups use this blog to post status updates, calls for help, and other similar announcements.",
+      "url": "https://blog.rust-lang.org/inside-rust/",
+      "date_published": "2019-10-04T01:18:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "258e95ec-03a2-47b2-b577-cf45ad96924e",
+      "title": "Async Builders",
+      "content_text": "Last month we introduced Surf, an async cross-platform streaming HTTP client for Rust. It was met with a great reception, and people generally seem to be really enjoying it. A common piece of feedback we've gotten is how much people enjoy the interface, in particular how little code it requires to create HTTP requests. In this post we'll cover a pattern at the heart of Surf's ergonomics stjepang came up with: the \"async finalizer\".",
+      "url": "https://blog.yoshuawuyts.com/async-finalizers/",
+      "date_published": "2019-09-21T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7a86a452-ec34-4489-b209-f91aecdd6d98",
+      "title": "Plugins in Rust",
+      "content_text": "Imagine you are implementing a calculator application and want users to be able to extend the application with their own functionality. For example, imagine a user wants to provide a random() function that generates true random numbers using random.org instead of the pseudo-random numbers that a crate like rand would provide.\n\nThe Rust language gives you a lot of really powerful tools for adding flexibility and extensibility to your applications (e.g. traits, enums, macros), but all of these happen at compile time. Unfortunately, to get the flexibility that we’re looking we’ll need to be able to add new functionalty at runtime. This can be achieved using a technique called Dynamic Loading.",
+      "url": "http://adventures.michaelfbryan.com/posts/plugins-in-rust/",
+      "date_published": "2019-09-30T22:04:58+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "63fb93a7-e179-491f-83b9-84a7e284fe48",
+      "title": "Is This Magic!? Ferris Explores Rustc!",
+      "content_text": "A companion to the RustConf 2019 talk with the same name; an introduction to making your first contribution to the Rust compiler.",
+      "url": "https://quietmisdreavus.net/code/2019/08/23/is-this-magic-ferris-explores-rustc/",
+      "date_published": "2019-08-23T11:00:00-05:00",
+      "author": {
+        "name": "QuietMisdreavus",
+        "url": "https://quietmisdreavus.net/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d9b796b1-aacb-4a2f-ad7b-05ce22cc3ec1",
+      "title": "Announcing Rust 1.38.0",
+      "content_text": "The highlight of this release is pipelined compilation. The release also includes linting of some incorrect uses of mem::{uninitialized, zeroed}, #[deprecated] macros, std::any::type_name, and more.",
+      "url": "https://blog.rust-lang.org/2019/09/26/Rust-1.38.0.html",
+      "date_published": "2019-09-26T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fbf09d15-52c8-4ab6-a6bf-22c0b238aedb",
+      "title": "Async-await hits beta!",
+      "content_text": "Big news! As of this writing, syntactic support for async-await is available in the Rust beta channel! It will be available in the 1.39 release, which is expected to be released on November 7th, 2019. Once async-await hits stable, that will mark the culmination of a multi-year effort to enable efficient and ergonomic asynchronous I/O in Rust. It will not, however, mark the end of the road: there is still more work to do, both in terms of polish (some of the error messages we get today are, um, not great) and in terms of feature set (async fn in traits, anyone?).",
+      "url": "https://blog.rust-lang.org/2019/09/30/Async-await-hits-beta.html",
+      "date_published": "2019-09-30T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language",
+        "async"
+      ]
+    },
+    {
+      "id": "d821223f-0e0c-4bbf-a248-7191d0c0c1da",
+      "title": "Futures Concurrency",
+      "content_text": "In a previous post we've looked at Rust streams. In this post we're going to discuss another problem in the async space: futures concurrency combinators. We're going to cover the different forms of concurrency that can be expressed with Futures, and cover both fallible and infallible variants.",
+      "url": "https://blog.yoshuawuyts.com/futures-concurrency/",
+      "date_published": "2019-09-02T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language",
+        "async"
+      ]
+    },
+    {
       "id": "518da2d7-644e-4028-95a2-388b2cb5fc0f",
       "title": "Async Stack Traces in Rust",
       "content_text": "One neat result of Rust’s futures and async/await design is that all of the async callers are on the stack below the async callees. In most other languages, only the youngest async callee is on the stack, and none of the async callers. Because the youngest frame is most often not where a bug’s root cause lies, this extra context makes debugging async code easier in Rust.",

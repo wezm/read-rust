@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "c793ec07-09a1-4b5d-b3e6-f8b146178fbc",
+      "title": "Build an NB-IoT GPS Tracker on STM32 L476 with Apache Mynewt and Embedded Rust",
+      "content_text": "Let’s build an NB-IoT GPS Tracker! A simple gadget that determines its current location based on received GPS signals… And transmits the location to a server via NB-IoT. We shall take an existing Apache Mynewt Embedded OS + Embedded Rust project from the article “Rust Rocks NB-IoT! STM32 Blue Pill with Quectel BC95-G on Apache Mynewt”… And extend it with a GPS module: Quectel L70-R.",
+      "url": "https://medium.com/@ly.lee/build-an-nb-iot-gps-tracker-on-stm32-l476-with-apache-mynewt-and-embedded-rust-8c095a925546",
+      "date_published": "2019-09-22T12:24:41.202+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "abac05ba-47c5-4454-8363-2f823ff9c573",
+      "title": "Rust on the ESP32",
+      "content_text": "In March of 2019, Espressif released their first run at an llvm fork to support the xtensa architecure. Shortly after I got to work bootstrapping Rust to use this newly created fork. Prior to this project, I'd had no experience with the compiler, fortunately I came across the RISCV PR which gave me a rough idea of what was required. After many build attempts I finally got it working; I was now able to generate xtensa assembly from Rust source code!",
+      "url": "https://mabez.dev/blog/posts/esp32-rust/",
+      "date_published": "2019-09-10T00:00:00+00:00",
+      "author": {
+        "name": "Scott Mabin",
+        "url": "https://mabez.dev/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "b909cef2-cf3b-4db8-b567-c230036a7adf",
+      "title": "Happy First Birthday, Ferrous!",
+      "content_text": "Ferrous Systems GmbH was fully incorporated in Berlin, on October 1st, 2018; which makes today Ferrous' first birthday! It's been a busy year (or really more than a year) for us, full of ups, downs, growth, challenges, stress, and opportunities, and it finally feels like the right time to write a bit more about it from a personal perspective.",
+      "url": "https://ferrous-systems.com/blog/happy-birthday-ferrous/",
+      "date_published": "2019-10-01T00:00:00+00:00",
+      "author": {
+        "name": "James Munns",
+        "url": "https://ferrous-systems.com/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "230003fc-89e8-4108-97d1-45f2d8b30dd8",
+      "title": "The Embedded Working Group Newsletter - 19",
+      "content_text": "This is the 19th newsletter of the Embedded WG where we highlight new progress, celebrate cool projects, thank the community, and advertise projects that need help!",
+      "url": "https://rust-embedded.github.io/blog/newsletter-19/",
+      "date_published": "2019-10-03T00:00:00+00:00",
+      "author": {
+        "name": "The Embedded Working Group",
+        "url": "https://rust-embedded.github.io/blog"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "695ee455-42ad-432f-88a0-00deb73361d3",
       "title": "Low Power NB-IoT on STM32 Blue Pill with Apache Mynewt and Embedded Rust",
       "content_text": "In this article we’ll learn to optimise the power consumption of the NB-IoT Sensor Application in the previous tutorial from this jagged power-hungry mess… To these well-disciplined bars… It’s a simple application (coded in Embedded Rust) that polls Blue Pill’s internal temperature sensor and transmits the sensor data to a server over NB-IoT.",

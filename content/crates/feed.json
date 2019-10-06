@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "b2b15138-1280-44d7-95a0-9e5954a14b9a",
+      "title": "Announcing Bastion 0.2.0!",
+      "content_text": "Bastion is a fault-tolerant runtime for Rust applications. After receiving plenty of good feedback from the community and a long-running development stage, now Bastion is 0.2.0!",
+      "url": "https://www.reddit.com/r/rust/comments/day85g/announcing_bastion_020/",
+      "date_published": "2019-10-06T04:16:30+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://twitter.com/vertexclique"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "e2d3a9d7-cc8b-4cd5-8d5b-3bb986487601",
+      "title": "Static Assertions 1.0",
+      "content_text": "static_assertions is a library designed to enable users to perform various checks at compile-time. It allows for finding errors quickly and early when it comes to ensuring certain features or aspects of a codebase. The macros it provides are especially important when exposing a public API that requires types to be the same size or implement certain traits.",
+      "url": "https://nikolaivazquez.com/posts/programming/rust-static-assertions-1_0/",
+      "date_published": "2019-10-02T00:00:00+00:00",
+      "author": {
+        "name": "Nikolai Vazquez",
+        "url": "https://nikolaivazquez.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "c7b37ead-766f-4ca9-b816-eb99a0c01b33",
       "title": "Diagnostics with Tracing",
       "content_text": "Effectively developing systems and operating them in production requires visibility into their behavior at runtime. While conventional logging can provide some of this visibility, asynchronous software &mdash; like applications using the Tokio runtime &mdash; introduces new challenges.\n\ntracing is a collection of libraries that provide a framework for instrumenting Rust programs to collect structured, context-aware, event driven diagnostics. Note that tracing was originally released under the name tokio-trace; the name was changed to reflect that, although it is part of the Tokio project, the tokio runtime is not required to use tracing.",
