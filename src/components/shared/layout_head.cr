@@ -2,6 +2,7 @@ class Shared::LayoutHead < BaseComponent
   needs page_title : String
   needs app_js : Bool
   needs extra_css : String?
+
   # This is used by the 'csrf_meta_tags' method
   # needs context : HTTP::Server::Context
 

@@ -53,7 +53,7 @@ class Creators::IndexPage < MainLayout
       div class: "filter" do
         strong "Filter:", class: "visually-hidden"
         tag_link("all")
-        @tags. each do |tag|
+        @tags.each do |tag|
           text " "
           tag_link(tag.name)
         end
@@ -90,4 +90,3 @@ class Creators::IndexPage < MainLayout
     creator.tags.map(&.name).join(",")
   end
 end
-

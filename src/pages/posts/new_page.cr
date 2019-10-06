@@ -37,5 +37,4 @@ class Posts::NewPage < AdminLayout
       end
     end
   end
-
 end

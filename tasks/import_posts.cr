@@ -54,12 +54,13 @@ class ImportPosts < LuckyCli::Task
           mastodon_url: nil,
           author: post.author.name,
           summary: post.content_text,
-          #published_at: post.date_published,
+          # published_at: post.date_published,
           tweeted_at: tweeted.includes?(post.id) ? Time.utc : nil,
           tooted_at: tooted.includes?(post.id) ? Time.utc : nil,
           created_at: post.date_published,
         )
         post.tags.each do |category_name|
+          next if category_name == "async"
           SavePostCategory.create!(post_id: created_post.id, category_id: categories[category_name])
         end
       end

@@ -9,7 +9,7 @@ class Avatar
     if image.extension == ".svg"
       Path["images/u"].join(image)
     else
-      Path["images/u/thumb"].join(image.basename(image.extension) + ".jpg") #/{{ creator.avatar | replace: "png", "jpg" }}"
+      Path["images/u/thumb"].join(image.basename(image.extension) + ".jpg")
     end
   end
 end

@@ -7,4 +7,3 @@ class AllCategory
     "all"
   end
 end
-

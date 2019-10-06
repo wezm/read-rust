@@ -11,7 +11,7 @@ module RSS
             xml.element("description") { xml.cdata @description }
             xml.element("link") { xml.text @link }
             xml.element("atom", "link", nil, rel: "self", href: @feed_url)
-            #xml.element("generator") { xml.text @generator }
+            # xml.element("generator") { xml.text @generator }
             xml.element("lastBuildDate") { xml.text @last_build_date.to_rfc2822 }
 
             @items.each &.to_xml(xml)
