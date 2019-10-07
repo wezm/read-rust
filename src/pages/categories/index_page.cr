@@ -28,7 +28,9 @@ class Categories::IndexPage < MainLayout
       a href: "https://patreon.com/wezm" do
         text "supporting me"
       end
-      text " or any of the wonderful people building and writing in Rust."
+      text " or any of the "
+      link "wonderful people building and writing in Rust", to: Creators::Index
+      text "."
     end
     h2 "Sections"
     para "New posts are added to one or more of the following sections:"
