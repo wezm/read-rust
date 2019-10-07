@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "files": [
+    "src/js/admin.js"
+  ]
+}

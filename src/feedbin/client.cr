@@ -22,20 +22,30 @@ module Feedbin
       published: Time,
       extracted_articles: Array(ExtractedArticle),
     )
+
+    def twitter?
+      !twitter_id.nil?
+    end
   end
 
   class Client
-    def initialize(@username : String, @password : String)
+    Habitat.create do
+      setting username : String
+      setting password : String
     end
 
     def entry(id : UInt64) : Entry
-      url = UrlBuilder.url("/entries/3648.json", {mode: "extended"})
+      url = UrlBuilder.url("/entries/#{id}.json", {mode: "extended"})
       # TODO Reuse client?
-      client = HTTP::Client.new url.host.not_nil!
-      client.basic_auth(@username, @password)
+      client = HTTP::Client.new url.host.not_nil!, tls: true
+      client.basic_auth(settings.username, settings.password)
       resp = client.get url.full_path do |resp|
-        # TODO: Check status?
-        Entry.from_json(resp.body_io)
+        # TODO: handle redirects
+        if resp.success?
+          Entry.from_json(resp.body_io)
+        else
+          raise "FIXME: Feedbin error"
+        end
       end
     end
   end

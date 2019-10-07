@@ -22,6 +22,7 @@ mix
   // More info and options (like React support) here:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/mixjs.md
   .js("src/js/app.js", "public/js")
+  .copy("src/js/admin.js", "public/js")
   // SASS entry file. Uses autoprefixer automatically.
   .sass("src/css/app.scss", "public/css")
   .sass("src/css/admin.scss", "public/css")
