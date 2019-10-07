@@ -77,8 +77,8 @@ shards:
     version: 0.8.0
 
   webmock:
-    github: wezm/webmock.cr
-    commit: 73a37970475b0b1a890b67ee1bd617a031dbe6a2
+    github: manastech/webmock.cr
+    commit: 78bb0e3b5850c700da0e7fbdd2d6c180cc4a061b
 
   wordsmith:
     github: luckyframework/wordsmith

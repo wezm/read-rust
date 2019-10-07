@@ -20,10 +20,10 @@ describe Feedbin::Client do
 
   describe "entry" do
     it "returns an Entry" do
-      WebMock.stub(:get, "api.feedbin.com/v2/entries/3648.json?mode=extended")
+      WebMock.stub(:get, "https://api.feedbin.com/v2/entries/123.json?mode=extended")
         .to_return(body_io: File.open("spec/support/fixtures/feedbin-entry.json"))
 
-      client = Feedbin::Client.new("test", "pass")
+      client = Feedbin::Client.new
       entry = client.entry(123)
       entry.should_not be_nil
     end

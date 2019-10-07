@@ -32,5 +32,5 @@ dependencies:
 
 development_dependencies:
   webmock:
-    github: wezm/webmock.cr
-    branch: yielding-methods
+    github: manastech/webmock.cr
+    branch: master
