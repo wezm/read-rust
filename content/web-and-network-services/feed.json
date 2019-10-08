@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "dcbe1901-b9b1-4eec-a44e-d6be0dcdd958",
+      "title": "Sample REST API in Rust and Go",
+      "content_text": "Over the summer, I prototyped a bunch of web apps whose ideas had been floating in my mind for a long time. I spent quite a bit of time learning about REST APIs and, as part of these exercises, implemented skeletons of REST servers in both Go and Rust. The app prototypes have gone nowhere but I thought of sharing the skeletons I built if only to serve as templates for myself in future work. Thus, in this post, I will cover these skeleton demos and I will compare them.",
+      "url": "https://jmmv.dev/2019/09/rest-api-rust-go.html",
+      "date_published": "2019-09-27T06:45:40+05:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "https://jmmv.dev/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "5d8d151f-18fd-4aa2-8a3d-eb5620394f36",
+      "title": "Picking Rust for web",
+      "content_text": "I’ve been staring at this energy efficiency across programming languages table for days. It can’t be right (why is typescript so much worse than javascript?) but a lot of it tracks with things I’ve observed from using these languages IRL. Also this web framework benchmarks project. Bottom line: I’m thinking about using rust as the backend for a small one-person web project. Here’s everything I said to myself while researching reasons not to.",
+      "url": "https://abe-winter.github.io/wisdom/2019/08/26/rust-for-web.html",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "Abe Winter",
+        "url": "https://abe-winter.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "e21ad158-7d23-47c3-82a4-0f76f651c6d9",
       "title": "Rustacean Terminal Chat App in Rust",
       "content_text": "Build a basic chat app with the Rust Programming Language.",

@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "f7d6bffe-ea86-4fbc-9aa6-4ba15b3929a5",
+      "title": "Building the Azure IoT Edge Security Daemon in Rust",
+      "content_text": "Azure IoT Edge is an open source, cross platform software project from the Azure IoT team at Microsoft that seeks to solve the problem of managing distribution of compute to the edge of your on-premise network from the cloud. This post explains some of the rationale behind our choice of Rust as the implementation programming language for the Security Daemon component in the product.",
+      "url": "https://msrc-blog.microsoft.com/2019/09/30/building-the-azure-iot-edge-security-daemon-in-rust/",
+      "date_published": "2019-09-30T16:45:48+00:00",
+      "author": {
+        "name": "Microsoft Security Response Center",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Security",
+        "Language"
+      ]
+    },
+    {
       "id": "5e44948a-fa5d-4dbb-a7e7-7e4838fbaa80",
       "title": "Linux.Fe2O3: a Rust virus",
       "content_text": "Everytime I try to learn a new programming language, I try by port my prependers (Linux.Zariche, Linux.Liora, Linux.Cephei). Despite the code simplicity , it gives me the chance to understand very useful things in a language, like error handling, file i/o, encryption, memory and a few of its core libraries.\n\nThis time, Rust is the language and I must say that I was impressed by its compiler and error handling, but the syntax is still not 100% clear to me (as you can see from my rudimentar code in Linux.Fe2O3) and I wish it had a built-in random library too. This code was written in less than 2 days, of course its not pretty, has lots of .unwrap() (already got great input from some people on Reddit to help me with that, will be addressed) so I apologise in advance.",

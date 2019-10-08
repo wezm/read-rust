@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "87600fb3-40d3-403e-87b7-25a3a2eacdcf",
+      "title": "Binary Format Shootout",
+      "content_text": "Cap'n Proto vs. Flatbuffers vs. Simple Binary Encoding",
+      "url": "https://speice.io/2019/09/binary-format-shootout.html",
+      "date_published": "2019-09-28T00:00:00+00:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "d7a12b5f-ab52-4e4b-b752-7d857e9f86bf",
+      "title": "Of bitpacking, with or without SSE3",
+      "content_text": "This blog post might interest three type of readers: people interested in tantivy: You’ll learn how tantivy uses SIMD instructions to decode posting lists, and what happens on platform where the relevant instruction set is not available.  rustaceans who would like to hear a good SIMD in rust story. lucene core devs (yeah it is a very select club) who might be interested in a possible (unconfirmed) optimization opportunity.",
+      "url": "https://fulmicoton.com/posts/bitpacking/",
+      "date_published": "2019-09-20T00:00:00+00:00",
+      "author": {
+        "name": "Paul Masurel",
+        "url": "https://fulmicoton.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "a8b46d95-5e16-4348-abfe-b54bc46da590",
       "title": "Improvement to the compile time of a crate",
       "content_text": "For one of my projects, I need to use LLVM so I tried this cool inkwell crate that provides a mostly safe wrapper over LLVM. To my dismay, though, compiling this crate takes… a lot of time: Debug build: 1m 05s Release build: 3m 34s. By the way, I write this article for the sole purpose of trying to fix some problems there is in the crate ecosystem and by no mean I want to incriminate the author of this crate (or any other). I’ve been guilty of doing the same mistakes, but I learned from them and want other people to learn from them as well.",

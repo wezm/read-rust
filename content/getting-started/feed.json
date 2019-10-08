@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "e3c786d5-955b-422a-b426-fcc3639d92c3",
+      "title": "Roguelike Tutorial: Up-to-date and Literate",
+      "content_text": "This tutorial will show you how to write a roguelike in the Rust programming language and the libtcod library. In this update the Asciidoctor documents were changed to allow generating the final source files at the end of each chapter directly from the tutorial text.",
+      "url": "https://aimlesslygoingforward.com/blog/2019/10/02/roguelike-tutorial-up-to-date-and-literate/",
+      "date_published": "2019-10-02T00:00:00+00:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://aimlesslygoingforward.com/blog/"
+      },
+      "tags": [
+        "Getting Started",
+        "Games anad Graphics"
+      ]
+    },
+    {
       "id": "e21ad158-7d23-47c3-82a4-0f76f651c6d9",
       "title": "Rustacean Terminal Chat App in Rust",
       "content_text": "Build a basic chat app with the Rust Programming Language.",

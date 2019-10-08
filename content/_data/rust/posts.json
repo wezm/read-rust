@@ -10,6 +10,123 @@
   },
   "items": [
     {
+      "id": "f7d6bffe-ea86-4fbc-9aa6-4ba15b3929a5",
+      "title": "Building the Azure IoT Edge Security Daemon in Rust",
+      "content_text": "Azure IoT Edge is an open source, cross platform software project from the Azure IoT team at Microsoft that seeks to solve the problem of managing distribution of compute to the edge of your on-premise network from the cloud. This post explains some of the rationale behind our choice of Rust as the implementation programming language for the Security Daemon component in the product.",
+      "url": "https://msrc-blog.microsoft.com/2019/09/30/building-the-azure-iot-edge-security-daemon-in-rust/",
+      "tweet_url": "https://twitter.com/msftsecresponse/status/1178713218107097088?s=20",
+      "date_published": "2019-09-30T16:45:48+00:00",
+      "author": {
+        "name": "Microsoft Security Response Center",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Security",
+        "Language"
+      ]
+    },
+    {
+      "id": "dcbe1901-b9b1-4eec-a44e-d6be0dcdd958",
+      "title": "Sample REST API in Rust and Go",
+      "content_text": "Over the summer, I prototyped a bunch of web apps whose ideas had been floating in my mind for a long time. I spent quite a bit of time learning about REST APIs and, as part of these exercises, implemented skeletons of REST servers in both Go and Rust. The app prototypes have gone nowhere but I thought of sharing the skeletons I built if only to serve as templates for myself in future work. Thus, in this post, I will cover these skeleton demos and I will compare them.",
+      "url": "https://jmmv.dev/2019/09/rest-api-rust-go.html",
+      "tweet_url": "https://twitter.com/jmmv/status/1177606272293703680?s=20",
+      "date_published": "2019-09-27T06:45:40+05:00",
+      "author": {
+        "name": "Julio Merino",
+        "url": "https://jmmv.dev/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "51a1a155-fccb-426f-b0e5-f4670be28e9d",
+      "title": "Figthting The Async Fragmentation",
+      "content_text": "Sometimes, I get this nudging feeling that something is not exactly right and that I have to go out and save the world and fix it (even though it’s usually something minor or doesn’t need fixing at all). I guess everyone has days like these. It’s part what drives me to invest my free time to writing software.\n\nThis is about some dead ends when trying to fix the problem of Rust’s async networking fragmentation. I haven’t been successful, but I can at least share what I tried and discovered, maybe someone else is having the same bugging feeling so they don’t have to repeat them. Or just maybe some of the approaches would work for some other problems. And because we have a bunch of success stories out there, having some failure stories to balance it doesn’t hurt.",
+      "url": "https://vorner.github.io/2019/09/29/figthting-the-async-fragmentation.html",
+      "date_published": "2019-09-29T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "87600fb3-40d3-403e-87b7-25a3a2eacdcf",
+      "title": "Binary Format Shootout",
+      "content_text": "Cap'n Proto vs. Flatbuffers vs. Simple Binary Encoding",
+      "url": "https://speice.io/2019/09/binary-format-shootout.html",
+      "date_published": "2019-09-28T00:00:00+00:00",
+      "author": {
+        "name": "Bradlee Speice",
+        "url": "https://speice.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "3fc0a35d-5eab-4143-98d5-7325738364e4",
+      "title": "Riker - a framework for building modern, concurrent and resilient systems using the Rust language using the actor model",
+      "content_text": "Riker is a framework for building modern, concurrent and resilient systems using the Rust language. Riker aims to make working with state and behavior in concurrent systems as easy and scalable as possible. The Actor Model has been chosen to realize this because of the familiar and inherent simplicity it provides while also providing strong guarantees that are easy to reason about. The Actor Model also provides a firm foundation for resilient systems through the use of the actor hierarchy and actor supervision.",
+      "url": "https://riker.rs/",
+      "date_published": "2019-10-08T00:00:00+00:00",
+      "author": {
+        "name": "Riker",
+        "url": "https://riker.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "5d8d151f-18fd-4aa2-8a3d-eb5620394f36",
+      "title": "Picking Rust for web",
+      "content_text": "I’ve been staring at this energy efficiency across programming languages table for days. It can’t be right (why is typescript so much worse than javascript?) but a lot of it tracks with things I’ve observed from using these languages IRL. Also this web framework benchmarks project. Bottom line: I’m thinking about using rust as the backend for a small one-person web project. Here’s everything I said to myself while researching reasons not to.",
+      "url": "https://abe-winter.github.io/wisdom/2019/08/26/rust-for-web.html",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "Abe Winter",
+        "url": "https://abe-winter.github.io/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d7a12b5f-ab52-4e4b-b752-7d857e9f86bf",
+      "title": "Of bitpacking, with or without SSE3",
+      "content_text": "This blog post might interest three type of readers: people interested in tantivy: You’ll learn how tantivy uses SIMD instructions to decode posting lists, and what happens on platform where the relevant instruction set is not available.  rustaceans who would like to hear a good SIMD in rust story. lucene core devs (yeah it is a very select club) who might be interested in a possible (unconfirmed) optimization opportunity.",
+      "url": "https://fulmicoton.com/posts/bitpacking/",
+      "date_published": "2019-09-20T00:00:00+00:00",
+      "author": {
+        "name": "Paul Masurel",
+        "url": "https://fulmicoton.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "e3c786d5-955b-422a-b426-fcc3639d92c3",
+      "title": "Roguelike Tutorial: Up-to-date and Literate",
+      "content_text": "This tutorial will show you how to write a roguelike in the Rust programming language and the libtcod library. In this update the Asciidoctor documents were changed to allow generating the final source files at the end of each chapter directly from the tutorial text.",
+      "url": "https://aimlesslygoingforward.com/blog/2019/10/02/roguelike-tutorial-up-to-date-and-literate/",
+      "tweet_url": "https://twitter.com/TomasSedovic/status/1179520613360291840?s=20",
+      "date_published": "2019-10-02T00:00:00+00:00",
+      "author": {
+        "name": "Tomas Sedovic",
+        "url": "https://aimlesslygoingforward.com/blog/"
+      },
+      "tags": [
+        "Getting Started",
+        "Games anad Graphics"
+      ]
+    },
+    {
       "id": "55e7a635-29bd-4a2d-aaac-b0d599006ff7",
       "title": "The \"Inside Rust\" Blog",
       "content_text": "This is the \"Inside Rust\" blog. This blog is aimed at those who wish to follow along with Rust development. The various Rust teams and working groups use this blog to post status updates, calls for help, and other similar announcements.",

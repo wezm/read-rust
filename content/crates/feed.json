@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3fc0a35d-5eab-4143-98d5-7325738364e4",
+      "title": "Riker - a framework for building modern, concurrent and resilient systems using the Rust language using the actor model",
+      "content_text": "Riker is a framework for building modern, concurrent and resilient systems using the Rust language. Riker aims to make working with state and behavior in concurrent systems as easy and scalable as possible. The Actor Model has been chosen to realize this because of the familiar and inherent simplicity it provides while also providing strong guarantees that are easy to reason about. The Actor Model also provides a firm foundation for resilient systems through the use of the actor hierarchy and actor supervision.",
+      "url": "https://riker.rs/",
+      "date_published": "2019-10-08T00:00:00+00:00",
+      "author": {
+        "name": "Riker",
+        "url": "https://riker.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "b2b15138-1280-44d7-95a0-9e5954a14b9a",
       "title": "Announcing Bastion 0.2.0!",
       "content_text": "Bastion is a fault-tolerant runtime for Rust applications. After receiving plenty of good feedback from the community and a long-running development stage, now Bastion is 0.2.0!",
