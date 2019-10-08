@@ -382,7 +382,7 @@
       <a href="https://github.com/mattnenterprise/rust-imap/">IMAP protocol</a>.
       He is also doing research on building a
       <a href="https://www.usenix.org/conference/osdi18/presentation/gjengset">fast new database engine</a>.
-    tags: [rust-tools, database, database, video]
+    tags: [rust-tools, database, video]
   -
     name: Pascal Hertleif
     avatar: killercup.jpg

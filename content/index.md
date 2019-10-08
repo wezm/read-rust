@@ -10,7 +10,7 @@ programming&nbsp;language][rust-lang].
 [Facebook] to receive new posts as they're added.
 
 Read Rust is run by [Wesley Moore]. If you enjoy it, consider [supporting
-me][Patreon] or any of the wonderful people building and writing in Rust.
+me][Patreon] or any of the [wonderful people building and writing in Rust](/support.html).
 
 ## Sections
 
