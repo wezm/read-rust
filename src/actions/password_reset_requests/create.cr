@@ -8,7 +8,7 @@ class PasswordResetRequests::Create < BrowserAction
         flash.success = "You should receive an email on how to reset your password shortly"
         redirect SignIns::New
       else
-        render NewPage, operation: operation
+        html NewPage, operation: operation
       end
     end
   end

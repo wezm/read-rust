@@ -1,4 +1,6 @@
 abstract class BrowserAction < Lucky::Action
+  accepted_formats [:html, :json], default: :html
+
   include Lucky::ProtectFromForgery
   # This module provides current_user, sign_in, and sign_out methods
   include Authentic::ActionHelpers(User)

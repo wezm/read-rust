@@ -1,4 +1,4 @@
-class JsonFeed::PostSerializer < Lucky::Serializer
+class JsonFeed::PostSerializer < BaseSerializer
   def initialize(@post : Post)
   end
 

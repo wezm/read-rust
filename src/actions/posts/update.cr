@@ -7,7 +7,7 @@ class Posts::Update < BrowserAction
         redirect Show.with(post.id)
       else
         flash.failure = "It looks like the form is not valid"
-        render EditPage, form: form, post: post
+        html EditPage, form: form, post: post
       end
     end
   end

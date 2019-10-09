@@ -1,4 +1,4 @@
-class JsonFeed::ShowSerializer < Lucky::Serializer
+class JsonFeed::ShowSerializer < BaseSerializer
   def initialize(@category : AllCategory | Category)
   end
 

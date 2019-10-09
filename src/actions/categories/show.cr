@@ -3,7 +3,7 @@ class Categories::Show < BrowserAction
 
   get "/:slug" do
     if category = CategoryQuery.new.slug(slug).preload_posts.first?
-      render ShowPage, category: category
+      html ShowPage, category: category
     else
       raise Lucky::RouteNotFoundError.new(context)
     end

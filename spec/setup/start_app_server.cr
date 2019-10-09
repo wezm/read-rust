@@ -4,7 +4,7 @@ spawn do
   app_server.listen
 end
 
-at_exit do
+Spec.after_suite do
   LuckyFlow.shutdown
   app_server.close
 end
