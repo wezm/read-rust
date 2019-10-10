@@ -16,7 +16,7 @@
       "url": "https://msrc-blog.microsoft.com/2019/09/30/building-the-azure-iot-edge-security-daemon-in-rust/",
       "date_published": "2019-09-30T16:45:48+00:00",
       "author": {
-        "name": "Microsoft Security Response Center",
+        "name": "Raj Vengalil",
         "url": "https://msrc-blog.microsoft.com/"
       },
       "tags": [

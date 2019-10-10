@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e808921f-a270-4d4b-a897-d856dbd4a5ab",
+      "title": "Coding nRF52 with Rust and Apache Mynewt on Visual Studio Code",
+      "content_text": "The nRF52 Microcontroller by Nordic Semiconductor is an awesome gadget with powerful Bluetooth Low Energy networking capability. It’s affordable too… For under $8, I can buy an EBYTE E73-TBB Development Board with onboard nRF52. Powered by an Arm Cortex-M4 CPU (hardware floating-point) with 64 KB of RAM and 512 KB of Flash ROM, the nRF52 has plenty of capacity to run modern embedded platforms… Like Apache Mynewt realtime OS and Embedded Rust!",
+      "url": "https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004",
+      "date_published": "2019-10-07T12:15:40.507+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "66b4c1e7-68e4-4006-bdb8-f53129822773",
+      "title": "Rust on the Sipeed Longan Nano, an inexpensive RISC-V dev board",
+      "content_text": "The Sipeed Longan Nano is a $5 development board based on a new RISC-V processor from Gigadevices. The processor and the dev board are properly documented in English. If you are a RISC-V enthusiast, I believe this is the best option you have at the moment for learning and experimentation. I was able to run Rust code on this board by making small changes to the riscv/rust PicoSoc example.",
+      "url": "https://pramode.in/2019/10/07/rust-on-riscv-board-sipeed-longan-nano/",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Pramode C.E",
+        "url": "http://pramode.in/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "c793ec07-09a1-4b5d-b3e6-f8b146178fbc",
       "title": "Build an NB-IoT GPS Tracker on STM32 L476 with Apache Mynewt and Embedded Rust",
       "content_text": "Let’s build an NB-IoT GPS Tracker! A simple gadget that determines its current location based on received GPS signals… And transmits the location to a server via NB-IoT. We shall take an existing Apache Mynewt Embedded OS + Embedded Rust project from the article “Rust Rocks NB-IoT! STM32 Blue Pill with Quectel BC95-G on Apache Mynewt”… And extend it with a GPS module: Quectel L70-R.",

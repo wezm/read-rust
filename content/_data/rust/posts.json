@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "e808921f-a270-4d4b-a897-d856dbd4a5ab",
+      "title": "Coding nRF52 with Rust and Apache Mynewt on Visual Studio Code",
+      "content_text": "The nRF52 Microcontroller by Nordic Semiconductor is an awesome gadget with powerful Bluetooth Low Energy networking capability. It’s affordable too… For under $8, I can buy an EBYTE E73-TBB Development Board with onboard nRF52. Powered by an Arm Cortex-M4 CPU (hardware floating-point) with 64 KB of RAM and 512 KB of Flash ROM, the nRF52 has plenty of capacity to run modern embedded platforms… Like Apache Mynewt realtime OS and Embedded Rust!",
+      "url": "https://medium.com/@ly.lee/coding-nrf52-with-rust-and-apache-mynewt-on-visual-studio-code-9521bcba6004",
+      "date_published": "2019-10-07T12:15:40.507+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0932500c-62e0-4379-9e09-eb5ed61d826a",
+      "title": "Mun Programming Language",
+      "content_text": "The idea to create Mun originated out of frustration with the Lua dynamic scripting language that is extensively used for game development at Abbey Games.\n\nLua's hot reloading capabilities and LuaJIT's performance make it a great language for rapid prototyping of real-time applications - such as games - on PC. However, the language has performance issues on some mobile and console platforms - to which LuaJIT cannot deploy, the language lacks refactoring functionality, and does not scale well with modern technology.\n\nMun tries to take the best of both worlds to create a more robust, highly iterative, productive, and performant programming language.",
+      "url": "https://mun-lang.org/",
+      "tweet_url": "https://twitter.com/wodannson/status/1178408744239161345?s=20",
+      "date_published": "2019-10-10T06:38:30+00:00",
+      "author": {
+        "name": "Mun Developers",
+        "url": "https://mun-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "6597a1f3-2858-46de-ab2b-fb2c639759b5",
+      "title": "Spotify TUI: Spotify for the terminal written in Rust",
+      "content_text": "Spotify TUI: Spotify for the terminal written in Rust.",
+      "url": "https://github.com/Rigellute/spotify-tui",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Keliris",
+        "url": "https://github.com/Rigellute"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ab31d896-cb5c-40a9-bb9f-a496a672239b",
+      "title": "OxidizeBot - The high octane Twitch bot",
+      "content_text": "OxidizeBot as an open source Twitch Bot empowering you to focus on what's important. It allows for a richer interaction between you and your chat. From a song request system, to groundbreaking game modes where your viewers can interact directly with you and your game.",
+      "url": "https://setbac.tv/",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "John-John Tedro",
+        "url": "https://github.com/udoprog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "409c73c3-8c32-4c3a-97a9-30f700237fe8",
+      "title": "Designing a COM library for Rust",
+      "content_text": "I interned with Microsoft as a Software Engineering Intern in the MSRC UK team in Cheltenham this past summer. I worked in the Safe Systems Programming Language (SSPL) group, which explores safe programming languages as a proactive measure against memory-safety related vulnerabilities.\n\nThis blog post describes the project that I have been working on under the mentorship of the SSPL team. Hopefully, this provides additional insight into the work Microsoft interns do! My goal was to build an open-sourced Rust library that will allow developers to both consume and produce in-process Component Object Model (COM) components in an idiomatic manner.",
+      "url": "https://msrc-blog.microsoft.com/2019/10/08/designing-a-com-library-for-rust/",
+      "tweet_url": "https://twitter.com/msftsecresponse/status/1181634135636316162?s=20",
+      "date_published": "2019-10-08T17:00:03+00:00",
+      "author": {
+        "name": "Hadrian Wei Heng Lim",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "79f41426-ad58-4eac-9adb-88b27c2a63ba",
+      "title": "How I handle errors in Rust",
+      "content_text": "derive_more is a crate which has many proc macros, amongst which is a macro for deriving From for structs, enums, and newtypes. From is the basic mechanism for using ? ergonomically in a function which returns Result<T, Error>. Almost everything I write has the derive_more crate as a dependency, and the following pattern for handling errors.",
+      "url": "https://blog.kiani.io/blog/how-i-handle-errors-in-rust/",
+      "date_published": "2019-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Ashkan Kiani",
+        "url": "https://blog.kiani.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e131911e-9ccb-4b6f-9c05-f95611cb66d2",
+      "title": "The Node Experiment - Exploring Async Basics with Rust",
+      "content_text": "After originally researching the history and discussions about Rusts Async story, I realized I needed a better understanding of async basics and the result is this book. It's published it as a gitbook to make this journey easier for the next person (hopefully).",
+      "url": "https://cfsamson.github.io/book-exploring-async-basics/",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Carl Fredrik Samson",
+        "url": "https://github.com/cfsamson"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6712ac58-9b5c-43de-bcf5-79548cb8c59d",
+      "title": "Making a RISC-V Operating System using Rust",
+      "content_text": " RISC-V (\"risk five\") and the Rust programming language both start with an R, so naturally they fit together. In this blog, we will write an operating system targeting the RISC-V architecture in Rust (mostly). If you have a sane development environment for RISC-V, you can skip the setup parts right to bootloading. Otherwise, it'll be fairly difficult to get started.\n\nThis tutorial will progressively build an operating system from start to something that you can show your friends or parents -- if they're significantly young enough. Since I'm rather new at this I decided to make it a \"feature\" that each blog post will mature as time goes on. More details will be added and some will be clarified.",
+      "url": "http://osblog.stephenmarz.com/index.html",
+      "date_published": "2019-09-26T00:00:00+00:00",
+      "author": {
+        "name": "Stephen Marz",
+        "url": "https://www.patreon.com/pavehawk2007"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "33fc22f5-6021-4395-b8ab-7f5f25ec2384",
+      "title": "reqwest alpha.await",
+      "content_text": "reqwest alpha.await reqwest is a higher-level HTTP client for Rust. I’m delighted to announce the first alpha release that brings async/await support!",
+      "url": "https://seanmonstar.com/post/188220739932/reqwest-alphaawait",
+      "tweet_url": "https://twitter.com/seanmonstar/status/1181677715436363776?s=20",
+      "date_published": "2019-10-08T00:00:00+00:00",
+      "author": {
+        "name": "Sean McArthur",
+        "url": "http://seanmonstar.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "66b4c1e7-68e4-4006-bdb8-f53129822773",
+      "title": "Rust on the Sipeed Longan Nano, an inexpensive RISC-V dev board",
+      "content_text": "The Sipeed Longan Nano is a $5 development board based on a new RISC-V processor from Gigadevices. The processor and the dev board are properly documented in English. If you are a RISC-V enthusiast, I believe this is the best option you have at the moment for learning and experimentation. I was able to run Rust code on this board by making small changes to the riscv/rust PicoSoc example.",
+      "url": "https://pramode.in/2019/10/07/rust-on-riscv-board-sipeed-longan-nano/",
+      "tweet_url": "https://twitter.com/pramode_ce/status/1181247092519342082?s=20",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Pramode C.E",
+        "url": "http://pramode.in/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "f7d6bffe-ea86-4fbc-9aa6-4ba15b3929a5",
       "title": "Building the Azure IoT Edge Security Daemon in Rust",
       "content_text": "Azure IoT Edge is an open source, cross platform software project from the Azure IoT team at Microsoft that seeks to solve the problem of managing distribution of compute to the edge of your on-premise network from the cloud. This post explains some of the rationale behind our choice of Rust as the implementation programming language for the Security Daemon component in the product.",
@@ -17,7 +161,7 @@
       "tweet_url": "https://twitter.com/msftsecresponse/status/1178713218107097088?s=20",
       "date_published": "2019-09-30T16:45:48+00:00",
       "author": {
-        "name": "Microsoft Security Response Center",
+        "name": "Raj Vengalil",
         "url": "https://msrc-blog.microsoft.com/"
       },
       "tags": [

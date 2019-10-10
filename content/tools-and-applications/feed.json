@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "0932500c-62e0-4379-9e09-eb5ed61d826a",
+      "title": "Mun Programming Language",
+      "content_text": "The idea to create Mun originated out of frustration with the Lua dynamic scripting language that is extensively used for game development at Abbey Games.\n\nLua's hot reloading capabilities and LuaJIT's performance make it a great language for rapid prototyping of real-time applications - such as games - on PC. However, the language has performance issues on some mobile and console platforms - to which LuaJIT cannot deploy, the language lacks refactoring functionality, and does not scale well with modern technology.\n\nMun tries to take the best of both worlds to create a more robust, highly iterative, productive, and performant programming language.",
+      "url": "https://mun-lang.org/",
+      "date_published": "2019-10-10T06:38:30+00:00",
+      "author": {
+        "name": "Mun Developers",
+        "url": "https://mun-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "6597a1f3-2858-46de-ab2b-fb2c639759b5",
+      "title": "Spotify TUI: Spotify for the terminal written in Rust",
+      "content_text": "Spotify TUI: Spotify for the terminal written in Rust.",
+      "url": "https://github.com/Rigellute/spotify-tui",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Alexander Keliris",
+        "url": "https://github.com/Rigellute"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "f449d35d-98c7-4460-9d42-d6641415e542",
       "title": "Nushell 0.3.0",
       "content_text": "Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your commandline. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful commandline pipelines. We’re happy to announce that today we’re releasing Nushell 0.3.0. Nu has seen numerous bugfixes, performance improvements, and features added since its initial public release (which was only a few weeks ago!)",

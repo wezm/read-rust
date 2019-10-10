@@ -10,13 +10,55 @@
   },
   "items": [
     {
+      "id": "409c73c3-8c32-4c3a-97a9-30f700237fe8",
+      "title": "Designing a COM library for Rust",
+      "content_text": "I interned with Microsoft as a Software Engineering Intern in the MSRC UK team in Cheltenham this past summer. I worked in the Safe Systems Programming Language (SSPL) group, which explores safe programming languages as a proactive measure against memory-safety related vulnerabilities.\n\nThis blog post describes the project that I have been working on under the mentorship of the SSPL team. Hopefully, this provides additional insight into the work Microsoft interns do! My goal was to build an open-sourced Rust library that will allow developers to both consume and produce in-process Component Object Model (COM) components in an idiomatic manner.",
+      "url": "https://msrc-blog.microsoft.com/2019/10/08/designing-a-com-library-for-rust/",
+      "date_published": "2019-10-08T17:00:03+00:00",
+      "author": {
+        "name": "Hadrian Wei Heng Lim",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "79f41426-ad58-4eac-9adb-88b27c2a63ba",
+      "title": "How I handle errors in Rust",
+      "content_text": "derive_more is a crate which has many proc macros, amongst which is a macro for deriving From for structs, enums, and newtypes. From is the basic mechanism for using ? ergonomically in a function which returns Result<T, Error>. Almost everything I write has the derive_more crate as a dependency, and the following pattern for handling errors.",
+      "url": "https://blog.kiani.io/blog/how-i-handle-errors-in-rust/",
+      "date_published": "2019-10-09T00:00:00+00:00",
+      "author": {
+        "name": "Ashkan Kiani",
+        "url": "https://blog.kiani.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e131911e-9ccb-4b6f-9c05-f95611cb66d2",
+      "title": "The Node Experiment - Exploring Async Basics with Rust",
+      "content_text": "After originally researching the history and discussions about Rusts Async story, I realized I needed a better understanding of async basics and the result is this book. It's published it as a gitbook to make this journey easier for the next person (hopefully).",
+      "url": "https://cfsamson.github.io/book-exploring-async-basics/",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Carl Fredrik Samson",
+        "url": "https://github.com/cfsamson"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "f7d6bffe-ea86-4fbc-9aa6-4ba15b3929a5",
       "title": "Building the Azure IoT Edge Security Daemon in Rust",
       "content_text": "Azure IoT Edge is an open source, cross platform software project from the Azure IoT team at Microsoft that seeks to solve the problem of managing distribution of compute to the edge of your on-premise network from the cloud. This post explains some of the rationale behind our choice of Rust as the implementation programming language for the Security Daemon component in the product.",
       "url": "https://msrc-blog.microsoft.com/2019/09/30/building-the-azure-iot-edge-security-daemon-in-rust/",
       "date_published": "2019-09-30T16:45:48+00:00",
       "author": {
-        "name": "Microsoft Security Response Center",
+        "name": "Raj Vengalil",
         "url": "https://msrc-blog.microsoft.com/"
       },
       "tags": [

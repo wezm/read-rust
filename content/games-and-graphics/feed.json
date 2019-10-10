@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ab31d896-cb5c-40a9-bb9f-a496a672239b",
+      "title": "OxidizeBot - The high octane Twitch bot",
+      "content_text": "OxidizeBot as an open source Twitch Bot empowering you to focus on what's important. It allows for a richer interaction between you and your chat. From a song request system, to groundbreaking game modes where your viewers can interact directly with you and your game.",
+      "url": "https://setbac.tv/",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "John-John Tedro",
+        "url": "https://github.com/udoprog"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "17460b05-a9d9-4c79-801c-2a2e54c5132f",
       "title": "Project update",
       "content_text": "gfx-rs is a Rust project aiming to make low-level GPU programming portable with low overhead. It’s a single Vulkan-like Rust API with multiple backends that implement it: Direct3D 12/11, Metal, Vulkan, and even OpenGL. wgpu-rs is a Rust project on top of gfx-rs that provides safety, accessibility, and even stronger portability. This is an update that is not aligned to any dates or releases. We just want to share about some of the exciting work that landed recently, which will make it to the next release cycle.",
