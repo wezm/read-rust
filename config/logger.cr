@@ -3,7 +3,7 @@ require "file_utils"
 logger =
   if Lucky::Env.test?
     # Logs to `tmp/test.log` so you can see what's happening without having
-    # a bunch of log output in your specs results.
+    # a bunch of log output in your spec results.
     FileUtils.mkdir_p("tmp")
     Dexter::Logger.new(
       io: File.new("tmp/test.log", mode: "w"),

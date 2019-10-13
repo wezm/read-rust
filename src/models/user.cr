@@ -2,7 +2,7 @@ class User < BaseModel
   include Carbon::Emailable
   include Authentic::PasswordAuthenticatable
 
-  table :users do
+  table do
     column email : String
     column encrypted_password : String
   end

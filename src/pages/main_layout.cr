@@ -13,7 +13,7 @@ abstract class MainLayout
   end
 
   def admin_js? : Bool
-    false
+    !@current_user.nil?
   end
 
   def extra_css : String?

@@ -54,11 +54,11 @@ printf "\n▸ Checking that postgres is installed\n"
 check_postgres | indent
 printf "✔ Done\n" | indent
 
+printf "\n▸ Creating the database\n"
+lucky db.create | indent
+
 printf "\n▸ Verifying postgres connection\n"
 lucky db.verify_connection | indent
-
-printf "\n▸ Setting up the database\n"
-lucky db.create | indent
 
 printf "\n▸ Migrating the database\n"
 lucky db.migrate | indent

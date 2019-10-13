@@ -1,11 +1,5 @@
 /* eslint no-console:0 */
 
-// RailsUjs is *required* for links in Lucky that use DELETE, POST and PUT.
-// Though it says "Rails" it actually works with any framework.
-// import RailsUjs from "rails-ujs";
-
-// RailsUjs.start();
-
 const $ = document.querySelectorAll.bind(document);
 const E = document.createElement.bind(document);
 const I = document.getElementById.bind(document);

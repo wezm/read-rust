@@ -1,3 +1,9 @@
+// RailsUjs is *required* for links in Lucky that use DELETE, POST and PUT.
+// Though it says "Rails" it actually works with any framework.
+import RailsUjs from "rails-ujs";
+
+RailsUjs.start();
+
 /** @param {HTMLFormControlsCollection} inputs - Form fields */
 function disableFormControls(inputs) {
   for (var i = 0; i < inputs.length; i++) {

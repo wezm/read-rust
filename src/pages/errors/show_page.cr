@@ -1,8 +1,8 @@
 class Errors::ShowPage
   include Lucky::HTMLPage
 
-  needs status : Int32
   needs message : String
+  needs status : Int32
 
   def render
     html_doctype
@@ -18,7 +18,7 @@ class Errors::ShowPage
       body do
         div class: "container" do
           h2 @status, class: "status-code"
-          h1 @message, class: "title"
+          h1 @message, class: "message"
 
           ul class: "helpful-links" do
             li do
@@ -43,7 +43,7 @@ class Errors::ShowPage
   def error_page_styles
     style <<-CSS
       body {
-        background-color: #F4F7F6;
+        background-color: #f5f5f5;
         color: #000;
         font-family: 'Lato', sans-serif;
         padding-top: 100px;
@@ -65,7 +65,7 @@ class Errors::ShowPage
         font-weight: normal;
       }
 
-      .title {
+      .message {
         font-size: 34px;
         line-height: 56px;
         font-weight: normal;
@@ -82,7 +82,7 @@ class Errors::ShowPage
           font-size: 18px;
         }
 
-        .title {
+        .message {
           font-size: 26px;
           line-height: 40px;
           margin: 20px 0 35px 0;
