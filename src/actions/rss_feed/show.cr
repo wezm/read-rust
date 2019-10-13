@@ -3,7 +3,7 @@ class RssFeed::Show < BrowserAction
   include Categories::FindCategory
 
   get "/:slug/feed.rss" do
-    xml render_feed(category)
+    send_text_response(render_feed(category), "application/rss+xml", nil)
   end
 
   private def render_feed(category : AllCategory | Category)
