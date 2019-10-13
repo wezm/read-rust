@@ -16,7 +16,7 @@ abstract class AuthLayout
     html_doctype
 
     html lang: "en" do
-      mount Shared::LayoutHead.new(page_title: page_title, context: @context, app_js: false, admin_js: false, extra_css: nil)
+      mount Shared::LayoutHead.new(page_title: page_title, context: @context, categories: CategoryQuery.new, app_js: false, admin_js: false, extra_css: nil)
 
       body do
         mount Shared::FlashMessages.new(@context.flash)

@@ -3,9 +3,9 @@ class Shared::LayoutHead < BaseComponent
   needs app_js : Bool
   needs admin_js : Bool
   needs extra_css : String?
-
   # This is used by the 'csrf_meta_tags' method
   needs context : HTTP::Server::Context
+  needs categories : CategoryQuery
 
   def render
     head do
@@ -18,9 +18,11 @@ class Shared::LayoutHead < BaseComponent
       csrf_meta_tags
       responsive_meta_tag
 
-      # text "{% for category in site.data.categories %} "
-      tag "link", href: "{{ category.path }}feed.rss", rel: "alternate", title: "Read Rust - {{ category.name | escape }}", type: "application/rss+xml"
-      # text " {% endfor %} "
+      tag "link", href: RssFeed::Show.with("all").url, rel: "alternate", title: "Read Rust - All Posts", type: "application/rss+xml"
+      @categories.each do |category|
+        tag "link", href: RssFeed::Show.with(category.slug).url, rel: "alternate", title: "Read Rust - #{category.name}", type: "application/rss+xml"
+      end
+
       meta content: "Read Rust collects interesting posts related to the Rust programming language.", name: "description"
       css_link dynamic_asset(@extra_css), data_turbolinks_track: "reload" if @extra_css
     end
