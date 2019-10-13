@@ -33,7 +33,7 @@ dependencies:
     github: icyleaf/markd
     version: ~> 0.2.0
 
-development_dependencies:
-  webmock:
-    github: manastech/webmock.cr
-    branch: master
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+#     branch: master
