@@ -36,9 +36,6 @@ class Categories::IndexPage < MainLayout
     para "New posts are added to one or more of the following sections:"
 
     ul do
-      li do
-        a "All Posts", href: "/all/"
-      end
       @categories.each do |category|
         li do
           link category.name, to: Categories::Show.with(category.slug)
@@ -61,9 +58,9 @@ class Categories::IndexPage < MainLayout
         li do
           a post.title, href: post.url
           text " by #{post.author} in "
-          post.categories.each_with_index do |category, index|
+          post.post_categories.each_with_index do |post_category, index|
             text ", " unless index == 0
-            link category.name, to: Categories::Show.with(category.slug)
+            link post_category.name, to: Categories::Show.with(post_category.slug)
           end
         end
       end

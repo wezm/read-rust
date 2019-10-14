@@ -6,10 +6,10 @@ class Posts::IndexPage < MainLayout
     text "All #{@posts.size} posts. "
     h2 do
       text " Posts "
-      a class: "feedicon", href: "/all/feed.rss", title: "All Posts RSS Feed" do
+      link class: "feedicon", to: RssFeed::Show.with("all"), title: "All Posts RSS Feed" do
         img src: asset("images/rss.svg")
       end
-      a class: "feedicon", href: "/all/feed.json", title: "All Posts JSON Feed" do
+      link class: "feedicon", to: JsonFeed::Show.with("all"), title: "All Posts JSON Feed" do
         img src: asset("images/jsonfeed.png")
       end
     end

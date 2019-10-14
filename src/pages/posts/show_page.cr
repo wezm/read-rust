@@ -11,7 +11,7 @@ class Posts::ShowPage < MainLayout
       end
 
       ul do
-        @post.categories.each do |cat|
+        @post.post_categories.each do |cat|
           li do
             text cat.name
           end

@@ -21,7 +21,7 @@ class Posts::Create < BrowserAction
 
   private def save_categories(post) : Bool
     params.many_nested(:post_category).each do |category_params|
-      SavePostCategory.create!(category_id: category_params["category_id"].to_i64, post_id: post.id)
+      SavePostCategory.create!(category_id: category_params["category_id"].to_i16, post_id: post.id)
     end
 
     true

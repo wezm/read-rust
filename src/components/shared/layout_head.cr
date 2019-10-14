@@ -18,7 +18,6 @@ class Shared::LayoutHead < BaseComponent
       csrf_meta_tags
       responsive_meta_tag
 
-      tag "link", href: RssFeed::Show.with("all").url, rel: "alternate", title: "Read Rust - All Posts", type: "application/rss+xml"
       @categories.each do |category|
         tag "link", href: RssFeed::Show.with(category.slug).url, rel: "alternate", title: "Read Rust - #{category.name}", type: "application/rss+xml"
       end

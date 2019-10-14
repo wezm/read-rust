@@ -6,7 +6,7 @@ class RssFeed::Show < BrowserAction
     send_text_response(render_feed(category), "application/rss+xml", nil)
   end
 
-  private def render_feed(category : AllCategory | Category)
+  private def render_feed(category : Category)
     posts = PostQuery.new.recent_in_category(category).limit(100)
     items = posts.map do |post|
       RSS::Item.new(

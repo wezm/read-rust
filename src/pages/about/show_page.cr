@@ -10,9 +10,12 @@ class About::ShowPage < MainLayout
     raw render_markdown(markdown_top)
 
     ul do
-      feed_links(AllCategory.new, "Main feed (all posts)")
       @categories.each do |category|
-        feed_links(category)
+        if category.all?
+          feed_links(category, "Main feed (all posts)")
+        else
+          feed_links(category)
+        end
       end
     end
 

@@ -1,9 +1,9 @@
 class PostQuery < Post::BaseQuery
   def recent_in_category(category)
-    if category.slug == "all"
+    if category.all?
       created_at.desc_order
     else
-      where_categories(CategoryQuery.new.slug(category.slug)).created_at.desc_order
+      where_post_categories(PostCategoryQuery.new.category_id(category.id)).created_at.desc_order
     end
   end
 end

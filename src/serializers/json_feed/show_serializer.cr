@@ -1,9 +1,9 @@
 class JsonFeed::ShowSerializer < BaseSerializer
-  def initialize(@category : AllCategory | Category)
+  def initialize(@category : Category)
   end
 
   def render
-    posts = PostQuery.new.preload_categories.recent_in_category(@category).limit(100)
+    posts = PostQuery.new.preload_post_categories.recent_in_category(@category).limit(100)
     {
       version:       "https://jsonfeed.org/version/1",
       title:         "Read Rust",

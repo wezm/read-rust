@@ -1,5 +1,6 @@
 class Categories::ShowPage < MainLayout
   needs category : Category
+  needs posts : PostQuery
   quick_def page_title, @category.name
 
   def content
@@ -7,16 +8,16 @@ class Categories::ShowPage < MainLayout
 
     h2 do
       text " Posts "
-      a class: "feedicon", href: "/all/feed.rss", title: "All Posts RSS Feed" do
+      link class: "feedicon", to: RssFeed::Show.with(@category.slug), title: "#{@category.name} RSS Feed" do
         img src: asset("images/rss.svg")
       end
-      a class: "feedicon", href: "/all/feed.json", title: "All Posts JSON Feed" do
+      link class: "feedicon", to: JsonFeed::Show.with(@category.slug), title: "#{@category.name} JSON Feed" do
         img src: asset("images/jsonfeed.png")
       end
     end
 
     ul do
-      @category.posts.each do |post|
+      @posts.each do |post|
         article do
           a post.title, href: post.url
           text " by #{post.author}"

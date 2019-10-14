@@ -10,7 +10,7 @@ class JsonFeed::PostSerializer < BaseSerializer
       url:            @post.url,
       date_published: @post.created_at.to_rfc3339,
       author:         {name: @post.author},
-      tags:           @post.categories.map(&.name),
+      tags:           @post.post_categories.map(&.name),
     }
   end
 end
