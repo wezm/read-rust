@@ -4,6 +4,7 @@ require "./shards"
 Lucky::AssetHelpers.load_manifest
 
 require "./app_database"
+require "./utils/**"
 require "./models/base_model"
 require "./models/mixins/**"
 require "./models/**"
