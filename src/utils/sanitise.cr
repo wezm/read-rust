@@ -1,7 +1,7 @@
 @[Link("striptags")]
 lib LibStriptags
-  fun strip_tags(input: UInt8*, input_len: Int32, output: UInt8**, output_len: Int32*)
-  fun strip_tags_free(string: UInt8*)
+  fun strip_tags(input : UInt8*, input_len : Int32, output : UInt8**, output_len : Int32*)
+  fun strip_tags_free(string : UInt8*)
 end
 
 module Sanitise

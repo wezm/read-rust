@@ -37,7 +37,7 @@ class Feedbin::Show < BrowserAction
     end
 
     if extracted_article.nil?
-      return { "post:url" => entry.url }
+      return {"post:url" => entry.url}
     end
 
     prefill_data = {
