@@ -1,4 +1,4 @@
-class Feedbin::Show < ApiAction
+class Feedbin::Show < BrowserAction
   SKIP_DOMAINS = ["twitter.com", "github.com"]
 
   get "/feedbin/entries/:entry_id" do
