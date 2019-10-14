@@ -9,7 +9,7 @@ class Posts::Create < BrowserAction
                      redirect Show.with(post.id)
                    else
                      flash.failure = "Unable to create Post"
-                     html NewPage, form: form, categories: CategoryQuery.new
+                     html NewPage, form: form, categories: CategoryQuery.new.without_all
                    end
       end
 

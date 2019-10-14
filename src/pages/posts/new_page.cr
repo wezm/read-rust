@@ -1,6 +1,6 @@
 class Posts::NewPage < AdminLayout
   needs form : SavePost
-  needs categories : CategoryQuery
+  needs categories : Array(Category)
   quick_def page_title, "New Post"
 
   def content

@@ -10,4 +10,8 @@ class CategoryQuery
   def slug(slug)
     Category::ALL.select { |category| category.slug == slug }
   end
+
+  def without_all
+    Category::ALL.reject { |category| category.all? }
+  end
 end
