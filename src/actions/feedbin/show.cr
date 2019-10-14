@@ -46,8 +46,8 @@ class Feedbin::Show < BrowserAction
 
     add_field_if_present(prefill_data, "post:title", extracted_article.title)
     add_field_if_present(prefill_data, "post:author", extracted_article.author || entry.author)
-    # TODO: Strip tags from the article content
-    add_field_if_present(prefill_data, "post:summary", extracted_article.content)
+    summary = extracted_article.content.try { |content| Sanitise.strip_tags(content) }
+    add_field_if_present(prefill_data, "post:summary", summary)
 
     # Need to resolve this into a status?
     # "https://twitter.com/#{user}/status/#{entry.twitter_id}"
