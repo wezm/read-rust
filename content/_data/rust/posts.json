@@ -25364,7 +25364,7 @@
     },
     {
       "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
-      "title": "Writing a command-line program in Rust - Federico's Blog",
+      "title": "Writing a command-line program in Rust",
       "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",
       "url": "https://people.gnome.org/~federico/blog/writing-a-command-line-program-in-rust.html",
       "date_published": "2018-02-03T11:41:20-06:00",
@@ -25462,7 +25462,7 @@
     },
     {
       "id": "5c8f0581-5b1d-485b-852c-83c0deef73d5",
-      "title": "Rust and WebAssembly with Turtle - /var/blog",
+      "title": "Rust and WebAssembly with Turtle",
       "content_text": "In this post, I'll walk through a few of the highlights of getting Turtle, a Rust library for creating animated drawings, to run in the browser with WebAssembly.",
       "url": "https://varblog.org/blog/2018/01/08/rust-and-webassembly-with-turtle/",
       "date_published": "2018-01-08T09:54:00-06:00",
@@ -25603,7 +25603,7 @@
     },
     {
       "id": "9de23e26-5e53-4569-afb2-0576494c75f5",
-      "title": "#Rust2018: no need to panic. • r/rust",
+      "title": "#Rust2018: no need to panic",
       "content_text": "Since you asked for blog posts, and I already read many of them that didn't share my concerns, here is my take. # What I did in 2017 (and also a...",
       "url": "https://www.reddit.com/r/rust/comments/7tcyh1/rust2018_no_need_to_panic/",
       "date_published": "2018-01-27T14:24:20+00:00",
@@ -25631,7 +25631,7 @@
     },
     {
       "id": "d2189bca-0b13-451d-b70c-70ec43f7a207",
-      "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
+      "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming",
       "content_text": "There’s been a lot written about what can be done to make Rust’s tooling, libraries and infrastructure better for embedded programming, but I’d like to cover a slightly different topic: what can be done to make Rust the language itself safer and easier to use for low-level programming?",
       "url": "http://www.bobbin.io/blog/post/rust_2018_low_level/",
       "date_published": "2018-01-26T14:00:00-04:00",
@@ -25660,7 +25660,7 @@
     },
     {
       "id": "ae85973e-7540-4027-b53a-ee41a249d124",
-      "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async • r/rust",
+      "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async",
       "content_text": "Hi there! I'm Nico, and I've been lurking around these parts for about a year now. I thought I'd give my 2 cents on Rust's 2018 plans. Note: this...",
       "url": "https://www.reddit.com/r/rust/comments/7syxw4/rust_2018_core_embeddedsimd_intermesiate/",
       "date_published": "2018-01-25T20:12:01+00:00",
@@ -25675,7 +25675,7 @@
     },
     {
       "id": "35094e1a-b385-47a6-a93f-67f8842992d6",
-      "title": "My #Rust2018 wishlist • r/rust",
+      "title": "My #Rust2018 wishlist",
       "content_text": "This addition to std could significantly change how people use rust. \"Secretly\" it requires some advanced features though. impl<T, const C:...",
       "url": "https://www.reddit.com/r/rust/comments/7sx6s9/my_rust2018_wishlist/",
       "date_published": "2018-01-25T16:22:17+00:00",
@@ -25703,7 +25703,7 @@
     },
     {
       "id": "a59a299c-28d1-4c41-9563-47faea69a0b7",
-      "title": "Embedded Rust in 2018 - Embedded in Rust",
+      "title": "Embedded Rust in 2018",
       "content_text": "A blog about Rust and embedded stuff",
       "url": "http://blog.japaric.io/embedded-rust-in-2018/",
       "date_published": "2018-01-21T22:10:38+01:00",
@@ -25732,7 +25732,7 @@
     },
     {
       "id": "268f9a5c-3a44-4ca8-b500-68fd045a2d47",
-      "title": "Making Rust more awesome in 2018 - My wishlist· creativcoder's blog",
+      "title": "Making Rust more awesome in 2018 - My wishlist",
       "content_text": "Rustaceans may already be familiar with Read Rust 2018. Its really awesome to see all blog posts by other people. I’m yet to finish reading all of them :P\nAdding to the chain of wishlist and suggestions for Rust’s roadmap for 2018, here’s my Wishlist:",
       "url": "https://creativcoder.github.io/post/rust-2018/",
       "date_published": "2018-01-20T18:22:00+00:00",
@@ -25830,7 +25830,7 @@
     },
     {
       "id": "56bc0e93-0a95-40ce-b60e-7f50c6e41560",
-      "title": "matraszek.net - Rust 2018",
+      "title": "Rust 2018",
       "content_text": "I am pretty amazed that the Rust team always tries to get information about Rust usage from its users. Having a great vision is important, but it may not be enough to succeed. It is crucial to convince people to use Rust, and to know how to do that, we must take the perspective of the people who DO NOT use Rust.",
       "url": "http://matraszek.net/posts/rust-2018.html",
       "date_published": "2018-01-16T23:31:00+01:00",
@@ -25844,7 +25844,7 @@
     },
     {
       "id": "db216954-cdc9-4253-a155-6e9c7a25cd39",
-      "title": "Retooling the Rust Libs Team team for 2018 · Aaron Turon",
+      "title": "Retooling the Rust Libs Team team for 2018",
       "content_text": "The Libs Team met today to discuss a weighty topic: what is its mission as a team, and are we set up to achieve it?\n\nAs team lead, I took the liberty of proposing a mission statement:\n\nTo improve the quality of the crate ecosystem, as a product.",
       "url": "http://aturon.github.io/blog/2018/01/16/libs-mission/",
       "date_published": "2018-01-16T00:00:00-08:00",
@@ -25858,7 +25858,7 @@
     },
     {
       "id": "b82f509d-28c8-4859-afe4-a9d4e47538d0",
-      "title": "Rust 2018 - Just 2 \"little things\" • r/rust",
+      "title": "Rust 2018 - Just 2 \"little things\"",
       "content_text": "Well. Just two \"minor\" points: 1. Game Development Libraries 2. Rust idomatic GUI Frameworks",
       "url": "https://www.reddit.com/r/rust/comments/7qv1gu/rust_2018_just_2_little_things/",
       "date_published": "2018-01-16T19:58:55+00:00",
@@ -25900,7 +25900,7 @@
     },
     {
       "id": "11b9b0c3-6cde-450a-91b8-41e4bfc0a514",
-      "title": "Rust 2018 - Sergey Potapov",
+      "title": "Rust 2018",
       "content_text": "With this post, I would like to give my feedback to the rust community in the\nscope of A Call for Community Blogposts. This article is structured in …",
       "url": "http://greyblake.com/blog/2018/01/16/rust-2018/",
       "date_published": "2018-01-16T00:08:00+01:00",
@@ -25970,7 +25970,7 @@
     },
     {
       "id": "e7a79828-6bc7-4b09-ac5a-4be76f4a18d4",
-      "title": "My Rust hopes for 2018 • r/rust",
+      "title": "My Rust hopes for 2018",
       "content_text": "There are plenty of exciting language features which should land in 2018, I'd love to see further reductions in compile times, and there are a lot...",
       "url": "https://www.reddit.com/r/rust/comments/7qd725/my_rust_hopes_for_2018/",
       "date_published": "2018-01-14T17:32:16+00:00",
@@ -25984,7 +25984,7 @@
     },
     {
       "id": "87cb487b-6922-4675-b3d9-9a6767bb5a1c",
-      "title": "Rust in 2018 – Dirkjan Ochtman",
+      "title": "Rust in 2018",
       "content_text": "In a call for blog posts, the Rust community team asked community members to write up their vision for what the Rust community should focus on this year. I've wanted to contribute my thoughts and have been thinking about what to write ever since. I've been able to benefit from the many people who already posted their thoughts to sharpen my own thinking. I came up with 5 categories:",
       "url": "https://dirkjan.ochtman.nl/writing/2018/01/14/rust-in-2018.html",
       "date_published": "2018-01-14T00:00:00+01:00",
@@ -26069,7 +26069,7 @@
     },
     {
       "id": "59a502dd-84c7-4ad1-9a78-7d042495a25b",
-      "title": "Rust - My wish list for 2018  · Murali's Blog ",
+      "title": "Rust - My wish list for 2018",
       "content_text": "I am excited about Rust after spending a little time with it last year. Here are my thoughts on how it can improve in 2018.",
       "url": "http://www.mmrath.com/post/rust-my-wish-list-for-2018/",
       "date_published": "2018-01-06T00:00:00+00:00",
@@ -26083,7 +26083,7 @@
     },
     {
       "id": "79f7ee1c-a798-4241-bc2a-902f8a16c548",
-      "title": "Rust 2018 - machine learning perspective • r/rust",
+      "title": "Rust 2018 - machine learning perspective",
       "content_text": "Since we have this January blogging stream, I would like to talk about using Rust for machine learning. First, I would like to point out, that I...",
       "url": "https://www.reddit.com/r/rust/comments/7p6rpw/rust_2018_machine_learning_perspective/",
       "date_published": "2018-01-09T12:26:35+00:00",
@@ -26195,7 +26195,7 @@
     },
     {
       "id": "914dd414-184a-4d72-adfe-cea12e7a9fe4",
-      "title": "What Rust Needs in 2018 to Succeed — Llogiq on stuff",
+      "title": "What Rust Needs in 2018 to Succeed",
       "content_text": "In the spirit of the current Rust blog post extravaganza, here are my 2¢ on the most important work to make Rust win big",
       "url": "https://llogiq.github.io/2018/01/09/rust.html",
       "date_published": "2018-01-09T00:00:00+00:00",
@@ -26279,7 +26279,7 @@
     },
     {
       "id": "75ae624e-fe9b-4705-9bc2-99066deeb214",
-      "title": "Rusting as a student - ",
+      "title": "Rusting as a student",
       "content_text": "At the request of the Rust team, the community was tasked with writing blog posts talking about the future and history of rust as it would pertain to improving the language in 2018. I thought I'd take the opportunity to finally begin writing, since it seems like blogging is all the rage nowadays.",
       "url": "http://samuelresendez.me/scribbles/sophomore_rust.html",
       "date_published": "2018-01-13T04:04:26+00:00",
@@ -26307,7 +26307,7 @@
     },
     {
       "id": "cb089afe-f076-4527-bb9a-342be41414e1",
-      "title": "Rust in 2018: it's way easier to use! - Julia Evans",
+      "title": "Rust in 2018: it's way easier to use!",
       "content_text": "Rust in 2018: it's way easier to use!",
       "url": "https://jvns.ca/blog/2018/01/13/rust-in-2018--way-easier-to-use/",
       "date_published": "2018-01-14T06:05:00+00:00",
@@ -26335,7 +26335,7 @@
     },
     {
       "id": "1cc61fb9-22bb-476d-b133-c1c38d2e9f64",
-      "title": "Goals and Directions for Rust in 2018 - WezM.net by Wesley Moore",
+      "title": "Goals and Directions for Rust in 2018",
       "content_text": "Reflecting on Rust in 2017 and what might be worth focussing on in 2018.",
       "url": "http://www.wezm.net/technical/2018/01/goals-directions-rust-2018/",
       "date_published": "2018-01-07T13:07:00+11:00",
@@ -26349,7 +26349,7 @@
     },
     {
       "id": "438424a8-c55f-49c7-9860-683e805bc36e",
-      "title": "#Rust2018 goals for 2018 • r/rust",
+      "title": "#Rust2018 goals for 2018",
       "content_text": "My 2 cents: Totally agree with people who say we need an \"impl year\", but also I would love to see wasm become a first class platform. I think...",
       "url": "https://www.reddit.com/r/rust/comments/7oyj9j/rust2018_goals_for_2018/",
       "date_published": "2018-01-08T13:35:48+00:00",
@@ -26363,7 +26363,7 @@
     },
     {
       "id": "91e2a724-3253-43ec-8b62-bd6285d7895c",
-      "title": "Rust2018: back to the roots • r/rust",
+      "title": "Rust2018: back to the roots",
       "content_text": "I can think of many goals for Rust in 2018, but for me at least 2017 went through pretty quickly, so I asked myself the question: If I could...",
       "url": "https://www.reddit.com/r/rust/comments/7p6n90/rust2018_back_to_the_roots/",
       "date_published": "2018-01-09T11:59:53+00:00",
@@ -26391,7 +26391,7 @@
     },
     {
       "id": "c6752215-9ccb-4c67-b512-bd2cfdcaae86",
-      "title": "Rust2018 Wishpost: Better Debug derive • r/rust",
+      "title": "Rust2018 Wishpost: Better Debug derive",
       "content_text": "It was asked that everyone talk about what they want to see happen with Rust in 2018, and I'm sure a lot of folks will be saying a lot of things....",
       "url": "https://www.reddit.com/r/rust/comments/7p4imw/rust2018_wishpost_better_debug_derive/",
       "date_published": "2018-01-09T04:05:10+00:00",
@@ -26405,7 +26405,7 @@
     },
     {
       "id": "f114d011-5554-4169-8cca-d01512308bab",
-      "title": "Rust in 2018 - In Pursuit of Laziness",
+      "title": "Rust in 2018",
       "content_text": "A week ago we put out a call for blog posts for what folks think Rust should do in 2018. This is mine. Overall focus I think 2017 was a great year …",
       "url": "https://manishearth.github.io/blog/2018/01/10/rust-in-2018/",
       "date_published": "2018-01-10T00:00:00+00:00",
@@ -26419,7 +26419,7 @@
     },
     {
       "id": "9f51e626-4330-4ddd-984a-34e3b582b171",
-      "title": "#Rust2018 FtW (For the Web) • r/rust",
+      "title": "#Rust2018 FtW (For the Web)",
       "content_text": "*below post is going to update quite often accordingly* This idea is actually something i got from someone else - \"now that Rust is getting...",
       "url": "https://www.reddit.com/r/rust/comments/7q53d6/rust2018_ftw_for_the_web/",
       "date_published": "2018-01-13T15:36:28+00:00",
@@ -26518,7 +26518,7 @@
     },
     {
       "id": "80e6cc62-73cd-4b55-bcbf-5770348ed843",
-      "title": "#rust2018 - cross compiling? • r/rust",
+      "title": "#rust2018 - cross compiling?",
       "content_text": "I don’t have a blog or anything, I just wanted to mention an aspect of rust that could use some love this year - cross compiling. Right now...",
       "url": "https://www.reddit.com/r/rust/comments/7phh1l/rust2018_cross_compiling/",
       "date_published": "2018-01-10T18:16:51+00:00",
@@ -26574,7 +26574,7 @@
     },
     {
       "id": "818cfee5-06f3-4d25-b4b9-cafb65a57697",
-      "title": "#Rust2018 — Aimlessly Going Forward",
+      "title": "#Rust2018",
       "content_text": "I use Rust to write simple computer games as a hobby. I'm not a professional or even an experienced game developer. The reason I picked up Rust is because I wanted something that...",
       "url": "https://aimlesslygoingforward.com/blog/2018/01/10/rust-2018/",
       "date_published": "2018-01-10T00:00:00+00:00",
@@ -26588,7 +26588,7 @@
     },
     {
       "id": "60351f3f-c088-42df-819e-a3ad0c44772a",
-      "title": "Rust in 2018: a people perspective · Aaron Turon",
+      "title": "Rust in 2018: a people perspective",
       "content_text": "The call for #Rust2018 blog posts has generated a fantastic set of responses so far, and there’s already an emerging consensus around much of the technical focus for the year. Since I largely agree with what others have said on that front, I want to focus my post on the people side of things: what kind of impact do we want to make on people, both contributors and customers, in 2018?",
       "url": "http://aturon.github.io/blog/2018/01/09/rust-2018/",
       "date_published": "2018-01-09T00:00:00-08:00",
@@ -26630,7 +26630,7 @@
     },
     {
       "id": "8595c82d-ae75-4e7c-8e19-e7458849d61b",
-      "title": "Looking back at Rust in 2018 • Steve Klabnik",
+      "title": "Looking back at Rust in 2018",
       "content_text": "A careful reader will note the date of this post; it’s fundamentally in response to this call for blog posts, with a rhetorical device of looking backwards as if my personal plans for Rust came true. If you’re reading this in 2019 or beyond, this... | Steve Klabnik | “The most violent element in society is ignorance.” - Emma Goldman",
       "url": "http://words.steveklabnik.com/looking-back-at-rust-in-2018",
       "date_published": "2018-01-09T00:00:00+00:00",
@@ -26658,7 +26658,7 @@
     },
     {
       "id": "8c52a558-78c4-4c5a-b06b-7d254af78db3",
-      "title": "#Rust2018 : Don’t be the new Haskell – Hacker Noon",
+      "title": "#Rust2018 : Don’t be the new Haskell",
       "content_text": "TLDR: Big companies adoption determine the success of the language, not the quality of the language. Let’s target big companies / projects…",
       "url": "https://hackernoon.com/rust-2018-dont-be-the-new-haskell-a383dbd74481",
       "date_published": "2018-01-09T03:02:35.835+00:00",
@@ -26686,7 +26686,7 @@
     },
     {
       "id": "342a3884-6f24-4d2e-8a60-11d9ec06f5ee",
-      "title": "Adding Superheroes to the Rust Brazilian Community – Mozilla Brasil",
+      "title": "Adding Superheroes to the Rust Brazilian Community",
       "content_text": "In December, Mozilla Brazil in partnership with the Rust Lang BR community launched a project that brings together Rust programmers and community leaders from regions all over Brazil to advance ...",
       "url": "https://mozillabr.org/2018/01/adding-superheroes-to-the-rust-brazilian-community/",
       "date_published": "2018-01-08T18:16:39-02:00",
@@ -26714,7 +26714,7 @@
     },
     {
       "id": "87167446-604f-4bda-b1b1-2f13ea712655",
-      "title": "New faces for our lovely bots in #Rust2018 [Totoroot]",
+      "title": "New faces for our lovely bots in #Rust2018",
       "content_text": "A blog about programming and stuff. I'm in love with Rust, so most of my programming related posts are about that language.\n",
       "url": "https://lukaskalbertodt.github.io/2018/01/07/new-faces-for-bots-rust2018.html",
       "date_published": "2018-01-07T00:00:00+00:00",
@@ -26742,7 +26742,7 @@
     },
     {
       "id": "3b88c9f8-870f-4b97-a9e3-34cf5fc5f118",
-      "title": "the new wave of rust | quiet misdreavus miniblog",
+      "title": "the new wave of rust",
       "content_text": "I’m generally terrible at big-picture planning, so instead I’d like to talk about what I want to accomplish in the Rust world in 2018. Whether this slots into anyone else’s planning is another matter, but I’ll leave that as an exercise for the reader.",
       "url": "https://quietmisdreavus.net/code/2018/01/07/the-new-wave-of-rust/",
       "date_published": "2018-01-07T00:00:00+00:00",
@@ -26756,7 +26756,7 @@
     },
     {
       "id": "52d67205-01cc-4100-aee3-646795db6b95",
-      "title": "Rust and the web in 2018 – Rasmus.krats.se",
+      "title": "Rust and the web in 2018",
       "content_text": "My wish for Rust in 2018 is a nice and convenient web service framework that runs on stable rust and gets maintenance and regular updates for many years to come. My intent for 2018 is to continue to maintain and improve ructe (and rsass), and try to integrate it with the best such framework i can find.",
       "url": "https://rasmus.krats.se/2018/rustweb.en",
       "date_published": "2018-01-07T22:50:00+00:00",
@@ -26784,7 +26784,7 @@
     },
     {
       "id": "80b271ae-2668-4577-9512-f7562e651253",
-      "title": "Rust 2018 - Suspect Semantics",
+      "title": "Rust 2018",
       "content_text": "In this post I share a few small thoughts on what Rust should do in 2018, and more broadly about the current direction of the language. Tooling A …",
       "url": "http://www.suspectsemantics.com/blog/2018/01/07/rust-2018/",
       "date_published": "2018-01-07T13:34:15-08:00",
@@ -26798,7 +26798,7 @@
     },
     {
       "id": "6e9f2101-5cff-4356-95ea-43146f207fc5",
-      "title": "Rust 2018 · Matthew Mayer's tech blog",
+      "title": "Rust 2018",
       "content_text": "Per the call for blog posts, I’ve got thoughts and ideas on where Rust can go in the upcoming year. My wants haven’t changed much over the last year or so: give me non-embarassing compilation speed! 😁\n\nBefore getting started, I’m very appreciative of the hard work put into the overall Rust community and ecosystem, including the behind-the-scenes work. It’s difficult to understate just how much time and energy people volunteer in pursuit of a better, Rust-ier world.",
       "url": "https://matthewkmayer.github.io/blag/public/post/rust-2018/",
       "date_published": "2018-01-07T00:00:00+00:00",
@@ -26868,7 +26868,7 @@
     },
     {
       "id": "3f34d83f-f520-4bfa-a6a8-f08e3a0bea9d",
-      "title": "Rustに何が欲しいだろう | κeenのHappy Hacκing Blog",
+      "title": "Rustに何が欲しいだろう",
       "content_text": "κeenです。New Year’s Rust: A Call for Community Blogpostsの一環のつもりです。 恐らく英語の記事が望まれてるんだろうなと思いつつも試しに日本から声を上げてみます。 私はRustは1.0前後の頃から触っていて、ドキュメントの翻訳をしたりここ1年くらいはIdein Inc.での業務でも使っています。\n\n1年ほど使ってみて何が足りないか考えてみます。",
       "url": "https://keens.github.io/blog/2018/01/05/rustninanigahoshiidarou/",
       "date_published": "2018-01-05T00:00:00+00:00",
@@ -26896,7 +26896,7 @@
     },
     {
       "id": "6d59f1d8-c073-47db-b3f5-0001878fd372",
-      "title": "New Year's Rust: A Call for Community Blogposts - The Rust Programming Language Blog",
+      "title": "New Year's Rust: A Call for Community Blogposts",
       "content_text": "Starting today and running until the end of January we’d like to ask the community to write blogposts reflecting on Rust in 2017 and proposing goals and directions for Rust in 2018.",
       "url": "https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html",
       "date_published": "2018-01-03T00:00:00+00:00",
