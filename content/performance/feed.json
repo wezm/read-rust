@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "67d3364b-64e1-4c9e-bf5c-93ed324c8f4a",
+      "title": "How to speed up the Rust compiler some more in 2019",
+      "content_text": "In July I wrote about my efforts to speed up the Rust compiler in 2019. I also described how the Rust compiler has gotten faster in 2019, with compile time reductions of 20-50% on most benchmarks. Now that Q3 is finished it’s a good time to see how things have changed since then.",
+      "url": "https://blog.mozilla.org/nnethercote/2019/10/11/how-to-speed-up-the-rust-compiler-some-more-in-2019/",
+      "date_published": "2019-10-10T23:01:52+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "9058ab44-792b-4652-a06a-db4ada3e0ff5",
+      "title": "Dev Time Optimization -- Part 1 (1.9x speedup, 65% less disk usage)",
+      "content_text": "Summary In a 45k LOC / 102-crate workspace, moving tests from member crates into a single workspace_tests crate achieved the following improvements:\n\nBuild and test duration in release mode reduced from 23 minutes to 13 minutes . Debug artifact disk usage reduced from 20 G to 7 G (65% reduction, fresh build), or 230 G to 50 G (78% reduction, ongoing development)  Background The rate of software development is affected by many limits.",
+      "url": "https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage/",
+      "date_published": "2019-10-08T13:10:38+13:00",
+      "author": {
+        "name": "Azriel Hoh",
+        "url": "https://azriel.im/will"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "87600fb3-40d3-403e-87b7-25a3a2eacdcf",
       "title": "Binary Format Shootout",
       "content_text": "Cap'n Proto vs. Flatbuffers vs. Simple Binary Encoding",

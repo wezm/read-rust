@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "dabffd4d-73ef-4700-8711-b648230659b9",
+      "title": "We couldn't get Bitcode and Rust to play nice, until we did",
+      "content_text": "The Rust compiler has problems creating Bitcode that's compatible with recent versions of Xcode. Ditto uses a custom toolchain that stays in sync with Apple—and you can too.",
+      "url": "https://www.ditto.live/blog/rust-bitcode-with-xcode",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Tom Karpiniec",
+        "url": "http://www.ditto.live/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6907953b-62d5-475e-8695-0e89fec37b5e",
+      "title": "Why we’re bringing Astropad cross-platform with Rust",
+      "content_text": "Over the past few years, we’ve heard over and over again about an exodus from Mac to Windows in the creative community. Here at Astropad, we’ve kept a close eye on this shift, knowing that Windows would be a big part of our company’s future. Our flagship products — Astropad Studio and Luna Display — primarily serve the creative pro market. Both products run on our low-latency, high-fidelity video streaming technology called Liquid that was designed to meet the demands of professional illustrators, animators, and photographers.\n\nWhen we were first building our products, we used the tools we were most comfortable with, like Objective-C and the Cocoa APIs. This allowed us to move quickly, launch Astropad 1.0, and establish product-market fit in a relatively short period of time. But as we grew, we made the mistake of doubling down on Objective-C, and we pushed off the Windows effort because it created a catch-22 situation of engineering hurdles. Our Liquid engine was tightly wrapped around the Apple ecosystem, and the thought of unraveling ourselves was hard to imagine. ",
+      "url": "https://blog.astropad.com/why-rust/",
+      "date_published": "2019-10-07T19:23:43+00:00",
+      "author": {
+        "name": "Matt Ronge",
+        "url": "https://blog.astropad.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "15c5520b-d7f9-4acc-939f-371cb8fbab95",
+      "title": "Async Foundations Update: Time for polish!",
+      "content_text": "As you've perhaps heard, recently the async-await feature landed on the Rust beta branch. This marks a big turning point in the usability story for Async Rust. But there's still a lot of work to do. As we mentioned in the main post, the focus for the Async Foundations WG in the immediate term is going to be polish, polish and (ahem) more polish.\n\nIn particular, we want to take aim at a backlog of strange diagnostics, suboptimal performance, and the occasional inexplicable type-check failure. This is a shift: whereas before, we could have laser focus on things that truly blocked stabilization, we've now got a large set of bugs, often without a clear prioritization between them. This requires us to mix up how the Async Foundations WG is operating.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/07/AsyncAwait-WG-Focus-Issues.html",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "409c73c3-8c32-4c3a-97a9-30f700237fe8",
       "title": "Designing a COM library for Rust",
       "content_text": "I interned with Microsoft as a Software Engineering Intern in the MSRC UK team in Cheltenham this past summer. I worked in the Safe Systems Programming Language (SSPL) group, which explores safe programming languages as a proactive measure against memory-safety related vulnerabilities.\n\nThis blog post describes the project that I have been working on under the mentorship of the SSPL team. Hopefully, this provides additional insight into the work Microsoft interns do! My goal was to build an open-sourced Rust library that will allow developers to both consume and produce in-process Component Object Model (COM) components in an idiomatic manner.",

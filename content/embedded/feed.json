@@ -1437,7 +1437,7 @@
     },
     {
       "id": "d2189bca-0b13-451d-b70c-70ec43f7a207",
-      "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming - Bobbin Blog",
+      "title": "Rust 2018: Improving Safety and Ergonomics for Low-Level Programming",
       "content_text": "There’s been a lot written about what can be done to make Rust’s tooling, libraries and infrastructure better for embedded programming, but I’d like to cover a slightly different topic: what can be done to make Rust the language itself safer and easier to use for low-level programming?",
       "url": "http://www.bobbin.io/blog/post/rust_2018_low_level/",
       "date_published": "2018-01-26T14:00:00-04:00",
@@ -1452,7 +1452,7 @@
     },
     {
       "id": "ae85973e-7540-4027-b53a-ee41a249d124",
-      "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async • r/rust",
+      "title": "Rust 2018: Core, Embedded+SIMD, Intermesiate documenation, Async",
       "content_text": "Hi there! I'm Nico, and I've been lurking around these parts for about a year now. I thought I'd give my 2 cents on Rust's 2018 plans. Note: this...",
       "url": "https://www.reddit.com/r/rust/comments/7syxw4/rust_2018_core_embeddedsimd_intermesiate/",
       "date_published": "2018-01-25T20:12:01+00:00",
@@ -1467,7 +1467,7 @@
     },
     {
       "id": "a59a299c-28d1-4c41-9563-47faea69a0b7",
-      "title": "Embedded Rust in 2018 - Embedded in Rust",
+      "title": "Embedded Rust in 2018",
       "content_text": "A blog about Rust and embedded stuff",
       "url": "http://blog.japaric.io/embedded-rust-in-2018/",
       "date_published": "2018-01-21T22:10:38+01:00",

@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "10dac43f-1aba-416e-bfbb-190a33ad2c5d",
+      "title": "mda-rs: Custom Mail Delivery Agents in Rust",
+      "content_text": "With mda-rs I wanted to create an experience as close as possible to using an interpreted domain specific language, the approach follow by typical MDAs, while still having the performance and power of a full, compiled language at the fingertips. One aspect of this experience was providing an API that feels like natural fit for the intended purpose. The other aspect was providing a straightforward way to build a custom MDA. For this second aspect, the simplicity of Rust's cargo was one of the reasons I decided to use Rust for this project.",
+      "url": "https://afrantzis.com/posts/mda-rs/",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Alexandros Frantzis",
+        "url": "https://afrantzis.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "22724643-a42b-447d-98e2-6d7d3ad56aed",
+      "title": "Persy transactional storage engine version 0.7",
+      "content_text": "In the last couple of months just right after the release of Persy 0.6 the development speeded up a bit, a few people started to play with persy and some downstream projects as well, first reporting few critical issue that produced the 3 hotfix 0.6.1,0.6.2,0.6.3 and then starting contributing back.",
+      "url": "https://persy.rs/posts/persy-0.7.html",
+      "date_published": "2019-10-11T07:23:00+00:00",
+      "author": {
+        "name": "tglman",
+        "url": "https://gitlab.com/tglman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "33fc22f5-6021-4395-b8ab-7f5f25ec2384",
       "title": "reqwest alpha.await",
       "content_text": "reqwest alpha.await reqwest is a higher-level HTTP client for Rust. I’m delighted to announce the first alpha release that brings async/await support!",

@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "dabffd4d-73ef-4700-8711-b648230659b9",
+      "title": "We couldn't get Bitcode and Rust to play nice, until we did",
+      "content_text": "The Rust compiler has problems creating Bitcode that's compatible with recent versions of Xcode. Ditto uses a custom toolchain that stays in sync with Apple—and you can too.",
+      "url": "https://www.ditto.live/blog/rust-bitcode-with-xcode",
+      "date_published": "2019-10-10T00:00:00+00:00",
+      "author": {
+        "name": "Tom Karpiniec",
+        "url": "http://www.ditto.live/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "67d3364b-64e1-4c9e-bf5c-93ed324c8f4a",
+      "title": "How to speed up the Rust compiler some more in 2019",
+      "content_text": "In July I wrote about my efforts to speed up the Rust compiler in 2019. I also described how the Rust compiler has gotten faster in 2019, with compile time reductions of 20-50% on most benchmarks. Now that Q3 is finished it’s a good time to see how things have changed since then.",
+      "url": "https://blog.mozilla.org/nnethercote/2019/10/11/how-to-speed-up-the-rust-compiler-some-more-in-2019/",
+      "tweet_url": "https://twitter.com/nnethercote/status/1182432153893658625?s=20",
+      "date_published": "2019-10-10T23:01:52+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "10dac43f-1aba-416e-bfbb-190a33ad2c5d",
+      "title": "mda-rs: Custom Mail Delivery Agents in Rust",
+      "content_text": "With mda-rs I wanted to create an experience as close as possible to using an interpreted domain specific language, the approach follow by typical MDAs, while still having the performance and power of a full, compiled language at the fingertips. One aspect of this experience was providing an API that feels like natural fit for the intended purpose. The other aspect was providing a straightforward way to build a custom MDA. For this second aspect, the simplicity of Rust's cargo was one of the reasons I decided to use Rust for this project.",
+      "url": "https://afrantzis.com/posts/mda-rs/",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Alexandros Frantzis",
+        "url": "https://afrantzis.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6907953b-62d5-475e-8695-0e89fec37b5e",
+      "title": "Why we’re bringing Astropad cross-platform with Rust",
+      "content_text": "Over the past few years, we’ve heard over and over again about an exodus from Mac to Windows in the creative community. Here at Astropad, we’ve kept a close eye on this shift, knowing that Windows would be a big part of our company’s future. Our flagship products — Astropad Studio and Luna Display — primarily serve the creative pro market. Both products run on our low-latency, high-fidelity video streaming technology called Liquid that was designed to meet the demands of professional illustrators, animators, and photographers.\n\nWhen we were first building our products, we used the tools we were most comfortable with, like Objective-C and the Cocoa APIs. This allowed us to move quickly, launch Astropad 1.0, and establish product-market fit in a relatively short period of time. But as we grew, we made the mistake of doubling down on Objective-C, and we pushed off the Windows effort because it created a catch-22 situation of engineering hurdles. Our Liquid engine was tightly wrapped around the Apple ecosystem, and the thought of unraveling ourselves was hard to imagine. ",
+      "url": "https://blog.astropad.com/why-rust/",
+      "date_published": "2019-10-07T19:23:43+00:00",
+      "author": {
+        "name": "Matt Ronge",
+        "url": "https://blog.astropad.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "22724643-a42b-447d-98e2-6d7d3ad56aed",
+      "title": "Persy transactional storage engine version 0.7",
+      "content_text": "In the last couple of months just right after the release of Persy 0.6 the development speeded up a bit, a few people started to play with persy and some downstream projects as well, first reporting few critical issue that produced the 3 hotfix 0.6.1,0.6.2,0.6.3 and then starting contributing back.",
+      "url": "https://persy.rs/posts/persy-0.7.html",
+      "date_published": "2019-10-11T07:23:00+00:00",
+      "author": {
+        "name": "tglman",
+        "url": "https://gitlab.com/tglman"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "15c5520b-d7f9-4acc-939f-371cb8fbab95",
+      "title": "Async Foundations Update: Time for polish!",
+      "content_text": "As you've perhaps heard, recently the async-await feature landed on the Rust beta branch. This marks a big turning point in the usability story for Async Rust. But there's still a lot of work to do. As we mentioned in the main post, the focus for the Async Foundations WG in the immediate term is going to be polish, polish and (ahem) more polish.\n\nIn particular, we want to take aim at a backlog of strange diagnostics, suboptimal performance, and the occasional inexplicable type-check failure. This is a shift: whereas before, we could have laser focus on things that truly blocked stabilization, we've now got a large set of bugs, often without a clear prioritization between them. This requires us to mix up how the Async Foundations WG is operating.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/07/AsyncAwait-WG-Focus-Issues.html",
+      "date_published": "2019-10-07T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9058ab44-792b-4652-a06a-db4ada3e0ff5",
+      "title": "Dev Time Optimization -- Part 1 (1.9x speedup, 65% less disk usage)",
+      "content_text": "Summary In a 45k LOC / 102-crate workspace, moving tests from member crates into a single workspace_tests crate achieved the following improvements:\n\nBuild and test duration in release mode reduced from 23 minutes to 13 minutes . Debug artifact disk usage reduced from 20 G to 7 G (65% reduction, fresh build), or 230 G to 50 G (78% reduction, ongoing development)  Background The rate of software development is affected by many limits.",
+      "url": "https://azriel.im/will/2019/10/08/dev-time-optimization-part-1-1.9x-speedup-65-less-disk-usage/",
+      "date_published": "2019-10-08T13:10:38+13:00",
+      "author": {
+        "name": "Azriel Hoh",
+        "url": "https://azriel.im/will"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "e808921f-a270-4d4b-a897-d856dbd4a5ab",
       "title": "Coding nRF52 with Rust and Apache Mynewt on Visual Studio Code",
       "content_text": "The nRF52 Microcontroller by Nordic Semiconductor is an awesome gadget with powerful Bluetooth Low Energy networking capability. It’s affordable too… For under $8, I can buy an EBYTE E73-TBB Development Board with onboard nRF52. Powered by an Arm Cortex-M4 CPU (hardware floating-point) with 64 KB of RAM and 512 KB of Flash ROM, the nRF52 has plenty of capacity to run modern embedded platforms… Like Apache Mynewt realtime OS and Embedded Rust!",

@@ -2358,7 +2358,7 @@
     },
     {
       "id": "4aeb0aa5-6a72-41c9-87bc-a2e24b5e33d3",
-      "title": "Writing a command-line program in Rust - Federico's Blog",
+      "title": "Writing a command-line program in Rust",
       "content_text": "As a library writer, it feels a bit strange, but refreshing, to write a program that actually has a main() function. My experience with Rust so far has been threefold:",
       "url": "https://people.gnome.org/~federico/blog/writing-a-command-line-program-in-rust.html",
       "date_published": "2018-02-03T11:41:20-06:00",
