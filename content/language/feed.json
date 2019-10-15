@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "318ffc1c-1f3c-4d9a-b5ea-edaa476d3438",
+      "title": "Parsing Rust Strings into Slices",
+      "content_text": "A Rust String is a vector of bytes containing a UTF-8 string, which is an uneasy combination. You can’t simply index into a String: the compiler forbids it, because you’re far too likely to get one byte of a multi-byte UTF-8 char. Instead you need to use a Chars iterator to parse out the string character by character.",
+      "url": "https://wduquette.github.io/parsing-strings-into-slices/",
+      "date_published": "2019-08-10T00:00:00+00:00",
+      "author": {
+        "name": "Will Duquette",
+        "url": "https://wduquette.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "d6e69577-47b1-4490-a336-a01b166fff6e",
+      "title": "Python vs Rust for Neural Networks",
+      "content_text": "In a previous post I introduced the MNIST dataset and the problem of classifying handwritten digits. In this post I’ll be using the code I wrote in that post to port a simple neural network implementation to rust. My goal is to explore performance and ergonomics for data science workflows in Rust.",
+      "url": "https://ngoldbaum.github.io/posts/python-vs-rust-nn/",
+      "date_published": "2019-07-26T14:17:19-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "dabffd4d-73ef-4700-8711-b648230659b9",
       "title": "We couldn't get Bitcode and Rust to play nice, until we did",
       "content_text": "The Rust compiler has problems creating Bitcode that's compatible with recent versions of Xcode. Ditto uses a custom toolchain that stays in sync with Apple—and you can too.",

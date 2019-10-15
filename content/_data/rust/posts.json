@@ -10,6 +10,107 @@
   },
   "items": [
     {
+      "id": "318ffc1c-1f3c-4d9a-b5ea-edaa476d3438",
+      "title": "Parsing Rust Strings into Slices",
+      "content_text": "A Rust String is a vector of bytes containing a UTF-8 string, which is an uneasy combination. You can’t simply index into a String: the compiler forbids it, because you’re far too likely to get one byte of a multi-byte UTF-8 char. Instead you need to use a Chars iterator to parse out the string character by character.",
+      "url": "https://wduquette.github.io/parsing-strings-into-slices/",
+      "date_published": "2019-08-10T00:00:00+00:00",
+      "author": {
+        "name": "Will Duquette",
+        "url": "https://wduquette.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "48e29784-dd63-4e7b-8586-bad8bc58be5b",
+      "title": "WebAssembly — Is It As Scary As It Sounds?",
+      "content_text": "Learn WebAssembly while building a Wasm-based QR decoder for the browser.",
+      "url": "https://medium.com/better-programming/webassembly-is-it-as-scary-as-it-sounds-b0c38fb2d9c8",
+      "date_published": "2019-07-18T22:17:48.485+00:00",
+      "author": {
+        "name": "Jacky Efendi",
+        "url": "https://medium.com/@jackyef"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "15a21264-f2eb-4d31-8f58-700f2382b9e8",
+      "title": "Ruffle: an Adobe Flash Player emulator written in the Rust",
+      "content_text": "Ruffle is an Adobe Flash Player emulator written in the Rust programming language. Ruffle targets both the desktop and the web using WebAssembly.",
+      "url": "https://github.com/ruffle-rs/ruffle/blob/master/README.md",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "Mike Welsh",
+        "url": "https://github.com/ruffle-rs"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "d6e69577-47b1-4490-a336-a01b166fff6e",
+      "title": "Python vs Rust for Neural Networks",
+      "content_text": "In a previous post I introduced the MNIST dataset and the problem of classifying handwritten digits. In this post I’ll be using the code I wrote in that post to port a simple neural network implementation to rust. My goal is to explore performance and ergonomics for data science workflows in Rust.",
+      "url": "https://ngoldbaum.github.io/posts/python-vs-rust-nn/",
+      "tweet_url": "https://twitter.com/njgoldbaum/status/1155931939766804480?s=20",
+      "date_published": "2019-07-26T14:17:19-04:00",
+      "author": {
+        "name": "Nathan Goldbaum",
+        "url": "https://ngoldbaum.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "b741f301-dd98-4d7c-a82c-486b43242507",
+      "title": "Learning Rust at Hacktoberfest in 8 hours",
+      "content_text": "This year’s #hacktoberfest became a great opportunity for me to start learning Rust. In this article, I will share a couple of tricks about how to start mastering this relatively new technology.",
+      "url": "https://medium.com/@knidarkness/learning-rust-at-hacktoberfest-in-8-hours-7b788883c665",
+      "date_published": "2019-10-15T07:42:17.696+00:00",
+      "author": {
+        "name": "Sergey Dubovyk",
+        "url": "https://medium.com/@knidarkness"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "f33cd82d-46fa-4e3e-97e9-0bef43ba9b00",
+      "title": "Watt: A runtime for executing Rust procedural macros compiled as WebAssembly",
+      "content_text": " By compiling macros ahead-of-time to Wasm, we save all downstream users of the macro from having to compile the macro logic or its dependencies themselves. Instead, what they compile is a small self-contained Wasm runtime (~3 seconds, shared by all macros) and a tiny proc macro shim for each macro crate to hand off Wasm bytecode into the Watt runtime (~0.3 seconds per proc-macro crate you depend on). This is much less than the 20+ seconds it can take to compile complex procedural macros and their dependencies.",
+      "url": "https://github.com/dtolnay/watt",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "97ca4165-4f8c-4c57-872d-e5986df0c7ee",
+      "title": "Making the Tokio scheduler 10x faster",
+      "content_text": "We’ve been hard at work on the next major revision of Tokio, Rust’s asynchronous runtime. Today, a complete rewrite of the scheduler has been submitted as a pull request. The result is huge performance and latency improvements. Some benchmarks saw a 10x speed up! It is always unclear how much these kinds of improvements impact “full stack” use cases, so we’ve also tested how these scheduler improvements impacted use cases like Hyper and Tonic (spoiler: it’s really good).",
+      "url": "https://tokio.rs/blog/2019-10-scheduler/",
+      "tweet_url": "https://twitter.com/tokio_rs/status/1183774870200471552?s=20",
+      "date_published": "2019-10-13T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "dabffd4d-73ef-4700-8711-b648230659b9",
       "title": "We couldn't get Bitcode and Rust to play nice, until we did",
       "content_text": "The Rust compiler has problems creating Bitcode that's compatible with recent versions of Xcode. Ditto uses a custom toolchain that stays in sync with Apple—and you can too.",

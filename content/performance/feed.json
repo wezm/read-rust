@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "97ca4165-4f8c-4c57-872d-e5986df0c7ee",
+      "title": "Making the Tokio scheduler 10x faster",
+      "content_text": "We’ve been hard at work on the next major revision of Tokio, Rust’s asynchronous runtime. Today, a complete rewrite of the scheduler has been submitted as a pull request. The result is huge performance and latency improvements. Some benchmarks saw a 10x speed up! It is always unclear how much these kinds of improvements impact “full stack” use cases, so we’ve also tested how these scheduler improvements impacted use cases like Hyper and Tonic (spoiler: it’s really good).",
+      "url": "https://tokio.rs/blog/2019-10-scheduler/",
+      "date_published": "2019-10-13T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "67d3364b-64e1-4c9e-bf5c-93ed324c8f4a",
       "title": "How to speed up the Rust compiler some more in 2019",
       "content_text": "In July I wrote about my efforts to speed up the Rust compiler in 2019. I also described how the Rust compiler has gotten faster in 2019, with compile time reductions of 20-50% on most benchmarks. Now that Q3 is finished it’s a good time to see how things have changed since then.",

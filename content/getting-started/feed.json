@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "48e29784-dd63-4e7b-8586-bad8bc58be5b",
+      "title": "WebAssembly — Is It As Scary As It Sounds?",
+      "content_text": "Learn WebAssembly while building a Wasm-based QR decoder for the browser.",
+      "url": "https://medium.com/better-programming/webassembly-is-it-as-scary-as-it-sounds-b0c38fb2d9c8",
+      "date_published": "2019-07-18T22:17:48.485+00:00",
+      "author": {
+        "name": "Jacky Efendi",
+        "url": "https://medium.com/@jackyef"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "b741f301-dd98-4d7c-a82c-486b43242507",
+      "title": "Learning Rust at Hacktoberfest in 8 hours",
+      "content_text": "This year’s #hacktoberfest became a great opportunity for me to start learning Rust. In this article, I will share a couple of tricks about how to start mastering this relatively new technology.",
+      "url": "https://medium.com/@knidarkness/learning-rust-at-hacktoberfest-in-8-hours-7b788883c665",
+      "date_published": "2019-10-15T07:42:17.696+00:00",
+      "author": {
+        "name": "Sergey Dubovyk",
+        "url": "https://medium.com/@knidarkness"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "e3c786d5-955b-422a-b426-fcc3639d92c3",
       "title": "Roguelike Tutorial: Up-to-date and Literate",
       "content_text": "This tutorial will show you how to write a roguelike in the Rust programming language and the libtcod library. In this update the Asciidoctor documents were changed to allow generating the final source files at the end of each chapter directly from the tutorial text.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "15a21264-f2eb-4d31-8f58-700f2382b9e8",
+      "title": "Ruffle: an Adobe Flash Player emulator written in the Rust",
+      "content_text": "Ruffle is an Adobe Flash Player emulator written in the Rust programming language. Ruffle targets both the desktop and the web using WebAssembly.",
+      "url": "https://github.com/ruffle-rs/ruffle/blob/master/README.md",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "Mike Welsh",
+        "url": "https://github.com/ruffle-rs"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "ab31d896-cb5c-40a9-bb9f-a496a672239b",
       "title": "OxidizeBot - The high octane Twitch bot",
       "content_text": "OxidizeBot as an open source Twitch Bot empowering you to focus on what's important. It allows for a richer interaction between you and your chat. From a song request system, to groundbreaking game modes where your viewers can interact directly with you and your game.",

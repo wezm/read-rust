@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "f33cd82d-46fa-4e3e-97e9-0bef43ba9b00",
+      "title": "Watt: A runtime for executing Rust procedural macros compiled as WebAssembly",
+      "content_text": " By compiling macros ahead-of-time to Wasm, we save all downstream users of the macro from having to compile the macro logic or its dependencies themselves. Instead, what they compile is a small self-contained Wasm runtime (~3 seconds, shared by all macros) and a tiny proc macro shim for each macro crate to hand off Wasm bytecode into the Watt runtime (~0.3 seconds per proc-macro crate you depend on). This is much less than the 20+ seconds it can take to compile complex procedural macros and their dependencies.",
+      "url": "https://github.com/dtolnay/watt",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "97ca4165-4f8c-4c57-872d-e5986df0c7ee",
+      "title": "Making the Tokio scheduler 10x faster",
+      "content_text": "We’ve been hard at work on the next major revision of Tokio, Rust’s asynchronous runtime. Today, a complete rewrite of the scheduler has been submitted as a pull request. The result is huge performance and latency improvements. Some benchmarks saw a 10x speed up! It is always unclear how much these kinds of improvements impact “full stack” use cases, so we’ve also tested how these scheduler improvements impacted use cases like Hyper and Tonic (spoiler: it’s really good).",
+      "url": "https://tokio.rs/blog/2019-10-scheduler/",
+      "date_published": "2019-10-13T00:00:00+00:00",
+      "author": {
+        "name": "Carl Lerche",
+        "url": "https://tokio.rs/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "10dac43f-1aba-416e-bfbb-190a33ad2c5d",
       "title": "mda-rs: Custom Mail Delivery Agents in Rust",
       "content_text": "With mda-rs I wanted to create an experience as close as possible to using an interpreted domain specific language, the approach follow by typical MDAs, while still having the performance and power of a full, compiled language at the fingertips. One aspect of this experience was providing an API that feels like natural fit for the intended purpose. The other aspect was providing a straightforward way to build a custom MDA. For this second aspect, the simplicity of Rust's cargo was one of the reasons I decided to use Rust for this project.",
