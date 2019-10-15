@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "8629a67f-d7a6-41e9-80b1-e568f491c325",
+      "title": "Announcing Rustup 1.20.0",
+      "content_text": "The highlights of this release are profiles support, the ability to get the latest available nightly with all the components you need, and improvements to the rustup doc command. You can also check out the changelog for a list of all the changes included in this release.",
+      "url": "https://blog.rust-lang.org/2019/10/15/Rustup-1.20.0.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1184010499094142976?s=20",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "The Rustup Working Group",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "318ffc1c-1f3c-4d9a-b5ea-edaa476d3438",
       "title": "Parsing Rust Strings into Slices",
       "content_text": "A Rust String is a vector of bytes containing a UTF-8 string, which is an uneasy combination. You can’t simply index into a String: the compiler forbids it, because you’re far too likely to get one byte of a multi-byte UTF-8 char. Instead you need to use a Chars iterator to parse out the string character by character.",
