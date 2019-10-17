@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8b2ade3b-1476-4770-a7e2-838c3623a381",
+      "title": "Detecting Application Uniqueness and interprocess communication in Rust",
+      "content_text": "The aim of this article is to demonstrate one of many ways to detect application uniqueness and establish unilateral interprocess communication in Rust in the Linux platform. Note that the APIs used in this article is not portable to Windows and other *nix systems. Also note that methods used in this article may not be best suitable for all use cases.",
+      "url": "https://gitlab.com/snippets/1903637",
+      "date_published": "2019-10-14T00:00:00+00:00",
+      "author": {
+        "name": "9898287",
+        "url": "https://gitlab.com/9898287"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8629a67f-d7a6-41e9-80b1-e568f491c325",
       "title": "Announcing Rustup 1.20.0",
       "content_text": "The highlights of this release are profiles support, the ability to get the latest available nightly with all the components you need, and improvements to the rustup doc command. You can also check out the changelog for a list of all the changes included in this release.",

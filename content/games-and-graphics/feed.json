@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "5d2b3926-5f8e-496f-a438-a26c8ed7dfb7",
+      "title": "This Month in Raygon 1",
+      "content_text": "It's been about 51 days since I first announced Raygon, a WIP high-performance CPU path tracer written in the Rust programming language, which will feature state of the art light transport integrators, including path tracing, bidirectional path tracing and VCM.\n\nIn this post I'll go over some of the features implemented or improved, and show some recent renders, then talk about the future of Raygon and how you can help.",
+      "url": "https://github.com/raygon-renderer/readme/blob/master/blogs/month-1.md",
+      "date_published": "2019-10-17T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Trent",
+        "url": "https://github.com/novacrazy"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5f7c6828-7321-4f85-8d17-e80a4c0a44ad",
+      "title": "LDraw.rs: A library for reading and writing Lego model files for native and web",
+      "content_text": "A library for reading and writing LDraw model files and rendering the model using OpenGL for both native and web!",
+      "url": "https://github.com/segfault87/ldraw.rs",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Park Joon-Kyu",
+        "url": "https://github.com/segfault87"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "15a21264-f2eb-4d31-8f58-700f2382b9e8",
       "title": "Ruffle: an Adobe Flash Player emulator written in the Rust",
       "content_text": "Ruffle is an Adobe Flash Player emulator written in the Rust programming language. Ruffle targets both the desktop and the web using WebAssembly.",

@@ -10,6 +10,104 @@
   },
   "items": [
     {
+      "id": "f89a8738-2275-4023-8223-28dae4184cd9",
+      "title": "Adventures in Motion Control: Top-Level Infrastructure",
+      "content_text": "Most embedded systems will implement multi-tasking by rapidly polling each system within an infinite loop. A motion controller will normally spend most of its time polling, but there are places where polling isn’t appropriate. For example, accurate movement of a stepper motor relies on sending pulses at very precise times. Another scenario is in the handling of communication, where waiting for the next poll to read a byte may result in missing part of a message.",
+      "url": "http://adventures.michaelfbryan.com/posts/top-level-infrastructure/",
+      "date_published": "2019-09-02T21:22:30+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "5d2b3926-5f8e-496f-a438-a26c8ed7dfb7",
+      "title": "This Month in Raygon 1",
+      "content_text": "It's been about 51 days since I first announced Raygon, a WIP high-performance CPU path tracer written in the Rust programming language, which will feature state of the art light transport integrators, including path tracing, bidirectional path tracing and VCM.\n\nIn this post I'll go over some of the features implemented or improved, and show some recent renders, then talk about the future of Raygon and how you can help.",
+      "url": "https://github.com/raygon-renderer/readme/blob/master/blogs/month-1.md",
+      "date_published": "2019-10-17T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Trent",
+        "url": "https://github.com/novacrazy"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1f048104-e5be-49df-9def-c7b4de0d5478",
+      "title": "Nushell 0.4.0",
+      "content_text": "Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your commandline. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful commandline pipelines.\n\nToday we’re happy to announce the 0.4.0 release of Nushell. The 0.4.0 release marks a continually maturing shell that is now starting to show signs of stability. And, of course, a few fun features along the way.",
+      "url": "http://www.jonathanturner.org/2019/10/nushell-0_4_0.html",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "44a70495-156b-4de1-8eff-0ef9e334368c",
+      "title": "Rust for JavaScript peeps",
+      "content_text": "People seem to like Rust a lot! But if you're coming from JavaScript, not everything may make a lot of sense at first. But no problem; this guide is for you! Because I think Rust and JavaScript are really similar in many ways; to the point that if you know JS it's mostly a matter of getting the hang of some of the nuances before you can more or less get the hang of Rust.",
+      "url": "https://github.com/yoshuawuyts/rust-for-js-people",
+      "date_published": "2019-10-17T07:58:16+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1154694c-7ad8-4ea5-bf37-1c1e4238dc46",
+      "title": "An intern's experience with Rust",
+      "content_text": "Over the course of my internship at the Microsoft Security Response Center (MSRC), I worked on the safe systems programming languages (SSPL) team to promote safer languages for systems programming where runtime overhead is important, as outlined in this blog. My job was to port a security critical network processing agent into Rust to eliminate …  An intern’s experience with Rust Read More »",
+      "url": "https://msrc-blog.microsoft.com/2019/10/16/an-interns-experience-with-rust/",
+      "date_published": "2019-10-16T21:26:29+00:00",
+      "author": {
+        "name": "Alexander Clarke",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "5f7c6828-7321-4f85-8d17-e80a4c0a44ad",
+      "title": "LDraw.rs: A library for reading and writing Lego model files for native and web",
+      "content_text": "A library for reading and writing LDraw model files and rendering the model using OpenGL for both native and web!",
+      "url": "https://github.com/segfault87/ldraw.rs",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Park Joon-Kyu",
+        "url": "https://github.com/segfault87"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8b2ade3b-1476-4770-a7e2-838c3623a381",
+      "title": "Detecting Application Uniqueness and interprocess communication in Rust",
+      "content_text": "The aim of this article is to demonstrate one of many ways to detect application uniqueness and establish unilateral interprocess communication in Rust in the Linux platform. Note that the APIs used in this article is not portable to Windows and other *nix systems. Also note that methods used in this article may not be best suitable for all use cases.",
+      "url": "https://gitlab.com/snippets/1903637",
+      "date_published": "2019-10-14T00:00:00+00:00",
+      "author": {
+        "name": "9898287",
+        "url": "https://gitlab.com/9898287"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8629a67f-d7a6-41e9-80b1-e568f491c325",
       "title": "Announcing Rustup 1.20.0",
       "content_text": "The highlights of this release are profiles support, the ability to get the latest available nightly with all the components you need, and improvements to the rustup doc command. You can also check out the changelog for a list of all the changes included in this release.",

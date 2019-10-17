@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "f89a8738-2275-4023-8223-28dae4184cd9",
+      "title": "Adventures in Motion Control: Top-Level Infrastructure",
+      "content_text": "Most embedded systems will implement multi-tasking by rapidly polling each system within an infinite loop. A motion controller will normally spend most of its time polling, but there are places where polling isn’t appropriate. For example, accurate movement of a stepper motor relies on sending pulses at very precise times. Another scenario is in the handling of communication, where waiting for the next poll to read a byte may result in missing part of a message.",
+      "url": "http://adventures.michaelfbryan.com/posts/top-level-infrastructure/",
+      "date_published": "2019-09-02T21:22:30+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "e808921f-a270-4d4b-a897-d856dbd4a5ab",
       "title": "Coding nRF52 with Rust and Apache Mynewt on Visual Studio Code",
       "content_text": "The nRF52 Microcontroller by Nordic Semiconductor is an awesome gadget with powerful Bluetooth Low Energy networking capability. It’s affordable too… For under $8, I can buy an EBYTE E73-TBB Development Board with onboard nRF52. Powered by an Arm Cortex-M4 CPU (hardware floating-point) with 64 KB of RAM and 512 KB of Flash ROM, the nRF52 has plenty of capacity to run modern embedded platforms… Like Apache Mynewt realtime OS and Embedded Rust!",
