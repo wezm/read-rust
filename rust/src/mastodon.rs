@@ -21,6 +21,7 @@ use std::path::Path;
 
 const MASTODON_DATA_FILE: &str = ".mastodon-data.json";
 
+// TODO: Replace the files with env vars
 fn connect_to_mastodon() -> Result<Mastodon, Error> {
     match File::open(MASTODON_DATA_FILE) {
         Ok(file) => {
@@ -31,7 +32,7 @@ fn connect_to_mastodon() -> Result<Mastodon, Error> {
     }
 }
 
-fn register() -> Result<Mastodon, Error> {
+pub fn register() -> Result<Mastodon, Error> {
     let app = AppBuilder {
         client_name: "read-rust",
         redirect_uris: "urn:ietf:wg:oauth:2.0:oob",

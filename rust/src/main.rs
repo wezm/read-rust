@@ -14,13 +14,18 @@ use dotenv::dotenv;
 use env_logger::Env;
 use failure::_core::time::Duration;
 use getopts::Options;
-use log::{error, debug, info};
+use log::{debug, error, info};
 
 use diesel::PgConnection;
-use read_rust::db;
+use read_rust::{db, mastodon};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
+
+enum Service {
+    Twitter,
+    Mastodon,
+}
 
 fn main() {
     dotenv().ok();
@@ -38,6 +43,12 @@ fn main() {
     let mut opts = Options::new();
     opts.optflag("t", "toot", "toot new posts");
     opts.optflag("w", "tweet", "tweet new posts");
+    opts.optflag("l", "loop", "enter loop checking for new posts");
+    opts.optflag(
+        "r",
+        "register",
+        "retrieve Twitter or Mastodon tokens (requires -t or -w as well)",
+    );
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
@@ -48,9 +59,30 @@ fn main() {
         return;
     }
 
-    match run(matches.opt_present("t"), matches.opt_present("w")) {
-        Ok(()) => {}
-        Err(err) => {
+    if matches.opt_present("r") {
+        let service = match (matches.opt_present("t"), matches.opt_present("w")) {
+            (false, false) => {
+                eprintln!("One of -t or -w is needed with -r");
+                std::process::exit(1);
+            }
+            (true, false) => Service::Mastodon,
+            (false, true) => Service::Twitter,
+            (true, true) => {
+                eprintln!("Only one of -t or -w is allowed with -r");
+                std::process::exit(1);
+            }
+        };
+
+        if let Err(err) = register(service) {
+            error!("Registration Error: {}", err);
+            std::process::exit(1);
+        }
+    } else {
+        if let Err(err) = run(
+            matches.opt_present("l"),
+            matches.opt_present("t"),
+            matches.opt_present("w"),
+        ) {
             error!("Fatal Error: {}", err);
             std::process::exit(1);
         }
@@ -62,12 +94,13 @@ fn print_usage(program: &str, opts: &Options) {
     eprint!("{}", opts.usage(&brief));
 }
 
-fn run(toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
+fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     let database_url = env::var("DATABASE_URL")?;
     let conn = db::establish_connection(&database_url)?;
     info!("Connected to database");
 
     // TODO: Cleanly exit when sent sigint
+    debug!("Entering main loop");
     loop {
         if toot {
             debug!("Checking for new posts to toot");
@@ -83,8 +116,13 @@ fn run(toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
             }
         }
 
+        if !doloop {
+            break;
+        }
         thread::sleep(SLEEP_TIME)
     }
+
+    Ok(())
 }
 
 fn toot_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
@@ -98,6 +136,17 @@ fn toot_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
 fn tweet_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
     for post in db::untweeted_posts(conn)? {
         info!("New post to tweet: [{}] {}", post.id, post.title);
+    }
+
+    Ok(())
+}
+
+fn register(service: Service) -> Result<(), Box<dyn Error>> {
+    match service {
+        Service::Twitter => unimplemented!("need to implement twitter::register"),
+        Service::Mastodon => {
+            let _fixme = mastodon::register();
+        }
     }
 
     Ok(())
