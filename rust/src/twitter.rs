@@ -1,26 +1,21 @@
 extern crate egg_mode;
-#[macro_use]
-extern crate failure;
 extern crate getopts;
-extern crate read_rust;
 extern crate serde;
-#[macro_use]
-extern crate serde_derive;
 extern crate serde_json;
 extern crate tokio;
 extern crate url;
 extern crate uuid;
 
-use egg_mode::tweet::DraftTweet;
-use egg_mode::{KeyPair, Token};
+use self::egg_mode::tweet::DraftTweet;
+use self::egg_mode::{KeyPair, Token};
 use failure::Error;
-use getopts::Options;
-use tokio::runtime::current_thread::block_on_all;
-use url::Url;
+use self::getopts::Options;
+use self::tokio::runtime::current_thread::block_on_all;
+use self::url::Url;
 
-use read_rust::categories::Categories;
-use read_rust::feed::{Item, JsonFeed};
-use read_rust::toot_list::{Toot, TootList};
+use crate::categories::Categories;
+use crate::feed::{Item, JsonFeed};
+use crate::toot_list::{Toot, TootList};
 
 use std::borrow::Cow;
 use std::env;

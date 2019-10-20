@@ -1,19 +1,18 @@
 extern crate failure;
 extern crate getopts;
 extern crate mammut;
-extern crate read_rust;
 extern crate serde;
 extern crate serde_json;
 extern crate uuid;
 
-use failure::Error;
-use getopts::Options;
-use mammut::apps::{AppBuilder, Scopes};
-use mammut::{Data, Mastodon, Registration, StatusBuilder};
+use self::failure::Error;
+use self::getopts::Options;
+use self::mammut::apps::{AppBuilder, Scopes};
+use self::mammut::{Data, Mastodon, Registration, StatusBuilder};
 
-use read_rust::categories::Categories;
-use read_rust::feed::{Item, JsonFeed};
-use read_rust::toot_list::{Toot, TootList};
+use crate::categories::Categories;
+use crate::feed::{Item, JsonFeed};
+use crate::toot_list::{Toot, TootList};
 
 use std::env;
 use std::fs::File;

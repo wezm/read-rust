@@ -1,3 +1,4 @@
+#[macro_use]
 extern crate failure;
 #[macro_use]
 extern crate failure_derive;
@@ -14,3 +15,5 @@ pub mod categories;
 pub mod error;
 pub mod feed;
 pub mod toot_list;
+pub mod mastodon;
+pub mod twitter;

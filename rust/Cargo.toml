@@ -2,6 +2,11 @@
 name = "read-rust"
 version = "0.1.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
+autobins = false
+
+[[bin]]
+name = "readrust"
+path = "src/main.rs"
 
 [dependencies]
 atom_syndication = "0"
