@@ -20,6 +20,11 @@ class Category
     Category.new(15, "Web and Network Services", "web",         "web-and-network-services", "Web applications, web assembly, network daemons, etc."),
   ]
 
+  # Return the list of category ids that are valid for a PostCategory record
+  def self.valid_ids
+    ALL.compact_map { |category| category.all? ? nil : category.id }
+  end
+
   def initialize(@id : Int16, @name : String, @hashtag : String, @slug : String, @description : String)
   end
 
