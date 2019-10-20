@@ -1,4 +1,6 @@
 #[macro_use]
+extern crate diesel;
+#[macro_use]
 extern crate failure;
 #[macro_use]
 extern crate failure_derive;
@@ -14,6 +16,8 @@ extern crate uuid;
 pub mod categories;
 pub mod error;
 pub mod feed;
-pub mod toot_list;
 pub mod mastodon;
+pub mod models;
+pub mod schema;
+pub mod toot_list;
 pub mod twitter;

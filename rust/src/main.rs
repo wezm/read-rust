@@ -3,6 +3,7 @@ extern crate env_logger;
 extern crate failure;
 extern crate getopts;
 extern crate log;
+extern crate read_rust;
 
 use std::env::{self, VarError};
 use std::error::Error;
@@ -13,6 +14,8 @@ use env_logger::Env;
 use failure::_core::time::Duration;
 use getopts::Options;
 use log::info;
+
+use read_rust::models::Post;
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -56,8 +59,6 @@ fn print_usage(program: &str, opts: &Options) {
     let brief = format!("Usage: {} [options] URL", program);
     print!("{}", opts.usage(&brief));
 }
-
-type Post = u32;
 
 fn run(toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     // TODO: Cleanly exit when sent sigint
