@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+
+# Exit if any subcommand fails
+set -e
+set -o pipefail
+
+indent() {
+  while read LINE; do
+    echo "  $LINE" || true
+  done
+}
+
+# Ensure postgres client tools are installed
+check_postgres() {
+  if ! command -v createdb > /dev/null; then
+    printf 'Please install the postgres CLI tools, then try again.\n'
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+      printf "If you're using Postgres.app, see https://postgresapp.com/documentation/cli-tools.html.\n"
+    fi
+    printf 'See https://www.postgresql.org/docs/current/tutorial-install.html for install instructions.\n'
+    exit 1
+  fi
+}
+
+if ! command -v yarn > /dev/null; then
+  printf 'Yarn is not installed.\n'
+  printf 'See https://yarnpkg.com/lang/en/docs/install/ for install instructions.\n'
+  exit 1
+fi
+
+printf "\n▸ Installing node dependencies\n"
+yarn install --no-progress | indent
+
+printf "\n▸ Compiling assets\n"
+yarn dev | indent
+
+printf "\n▸ Installing shards\n"
+shards install | indent
+
+printf "\n▸ Checking that a process runner is installed\n"
+# Only if this isn't CI
+if [ -z "$CI" ]; then
+  lucky ensure_process_runner_installed
+fi
+printf "✔ Done\n" | indent
+
+if [ ! -f ".env" ]; then
+  printf "\n▸ No .env found. Creating one.\n"
+  touch .env
+  printf "✔ Done\n" | indent
+fi
+
+printf "\n▸ Checking that postgres is installed\n"
+check_postgres | indent
+printf "✔ Done\n" | indent
+
+printf "\n▸ Creating the database\n"
+lucky db.create | indent
+
+printf "\n▸ Verifying postgres connection\n"
+lucky db.verify_connection | indent
+
+printf "\n▸ Migrating the database\n"
+lucky db.migrate | indent
+
+printf "\n▸ Seeding the database with required and sample records\n"
+lucky db.create_required_seeds | indent
+lucky db.create_sample_seeds | indent
+
+printf "\n✔ All done. Run 'lucky dev' to start the app\n"

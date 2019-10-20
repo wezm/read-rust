@@ -1,0 +1,44 @@
+button {
+  margin-left: 0.5em;
+}
+.form-stacked textarea,
+.form-stacked input[type='text'],
+.form-stacked input[type='url']
+{
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+}
+.form-stacked input[type='time'] {
+  margin-left: 0.5em;
+}
+.form-stacked input[type='time'],
+.form-stacked input[type='date'] {
+  min-height: 32px;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+  display: inline-block;
+}
+.form-actions {
+  margin-top: 1em;
+  text-align: right;
+}
+textarea {
+  min-height: 13rem;
+}
+label,
+legend {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+label input {
+  margin-right: 0.5em;
+}
+.categories {
+  column-width: 250px;
+}
+.categories label {
+  font-weight: normal;
+}
+
