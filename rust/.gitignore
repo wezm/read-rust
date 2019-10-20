@@ -2,6 +2,6 @@
 .mastodon-data.json
 .twitter-data.json
 .idea
-src/bin/.consumer*
+src/.consumer*
 /target/
 **/*.rs.bk
