@@ -11,12 +11,15 @@ path = "src/main.rs"
 [dependencies]
 atom_syndication = "0"
 chrono = { version = "0", features = ['serde'] }
+dotenv = "0.14.1"
 egg-mode = { version = "0", default-features = false, features = ["hyper-rustls"] }
+env_logger = "0.6.2"
 failure = "0"
 failure_derive = "0"
 feedfinder = { git = "https://github.com/wezm/feedfinder.git", branch = "bump-dependencies" }
 getopts = "0"
 kuchiki = "0"
+log = "0.4.0"
 mammut = "0"
 opengraph = "0"
 reqwest = "0"
