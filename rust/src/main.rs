@@ -1,3 +1,4 @@
+extern crate diesel;
 extern crate dotenv;
 extern crate env_logger;
 extern crate failure;
@@ -13,9 +14,10 @@ use dotenv::dotenv;
 use env_logger::Env;
 use failure::_core::time::Duration;
 use getopts::Options;
-use log::info;
+use log::{error, debug, info};
 
-use read_rust::models::Post;
+use diesel::PgConnection;
+use read_rust::db;
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -49,7 +51,7 @@ fn main() {
     match run(matches.opt_present("t"), matches.opt_present("w")) {
         Ok(()) => {}
         Err(err) => {
-            eprintln!("Error: {}", err);
+            error!("Fatal Error: {}", err);
             std::process::exit(1);
         }
     }
@@ -57,28 +59,46 @@ fn main() {
 
 fn print_usage(program: &str, opts: &Options) {
     let brief = format!("Usage: {} [options] URL", program);
-    print!("{}", opts.usage(&brief));
+    eprint!("{}", opts.usage(&brief));
 }
 
 fn run(toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
+    let database_url = env::var("DATABASE_URL")?;
+    let conn = db::establish_connection(&database_url)?;
+    info!("Connected to database");
+
     // TODO: Cleanly exit when sent sigint
     loop {
-        let posts: Vec<Post> = Vec::new();
         if toot {
-            toot_posts(&posts); // Failure to toot is not fatal, carry on after logging
+            debug!("Checking for new posts to toot");
+            if let Err(err) = toot_new_posts(&conn) {
+                // TODO: Log Sentry error
+                error!("Error tooting new posts: {}", err);
+            }
         }
         if tweet {
-            tweet_posts(&posts);
+            debug!("Checking for new posts to tweet");
+            if let Err(err) = tweet_new_posts(&conn) {
+                error!("Error tweeting new posts: {}", err);
+            }
         }
 
         thread::sleep(SLEEP_TIME)
     }
 }
 
-fn toot_posts(posts: &[Post]) -> Result<(), Box<dyn Error>> {
+fn toot_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
+    for post in db::untooted_posts(conn)? {
+        info!("New post to toot: [{}] {}", post.id, post.title);
+    }
+
     Ok(())
 }
 
-fn tweet_posts(posts: &[Post]) -> Result<(), Box<dyn Error>> {
+fn tweet_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
+    for post in db::untweeted_posts(conn)? {
+        info!("New post to tweet: [{}] {}", post.id, post.title);
+    }
+
     Ok(())
 }

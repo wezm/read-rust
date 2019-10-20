@@ -8,10 +8,10 @@ extern crate uuid;
 
 use self::egg_mode::tweet::DraftTweet;
 use self::egg_mode::{KeyPair, Token};
-use failure::Error;
 use self::getopts::Options;
 use self::tokio::runtime::current_thread::block_on_all;
 use self::url::Url;
+use failure::Error;
 
 use crate::categories::Categories;
 use crate::feed::{Item, JsonFeed};

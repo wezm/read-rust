@@ -1,11 +1,7 @@
 extern crate chrono;
 
-use std::io::Write;
-
-use self::chrono::{DateTime, FixedOffset, Utc};
-use diesel::pg::Pg;
-use diesel::serialize::{self, Output, ToSql};
-use diesel::sql_types::{self, Text, Uuid};
+use self::chrono::{DateTime, Utc};
+use uuid::Uuid;
 
 #[derive(Queryable)]
 pub struct Post {

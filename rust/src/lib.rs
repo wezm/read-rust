@@ -14,6 +14,7 @@ extern crate rss;
 extern crate uuid;
 
 pub mod categories;
+pub mod db;
 pub mod error;
 pub mod feed;
 pub mod mastodon;

@@ -11,7 +11,7 @@ path = "src/main.rs"
 [dependencies]
 atom_syndication = "0"
 chrono = { version = "0", features = ['serde'] }
-diesel = { version = "1.0", features = ["postgres", "chrono"] }
+diesel = { version = "1.0", features = ["postgres", "chrono", "uuidv07"] }
 dotenv = "0.14.1"
 egg-mode = { version = "0", default-features = false, features = ["hyper-rustls"] }
 env_logger = "0.6.2"
