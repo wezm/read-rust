@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 use std::convert::TryFrom;
 use std::rc::Rc;
 
@@ -9,16 +8,16 @@ const JSON: &str = include_str!("../../content/_data/categories.json");
 
 #[derive(Debug, Deserialize)]
 pub struct Category {
+    pub id: i16,
     pub name: String,
     pub hashtag: String,
-    pub path: String,
+    pub slug: String,
     pub description: String,
 }
 
 #[derive(Debug)]
 pub struct Categories {
     categories: Vec<Rc<Category>>,
-    tag_map: HashMap<String, Rc<Category>>,
 }
 
 impl Categories {
@@ -26,15 +25,7 @@ impl Categories {
         let categories: Vec<Category> = serde_json::from_str(JSON).unwrap(); // It's expected that the categories were valid at compile time
         let categories: Vec<_> = categories.into_iter().map(Rc::new).collect();
 
-        let mut tag_map = HashMap::new();
-        for category in categories.iter() {
-            tag_map.insert(category.name.clone(), Rc::clone(&category));
-        }
-
-        Categories {
-            categories,
-            tag_map,
-        }
+        Categories { categories }
     }
 
     pub fn with_ids(&self, ids: impl Iterator<Item = i16>) -> Vec<Rc<Category>> {
