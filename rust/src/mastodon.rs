@@ -1,4 +1,3 @@
-extern crate failure;
 extern crate getopts;
 extern crate mammut;
 extern crate serde;

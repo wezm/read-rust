@@ -13,6 +13,7 @@ use self::url::Url;
 
 use categories::Category;
 use models::Post;
+use ErrorMessage;
 
 use std::env;
 use std::error::Error;
@@ -61,7 +62,7 @@ pub fn tweet_post(
 ) -> Result<(), Box<dyn Error>> {
     if let Some(tweet_url) = &post.twitter_url {
         let tweet_id = tweet_id_from_url(&tweet_url)
-            .ok_or_else(|| format_err!("{} is not a valid tweet URL", tweet_url))?;
+            .ok_or_else(|| ErrorMessage(format!("{} is not a valid tweet URL", tweet_url)))?;
         info!("🔁 Tweet {}", tweet_url);
         let work = egg_mode::tweet::retweet(tweet_id, token);
         block_on_all(work)?;

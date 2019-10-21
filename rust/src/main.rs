@@ -2,15 +2,14 @@ extern crate diesel;
 extern crate dotenv;
 extern crate egg_mode;
 extern crate env_logger;
-extern crate failure;
 extern crate getopts;
 extern crate log;
 extern crate read_rust;
 
 use std::env::{self, VarError};
 use std::error::Error;
+use std::thread;
 use std::time::Duration;
-use std::{fmt, thread};
 
 use diesel::{Connection, PgConnection};
 use dotenv::dotenv;
@@ -20,7 +19,7 @@ use getopts::Options;
 use log::{debug, error, info};
 
 use read_rust::categories::Categories;
-use read_rust::{db, mastodon, twitter};
+use read_rust::{db, mastodon, twitter, ErrorMessage};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -29,9 +28,6 @@ enum Service {
     Twitter,
     Mastodon,
 }
-
-#[derive(Debug)]
-struct ErrorMessage(String);
 
 fn main() {
     dotenv().ok();
@@ -222,11 +218,3 @@ fn register(service: Service) -> Result<(), Box<dyn Error>> {
         }
     }
 }
-
-impl fmt::Display for ErrorMessage {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        self.0.fmt(f)
-    }
-}
-
-impl Error for ErrorMessage {}
