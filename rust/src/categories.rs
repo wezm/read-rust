@@ -4,6 +4,7 @@ use std::convert::TryFrom;
 use std::rc::Rc;
 
 use serde_json;
+use serde::Deserialize;
 
 const JSON: &str = include_str!("../../content/_data/categories.json");
 
