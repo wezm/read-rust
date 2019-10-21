@@ -3,8 +3,8 @@ use std::collections::HashMap;
 use std::convert::TryFrom;
 use std::rc::Rc;
 
-use serde_json;
 use serde::Deserialize;
+use serde_json;
 
 const JSON: &str = include_str!("../../content/_data/categories.json");
 

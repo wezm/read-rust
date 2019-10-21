@@ -74,15 +74,13 @@ fn main() {
             error!("Registration Error: {}", err);
             std::process::exit(1);
         }
-    } else {
-        if let Err(err) = run(
-            matches.opt_present("l"),
-            matches.opt_present("t"),
-            matches.opt_present("w"),
-        ) {
-            error!("Fatal Error: {}", err);
-            std::process::exit(1);
-        }
+    } else if let Err(err) = run(
+        matches.opt_present("l"),
+        matches.opt_present("t"),
+        matches.opt_present("w"),
+    ) {
+        error!("Fatal Error: {}", err);
+        std::process::exit(1);
     }
 }
 

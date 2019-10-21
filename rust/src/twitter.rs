@@ -39,7 +39,7 @@ pub fn register(
 
     let mut pin = String::new();
     std::io::stdin().read_line(&mut pin)?;
-    println!("");
+    println!();
 
     let (token, _user_id, _screen_name) =
         block_on_all(egg_mode::access_token(con_token, &request_token, pin))?;
