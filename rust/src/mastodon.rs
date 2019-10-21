@@ -14,19 +14,18 @@ use crate::categories::Categories;
 use crate::feed::{Item, JsonFeed};
 use crate::toot_list::{Toot, TootList};
 
-use std::borrow::Cow;
 use std::env;
 use std::error::Error;
 use std::io;
 use std::path::Path;
 
-pub fn connect_to_mastodon() -> Result<Mastodon, Box<dyn Error>> {
+pub fn client_from_env() -> Result<Mastodon, Box<dyn Error>> {
     let data = Data {
-        base: Cow::from(env::var("MASTODON_BASE")?),
-        client_id: Cow::from(env::var("MASTODON_CLIENT_ID")?),
-        client_secret: Cow::from(env::var("MASTODON_CLIENT_SECRET")?),
-        redirect: Cow::from(env::var("MASTODON_REDIRECT")?),
-        token: Cow::from(env::var("MASTODON_TOKEN")?),
+        base: env::var("MASTODON_BASE")?.into(),
+        client_id: env::var("MASTODON_CLIENT_ID")?.into(),
+        client_secret: env::var("MASTODON_CLIENT_SECRET")?.into(),
+        redirect: env::var("MASTODON_REDIRECT")?.into(),
+        token: env::var("MASTODON_TOKEN")?.into(),
     };
 
     Ok(Mastodon::from_data(data))
@@ -100,7 +99,7 @@ fn run(
         return Ok(());
     }
 
-    let mastodon = connect_to_mastodon()?;
+    let mastodon = client_from_env()?;
     for item in to_toot {
         let status_text = toot_text_from_item(&item, &categories);
         println!("• {}", status_text);
