@@ -5,34 +5,34 @@ extern crate serde;
 extern crate serde_json;
 extern crate uuid;
 
-use self::failure::Error;
 use self::getopts::Options;
 use self::mammut::apps::{AppBuilder, Scopes};
 use self::mammut::{Data, Mastodon, Registration, StatusBuilder};
+use failure::ResultExt;
 
 use crate::categories::Categories;
 use crate::feed::{Item, JsonFeed};
 use crate::toot_list::{Toot, TootList};
 
+use std::borrow::Cow;
 use std::env;
-use std::fs::File;
+use std::error::Error;
 use std::io;
 use std::path::Path;
 
-const MASTODON_DATA_FILE: &str = ".mastodon-data.json";
+pub fn connect_to_mastodon() -> Result<Mastodon, Box<dyn Error>> {
+    let data = Data {
+        base: Cow::from(env::var("MASTODON_BASE")?),
+        client_id: Cow::from(env::var("MASTODON_CLIENT_ID")?),
+        client_secret: Cow::from(env::var("MASTODON_CLIENT_SECRET")?),
+        redirect: Cow::from(env::var("MASTODON_REDIRECT")?),
+        token: Cow::from(env::var("MASTODON_TOKEN")?),
+    };
 
-// TODO: Replace the files with env vars
-fn connect_to_mastodon() -> Result<Mastodon, Error> {
-    match File::open(MASTODON_DATA_FILE) {
-        Ok(file) => {
-            let data: Data = serde_json::from_reader(file)?;
-            Ok(Mastodon::from_data(data))
-        }
-        Err(_) => register(),
-    }
+    Ok(Mastodon::from_data(data))
 }
 
-pub fn register() -> Result<Mastodon, Error> {
+pub fn register() -> Result<Mastodon, Box<dyn Error>> {
     let app = AppBuilder {
         client_name: "read-rust",
         redirect_uris: "urn:ietf:wg:oauth:2.0:oob",
@@ -52,10 +52,6 @@ pub fn register() -> Result<Mastodon, Error> {
 
     let code = input.trim();
     let mastodon = registration.create_access_token(code.to_string())?;
-
-    // Save app data for using on the next run.
-    let file = File::create(MASTODON_DATA_FILE)?;
-    let _ = serde_json::to_writer_pretty(file, &*mastodon)?;
 
     Ok(mastodon)
 }
@@ -86,12 +82,12 @@ fn run(
     json_feed_path: &str,
     categories_path: &str,
     dry_run: bool,
-) -> Result<(), Error> {
+) -> Result<(), Box<dyn Error>> {
     let tootlist_path = Path::new(tootlist_path);
-    let mut tootlist = TootList::load(&tootlist_path)?;
-    let feed = JsonFeed::load(Path::new(json_feed_path))?;
+    let mut tootlist = TootList::load(&tootlist_path).compat()?;
+    let feed = JsonFeed::load(Path::new(json_feed_path)).compat()?;
     let categories_path = Path::new(categories_path);
-    let categories = Categories::load(&categories_path)?;
+    let categories = Categories::load(&categories_path).compat()?;
 
     let to_toot: Vec<Item> = feed
         .items
@@ -115,7 +111,7 @@ fn run(
     }
 
     if !dry_run {
-        let _ = tootlist.save(&tootlist_path)?;
+        let _ = tootlist.save(&tootlist_path).compat()?;
     }
 
     Ok(())

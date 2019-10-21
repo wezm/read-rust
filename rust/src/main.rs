@@ -145,9 +145,17 @@ fn register(service: Service) -> Result<(), Box<dyn Error>> {
     match service {
         Service::Twitter => unimplemented!("need to implement twitter::register"),
         Service::Mastodon => {
-            let _fixme = mastodon::register();
+            let client = mastodon::register()?;
+
+            // Print out the app data
+            let data = client.data;
+            println!("MASTODON_BASE={}", data.base);
+            println!("MASTODON_CLIENT_ID={}", data.client_id);
+            println!("MASTODON_CLIENT_SECRET={}", data.client_secret);
+            println!("MASTODON_REDIRECT={}", data.redirect);
+            println!("MASTODON_TOKEN={}", data.token);
+
+            Ok(())
         }
     }
-
-    Ok(())
 }
