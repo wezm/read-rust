@@ -1,14 +1,13 @@
-use mammut;
-
-use self::mammut::apps::{AppBuilder, Scopes};
-use self::mammut::{Data, Mastodon, Registration, StatusBuilder};
-
-use crate::categories::Category;
-use crate::models::Post;
 use std::env;
 use std::error::Error;
 use std::io;
 use std::rc::Rc;
+
+use mammut::apps::{AppBuilder, Scopes};
+use mammut::{Data, Mastodon, Registration, StatusBuilder};
+
+use crate::categories::Category;
+use crate::models::Post;
 
 pub fn client_from_env() -> Result<Mastodon, Box<dyn Error>> {
     let data = Data {

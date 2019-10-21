@@ -1,20 +1,15 @@
-use egg_mode;
+use std::env;
+use std::error::Error;
+use std::rc::Rc;
 
-use tokio;
-use url;
-
-use self::egg_mode::tweet::DraftTweet;
-use self::egg_mode::Token;
-use self::tokio::runtime::current_thread::block_on_all;
-use self::url::Url;
+use egg_mode::tweet::DraftTweet;
+use egg_mode::Token;
+use tokio::runtime::current_thread::block_on_all;
+use url::Url;
 
 use crate::categories::Category;
 use crate::models::Post;
 use crate::ErrorMessage;
-
-use std::env;
-use std::error::Error;
-use std::rc::Rc;
 
 pub fn token_from_env() -> Result<egg_mode::Token, Box<dyn Error>> {
     let token = egg_mode::Token::Access {

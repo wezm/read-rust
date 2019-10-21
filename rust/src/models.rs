@@ -1,6 +1,4 @@
-use chrono;
-
-use self::chrono::{DateTime, Utc};
+use chrono::{DateTime, Utc};
 use uuid::Uuid;
 
 use crate::schema::posts;
