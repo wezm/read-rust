@@ -12,7 +12,7 @@ use std::error::Error;
 use std::time::Duration;
 use std::{fmt, thread};
 
-use diesel::PgConnection;
+use diesel::{Connection, PgConnection};
 use dotenv::dotenv;
 use egg_mode::Token;
 use env_logger::Env;
@@ -47,6 +47,7 @@ fn main() {
     let program = args[0].clone();
 
     let mut opts = Options::new();
+    opts.optflag("n", "dryrun", "don't post statuses of update the db");
     opts.optflag("t", "toot", "toot new posts");
     opts.optflag("w", "tweet", "tweet new posts");
     opts.optflag("l", "loop", "enter loop checking for new posts");
@@ -138,16 +139,21 @@ fn toot_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Bo
     let client = mastodon::client_from_env()?;
 
     for post in db::untooted_posts(conn)? {
-        info!("New post to toot: [{}] {}", post.id, post.title);
+        let post_id = post.id;
+        info!("New post to toot: [{}] {}", post_id, post.title);
         let toot_result = db::post_categories(conn, &post, categories)
             .map_err(|err| err.into())
-            .and_then(|post_categories| mastodon::toot_post(&client, &post, &post_categories));
+            .and_then(|post_categories| {
+                conn.transaction::<_, Box<dyn Error>, _>(|| {
+                    mastodon::toot_post(&client, &post, &post_categories)?;
+                    db::mark_post_tooted(conn, post)?;
+
+                    Ok(())
+                })
+            });
 
         if let Err(err) = toot_result {
-            error!(
-                "Unable to to toot post: [{}] {}: {}",
-                post.id, post.title, err
-            );
+            error!("Unable to to toot post [{}]: {}", post_id, err);
         }
     }
 
@@ -158,16 +164,21 @@ fn tweet_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), B
     let token = twitter::token_from_env()?;
 
     for post in db::untweeted_posts(conn)? {
-        info!("New post to tweet: [{}] {}", post.id, post.title);
+        let post_id = post.id;
+        info!("New post to tweet: [{}] {}", post_id, post.title);
         let tweet_result = db::post_categories(conn, &post, categories)
             .map_err(|err| err.into())
-            .and_then(|post_categories| twitter::tweet_post(&token, &post, &post_categories));
+            .and_then(|post_categories| {
+                conn.transaction::<_, Box<dyn Error>, _>(|| {
+                    twitter::tweet_post(&token, &post, &post_categories)?;
+                    db::mark_post_tweeted(conn, post)?;
+
+                    Ok(())
+                })
+            });
 
         if let Err(err) = tweet_result {
-            error!(
-                "Unable to to tweet post: [{}] {}: {}",
-                post.id, post.title, err
-            );
+            error!("Unable to to tweet post [{}]: {}", post_id, err);
         }
     }
 

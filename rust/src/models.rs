@@ -3,7 +3,9 @@ extern crate chrono;
 use self::chrono::{DateTime, Utc};
 use uuid::Uuid;
 
-#[derive(Queryable)]
+use crate::schema::posts;
+
+#[derive(Identifiable, Queryable)]
 pub struct Post {
     pub id: i64,
     pub guid: Uuid,
