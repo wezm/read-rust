@@ -7,8 +7,8 @@ extern crate uuid;
 use self::mammut::apps::{AppBuilder, Scopes};
 use self::mammut::{Data, Mastodon, Registration, StatusBuilder};
 
-use categories::Category;
-use models::Post;
+use crate::categories::Category;
+use crate::models::Post;
 use std::env;
 use std::error::Error;
 use std::io;

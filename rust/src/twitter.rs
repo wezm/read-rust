@@ -11,9 +11,9 @@ use self::egg_mode::Token;
 use self::tokio::runtime::current_thread::block_on_all;
 use self::url::Url;
 
-use categories::Category;
-use models::Post;
-use ErrorMessage;
+use crate::categories::Category;
+use crate::models::Post;
+use crate::ErrorMessage;
 
 use std::env;
 use std::error::Error;
@@ -113,8 +113,6 @@ fn test_tweet_id_from_valid_url() {
     assert_eq!(
         tweet_id_from_url(
             &"https://twitter.com/llogiq/status/1012438300781576192"
-                .parse()
-                .unwrap()
         ),
         Some(1012438300781576192)
     );
@@ -125,8 +123,6 @@ fn test_tweet_id_from_invalid_url() {
     assert_eq!(
         tweet_id_from_url(
             &"https://not_twitter.com/llogiq/status/1012438300781576192"
-                .parse()
-                .unwrap()
         ),
         None
     );
@@ -135,7 +131,7 @@ fn test_tweet_id_from_invalid_url() {
 #[test]
 fn test_tweet_id_from_non_status_url() {
     assert_eq!(
-        tweet_id_from_url(&"https://twitter.com/rustlang/".parse().unwrap()),
+        tweet_id_from_url(&"https://twitter.com/rustlang/"),
         None
     );
 }
@@ -145,8 +141,6 @@ fn test_tweet_id_from_almost_valid_url() {
     assert_eq!(
         tweet_id_from_url(
             &"https://mobile.twitter.com/shaneOsbourne/status/1012451814338424832/photo/2"
-                .parse()
-                .unwrap()
         ),
         None
     );

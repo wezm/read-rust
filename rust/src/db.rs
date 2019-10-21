@@ -4,8 +4,8 @@ use diesel::pg::PgConnection;
 use diesel::prelude::*;
 
 use crate::models::Post;
-use categories::{Categories, Category};
-use models::PostCategory;
+use crate::categories::{Categories, Category};
+use crate::models::PostCategory;
 
 const BATCH_SIZE: i64 = 5;
 
