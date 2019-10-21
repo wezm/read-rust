@@ -1,5 +1,6 @@
 extern crate diesel;
 extern crate dotenv;
+extern crate egg_mode;
 extern crate env_logger;
 extern crate failure;
 extern crate getopts;
@@ -8,16 +9,17 @@ extern crate read_rust;
 
 use std::env::{self, VarError};
 use std::error::Error;
-use std::thread;
+use std::{fmt, thread};
 
 use dotenv::dotenv;
+use egg_mode::Token;
 use env_logger::Env;
 use failure::_core::time::Duration;
 use getopts::Options;
 use log::{debug, error, info};
 
 use diesel::PgConnection;
-use read_rust::{db, mastodon};
+use read_rust::{db, mastodon, twitter};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -26,6 +28,9 @@ enum Service {
     Twitter,
     Mastodon,
 }
+
+#[derive(Debug)]
+struct ErrorMessage(String);
 
 fn main() {
     dotenv().ok();
@@ -143,7 +148,26 @@ fn tweet_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
 
 fn register(service: Service) -> Result<(), Box<dyn Error>> {
     match service {
-        Service::Twitter => unimplemented!("need to implement twitter::register"),
+        Service::Twitter => {
+            let consumer_key = env::var("TWITTER_CONSUMER_KEY")?;
+            let consumer_secret = env::var("TWITTER_CONSUMER_SECRET")?;
+            let token = twitter::register(consumer_key, consumer_secret)?;
+
+            match token {
+                Token::Access { consumer, access } => {
+                    println!("TWITTER_CONSUMER_KEY={}", consumer.key);
+                    println!("TWITTER_CONSUMER_SECRET={}", consumer.secret);
+                    println!("TWITTER_ACCESS_KEY={}", access.key);
+                    println!("TWITTER_ACCESS_SECRET={}", access.secret);
+
+                    Ok(())
+                }
+                Token::Bearer(_) => Err(ErrorMessage(
+                    "Received Bearer token but expected Access token".to_string(),
+                )
+                .into()),
+            }
+        }
         Service::Mastodon => {
             let client = mastodon::register()?;
 
@@ -159,3 +183,11 @@ fn register(service: Service) -> Result<(), Box<dyn Error>> {
         }
     }
 }
+
+impl fmt::Display for ErrorMessage {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        self.0.fmt(f)
+    }
+}
+
+impl Error for ErrorMessage {}

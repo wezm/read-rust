@@ -11,7 +11,7 @@ use self::egg_mode::{KeyPair, Token};
 use self::getopts::Options;
 use self::tokio::runtime::current_thread::block_on_all;
 use self::url::Url;
-use failure::Error;
+use failure::ResultExt;
 
 use crate::categories::Categories;
 use crate::feed::{Item, JsonFeed};
@@ -19,6 +19,7 @@ use crate::toot_list::{Toot, TootList};
 
 use std::borrow::Cow;
 use std::env;
+use std::error::Error;
 use std::fs::File;
 use std::path::Path;
 
@@ -54,8 +55,44 @@ pub struct Config {
     pub screen_name: String,
 }
 
+pub fn token_from_env() -> Result<egg_mode::Token, Box<dyn Error>> {
+    let token = egg_mode::Token::Access {
+        consumer: egg_mode::KeyPair::new(
+            env::var("TWITTER_CONSUMER_KEY")?,
+            env::var("TWITTER_CONSUMER_SECRET")?,
+        ),
+        access: egg_mode::KeyPair::new(
+            env::var("TWITTER_ACCESS_KEY")?,
+            env::var("TWITTER_ACCESS_KEY")?,
+        ),
+    };
+
+    Ok(token)
+}
+
+pub fn register(
+    consumer_key: String,
+    consumer_secret: String,
+) -> Result<egg_mode::Token, Box<dyn Error>> {
+    let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
+
+    let request_token = block_on_all(egg_mode::request_token(&con_token, "oob"))?;
+
+    println!("Go to the following URL, sign in, and enter the PIN:");
+    println!("{}", egg_mode::authorize_url(&request_token));
+
+    let mut pin = String::new();
+    std::io::stdin().read_line(&mut pin)?;
+    println!("");
+
+    let (token, _user_id, _screen_name) =
+        block_on_all(egg_mode::access_token(con_token, &request_token, pin))?;
+
+    Ok(token)
+}
+
 impl Config {
-    pub fn load() -> Result<Self, Error> {
+    pub fn load() -> Result<Self, Box<dyn Error>> {
         // Make an app for yourself at apps.twitter.com and get your
         // key/secret into these files
         let consumer_key = include_str!(".consumer_key").trim();
@@ -149,13 +186,13 @@ fn run(
     json_feed_path: &str,
     categories_path: &str,
     dry_run: bool,
-) -> Result<(), Error> {
+) -> Result<(), Box<dyn Error>> {
     let config = Config::load()?;
     let tootlist_path = Path::new(tootlist_path);
-    let mut tootlist = TootList::load(&tootlist_path)?;
-    let feed = JsonFeed::load(Path::new(json_feed_path))?;
+    let mut tootlist = TootList::load(&tootlist_path).compat()?;
+    let feed = JsonFeed::load(Path::new(json_feed_path)).compat()?;
     let categories_path = Path::new(categories_path);
-    let categories = Categories::load(&categories_path)?;
+    let categories = Categories::load(&categories_path).compat()?;
 
     let to_tweet: Vec<Item> = feed
         .items
@@ -192,7 +229,7 @@ fn run(
     }
 
     if !dry_run {
-        let _ = tootlist.save(&tootlist_path)?;
+        let _ = tootlist.save(&tootlist_path).compat()?;
     }
 
     Ok(())
