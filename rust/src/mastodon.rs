@@ -76,17 +76,11 @@ fn toot_text_from_item(item: &Item, categories: &Categories) -> String {
     )
 }
 
-fn run(
-    tootlist_path: &str,
-    json_feed_path: &str,
-    categories_path: &str,
-    dry_run: bool,
-) -> Result<(), Box<dyn Error>> {
+fn run(tootlist_path: &str, json_feed_path: &str, dry_run: bool) -> Result<(), Box<dyn Error>> {
     let tootlist_path = Path::new(tootlist_path);
     let mut tootlist = TootList::load(&tootlist_path).compat()?;
     let feed = JsonFeed::load(Path::new(json_feed_path)).compat()?;
-    let categories_path = Path::new(categories_path);
-    let categories = Categories::load(&categories_path).compat()?;
+    let categories = Categories::load();
 
     let to_toot: Vec<Item> = feed
         .items
@@ -140,11 +134,5 @@ fn main() {
         return;
     }
 
-    run(
-        &matches.free[0],
-        &matches.free[1],
-        &matches.free[2],
-        matches.opt_present("n"),
-    )
-    .expect("error");
+    run(&matches.free[0], &matches.free[1], matches.opt_present("n")).expect("error");
 }

@@ -1,12 +1,11 @@
 use std::borrow::Borrow;
 use std::collections::HashMap;
-use std::fs::File;
-use std::path::Path;
+use std::convert::TryFrom;
 use std::rc::Rc;
 
 use serde_json;
 
-use error::Error;
+const JSON: &str = include_str!("../../content/_data/categories.json");
 
 #[derive(Debug, Deserialize)]
 pub struct Category {
@@ -23,10 +22,8 @@ pub struct Categories {
 }
 
 impl Categories {
-    pub fn load(path: &Path) -> Result<Self, Error> {
-        let categories_file = File::open(path).map_err(Error::Io)?;
-        let categories: Vec<Category> =
-            serde_json::from_reader(categories_file).map_err(Error::JsonError)?;
+    pub fn load() -> Self {
+        let categories: Vec<Category> = serde_json::from_str(JSON).unwrap(); // It's expected that the categories were valid at compile time
         let categories: Vec<_> = categories.into_iter().map(Rc::new).collect();
 
         let mut tag_map = HashMap::new();
@@ -34,10 +31,10 @@ impl Categories {
             tag_map.insert(category.name.clone(), Rc::clone(&category));
         }
 
-        Ok(Categories {
+        Categories {
             categories,
             tag_map,
-        })
+        }
     }
 
     pub fn hashtag_for_category(&self, category_name: &str) -> Option<&str> {
@@ -45,5 +42,10 @@ impl Categories {
             let cat: &Category = category.borrow();
             cat.hashtag.as_ref()
         })
+    }
+
+    pub fn with_ids(&self, ids: impl Iterator<Item = i16>) -> Vec<Rc<Category>> {
+        ids.map(|id| Rc::clone(&self.categories[usize::try_from(id).unwrap()]))
+            .collect()
     }
 }

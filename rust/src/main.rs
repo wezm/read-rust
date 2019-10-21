@@ -19,6 +19,7 @@ use getopts::Options;
 use log::{debug, error, info};
 
 use diesel::PgConnection;
+use read_rust::categories::Categories;
 use read_rust::{db, mastodon, twitter};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
@@ -104,19 +105,21 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     let conn = db::establish_connection(&database_url)?;
     info!("Connected to database");
 
+    let categories = Categories::load();
+
     // TODO: Cleanly exit when sent sigint
     debug!("Entering main loop");
     loop {
         if toot {
             debug!("Checking for new posts to toot");
-            if let Err(err) = toot_new_posts(&conn) {
+            if let Err(err) = toot_new_posts(&conn, &categories) {
                 // TODO: Log Sentry error
                 error!("Error tooting new posts: {}", err);
             }
         }
         if tweet {
             debug!("Checking for new posts to tweet");
-            if let Err(err) = tweet_new_posts(&conn) {
+            if let Err(err) = tweet_new_posts(&conn, &categories) {
                 error!("Error tweeting new posts: {}", err);
             }
         }
@@ -130,7 +133,7 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-fn toot_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
+fn toot_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
     for post in db::untooted_posts(conn)? {
         info!("New post to toot: [{}] {}", post.id, post.title);
     }
@@ -138,9 +141,19 @@ fn toot_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-fn tweet_new_posts(conn: &PgConnection) -> Result<(), Box<dyn Error>> {
+fn tweet_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
+    let token = twitter::token_from_env()?;
     for post in db::untweeted_posts(conn)? {
         info!("New post to tweet: [{}] {}", post.id, post.title);
+        let tweet_result = db::post_categories(conn, &post, categories)
+            .and_then(|post_categories| twitter::tweet_post(&token, &post, &post_categories));
+
+        if let Err(err) = tweet_result {
+            error!(
+                "Unable to to tweet post: [{}] {}: {}",
+                post.id, post.title, err
+            );
+        }
     }
 
     Ok(())
