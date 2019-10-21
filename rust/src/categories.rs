@@ -1,4 +1,3 @@
-use std::borrow::Borrow;
 use std::collections::HashMap;
 use std::convert::TryFrom;
 use std::rc::Rc;
@@ -36,13 +35,6 @@ impl Categories {
             categories,
             tag_map,
         }
-    }
-
-    pub fn hashtag_for_category(&self, category_name: &str) -> Option<&str> {
-        self.tag_map.get(category_name).map(|category| {
-            let cat: &Category = category.borrow();
-            cat.hashtag.as_ref()
-        })
     }
 
     pub fn with_ids(&self, ids: impl Iterator<Item = i16>) -> Vec<Rc<Category>> {
