@@ -1,10 +1,7 @@
-extern crate egg_mode;
-extern crate getopts;
-extern crate serde;
-extern crate serde_json;
-extern crate tokio;
-extern crate url;
-extern crate uuid;
+use egg_mode;
+
+use tokio;
+use url;
 
 use self::egg_mode::tweet::DraftTweet;
 use self::egg_mode::Token;
@@ -111,9 +108,7 @@ fn tweet_id_from_url(url: &str) -> Option<u64> {
 #[test]
 fn test_tweet_id_from_valid_url() {
     assert_eq!(
-        tweet_id_from_url(
-            &"https://twitter.com/llogiq/status/1012438300781576192"
-        ),
+        tweet_id_from_url(&"https://twitter.com/llogiq/status/1012438300781576192"),
         Some(1012438300781576192)
     );
 }
@@ -121,19 +116,14 @@ fn test_tweet_id_from_valid_url() {
 #[test]
 fn test_tweet_id_from_invalid_url() {
     assert_eq!(
-        tweet_id_from_url(
-            &"https://not_twitter.com/llogiq/status/1012438300781576192"
-        ),
+        tweet_id_from_url(&"https://not_twitter.com/llogiq/status/1012438300781576192"),
         None
     );
 }
 
 #[test]
 fn test_tweet_id_from_non_status_url() {
-    assert_eq!(
-        tweet_id_from_url(&"https://twitter.com/rustlang/"),
-        None
-    );
+    assert_eq!(tweet_id_from_url(&"https://twitter.com/rustlang/"), None);
 }
 
 #[test]

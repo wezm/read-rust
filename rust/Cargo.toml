@@ -2,6 +2,7 @@
 name = "read-rust"
 version = "2.0.0"
 authors = ["Wesley Moore <wes@wezm.net>"]
+edition = "2018"
 
 [dependencies]
 chrono = { version = "0", features = ['serde'] }

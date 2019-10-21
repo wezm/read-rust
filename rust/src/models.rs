@@ -1,4 +1,4 @@
-extern crate chrono;
+use chrono;
 
 use self::chrono::{DateTime, Utc};
 use uuid::Uuid;

@@ -1,8 +1,4 @@
-extern crate getopts;
-extern crate mammut;
-extern crate serde;
-extern crate serde_json;
-extern crate uuid;
+use mammut;
 
 use self::mammut::apps::{AppBuilder, Scopes};
 use self::mammut::{Data, Mastodon, Registration, StatusBuilder};

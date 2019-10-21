@@ -3,8 +3,8 @@ use std::rc::Rc;
 use diesel::pg::PgConnection;
 use diesel::prelude::*;
 
-use crate::models::Post;
 use crate::categories::{Categories, Category};
+use crate::models::Post;
 use crate::models::PostCategory;
 
 const BATCH_SIZE: i64 = 5;

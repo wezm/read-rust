@@ -1,10 +1,4 @@
-extern crate diesel;
-extern crate dotenv;
-extern crate egg_mode;
-extern crate env_logger;
-extern crate getopts;
-extern crate log;
-extern crate read_rust;
+use env_logger;
 
 use std::env::{self, VarError};
 use std::error::Error;
