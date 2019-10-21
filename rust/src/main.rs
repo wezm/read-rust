@@ -9,16 +9,16 @@ extern crate read_rust;
 
 use std::env::{self, VarError};
 use std::error::Error;
+use std::time::Duration;
 use std::{fmt, thread};
 
+use diesel::PgConnection;
 use dotenv::dotenv;
 use egg_mode::Token;
 use env_logger::Env;
-use failure::_core::time::Duration;
 use getopts::Options;
 use log::{debug, error, info};
 
-use diesel::PgConnection;
 use read_rust::categories::Categories;
 use read_rust::{db, mastodon, twitter};
 
@@ -133,9 +133,22 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+// TODO: Make this generic over a trait
 fn toot_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
+    let client = mastodon::client_from_env()?;
+
     for post in db::untooted_posts(conn)? {
         info!("New post to toot: [{}] {}", post.id, post.title);
+        let toot_result = db::post_categories(conn, &post, categories)
+            .map_err(|err| err.into())
+            .and_then(|post_categories| mastodon::toot_post(&client, &post, &post_categories));
+
+        if let Err(err) = toot_result {
+            error!(
+                "Unable to to toot post: [{}] {}: {}",
+                post.id, post.title, err
+            );
+        }
     }
 
     Ok(())
@@ -143,9 +156,11 @@ fn toot_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Bo
 
 fn tweet_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
     let token = twitter::token_from_env()?;
+
     for post in db::untweeted_posts(conn)? {
         info!("New post to tweet: [{}] {}", post.id, post.title);
         let tweet_result = db::post_categories(conn, &post, categories)
+            .map_err(|err| err.into())
             .and_then(|post_categories| twitter::tweet_post(&token, &post, &post_categories));
 
         if let Err(err) = tweet_result {
