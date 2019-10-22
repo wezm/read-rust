@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bb944334-6ce6-4bbd-9014-d5b4909db91b",
+      "title": "A Tiny, Static, Full-Text Search Engine using Rust and WebAssembly",
+      "content_text": "I wrote a basic search module that you can add to your static website. It's very lightweight (around 50kB-100kB gzipped), should work with Hugo, Zola, and Jekyll. Only searching entire words is supported. Try the search box on the left side for a demo. The code is on Github.",
+      "url": "https://endler.dev/2019/tinysearch/",
+      "date_published": "2019-10-17T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://endler.dev/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "dcbe1901-b9b1-4eec-a44e-d6be0dcdd958",
       "title": "Sample REST API in Rust and Go",
       "content_text": "Over the summer, I prototyped a bunch of web apps whose ideas had been floating in my mind for a long time. I spent quite a bit of time learning about REST APIs and, as part of these exercises, implemented skeletons of REST servers in both Go and Rust. The app prototypes have gone nowhere but I thought of sharing the skeletons I built if only to serve as templates for myself in future work. Thus, in this post, I will cover these skeleton demos and I will compare them.",

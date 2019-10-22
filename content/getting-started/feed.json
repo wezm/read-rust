@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8df278c2-e4c1-434b-9dd4-ca1ad1207200",
+      "title": "Getting Started with Rust by Building a Tiny Markdown Compiler",
+      "content_text": "My name is Jesse, and this is an introductory Rust tutorial for developers who like learning by doing. The purpose of this tutorial is to develop intuition about toolbuilding in Rust–specifically, to learn how to think and build in Rust. Our goal is to produce a very basic command line compiler that will turn a basic Markdown document containing headings and paragraphs into an html file. To do this, we will start from scratch by building a simple “Hello, World!” executable. Then, over the course of six chapters, iterate and expand until finally we can compile a very simple Markdown file into valid HTML.",
+      "url": "https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/",
+      "date_published": "2019-10-21T00:00:00+00:00",
+      "author": {
+        "name": "Jesse Lawson",
+        "url": "https://jesselawson.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "44a70495-156b-4de1-8eff-0ef9e334368c",
       "title": "Rust for JavaScript peeps",
       "content_text": "People seem to like Rust a lot! But if you're coming from JavaScript, not everything may make a lot of sense at first. But no problem; this guide is for you! Because I think Rust and JavaScript are really similar in many ways; to the point that if you know JS it's mostly a matter of getting the hang of some of the nuances before you can more or less get the hang of Rust.",

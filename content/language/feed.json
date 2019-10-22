@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "9b853968-186e-414b-af4a-f4a6cf9e7392",
+      "title": "Asynchronous Destructors",
+      "content_text": "The first version of async/await syntax is in the beta release, set to be shipped to stable in 1.39 on November 7, next month. There are a wide variety of additional features we could add to async/await in Rust beyond what we’re shipping in that release, but speaking for myself I know that I’d like to pump the breaks on pushing forward big ticket items in this space. Let’s let the ecosystem develop around what we have now before we start sprinting toward more big additions to the language.",
+      "url": "https://boats.gitlab.io/blog/post/poll-drop/",
+      "date_published": "2019-10-16T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e8d05615-a728-4bea-8f43-400827903e1a",
+      "title": "How to not rewrite it in Rust",
+      "content_text": "Once you get past the growing pains of the Borrow Checker and realise Rust gives you the power to do things which would be unheard of (or just plain dangerous) in other languages, the temptation to Rewrite it in Rust can be quite strong. However at best, the temptation to RiiR is unproductive (unnecessary duplication of effort), and at worst it can promote the creation of buggy software (why would you be better equipped to write a library for some domain-specific purpose than the original author?",
+      "url": "http://adventures.michaelfbryan.com/posts/how-not-to-riir/",
+      "date_published": "2019-10-20T19:45:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5a7311d2-3cf3-47fa-bce5-10b0747b30e8",
+      "title": "Announcing the LLVM ICE-breaker group",
+      "content_text": "Today I'm announcing a new experiment in the compiler team, the LLVM ICE-breaker group. If you're familiar with LLVM and would like to contribute to rustc -- but without taking on a large commitment -- then the LLVM ICE-breaker group might well be for you!",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/22/LLVM-ICE-breakers.html",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8b2ade3b-1476-4770-a7e2-838c3623a381",
       "title": "Detecting Application Uniqueness and interprocess communication in Rust",
       "content_text": "The aim of this article is to demonstrate one of many ways to detect application uniqueness and establish unilateral interprocess communication in Rust in the Linux platform. Note that the APIs used in this article is not portable to Windows and other *nix systems. Also note that methods used in this article may not be best suitable for all use cases.",

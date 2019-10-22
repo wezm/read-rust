@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "394c26b3-924a-43e8-b262-4d8e895ddbcd",
+      "title": "I made a NES emulator in Rust using generators",
+      "content_text": "Emulators are cool! They help preserve games, improve games, and help make games more accessible. On top of that, making an emulator is a cathartic and satisfying technical challenge!\n\nSo, I took this challenge myself and came out the other end with a pretty limited NES emulator, which I call Lochnes. It’s not very good at actually emulating most games, but I’m pretty happy with the guts of the thing and I learned a lot a long the way. I figured it might be worthwhile to share my approach, which might help or inspire others on their own emulation venture!",
+      "url": "https://kyle.space/posts/i-made-a-nes-emulator/",
+      "date_published": "2019-10-19T00:00:00+00:00",
+      "author": {
+        "name": "Kyle Lacy",
+        "url": "https://kyle.space/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "5d2b3926-5f8e-496f-a438-a26c8ed7dfb7",
       "title": "This Month in Raygon 1",
       "content_text": "It's been about 51 days since I first announced Raygon, a WIP high-performance CPU path tracer written in the Rust programming language, which will feature state of the art light transport integrators, including path tracing, bidirectional path tracing and VCM.\n\nIn this post I'll go over some of the features implemented or improved, and show some recent renders, then talk about the future of Raygon and how you can help.",

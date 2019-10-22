@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "307357e3-11d1-4494-9193-4f96e9946978",
+      "title": "Rotary Encoders in Embedded Rust",
+      "content_text": "Recently, I’ve been trying to learn more about electronics and embedded development. Maybe I’m just tired of operating purely in the virtual, but there’s something cool about being able to physically put together a circuit and push a button to make something happen. I went through the usual Arduino resources before seeing what Rust had to offer. I’m happy to report there’s some really good material out there.",
+      "url": "https://leshow.github.io/post/rotary_encoder_hal/",
+      "date_published": "2019-10-16T20:31:51-04:00",
+      "author": {
+        "name": "Evan Cameron",
+        "url": "https://leshow.github.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "f89a8738-2275-4023-8223-28dae4184cd9",
       "title": "Adventures in Motion Control: Top-Level Infrastructure",
       "content_text": "Most embedded systems will implement multi-tasking by rapidly polling each system within an infinite loop. A motion controller will normally spend most of its time polling, but there are places where polling isn’t appropriate. For example, accurate movement of a stepper motor relies on sending pulses at very precise times. Another scenario is in the handling of communication, where waiting for the next poll to read a byte may result in missing part of a message.",
