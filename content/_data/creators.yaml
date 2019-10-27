@@ -1,5 +1,22 @@
 ---
   -
+    name: Philipp Hansch
+    avatar: phansch.jpg
+    support:
+      name: Support on GitHub
+      link: 'https://github.com/sponsors/phansch'
+    code:
+      name: 'phansch'
+      link: 'https://github.com/phansch'
+    description: |
+      Philipp is a member of the
+      <a href="https://www.rust-lang.org/governance/teams/dev-tools#clippy">Clippy team</a>
+      where he's mainly fixing bugs and crashes
+      to make Clippy more fun to use. When not working on Clippy, he can be
+      found contributing to rustc and other tools. Since 2018 this work has
+      amounted to <a href="https://phansch.net/onehundred/rust/">over 200 pull requests</a>.
+    tags: [rust-team, rust-tools]
+  -
     name: Kat Marchán
     avatar: zcat.jpg
     support:
