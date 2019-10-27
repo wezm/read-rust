@@ -3,14 +3,11 @@ use std::rc::Rc;
 
 use diesel::pg::PgConnection;
 use diesel::prelude::*;
-use mammut::Mastodon;
 
 use crate::categories::Category;
 use crate::models::Post;
-use crate::{db, mastodon, twitter, ErrorMessage};
-use std::env;
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum AccessMode {
     ReadOnly,
     ReadWrite,
@@ -25,5 +22,5 @@ pub trait SocialNetwork: Sized {
 
     fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>>;
 
-    fn mark_post_published(connection: &PgConnection, post: Post) -> QueryResult<()>;
+    fn mark_post_published(&self, connection: &PgConnection, post: Post) -> QueryResult<()>;
 }

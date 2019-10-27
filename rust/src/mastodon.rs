@@ -73,13 +73,25 @@ impl SocialNetwork for Mastodon {
     fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>> {
         let status_text = toot_text_from_post(post, categories);
         info!("Toot {}", status_text);
-        let _toot = self.client.new_status(StatusBuilder::new(status_text))?;
+        if self.is_read_write() {
+            let _toot = self.client.new_status(StatusBuilder::new(status_text))?;
+        }
 
         Ok(())
     }
 
-    fn mark_post_published(connection: &PgConnection, post: Post) -> QueryResult<()> {
-        db::mark_post_tooted(connection, post)
+    fn mark_post_published(&self, connection: &PgConnection, post: Post) -> QueryResult<()> {
+        if self.is_read_write() {
+            db::mark_post_tooted(connection, post)?;
+        }
+
+        Ok(())
+    }
+}
+
+impl Mastodon {
+    fn is_read_write(&self) -> bool {
+        self.access_mode == AccessMode::ReadWrite
     }
 }
 

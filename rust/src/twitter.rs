@@ -3,7 +3,7 @@ use std::error::Error;
 use std::rc::Rc;
 
 use egg_mode::tweet::DraftTweet;
-use egg_mode::Token;
+
 use tokio::runtime::current_thread::block_on_all;
 use url::Url;
 
@@ -68,31 +68,45 @@ impl SocialNetwork for Twitter {
         }
     }
 
+    fn unpublished_posts(connection: &PgConnection) -> QueryResult<Vec<Post>> {
+        db::untweeted_posts(connection)
+    }
+
     fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>> {
         if let Some(tweet_url) = &post.twitter_url {
             let tweet_id = tweet_id_from_url(&tweet_url)
                 .ok_or_else(|| ErrorMessage(format!("{} is not a valid tweet URL", tweet_url)))?;
             info!("🔁 Tweet {}", tweet_url);
-            let work = egg_mode::tweet::retweet(tweet_id, &self.token);
-            block_on_all(work)?;
+            if self.is_read_write() {
+                let work = egg_mode::tweet::retweet(tweet_id, &self.token);
+                block_on_all(work)?;
+            }
         } else {
             let status_text = tweet_text_from_post(post, categories);
             info!("Tweet {}", status_text);
             let tweet = DraftTweet::new(status_text);
 
-            let work = tweet.send(&self.token);
-            block_on_all(work)?;
+            if self.is_read_write() {
+                let work = tweet.send(&self.token);
+                block_on_all(work)?;
+            }
         };
 
         Ok(())
     }
 
-    fn unpublished_posts(connection: &PgConnection) -> QueryResult<Vec<Post>> {
-        db::untweeted_posts(connection)
-    }
+    fn mark_post_published(&self, connection: &PgConnection, post: Post) -> QueryResult<()> {
+        if self.is_read_write() {
+            db::mark_post_tweeted(connection, post)?;
+        }
 
-    fn mark_post_published(connection: &PgConnection, post: Post) -> QueryResult<()> {
-        db::mark_post_tweeted(connection, post)
+        Ok(())
+    }
+}
+
+impl Twitter {
+    fn is_read_write(&self) -> bool {
+        self.access_mode == AccessMode::ReadWrite
     }
 }
 

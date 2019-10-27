@@ -152,7 +152,7 @@ fn announce_new_posts<S: SocialNetwork>(
             .and_then(|post_categories| {
                 conn.transaction::<_, Box<dyn Error>, _>(|| {
                     network.publish_post(&post, &post_categories)?;
-                    <S as SocialNetwork>::mark_post_published(conn, post)?;
+                    network.mark_post_published(conn, post)?;
 
                     Ok(())
                 })
