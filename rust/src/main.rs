@@ -12,8 +12,10 @@ use env_logger::Env;
 use getopts::Options;
 use log::{debug, error, info};
 
+use mammut::Mastodon;
 use read_rust::categories::Categories;
-use read_rust::{db, mastodon, twitter, ErrorMessage};
+use read_rust::social::SocialNetwork;
+use read_rust::{db, mastodon, twitter};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -101,14 +103,18 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     loop {
         if toot {
             debug!("Checking for new posts to toot");
-            if let Err(err) = toot_new_posts(&conn, &categories) {
+            if let Err(err) = mastodon::client_from_env()
+                .and_then(|client| announce_new_posts(client, &conn, &categories))
+            {
                 // TODO: Log Sentry error
                 error!("Error tooting new posts: {}", err);
             }
         }
         if tweet {
             debug!("Checking for new posts to tweet");
-            if let Err(err) = tweet_new_posts(&conn, &categories) {
+            if let Err(err) = twitter::token_from_env()
+                .and_then(|token| announce_new_posts(token, &conn, &categories))
+            {
                 error!("Error tweeting new posts: {}", err);
             }
         }
@@ -122,51 +128,27 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-// TODO: Make this generic over a trait
-fn toot_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
-    let client = mastodon::client_from_env()?;
-
-    for post in db::untooted_posts(conn)? {
+fn announce_new_posts<S: SocialNetwork>(
+    network: S,
+    conn: &PgConnection,
+    categories: &Categories,
+) -> Result<(), Box<dyn Error>> {
+    for post in <S as SocialNetwork>::unpublished_posts(conn)? {
         let post_id = post.id;
-        info!("New post to toot: [{}] {}", post_id, post.title);
+        info!("New post to announce: [{}] {}", post_id, post.title);
         let toot_result = db::post_categories(conn, &post, categories)
             .map_err(|err| err.into())
             .and_then(|post_categories| {
                 conn.transaction::<_, Box<dyn Error>, _>(|| {
-                    mastodon::toot_post(&client, &post, &post_categories)?;
-                    db::mark_post_tooted(conn, post)?;
+                    network.publish_post(&post, &post_categories)?;
+                    <S as SocialNetwork>::mark_post_published(conn, post)?;
 
                     Ok(())
                 })
             });
 
         if let Err(err) = toot_result {
-            error!("Unable to to toot post [{}]: {}", post_id, err);
-        }
-    }
-
-    Ok(())
-}
-
-fn tweet_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), Box<dyn Error>> {
-    let token = twitter::token_from_env()?;
-
-    for post in db::untweeted_posts(conn)? {
-        let post_id = post.id;
-        info!("New post to tweet: [{}] {}", post_id, post.title);
-        let tweet_result = db::post_categories(conn, &post, categories)
-            .map_err(|err| err.into())
-            .and_then(|post_categories| {
-                conn.transaction::<_, Box<dyn Error>, _>(|| {
-                    twitter::tweet_post(&token, &post, &post_categories)?;
-                    db::mark_post_tweeted(conn, post)?;
-
-                    Ok(())
-                })
-            });
-
-        if let Err(err) = tweet_result {
-            error!("Unable to to tweet post [{}]: {}", post_id, err);
+            error!("Unable to to announce publish post [{}]: {}", post_id, err);
         }
     }
 
@@ -175,38 +157,7 @@ fn tweet_new_posts(conn: &PgConnection, categories: &Categories) -> Result<(), B
 
 fn register(service: Service) -> Result<(), Box<dyn Error>> {
     match service {
-        Service::Twitter => {
-            let consumer_key = env::var("TWITTER_CONSUMER_KEY")?;
-            let consumer_secret = env::var("TWITTER_CONSUMER_SECRET")?;
-            let token = twitter::register(consumer_key, consumer_secret)?;
-
-            match token {
-                Token::Access { consumer, access } => {
-                    println!("TWITTER_CONSUMER_KEY={}", consumer.key);
-                    println!("TWITTER_CONSUMER_SECRET={}", consumer.secret);
-                    println!("TWITTER_ACCESS_KEY={}", access.key);
-                    println!("TWITTER_ACCESS_SECRET={}", access.secret);
-
-                    Ok(())
-                }
-                Token::Bearer(_) => Err(ErrorMessage(
-                    "Received Bearer token but expected Access token".to_string(),
-                )
-                .into()),
-            }
-        }
-        Service::Mastodon => {
-            let client = mastodon::register()?;
-
-            // Print out the app data
-            let data = client.data;
-            println!("MASTODON_BASE={}", data.base);
-            println!("MASTODON_CLIENT_ID={}", data.client_id);
-            println!("MASTODON_CLIENT_SECRET={}", data.client_secret);
-            println!("MASTODON_REDIRECT={}", data.redirect);
-            println!("MASTODON_TOKEN={}", data.token);
-
-            Ok(())
-        }
+        Service::Twitter => Token::register(),
+        Service::Mastodon => Mastodon::register(),
     }
 }
