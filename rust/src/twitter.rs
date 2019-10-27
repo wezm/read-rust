@@ -9,65 +9,91 @@ use url::Url;
 
 use crate::categories::Category;
 use crate::models::Post;
-use crate::ErrorMessage;
+use crate::social_network::{AccessMode, SocialNetwork};
+use crate::{db, ErrorMessage};
+use diesel::{PgConnection, QueryResult};
 
-pub fn token_from_env() -> Result<egg_mode::Token, Box<dyn Error>> {
-    let token = egg_mode::Token::Access {
-        consumer: egg_mode::KeyPair::new(
-            env::var("TWITTER_CONSUMER_KEY")?,
-            env::var("TWITTER_CONSUMER_SECRET")?,
-        ),
-        access: egg_mode::KeyPair::new(
-            env::var("TWITTER_ACCESS_KEY")?,
-            env::var("TWITTER_ACCESS_KEY")?,
-        ),
-    };
-
-    Ok(token)
+pub struct Twitter {
+    token: egg_mode::Token,
+    access_mode: AccessMode,
 }
 
-pub fn register(
-    consumer_key: String,
-    consumer_secret: String,
-) -> Result<egg_mode::Token, Box<dyn Error>> {
-    let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
+impl SocialNetwork for Twitter {
+    fn from_env(access_mode: AccessMode) -> Result<Self, Box<dyn Error>> {
+        let token = egg_mode::Token::Access {
+            consumer: egg_mode::KeyPair::new(
+                env::var("TWITTER_CONSUMER_KEY")?,
+                env::var("TWITTER_CONSUMER_SECRET")?,
+            ),
+            access: egg_mode::KeyPair::new(
+                env::var("TWITTER_ACCESS_KEY")?,
+                env::var("TWITTER_ACCESS_KEY")?,
+            ),
+        };
 
-    let request_token = block_on_all(egg_mode::request_token(&con_token, "oob"))?;
+        Ok(Twitter { token, access_mode })
+    }
 
-    println!("Go to the following URL, sign in, and enter the PIN:");
-    println!("{}", egg_mode::authorize_url(&request_token));
+    fn register() -> Result<(), Box<dyn Error>> {
+        let consumer_key = env::var("TWITTER_CONSUMER_KEY")?;
+        let consumer_secret = env::var("TWITTER_CONSUMER_SECRET")?;
+        let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
+        let request_token = block_on_all(egg_mode::request_token(&con_token, "oob"))?;
 
-    let mut pin = String::new();
-    std::io::stdin().read_line(&mut pin)?;
-    println!();
+        println!("Go to the following URL, sign in, and enter the PIN:");
+        println!("{}", egg_mode::authorize_url(&request_token));
 
-    let (token, _user_id, _screen_name) =
-        block_on_all(egg_mode::access_token(con_token, &request_token, pin))?;
+        let mut pin = String::new();
+        std::io::stdin().read_line(&mut pin)?;
+        println!();
 
-    Ok(token)
-}
+        let (token, _user_id, _screen_name) =
+            block_on_all(egg_mode::access_token(con_token, &request_token, pin))?;
 
-pub fn tweet_post(
-    token: &Token,
-    post: &Post,
-    categories: &[Rc<Category>],
-) -> Result<(), Box<dyn Error>> {
-    if let Some(tweet_url) = &post.twitter_url {
-        let tweet_id = tweet_id_from_url(&tweet_url)
-            .ok_or_else(|| ErrorMessage(format!("{} is not a valid tweet URL", tweet_url)))?;
-        info!("🔁 Tweet {}", tweet_url);
-        let work = egg_mode::tweet::retweet(tweet_id, token);
-        block_on_all(work)?;
-    } else {
-        let status_text = tweet_text_from_post(post, categories);
-        info!("Tweet {}", status_text);
-        let tweet = DraftTweet::new(status_text);
+        match token {
+            egg_mode::Token::Access { consumer, access } => {
+                println!("TWITTER_CONSUMER_KEY={}", consumer.key);
+                println!("TWITTER_CONSUMER_SECRET={}", consumer.secret);
+                println!("TWITTER_ACCESS_KEY={}", access.key);
+                println!("TWITTER_ACCESS_SECRET={}", access.secret);
 
-        let work = tweet.send(token);
-        block_on_all(work)?;
-    };
+                Ok(())
+            }
+            egg_mode::Token::Bearer(_) => {
+                return Err(ErrorMessage(
+                    "Received Bearer token but expected Access token".to_string(),
+                )
+                .into())
+            }
+        }
+    }
 
-    Ok(())
+    fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>> {
+        if let Some(tweet_url) = &post.twitter_url {
+            let tweet_id = tweet_id_from_url(&tweet_url)
+                .ok_or_else(|| ErrorMessage(format!("{} is not a valid tweet URL", tweet_url)))?;
+            info!("🔁 Tweet {}", tweet_url);
+            let work = egg_mode::tweet::retweet(tweet_id, &self.token);
+            block_on_all(work)?;
+        } else {
+            let status_text = tweet_text_from_post(post, categories);
+            info!("Tweet {}", status_text);
+            let tweet = DraftTweet::new(status_text);
+
+            let work = tweet.send(&self.token);
+            block_on_all(work)?;
+        };
+
+        Ok(())
+    }
+
+    fn unpublished_posts(connection: &PgConnection) -> QueryResult<Vec<Post>> {
+        db::untweeted_posts(connection)
+    }
+
+    fn mark_post_published(connection: &PgConnection, post: Post) -> QueryResult<()> {
+        db::mark_post_tweeted(connection, post)
+    }
 }
 
 fn tweet_text_from_post(post: &Post, categories: &[Rc<Category>]) -> String {

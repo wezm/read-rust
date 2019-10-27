@@ -7,15 +7,15 @@ use std::time::Duration;
 
 use diesel::{Connection, PgConnection};
 use dotenv::dotenv;
-use egg_mode::Token;
 use env_logger::Env;
 use getopts::Options;
 use log::{debug, error, info};
 
-use mammut::Mastodon;
 use read_rust::categories::Categories;
-use read_rust::social::SocialNetwork;
-use read_rust::{db, mastodon, twitter};
+use read_rust::db;
+use read_rust::mastodon::Mastodon;
+use read_rust::social_network::{AccessMode, SocialNetwork};
+use read_rust::twitter::Twitter;
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -57,6 +57,11 @@ fn main() {
         print_usage(&program, &opts);
         return;
     }
+    let access_mode = if matches.opt_present("n") {
+        AccessMode::ReadOnly
+    } else {
+        AccessMode::ReadWrite
+    };
 
     if matches.opt_present("r") {
         let service = match (matches.opt_present("t"), matches.opt_present("w")) {
@@ -77,6 +82,7 @@ fn main() {
             std::process::exit(1);
         }
     } else if let Err(err) = run(
+        access_mode,
         matches.opt_present("l"),
         matches.opt_present("t"),
         matches.opt_present("w"),
@@ -91,30 +97,35 @@ fn print_usage(program: &str, opts: &Options) {
     eprint!("{}", opts.usage(&brief));
 }
 
-fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
+fn run(
+    access_mode: AccessMode,
+    doloop: bool,
+    toot: bool,
+    tweet: bool,
+) -> Result<(), Box<dyn Error>> {
     let database_url = env::var("DATABASE_URL")?;
     let conn = db::establish_connection(&database_url)?;
     info!("Connected to database");
 
     let categories = Categories::load();
 
+    // create twiter and masto clients, with appropriate access mode
+    let twitter = Twitter::from_env(access_mode)?;
+    let mastodon = Mastodon::from_env(access_mode)?;
+
     // TODO: Cleanly exit when sent sigint
     debug!("Entering main loop");
     loop {
         if toot {
             debug!("Checking for new posts to toot");
-            if let Err(err) = mastodon::client_from_env()
-                .and_then(|client| announce_new_posts(client, &conn, &categories))
-            {
+            if let Err(err) = announce_new_posts(&mastodon, &conn, &categories) {
                 // TODO: Log Sentry error
                 error!("Error tooting new posts: {}", err);
             }
         }
         if tweet {
             debug!("Checking for new posts to tweet");
-            if let Err(err) = twitter::token_from_env()
-                .and_then(|token| announce_new_posts(token, &conn, &categories))
-            {
+            if let Err(err) = announce_new_posts(&twitter, &conn, &categories) {
                 error!("Error tweeting new posts: {}", err);
             }
         }
@@ -129,7 +140,7 @@ fn run(doloop: bool, toot: bool, tweet: bool) -> Result<(), Box<dyn Error>> {
 }
 
 fn announce_new_posts<S: SocialNetwork>(
-    network: S,
+    network: &S,
     conn: &PgConnection,
     categories: &Categories,
 ) -> Result<(), Box<dyn Error>> {
@@ -157,7 +168,7 @@ fn announce_new_posts<S: SocialNetwork>(
 
 fn register(service: Service) -> Result<(), Box<dyn Error>> {
     match service {
-        Service::Twitter => Token::register(),
+        Service::Twitter => Twitter::register(),
         Service::Mastodon => Mastodon::register(),
     }
 }

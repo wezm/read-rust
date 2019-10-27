@@ -8,7 +8,7 @@ pub mod db;
 pub mod mastodon;
 pub mod models;
 pub mod schema;
-pub mod social;
+pub mod social_network;
 pub mod twitter;
 
 use std::fmt;
