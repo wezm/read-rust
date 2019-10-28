@@ -3,8 +3,9 @@ use std::io;
 use std::rc::Rc;
 
 use diesel::{PgConnection, QueryResult};
-use mammut::apps::{AppBuilder, Scopes};
-use mammut::{Data, Mastodon as MastodonClient, Registration, StatusBuilder};
+use elefren::apps::App;
+use elefren::scopes::Scopes;
+use elefren::{Data, MastodonClient, Registration, StatusBuilder};
 
 use crate::categories::Category;
 use crate::db;
@@ -13,7 +14,7 @@ use crate::models::Post;
 use crate::social_network::{AccessMode, SocialNetwork};
 
 pub struct Mastodon {
-    client: MastodonClient,
+    client: elefren::Mastodon,
     access_mode: AccessMode,
 }
 
@@ -28,22 +29,24 @@ impl SocialNetwork for Mastodon {
         };
 
         Ok(Mastodon {
-            client: MastodonClient::from_data(data),
+            client: elefren::Mastodon::from(data),
             access_mode,
         })
     }
 
     fn register() -> Result<(), Box<dyn Error>> {
-        let app = AppBuilder {
-            client_name: "read-rust",
-            redirect_uris: "urn:ietf:wg:oauth:2.0:oob",
-            scopes: Scopes::Write,
-            website: Some("https://readrust.net/"),
-        };
+        let base = env_var("MASTODON_BASE")?;
+        let mut builder = App::builder();
+        let scopes = Scopes::read_all() | Scopes::write(elefren::scopes::Write::Statuses);
+        builder
+            .client_name("Read Rust")
+            .redirect_uris("urn:ietf:wg:oauth:2.0:oob")
+            .scopes(scopes)
+            .website("https://readrust.net/");
+        let app = builder.build()?;
 
-        let mut registration = Registration::new("https://botsin.space");
-        registration.register(app)?;
-        let url = registration.authorise()?;
+        let registration = Registration::new(base).register(app)?;
+        let url = registration.authorize_url()?;
 
         println!("Click this link to authorize on Mastodon: {}", url);
         println!("Paste the returned authorization code: ");
@@ -52,7 +55,7 @@ impl SocialNetwork for Mastodon {
         let _ = io::stdin().read_line(&mut input)?;
 
         let code = input.trim();
-        let client = registration.create_access_token(code.to_string())?;
+        let client = registration.complete(code)?;
 
         // Print out the app data
         let data = &client.data;
@@ -71,10 +74,24 @@ impl SocialNetwork for Mastodon {
 
     // FIXME: Boost existing status when present on post
     fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>> {
-        let status_text = toot_text_from_post(post, categories);
-        info!("Toot {}", status_text);
-        if self.is_read_write() {
-            let _toot = self.client.new_status(StatusBuilder::new(status_text))?;
+        if let Some(status_url) = &post.mastodon_url {
+            // Need to reblog this status. Doing so requires knowing the id of the status on the
+            // instance on which it will be reblogged from. It appears the only way to turn
+            // a status URL into an ID is via search.
+            let resolve = true; // Attempt WebFinger look-up
+                                // println!(
+                                //     "Search results = {:?}",
+                                //     self.client.search_v2(status_url, resolve)
+                                // );
+        } else {
+            let status_text = toot_text_from_post(post, categories);
+            info!("Toot {}", status_text);
+
+            if self.is_read_write() {
+                let _toot = self
+                    .client
+                    .new_status(StatusBuilder::new().status(status_text).build()?)?;
+            }
         }
 
         Ok(())
