@@ -1,5 +1,6 @@
 // RailsUjs is *required* for links in Lucky that use DELETE, POST and PUT.
 // Though it says "Rails" it actually works with any framework.
+// @ts-ignore
 import RailsUjs from "rails-ujs";
 
 RailsUjs.start();
