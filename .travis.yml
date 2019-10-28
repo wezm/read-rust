@@ -18,8 +18,8 @@ matrix:
         - sudo apt-get install chromium-chromedriver curl
 
         # Install libstriptags
-        - curl -OL https://releases.wezm.net/striptags/striptags_0.1.0_amd64.deb
-        - sudo dpkg -i striptags_0.1.0_amd64.deb
+        - curl -OL https://releases.wezm.net/striptags/striptags_0.1.1-2_amd64.deb
+        - sudo dpkg -i striptags_0.1.1-2_amd64.deb
 
         # Setup assets
         - cd crystal
