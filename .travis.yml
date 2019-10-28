@@ -23,7 +23,7 @@ matrix:
         - yarn prod
       script:
         - crystal spec
-        - tsc
+        - yarn run tsc
         # Uncomment the next line if you'd like Travis to check code formatting
         # - crystal tool format spec src --check
       cache:
