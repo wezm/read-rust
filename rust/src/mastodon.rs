@@ -8,10 +8,10 @@ use elefren::scopes::Scopes;
 use elefren::{Data, MastodonClient, Registration, StatusBuilder};
 
 use crate::categories::Category;
-use crate::db;
 use crate::env_var;
 use crate::models::Post;
 use crate::social_network::{AccessMode, SocialNetwork};
+use crate::{db, ErrorMessage};
 
 pub struct Mastodon {
     client: elefren::Mastodon,
@@ -72,17 +72,31 @@ impl SocialNetwork for Mastodon {
         db::untooted_posts(connection)
     }
 
-    // FIXME: Boost existing status when present on post
     fn publish_post(&self, post: &Post, categories: &[Rc<Category>]) -> Result<(), Box<dyn Error>> {
         if let Some(status_url) = &post.mastodon_url {
             // Need to reblog this status. Doing so requires knowing the id of the status on the
             // instance on which it will be reblogged from. It appears the only way to turn
             // a status URL into an ID is via search.
+            info!("Searching for {}", status_url);
             let resolve = true; // Attempt WebFinger look-up
-                                // println!(
-                                //     "Search results = {:?}",
-                                //     self.client.search_v2(status_url, resolve)
-                                // );
+            let results = self.client.search_v2(status_url, resolve)?;
+            if let Some(status) = results
+                .statuses
+                .iter()
+                .find(|status| status.url.as_ref() == Some(status_url))
+            {
+                info!("🔁 Boost {}", status_url);
+                if self.is_read_write() {
+                    self.client.reblog(&status.id)?;
+                }
+            } else {
+                return Err(ErrorMessage(format!(
+                    "Unable to find status {}, got {} search results",
+                    status_url,
+                    results.statuses.len()
+                ))
+                .into());
+            }
         } else {
             let status_text = toot_text_from_post(post, categories);
             info!("Toot {}", status_text);
