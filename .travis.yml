@@ -19,7 +19,7 @@ matrix:
 
         # Install libstriptags
         - curl -OL https://releases.wezm.net/striptags/striptags_0.1.0_amd64.deb
-        - dpkg -i striptags_0.1.0_amd64.deb
+        - sudo dpkg -i striptags_0.1.0_amd64.deb
 
         # Setup assets
         - cd crystal
