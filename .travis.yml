@@ -11,6 +11,7 @@ matrix:
     - language: crystal
       addons:
         chrome: stable
+        postgresql: "11"
       services:
         - postgresql
       before_install:
