@@ -4,14 +4,14 @@ Feedbin::Client.configure do |settings|
 end
 
 private def feedbin_user_from_env
-  ENV["FEEDBIN_USERNAME"]? || raise_missing_credentials
+  ENV["FEEDBIN_USERNAME"]? || warn_missing_credentials
 end
 
 private def feedbin_pass_from_env
-  ENV["FEEDBIN_PASSWORD"]? || raise_missing_credentials
+  ENV["FEEDBIN_PASSWORD"]? || warn_missing_credentials
 end
 
-private def raise_missing_credentials
-  puts "Please set the FEEDBIN_PASSWORD and FEEDBIN_PASSWORD environment variables.".colorize.red
-  exit(1)
+private def warn_missing_credentials
+  puts "FEEDBIN_PASSWORD and FEEDBIN_PASSWORD are not set, Feedbin integration won't work".colorize.red
+  ""
 end
