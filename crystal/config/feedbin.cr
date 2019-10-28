@@ -12,6 +12,6 @@ private def feedbin_pass_from_env
 end
 
 private def warn_missing_credentials
-  puts "FEEDBIN_PASSWORD and FEEDBIN_PASSWORD are not set, Feedbin integration won't work".colorize.red
+  puts "FEEDBIN_USERNAME and/or FEEDBIN_PASSWORD are not set, Feedbin integration won't work".colorize.red
   ""
 end
