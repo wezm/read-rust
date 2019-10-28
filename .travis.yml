@@ -1,21 +1,31 @@
-language: rust
-cache: cargo
-install: |
-  if [ "`cobalt --version`" != "Cobalt 0.15.4" ]; then
-    curl -OL https://github.com/cobalt-org/cobalt.rs/releases/download/v0.15.4/cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
-    tar zxvf cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
-    mkdir -p ~/.local/bin
-    mv cobalt ~/.local/bin
-  fi
-
-script:
-  - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
-  - cargo test
-  - cobalt build
-  - make feeds
-rust:
-  - stable
-  - beta
 matrix:
-  allow_failures:
-    - rust: beta
+  include:
+    - language: rust
+      cache: cargo
+      script:
+        - cargo test
+      rust:
+        - stable
+
+    - language: crystal
+      addons:
+        chrome: stable
+      services:
+        - postgresql
+      before_install:
+        # Setup chromedriver for LuckyFlow
+        - sudo apt-get install chromium-chromedriver
+
+        # Setup assets
+        - yarn install
+        - yarn prod
+      script:
+        - crystal spec
+        # Uncomment the next line if you'd like Travis to check code formatting
+        # - crystal tool format spec src --check
+      cache:
+        yarn: true
+        directories:
+          - bin/lucky
+          - lib
+          - .shards
