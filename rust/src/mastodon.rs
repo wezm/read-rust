@@ -1,16 +1,16 @@
-use std::env;
 use std::error::Error;
 use std::io;
 use std::rc::Rc;
 
+use diesel::{PgConnection, QueryResult};
 use mammut::apps::{AppBuilder, Scopes};
 use mammut::{Data, Mastodon as MastodonClient, Registration, StatusBuilder};
 
 use crate::categories::Category;
 use crate::db;
+use crate::env_var;
 use crate::models::Post;
 use crate::social_network::{AccessMode, SocialNetwork};
-use diesel::{PgConnection, QueryResult};
 
 pub struct Mastodon {
     client: MastodonClient,
@@ -20,11 +20,11 @@ pub struct Mastodon {
 impl SocialNetwork for Mastodon {
     fn from_env(access_mode: AccessMode) -> Result<Self, Box<dyn Error>> {
         let data = Data {
-            base: env::var("MASTODON_BASE")?.into(),
-            client_id: env::var("MASTODON_CLIENT_ID")?.into(),
-            client_secret: env::var("MASTODON_CLIENT_SECRET")?.into(),
-            redirect: env::var("MASTODON_REDIRECT")?.into(),
-            token: env::var("MASTODON_TOKEN")?.into(),
+            base: env_var("MASTODON_BASE")?.into(),
+            client_id: env_var("MASTODON_CLIENT_ID")?.into(),
+            client_secret: env_var("MASTODON_CLIENT_SECRET")?.into(),
+            redirect: env_var("MASTODON_REDIRECT")?.into(),
+            token: env_var("MASTODON_TOKEN")?.into(),
         };
 
         Ok(Mastodon {

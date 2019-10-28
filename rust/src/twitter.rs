@@ -1,4 +1,3 @@
-use std::env;
 use std::error::Error;
 use std::rc::Rc;
 
@@ -10,7 +9,7 @@ use url::Url;
 use crate::categories::Category;
 use crate::models::Post;
 use crate::social_network::{AccessMode, SocialNetwork};
-use crate::{db, ErrorMessage};
+use crate::{db, env_var, ErrorMessage};
 use diesel::{PgConnection, QueryResult};
 
 pub struct Twitter {
@@ -22,12 +21,12 @@ impl SocialNetwork for Twitter {
     fn from_env(access_mode: AccessMode) -> Result<Self, Box<dyn Error>> {
         let token = egg_mode::Token::Access {
             consumer: egg_mode::KeyPair::new(
-                env::var("TWITTER_CONSUMER_KEY")?,
-                env::var("TWITTER_CONSUMER_SECRET")?,
+                env_var("TWITTER_CONSUMER_KEY")?,
+                env_var("TWITTER_CONSUMER_SECRET")?,
             ),
             access: egg_mode::KeyPair::new(
-                env::var("TWITTER_ACCESS_KEY")?,
-                env::var("TWITTER_ACCESS_KEY")?,
+                env_var("TWITTER_ACCESS_KEY")?,
+                env_var("TWITTER_ACCESS_KEY")?,
             ),
         };
 
@@ -35,8 +34,8 @@ impl SocialNetwork for Twitter {
     }
 
     fn register() -> Result<(), Box<dyn Error>> {
-        let consumer_key = env::var("TWITTER_CONSUMER_KEY")?;
-        let consumer_secret = env::var("TWITTER_CONSUMER_SECRET")?;
+        let consumer_key = env_var("TWITTER_CONSUMER_KEY")?;
+        let consumer_secret = env_var("TWITTER_CONSUMER_SECRET")?;
         let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
         let request_token = block_on_all(egg_mode::request_token(&con_token, "oob"))?;
 

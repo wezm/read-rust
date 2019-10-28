@@ -11,7 +11,22 @@ pub mod schema;
 pub mod social_network;
 pub mod twitter;
 
-use std::fmt;
+use std::env::VarError;
+use std::ffi::OsStr;
+use std::{env, fmt};
+
+pub fn env_var<K: AsRef<OsStr>>(key: K) -> Result<String, ErrorMessage> {
+    env::var(&key).map_err(|err| match err {
+        VarError::NotPresent => ErrorMessage(format!(
+            "environment variable '{}' is not set",
+            key.as_ref().to_string_lossy()
+        )),
+        VarError::NotUnicode(_) => ErrorMessage(format!(
+            "environment variable '{}' is not valid UTF-8",
+            key.as_ref().to_string_lossy()
+        )),
+    })
+}
 
 #[derive(Debug)]
 pub struct ErrorMessage(pub String);

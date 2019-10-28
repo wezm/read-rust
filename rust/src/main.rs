@@ -1,6 +1,6 @@
 use env_logger;
 
-use std::env::{self, VarError};
+use std::env;
 use std::error::Error;
 use std::thread;
 use std::time::Duration;
@@ -12,10 +12,10 @@ use getopts::Options;
 use log::{debug, error, info};
 
 use read_rust::categories::Categories;
-use read_rust::db;
 use read_rust::mastodon::Mastodon;
 use read_rust::social_network::{AccessMode, SocialNetwork};
 use read_rust::twitter::Twitter;
+use read_rust::{db, env_var};
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const SLEEP_TIME: Duration = Duration::from_secs(60);
@@ -28,7 +28,7 @@ enum Service {
 fn main() {
     dotenv().ok();
 
-    if let Err(VarError::NotPresent) = env::var(LOG_ENV_VAR) {
+    if let Err(env::VarError::NotPresent) = env::var(LOG_ENV_VAR) {
         env::set_var(LOG_ENV_VAR, "info");
     }
 
@@ -103,7 +103,7 @@ fn run(
     toot: bool,
     tweet: bool,
 ) -> Result<(), Box<dyn Error>> {
-    let database_url = env::var("DATABASE_URL")?;
+    let database_url = env_var("DATABASE_URL")?;
     let conn = db::establish_connection(&database_url)?;
     info!("Connected to database");
 
