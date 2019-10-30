@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "1ca114e3-a283-4b4c-ae16-4d5966e0ffcf",
+      "title": "Dreadbot: A Discord Bot for Magic The Gathering in Rust",
+      "content_text": "The personal blog of Brian Carrigan, software and electronics engineer.",
+      "url": "https://bcarrigan.com/2019/10/28/dreadbot/",
+      "date_published": "2019-10-28T12:00:00+00:00",
+      "author": {
+        "name": "Brian Carrigan",
+        "url": "https://bcarrigan.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "bb944334-6ce6-4bbd-9014-d5b4909db91b",
       "title": "A Tiny, Static, Full-Text Search Engine using Rust and WebAssembly",
       "content_text": "I wrote a basic search module that you can add to your static website. It's very lightweight (around 50kB-100kB gzipped), should work with Hugo, Zola, and Jekyll. Only searching entire words is supported. Try the search box on the left side for a demo. The code is on Github.",

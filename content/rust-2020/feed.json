@@ -1,0 +1,69 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Read Rust - Rust 2020",
+  "home_page_url": "https://readrust.net/",
+  "feed_url": "https://readrust.net/rust-2020/feed.json",
+  "description": "Rust 2020 posts on Read Rust",
+  "author": {
+    "name": "Wesley Moore",
+    "url": "http://www.wezm.net/"
+  },
+  "items": [
+    {
+      "id": "1b2c0d1d-3b43-444e-8755-e8e4a60cb2b7",
+      "title": "Rust 2020: Private enum variants",
+      "content_text": "For the 2021 edition of Rust, I'd like to see private enum variants.",
+      "url": "https://www.reddit.com/r/rust/comments/dov6ox/rust_2020_private_enum_variants/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/joshlf_",
+        "url": "https://www.reddit.com/user/joshlf_/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "86590c31-b27d-4d59-b6d8-23eaae5c3dac",
+      "title": "My Rust 2020 blog post",
+      "content_text": "The 2019 goals for the Rust project were to finish some old language and library features that have had a lot of design but have not been pushed through the finish line.",
+      "url": "https://www.reddit.com/r/rust/comments/dot5pk/my_rust_2020_blog_post/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/0b_0101_001_1010",
+        "url": "https://www.reddit.com/user/0b_0101_001_1010/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a32d1a1c-6453-4222-b0a6-9a7f996f6864",
+      "title": "A call for blogs 2020",
+      "content_text": "Comments on the call for blog posts in 2020 on Reddit, some of which include 2020 wishes.",
+      "url": "https://www.reddit.com/r/rust/comments/dorinl/a_call_for_blogs_2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Commenters on Reddit",
+        "url": "https://www.reddit.com/r/rust/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "9dd9b6b4-1ab5-4421-b806-61594b0f5f98",
+      "title": "A call for blogs 2020",
+      "content_text": "We are accepting ideas about almost anything having to do with Rust: language features, tooling needs, community programs, ecosystem needs... if it's related to Rust, we want to hear about it.\n\nOne big question for this year: will there be a Rust 2021 edition? If so, 2020 would be the year to do a lot of associated work and plan the details. What would the edition's theme be?",
+      "url": "https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html",
+      "date_published": "2019-10-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    }
+  ]
+}

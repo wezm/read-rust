@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
+      "title": "Audio Processing for Dummies",
+      "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",
+      "url": "http://adventures.michaelfbryan.com/posts/audio-processing-for-dummies/",
+      "date_published": "2019-10-27T23:34:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "49a2176c-55b0-4603-8f20-d0d15ab56ca4",
+      "title": "Programming Servo: the incredibly shrinking timer",
+      "content_text": "How to build a timer in Rust in five easy evolutionary steps.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669",
+      "date_published": "2019-10-27T15:40:54.995+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da517b10-2b8a-4b94-97c3-34b0c049de42",
+      "title": "Why async fn in traits are hard",
+      "content_text": "After reading boat’s excellent post on asynchronous destructors, I thought it might be a good idea to write some about async fn in traits. Support for async fn in traits is probably the single most common feature request that I hear about. It’s also one of the more complex topics. So I thought it’d be nice to do a blog post kind of giving the “lay of the land” on that feature – what makes it complicated? What questions remain open?",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/",
+      "date_published": "2019-10-26T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6e9b1816-3105-4847-b96e-d3af713b9ebc",
+      "title": "Cost of rust-analyzer",
+      "content_text": "In this post, we’ll talk about financial side of the rust-analyzer project. The goal is to find out how much rust-analyzer costs now, formulate financial goals for speeding up the development and document the Open Collective expenses policy.",
+      "url": "https://rust-analyzer.github.io/2019/10/16/finance.html",
+      "date_published": "2019-10-16T09:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "9b853968-186e-414b-af4a-f4a6cf9e7392",
       "title": "Asynchronous Destructors",
       "content_text": "The first version of async/await syntax is in the beta release, set to be shipped to stable in 1.39 on November 7, next month. There are a wide variety of additional features we could add to async/await in Rust beyond what we’re shipping in that release, but speaking for myself I know that I’d like to pump the breaks on pushing forward big ticket items in this space. Let’s let the ecosystem develop around what we have now before we start sprinting toward more big additions to the language.",

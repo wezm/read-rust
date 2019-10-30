@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "26a18477-a394-46c8-afde-b096269eeb04",
+      "title": "Playing with env in Rust",
+      "content_text": "Environment variables plays a vital role in setting up a large scale project in real time environment. This blog explains env crate and env! macro in Rust.",
+      "url": "https://blog.knoldus.com/playing-with-env-in-rust/amp/",
+      "date_published": "2019-05-29T05:34:54+00:00",
+      "author": {
+        "name": "Mudit Chhabra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "f625696c-a751-4e36-8ede-0cd24cf05534",
+      "title": "A closer look at Ownership in Rust",
+      "content_text": "In this article we'll take a closer look at Rust's Ownership model and how it manages memory.",
+      "url": "https://blog.thoughtram.io/ownership-in-rust/",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Pascal Precht",
+        "url": "https://blog.thoughtram.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "8df278c2-e4c1-434b-9dd4-ca1ad1207200",
       "title": "Getting Started with Rust by Building a Tiny Markdown Compiler",
       "content_text": "My name is Jesse, and this is an introductory Rust tutorial for developers who like learning by doing. The purpose of this tutorial is to develop intuition about toolbuilding in Rust–specifically, to learn how to think and build in Rust. Our goal is to produce a very basic command line compiler that will turn a basic Markdown document containing headings and paragraphs into an html file. To do this, we will start from scratch by building a simple “Hello, World!” executable. Then, over the course of six chapters, iterate and expand until finally we can compile a very simple Markdown file into valid HTML.",

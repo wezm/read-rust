@@ -17,6 +17,7 @@ FEEDS=\
 	content/performance/feed.rss \
 	content/rust-2018/feed.rss \
 	content/rust-2019/feed.rss \
+	content/rust-2020/feed.rss \
 	content/security/feed.rss \
 	content/tools-and-applications/feed.rss \
 	content/web-and-network-services/feed.rss
@@ -72,6 +73,9 @@ content/rust-2018/feed.rss: ${POSTS} ${GENERATE_RSS}
 
 content/rust-2019/feed.rss: ${POSTS} ${GENERATE_RSS}
 	${GENERATE_RSS} -t 'Rust 2019' ${POSTS} content/rust-2019/feed.rss
+
+content/rust-2020/feed.rss: ${POSTS} ${GENERATE_RSS}
+	${GENERATE_RSS} -t 'Rust 2020' ${POSTS} content/rust-2020/feed.rss
 
 content/security/feed.rss: ${POSTS} ${GENERATE_RSS}
 	${GENERATE_RSS} -t 'Security' ${POSTS} content/security/feed.rss

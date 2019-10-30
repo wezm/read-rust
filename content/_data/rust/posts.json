@@ -10,6 +10,192 @@
   },
   "items": [
     {
+      "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
+      "title": "Audio Processing for Dummies",
+      "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",
+      "url": "http://adventures.michaelfbryan.com/posts/audio-processing-for-dummies/",
+      "date_published": "2019-10-27T23:34:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "26a18477-a394-46c8-afde-b096269eeb04",
+      "title": "Playing with env in Rust",
+      "content_text": "Environment variables plays a vital role in setting up a large scale project in real time environment. This blog explains env crate and env! macro in Rust.",
+      "url": "https://blog.knoldus.com/playing-with-env-in-rust/amp/",
+      "date_published": "2019-05-29T05:34:54+00:00",
+      "author": {
+        "name": "Mudit Chhabra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1ca114e3-a283-4b4c-ae16-4d5966e0ffcf",
+      "title": "Dreadbot: A Discord Bot for Magic The Gathering in Rust",
+      "content_text": "The personal blog of Brian Carrigan, software and electronics engineer.",
+      "url": "https://bcarrigan.com/2019/10/28/dreadbot/",
+      "date_published": "2019-10-28T12:00:00+00:00",
+      "author": {
+        "name": "Brian Carrigan",
+        "url": "https://bcarrigan.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f625696c-a751-4e36-8ede-0cd24cf05534",
+      "title": "A closer look at Ownership in Rust",
+      "content_text": "In this article we'll take a closer look at Rust's Ownership model and how it manages memory.",
+      "url": "https://blog.thoughtram.io/ownership-in-rust/",
+      "tweet_url": "https://twitter.com/PascalPrecht/status/1188758653005979649?s=20",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Pascal Precht",
+        "url": "https://blog.thoughtram.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "49a2176c-55b0-4603-8f20-d0d15ab56ca4",
+      "title": "Programming Servo: the incredibly shrinking timer",
+      "content_text": "How to build a timer in Rust in five easy evolutionary steps.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669",
+      "date_published": "2019-10-27T15:40:54.995+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da517b10-2b8a-4b94-97c3-34b0c049de42",
+      "title": "Why async fn in traits are hard",
+      "content_text": "After reading boat’s excellent post on asynchronous destructors, I thought it might be a good idea to write some about async fn in traits. Support for async fn in traits is probably the single most common feature request that I hear about. It’s also one of the more complex topics. So I thought it’d be nice to do a blog post kind of giving the “lay of the land” on that feature – what makes it complicated? What questions remain open?",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1188089960789954560?s=20",
+      "date_published": "2019-10-26T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6e9b1816-3105-4847-b96e-d3af713b9ebc",
+      "title": "Cost of rust-analyzer",
+      "content_text": "In this post, we’ll talk about financial side of the rust-analyzer project. The goal is to find out how much rust-analyzer costs now, formulate financial goals for speeding up the development and document the Open Collective expenses policy.",
+      "url": "https://rust-analyzer.github.io/2019/10/16/finance.html",
+      "date_published": "2019-10-16T09:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e9565ca9-50f7-4ed7-9acd-485040d90014",
+      "title": "GNOME+Rust Hackfest #6 in Roma",
+      "content_text": "End of the year, meaning it's time for a new GNOME+Rust hackfest and its feedback!",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-10-24+GNOME%2BRust+Hackfest+%236+in+Roma",
+      "tweet_url": "https://twitter.com/imperioworld_/status/1187450169400463361?s=20",
+      "date_published": "2019-10-24T21:15:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://www.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1206f8f5-e2a7-4679-91c3-d79143268a42",
+      "title": "Rust+GNOME Hackfest #6",
+      "content_text": "Last week, I went to the sixth Rust+GNOME hackfest which was in Rome. During these hackfests, we work on improving the integration between Rust and the GNOME libraries.",
+      "url": "https://antoyo.ml/rust-gnome-hackfest-rome",
+      "date_published": "2019-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1b2c0d1d-3b43-444e-8755-e8e4a60cb2b7",
+      "title": "Rust 2020: Private enum variants",
+      "content_text": "For the 2021 edition of Rust, I'd like to see private enum variants.",
+      "url": "https://www.reddit.com/r/rust/comments/dov6ox/rust_2020_private_enum_variants/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/joshlf_",
+        "url": "https://www.reddit.com/user/joshlf_/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "86590c31-b27d-4d59-b6d8-23eaae5c3dac",
+      "title": "My Rust 2020 blog post",
+      "content_text": "The 2019 goals for the Rust project were to finish some old language and library features that have had a lot of design but have not been pushed through the finish line.",
+      "url": "https://www.reddit.com/r/rust/comments/dot5pk/my_rust_2020_blog_post/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/0b_0101_001_1010",
+        "url": "https://www.reddit.com/user/0b_0101_001_1010/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a32d1a1c-6453-4222-b0a6-9a7f996f6864",
+      "title": "A call for blogs 2020",
+      "content_text": "Comments on the call for blog posts in 2020 on Reddit, some of which include 2020 wishes.",
+      "url": "https://www.reddit.com/r/rust/comments/dorinl/a_call_for_blogs_2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Commenters on Reddit",
+        "url": "https://www.reddit.com/r/rust/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "9dd9b6b4-1ab5-4421-b806-61594b0f5f98",
+      "title": "A call for blogs 2020",
+      "content_text": "We are accepting ideas about almost anything having to do with Rust: language features, tooling needs, community programs, ecosystem needs... if it's related to Rust, we want to hear about it.\n\nOne big question for this year: will there be a Rust 2021 edition? If so, 2020 would be the year to do a lot of associated work and plan the details. What would the edition's theme be?",
+      "url": "https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html",
+      "tweet_url": "https://twitter.com/rustlang/status/1189204447945211910?s=20",
+      "date_published": "2019-10-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "9b853968-186e-414b-af4a-f4a6cf9e7392",
       "title": "Asynchronous Destructors",
       "content_text": "The first version of async/await syntax is in the beta release, set to be shipped to stable in 1.39 on November 7, next month. There are a wide variety of additional features we could add to async/await in Rust beyond what we’re shipping in that release, but speaking for myself I know that I’d like to pump the breaks on pushing forward big ticket items in this space. Let’s let the ecosystem develop around what we have now before we start sprinting toward more big additions to the language.",
