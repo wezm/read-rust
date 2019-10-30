@@ -40,7 +40,7 @@
     {
       "id": "1ca114e3-a283-4b4c-ae16-4d5966e0ffcf",
       "title": "Dreadbot: A Discord Bot for Magic The Gathering in Rust",
-      "content_text": "The personal blog of Brian Carrigan, software and electronics engineer.",
+      "content_text": "There is a wonderful Magic: The Gathering scene here in Durham, NC. Unfortunately, Magic often deserves the trope that it gets of being an expensive hobby. In order to enjoy the game on a budget, myself and a group of locals created a new format: Paper Dreadful. The format is simple: create a 60 card deck with a maximum of 4 of any card (other than basic lands) and the total cost must be $20 or less on that day. The same rule applies with the sideboard, except it must by $5 or less.\n\nThe problem here is that Magic cards change in price all the time. What happens if I build a deck and then a card skyrockets in price?",
       "url": "https://bcarrigan.com/2019/10/28/dreadbot/",
       "date_published": "2019-10-28T12:00:00+00:00",
       "author": {
