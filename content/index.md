@@ -12,22 +12,6 @@ programming&nbsp;language][rust-lang].
 Read Rust is run by [Wesley Moore]. If you enjoy it, consider [supporting
 me][Patreon] or any of the [wonderful people building and writing in Rust](/support.html).
 
-## Sections
-
-New posts are added to one or more of the following sections:
-
-<ul>
-<li><a href="/all/">All Posts</a></li>
-{% for category in site.data.categories %}
-<li><a href="{{ category.path }}">{{ category.name | escape }}</a> — {{ category.description | escape }}</li>
-{% endfor %}
-</ul>
-<!-- * [Community](/community/) — regarding the Rust community. -->
-<!-- * [Crypto](/crypto/) ? -->
-<!-- * [DevOps](/devops/) -->
-<!-- * [Talks and Presentations](/talks/) -->
-<!-- * [Audio and Music](/audio-and-music/) -->
-
 <h2>
   Recent Posts
   <a class="feedicon" href="/all/feed.rss" title="Read Rust RSS Feed">
@@ -51,6 +35,21 @@ New posts are added to one or more of the following sections:
 </ul>
 
 [View all posts](/all/)
+
+## Sections
+
+New posts are added to one or more of the following sections:
+
+<ul>
+{% for category in site.data.categories %}
+<li><a href="{{ category.path }}">{{ category.name | escape }}</a> — {{ category.description | escape }}</li>
+{% endfor %}
+</ul>
+<!-- * [Community](/community/) — regarding the Rust community. -->
+<!-- * [Crypto](/crypto/) ? -->
+<!-- * [DevOps](/devops/) -->
+<!-- * [Talks and Presentations](/talks/) -->
+<!-- * [Audio and Music](/audio-and-music/) -->
 
 [feeds]: /about.html#feeds
 [rust-lang]: https://www.rust-lang.org/
