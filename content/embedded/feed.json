@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b925cfc1-65fc-4071-a941-e76039f61762",
+      "title": "Making a computer",
+      "content_text": "So, OK, that was originally the point. It's awfulness was part of the joke - \"Hey look what you can do, but totally shouldn't do, in Embedded Rust\". But as time went on, I was thinking - maybe I could just ... make it better? Yes, there's value in setting an arbitrary goal and seeing what can be squeezed from it, but, if the goal was arbitrary, couldn't we just reset it a little bit? Take a step back and say, is it possible to build something impressive but also useful? So this is where the Neotron came from. It's a Monotron 2.0 if you like.",
+      "url": "https://railwayelectronics.blogspot.com/2019/10/making-computer.html",
+      "date_published": "2019-10-22T23:27:00.002+01:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "307357e3-11d1-4494-9193-4f96e9946978",
       "title": "Rotary Encoders in Embedded Rust",
       "content_text": "Recently, I’ve been trying to learn more about electronics and embedded development. Maybe I’m just tired of operating purely in the virtual, but there’s something cool about being able to physically put together a circuit and push a button to make something happen. I went through the usual Arduino resources before seeing what Rust had to offer. I’m happy to report there’s some really good material out there.",

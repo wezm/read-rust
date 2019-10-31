@@ -10,6 +10,122 @@
   },
   "items": [
     {
+      "id": "96de766f-57ab-48b5-a1ad-97c4fe3d67eb",
+      "title": "My Wishes for Rust 2020",
+      "content_text": "2019 was another huge year for rust, but instead of implementing the shiny new thing, it's been a focus on refining existing ideas. Having being using rust professionally for over 3 years, I feel I will very soon be regailing new rust developers of the times before NLL & async, where we had to play lexicon-fu to get things like caches to work in a reasonable fashion, or using super dooper combinator chains and wrestling with futures types (Either::A/B anyone?). So I'd like to make clear my acknowledgement that I am happy with the direction that the rust language is heading in, and these requests are really nice to haves.",
+      "url": "https://cetra3.github.io/blog/rust-2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Cetra",
+        "url": "https://cetra3.github.io/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a9a47fee-f918-46f1-bd89-5ddbcbd69f32",
+      "title": "Rust 2020: exploit dominance in web assembly and no_std",
+      "content_text": "I'm a no name who's just grateful to play around with Rust. The most exciting aspects of Rust is seeing a expressive language go where other languages can barely tread (wasm,linux kernels, microcontrollers). I hope Rust continues to be the bleeding edge tech in web assembly land. I would dream for a world where Rust team works closely with browsers and what new wasm features will drop, and Rust is first to get it. no_std, async, and alloc have added a lot of fascinating new capabilities to the wasm ecosystem, i'd love to see some aspects get stabilized in this realm.",
+      "url": "https://www.reddit.com/r/rust/comments/dp1omc/rust_2020_exploit_dominance_in_web_assembly_and/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/richardanaya",
+        "url": "https://www.reddit.com/user/richardanaya/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "884f2a1b-a04c-44b4-ae44-c7f1b489cbc6",
+      "title": "The Rustc Learning Working Group - An Introduction",
+      "content_text": "The Learning Working Group, formed in April 2019, is focused on making the compiler easier to learn by ensuring that rustc-guide and API docs are \"complete\". It is one of the many efforts by the Rust Compiler team to decrease the barrier of contributing to the compiler.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/28/rustc-learning-working-group-introduction.html",
+      "tweet_url": "https://twitter.com/nikomatsakis/status/1189470145103716352?s=20",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Amanjeev Sethi",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "71a819be-cc9f-43fc-bc00-a9c182229efc",
+      "title": "Rust 2020 – More Or Less",
+      "content_text": "The Rust team asked for 2020 roadmap blog posts, so here goes: Let’s do more of what we’ve been doing so far.",
+      "url": "https://llogiq.github.io/2019/10/30/rust-2020.html",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
+      "title": "Rust and C++ on Floating-point Intensive Code",
+      "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",
+      "url": "https://www.reidatcheson.com/hpc/architecture/performance/rust/c++/2019/10/19/measure-cache.html",
+      "tweet_url": "https://twitter.com/reidatcheson/status/1187154837768675333?s=20",
+      "date_published": "2019-10-19T23:59:59+00:00",
+      "author": {
+        "name": "Reid Atcheson",
+        "url": "https://www.reidatcheson.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "b925cfc1-65fc-4071-a941-e76039f61762",
+      "title": "Making a computer",
+      "content_text": "So, OK, that was originally the point. It's awfulness was part of the joke - \"Hey look what you can do, but totally shouldn't do, in Embedded Rust\". But as time went on, I was thinking - maybe I could just ... make it better? Yes, there's value in setting an arbitrary goal and seeing what can be squeezed from it, but, if the goal was arbitrary, couldn't we just reset it a little bit? Take a step back and say, is it possible to build something impressive but also useful? So this is where the Neotron came from. It's a Monotron 2.0 if you like.",
+      "url": "https://railwayelectronics.blogspot.com/2019/10/making-computer.html",
+      "tweet_url": "https://twitter.com/therealjpster/status/1186771193136910336?s=20",
+      "date_published": "2019-10-22T23:27:00.002+01:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0d971ed6-03ed-49a7-8d96-6f163121e5f3",
+      "title": "What Type Soundness Theorem Do You Really Want to Prove?",
+      "content_text": "Type systems are a ubiquitous and essential part of modern programming languages. They help to ensure that separately developed pieces of a program “fit together” properly, and they help to statically prevent programs from exhibiting a large class of runtime errors.\n\nSo what can we actually prove about a type system to ensure that it is doing its job? The most common answer is type soundness (or type safety).",
+      "url": "https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/",
+      "date_published": "2019-10-17T13:30:49+00:00",
+      "author": {
+        "name": "Derek Dreyer, Amin Timany, Robbert Krebbers, Lars Birkedal, and Ralf Jung",
+        "url": "https://blog.sigplan.org/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "8ad4fa9c-8b67-490b-9039-2865f3ef218f",
+      "title": "Building a widget for Druid",
+      "content_text": "Want to build a desktop app? You probably want to use Electron or Qt or GTK or a native toolkit. Want to build a thing that you could (maybe) someday use to build a native desktop app? Contribute to Druid! Druid is a work-in-progress, open source \"data-oriented Rust UI design toolkit.\" You can use it right now to build very feature-incomplete desktop applications for macOS, Windows, and Linux.",
+      "url": "https://pauljmiller.com/posts/druid-widget-tutorial.html",
+      "tweet_url": "https://twitter.com/futurepaul/status/1187056306458259457?s=20",
+      "date_published": "2019-10-23T00:45:59+00:00",
+      "author": {
+        "name": "Paul Miller",
+        "url": "https://pauljmiller.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
       "title": "Audio Processing for Dummies",
       "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",

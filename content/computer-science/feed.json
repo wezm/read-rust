@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0d971ed6-03ed-49a7-8d96-6f163121e5f3",
+      "title": "What Type Soundness Theorem Do You Really Want to Prove?",
+      "content_text": "Type systems are a ubiquitous and essential part of modern programming languages. They help to ensure that separately developed pieces of a program “fit together” properly, and they help to statically prevent programs from exhibiting a large class of runtime errors.\n\nSo what can we actually prove about a type system to ensure that it is doing its job? The most common answer is type soundness (or type safety).",
+      "url": "https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/",
+      "date_published": "2019-10-17T13:30:49+00:00",
+      "author": {
+        "name": "Derek Dreyer, Amin Timany, Robbert Krebbers, Lars Birkedal, and Ralf Jung",
+        "url": "https://blog.sigplan.org/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "a4736472-659a-4d2a-9dc4-d4d12d342963",
       "title": "Understanding Rust Through AVL Trees",
       "content_text": "From<Elixir>, Into<Rust>. I loved learning the Elixir language and how its pragmatic supervision trees and process model taught me the value fault tolerance as a quality of code than of infrastructure. Having safety and failure recovery as an idiomatic culture and mindset of the language made me a better thinker and developer. As a personal preference then in selecting new languages to learn, I look for potentially new perspectives and insights that it ascribes to its pilgrims. In general, a good learning curve is a good indicator since it has much to teach.",

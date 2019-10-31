@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "96de766f-57ab-48b5-a1ad-97c4fe3d67eb",
+      "title": "My Wishes for Rust 2020",
+      "content_text": "2019 was another huge year for rust, but instead of implementing the shiny new thing, it's been a focus on refining existing ideas. Having being using rust professionally for over 3 years, I feel I will very soon be regailing new rust developers of the times before NLL & async, where we had to play lexicon-fu to get things like caches to work in a reasonable fashion, or using super dooper combinator chains and wrestling with futures types (Either::A/B anyone?). So I'd like to make clear my acknowledgement that I am happy with the direction that the rust language is heading in, and these requests are really nice to haves.",
+      "url": "https://cetra3.github.io/blog/rust-2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Cetra",
+        "url": "https://cetra3.github.io/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a9a47fee-f918-46f1-bd89-5ddbcbd69f32",
+      "title": "Rust 2020: exploit dominance in web assembly and no_std",
+      "content_text": "I'm a no name who's just grateful to play around with Rust. The most exciting aspects of Rust is seeing a expressive language go where other languages can barely tread (wasm,linux kernels, microcontrollers). I hope Rust continues to be the bleeding edge tech in web assembly land. I would dream for a world where Rust team works closely with browsers and what new wasm features will drop, and Rust is first to get it. no_std, async, and alloc have added a lot of fascinating new capabilities to the wasm ecosystem, i'd love to see some aspects get stabilized in this realm.",
+      "url": "https://www.reddit.com/r/rust/comments/dp1omc/rust_2020_exploit_dominance_in_web_assembly_and/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/richardanaya",
+        "url": "https://www.reddit.com/user/richardanaya/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "71a819be-cc9f-43fc-bc00-a9c182229efc",
+      "title": "Rust 2020 – More Or Less",
+      "content_text": "The Rust team asked for 2020 roadmap blog posts, so here goes: Let’s do more of what we’ve been doing so far.",
+      "url": "https://llogiq.github.io/2019/10/30/rust-2020.html",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "1b2c0d1d-3b43-444e-8755-e8e4a60cb2b7",
       "title": "Rust 2020: Private enum variants",
       "content_text": "For the 2021 edition of Rust, I'd like to see private enum variants.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "884f2a1b-a04c-44b4-ae44-c7f1b489cbc6",
+      "title": "The Rustc Learning Working Group - An Introduction",
+      "content_text": "The Learning Working Group, formed in April 2019, is focused on making the compiler easier to learn by ensuring that rustc-guide and API docs are \"complete\". It is one of the many efforts by the Rust Compiler team to decrease the barrier of contributing to the compiler.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/28/rustc-learning-working-group-introduction.html",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Amanjeev Sethi",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
       "title": "Audio Processing for Dummies",
       "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8ad4fa9c-8b67-490b-9039-2865f3ef218f",
+      "title": "Building a widget for Druid",
+      "content_text": "Want to build a desktop app? You probably want to use Electron or Qt or GTK or a native toolkit. Want to build a thing that you could (maybe) someday use to build a native desktop app? Contribute to Druid! Druid is a work-in-progress, open source \"data-oriented Rust UI design toolkit.\" You can use it right now to build very feature-incomplete desktop applications for macOS, Windows, and Linux.",
+      "url": "https://pauljmiller.com/posts/druid-widget-tutorial.html",
+      "date_published": "2019-10-23T00:45:59+00:00",
+      "author": {
+        "name": "Paul Miller",
+        "url": "https://pauljmiller.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "394c26b3-924a-43e8-b262-4d8e895ddbcd",
       "title": "I made a NES emulator in Rust using generators",
       "content_text": "Emulators are cool! They help preserve games, improve games, and help make games more accessible. On top of that, making an emulator is a cathartic and satisfying technical challenge!\n\nSo, I took this challenge myself and came out the other end with a pretty limited NES emulator, which I call Lochnes. It’s not very good at actually emulating most games, but I’m pretty happy with the guts of the thing and I learned a lot a long the way. I figured it might be worthwhile to share my approach, which might help or inspire others on their own emulation venture!",

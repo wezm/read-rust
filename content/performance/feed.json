@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
+      "title": "Rust and C++ on Floating-point Intensive Code",
+      "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",
+      "url": "https://www.reidatcheson.com/hpc/architecture/performance/rust/c++/2019/10/19/measure-cache.html",
+      "date_published": "2019-10-19T23:59:59+00:00",
+      "author": {
+        "name": "Reid Atcheson",
+        "url": "https://www.reidatcheson.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "59f60adc-9c66-4f8b-9a3a-6ffdcedb14c6",
       "title": "Rust Big Data Benchmarks",
       "content_text": "I have been running benchmarks of aggregate queries against the NYC taxi data set, using Apache Spark (JVM-based) as the baseline, since it is currently a popular tool for distributed compute, and a tool I am familiar with.",
