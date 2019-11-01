@@ -1,3 +1,17 @@
+env:
+  global:
+    - TEST_DATABASE_URL=postgres://postgres@/read_rust_test
+    - MASTODON_BASE=https://botsin.space
+    - MASTODON_CLIENT_ID=
+    - MASTODON_CLIENT_SECRET=
+    - MASTODON_REDIRECT=urn:ietf:wg:oauth:2.0:oob
+    - MASTODON_TOKEN=
+    - TWITTER_CONSUMER_KEY=
+    - TWITTER_CONSUMER_SECRET=
+    - TWITTER_ACCESS_KEY=
+    - TWITTER_ACCESS_SECRET=
+    - FEEDBIN_USERNAME=
+    - FEEDBIN_PASSWORD=
 matrix:
   include:
     - language: rust
