@@ -25,11 +25,6 @@ matrix:
     - language: crystal
       addons:
         chrome: stable
-        postgresql: "11"
-        apt:
-          packages:
-            - postgresql-11
-            - postgresql-client-11
       services:
         - postgresql
       before_install:
