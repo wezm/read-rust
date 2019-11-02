@@ -22,17 +22,17 @@ class Shared::Header < BaseComponent
           div class: "support" do
             link "Support Rust", class: "heart", to: Creators::Index
           end
+          @current_user.try do |user|
+            render_signed_in_user(user)
+          end
         end
-      end
-      @current_user.try do |user|
-        render_signed_in_user(user)
       end
     end
   end
 
   private def render_signed_in_user(user)
-    text user.email
-    text " - "
-    link "Sign out", to: SignIns::Delete, flow_id: "sign-out-button"
+    div do
+      link "Sign out", to: SignIns::Delete, flow_id: "sign-out-button"
+    end
   end
 end
