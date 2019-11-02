@@ -151,6 +151,30 @@ blockquote {
   background-color: #fbd492;
 }
 
+.flash-container {
+  text-align: center;
+}
+.flash {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.3);;
+}
+.flash-success {
+  border-left: 3px solid #48c774;
+}
+.flash-info {
+  border-left: 3px solid #3298dc;
+}
+.flash-failure {
+  border-left: 3px solid #f14646;
+}
+.error {
+  border-left: 3px solid #f14646;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+}
+
 .tag {
   display: inline-block;
   background: hsl(37.7, 92.9%, 94.8%);
