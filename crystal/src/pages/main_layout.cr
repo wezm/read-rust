@@ -27,34 +27,8 @@ abstract class MainLayout
       mount Shared::LayoutHead.new(page_title: page_title, context: @context, categories: CategoryQuery.new, app_js: app_js?, admin_js: admin_js?, extra_css: extra_css)
 
       body do
+        mount Shared::Header.new(@current_user)
         mount Shared::FlashMessages.new(@context.flash)
-
-        header do
-          link to: Home::Index do
-            text "Read "
-            img alt: "", class: "logo", src: asset("images/logo.svg")
-            text " Rust"
-          end
-          nav do
-            div class: "list-inline" do
-              div do
-                link "Home", to: Home::Index
-              end
-              div do
-                link "About", to: About::Show
-              end
-              div do
-                link "Submit", to: Submit::Show
-              end
-              div class: "support" do
-                link "Support Rust", class: "heart", to: Creators::Index
-              end
-            end
-          end
-          @current_user.try do |user|
-            render_signed_in_user(user)
-          end
-        end
         main class: "main" do
           h1 page_title
           content
@@ -110,11 +84,5 @@ abstract class MainLayout
         end
       end
     end
-  end
-
-  private def render_signed_in_user(user)
-    text user.email
-    text " - "
-    link "Sign out", to: SignIns::Delete, flow_id: "sign-out-button"
   end
 end

@@ -1,5 +1,6 @@
 class SignUps::NewPage < AuthLayout
   needs operation : SignUpUser
+  quick_def page_title, "Sign Up"
 
   def content
     h1 "Sign Up"
@@ -7,9 +8,12 @@ class SignUps::NewPage < AuthLayout
   end
 
   private def render_sign_up_form(op)
-    form_for SignUps::Create do
+    form_for SignUps::Create, class: "form-stacked" do
       sign_up_fields(op)
-      submit "Sign Up", flow_id: "sign-up-button"
+
+      div do
+        submit "Sign Up", flow_id: "sign-up-button"
+      end
     end
     link "Sign in instead", to: SignIns::New
   end

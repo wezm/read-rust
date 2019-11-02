@@ -4,23 +4,23 @@ abstract class AuthLayout
   abstract def content
   abstract def page_title
 
-  # The default page title. It is passed to `Shared::LayoutHead`.
-  #
-  # Add a `page_title` method to pages to override it. You can also remove
-  # This method so every page is required to have its own page title.
-  def page_title
-    "Welcome"
+  def extra_css
+    "css/admin.css"
   end
 
   def render
     html_doctype
 
     html lang: "en" do
-      mount Shared::LayoutHead.new(page_title: page_title, context: @context, categories: CategoryQuery.new, app_js: false, admin_js: false, extra_css: nil)
+      mount Shared::LayoutHead.new(page_title: page_title, context: @context, categories: CategoryQuery.new, app_js: false, admin_js: false, extra_css: extra_css)
 
       body do
-        mount Shared::FlashMessages.new(@context.flash)
-        content
+        mount Shared::Header.new(nil)
+
+        main class: "main" do
+          mount Shared::FlashMessages.new(@context.flash)
+          content
+        end
       end
     end
   end

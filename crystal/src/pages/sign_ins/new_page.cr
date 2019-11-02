@@ -1,5 +1,6 @@
 class SignIns::NewPage < AuthLayout
   needs operation : SignInUser
+  quick_def page_title, "Sign In"
 
   def content
     h1 "Sign In"
@@ -7,9 +8,12 @@ class SignIns::NewPage < AuthLayout
   end
 
   private def render_sign_in_form(op)
-    form_for SignIns::Create do
+    form_for SignIns::Create, class: "form-stacked" do
       sign_in_fields(op)
-      submit "Sign In", flow_id: "sign-in-button"
+
+      div do
+        submit "Sign In", flow_id: "sign-in-button"
+      end
     end
     link "Reset password", to: PasswordResetRequests::New
     text " | "
