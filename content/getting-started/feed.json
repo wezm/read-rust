@@ -10,6 +10,21 @@
   },
   "items": [
     {
+      "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
+      "title": "Implementing a job queue in Rust",
+      "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
+      "url": "https://www.poor.dev/posts/what-job-queue/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://www.poor.dev/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
       "id": "26a18477-a394-46c8-afde-b096269eeb04",
       "title": "Playing with env in Rust",
       "content_text": "Environment variables plays a vital role in setting up a large scale project in real time environment. This blog explains env crate and env! macro in Rust.",

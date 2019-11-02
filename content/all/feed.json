@@ -10,6 +10,189 @@
   },
   "items": [
     {
+      "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
+      "title": "Implementing a job queue in Rust",
+      "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
+      "url": "https://www.poor.dev/posts/what-job-queue/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://www.poor.dev/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "3ece4d28-616e-4ea1-b182-f194738e220f",
+      "title": "Rust 2020 reflections",
+      "content_text": "This year, I am quite divided due to a bunch of competing desires: I still want all of the things that I wanted last year. In particular, it would be great if OS developement could finally be done on stable rust. Things like inline asm are blocking this. I think there is still a great deal of technical debt left over. I'll talk more about this later. It's not clear what the right balance of new features and working on technical debt is.",
+      "url": "https://gist.github.com/mark-i-m/a39320449a1311515ac62e43ddd9dee0",
+      "date_published": "2019-10-30T14:27:23+00:00",
+      "author": {
+        "name": "mark-i-m",
+        "url": "https://gist.github.com/mark-i-m"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "290147b3-4275-4b38-86d1-48ead00c7e9f",
+      "title": "Completing the transition to the new borrow checker",
+      "content_text": "For most of 2018, we've been issuing warnings about various bugs in the borrow checker that we plan to fix -- about two months ago, in the current Rust nightly, those warnings became hard errors. In about two weeks, when the nightly branches to become beta, those hard errors will be in the beta build, and they will eventually hit stable on December 19th, as part of Rust 1.40.0. If you're testing with Nightly, you should be all set -- but otherwise, you may want to go and check to make sure your code still builds. If not, we have advice for fixing common problems below.",
+      "url": "https://blog.rust-lang.org/2019/11/01/nll-hard-errors.html",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a2f9e31b-3a47-48f0-981b-0f00fe03471e",
+      "title": "@notriddle's Rust 2020 wishlist, or, Rust 2021: Integration",
+      "content_text": "This is just a brain dump. Doing all of this is not going to happen, but all of it is stuff I know of that impacts Rust's integration with the rest of the world and eventually becoming Too Big To Fail like C++ is.",
+      "url": "http://txti.es/notriddle-rust-2020",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "notriddle",
+        "url": "https://notriddle.com/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a11ab1b4-86e3-4200-8cea-1c5ceb185dd8",
+      "title": "Vision for Rust 2020 - Integration",
+      "content_text": "With async close the completion everything looks to fall perfectly in place for maintaining the developer momentum that Rust has picked up. The language has surely shown to be approachable, flexible for new concepts and continues to be loved. So are we done? Of course not. I would like to see next years theme be Integration.",
+      "url": "https://www.hardmo.de/article/2019-10-29-rust-2020-vision.md",
+      "date_published": "2019-10-29T20:58:00+00:00",
+      "author": {
+        "name": "Andreas Molzer",
+        "url": "https://www.hardmo.de/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "2f4398a8-473f-47e8-9c7a-616caba80e6d",
+      "title": "Rust 2020",
+      "content_text": "Every year there’s a call for blogs reflecting on goals for Rust for the upcoming year. For me, the theme is “Community First”.",
+      "url": "https://blog.hwc.io/posts/rust-2020/",
+      "date_published": "2019-10-31T10:31:16-04:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "3f06b972-507b-441b-a4ce-9fbf0cdfcf96",
+      "title": "My Rust 2020 ideas",
+      "content_text": "This blog article is a small reply to the public call for blog posts 2020 in the Rust community. I will express what I would like Rust to go to, keeping in mind that it’s solely my ideas and opinions others’ might differ. The points expressed here are written by decreasing priority, starting with the feature I would like the most to see implemented as soon as possible.",
+      "url": "https://phaazon.net/blog/rust-2020-ideas",
+      "date_published": "2019-10-31T15:15:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "5458741c-97c2-4a8f-bb9e-73daf7317c81",
+      "title": "Rust 2021: Sustainability",
+      "content_text": "For the 2019 roadmap Jonathan Turner wrote a blog post called the The Fallow Year that posited that we should let the new designs \"field\" rest (go fallow) while we focus on other areas. To extend that metaphor, I would say Rust has fallen into monocropping in 2019 by focusing too much on our technical debt, when we needed to be addressing our social debt.",
+      "url": "https://xampprocky.github.io/public/blog/rust-2021/",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "XAMPPRocky",
+        "url": "https://xampprocky.github.io/public/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "e6cb0f49-a174-4d58-9acd-2253bbf3bfbe",
+      "title": "Rust 2020: GUI and community",
+      "content_text": "In response to the call for blogs about the vision for Rust for 2020, I’m going to write about GUI. I believe the time is right for a native GUI toolkit written in Rust, and that such a thing would fill a very important niche. There is a demand for performance (which, to me, includes startup time, RAM footprint, and binary size), and Rust is in the best position to deliver on that.",
+      "url": "https://raphlinus.github.io/rust/druid/2019/10/31/rust-2020.html",
+      "date_published": "2019-10-31T19:27:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "05982a72-c4dd-49ff-8384-3af1783e7211",
+      "title": "Rust 2020: Let’s embrace the Eternal September",
+      "content_text": "User growth means accepting people that haven’t been exposed to Rust’s norms yet. Let’s not fracture because of an argument over top-posting vs bottom-quoting or something equally trivial. We need to make sure that Rust is prepared to welcome people who are just learning about Rust today. We don’t want anyone to feel like they’re late to the party.",
+      "url": "https://tim.mcnamara.nz/post/188733729327/rust-2020-lets-embrace-the-eternal-september",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Tim McNamara",
+        "url": "https://tim.mcnamara.nz/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "702fd8df-1263-4a2b-ae50-ea9b5e27e35a",
+      "title": "Rust 2020 - Libraries, Libraries, Libraries!",
+      "content_text": "The call for blogs was just issues a few days ago - and here I am writing about my biggest pains this year… because that’s what the call for blogs basically is for me… I write down my pains with Rust and hope things get better slowly next year.\n\nDon’t misunderstand what I want to say here though: Rust is awesome, has an awesome community, awesome tooling, awesome everything… well not completely (because otherwise I wouldn’t have to write this article, right?",
+      "url": "https://beyermatthias.de/blog/2019/11/01/rust-2020-libraries-libraries-libraries/",
+      "date_published": "2019-11-01T20:45:00+00:00",
+      "author": {
+        "name": "Matthias Beyer",
+        "url": "https://beyermatthias.de/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "b2e770a7-f957-470a-8d0b-e5ba86c9872e",
+      "title": "Rust 2020: A better ecosystem",
+      "content_text": "I’m fairly new to Rust, and thus my perspective is that of someone who is not quite sophisticated with the language. I think Rust is hard to learn but should be manageable for your average software developer given enough persistence. Once you are over that barrier, you start thinking of building something in Rust. Probably, for the web, or a desktop application, or a mobile application; because that’s largely what many developers are building today.",
+      "url": "https://omarabid.com/rust-2020",
+      "date_published": "2019-11-01T13:37:48-07:00",
+      "author": {
+        "name": "Abid Omar",
+        "url": "https://omarabid.com/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "15458bd0-19bb-4bf6-8460-5857ec6aecdc",
+      "title": "Rust 2020: what about feedbacks?",
+      "content_text": "I've been working on the Rust compiler for years. It got stabilized, then matured through the years. From my point of view, it now has most of the features I wanted. So what would I want for Rust 2020 and what's coming after? To sum it up: feedbacks.",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-11-01+Rust+2020%3A+what+about+feedbacks%3F",
+      "date_published": "2019-11-01T21:30:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://www.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "96de766f-57ab-48b5-a1ad-97c4fe3d67eb",
       "title": "My Wishes for Rust 2020",
       "content_text": "2019 was another huge year for rust, but instead of implementing the shiny new thing, it's been a focus on refining existing ideas. Having being using rust professionally for over 3 years, I feel I will very soon be regailing new rust developers of the times before NLL & async, where we had to play lexicon-fu to get things like caches to work in a reasonable fashion, or using super dooper combinator chains and wrestling with futures types (Either::A/B anyone?). So I'd like to make clear my acknowledgement that I am happy with the direction that the rust language is heading in, and these requests are really nice to haves.",

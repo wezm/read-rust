@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
+      "title": "Implementing a job queue in Rust",
+      "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
+      "url": "https://www.poor.dev/posts/what-job-queue/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://www.poor.dev/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "290147b3-4275-4b38-86d1-48ead00c7e9f",
+      "title": "Completing the transition to the new borrow checker",
+      "content_text": "For most of 2018, we've been issuing warnings about various bugs in the borrow checker that we plan to fix -- about two months ago, in the current Rust nightly, those warnings became hard errors. In about two weeks, when the nightly branches to become beta, those hard errors will be in the beta build, and they will eventually hit stable on December 19th, as part of Rust 1.40.0. If you're testing with Nightly, you should be all set -- but otherwise, you may want to go and check to make sure your code still builds. If not, we have advice for fixing common problems below.",
+      "url": "https://blog.rust-lang.org/2019/11/01/nll-hard-errors.html",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "884f2a1b-a04c-44b4-ae44-c7f1b489cbc6",
       "title": "The Rustc Learning Working Group - An Introduction",
       "content_text": "The Learning Working Group, formed in April 2019, is focused on making the compiler easier to learn by ensuring that rustc-guide and API docs are \"complete\". It is one of the many efforts by the Rust Compiler team to decrease the barrier of contributing to the compiler.",
