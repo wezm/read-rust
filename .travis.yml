@@ -1,6 +1,6 @@
 env:
   global:
-    - TEST_DATABASE_URL=postgres://postgres@/read_rust_test
+    - TEST_DATABASE_URL=postgres://postgres@localhost/read_rust_test
     - MASTODON_BASE=https://botsin.space
     - MASTODON_CLIENT_ID=
     - MASTODON_CLIENT_SECRET=
