@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# The Crystal and Lucky build process spews files into various places so it
+# needs to run on a r/w filesystem To allow that we overlay mount an empty
+# directory ontop of the readonly source tree.
+sudo -l
+sudo mount -t overlay overlay -o lowerdir=/src,upperdir=/upper,workdir=/work /build
+
+cd /build/crystal
+yarn && yarn prod && (shards check || shards install) && crystal spec && yarn run tsc

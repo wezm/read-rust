@@ -1,0 +1,9 @@
+#!/bin/sh
+
+docker run --rm -it \
+  -v "$(pwd)":/src:ro \
+  -v read-rust-crystal-target:/target \
+  -v read-rust-crystal-target-cargo-registry:/home/readrust/.cargo/registry \
+  -e CARGO_TARGET_DIR=/target \
+  read-rust-crystal \
+  sh -c '(cd rust && cargo test)'

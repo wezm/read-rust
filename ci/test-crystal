@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# The Crystal build process spews files into various places so it needs to run on a r/w filesystem
+# To allow that we mount the source read-only elsewhere and copy it.
+
+docker run --rm -it \
+  -v "$(pwd)":/src:ro \
+  -v read-rust-crystal-target:/target \
+  -v read-rust-crystal-cargo-registry:/home/readrust/.cargo/registry \
+  -v read-rust-crystal-node-modules:/src/crystal/node_modules \
+  -v read-rust-crystal-public-js:/src/crystal/public/js \
+  -v read-rust-crystal-public-css:/src/crystal/public/css \
+  -v read-rust-crystal-shards-lib:/src/crystal/lib \
+  -v read-rust-crystal-shards-bin:/src/crystal/bin \
+  -e CARGO_TARGET_DIR=/target \
+  --ulimit core=0 \
+  read-rust-crystal \
+  sh
+
+  #ci/test-crystal-inner
