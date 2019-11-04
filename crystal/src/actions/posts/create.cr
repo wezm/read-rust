@@ -10,7 +10,7 @@ class Posts::Create < BrowserAction
           tx_result = true
         else
           flash.failure = "Unable to create Post"
-          response = html NewPage, form: form, categories: CategoryQuery.new.without_all
+          response = html NewPage, form: form
           tx_result = AppDatabase.rollback
         end
       end

@@ -1,6 +1,6 @@
 class Posts::Edit < BrowserAction
   route do
-    post = PostQuery.find(post_id)
+    post = PostQuery.new.preload_post_categories.find(post_id)
     html EditPage,
       form: SavePost.new(post),
       post: post
