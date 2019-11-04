@@ -1,5 +1,5 @@
 class Categories::IndexPage < MainLayout
-  needs categories : CategoryQuery
+  needs categories : Array(Category)
   needs recent_posts : PostQuery
   quick_def page_title, "Home"
 
@@ -32,17 +32,6 @@ class Categories::IndexPage < MainLayout
       link "wonderful people building and writing in Rust", to: Creators::Index
       text "."
     end
-    h2 "Sections"
-    para "New posts are added to one or more of the following sections:"
-
-    ul do
-      @categories.each do |category|
-        li do
-          link category.name, to: Categories::Show.with(category.slug)
-          text " — #{category.description}."
-        end
-      end
-    end
 
     h2 do
       text " Recent Posts "
@@ -67,5 +56,17 @@ class Categories::IndexPage < MainLayout
     end
 
     link "View all posts", to: Categories::Show.with("all")
+
+    h2 "Sections"
+    para "New posts are added to one or more of the following sections:"
+
+    ul do
+      @categories.each do |category|
+        li do
+          link category.name, to: Categories::Show.with(category.slug)
+          text " — #{category.description}"
+        end
+      end
+    end
   end
 end
