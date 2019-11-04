@@ -18,7 +18,7 @@ class Posts::ShowPage < MainLayout
         end
       end
 
-      link "Edit", to: Posts::Edit.with(@post)
+      mount Posts::ActionBar.new(@post, @current_user)
     end
   end
 end

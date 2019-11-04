@@ -23,6 +23,10 @@ button {
   margin-top: 1em;
   text-align: right;
 }
+.post-action-bar a {
+  display: inline-block;
+  margin-right: 1em;
+}
 textarea {
   min-height: 13rem;
 }

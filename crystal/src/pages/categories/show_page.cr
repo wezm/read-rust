@@ -16,15 +16,14 @@ class Categories::ShowPage < MainLayout
       end
     end
 
-    ul do
-      @posts.each do |post|
-        article do
-          a post.title, href: post.url
-          text " by #{post.author}"
-          tag "blockquote" do
-            simple_format(post.summary)
-          end
+    @posts.each do |post|
+      article do
+        a post.title, href: post.url
+        text " by #{post.author}"
+        tag "blockquote" do
+          simple_format(post.summary)
         end
+        mount Posts::ActionBar.new(post, @current_user)
       end
     end
   end
