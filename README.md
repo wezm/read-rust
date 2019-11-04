@@ -84,6 +84,12 @@ Run the development server:
 
 After it compiles the site should now be accessible at: <http://127.0.0.1:3001/>
 
+### Importing From Version 1
+
+    cd crystal
+    lucky import_posts ../content/_data/rust/posts.json ../content/_data/{tweeted,tooted}.json
+    lucky import_creators ../content/_data/creators.yaml
+
 ### Website
 
 The website is built with [Cobalt]. After [installing Cobalt][install-cobalt]
