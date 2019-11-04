@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "e9565ca9-50f7-4ed7-9acd-485040d90014",
+      "title": "GNOME+Rust Hackfest #6 in Roma",
+      "content_text": "End of the year, meaning it's time for a new GNOME+Rust hackfest and its feedback!",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-10-24+GNOME%2BRust+Hackfest+%236+in+Roma",
+      "date_published": "2019-10-24T21:15:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://www.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1206f8f5-e2a7-4679-91c3-d79143268a42",
+      "title": "Rust+GNOME Hackfest #6",
+      "content_text": "Last week, I went to the sixth Rust+GNOME hackfest which was in Rome. During these hackfests, we work on improving the integration between Rust and the GNOME libraries.",
+      "url": "https://antoyo.ml/rust-gnome-hackfest-rome",
+      "date_published": "2019-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1f048104-e5be-49df-9def-c7b4de0d5478",
+      "title": "Nushell 0.4.0",
+      "content_text": "Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your commandline. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful commandline pipelines.\n\nToday we’re happy to announce the 0.4.0 release of Nushell. The 0.4.0 release marks a continually maturing shell that is now starting to show signs of stability. And, of course, a few fun features along the way.",
+      "url": "http://www.jonathanturner.org/2019/10/nushell-0_4_0.html",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "0932500c-62e0-4379-9e09-eb5ed61d826a",
       "title": "Mun Programming Language",
       "content_text": "The idea to create Mun originated out of frustration with the Lua dynamic scripting language that is extensively used for game development at Abbey Games.\n\nLua's hot reloading capabilities and LuaJIT's performance make it a great language for rapid prototyping of real-time applications - such as games - on PC. However, the language has performance issues on some mobile and console platforms - to which LuaJIT cannot deploy, the language lacks refactoring functionality, and does not scale well with modern technology.\n\nMun tries to take the best of both worlds to create a more robust, highly iterative, productive, and performant programming language.",

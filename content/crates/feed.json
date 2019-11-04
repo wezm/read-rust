@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8de2bce6-9245-4f95-b12c-ca3e38efb3bb",
+      "title": "Migrate spirit to version 0.4",
+      "content_text": "This post can serve as a step by step migration guide from spirit 0.3 to spirit 0.4. If you already have an application using the crate, read on.\n\nIf you haven’t heard about the spirit library yet, it is a library to help you manage your configuration in an application and have it reloaded at runtime. It allows you to have the changes applied automatically and also to manage lifetime of the application. You can read more about it here. In that case, a migration guide won’t help you much, but I’m planning on having a tutorial how to start with the library soon.",
+      "url": "https://vorner.github.io/2019/10/19/migrate-spirit-to-0-4.html",
+      "date_published": "2019-10-19T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f33cd82d-46fa-4e3e-97e9-0bef43ba9b00",
       "title": "Watt: A runtime for executing Rust procedural macros compiled as WebAssembly",
       "content_text": " By compiling macros ahead-of-time to Wasm, we save all downstream users of the macro from having to compile the macro logic or its dependencies themselves. Instead, what they compile is a small self-contained Wasm runtime (~3 seconds, shared by all macros) and a tiny proc macro shim for each macro crate to hand off Wasm bytecode into the Watt runtime (~0.3 seconds per proc-macro crate you depend on). This is much less than the 20+ seconds it can take to compile complex procedural macros and their dependencies.",

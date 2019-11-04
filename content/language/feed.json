@@ -10,6 +10,161 @@
   },
   "items": [
     {
+      "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
+      "title": "Implementing a job queue in Rust",
+      "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
+      "url": "https://www.poor.dev/posts/what-job-queue/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://www.poor.dev/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "290147b3-4275-4b38-86d1-48ead00c7e9f",
+      "title": "Completing the transition to the new borrow checker",
+      "content_text": "For most of 2018, we've been issuing warnings about various bugs in the borrow checker that we plan to fix -- about two months ago, in the current Rust nightly, those warnings became hard errors. In about two weeks, when the nightly branches to become beta, those hard errors will be in the beta build, and they will eventually hit stable on December 19th, as part of Rust 1.40.0. If you're testing with Nightly, you should be all set -- but otherwise, you may want to go and check to make sure your code still builds. If not, we have advice for fixing common problems below.",
+      "url": "https://blog.rust-lang.org/2019/11/01/nll-hard-errors.html",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "884f2a1b-a04c-44b4-ae44-c7f1b489cbc6",
+      "title": "The Rustc Learning Working Group - An Introduction",
+      "content_text": "The Learning Working Group, formed in April 2019, is focused on making the compiler easier to learn by ensuring that rustc-guide and API docs are \"complete\". It is one of the many efforts by the Rust Compiler team to decrease the barrier of contributing to the compiler.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/28/rustc-learning-working-group-introduction.html",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Amanjeev Sethi",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
+      "title": "Audio Processing for Dummies",
+      "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",
+      "url": "http://adventures.michaelfbryan.com/posts/audio-processing-for-dummies/",
+      "date_published": "2019-10-27T23:34:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "49a2176c-55b0-4603-8f20-d0d15ab56ca4",
+      "title": "Programming Servo: the incredibly shrinking timer",
+      "content_text": "How to build a timer in Rust in five easy evolutionary steps.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669",
+      "date_published": "2019-10-27T15:40:54.995+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da517b10-2b8a-4b94-97c3-34b0c049de42",
+      "title": "Why async fn in traits are hard",
+      "content_text": "After reading boat’s excellent post on asynchronous destructors, I thought it might be a good idea to write some about async fn in traits. Support for async fn in traits is probably the single most common feature request that I hear about. It’s also one of the more complex topics. So I thought it’d be nice to do a blog post kind of giving the “lay of the land” on that feature – what makes it complicated? What questions remain open?",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/",
+      "date_published": "2019-10-26T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6e9b1816-3105-4847-b96e-d3af713b9ebc",
+      "title": "Cost of rust-analyzer",
+      "content_text": "In this post, we’ll talk about financial side of the rust-analyzer project. The goal is to find out how much rust-analyzer costs now, formulate financial goals for speeding up the development and document the Open Collective expenses policy.",
+      "url": "https://rust-analyzer.github.io/2019/10/16/finance.html",
+      "date_published": "2019-10-16T09:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9b853968-186e-414b-af4a-f4a6cf9e7392",
+      "title": "Asynchronous Destructors",
+      "content_text": "The first version of async/await syntax is in the beta release, set to be shipped to stable in 1.39 on November 7, next month. There are a wide variety of additional features we could add to async/await in Rust beyond what we’re shipping in that release, but speaking for myself I know that I’d like to pump the breaks on pushing forward big ticket items in this space. Let’s let the ecosystem develop around what we have now before we start sprinting toward more big additions to the language.",
+      "url": "https://boats.gitlab.io/blog/post/poll-drop/",
+      "date_published": "2019-10-16T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e8d05615-a728-4bea-8f43-400827903e1a",
+      "title": "How to not rewrite it in Rust",
+      "content_text": "Once you get past the growing pains of the Borrow Checker and realise Rust gives you the power to do things which would be unheard of (or just plain dangerous) in other languages, the temptation to Rewrite it in Rust can be quite strong. However at best, the temptation to RiiR is unproductive (unnecessary duplication of effort), and at worst it can promote the creation of buggy software (why would you be better equipped to write a library for some domain-specific purpose than the original author?",
+      "url": "http://adventures.michaelfbryan.com/posts/how-not-to-riir/",
+      "date_published": "2019-10-20T19:45:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5a7311d2-3cf3-47fa-bce5-10b0747b30e8",
+      "title": "Announcing the LLVM ICE-breaker group",
+      "content_text": "Today I'm announcing a new experiment in the compiler team, the LLVM ICE-breaker group. If you're familiar with LLVM and would like to contribute to rustc -- but without taking on a large commitment -- then the LLVM ICE-breaker group might well be for you!",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/22/LLVM-ICE-breakers.html",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8b2ade3b-1476-4770-a7e2-838c3623a381",
+      "title": "Detecting Application Uniqueness and interprocess communication in Rust",
+      "content_text": "The aim of this article is to demonstrate one of many ways to detect application uniqueness and establish unilateral interprocess communication in Rust in the Linux platform. Note that the APIs used in this article is not portable to Windows and other *nix systems. Also note that methods used in this article may not be best suitable for all use cases.",
+      "url": "https://gitlab.com/snippets/1903637",
+      "date_published": "2019-10-14T00:00:00+00:00",
+      "author": {
+        "name": "9898287",
+        "url": "https://gitlab.com/9898287"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8629a67f-d7a6-41e9-80b1-e568f491c325",
       "title": "Announcing Rustup 1.20.0",
       "content_text": "The highlights of this release are profiles support, the ability to get the latest available nightly with all the components you need, and improvements to the rustup doc command. You can also check out the changelog for a list of all the changes included in this release.",

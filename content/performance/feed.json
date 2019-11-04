@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
+      "title": "Rust and C++ on Floating-point Intensive Code",
+      "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",
+      "url": "https://www.reidatcheson.com/hpc/architecture/performance/rust/c++/2019/10/19/measure-cache.html",
+      "date_published": "2019-10-19T23:59:59+00:00",
+      "author": {
+        "name": "Reid Atcheson",
+        "url": "https://www.reidatcheson.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "59f60adc-9c66-4f8b-9a3a-6ffdcedb14c6",
+      "title": "Rust Big Data Benchmarks",
+      "content_text": "I have been running benchmarks of aggregate queries against the NYC taxi data set, using Apache Spark (JVM-based) as the baseline, since it is currently a popular tool for distributed compute, and a tool I am familiar with.",
+      "url": "https://andygrove.io/rust_bigdata_benchmarks/",
+      "date_published": "2019-10-20T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "5babdb55-5061-4e26-b05e-a7c407d03c80",
+      "title": "Where rustc spends its time",
+      "content_text": "So a couple weeks ago I was a little stung by the quote from This Week In Rust: “Rust compilation is so slow that I can fix the bugs while it still compiles the crates”. On the one hand, I have unfond memories of waiting for a Typescript project to compile, pack (aka link), minify (aka optimize), and so on, over and over, on every change. At least if it had been Rust I’d have been able to fix the bugs while it was doing this. On the other hand, it’s also mostly true: compiling Rust is heckin’ slow. So I’ve decided to dust off a backburner project for a while, and figure out just where rustc spends most of its time.",
+      "url": "https://wiki.alopex.li/WhereRustcSpendsItsTime",
+      "date_published": "2019-10-23T00:00:00+11:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "https://wiki.alopex.li/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "97ca4165-4f8c-4c57-872d-e5986df0c7ee",
       "title": "Making the Tokio scheduler 10x faster",
       "content_text": "We’ve been hard at work on the next major revision of Tokio, Rust’s asynchronous runtime. Today, a complete rewrite of the scheduler has been submitted as a pull request. The result is huge performance and latency improvements. Some benchmarks saw a 10x speed up! It is always unclear how much these kinds of improvements impact “full stack” use cases, so we’ve also tested how these scheduler improvements impacted use cases like Hyper and Tonic (spoiler: it’s really good).",

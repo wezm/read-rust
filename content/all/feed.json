@@ -10,6 +10,721 @@
   },
   "items": [
     {
+      "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
+      "title": "Implementing a job queue in Rust",
+      "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
+      "url": "https://www.poor.dev/posts/what-job-queue/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://www.poor.dev/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "3ece4d28-616e-4ea1-b182-f194738e220f",
+      "title": "Rust 2020 reflections",
+      "content_text": "This year, I am quite divided due to a bunch of competing desires: I still want all of the things that I wanted last year. In particular, it would be great if OS developement could finally be done on stable rust. Things like inline asm are blocking this. I think there is still a great deal of technical debt left over. I'll talk more about this later. It's not clear what the right balance of new features and working on technical debt is.",
+      "url": "https://gist.github.com/mark-i-m/a39320449a1311515ac62e43ddd9dee0",
+      "date_published": "2019-10-30T14:27:23+00:00",
+      "author": {
+        "name": "mark-i-m",
+        "url": "https://gist.github.com/mark-i-m"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "290147b3-4275-4b38-86d1-48ead00c7e9f",
+      "title": "Completing the transition to the new borrow checker",
+      "content_text": "For most of 2018, we've been issuing warnings about various bugs in the borrow checker that we plan to fix -- about two months ago, in the current Rust nightly, those warnings became hard errors. In about two weeks, when the nightly branches to become beta, those hard errors will be in the beta build, and they will eventually hit stable on December 19th, as part of Rust 1.40.0. If you're testing with Nightly, you should be all set -- but otherwise, you may want to go and check to make sure your code still builds. If not, we have advice for fixing common problems below.",
+      "url": "https://blog.rust-lang.org/2019/11/01/nll-hard-errors.html",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a2f9e31b-3a47-48f0-981b-0f00fe03471e",
+      "title": "@notriddle's Rust 2020 wishlist, or, Rust 2021: Integration",
+      "content_text": "This is just a brain dump. Doing all of this is not going to happen, but all of it is stuff I know of that impacts Rust's integration with the rest of the world and eventually becoming Too Big To Fail like C++ is.",
+      "url": "http://txti.es/notriddle-rust-2020",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "notriddle",
+        "url": "https://notriddle.com/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a11ab1b4-86e3-4200-8cea-1c5ceb185dd8",
+      "title": "Vision for Rust 2020 - Integration",
+      "content_text": "With async close the completion everything looks to fall perfectly in place for maintaining the developer momentum that Rust has picked up. The language has surely shown to be approachable, flexible for new concepts and continues to be loved. So are we done? Of course not. I would like to see next years theme be Integration.",
+      "url": "https://www.hardmo.de/article/2019-10-29-rust-2020-vision.md",
+      "date_published": "2019-10-29T20:58:00+00:00",
+      "author": {
+        "name": "Andreas Molzer",
+        "url": "https://www.hardmo.de/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "2f4398a8-473f-47e8-9c7a-616caba80e6d",
+      "title": "Rust 2020",
+      "content_text": "Every year there’s a call for blogs reflecting on goals for Rust for the upcoming year. For me, the theme is “Community First”.",
+      "url": "https://blog.hwc.io/posts/rust-2020/",
+      "date_published": "2019-10-31T10:31:16-04:00",
+      "author": {
+        "name": "hwc",
+        "url": "https://blog.hwc.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "3f06b972-507b-441b-a4ce-9fbf0cdfcf96",
+      "title": "My Rust 2020 ideas",
+      "content_text": "This blog article is a small reply to the public call for blog posts 2020 in the Rust community. I will express what I would like Rust to go to, keeping in mind that it’s solely my ideas and opinions others’ might differ. The points expressed here are written by decreasing priority, starting with the feature I would like the most to see implemented as soon as possible.",
+      "url": "https://phaazon.net/blog/rust-2020-ideas",
+      "date_published": "2019-10-31T15:15:00+00:00",
+      "author": {
+        "name": "Dimitri Sabadie",
+        "url": "http://phaazon.net/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "5458741c-97c2-4a8f-bb9e-73daf7317c81",
+      "title": "Rust 2021: Sustainability",
+      "content_text": "For the 2019 roadmap Jonathan Turner wrote a blog post called the The Fallow Year that posited that we should let the new designs \"field\" rest (go fallow) while we focus on other areas. To extend that metaphor, I would say Rust has fallen into monocropping in 2019 by focusing too much on our technical debt, when we needed to be addressing our social debt.",
+      "url": "https://xampprocky.github.io/public/blog/rust-2021/",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "XAMPPRocky",
+        "url": "https://xampprocky.github.io/public/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "e6cb0f49-a174-4d58-9acd-2253bbf3bfbe",
+      "title": "Rust 2020: GUI and community",
+      "content_text": "In response to the call for blogs about the vision for Rust for 2020, I’m going to write about GUI. I believe the time is right for a native GUI toolkit written in Rust, and that such a thing would fill a very important niche. There is a demand for performance (which, to me, includes startup time, RAM footprint, and binary size), and Rust is in the best position to deliver on that.",
+      "url": "https://raphlinus.github.io/rust/druid/2019/10/31/rust-2020.html",
+      "date_published": "2019-10-31T19:27:42+00:00",
+      "author": {
+        "name": "Raph Levien",
+        "url": "https://raphlinus.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "05982a72-c4dd-49ff-8384-3af1783e7211",
+      "title": "Rust 2020: Let’s embrace the Eternal September",
+      "content_text": "User growth means accepting people that haven’t been exposed to Rust’s norms yet. Let’s not fracture because of an argument over top-posting vs bottom-quoting or something equally trivial. We need to make sure that Rust is prepared to welcome people who are just learning about Rust today. We don’t want anyone to feel like they’re late to the party.",
+      "url": "https://tim.mcnamara.nz/post/188733729327/rust-2020-lets-embrace-the-eternal-september",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Tim McNamara",
+        "url": "https://tim.mcnamara.nz/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "702fd8df-1263-4a2b-ae50-ea9b5e27e35a",
+      "title": "Rust 2020 - Libraries, Libraries, Libraries!",
+      "content_text": "The call for blogs was just issues a few days ago - and here I am writing about my biggest pains this year… because that’s what the call for blogs basically is for me… I write down my pains with Rust and hope things get better slowly next year.\n\nDon’t misunderstand what I want to say here though: Rust is awesome, has an awesome community, awesome tooling, awesome everything… well not completely (because otherwise I wouldn’t have to write this article, right?",
+      "url": "https://beyermatthias.de/blog/2019/11/01/rust-2020-libraries-libraries-libraries/",
+      "date_published": "2019-11-01T20:45:00+00:00",
+      "author": {
+        "name": "Matthias Beyer",
+        "url": "https://beyermatthias.de/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "b2e770a7-f957-470a-8d0b-e5ba86c9872e",
+      "title": "Rust 2020: A better ecosystem",
+      "content_text": "I’m fairly new to Rust, and thus my perspective is that of someone who is not quite sophisticated with the language. I think Rust is hard to learn but should be manageable for your average software developer given enough persistence. Once you are over that barrier, you start thinking of building something in Rust. Probably, for the web, or a desktop application, or a mobile application; because that’s largely what many developers are building today.",
+      "url": "https://omarabid.com/rust-2020",
+      "date_published": "2019-11-01T13:37:48-07:00",
+      "author": {
+        "name": "Abid Omar",
+        "url": "https://omarabid.com/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "15458bd0-19bb-4bf6-8460-5857ec6aecdc",
+      "title": "Rust 2020: what about feedbacks?",
+      "content_text": "I've been working on the Rust compiler for years. It got stabilized, then matured through the years. From my point of view, it now has most of the features I wanted. So what would I want for Rust 2020 and what's coming after? To sum it up: feedbacks.",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-11-01+Rust+2020%3A+what+about+feedbacks%3F",
+      "date_published": "2019-11-01T21:30:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://www.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "96de766f-57ab-48b5-a1ad-97c4fe3d67eb",
+      "title": "My Wishes for Rust 2020",
+      "content_text": "2019 was another huge year for rust, but instead of implementing the shiny new thing, it's been a focus on refining existing ideas. Having being using rust professionally for over 3 years, I feel I will very soon be regailing new rust developers of the times before NLL & async, where we had to play lexicon-fu to get things like caches to work in a reasonable fashion, or using super dooper combinator chains and wrestling with futures types (Either::A/B anyone?). So I'd like to make clear my acknowledgement that I am happy with the direction that the rust language is heading in, and these requests are really nice to haves.",
+      "url": "https://cetra3.github.io/blog/rust-2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Cetra",
+        "url": "https://cetra3.github.io/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a9a47fee-f918-46f1-bd89-5ddbcbd69f32",
+      "title": "Rust 2020: exploit dominance in web assembly and no_std",
+      "content_text": "I'm a no name who's just grateful to play around with Rust. The most exciting aspects of Rust is seeing a expressive language go where other languages can barely tread (wasm,linux kernels, microcontrollers). I hope Rust continues to be the bleeding edge tech in web assembly land. I would dream for a world where Rust team works closely with browsers and what new wasm features will drop, and Rust is first to get it. no_std, async, and alloc have added a lot of fascinating new capabilities to the wasm ecosystem, i'd love to see some aspects get stabilized in this realm.",
+      "url": "https://www.reddit.com/r/rust/comments/dp1omc/rust_2020_exploit_dominance_in_web_assembly_and/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/richardanaya",
+        "url": "https://www.reddit.com/user/richardanaya/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "884f2a1b-a04c-44b4-ae44-c7f1b489cbc6",
+      "title": "The Rustc Learning Working Group - An Introduction",
+      "content_text": "The Learning Working Group, formed in April 2019, is focused on making the compiler easier to learn by ensuring that rustc-guide and API docs are \"complete\". It is one of the many efforts by the Rust Compiler team to decrease the barrier of contributing to the compiler.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/28/rustc-learning-working-group-introduction.html",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Amanjeev Sethi",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "71a819be-cc9f-43fc-bc00-a9c182229efc",
+      "title": "Rust 2020 – More Or Less",
+      "content_text": "The Rust team asked for 2020 roadmap blog posts, so here goes: Let’s do more of what we’ve been doing so far.",
+      "url": "https://llogiq.github.io/2019/10/30/rust-2020.html",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
+      "title": "Rust and C++ on Floating-point Intensive Code",
+      "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",
+      "url": "https://www.reidatcheson.com/hpc/architecture/performance/rust/c++/2019/10/19/measure-cache.html",
+      "date_published": "2019-10-19T23:59:59+00:00",
+      "author": {
+        "name": "Reid Atcheson",
+        "url": "https://www.reidatcheson.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "b925cfc1-65fc-4071-a941-e76039f61762",
+      "title": "Making a computer",
+      "content_text": "So, OK, that was originally the point. It's awfulness was part of the joke - \"Hey look what you can do, but totally shouldn't do, in Embedded Rust\". But as time went on, I was thinking - maybe I could just ... make it better? Yes, there's value in setting an arbitrary goal and seeing what can be squeezed from it, but, if the goal was arbitrary, couldn't we just reset it a little bit? Take a step back and say, is it possible to build something impressive but also useful? So this is where the Neotron came from. It's a Monotron 2.0 if you like.",
+      "url": "https://railwayelectronics.blogspot.com/2019/10/making-computer.html",
+      "date_published": "2019-10-22T23:27:00.002+01:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0d971ed6-03ed-49a7-8d96-6f163121e5f3",
+      "title": "What Type Soundness Theorem Do You Really Want to Prove?",
+      "content_text": "Type systems are a ubiquitous and essential part of modern programming languages. They help to ensure that separately developed pieces of a program “fit together” properly, and they help to statically prevent programs from exhibiting a large class of runtime errors.\n\nSo what can we actually prove about a type system to ensure that it is doing its job? The most common answer is type soundness (or type safety).",
+      "url": "https://blog.sigplan.org/2019/10/17/what-type-soundness-theorem-do-you-really-want-to-prove/",
+      "date_published": "2019-10-17T13:30:49+00:00",
+      "author": {
+        "name": "Derek Dreyer, Amin Timany, Robbert Krebbers, Lars Birkedal, and Ralf Jung",
+        "url": "https://blog.sigplan.org/blog"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "8ad4fa9c-8b67-490b-9039-2865f3ef218f",
+      "title": "Building a widget for Druid",
+      "content_text": "Want to build a desktop app? You probably want to use Electron or Qt or GTK or a native toolkit. Want to build a thing that you could (maybe) someday use to build a native desktop app? Contribute to Druid! Druid is a work-in-progress, open source \"data-oriented Rust UI design toolkit.\" You can use it right now to build very feature-incomplete desktop applications for macOS, Windows, and Linux.",
+      "url": "https://pauljmiller.com/posts/druid-widget-tutorial.html",
+      "date_published": "2019-10-23T00:45:59+00:00",
+      "author": {
+        "name": "Paul Miller",
+        "url": "https://pauljmiller.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6d1c1c33-6e97-4911-af35-4b6e621da968",
+      "title": "Audio Processing for Dummies",
+      "content_text": "In my spare time I’m an emergency services volunteer, and one of the tasks our unit has is to run the radio network and keep track of what’s happening. This can be a pretty stressful job, especially when there’s lots of radio traffic, and it’s not unusual to miss words or entire transmissions.\n\nTo help with a personal project that could make the job easier I’d like to implement a basic component of audio processing, the Noise Gate.",
+      "url": "http://adventures.michaelfbryan.com/posts/audio-processing-for-dummies/",
+      "date_published": "2019-10-27T23:34:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "26a18477-a394-46c8-afde-b096269eeb04",
+      "title": "Playing with env in Rust",
+      "content_text": "Environment variables plays a vital role in setting up a large scale project in real time environment. This blog explains env crate and env! macro in Rust.",
+      "url": "https://blog.knoldus.com/playing-with-env-in-rust/amp/",
+      "date_published": "2019-05-29T05:34:54+00:00",
+      "author": {
+        "name": "Mudit Chhabra",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1ca114e3-a283-4b4c-ae16-4d5966e0ffcf",
+      "title": "Dreadbot: A Discord Bot for Magic The Gathering in Rust",
+      "content_text": "There is a wonderful Magic: The Gathering scene here in Durham, NC. Unfortunately, Magic often deserves the trope that it gets of being an expensive hobby. In order to enjoy the game on a budget, myself and a group of locals created a new format: Paper Dreadful. The format is simple: create a 60 card deck with a maximum of 4 of any card (other than basic lands) and the total cost must be $20 or less on that day. The same rule applies with the sideboard, except it must by $5 or less.\n\nThe problem here is that Magic cards change in price all the time. What happens if I build a deck and then a card skyrockets in price?",
+      "url": "https://bcarrigan.com/2019/10/28/dreadbot/",
+      "date_published": "2019-10-28T12:00:00+00:00",
+      "author": {
+        "name": "Brian Carrigan",
+        "url": "https://bcarrigan.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "f625696c-a751-4e36-8ede-0cd24cf05534",
+      "title": "A closer look at Ownership in Rust",
+      "content_text": "In this article we'll take a closer look at Rust's Ownership model and how it manages memory.",
+      "url": "https://blog.thoughtram.io/ownership-in-rust/",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Pascal Precht",
+        "url": "https://blog.thoughtram.io/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "49a2176c-55b0-4603-8f20-d0d15ab56ca4",
+      "title": "Programming Servo: the incredibly shrinking timer",
+      "content_text": "How to build a timer in Rust in five easy evolutionary steps.",
+      "url": "https://medium.com/programming-servo/programming-servo-the-incredibly-shrinking-timer-7283ae2a2669",
+      "date_published": "2019-10-27T15:40:54.995+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "da517b10-2b8a-4b94-97c3-34b0c049de42",
+      "title": "Why async fn in traits are hard",
+      "content_text": "After reading boat’s excellent post on asynchronous destructors, I thought it might be a good idea to write some about async fn in traits. Support for async fn in traits is probably the single most common feature request that I hear about. It’s also one of the more complex topics. So I thought it’d be nice to do a blog post kind of giving the “lay of the land” on that feature – what makes it complicated? What questions remain open?",
+      "url": "http://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/",
+      "date_published": "2019-10-26T00:00:00-04:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "http://smallcultfollowing.com/babysteps/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "6e9b1816-3105-4847-b96e-d3af713b9ebc",
+      "title": "Cost of rust-analyzer",
+      "content_text": "In this post, we’ll talk about financial side of the rust-analyzer project. The goal is to find out how much rust-analyzer costs now, formulate financial goals for speeding up the development and document the Open Collective expenses policy.",
+      "url": "https://rust-analyzer.github.io/2019/10/16/finance.html",
+      "date_published": "2019-10-16T09:00:00+00:00",
+      "author": {
+        "name": "Aleksey Kladov",
+        "url": "https://matklad.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "e9565ca9-50f7-4ed7-9acd-485040d90014",
+      "title": "GNOME+Rust Hackfest #6 in Roma",
+      "content_text": "End of the year, meaning it's time for a new GNOME+Rust hackfest and its feedback!",
+      "url": "https://blog.guillaume-gomez.fr/articles/2019-10-24+GNOME%2BRust+Hackfest+%236+in+Roma",
+      "date_published": "2019-10-24T21:15:00+00:00",
+      "author": {
+        "name": "Guillaume Gomez",
+        "url": "https://www.guillaume-gomez.fr/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1206f8f5-e2a7-4679-91c3-d79143268a42",
+      "title": "Rust+GNOME Hackfest #6",
+      "content_text": "Last week, I went to the sixth Rust+GNOME hackfest which was in Rome. During these hackfests, we work on improving the integration between Rust and the GNOME libraries.",
+      "url": "https://antoyo.ml/rust-gnome-hackfest-rome",
+      "date_published": "2019-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Antoni Boucher",
+        "url": "http://antoyo.ml/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "1b2c0d1d-3b43-444e-8755-e8e4a60cb2b7",
+      "title": "Rust 2020: Private enum variants",
+      "content_text": "For the 2021 edition of Rust, I'd like to see private enum variants.",
+      "url": "https://www.reddit.com/r/rust/comments/dov6ox/rust_2020_private_enum_variants/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/joshlf_",
+        "url": "https://www.reddit.com/user/joshlf_/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "86590c31-b27d-4d59-b6d8-23eaae5c3dac",
+      "title": "My Rust 2020 blog post",
+      "content_text": "The 2019 goals for the Rust project were to finish some old language and library features that have had a lot of design but have not been pushed through the finish line.",
+      "url": "https://www.reddit.com/r/rust/comments/dot5pk/my_rust_2020_blog_post/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "u/0b_0101_001_1010",
+        "url": "https://www.reddit.com/user/0b_0101_001_1010/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "a32d1a1c-6453-4222-b0a6-9a7f996f6864",
+      "title": "A call for blogs 2020",
+      "content_text": "Comments on the call for blog posts in 2020 on Reddit, some of which include 2020 wishes.",
+      "url": "https://www.reddit.com/r/rust/comments/dorinl/a_call_for_blogs_2020/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Commenters on Reddit",
+        "url": "https://www.reddit.com/r/rust/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "9dd9b6b4-1ab5-4421-b806-61594b0f5f98",
+      "title": "A call for blogs 2020",
+      "content_text": "We are accepting ideas about almost anything having to do with Rust: language features, tooling needs, community programs, ecosystem needs... if it's related to Rust, we want to hear about it.\n\nOne big question for this year: will there be a Rust 2021 edition? If so, 2020 would be the year to do a lot of associated work and plan the details. What would the edition's theme be?",
+      "url": "https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html",
+      "date_published": "2019-10-29T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Core Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "9b853968-186e-414b-af4a-f4a6cf9e7392",
+      "title": "Asynchronous Destructors",
+      "content_text": "The first version of async/await syntax is in the beta release, set to be shipped to stable in 1.39 on November 7, next month. There are a wide variety of additional features we could add to async/await in Rust beyond what we’re shipping in that release, but speaking for myself I know that I’d like to pump the breaks on pushing forward big ticket items in this space. Let’s let the ecosystem develop around what we have now before we start sprinting toward more big additions to the language.",
+      "url": "https://boats.gitlab.io/blog/post/poll-drop/",
+      "date_published": "2019-10-16T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "394c26b3-924a-43e8-b262-4d8e895ddbcd",
+      "title": "I made a NES emulator in Rust using generators",
+      "content_text": "Emulators are cool! They help preserve games, improve games, and help make games more accessible. On top of that, making an emulator is a cathartic and satisfying technical challenge!\n\nSo, I took this challenge myself and came out the other end with a pretty limited NES emulator, which I call Lochnes. It’s not very good at actually emulating most games, but I’m pretty happy with the guts of the thing and I learned a lot a long the way. I figured it might be worthwhile to share my approach, which might help or inspire others on their own emulation venture!",
+      "url": "https://kyle.space/posts/i-made-a-nes-emulator/",
+      "date_published": "2019-10-19T00:00:00+00:00",
+      "author": {
+        "name": "Kyle Lacy",
+        "url": "https://kyle.space/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8df278c2-e4c1-434b-9dd4-ca1ad1207200",
+      "title": "Getting Started with Rust by Building a Tiny Markdown Compiler",
+      "content_text": "My name is Jesse, and this is an introductory Rust tutorial for developers who like learning by doing. The purpose of this tutorial is to develop intuition about toolbuilding in Rust–specifically, to learn how to think and build in Rust. Our goal is to produce a very basic command line compiler that will turn a basic Markdown document containing headings and paragraphs into an html file. To do this, we will start from scratch by building a simple “Hello, World!” executable. Then, over the course of six chapters, iterate and expand until finally we can compile a very simple Markdown file into valid HTML.",
+      "url": "https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/",
+      "date_published": "2019-10-21T00:00:00+00:00",
+      "author": {
+        "name": "Jesse Lawson",
+        "url": "https://jesselawson.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "bb944334-6ce6-4bbd-9014-d5b4909db91b",
+      "title": "A Tiny, Static, Full-Text Search Engine using Rust and WebAssembly",
+      "content_text": "I wrote a basic search module that you can add to your static website. It's very lightweight (around 50kB-100kB gzipped), should work with Hugo, Zola, and Jekyll. Only searching entire words is supported. Try the search box on the left side for a demo. The code is on Github.",
+      "url": "https://endler.dev/2019/tinysearch/",
+      "date_published": "2019-10-17T00:00:00+00:00",
+      "author": {
+        "name": "Matthias Endler",
+        "url": "https://endler.dev/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e8d05615-a728-4bea-8f43-400827903e1a",
+      "title": "How to not rewrite it in Rust",
+      "content_text": "Once you get past the growing pains of the Borrow Checker and realise Rust gives you the power to do things which would be unheard of (or just plain dangerous) in other languages, the temptation to Rewrite it in Rust can be quite strong. However at best, the temptation to RiiR is unproductive (unnecessary duplication of effort), and at worst it can promote the creation of buggy software (why would you be better equipped to write a library for some domain-specific purpose than the original author?",
+      "url": "http://adventures.michaelfbryan.com/posts/how-not-to-riir/",
+      "date_published": "2019-10-20T19:45:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "8de2bce6-9245-4f95-b12c-ca3e38efb3bb",
+      "title": "Migrate spirit to version 0.4",
+      "content_text": "This post can serve as a step by step migration guide from spirit 0.3 to spirit 0.4. If you already have an application using the crate, read on.\n\nIf you haven’t heard about the spirit library yet, it is a library to help you manage your configuration in an application and have it reloaded at runtime. It allows you to have the changes applied automatically and also to manage lifetime of the application. You can read more about it here. In that case, a migration guide won’t help you much, but I’m planning on having a tutorial how to start with the library soon.",
+      "url": "https://vorner.github.io/2019/10/19/migrate-spirit-to-0-4.html",
+      "date_published": "2019-10-19T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "59f60adc-9c66-4f8b-9a3a-6ffdcedb14c6",
+      "title": "Rust Big Data Benchmarks",
+      "content_text": "I have been running benchmarks of aggregate queries against the NYC taxi data set, using Apache Spark (JVM-based) as the baseline, since it is currently a popular tool for distributed compute, and a tool I am familiar with.",
+      "url": "https://andygrove.io/rust_bigdata_benchmarks/",
+      "date_published": "2019-10-20T00:00:00+00:00",
+      "author": {
+        "name": "Andy Grove",
+        "url": "https://andygrove.io/blog"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "307357e3-11d1-4494-9193-4f96e9946978",
+      "title": "Rotary Encoders in Embedded Rust",
+      "content_text": "Recently, I’ve been trying to learn more about electronics and embedded development. Maybe I’m just tired of operating purely in the virtual, but there’s something cool about being able to physically put together a circuit and push a button to make something happen. I went through the usual Arduino resources before seeing what Rust had to offer. I’m happy to report there’s some really good material out there.",
+      "url": "https://leshow.github.io/post/rotary_encoder_hal/",
+      "date_published": "2019-10-16T20:31:51-04:00",
+      "author": {
+        "name": "Evan Cameron",
+        "url": "https://leshow.github.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "5a7311d2-3cf3-47fa-bce5-10b0747b30e8",
+      "title": "Announcing the LLVM ICE-breaker group",
+      "content_text": "Today I'm announcing a new experiment in the compiler team, the LLVM ICE-breaker group. If you're familiar with LLVM and would like to contribute to rustc -- but without taking on a large commitment -- then the LLVM ICE-breaker group might well be for you!",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/10/22/LLVM-ICE-breakers.html",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "5babdb55-5061-4e26-b05e-a7c407d03c80",
+      "title": "Where rustc spends its time",
+      "content_text": "So a couple weeks ago I was a little stung by the quote from This Week In Rust: “Rust compilation is so slow that I can fix the bugs while it still compiles the crates”. On the one hand, I have unfond memories of waiting for a Typescript project to compile, pack (aka link), minify (aka optimize), and so on, over and over, on every change. At least if it had been Rust I’d have been able to fix the bugs while it was doing this. On the other hand, it’s also mostly true: compiling Rust is heckin’ slow. So I’ve decided to dust off a backburner project for a while, and figure out just where rustc spends most of its time.",
+      "url": "https://wiki.alopex.li/WhereRustcSpendsItsTime",
+      "date_published": "2019-10-23T00:00:00+11:00",
+      "author": {
+        "name": "Simon Heath",
+        "url": "https://wiki.alopex.li/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "f89a8738-2275-4023-8223-28dae4184cd9",
+      "title": "Adventures in Motion Control: Top-Level Infrastructure",
+      "content_text": "Most embedded systems will implement multi-tasking by rapidly polling each system within an infinite loop. A motion controller will normally spend most of its time polling, but there are places where polling isn’t appropriate. For example, accurate movement of a stepper motor relies on sending pulses at very precise times. Another scenario is in the handling of communication, where waiting for the next poll to read a byte may result in missing part of a message.",
+      "url": "http://adventures.michaelfbryan.com/posts/top-level-infrastructure/",
+      "date_published": "2019-09-02T21:22:30+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "5d2b3926-5f8e-496f-a438-a26c8ed7dfb7",
+      "title": "This Month in Raygon 1",
+      "content_text": "It's been about 51 days since I first announced Raygon, a WIP high-performance CPU path tracer written in the Rust programming language, which will feature state of the art light transport integrators, including path tracing, bidirectional path tracing and VCM.\n\nIn this post I'll go over some of the features implemented or improved, and show some recent renders, then talk about the future of Raygon and how you can help.",
+      "url": "https://github.com/raygon-renderer/readme/blob/master/blogs/month-1.md",
+      "date_published": "2019-10-17T00:00:00+00:00",
+      "author": {
+        "name": "Aaron Trent",
+        "url": "https://github.com/novacrazy"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "1f048104-e5be-49df-9def-c7b4de0d5478",
+      "title": "Nushell 0.4.0",
+      "content_text": "Nushell, or Nu for short, is a new shell that takes a modern, structured approach to your commandline. It works seamlessly with the data from your filesystem, operating system, and a growing number of file formats to make it easy to build powerful commandline pipelines.\n\nToday we’re happy to announce the 0.4.0 release of Nushell. The 0.4.0 release marks a continually maturing shell that is now starting to show signs of stability. And, of course, a few fun features along the way.",
+      "url": "http://www.jonathanturner.org/2019/10/nushell-0_4_0.html",
+      "date_published": "2019-10-15T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "44a70495-156b-4de1-8eff-0ef9e334368c",
+      "title": "Rust for JavaScript peeps",
+      "content_text": "People seem to like Rust a lot! But if you're coming from JavaScript, not everything may make a lot of sense at first. But no problem; this guide is for you! Because I think Rust and JavaScript are really similar in many ways; to the point that if you know JS it's mostly a matter of getting the hang of some of the nuances before you can more or less get the hang of Rust.",
+      "url": "https://github.com/yoshuawuyts/rust-for-js-people",
+      "date_published": "2019-10-17T07:58:16+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "1154694c-7ad8-4ea5-bf37-1c1e4238dc46",
+      "title": "An intern's experience with Rust",
+      "content_text": "Over the course of my internship at the Microsoft Security Response Center (MSRC), I worked on the safe systems programming languages (SSPL) team to promote safer languages for systems programming where runtime overhead is important, as outlined in this blog. My job was to port a security critical network processing agent into Rust to eliminate …  An intern’s experience with Rust Read More »",
+      "url": "https://msrc-blog.microsoft.com/2019/10/16/an-interns-experience-with-rust/",
+      "date_published": "2019-10-16T21:26:29+00:00",
+      "author": {
+        "name": "Alexander Clarke",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "5f7c6828-7321-4f85-8d17-e80a4c0a44ad",
+      "title": "LDraw.rs: A library for reading and writing Lego model files for native and web",
+      "content_text": "A library for reading and writing LDraw model files and rendering the model using OpenGL for both native and web!",
+      "url": "https://github.com/segfault87/ldraw.rs",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Park Joon-Kyu",
+        "url": "https://github.com/segfault87"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "8b2ade3b-1476-4770-a7e2-838c3623a381",
+      "title": "Detecting Application Uniqueness and interprocess communication in Rust",
+      "content_text": "The aim of this article is to demonstrate one of many ways to detect application uniqueness and establish unilateral interprocess communication in Rust in the Linux platform. Note that the APIs used in this article is not portable to Windows and other *nix systems. Also note that methods used in this article may not be best suitable for all use cases.",
+      "url": "https://gitlab.com/snippets/1903637",
+      "date_published": "2019-10-14T00:00:00+00:00",
+      "author": {
+        "name": "9898287",
+        "url": "https://gitlab.com/9898287"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "8629a67f-d7a6-41e9-80b1-e568f491c325",
       "title": "Announcing Rustup 1.20.0",
       "content_text": "The highlights of this release are profiles support, the ability to get the latest available nightly with all the components you need, and improvements to the rustup doc command. You can also check out the changelog for a list of all the changes included in this release.",
