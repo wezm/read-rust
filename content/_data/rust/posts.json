@@ -10,6 +10,137 @@
   },
   "items": [
     {
+      "id": "d2c358d7-aae8-4cb8-93ac-edfaa975072b",
+      "title": "Rust 2020: Discoverability",
+      "content_text": "Here we come with the \"Request for Comment\" about Rust for the next 2020 year. I'm sure 2020 will be a great year, also because it's easy and fast to write :) My wishlist will be short and to the point. Looking back to what I wished for 2019 I'd like first to see what has changed, from my point of view.",
+      "url": "https://apiraino.github.io/2019/11/04/call-for-2020-roadmap.html",
+      "date_published": "2019-11-04T00:00:00+01:00",
+      "author": {
+        "name": "apiraino",
+        "url": "https://apiraino.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "4177b33f-0805-4527-b833-259cf518761a",
+      "title": "My Rust 2020 wish list: playing nice",
+      "content_text": "This year I decided to jot down some thoughts for the Rust 2020 call for blog posts. I think the general theme here will be integration or \"playing well\", on different levels. A lot of these here are not language changes, and most of them already exist in some form. Probably none of them are new ideas.",
+      "url": "https://blog.dend.ro/my-rust-2020-wishlist/",
+      "date_published": "2019-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Laurențiu Nicola",
+        "url": "https://blog.dend.ro/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "dc4dd0c3-6f8b-4450-b779-7ed4f60024a0",
+      "title": "Rust 2020",
+      "content_text": "I'll start by arguing in favour of an edition in 2021. Then I will indulge in some rumination on the nature and necessity of roadmaps. Finally I'll make some probably obvious points in a long-winded way. Tl;dr, money is a thing we need to think about, async programming and WASM are important, and the compiler should be faster. For good measure, I will re-open a can of worms concerning the standard library.",
+      "url": "https://www.ncameron.org/blog/rust-2020/",
+      "tweet_url": "https://twitter.com/nick_r_cameron/status/1191451717763600384?s=20",
+      "date_published": "2019-11-04T20:24:52+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "b42bc892-2146-4ac9-b2a1-5e1536abcddc",
+      "title": "My share on Rust 2020",
+      "content_text": "Some weeks ago the rust-lang team made a blog post asking for opinions on what the priorities for the next year should be. It really amazes me how the team hears everybody and how friendly the community is.\n\nI have been learning rust for more than a year already, but this year was the first where I tried to write something real and production ready with it. I've gotta say I had a lot of ups and downs with it, but I'm still amazed by the language and its ecosystem. ",
+      "url": "https://dev.to/augustocdias/my-share-on-rust-2020-27m8",
+      "tweet_url": "https://twitter.com/augustocdias/status/1191327971749105670?s=20",
+      "date_published": "2019-11-04T12:14:01+00:00",
+      "author": {
+        "name": "Augusto",
+        "url": "https://dev.to/augustocdias"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "eeeecc4b-3e3d-43f1-b362-1fb59995d8c0",
+      "title": "Rust 2020: Write Once, Run Anywhere",
+      "content_text": "Thing that is cool: writing the same codebase and having it run on desktop, mobile, and web thing that is lame: JavaScript is the only language where people really do that right now, outside of big commercial game engines things that need to happen for Rust to get there…",
+      "url": "https://www.boringcactus.com/2019/11/03/rust-2020.html",
+      "tweet_url": "https://twitter.com/boring_cactus/status/1191136150217297921?s=20",
+      "date_published": "2019-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Melody Horn",
+        "url": "https://www.boringcactus.com/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "2c81b74e-4e60-42e9-961d-be0ebb810c87",
+      "title": "Rust 2020: Generics & cargo features",
+      "content_text": "This is my personal wishlist of things I'd like to see in 2020 relating to Rust. It only contains technical items, not because I disagree with the people who say we should prioritize some non-technical things, but because I feel like I don't have much of value to add to that topic.",
+      "url": "https://blog.turbo.fish/rust-2020/",
+      "tweet_url": "https://twitter.com/_jplatte/status/1190761252341071872?s=20",
+      "date_published": "2019-11-02T00:00:00+00:00",
+      "author": {
+        "name": "Jonas Platte",
+        "url": "https://blog.turbo.fish/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "688e00b5-4286-4181-af3e-31bf8090ae74",
+      "title": "Rust 2020",
+      "content_text": "We have all been called upon by @rustlang to share our thoughts on what we want from Rust in 2020. My wants are centered around the developer/debug experience more than the language itself. I find the language to be expressive and attractive for many types of development, and I find the community to be very pleasant.",
+      "url": "https://bes.github.io/guide/2019/10/31/rust-2020-call-for-blogs.html",
+      "tweet_url": "https://twitter.com/besez/status/1189985645919387651?s=20",
+      "date_published": "2019-10-31T17:34:11+00:00",
+      "author": {
+        "name": "Erik Zivkovic",
+        "url": "https://bes.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "071c6a14-46cc-468f-a9c7-fd456360ffe9",
+      "title": "Rust 2020",
+      "content_text": "In 2019 the big focus was async/await, or at least as an outsider that is how it has appeared. The end result looks like it will deliver what we’ve all been waiting for - efficient async code that works well with Rust’s borrow checker. As 2019 is coming to a close and async/await is stabilizing, there is the obvious question - what next?",
+      "url": "https://insanitybit.github.io/2019/10/30/rust-2020-wishlist-stabilize-the-ecosystem",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "InsanityBit",
+        "url": "https://insanitybit.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "2e31e9ad-357b-4a9a-b76b-fe8c5b5e993a",
+      "title": "Rust 2020",
+      "content_text": "In which I respond to the recent call for blogs put out by the Rust core team and write down my wishes for Rust in 2020. Yup, GATs and const generics are there, but also slice patterns and a request for better documentation around async development.",
+      "url": "https://thomashartmann.dev/blog/rust-2020/",
+      "date_published": "2019-11-04T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hartmann",
+        "url": "https://thomashartmann.dev/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
       "title": "Implementing a job queue in Rust",
       "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
