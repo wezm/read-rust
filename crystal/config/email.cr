@@ -4,7 +4,7 @@ BaseEmail.configure do |settings|
   if Lucky::Env.production?
     Carbon::SmtpAdapter.configure do |settings|
       settings.host = value_from_env("SMTP_HOST")
-      settings.port = ENV["SMTP_PORT"].try(&.to_i32) || 25
+      settings.port = ENV["SMTP_PORT"]?.try(&.to_i32) || 25
       # settings.helo_domain = nil
       # settings.use_tls = true
       settings.username = value_from_env("SMTP_USERNAME")
