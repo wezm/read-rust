@@ -50,7 +50,8 @@ class ImportCreators < LuckyCli::Task
     creators = Array(Import::Creator).from_yaml(File.read(ARGV[0]))
 
     AppDatabase.transaction do
-      creators.each do |creator|
+      # Import in reverse order do they're loaded oldest first and get sensisble ids
+      creators.reverse_each do |creator|
         io.puts creator.name
         saved_creator = SaveCreator.create!(
           name: creator.name,

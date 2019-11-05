@@ -44,7 +44,8 @@ class ImportPosts < LuckyCli::Task
     end
 
     AppDatabase.transaction do
-      feed.items.each do |post|
+      # Import in reverse order do they're loaded oldest first and get sensisble ids
+      feed.items.reverse_each do |post|
         puts post.title
         created_post = ImportPost.create!(
           guid: UUID.new(post.id, UUID::Variant::RFC4122, UUID::Version::V4),
