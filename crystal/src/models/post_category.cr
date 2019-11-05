@@ -9,6 +9,6 @@ class PostCategory < BaseModel
   end
 
   def category : Category
-    Category::ALL[category_id]
+    Category::ALL.find { |cat| cat.id == category_id }.not_nil!
   end
 end
