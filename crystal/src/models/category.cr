@@ -7,7 +7,7 @@ class Category
     description: String,
   )
 
-  ALL = Array(Category).from_json(File.read(File.join(__DIR__, "..", "..", "..", "content", "_data", "categories.json")))
+  ALL = Array(Category).from_json({{ read_file("../content/_data/categories.json") }})
   VALID_IDS = ALL.compact_map { |category| category.all? ? nil : category.id }
 
   # Return the list of category ids that are valid for a PostCategory record
