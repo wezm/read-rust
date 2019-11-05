@@ -105,7 +105,7 @@ fn run(
 ) -> Result<(), Box<dyn Error>> {
     let database_url = env_var("DATABASE_URL")?;
     let conn = db::establish_connection(&database_url)?;
-    info!("Connected to database");
+    info!("Connected to database, access_mode: {:?}", access_mode);
 
     let categories = Categories::load();
 
