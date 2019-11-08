@@ -19,6 +19,7 @@ use std::env;
 use std::fs::File;
 use std::io;
 use std::path::Path;
+use std::str::FromStr;
 
 const MASTODON_DATA_FILE: &str = ".mastodon-data.json";
 
@@ -86,6 +87,7 @@ fn run(
     json_feed_path: &str,
     categories_path: &str,
     dry_run: bool,
+    limit: Option<usize>,
 ) -> Result<(), Error> {
     let tootlist_path = Path::new(tootlist_path);
     let mut tootlist = TootList::load(&tootlist_path)?;
@@ -93,11 +95,15 @@ fn run(
     let categories_path = Path::new(categories_path);
     let categories = Categories::load(&categories_path)?;
 
-    let to_toot: Vec<Item> = feed
+    let to_toot = feed
         .items
         .into_iter()
-        .filter(|item| !tootlist.contains(&item.id))
-        .collect();
+        .filter(|item| !tootlist.contains(&item.id));
+    let to_toot: Vec<Item> = if let Some(limit) = limit {
+        to_toot.take(limit).collect()
+    } else {
+        to_toot.collect()
+    };
 
     if to_toot.is_empty() {
         println!("Nothing to toot!");
@@ -136,6 +142,7 @@ fn main() {
     let mut opts = Options::new();
     opts.optflag("h", "help", "print this help menu");
     opts.optflag("n", "dryrun", "don't toot, just show what would be tooted");
+    opts.optopt("l", "limit", "only share this many posts", "LIMIT");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
         Err(f) => panic!(f.to_string()),
@@ -150,6 +157,9 @@ fn main() {
         &matches.free[1],
         &matches.free[2],
         matches.opt_present("n"),
+        matches
+            .opt_str("l")
+            .map(|limit| usize::from_str(&limit).unwrap()),
     )
     .expect("error");
 }

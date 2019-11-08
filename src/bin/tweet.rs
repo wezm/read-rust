@@ -26,6 +26,7 @@ use std::borrow::Cow;
 use std::env;
 use std::fs::File;
 use std::path::Path;
+use std::str::FromStr;
 
 const TWITTER_DATA_FILE: &str = ".twitter-data.json";
 
@@ -154,6 +155,7 @@ fn run(
     json_feed_path: &str,
     categories_path: &str,
     dry_run: bool,
+    limit: Option<usize>,
 ) -> Result<(), Error> {
     let config = Config::load()?;
     let tootlist_path = Path::new(tootlist_path);
@@ -162,11 +164,15 @@ fn run(
     let categories_path = Path::new(categories_path);
     let categories = Categories::load(&categories_path)?;
 
-    let to_tweet: Vec<Item> = feed
+    let to_tweet = feed
         .items
         .into_iter()
-        .filter(|item| !tootlist.contains(&item.id))
-        .collect();
+        .filter(|item| !tootlist.contains(&item.id));
+    let to_tweet: Vec<Item> = if let Some(limit) = limit {
+        to_tweet.take(limit).collect()
+    } else {
+        to_tweet.collect()
+    };
 
     if to_tweet.is_empty() {
         println!("Nothing to tweet!");
@@ -222,6 +228,7 @@ fn main() {
         "dryrun",
         "don't tweet, just show what would be tweeted",
     );
+    opts.optopt("l", "limit", "only share this many posts", "LIMIT");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
         Err(f) => panic!(f.to_string()),
@@ -236,6 +243,9 @@ fn main() {
         &matches.free[1],
         &matches.free[2],
         matches.opt_present("n"),
+        matches
+            .opt_str("l")
+            .map(|limit| usize::from_str(&limit).unwrap()),
     )
     .expect("error");
 }
