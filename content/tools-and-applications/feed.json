@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2add05cc-7028-465f-baee-42535290fc10",
+      "title": "Nushell 0.5.0",
+      "content_text": "We've just released Nushell 0.5.0! New - login shell support, recycle bin support, better string matching, parameter help, new commands, and more!",
+      "url": "http://www.jonathanturner.org/2019/11/nushell-0_5_0.html",
+      "date_published": "2019-11-05T00:00:00+00:00",
+      "author": {
+        "name": "Jonathan Turner",
+        "url": "http://www.jonathanturner.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "e9565ca9-50f7-4ed7-9acd-485040d90014",
       "title": "GNOME+Rust Hackfest #6 in Roma",
       "content_text": "End of the year, meaning it's time for a new GNOME+Rust hackfest and its feedback!",

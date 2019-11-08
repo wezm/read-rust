@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "511a9fb7-b477-4d17-9c06-fd507b580a21",
+      "title": "Linearity among the toctou",
+      "content_text": "I have been reading a lot of papers on linear types recently. Originally it was to understand better why Rust went down the path it did, but I found a lot more interesting stuff there. While some people now are familiar with linear typesas the basis for Rust’s memory management, they have been around for a long time and have lots of other potential uses. In particular they are interesting for improving resource allocation in functional programming languages by reusing storage in place where possible. Generally they are useful for reasoning about resource allocation. While the Rust implementation is probably the most widely used at present, it kind of obscures the underlying simple principles by adding borrowing, so I will only mention it a little in this post.",
+      "url": "https://www.cloudatomiclab.com/toctou/",
+      "date_published": "2019-11-01T17:27:00+00:00",
+      "author": {
+        "name": "Justin Cormack",
+        "url": "https://www.cloudatomiclab.com/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "0d971ed6-03ed-49a7-8d96-6f163121e5f3",
       "title": "What Type Soundness Theorem Do You Really Want to Prove?",
       "content_text": "Type systems are a ubiquitous and essential part of modern programming languages. They help to ensure that separately developed pieces of a program “fit together” properly, and they help to statically prevent programs from exhibiting a large class of runtime errors.\n\nSo what can we actually prove about a type system to ensure that it is doing its job? The most common answer is type soundness (or type safety).",

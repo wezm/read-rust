@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9e49b1b3-2b2a-46f0-951e-bda659adca6e",
+      "title": "Comparing parallel Rust and C++",
+      "content_text": "In this tutorial, we will implement a Rust program that attempts to utilize 100% of the theoretical capacity of three relatively modern, mid-range CPUs. We'll use an existing, highly efficient C++ implementation as a reference point to compare how our Rust program is doing. We start with a simple baseline solution of 3 nested for-loops, and keep improving on the baseline solution incrementally, implementing 8 versions in total, until the program is going so fast it can hardly go faster. We'll approach the problem from the point of view of a C++ programmer who already knows how the reference implementation solves the problem, but is interested in an approach using the Rust language.",
+      "url": "https://parallel-rust-cpp.github.io/",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Matias Lindgren",
+        "url": "https://github.com/matiaslindgren"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
       "title": "Rust and C++ on Floating-point Intensive Code",
       "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",

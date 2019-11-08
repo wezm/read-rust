@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "02e9c871-0bac-4650-8fc3-1c8c64e95c7e",
+      "title": "Runtime Diagnostics",
+      "content_text": "Rust is well-known for its helpful error messages, good tooling, and generally empathic compiler interface. If something goes wrong, Rust tries hard to help you get back on track. In this post I'd like to talk about the runtime aspect of debugging errors.",
+      "url": "https://blog.yoshuawuyts.com/runtime-diagnostics/",
+      "date_published": "2019-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Yoshua Wuyts",
+        "url": "https://blog.yoshuawuyts.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "35e06989-4cc4-4d3b-ab76-5830da233ebd",
+      "title": "Async-await on stable Rust!",
+      "content_text": "On Thursday, November 7, async-await syntax hit stable Rust, as part of the 1.39.0 release. This work has been a long time in development -- the key ideas for zero-cost futures, for example, were first proposed by Aaron Turon and Alex Crichton in 2016! -- and we are very proud of the end result. We believe that Async I/O is going to be an increasingly important part of Rust's story.",
+      "url": "https://blog.rust-lang.org/2019/11/07/Async-await-stable.html",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Niko Matsakis",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "dfcf2420-e465-4c62-8b31-f7e2792c2e94",
+      "title": "Announcing Rust 1.39.0",
+      "content_text": "The Rust team is happy to announce a new version of Rust, 1.39.0. The highlights of Rust 1.39.0 include async/.await, shared references to by-move bindings in match guards, and attributes on function parameters.",
+      "url": "https://blog.rust-lang.org/2019/11/07/Rust-1.39.0.html",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "The Rust Release Team",
+        "url": "https://blog.rust-lang.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
       "title": "Implementing a job queue in Rust",
       "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",
