@@ -167,7 +167,8 @@ fn run(
     let to_tweet = feed
         .items
         .into_iter()
-        .filter(|item| !tootlist.contains(&item.id));
+        .filter(|item| !tootlist.contains(&item.id))
+        .rev();
     let to_tweet: Vec<Item> = if let Some(limit) = limit {
         to_tweet.take(limit).collect()
     } else {

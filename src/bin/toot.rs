@@ -98,7 +98,8 @@ fn run(
     let to_toot = feed
         .items
         .into_iter()
-        .filter(|item| !tootlist.contains(&item.id));
+        .filter(|item| !tootlist.contains(&item.id))
+        .rev();
     let to_toot: Vec<Item> = if let Some(limit) = limit {
         to_toot.take(limit).collect()
     } else {
