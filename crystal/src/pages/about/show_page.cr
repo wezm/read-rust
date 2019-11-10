@@ -78,7 +78,7 @@ class About::ShowPage < MainLayout
 
     <h3 id="subscribe">How do I subscribe?</h3>
 
-    Subscribe to [one of the feeds][feeds] in a feed reader. There are feeds for all news
+    Subscribe to [one of the feeds](#{About::Show.with(anchor: "feeds").path}) in a feed reader. There are feeds for all news
     posts as well as for individual categories. Some feed readers are shown below.
     I&nbsp;use and recommend [Feedbin] + [Reeder]:
 
@@ -104,7 +104,6 @@ class About::ShowPage < MainLayout
     [call-for-posts]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
     [favicon]: https://thenounproject.com/term/book/17900
     [Feedbin]: https://feedbin.com/
-    [feeds]: /about.html#feeds
     [json-feed-website]: https://jsonfeed.org/
     [Reeder]: http://reederapp.com/
     [rust-reddit]: https://www.reddit.com/r/rust/

@@ -12,7 +12,7 @@ class Categories::IndexPage < MainLayout
       text "."
     end
     para do
-      a "Subscribe to a feed", href: "/about.html#feeds"
+      link "Subscribe to a feed", to: About::Show.with(anchor: "feeds")
       text ", or follow Read Rust on "
       a "Twitter", href: "https://twitter.com/read_rust"
       text ", "
