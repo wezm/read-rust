@@ -13,10 +13,10 @@ BaseEmail.configure do |settings|
 end
 
 private def send_grid_key_from_env
-  ENV["SEND_GRID_KEY"]? || raise_missing_key_message
+  ENV["SENDGRID_API_KEY"]? || raise_missing_key_message
 end
 
 private def raise_missing_key_message
-  puts "Missing SEND_GRID_KEY. Set the SEND_GRID_KEY env variable to 'unused' if not sending emails, or set the SEND_GRID_KEY ENV var.".colorize.red
+  puts "Missing SENDGRID_API_KEY. Set the SENDGRID_API_KEY env variable to 'unused' if not sending emails, or set the SENDGRID_API_KEY ENV var.".colorize.red
   exit(1)
 end
