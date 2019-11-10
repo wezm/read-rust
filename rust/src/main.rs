@@ -16,9 +16,12 @@ use read_rust::mastodon::Mastodon;
 use read_rust::social_network::{AccessMode, SocialNetwork};
 use read_rust::twitter::Twitter;
 use read_rust::{db, env_var};
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::sync::Arc;
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
-const SLEEP_TIME: Duration = Duration::from_secs(60);
+const ONE_SECOND: Duration = Duration::from_secs(1);
+const SLEEP_TIME: usize = 60; // 1 minute
 
 enum Service {
     Twitter,
@@ -113,15 +116,21 @@ fn run(
     let twitter = Twitter::from_env(access_mode)?;
     let mastodon = Mastodon::from_env(access_mode)?;
 
-    // TODO: Cleanly exit when sent sigint
     debug!("Entering main loop");
-    loop {
+    let term = Arc::new(AtomicBool::new(false));
+    signal_hook::flag::register(signal_hook::SIGINT, Arc::clone(&term))?;
+    signal_hook::flag::register(signal_hook::SIGTERM, Arc::clone(&term))?;
+
+    while !term.load(Ordering::Relaxed) {
         if toot {
             debug!("Checking for new posts to toot");
             if let Err(err) = announce_new_posts(&mastodon, &conn, &categories) {
                 // TODO: Log Sentry error
                 error!("Error tooting new posts: {}", err);
             }
+        }
+        if term.load(Ordering::Relaxed) {
+            break;
         }
         if tweet {
             debug!("Checking for new posts to tweet");
@@ -133,7 +142,12 @@ fn run(
         if !doloop {
             break;
         }
-        thread::sleep(SLEEP_TIME)
+        for _ in 0..SLEEP_TIME {
+            if term.load(Ordering::Relaxed) {
+                break;
+            }
+            thread::sleep(ONE_SECOND);
+        }
     }
 
     Ok(())
