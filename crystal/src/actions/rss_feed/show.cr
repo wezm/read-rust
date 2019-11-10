@@ -2,7 +2,11 @@ class RssFeed::Show < BrowserAction
   include Auth::AllowGuests
   include Categories::FindCategory
 
+  before cache_in_varnish(2.minutes)
+
   get "/:slug/feed.rss" do
+    weak_etag(last_modified.to_unix)
+
     send_text_response(render_feed(category), "application/rss+xml", nil)
   end
 
@@ -30,5 +34,9 @@ class RssFeed::Show < BrowserAction
     )
 
     feed.to_xml
+  end
+
+  private def last_modified
+    PostQuery.new.last_modified_in_category(category)
   end
 end

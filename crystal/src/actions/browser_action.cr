@@ -27,4 +27,19 @@ abstract class BrowserAction < Lucky::Action
   private def find_current_user(id) : User?
     UserQuery.new.id(id).first?
   end
+
+  private def cache_in_varnish(duration : Time::Span)
+    response.headers["Cache-Control"] = "s-maxage=#{duration.to_i}, public"
+    continue
+  end
+
+  private def cache_publicly(duration : Time::Span)
+    response.headers["Cache-Control"] = "max-age=#{duration.to_i}, public"
+    continue
+  end
+
+  private def weak_etag(last_modified : Int64)
+    response.headers["ETag"] = "W/#{last_modified}-#{ReadRust::Revision.revision}"
+    continue
+  end
 end

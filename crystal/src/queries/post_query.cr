@@ -6,4 +6,8 @@ class PostQuery < Post::BaseQuery
       where_post_categories(PostCategoryQuery.new.category_id(category.id)).created_at.desc_order
     end
   end
+
+  def last_modified_in_category(category)
+    recent_in_category(category).updated_at.select_max
+  end
 end
