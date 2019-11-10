@@ -6,7 +6,7 @@ shards:
 
   avram:
     github: luckyframework/avram
-    version: 0.12.1
+    version: 0.12.0
 
   blank:
     github: kostya/blank
@@ -14,10 +14,6 @@ shards:
 
   carbon:
     github: luckyframework/carbon
-    version: 0.1.1
-
-  carbon_smtp_adapter:
-    github: oneiros/carbon_smtp_adapter
     version: 0.1.1
 
   cry:
@@ -36,10 +32,6 @@ shards:
     github: gdotdesign/cr-dotenv
     version: 0.3.0
 
-  email:
-    github: arcage/crystal-email
-    version: 0.4.3
-
   exception_page:
     github: crystal-loot/exception_page
     version: 0.1.2
@@ -50,11 +42,11 @@ shards:
 
   jwt:
     github: crystal-community/jwt
-    version: 1.1.2
+    version: 1.1.1
 
   lucky:
     github: luckyframework/lucky
-    version: 0.18.1
+    version: 0.18.0
 
   lucky_cli:
     github: luckyframework/lucky_cli
