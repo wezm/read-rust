@@ -45,7 +45,12 @@ abstract class MainLayout
           text " Copyright © 2018–#{Time.utc.year} "
           a "Wesley Moore", href: "https://www.wezm.net/about/"
           text ". Read Rust is not an official Rust or Mozilla project."
-          text " Source on "
+          br
+          text "Revision "
+          link "https://github.com/wezm/read-rust/commit/#{ReadRust::Config.revision}" do
+            code ReadRust::Config.revision
+          end
+          text ". Source on "
           a "GitHub", href: "https://github.com/wezm/read-rust"
           text "."
           div class: "socials" do
