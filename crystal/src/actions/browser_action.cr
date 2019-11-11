@@ -23,6 +23,18 @@ abstract class BrowserAction < Lucky::Action
   # so that any page that inherits from MainLayout can use the `current_user`
   expose current_user
 
+  SIGNED_IN_COOKIE = "signed-in"
+
+  private def cache_friendly_sign_in(user : User) : Void
+    sign_in(user)
+    cookies.set_raw(SIGNED_IN_COOKIE, "1") # Varnish uses this to know if the user is logged in
+  end
+
+  private def cache_friendly_sign_out : Void
+    sign_out
+    cookies.delete(SIGNED_IN_COOKIE) if cookies.get_raw?(SIGNED_IN_COOKIE)
+  end
+
   # This method tells Authentic how to find the current user
   private def find_current_user(id) : User?
     UserQuery.new.id(id).first?
