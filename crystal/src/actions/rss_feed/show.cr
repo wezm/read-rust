@@ -14,7 +14,7 @@ class RssFeed::Show < BrowserAction
     posts = PostQuery.new.recent_in_category(category).limit(100)
     items = posts.map do |post|
       RSS::Item.new(
-        guid: RSS::Guid.new(value: post.guid.hexstring, is_permalink: false),
+        guid: RSS::Guid.new(value: post.guid.to_s, is_permalink: false),
         title: post.title,
         link: post.url,
         description: post.summary,

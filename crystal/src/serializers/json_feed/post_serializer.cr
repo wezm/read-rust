@@ -4,7 +4,7 @@ class JsonFeed::PostSerializer < BaseSerializer
 
   def render
     {
-      id:             @post.guid.hexstring,
+      id:             @post.guid.to_s,
       title:          @post.title,
       content_text:   @post.summary,
       url:            @post.url,
