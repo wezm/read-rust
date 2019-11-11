@@ -10,6 +10,49 @@
   },
   "items": [
     {
+      "id": "1f771485-fadd-4dfe-8730-1a4b81a856d0",
+      "title": "SpO₂ the little dynamic monitoring tool",
+      "content_text": "At Meili, we needed a tool that allows us to monitor our pods, we already have vigil which health checks our front page and backend, but the number of these services is limited. We do not pop new front or backend servers dynamically (for now). When we create new search engines for the user we instanciate a kubernetes pod, we need to monitor the health of this service. Adding each of those URLs by hand in the vigil config file is not a solution.\n\nSo we decided that we needed a simple tool, a tool that can accept HTTP requests to register/unregister URLs to health check. We use the new async/await Rust syntax along with tide for the http server, no big deal here.",
+      "url": "https://blog.meilisearch.com/spo2-the-little-dynamic-monitoring-tool/",
+      "date_published": "2019-10-18T15:53:16+00:00",
+      "author": {
+        "name": "Clément Renault",
+        "url": "https://blog.meilisearch.com/author/clement/"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "46223027-91fb-4320-a25a-02df60a68461",
+      "title": "How to publish your Rust project on Homebrew",
+      "content_text": "Last week I finally released the first version of espanso, a cross-platform, system-wide Text Expander written in Rust. I’ve built many projects in my life, but this time I wanted to create something people would actually use. Therefore, one of the key aspects to consider was the installation process: it has to be easy. Being a cross-platform tool, I had to consider the best installation method for each platform and when it comes to macOS, the de-facto way to install a cli tool is by using Homebrew. In this article I will show you the publishing process I used for my tool, espanso.",
+      "url": "https://federicoterzi.com/blog/how-to-publish-your-rust-project-on-homebrew/",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Federico Terzi",
+        "url": "https://federicoterzi.com/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "4250d5cd-9d22-43c1-b613-b8efaf94a3ee",
+      "title": "GitHub Actions for Rust",
+      "content_text": "A few weeks ago I got beta access to the GitHub CI/CD platform called Actions. For my own Rust projects I was using Travis CI mostly before and had started migrating to the Azure Pipelines recently, but now I’m considering moving to the Actions instead.\n\nConfiguration syntax is a bit nicer comparing to Azure one, there are Linux, macOS and Windows environments available (pretty much as everywhere now) and integration with other GitHub parts is just amazing. But the most important thing there for me is a possibility to create “Actions” — custom tasks to be executed in the CI workflow.",
+      "url": "https://svartalf.info/posts/2019-09-16-github-actions-for-rust/",
+      "date_published": "2019-09-16T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "bce3d472-5591-44cc-b52a-2573bf8d9f55",
       "title": "Compiling Rust Apps for Termux with nix-shell",
       "content_text": "I've been building a program to track how I spend my time, and a couple of the requirements are an interface on my phone, and sync between multiple devices. Since I haven't built an android app in forever, I decided to target termux, at least initially. This will allow me to use the app and test out the synchronization protocol without a ton of upfront effort into building a graphical user interface.",

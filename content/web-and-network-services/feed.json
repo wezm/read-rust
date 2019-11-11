@@ -10,6 +10,248 @@
   },
   "items": [
     {
+      "id": "53422d00-b0d2-4f97-a020-f34636fc9d89",
+      "title": "Getting Started with Rust and Apache Kafka",
+      "content_text": "I’ve written an event sourcing bank simulation in Clojure (a lisp build for Java virtual machines or JVMs) called open-bank-mark, which you are welcome to read about in my previous blog post explaining the story behind this open source example. As a next step, specifically for this article I’ve added SSL and combined some topics together, using the subject name strategy option of Confluent Schema Registry, making it more production like, adding security, and making it possible to put multiple kinds of commands on one topic. We will examine how the application works, and what was needed to change one of the components from Clojure to Rust. We’ll also take a look at some performance tests to see if Rust might be a viable alternative for Java applications using Apache Kafka®.",
+      "url": "https://www.confluent.io/blog/getting-started-with-rust-and-kafka",
+      "date_published": "2019-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Gerard Klijs",
+        "url": "https://www.confluent.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "abea3139-f0fb-4680-abbf-1e7f4b368534",
+      "title": "Announcing cfnts: Cloudflare's implementation of Network Time Security (NTS) in Rust",
+      "content_text": "Several months ago we announced that we were providing a new public time service. Part of what we were providing was the first major deployment of the new Network Time Security (NTS) protocol, with a newly written implementation of NTS in Rust. In the process, we received helpful advice from the NTP community, especially from the NTPSec and Chrony projects. We’ve also participated in several interoperability events. Now we are returning something to the community: Our implementation, cfnts, is now open source and we welcome your pull requests and issues.",
+      "url": "https://blog.cloudflare.com/announcing-cfnts/",
+      "date_published": "2019-10-31T13:00:00+00:00",
+      "author": {
+        "name": "Watson Ladd and Pop Chunhapanya",
+        "url": "https://blog.cloudflare.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "25ecd879-1428-4fd5-8200-e908de68db3b",
+      "title": "Programming Servo: shipping message-ports(via a detour into Spectre)",
+      "content_text": "The thing about contributing to Servo is that you keep learning new things about the Web platform. Personally, I had never used messaging on the web when developing web applications, and I find it a fascinating idea.\n\nWeb-messaging enables developers to provide cross-site API’s without having to go through a server, all the while leveraging the client-side security model of the Web. And since it happens on the client, it could be more transparent to the end-user, and probably easier to block if necessary.\n\nImplementing message-ports also raises interesting architectural questions. In an earlier Web(like, in 2017), an API like message-ports could have been implemented with some sort of cross-thread communication. In 2019 however, it’s going to have to go across process. Why? Something known as “Spectre”.",
+      "url": "https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8",
+      "date_published": "2019-10-20T04:38:50.450+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Security"
+      ]
+    },
+    {
+      "id": "2948d871-de13-48a8-bc6b-06cdfcf0104e",
+      "title": "How to use gRPC with Rust Tonic and PostgreSQL database",
+      "content_text": "In this post, we will learn how to use Rust Tonic gRPC crate. We will learn how to implement CRUD with Postgresql database. The purpose of it is to help you to have the working Rust Tonic code and start your own porject immediately with it.",
+      "url": "https://www.steadylearner.com/blog/read/How-to-use-gRPC-with-Rust-Tonic-and-Postgresql-database",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Steadylearner",
+        "url": "https://www.steadylearner.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "48cf21ce-5244-4667-82c3-9c54bb469bbf",
+      "title": "Battle of the Serverless — Part 2: AWS Lambda Cold Start Times",
+      "content_text": "This experiment continues the work done in our pretend suite of microservices exposed via API Gateway to form an API with a code name of Slipspace in a mock company called STG. Slipspace drives are how the ships in the Halo universe travel so quickly to different sectors of the galaxy through something called Slipstream Space, so thought it was cool for a name requiring awesome warp API speeds.",
+      "url": "https://medium.com/@shouldroforion/battle-of-the-serverless-part-2-aws-lambda-cold-start-times-1d770ef3a7dc",
+      "date_published": "2019-11-07T03:15:40.170+00:00",
+      "author": {
+        "name": "Mark Fowler",
+        "url": "https://medium.com/@shouldroforion"
+      },
+      "tags": [
+        "Performance",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "1f771485-fadd-4dfe-8730-1a4b81a856d0",
+      "title": "SpO₂ the little dynamic monitoring tool",
+      "content_text": "At Meili, we needed a tool that allows us to monitor our pods, we already have vigil which health checks our front page and backend, but the number of these services is limited. We do not pop new front or backend servers dynamically (for now). When we create new search engines for the user we instanciate a kubernetes pod, we need to monitor the health of this service. Adding each of those URLs by hand in the vigil config file is not a solution.\n\nSo we decided that we needed a simple tool, a tool that can accept HTTP requests to register/unregister URLs to health check. We use the new async/await Rust syntax along with tide for the http server, no big deal here.",
+      "url": "https://blog.meilisearch.com/spo2-the-little-dynamic-monitoring-tool/",
+      "date_published": "2019-10-18T15:53:16+00:00",
+      "author": {
+        "name": "Clément Renault",
+        "url": "https://blog.meilisearch.com/author/clement/"
+      },
+      "tags": [
+        "DevOps and Deployment",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "7cc2fd97-9135-44d1-b428-2695aa2991e7",
+      "title": "Creating Web App in Rust with Yew",
+      "content_text": "I recently had to create a simple webapplication for a project i was working on. Luckily i was free to choose the technology for that task so i decided that it was great oportunity to try out how applicable is Rust for web development. There is already a bunch of mature web servers available such as Rocket or Actix. However as far as i can tell Yew is the only actual framework that allows you to create the frontend application.",
+      "url": "https://versbinarii.gitlab.io/blog/posts/creating-webapp-with-yew/",
+      "date_published": "2019-10-02T00:00:00+00:00",
+      "author": {
+        "name": "Kris",
+        "url": "https://versbinarii.gitlab.io/blog"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "9eea41c1-f070-498f-9db0-0473ae429df7",
+      "title": "Writing an HTTP server in Rust (Part I)",
+      "content_text": "So… You want to write an HTTP server. Well, you’re in luck, The Internet Engineering Task Force (IETF) is here to help us. Whenever they’re not fighting with fiber cables (at least that’s what I imagine they do), they are writing useful specifications for us! Well, first you prepare yourself a big pot of coffee. Once you’re appropriately caffeinated, you read the 57897 word RFC 2616 specification, written by none other, than the IETF. Exciting.",
+      "url": "https://curiosityoverflow.xyz/posts/linda/",
+      "date_published": "2019-10-03T15:54:39+02:00",
+      "author": {
+        "name": "NullSense",
+        "url": "https://curiosityoverflow.xyz/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "ae789897-c6a9-4ec5-bab4-a1777f9cfc7a",
+      "title": "Tonic: gRPC has come to async/await!",
+      "content_text": "I am pleased to finally announce a crate that I have been working very hard on for the past few months. tonic has finally hit the initial 0.1.0-alpha.1 release! Stable releases will follow in the coming months. Tonic is a gRPC-over-HTTP/2 implementation focused on high performance, interoperability, and flexibility. This library was created to have first class support of async/await and to act as a core building block for production systems written in Rust.",
+      "url": "https://luciofran.co/tonic-grpc-has-come-to-async-await/",
+      "date_published": "2019-10-02T10:00:00-04:00",
+      "author": {
+        "name": "Lucio Franco",
+        "url": "https://luciofran.co/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "be17b8c4-fce6-4128-9058-ee35cf5109aa",
+      "title": "Building a front app with Rust (yes you can) and Yew",
+      "content_text": "JS/TS is killing me. Now that I use Rust everyday, I have to try Yew, a front framework for Rust to create WASM apps, I spotted it long time ago but it wasn’t mature enough for my use case… guess what — now is the time ! The project is still alive and well!  Rust fullstack dev it is.",
+      "url": "https://medium.com/swlh/building-a-front-app-with-rust-yes-you-can-and-yew-11e7835d768f",
+      "date_published": "2019-09-12T12:48:25.396+00:00",
+      "author": {
+        "name": "Terry Raimondo",
+        "url": "https://medium.com/@terry.raimondo"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6cb73c7e-777a-4c23-b279-4e94c8cf70cf",
+      "title": "Osgood is a secure, fast, and simple platform for running JavaScript HTTP servers",
+      "content_text": "Osgood is a secure, fast, and simple platform for running JavaScript HTTP servers. It is written using Rust and V8. Services written today share a common flaw: Being over-privileged. Osgood is an attempt to build a platform from the ground up, one which applies the Principle of Least Privilege at its very core. Osgood requires that policies be written ahead of time describing the I/O requirements of an application. If such an operation hasn't been whitelisted, it will fail. Developers familiar with JavaScript development in the web browser should feel right at home with the APIs provided in Osgood.",
+      "url": "https://github.com/IntrinsicLabs/osgood",
+      "date_published": "2019-11-09T03:48:13+00:00",
+      "author": {
+        "name": "Thomas Hunter II",
+        "url": "https://github.com/IntrinsicLabs/osgood"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "c0646818-a5c6-4739-8146-179b69af4d2f",
+      "title": "OAuth Requests, APIs, Diesel, and Sessions",
+      "content_text": "I start to get sessions working by POSTs OAuth requests to an API endpoint and create accounts using Diesel to talk to the database.",
+      "url": "https://rust.graystorm.com/2019/08/09/oauth-requests-apis-diesel-and-sessions/",
+      "date_published": "2019-08-09T13:26:43+00:00",
+      "author": {
+        "name": "Jeff Culverhouse",
+        "url": "https://rust.graystorm.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "cf49cd41-eb0a-4331-a092-3869573c5824",
+      "title": "Curve Fitting in the Browser using Rust+wasm in Angular",
+      "content_text": "Playing around with Rust+WebAssembly and wrote a little crate to perform Levenberg-Marquardt fits. Brief comparison of SciPy & Rust fitting.",
+      "url": "https://medium.com/@domie_domie/curve-fitting-in-the-browser-using-rust-wasm-in-angular-f9120ad89ac0",
+      "date_published": "2019-08-06T16:14:56.386+00:00",
+      "author": {
+        "name": "Dominique Dresen",
+        "url": "https://medium.com/@domie_domie"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "31d06e7f-96a6-4fe8-9a5a-18b20416250e",
+      "title": "Rust Web App Session Management with AWS",
+      "content_text": "I implement Amazon's DynamoDB for my Rust web app session management storage with the Rusoto crate and some deeply nested code.",
+      "url": "https://rust.graystorm.com/2019/08/04/rust-web-app-session-management-with-aws/",
+      "date_published": "2019-08-04T17:35:17+00:00",
+      "author": {
+        "name": "Jeff Culverhouse",
+        "url": "https://rust.graystorm.com/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "e7878bb0-8dbe-40fc-8af3-54d3df4663c1",
+      "title": "Engineering Rust Web Applications",
+      "content_text": "This is a quick & dirty guide to building a web app using an all-rust stack: Diesel as an ORM, Rocket as a web framework, and Seed for the [WebAssembly] frontend. Read this book to learn how to quickly throw together a prototype application, all with your favorite programming language.",
+      "url": "https://erwabook.com/",
+      "date_published": "2019-09-01T00:00:00+00:00",
+      "author": {
+        "name": "Brian St. Pierre",
+        "url": "https://erwabook.com/"
+      },
+      "tags": [
+        "Getting Started",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "48b43e12-00d0-4eb5-aff6-b57873cc6533",
+      "title": "Wasmtime — a small and efficient runtime for WebAssembly & WASI",
+      "content_text": "Wasmtime is a standalone wasm-only optimizing runtime for WebAssembly and WASI, using Cranelift. It runs WebAssembly code outside of the Web, and can be used both as a command-line utility or as a library embedded in a larger application.",
+      "url": "https://wasmtime.dev/",
+      "date_published": "2019-11-09T08:56:22+00:00",
+      "author": {
+        "name": "Wasmtime Developers",
+        "url": "https://wasmtime.dev/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "d653d9d3-135e-4c03-b2d4-8869b8972cb2",
+      "title": "Announcing the first Postgres extension to run WebAssembly",
+      "content_text": "It is already possible to run WebAssembly inside C, C++, PHP, Python, Ruby, Go, C#, R. Now it is time to run WebAssembly inside Postgres.",
+      "url": "https://medium.com/wasmer/announcing-the-first-postgres-extension-to-run-webassembly-561af2cfcb1",
+      "date_published": "2019-08-30T07:56:27.850+00:00",
+      "author": {
+        "name": "Ivan Enderlin",
+        "url": "https://medium.com/@hywan"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "1ca114e3-a283-4b4c-ae16-4d5966e0ffcf",
       "title": "Dreadbot: A Discord Bot for Magic The Gathering in Rust",
       "content_text": "There is a wonderful Magic: The Gathering scene here in Durham, NC. Unfortunately, Magic often deserves the trope that it gets of being an expensive hobby. In order to enjoy the game on a budget, myself and a group of locals created a new format: Paper Dreadful. The format is simple: create a 60 card deck with a maximum of 4 of any card (other than basic lands) and the total cost must be $20 or less on that day. The same rule applies with the sideboard, except it must by $5 or less.\n\nThe problem here is that Magic cards change in price all the time. What happens if I build a deck and then a card skyrockets in price?",

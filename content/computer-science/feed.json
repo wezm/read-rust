@@ -10,6 +10,48 @@
   },
   "items": [
     {
+      "id": "6d0504a6-4f1a-4779-b248-50afb5797df5",
+      "title": "Floorplan: Spatial Layout in Memory Management Systems",
+      "content_text": "In modern runtime systems, memory layout calculations are hand-coded in low-level systems languages. The primitives in these languages are not powerful enough to describe a rich set of layouts, leading developers to rely on ad-hoc macros as well as numerous interrelated static constants and other boilerplate code. A memory management policy must also carefully orchestrate all the different address calculations to modify memory cooperatively, a task ill-suited to the low-level systems languages at hand which do not provide the proper safety mechanisms.\n\nIn this paper we introduce Floorplan, a declarative language for specifying memory layouts at a high level. In a case study of an existing implementation of the immix garbage collection algorithm, Floorplan eliminates 55 out of the 63 unsafe lines of code: 100% of the unsafe lines of code pertaining to memory safety.",
+      "url": "https://conf.researchr.org/details/gpce-2019/gpce-2019-papers/6/Floorplan-Spatial-Layout-in-Memory-Management-Systems",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "Karl Cronburg and Sam Guyer",
+        "url": "https://conf.researchr.org/home/gpce-2019"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "dc70aa23-e945-46c7-845c-8795557a4ed7",
+      "title": "Leveraging Rust Typesfor Modular Specification and Verification",
+      "content_text": "Rust’s type system ensures memory safety: well-typed Rust programs are guaranteed to not exhibit problemssuch as dangling pointers, data races, and unexpected side effects through aliased references. Ensuringcorrectness properties beyond memory safety, for instance, the guaranteed absence of assertion failures ormore-general functional correctness, requires static program verification. For traditional system programminglanguages, formal verification is notoriously difficult and requires complex specifications and logics to reasonabout pointers, aliasing, and side effects on mutable state. This complexity is a major obstacle to the more-widespread verification of system software.\n\nIn this paper, we present a novel verification technique that leverages Rust’s type system to greatly simplifythe specification and verification of system software written in Rust.",
+      "url": "https://www.pm.inf.ethz.ch/research/prusti.html",
+      "date_published": "2019-10-05T00:00:00+00:00",
+      "author": {
+        "name": "V. Astrauskas and P. Müller and F. Poli and A. J. Summers",
+        "url": "https://www.pm.inf.ethz.ch/research/prusti.html"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "749af3f4-8cf0-4ef3-b069-1fafa81f1e44",
+      "title": "Efficient Deconstruction with Typed Pointer Reversal",
+      "content_text": "The resource-management model of C++ and Rust relies on compiler-generated destructors called predictably and reliably. In current implementations, the generated destructor consumes stack space proportionally to the depth of the structure it destructs. We describe a way to derive destructors for algebraic data types that consume a constant amount of stack and heap. We discuss applicability to C++ and Rust, and also some implication for anyone wishing to extend an ML-style language with first-class resources.",
+      "url": "https://hal.inria.fr/hal-02177326",
+      "date_published": "2019-07-09T19:38:41+00:00",
+      "author": {
+        "name": "Guillaume Munch-Maccagnoni, Rémi Douence",
+        "url": "https://www.ccsd.cnrs.fr/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "511a9fb7-b477-4d17-9c06-fd507b580a21",
       "title": "Linearity among the toctou",
       "content_text": "I have been reading a lot of papers on linear types recently. Originally it was to understand better why Rust went down the path it did, but I found a lot more interesting stuff there. While some people now are familiar with linear typesas the basis for Rust’s memory management, they have been around for a long time and have lots of other potential uses. In particular they are interesting for improving resource allocation in functional programming languages by reusing storage in place where possible. Generally they are useful for reasoning about resource allocation. While the Rust implementation is probably the most widely used at present, it kind of obscures the underlying simple principles by adding borrowing, so I will only mention it a little in this post.",

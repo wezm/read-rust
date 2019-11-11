@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "f178fe2d-82b8-4e04-ad1e-6e90bc4299c3",
+      "title": "Neotron - The Embedded Rust Home Computer Platform",
+      "content_text": "Neotron is an attempt to make computers simple again, whilst also taking advantage of the very latest in programming language development. It is based around four simple concepts: The ARM Thumb-v7M instruction set, A standardised OS interface, A standardised BIOS interface, and Use of the Rust Programming Language.",
+      "url": "https://neotron-compute.github.io/Neotron-Book/",
+      "date_published": "2019-11-11T05:07:11+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "1f8ce13c-5661-4d07-aad2-11ea948a5a16",
+      "title": "Using Type-Level Programming in Rust to Make Safer Hardware Abstractions",
+      "content_text": "In the world of systems programming where one may find themselves writing hardware drivers or interacting directly with memory-mapped devices, that interaction is almost always through memory-mapped registers provided by the hardware. We typically interact with these things through bitwise operations on some fixed-width numeric type.",
+      "url": "https://blog.auxon.io/2019/10/25/type-level-registers/",
+      "date_published": "2019-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Dan Pittman",
+        "url": "https://blog.auxon.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "6880443a-d817-4bb3-b7b6-aeaee053df1c",
+      "title": "How to make your C codebase rusty: rewriting keyboard firmware keymap in Rust",
+      "content_text": "Recently, my colleague introduced me to QMK 1, an open-source keyboard firmware. Like many non-trivia C projects, macro is heavily used everywhere, especially in keymap files 2. It didn’t bother me much since I have been programming C for many years. But I kept thinking to myself, “what would it look like if I can start from scratch and redesign everything using Rust’s more powerful macro system?” After couple nights of hacking, I was able to come up with something I am quite happy with.",
+      "url": "https://about.houqp.me/posts/rusty-c/",
+      "date_published": "2019-11-02T21:56:49-07:00",
+      "author": {
+        "name": "Hou, Qingping (QP)",
+        "url": "https://about.houqp.me/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "9d9858e5-ff84-4a20-b687-e96e9119e0dc",
+      "title": "Music Visualization VI: RTFM",
+      "content_text": "Let's actually hook up our LED matrix driver to the RTFM (RealTime For the Masses) library",
+      "url": "https://dflemstr.io/posts/music-visualization-6/",
+      "date_published": "2019-10-29T00:00:00+00:00",
+      "author": {
+        "name": "David Flemström",
+        "url": "https://dflemstr.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "cdc902d3-e22c-4874-8b99-592afc111bf2",
+      "title": "Music Visualization V: A Basic Firmware in Rust",
+      "content_text": "We create some firmware for the cube from scratch using Rust and the awesome RTFM library!",
+      "url": "https://dflemstr.io/posts/music-visualization-5/",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "David Flemström",
+        "url": "https://dflemstr.io/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0c8f6126-5edf-4b60-abf4-6f56e0d6889a",
+      "title": "Drone: Embedded operating system for writing real-time applications",
+      "content_text": "Drone is an Embedded Operating System for writing real-time applications in Rust. It aims to bring modern development approaches without compromising performance into the world of embedded programming.",
+      "url": "https://www.drone-os.com/",
+      "date_published": "2019-09-25T00:00:00+00:00",
+      "author": {
+        "name": "Valentine Valyaeff",
+        "url": "https://www.drone-os.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "46fa8684-a0b0-4218-bba4-22d22d8620d2",
+      "title": "Advanced Topics for Visual Embedded Rust Programming",
+      "content_text": "Blue Pill was chosen for the tutorial because it best represents a real-world, low-cost microcontroller with limited RAM and ROM. To be clear what’s a “Blue Pill”… The heart of Blue Pill is an STMicroelectronics STM32F103C8T6 microcontroller. That’s a tiny module surface-mounted on a Blue printed-circuit board (hence the name Blue Pill). Without the Blue (and Yellow) parts, it would be extremely difficult for us to experiment with the microcontroller. So we buy a Blue Pill and use it like an Arduino.",
+      "url": "https://medium.com/@ly.lee/advanced-topics-for-visual-embedded-rust-programming-ebf1627fe397",
+      "date_published": "2019-08-30T04:01:09.495+00:00",
+      "author": {
+        "name": "Lup Yuen Lee 李立源",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "b925cfc1-65fc-4071-a941-e76039f61762",
       "title": "Making a computer",
       "content_text": "So, OK, that was originally the point. It's awfulness was part of the joke - \"Hey look what you can do, but totally shouldn't do, in Embedded Rust\". But as time went on, I was thinking - maybe I could just ... make it better? Yes, there's value in setting an arbitrary goal and seeing what can be squeezed from it, but, if the goal was arbitrary, couldn't we just reset it a little bit? Take a step back and say, is it possible to build something impressive but also useful? So this is where the Neotron came from. It's a Monotron 2.0 if you like.",

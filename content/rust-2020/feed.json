@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "2df19538-8f67-4338-9eb8-9536c03a77c9",
+      "title": "Rust 2020: the RFC process and distributions",
+      "content_text": "I must have missed an e-mail in my inbox, because recently I started seeing people publish Rust 2020 blogposts so I thought, why not. I haven't been incredibly involved in the development of Rust in the last few months, (navigating the delicate balance of being self employed, working on free software and not burning out) but I feel like that might change again. And also, I still have feelings about software.\n\nThis post was also largely inspired by my friend XAMPPRocky's post, as well as attending NixCon a few weeks ago, and generally interacting with the NixOS RFC process.",
+      "url": "https://spacekookie.de/blog/rust-2020-the-rfc-process-and-distributions/",
+      "date_published": "2019-11-04T00:00:00+00:00",
+      "author": {
+        "name": "Katharina Fey",
+        "url": "https://spacekookie.de/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "f7f1b3da-3847-4653-9410-cadb223b8e06",
+      "title": "Rust 2020 - Loose Ends and Small Details",
+      "content_text": "This is my answer to call for blogs 2020 and somewhat an update to my post from last year. You don't need to read the old post though, since this post is written in way that it incorporates that content as well.\n\nFor every topic, I will present my personal favorite parts, split into Completed (compared to the post from last year or was not on the list but is nice anyway), Open (existed last year and is still relevant), and New (got relevant or new idea).",
+      "url": "https://crepererum.net/rust-2020/",
+      "date_published": "2019-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Marco Neumann",
+        "url": "https://crepererum.net/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "dbe27f0a-48ce-492f-9200-688fc471a263",
+      "title": "Rust 2020: Finish what we started and a bit about proc macros",
+      "content_text": "Its that time of year again and its been exciting watching the language grow over this past year! Looking back through the Rust releases for the entire year, starting with 1.32.0 there’s been some fantastic progress, which is pretty easy to forget! So why not start with a bit of a recap of some of the big things from each release.",
+      "url": "https://repnop.dev/posts/rust-2020/",
+      "date_published": "2019-11-10T15:00:00-05:00",
+      "author": {
+        "name": "repnop",
+        "url": "https://repnop.dev/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "c8c2efa0-e798-4951-b23d-7df4075c3b51",
+      "title": "Rust 2020 Suggestions",
+      "content_text": "7 votes and 2 comments so far on Reddit",
+      "url": "https://www.reddit.com/r/rust/comments/ducnqy/rust_2020_suggestions/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "u/AnyPolicy",
+        "url": "https://www.reddit.com/user/AnyPolicy/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "10b9ba68-29df-4218-b086-e17e4d8894cc",
       "title": "Rust in 2020: A User’s Perspective",
       "content_text": "I’m a Rust user rather than a Rust developer. I have been writing Rust code since just before the 1.0 release, and have followed the development of the language since then. I believe the future of systems programming is likely to be in Rust. I am certainly invested in the Rust language. Last month I resigned from my job writing embedded C, so I could start my own company, producing IP Networking software in Rust.",

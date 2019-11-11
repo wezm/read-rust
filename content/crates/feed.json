@@ -10,6 +10,148 @@
   },
   "items": [
     {
+      "id": "eab14a89-9177-44ce-8259-07c6ae33bdfa",
+      "title": "iou: Rust bindings for liburing",
+      "content_text": "Today I’m releasing a library called iou. This library provides idiomatic Rust bindings to the C library called liburing, which itself is a higher interface for interacting with the io_uring Linux kernel interface. Here are the answers to some questions I expect that may provoke.\n\nWhat is io_uring? io_uring is an interface added to the Linux kernel in version 5.1. Concurrent with that, the primary maintainer of that interface has also been publishing a library for interacting with it called liburing.",
+      "url": "https://boats.gitlab.io/blog/post/iou/",
+      "date_published": "2019-11-08T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "30aad534-3914-4d3a-90f3-bc092652d92b",
+      "title": "sorted-vec: A sorted array with O(lg n) access and O(√n) inserts and deletes",
+      "content_text": "This repository contains implementations, unit tests, and benchmark code for the \"2-level rotated array\" structure, first published in Munro and Suwanda's 1979 paper \"Implicit Data Structures for Fast Search and Update\" (which also introduced the much better-known beap data structure). This structure is further developed and discussed in \"Implicit Data Structures for the Dictionary Problem\" (1983) and \"Succinct Dynamic Data Structures\" (2001). (The latter generalizes the idea to the dynamic array abstract data type, rather than a sorted array.)\n\nThe theoretical advantage of a 2-level rotated array over an ordinary sorted array is that it provides the same search performance (O(log n)), with much better insert and delete performance (O(√n), compared to O(n) for a sorted array), in exactly the same amount of space (i.e., no more than the data itself).",
+      "url": "https://github.com/senderista/sorted-vec",
+      "date_published": "2019-10-27T00:00:00+00:00",
+      "author": {
+        "name": "Tobin Baker",
+        "url": "https://github.com/senderista"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "61d6deeb-4ef7-4ad7-b6d8-3d9c650501c8",
+      "title": "Making Good On Momo’s Compile-Time Promise",
+      "content_text": "When I announced momo, I wanted its users to save both binary size and compile time while keeping their code simple. I succeeded in the first goal, but failed regarding the second. The reason was that momo requires syn and quote which (unless you have other proc macros in your dependencies) add their own compile time to yours.",
+      "url": "https://llogiq.github.io/2019/10/28/momo-fast.html",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "6b61d3a8-a487-4399-a347-43e16c50abc1",
+      "title": "This month in rustsim #8 (August − September - October 2019)",
+      "content_text": "Welcome to the eighth edition of This month in rustsim! This monthly newsletter will provide you with a summary of important update that occurred within the rustsim community. This includes in particular updates about the nphysics (physics engine), salva (fluid simulation), ncollide (for collision-detection), nalgebra (for linear algebra), and alga (for abstract algebra) crates. This eighth edition will actually contain updates for the past three months (I got sick between the second and third month so I did not get the time to write a new post then. Sorry!)",
+      "url": "https://www.rustsim.org/blog/2019/11/01/this-month-in-rustsim/",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Sébastien Crozet",
+        "url": "https://www.rustsim.org/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "44aef346-22de-444d-9258-0fe74a38d50d",
+      "title": "Towards Overflower 1.0",
+      "content_text": "The overflower crate contains a helper library and procedural attribute macro to allow specifying how overflow should be handled. Since its inception, it has relied on specialization to change just the integer arithmetics while leaving the other operations basically unchanged.",
+      "url": "https://llogiq.github.io/2019/10/23/overflower.html",
+      "date_published": "2019-10-23T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "a128d6c7-98e7-4c7d-85df-1d23003ac824",
+      "title": "fancy-regex: crate for regular expressions using \"fancy\" features like look-around and backreferences",
+      "content_text": "A Rust library for compiling and matching regular expressions. It uses a hybrid regex implementation designed to support a relatively rich set of features. In particular, it uses backtracking to implement \"fancy\" features such as look-around and backtracking, which are not supported in purely NFA-based implementations (exemplified by RE2, and implemented in Rust in the regex crate).",
+      "url": "https://github.com/fancy-regex/fancy-regex",
+      "date_published": "2019-10-19T00:00:00+00:00",
+      "author": {
+        "name": "Raph Levien and Robin Stocker",
+        "url": "https://github.com/fancy-regex"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "76b70816-eaa3-4343-b4b8-8f4d675575a1",
+      "title": "Announcing Asuran, a new de-duplicating archiver with encryption",
+      "content_text": "This archiver does deduplication, encryption, compression, data verification, and (ideally) supports backing up to untrusted storage, including cloud storage (though currently it only supports a local storage backend).",
+      "url": "https://www.reddit.com/r/rust/comments/ddu1dq/announcing_asuran_a_new_deduplicating_archiver/",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Nathan McCarty",
+        "url": "https://gitlab.com/thatonlutenist"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "d871ed8d-ed33-4814-8953-725eb83ba1e9",
+      "title": "Semantic validation in Rust",
+      "content_text": "If you need to validate complex data structures at runtime in the programming language Rust then our semval library may empower you to enrich your domain model with semantic validation.",
+      "url": "https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html",
+      "date_published": "2019-09-03T00:00:00+00:00",
+      "author": {
+        "name": "slowtec",
+        "url": "https://slowtec.de/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "8ae54c44-f631-4d1e-bcfc-66edd7805468",
+      "title": "This month in heim, the system information crate",
+      "content_text": "It’s been a month and a half since the heim public announcement, so it’s about time to sum up the work done and make a roadmap for next development iteration. As a quick reminder: heim is the Rust cross-platform async library for system information fetching — CPU, memory, disks, networks, you name it.",
+      "url": "https://svartalf.info/posts/2019-09-02-this-month-in-heim-august-2019/",
+      "date_published": "2019-09-02T00:00:00+00:00",
+      "author": {
+        "name": "Nikita Kuznetsov",
+        "url": "https://svartalf.info/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "3a399e6a-a660-464b-90c0-9cee92eade7c",
+      "title": "Criterion.rs v0.3 - Custom Measurements, Profiling Hooks, Custom Test Framework, API Changes",
+      "content_text": "I’m pleased to announce the release of Criterion.rs v0.3, available today. Version 0.3 provides a number of new features including preliminary support for plugging in custom measurements (eg. hardware timers or POSIX CPU time), hooks to start/stop profilers, a new BenchmarkGroup struct that provides more flexibility than the older Benchmark and ParameterizedBenchmark structs, and an implementation of a #[criterion] custom-test-framework macro for those on Nightly.",
+      "url": "https://bheisler.github.io/post/criterion-rs-0-3/",
+      "date_published": "2019-08-25T10:30:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
       "id": "8de2bce6-9245-4f95-b12c-ca3e38efb3bb",
       "title": "Migrate spirit to version 0.4",
       "content_text": "This post can serve as a step by step migration guide from spirit 0.3 to spirit 0.4. If you already have an application using the crate, read on.\n\nIf you haven’t heard about the spirit library yet, it is a library to help you manage your configuration in an application and have it reloaded at runtime. It allows you to have the changes applied automatically and also to manage lifetime of the application. You can read more about it here. In that case, a migration guide won’t help you much, but I’m planning on having a tutorial how to start with the library soon.",

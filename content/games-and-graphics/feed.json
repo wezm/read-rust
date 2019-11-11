@@ -10,6 +10,132 @@
   },
   "items": [
     {
+      "id": "e49868f7-34ff-4d50-a55d-39eec1e36f37",
+      "title": "Sulis - a turn based tactical RPG written in Rust",
+      "content_text": "Sulis, a turn based tactical RPG written in Rust. Sulis is open source with turn based, tactical combat, deep character customization and an engaging storyline. The game has been built from the ground up with modding and custom content in mind. Currently supported on Windows and Linux platforms.",
+      "url": "https://sulisgame.com/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Jared Stephen",
+        "url": "https://sulisgame.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5e3bc6b8-53e2-4b7a-966b-901727f317c8",
+      "title": "This Month in Rust GameDev #3 - October 2019",
+      "content_text": "Huge round-up of updates to Rust games, libraries, and tools.",
+      "url": "https://rust-gamedev.github.io/2019/11/07/newsletter-003.html",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Rust Game Development Working Group",
+        "url": "https://rust-gamedev.github.io/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "40f6a583-f5e8-4198-af0c-8ff6129d288a",
+      "title": "Ferris Fencing - player-programmed bots combat each other on a RISC-V virtual machine",
+      "content_text": "Ferris Fencing is a live tournament in which player-programmed bots combat each other on a RISC-V virtual machine.  It is a showcase of CKB-VM, a simple implementation of the RISC-V instruction set, written in the Rust programming language.  ",
+      "url": "http://www.ferrisfencing.org/",
+      "date_published": "2019-10-27T00:00:00+00:00",
+      "author": {
+        "name": "Aimee Zhu and Brian Anderson",
+        "url": "http://www.ferrisfencing.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "6f24eb41-d3ce-4829-ab29-ebb32951d3aa",
+      "title": "Projectile solver: Hitting a moving target with a ballistic projectile",
+      "content_text": "The games I play come with simple ballistic physics for projectile-based weapons: the projectiles are fired with an initial speed and are only affected by gravity. The resulting trajectory is a ballistic trajectory.\n\nBecause gravity is a harsh mistress literally every game ‘cheats’ this and fakes a much lower gravity constant for projectiles than is used for players. Without this hack projectiles are either pathethic or need a very high velocity to compensate.\n\nIn this article I present a method of calculating where to aim your weapon which fires a projectile under simple gravity to hit an arbitrary moving target in 3D space.",
+      "url": "https://casualhacks.net/blog/2019-09-17/projectile-solver/",
+      "date_published": "2019-09-17T00:00:00+00:00",
+      "author": {
+        "name": "Casper",
+        "url": "http://casualhacks.net/blog/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "ef081ecf-9f2e-49b6-ad6a-0836394f828c",
+      "title": "Release Notes for rs-pbrt (Physically Based Rendering) v0.7.2",
+      "content_text": "Release Notes for v0.7.2",
+      "url": "https://www.rs-pbrt.org/blog/v0-7-2-release-notes/",
+      "date_published": "2019-10-30T00:00:00+00:00",
+      "author": {
+        "name": "Jan Douglas Bert Walter",
+        "url": "https://www.rs-pbrt.org/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "0fb9cbaa-4762-4055-bd41-870fe8a93f35",
+      "title": "WIP 3D Rendering Engine",
+      "content_text": "My project for the last few months has been creating a 3D rendering engine in Rust, which turned out to be much harder than expected. The original intent was to make a game-engine style thing with built-in support for object loading, cameras, scene graphs, and all that good stuff. What I've ended up with is three separate crates: a small helper for creating command buffers and managing windows, a Vulkan abstraction, and a set of demos showing off what the Vulkan abstraction can do (not much, right now). Pretty.rs in the test-render-engine repository is what's shown in the video, the other demos are less interesting.",
+      "url": "https://www.reddit.com/r/rust/comments/dpa3ar/wip_rendering_engine/",
+      "date_published": "2019-10-31T00:00:00+00:00",
+      "author": {
+        "name": "cynic64",
+        "url": "https://github.com/cynic64"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "cd4ffee6-edb3-4ef3-8dbe-1a9b7f4ba199",
+      "title": "Roguelike Tutorial - In Rust",
+      "content_text": "This tutorial is primarily about learning to make roguelikes (and by extension other games), but it should also help you get used to Rust and RLTK - The Roguelike Tool Kit we'll be using to provide input/output. Even if you don't want to use Rust, my hope is that you can benefit from the structure, ideas and general game development advice.",
+      "url": "http://bfnightly.bracketproductions.com/rustbook/",
+      "date_published": "2019-11-09T04:26:11+00:00",
+      "author": {
+        "name": "Herbert Wolverson",
+        "url": "http://bfnightly.bracketproductions.com/rustbook/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "b5ef3ed4-ac3e-4483-8a04-abe7cd4afa92",
+      "title": "VeoLuz: A generative art tool visualizing the paths of photons",
+      "content_text": "VeoLuz is an exploration-focused playground and an artistic tool. It attempts to mimic the behavior of photons as they interact with barriers of various kinds − those that absorb light, those that reflect light, and those that refract light.",
+      "url": "https://jaredforsyth.com/veoluz/",
+      "date_published": "2019-11-09T04:26:11+00:00",
+      "author": {
+        "name": "Jared Forsyth",
+        "url": "https://jaredforsyth.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "5ec02c50-761b-4e80-9278-34732a4b8219",
+      "title": "Pixel Art Algorithm: Selective Anti-Aliasing",
+      "content_text": "Selective Anti-Aliasing is a common technique in pixel art. The idea is to color some parts of the outline to a different color so it blends better with the background color. I wrote this simple algorithm: Given a pixel perfect line, Calculate the length and direction of each 1-px-wide chunk, and For each chunk, color some fraction of the length to some other color.",
+      "url": "https://rickyhan.com/jekyll/update/2019/09/01/pixel-art-algorithm-selective-outlining-anti-aliasing.html",
+      "date_published": "2019-09-01T04:37:02+00:00",
+      "author": {
+        "name": "Ricky Han",
+        "url": "http://rickyhan.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "8ad4fa9c-8b67-490b-9039-2865f3ef218f",
       "title": "Building a widget for Druid",
       "content_text": "Want to build a desktop app? You probably want to use Electron or Qt or GTK or a native toolkit. Want to build a thing that you could (maybe) someday use to build a native desktop app? Contribute to Druid! Druid is a work-in-progress, open source \"data-oriented Rust UI design toolkit.\" You can use it right now to build very feature-incomplete desktop applications for macOS, Windows, and Linux.",

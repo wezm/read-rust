@@ -10,6 +10,372 @@
   },
   "items": [
     {
+      "id": "0878c302-d2e1-43c2-9ab4-1338d657fe69",
+      "title": "Parsing with crate LALRPOP",
+      "content_text": "How to write a parser using rust and lalrpop crate? In this article, we are going to walk through the implementation of parsing a string like this:\n\nThis is a {dog, cat}.\n\nAnd we want to expand this string into the following two strings:\n\n This is a dog.\nThis is a cat.",
+      "url": "https://tensor.sh/parsing-with-crate-lalrpop",
+      "date_published": "2019-09-02T00:00:00+00:00",
+      "author": {
+        "name": "Will",
+        "url": "https://tensor.sh/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "225f7f8a-4d16-4eee-9022-bbb1d35e26a9",
+      "title": "How Swift Achieved Dynamic Linking Where Rust Couldn't",
+      "content_text": "For those who don't follow Swift's development, ABI stability has been one of its most ambitious projects and possibly it's defining feature, and it finally shipped in Swift 5. The result is something I find endlessly fascinating, because I think Swift has pushed the notion of ABI stability farther than any language without much compromise.\n\nSo I decided to write up a bunch of the interesting high-level details of Swift's ABI. This is not a complete reference for Swift's ABI, but rather an abstract look at its implementation strategy. If you really want to know exactly how it allocates registers or mangles names, look somewhere else.\n\nAlso for context on why I'm writing this, I'm just naturally inclined to compare the design of Swift to Rust, because those are the two languages I have helped develop. Also some folks like to complain that Rust doesn't bother with ABI stability, and I think looking at how Swift does helps elucidate why that is.",
+      "url": "https://gankra.github.io/blah/swift-abi/",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Alexis Beingessner",
+        "url": "https://gankra.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "a09f683f-9aec-46cc-83e8-0aa1acf20f31",
+      "title": "Simple data stitching",
+      "content_text": "I found myself in a situation where I had a number of CSV files that all shared some key data, and all had to be put together to a larger dataset. I figured that the easiest way to do this would be to deserialize the files, then stitch them together using a portion of their data as a key.\n\nI decided to try my hand at writing a macro to solve the issue, and I ended up with two of them; one for one-to-one relations, and one for one-to-many.",
+      "url": "http://segfaultsourcery.s3-website.eu-central-1.amazonaws.com/snippets/rust/stitching/landing.html#simple-data-stitching",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Kim Hå",
+        "url": "https://github.com/segfaultsourcery"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "9d326b39-4675-4c5f-9509-d388a4e41486",
+      "title": "Rust once and share it with Android, iOS and Flutter",
+      "content_text": "What if I told you that you could use the same very performant code in Android, iOS or even in Flutter. In this article, we’ll see how to achieve this with Rust.",
+      "url": "https://robertohuertas.com/2019/10/27/rust-for-android-ios-flutter/",
+      "date_published": "2019-10-27T00:00:00+00:00",
+      "author": {
+        "name": "Roberto Huertas",
+        "url": "https://robertohuertas.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "155c1b1a-4660-4feb-8ab9-3dc8c211afb2",
+      "title": "Rust concurrency patterns: condvars and locks",
+      "content_text": "I’ve spent quite a lot of time extolling the virtues of message-passing in concurrent Rust. However, there are times when shared-state is the right approach, sometimes just because it’s the historical approach chosen in a module and you want to add something to it without refactoring the whole thing. So today we’re going to talk about using shared-state, with the help of condvars and locks.",
+      "url": "https://medium.com/@polyglot_factotum/rust-concurrency-patterns-condvars-and-locks-e278f18db74f",
+      "date_published": "2019-11-04T14:52:14.727+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3e6e0860-0ced-48d0-9f44-a2cfe3355a63",
+      "title": "mrustc 0.9 - Now with rust 1.29.0 support",
+      "content_text": "I'm finally happy to announce that I've \"finished\" the 1.29 branch of mrustc (for those who don't know, mrustc is my attempt at making a rust compiler, primarily for breaking the bootstrap chain).\n\nThis version is capable of compiling both rustc 1.29 (and packaged cargo) AND rustc 1.19, both of which can compile their successors (1.20 and 1.30 - and 1.30 results in a binary equal output).",
+      "url": "https://www.reddit.com/r/rust/comments/dqi1u1/mrustc_09_now_with_rust_1290_support/",
+      "date_published": "2019-11-02T00:00:00+00:00",
+      "author": {
+        "name": "John Hodge (Mutabah)",
+        "url": "https://github.com/thepowersgang"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Language"
+      ]
+    },
+    {
+      "id": "bf08077b-89c9-4880-9b0b-5b869fd21252",
+      "title": "Quantum computing in Rust, part 1",
+      "content_text": "What is a ket? How do traits work? Implementing a quantum computer simulator in Rust.",
+      "url": "https://walther.guru/blog/impl-quantum-part-1/",
+      "date_published": "2019-10-28T00:00:00+00:00",
+      "author": {
+        "name": "Veeti Haapsamo",
+        "url": "https://walther.guru/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c7f41ce0-3664-4696-90a6-16b5b025820e",
+      "title": "Advent of Code in Rust: lessons learned",
+      "content_text": "Last December, I decided to solve the Advent of Code (AoC) programming puzzles in Rust. This website is an advent calendar proposing a new algorithmic problem of varying difficulty every day throughout December, so it’s a great way to learn and practice a programming language. There is also a leaderboard for the fastest people to solve them, but the past problems remain available forever, so don’t worry if you’re too slow or busy in December, you can try them any time of the year - as this overdue blog post shows!\n\nI already have some experience in Rust programming, but I felt that I could learn more about idiomatic Rust. Given the short time to solve each problem, it was a perfect opportunity to avoid reinventing the wheel but use the standard library as much as possible.\n\nHere are the most useful Rust features that I learned and used during this challenge.",
+      "url": "https://gendignoux.com/blog/2019/08/25/rust-advent-of-code.html",
+      "date_published": "2019-08-25T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Endignoux",
+        "url": "https://gendignoux.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "1bfa39d0-d652-4587-b229-7e40041f0764",
+      "title": "Scratching NASDAQ's ITCH",
+      "content_text": "I am building yet another order book tool in Rust, which requires me to parse L3 (full) market data feed from NASDAQ. In the words of one experienced trading systems developer writing a feed handler is boooooring, but does not build an order book, so I searched if someone else has implemented it already. Thankfully, adwhit has implemented a library to parse ITCH 5.0 feeds from files, which is one line away from importing to my Cargo.toml.",
+      "url": "http://petr-tik.github.io/posts/itch_parser_debugging/",
+      "date_published": "2019-10-23T00:00:00+00:00",
+      "author": {
+        "name": "petr-tik",
+        "url": "http://petr-tik.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cef4b4b5-5c64-4da9-a91a-89155efd377f",
+      "title": "Rust error handling with Result and Option (WebAssembly ABI)",
+      "content_text": "In our last adventure we looked at C++ exceptions in WebAssembly with the emscripten compiler. Now we’re taking a look at the main error handling system for another language targeting WebAssembly, Rust. Rust has a “panic”/”unwind” system similar to C++ exceptions, but it’s generally recommended against catching panics.",
+      "url": "https://brionv.com/log/2019/10/27/rust-error-handling-with-result-and-option-webassembly-abi/",
+      "date_published": "2019-10-27T19:59:33+00:00",
+      "author": {
+        "name": "Brion Vibber",
+        "url": "https://brionv.com/log/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "97a5bf30-4c89-489d-a27e-6d3f32e90b6e",
+      "title": "My favorite rust function",
+      "content_text": "My favorite rust function is std::mem::drop which is used to free ordeallocate a value, similar to free() in C.",
+      "url": "https://blog.jabid.in/2019/10/11/drop.html",
+      "date_published": "2019-10-11T00:00:00+00:00",
+      "author": {
+        "name": "Jaseem Abid",
+        "url": "https://blog.jabid.in/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "90d063a7-b14b-4a7d-be58-a33e6e1dcb5f",
+      "title": "Ownership and impl Trait",
+      "content_text": "There's a common pattern in Rust APIs: returning a relatively complex data type which provide a trait implementation we want to work with. One of the first places many Rust newcomers encounter this is with iterators.",
+      "url": "https://tech.fpcomplete.com/rust/ownership-and-impl-trait",
+      "date_published": "2019-10-07T03:48:44+00:00",
+      "author": {
+        "name": "FP Complete",
+        "url": "https://tech.fpcomplete.com/rust/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cd24e5cb-982d-424e-85b2-0b7284cadee4",
+      "title": "Tarpaulin And The Futures",
+      "content_text": "Tarpaulin (or cargo-tarpaulin) is a code coverage tool for Rust, and anyone who’s used it might know that until recently it had an issue with code that used futures.",
+      "url": "https://xd009642.github.io/2019/10/02/Tarpaulin-and-the-futures.html",
+      "date_published": "2019-10-02T00:00:00+00:00",
+      "author": {
+        "name": "xd009642",
+        "url": "https://xd009642.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "c86c3ae5-41e3-4973-955d-c8b6d61bcbd7",
+      "title": "Rust as a gateway drug to Haskell",
+      "content_text": "For work-related reasons, I had to recently get up to speed on programming in Haskell. Before that, I had very little actual experience with the language, clocking probably at less than a thousand lines of working code over a couple of years. the one thing that really enabled me to become (somewhat) productive was not even related to Haskell at all? It was Rust.",
+      "url": "http://xion.io/post/programming/rust-into-haskell.html",
+      "date_published": "2019-06-13T00:00:00+00:00",
+      "author": {
+        "name": "Karol Kuczmarski",
+        "url": "http://xion.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "feee8a1a-6c6b-45dc-a800-6d93d18e7b9a",
+      "title": "Declarative memory management",
+      "content_text": "It feels like an eternity since I’ve started using Rust, and yet I remember vividly what it felt like to bang my head against the borrow checker for the first few times.\n\nI’m definitely not alone in that, and there’s been quite a few articles on the subject! But I want to take some time to present the borrow checker from the perspective of its benefits, rather than as an opponent to fend with.",
+      "url": "https://fasterthanli.me/blog/2019/declarative-memory-management/",
+      "date_published": "2019-09-19T00:00:00+00:00",
+      "author": {
+        "name": "Amos",
+        "url": "https://fasterthanli.me/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "388629ea-87a4-4119-a7d5-24c13c2e470b",
+      "title": "Generic Newtypes: A way to work around the orphan rule",
+      "content_text": "Rust's orphan rule prevents us from implementing a foreign trait on a foreign type. While this may appear limiting at first, it is actually a good thing and one of the ways how the Rust compiler can prove at compile time that our code works the way we intended.\n\n This blog post is a follow-up on one that I already wrote some time ago. In this one, we will go more in-depth into the \"local wrapper type\" idea and rebrand it as \"generic newtypes\".",
+      "url": "https://blog.eizinger.io/8593/generic-newtypes-a-way-to-work-around-the-orphan-rule",
+      "date_published": "2019-09-21T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Eizinger",
+        "url": "https://blog.eizinger.io/@thomas_eizinger"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fc07abd0-fc94-40d6-b4f8-b29ce54fb934",
+      "title": "Improved C Variadics in Rust and C2Rust",
+      "content_text": "Our goal in the C2Rust project is to translate any valid C99 program into equivalent Rust code. Naturally, this means we need to properly support translating C variadic functions into Rust. For a long time, the Rust-C FFI only allowed one-way calls to C variadic functions: Rust code could call C variadic functions, but not the other way around. Rust RFC 2137 proposed an interface for Rust code to provide C-compatible variadic functions, which was later implemented as a series of patches by Dan Robertson that have been merged into nightly Rust from November 2018 to February 2019.",
+      "url": "https://immunant.com/blog/2019/09/variadics/",
+      "date_published": "2019-09-17T00:00:00+00:00",
+      "author": {
+        "name": "Immunant, Inc.",
+        "url": "https://immunant.com/blog"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0127a4ce-f036-4969-bab1-d55679ac36ce",
+      "title": "Using ramdisks with Cargo",
+      "content_text": "I have a bit of a history of killing SSDs - probably because I do a bit too much compiling and management of thousands of tiny files. Plenty of developers have this problem! So while thinking one evening, I was curious if I could setup a ramdisk on my mac for my cargo work to output to.",
+      "url": "https://fy.blackhats.net.au/blog/html/2019/08/26/using_ramdisks_with_cargo.html",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "Firstyear",
+        "url": "https://fy.blackhats.net.au/blog/html/index.html"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f6721f14-deaa-4603-949e-f62b5130e6d7",
+      "title": "It’s not wrong that \"🤦🏼‍♂️\".length == 7",
+      "content_text": "But It’s Better that \"🤦🏼‍♂️\".len() == 17 and Rather Useless that len(\"🤦🏼‍♂️\") == 5\n\nFrom time to time, someone shows that in JavaScript the .length of a string containing an emoji results in a number greater than 1 (typically 2) and then proceeds to the conclusion that haha JavaScript is so broken—and is rewarded with many likes. In this post, I will try to convince you that ridiculing JavaScript for this is less insightful than it first appears and that Swift’s approach to string length isn’t unambiguously the best one. Python 3’s approach is unambiguously the worst one, though.",
+      "url": "https://hsivonen.fi/string-length/",
+      "date_published": "2019-09-08T23:17:00+00:00",
+      "author": {
+        "name": "Henri Sivonen",
+        "url": "https://hsivonen.fi/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "3a482b07-e688-4b92-94e7-5bd2d87e9f66",
+      "title": "Scala Developer Journey into Rust - Part 7 : Type Classes",
+      "content_text": "Rust is one of the major programming languages that’s been getting popular in recent years. It has many advanced high level language features like Scala.This made me interested to learn Rust. So in this next series of blogs I will share my experience with Rust from a Scala developer point of view. I would like to explore how these two language approach things. I would like to explore the similarities and their differences. This is seventh post in the series. In this post, I will be talking about type classes. You can find all the other posts in the series here.",
+      "url": "http://blog.madhukaraphatak.com/rust-scala-part-7/",
+      "date_published": "2019-08-20T00:00:00+00:00",
+      "author": {
+        "name": "Madhukara Phatak",
+        "url": "http://madhukaraphatak.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "134835d4-c3ca-4ae7-bed7-eef5b69dcf44",
+      "title": "Minimum Safe Abstractions",
+      "content_text": "Recently, there’s been a lot of talk about unsafe in the Rust world, and how to deal with it. Let’s recap: Rust has a subset called “safe Rust”, with a few very neat guarantees, such as memory safety and freedom from data races. The superset that completes the language is called “unsafe Rust”, and it still has a number of cool safeguards, but it also has an escape hatch to allow bending a few of them in order to let us write safe abstractions on top in much the same language.",
+      "url": "https://llogiq.github.io/2019/08/01/unsafe.html",
+      "date_published": "2019-08-01T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "27f56d23-f9a1-494d-b75f-864691d8e14c",
+      "title": "Introduction to Procedural Macros in Rust",
+      "content_text": "As a newcomer to Rust, I heard the phrase \"procedural macro\" thrown around a lot without really understanding what it meant. I figured that I would learn about them if I ever needed them. Well, I'm working on the guts of relm, and a large chunk of it is procedural macros. I've learned enough about procedural macros to be dangerous, so I thought I would pass on some knowledge.",
+      "url": "https://tinkering.xyz/introduction-to-proc-macros/",
+      "date_published": "2018-02-03T19:36:37-05:00",
+      "author": {
+        "name": "Zach Mitchell",
+        "url": "https://tinkering.xyz/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f4b11aa2-a9ac-4511-aa4d-d8d81f51ab79",
+      "title": "Coverage Reports as a Code Reading Tool",
+      "content_text": "Coverage reports are widely used to visualize the lines of code which are covered by test cases. Often this is used in CI to block merge requests which lower test coverage by some metric. But coverage reports don’t have to be test coverage reports. In general, the idea of “run some code and see which lines are executed” can be applied to anything, not just the test cases.",
+      "url": "https://www.joshmcguigan.com/blog/coverage-reports-code-reading-tool/",
+      "date_published": "2019-08-20T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "db66d2c2-313a-4810-9a18-c802f98f5752",
+      "title": "Rust std study series: Pin",
+      "content_text": "This time we dive into std::pin which has a dense documentation.",
+      "url": "https://ehsanmkermani.com/2019/08/16/rust-std-study-series-pin/",
+      "date_published": "2019-08-16T17:27:37+00:00",
+      "author": {
+        "name": "Ehsan M. Kermani",
+        "url": "https://ehsanmkermani.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "aeaec86b-ce60-4809-9c2a-db6aac5869eb",
+      "title": "World’s Fourth Simplest Bytecode Interpreter: Register Machines",
+      "content_text": "For the fourth World’s Simplest Bytecode Interpreter, Kazanov goes into a bit of esoterica without discussing why: he has “authentic bytecode”; he’s doing C programming and he dense-packs his instructions into a single 16-bit instruction. That’s fine if you’re emulating a real chunk of hardware, but for our purposes… I really don’t care.",
+      "url": "https://elfsternberg.com/2019/04/18/worlds-fourth-simplest-bytecode-interpreter-register-machines/",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Elf Sternberg",
+        "url": "https://elfsternberg.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "fa5a432c-cb0e-4c6e-b003-e52c1ce72829",
+      "title": "The World’s Fifth Simplest Bytecode Interpreter: A Regular Expression Engine!",
+      "content_text": "Kazanov’s fifth World’s Simplest Bytecode Intepreter (see the Fourth Simplest) isn’t quite so simple: it is an implementation of Thompson’s most basic regular expression table-driven DFA handler. It handles a complete set of Kleene’s Regular Expressions without the closure operator (no * operator), and it does so by exploiting the host language stack to handle nested recursion of alternatives.\n\nThis is a much different beast from the previous four, and it requires a little thinking to grok why it’s so different. For one thing, we’re going to be jumping back and forth inside the program: this is our first bytecode interpreter with a Jmp instruction. More than that, we may want to jump backwards, so we can’t use ‘usize’ for that, we’ll need to use ‘isize’. There are times we want to add a negative offset, after all!",
+      "url": "https://elfsternberg.com/2019/04/18/the-worlds-fifth-simplest-bytecode-interpreter-a-regular-expression-engine/",
+      "date_published": "2019-04-18T00:00:00+00:00",
+      "author": {
+        "name": "Elf Sternberg",
+        "url": "https://elfsternberg.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "02e9c871-0bac-4650-8fc3-1c8c64e95c7e",
       "title": "Runtime Diagnostics",
       "content_text": "Rust is well-known for its helpful error messages, good tooling, and generally empathic compiler interface. If something goes wrong, Rust tries hard to help you get back on track. In this post I'd like to talk about the runtime aspect of debugging errors.",
@@ -6007,7 +6373,7 @@
     },
     {
       "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
-      "title": "Signal Hook: Unix signal hanadling in Rust",
+      "title": "Signal Hook: Unix signal handling in Rust",
       "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",
       "url": "https://vorner.github.io/2018/06/28/signal-hook.html",
       "date_published": "2018-06-28T00:00:00+00:00",

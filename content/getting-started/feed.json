@@ -10,6 +10,148 @@
   },
   "items": [
     {
+      "id": "276689b1-ba19-4308-9168-21951f3f372c",
+      "title": "Learning Rust by Contrasting with TypeScript: Part 1",
+      "content_text": "Seeing Rust as a potential successor to TypeScript, we go through through the Rust Book with TypeScript in mind.",
+      "url": "https://codeburst.io/learning-rust-by-contrasting-with-typescript-part-1-afb2e3f6ead8",
+      "date_published": "2019-11-07T14:28:54.171+00:00",
+      "author": {
+        "name": "John Tucker",
+        "url": "https://codeburst.io/@johntucker_48673"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "d2c4db2a-402e-4451-b276-e7e4d459a6e1",
+      "title": "A deep dive into the Rust world of mutability",
+      "content_text": "This blog post will take a deep dive into the Rust world of mutability. By deep dive, it means the blog post is considerably long. So it will take time to go through the different examples. The topic we will dive through is specific but we will have to go through various Rust concepts: Ownership/Borrowing, Lifetimes, Unsafe, Sync, Closures, Macros and more. This might be intimidating and I think this is where many developers are put off.",
+      "url": "https://omarabid.com/rust-intro",
+      "date_published": "2019-10-10T13:21:30-07:00",
+      "author": {
+        "name": "Abid Omar",
+        "url": "https://omarabid.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "daa220b5-5e1a-4bea-8f0b-662182ce88be",
+      "title": "A detailed introduction to Rust with comparisons to TypeScript, JavaScript and Java",
+      "content_text": "This is a introduction to Rust, intended for developers that already know another language. In the examples, Rust is compared with TypeScript, JavaScript or Java, sometimes with C++ or Kotlin.",
+      "url": "https://overexact.com/rust-for-professionals/",
+      "date_published": "2019-10-07T06:06:00+00:00",
+      "author": {
+        "name": "Pascal",
+        "url": "https://overexact.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "af51004e-4c8b-4a4c-a266-e530cf495e7a",
+      "title": "Rust Traits: Deep Dive",
+      "content_text": "Traits are the abstract mechanism for adding functionality to Types or it tells Rust compiler about functionality a type must provide. In a nutshell, Traits are Interfaces of other languages. In this article, I’ll talk about some deep concepts of Traits in Rust Programming.",
+      "url": "https://blog.knoldus.com/rust-traits-beyond-basics/",
+      "date_published": "2019-09-19T11:40:58+00:00",
+      "author": {
+        "name": "Pawan Bisht",
+        "url": "https://blog.knoldus.com/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "feee8a1a-6c6b-45dc-a800-6d93d18e7b9a",
+      "title": "Declarative memory management",
+      "content_text": "It feels like an eternity since I’ve started using Rust, and yet I remember vividly what it felt like to bang my head against the borrow checker for the first few times.\n\nI’m definitely not alone in that, and there’s been quite a few articles on the subject! But I want to take some time to present the borrow checker from the perspective of its benefits, rather than as an opponent to fend with.",
+      "url": "https://fasterthanli.me/blog/2019/declarative-memory-management/",
+      "date_published": "2019-09-19T00:00:00+00:00",
+      "author": {
+        "name": "Amos",
+        "url": "https://fasterthanli.me/"
+      },
+      "tags": [
+        "Getting Started",
+        "Language"
+      ]
+    },
+    {
+      "id": "6fcfe5a8-280a-4f20-a269-7f1354c314e8",
+      "title": "My first ever zine, titled \"String and &str in Rust\"",
+      "content_text": "Zines (pronounced “zeens\") are small publications that come in the form of mini pamphlets or magazines!",
+      "url": "https://github.com/jeenalee/zines/blob/master/string-and-andstr-in-rust.pdf",
+      "date_published": "2019-11-09T00:33:18+00:00",
+      "author": {
+        "name": "Jeena Lee",
+        "url": "https://github.com/jeenalee"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "b6cfcf1b-2661-46f6-bf9e-c4137a915019",
+      "title": "My Rust Journey Part 1 — A Small Command Line Application",
+      "content_text": "I like having a difficult task to solve. One of those is my endeavor to truly learn a low-level programming language. My goal is to write really fast and safe APIs to supply data for visualizations on dashboards and in reports. I want to gain a fundamental understanding of how the language works, of the concepts and philosophy applied instead of trial-and-error with lots of googling. Sometimes it just makes sense to take your time.",
+      "url": "https://medium.com/@daniel_markow/my-rust-journey-part-1-a-small-command-line-application-a889d07896e",
+      "date_published": "2019-08-15T08:55:36.932+00:00",
+      "author": {
+        "name": "Daniel Markow",
+        "url": "https://medium.com/@daniel_markow"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "e7878bb0-8dbe-40fc-8af3-54d3df4663c1",
+      "title": "Engineering Rust Web Applications",
+      "content_text": "This is a quick & dirty guide to building a web app using an all-rust stack: Diesel as an ORM, Rocket as a web framework, and Seed for the [WebAssembly] frontend. Read this book to learn how to quickly throw together a prototype application, all with your favorite programming language.",
+      "url": "https://erwabook.com/",
+      "date_published": "2019-09-01T00:00:00+00:00",
+      "author": {
+        "name": "Brian St. Pierre",
+        "url": "https://erwabook.com/"
+      },
+      "tags": [
+        "Getting Started",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "4496f525-1bab-49f0-8239-95d165f8b0ec",
+      "title": "Rust By Comparison",
+      "content_text": "I really like learning new programming languages, especially the ones that make you reconsider some fundamental assumptions you make when writing code or designing a piece of software. I've been playing with Rust for some time now and I can definitely say that it's one of these languages.",
+      "url": "https://cesarb.org/rust-by-comparison/",
+      "date_published": "2019-08-29T14:29:44+00:00",
+      "author": {
+        "name": "Cesar Barata",
+        "url": "https://cesarb.org/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "343d5b14-c284-43bc-9e62-57362f606661",
+      "title": "Rusty Weather: My first Rust App",
+      "content_text": "Rusty Weather: My first Rust App I have wanted to learn a new language and framework, as well as I, know C# and .NET for many years. I have dabbled in several different ones, but the only one that I seemed to come back to continually was Python. After trying all kinds of languages over the last couple years, I decided I would give Rust a try. I have only been a consumer of garbage collected runtimes, so I was a bit hesitant to give it a try.",
+      "url": "https://www.phillipsj.net/posts/rusty-weather-my-first-rust-app/",
+      "date_published": "2019-08-26T20:58:40+00:00",
+      "author": {
+        "name": "Jamie Phillips",
+        "url": "https://www.phillipsj.net/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "5fd6f3d5-2732-4d86-9824-78928983ebdf",
       "title": "Implementing a job queue in Rust",
       "content_text": "I recently finished my first rust project - a command line utility called “what” that displays network utilization information. As a newcomer to rust, this project offered quite some challenges for me. This post is a write up of one of them, going into detail on the parts that I personally found most difficult to understand.\n\nIn this first post, I’d like to talk about implementing a job queue to resolve IPs into their hostnames by querying a remote DNS server.",

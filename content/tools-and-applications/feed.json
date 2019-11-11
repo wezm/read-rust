@@ -10,6 +10,219 @@
   },
   "items": [
     {
+      "id": "7c3d9c87-a7a2-47b7-9e75-f23648d7de14",
+      "title": "ptail - Stream and display a fixed number of lines from a processes output",
+      "content_text": "ptail is a small, and likely useless, utility that truncates the output from processes. Unlike tail -f it will not show more than the specified number of lines in your terminal. This could be useful if you are executing a command as part of a shell script and you do not wish to show the full and verbose output, but you do want to be able to see what is happening.",
+      "url": "https://github.com/orf/ptail",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Tom Forbes",
+        "url": "https://github.com/orf"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "50da2cb2-9123-4128-bf10-db666256d699",
+      "title": "The Firmware Manager",
+      "content_text": "In the last few weeks, I've been working on a new solution to firmware management on the Linux desktop. A generic framework which combines fwupd and system76-firmware; with a GTK frontend library and application; that is written in Rust.",
+      "url": "https://mmstick.keybase.pub/firmware-manager/",
+      "date_published": "2019-08-02T00:00:00+00:00",
+      "author": {
+        "name": "Michael Aaron Murphy",
+        "url": "https://mmstick.keybase.pub/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "255ed2ac-1b19-45d5-9308-2b44fb294e3a",
+      "title": "Best Practices With GTK + Rust",
+      "content_text": "I've been writing GTK applications in Rust for a few years now. I've also been in a unique position with a career at System76, where my day job relies on writing software exclusively for Linux in Rust, including GTK widgets and applications. I'm now at a point where I'm comfortable sharing what I've learned, and therefore this post will explain some of the best practices, patterns, and crates that I use today in my day to day job, from the perspective of a Rust-based software developer that had no prior experience in GTK before Rust.",
+      "url": "https://mmstick.keybase.pub/rust-gtk-practices/",
+      "date_published": "2019-09-12T00:00:00+00:00",
+      "author": {
+        "name": "Michael Aaron Murphy",
+        "url": "https://mmstick.keybase.pub/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "a1e98a1c-84fa-4aad-8b14-03762ad6079b",
+      "title": "Yet another HackerNews CLI written in Rust",
+      "content_text": "Yet another HackerNews CLI written in Rust.",
+      "url": "https://github.com/yayoc/hn",
+      "date_published": "2019-11-04T00:00:00+00:00",
+      "author": {
+        "name": "yayoc",
+        "url": "https://github.com/yayoc"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "3e6e0860-0ced-48d0-9f44-a2cfe3355a63",
+      "title": "mrustc 0.9 - Now with rust 1.29.0 support",
+      "content_text": "I'm finally happy to announce that I've \"finished\" the 1.29 branch of mrustc (for those who don't know, mrustc is my attempt at making a rust compiler, primarily for breaking the bootstrap chain).\n\nThis version is capable of compiling both rustc 1.29 (and packaged cargo) AND rustc 1.19, both of which can compile their successors (1.20 and 1.30 - and 1.30 results in a binary equal output).",
+      "url": "https://www.reddit.com/r/rust/comments/dqi1u1/mrustc_09_now_with_rust_1290_support/",
+      "date_published": "2019-11-02T00:00:00+00:00",
+      "author": {
+        "name": "John Hodge (Mutabah)",
+        "url": "https://github.com/thepowersgang"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Language"
+      ]
+    },
+    {
+      "id": "04dcde42-9019-44d5-9c0a-50f1c2172bbc",
+      "title": "Building logger with Rust and Scylla DB - Data Layer",
+      "content_text": "In this post we are starting building a logger using Rust as a programming language and Scylla DB as a data storage. This post is about data layer which is responsible for writing data to and reading it from a database.",
+      "url": "https://alexpikalov.github.io/rust/2019/10/21/building-logger-with-rust-and-scylladb-data-layer.html",
+      "date_published": "2019-10-21T16:09:00+00:00",
+      "author": {
+        "name": "Alex Pikalov",
+        "url": "https://alexpikalov.github.io/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "74761f37-c22e-44d9-b23e-b91236f57ee4",
+      "title": "IconPie: A simple command-line tool for generating application icons",
+      "content_text": "A simple command-line tool to generate application icons from raster graphics or vector graphics images. Quickly combine multiple images and create professional-looking icons for most versions of Windows, macOS, iOS & Linux. Powered by IconBaker.",
+      "url": "https://github.com/GarkGarcia/icon-pie/blob/master/README.md",
+      "date_published": "2019-10-22T00:00:00+00:00",
+      "author": {
+        "name": "Gark Garcia",
+        "url": "https://github.com/GarkGarcia"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ca9e7e60-b2dd-4481-9d5b-82a5936d8d9c",
+      "title": "FastSpark: A New Fast Native Implementation of Spark from Scratch",
+      "content_text": "I got a project idea to test the feasibility of implementing Spark in a native language and if feasible, explore how efficient it can be in terms of performance and resource management. I know that Spark is heavily optimized over the years. I didn’t hope for any drastic difference in performance and if some difference is there, it most likely will be in RAM usage. Also, I want it to very general-purpose just like Spark. I decided to use Rust for the implementation.",
+      "url": "https://medium.com/@rajasekar3eg/fastspark-a-new-fast-native-implementation-of-spark-from-scratch-368373a29a5c",
+      "date_published": "2019-10-23T02:26:17.100+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "fb00840d-e1ce-4791-9b05-7e1567701082",
+      "title": "Bayard is a full-text search and indexing server written in Rust",
+      "content_text": "Bayard is a full-text search and indexing server written in Rust built on top of Tantivy that implements The Raft Consensus Algorithm (raft-rs) and The gRPC (grpc-rs). Achieves consensus across all the nodes, ensures every change made to the system is made to a quorum of nodes. Bayard makes easy for programmers to develop search applications with advanced features and high availability.",
+      "url": "https://github.com/bayard-search/bayard",
+      "date_published": "2019-11-01T00:00:00+00:00",
+      "author": {
+        "name": "Bayard Search",
+        "url": "https://github.com/bayard-search"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "6e456977-6778-4ed1-9bdb-8747c4c9a29a",
+      "title": "what - a CLI utility for displaying current network utilization by process, connection and remote IP/hostname",
+      "content_text": "what sniffs a given network interface and records IP packet size, cross referencing it with the /proc filesystem. It is responsive to the terminal window size, displaying less info if there is no room for it. It will also attempt to resolve ips to their host name in the background using reverse DNS on a best effort basis.",
+      "url": "https://github.com/imsnif/what",
+      "date_published": "2019-10-18T00:00:00+00:00",
+      "author": {
+        "name": "Aram Drevekenin",
+        "url": "https://github.com/imsnif"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "91198008-a7af-44aa-ad16-b4dcd9b4bf97",
+      "title": "espanso - An Open Source, Cross-platform Text Expander written in Rust",
+      "content_text": "espanso detects when you type a keyword and replaces it while you're typing.",
+      "url": "https://espanso.org/",
+      "date_published": "2019-10-06T00:00:00+00:00",
+      "author": {
+        "name": "Federico Terzi",
+        "url": "https://federicoterzi.com/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b8aedf2c-87fb-4600-b67f-d4d21e709143",
+      "title": "logq - Analyzing log files in SQL with command-line toolkit, implemented in Rust",
+      "content_text": "logq is my latest project and it has reached a reasonably qualitative milestone for me to comfortably introduce it and share about its technical detail.\n\nLet’s start by an example. Imagine that you are in the middle of troubleshooting a production incident and you are suspecting a certain endpoint from the web-server is having problem and result into high latency. Since it is application level and it is not provided by the AWS CloudWatch. It is also the first time that it happened so there isn’t any in-house datadog or application level instarumentation setup. And it occurs to you that the access log contains the relevant information and it would be possible for you to calculate the metrics from the log. You download the log from the archive storage and piece together an ad-hoc script in 30 minutes and run the metrics against the log, and the script is implemented in python it gets to pretty slow if the log size is large. Wouldn’t it be great if there were command line where you could handle these kind of ad-hoc analysis situation easily? Where no extra dependency setup like ELK or library is needed. That is the motivation to drive to the development of logq, where you could answer the question of “What are the 95th latencies with 5 seconds time frame against application handlers by ignoring the second path segments” easily.",
+      "url": "https://blog.paulme.ng/posts/2019-08-16-logq---analyzing-log-files-in-sql-with-command-line-toolkit%2C-implemented-in-rust.html",
+      "date_published": "2019-08-16T00:00:00+00:00",
+      "author": {
+        "name": "Paul Meng",
+        "url": "https://blog.paulme.ng/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "2468d0f3-dc1c-4fa7-99e3-5b8865ea89b0",
+      "title": "A CLI Gitlab MR-Creator in Rust using Hyper and Git2",
+      "content_text": "This post showcases a small CLI tool written in Rust using both synchronous and asynchronous execution flow.",
+      "url": "https://zupzup.org/rust-gitlab-mr-creator/",
+      "date_published": "2019-09-03T00:00:00+00:00",
+      "author": {
+        "name": "Mario Zupan",
+        "url": "https://zupzup.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "ce5b636a-927f-4783-9ec8-ac7e6e65132c",
+      "title": "I am a rusty frog",
+      "content_text": "A story about lack of optimisation and the weaknesses of the human mind.",
+      "url": "https://dmerej.info/blog/post/i-am-a-rusty-frog/",
+      "date_published": "2019-07-27T09:46:51+00:00",
+      "author": {
+        "name": "Dimitri Merejkowsky",
+        "url": "https://dmerej.info/blog/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "4ec60674-d5e9-4d2a-8d5b-62642d75d87e",
+      "title": "Announcing cargo-play: Your Local Rust Playground",
+      "content_text": "Have you ever wanted to try a new crate in Rust Playground, then you realized sadly that crate hasn’t made to the top 100 most downloaded crates on crates.io? Now you have to go through the process of creating a new Cargo project (cargo new playground) and editing Cargo.toml (vim Cargo.toml) to add that crate and write the code (vim src/main.rs) and opening your terminal to run the code with cargo run. So many commands to run to just try a new crate. Wouldn’t the world be nicer if you can just open your favorite editor to write some code and a command will take care of all these hassles for you? Like a local Rust Playground?\n\nMeet cargo-play, a brand new Cargo custom subcommand that brings Rust Playground to your computer and give you full control on what crates you can play with.",
+      "url": "https://journal.zeyi.fan/2019/08/20/announce-cargo-play.html",
+      "date_published": "2019-08-20T00:00:00-07:00",
+      "author": {
+        "name": "Zeyi (Rice) Fan",
+        "url": "https://journal.zeyi.fan/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "2add05cc-7028-465f-baee-42535290fc10",
       "title": "Nushell 0.5.0",
       "content_text": "We've just released Nushell 0.5.0! New - login shell support, recycle bin support, better string matching, parameter help, new commands, and more!",
