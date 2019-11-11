@@ -74,18 +74,20 @@ abstract class MainLayout
             end
           end
         end
-        script do
-          raw <<-JS
-          (function() {
-            var script = document.createElement('script');
-            window.counter = 'https://readrust.goatcounter.com/count'
-            script.async = 1;
-            script.src = '//static.goatcounter.com/count.min.js';
+        if Lucky::Env.production?
+          script do
+            raw <<-JS
+            (function() {
+              var script = document.createElement('script');
+              window.counter = 'https://readrust.goatcounter.com/count'
+              script.async = 1;
+              script.src = '//static.goatcounter.com/count.min.js';
 
-            var ins = document.getElementsByTagName('script')[0];
-            ins.parentNode.insertBefore(script, ins)
-          })();
-          JS
+              var ins = document.getElementsByTagName('script')[0];
+              ins.parentNode.insertBefore(script, ins)
+            })();
+            JS
+          end
         end
       end
     end
