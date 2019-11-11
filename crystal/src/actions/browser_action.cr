@@ -39,7 +39,7 @@ abstract class BrowserAction < Lucky::Action
   end
 
   private def weak_etag(last_modified : Int64)
-    response.headers["ETag"] = "W/#{last_modified}-#{ReadRust::Revision.revision}"
+    response.headers["ETag"] = "W/#{last_modified}-#{ReadRust::Config.revision}"
     continue
   end
 end
