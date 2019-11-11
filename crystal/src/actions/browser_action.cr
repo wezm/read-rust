@@ -41,7 +41,9 @@ abstract class BrowserAction < Lucky::Action
   end
 
   private def cache_in_varnish(duration : Time::Span)
-    response.headers["Cache-Control"] = "s-maxage=#{duration.to_i}, public"
+    if current_user.nil?
+      response.headers["Cache-Control"] = "s-maxage=#{duration.to_i}, public"
+    end
     continue
   end
 
