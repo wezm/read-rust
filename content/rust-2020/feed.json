@@ -10,6 +10,90 @@
   },
   "items": [
     {
+      "id": "815de63e-91bf-4440-8a71-c346bbc55e70",
+      "title": "Rust 2020 - Embrace and Extend",
+      "content_text": "I’ve used Rust a couple times at work for small tools, and written a couple of experiments in Rust. So before saying what I want out of Rust, I’d just like to say thanks to the wonderful community. I liked the Rust 2019 progress, and I can put most of my wants for 2020 under two main labels: Embrace and Extend.",
+      "url": "https://samsieber.tech/posts/2019/11/14/rust-2020/",
+      "date_published": "2019-11-14T08:46:32-07:00",
+      "author": {
+        "name": "Sam Sieber",
+        "url": "https://samsieber.tech/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "e664c68c-e8f1-4ed9-91a0-96ac9efbdfee",
+      "title": "Rust 2020: Scalability",
+      "content_text": "In my Rust 2020 blog I tried to shy away from specific feature requests, instead zooming out to look at the Rust ecosystem as a whole. As a community, we've achieved great things but we should take care not to crumble under the weight of a scaling language and ecosystem. We all need to come together to ensure that Rust can sustainably scale - be it in large organisations, communities, or codebases.",
+      "url": "https://mun-lang.org/blog/2019/11/14/rust-2020-scalability/",
+      "date_published": "2019-11-14T00:00:00+00:00",
+      "author": {
+        "name": "Remco (Wodann)",
+        "url": "https://mun-lang.org/blog"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "85649990-38e0-4194-94ca-efd377aadb68",
+      "title": "Rust in 2020, one more thing",
+      "content_text": "We need to work on error handling.",
+      "url": "https://www.ncameron.org/blog/rust-in-2020-one-more-thing/",
+      "date_published": "2019-11-13T22:41:39+00:00",
+      "author": {
+        "name": "Nick Cameron",
+        "url": "http://www.ncameron.org/blog/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "01689f1b-555c-4334-8e11-914fb5036628",
+      "title": "Answering the call for #Rust2020",
+      "content_text": "Another year already and I’m still knocking myself out using Rust. It is also the year where I can use Rust in a professional environment with people interested in the technology. Let’s review my last year post and try to come up with what I think Rust should focused on for the next year. ",
+      "url": "https://haurchefant.fr/posts/answering-the-call-rust-2020/",
+      "date_published": "2019-11-13T00:00:00+00:00",
+      "author": {
+        "name": "Geobert Quach",
+        "url": "https://haurchefant.fr/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "11476a1d-33f3-4077-919f-fa64f68d2020",
+      "title": "Rust and 2020",
+      "content_text": "In general I tend to be conservative about adding things to the language and want to push as much „downstream“ ‒ it’s better to add something to the standard library (or core, if applicable) than directly into the language ‒ a new function is better than new keyword or operator. A new crate is better than a lot of new stuff in the standard library. My view here reflects that.",
+      "url": "https://vorner.github.io/2019/11/12/rust-2020.html",
+      "date_published": "2019-11-12T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "1e059bb8-243b-49e7-8367-3e6b4558393f",
+      "title": "Rust 2020: Scientific Rust",
+      "content_text": "Rust could make the lives of (data-) scientists a lot easier, but as with most new programming languages it's a chicken and egg problem: When the applications and libraries are missing people will not use it and when there are no people with domain knowledge there won't be any applications / libraries. We do have some good projects like ndarray, RustSim, uom, etc. but we definitely need more (some stuff is also mentioned here Not-Yet-Awesome Rust). I'll try to work on more Rust stuff in 2020 and hope that more people will recognize Rust as a good candidate for scientific / numeric / high performance computing.",
+      "url": "https://github.com/willi-kappler/rust_2020",
+      "date_published": "2019-11-13T00:00:00+00:00",
+      "author": {
+        "name": "Willi Kappler",
+        "url": "https://github.com/willi-kappler"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "73ca1a48-6e45-48f0-a06d-dd09bedd9d9f",
       "title": "2020 Rust: Accessibility",
       "content_text": "For a while I didn’t really feel a need to write a blog post for 2020. As far as I can tell we the Rust Community are doing a great job, and I just want us to keep doing what we’ve been doing. My biggest worry is that the people who contribute the most are dangerously close to burning out and I made a tweet much to that effect.\n\nBut I was talking with someone recently about what makes Rust great, the language and the community, and that ultimately boiled down to how inclusive and accessible we are, and it made me think saying more than just “keep doing what we’re doing and take care of yourselves” is in order.",
@@ -68,7 +152,7 @@
     {
       "id": "c8c2efa0-e798-4951-b23d-7df4075c3b51",
       "title": "Rust 2020 Suggestions",
-      "content_text": "7 votes and 2 comments so far on Reddit",
+      "content_text": "I like Rust and I'm looking forward to more improvements. My suggestions: RLS should be better and faster, Const genrics, and Accept more correct programs.",
       "url": "https://www.reddit.com/r/rust/comments/ducnqy/rust_2020_suggestions/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
       "date_published": "2019-11-11T00:00:00+00:00",
       "author": {

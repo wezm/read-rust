@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "78e05702-3363-4e6d-a530-a874fc2e939f",
+      "title": "Announcing the Bytecode Alliance: Building a secure by default, composable future for WebAssembly",
+      "content_text": "Today we announce the formation of the Bytecode Alliance, a new industry partnership coming together to forge WebAssembly’s outside-the-browser future by collaborating on implementing standards and proposing new ones. Our founding members are Mozilla, Fastly, Intel, and Red Hat, and we’re looking forward to welcoming many more.",
+      "url": "https://bytecodealliance.org/articles/announcing-the-bytecode-alliance",
+      "date_published": "2019-11-15T03:04:13+00:00",
+      "author": {
+        "name": "Lin Clark",
+        "url": "https://bytecodealliance.org/"
+      },
+      "tags": [
+        "Web and Network Services"
+      ]
+    },
+    {
       "id": "53422d00-b0d2-4f97-a020-f34636fc9d89",
       "title": "Getting Started with Rust and Apache Kafka",
       "content_text": "I’ve written an event sourcing bank simulation in Clojure (a lisp build for Java virtual machines or JVMs) called open-bank-mark, which you are welcome to read about in my previous blog post explaining the story behind this open source example. As a next step, specifically for this article I’ve added SSL and combined some topics together, using the subject name strategy option of Confluent Schema Registry, making it more production like, adding security, and making it possible to put multiple kinds of commands on one topic. We will examine how the application works, and what was needed to change one of the components from Clojure to Rust. We’ll also take a look at some performance tests to see if Rust might be a viable alternative for Java applications using Apache Kafka®.",

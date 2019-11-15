@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "09c52285-f854-44ec-a925-43ad22b06d84",
+      "title": "The GTK Rust bindings are not ready yet? Yes they are!",
+      "content_text": "When talking to various people at conferences in the last year or at conferences, a recurring topic was that they believed that the GTK Rust bindings are not ready for use yet.\n\nI don’t know where that perception comes from but if it was true, there wouldn’t have been applications like Fractal, Podcasts or Shortwave using GTK from Rust, or I wouldn’t be able to do a workshop about desktop application development in Rust with GTK and GStreamer at the Linux Application Summit in Barcelona this Friday (code can be found here already) or earlier this year at GUADEC.",
+      "url": "https://coaxion.net/blog/2019/11/the-gtk-rust-bindings-are-not-ready-yet-yes-they-are/",
+      "date_published": "2019-11-13T15:02:57+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Crates",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "0e066b31-fcf8-4e2b-8f2f-80d33dbaa3ac",
+      "title": "Search for Rust crates with Meili",
+      "content_text": "Today, I am about to guide you in the depths of crates.io and how I made an alternative search bar using our instant search engine: MeiliDB.",
+      "url": "https://blog.meilisearch.com/search-rust-crates-meili/",
+      "date_published": "2019-11-12T13:29:12+00:00",
+      "author": {
+        "name": "Clément Renault",
+        "url": "https://blog.meilisearch.com/author/clement/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "8147f2fb-fdcf-4382-9a84-ad4e935c220a",
       "title": "Release - Mun v0.1.0",
       "content_text": "We are proud to present Mun v0.1.0 - our first milestone release. As a language, Mun is still far from production-ready, but this release gives you a glimpse of what natively supported hot reloading will look like in the future. The purpose of this release is to showcase our progress and gather feedback from those brave souls willing to try out Mun at this early stage.",

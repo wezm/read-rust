@@ -10,6 +10,76 @@
   },
   "items": [
     {
+      "id": "ad358e1b-53e5-4665-b1e6-21a3b40d19e8",
+      "title": "Implementing ArrayVec Using Const Generics",
+      "content_text": "If you’ve ever done much embedded programming in Rust, you’ve most probably run across the arrayvec crate before. It’s awesome. The main purpose of the crate is to provide the ArrayVec type, which is essentially like Vec<T> from the standard library, but backed by an array instead of some memory on the heap.\n\nOne of the problems I ran into while writing the Motion Planning chapter of my Adventures in Motion Control was deciding how far ahead my motion planner should plan.",
+      "url": "http://adventures.michaelfbryan.com/posts/const-arrayvec/",
+      "date_published": "2019-11-15T00:57:00+08:00",
+      "author": {
+        "name": "Michael-F-Bryan",
+        "url": "http://adventures.michaelfbryan.com/posts/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "f4e093f3-7ebd-4513-9fa2-d50fee10872f",
+      "title": "Global Executors",
+      "content_text": "One of the big sources of difficulty on the async ecosystem is spawning tasks. Because there is no API in std for spawning tasks, library authors who want their library to spawn tasks have to depend on one of the multiple executors in the ecosystem to spawn a task, coupling the library to that executor in undesirable ways.\nIdeally, many of these library authors would not need to spawn tasks at all.",
+      "url": "https://boats.gitlab.io/blog/post/global-executors/",
+      "date_published": "2019-11-14T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "edce4809-119e-4572-892f-7d7978cc6c08",
+      "title": "Autoref-based stable specialization",
+      "content_text": "\"Specialization\" refers to permitting overlapping impls in Rust's trait system so long as for every possible type, one of the applicable impls is \"more specific\" than the others for some intuitive but precisely defined notion of specific. Discussions about a specialization language feature have been ongoing for 4.5 years (RFC 1210, rust-lang/rust#31844). Today the feature is partially implemented in rustc but is not yet sound when mixed with lifetimes (rust-lang/rust#40582) and requires more language design work and compiler work before it could be stabilized.\n\nThis page covers a stable, safe, generalizable technique for solving some of the use cases that would otherwise be blocked on specialization. The technique was originally developed for use by macros in the Anyhow crate.",
+      "url": "https://github.com/dtolnay/case-studies/blob/master/autoref-specialization/README.md",
+      "date_published": "2019-10-25T00:00:00+00:00",
+      "author": {
+        "name": "David Tolnay",
+        "url": "https://github.com/dtolnay"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "41aebf2a-5466-4cc7-8456-4750ceb3052a",
+      "title": "Find Usages implemented",
+      "content_text": "Last month, rust-analyzer gained an exciting new feature: find usages. It was implemented by @viorina in #1892.",
+      "url": "https://rust-analyzer.github.io/2019/11/13/find-usages.html",
+      "date_published": "2019-11-13T09:00:00+00:00",
+      "author": {
+        "name": "rust-analyzer",
+        "url": "https://rust-analyzer.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "453d4192-89ee-43ad-b2c9-2d462c94f009",
+      "title": "Generalizing Coroutines in Rust",
+      "content_text": "Now that async/await has been released, attention has drifted back to refining stackless coroutines (the unstable language feature that makes async/await possible). Alas, the latest RFC has shown that there is still a lot of disagreement on what exactly coroutines in Rust should look like beyond async/await. I felt like it will be useful to flesh out what coroutines could be so we can better discuss what they should be.",
+      "url": "https://samsartor.com/coroutines-1/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Sam Sartor",
+        "url": "https://samsartor.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "b6cc68e0-c563-4eb0-a374-7c11dad01824",
       "title": "The Demystifying Asynchronous Rust Book",
       "content_text": "This book is targeted towards experienced programmers that already feel somewhat comfortable with vanilla Rust (you definitely do not need to be an \"expert\" though, I certainly am not) and would like to dip their toes into its async ecosystem.\n\nAs the title indicates, this is not so much a book about how to use async Rust as much as it is about trying to build a solid understanding of how it all works under the hood. From there, efficient usage should come naturally.",

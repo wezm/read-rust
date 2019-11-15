@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3fc3ff70-1adf-4bd5-bb8a-15b77a658805",
+      "title": "Learning Rust",
+      "content_text": "I’ve been learning Rust lately. I have also got back to playing futsal with some friends. Weirdly enough, these two worlds intersected a few weeks ago. This is a summary of my experience learning Rust. Starting with reading about it here and there, eventually getting the book, doing a Hackathon project at Onfido using it and then spinning up my own personal project as a way to further experiment with the language.",
+      "url": "https://dnlserrano.dev/2019/11/11/learning-rust.html",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Daniel Serrano",
+        "url": "https://dnlserrano.dev/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "276689b1-ba19-4308-9168-21951f3f372c",
       "title": "Learning Rust by Contrasting with TypeScript: Part 1",
       "content_text": "Seeing Rust as a potential successor to TypeScript, we go through through the Rust Book with TypeScript in mind.",

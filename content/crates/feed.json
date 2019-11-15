@@ -10,6 +10,35 @@
   },
   "items": [
     {
+      "id": "09c52285-f854-44ec-a925-43ad22b06d84",
+      "title": "The GTK Rust bindings are not ready yet? Yes they are!",
+      "content_text": "When talking to various people at conferences in the last year or at conferences, a recurring topic was that they believed that the GTK Rust bindings are not ready for use yet.\n\nI don’t know where that perception comes from but if it was true, there wouldn’t have been applications like Fractal, Podcasts or Shortwave using GTK from Rust, or I wouldn’t be able to do a workshop about desktop application development in Rust with GTK and GStreamer at the Linux Application Summit in Barcelona this Friday (code can be found here already) or earlier this year at GUADEC.",
+      "url": "https://coaxion.net/blog/2019/11/the-gtk-rust-bindings-are-not-ready-yet-yes-they-are/",
+      "date_published": "2019-11-13T15:02:57+00:00",
+      "author": {
+        "name": "Sebastian Dröge",
+        "url": "https://coaxion.net/blog/"
+      },
+      "tags": [
+        "Crates",
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "113d436f-484b-4779-9428-6bde87acd07b",
+      "title": "Bastion v0.3.0 is here with a new API and faster execution!",
+      "content_text": "Bastion is a highly-available, fault-tolerant runtime system with dynamic dispatch oriented lightweight process model.",
+      "url": "https://bastion.rs/",
+      "date_published": "2019-11-15T03:52:14+00:00",
+      "author": {
+        "name": "Mahmut Bulut",
+        "url": "https://twitter.com/vertexclique"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "7e260d4f-38ce-456b-be84-83ad8c13f4df",
       "title": "Announcing async-std 1.0",
       "content_text": "async-std is a port of Rust’s standard library to the async world. It comes with a fast runtime and is a pleasure to use. We’re happy to finally announce async-std 1.0. As promised in our first announcement blog post, the stable release coincides with the release of Rust 1.39, the release adding async/.await. We would like to thank the active community around async-std for helping get the release through the door.",

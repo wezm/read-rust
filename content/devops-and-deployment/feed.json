@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "75836bba-aa9f-4ff0-bb29-c88b5666d695",
+      "title": "Evaluating GitHub Actions",
+      "content_text": "The Rust Infrastructure team is happy to announce that we’re starting an evaluation of GitHub Actions as a replacement for Azure Pipelines as the CI provider of the rust-lang/rust repository.",
+      "url": "https://blog.rust-lang.org/inside-rust/2019/11/14/evaluating-github-actions.html",
+      "date_published": "2019-11-14T00:00:00+00:00",
+      "author": {
+        "name": "Pietro Albini",
+        "url": "https://blog.rust-lang.org/inside-rust/"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
+      "id": "acf26cbd-2183-4617-b0ab-45d6f2b88a1e",
+      "title": "Optimizing CI/CD Pipeline for Rust Projects (Gitlab & Docker)",
+      "content_text": "We can make a lot of things with Rust like web apps, system drivers and much more but there is one problem, which is the time that Rust takes to make a binary by downloading dependencies and compile them.\n\nWe need to make a pipeline using the Gitlab CI/CD and Docker to make the deployment faster.",
+      "url": "https://medium.com/@hatemtayeb2/optimizing-ci-cd-pipeline-for-rust-projects-gitlab-docker-98df64ae3bc4",
+      "date_published": "2019-11-13T20:49:25.373+00:00",
+      "author": {
+        "name": "Hatem ben tayeb",
+        "url": "https://medium.com/@hatemtayeb2"
+      },
+      "tags": [
+        "DevOps and Deployment"
+      ]
+    },
+    {
       "id": "1f771485-fadd-4dfe-8730-1a4b81a856d0",
       "title": "SpO₂ the little dynamic monitoring tool",
       "content_text": "At Meili, we needed a tool that allows us to monitor our pods, we already have vigil which health checks our front page and backend, but the number of these services is limited. We do not pop new front or backend servers dynamically (for now). When we create new search engines for the user we instanciate a kubernetes pod, we need to monitor the health of this service. Adding each of those URLs by hand in the vigil config file is not a solution.\n\nSo we decided that we needed a simple tool, a tool that can accept HTTP requests to register/unregister URLs to health check. We use the new async/await Rust syntax along with tide for the http server, no big deal here.",

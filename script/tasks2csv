@@ -39,12 +39,9 @@ class Export
 end
 
 export = Export.new(File.read(ARGV[0])[1..]) # Skip the BOM that the JSON parser chokes on
-# read_rust = export.list('Read Rust')
-# read_rust_next = export.list('Read Rust Next')
-read_rust_more = export.list('Read Rust More')
+read_rust = export.list('Read Rust')
 
-# urls = read_rust.urls + read_rust_next.urls
-urls = read_rust_more.urls
+urls = read_rust.urls
 CSV($stdout) do |csv|
   urls.each do |row|
     tweets, other = row.partition { |url| URI.parse(url).hostname == 'twitter.com' }
