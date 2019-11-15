@@ -1,0 +1,57 @@
+#!/usr/bin/env ruby
+
+require 'csv'
+require 'json'
+
+URL_REGEX = /https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/
+
+if ARGV.size < 1
+  $stderr.puts "Usage tasks2csv Tasks.json"
+  exit 1
+end
+
+class List
+  def initialize(list)
+    @list = list
+  end
+
+  def urls
+    incomplete = @list['tasks'].select { |task| task['completedAt'].nil? }
+    incomplete.map do |task|
+      urls = [task['title'], task['notes'].map { |note| note['content'] }].flatten.join(' ').scan(URL_REGEX)
+      warn "'#{task['title']}' is missing urls" if urls.empty?
+      urls
+    end
+  end
+end
+
+class Export
+  def initialize(tasks)
+    @tasks = JSON.parse(tasks)
+  end
+
+  def list(title)
+    list = @tasks.find { |h| h['title'] == title }
+    raise "Unable to find list '#{title}'" if list.nil?
+
+    List.new(list)
+  end
+end
+
+export = Export.new(File.read(ARGV[0])[1..]) # Skip the BOM that the JSON parser chokes on
+# read_rust = export.list('Read Rust')
+# read_rust_next = export.list('Read Rust Next')
+read_rust_more = export.list('Read Rust More')
+
+# urls = read_rust.urls + read_rust_next.urls
+urls = read_rust_more.urls
+CSV($stdout) do |csv|
+  urls.each do |row|
+    tweets, other = row.partition { |url| URI.parse(url).hostname == 'twitter.com' }
+    if tweets.empty?
+      tweets << nil
+    end
+    csv_row = [tweets, other].flatten
+    csv << csv_row unless csv_row.compact.empty?
+  end
+end
