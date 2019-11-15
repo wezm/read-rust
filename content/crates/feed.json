@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "7e260d4f-38ce-456b-be84-83ad8c13f4df",
+      "title": "Announcing async-std 1.0",
+      "content_text": "async-std is a port of Rust’s standard library to the async world. It comes with a fast runtime and is a pleasure to use. We’re happy to finally announce async-std 1.0. As promised in our first announcement blog post, the stable release coincides with the release of Rust 1.39, the release adding async/.await. We would like to thank the active community around async-std for helping get the release through the door.",
+      "url": "https://async.rs/blog/announcing-async-std-1-0/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "https://async.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2f92e5a1-d218-459f-a417-c5e4f58be832",
+      "title": "CSS in librsvg is now in Rust, courtesy of Mozilla Servo",
+      "content_text": "After an epic amount of refactoring, librsvg now does all CSS parsing and matching in Rust, without using libcroco. In addition, the CSS engine comes from Mozilla Servo, so it should be able to handle much more complex CSS than librsvg ever could before. This is the story of CSS support in librsvg.",
+      "url": "https://people.gnome.org/~federico/blog/css-in-librsvg-is-now-in-rust.html",
+      "date_published": "2019-11-11T19:36:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "eab14a89-9177-44ce-8259-07c6ae33bdfa",
       "title": "iou: Rust bindings for liburing",
       "content_text": "Today I’m releasing a library called iou. This library provides idiomatic Rust bindings to the C library called liburing, which itself is a higher interface for interacting with the io_uring Linux kernel interface. Here are the answers to some questions I expect that may provoke.\n\nWhat is io_uring? io_uring is an interface added to the Linux kernel in version 5.1. Concurrent with that, the primary maintainer of that interface has also been publishing a library for interacting with it called liburing.",

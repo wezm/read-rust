@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "8147f2fb-fdcf-4382-9a84-ad4e935c220a",
+      "title": "Release - Mun v0.1.0",
+      "content_text": "We are proud to present Mun v0.1.0 - our first milestone release. As a language, Mun is still far from production-ready, but this release gives you a glimpse of what natively supported hot reloading will look like in the future. The purpose of this release is to showcase our progress and gather feedback from those brave souls willing to try out Mun at this early stage.",
+      "url": "https://mun-lang.org/blog/2019/11/11/release-mun-v0-1-0/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "The Mun Team",
+        "url": "https://mun-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "08c1b771-fd3b-4408-bb1d-2c076e443698",
+      "title": "First Shortwave Internet Radio Player Beta",
+      "content_text": "Shortwave is an internet radio player that lets you search for stations, listen to them and record songs automatically.",
+      "url": "https://blogs.gnome.org/haeckerfelix/2019/11/10/first-shortwave-beta/",
+      "date_published": "2019-11-10T16:24:38+00:00",
+      "author": {
+        "name": "Felix Häcker",
+        "url": "https://blogs.gnome.org/haeckerfelix/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "7c3d9c87-a7a2-47b7-9e75-f23648d7de14",
       "title": "ptail - Stream and display a fixed number of lines from a processes output",
       "content_text": "ptail is a small, and likely useless, utility that truncates the output from processes. Unlike tail -f it will not show more than the specified number of lines in your terminal. This could be useful if you are executing a command as part of a shell script and you do not wish to show the full and verbose output, but you do want to be able to see what is happening.",

@@ -10,6 +10,94 @@
   },
   "items": [
     {
+      "id": "7e260d4f-38ce-456b-be84-83ad8c13f4df",
+      "title": "Announcing async-std 1.0",
+      "content_text": "async-std is a port of Rust’s standard library to the async world. It comes with a fast runtime and is a pleasure to use. We’re happy to finally announce async-std 1.0. As promised in our first announcement blog post, the stable release coincides with the release of Rust 1.39, the release adding async/.await. We would like to thank the active community around async-std for helping get the release through the door.",
+      "url": "https://async.rs/blog/announcing-async-std-1-0/",
+      "tweet_url": "https://twitter.com/asyncrs/status/1193939046252367872?s=20",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Florian Gilcher",
+        "url": "https://async.rs/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "8147f2fb-fdcf-4382-9a84-ad4e935c220a",
+      "title": "Release - Mun v0.1.0",
+      "content_text": "We are proud to present Mun v0.1.0 - our first milestone release. As a language, Mun is still far from production-ready, but this release gives you a glimpse of what natively supported hot reloading will look like in the future. The purpose of this release is to showcase our progress and gather feedback from those brave souls willing to try out Mun at this early stage.",
+      "url": "https://mun-lang.org/blog/2019/11/11/release-mun-v0-1-0/",
+      "tweet_url": "https://twitter.com/munlangorg/status/1193933602712621057?s=20",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "The Mun Team",
+        "url": "https://mun-lang.org/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "73ca1a48-6e45-48f0-a06d-dd09bedd9d9f",
+      "title": "2020 Rust: Accessibility",
+      "content_text": "For a while I didn’t really feel a need to write a blog post for 2020. As far as I can tell we the Rust Community are doing a great job, and I just want us to keep doing what we’ve been doing. My biggest worry is that the people who contribute the most are dangerously close to burning out and I made a tweet much to that effect.\n\nBut I was talking with someone recently about what makes Rust great, the language and the community, and that ultimately boiled down to how inclusive and accessible we are, and it made me think saying more than just “keep doing what we’re doing and take care of yourselves” is in order.",
+      "url": "https://yaah.dev/2020-accessibility",
+      "tweet_url": "https://twitter.com/yaahc_/status/1193977415279636481?s=20",
+      "date_published": "2019-09-12T13:40:00+00:00",
+      "author": {
+        "name": "Jane Lusby",
+        "url": "https://yaah.dev/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "08c1b771-fd3b-4408-bb1d-2c076e443698",
+      "title": "First Shortwave Internet Radio Player Beta",
+      "content_text": "Shortwave is an internet radio player that lets you search for stations, listen to them and record songs automatically.",
+      "url": "https://blogs.gnome.org/haeckerfelix/2019/11/10/first-shortwave-beta/",
+      "tweet_url": "https://twitter.com/haeckerfelix/status/1193567444125855744?s=20",
+      "date_published": "2019-11-10T16:24:38+00:00",
+      "author": {
+        "name": "Felix Häcker",
+        "url": "https://blogs.gnome.org/haeckerfelix/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "b6cc68e0-c563-4eb0-a374-7c11dad01824",
+      "title": "The Demystifying Asynchronous Rust Book",
+      "content_text": "This book is targeted towards experienced programmers that already feel somewhat comfortable with vanilla Rust (you definitely do not need to be an \"expert\" though, I certainly am not) and would like to dip their toes into its async ecosystem.\n\nAs the title indicates, this is not so much a book about how to use async Rust as much as it is about trying to build a solid understanding of how it all works under the hood. From there, efficient usage should come naturally.",
+      "url": "https://teh-cmc.github.io/rust-async/html/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Clement Rey",
+        "url": "https://teh-cmc.github.io/rust-async/html/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "2f92e5a1-d218-459f-a417-c5e4f58be832",
+      "title": "CSS in librsvg is now in Rust, courtesy of Mozilla Servo",
+      "content_text": "After an epic amount of refactoring, librsvg now does all CSS parsing and matching in Rust, without using libcroco. In addition, the CSS engine comes from Mozilla Servo, so it should be able to handle much more complex CSS than librsvg ever could before. This is the story of CSS support in librsvg.",
+      "url": "https://people.gnome.org/~federico/blog/css-in-librsvg-is-now-in-rust.html",
+      "date_published": "2019-11-11T19:36:04-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "2df19538-8f67-4338-9eb8-9536c03a77c9",
       "title": "Rust 2020: the RFC process and distributions",
       "content_text": "I must have missed an e-mail in my inbox, because recently I started seeing people publish Rust 2020 blogposts so I thought, why not. I haven't been incredibly involved in the development of Rust in the last few months, (navigating the delicate balance of being self employed, working on free software and not burning out) but I feel like that might change again. And also, I still have feelings about software.\n\nThis post was also largely inspired by my friend XAMPPRocky's post, as well as attending NixCon a few weeks ago, and generally interacting with the NixOS RFC process.",

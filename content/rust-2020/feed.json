@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "73ca1a48-6e45-48f0-a06d-dd09bedd9d9f",
+      "title": "2020 Rust: Accessibility",
+      "content_text": "For a while I didn’t really feel a need to write a blog post for 2020. As far as I can tell we the Rust Community are doing a great job, and I just want us to keep doing what we’ve been doing. My biggest worry is that the people who contribute the most are dangerously close to burning out and I made a tweet much to that effect.\n\nBut I was talking with someone recently about what makes Rust great, the language and the community, and that ultimately boiled down to how inclusive and accessible we are, and it made me think saying more than just “keep doing what we’re doing and take care of yourselves” is in order.",
+      "url": "https://yaah.dev/2020-accessibility",
+      "date_published": "2019-09-12T13:40:00+00:00",
+      "author": {
+        "name": "Jane Lusby",
+        "url": "https://yaah.dev/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "2df19538-8f67-4338-9eb8-9536c03a77c9",
       "title": "Rust 2020: the RFC process and distributions",
       "content_text": "I must have missed an e-mail in my inbox, because recently I started seeing people publish Rust 2020 blogposts so I thought, why not. I haven't been incredibly involved in the development of Rust in the last few months, (navigating the delicate balance of being self employed, working on free software and not burning out) but I feel like that might change again. And also, I still have feelings about software.\n\nThis post was also largely inspired by my friend XAMPPRocky's post, as well as attending NixCon a few weeks ago, and generally interacting with the NixOS RFC process.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "b6cc68e0-c563-4eb0-a374-7c11dad01824",
+      "title": "The Demystifying Asynchronous Rust Book",
+      "content_text": "This book is targeted towards experienced programmers that already feel somewhat comfortable with vanilla Rust (you definitely do not need to be an \"expert\" though, I certainly am not) and would like to dip their toes into its async ecosystem.\n\nAs the title indicates, this is not so much a book about how to use async Rust as much as it is about trying to build a solid understanding of how it all works under the hood. From there, efficient usage should come naturally.",
+      "url": "https://teh-cmc.github.io/rust-async/html/",
+      "date_published": "2019-11-11T00:00:00+00:00",
+      "author": {
+        "name": "Clement Rey",
+        "url": "https://teh-cmc.github.io/rust-async/html/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "0878c302-d2e1-43c2-9ab4-1338d657fe69",
       "title": "Parsing with crate LALRPOP",
       "content_text": "How to write a parser using rust and lalrpop crate? In this article, we are going to walk through the implementation of parsing a string like this:\n\nThis is a {dog, cat}.\n\nAnd we want to expand this string into the following two strings:\n\n This is a dog.\nThis is a cat.",
