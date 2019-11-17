@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "2de8fbcd-1a56-4eea-8f6d-54cb843418e2",
+      "title": "Tutorial: Profiling Rust applications in Docker with perf",
+      "content_text": "With Moore’s law coming to an end, optimizing code to avoid performance pitfalls is becoming more and more useful. To this end, programming languages like Rust are designed to produce fast and memory-efficient programs out-of-the-box. When that is not sufficient, profilers like perf are useful to measure where the code is slow and therefore which algorithms and data structures should be optimized.",
+      "url": "https://gendignoux.com/blog/2019/11/09/profiling-rust-docker-perf.html",
+      "date_published": "2019-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Endignoux",
+        "url": "https://gendignoux.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "7eda1c5a-b463-4d8b-a024-68fe21c735d0",
       "title": "“Beating C” with 120 Lines of Rust: wc",
       "content_text": "It’s something of a meme lately to see whether your programming language of choice can take on the venerable wc, and what that might look like. The format seems to be: first do it simply, then idiomatically, and finally much faster. Of course, we’re not really “beating C” but rather “tackling a fun interview question in our favorite programming language.” My go-to these days is Rust, and since I’ve fielded the question of whether Rust is “my Haskell,” this all was too much to pass up. Let’s get started.",

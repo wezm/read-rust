@@ -10,6 +10,62 @@
   },
   "items": [
     {
+      "id": "490a94d9-b859-4011-9511-532a8a209fd6",
+      "title": "Monadic parser combinators in Rust",
+      "content_text": "Why don’t I implement a nice monadic parser combinator library in Rust? That’s what my thought was when after implementing low-level mock-HTTP server in MIO and actually needed to parse the bytes received by server. What I wanted is a declative way to define sequence of strings to be matched and/or extracted. ",
+      "url": "https://sergey-melnychuk.github.io/2019/08/31/rust-parser-combinators/",
+      "date_published": "2019-08-31T16:24:42+00:00",
+      "author": {
+        "name": "Sergey Melnychuk",
+        "url": "https://sergey-melnychuk.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "ee1d5ff4-a7ff-4676-9713-5421d4601c5a",
+      "title": "Thoughts on Error Handling in Rust",
+      "content_text": "A programming language’s solution to error handling significantly influences the robustness, brevity, readability and – to an extent – the runtime performance of your code. Consequently, the error handling story is an important part of PL design. So it should not come as a surprise that the Rust community constantly discusses this topic. Given some recent discussions and the emergence of more and more error handling crates, this article shares some of my thoughts (not solutions!) on this.",
+      "url": "https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html",
+      "date_published": "2019-11-14T00:00:00+00:00",
+      "author": {
+        "name": "Lukas Kalbertodt",
+        "url": "http://lukaskalbertodt.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a3e4de8-26ad-499f-8d9f-3cc0938adea0",
+      "title": "Types Are for People, not Computers",
+      "content_text": "Types—in the static-typing sense—are useful because they help people, not computers. Oh sure, we use them, in part, to subdue the compiler or meet some need peculiarly arising from our computer. But types are valuable because they are a way of communicating.\n\nType systems are a way of communicating. Type systems are a way of announcing what you understand, expect, or intend. Good type systems let you do so at the level of abstraction you choose.",
+      "url": "https://ethankent.dev/posts/types_are_for_people/",
+      "date_published": "2019-11-14T09:00:00-06:00",
+      "author": {
+        "name": "Ethan Kent",
+        "url": "https://ethankent.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0034f4fc-dd7a-48aa-b95c-557a507a35b0",
+      "title": "Prefer Rust to C/C++ for new code",
+      "content_text": "This is a position paper that I originally circulated inside the firmware community at X. I've gotten requests for a public link, so I've cleaned it up and posted it here. This is, obviously, my personal opinion. Please read the whole thing before sending me angry emails.\n\ntl;dr: C/C++ have enough design flaws, and the alternative tools are in good enough shape, that I do not recommend using C/C++ for new development except in extenuating circumstances. In situations where you actually need the power of C/C++, use Rust instead. In other situations, you shouldn't have been using C/C++ anyway — use nearly anything else.",
+      "url": "http://cliffle.com/blog/prefer-rust/",
+      "date_published": "2019-02-07T00:00:00+00:00",
+      "author": {
+        "name": "Cliff L. Biffle",
+        "url": "http://cliffle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "ad358e1b-53e5-4665-b1e6-21a3b40d19e8",
       "title": "Implementing ArrayVec Using Const Generics",
       "content_text": "If you’ve ever done much embedded programming in Rust, you’ve most probably run across the arrayvec crate before. It’s awesome. The main purpose of the crate is to provide the ArrayVec type, which is essentially like Vec<T> from the standard library, but backed by an array instead of some memory on the heap.\n\nOne of the problems I ran into while writing the Motion Planning chapter of my Adventures in Motion Control was deciding how far ahead my motion planner should plan.",

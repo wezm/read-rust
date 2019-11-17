@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "7ad13799-38d0-42de-8fec-855803550eab",
+      "title": "Rookeries static site generator v0.16.0 – Cross-Platform Support",
+      "content_text": "On Wednesday night, I released version 0.16.0 of Rookeries, my developer/designer friendly static site generator! What makes this release exciting is that I added cross-platform support for macOS and FreeBSD! Also I setup an cross-platform installer, that works on all 64-bit x86 Linux distros including Windows Subsystem for Linux (WSL) 2.0. And I plan on supporting Linux, macOS (OS X) and FreeBSD as first-class systems going forward.",
+      "url": "https://dorianpula.ca/2019/10/18/rookeries-v0-16-0-cross-platform-support/",
+      "date_published": "2019-10-18T12:58:14+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "09c52285-f854-44ec-a925-43ad22b06d84",
       "title": "The GTK Rust bindings are not ready yet? Yes they are!",
       "content_text": "When talking to various people at conferences in the last year or at conferences, a recurring topic was that they believed that the GTK Rust bindings are not ready for use yet.\n\nI don’t know where that perception comes from but if it was true, there wouldn’t have been applications like Fractal, Podcasts or Shortwave using GTK from Rust, or I wouldn’t be able to do a workshop about desktop application development in Rust with GTK and GStreamer at the Linux Application Summit in Barcelona this Friday (code can be found here already) or earlier this year at GUADEC.",

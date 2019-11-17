@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "9e5865b7-5088-461a-ac34-c8dbaa680ca8",
+      "title": "Building Art: Management in Game Engines",
+      "content_text": "I’ve been making a game engine in my spare time for a game called The Clockwork. I’ve been loving it, but recently have decided that I need to rework the build process. Let me walk you through that here, show you ways to hook into Cargo, Rust’s build system, and the pros and cons of my approach.",
+      "url": "https://medium.com/@jjspira/building-art-management-in-game-engines-9f4efa2f00b6",
+      "date_published": "2019-11-15T00:40:49.931+00:00",
+      "author": {
+        "name": "Jack Spira",
+        "url": "https://medium.com/@jjspira"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "e49868f7-34ff-4d50-a55d-39eec1e36f37",
       "title": "Sulis - a turn based tactical RPG written in Rust",
       "content_text": "Sulis, a turn based tactical RPG written in Rust. Sulis is open source with turn based, tactical combat, deep character customization and an engaging storyline. The game has been built from the ground up with modding and custom content in mind. Currently supported on Windows and Linux platforms.",

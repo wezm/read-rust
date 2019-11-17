@@ -10,6 +10,148 @@
   },
   "items": [
     {
+      "id": "e8a3e376-9c53-44f6-b4ab-0cd67ff6aec6",
+      "title": "Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT",
+      "content_text": "I’m one of the lucky few who received the developer preview version of the PineTime Smart Watch by Pine64. After coding on PineTime for a few days (in Rust), it suddenly struck me… I felt really comfortable and productive coding the new gadget. Even though I have never coded a smart watch. PineTime is a terrific tool for teaching IoT! And I have taught IoT with so many different gadgets.",
+      "url": "https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159",
+      "date_published": "2019-11-17T08:19:56.154+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "490a94d9-b859-4011-9511-532a8a209fd6",
+      "title": "Monadic parser combinators in Rust",
+      "content_text": "Why don’t I implement a nice monadic parser combinator library in Rust? That’s what my thought was when after implementing low-level mock-HTTP server in MIO and actually needed to parse the bytes received by server. What I wanted is a declative way to define sequence of strings to be matched and/or extracted. ",
+      "url": "https://sergey-melnychuk.github.io/2019/08/31/rust-parser-combinators/",
+      "date_published": "2019-08-31T16:24:42+00:00",
+      "author": {
+        "name": "Sergey Melnychuk",
+        "url": "https://sergey-melnychuk.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "7ad13799-38d0-42de-8fec-855803550eab",
+      "title": "Rookeries static site generator v0.16.0 – Cross-Platform Support",
+      "content_text": "On Wednesday night, I released version 0.16.0 of Rookeries, my developer/designer friendly static site generator! What makes this release exciting is that I added cross-platform support for macOS and FreeBSD! Also I setup an cross-platform installer, that works on all 64-bit x86 Linux distros including Windows Subsystem for Linux (WSL) 2.0. And I plan on supporting Linux, macOS (OS X) and FreeBSD as first-class systems going forward.",
+      "url": "https://dorianpula.ca/2019/10/18/rookeries-v0-16-0-cross-platform-support/",
+      "date_published": "2019-10-18T12:58:14+00:00",
+      "author": {
+        "name": "Dorian Pula",
+        "url": "https://dorianpula.ca/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "2de8fbcd-1a56-4eea-8f6d-54cb843418e2",
+      "title": "Tutorial: Profiling Rust applications in Docker with perf",
+      "content_text": "With Moore’s law coming to an end, optimizing code to avoid performance pitfalls is becoming more and more useful. To this end, programming languages like Rust are designed to produce fast and memory-efficient programs out-of-the-box. When that is not sufficient, profilers like perf are useful to measure where the code is slow and therefore which algorithms and data structures should be optimized.",
+      "url": "https://gendignoux.com/blog/2019/11/09/profiling-rust-docker-perf.html",
+      "date_published": "2019-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Endignoux",
+        "url": "https://gendignoux.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "9e5865b7-5088-461a-ac34-c8dbaa680ca8",
+      "title": "Building Art: Management in Game Engines",
+      "content_text": "I’ve been making a game engine in my spare time for a game called The Clockwork. I’ve been loving it, but recently have decided that I need to rework the build process. Let me walk you through that here, show you ways to hook into Cargo, Rust’s build system, and the pros and cons of my approach.",
+      "url": "https://medium.com/@jjspira/building-art-management-in-game-engines-9f4efa2f00b6",
+      "tweet_url": "https://twitter.com/sanbox_irl/status/1195407403665068032?s=20",
+      "date_published": "2019-11-15T00:40:49.931+00:00",
+      "author": {
+        "name": "Jack Spira",
+        "url": "https://medium.com/@jjspira"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "a1a793e1-1f56-43aa-81f9-79954a144b3c",
+      "title": "Rust 2020: Tropes and Jargon",
+      "content_text": "I am writing this to announce a lame, but hopefully fruitful confession through this post. I had originally intended to make this a Twitter thread, but eventually the Rust 2020 call for posts emerged, and I saw it as an opportunity to expand this.",
+      "url": "https://dev.to/e_net4/rust-2020-tropes-and-jargon-5f07",
+      "tweet_url": "https://twitter.com/E_net4/status/1195326756439445505?s=20",
+      "date_published": "2019-11-12T23:37:02+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://dev.to/e_net4"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "ee1d5ff4-a7ff-4676-9713-5421d4601c5a",
+      "title": "Thoughts on Error Handling in Rust",
+      "content_text": "A programming language’s solution to error handling significantly influences the robustness, brevity, readability and – to an extent – the runtime performance of your code. Consequently, the error handling story is an important part of PL design. So it should not come as a surprise that the Rust community constantly discusses this topic. Given some recent discussions and the emergence of more and more error handling crates, this article shares some of my thoughts (not solutions!) on this.",
+      "url": "https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html",
+      "date_published": "2019-11-14T00:00:00+00:00",
+      "author": {
+        "name": "Lukas Kalbertodt",
+        "url": "http://lukaskalbertodt.github.io/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4a3e4de8-26ad-499f-8d9f-3cc0938adea0",
+      "title": "Types Are for People, not Computers",
+      "content_text": "Types—in the static-typing sense—are useful because they help people, not computers. Oh sure, we use them, in part, to subdue the compiler or meet some need peculiarly arising from our computer. But types are valuable because they are a way of communicating.\n\nType systems are a way of communicating. Type systems are a way of announcing what you understand, expect, or intend. Good type systems let you do so at the level of abstraction you choose.",
+      "url": "https://ethankent.dev/posts/types_are_for_people/",
+      "date_published": "2019-11-14T09:00:00-06:00",
+      "author": {
+        "name": "Ethan Kent",
+        "url": "https://ethankent.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "0034f4fc-dd7a-48aa-b95c-557a507a35b0",
+      "title": "Prefer Rust to C/C++ for new code",
+      "content_text": "This is a position paper that I originally circulated inside the firmware community at X. I've gotten requests for a public link, so I've cleaned it up and posted it here. This is, obviously, my personal opinion. Please read the whole thing before sending me angry emails.\n\ntl;dr: C/C++ have enough design flaws, and the alternative tools are in good enough shape, that I do not recommend using C/C++ for new development except in extenuating circumstances. In situations where you actually need the power of C/C++, use Rust instead. In other situations, you shouldn't have been using C/C++ anyway — use nearly anything else.",
+      "url": "http://cliffle.com/blog/prefer-rust/",
+      "date_published": "2019-02-07T00:00:00+00:00",
+      "author": {
+        "name": "Cliff L. Biffle",
+        "url": "http://cliffle.com/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "4d2692f6-aca4-40d9-b38b-5996f2241aa7",
+      "title": "AD9833/AD9837 Waveform Generator / DDS Driver in Rust",
+      "content_text": "Platform-agnostic driver for the AD9833 and AD9837 waveform generators / direct digital synthesizers written in Rust.",
+      "url": "https://blog.eldruin.com/ad983x-waveform-generator-dds-driver-in-rust/",
+      "date_published": "2019-05-29T16:10:15+00:00",
+      "author": {
+        "name": "Diego Barrios Romero",
+        "url": "https://blog.eldruin.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "815de63e-91bf-4440-8a71-c346bbc55e70",
       "title": "Rust 2020 - Embrace and Extend",
       "content_text": "I’ve used Rust a couple times at work for small tools, and written a couple of experiments in Rust. So before saying what I want out of Rust, I’d just like to say thanks to the wonderful community. I liked the Rust 2019 progress, and I can put most of my wants for 2020 under two main labels: Embrace and Extend.",

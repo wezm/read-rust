@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "e8a3e376-9c53-44f6-b4ab-0cd67ff6aec6",
+      "title": "Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT",
+      "content_text": "I’m one of the lucky few who received the developer preview version of the PineTime Smart Watch by Pine64. After coding on PineTime for a few days (in Rust), it suddenly struck me… I felt really comfortable and productive coding the new gadget. Even though I have never coded a smart watch. PineTime is a terrific tool for teaching IoT! And I have taught IoT with so many different gadgets.",
+      "url": "https://medium.com/swlh/sneak-peek-of-pinetime-smart-watch-and-why-its-perfect-for-teaching-iot-81b74161c159",
+      "date_published": "2019-11-17T08:19:56.154+00:00",
+      "author": {
+        "name": "Lup Yuen Lee",
+        "url": "https://medium.com/@ly.lee"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "4d2692f6-aca4-40d9-b38b-5996f2241aa7",
+      "title": "AD9833/AD9837 Waveform Generator / DDS Driver in Rust",
+      "content_text": "Platform-agnostic driver for the AD9833 and AD9837 waveform generators / direct digital synthesizers written in Rust.",
+      "url": "https://blog.eldruin.com/ad983x-waveform-generator-dds-driver-in-rust/",
+      "date_published": "2019-05-29T16:10:15+00:00",
+      "author": {
+        "name": "Diego Barrios Romero",
+        "url": "https://blog.eldruin.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "f178fe2d-82b8-4e04-ad1e-6e90bc4299c3",
       "title": "Neotron - The Embedded Rust Home Computer Platform",
       "content_text": "Neotron is an attempt to make computers simple again, whilst also taking advantage of the very latest in programming language development. It is based around four simple concepts: The ARM Thumb-v7M instruction set, A standardised OS interface, A standardised BIOS interface, and Use of the Rust Programming Language.",

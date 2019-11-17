@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "a1a793e1-1f56-43aa-81f9-79954a144b3c",
+      "title": "Rust 2020: Tropes and Jargon",
+      "content_text": "I am writing this to announce a lame, but hopefully fruitful confession through this post. I had originally intended to make this a Twitter thread, but eventually the Rust 2020 call for posts emerged, and I saw it as an opportunity to expand this.",
+      "url": "https://dev.to/e_net4/rust-2020-tropes-and-jargon-5f07",
+      "date_published": "2019-11-12T23:37:02+00:00",
+      "author": {
+        "name": "Eduardo Pinho",
+        "url": "https://dev.to/e_net4"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "815de63e-91bf-4440-8a71-c346bbc55e70",
       "title": "Rust 2020 - Embrace and Extend",
       "content_text": "I’ve used Rust a couple times at work for small tools, and written a couple of experiments in Rust. So before saying what I want out of Rust, I’d just like to say thanks to the wonderful community. I liked the Rust 2019 progress, and I can put most of my wants for 2020 under two main labels: Embrace and Extend.",
