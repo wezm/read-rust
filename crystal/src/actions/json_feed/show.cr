@@ -5,7 +5,7 @@ class JsonFeed::Show < BrowserAction
   before cache_in_varnish(2.minutes)
 
   get "/:slug/feed.json" do
-    weak_etag(last_modified.to_unix)
+    unconditional_weak_etag(last_modified.to_unix)
 
     json ShowSerializer.new(category)
   end

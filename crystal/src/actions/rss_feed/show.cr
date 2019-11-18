@@ -5,7 +5,7 @@ class RssFeed::Show < BrowserAction
   before cache_in_varnish(2.minutes)
 
   get "/:slug/feed.rss" do
-    weak_etag(last_modified.to_unix)
+    unconditional_weak_etag(last_modified.to_unix)
 
     send_text_response(render_feed(category), "application/rss+xml", nil)
   end
