@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "506523e4-4ec3-4da0-b2d0-cc176c0e06a7",
+      "title": "Async Rust - A gentle introduction",
+      "content_text": "In which we explore Rust's newly stabilized async/.await language feature by creating a simple, asynchronous application. We look at what you need to do asynchronous programming in Rust and how it differs from other languages. And we talk a little bit about Pokémon!",
+      "url": "https://thomashartmann.dev/blog/async-rust/",
+      "date_published": "2019-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hartmann",
+        "url": "https://thomashartmann.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "490a94d9-b859-4011-9511-532a8a209fd6",
       "title": "Monadic parser combinators in Rust",
       "content_text": "Why don’t I implement a nice monadic parser combinator library in Rust? That’s what my thought was when after implementing low-level mock-HTTP server in MIO and actually needed to parse the bytes received by server. What I wanted is a declative way to define sequence of strings to be matched and/or extracted. ",

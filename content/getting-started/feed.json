@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "0428bdf3-8d01-4bfc-ac54-7f97460917ef",
+      "title": "Custom Implementation of Blockchain In Rust",
+      "content_text": "Hello folks, in this blog, we will be learning how to create our own Blockchain, which is a technology behind Bitcoin. Blockchain technology has been called the",
+      "url": "https://blog.knoldus.com/custom-implementation-of-blockchain-in-rustpart-1/",
+      "date_published": "2019-11-17T17:57:58+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/author/ayushmishra2005/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
       "id": "3fc3ff70-1adf-4bd5-bb8a-15b77a658805",
       "title": "Learning Rust",
       "content_text": "I’ve been learning Rust lately. I have also got back to playing futsal with some friends. Weirdly enough, these two worlds intersected a few weeks ago. This is a summary of my experience learning Rust. Starting with reading about it here and there, eventually getting the book, doing a Hackathon project at Onfido using it and then spinning up my own personal project as a way to further experiment with the language.",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "cfd23b00-ee79-4cc6-b89c-ed3f70a08eba",
+      "title": "FFI-safe types in Rust, newtypes, MaybeUninit, and references vs pointers",
+      "content_text": "It’s time to make sup, our own take on ping, use the Win32 APIs to send an ICMP echo. Earlier we discovered that Windows’s ping.exe used IcmpSendEcho2Ex. But for our purposes, the simpler IcmpSendEcho will do just fine.\n\nAs we mentioned earlier, it’s provided by IPHLPAPI.dll, and its C declaration is:\n\nIPHLPAPI_DLL_LINKAGE DWORD IcmpSendEcho( HANDLE IcmpHandle, IPAddr DestinationAddress, LPVOID RequestData, WORD RequestSize, PIP_OPTION_INFORMATION RequestOptions, LPVOID ReplyBuffer, DWORD ReplySize, DWORD Timeout );  Compared to MessageBoxA, there’s a lot more types going on!",
+      "url": "https://fasterthanli.me/blog/2019/making-our-own-ping-3/",
+      "date_published": "2019-09-30T19:44:00+00:00",
+      "author": {
+        "name": "Amos",
+        "url": "https://fasterthanli.me/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "09c52285-f854-44ec-a925-43ad22b06d84",
       "title": "The GTK Rust bindings are not ready yet? Yes they are!",
       "content_text": "When talking to various people at conferences in the last year or at conferences, a recurring topic was that they believed that the GTK Rust bindings are not ready for use yet.\n\nI don’t know where that perception comes from but if it was true, there wouldn’t have been applications like Fractal, Podcasts or Shortwave using GTK from Rust, or I wouldn’t be able to do a workshop about desktop application development in Rust with GTK and GStreamer at the Linux Application Summit in Barcelona this Friday (code can be found here already) or earlier this year at GUADEC.",

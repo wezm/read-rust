@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8e3473bc-8737-442a-9e9a-42eb9ab5c8bb",
+      "title": "OPT300x Ambient Light Sensor Driver in Rust",
+      "content_text": "Platform-agnostic driver for the OPT300x ambient light sensor written in Rust.",
+      "url": "https://blog.eldruin.com//opt300x-ambient-light-sensor-driver-in-rust/",
+      "date_published": "2019-11-09T16:22:18+00:00",
+      "author": {
+        "name": "Diego Barrios Romero",
+        "url": "https://blog.eldruin.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
       "id": "e8a3e376-9c53-44f6-b4ab-0cd67ff6aec6",
       "title": "Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT",
       "content_text": "I’m one of the lucky few who received the developer preview version of the PineTime Smart Watch by Pine64. After coding on PineTime for a few days (in Rust), it suddenly struck me… I felt really comfortable and productive coding the new gadget. Even though I have never coded a smart watch. PineTime is a terrific tool for teaching IoT! And I have taught IoT with so many different gadgets.",

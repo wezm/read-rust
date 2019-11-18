@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "506523e4-4ec3-4da0-b2d0-cc176c0e06a7",
+      "title": "Async Rust - A gentle introduction",
+      "content_text": "In which we explore Rust's newly stabilized async/.await language feature by creating a simple, asynchronous application. We look at what you need to do asynchronous programming in Rust and how it differs from other languages. And we talk a little bit about Pokémon!",
+      "url": "https://thomashartmann.dev/blog/async-rust/",
+      "date_published": "2019-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Thomas Hartmann",
+        "url": "https://thomashartmann.dev/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "cfd23b00-ee79-4cc6-b89c-ed3f70a08eba",
+      "title": "FFI-safe types in Rust, newtypes, MaybeUninit, and references vs pointers",
+      "content_text": "It’s time to make sup, our own take on ping, use the Win32 APIs to send an ICMP echo. Earlier we discovered that Windows’s ping.exe used IcmpSendEcho2Ex. But for our purposes, the simpler IcmpSendEcho will do just fine.\n\nAs we mentioned earlier, it’s provided by IPHLPAPI.dll, and its C declaration is:\n\nIPHLPAPI_DLL_LINKAGE DWORD IcmpSendEcho( HANDLE IcmpHandle, IPAddr DestinationAddress, LPVOID RequestData, WORD RequestSize, PIP_OPTION_INFORMATION RequestOptions, LPVOID ReplyBuffer, DWORD ReplySize, DWORD Timeout );  Compared to MessageBoxA, there’s a lot more types going on!",
+      "url": "https://fasterthanli.me/blog/2019/making-our-own-ping-3/",
+      "date_published": "2019-09-30T19:44:00+00:00",
+      "author": {
+        "name": "Amos",
+        "url": "https://fasterthanli.me/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "8e3473bc-8737-442a-9e9a-42eb9ab5c8bb",
+      "title": "OPT300x Ambient Light Sensor Driver in Rust",
+      "content_text": "Platform-agnostic driver for the OPT300x ambient light sensor written in Rust.",
+      "url": "https://blog.eldruin.com//opt300x-ambient-light-sensor-driver-in-rust/",
+      "date_published": "2019-11-09T16:22:18+00:00",
+      "author": {
+        "name": "Diego Barrios Romero",
+        "url": "https://blog.eldruin.com/"
+      },
+      "tags": [
+        "Embedded"
+      ]
+    },
+    {
+      "id": "0428bdf3-8d01-4bfc-ac54-7f97460917ef",
+      "title": "Custom Implementation of Blockchain In Rust",
+      "content_text": "Hello folks, in this blog, we will be learning how to create our own Blockchain, which is a technology behind Bitcoin. Blockchain technology has been called the",
+      "url": "https://blog.knoldus.com/custom-implementation-of-blockchain-in-rustpart-1/",
+      "tweet_url": "https://twitter.com/ayushmishra2005/status/1196126636279619584?s=20",
+      "date_published": "2019-11-17T17:57:58+00:00",
+      "author": {
+        "name": "Ayush Mishra",
+        "url": "https://blog.knoldus.com/author/ayushmishra2005/"
+      },
+      "tags": [
+        "Getting Started"
+      ]
+    },
+    {
+      "id": "3a914bfd-1956-49a0-968f-cffce4da6685",
+      "title": "Rust, wasm, and tetris",
+      "content_text": "WASM has been making a lot of progress recently so I was looking for a small project to run through and tetris with rust came to mind. Its small enough to understand easily and complicated enough that it is not quite a ‘hello world’ program. We are mostly going to be looking at the interaction between WASM and the browser, there is interesting stuff happening on top of WASM like WASI. The code for tetris is not relevant to the main goal (maybe a later article).",
+      "url": "http://klotzandrew.com/blog/rust-wasm-tetris",
+      "date_published": "2019-11-17T12:00:00+00:00",
+      "author": {
+        "name": "Andrew Klotz",
+        "url": "http://klotzandrew.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "f9d49eda-fad3-4ac9-9c8b-5aecf24d6f5e",
+      "title": "Palette 0.5.0",
+      "content_text": "Well, here it is. The (by some, at least) long awaited Palette 0.5.0 release. This one has been brewing for quite some time while waiting for the ecosystem to really support one of its main additions1. That addition is #[no_std] support.\n\nFirst, what is Palette? It’s a Rust library for working with colors and color spaces. It uses the type system to prevent mistakes, like mixing incompatible colors or working with non-linear RGB. It encodes the color spaces and their meta data (such as RGB primaries and white point) into the types to help making color processing less error prone and hopefully more accessible to those who don’t want to dive into the rabbit hole that is colors in computing.",
+      "url": "https://ogeon.github.io/2019/11/17/palette-0-5-0.html",
+      "date_published": "2019-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Ogeon",
+        "url": "https://ogeon.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ce12c4d6-aa8d-4278-9772-4ab55dc2925b",
+      "title": "Understanding Serde",
+      "content_text": "Serde is one of the most popular Rust crates, and deservedly so. If you aren’t familiar, Serde describes itself as “a framework for serializing and deserializing Rust data structures efficiently and generically.” What is most impressive to me is how robust the Serde data model has proven to be, allowing it to support human readable protocols like JSON and YAML, but also binary formats like Bincode. Its really a bonus that Serde does this while remaining exceptionally performant.\n\nThis blog posts dives into how Serde (along with the ecosystem of Serde data formats) is able to pull this off. To limit the scope of this post I am going to focus on Serde serialization to JSON, and skip any discussion of deserialization. If you are interested in deserialization (or a different data format) I believe you will be able to perform a similar analysis yourself after reading this post.",
+      "url": "https://www.joshmcguigan.com/blog/understanding-serde/",
+      "date_published": "2019-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "e8a3e376-9c53-44f6-b4ab-0cd67ff6aec6",
       "title": "Sneak Peek of PineTime Smart Watch… And why it’s perfect for teaching IoT",
       "content_text": "I’m one of the lucky few who received the developer preview version of the PineTime Smart Watch by Pine64. After coding on PineTime for a few days (in Rust), it suddenly struck me… I felt really comfortable and productive coding the new gadget. Even though I have never coded a smart watch. PineTime is a terrific tool for teaching IoT! And I have taught IoT with so many different gadgets.",

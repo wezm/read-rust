@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "3a914bfd-1956-49a0-968f-cffce4da6685",
+      "title": "Rust, wasm, and tetris",
+      "content_text": "WASM has been making a lot of progress recently so I was looking for a small project to run through and tetris with rust came to mind. Its small enough to understand easily and complicated enough that it is not quite a ‘hello world’ program. We are mostly going to be looking at the interaction between WASM and the browser, there is interesting stuff happening on top of WASM like WASI. The code for tetris is not relevant to the main goal (maybe a later article).",
+      "url": "http://klotzandrew.com/blog/rust-wasm-tetris",
+      "date_published": "2019-11-17T12:00:00+00:00",
+      "author": {
+        "name": "Andrew Klotz",
+        "url": "http://klotzandrew.com/"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "9e5865b7-5088-461a-ac34-c8dbaa680ca8",
       "title": "Building Art: Management in Game Engines",
       "content_text": "I’ve been making a game engine in my spare time for a game called The Clockwork. I’ve been loving it, but recently have decided that I need to rework the build process. Let me walk you through that here, show you ways to hook into Cargo, Rust’s build system, and the pros and cons of my approach.",

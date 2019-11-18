@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "f9d49eda-fad3-4ac9-9c8b-5aecf24d6f5e",
+      "title": "Palette 0.5.0",
+      "content_text": "Well, here it is. The (by some, at least) long awaited Palette 0.5.0 release. This one has been brewing for quite some time while waiting for the ecosystem to really support one of its main additions1. That addition is #[no_std] support.\n\nFirst, what is Palette? It’s a Rust library for working with colors and color spaces. It uses the type system to prevent mistakes, like mixing incompatible colors or working with non-linear RGB. It encodes the color spaces and their meta data (such as RGB primaries and white point) into the types to help making color processing less error prone and hopefully more accessible to those who don’t want to dive into the rabbit hole that is colors in computing.",
+      "url": "https://ogeon.github.io/2019/11/17/palette-0-5-0.html",
+      "date_published": "2019-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Ogeon",
+        "url": "https://ogeon.github.io/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "ce12c4d6-aa8d-4278-9772-4ab55dc2925b",
+      "title": "Understanding Serde",
+      "content_text": "Serde is one of the most popular Rust crates, and deservedly so. If you aren’t familiar, Serde describes itself as “a framework for serializing and deserializing Rust data structures efficiently and generically.” What is most impressive to me is how robust the Serde data model has proven to be, allowing it to support human readable protocols like JSON and YAML, but also binary formats like Bincode. Its really a bonus that Serde does this while remaining exceptionally performant.\n\nThis blog posts dives into how Serde (along with the ecosystem of Serde data formats) is able to pull this off. To limit the scope of this post I am going to focus on Serde serialization to JSON, and skip any discussion of deserialization. If you are interested in deserialization (or a different data format) I believe you will be able to perform a similar analysis yourself after reading this post.",
+      "url": "https://www.joshmcguigan.com/blog/understanding-serde/",
+      "date_published": "2019-11-17T00:00:00+00:00",
+      "author": {
+        "name": "Josh Mcguigan",
+        "url": "https://www.joshmcguigan.com/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "7ad13799-38d0-42de-8fec-855803550eab",
       "title": "Rookeries static site generator v0.16.0 – Cross-Platform Support",
       "content_text": "On Wednesday night, I released version 0.16.0 of Rookeries, my developer/designer friendly static site generator! What makes this release exciting is that I added cross-platform support for macOS and FreeBSD! Also I setup an cross-platform installer, that works on all 64-bit x86 Linux distros including Windows Subsystem for Linux (WSL) 2.0. And I plan on supporting Linux, macOS (OS X) and FreeBSD as first-class systems going forward.",
