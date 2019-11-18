@@ -33,7 +33,7 @@ private def allow_sign_up_from_env : Bool
   if Lucky::Env.production?
     ["1", "true"].includes?(ENV["READRUST_ALLOW_SIGNUP"]?)
   else
-    true
+    ["1", "true"].includes?(ENV["READRUST_ALLOW_SIGNUP"]? || "1")
   end
 end
 

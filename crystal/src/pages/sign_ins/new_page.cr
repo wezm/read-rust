@@ -16,8 +16,10 @@ class SignIns::NewPage < AuthLayout
       end
     end
     link "Reset password", to: PasswordResetRequests::New
-    text " | "
-    link "Sign up", to: SignUps::New
+    if ReadRust::Config.allow_sign_up?
+      text " | "
+      link "Sign up", to: SignUps::New
+    end
   end
 
   private def sign_in_fields(op)
