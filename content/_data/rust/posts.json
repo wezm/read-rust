@@ -10,6 +10,106 @@
   },
   "items": [
     {
+      "id": "8322f8ed-5d64-4c0f-8166-72a858c5cd94",
+      "title": "Making a quick and dirty terminal emulator for the meli terminal e-mail client",
+      "content_text": "In order to be able to compose e-mail within meli and avoid writing an editor, making an embed terminal was obviously my only choice. I didn’t bother to look if there are already libraries in Rust for this because as always my prime motivator is figuring things out, for fun.",
+      "url": "https://meli.delivery/posts/2019-10-25-making-a-quick-and-dirty-terminal-emulator.html",
+      "date_published": "2019-10-25T00:00:00+00:00",
+      "author": {
+        "name": "epilys",
+        "url": "https://meli.delivery/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
+      "id": "850a12f9-ae15-484a-9543-649819a04ece",
+      "title": "Stacked Borrows: An Aliasing Model for Rust (the paper)",
+      "content_text": "I have blogged a few times before about Stacked Borrows, my proposed aliasing model for Rust. But I am a researcher, and what researchers (are expected to) do is write papers—so that’s what we did for Stacked Borrows as well. After a lot of work, I can now finally present to you our paper Stacked Borrows: An Aliasing Model for Rust.",
+      "url": "https://www.ralfj.de/blog/2019/11/18/stacked-borrows-paper.html",
+      "date_published": "2019-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
+      "id": "ad2f2d65-f58a-4b32-bae2-471c7496e901",
+      "title": "Creative Coding in Rust with Nannou",
+      "content_text": "We're going to build a small demo with the nannou creative coding framework for Rust. This example itself is very simple, but specifically over-engineered to prepare to scale even further for your own project.",
+      "url": "https://dev.to/deciduously/creative-coding-in-rust-with-nannou-1lbl",
+      "date_published": "2019-11-16T20:05:14+00:00",
+      "author": {
+        "name": "Ben Lovy",
+        "url": "https://dev.to/deciduously"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
+      "id": "4c46ffe0-d6c9-485a-998a-6b87ae1d15dc",
+      "title": "Rust Bug Minimization Patterns",
+      "content_text": "While I was working some particularly nasty bugs recently, I put a lot of effort into bug minimization: the process of taking a large test case and finding ways to remove code from the test while preserving the test’s ability to expose the same bug.\n\nAs I worked, I realized that I was following a somewhat mechanical process. I was using regular patterns for code transformation. At some point, I said “you know, I’m not sure if everyone is aware of these patterns. I only remember some of them while I am in the middle of a bug minimization session.”\n\nSince the Rust compiler team always wants to help newcomers learn ways they can contribute to the project, I realized this could be the ideal subject for a blog post.",
+      "url": "http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/",
+      "tweet_url": "https://twitter.com/pnkfelix/status/1196459447394164736?s=20",
+      "date_published": "2019-11-18T11:19:46+01:00",
+      "author": {
+        "name": "Felix S. Klock II",
+        "url": "http://blog.pnkfx.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
+      "id": "bcea11f1-eed3-4a54-af43-37e1184a0494",
+      "title": "What I'd like for Rust 2020",
+      "content_text": "The Rust alternative to inheritance is composition and traits. Although I like this, it still needs some improvement imho.",
+      "url": "https://www.reddit.com/r/rust/comments/dy62uw/what_id_like_for_rust_2020/",
+      "date_published": "2019-11-19T00:00:00+00:00",
+      "author": {
+        "name": "u/TheNappap",
+        "url": "https://www.reddit.com/user/TheNappap/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
+      "id": "bb1a0895-762d-44f9-ad30-c6ae57dc9e8a",
+      "title": "Announcing the Allsorts Font Shaping Engine",
+      "content_text": "Today YesLogic is open-sourcing the Allsorts font parser, shaping engine, and subsetter for OpenType, WOFF, and WOFF2 under the Apache 2.0 license. Allsorts was extracted from the Prince HTML to PDF typesetting and layout tool and is implemented in Rust.",
+      "url": "https://yeslogic.com/blog/allsorts-rust-font-shaping-engine.html",
+      "tweet_url": "https://twitter.com/yeslogic/status/1196943988390948865?s=20",
+      "date_published": "2019-11-20T00:00:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "https://www.wezm.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "976f1d6d-eb80-40b8-9660-17922d717ba0",
+      "title": "Refactoring the Length type in librsvg",
+      "content_text": "CSS length values have a number and a unit, e.g. 5cm or 6px. Sometimes the unit is a percentage, like 50%, and SVG says that lengths with percentage units should be resolved with respect to a certain rectangle. The process of converting that kind of units into absolute pixels for the final drawing is called normalization. In SVG, percentage units sometimes need to be normalized with respect to the current viewport (a local coordinate system), or with respect to the size of another object (e.g. when a clipping path is used to cut the current shape in half). One detail about normalization is that it can be with respect to the horizontal dimension of the current viewport, the vertical dimension, or both.",
+      "url": "https://people.gnome.org/~federico/blog/refactoring-the-length-type.html",
+      "date_published": "2019-11-19T10:01:14-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "506523e4-4ec3-4da0-b2d0-cc176c0e06a7",
       "title": "Async Rust - A gentle introduction",
       "content_text": "In which we explore Rust's newly stabilized async/.await language feature by creating a simple, asynchronous application. We look at what you need to do asynchronous programming in Rust and how it differs from other languages. And we talk a little bit about Pokémon!",

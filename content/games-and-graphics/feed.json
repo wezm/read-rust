@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "ad2f2d65-f58a-4b32-bae2-471c7496e901",
+      "title": "Creative Coding in Rust with Nannou",
+      "content_text": "We're going to build a small demo with the nannou creative coding framework for Rust. This example itself is very simple, but specifically over-engineered to prepare to scale even further for your own project.",
+      "url": "https://dev.to/deciduously/creative-coding-in-rust-with-nannou-1lbl",
+      "date_published": "2019-11-16T20:05:14+00:00",
+      "author": {
+        "name": "Ben Lovy",
+        "url": "https://dev.to/deciduously"
+      },
+      "tags": [
+        "Games and Graphics"
+      ]
+    },
+    {
       "id": "3a914bfd-1956-49a0-968f-cffce4da6685",
       "title": "Rust, wasm, and tetris",
       "content_text": "WASM has been making a lot of progress recently so I was looking for a small project to run through and tetris with rust came to mind. Its small enough to understand easily and complicated enough that it is not quite a ‘hello world’ program. We are mostly going to be looking at the interaction between WASM and the browser, there is interesting stuff happening on top of WASM like WASI. The code for tetris is not relevant to the main goal (maybe a later article).",

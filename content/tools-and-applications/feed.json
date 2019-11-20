@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "8322f8ed-5d64-4c0f-8166-72a858c5cd94",
+      "title": "Making a quick and dirty terminal emulator for the meli terminal e-mail client",
+      "content_text": "In order to be able to compose e-mail within meli and avoid writing an editor, making an embed terminal was obviously my only choice. I didn’t bother to look if there are already libraries in Rust for this because as always my prime motivator is figuring things out, for fun.",
+      "url": "https://meli.delivery/posts/2019-10-25-making-a-quick-and-dirty-terminal-emulator.html",
+      "date_published": "2019-10-25T00:00:00+00:00",
+      "author": {
+        "name": "epilys",
+        "url": "https://meli.delivery/"
+      },
+      "tags": [
+        "Tools and Applications"
+      ]
+    },
+    {
       "id": "cfd23b00-ee79-4cc6-b89c-ed3f70a08eba",
       "title": "FFI-safe types in Rust, newtypes, MaybeUninit, and references vs pointers",
       "content_text": "It’s time to make sup, our own take on ping, use the Win32 APIs to send an ICMP echo. Earlier we discovered that Windows’s ping.exe used IcmpSendEcho2Ex. But for our purposes, the simpler IcmpSendEcho will do just fine.\n\nAs we mentioned earlier, it’s provided by IPHLPAPI.dll, and its C declaration is:\n\nIPHLPAPI_DLL_LINKAGE DWORD IcmpSendEcho( HANDLE IcmpHandle, IPAddr DestinationAddress, LPVOID RequestData, WORD RequestSize, PIP_OPTION_INFORMATION RequestOptions, LPVOID ReplyBuffer, DWORD ReplySize, DWORD Timeout );  Compared to MessageBoxA, there’s a lot more types going on!",

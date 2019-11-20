@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "4c46ffe0-d6c9-485a-998a-6b87ae1d15dc",
+      "title": "Rust Bug Minimization Patterns",
+      "content_text": "While I was working some particularly nasty bugs recently, I put a lot of effort into bug minimization: the process of taking a large test case and finding ways to remove code from the test while preserving the test’s ability to expose the same bug.\n\nAs I worked, I realized that I was following a somewhat mechanical process. I was using regular patterns for code transformation. At some point, I said “you know, I’m not sure if everyone is aware of these patterns. I only remember some of them while I am in the middle of a bug minimization session.”\n\nSince the Rust compiler team always wants to help newcomers learn ways they can contribute to the project, I realized this could be the ideal subject for a blog post.",
+      "url": "http://blog.pnkfx.org/blog/2019/11/18/rust-bug-minimization-patterns/",
+      "date_published": "2019-11-18T11:19:46+01:00",
+      "author": {
+        "name": "Felix S. Klock II",
+        "url": "http://blog.pnkfx.org/"
+      },
+      "tags": [
+        "Language"
+      ]
+    },
+    {
       "id": "506523e4-4ec3-4da0-b2d0-cc176c0e06a7",
       "title": "Async Rust - A gentle introduction",
       "content_text": "In which we explore Rust's newly stabilized async/.await language feature by creating a simple, asynchronous application. We look at what you need to do asynchronous programming in Rust and how it differs from other languages. And we talk a little bit about Pokémon!",

@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "bcea11f1-eed3-4a54-af43-37e1184a0494",
+      "title": "What I'd like for Rust 2020",
+      "content_text": "The Rust alternative to inheritance is composition and traits. Although I like this, it still needs some improvement imho.",
+      "url": "https://www.reddit.com/r/rust/comments/dy62uw/what_id_like_for_rust_2020/",
+      "date_published": "2019-11-19T00:00:00+00:00",
+      "author": {
+        "name": "u/TheNappap",
+        "url": "https://www.reddit.com/user/TheNappap/"
+      },
+      "tags": [
+        "Rust 2020"
+      ]
+    },
+    {
       "id": "a1a793e1-1f56-43aa-81f9-79954a144b3c",
       "title": "Rust 2020: Tropes and Jargon",
       "content_text": "I am writing this to announce a lame, but hopefully fruitful confession through this post. I had originally intended to make this a Twitter thread, but eventually the Rust 2020 call for posts emerged, and I saw it as an opportunity to expand this.",

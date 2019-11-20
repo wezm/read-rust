@@ -10,6 +10,20 @@
   },
   "items": [
     {
+      "id": "850a12f9-ae15-484a-9543-649819a04ece",
+      "title": "Stacked Borrows: An Aliasing Model for Rust (the paper)",
+      "content_text": "I have blogged a few times before about Stacked Borrows, my proposed aliasing model for Rust. But I am a researcher, and what researchers (are expected to) do is write papers—so that’s what we did for Stacked Borrows as well. After a lot of work, I can now finally present to you our paper Stacked Borrows: An Aliasing Model for Rust.",
+      "url": "https://www.ralfj.de/blog/2019/11/18/stacked-borrows-paper.html",
+      "date_published": "2019-11-18T00:00:00+00:00",
+      "author": {
+        "name": "Ralf Jung",
+        "url": "https://www.ralfj.de/blog/"
+      },
+      "tags": [
+        "Computer Science"
+      ]
+    },
+    {
       "id": "6d0504a6-4f1a-4779-b248-50afb5797df5",
       "title": "Floorplan: Spatial Layout in Memory Management Systems",
       "content_text": "In modern runtime systems, memory layout calculations are hand-coded in low-level systems languages. The primitives in these languages are not powerful enough to describe a rich set of layouts, leading developers to rely on ad-hoc macros as well as numerous interrelated static constants and other boilerplate code. A memory management policy must also carefully orchestrate all the different address calculations to modify memory cooperatively, a task ill-suited to the low-level systems languages at hand which do not provide the proper safety mechanisms.\n\nIn this paper we introduce Floorplan, a declarative language for specifying memory layouts at a high level. In a case study of an existing implementation of the immix garbage collection algorithm, Floorplan eliminates 55 out of the 63 unsafe lines of code: 100% of the unsafe lines of code pertaining to memory safety.",

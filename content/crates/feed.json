@@ -10,6 +10,34 @@
   },
   "items": [
     {
+      "id": "bb1a0895-762d-44f9-ad30-c6ae57dc9e8a",
+      "title": "Announcing the Allsorts Font Shaping Engine",
+      "content_text": "Today YesLogic is open-sourcing the Allsorts font parser, shaping engine, and subsetter for OpenType, WOFF, and WOFF2 under the Apache 2.0 license. Allsorts was extracted from the Prince HTML to PDF typesetting and layout tool and is implemented in Rust.",
+      "url": "https://yeslogic.com/blog/allsorts-rust-font-shaping-engine.html",
+      "date_published": "2019-11-20T00:00:00+00:00",
+      "author": {
+        "name": "Wesley Moore",
+        "url": "https://www.wezm.net/"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
+      "id": "976f1d6d-eb80-40b8-9660-17922d717ba0",
+      "title": "Refactoring the Length type in librsvg",
+      "content_text": "CSS length values have a number and a unit, e.g. 5cm or 6px. Sometimes the unit is a percentage, like 50%, and SVG says that lengths with percentage units should be resolved with respect to a certain rectangle. The process of converting that kind of units into absolute pixels for the final drawing is called normalization. In SVG, percentage units sometimes need to be normalized with respect to the current viewport (a local coordinate system), or with respect to the size of another object (e.g. when a clipping path is used to cut the current shape in half). One detail about normalization is that it can be with respect to the horizontal dimension of the current viewport, the vertical dimension, or both.",
+      "url": "https://people.gnome.org/~federico/blog/refactoring-the-length-type.html",
+      "date_published": "2019-11-19T10:01:14-06:00",
+      "author": {
+        "name": "Federico Mena Quintero",
+        "url": "https://people.gnome.org/~federico/blog/index.html"
+      },
+      "tags": [
+        "Crates"
+      ]
+    },
+    {
       "id": "f9d49eda-fad3-4ac9-9c8b-5aecf24d6f5e",
       "title": "Palette 0.5.0",
       "content_text": "Well, here it is. The (by some, at least) long awaited Palette 0.5.0 release. This one has been brewing for quite some time while waiting for the ecosystem to really support one of its main additions1. That addition is #[no_std] support.\n\nFirst, what is Palette? It’s a Rust library for working with colors and color spaces. It uses the type system to prevent mistakes, like mixing incompatible colors or working with non-linear RGB. It encodes the color spaces and their meta data (such as RGB primaries and white point) into the types to help making color processing less error prone and hopefully more accessible to those who don’t want to dive into the rabbit hole that is colors in computing.",
