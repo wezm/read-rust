@@ -1,4 +1,3 @@
-use std::convert::TryFrom;
 use std::rc::Rc;
 
 use serde::Deserialize;
@@ -28,8 +27,13 @@ impl Categories {
         Categories { categories }
     }
 
-    pub fn with_ids(&self, ids: impl Iterator<Item = i16>) -> Vec<Rc<Category>> {
-        ids.map(|id| Rc::clone(&self.categories[usize::try_from(id).unwrap()]))
-            .collect()
+    pub fn with_ids(&self, ids: impl Iterator<Item = i16>) -> Option<Vec<Rc<Category>>> {
+        ids.map(|id| {
+            self.categories
+                .iter()
+                .find(|cat| cat.id == id)
+                .map(|found| Rc::clone(found))
+        })
+        .collect()
     }
 }

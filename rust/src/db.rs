@@ -66,5 +66,7 @@ pub fn post_categories(
         .into_iter()
         .map(|post_category| post_category.category_id);
 
-    Ok(categories.with_ids(category_ids))
+    categories
+        .with_ids(category_ids)
+        .ok_or(diesel::result::Error::NotFound)
 }
