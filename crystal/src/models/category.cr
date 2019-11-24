@@ -4,6 +4,7 @@ class Category
     name: String,
     hashtag: String,
     slug: String,
+    year: UInt16?,
     description: String,
   )
 
