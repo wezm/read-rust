@@ -6,10 +6,11 @@ class JsonFeed::ShowSerializer < BaseSerializer
     posts = PostQuery.new.preload_post_categories.recent_in_category(@category).limit(100)
     {
       version:       "https://jsonfeed.org/version/1",
-      title:         "Read Rust",
+      title:         "Read Rust - #{@category.name}",
       home_page_url: "https://readrust.net/",
-      feed_url:      "https://readrust.net/all/feed.json",
-      description:   "Rust related posts from around the internet.",
+
+      feed_url:      JsonFeed::Show.with(@category.slug).url,
+      description:   @category.description,
       author:        {
         name: "Wesley Moore",
         url:  "https://www.wezm.net/",
