@@ -26,9 +26,9 @@ class RssFeed::Show < BrowserAction
 
     feed = RSS::Channel.new(
       title: "Read Rust - #{category.name}",
-      description: "#{category.name} posts on Read Rust",
+      description: category.description,
       link: "https://readrust.net/",
-      feed_url: "https://readrust.net/#{category.slug}/feed.rss",
+      feed_url: RssFeed::Show.with(category.slug).url,
       items: items,
       last_build_date: last_build_date,
     )
