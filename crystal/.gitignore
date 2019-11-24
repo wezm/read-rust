@@ -9,6 +9,8 @@ start_server
 /tmp
 /public/js
 /public/css
+/public/fonts
+/public/images
 /public/mix-manifest.json
 /node_modules
 yarn-error.log
