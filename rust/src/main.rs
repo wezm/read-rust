@@ -173,7 +173,7 @@ fn announce_new_posts<S: SocialNetwork>(
             });
 
         if let Err(err) = toot_result {
-            error!("Unable to to announce publish post [{}]: {}", post_id, err);
+            error!("Unable to announce post [{}]: {}", post_id, err);
         }
     }
 

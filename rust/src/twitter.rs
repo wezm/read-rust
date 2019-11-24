@@ -26,7 +26,7 @@ impl SocialNetwork for Twitter {
             ),
             access: egg_mode::KeyPair::new(
                 env_var("TWITTER_ACCESS_KEY")?,
-                env_var("TWITTER_ACCESS_KEY")?,
+                env_var("TWITTER_ACCESS_SECRET")?,
             ),
         };
 
