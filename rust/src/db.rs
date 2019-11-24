@@ -7,7 +7,7 @@ use crate::categories::{Categories, Category};
 use crate::models::Post;
 use crate::models::PostCategory;
 
-const BATCH_SIZE: i64 = 5;
+const BATCH_SIZE: i64 = 1;
 
 pub fn establish_connection(database_url: &str) -> Result<PgConnection, ConnectionError> {
     PgConnection::establish(database_url)
@@ -18,6 +18,7 @@ pub fn untooted_posts(connection: &PgConnection) -> QueryResult<Vec<Post>> {
 
     posts
         .filter(tooted_at.is_null())
+        .order_by(created_at.asc())
         .limit(BATCH_SIZE)
         .load::<Post>(connection)
 }
@@ -35,9 +36,9 @@ pub fn mark_post_tooted(connection: &PgConnection, post: Post) -> QueryResult<()
 pub fn untweeted_posts(connection: &PgConnection) -> QueryResult<Vec<Post>> {
     use crate::schema::posts::dsl::*;
 
-    // TODO: Add order by
     posts
         .filter(tweeted_at.is_null())
+        .order_by(created_at.asc())
         .limit(BATCH_SIZE)
         .load::<Post>(connection)
 }
