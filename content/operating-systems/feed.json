@@ -10,6 +10,150 @@
   },
   "items": [
     {
+      "id": "f178fe2d-82b8-4e04-ad1e-6e90bc4299c3",
+      "title": "Neotron - The Embedded Rust Home Computer Platform",
+      "content_text": "Neotron is an attempt to make computers simple again, whilst also taking advantage of the very latest in programming language development. It is based around four simple concepts: The ARM Thumb-v7M instruction set, A standardised OS interface, A standardised BIOS interface, and Use of the Rust Programming Language.",
+      "url": "https://neotron-compute.github.io/Neotron-Book/",
+      "date_published": "2019-11-11T05:07:11+00:00",
+      "author": {
+        "name": "Jonathan Pallant",
+        "url": "http://www.blogger.com/profile/01561773162764317663"
+      },
+      "tags": [
+        "Operating Systems",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "eab14a89-9177-44ce-8259-07c6ae33bdfa",
+      "title": "iou: Rust bindings for liburing",
+      "content_text": "Today I’m releasing a library called iou. This library provides idiomatic Rust bindings to the C library called liburing, which itself is a higher interface for interacting with the io_uring Linux kernel interface. Here are the answers to some questions I expect that may provoke.\n\nWhat is io_uring? io_uring is an interface added to the Linux kernel in version 5.1. Concurrent with that, the primary maintainer of that interface has also been publishing a library for interacting with it called liburing.",
+      "url": "https://boats.gitlab.io/blog/post/iou/",
+      "date_published": "2019-11-08T00:00:00+00:00",
+      "author": {
+        "name": "boats",
+        "url": "https://boats.gitlab.io/blog/"
+      },
+      "tags": [
+        "Crates",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "50da2cb2-9123-4128-bf10-db666256d699",
+      "title": "The Firmware Manager",
+      "content_text": "In the last few weeks, I've been working on a new solution to firmware management on the Linux desktop. A generic framework which combines fwupd and system76-firmware; with a GTK frontend library and application; that is written in Rust.",
+      "url": "https://mmstick.keybase.pub/firmware-manager/",
+      "date_published": "2019-08-02T00:00:00+00:00",
+      "author": {
+        "name": "Michael Aaron Murphy",
+        "url": "https://mmstick.keybase.pub/"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "fe4ddd77-07fd-4693-a8e4-684b4b0d825c",
+      "title": "Using Rust in Windows",
+      "content_text": "This blog describes part of the story of Rust adoption at Microsoft. Recently, I’ve been tasked with an experimental rewrite of a low-level system component of the Windows codebase (sorry, we can’t say which one yet). Instead of rewriting the code in C++, I was asked to use Rust, a memory-safe alternative. Though the project is not yet finished, I can say that my experience with Rust has been generally positive. It’s a good choice for those looking to avoid common mistakes that often lead to security vulnerabilities in C++ code bases. ",
+      "url": "https://msrc-blog.microsoft.com/2019/11/07/using-rust-in-windows/",
+      "date_published": "2019-11-07T16:11:27+00:00",
+      "author": {
+        "name": "Adam Burch",
+        "url": "https://msrc-blog.microsoft.com/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "f735529c-9db9-454e-802d-82e7367e6b92",
+      "title": "Putting Rust in the kernel with eBPF",
+      "content_text": "During the product development process monitoring our pipelines proved challenging, and we wanted more visibility into our containers. After a short period of exploration, we found that eBPF would address most of the pain points and dark spots we were encountering.\n\nThere was one catch: no eBPF tooling would help us deploy and maintain new probes within our small, but focused ops team. BCC, while great for tinkering, requires significant effort to roll out to production. It also makes it difficult to integrate our toolkit into our usual CI/CD deployment models.\n\nFaced with this dilemma, we decided the only option was for us to write our own Rust-based agent that integrated well with our testing and deployment strategies.",
+      "url": "https://blog.redsift.com/labs/putting-rust-in-the-kernel-with-ebpf/",
+      "date_published": "2019-11-07T11:34:52+00:00",
+      "author": {
+        "name": "Peter Parkanyi",
+        "url": "https://blog.redsift.com/author/peter/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "1f8ce13c-5661-4d07-aad2-11ea948a5a16",
+      "title": "Using Type-Level Programming in Rust to Make Safer Hardware Abstractions",
+      "content_text": "In the world of systems programming where one may find themselves writing hardware drivers or interacting directly with memory-mapped devices, that interaction is almost always through memory-mapped registers provided by the hardware. We typically interact with these things through bitwise operations on some fixed-width numeric type.",
+      "url": "https://blog.auxon.io/2019/10/25/type-level-registers/",
+      "date_published": "2019-10-25T00:00:00+00:00",
+      "author": {
+        "name": "Dan Pittman",
+        "url": "https://blog.auxon.io/"
+      },
+      "tags": [
+        "Embedded",
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "2fa36367-ad2e-4773-a3c8-9eea6f166a01",
+      "title": "Mental experiments with io_uring",
+      "content_text": "Recently, a new Linux kernel interface, called io_uring, appeared. I have been looking into it a little bit and I can’t help but wondering about it. Unfortunately, I’ve had only enough time to keep thinking and reading about it. Nevertheless, I’ve decided to share what I’ve been thinking about so far in case someone wants to write some actual code and experiment. Basically, I have an idea for a crate and I’d love someone else to write it 😇.",
+      "url": "https://vorner.github.io/2019/11/03/io-uring-mental-experiments.html",
+      "date_published": "2019-11-03T00:00:00+00:00",
+      "author": {
+        "name": "Michal 'vorner' Vaner",
+        "url": "https://vorner.github.io/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "a0e97cd5-91b6-445b-aa09-05bd4fbcdb75",
+      "title": "Dealing with process termination in Linux (with Rust examples)",
+      "content_text": "Play with Linux process termination exploring such interesting features as PR_SET_CHILD_SUBREAPER and PR_SET_PDEATHSIG.",
+      "url": "https://iximiuz.com/en/posts/dealing-with-processes-termination-in-Linux/",
+      "date_published": "2019-10-20T13:00:00+00:00",
+      "author": {
+        "name": "Ivan Velichko",
+        "url": "https://iximiuz.com/en/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "94453690-596e-423d-afa4-6fbcb91594a1",
+      "title": "My Rust adventure begins: building the WinRT language projection for Rust",
+      "content_text": "I have come to the point with C++/WinRT where I am largely satisfied with how it works and leverages C++ to the best of its ability. There is always room for improvement and I will continue to evolve and optimize C++/WinRT as the C++ language itself advances. But as a technology, the Windows Runtime has always been about more than just one language and we have started working on a few different projects to add support for various languages. None of these efforts could however draw me away from C++… that is until Rust showed up on my radar.\n\nRust is an intriguing language for me. It closely resembles C++ in many ways, hitting all the right notes when it comes to compilation and runtime model, type system and deterministic finalization, that I could not help but get a little excited about this fresh new take on language design. And so it is that I have started building the WinRT language projection for Rust.",
+      "url": "https://kennykerr.ca/2019/11/05/rust/",
+      "date_published": "2019-11-05T15:05:41+00:00",
+      "author": {
+        "name": "Kenny Kerr",
+        "url": "https://kennykerr.ca/"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "id": "207946d6-53c9-4c01-a305-d0cc041d9988",
+      "title": "All you need to know about KVM userspace",
+      "content_text": "QEMU and libvirt form the backend of the Red Hat userspace virtualization stack: they are used by our KVM-based products and by several applications included in Red Hat Enterprise Linux, such as virt-manager, libguestfs and GNOME Boxes.",
+      "url": "https://www.redhat.com/en/blog/all-you-need-know-about-kvm-userspace",
+      "date_published": "2019-10-24T00:00:00+00:00",
+      "author": {
+        "name": "Paolo Bonzini",
+        "url": "https://www.redhat.com/en/blog/authors/paolo-bonzini"
+      },
+      "tags": [
+        "Operating Systems"
+      ]
+    },
+    {
       "id": "6712ac58-9b5c-43de-bcf5-79548cb8c59d",
       "title": "Making a RISC-V Operating System using Rust",
       "content_text": " RISC-V (\"risk five\") and the Rust programming language both start with an R, so naturally they fit together. In this blog, we will write an operating system targeting the RISC-V architecture in Rust (mostly). If you have a sane development environment for RISC-V, you can skip the setup parts right to bootloading. Otherwise, it'll be fairly difficult to get started.\n\nThis tutorial will progressively build an operating system from start to something that you can show your friends or parents -- if they're significantly young enough. Since I'm rather new at this I decided to make it a \"feature\" that each blog post will mature as time goes on. More details will be added and some will be clarified.",
@@ -448,7 +592,7 @@
     },
     {
       "id": "a721af0b-e469-40ba-8ddc-f5f2a305483f",
-      "title": "Signal Hook: Unix signal hanadling in Rust",
+      "title": "Signal Hook: Unix signal handling in Rust",
       "content_text": "As promised in the previous article (thanks for all the valuable feedback ‒ I didn’t have the time to act on it yet, but I will), this talks about Unix signal handling.\n\nLong story short, I wasn’t happy about the signal handling story in Rust and this is my attempt at improving it.",
       "url": "https://vorner.github.io/2018/06/28/signal-hook.html",
       "date_published": "2018-06-28T00:00:00+00:00",

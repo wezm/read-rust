@@ -98,4 +98,4 @@ toot:
 tweet:
 	cargo run --release --bin tweet -- ${TWEETED} ${POSTS} content/_data/categories.json
 
-deploy: all sync syncfeeds toot tweet
+deploy: all sync syncfeeds

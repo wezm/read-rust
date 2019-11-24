@@ -10,6 +10,191 @@
   },
   "items": [
     {
+      "id": "2de8fbcd-1a56-4eea-8f6d-54cb843418e2",
+      "title": "Tutorial: Profiling Rust applications in Docker with perf",
+      "content_text": "With Moore’s law coming to an end, optimizing code to avoid performance pitfalls is becoming more and more useful. To this end, programming languages like Rust are designed to produce fast and memory-efficient programs out-of-the-box. When that is not sufficient, profilers like perf are useful to measure where the code is slow and therefore which algorithms and data structures should be optimized.",
+      "url": "https://gendignoux.com/blog/2019/11/09/profiling-rust-docker-perf.html",
+      "date_published": "2019-11-09T00:00:00+00:00",
+      "author": {
+        "name": "Guillaume Endignoux",
+        "url": "https://gendignoux.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "7eda1c5a-b463-4d8b-a024-68fe21c735d0",
+      "title": "“Beating C” with 120 Lines of Rust: wc",
+      "content_text": "It’s something of a meme lately to see whether your programming language of choice can take on the venerable wc, and what that might look like. The format seems to be: first do it simply, then idiomatically, and finally much faster. Of course, we’re not really “beating C” but rather “tackling a fun interview question in our favorite programming language.” My go-to these days is Rust, and since I’ve fielded the question of whether Rust is “my Haskell,” this all was too much to pass up. Let’s get started.",
+      "url": "https://medium.com/@martinmroz/beating-c-with-120-lines-of-rust-wc-a0db679fe920",
+      "date_published": "2019-10-30T07:07:06.905+00:00",
+      "author": {
+        "name": "Martin Mroz",
+        "url": "https://medium.com/@martinmroz"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "a251550c-42ad-42d6-8780-eae69e3bc85f",
+      "title": "Always Bump Downwards",
+      "content_text": "When writing a bump allocator, always bump downwards. That is, allocate from high addresses, down towards lower addresses by decrementing the bump pointer. Although it is perhaps less natural to think about, it is more efficient than incrementing the bump pointer and allocating from lower addresses up to higher ones.",
+      "url": "https://fitzgeraldnick.com/2019/11/01/always-bump-downwards.html",
+      "date_published": "2019-11-01T00:00:00-07:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "ca9e7e60-b2dd-4481-9d5b-82a5936d8d9c",
+      "title": "FastSpark: A New Fast Native Implementation of Spark from Scratch",
+      "content_text": "I got a project idea to test the feasibility of implementing Spark in a native language and if feasible, explore how efficient it can be in terms of performance and resource management. I know that Spark is heavily optimized over the years. I didn’t hope for any drastic difference in performance and if some difference is there, it most likely will be in RAM usage. Also, I want it to very general-purpose just like Spark. I decided to use Rust for the implementation.",
+      "url": "https://medium.com/@rajasekar3eg/fastspark-a-new-fast-native-implementation-of-spark-from-scratch-368373a29a5c",
+      "date_published": "2019-10-23T02:26:17.100+00:00",
+      "author": {
+        "name": "Raja Sekar",
+        "url": "https://medium.com/@rajasekar3eg"
+      },
+      "tags": [
+        "Tools and Applications",
+        "Performance"
+      ]
+    },
+    {
+      "id": "7fafbd3e-01e8-46ad-9dcf-3aca241030b7",
+      "title": "Visualizing Rust compilation",
+      "content_text": "Speeding up the Rust compiler isn’t the only way to make a Rust project build faster. Changing the crate structure of a project can also make a big difference. The good news here is that Eric Huss has implemented an amazing tool for visualizing Rust compilation, which can be used to identify inefficient crate structures in Rust projects.",
+      "url": "https://blog.mozilla.org/nnethercote/2019/10/10/visualizing-rust-compilation/",
+      "date_published": "2019-10-09T23:34:50+00:00",
+      "author": {
+        "name": "Nicholas Nethercote",
+        "url": "https://blog.mozilla.org/nnethercote/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "20e74694-1d5e-4315-9af9-b9efe6721ecc",
+      "title": "Speeding Up Rust Builds: Code-Gen Edition",
+      "content_text": "Lately, there has been talk talk about improving build times, with a focus on reducing bloat like regex breaking out logic into features that can be disabled, cargo-bloat going on a diet, new cargo features to identify slow-to-build dependencies. The area that has been impacting me lately is build.rs. I've been code-generating compile-time hash tables (phf) which has added several dependencies to my build and takes a while.",
+      "url": "https://epage.github.io/blog/2019/10/speeding-up-rust-builds-code-gen-edition/",
+      "date_published": "2019-10-10T03:30:17+00:00",
+      "author": {
+        "name": "Ed Page",
+        "url": "https://epage.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "48cf21ce-5244-4667-82c3-9c54bb469bbf",
+      "title": "Battle of the Serverless — Part 2: AWS Lambda Cold Start Times",
+      "content_text": "This experiment continues the work done in our pretend suite of microservices exposed via API Gateway to form an API with a code name of Slipspace in a mock company called STG. Slipspace drives are how the ships in the Halo universe travel so quickly to different sectors of the galaxy through something called Slipstream Space, so thought it was cool for a name requiring awesome warp API speeds.",
+      "url": "https://medium.com/@shouldroforion/battle-of-the-serverless-part-2-aws-lambda-cold-start-times-1d770ef3a7dc",
+      "date_published": "2019-11-07T03:15:40.170+00:00",
+      "author": {
+        "name": "Mark Fowler",
+        "url": "https://medium.com/@shouldroforion"
+      },
+      "tags": [
+        "Performance",
+        "Web and Network Services"
+      ]
+    },
+    {
+      "id": "6090f016-cbc0-48bd-b448-c2dd82f721b2",
+      "title": "Causal Profiling Rust Code",
+      "content_text": "There’s a new hotness in performance measurements, and it’s called causal profiling. The idea behind it is that you want to measure how a speed up of a certain function would impact the runtime as a whole, which can be very counterintuitive in today’s multi-threaded world.",
+      "url": "https://llogiq.github.io/2019/09/25/coz.html",
+      "date_published": "2019-09-25T00:00:00+00:00",
+      "author": {
+        "name": "Llogiq",
+        "url": "http://llogiq.github.io/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "f6562f73-5770-4c71-9aad-ef1f08727f58",
+      "title": "Closing the gap: cross-language LTO between Rust and C/C++",
+      "content_text": "Link time optimization (LTO) is LLVM's way of implementing whole-program optimization. Cross-language LTO is a new feature in the Rust compiler that enables LLVM's link time optimization to be performed across a mixed C/C++/Rust codebase.",
+      "url": "http://blog.llvm.org/2019/09/closing-gap-cross-language-lto-between.html?m=1",
+      "date_published": "2019-09-19T00:00:00+00:00",
+      "author": {
+        "name": "Michael",
+        "url": "https://www.blogger.com/profile/09903872639747097275"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "c14e5bd8-c28e-46c1-99dc-d3a7536ec661",
+      "title": "An unexpected performance regression",
+      "content_text": "A short story on how compiler updates can cause unexpected performance regressions.",
+      "url": "https://dev.to/sharkdp/an-unexpected-performance-regression-11ai",
+      "date_published": "2019-09-16T19:16:58+00:00",
+      "author": {
+        "name": "David Peter",
+        "url": "https://dev.to/sharkdp"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "929a5316-4621-43cf-9e9b-8e3c43989242",
+      "title": "Profiling augr's performance",
+      "content_text": "I built a time tracking software named augr, and recently decided that it was time to make it faster.",
+      "url": "https://geemili.xyz/blog/profiling-augr/",
+      "date_published": "2019-09-07T00:00:00+00:00",
+      "author": {
+        "name": "LeRoyce Pearson",
+        "url": "https://geemili.xyz/"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "3a399e6a-a660-464b-90c0-9cee92eade7c",
+      "title": "Criterion.rs v0.3 - Custom Measurements, Profiling Hooks, Custom Test Framework, API Changes",
+      "content_text": "I’m pleased to announce the release of Criterion.rs v0.3, available today. Version 0.3 provides a number of new features including preliminary support for plugging in custom measurements (eg. hardware timers or POSIX CPU time), hooks to start/stop profilers, a new BenchmarkGroup struct that provides more flexibility than the older Benchmark and ParameterizedBenchmark structs, and an implementation of a #[criterion] custom-test-framework macro for those on Nightly.",
+      "url": "https://bheisler.github.io/post/criterion-rs-0-3/",
+      "date_published": "2019-08-25T10:30:00-06:00",
+      "author": {
+        "name": "Brook Heisler",
+        "url": "https://bheisler.github.io/"
+      },
+      "tags": [
+        "Performance",
+        "Crates"
+      ]
+    },
+    {
+      "id": "9e49b1b3-2b2a-46f0-951e-bda659adca6e",
+      "title": "Comparing parallel Rust and C++",
+      "content_text": "In this tutorial, we will implement a Rust program that attempts to utilize 100% of the theoretical capacity of three relatively modern, mid-range CPUs. We'll use an existing, highly efficient C++ implementation as a reference point to compare how our Rust program is doing. We start with a simple baseline solution of 3 nested for-loops, and keep improving on the baseline solution incrementally, implementing 8 versions in total, until the program is going so fast it can hardly go faster. We'll approach the problem from the point of view of a C++ programmer who already knows how the reference implementation solves the problem, but is interested in an approach using the Rust language.",
+      "url": "https://parallel-rust-cpp.github.io/",
+      "date_published": "2019-11-07T00:00:00+00:00",
+      "author": {
+        "name": "Matias Lindgren",
+        "url": "https://github.com/matiaslindgren"
+      },
+      "tags": [
+        "Performance"
+      ]
+    },
+    {
       "id": "ce96a1d5-014d-41ed-b997-45c0449aed59",
       "title": "Rust and C++ on Floating-point Intensive Code",
       "content_text": "Since I do a lot of heavy numeric computation in C++ it was tempting for me to see how Rust compares in a shootout. I chose a floating point benchmark to implement in both languages in order to see the performance difference. I give commentary on why the performance is that way, and some potential fixes Rust could implement to close the gap.",

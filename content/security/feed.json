@@ -10,6 +10,105 @@
   },
   "items": [
     {
+      "id": "7c53cfec-7842-4ca1-a1bb-183b2d6c1444",
+      "title": "Announcing safety-dance: removing unnecessary unsafe code from popular crates",
+      "content_text": "One of the main selling points of Rust is memory safety. However, it is undermined every time people opt out of the checks and write an unsafe block.\n\nA while ago I decided to check just how prevalent that is in widely used code, and I was astonished by what I've found: many popular and widely used Rust crates contain quite a few unsafe blocks, even when they're not doing anything inherently unsafe, and a surprising number of them can be converted into safe code without losing performance.",
+      "url": "https://www.reddit.com/r/rust/comments/dq8df4/announcing_safetydance_removing_unnecessary/",
+      "date_published": "2019-11-02T00:00:00+00:00",
+      "author": {
+        "name": "Sergey \"Shnatsel\" Davidoff",
+        "url": "https://github.com/Shnatsel"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "25ecd879-1428-4fd5-8200-e908de68db3b",
+      "title": "Programming Servo: shipping message-ports(via a detour into Spectre)",
+      "content_text": "The thing about contributing to Servo is that you keep learning new things about the Web platform. Personally, I had never used messaging on the web when developing web applications, and I find it a fascinating idea.\n\nWeb-messaging enables developers to provide cross-site API’s without having to go through a server, all the while leveraging the client-side security model of the Web. And since it happens on the client, it could be more transparent to the end-user, and probably easier to block if necessary.\n\nImplementing message-ports also raises interesting architectural questions. In an earlier Web(like, in 2017), an API like message-ports could have been implemented with some sort of cross-thread communication. In 2019 however, it’s going to have to go across process. Why? Something known as “Spectre”.",
+      "url": "https://medium.com/programming-servo/programming-servo-shipping-message-ports-via-a-detour-into-spectre-c96683ac0b8",
+      "date_published": "2019-10-20T04:38:50.450+00:00",
+      "author": {
+        "name": "Gregory Terzian",
+        "url": "https://medium.com/@polyglot_factotum"
+      },
+      "tags": [
+        "Web and Network Services",
+        "Security"
+      ]
+    },
+    {
+      "id": "844b80e2-68b9-450a-8e0f-7aa395d1ca07",
+      "title": "Announcing Suricata Network Threat Detection Engine 5.0.0",
+      "content_text": "The most visible is that our Rust support is no longer optional. We’re convinced that Rust is a perfect match for Suricata, and we plan to increase its footprint in our code base steadily. By making it mandatory we’re able to remove parallel implementations and focus fully on making the Rust code better.",
+      "url": "https://suricata-ids.org/2019/10/15/announcing-suricata-5-0-0/",
+      "date_published": "2019-10-15T10:59:04+00:00",
+      "author": {
+        "name": "inliniac",
+        "url": "https://suricata-ids.org/author/inliniac/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "04d6d1f5-601b-4de7-bf7b-81153617a559",
+      "title": "How to Fuzz Rust Code with Cargo-Fuzz (Continuously)",
+      "content_text": "Fuzzing or fuzz testing is an automated software technique that involves providing semi-random data as input to the test program in order to uncover bugs and crashes. In this short tutorial we will discuss cargo-fuzz.",
+      "url": "https://fuzzit.dev/2019/10/08/how-to-fuzz-rust-code-with-cargo-fuzz-continuously/",
+      "date_published": "2019-10-08T12:42:02+00:00",
+      "author": {
+        "name": "Fuzzit",
+        "url": "https://fuzzit.dev/blog/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "f820bc2a-3700-4b36-ac63-ad638301b911",
+      "title": "Updated Thoughts on Trust Scaling | Armin Ronacher's Thoughts and Writings",
+      "content_text": "A few years back I wrote down my thoughts on the problem of micropackages and trust scaling. In the meantime the problem has only gotten worse. Unfortunately my favorite programming language Rust is also starting to suffer from dependency explosion and how risky dependencies have become. Since I wrote about this last I have learned a few more things about this and I have some new ideas of how this could potentially be managed.",
+      "url": "http://lucumr.pocoo.org/2019/7/29/dependency-scaling/",
+      "date_published": "2019-07-29T00:00:00+00:00",
+      "author": {
+        "name": "Armin Ronacher",
+        "url": "http://lucumr.pocoo.org/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a3f26838-eaa9-494a-b71d-37ac8600c24a",
+      "title": "Combining Coverage-Guided and Generation-Based Fuzzing",
+      "content_text": "Coverage-guided fuzzing and generation-based fuzzing are two powerful approaches to fuzzing. It can be tempting to think that you must either use one approach or the other at a time, and that they can’t be combined. However, this is not the case. In this blog post I’ll describe a method for combining coverage-guided fuzzing with structure-aware generators that I’ve found to be both effective and practical.",
+      "url": "https://fitzgeraldnick.com/2019/09/04/combining-coverage-guided-and-generation-based-fuzzing.html",
+      "date_published": "2019-09-04T00:00:00-07:00",
+      "author": {
+        "name": "Nick Fitzgerald",
+        "url": "http://fitzgeraldnick.com/"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "923c5a4c-a9d4-42c5-9368-7725a5bd26be",
+      "title": "Security Audit of dalek libraries",
+      "content_text": "The Tari Labs mandated Quarkslab to perform a cryptographic and security assessment of the dalek libraries. One of the Tari Labs' projects is to implement the Tari protocol, a decentralised assets protocol. It relies on some of the dalek libraries, especially the cryptographic primitives, provided by subtle and curve25519-dalek. Moreover, the use of Bulletproofs [6], and its implementation by the authors of the dalek libraries, will allow them to enable efficient confidential transactions on the blockchain in a near future.\n\nWe only found some minor issues. We also provided recommendations on the usage of the libraries and third-party libraries.",
+      "url": "https://blog.quarkslab.com/security-audit-of-dalek-libraries.html",
+      "date_published": "2019-08-26T00:00:00+00:00",
+      "author": {
+        "name": "Laurent Grémy, Guillaume Heilles, Nicolas Surbayrole",
+        "url": "https://blog.quarkslab.com/index.html"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "f7d6bffe-ea86-4fbc-9aa6-4ba15b3929a5",
       "title": "Building the Azure IoT Edge Security Daemon in Rust",
       "content_text": "Azure IoT Edge is an open source, cross platform software project from the Azure IoT team at Microsoft that seeks to solve the problem of managing distribution of compute to the edge of your on-premise network from the cloud. This post explains some of the rationale behind our choice of Rust as the implementation programming language for the Security Daemon component in the product.",

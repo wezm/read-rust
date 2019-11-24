@@ -330,7 +330,7 @@
       </ul>
     tags: [crates]
   -
-    name: Aaron Power
+    name: Erin Power
     avatar: XAMPPRocky.png
     support:
       name: Support on Liberapay
@@ -339,7 +339,7 @@
       name: 'XAMPPRocky'
       link: https://github.com/XAMPPRocky
     description: |
-      Aaron is a Rust contributor, creator of
+      Erin is a Rust contributor, creator of
       <a href="https://github.com/XAMPPRocky/tokei">tokei</a>,
       a fast lines of code counter and
       <a href="https://github.com/XAMPPRocky/Mammut">Mammut</a>, a client for
