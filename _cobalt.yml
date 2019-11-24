@@ -1,7 +1,0 @@
-source: "content"
-destination: "public"
-
-site:
-  title: Read Rust
-  description: Blog Posts Go Here
-  base_url: https://readrust.net
