@@ -1,7 +1,6 @@
 # Read Rust
 
 Source code to [readrust.net][self]. A news aggregator for Rust news.
-This repo contains the source to the website and tools for updating the feeds.
 
 [![Build Status](https://travis-ci.org/wezm/read-rust.svg?branch=master)](https://travis-ci.org/wezm/read-rust)
 
@@ -29,7 +28,7 @@ accordingly for other systems.
 ### Prerequisites
 
 * [Crystal] 0.31.1
-* [Lucky CLI](https://aur.archlinux.org/packages/lucky)
+* [Lucky CLI](https://github.com/luckyframework/lucky_cli)
   * [node] and [yarn] (for assets)
   * [overmind] (process runner to make development nicer)
 * [Rust] >= 1.38.0
@@ -46,7 +45,7 @@ Plus from the AUR:
 * [overmind] or [overmind-bin]
 
 Additionally, due to [limitations in the Crystal compiler](https://github.com/crystal-lang/crystal/issues/7514)
-you need to build and install my little [striptags library]:
+you need to build and install my little [striptags library][striptags]:
 
     git clone https://github.com/wezm/aur
     cd aur/libstriptags
@@ -90,29 +89,9 @@ After it compiles the site should now be accessible at: <http://127.0.0.1:3001/>
     lucky import_posts ../content/_data/rust/posts.json ../content/_data/{tweeted,tooted}.json
     lucky import_creators ../content/_data/creators.yaml
 
-### Website
-
-The website is built with [Cobalt]. After [installing Cobalt][install-cobalt]
-the site can be built by running `make`.
-
-### Tools
-
-The tools are mostly written in Rust, so `cargo build --release` will build
-them. The tools themselves are:
-
-* `add-url` add a new entry to `feed.json`.
-* `generate-rss` generates `feed.rss`, and the cobalt data from `feed.json`.
-* `opml2json` converts subscriptions downloaded from Feedbin into JSON.
-
-Running `make` will build the tools and generate the site content.
-
 ## Notes
 
-### Adding a New Category
-
-1. Add an entry to `content/_data/categories.json`
-2. Add a new content directory and index file for the category. E.g. `content/category/index.md`.
-3. Add the new category to the `Makefile`
+These are mostly notes to self (wezm).
 
 ### Resize Avatars
 
@@ -129,8 +108,15 @@ Download subscriptions from [Feedbin](https://feedbin.com/settings/import_export
 
 Some manual tweaks to the JSON might be needed.
 
-[self]: https://readrust.net/
+[Chromium]: https://www.archlinux.org/packages/extra/x86_64/chromium/
 [contributing]: https://readrust.net/submit.html
-[#Rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
-[Cobalt]: https://cobalt-org.github.io/
-[install-cobalt]: https://cobalt-org.github.io/docs/install
+[Crystal]: https://crystal-lang.org/
+[lucky]: https://aur.archlinux.org/packages/lucky/
+[node]: https://nodejs.org/
+[overmind-bin]: https://aur.archlinux.org/packages/overmind-bin/
+[overmind]: https://aur.archlinux.org/packages/overmind/
+[PostgreSQL]: https://www.rust-lang.org/tools/install
+[Rust]: https://www.rust-lang.org/tools/install
+[self]: https://readrust.net/
+[striptags]: https://github.com/wezm/libstriptags
+[yarn]: https://yarnpkg.com/
