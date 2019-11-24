@@ -1,7 +1,1 @@
-/public
-.mastodon-data.json
-.twitter-data.json
-.idea
-src/bin/.consumer*
-/target/
-**/*.rs.bk
+/.env

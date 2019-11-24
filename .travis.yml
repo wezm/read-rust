@@ -1,21 +1,52 @@
-language: rust
-cache: cargo
-install: |
-  if [ "`cobalt --version`" != "Cobalt 0.15.4" ]; then
-    curl -OL https://github.com/cobalt-org/cobalt.rs/releases/download/v0.15.4/cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
-    tar zxvf cobalt-v0.15.4-x86_64-unknown-linux-gnu.tar.gz
-    mkdir -p ~/.local/bin
-    mv cobalt ~/.local/bin
-  fi
-
-script:
-  - 'echo consumer_key > src/bin/.consumer_key; echo consumer_secret > src/bin/.consumer_secret'
-  - cargo test
-  - cobalt build
-  - make feeds
-rust:
-  - stable
-  - beta
+env:
+  global:
+    - TEST_DATABASE_URL=postgres://postgres@localhost/read_rust_test
+    - MASTODON_BASE=https://botsin.space
+    - MASTODON_CLIENT_ID=
+    - MASTODON_CLIENT_SECRET=
+    - MASTODON_REDIRECT=urn:ietf:wg:oauth:2.0:oob
+    - MASTODON_TOKEN=
+    - TWITTER_CONSUMER_KEY=
+    - TWITTER_CONSUMER_SECRET=
+    - TWITTER_ACCESS_KEY=
+    - TWITTER_ACCESS_SECRET=
+    - FEEDBIN_USERNAME=
+    - FEEDBIN_PASSWORD=
 matrix:
-  allow_failures:
-    - rust: beta
+  include:
+    - language: rust
+      cache: cargo
+      script:
+        - cd rust
+        - cargo test
+      rust:
+        - stable
+
+    - language: crystal
+      addons:
+        chrome: stable
+      services:
+        - postgresql
+      before_install:
+        # Setup chromedriver for LuckyFlow
+        - sudo apt-get install chromium-chromedriver curl
+
+        # Install libstriptags
+        - curl -OL https://releases.wezm.net/striptags/striptags_0.1.1-2_amd64.deb
+        - sudo dpkg -i striptags_0.1.1-2_amd64.deb
+
+        # Setup assets
+        - cd crystal
+        - yarn install
+        - yarn prod
+      script:
+        - crystal spec
+        - yarn run tsc
+        # Uncomment the next line if you'd like Travis to check code formatting
+        # - crystal tool format spec src --check
+      cache:
+        yarn: true
+        directories:
+          - crystal/bin/lucky
+          - crystal/lib
+          - crystal/.shards

@@ -1,0 +1,281 @@
+// Lucky generates 3 folders to help you organize your CSS:
+//
+//    - static/css/variables # Files for colors, spacing, etc.
+//    - static/css/mixins # Put your mixin functions in files here
+//    - static/css/components # CSS for your components
+//
+// Remember to import your new CSS files or they won't be loaded:
+//
+//    @import "./variables/colors" # Imports the file in static/css/variables/_colors.scss
+//
+// Note: importing with `~` tells webpack to look in the installed npm packages
+// https://stackoverflow.com/questions/39535760/what-does-a-tilde-in-a-css-url-do
+
+// @import "~normalize-scss/sass/normalize/import-now";
+// Add your own components and import them like this:
+//
+// @import "components/my_new_component";
+@import "fonts";
+
+html {
+  border-top: 4px solid orange;
+  background-color: #fffdfd;
+}
+body {
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  font-family: NunitoSans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3 {
+  line-height: 1.2;
+  clear: both;
+  font-weight: 500;
+  color: #333;
+}
+footer {
+  text-align: center;
+  border-top: 1px solid #fbd492;
+  border-bottom: 1px solid #fbd492;
+  background-color: #fff9f2;
+  padding: 1em;
+  margin-top: 4em;
+}
+header {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  padding: 1em 1em 2em;
+  text-align: center;
+}
+header a {
+  color: currentColor;
+  text-decoration: none;
+}
+h1 a {
+  color: currentColor;
+  text-decoration: none;
+  border-bottom: 3px solid currentColor;
+}
+nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 165, 0, 0);
+  transition: border-bottom-color 250ms;
+}
+nav a:hover, nav a:focus {
+  border-bottom-color: rgba(255, 165, 0, 1);
+}
+article {
+  margin-top: 2em;
+}
+blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 3px solid #fde8c4;
+}
+:target {
+  background-color: #fff9f2;
+  padding: 0.25em 0.5em;
+  margin-left: -0.5em;
+  border-left: 3px solid orange;
+}
+.list-inline {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+.list-inline > div {
+  width: 4em;
+  display: inline;
+}
+.list-inline .support {
+  width: 6em;
+}
+.logo {
+  vertical-align: top;
+  width: 50px;
+  height: 40px;
+  margin: 0 0.5em;
+}
+.heart {
+  position: relative;
+}
+.heart:after {
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: -1em;
+  left: 4em;
+  content: " ";
+  background: url('../public/assets/images/heart.svg') no-repeat top center;
+  background-size: 1em;
+  transform: rotate(9deg);
+}
+.main {
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 0 10px;
+}
+.feedicon {
+  text-decoration: none;
+  margin: 0 0.1em;
+}
+.feedicon img {
+  border-radius: 3px;
+  width: 0.75em;
+  height: 0.75em;
+  filter: grayscale(100%);
+  transition: filter 200ms;
+}
+.feedicon img:hover {
+  filter: none;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid #fbd492;
+  color: #444;
+  padding: 5px 1em 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.65em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.button:hover, .button:focus {
+  background-color: #fbd492;
+}
+
+.flash-container {
+  text-align: center;
+}
+.flash {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.3);;
+}
+.flash-success {
+  border-left: 3px solid #48c774;
+}
+.flash-info {
+  border-left: 3px solid #3298dc;
+}
+.flash-failure {
+  border-left: 3px solid #f14646;
+}
+.error {
+  border-left: 3px solid #f14646;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.tag {
+  display: inline-block;
+  background: hsl(37.7, 92.9%, 94.8%);
+  padding: 0 0.5em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #444;
+  margin: 0.25em 0;
+  font-size: smaller;
+  border: 2px solid rgba(0,0,0,0);
+}
+.tag:hover, .tag:focus {
+  background: hsl(37.7, 92.9%, 90%);
+}
+.tag.active {
+  border-color: hsl(29.8, 100%, 50%);
+}
+.creators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+#featured h2 {
+  margin-bottom: 0;
+}
+.card {
+  width: 300px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid #ffebd4; */
+  border-radius: 3px;
+  margin: 1.5em 0;
+}
+.card h3 {
+  display: inline-block;
+  margin: 0;
+}
+.card img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.card ul {
+  margin: 0.5em 0 0;
+  padding: 0 0 0 20px;
+}
+.card .meta a {
+  color: rgba(0,0,0,.6);
+}
+.card .content {
+  padding: 1em 0;
+}
+.card .description {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+#search {
+  margin-bottom: 2em;
+}
+#search input[type="text"] {
+  width: 20em;
+}
+.socials {
+  margin-top: 1em;
+}
+.socials img {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.25em;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 1em;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .feedicon {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 460px) {
+  .list-inline {
+    flex-wrap: wrap;
+  }
+}
+

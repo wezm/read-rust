@@ -1,0 +1,4 @@
+/public
+.idea
+/target/
+**/*.rs.bk
