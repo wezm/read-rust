@@ -46,3 +46,8 @@ label input {
   font-weight: normal;
 }
 
+@media screen and (max-width: 600px) {
+  input {
+    font-size: 16px;
+  }
+}
