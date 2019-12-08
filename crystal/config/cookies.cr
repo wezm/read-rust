@@ -10,7 +10,6 @@ Lucky::CookieJar.configure do |settings|
     cookie.secure(Lucky::ForceSSLHandler.settings.enabled)
 
     # You can set other defaults for cookies here. For example:
-    #
-    #    cookie.expires(1.year.from_now).domain("mydomain.com")
+    cookie.expires(1.week.from_now).domain("readrust.net")
   }
 end
