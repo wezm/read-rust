@@ -47,7 +47,7 @@ label input {
 }
 
 @media screen and (max-width: 600px) {
-  input {
+  input, textarea {
     font-size: 16px;
   }
 }
