@@ -1,6 +1,5 @@
 class Creators::IndexPage < MainLayout
   needs creators : CreatorQuery
-  needs tags : TagQuery
   quick_def page_title, "Support Rust"
 
   def app_js?
@@ -53,7 +52,7 @@ class Creators::IndexPage < MainLayout
       div class: "filter" do
         strong "Filter:", class: "visually-hidden"
         tag_link("all")
-        @tags.each do |tag|
+        tags.each do |tag|
           text " "
           tag_link(tag.name)
         end
@@ -88,5 +87,9 @@ class Creators::IndexPage < MainLayout
 
   private def data_tags(creator)
     creator.tags.map(&.name).join(",")
+  end
+
+  private def tags
+    @creators.map(&.tags).flatten.uniq
   end
 end

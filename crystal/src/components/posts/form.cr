@@ -9,6 +9,7 @@ class Posts::Form < BaseComponent
     mount Shared::Field.new(@form.twitter_url, "Twitter URL"), &.url_input
     mount Shared::Field.new(@form.mastodon_url, "Fediverse URL"), &.url_input
     mount Shared::Field.new(@form.summary), &.textarea(required: "required")
+    mount Shared::Field.new(@form.tags)
 
     fieldset(class: "categories") do
       tag "legend" { text "Categories" }
@@ -37,7 +38,9 @@ class Posts::Form < BaseComponent
 
   private def category_checkbox_attrs(post, category_id) : Array(Symbol)
     if post
-      if post.post_categories.find { |post_category| post_category.category_id == category_id }
+      # Using post_categories! here because in the case where the form is being re-rendered due
+      # to an error on update the post_categories are not pre-loaded.
+      if post.post_categories!.find { |post_category| post_category.category_id == category_id }
         [:checked]
       else
         [] of Symbol

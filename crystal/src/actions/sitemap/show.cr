@@ -36,6 +36,20 @@ class Sitemap::Show < BrowserAction
             xml.element("priority") { xml.text "0.7" }
           end
         end
+
+        xml.element("url") do
+          xml.element("loc") { xml.text Tags::Index.url }
+          xml.element("changefreq") { xml.text "daily" }
+          xml.element("priority") { xml.text "0.7" }
+        end
+
+        TagQuery.with_posts.each do |tag|
+          xml.element("url") do
+            xml.element("loc") { xml.text Tags::Show.with(tag).url }
+            xml.element("changefreq") { xml.text "daily" }
+            xml.element("priority") { xml.text "0.6" }
+          end
+        end
       end
     end
   end

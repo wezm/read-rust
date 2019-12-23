@@ -1,13 +1,13 @@
 class Posts::Update < BrowserAction
   route do
     post = PostQuery.new.preload_post_categories.find(post_id)
-    existing_ids = post.post_categories.map(&.category_id).to_set
+    existing_category_ids = post.post_categories.map(&.category_id).to_set
     response = nil
 
     AppDatabase.transaction do
       tx_result = nil
       SavePost.update(post, params) do |form, post|
-        if post && save_categories(post, existing_ids)
+        if post && save_categories(post, existing_category_ids) && save_tags(post, form, PostTagQuery.new.post_id(post.id).preload_tag)
           flash.success = "The post has been updated"
           response = redirect Show.with(post.id)
           tx_result = true
@@ -43,6 +43,28 @@ class Posts::Update < BrowserAction
 
     true
   rescue Lucky::MissingNestedParamError
+    false
+  end
+
+  private def save_tags(post, form, existing_post_tags) : Bool
+    tags = (form.tags.value || "").strip.downcase.split(/\s+/).to_set
+
+    keep, delete = existing_post_tags.partition { |post_tag| tags.includes?(post_tag.name) }
+    create = tags - keep.map(&.name)
+
+    create.each do |tag_name|
+      tag = TagQuery.new.name(tag_name).first?
+      if tag.nil?
+        tag = SaveTag.create!(name: tag_name)
+      end
+
+      SavePostTag.create!(post_id: post.id, tag_id: tag.id)
+    end
+
+    PostTagQuery.new.id.in(delete.map(&.id)).delete
+
+    true
+  rescue Avram::InvalidOperationError
     false
   end
 end
