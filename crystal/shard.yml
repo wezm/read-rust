@@ -8,7 +8,7 @@ targets:
   read_rust:
     main: src/read_rust.cr
 
-crystal: 0.31.1
+crystal: 0.32.1
 
 dependencies:
   lucky:
