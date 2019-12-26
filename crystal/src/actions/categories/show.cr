@@ -7,7 +7,7 @@ class Categories::Show < BrowserAction
     if category = CategoryQuery.new.slug(slug).first?
       weak_etag(last_modified(category).to_unix)
 
-      html ShowPage, category: category, posts: PostQuery.new.recent_in_category(category)
+      html ShowPage, category: category, posts: PostQuery.new.preload_tags.recent_in_category(category)
     else
       raise Lucky::RouteNotFoundError.new(context)
     end

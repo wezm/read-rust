@@ -6,7 +6,7 @@ class Creators::Index < BrowserAction
   get "/support" do
     weak_etag(last_modified.to_unix)
 
-    html IndexPage, creators: CreatorQuery.new.preload_tags, tags: TagQuery.new
+    html IndexPage, creators: CreatorQuery.new.preload_tags
   end
 
   private def last_modified

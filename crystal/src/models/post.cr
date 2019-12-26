@@ -10,5 +10,7 @@ class Post < BaseModel
     column tweeted_at : Time?
     column tooted_at : Time?
     has_many post_categories : PostCategory
+    has_many post_tags : PostTag
+    has_many tags : Tag, through: :post_tags
   end
 end

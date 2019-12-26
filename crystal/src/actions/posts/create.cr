@@ -4,7 +4,7 @@ class Posts::Create < BrowserAction
     AppDatabase.transaction do
       tx_result = nil
       SavePost.create(params) do |form, post|
-        if post && save_categories(post)
+        if post && save_categories(post) && save_tags(post, form)
           flash.success = "The record has been saved"
           response = redirect Show.with(post.id)
           tx_result = true
@@ -30,6 +30,22 @@ class Posts::Create < BrowserAction
 
     true
   rescue Lucky::MissingNestedParamError
+    false
+  end
+
+  private def save_tags(post, form) : Bool
+    tags = (form.tags.value || "").strip.downcase.split(/\s+/).uniq
+    tags.each do |tag_name|
+      tag = TagQuery.new.name(tag_name).first?
+      if tag.nil?
+        tag = SaveTag.create!(name: tag_name)
+      end
+
+      SavePostTag.create!(post_id: post.id, tag_id: tag.id)
+    end
+
+    true
+  rescue Avram::InvalidOperationError
     false
   end
 end
