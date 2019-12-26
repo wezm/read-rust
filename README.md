@@ -11,7 +11,7 @@ submitting a post.
 
 ## Development
 
-First up: I'm sorry 😭
+First up: I'm sorry.
 
 _I'm aware this involves a lot of dependencies. I had started building this
 version of the site in Rust but paused that effort as at Oct 2019 the web and
@@ -31,6 +31,7 @@ accordingly for other systems.
 * [Lucky CLI](https://github.com/luckyframework/lucky_cli)
   * [node] and [yarn] (for assets)
   * [overmind] (process runner to make development nicer)
+* [Diesel CLI](https://crates.io/crates/diesel_cli) — install with `cargo install diesel_cli --no-default-features --features postgres`
 * [Rust] >= 1.38.0
 * [PostgreSQL] (9, 10, or 11 should be fine. I develop on 11, CI runs 9)
 * [Chromium] (for running [flow tests])
@@ -74,8 +75,11 @@ and `TEST_DATABASE_URL` to match the user your created above.
 
 Set up the database and asset pipeline (only need to do this once):
 
+    diesel database setup --locked-schema --migration-dir rust/migrations
     cd crystal
-    script/setup
+    yarn install
+    yarn dev
+    shards install
 
 Run the development server:
 
@@ -83,13 +87,13 @@ Run the development server:
 
 After it compiles the site should now be accessible at: <http://127.0.0.1:3001/>
 
+## Notes
+
 ### Importing From Version 1
 
     cd crystal
     lucky import_posts ../content/_data/rust/posts.json ../content/_data/{tweeted,tooted}.json
     lucky import_creators ../content/_data/creators.yaml
-
-## Notes
 
 These are mostly notes to self (wezm).
 
