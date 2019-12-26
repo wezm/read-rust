@@ -1,4 +1,4 @@
-CREATE TABLE posts (
+CREATE TABLE IF NOT EXISTS posts (
     id bigserial PRIMARY KEY,
     guid uuid NOT NULL,
     title text NOT NULL,
@@ -13,4 +13,4 @@ CREATE TABLE posts (
     updated_at timestamp with time zone NOT NULL
 );
 
-CREATE UNIQUE INDEX posts_url_index ON posts (url);
+CREATE UNIQUE INDEX IF NOT EXISTS posts_url_index ON posts (url);

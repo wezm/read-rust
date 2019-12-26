@@ -1,4 +1,4 @@
-CREATE TABLE creators (
+CREATE TABLE IF NOT EXISTS creators (
     id bigserial PRIMARY KEY,
     name text NOT NULL,
     avatar text NOT NULL,

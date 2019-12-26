@@ -1,6 +1,6 @@
-CREATE TABLE tags (
+CREATE TABLE IF NOT EXISTS tags (
     id bigserial PRIMARY KEY,
     name text NOT NULL
 );
 
-CREATE UNIQUE INDEX tags_name_index ON tags (name);
+CREATE UNIQUE INDEX IF NOT EXISTS tags_name_index ON tags (name);
