@@ -11,7 +11,7 @@ class SavePost < Post::SaveOperation
   end
 
   private def validate_tags
-    if (tags.value || "").strip.downcase !~ /\A[a-z][ a-z0-9-]*\z/
+    if (tags.value || "").strip.downcase !~ /\A[ a-z0-9-]*\z/
       tags.add_error "must be space separated and only contain a-z, 0-9, or hyphen"
     end
   end
