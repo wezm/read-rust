@@ -1,6 +1,8 @@
 require "xml"
 
 class Sitemap::Show < BrowserAction
+  include Auth::AllowGuests
+
   get "/sitemap.xml" do
     xml sitemap
   end
