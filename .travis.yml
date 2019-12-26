@@ -34,6 +34,11 @@ matrix:
         # Install libstriptags
         - curl -OL https://releases.wezm.net/striptags/striptags_0.1.1-2_amd64.deb
         - sudo dpkg -i striptags_0.1.1-2_amd64.deb
+        - curl -OL https://releases.wezm.net/diesel_cli/1.4.0/diesel
+        - chmod 755 diesel && sudo mv diesel /usr/local/bin
+
+        # Run migrations
+        - env DATABASE_URL="${TEST_DATABASE_URL}" diesel database setup --locked-schema --migration-dir rust/migrations
 
         # Setup assets
         - cd crystal
