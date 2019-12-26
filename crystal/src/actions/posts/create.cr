@@ -34,7 +34,7 @@ class Posts::Create < BrowserAction
   end
 
   private def save_tags(post, form) : Bool
-    tags = (form.tags.value || "").strip.downcase.split(/\s+/).uniq
+    tags = (form.tags.value || "").strip.downcase.split(/\s+/, remove_empty: true).uniq
     tags.each do |tag_name|
       tag = TagQuery.new.name(tag_name).first?
       if tag.nil?

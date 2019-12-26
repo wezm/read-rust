@@ -47,7 +47,7 @@ class Posts::Update < BrowserAction
   end
 
   private def save_tags(post, form, existing_post_tags) : Bool
-    tags = (form.tags.value || "").strip.downcase.split(/\s+/).to_set
+    tags = (form.tags.value || "").strip.downcase.split(/\s+/, remove_empty: true).to_set
 
     keep, delete = existing_post_tags.partition { |post_tag| tags.includes?(post_tag.name) }
     create = tags - keep.map(&.name)
