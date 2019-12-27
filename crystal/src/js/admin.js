@@ -43,6 +43,13 @@ async function prefillForm(form) {
       let prefillValue = prefillData[fieldName];
       if (prefillValue && (field instanceof HTMLInputElement || field instanceof HTMLTextAreaElement)) {
         field.value = prefillValue;
+        if (fieldName === "post:url") {
+          // Set the link url
+          const link = document.querySelector(".url-form-field .open-url");
+          if (link instanceof HTMLAnchorElement) {
+            link.href = prefillValue;
+          }
+        }
       }
     }
   }
