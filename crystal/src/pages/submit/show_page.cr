@@ -4,6 +4,7 @@ class Submit::ShowPage < MainLayout
   include Page::RenderMarkdown
 
   quick_def page_title, "Submit Post"
+  quick_def page_description, "This page contains details on how to submit a post to Read Rust."
 
   def content
     raw render_markdown(markdown)

@@ -2,6 +2,7 @@ class Categories::ShowPage < MainLayout
   needs category : Category
   needs posts : PostQuery
   quick_def page_title, @category.name
+  quick_def page_description, "This page lists posts in the #{@category.name} category."
 
   def content
     text @category.description

@@ -5,6 +5,7 @@ class About::ShowPage < MainLayout
 
   needs categories : CategoryQuery
   quick_def page_title, "About"
+  quick_def page_description, ""
 
   def content
     raw render_markdown(markdown_top)

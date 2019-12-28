@@ -1,6 +1,7 @@
 class Creators::IndexPage < MainLayout
   needs creators : CreatorQuery
   quick_def page_title, "Support Rust"
+  quick_def page_description, "This page lists people and projects contributing to the Rust ecosystem that are accepting financial contributions. If you or your company is able, consider supporting one or more of these fine folks in their work making Rust better."
 
   def app_js?
     true

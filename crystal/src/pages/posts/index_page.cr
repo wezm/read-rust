@@ -1,6 +1,7 @@
 class Posts::IndexPage < MainLayout
   needs posts : PostQuery
   quick_def page_title, "All Posts"
+  quick_def page_description, "This page lists all posts that have been pulished on Read Rust."
 
   def content
     text "All #{@posts.size} posts. "

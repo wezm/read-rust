@@ -12,7 +12,7 @@ abstract class AuthLayout
     html_doctype
 
     html lang: "en" do
-      mount Shared::LayoutHead.new(page_title: page_title, context: @context, categories: CategoryQuery.new, app_js: false, admin: false, extra_css: extra_css)
+      mount Shared::LayoutHead.new(page_title: page_title, page_description: "", context: @context, categories: CategoryQuery.new, app_js: false, admin: false, extra_css: extra_css)
 
       body do
         mount Shared::Header.new(nil)

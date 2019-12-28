@@ -1,5 +1,6 @@
 class Shared::LayoutHead < BaseComponent
   needs page_title : String
+  needs page_description : String
   needs app_js : Bool
   needs admin : Bool
   needs extra_css : String?
@@ -26,7 +27,7 @@ class Shared::LayoutHead < BaseComponent
         tag "link", href: RssFeed::Show.with(category.slug).url, rel: "alternate", title: "Read Rust - #{category.name}", type: "application/rss+xml"
       end
 
-      meta content: "Read Rust collects interesting posts related to the Rust programming language.", name: "description"
+      meta content: "Read Rust collects and categorises interesting posts related to the Rust programming language. #{@page_description}", name: "description"
       css_link dynamic_asset(@extra_css), data_turbolinks_track: "reload" if @extra_css
     end
   end

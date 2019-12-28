@@ -2,6 +2,7 @@ class Tags::ShowPage < MainLayout
   needs tag : Tag
   needs posts : PostQuery
   quick_def page_title, "Tag: #{@tag.name}"
+  quick_def page_description, "This page lists posts tagged with '#{@tag.name}'."
 
   def content
     h2 do

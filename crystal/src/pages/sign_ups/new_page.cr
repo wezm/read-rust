@@ -1,6 +1,7 @@
 class SignUps::NewPage < AuthLayout
   needs operation : SignUpUser
   quick_def page_title, "Sign Up"
+  quick_def page_description, ""
 
   def content
     h1 "Sign Up"

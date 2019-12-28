@@ -1,5 +1,6 @@
 class Me::ShowPage < MainLayout
   quick_def page_title, "Your Profile"
+  quick_def page_description, ""
 
   def content
     h1 "This is your profile"

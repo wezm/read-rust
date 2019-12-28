@@ -2,6 +2,7 @@ class Categories::IndexPage < MainLayout
   needs categories : Array(Category)
   needs recent_posts : PostQuery
   quick_def page_title, "Home"
+  quick_def page_description, ""
 
   def content
     para do
