@@ -5,6 +5,7 @@ use std::rc::Rc;
 use diesel::{PgConnection, QueryResult};
 use elefren::apps::App;
 use elefren::scopes::Scopes;
+use elefren::status_builder::Visibility;
 use elefren::{Data, MastodonClient, Registration, StatusBuilder};
 
 use crate::categories::Category;
@@ -102,9 +103,12 @@ impl SocialNetwork for Mastodon {
             info!("Toot {}", status_text);
 
             if self.is_read_write() {
-                let _toot = self
-                    .client
-                    .new_status(StatusBuilder::new().status(status_text).build()?)?;
+                let _toot = self.client.new_status(
+                    StatusBuilder::new()
+                        .status(status_text)
+                        .visibility(Visibility::Unlisted)
+                        .build()?,
+                )?;
             }
         }
 
