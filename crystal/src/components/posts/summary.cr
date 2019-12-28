@@ -15,7 +15,7 @@ class Posts::Summary < BaseComponent
         end
       end
       tag "blockquote" do
-        simple_format(@post.summary)
+        simple_format(HTML.escape(@post.summary))
       end
 
       @post.tags.each do |tag|
