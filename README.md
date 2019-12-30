@@ -89,13 +89,13 @@ After it compiles the site should now be accessible at: <http://127.0.0.1:3001/>
 
 ## Notes
 
+These are mostly notes to self (wezm).
+
 ### Importing From Version 1
 
     cd crystal
     lucky import_posts ../content/_data/rust/posts.json ../content/_data/{tweeted,tooted}.json
     lucky import_creators ../content/_data/creators.yaml
-
-These are mostly notes to self (wezm).
 
 ### Resize Avatars
 
