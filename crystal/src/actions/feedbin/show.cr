@@ -25,7 +25,7 @@ class Feedbin::Show < BrowserAction
 
     add_field_if_present(prefill_data, "post:title", entry.title)
     add_field_if_present(prefill_data, "post:author", entry.author)
-    add_field_if_present(prefill_data, "post:summary", entry.summary)
+    add_field_if_present(prefill_data, "post:summary", entry.content.try { |content| Sanitise.strip_tags(content) })
 
     prefill_data
   end
@@ -57,9 +57,9 @@ class Feedbin::Show < BrowserAction
   end
 
   private def add_field_if_present(data : Hash(String, String), field : String, maybe_value : String?)
-    value = (maybe_value || "").strip
-    if value != ""
-      data[field] = value
+    value = maybe_value.try(&.strip)
+    unless value.blank?
+      data[field] = value.not_nil! # safe due to check above
     end
   end
 end
