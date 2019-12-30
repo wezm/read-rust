@@ -1,4 +1,7 @@
 module Feedbin
+  class Error < Exception
+  end
+
   class ExtractedArticle
     JSON.mapping(
       url: String,
@@ -44,7 +47,7 @@ module Feedbin
         if resp.success?
           Entry.from_json(resp.body_io)
         else
-          raise "FIXME: Feedbin error"
+          raise Error.new("Unsuccessful response from Feedbin [#{resp.status_code}]")
         end
       end
     end
