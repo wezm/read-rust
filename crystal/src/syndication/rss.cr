@@ -32,7 +32,21 @@ module RSS
         xml.element("title") { xml.text @title }
         xml.element("link") { xml.text @link }
         xml.element("dc", "creator", nil) { xml.text @author }
-        xml.element("description") { xml.cdata @description }
+        xml.element("description") { xml.cdata formatted_description(@description) }
+      end
+    end
+
+    # Derived from https://github.com/luckyframework/lucky/blob/086df892004accc6db50a8268e629af601a1d8e4/src/lucky/page_helpers/html_text_helpers.cr#L127
+    private def formatted_description(text : String) : String
+      split_paragraphs(text).join("<br><br>")
+    end
+
+    # Derived from https://github.com/luckyframework/lucky/blob/086df892004accc6db50a8268e629af601a1d8e4/src/lucky/page_helpers/text_helpers.cr#L258
+    private def split_paragraphs(text : String) : Array(String)
+      return Array(String).new if text.blank?
+
+      text.gsub(/\r\n?/, "\n").split(/\n\n+/).map do |t|
+        t.gsub(/([^\n]\n)(?=[^\n])/, "\\1<br>") || t
       end
     end
   end
