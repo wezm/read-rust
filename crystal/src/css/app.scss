@@ -192,6 +192,9 @@ blockquote {
 .tag.active {
   border-color: hsl(29.8, 100%, 50%);
 }
+.justify-text {
+  text-align: justify;
+}
 .creators {
   display: flex;
   flex-wrap: wrap;

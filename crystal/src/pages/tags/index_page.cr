@@ -4,9 +4,11 @@ class Tags::IndexPage < MainLayout
   quick_def page_description, "This page lists all the tags that posts are categorised by."
 
   def content
-    @tags.each do |tag|
-      text " "
-      link tag, to: Tags::Show.with(tag), class: "tag"
+    div class: "justify-text" do
+      @tags.each do |tag|
+        text " "
+        link tag, to: Tags::Show.with(tag), class: "tag"
+      end
     end
   end
 end

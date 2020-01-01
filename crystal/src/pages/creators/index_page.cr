@@ -50,7 +50,7 @@ class Creators::IndexPage < MainLayout
     section id: "featured"
     section do
       h2 "Rust Creators", id: "rust-creators"
-      div class: "filter" do
+      div class: "filter justify-text" do
         strong "Filter:", class: "visually-hidden"
         tag_link("all")
         tags.each do |tag|
