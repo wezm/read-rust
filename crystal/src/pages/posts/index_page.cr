@@ -19,6 +19,10 @@ class Posts::IndexPage < MainLayout
         li do
           a post.title, href: post.url
           text " by #{post.author}"
+          @current_user.try do
+            text " — "
+            link "Edit", Posts::Edit.with(post.id)
+          end
         end
       end
     end
