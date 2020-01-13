@@ -11,13 +11,15 @@ class Posts::Summary < BaseComponent
 
   def render
     article do
-      a @post.title, href: @post.url
-      text " by #{@post.author}"
-      if @show_categories
-        text " in "
-        @post.post_categories.each_with_index do |cat, index|
-          text ", " if index != 0
-          link cat.name, to: Categories::Show.with(cat.slug)
+      div class: "article-meta" do
+        a @post.title, href: @post.url
+        text " by #{@post.author}"
+        if @show_categories
+          text " in "
+          @post.post_categories.each_with_index do |cat, index|
+            text ", " if index != 0
+            link cat.name, to: Categories::Show.with(cat.slug)
+          end
         end
       end
       tag "blockquote" do
