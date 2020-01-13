@@ -10,6 +10,7 @@ class Posts::Update < BrowserAction
         if post && save_categories(post, existing_category_ids) && save_tags(post, form, PostTagQuery.new.post_id(post.id).preload_tag)
           flash.success = "The post has been updated"
           response = redirect Show.with(post.id)
+          refresh_full_text_index
           tx_result = true
         else
           flash.failure = "Unable to update Post"
@@ -66,5 +67,10 @@ class Posts::Update < BrowserAction
     true
   rescue Avram::InvalidOperationError
     false
+  end
+
+  private def refresh_full_text_index
+    AppDatabase.run(&.exec "REFRESH MATERIALIZED VIEW search_view")
+    Lucky.logger.info("Refreshed search index")
   end
 end
