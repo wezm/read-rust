@@ -7,6 +7,9 @@ class Posts::Create < BrowserAction
         if post && save_categories(post) && save_tags(post, form)
           flash.success = "The record has been saved"
           response = redirect Show.with(post.id)
+          # NOTE: We call this manually here instead of using a callback because the callback
+          # fires too early, before the tags have been updated.
+          refresh_full_text_index
           tx_result = true
         else
           flash.failure = "Unable to create Post"
@@ -47,5 +50,10 @@ class Posts::Create < BrowserAction
     true
   rescue Avram::InvalidOperationError
     false
+  end
+
+  private def refresh_full_text_index
+    AppDatabase.run(&.exec "REFRESH MATERIALIZED VIEW search_view")
+    Lucky.logger.info("Refreshed search index")
   end
 end

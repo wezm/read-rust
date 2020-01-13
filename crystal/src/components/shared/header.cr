@@ -1,15 +1,20 @@
 class Shared::Header < BaseComponent
   needs current_user : User?
+  needs query : String = ""
 
   def render
     current_user = @current_user
 
     header do
-      link to: Home::Index do
-        text "Read "
-        img alt: "", class: "logo", src: asset("images/logo.svg")
-        text " Rust"
+      div class: "logo-search-header #{@query.blank? ? "" : "logo-search-header-with-query"}" do
+        link to: Home::Index do
+          img alt: "", class: "logo", src: asset("images/logo.svg")
+          text "Read Rust"
+        end
+
+        mount Search::Form.new(@query)
       end
+
       nav do
         div class: "list-inline" do
           div do

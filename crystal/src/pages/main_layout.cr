@@ -4,6 +4,11 @@ abstract class MainLayout
   # 'needs current_user : User' makes it so that the current_user
   # is always required for pages using MainLayout
   needs current_user : User?
+  # FIXME: Enable when there's a Lucky release with this fix in it
+  # https://github.com/luckyframework/lucky/pull/993
+  # needs query : String = ""
+
+  @query : String = ""
 
   abstract def content
   abstract def page_title
@@ -28,21 +33,13 @@ abstract class MainLayout
       mount Shared::LayoutHead.new(page_title: page_title, page_description: page_description, context: @context, categories: CategoryQuery.new, app_js: app_js?, admin: admin?, extra_css: extra_css)
 
       body do
-        mount Shared::Header.new(@current_user)
+        mount Shared::Header.new(@current_user, @query)
         mount Shared::FlashMessages.new(@context.flash)
         main class: "main" do
           h1 page_title
           content
         end
         footer do
-          form action: "https://duckduckgo.com/", class: "right", id: "search", method: "get" do
-            input name: "sites", type: "hidden", value: "readrust.net"
-            input name: "kz", type: "hidden", value: "-1"
-            input name: "kaf", type: "hidden", value: "1"
-            input aria_label: "Search Read Rust", autocapitalize: "off", autocomplete: "off", id: "q", maxlength: "255", name: "q", placeholder: "Search", title: "Search Read Rust", type: "search"
-            text " "
-            input type: "submit", value: "Search"
-          end
           text " Copyright © 2018–#{Time.utc.year} "
           a "Wesley Moore", href: "https://www.wezm.net/about/"
           text ". Read Rust is not an official Rust or Mozilla project."
