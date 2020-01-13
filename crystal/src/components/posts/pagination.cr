@@ -8,13 +8,13 @@ class Posts::Pagination < BaseComponent
 
   def render
     div class: "pagination" do
-      first_page
-      prev_page
+      first_page if total_pages > 2
+      prev_page if total_pages > 1
       span class: "pagination-link" do
         raw "Page #{@page}&nbsp;of&nbsp;#{total_pages}"
       end
-      next_page
-      last_page
+      next_page if total_pages > 1
+      last_page if total_pages > 2
     end
   end
 
