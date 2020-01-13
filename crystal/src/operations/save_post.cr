@@ -6,6 +6,7 @@ class SavePost < Post::SaveOperation
   before_save assign_guid
   before_save validate_tags
   before_save validate_url
+  after_commit refresh_full_text_index
 
   private def assign_guid
     guid.value ||= UUID.random
@@ -21,5 +22,9 @@ class SavePost < Post::SaveOperation
     if (url.value || "").includes?("utm_source")
       url.add_error "must not contain tracking parameters"
     end
+  end
+
+  private def refresh_full_text_index(_newly_created_post : Post)
+    AppDatabase.run(&.exec "REFRESH MATERIALIZED VIEW search_view")
   end
 end
