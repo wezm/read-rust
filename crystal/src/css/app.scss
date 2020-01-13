@@ -124,7 +124,7 @@ mark {
   }
 }
 .logo-search-header-with-query {
-  justify-content: center;
+  text-align: center;
 
   .search-form {
     display: none;
@@ -283,6 +283,18 @@ mark {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.pagination {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.1em;
+}
+.pagination-link {
+  padding-right: 1em;
+}
+a.pagination-link {
+  color: blue;
+}
+
 .search-form input[type="text"] {
   width: 20em;
 }
@@ -334,6 +346,9 @@ mark {
 @media (max-width: 460px) {
   .list-inline {
     flex-wrap: wrap;
+  }
+  .pagination-link-bounds {
+    display: none;
   }
 }
 
