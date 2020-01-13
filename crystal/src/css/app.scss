@@ -59,6 +59,9 @@ header a {
   color: currentColor;
   text-decoration: none;
 }
+header .search-form {
+  text-align: right;
+}
 h1 a {
   color: currentColor;
   text-decoration: none;
@@ -277,9 +280,6 @@ mark {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.search-form {
-  text-align: right;
-}
 .search-form input[type="text"] {
   width: 20em;
 }
