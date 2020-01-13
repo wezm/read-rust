@@ -1,6 +1,6 @@
 class Search::ShowPage < MainLayout
   needs query : String
-  needs posts : PostQuery
+  needs results : Array(SearchResult)
 
   quick_def page_title, "Search Results"
   quick_def page_description, ""
@@ -8,14 +8,12 @@ class Search::ShowPage < MainLayout
   def content
     mount Search::Form.new(@query)
 
-    count = 0
-    @posts.each do |post|
-      count += 1
-      mount Posts::Summary.new(post, @current_user, show_categories: true)
-    end
-
-    if count.zero?
+    if @results.empty?
       para "No results were found."
+    else
+      @results.each do |result|
+        mount Posts::Summary.new(result.post, @current_user, show_categories: true, highlight: result.summary)
+      end
     end
   end
 end

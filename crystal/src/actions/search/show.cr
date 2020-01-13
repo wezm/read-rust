@@ -6,9 +6,9 @@ class Search::Show < BrowserAction
   get "/search" do
     if q.blank?
       flash.failure = "You need to specify what to search for"
-      html Search::ShowPage, query: q, posts: PostQuery.new.none
+      html Search::ShowPage, query: q, results: [] of SearchResult
     else
-      html Search::ShowPage, query: q, posts: PostQuery.search(q).preload_post_categories.preload_tags
+      html Search::ShowPage, query: q, results: PostQuery.search(q)
     end
   end
 end
