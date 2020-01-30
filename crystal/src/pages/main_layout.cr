@@ -73,18 +73,7 @@ abstract class MainLayout
           end
         end
         if Lucky::Env.production?
-          script do
-            raw <<-JS
-            (function() {
-              var script = document.createElement('script');
-              window.counter = 'https://readrust.goatcounter.com/count'
-              script.async = 1;
-              script.src = '//static.goatcounter.com/count.min.js';
-
-              var ins = document.getElementsByTagName('script')[0];
-              ins.parentNode.insertBefore(script, ins)
-            })();
-            JS
+          tag "script", " async ", data_goatcounter: "https://readrust.goatcounter.com/count", src: "//gc.zgo.at/count.js" do
           end
         end
       end
