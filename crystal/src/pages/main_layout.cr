@@ -73,8 +73,7 @@ abstract class MainLayout
           end
         end
         if Lucky::Env.production?
-          tag "script", " async ", data_goatcounter: "https://readrust.goatcounter.com/count", src: "//gc.zgo.at/count.js" do
-          end
+          script src: "//gc.zgo.at/count.js", attrs: [:async], data_goatcounter: "https://readrust.goatcounter.com/count"
         end
       end
     end
