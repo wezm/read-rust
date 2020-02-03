@@ -21,7 +21,7 @@ use std::sync::Arc;
 
 const LOG_ENV_VAR: &str = "READRUST_LOG";
 const ONE_SECOND: Duration = Duration::from_secs(1);
-const SLEEP_TIME: usize = 300; // 5 minutes
+const SLEEP_TIME: usize = 600; // 10 minutes
 
 enum Service {
     Twitter,
