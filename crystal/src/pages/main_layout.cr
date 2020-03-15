@@ -4,11 +4,7 @@ abstract class MainLayout
   # 'needs current_user : User' makes it so that the current_user
   # is always required for pages using MainLayout
   needs current_user : User?
-  # FIXME: Enable when there's a Lucky release with this fix in it
-  # https://github.com/luckyframework/lucky/pull/993
-  # needs query : String = ""
-
-  @query : String = ""
+  needs query : String = ""
 
   abstract def content
   abstract def page_title

@@ -1,5 +1,4 @@
 class Search::ShowPage < MainLayout
-  needs query : String
   needs results : SearchResults
 
   quick_def page_title, "Search Results"

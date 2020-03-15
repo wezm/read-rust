@@ -37,6 +37,11 @@ class RssFeed::Show < BrowserAction
   end
 
   private def last_modified
-    PostQuery.new.last_modified_in_category(category)
+    time = PostQuery.new.last_modified_in_category(category)
+    if time.nil?
+      Time.utc
+    else
+      time
+    end
   end
 end
