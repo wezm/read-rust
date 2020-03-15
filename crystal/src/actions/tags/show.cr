@@ -23,12 +23,12 @@ class Tags::Show < BrowserAction
   end
 
   private def last_modified(tag)
-    PostQuery.new.where_post_tags(PostTagQuery.new.tag_id(tag.id)).updated_at.select_max
-  rescue TypeCastError
-    # Workaround error: cast from Nil to Time failed
-    # originating in Avram
-    # https://github.com/luckyframework/avram/pull/287
-    Time.utc
+    time = PostQuery.new.where_post_tags(PostTagQuery.new.tag_id(tag.id)).updated_at.select_max
+    if time.nil?
+      Time.utc
+    else
+      time
+    end
   end
 
   private def respond_with_html(tag : Tag, posts : PostQuery)

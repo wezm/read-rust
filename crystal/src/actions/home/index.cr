@@ -12,6 +12,11 @@ class Home::Index < BrowserAction
   end
 
   private def last_modified
-    PostQuery.new.updated_at.select_max
+    time = PostQuery.new.updated_at.select_max
+    if time.nil?
+      Time.utc
+    else
+      time
+    end
   end
 end

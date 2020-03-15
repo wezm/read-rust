@@ -9,7 +9,12 @@ class Posts::Index < BrowserAction
     html Posts::IndexPage, posts: PostQuery.new.created_at.desc_order
   end
 
-  private def last_modified
-    PostQuery.new.updated_at.select_max
+  private def last_modified : Time
+    time = PostQuery.new.updated_at.select_max
+    if time.nil?
+      Time.utc
+    else
+      time
+    end
   end
 end

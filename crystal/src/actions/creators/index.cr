@@ -10,6 +10,11 @@ class Creators::Index < BrowserAction
   end
 
   private def last_modified
-    CreatorQuery.new.updated_at.select_max
+    time = CreatorQuery.new.updated_at.select_max
+    if time.nil?
+      Time.utc
+    else
+      time
+    end
   end
 end
