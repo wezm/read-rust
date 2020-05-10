@@ -2,15 +2,15 @@ version: 1.0
 shards:
   authentic:
     github: luckyframework/authentic
-    version: 0.5.2
+    version: 0.5.4
 
   avram:
     github: luckyframework/avram
-    version: 0.12.4
+    version: 0.13.1
 
   bindata:
     github: spider-gazelle/bindata
-    version: 1.2.0
+    version: 1.5.1
 
   blank:
     github: kostya/blank
@@ -26,7 +26,7 @@ shards:
 
   db:
     github: crystal-lang/crystal-db
-    version: 0.8.0
+    version: 0.9.0
 
   dexter:
     github: luckyframework/dexter
@@ -50,15 +50,15 @@ shards:
 
   lucky:
     github: luckyframework/lucky
-    version: 0.19.0
+    version: 0.20.0
 
   lucky_cli:
     github: luckyframework/lucky_cli
-    version: 0.18.4
+    version: 0.20.0
 
   lucky_flow:
     github: luckyframework/lucky_flow
-    version: 0.6.2
+    version: 0.6.3
 
   lucky_router:
     github: luckyframework/lucky_router
@@ -74,7 +74,7 @@ shards:
 
   pg:
     github: will/crystal-pg
-    version: 0.20.0
+    version: 0.21.0
 
   selenium:
     github: ysbaddaden/selenium-webdriver-crystal
@@ -86,7 +86,7 @@ shards:
 
   teeplate:
     github: luckyframework/teeplate
-    version: 0.8.0
+    version: 0.8.1
 
   wordsmith:
     github: luckyframework/wordsmith

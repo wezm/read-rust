@@ -22,7 +22,7 @@ class Errors::ShowPage
 
           ul class: "helpful-links" do
             li do
-              link "Try heading back to home", to: "/", class: "helpful-link"
+              a href: "Try heading back to home", to: "/", class: "helpful-link"
             end
           end
         end

@@ -41,7 +41,7 @@ abstract class MainLayout
           text ". Read Rust is not an official Rust or Mozilla project."
           br
           text "Revision "
-          link "https://github.com/wezm/read-rust/commit/#{ReadRust::Config.revision}" do
+          a href: "https://github.com/wezm/read-rust/commit/#{ReadRust::Config.revision}" do
             code ReadRust::Config.revision
           end
           text ". Source on "
