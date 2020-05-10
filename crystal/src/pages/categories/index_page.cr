@@ -24,7 +24,7 @@ class Categories::IndexPage < MainLayout
     end
     para do
       text "Read Rust is run by "
-      a "Wesley Moore", href: "http://www.wezm.net/about/"
+      a "Wesley Moore", href: "https://www.wezm.net/v2/about/"
       text ". If you enjoy it, consider "
       a href: "https://patreon.com/wezm" do
         text "supporting me"
@@ -58,7 +58,7 @@ class Categories::IndexPage < MainLayout
 
     link "View all posts", to: Categories::Show.with("all")
 
-    h2 "Post Organistion"
+    h2 "Post Organisation"
 
     h3 "Tags"
 

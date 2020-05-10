@@ -49,7 +49,7 @@ class About::ShowPage < MainLayout
     for the whole site, as well as each of the categories:
 
     [rust-lang]: https://www.rust-lang.org/
-    [wezm]: http://www.wezm.net/about/
+    [wezm]: https://www.wezm.net/v2/about/
     [@wezm]: https://twitter.com/wezm
     [@wezm@mastodon]: https://mastodon.social/@wezm
     [Patreon]: https://patreon.com/wezm
