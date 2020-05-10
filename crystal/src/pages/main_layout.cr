@@ -37,7 +37,7 @@ abstract class MainLayout
         end
         footer do
           text " Copyright © 2018–#{Time.utc.year} "
-          a "Wesley Moore", href: "https://www.wezm.net/about/"
+          a "Wesley Moore", href: "https://www.wezm.net/v2/about/"
           text ". Read Rust is not an official Rust or Mozilla project."
           br
           text "Revision "
