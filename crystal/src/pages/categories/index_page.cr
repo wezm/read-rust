@@ -58,7 +58,17 @@ class Categories::IndexPage < MainLayout
 
     link "View all posts", to: Categories::Show.with("all")
 
-    h2 "Sections"
+    h2 "Post Organistion"
+
+    h3 "Tags"
+
+    para do
+      text "Posts may be tagged with one or more keywords. Visit "
+      link "the tags page", to: Tags::Index
+      text " to view them all."
+    end
+
+    h3 "Sections"
     para "New posts are added to one or more of the following sections:"
 
     ul do
