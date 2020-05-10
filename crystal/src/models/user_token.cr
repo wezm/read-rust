@@ -17,7 +17,7 @@ class UserToken
     payload, _header = JWT.decode(token, Lucky::Server.settings.secret_key_base, ALGORITHM)
     payload["user_id"].to_s.to_i64
   rescue e : JWT::Error
-    Lucky.logger.error(jwt_decode_error: e.message)
+    Log.dexter.error { { jwt_decode_error: e.message } }
     nil
   end
 

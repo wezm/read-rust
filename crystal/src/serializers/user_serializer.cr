@@ -1,4 +1,4 @@
-class UserSerializer < Lucky::Serializer
+class UserSerializer < BaseSerializer
   def initialize(@user : User)
   end
 

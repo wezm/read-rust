@@ -23,6 +23,8 @@
 # You may also want to have more more classes if you render fields
 # differently in different parts of your app, e.g. `Shared::CompactField``
 class Shared::Field(T) < BaseComponent
+  include Lucky::CatchUnpermittedAttribute
+
   needs field : Avram::PermittedAttribute(T)
   needs label : String? = nil
 

@@ -8,7 +8,7 @@ class Posts::Form < BaseComponent
     div class: "url-form-field" do
       mount Shared::Field.new(@form.url, "URL"), &.url_input(attrs: [:required])
       url = @form.url.value || "#"
-      link "🡭", to: url, class: "open-url", target: "_blank"
+      a href: "🡭", to: url, class: "open-url", target: "_blank"
     end
     mount Shared::Field.new(@form.twitter_url, "Twitter URL"), &.url_input
     mount Shared::Field.new(@form.mastodon_url, "Fediverse URL"), &.url_input
