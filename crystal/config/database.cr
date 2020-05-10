@@ -10,7 +10,6 @@ end
 
 Avram.configure do |settings|
   settings.database_to_migrate = AppDatabase
-  # settings.query_log_level = ::Logger::Severity::INFO
 
   # In production, allow lazy loading (N+1).
   # In development and test, raise an error if you forget to preload associations

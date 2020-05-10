@@ -71,6 +71,6 @@ class Posts::Update < BrowserAction
 
   private def refresh_full_text_index
     AppDatabase.run(&.exec "REFRESH MATERIALIZED VIEW search_view")
-    Lucky.logger.info("Refreshed search index")
+    Log.info { "Refreshed search index" }
   end
 end

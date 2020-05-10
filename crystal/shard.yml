@@ -13,10 +13,10 @@ crystal: 0.34.0
 dependencies:
   lucky:
     github: luckyframework/lucky
-    version: ~> 0.20.0
+    version: ~> 0.21.0
   authentic:
     github: luckyframework/authentic
-    version: ~> 0.5.2
+    version: ~> 0.5.4
   carbon:
     github: luckyframework/carbon
     version: ~> 0.1.1
@@ -25,7 +25,7 @@ dependencies:
     version: 0.3.0
   lucky_flow:
     github: luckyframework/lucky_flow
-    version: ~> 0.6.2
+    version: ~> 0.6.3
   jwt:
     github: crystal-community/jwt
     version: ~> 1.4.0%
