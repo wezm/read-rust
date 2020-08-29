@@ -23,6 +23,7 @@ matrix:
         - stable
 
     - language: crystal
+      crystal: '0.34.0'
       addons:
         chrome: stable
       services:
