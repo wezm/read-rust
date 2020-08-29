@@ -37,7 +37,7 @@ class About::ShowPage < MainLayout
     Read Rust collects interesting posts related to the [Rust programming
     language][rust-lang]. It is run by [Wesley Moore][wezm] with contributions from
     the Rust community. Find me on [Twitter][@wezm] or [Mastodon][@wezm@mastodon].
-    You can [support my work on Patreon][Patreon].
+    You can [support my work via GitHub Sponsors][sponsor].
 
     Read Rust is an open source project. The [source code][source] and [issue
     tracker][issues] are hosted on GitHub.
@@ -52,7 +52,7 @@ class About::ShowPage < MainLayout
     [wezm]: https://www.wezm.net/v2/about/
     [@wezm]: https://twitter.com/wezm
     [@wezm@mastodon]: https://mastodon.social/@wezm
-    [Patreon]: https://patreon.com/wezm
+    [sponsor]: https://github.com/sponsors/wezm
     [source]: https://github.com/wezm/read-rust
     [issues]: https://github.com/wezm/read-rust/issues
     MD

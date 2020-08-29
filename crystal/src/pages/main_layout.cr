@@ -63,9 +63,6 @@ abstract class MainLayout
             a href: "https://github.com/wezm/read-rust" do
               img alt: "Read Rust on GitHub", src: asset("images/github.svg")
             end
-            a href: "https://patreon.com/wezm" do
-              img alt: "Support me on Patreon", src: asset("images/patreon.svg")
-            end
           end
         end
         if Lucky::Env.production?

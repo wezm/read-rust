@@ -26,7 +26,7 @@ class Categories::IndexPage < MainLayout
       text "Read Rust is run by "
       a "Wesley Moore", href: "https://www.wezm.net/v2/about/"
       text ". If you enjoy it, consider "
-      a href: "https://patreon.com/wezm" do
+      a href: "https://github.com/sponsors/wezm" do
         text "supporting me"
       end
       text " or any of the "
