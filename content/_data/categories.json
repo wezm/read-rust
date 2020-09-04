@@ -13,6 +13,7 @@
   { "id": 11, "name": "Rust 2018",                "hashtag": "#Rust2018",    "slug": "rust-2018",                "year": 2018, "description": "Hopes and dreams for Rust in 2018." },
   { "id": 12, "name": "Rust 2019",                "hashtag": "#rust2019",    "slug": "rust-2019",                "year": 2019, "description": "Ideas from the community for Rust in 2019, and the next edition." },
   { "id": 16, "name": "Rust 2020",                "hashtag": "#rust2020",    "slug": "rust-2020",                "year": 2020, "description": "Ideas from the Rust community and picking a theme for 2020." },
+  { "id": 17, "name": "Rust 2021",                "hashtag": "#rust2021",    "slug": "rust-2021",                "year": 2021, "description": "Planning the roadmap for 2021." },
   { "id": 13, "name": "Tools and Applications",   "hashtag": "#tools",       "slug": "tools-and-applications",   "year": null, "description": "Command line tools and GUI applications written in or for Rust." },
   { "id": 14, "name": "Security",                 "hashtag": "#security",    "slug": "security",                 "year": null, "description": "Security, cryptography, etc." },
   { "id": 15, "name": "Web and Network Services", "hashtag": "#web",         "slug": "web-and-network-services", "year": null, "description": "Web applications, web assembly, network daemons, etc." }
