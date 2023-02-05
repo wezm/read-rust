@@ -10,7 +10,7 @@ Lucky::Server.configure do |settings|
     settings.gzip_enabled = true
     # By default certain content types will be gzipped.
     # For a full list look in
-    # https://github.com/luckyframework/lucky/blob/master/src/lucky/server.cr
+    # https://github.com/luckyframework/lucky/blob/main/src/lucky/server.cr
     # To add additional extensions do something like this:
     # settings.gzip_content_types << "content/type"
   else
@@ -46,15 +46,15 @@ Lucky::ForceSSLHandler.configure do |settings|
   settings.enabled = false
 end
 
-# Set a uniuqe ID for each HTTP request.
-Lucky::RequestIdHandler.configure do |settings|
+# Set a unique ID for each HTTP request.
+#Lucky::RequestIdHandler.configure do |settings|
   # To enable the request ID, uncomment the lines below.
   # You can set your own custom String, or use a random UUID.
   #
   # settings.set_request_id = ->(context : HTTP::Server::Context) {
   #   UUID.random.to_s
   # }
-end
+#end
 
 private def secret_key_from_env
   ENV["SECRET_KEY_BASE"]? || raise_missing_secret_key_in_production
