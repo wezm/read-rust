@@ -20,6 +20,7 @@ else
   backend = Log::IOBackend.new
   backend.formatter = Lucky::PrettyLogFormatter.proc
   Log.dexter.configure(:debug, backend)
+  DB::Log.level = :info
 end
 
 # Lucky only logs when before/after pipes halt by redirecting, or rendering a

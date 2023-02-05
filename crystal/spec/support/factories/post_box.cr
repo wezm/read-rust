@@ -1,4 +1,4 @@
-class PostBox < Avram::Box
+class PostFactory < Avram::Factory
   def initialize
     guid UUID.random(Random.new, UUID::Variant::RFC4122, UUID::Version::V4)
     title "Test"

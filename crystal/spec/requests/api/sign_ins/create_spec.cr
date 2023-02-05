@@ -3,7 +3,7 @@ require "../../../spec_helper"
 describe Api::SignIns::Create do
   it "returns a token" do
     UserToken.stub_token("fake-token") do
-      user = UserBox.create
+      user = UserFactory.create
 
       response = ApiClient.exec(Api::SignIns::Create, user: valid_params(user))
 
@@ -12,7 +12,7 @@ describe Api::SignIns::Create do
   end
 
   it "returns an error if credentials are invalid" do
-    user = UserBox.create
+    user = UserFactory.create
     invalid_params = valid_params(user).merge(password: "incorrect")
 
     response = ApiClient.exec(Api::SignIns::Create, user: invalid_params)

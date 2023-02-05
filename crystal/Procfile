@@ -1,2 +1,2 @@
-web: ./app
+web: ./bin/read_rust
 release: lucky db.migrate

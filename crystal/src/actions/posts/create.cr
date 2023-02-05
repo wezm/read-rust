@@ -1,5 +1,5 @@
 class Posts::Create < BrowserAction
-  route do
+  post "/posts" do
     response = nil
     AppDatabase.transaction do
       tx_result = nil

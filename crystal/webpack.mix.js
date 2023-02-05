@@ -41,16 +41,18 @@ if (mix.inProduction()) {
 }
 
 mix
+  // Set public path so manifest gets output here
+  .setPublicPath("public")
   // JS entry file. Supports Vue, and uses Babel
   //
   // More info and options (like React support) here:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/mixjs.md
-  .js("src/js/app.js", "public/js")
-  .js("src/js/admin.js", "public/js")
+  .js("src/js/app.js", "js")
+  .js("src/js/admin.js", "js")
   // SASS entry file. Uses autoprefixer automatically.
-  .sass("src/css/app.scss", "public/css")
-  .sass("src/css/admin.scss", "public/css")
-  .sass("src/css/balloon.scss", "public/css")
+  .sass("src/css/app.scss", "css")
+  .sass("src/css/admin.scss", "css")
+  .sass("src/css/balloon.scss", "css")
   // Customize postCSS:
   // https://github.com/JeffreyWay/laravel-mix/blob/master/docs/css-preprocessors.md#postcss-plugins
   .options({
@@ -60,8 +62,6 @@ mix
     // Stops Mix from clearing the console when compilation succeeds
     clearConsole: false
   })
-  // Set public path so manifest gets output here
-  .setPublicPath("public")
   // Add assets to the manifest
   .version(["public/assets"])
   // Reduce noise in Webpack output
@@ -77,7 +77,6 @@ mix
 
 // Full API
 // Docs: https://github.com/JeffreyWay/laravel-mix/tree/master/docs#readme
-// Source: node_modules/laravel-mix/setup/webpack.mix.js
 //
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.

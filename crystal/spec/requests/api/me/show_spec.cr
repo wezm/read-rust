@@ -2,7 +2,7 @@ require "../../../spec_helper"
 
 describe Api::Me::Show do
   it "returns the signed in user" do
-    user = UserBox.create
+    user = UserFactory.create
 
     response = ApiClient.auth(user).exec(Api::Me::Show)
 

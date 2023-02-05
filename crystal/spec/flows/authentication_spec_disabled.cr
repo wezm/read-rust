@@ -18,7 +18,7 @@ describe "Authentication flow" do
   #
   # Feel free to delete this once you have other tests using the 'as' option.
   it "allows sign in through backdoor when testing" do
-    user = UserBox.create
+    user = UserFactory.create
     flow = BaseFlow.new
 
     flow.visit Me::Show, as: user

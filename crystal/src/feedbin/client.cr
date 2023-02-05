@@ -1,3 +1,5 @@
+require "json_mapping"
+
 module Feedbin
   class Error < Exception
   end
