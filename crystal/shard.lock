@@ -2,11 +2,11 @@ version: 2.0
 shards:
   authentic:
     git: https://github.com/luckyframework/authentic.git
-    version: 0.8.0
+    version: 0.8.1
 
   avram:
     git: https://github.com/luckyframework/avram.git
-    version: 0.21.1
+    version: 0.22.0
 
   backtracer:
     git: https://github.com/sija/backtracer.cr.git
@@ -22,7 +22,7 @@ shards:
 
   carbon_sendgrid_adapter:
     git: https://github.com/luckyframework/carbon_sendgrid_adapter.git
-    version: 0.1.0
+    version: 0.2.1
 
   cry:
     git: https://github.com/luckyframework/cry.git
@@ -54,19 +54,27 @@ shards:
 
   jwt:
     git: https://github.com/crystal-community/jwt.git
-    version: 1.5.1
+    version: 1.6.0
 
   lucky:
     git: https://github.com/luckyframework/lucky.git
-    version: 0.28.0
+    version: 0.29.0
+
+  lucky_cache:
+    git: https://github.com/luckyframework/lucky_cache.git
+    version: 0.1.1
 
   lucky_env:
     git: https://github.com/luckyframework/lucky_env.git
-    version: 0.1.3
+    version: 0.1.4
 
   lucky_flow:
     git: https://github.com/luckyframework/lucky_flow.git
     version: 0.7.3
+
+  lucky_legacy_routing:
+    git: https://github.com/matthewmcgarvey/lucky_legacy_routing.git
+    version: 0.1.2
 
   lucky_router:
     git: https://github.com/luckyframework/lucky_router.git
@@ -98,7 +106,11 @@ shards:
 
   shell-table:
     git: https://github.com/luckyframework/shell-table.cr.git
-    version: 0.9.3+git.commit.fefbc8b19d18630660b2653de755217597808b1b
+    version: 0.9.3
+
+  splay_tree_map:
+    git: https://github.com/wyhaines/splay_tree_map.cr.git
+    version: 0.2.2
 
   teeplate:
     git: https://github.com/luckyframework/teeplate.git
