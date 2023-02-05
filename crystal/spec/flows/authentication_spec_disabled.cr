@@ -1,6 +1,6 @@
 require "../spec_helper"
 
-describe "Authentication flow" do
+describe "Authentication flow", tags: "flow"  do
   it "works" do
     flow = AuthenticationFlow.new("test@example.com")
 

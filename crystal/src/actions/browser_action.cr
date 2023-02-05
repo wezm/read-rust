@@ -1,5 +1,8 @@
 abstract class BrowserAction < Lucky::Action
   include Lucky::ProtectFromForgery
+
+  # By default all actions are required to use underscores.
+  # Add `include Lucky::SkipRouteStyleCheck` to your actions if you wish to ignore this check for specific routes.
   include Lucky::EnforceUnderscoredRoute
 
   # This module disables Google FLoC by setting the

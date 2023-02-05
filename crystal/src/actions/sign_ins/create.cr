@@ -1,3 +1,5 @@
+require "lucky_legacy_routing/extensions"
+
 class SignIns::Create < BrowserAction
   include Auth::RedirectSignedInUsers
 
