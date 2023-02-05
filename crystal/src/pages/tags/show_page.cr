@@ -16,7 +16,7 @@ class Tags::ShowPage < MainLayout
     end
 
     @posts.each do |post|
-      mount Posts::Summary.new(post, @current_user, show_categories: true)
+      mount Posts::Summary, post, @current_user, show_categories: true
     end
 
     para do

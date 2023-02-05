@@ -3,17 +3,17 @@ class Posts::Form < BaseComponent
   needs post : Post?
 
   def render
-    mount Shared::Field.new(@form.title), &.text_input(attrs: [:autofocus, :required])
-    mount Shared::Field.new(@form.author), &.text_input(attrs: [:required])
+    mount Shared::Field, @form.title, &.text_input(attrs: [:autofocus, :required])
+    mount Shared::Field, @form.author, &.text_input(attrs: [:required])
     div class: "url-form-field" do
-      mount Shared::Field.new(@form.url, "URL"), &.url_input(attrs: [:required])
+      mount Shared::Field, @form.url, "URL", &.url_input(attrs: [:required])
       url = @form.url.value || "#"
       a "🡭", href: url, class: "open-url", target: "_blank"
     end
-    mount Shared::Field.new(@form.twitter_url, "Twitter URL"), &.url_input
-    mount Shared::Field.new(@form.mastodon_url, "Fediverse URL"), &.url_input
-    mount Shared::Field.new(@form.summary), &.textarea(required: "required")
-    mount Shared::Field.new(@form.tags)
+    mount Shared::Field, @form.twitter_url, "Twitter URL", &.url_input
+    mount Shared::Field, @form.mastodon_url, "Fediverse URL", &.url_input
+    mount Shared::Field, @form.summary, &.textarea(required: "required")
+    mount Shared::Field, @form.tags
 
     fieldset(class: "categories") do
       tag "legend" { text "Categories" }

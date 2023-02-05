@@ -30,7 +30,7 @@ class Posts::Summary < BaseComponent
         text " "
         link tag.name, to: Tags::Show.with(tag.name), class: "tag"
       end
-      mount Posts::ActionBar.new(@post, @current_user)
+      mount Posts::ActionBar, @post, @current_user
     end
   end
 

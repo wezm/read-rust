@@ -5,7 +5,7 @@ class Posts::NewPage < AdminLayout
 
   def content
     form_for Posts::Create, id: "new-post-form", class: "form-stacked" do
-      mount Posts::Form.new(@form, post: nil)
+      mount Posts::Form, @form, post: nil
     end
   end
 end
