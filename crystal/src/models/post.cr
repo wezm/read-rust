@@ -11,6 +11,6 @@ class Post < BaseModel
     column tooted_at : Time?
     has_many post_categories : PostCategory
     has_many post_tags : PostTag
-    has_many tags : Tag, through: :post_tags
+    has_many tags : Tag, through: [:post_tags, :tag]
   end
 end
