@@ -84,10 +84,6 @@ shards:
     git: https://github.com/luckyframework/lucky_flow.git
     version: 0.9.0
 
-  lucky_legacy_routing:
-    git: https://github.com/matthewmcgarvey/lucky_legacy_routing.git
-    version: 0.1.2
-
   lucky_router:
     git: https://github.com/luckyframework/lucky_router.git
     version: 0.5.1
