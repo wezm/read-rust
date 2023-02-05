@@ -27,14 +27,19 @@ class AuthenticationFlow < BaseFlow
   end
 
   def should_be_signed_in
-    sign_out_button.should be_on_page
+    current_page.should have_element("@sign-out-button")
   end
 
   def should_have_password_error
-    el("body", text: "Password is wrong").should be_on_page
+    current_page.should have_element("body", text: "Password is wrong")
   end
 
   private def sign_out_button
     el("@sign-out-button")
+  end
+
+  # NOTE: this is a shim for readability
+  private def current_page
+    self
   end
 end

@@ -9,6 +9,6 @@ class SignUpUser < User::SaveOperation
 
   before_save do
     validate_uniqueness_of email
-    Authentic.copy_and_encrypt password, to: encrypted_password
+    Authentic.copy_and_encrypt(password, to: encrypted_password) if password.valid?
   end
 end

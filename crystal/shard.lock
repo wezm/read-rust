@@ -2,11 +2,11 @@ version: 2.0
 shards:
   authentic:
     git: https://github.com/luckyframework/authentic.git
-    version: 0.8.2
+    version: 0.9.0
 
   avram:
     git: https://github.com/luckyframework/avram.git
-    version: 0.23.0
+    version: 1.0.0-rc1
 
   backtracer:
     git: https://github.com/sija/backtracer.cr.git
@@ -22,11 +22,11 @@ shards:
 
   carbon:
     git: https://github.com/luckyframework/carbon.git
-    version: 0.2.1
+    version: 0.3.0
 
   carbon_sendgrid_adapter:
     git: https://github.com/luckyframework/carbon_sendgrid_adapter.git
-    version: 0.2.1
+    version: 0.3.0
 
   cry:
     git: https://github.com/luckyframework/cry.git
@@ -46,11 +46,19 @@ shards:
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git
-    version: 0.2.2
+    version: 0.3.0
+
+  fnv:
+    git: https://github.com/naqvis/crystal-fnv.git
+    version: 0.1.3
 
   habitat:
     git: https://github.com/luckyframework/habitat.git
     version: 0.4.7
+
+  html5:
+    git: https://github.com/naqvis/crystal-html5.git
+    version: 0.4.0
 
   json_mapping:
     git: https://github.com/crystal-lang/json_mapping.cr.git
@@ -62,7 +70,7 @@ shards:
 
   lucky:
     git: https://github.com/luckyframework/lucky.git
-    version: 0.30.1
+    version: 1.0.0-rc1
 
   lucky_cache:
     git: https://github.com/luckyframework/lucky_cache.git
@@ -74,7 +82,7 @@ shards:
 
   lucky_flow:
     git: https://github.com/luckyframework/lucky_flow.git
-    version: 0.7.3
+    version: 0.9.0
 
   lucky_legacy_routing:
     git: https://github.com/matthewmcgarvey/lucky_legacy_routing.git
@@ -106,7 +114,7 @@ shards:
 
   selenium:
     git: https://github.com/matthewmcgarvey/selenium.cr.git
-    version: 0.9.1
+    version: 0.10.0
 
   shell-table:
     git: https://github.com/luckyframework/shell-table.cr.git
@@ -124,9 +132,17 @@ shards:
     git: https://github.com/matthewmcgarvey/webdrivers.cr.git
     version: 0.4.1
 
+  webless:
+    git: https://github.com/matthewmcgarvey/webless.git
+    version: 0.1.0
+
   wordsmith:
     git: https://github.com/luckyframework/wordsmith.git
-    version: 0.3.0
+    version: 0.4.0
+
+  xpath2:
+    git: https://github.com/naqvis/crystal-xpath2.git
+    version: 0.1.3
 
   yaml_mapping:
     git: https://github.com/crystal-lang/yaml_mapping.cr.git
