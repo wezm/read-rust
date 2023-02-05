@@ -51,9 +51,6 @@ abstract class MainLayout
             a href: "/all/feed.rss" do
               img alt: "Read Rust RSS feed", src: asset("images/rss.svg")
             end
-            a href: "https://twitter.com/read_rust" do
-              img alt: "Read Rust on Twitter", src: asset("images/twitter.svg")
-            end
             a href: "https://botsin.space/@readrust", rel: "me" do
               img alt: "Read Rust on Mastodon", src: asset("images/mastodon.svg")
             end
