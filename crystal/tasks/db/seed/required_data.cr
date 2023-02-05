@@ -1,11 +1,13 @@
-require "../spec/support/boxes/**"
+require "../../../spec/support/boxes/**"
 
-# Add sample data helpful for development, e.g. (fake users, blog posts, etc.)
+# Add seeds here that are *required* for your app to work.
+# For example, you might need at least one admin user or you might need at least
+# one category for your blog posts for the app to work.
 #
-# Use `Db::CreateRequiredSeeds` if you need to create data *required* for your
-# app to work.
-class Db::CreateSampleSeeds < LuckyCli::Task
-  summary "Add sample database records helpful for development"
+# Use `Db::Seed::SampleData` if your only want to add sample data helpful for
+# development.
+class Db::Seed::RequiredData < LuckyCli::Task
+  summary "Add database records required for the app to work"
 
   def call
     # Using a Avram::Box:
@@ -23,6 +25,6 @@ class Db::CreateSampleSeeds < LuckyCli::Task
     # unless UserQuery.new.email("me@example.com").first?
     #  SaveUser.create!(email: "me@example.com", name: "Jane")
     # end
-    puts "Done adding sample data"
+    puts "Done adding required data"
   end
 end

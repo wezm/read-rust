@@ -64,7 +64,7 @@ printf "\n▸ Migrating the database\n"
 lucky db.migrate | indent
 
 printf "\n▸ Seeding the database with required and sample records\n"
-lucky db.create_required_seeds | indent
-lucky db.create_sample_seeds | indent
+lucky db.seed.required_data | indent
+lucky db.seed.sample_data | indent
 
 printf "\n✔ All done. Run 'lucky dev' to start the app\n"

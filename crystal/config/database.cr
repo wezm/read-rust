@@ -1,3 +1,5 @@
+database_name = "read_rust_#{Lucky::Env.name}"
+
 AppDatabase.configure do |settings|
   if Lucky::Env.production?
     settings.credentials = Avram::Credentials.parse(ENV["DATABASE_URL"])

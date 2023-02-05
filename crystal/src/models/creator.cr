@@ -8,7 +8,7 @@ class Creator < BaseModel
     column code_link_url : String
     column description : String
     has_many creator_tags : CreatorTag
-    has_many tags : Tag, through: :creator_tags
+    has_many tags : Tag, through: [:creator_tags, :tag]
   end
 
   def avatar_thumbnail : String
