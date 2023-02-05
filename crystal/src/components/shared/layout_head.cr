@@ -10,16 +10,20 @@ class Shared::LayoutHead < BaseComponent
     head do
       utf8_charset
       title "#{@page_title} – Read Rust"
-      css_link asset("css/app.css"), data_turbolinks_track: "reload"
-      js_link asset("js/app.js"), defer: "true", data_turbolinks_track: "reload" if @app_js
+      css_link asset("css/app.css")
+      js_link asset("js/app.js"), defer: "true"
 
       if @admin
         css_link asset("css/admin.css"), data_turbolinks_track: "reload"
         js_link asset("js/admin.js"), defer: "true", data_turbolinks_track: "reload"
       end
-      meta name: "turbolinks-cache-control", content: "no-cache"
       csrf_meta_tags
       responsive_meta_tag
+
+      # Used only in development when running `lucky watch`.
+      # Will reload browser whenever files change.
+      # See [docs]()
+      live_reload_connect_tag
 
       @categories.each do |category|
         tag "link", href: RssFeed::Show.with(category.slug).url, rel: "alternate", title: "Read Rust - #{category.name}", type: "application/rss+xml"

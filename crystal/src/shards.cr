@@ -3,8 +3,8 @@ require "lucky_env"
 LuckyEnv.load?(".env")
 
 # Require your shards here
-require "avram"
 require "lucky"
+require "avram/lucky"
 require "carbon"
 require "authentic"
 require "jwt"

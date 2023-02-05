@@ -8,28 +8,30 @@ targets:
   read_rust:
     main: src/read_rust.cr
 
-crystal: 1.3.2
+crystal: 1.6.2
 
 dependencies:
   lucky:
     github: luckyframework/lucky
-    version: ~> 0.30.0
-  authentic:
-    github: luckyframework/authentic
-    version: ~> 0.8.2
-
+    version: ~> 1.0.0-rc1
+  avram:
+    github: luckyframework/avram
+    version: ~> 1.0.0-rc1
   carbon:
     github: luckyframework/carbon
-    version: ~> 0.2.1
+    version: ~> 0.3.0
   carbon_sendgrid_adapter:
     github: luckyframework/carbon_sendgrid_adapter
-    version: ~> 0.2.1
+    version: ~> 0.3.0
   lucky_env:
     github: luckyframework/lucky_env
     version: 0.1.4
   lucky_task:
     github: luckyframework/lucky_task
     version: ~> 0.1.1
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.9.0
   jwt:
     github: crystal-community/jwt
     version: ~> 1.6.0
@@ -47,4 +49,4 @@ dependencies:
 development_dependencies:
   lucky_flow:
     github: luckyframework/lucky_flow
-    version: ~> 0.7.3
+    version: ~> 0.9.0
