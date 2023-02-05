@@ -1,7 +1,7 @@
 class Errors::Show < Lucky::ErrorAction
   DEFAULT_MESSAGE = "Something went wrong."
   default_format :html
-  dont_report [Lucky::RouteNotFoundError]
+  dont_report [Lucky::RouteNotFoundError, Avram::RecordNotFoundError]
 
   def render(error : Lucky::RouteNotFoundError)
     if html?
@@ -13,7 +13,7 @@ class Errors::Show < Lucky::ErrorAction
 
   # When the request is JSON and an InvalidOperationError is raised, show a
   # helpful error with the param that is invalid, and what was wrong with it.
-  def render(error : Avram::InvalidOperationError)
+  def render(error : Avram::InvalidOperationError | Avram::RecordNotFoundError)
     if html?
       error_html DEFAULT_MESSAGE, status: 500
     else

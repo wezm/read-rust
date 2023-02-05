@@ -8,24 +8,24 @@ targets:
   read_rust:
     main: src/read_rust.cr
 
-crystal: 0.34.0
+crystal: 0.35.0
 
 dependencies:
   lucky:
     github: luckyframework/lucky
-    version: ~> 0.22.0
+    version: ~> 0.23.0
   authentic:
     github: luckyframework/authentic
-    version: ~> 0.6.0
+    version: ~> 0.6.1
   carbon:
     github: luckyframework/carbon
-    version: ~> 0.1.1
+    version: ~> 0.1.2
   dotenv:
     github: gdotdesign/cr-dotenv
     version: 0.3.0
   lucky_flow:
     github: luckyframework/lucky_flow
-    version: ~> 0.6.3
+    version: ~> 0.7.0
   jwt:
     github: crystal-community/jwt
     version: ~> 1.4.2
