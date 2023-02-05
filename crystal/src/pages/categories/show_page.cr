@@ -20,7 +20,7 @@ class Categories::ShowPage < MainLayout
     maybe_include_post_count(@category.year, @posts)
 
     @posts.each do |post|
-      mount Posts::Summary.new(post, @current_user, show_categories: false)
+      mount Posts::Summary, post, @current_user, show_categories: false
     end
   end
 

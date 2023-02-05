@@ -12,7 +12,7 @@ class Shared::Header < BaseComponent
           text "Read Rust"
         end
 
-        mount Search::Form.new(@query)
+        mount Search::Form, @query
       end
 
       nav do

@@ -4,6 +4,6 @@ class Posts::ShowPage < MainLayout
   quick_def page_description, @post.summary
 
   def content
-    mount Posts::Summary.new(@post, @current_user, show_categories: true)
+    mount Posts::Summary, @post, @current_user, show_categories: true
   end
 end

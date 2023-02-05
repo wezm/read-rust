@@ -6,7 +6,7 @@ class Posts::EditPage < MainLayout
 
   def content
     form_for Posts::Update.with(@post.id), id: "edit-post-form", class: "form-stacked" do
-      mount Posts::Form.new(@form, @post)
+      mount Posts::Form, @form, @post
     end
   end
 end

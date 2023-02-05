@@ -8,7 +8,7 @@ private class TestMountPage
   needs summary : String
 
   def render
-    mount Posts::Summary.new(post: post, current_user: nil, show_categories: true, highlight: nil)
+    mount Posts::Summary, post: post, current_user: nil, show_categories: true, highlight: nil
     view
   end
 
