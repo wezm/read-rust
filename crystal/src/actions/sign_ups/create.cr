@@ -1,9 +1,7 @@
-require "lucky_legacy_routing/extensions"
-
 class SignUps::Create < BrowserAction
   include Auth::RedirectSignedInUsers
 
-  route do
+  post "/sign_ups" do
     if ReadRust::Config.allow_sign_up?
       SignUpUser.create(params) do |operation, user|
         if user

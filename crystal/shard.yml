@@ -43,8 +43,6 @@ dependencies:
     github: crystal-lang/json_mapping.cr
   yaml_mapping:
     github: crystal-lang/yaml_mapping.cr
-  lucky_legacy_routing:
-    github: matthewmcgarvey/lucky_legacy_routing
 
 development_dependencies:
   lucky_flow:

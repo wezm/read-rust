@@ -1,9 +1,7 @@
-require "lucky_legacy_routing/extensions"
-
 class SignIns::Create < BrowserAction
   include Auth::RedirectSignedInUsers
 
-  route do
+  post "/sign_ins" do
     SignInUser.run(params) do |operation, authenticated_user|
       if authenticated_user
         cache_friendly_sign_in(authenticated_user)
