@@ -1,3 +1,3 @@
 Lucky::ErrorHandler.configure do |settings|
-  settings.show_debug_output = !Lucky::Env.production?
+  settings.show_debug_output = !LuckyEnv.production?
 end

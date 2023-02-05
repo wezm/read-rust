@@ -26,7 +26,7 @@ abstract class MainLayout
     html_doctype
 
     html lang: "en" do
-      mount Shared::LayoutHead, page_title: page_title, page_description: page_description, context: @context, categories: CategoryQuery.new, app_js: app_js?, admin: admin?, extra_css: extra_css
+      mount Shared::LayoutHead, page_title: page_title, page_description: page_description, categories: CategoryQuery.new, app_js: app_js?, admin: admin?, extra_css: extra_css
 
       body do
         mount Shared::Header, @current_user, @query
@@ -65,7 +65,7 @@ abstract class MainLayout
             end
           end
         end
-        if Lucky::Env.production?
+        if LuckyEnv.production?
           script src: "//gc.zgo.at/count.js", attrs: [:async], data_goatcounter: "https://readrust.goatcounter.com/count"
         end
       end

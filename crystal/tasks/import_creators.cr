@@ -1,3 +1,5 @@
+require "yaml_mapping"
+
 # name: Kat Marchán
 # avatar: zcat.jpg
 # support:
@@ -37,12 +39,12 @@ end
 class ImportCreators < LuckyTask::Task
   summary "Imports creators from Read Rust 1.0"
 
-  def call(io : IO = STDOUT)
+  def call
     if ARGV.size < 1
-      io.puts "Usage: lucky import_creators creators.yml"
-      io.puts "E.g. lucky import_creators ~/Projects/read-rust/content/_data/creators.yaml"
+      output.puts "Usage: lucky import_creators creators.yml"
+      output.puts "E.g. lucky import_creators ~/Projects/read-rust/content/_data/creators.yaml"
     else
-      import(io)
+      import(output)
     end
   end
 

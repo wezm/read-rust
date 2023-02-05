@@ -7,4 +7,8 @@ abstract class ApiAction < Lucky::Action
   # By default all actions require sign in.
   # Add 'include Api::Auth::SkipRequireAuthToken' to your actions to allow all requests.
   include Api::Auth::RequireAuthToken
+
+  # By default all actions are required to use underscores.
+  # Add 'include Lucky::SkipRouteStyleCheck' to your actions if you wish to ignore this check for specific routes.
+  include Lucky::EnforceUnderscoredRoute
 end
