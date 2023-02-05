@@ -9,6 +9,7 @@ pub mod mastodon;
 pub mod models;
 pub mod schema;
 pub mod social_network;
+#[cfg(twitter)]
 pub mod twitter;
 
 use std::env::VarError;
