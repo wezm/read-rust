@@ -4,8 +4,6 @@ class Shared::LayoutHead < BaseComponent
   needs app_js : Bool
   needs admin : Bool
   needs extra_css : String?
-  # This is used by the 'csrf_meta_tags' method
-  needs context : HTTP::Server::Context
   needs categories : CategoryQuery
 
   def render

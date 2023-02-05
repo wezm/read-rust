@@ -27,10 +27,10 @@ end
 class ImportPosts < LuckyTask::Task
   summary "Imports posts from Read Rust 1.0"
 
-  def call(io : IO = STDOUT)
+  def call
     if ARGV.size < 3
-      io.puts "Usage: lucky import_posts posts.json tweeted.json tooted.json"
-      io.puts "E.g. lucky import_posts ~/Projects/read-rust/content/_data/rust/posts.json ~/Projects/read-rust/content/_data/{tweeted,tooted}.json"
+      output.puts "Usage: lucky import_posts posts.json tweeted.json tooted.json"
+      output.puts "E.g. lucky import_posts ~/Projects/read-rust/content/_data/rust/posts.json ~/Projects/read-rust/content/_data/{tweeted,tooted}.json"
     else
       import
     end

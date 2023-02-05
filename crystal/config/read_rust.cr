@@ -25,12 +25,12 @@ private def revision_from_env : String?
 end
 
 private def warn_missing_revision
-  puts "READRUST_REVISION is not set".colorize.yellow if Lucky::Env.production?
+  puts "READRUST_REVISION is not set".colorize.yellow if LuckyEnv.production?
   nil
 end
 
 private def allow_sign_up_from_env : Bool
-  if Lucky::Env.production?
+  if LuckyEnv.production?
     ["1", "true"].includes?(ENV["READRUST_ALLOW_SIGNUP"]?)
   else
     ["1", "true"].includes?(ENV["READRUST_ALLOW_SIGNUP"]? || "1")

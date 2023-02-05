@@ -1,5 +1,6 @@
 class RustBlogs::Index < BrowserAction
   include Auth::AllowGuests
+  include Lucky::SkipRouteStyleCheck
 
   before cache_publicly(1.hour)
 
