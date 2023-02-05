@@ -35,7 +35,7 @@ printf "\n▸ Compiling assets\n"
 yarn dev | indent
 
 printf "\n▸ Installing shards\n"
-shards install --ignore-crystal-version | indent
+shards install | indent
 
 printf "\n▸ Checking that a process runner is installed\n"
 # Only if this isn't CI

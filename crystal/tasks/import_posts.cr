@@ -24,7 +24,7 @@ class Feed
   JSON.mapping(items: Array(Item))
 end
 
-class ImportPosts < LuckyCli::Task
+class ImportPosts < LuckyTask::Task
   summary "Imports posts from Read Rust 1.0"
 
   def call(io : IO = STDOUT)

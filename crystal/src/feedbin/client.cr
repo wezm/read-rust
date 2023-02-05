@@ -44,7 +44,7 @@ module Feedbin
       # TODO Reuse client?
       client = HTTP::Client.new url.host.not_nil!, tls: true
       client.basic_auth(settings.username, settings.password)
-      resp = client.get url.full_path do |resp|
+      resp = client.get url.request_target do |resp|
         # TODO: handle redirects
         if resp.success?
           Entry.from_json(resp.body_io)
