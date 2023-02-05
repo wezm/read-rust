@@ -51,7 +51,7 @@ class About::ShowPage < MainLayout
     [rust-lang]: https://www.rust-lang.org/
     [wezm]: https://www.wezm.net/v2/about/
     [@wezm]: https://twitter.com/wezm
-    [@wezm@mastodon]: https://mastodon.social/@wezm
+    [@wezm@mastodon]: https://mastodon.decentralised.social/@wezm
     [sponsor]: https://github.com/sponsors/wezm
     [source]: https://github.com/wezm/read-rust
     [issues]: https://github.com/wezm/read-rust/issues
@@ -72,7 +72,8 @@ class About::ShowPage < MainLayout
     added post:
 
     * [Mastodon]
-    * [Twitter]
+    * <del>[Twitter]</del> new posts are no longer posted to Twitter because it
+      started charging for API access.
     * [Facebook]
 
     ## FAQ
@@ -84,15 +85,14 @@ class About::ShowPage < MainLayout
     I&nbsp;use and recommend [Feedbin] + [Reeder]:
 
     * [Feedbin] (Web, Third party clients)
-    * [Feed Wrangler](https://feedwrangler.net/) (Web & iOS)
-    * [FeedReader](https://jangernert.github.io/FeedReader/) (Linux)
+    * [NewsFlash](https://apps.gnome.org/app/com.gitlab.newsflash/) (Linux, BSD)
     * [Feedly](https://feedly.com/) (Web, Third party clients)
     * [NewsBlur](https://www.newsblur.com/) (Web, iOS & Android)
     * [Reeder] (iOS & macOS)
     * [selfoss](https://selfoss.aditu.de/) (Self-hosted)
     * [Thunderbird](https://support.mozilla.org/en-US/kb/how-subscribe-news-feeds-and-blogs) (BSD, Linux, Mac, Windows, etc.)
 
-    Alternatively you may follow Read Rust on [Twitter][@read_rust], [Mastodon] or [Facebook].
+    Alternatively you may follow Read Rust on <del>[Twitter][@read_rust]</del>, [Mastodon] or [Facebook].
 
     ### What is JSON Feed?
 
