@@ -34,7 +34,7 @@ module Import
   end
 end
 
-class ImportCreators < LuckyCli::Task
+class ImportCreators < LuckyTask::Task
   summary "Imports creators from Read Rust 1.0"
 
   def call(io : IO = STDOUT)

@@ -8,35 +8,35 @@ targets:
   read_rust:
     main: src/read_rust.cr
 
-crystal: 0.36.1
+crystal: 1.0.0
 
 dependencies:
   lucky:
     github: luckyframework/lucky
-    version: ~> 0.26.0
+    version: ~> 0.27.2
   authentic:
     github: luckyframework/authentic
-    version: ~> 0.7.2
+    version: ~> 0.7.3
   carbon:
     github: luckyframework/carbon
-    version: ~> 0.1.2
+    version: ~> 0.1.4
   dotenv:
     github: gdotdesign/cr-dotenv
-    version: 0.3.0
-  lucky_flow:
-    github: luckyframework/lucky_flow
-    version: ~> 0.7.2
+    version: 1.0.0
+  lucky_task:
+    github: luckyframework/lucky_task
+    version: ~> 0.1.0
   jwt:
     github: crystal-community/jwt
-    version: ~> 1.5.0
+    version: ~> 1.5.1
   markd:
     github: icyleaf/markd
-    version: ~> 0.2.0
+    version: ~> 0.5.0
   # compatibility shard until code is updated to use JSON::Serializable
   json_mapping:
     github: crystal-lang/json_mapping.cr
 
-# development_dependencies:
-#   webmock:
-#     github: manastech/webmock.cr
-#     branch: master
+development_dependencies:
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.7.3

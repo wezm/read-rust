@@ -2,19 +2,15 @@ version: 2.0
 shards:
   authentic:
     git: https://github.com/luckyframework/authentic.git
-    version: 0.7.2
+    version: 0.7.3
 
   avram:
     git: https://github.com/luckyframework/avram.git
-    version: 0.19.1
+    version: 0.20.0
 
   bindata:
     git: https://github.com/spider-gazelle/bindata.git
-    version: 1.8.2
-
-  blank:
-    git: https://github.com/kostya/blank.git
-    version: 0.1.0
+    version: 1.11.1
 
   carbon:
     git: https://github.com/luckyframework/carbon.git
@@ -34,11 +30,11 @@ shards:
 
   dexter:
     git: https://github.com/luckyframework/dexter.git
-    version: 0.3.3
+    version: 0.3.4
 
   dotenv:
     git: https://github.com/gdotdesign/cr-dotenv.git
-    version: 0.3.0
+    version: 1.0.0
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git
@@ -58,11 +54,7 @@ shards:
 
   lucky:
     git: https://github.com/luckyframework/lucky.git
-    version: 0.26.0
-
-  lucky_cli:
-    git: https://github.com/luckyframework/lucky_cli.git
-    version: 0.26.0
+    version: 0.27.2
 
   lucky_flow:
     git: https://github.com/luckyframework/lucky_flow.git
@@ -72,9 +64,13 @@ shards:
     git: https://github.com/luckyframework/lucky_router.git
     version: 0.4.2
 
+  lucky_task:
+    git: https://github.com/luckyframework/lucky_task.git
+    version: 0.1.1
+
   markd:
     git: https://github.com/icyleaf/markd.git
-    version: 0.2.1
+    version: 0.5.0
 
   openssl_ext:
     git: https://github.com/spider-gazelle/openssl_ext.git
@@ -86,7 +82,7 @@ shards:
 
   pulsar:
     git: https://github.com/luckyframework/pulsar.git
-    version: 0.2.2
+    version: 0.2.3
 
   selenium:
     git: https://github.com/matthewmcgarvey/selenium.cr.git
@@ -94,7 +90,7 @@ shards:
 
   shell-table:
     git: https://github.com/luckyframework/shell-table.cr.git
-    version: 0.9.2+git.commit.078a04ea58ead5203bb435a3b5fff448ddabaeea
+    version: 0.9.3+git.commit.fefbc8b19d18630660b2653de755217597808b1b
 
   teeplate:
     git: https://github.com/luckyframework/teeplate.git
