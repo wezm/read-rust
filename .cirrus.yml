@@ -1,0 +1,77 @@
+environment:
+  PATH: "$HOME/.cargo/bin:$PATH"
+  TEST_DATABASE_URL: "postgresql://readrust:password@localhost/readrust"
+  MASTODON_BASE: "https://botsin.space"
+  MASTODON_CLIENT_ID:
+  MASTODON_CLIENT_SECRET:
+  MASTODON_REDIRECT: "urn:ietf:wg:oauth:2.0:oob"
+  MASTODON_TOKEN:
+  TWITTER_CONSUMER_KEY:
+  TWITTER_CONSUMER_SECRET:
+  TWITTER_ACCESS_KEY:
+  TWITTER_ACCESS_SECRET:
+  FEEDBIN_USERNAME:
+  FEEDBIN_PASSWORD:
+
+task:
+  name: Build Rust (Alpine Linux)
+  container:
+    image: alpine:3.17
+    cpu: 8
+  cargo_cache:
+    folder: $HOME/.cargo/registry
+    fingerprint_script: cat rust/Cargo.lock
+  install_script:
+    - apk update && apk add gcc postgresql-dev cargo
+  test_script:
+    - cargo test --manifest-path rust/Cargo.toml
+  before_cache_script: rm -rf $HOME/.cargo/registry/index
+
+task:
+  name: Build Crystal (Alpine Linux)
+  container:
+    image: alpine:3.17
+    cpu: 7
+    additional_containers:
+      - name: postgresql
+        image: postgres:12
+        port: 5432
+        cpu: 1
+        # memory: 512Mi
+        env:
+          POSTGRES_USER: readrust
+          POSTGRES_PASSWORD: password
+  cargo_cache:
+    folder: $HOME/.cargo/registry
+    fingerprint_script: cat rust/Cargo.lock
+  install_deps_script:
+    - apk add --update curl git gcc musl-dev postgresql-dev postgresql12-client crystal shards openssl-dev chromium-chromedriver yarn cargo libxml2-dev zlib-dev yaml-dev
+
+  install_diesel_script:
+    # Install Diesel CLI
+    # - curl -OL https://releases.wezm.net/diesel_cli/1.4.0/diesel
+    # - chmod 755 diesel && mv diesel /usr/local/bin
+    - cargo install diesel_cli --no-default-features --features postgres --version '^1.0'
+
+  install_libstriptags_script:
+    # Install libstriptags
+    - git clone https://github.com/wezm/libstriptags.git
+    - cargo build --release --locked --manifest-path libstriptags/Cargo.toml
+    - install libstriptags/target/release/libstriptags.so /usr/local/lib/libstriptags.so
+
+  migrate_script:
+    # Run migrations
+    - env DATABASE_URL="${TEST_DATABASE_URL}" diesel database setup --locked-schema --migration-dir rust/migrations
+
+  compile_assets_script:
+    # Setup assets
+    - cd crystal
+    - yarn install
+    - yarn prod
+  test_script:
+    - touch .env
+    - cd crystal
+    - shards install
+    - crystal spec
+    #- yarn run tsc
+  before_cache_script: rm -rf $HOME/.cargo/registry/index
