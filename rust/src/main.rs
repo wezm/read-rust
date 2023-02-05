@@ -11,9 +11,12 @@ use env_logger::Env;
 use getopts::Options;
 use log::{debug, error, info};
 
+#[cfg(not(twitter))]
+use null_twitter::Twitter;
 use read_rust::categories::Categories;
 use read_rust::mastodon::Mastodon;
 use read_rust::social_network::{AccessMode, SocialNetwork};
+#[cfg(twitter)]
 use read_rust::twitter::Twitter;
 use read_rust::{db, env_var};
 use std::sync::atomic::{AtomicBool, Ordering};
@@ -54,7 +57,7 @@ fn main() {
     opts.optflag("h", "help", "print this help menu");
     let matches = match opts.parse(&args[1..]) {
         Ok(m) => m,
-        Err(f) => panic!(f.to_string()),
+        Err(f) => panic!("{}", f),
     };
     if matches.opt_present("h") {
         print_usage(&program, &opts);
@@ -184,5 +187,45 @@ fn register(service: Service) -> Result<(), Box<dyn Error>> {
     match service {
         Service::Twitter => Twitter::register(),
         Service::Mastodon => Mastodon::register(),
+    }
+}
+
+mod null_twitter {
+    use read_rust::social_network::SocialNetwork;
+
+    pub struct Twitter;
+
+    impl SocialNetwork for Twitter {
+        fn from_env(
+            _access_mode: read_rust::social_network::AccessMode,
+        ) -> Result<Self, Box<dyn std::error::Error>> {
+            Err(String::from("Twitter support is not enabled").into())
+        }
+
+        fn register() -> Result<(), Box<dyn std::error::Error>> {
+            unimplemented!()
+        }
+
+        fn unpublished_posts(
+            _connection: &diesel::PgConnection,
+        ) -> diesel::QueryResult<Vec<read_rust::models::Post>> {
+            unimplemented!()
+        }
+
+        fn publish_post(
+            &self,
+            _post: &read_rust::models::Post,
+            _categories: &[std::rc::Rc<read_rust::categories::Category>],
+        ) -> Result<(), Box<dyn std::error::Error>> {
+            unimplemented!()
+        }
+
+        fn mark_post_published(
+            &self,
+            _connection: &diesel::PgConnection,
+            _post: read_rust::models::Post,
+        ) -> diesel::QueryResult<()> {
+            unimplemented!()
+        }
     }
 }
