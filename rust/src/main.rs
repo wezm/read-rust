@@ -199,17 +199,17 @@ mod null_twitter {
         fn from_env(
             _access_mode: read_rust::social_network::AccessMode,
         ) -> Result<Self, Box<dyn std::error::Error>> {
-            Err(String::from("Twitter support is not enabled").into())
+            Ok(Twitter)
         }
 
         fn register() -> Result<(), Box<dyn std::error::Error>> {
-            unimplemented!()
+            Err(String::from("Twitter support is not enabled").into())
         }
 
         fn unpublished_posts(
             _connection: &diesel::PgConnection,
         ) -> diesel::QueryResult<Vec<read_rust::models::Post>> {
-            unimplemented!()
+            unimplemented!("Twitter support is not enabled")
         }
 
         fn publish_post(
@@ -217,7 +217,7 @@ mod null_twitter {
             _post: &read_rust::models::Post,
             _categories: &[std::rc::Rc<read_rust::categories::Category>],
         ) -> Result<(), Box<dyn std::error::Error>> {
-            unimplemented!()
+            Err(String::from("Twitter support is not enabled").into())
         }
 
         fn mark_post_published(
@@ -225,7 +225,7 @@ mod null_twitter {
             _connection: &diesel::PgConnection,
             _post: read_rust::models::Post,
         ) -> diesel::QueryResult<()> {
-            unimplemented!()
+            unimplemented!("Twitter support is not enabled")
         }
     }
 }
