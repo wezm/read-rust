@@ -1,3 +1,5 @@
+require "json_mapping"
+
 class Author
   JSON.mapping(
     name: String,

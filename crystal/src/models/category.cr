@@ -1,3 +1,5 @@
+require "json_mapping"
+
 class Category
   JSON.mapping(
     id: Int16,

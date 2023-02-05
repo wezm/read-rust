@@ -1,5 +1,5 @@
 class Posts::Update < BrowserAction
-  route do
+  put "/posts/:post_id" do
     post = PostQuery.new.preload_post_categories.find(post_id)
     existing_category_ids = post.post_categories.map(&.category_id).to_set
     response = nil

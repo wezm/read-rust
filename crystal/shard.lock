@@ -2,11 +2,11 @@ version: 2.0
 shards:
   authentic:
     git: https://github.com/luckyframework/authentic.git
-    version: 0.7.1
+    version: 0.7.2
 
   avram:
     git: https://github.com/luckyframework/avram.git
-    version: 0.18.2
+    version: 0.19.1
 
   bindata:
     git: https://github.com/spider-gazelle/bindata.git
@@ -18,7 +18,7 @@ shards:
 
   carbon:
     git: https://github.com/luckyframework/carbon.git
-    version: 0.1.2
+    version: 0.1.4
 
   cry:
     git: https://github.com/luckyframework/cry.git
@@ -26,7 +26,7 @@ shards:
 
   crystar:
     git: https://github.com/naqvis/crystar.git
-    version: 0.1.8
+    version: 0.2.0+git.commit.56db8bb9dfbd5ed6d7908353405a5fae632a6561
 
   db:
     git: https://github.com/crystal-lang/crystal-db.git
@@ -34,7 +34,7 @@ shards:
 
   dexter:
     git: https://github.com/luckyframework/dexter.git
-    version: 0.3.1
+    version: 0.3.3
 
   dotenv:
     git: https://github.com/gdotdesign/cr-dotenv.git
@@ -44,53 +44,53 @@ shards:
     git: https://github.com/crystal-loot/exception_page.git
     version: 0.1.5
 
-  future:
-    git: https://github.com/crystal-community/future.cr.git
-    version: 0.1.0
-
   habitat:
     git: https://github.com/luckyframework/habitat.git
-    version: 0.4.4
+    version: 0.4.7
+
+  json_mapping:
+    git: https://github.com/crystal-lang/json_mapping.cr.git
+    version: 0.1.1
 
   jwt:
     git: https://github.com/crystal-community/jwt.git
-    version: 1.4.2
+    version: 1.5.1
 
   lucky:
     git: https://github.com/luckyframework/lucky.git
-    version: 0.25.0
+    version: 0.26.0
 
   lucky_cli:
     git: https://github.com/luckyframework/lucky_cli.git
-    version: 0.25.0
+    version: 0.26.0
 
   lucky_flow:
     git: https://github.com/luckyframework/lucky_flow.git
-    version: 0.7.1
+    version: 0.7.3
 
   lucky_router:
     git: https://github.com/luckyframework/lucky_router.git
-    version: 0.4.0
+    version: 0.4.2
 
   markd:
     git: https://github.com/icyleaf/markd.git
     version: 0.2.1
 
   openssl_ext:
-    git: https://github.com/stakach/openssl_ext.git
-    version: 1.2.2
+    git: https://github.com/spider-gazelle/openssl_ext.git
+    version: 2.2.1
 
   pg:
     git: https://github.com/will/crystal-pg.git
-    version: 0.22.1
+    version: 0.23.2
 
   pulsar:
     git: https://github.com/luckyframework/pulsar.git
-    version: 0.2.1
+    version: 0.2.2
 
   selenium:
     git: https://github.com/matthewmcgarvey/selenium.cr.git
-    version: 0.8.0
+    version: 0.9.1
 
   shell-table:
     git: https://github.com/luckyframework/shell-table.cr.git
@@ -98,11 +98,11 @@ shards:
 
   teeplate:
     git: https://github.com/luckyframework/teeplate.git
-    version: 0.8.2
+    version: 0.8.5
 
   webdrivers:
     git: https://github.com/matthewmcgarvey/webdrivers.cr.git
-    version: 0.3.1
+    version: 0.4.1
 
   wordsmith:
     git: https://github.com/luckyframework/wordsmith.git

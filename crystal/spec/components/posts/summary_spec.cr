@@ -13,7 +13,7 @@ private class TestMountPage
   end
 
   private def post
-    post = PostBox.create &.summary(@summary)
+    post = PostFactory.create &.summary(@summary)
     PostQuery.new.preload_post_categories.preload_tags.find(post.id)
   end
 end

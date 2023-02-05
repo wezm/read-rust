@@ -4,6 +4,8 @@
 #
 # Learn to create your own tasks:
 # https://luckyframework.org/guides/command-line-tasks/custom-tasks
+
+# See `Lucky::Env#task?` in `config/env.cr`
 ENV["LUCKY_TASK"] = "true"
 
 # Load Lucky and the app (actions, models, etc.)

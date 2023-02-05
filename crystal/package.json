@@ -6,19 +6,19 @@
   },
   "scripts": {
     "heroku-postbuild": "yarn prod",
-    "dev": "yarn run webpack --progress --hide-modules --color --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "yarn run webpack --watch --hide-modules --color --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "NODE_ENV=production yarn run webpack --progress --hide-modules --color --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "mix",
+    "watch": "mix watch",
+    "prod": "mix --production"
   },
   "devDependencies": {
     "@babel/compat-data": "^7.9.0",
     "browser-sync": "^2.18.13",
-    "compression-webpack-plugin": "^6.0.0",
-    "laravel-mix": "^5.0.5",
+    "compression-webpack-plugin": "^7.0.0",
+    "laravel-mix": "^6.0.0",
+    "postcss": "^8.1.0",
     "resolve-url-loader": "^3.1.1",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.2",
-    "typescript": "^3.6.4",
-    "vue-template-compiler": "^2.6.12"
+    "typescript": "^3.6.4"
   }
 }

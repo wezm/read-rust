@@ -1,4 +1,4 @@
-class CreatorBox < Avram::Box
+class CreatorFactory < Avram::Factory
   def initialize
     name "Test Creator"
     avatar "test.jpg"

@@ -1,4 +1,4 @@
-require "../../../spec/support/boxes/**"
+require "../../../spec/support/factories/**"
 
 # Add sample data helpful for development, e.g. (fake users, blog posts, etc.)
 #
@@ -8,10 +8,10 @@ class Db::Seed::SampleData < LuckyCli::Task
   summary "Add sample database records helpful for development"
 
   def call
-    # Using a Avram::Box:
+    # Using a Avram::Factory:
     #
     # Use the defaults, but override just the email
-    # UserBox.create &.email("me@example.com")
+    # UserFactory.create &.email("me@example.com")
 
     # Using a SaveOperation:
     #
