@@ -21,6 +21,10 @@ Lucky::CookieJar.configure do |settings|
     # You can set other defaults for cookies here. For example:
     #
     #    cookie.expires(1.year.from_now).domain("mydomain.com")
-    cookie.expires(1.week.from_now).domain("readrust.net")
+    if LuckyEnv.production?
+      cookie.expires(1.week.from_now).domain("readrust.net")
+    else
+      cookie
+    end
   }
 end
