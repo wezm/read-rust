@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 chrono = { version = "0", features = ['serde'] }
-diesel = { version = "1.0", features = ["postgres", "chrono", "uuidv07"] }
+diesel = { version = "=1.4.3", features = ["postgres", "chrono", "uuidv07"] }
 dotenv = "0"
 egg-mode = { version = "0", default-features = false, features = ["hyper-rustls"], optional = true }
 env_logger = "0"
