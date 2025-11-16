@@ -1,5 +1,11 @@
 # Read Rust
 
+> [!NOTE]  
+> **16 Nov 2025:** Read Rust has been idle for several years now and it was
+> becoming more challenging to build the old code on newer systems. I have
+> taken a static snapshot of the site as it was today, which remains
+> accessible at [readrust.net](https://readrust.net/).
+
 Source code to [readrust.net][self]. A news aggregator for Rust news.
 
 [![Build Status](https://travis-ci.org/wezm/read-rust.svg?branch=master)](https://travis-ci.org/wezm/read-rust)
